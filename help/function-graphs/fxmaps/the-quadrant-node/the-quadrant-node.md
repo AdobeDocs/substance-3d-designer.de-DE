@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/the-quadrant-node.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/fxmaps/the-quadrant-node.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Quadrant in FXMaps, um Texturen in vier Abschnitte zu unterteilen, um gekachelte Muster und Variationen zu erstellen.
 helpx_creative_field: ""

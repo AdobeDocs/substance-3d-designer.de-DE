@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/porting-previous-plugins.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/scripting/porting-previous-plugins.html"
 breadcrumb-title: ''
 description: Hier erfahren Sie, wie Sie Plug-ins aus früheren Versionen von Substance Designer an die aktuelle Python-API portieren.
 helpx_creative_field: ""
@@ -33,13 +33,13 @@ Weitere Informationen finden Sie im Abschnitt [Grundlagen zu Plug-ins](../../scr
 ## Erstellen von Benutzeroberflächenelementen
 
 Plug-Ins *benötigen* nicht mehr, um eine &#39;*sdplugins.PluginDesc*&#39; zu definieren.\
-Stattdessen können Plug-Ins das neue <b> [UI Manager](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/scripting-api-next-172825023.html)-Objekt </b> und <b>Qt für Python</b> verwenden, um alle erforderlichen Benutzeroberflächenelemente zu erstellen.
+Stattdessen können Plug-Ins das neue <b> [UI Manager](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/scripting-api-next-172825023.html)-Objekt </b> und <b>Qt für Python</b> verwenden, um alle erforderlichen Benutzeroberflächenelemente zu erstellen.
 
 Kleine Codebeispiele finden Sie im Abschnitt [Erstellen von Benutzeroberflächenelementen](../../scripting/creating-user-interface/creating-user-interface-elements.md).
 
 ## Ersetzen von Benutzern des Standortkontexts
 
 Die *SDLocationContext*-Klasse wurde *aus der Python-API entfernt*.\
-Plug-Ins können das <b>[UI-Manager](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/scripting-api-next-172825023.html)-Objekt </b> verwenden, um auf das derzeit aktive Diagramm und die Auswahl zuzugreifen.
+Plug-Ins können das <b>[UI-Manager](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/scripting-api-next-172825023.html)-Objekt </b> verwenden, um auf das derzeit aktive Diagramm und die Auswahl zuzugreifen.
 
 Einige Beispiele finden Sie im Abschnitt [Zugriff auf Diagramme und Auswahlen](../../scripting/accessing-graphs-and-sel/accessing-graphs-and-selections.md).

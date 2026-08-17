@@ -54,7 +54,7 @@ Der Stammknoten enthält eine Miniaturansicht mit einer Vorschau seiner aktuelle
 
 ![Stammknoten des MDL-Diagramms](../../assets/mdl-root-hl.png "Stammknoten des MDL-Diagramms")
 
-*Stammknoten in einem MDL-Diagramm und seine Eigenschaften werden im [Eigenschaften](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* *Bedienfeld* angezeigt.
+*Stammknoten in einem MDL-Diagramm und seine Eigenschaften werden im [Eigenschaften](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* *Bedienfeld* angezeigt.
 
 ## Verbindungen und Typen
 

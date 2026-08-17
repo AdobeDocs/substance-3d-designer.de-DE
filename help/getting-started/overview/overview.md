@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ''
 description: Verschaffe dir einen Überblick über Substance 3D Designer, und erfahre, wie das Programm verfahrensorientierte Materialien und Strukturen erstellt.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Überblick
 
-[Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) ist eine Anwendung zum Erstellen von 2D-Texturen, Materialien und Filtern in einer knotenbasierten Oberfläche mit Schwerpunkt auf prozeduraler Generierung, Parametrisierung und nicht-destruktiven Arbeitsabläufen. Es ist die Anwendung mit der längsten Laufzeit im Substance 3D-Ökosystem. Die damit erstellten Ressourcen sind so vielseitig und dynamisch wie möglich.
+[Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) ist eine Anwendung zum Erstellen von 2D-Texturen, Materialien und Filtern in einer knotenbasierten Oberfläche mit Schwerpunkt auf prozeduraler Generierung, Parametrisierung und nicht-destruktiven Arbeitsabläufen. Es ist die Anwendung mit der längsten Laufzeit im Substance 3D-Ökosystem. Die damit erstellten Ressourcen sind so vielseitig und dynamisch wie möglich.
 
 Im Folgenden wird der Vergleich mit anderen Anwendungen erläutert:
 
@@ -155,7 +155,7 @@ Die folgenden Ressourcentypen sind vorhanden:
 
 * [Bitmaps](../../resources/bitmap-resource/bitmap-resource.md)
 * [Vektorgrafiken (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [3D-Gitter und Szene](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
+* [3D-Gitter und Szene](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
 * [Schriftart](../../resources/font-resource/font-resource.md)
 * [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators.html"
 breadcrumb-title: ''
 description: Greifen Sie in Substance 3D Designer auf gitterbasierte Generatorknoten zu, um Texturen basierend auf 3D-Gittergeometrie und -Eigenschaften zu erstellen.
 helpx_creative_field: ""
@@ -30,5 +30,5 @@ Es gibt drei Hauptkategorien:
   Schwarz-Weiß-Maskengeneratoren, die auf einem oder mehreren durch Baking erzeugte Map basieren.
 * [Verwitterung](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/weathering.md)\
   Materialbasierte Verwitterungseffekte auf Basis von durch Baking erzeugte Map.
-* [Dienstprogramme](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)\
+* [Dienstprogramme](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)\
   Zusätzliche Utilitys und Tools für Backarbeiten.

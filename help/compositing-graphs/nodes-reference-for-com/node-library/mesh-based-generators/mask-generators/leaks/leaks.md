@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leaks.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leaks.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Lecks", um Leckmuster auf der Grundlage von Gittergeometrie zu generieren, um Wasserflecken und Flüssigkeitseffekte zu erzeugen.
 helpx_creative_field: ""

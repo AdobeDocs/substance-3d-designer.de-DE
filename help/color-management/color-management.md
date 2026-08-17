@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/color-management.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über das Farbmanagement in Substance 3D Designer, einschließlich Farbräumen, Profilen und Volltonfarben-Workflows.
 helpx_creative_field: ""
@@ -161,7 +161,7 @@ Designer konvertiert *Bilder in die angegebenen Farbräume, bevor die Bilddateie
 
 ![Dialogfeld für Exportausgaben](../assets/2019-3-0-clr-mgt-export-outputs.png "Dialogfeld für Exportausgaben"){width="512px"}
 
-Sie können auch einen Farbraum (OCIO) zuweisen oder ein ICC-Profil (Adobe ACE) an Bilder *Gespeichert* aus der [2D-Ansicht](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html) anhängen.
+Sie können auch einen Farbraum (OCIO) zuweisen oder ein ICC-Profil (Adobe ACE) an Bilder *Gespeichert* aus der [2D-Ansicht](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html) anhängen.
 
 ![2D-Exportoptionen anzeigen](../assets/2019-3-0-clr-mgt-save-image.png "2D-Exportoptionen anzeigen")
 
@@ -209,7 +209,7 @@ Die [Library](../interface/the-library/the-library.md) enthält die folgenden Kn
 </tr>
 </table>
 
-Diese sind nützlich, wenn Sie mit Diagrammen arbeiten, die *ohne* Farbmanagement erstellt wurden, oder mit Materialien aus der [Substance 3D Assets](https://helpx.adobe.com/substance-3d/unlisted/assets.html)-Bibliothek.
+Diese sind nützlich, wenn Sie mit Diagrammen arbeiten, die *ohne* Farbmanagement erstellt wurden, oder mit Materialien aus der [Substance 3D Assets](https://helpx.adobe.com/de/substance-3d/unlisted/assets.html)-Bibliothek.
 
 ![Farbkonvertierungsknoten in Bibliothek](../assets/2019-3-0-clr-mgt-nodes.png "Farbkonvertierungsknoten in Bibliothek"){width="512px"}
 

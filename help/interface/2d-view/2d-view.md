@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/2d-view.html"
 breadcrumb-title: ''
 description: Verwenden Sie die 2D-Ansicht in Substance 3D Designer, um Texturausgaben aus Ihren Materialdiagrammen in der Vorschau anzuzeigen und zu überprüfen.
 helpx_creative_field: ""
@@ -343,7 +343,7 @@ Die <b>Bitmap-Malwerkzeuge</b> sind für [Bitmap-Ressourcen](../../resources/bit
 
 >[!TIP]
 >
-> Weitere Informationen finden Sie auf der Seite [Bitmap-Maleditor](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/bitmap-painting-editor-102400057.html) der Dokumentation.
+> Weitere Informationen finden Sie auf der Seite [Bitmap-Maleditor](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/bitmap-painting-editor-102400057.html) der Dokumentation.
 
 <table>
 <tr style="border: 0;">
@@ -368,7 +368,7 @@ Der <b>Vektorgrafik-Editor</b> ist für *importierte* [SVG-Ressourcen](../../res
 
 >[!TIP]
 >
-> Weitere Informationen finden Sie auf der Seite [Vektorgrafik-Editor (veraltet)](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/vector-graphic-editor-deprecated-102400059.html) der Dokumentation.
+> Weitere Informationen finden Sie auf der Seite [Vektorgrafik-Editor (veraltet)](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/vector-graphic-editor-deprecated-102400059.html) der Dokumentation.
 
 ![2D-Farbmanagement anzeigen](../../assets/2d-view-color-management-ocio.png "2D-Farbmanagement anzeigen"){width="360px"}
 

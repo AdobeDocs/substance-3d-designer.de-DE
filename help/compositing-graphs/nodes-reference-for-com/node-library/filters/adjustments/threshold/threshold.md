@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/threshold.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/threshold.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Schwellenwert", um Graustufen-Texturen anhand eines Schwellenwerts für das Erstellen von Masken in Schwarzweiß zu konvertieren.
 helpx_creative_field: ""

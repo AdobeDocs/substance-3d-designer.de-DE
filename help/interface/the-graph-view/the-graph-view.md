@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: Erfahre, wie du in Substance 3D Designer mithilfe der Diagrammansicht knotenbasierte Materialdiagramme erstellst und bearbeitest.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Auf dieser Seite wird das Diagrammansichtsdock von Substance 3D Designer angezeigt.
 
-Die Diagrammansicht ist das Hauptfenster von [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html), in dem Sie Ihre Diagramme erstellen und bearbeiten. Die Diagrammansicht besteht aus zwei Hauptbereichen: eine Symbolleiste am oberen Rand, die einen schnellen Zugriff auf bestimmte Funktionen bietet, sowie den eigentlichen Diagrammbereich, in dem Knoten platziert sind.
+Die Diagrammansicht ist das Hauptfenster von [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html), in dem Sie Ihre Diagramme erstellen und bearbeiten. Die Diagrammansicht besteht aus zwei Hauptbereichen: eine Symbolleiste am oberen Rand, die einen schnellen Zugriff auf bestimmte Funktionen bietet, sowie den eigentlichen Diagrammbereich, in dem Knoten platziert sind.
 
 Die Diagrammansicht wird für alle Diagrammtypen verwendet, unterscheidet sich jedoch leicht zwischen [Substance-Graphen](../../compositing-graphs/substance-compositing-graphs.md), [Funktionsgraphen](../../function-graphs/function-graphs.md) und [FX-Map-Graphen](../../function-graphs/fxmaps/fxmaps.md), hauptsächlich im Symbolleistenbereich.
 
@@ -387,7 +387,7 @@ Wählen Sie zwischen den Verbindungserstellungsmodi Standard (1), Material (2) u
 </b>*- Bereinigen:* Entfernt alle Knoten, die Teil eines Streams sind, der nicht mit einem [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)-Knoten verbunden ist.\
 *- Exportausgaben:* Öffnet die [Bitmapexport-Schnittstelle](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md).\
 *- Ausgaben erneut exportieren:* Führt den vorherigen Exportvorgang erneut aus.\
-*- PSD Exporter:* Öffnet[die PSD Exporter-Schnittstelle.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+*- PSD Exporter:* Öffnet[die PSD Exporter-Schnittstelle.](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
 
 ![](../../assets/image2020-6-26-16-37-16.png) <b>Knoten-Bildcache\
 </b>Schaltet die Anzeige des Bildcache des Knotens um (siehe unten).

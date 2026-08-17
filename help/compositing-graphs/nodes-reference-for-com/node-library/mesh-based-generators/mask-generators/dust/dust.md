@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dust.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dust.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Dust", um Dust-Akkumulationsmasken auf der Grundlage der Gittergeometrie zu generieren, um realistische Dust- und Rastereffekte zu erzeugen.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/fibers-1.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/fibers-1.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Fibers 1, um grundlegende Fasertexturen für die Simulation von Stoff-, Haar- und Fasermaterialien zu erstellen.
 helpx_creative_field: ""
@@ -37,7 +37,7 @@ ht-degree: 8%
 
 ## Beschreibung
 
-Einfaches faserähnliches Muster. Kann in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) für Seil-, Gitter- oder Stoffhöhenkarten und -details verwendet werden.
+Einfaches faserähnliches Muster. Kann in [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) für Seil-, Gitter- oder Stoffhöhenkarten und -details verwendet werden.
 
 ## Parameter
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers/bakers-legacy-interface.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/bakers/bakers-legacy-interface.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über die ältere Benutzeroberfläche für Substance 3D Designer-Bäcker für Benutzer, die mit älteren Versionen vertraut sind.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 # Bakers Legacy-Schnittstelle
 
-Hier ist die Beschreibung der Bäcker-Schnittstelle, die in [Adobe Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html)-Versionen vor 6.0.4 verfügbar ist.
+Hier ist die Beschreibung der Bäcker-Schnittstelle, die in [Adobe Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html)-Versionen vor 6.0.4 verfügbar ist.
 
 ## Überblick
 

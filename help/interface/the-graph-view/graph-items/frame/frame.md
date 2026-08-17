@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
 breadcrumb-title: ''
 description: Verwenden Sie Frames in der Substance 3D Designer-Diagrammansicht, um Knoten für eine bessere visuelle Klarheit zu organisieren und zu gruppieren.
 helpx_creative_field: ""

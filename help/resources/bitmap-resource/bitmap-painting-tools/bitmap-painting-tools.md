@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
 breadcrumb-title: ''
 description: Mit den Bitmap-Malwerkzeugen in Substance 3D Designer können Sie direkt auf Bitmap-Ressourcen malen, um Strukturen zu bearbeiten.
 helpx_creative_field: ""
@@ -54,7 +54,7 @@ Die Malwerkzeuge werden automatisch im Bedienfeld [2D-Ansicht](../../../interfac
 
 *Neue* Bitmaps können auf folgende Weise erstellt werden:
 
-* Klicken Sie im Bereich [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) auf RMB in einem *SBS-Paket* oder einem *Ordner* in einem Paket, um das Kontextmenü zu öffnen. Öffnen Sie dann das Untermenü <b>Neu</b> und wählen Sie die Option <b>Bitmap</b> aus.
+* Klicken Sie im Bereich [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) auf RMB in einem *SBS-Paket* oder einem *Ordner* in einem Paket, um das Kontextmenü zu öffnen. Öffnen Sie dann das Untermenü <b>Neu</b> und wählen Sie die Option <b>Bitmap</b> aus.
 * Erstellen Sie in einem [Diagramm](../../../interface/the-graph-view/the-graph-view.md) einen [Bitmapknoten](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md), und wählen Sie die <b>Von neuer Ressource...Option </b> im Kontextmenü
 
 Das Fenster <b>Neue Bitmap</b> wird geöffnet, in dem Sie die *Namen*, *Auflösung* und *Hintergrundfarbe* der neuen Bitmapressource festlegen können.

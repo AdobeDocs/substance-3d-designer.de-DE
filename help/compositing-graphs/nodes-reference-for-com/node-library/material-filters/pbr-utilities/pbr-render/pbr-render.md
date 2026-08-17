@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
 breadcrumb-title: ''
 description: Verwenden Sie den PBR-Rendering-Knoten, um physikalisch basierte Materialien mit realistischer Beleuchtung für die Vorschau des Materialaussehens zu rendern.
 helpx_creative_field: ""
@@ -228,7 +228,7 @@ Ausgaben
 
 ## Beispielbilder
 
-Alle Bilder wurden direkt in Designer im 2D-Ansichtsfenster mithilfe von Materialien aus der Bibliothek [Substance 3D Assets](https://helpx.adobe.com/substance-3d/unlisted/assets.html) generiert.
+Alle Bilder wurden direkt in Designer im 2D-Ansichtsfenster mithilfe von Materialien aus der Bibliothek [Substance 3D Assets](https://helpx.adobe.com/de/substance-3d/unlisted/assets.html) generiert.
 
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/pbr-render-v2.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/sphere-thermal-insulation-panel.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c2_image" src="../../../../../../assets/sphere-ominous-obsidian.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c3_image" src="../../../../../../assets/sphere-forest-gravel-1.jpg" width="300px"/></div> |
 | --- | --- | --- | --- |

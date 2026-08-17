@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
 breadcrumb-title: ''
 description: Verwenden Sie Punktknoten und Portalknoten in Substance 3D Designer, um Verbindungspunkte zu erstellen und den Diagrammfluss zu organisieren.
 helpx_creative_field: ""
