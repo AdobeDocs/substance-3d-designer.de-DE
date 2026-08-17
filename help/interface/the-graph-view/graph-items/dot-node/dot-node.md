@@ -55,7 +55,7 @@ Drücken Sie die Taste <b>Alt</b>, während Sie eine neue Verbindung von einem K
 
 Sie können mit dem Ziehen der neuen Verbindung fortfahren und den Vorgang wiederholen, um die Verbindung nach Ihren Wünschen zu routen.
 
-![Punkt: Erstellen aus Connector ](../../../../assets/graph-dot_create-from-connector.gif "Punkt: Erstellen aus Connector ")
+![Punkt: Erstellen aus Connector &#x200B;](../../../../assets/graph-dot_create-from-connector.gif "Punkt: Erstellen aus Connector ")
 
 
 

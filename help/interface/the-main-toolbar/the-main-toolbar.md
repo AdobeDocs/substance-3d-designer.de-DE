@@ -52,7 +52,7 @@ Auf dieser Seite werden die Hauptsymbolleiste und das Menü von [Substance 3D De
 <b>Neu:</b> öffnet ein Untermenü zum Erstellen eines Diagramms oder Pakets:
 
 * <b>Neues Substance-Diagramm..:</b>(Strg+N) Zeigt das Fenster [Neues Substance-Diagramm](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) an, in dem Sie ein neues [Substance-Diagramm](../../compositing-graphs/substance-compositing-graphs.md) einrichten können;
-* <b>Neues Substance-Funktionsdiagramm:</b> Erstellt ein neues Paket mit einem [Substance-Funktionsdiagramm ](../../function-graphs/function-graphs.md);
+* <b>Neues Substance-Funktionsdiagramm:</b> Erstellt ein neues Paket mit einem [Substance-Funktionsdiagramm &#x200B;](../../function-graphs/function-graphs.md);
 * <b>Leer:</b> Erstellt ein leeres Paket.
 
 <b>Öffnen...:</b> (Strg+O) Öffnen Sie ein vorhandenes [Substance-Paket (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).

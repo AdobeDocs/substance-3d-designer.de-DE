@@ -183,7 +183,7 @@ Wenn die Option <b>UVs in 2D-Ansicht anzeigen</b> im Menü <b>Szene</b> des Dock
 
 Sie können sie mit der Schaltfläche <b>UV</b> aktivieren. ![](../../assets/2d-view-icon-uv.png)
 
-Dadurch werden die UVs des Gitters [, das derzeit in der 3D-Ansicht ](../../interface/3d-view/3d-view.md) ausgewählt ist, als farbiges Drahtgitter angezeigt.
+Dadurch werden die UVs des Gitters [, das derzeit in der 3D-Ansicht &#x200B;](../../interface/3d-view/3d-view.md) ausgewählt ist, als farbiges Drahtgitter angezeigt.
 
 Wenn in der Gitterdatei Informationen zur Materialfarbe verfügbar sind, wird die Materialfarbe als Farbe der UV-Überlagerung verwendet.
 

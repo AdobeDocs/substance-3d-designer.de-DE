@@ -51,10 +51,10 @@ Verwendet [Shape Splatter](../../../../../../compositing-graphs/nodes-reference-
 
 * **Musternummer**: *1 - 8*
 * **Zufällige Musterzuweisung (nur Farbe)**: *0.0 - 1.0*
-* ** Ist Normalmap **(nur Farbe)****: *False/True*
+* **&#x200B; Ist Normalmap &#x200B;**(nur Farbe)**&#x200B;**: *False/True*
 * **HSL/Luminanzkorrektur**: *-1.0 - 1.0*
 * **HSL/Luminanzzufall**: *-1.0 - 1.0*
-* ** Zufällige ** (nur Farbe)****: *0.0 - 1.0*
+* **&#x200B; Zufällige &#x200B;** (nur Farbe)**&#x200B;**: *0.0 - 1.0*
 * **Deckkraft für Farbeingabe**: *0.0 - 1.0*
 
 ## Beispielbilder

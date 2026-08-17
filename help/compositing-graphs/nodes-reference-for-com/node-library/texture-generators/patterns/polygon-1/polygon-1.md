@@ -53,7 +53,7 @@ Generiert eine Polygonform mit vielen Anpassungsoptionen. Eine einfachere Versio
   Legt fest, wie oft das Ergebnis gekachelt werden soll.
 * **Quadratische Ausbreitung**: *False/True*\
   Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen.
-* **Kachelung (nicht quadratisch)****:** *Falsch/Wahr*Wenn die Quadratische Ausbreitung aktiviert ist, wird die Form ohne Unterdrücken kachelbar.
+* **Kachelung (nicht quadratisch)**&#x200B;**:** *Falsch/Wahr*Wenn die Quadratische Ausbreitung aktiviert ist, wird die Form ohne Unterdrücken kachelbar.
 
 ## Beispielbilder
 

@@ -295,7 +295,7 @@ Das Menü &quot;Materialien&quot; enthält eine Liste aller Materialien, die ein
 
 <b>Bearbeiten</b> - Bearbeiten Sie die Einstellungen des aktuellen Materials im Eigenschaftenfenster.
 
-<b>Shaders-Liste</b> - Alle [Shaders](../../glossary/glossary.md), die für den aktuellen [3D-Renderer ](../../interface/3d-view/3d-renderers/3d-renderers.md) verfügbar sind.
+<b>Shaders-Liste</b> - Alle [Shaders](../../glossary/glossary.md), die für den aktuellen [3D-Renderer &#x200B;](../../interface/3d-view/3d-renderers/3d-renderers.md) verfügbar sind.
 
 <b>Definition laden..: </b>(Nur OpenGL-Renderer) Ermöglicht das Laden eines eigenen benutzerdefinierten [GLSLFX-Shaders.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) Der Shader wird der obigen Liste hinzugefügt.
 
@@ -307,7 +307,7 @@ Das Menü &quot;Materialien&quot; enthält eine Liste aller Materialien, die ein
 
 <b>Material auf Szenenstatus zurücksetzen: </b>*(Nur Rasterbildwiedergabe-/GPU-Pathtracer-Renderer)* Setzt alle Eigenschaften für [überschriebene Materialien](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) auf ihre Originalwerte aus der Szene zurück, einschließlich eventuell vorhandener Originaltexturen.
 
-<b>Hinzufügen: </b>Fügt der Liste ein neues Material hinzu. Er ist standardmäßig nicht verwendet und kann [mit einem Szenenmaterial ](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) mithilfe des [Szenenbrowsers ](../../interface/3d-view/scene-browser/scene-browser.md) verbunden sein.
+<b>Hinzufügen: </b>Fügt der Liste ein neues Material hinzu. Er ist standardmäßig nicht verwendet und kann [mit einem Szenenmaterial &#x200B;](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) mithilfe des [Szenenbrowsers &#x200B;](../../interface/3d-view/scene-browser/scene-browser.md) verbunden sein.
 
 +++
 
@@ -425,7 +425,7 @@ Zeigt eine Hierarchie aller Elemente in einer 3D-Szene an.
 
 >[!INFO]
 >
->Der Szenenbrowser und seine Features werden ausführlich in [der dedizierten Seite ](../../interface/3d-view/scene-browser/scene-browser.md) behandelt.
+>Der Szenenbrowser und seine Features werden ausführlich in [der dedizierten Seite &#x200B;](../../interface/3d-view/scene-browser/scene-browser.md) behandelt.
 
 
 <img src="3d-view.resources/3d-view-scene-toolbar-select.png" width="24" /> <b>Auswählen</b>
@@ -548,7 +548,7 @@ Mit der Symbolleiste <b>Anzeigen</b>, die sich standardmäßig am *unteren* des 
 
 >[!NOTE]
 >
-> Die Symbolleiste kann *neu positioniert* werden, und zwar um das Dock **3**** D View**, wobei das linke *Handle* verwendet wird, das durch drei parallele Linien dargestellt wird.
+> Die Symbolleiste kann *neu positioniert* werden, und zwar um das Dock **3**&#x200B;**&#x200B; D View**, wobei das linke *Handle* verwendet wird, das durch drei parallele Linien dargestellt wird.
 
 ### Farbkanäle
 

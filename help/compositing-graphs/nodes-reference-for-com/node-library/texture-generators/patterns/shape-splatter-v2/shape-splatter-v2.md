@@ -35,7 +35,7 @@ Streuung von Formen auf einem Hintergrund-Height mit erweiterten Streuungsfunkti
 > Die von diesem Knoten generierten Daten können mit den anderen Knoten in der Shape-Splatter-V2-Familie verwendet werden:
 > * [Zuordnungsfarbe für Shape-Splatter v2](../shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.md)
 > * [Graustufen-Zuordnungs-Splatter v2](../shape-splatter-v2-mapper-grayscale/shape-splatter-v2-mapper-grayscale.md)
-> * [Form platzieren v2 auf Maske ](../shape-splatter-v2-to-mask/shape-splatter-v2-to-mask.md)
+> * [Form platzieren v2 auf Maske &#x200B;](../shape-splatter-v2-to-mask/shape-splatter-v2-to-mask.md)
 > 
 > Mit den [Rasteratlas color](../grid-atlas-color/grid-atlas-color.md) können Sie Bilder in einen Atlas mit benutzerdefinierter Größe packen, bis zu 16 Muster in 4*4 Zellen.
 

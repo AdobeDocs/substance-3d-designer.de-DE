@@ -57,7 +57,7 @@ Eine der Abhängigkeiten oder Ressourcen des Pakets wird von einem Speicherort g
 
 Mindestens eine der [Projektdateien](../../interface/preferences-window/project-settings/project-settings.md) sollte den Alias definieren, der in der Warnung gemeldet wird.
 
-![ &#39;Prüf-Alias ist definiert&#39; Lösung ](../../assets/warnings-dep-alias.gif " &#39;Prüf-Alias ist definiert&#39; Lösung ")
+![&#x200B; &#39;Prüf-Alias ist definiert&#39; Lösung &#x200B;](../../assets/warnings-dep-alias.gif " &#39;Prüf-Alias ist definiert&#39; Lösung ")
 
 ## ![(Fehler)](../../assets/error.svg) Es wurde keine Datei gefunden, die dieser Ressource entspricht.
 
@@ -92,12 +92,12 @@ Es gibt im Wesentlichen zwei Möglichkeiten, dieses Problem zu beheben:
 
    Wechseln Sie zum vom <b>Dateipfad</b>-Attribut der Ressource angegebenen Speicherort und überprüfen Sie, ob die Datei vorhanden ist. Wenn dies nicht der Fall ist, können Sie es wiederherstellen oder neu erstellen.
 
-   ![ &quot;Verknüpfte Datei nicht gefunden&quot; Lösung 1](../../assets/warnings-dep-file-not-found.gif " &quot;Verknüpfte Datei nicht gefunden&quot; Lösung 1")
+   ![&#x200B; &quot;Verknüpfte Datei nicht gefunden&quot; Lösung 1](../../assets/warnings-dep-file-not-found.gif " &quot;Verknüpfte Datei nicht gefunden&quot; Lösung 1")
 1. <b>Datei verschieben</b>
 
    Wenn die Datei verschoben oder umbenannt wurde, verlagern Sie sie, indem Sie auf RMB im Ressourcenelement im Bereich [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) klicken und die Option <b>Relocate</b> auswählen, um diese Ressource mit einer anderen Datei desselben Typs zu verknüpfen.
 
-   ![ &quot;Verknüpfte Datei nicht gefunden&quot; Lösung 2](../../assets/warnings-dep-file-not-found-2.gif " &quot;Verknüpfte Datei nicht gefunden&quot; Lösung 2")
+   ![&#x200B; &quot;Verknüpfte Datei nicht gefunden&quot; Lösung 2](../../assets/warnings-dep-file-not-found-2.gif " &quot;Verknüpfte Datei nicht gefunden&quot; Lösung 2")
 
 ## ![(Fehler)](../../assets/error.svg) Farbraum nicht gefunden
 
@@ -113,11 +113,11 @@ Alternativ können Sie diesen Farbraum der aktuellen [Farbmanagement](../../colo
 >
 > Diese Warnung wird nur ausgelöst, wenn ein anderer Farbmanagementmodus als **Legacy** verwendet wird (ähnlich dem Deaktivieren des Farbmanagements). Sie können das Farbmanagement im Abschnitt **Farbmanagement** der [Projekteinstellungen](../../interface/preferences-window/project-settings/project-settings.md) aktivieren.
 
-![ &quot;Farbraum nicht gefunden&quot; Lösung ](../../assets/warnings-dep-color-space.gif " &quot;Farbraum nicht gefunden&quot; Lösung ")
+![&#x200B; &quot;Farbraum nicht gefunden&quot; Lösung &#x200B;](../../assets/warnings-dep-color-space.gif " &quot;Farbraum nicht gefunden&quot; Lösung ")
 
 ## ![(Fehler)](../../assets/error.svg) Referenzressource nicht gefunden
 
-Das Diagramm, das der UV-Kachel einer [3D-Gitterressource ](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) zugewiesen ist, kann nicht an der in der Warnung angegebenen Position gefunden werden.
+Das Diagramm, das der UV-Kachel einer [3D-Gitterressource &#x200B;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) zugewiesen ist, kann nicht an der in der Warnung angegebenen Position gefunden werden.
 
 <b>![(tick)](../../assets/check.svg) Lösung</b>
 
@@ -127,7 +127,7 @@ Es gibt im Wesentlichen zwei Möglichkeiten, dieses Problem zu beheben:
 
    Überprüfen Sie den Inhalt des Pakets im Bedienfeld &quot;[Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)&quot; auf das in der Liste &quot;<b>UV-Kacheln</b>&quot; angegebene Diagramm. Wenn sie nicht vorhanden ist, stellen Sie sie wieder her oder erstellen Sie sie neu.
 
-   ![ &quot;Referenzressource nicht gefunden&quot; Lösung 1](../../assets/warnings-dep-udim-graph-2.gif " &quot;Referenzressource nicht gefunden&quot; Lösung 1")
+   ![&#x200B; &quot;Referenzressource nicht gefunden&quot; Lösung 1](../../assets/warnings-dep-udim-graph-2.gif " &quot;Referenzressource nicht gefunden&quot; Lösung 1")
 1. <b>Einen anderen Graphen auswählen</b>
 
    Weisen Sie der UV-Kachel ein anderes Diagramm in der Verpackung zu.
@@ -146,7 +146,7 @@ Stellen Sie sicher, dass für jeden UV-Satz einer 3D-Gitterressource kein UDIM-I
 
 ## ![(Fehler)](../../assets/error.svg) Ungültige UV-Kacheln
 
-Eine UV-Kachel, die für eine [3D-Gitterressource ](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) aufgelistet ist, ist im Gitter nicht definiert oder beschädigt.
+Eine UV-Kachel, die für eine [3D-Gitterressource &#x200B;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) aufgelistet ist, ist im Gitter nicht definiert oder beschädigt.
 
 <b>![(tick)](../../assets/check.svg) Lösung</b>
 

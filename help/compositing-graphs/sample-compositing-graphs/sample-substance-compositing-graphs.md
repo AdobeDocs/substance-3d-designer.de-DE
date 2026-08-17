@@ -37,7 +37,7 @@ Dieses Projekt enthält eine einfache Diagrammeinrichtung, die als Filter in and
 </td>
 <td style="border: 0;" valign="top">
 
-![ Beispiel für &quot;Filter&quot; ](../../assets/demo-filter.png " Beispiel für &quot;Filter&quot; "){zoomable="yes"}
+![&#x200B; Beispiel für &quot;Filter&quot; &#x200B;](../../assets/demo-filter.png " Beispiel für &quot;Filter&quot; "){zoomable="yes"}
 
 </td>
 </tr>
@@ -58,7 +58,7 @@ Informationen zur Vererbung finden Sie in [dieser Seite](../../compositing-graph
 </td>
 <td style="border: 0;" valign="top">
 
-![ Beispiel für &quot;Vererbung&quot; ](../../assets/demo-inheritance.png " Beispiel für &quot;Vererbung&quot; "){zoomable="yes"}
+![&#x200B; Beispiel für &quot;Vererbung&quot; &#x200B;](../../assets/demo-inheritance.png " Beispiel für &quot;Vererbung&quot; "){zoomable="yes"}
 
 </td>
 </tr>
@@ -79,7 +79,7 @@ Dieses Projekt veranschaulicht zwei einfache Anwendungsfälle für den Pixel-Pro
 </td>
 <td style="border: 0;" valign="top">
 
-![ Beispiel für Pixelprozessor ](../../assets/demo-pixel-processor.png " Beispiel für Pixelprozessor "){zoomable="yes"}
+![&#x200B; Beispiel für Pixelprozessor &#x200B;](../../assets/demo-pixel-processor.png " Beispiel für Pixelprozessor "){zoomable="yes"}
 
 </td>
 </tr>

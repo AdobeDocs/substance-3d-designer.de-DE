@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Hashknoten: Symbol ](../../../../../assets/hash-icon.png "Hashknoten: Symbol "){width="200px"}
+![Hashknoten: Symbol &#x200B;](../../../../../assets/hash-icon.png "Hashknoten: Symbol "){width="200px"}
 
 <b>In:</b> Funktionen > Zufällig
 
