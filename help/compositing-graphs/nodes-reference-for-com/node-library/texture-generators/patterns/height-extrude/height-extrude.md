@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/height-extrude.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/height-extrude.html"
 breadcrumb-title: ''
 description: Über den Knoten "Höhenextrusion" können Sie Formen auf Basis von Height Maps extrudieren, um 3D-ähnliche Tiefen in Texturen zu erzeugen.
 helpx_creative_field: ""

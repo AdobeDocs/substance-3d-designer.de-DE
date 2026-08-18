@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/cast-nodes.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/cast-nodes.html"
 breadcrumb-title: ''
 description: Verwenden Sie Umwandlungsknoten in Substance 3D Designer-Funktionsdiagrammen, um Datentypen zwischen Gleitkomma, Int und Vektor zu konvertieren.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Shape -Knoten, um grundlegende geometrische Formen zum Erstellen von Mustern und Texturen in Substance 3D Designer zu generieren.
 helpx_creative_field: ""

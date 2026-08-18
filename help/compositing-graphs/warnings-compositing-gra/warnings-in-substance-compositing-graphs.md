@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Lernen Sie Warnungen in Substance-Kompositionsdiagrammen kennen und erfahren Sie, wie Sie häufige Probleme und Fehler beheben.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Auf dieser Seite werden Warnungen und Fehlermeldungen aufgelistet, die von [Substance-Diagrammen](../../compositing-graphs/substance-compositing-graphs.md) in Substance 3D Designer ausgelöst werden können. Außerdem werden für jedes dieser Diagramme häufige Schritte zur Fehlerbehebung angezeigt.
 
-Warnungen werden in der QuickInfo des Warnsymbols für die Diagrammressource im Bereich [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) sowie in der unteren linken Ecke der [Diagrammansicht](../../interface/the-graph-view/the-graph-view.md) angezeigt, wenn das Diagramm geladen ist.
+Warnungen werden in der QuickInfo des Warnsymbols für die Diagrammressource im Bereich [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) sowie in der unteren linken Ecke der [Diagrammansicht](../../interface/the-graph-view/the-graph-view.md) angezeigt, wenn das Diagramm geladen ist.
 
 ## ![(Fehler)](../../assets/error.svg) Kein Ausgabeknoten definiert
 
@@ -34,7 +34,7 @@ Fügen Sie dem Diagramm einen oder mehrere [Output](../../compositing-graphs/nod
 
 >[!NOTE]
 >
-> Die über das [Dialogfeld &quot;Neues Substance-Diagramm&quot; &#x200B;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) verfügbaren Diagrammvorlagen verfügen über voreingestellte Ausgabeknoten, die verwendet werden können.
+> Die über das [Dialogfeld &quot;Neues Substance-Diagramm&quot; &#x200B;](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) verfügbaren Diagrammvorlagen verfügen über voreingestellte Ausgabeknoten, die verwendet werden können.
 
 ![Behebung der Warnung &quot;Kein Ausgabeknoten definiert&quot;](../../assets/warnings-comp-output.gif "Behebung der Warnung &quot;Kein Ausgabeknoten definiert&quot;"){width="512px"}
 
@@ -47,7 +47,7 @@ E.g. Einheitliche Farbe[Ausgabefarbe], Pixelprozessor[pro Pixelfunktion]
 
 **![(tick)](../../assets/check.svg) Lösung**
 
-Suchen Sie in der [Diagrammansicht](../../interface/the-graph-view/the-graph-view.md) den Knoten, der die Warnung ausgibt, nach seiner Bezeichnung und dem Warnzeichen, und wählen Sie ihn aus, um seine Eigenschaften im Bereich [Eigenschaften](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) anzuzeigen. Suchen Sie den Parameter, der die Warnung ausgibt, und öffnen Sie seine Funktion, indem Sie auf die Schaltfläche **Funktion bearbeiten** klicken.
+Suchen Sie in der [Diagrammansicht](../../interface/the-graph-view/the-graph-view.md) den Knoten, der die Warnung ausgibt, nach seiner Bezeichnung und dem Warnzeichen, und wählen Sie ihn aus, um seine Eigenschaften im Bereich [Eigenschaften](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) anzuzeigen. Suchen Sie den Parameter, der die Warnung ausgibt, und öffnen Sie seine Funktion, indem Sie auf die Schaltfläche **Funktion bearbeiten** klicken.
 
 Überprüfen Sie dann die in der linken unteren Ecke der Diagrammansicht aufgeführten Warnungen und beheben Sie die Probleme. Sie können auf der Seite [Warnungen in Funktionsdiagrammen](../../function-graphs/warnings-function-graphs/warnings-in-function-graphs.md) nach Fehlerbehebungswarnungen in Funktionsdiagrammen suchen.
 
@@ -64,7 +64,7 @@ Die Ressource, auf die von einem Knoten verwiesen wird, enthält eine oder mehre
 
 **![(tick)](../../assets/check.svg) Lösung**
 
-Suchen Sie im Bereich [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) die referenzierte Ressource, und beheben Sie alle von der Ressource ausgelösten Warnungen:
+Suchen Sie im Bereich [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) die referenzierte Ressource, und beheben Sie alle von der Ressource ausgelösten Warnungen:
 
 * Weitere Diagramme finden Sie auf dieser Seite.
 * Informationen zu anderen Ressourcentypen finden Sie auf der Seite [Warnungen von Abhängigkeiten](../../resources/warnings-from-dep/warnings-from-dependencies.md).
@@ -73,7 +73,7 @@ Suchen Sie im Bereich [Explorer](https://helpx.adobe.com/substance-3d/unlisted/d
 
 ### ![(Fehler)](../../assets/error.svg) Referenzressource nicht gefunden
 
-Die Ressource, auf die von einem Knoten verwiesen wird, wurde nicht in dem Pfad gefunden, der in der Datei &quot;[Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)&quot; (SBS) gespeichert ist. Im Folgenden finden Sie einige Knoten, die auf eine Ressource verweisen:
+Die Ressource, auf die von einem Knoten verwiesen wird, wurde nicht in dem Pfad gefunden, der in der Datei &quot;[Substance 3D](https://www.adobe.com/de/products/substance3d/3d-augmented-reality.html)&quot; (SBS) gespeichert ist. Im Folgenden finden Sie einige Knoten, die auf eine Ressource verweisen:
 
 * Ein [Grapheninstanz](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)-Knoten verweist auf ein Diagramm.
 * Ein [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)-Knoten verweist auf eine [Bitmap-Ressource](../../resources/bitmap-resource/bitmap-resource.md).
@@ -85,11 +85,11 @@ Die Ressource, auf die von einem Knoten verwiesen wird, wurde nicht in dem Pfad 
 Für [Grapheninstanz](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) Knoten
 
 Überprüfen Sie, ob das Quelldiagramm im Paket vorhanden ist, das sich in dem Pfad befindet, der in ihrem **Package**-Attribut gespeichert ist.\
-Ist dies nicht der Fall, löschen Sie den Instanzknoten und ersetzen Sie ihn durch einen Instanzknoten, der auf ein gültiges Paket verweist. Alternativ können Sie das Paket und das Diagramm, auf das der Instanzknoten verweist, neu erstellen und dann das Hostpaket neu laden, indem Sie im Bedienfeld [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) auf RMB klicken und im Kontextmenü die Option **Neu laden** auswählen.
+Ist dies nicht der Fall, löschen Sie den Instanzknoten und ersetzen Sie ihn durch einen Instanzknoten, der auf ein gültiges Paket verweist. Alternativ können Sie das Paket und das Diagramm, auf das der Instanzknoten verweist, neu erstellen und dann das Hostpaket neu laden, indem Sie im Bedienfeld [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) auf RMB klicken und im Kontextmenü die Option **Neu laden** auswählen.
 
 Für [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)-, [SVG](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)- oder [Text](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)-Knoten
 
-Suchen Sie die referenzierten Ressourcen im Bereich [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) und überprüfen Sie, ob sie an dem Speicherort vorhanden sind, der in ihrem **Dateipfad**-Attribut gespeichert ist.\
+Suchen Sie die referenzierten Ressourcen im Bereich [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) und überprüfen Sie, ob sie an dem Speicherort vorhanden sind, der in ihrem **Dateipfad**-Attribut gespeichert ist.\
 Wenn dies nicht der Fall ist, klicken Sie auf RMB im Ressourcenelement im Explorer, und wählen Sie **Verschieben...Option &quot;**&quot; im Kontextmenü, um eine neue gültige Zieldatei für diese Ressource festzulegen.
 
 ![Fehlerbehebung für die Warnung &quot;Referenzressource nicht gefunden&quot;](../../assets/warnings-comp-referenced-resource.gif "Fehlerbehebung für die Warnung &quot;Referenzressource nicht gefunden&quot;")

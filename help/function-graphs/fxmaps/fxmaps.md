@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/fxmaps.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie FXMaps in Substance 3D Designer verwenden, um Funktionsdiagramme auf Texturen anzuwenden und so prozedurale Muster zu generieren.
 helpx_creative_field: ""

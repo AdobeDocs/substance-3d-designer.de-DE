@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-color.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-color.html"
 breadcrumb-title: ''
 description: Verwenden Sie Farbfunktionsknoten, um Farbkonvertierungen und Tonzuordnungsoperationen in Funktionsdiagrammen durchzuführen.
 helpx_creative_field: ""

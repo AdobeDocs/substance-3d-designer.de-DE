@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
 breadcrumb-title: ''
 description: Greifen Sie auf vorgefertigte Substance-Funktionsdiagramme als Instanzknoten zu, um den Workflow zu beschleunigen und die Funktionen zu verbessern.
 helpx_creative_field: ""

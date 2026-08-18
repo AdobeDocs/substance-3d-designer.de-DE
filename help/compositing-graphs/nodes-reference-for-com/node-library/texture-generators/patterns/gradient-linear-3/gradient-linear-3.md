@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-3.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-3.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Linearer Verlauf 3", um erweiterte lineare Verläufe mit erweiterten Steuerelementen für glatte Farbübergänge zu erstellen.
 helpx_creative_field: ""

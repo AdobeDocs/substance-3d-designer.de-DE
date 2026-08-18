@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-linear-gradient.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-linear-gradient.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten 3D Linear gradient, um lineare Farbverläufe zu erstellen, die auf der 3D-Weltposition für räumliche Effekte basieren.
 helpx_creative_field: ""

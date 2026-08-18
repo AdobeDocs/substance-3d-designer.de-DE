@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Kachelzufall , um zufällige Kachelmuster mit prozeduralen Variationen für organische Textureffekte zu erstellen.
 helpx_creative_field: ""

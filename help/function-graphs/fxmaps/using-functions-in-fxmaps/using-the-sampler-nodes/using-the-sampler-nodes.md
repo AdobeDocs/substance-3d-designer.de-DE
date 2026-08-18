@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-sampler-nodes.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-sampler-nodes.html"
 breadcrumb-title: ''
 description: Hier erfahren Sie, wie Sie mithilfe von Samplerknoten in FXMaps Texturen aufnehmen und prozedurale Materialvariationen erstellen.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über atomare Funktionsknoten, die kleinsten Knoteneinheiten in Substance-Funktionsdiagrammen zum Erstellen benutzerdefinierter Funktionen.
 helpx_creative_field: ""

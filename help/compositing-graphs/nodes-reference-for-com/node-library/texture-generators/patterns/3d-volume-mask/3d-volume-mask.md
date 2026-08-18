@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-volume-mask.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-volume-mask.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten 3D-Volumenmaske , um volumetrische Masken basierend auf der 3D-Position für erweiterte Materialeffekte zu erstellen.
 helpx_creative_field: ""

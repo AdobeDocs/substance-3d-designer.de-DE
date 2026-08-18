@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Greifen Sie auf die vollständige Knotenreferenz für Substance-Compositing-Graphen in Designer zu, um mehr über alle verfügbaren Knoten zu erfahren.
 helpx_creative_field: ""
@@ -35,10 +35,10 @@ Was wir &quot;Knoten&quot; innerhalb von SD nennen, kann in 2 Netzgruppen untert
 
 [Knotenbibliothek](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
 
-* [Texturgeneratoren](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/generators-159449101.html)
+* [Texturgeneratoren](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/generators-159449101.html)
 * [Filter](../../compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md)
 * [Materialfilter](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md)
-* [Mesh-basierte Generatoren](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/mesh-adaptive-159449105.html)
+* [Mesh-basierte Generatoren](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/mesh-adaptive-159449105.html)
 * [Spline- und Pfade-Werkzeuge](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-paths-tools.md)
 
 </td>

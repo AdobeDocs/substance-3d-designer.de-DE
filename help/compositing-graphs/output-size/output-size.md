@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ''
 description: Konfigurieren Sie die Einstellungen der Ausgabegröße für Substance-Kompositionsdiagramme, um die Strukturauflösung und -qualität zu steuern.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 # Ausgabegröße
 
-Es ist der erste der <b>Basisparameter</b> eines Diagramms und zusammen mit dem <b>Ausgabeformat</b> (oder der Bittiefe) ist wichtig, um gut zu verstehen, da es große Auswirkungen auf die Ausgabe eines Diagramms hat, sowohl in Designer als auch in anderen Anwendungen als veröffentlichte [Substance 3D Asset (SBSAR)](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)-Datei.
+Es ist der erste der <b>Basisparameter</b> eines Diagramms und zusammen mit dem <b>Ausgabeformat</b> (oder der Bittiefe) ist wichtig, um gut zu verstehen, da es große Auswirkungen auf die Ausgabe eines Diagramms hat, sowohl in Designer als auch in anderen Anwendungen als veröffentlichte [Substance 3D Asset (SBSAR)](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)-Datei.
 
 >[!TIP]
 >
@@ -96,13 +96,13 @@ In den meisten Fällen ist die standardmäßige [-Vererbungsmethode &#x200B;](..
 * Knoten: *Relativ zur Eingabe*: Die von der [primären Eingabe](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) des Knotens geerbten Werte werden in diesem Fall verwendet.
 * [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)-Knoten: *Absolut* - Lesen Sie die Seite [Bitmapressource](../../resources/bitmap-resource/bitmap-resource.md) und [Richtlinien zur Leistungsoptimierung](../../best-practices/performance-optimization/performance-optimization-guidelines.md), um zu erfahren, warum dies der Fall ist
 
-Zeigen Sie die Eigenschaften eines Knotens oder Diagramms an, indem Sie auf dieses Element klicken. Suchen Sie dann im Bereich [Eigenschaften](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) die Eigenschaft <b>Ausgabegröße</b> im Abschnitt <b>Basisparameter</b>. Wählen Sie im Dropdown-Menü Vererbungsmethode die gewünschte Vererbungsmethode aus.
+Zeigen Sie die Eigenschaften eines Knotens oder Diagramms an, indem Sie auf dieses Element klicken. Suchen Sie dann im Bereich [Eigenschaften](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) die Eigenschaft <b>Ausgabegröße</b> im Abschnitt <b>Basisparameter</b>. Wählen Sie im Dropdown-Menü Vererbungsmethode die gewünschte Vererbungsmethode aus.
 
 ![Vererbungsmethode für Ausgabegröße](../../assets/change-mode.gif "Vererbungsmethode für Ausgabegröße"){width="512px"}
 
 ## Beispielprobleme
 
-Wenn Sie ein neuer [Adobe Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html)-Benutzer sind, treten möglicherweise einige häufige Probleme auf. Im Folgenden finden Sie einige Beispiele sowie Lösungen.
+Wenn Sie ein neuer [Adobe Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html)-Benutzer sind, treten möglicherweise einige häufige Probleme auf. Im Folgenden finden Sie einige Beispiele sowie Lösungen.
 
 +++Problem 1
 **![(Fehler)](../../assets/error.svg) Problem**

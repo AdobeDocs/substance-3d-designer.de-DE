@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Substance 3D-Asset-Dateien (SBSAR) aus Designer für die Verwendung in anderen Anwendungen und Engines veröffentlichen.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Auf dieser Seite wird erläutert, wie Substance 3D Designer Pakete als <b>Substance 3D-Asset-Dateien</b> veröffentlichen kann. Dabei handelt es sich um ein spezielles Dateiformat mit der Erweiterung <b>SBSAR</b>, das sowohl im Substance-Ökosystem als auch in anderen Anwendungen, die es unterstützen, verwendet wird.
 
-In der Regel ist es besser, ein Substance 3D-Element anstelle von Bitmaps zu verwenden, da es viel flexibler und leichter ist. Wenn Sie sie in Substance 3D [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home), [Sampler](https://helpx.adobe.com/substance-3d-sampler.html) oder [Player](https://helpx.adobe.com/substance-3d-player/home.html) verwenden, ist es schneller, die [Funktion &quot;Senden an&quot;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html) zu verwenden.
+In der Regel ist es besser, ein Substance 3D-Element anstelle von Bitmaps zu verwenden, da es viel flexibler und leichter ist. Wenn Sie sie in Substance 3D [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home), [Sampler](https://helpx.adobe.com/de/substance-3d-sampler.html) oder [Player](https://helpx.adobe.com/substance-3d-player/home.html) verwenden, ist es schneller, die [Funktion &quot;Senden an&quot;](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html) zu verwenden.
 
 ![Veröffentlichen von SBSAR-Dateien vereinfacht](../../assets/exportflow.png "Veröffentlichen von SBSAR-Dateien vereinfacht")
 
@@ -49,13 +49,13 @@ Das Veröffentlichen erfordert etwas mehr Vorbereitung als das Exportieren von B
 
 ## Veröffentlichungsmethoden
 
-Sobald Sie bereit zur Veröffentlichung sind, gibt es zwei Möglichkeiten, auf das Dialogfeld &quot;Veröffentlichen&quot; zuzugreifen. Beide können über [das Explorer-Fenster](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) aufgerufen werden.
+Sobald Sie bereit zur Veröffentlichung sind, gibt es zwei Möglichkeiten, auf das Dialogfeld &quot;Veröffentlichen&quot; zuzugreifen. Beide können über [das Explorer-Fenster](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) aufgerufen werden.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Klicken Sie im [Explorer-Fenster](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) mit der rechten Maustaste auf das Paket, und wählen Sie ![](../../assets/image2020-9-23-9-39-58.png) **Publish .sbsar-Datei...**, alternativer Hotkey Strg + P.
+Klicken Sie im [Explorer-Fenster](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) mit der rechten Maustaste auf das Paket, und wählen Sie ![](../../assets/image2020-9-23-9-39-58.png) **Publish .sbsar-Datei...**, alternativer Hotkey Strg + P.
 
 Nach einmaliger Veröffentlichung mit Dialog können Sie auch ![](../../assets/image2020-9-23-11-15-35.png) **Publish .sbsar-Datei wie zuvor** verwenden, um den Veröffentlichungsprozess zu wiederholen, ohne die Dialogfelder zu sehen, und sofort mit denselben Einstellungen veröffentlichen.
 
@@ -72,7 +72,7 @@ Nach einmaliger Veröffentlichung mit Dialog können Sie auch ![](../../assets/i
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Klicken Sie im [Explorer-Fenster](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) auf die Publish-Schaltfläche ![](../../assets/image2020-9-23-9-39-58.png) in der oberen Symbolleiste.
+Klicken Sie im [Explorer-Fenster](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) auf die Publish-Schaltfläche ![](../../assets/image2020-9-23-9-39-58.png) in der oberen Symbolleiste.
 
 Nach einmaliger Veröffentlichung mit Dialogfeld können Sie auch die Publish-Schaltfläche &quot;![](../../assets/image2020-9-23-11-15-35.png)&quot; wie zuvor verwenden, um den Veröffentlichungsprozess zu wiederholen, ohne die Dialogfelder zu sehen, und sofort mit denselben Einstellungen veröffentlichen.
 
