@@ -100,7 +100,7 @@ Der Mischmodus &quot;*Divide*&quot; teilt den Wert der Hintergrundeingabepixel d
 
 Der Mischmodus &quot;*Overlay*&quot; kombiniert die Füllmethoden &quot;Multiplizieren&quot; und &quot;Negativ multiplizieren&quot;:
 
-* 
+* &#x200B;
   * Wenn der Wert des Pixels der unteren Ebene unter 0,5 liegt, wird eine Füllmethode vom Typ *Multiplizieren* angewendet.
   * Wenn der Wert der unteren Pixelebene über 0,5 liegt, wird eine Überblendung vom Typ *Bildschirm* angewendet.
 

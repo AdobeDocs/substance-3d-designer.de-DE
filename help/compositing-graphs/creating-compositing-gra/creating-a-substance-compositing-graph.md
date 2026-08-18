@@ -28,7 +28,7 @@ Das Erstellen von Texturen in Designer beginnt mit dem Erstellen eines Substance
 
 Sie können eine der folgenden Methoden verwenden, um das Erstellen eines neuen [Substance-Diagramms](../../compositing-graphs/substance-compositing-graphs.md) zu starten:
 
-* 
+* &#x200B;
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ Sie können eine der folgenden Methoden verwenden, um das Erstellen eines neuen 
   </tr>
   </table>
 
-* 
+* &#x200B;
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -60,7 +60,7 @@ Sie können eine der folgenden Methoden verwenden, um das Erstellen eines neuen 
   </tr>
   </table>
 
-* 
+* &#x200B;
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -76,7 +76,7 @@ Sie können eine der folgenden Methoden verwenden, um das Erstellen eines neuen 
   </tr>
   </table>
 
-* 
+* &#x200B;
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -281,7 +281,7 @@ Verwenden Sie das Kombinationsfeld <b>Kategorie</b>, um die Kategorie auszuwähl
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-Für Vorlagen kann in den <b>Vorlagendaten</b> eine Kategorie eingerichtet sein. [Graphenattribut ](../../compositing-graphs/graph-parameters/graph-parameters.md), das als Filter verwendet wird, um die Liste der Vorlagen einzugrenzen:
+Für Vorlagen kann in den <b>Vorlagendaten</b> eine Kategorie eingerichtet sein. [Graphenattribut &#x200B;](../../compositing-graphs/graph-parameters/graph-parameters.md), das als Filter verwendet wird, um die Liste der Vorlagen einzugrenzen:
 
 &lt;category>;&lt;subtitle>
 

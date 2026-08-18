@@ -39,7 +39,7 @@ ht-degree: 5%
 
 ## Beschreibung
 
-Führt einen Gaußschen Weichzeichner hoher Qualität auf das Ergebnis durch. Viel bessere Qualität als [die Standardunschärfe des atomaren Rahmens](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)[.](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
+Führt einen Gaußschen Weichzeichner hoher Qualität auf das Ergebnis durch. Viel bessere Qualität als [die Standardunschärfe des atomaren Rahmens](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md) [.](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
 
 Wichtig: Achten Sie darauf, die passende Version für Ihre Eingabe zu verwenden! Verwenden Sie &quot;Weichzeichner-HQ&quot; für Farbeingaben bzw. &quot;Weichzeichner-HQ-Graustufen&quot; für Graustufeneingaben.
 

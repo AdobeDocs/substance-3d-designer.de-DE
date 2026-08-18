@@ -35,7 +35,7 @@ Auf das Backing-Fenster kann über die Gitterdatei im Fenster [Explorer](../inte
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ Option &quot;Backmodusinformationen&quot; im Kontextmenü der 3D-Szenenressource ](../assets/sd-mesh-right-click.png " Option &quot;Backmodusinformationen&quot; im Kontextmenü der 3D-Szenenressource ")
+![&#x200B; Option &quot;Backmodusinformationen&quot; im Kontextmenü der 3D-Szenenressource &#x200B;](../assets/sd-mesh-right-click.png " Option &quot;Backmodusinformationen&quot; im Kontextmenü der 3D-Szenenressource ")
 
 </td>
 </tr>

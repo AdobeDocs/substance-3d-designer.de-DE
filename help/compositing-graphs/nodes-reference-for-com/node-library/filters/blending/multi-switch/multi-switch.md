@@ -41,7 +41,7 @@ ht-degree: 2%
 
 Funktioniert als Schaltkasten und durchläuft nur den Eingang, der durch den Parameter &#39;Eingabeauswahl&#39; definiert ist. Wenn also zwei Eingänge verbunden sind, wird nur einer davon zurückgegeben (unverändert), je nach Wahl des Benutzers.
 
-Sehr nützlich zum Hinzufügen vieler verschiedener Optionen in einem Diagramm. In Kombination mit [Verfügbarmachen von ](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) (vorzugsweise als Dropdown-Liste) ist eine Menge Anpassung möglich.
+Sehr nützlich zum Hinzufügen vieler verschiedener Optionen in einem Diagramm. In Kombination mit [Verfügbarmachen von &#x200B;](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) (vorzugsweise als Dropdown-Liste) ist eine Menge Anpassung möglich.
 
 Wichtig: Achten Sie darauf, die passende Version für Ihre Eingabe zu verwenden! Verwenden Sie &quot;Multi Switch&quot; für Farbeingaben, &quot;Multi Switch Grayscale&quot; für Graustufeneingaben.
 

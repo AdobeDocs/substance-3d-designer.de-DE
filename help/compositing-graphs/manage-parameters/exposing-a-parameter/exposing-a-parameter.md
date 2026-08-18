@@ -22,7 +22,7 @@ ht-degree: 4%
 
 Das Freigeben von Parametern ist eines der leistungsfähigsten Tools und der Schlüssel zum Öffnen Ihrer Diagramme für andere Anwendungen wie Substance 3D Painter, Substance 3D Sampler und Substance Integrationen für Maya und 3DS Max.
 
-Auf dieser Seite werden alle erforderlichen Konzepte für den Einstieg in die Bereitstellung erläutert. Es wird [ empfohlen, zuerst zu erfahren, was eine Diagramminstanz ist](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), bevor Sie mit dieser Seite fortfahren. Es ist auch gut, den Unterschied zwischen Publish und &quot;Exportieren&quot; sowie die betroffenen Dateitypen zu erfassen[.](../../../getting-started/overview/overview.md)
+Auf dieser Seite werden alle erforderlichen Konzepte für den Einstieg in die Bereitstellung erläutert. Es wird [&#x200B; empfohlen, zuerst zu erfahren, was eine Diagramminstanz ist](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), bevor Sie mit dieser Seite fortfahren. Es ist auch gut, den Unterschied zwischen Publish und &quot;Exportieren&quot; sowie die betroffenen Dateitypen zu erfassen[.](../../../getting-started/overview/overview.md)
 
 ![Verfügbarmachen von Parametern vereinfacht](../../../assets/parameters-5.png "Verfügbarmachen von Parametern vereinfacht")
 
@@ -104,7 +104,7 @@ Es gibt einige Einschränkungen in Bezug auf das Verfügbarmachen von Parametern
 | --- | --- |
 | [Verlaufsbalken](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md), [Kurveneditor](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md), [Schrift](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md), [Tonwertkorrektur-Histogramm](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) | Widgets erforderlich, die für vom Benutzer erstellte Parameter nicht verfügbar sind. |
 
-Eine weitere wichtige Einschränkung betrifft [statische Parameter](../../../glossary/glossary.md). Diese können in einem [veröffentlichten Substance 3D-Asset ](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR) nicht geändert werden.
+Eine weitere wichtige Einschränkung betrifft [statische Parameter](../../../glossary/glossary.md). Diese können in einem [veröffentlichten Substance 3D-Asset &#x200B;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR) nicht geändert werden.
 
 Statische Parameter - im Gegensatz zu dynamischen Parametern - *können nicht sofort bearbeitet werden*, nachdem das Diagramm *gekocht* wurde - d. h. verarbeitet, um den Algorithmus schnell und effizient auszuführen. Das Kochen erfolgt in Designer jedes Mal, wenn das Diagramm *bearbeitet* oder *veröffentlicht* ist.
 
@@ -181,7 +181,7 @@ Normalerweise werden alle im <b>Vorschaumodus</b> vorgenommenen Änderungen *ver
 
 >[!IMPORTANT]
 >
-> Der Vorschaumodus ist deaktiviert, wenn die [-kontextbezogene Bearbeitung ](../../../interface/preferences-window/preferences-window.md) verwendet wird.
+> Der Vorschaumodus ist deaktiviert, wenn die [-kontextbezogene Bearbeitung &#x200B;](../../../interface/preferences-window/preferences-window.md) verwendet wird.
 
 >[!WARNING]
 >

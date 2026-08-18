@@ -65,7 +65,7 @@ Es kann jedoch für bestimmte Anwendungen nicht perfekt übereinstimmen, sodass 
 >
 > Deaktivieren der Unterteilung
 > 
-> Legen Sie die [Vererbungsmethode](../../../../glossary/glossary.md) des [Basisparameters ](../../../../glossary/glossary.md) für den Kachelmodus auf &quot;Absolut&quot; fest, wodurch Sie den Parameterwert auf &quot;Keine Kachelung&quot; festlegen können:
+> Legen Sie die [Vererbungsmethode](../../../../glossary/glossary.md) des [Basisparameters &#x200B;](../../../../glossary/glossary.md) für den Kachelmodus auf &quot;Absolut&quot; fest, wodurch Sie den Parameterwert auf &quot;Keine Kachelung&quot; festlegen können:
 > 
 > ![](../../../../assets/tilingmode.png)
 

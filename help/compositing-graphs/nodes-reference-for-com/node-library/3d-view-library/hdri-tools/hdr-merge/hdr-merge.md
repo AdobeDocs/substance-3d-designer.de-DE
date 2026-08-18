@@ -41,7 +41,7 @@ Kombiniere mehrere Belichtungen zu einer High Dynamic Range. Der erste Eingang i
 
 ## Eingaben
 
-* **Eingabe 1-**** 16**: *Farbeingabe*Eingabebilder Die verfügbare Menge hängt vom Parameter ab.
+* **Eingabe 1-**&#x200B;**&#x200B; 16**: *Farbeingabe*Eingabebilder Die verfügbare Menge hängt vom Parameter ab.
 
 ## Parameter
 
