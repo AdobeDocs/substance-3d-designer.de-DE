@@ -1,0 +1,122 @@
+---
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
+breadcrumb-title: ''
+description: Erfahren Sie mehr über die Oberfläche des Substance 3D Designer-Arbeitsbereichs, einschließlich Ansichten, Bedienfeldern und Anpassungsoptionen.
+helpx_creative_field: ""
+helpx_description: Designer > Workspace
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Arbeitsbereich
+user-guide-description: ''
+user-guide-title: ''
+source-git-commit: 163ef15c862c56a1b59a4ccd47f4396c825be18f
+workflow-type: tm+mt
+source-wordcount: '544'
+ht-degree: 1%
+
+---
+
+
+# Arbeitsbereich
+
+Der Arbeitsbereich ist in separate Bereiche aufgeteilt, die als <b>Docks</b> bezeichnet werden. Diese können [skaliert, verschoben und abgedockt](../interface/customizing-your-wor/customizing-your-workspace.md) des Hauptfensters von Designer in ein schwebendes Dock verschoben werden.
+
+Hier ist das Standarddock-Layout von Designer:
+
+![Substance 3D Designer-Hauptfenster](../assets/interface-overview.jpg "Substance 3D Designer-Hauptfenster")
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+<b>1</b> Hauptmenü und Symbolleiste
+
+<b>2</b> Explorer
+
+<b>3</b> Diagrammansicht
+
+</td>
+<td style="border: 0;" valign="top">
+
+<b>4</b> Eigenschaften
+
+<b>5</b> 2D-Ansicht
+
+</td>
+<td style="border: 0;" valign="top">
+
+<b>6</b> 3D-Ansicht
+
+<b>7</b> Bibliothek
+
+</td>
+</tr>
+</table>
+
+>[!NOTE]
+>
+> Schnittstellenskalierung
+> 
+> Designer bezieht die spezifische Skalierung der Benutzeroberflächenelemente *vom Betriebssystem*. Daher sollten alle Anpassungen an der Skalierung der Benutzeroberfläche in den Anzeigeeinstellungen des Betriebssystems vorgenommen werden.
+> 
+> Um sicherzustellen, dass die Anzeigeeinstellungen in Designer korrekt angewendet werden, *melden Sie sich von* Ihrer Betriebssystembenutzersitzung ab und melden Sie sich nach Änderung dieser Einstellungen wieder an.
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+## Hauptmenü und Symbolleiste
+
+Mit der Hauptsymbolleiste können Sie auf zusätzliche Menüs zugreifen, z. B. auf das Fenster [Voreinstellungen](../interface/preferences-window/preferences-window.md), und es gibt einige Schaltflächen, mit denen Sie schnell ein neues Substance-Diagramm und -Paket erstellen können.
+
+</td>
+<td style="border: 0;" valign="top">
+
+![Hauptmenü und Symbolleiste](../assets/mainmenu-1.png "Hauptmenü und Symbolleiste")
+
+</td>
+</tr>
+</table>
+
+* <b>Datei: </b>Ermöglicht das Erstellen neuer Pakete und Ressourcen sowie das Speichern und Schließen von Paketen, an denen Sie gerade arbeiten. Funktionen aus diesem Menü sind auch als Schnellschaltflächen in dieser Symbolleiste verfügbar.
+* <b>Bearbeiten: </b>Bietet Funktionen zum Rückgängigmachen und Wiederholen (unten als Schnellschaltflächen verfügbar) sowie Zugriff auf [Voreinstellungen](../interface/preferences-window/preferences-window.md) für die Anpassung in der Tiefe.
+* <b>Extras:</b> Steuert das Substance Engine und ermöglicht den Zugriff auf den Plug-in-Manager.
+* <b>Windows:</b> Ermöglicht das Ein- und Ausblenden der Fenster (einige sind standardmäßig ausgeblendet). Sie können das Fensterlayout auf die Standardeinstellungen zurücksetzen.
+* <b>Hilfe: </b>Bietet Zugriff auf zusätzliche Informationen und Onlineressourcen, wie z. B. die Substance Academy oder diese Dokumentationswebsite.
+
+## Explorer
+
+[Das Explorer-Fenster &quot;](the-explorer-window/the-explorer-window.md)&quot; ist die Hauptinteraktion mit Dateien und Ressourcen jeder Art. Es bietet mehr Optionen als das Menü &quot;Datei&quot; auf der Hauptsymbolleiste. Hier können Sie jede Arbeitssitzung starten und beenden.
+
+![Explorer](../assets/explorer-4.png "Explorer")
+
+## Diagrammansicht
+
+[Das Diagrammansichtsdock ](../interface/the-graph-view/the-graph-view.md) ist das wichtigste Fenster in Substance 3D Designer. Es zeigt die Knotennetzwerke jeder Diagrammart an, die in Designer verfügbar ist ([Substance-Diagramme](../compositing-graphs/substance-compositing-graphs.md), [Substance-Funktionsdiagramme](../function-graphs/function-graphs.md), [FX-Map-Diagramme](../function-graphs/fxmaps/fxmaps.md)), und ermöglicht das Erstellen und Bearbeiten dieser Diagramme.
+
+![Diagrammansicht](../assets/graph-6.png "Diagrammansicht")
+
+## Eigenschaften
+
+[Das Eigenschaften-Dock ](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) ist das technisch ausgereifteste Fenster. Es ist immer kontextsensitiv und enthält Schieberegler, Dropdown-Listen und andere Elemente, die das Verhalten einer ausgewählten Ressource oder eines ausgewählten Knotens ändern.
+
+![Eigenschaften](../assets/properties-15.jpg "Eigenschaften")
+
+## 2D-Ansicht
+
+[Die 2D-Ansicht ](../interface/2d-view/2d-view.md) ist das einfachste Vorschauwerkzeug. Es arbeitet eng mit der Grafik zusammen: Wenn Sie auf einen Knoten in der Diagrammansicht doppelklicken, wird das visuelle Ergebnis in der 2D-Ansicht angezeigt.
+
+![2D-Ansicht](../assets/2d-view-1.jpg "2D-Ansicht")
+
+## 3D-Ansicht
+
+[Die 3D-Ansicht](../interface/3d-view/3d-view.md) ist das interaktivste und fortschrittlichste Vorschaufenster. Im Gegensatz zur 2D-Ansicht werden verschiedene Ausgabemaps verwendet, um das gesamte Material zu rendern. Das bedeutet, dass alle dargestellten Kanäle angezeigt werden, z. B. &quot;Grundfarbe&quot;, &quot;Normal&quot; und &quot;Raueit&quot;.
+
+![3D-Ansicht](../assets/3dview-3.jpg "3D-Ansicht")
+
+## Bibliothek
+
+[Das Bibliotheks-Dock ](../interface/the-library/the-library.md) bietet standardmäßig Zugriff auf alle Inhalte, die in der Designer-Bibliothek enthalten sind, sowie auf Ihre [benutzerdefinierten Inhalte](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md). Um den Unterschied zwischen den Atomknoten und den Instanzknoten in der Bibliothek besser zu verstehen, lesen Sie unbedingt die Übersicht über die [Knoten](https://helpx.adobe.com/substance-designer/using/nodes-overview.html).
+
+![Bibliothek](../assets/library-3.jpg "Bibliothek")

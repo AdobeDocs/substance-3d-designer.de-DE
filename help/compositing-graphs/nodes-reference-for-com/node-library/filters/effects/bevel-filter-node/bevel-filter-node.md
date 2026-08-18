@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-filter-node.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Filterknoten "Abgeflachte Kante", um abgeflachte Kanten auf Formen und Mustern zu erstellen, um Tiefe und Abmessung hinzuzufügen.
 helpx_creative_field: ""
