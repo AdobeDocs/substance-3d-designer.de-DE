@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über die Verknüpfungserstellungsmodi in der Substance 3D Designer-Diagrammansicht zum effizienten Verbinden von Knoten.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/warnings-and-errors.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/technical-issues/warnings-and-errors.html"
 breadcrumb-title: ''
 description: Finden Sie Lösungen für häufig auftretende Warnungen und Fehler in Substance 3D Designer, um Probleme schnell zu beheben.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 # Warnungen und Fehler
 
-Auf dieser Seite werden die Berichterstellung für Warnungen und Fehlermeldungen erläutert, die in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) angezeigt werden können, sowie Links zur Fehlerbehebung für Warnungen anhand ihrer Quelle.
+Auf dieser Seite werden die Berichterstellung für Warnungen und Fehlermeldungen erläutert, die in [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) angezeigt werden können, sowie Links zur Fehlerbehebung für Warnungen anhand ihrer Quelle.
 
 ## Überblick
 
@@ -37,7 +37,7 @@ Im Allgemeinen werden Warnungen und Fehler für das Element angezeigt, das sie a
 
 ### Explorer
 
-Für jedes Element im Bereich [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), das eine Warnung enthält, wird diese Warnung mit einem Symbol ![](../../assets/warning-icon.png) am rechten Rand des Eintrags des Elements in der Liste angezeigt. Lassen Sie den Cursor einige Sekunden auf diesem Symbol, um eine *QuickInfo* anzuzeigen, in der alle Warnungen detailliert aufgeführt sind.
+Für jedes Element im Bereich [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), das eine Warnung enthält, wird diese Warnung mit einem Symbol ![](../../assets/warning-icon.png) am rechten Rand des Eintrags des Elements in der Liste angezeigt. Lassen Sie den Cursor einige Sekunden auf diesem Symbol, um eine *QuickInfo* anzuzeigen, in der alle Warnungen detailliert aufgeführt sind.
 
 Sie befolgen die folgenden Regeln:
 
@@ -83,7 +83,7 @@ Sie befolgen die folgenden Regeln:
 
 ### Eigenschaften
 
-Für jedes Element im Bereich [Eigenschaften](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), das eine Warnung enthält, wird diese Warnung mit einem Symbol ![](../../assets/warning-icon.png) am rechten Rand des Eintrags des Elements in der Liste angezeigt. Lassen Sie den Cursor einige Sekunden auf diesem Symbol, um eine *QuickInfo* anzuzeigen, in der alle Warnungen detailliert aufgeführt sind.
+Für jedes Element im Bereich [Eigenschaften](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), das eine Warnung enthält, wird diese Warnung mit einem Symbol ![](../../assets/warning-icon.png) am rechten Rand des Eintrags des Elements in der Liste angezeigt. Lassen Sie den Cursor einige Sekunden auf diesem Symbol, um eine *QuickInfo* anzuzeigen, in der alle Warnungen detailliert aufgeführt sind.
 
 Sie befolgen die folgenden Regeln:
 
@@ -106,7 +106,7 @@ Sie befolgen die folgenden Regeln:
 
 ### Konsole
 
-Im Bedienfeld **Konsole** werden sowohl Warnungen als auch Fehler gemeldet. Sie können über das Menü **Windows** im [Hauptmenü](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html) darauf zugreifen. Sie können Warnungen und Fehler von den restlichen Konsoleneinträgen isolieren, indem Sie die Einstellung **Kanal** auf `ErrorMgr` festlegen.
+Im Bedienfeld **Konsole** werden sowohl Warnungen als auch Fehler gemeldet. Sie können über das Menü **Windows** im [Hauptmenü](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html) darauf zugreifen. Sie können Warnungen und Fehler von den restlichen Konsoleneinträgen isolieren, indem Sie die Einstellung **Kanal** auf `ErrorMgr` festlegen.
 
 >[!NOTE]
 >

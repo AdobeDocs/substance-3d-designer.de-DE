@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/configuration-list-sbscfg.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/pipeline-and-project-configuration/configuration-list-sbscfg.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie SBSCFG-Konfigurationslisten in Substance 3D Designer verwenden, um Projekteinstellungen und Vorgaben zu verwalten.
 helpx_creative_field: ""

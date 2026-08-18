@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: Rufen Sie das Fenster "Voreinstellungen" in Substance 3D Designer auf, um Anwendungseinstellungen und -verhalten anzupassen.
 helpx_creative_field: ""
@@ -37,13 +37,13 @@ Wir empfehlen, alle diese Einstellungen zu überprüfen, um einen besseren Einbl
 
 |  |  |
 | --- | --- |
-| <b>Liste der zuletzt verwendeten Dokumente enthält </b>  *Standard: 10* | Dadurch können Sie die Anzahl der Dokumente auswählen, die im Eintrag <b>Zuletzt verwendete Pakete</b> des Elements <b>Datei</b> im [Hauptmenü](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html) aufgeführt werden sollen. |
+| <b>Liste der zuletzt verwendeten Dokumente enthält </b>  *Standard: 10* | Dadurch können Sie die Anzahl der Dokumente auswählen, die im Eintrag <b>Zuletzt verwendete Pakete</b> des Elements <b>Datei</b> im [Hauptmenü](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html) aufgeführt werden sollen. |
 
 ### Verlauf
 
 |  |  |
 | --- | --- |
-| **Verlaufsstapelgröße** *Standard: 200* | Dies gibt die Anzahl der verfügbaren Rückgängig-Vorgänge zu einem beliebigen Zeitpunkt im Element &quot;<b>Bearbeiten > Rückgängig</b>&quot; des [Hauptmenüs](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)&quot; an.  **Vorsicht:** Je mehr Vorgänge rückgängig gemacht werden müssen, desto mehr Arbeitsspeicher ist für die Anwendung erforderlich. |
+| **Verlaufsstapelgröße** *Standard: 200* | Dies gibt die Anzahl der verfügbaren Rückgängig-Vorgänge zu einem beliebigen Zeitpunkt im Element &quot;<b>Bearbeiten > Rückgängig</b>&quot; des [Hauptmenüs](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)&quot; an.  **Vorsicht:** Je mehr Vorgänge rückgängig gemacht werden müssen, desto mehr Arbeitsspeicher ist für die Anwendung erforderlich. |
 
 ### Sprache
 
@@ -111,13 +111,13 @@ Beachten Sie auch, dass automatische Speichervorgänge geöffnet werden sollten 
 
 |  |  |
 | --- | --- |
-| <b>Speichern Sie die SBS-Datei immer, wenn Sie sie in SBSAR veröffentlichen oder an eine andere Anwendung senden</b>  *Standard: Wahr* | Steuert das automatische Speichern des SBS-Pakets beim [Veröffentlichen](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) oder [Senden an eine andere Anwendung](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html). |
+| <b>Speichern Sie die SBS-Datei immer, wenn Sie sie in SBSAR veröffentlichen oder an eine andere Anwendung senden</b>  *Standard: Wahr* | Steuert das automatische Speichern des SBS-Pakets beim [Veröffentlichen](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) oder [Senden an eine andere Anwendung](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html). |
 
 ### Cooker
 
 |  |  |
 | --- | --- |
-| <b>Begrenzung der Kochgröße</b>  *Standard: 8192 Pixel* | Definiert die maximale Pixelauflösung, die für alle [Knoten](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html) in einem [Diagramm](../../compositing-graphs/substance-compositing-graphs.md) zulässig ist. Da Diagrammausgaben immer quadratische Bilder mit einer Potenz von 2 Auflösungen sind, definiert der hier festgelegte Wert sowohl die maximale Breite als auch das Height in Pixel. |
+| <b>Begrenzung der Kochgröße</b>  *Standard: 8192 Pixel* | Definiert die maximale Pixelauflösung, die für alle [Knoten](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html) in einem [Diagramm](../../compositing-graphs/substance-compositing-graphs.md) zulässig ist. Da Diagrammausgaben immer quadratische Bilder mit einer Potenz von 2 Auflösungen sind, definiert der hier festgelegte Wert sowohl die maximale Breite als auch das Height in Pixel. |
 
 ### Modul
 

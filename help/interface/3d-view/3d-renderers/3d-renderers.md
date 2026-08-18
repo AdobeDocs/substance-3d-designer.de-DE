@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: Wählen Sie in der 3D-Ansicht zwischen Renderern für Raster und Pathtracer für unterschiedliche Vorschauqualität und -leistung.
 helpx_creative_field: ""

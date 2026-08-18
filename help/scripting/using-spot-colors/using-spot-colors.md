@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/using-spot-colors.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/scripting/using-spot-colors.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Volltonfarben in Substance 3D Designer Python-Skripten für spezielle Farbarbeitsabläufe verwenden.
 helpx_creative_field: ""

@@ -20,9 +20,9 @@ ht-degree: 0%
 
 # Warnungen in MDL-Diagrammen
 
-Auf dieser Seite werden Warnungen und Fehlermeldungen aufgelistet, die von MDL-Diagrammen in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) ausgelöst werden können. Außerdem werden für jedes dieser Diagramme häufige Schritte zur Fehlerbehebung angeboten.
+Auf dieser Seite werden Warnungen und Fehlermeldungen aufgelistet, die von MDL-Diagrammen in [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) ausgelöst werden können. Außerdem werden für jedes dieser Diagramme häufige Schritte zur Fehlerbehebung angeboten.
 
-Warnungen werden in der QuickInfo des Warnsymbols für die Diagrammressource im Bereich [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) sowie in der unteren linken Ecke der [Diagrammansicht](../../interface/the-graph-view/the-graph-view.md) angezeigt, wenn das Diagramm geladen ist.
+Warnungen werden in der QuickInfo des Warnsymbols für die Diagrammressource im Bereich [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) sowie in der unteren linken Ecke der [Diagrammansicht](../../interface/the-graph-view/the-graph-view.md) angezeigt, wenn das Diagramm geladen ist.
 
 >[!NOTE]
 >

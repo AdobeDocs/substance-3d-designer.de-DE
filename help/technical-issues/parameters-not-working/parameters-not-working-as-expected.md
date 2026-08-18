@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
 breadcrumb-title: ''
 description: Beheben Sie Probleme mit Substance-Diagrammparametern, die nicht wie erwartet funktionieren, und finden Sie Lösungen.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ Auf dieser Seite werden häufige Ursachen für Parameter aufgelistet, die in Sub
 
 <b>![(Fehler)](../../assets/error.svg) Problem </b>
 
-Einige der angezeigten Parameter für ein Diagramm sind *nicht aufgelistet*, wenn Sie den [Vorschaumodus](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) in Designer verwenden, oder in der Parameterliste von [Substance 3D Assets](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR), die aus diesem Diagramm veröffentlicht wurde.
+Einige der angezeigten Parameter für ein Diagramm sind *nicht aufgelistet*, wenn Sie den [Vorschaumodus](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) in Designer verwenden, oder in der Parameterliste von [Substance 3D Assets](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR), die aus diesem Diagramm veröffentlicht wurde.
 
 <b>![(tick)](../../assets/check.svg)Empfohlene Schritte</b>
 

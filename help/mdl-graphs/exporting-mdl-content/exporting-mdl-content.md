@@ -38,7 +38,7 @@ Dies ist das grundlegende Austauschdateiformat für Materialdefinitionen. Ein MD
 * seine exponierten Parameter und Standardwerte
 * ihre Anmerkungen (d. h. Metadaten): Autor, Tags, Kategorien, ...
 
-Das Exportieren eines MDL-Moduls wird auf der Ebene *Paket* ausgeführt. Um ein MDL-Modul für ein bestimmtes Paket zu exportieren, klicken Sie im [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) auf die Schaltfläche ![](../../assets/mdl-export-module-icon.png) <b>MDL-Modul exportieren</b> oder wählen Sie dieselbe Option im Kontextmenü des *Pakets* aus. Wählen Sie einen Zielspeicherort und einen Namen für das exportierte MDL-Modul aus, und das Dialogfeld <b>Bericht exportieren</b> wird mit der Liste der während des Exportvorgangs protokollierten Nachrichten angezeigt.
+Das Exportieren eines MDL-Moduls wird auf der Ebene *Paket* ausgeführt. Um ein MDL-Modul für ein bestimmtes Paket zu exportieren, klicken Sie im [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) auf die Schaltfläche ![](../../assets/mdl-export-module-icon.png) <b>MDL-Modul exportieren</b> oder wählen Sie dieselbe Option im Kontextmenü des *Pakets* aus. Wählen Sie einen Zielspeicherort und einen Namen für das exportierte MDL-Modul aus, und das Dialogfeld <b>Bericht exportieren</b> wird mit der Liste der während des Exportvorgangs protokollierten Nachrichten angezeigt.
 
 Das exportierte Modul enthält die Definitionen von *allen* der MDL-Materialien, die durch ein [MDL-Diagramm](../../mdl-graphs/mdl-graphs.md) im Paket definiert sind.
 
@@ -60,7 +60,7 @@ Eine MDL-Modulvorgabe ist weitgehend identisch mit dem Modul, auf dem sie basier
 
 Eine Vorgabe für ein MDL-Material, das einem Szenenmaterial &quot;`my_material`&quot; zugewiesen ist, kann von den folgenden Speicherorten exportiert werden:
 
-* Das Bedienfeld &quot;[Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)&quot;, indem Sie auf &quot;<b>RMB</b>&quot; in der MDL-Diagrammressource klicken und die Exportvorgabe &quot;<b>&quot; auswählen...Option </b> im Kontextmenü
+* Das Bedienfeld &quot;[Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)&quot;, indem Sie auf &quot;<b>RMB</b>&quot; in der MDL-Diagrammressource klicken und die Exportvorgabe &quot;<b>&quot; auswählen...Option </b> im Kontextmenü
 * Das Bedienfeld [3D-Ansicht](../../interface/3d-view/3d-view.md) mit <b>Materialien > my\_material > Vorgabe exportieren...</b>-Menüoption
 
 Die Menüoption öffnet das Dialogfeld <b>MDL-Materialvorgabe exportieren</b>, das die folgenden Optionen bietet:
@@ -69,11 +69,11 @@ Die Menüoption öffnet das Dialogfeld <b>MDL-Materialvorgabe exportieren</b>, d
 * <b>MDL-Dateiname</b>: Der Name des MDL-Moduls
 * <b>Importierte MDL-Module einbetten</b>: Wenn das MDL-Modul auf importierten Modulen basiert - d. h. über Modulabhängigkeiten verfügt, führt das Aktivieren dieser Option dazu, dass die Modulabhängigkeiten in das exportierte MDL-Modul *eingebettet* werden, sodass es effektiv *autark* auf Kosten der Dateigröße und der dynamischen Vererbung ist.
 
-Die exportierte Voreinstellung verwendet die *aktuellen Werte* der Materialparameter in der 3D-Ansicht als *neue Standardwerte*. Diese Werte können mit der Option <b>Materialien > my\_material > Bearbeiten</b> geändert werden, die die exponierten Parameter des Materials im Bedienfeld [Eigenschaften](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) anzeigt.
+Die exportierte Voreinstellung verwendet die *aktuellen Werte* der Materialparameter in der 3D-Ansicht als *neue Standardwerte*. Diese Werte können mit der Option <b>Materialien > my\_material > Bearbeiten</b> geändert werden, die die exponierten Parameter des Materials im Bedienfeld [Eigenschaften](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) anzeigt.
 
 >[!WARNING]
 >
-> Beim Exportieren eines MDL-Moduls aus dem Bedienfeld [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) führt dies dazu, dass ein MDL-Modul *alle* MDL-Materialien enthält, die durch ein MDL-Diagramm im Paket definiert sind. Beim Exportieren einer MDL-Vorgabe aus der [3D-Ansicht](../../interface/3d-view/3d-view.md) führt dies dazu, dass ein MDL-Modul *nur* enthält, die Definition der MDL-Materialien, die auf das *ausgewählte Material* im Menü `my_material` in diesem Beispiel angewendet wurden.
+> Beim Exportieren eines MDL-Moduls aus dem Bedienfeld [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) führt dies dazu, dass ein MDL-Modul *alle* MDL-Materialien enthält, die durch ein MDL-Diagramm im Paket definiert sind. Beim Exportieren einer MDL-Vorgabe aus der [3D-Ansicht](../../interface/3d-view/3d-view.md) führt dies dazu, dass ein MDL-Modul *nur* enthält, die Definition der MDL-Materialien, die auf das *ausgewählte Material* im Menü `my_material` in diesem Beispiel angewendet wurden.
 
 ![MDL-Vorgabe-Exportpfad](../../assets/mdl-export-preset.png "MDL-Vorgabe-Exportpfad")
 
@@ -83,7 +83,7 @@ Die exportierte Voreinstellung verwendet die *aktuellen Werte* der Materialparam
 
 Ein MDL-Modularchiv kombiniert MDL-Module (siehe oben) mit Ressourcen wie *Texturen* und Readme-Dateien in einer *einzelnen transportablen Datei*.
 
-Das Exportieren eines MDL-Modularchivs wird auf der Ebene *Paket* ausgeführt. Um ein MDL-Modularchiv für ein bestimmtes Paket zu exportieren, klicken Sie im [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) auf die Schaltfläche ![](../../assets/mdl-export-module-icon.png) <b>MDL-Modularchiv exportieren</b>, oder wählen Sie dieselbe Option im Kontextmenü des *Pakets* aus. Wählen Sie einen Zielspeicherort und einen Namen für das exportierte MDL-Modularchiv aus, und das Dialogfeld <b>Bericht exportieren</b> wird mit der Liste der während des Exportvorgangs protokollierten Nachrichten angezeigt.
+Das Exportieren eines MDL-Modularchivs wird auf der Ebene *Paket* ausgeführt. Um ein MDL-Modularchiv für ein bestimmtes Paket zu exportieren, klicken Sie im [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) auf die Schaltfläche ![](../../assets/mdl-export-module-icon.png) <b>MDL-Modularchiv exportieren</b>, oder wählen Sie dieselbe Option im Kontextmenü des *Pakets* aus. Wählen Sie einen Zielspeicherort und einen Namen für das exportierte MDL-Modularchiv aus, und das Dialogfeld <b>Bericht exportieren</b> wird mit der Liste der während des Exportvorgangs protokollierten Nachrichten angezeigt.
 
 Das exportierte Modularchiv enthält ein MDL-Modul, das die Definitionen von *allen* der MDL-Materialien enthält, die durch ein [MDL-Diagramm](../../mdl-graphs/mdl-graphs.md) im Paket definiert sind. Wenn ein [Substance-Diagramm](../../compositing-graphs/substance-compositing-graphs.md) [in ein MDL-Diagramm &#x200B;](../../mdl-graphs/compositing-graphs-and/substance-compositing-graphs-and-mdl-materials.md) instanziiert und mit einem Stream verbunden ist, der an den [Root](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)-Knoten geht, werden die von ihm ausgegebenen Texturen *im Archiv gespeichert*.
 
@@ -108,7 +108,7 @@ MDL-Grafiken mit exponierten Parametern können als gekapselte MDL-Materialien e
 
 Während Sie beispielsweise noch die Werte der angezeigten Parameter ändern können, um das Verhalten eines Materials zu steuern, ist die *Definition* dieser Parameter *nicht verfügbar* in einem gekapselten MDL-Modul.
 
-Das Exportieren eines gekapselten MDL-Moduls wird im [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) auf der MDL-Diagrammebene durchgeführt, indem die Option <b>Als .mdle</b> exportieren im Kontextmenü eines MDL-Diagramms ausgewählt wird. Wählen Sie einen Zielspeicherort und einen Namen für das exportierte MDL-gekapselte Modul aus, und das Dialogfeld <b>Bericht exportieren</b> wird mit der Liste der während des Exportvorgangs protokollierten Meldungen angezeigt.
+Das Exportieren eines gekapselten MDL-Moduls wird im [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) auf der MDL-Diagrammebene durchgeführt, indem die Option <b>Als .mdle</b> exportieren im Kontextmenü eines MDL-Diagramms ausgewählt wird. Wählen Sie einen Zielspeicherort und einen Namen für das exportierte MDL-gekapselte Modul aus, und das Dialogfeld <b>Bericht exportieren</b> wird mit der Liste der während des Exportvorgangs protokollierten Meldungen angezeigt.
 
 *Nur* die Materialdefinition für das *ausgewählte MDL-Diagramm* wird in das exportierte gekapselte MDL-Modul aufgenommen.
 

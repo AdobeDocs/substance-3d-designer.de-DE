@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/nodes-and-properties.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/scripting/nodes-and-properties.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Knoten und Eigenschaften in Substance 3D Designer Python-Plug-ins erstellen und bearbeiten.
 helpx_creative_field: ""

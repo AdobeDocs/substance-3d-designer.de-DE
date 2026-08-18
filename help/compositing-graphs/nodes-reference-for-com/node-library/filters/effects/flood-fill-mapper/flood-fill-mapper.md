@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Knotenzuordnung", um Werte über verbundene Regionen mithilfe von Flutfüllungsalgorithmen für die Texturverarbeitung zuzuordnen.
 helpx_creative_field: ""

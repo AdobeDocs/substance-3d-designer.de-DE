@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/create-a-variable.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/variables/create-a-variable.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie benutzerdefinierte Variablen in Substance 3D Designer-Funktionsdiagrammen für wiederverwendbare Werte und Parameter erstellen.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-library.html"
 breadcrumb-title: ''
 description: Über die Substance 3D Designer-Bibliothek können Sie auf Knotenvorgaben, Materialien und benutzerdefinierte Inhalte zugreifen und diese verwalten.
 helpx_creative_field: ""
@@ -82,7 +82,7 @@ Der Inhalt der <b>Bibliothek</b> wird als *Miniaturansichten mit der Bezeichnung
 
 * [Substance-Diagramme](../../compositing-graphs/substance-compositing-graphs.md) in [SBS](../../getting-started/overview/overview.md) und [SBSAR](../../getting-started/overview/overview.md)-Dateien werden durch ihre *erste Ausgabe* oder durch ihr *benutzerdefiniertes Symbol* dargestellt, wenn eines vom Autor des Diagramms festgelegt wurde.
 * [Bitmaps](../../resources/bitmap-resource/bitmap-resource.md) und [Vektorgrafiken (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) werden durch ein *Miniatur-Rendering* der Bitmap selbst dargestellt
-* [3D-Gitter](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html), [Funktionsdiagramme](../../function-graphs/the-function-graph/the-function-graph.md), [Schriftarten](../../resources/font-resource/font-resource.md) und [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)-Dateien werden durch *generische Symbole* für jeden Typ dargestellt.
+* [3D-Gitter](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html), [Funktionsdiagramme](../../function-graphs/the-function-graph/the-function-graph.md), [Schriftarten](../../resources/font-resource/font-resource.md) und [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)-Dateien werden durch *generische Symbole* für jeden Typ dargestellt.
 
 >[!WARNING]
 >

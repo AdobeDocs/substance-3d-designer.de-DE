@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/resources.html"
 breadcrumb-title: ''
 description: Erfahre, wie du in Substance 3D Designer Ressourcen wie Bitmaps, Schriften und 3D-Szenen importieren, erstellen und verwalten kannst.
 helpx_creative_field: ""
@@ -57,7 +57,7 @@ Ressourcen, die keine Diagramme sind, sind in der Regel Hilfsressourcen, die als
 
 * [Bitmap](../resources/bitmap-resource/bitmap-resource.md)
 * [Vektorgrafiken (SVG)](../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [3D-Szenen](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
+* [3D-Szenen](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
 * [Schriftart](../resources/font-resource/font-resource.md)
 
 </td>

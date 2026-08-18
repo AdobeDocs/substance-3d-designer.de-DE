@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/crash-when-rendering-graphs.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/technical-issues/crash-when-rendering-graphs.html"
 breadcrumb-title: ''
 description: Beheben Sie Abstürze beim Rendern von Graphen in Substance 3D Designer und finden Sie Lösungen, um sie zu verhindern.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/properties.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/properties.html"
 breadcrumb-title: ''
 description: Verwenden Sie das Eigenschaftenfenster in Substance 3D Designer, um Knoteneigenschaften und Diagrammparameter anzuzeigen und zu bearbeiten.
 helpx_creative_field: ""
@@ -55,11 +55,11 @@ Eine wichtige Funktion des Substance-Ökosystems, [Verfügbarmachen von Paramete
 
 ## Nodes &amp; Substance Graphen
 
-[Die Knoten](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html) und [Substance-Graphen](../../compositing-graphs/substance-compositing-graphs.md) weisen einen leicht überlappenden Satz von Eigenschaftenkategorien auf, und ihre Funktionalität ist ähnlich.
+[Die Knoten](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html) und [Substance-Graphen](../../compositing-graphs/substance-compositing-graphs.md) weisen einen leicht überlappenden Satz von Eigenschaftenkategorien auf, und ihre Funktionalität ist ähnlich.
 
 <b>Basisparameter</b> und <b>Attribute</b> sind zwischen Knoten und Diagrammen identisch.
 
-Die Knoten bieten <b>Spezifische Parameter</b> oder <b> Instanzparameter</b> (abhängig davon, ob es sich um [Atomknoten](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) oder [Instanzen](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) handelt) sowie <b>Eingabewerte</b> für die Arbeit mit [Werten in Substance-Graphen](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html).
+Die Knoten bieten <b>Spezifische Parameter</b> oder <b> Instanzparameter</b> (abhängig davon, ob es sich um [Atomknoten](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) oder [Instanzen](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) handelt) sowie <b>Eingabewerte</b> für die Arbeit mit [Werten in Substance-Graphen](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html).
 
 [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) und [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)atomare Knoten sind Ausnahmen, da sie <b>Integrationsattribute</b> und <b>Bedingungen</b> für die Sichtbarkeit aufweisen. Auf diese beiden Eigenschaftensätze kann auch zentral in den Graph-Eigenschaften unter &quot;Eingaben&quot; und &quot;Ausgaben&quot; zugegriffen werden.
 
@@ -67,7 +67,7 @@ Diagramme lassen sich in einige zusätzliche Kategorien einteilen. <b>Eingabepar
 
 ## Ressourcen und Pakete
 
-Der Eigenschaftenbereich reagiert auch auf Auswahländerungen im [Explorer-Fenster](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html). Sie können auch einen Graphen auswählen (anstatt auf einen leeren Bereich zu doppelklicken) und die Eigenschaften &quot;Paket&quot; und &quot;[Ressource](../../resources/resources.md)&quot; ändern.
+Der Eigenschaftenbereich reagiert auch auf Auswahländerungen im [Explorer-Fenster](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html). Sie können auch einen Graphen auswählen (anstatt auf einen leeren Bereich zu doppelklicken) und die Eigenschaften &quot;Paket&quot; und &quot;[Ressource](../../resources/resources.md)&quot; ändern.
 
 Pakete haben **Informationen**, **Attribute** und **Metadaten** Abschnitte. [Die Paketmetadaten werden auf einer dedizierten Seite beschrieben.](../../package-metadata/package-metadata.md)
 

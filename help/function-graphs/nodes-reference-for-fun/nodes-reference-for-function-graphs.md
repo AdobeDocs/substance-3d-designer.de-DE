@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs.html"
 breadcrumb-title: ''
 description: Greifen Sie auf das vollständige Referenzhandbuch für alle in Substance 3D Designer-Funktionsdiagrammen verfügbaren Knoten zu.
 helpx_creative_field: ""

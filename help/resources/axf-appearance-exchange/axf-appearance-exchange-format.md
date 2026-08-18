@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/axf-appearance-exchange-format.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/resources/axf-appearance-exchange-format.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie AxF-Ressourcen für den Austausch von Aussehen in Substance 3D Designer für den Materialimport importieren und verwenden.
 helpx_creative_field: ""
@@ -70,7 +70,7 @@ Klicken Sie auf <b>AxF importieren...Schaltfläche </b> im linken Abschnitt des 
 
 +++Explorer
 
-Klicken Sie im [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) auf RMB für ein Paket, und navigieren Sie im Kontextmenü des Pakets zu <b>Importieren > AxF</b>.
+Klicken Sie im [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) auf RMB für ein Paket, und navigieren Sie im Kontextmenü des Pakets zu <b>Importieren > AxF</b>.
 
 ![AxF: Import aus Explorer starten](../../assets/axf_explorer.png "AxF: Import aus Explorer "){width="600px"} starten
 
@@ -144,7 +144,7 @@ Klicken Sie auf die Schaltfläche <b>Vorlage hinzufügen</b> und wählen Sie im 
 Es stehen zwei Arten von Substance-Diagrammvorlagen zur Verfügung:
 
 <b>AxF to Metallic Roughness</b> und <b>AxF to Specular Glossiness</b> sind *Konvertierungs*-Vorlagen, mit denen Sie AxF-Materialien Standardmodellen von PBR zuordnen können.\
-Diese können dann mit den standardmäßigen 3D-Ansichtshadern verwendet und mit anderen PBR-Materialien kombiniert werden, die in Designer [Sampler](https://www.adobe.com/products/substance3d-sampler.html) produziert oder von unserer [3D Assets](https://substance3d.adobe.com/assets/)-Bibliothek bezogen wurden.
+Diese können dann mit den standardmäßigen 3D-Ansichtshadern verwendet und mit anderen PBR-Materialien kombiniert werden, die in Designer [Sampler](https://www.adobe.com/de/products/substance3d-sampler.html) produziert oder von unserer [3D Assets](https://substance3d.adobe.com/assets/)-Bibliothek bezogen wurden.
 
 <b>AxF zu AxF</b> ist eine *passthrough*-Vorlage, mit der Sie AxF-Materialien bearbeiten und diese Änderungen als neue Ebenen in vorhandenen AxF-Dateien exportieren können. Weitere Informationen finden Sie unter Exportieren von AxF-Dateien weiter unten.
 

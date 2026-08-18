@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Iray
 
-Auf dieser Seite wird der Iray-Renderer angezeigt, der im 3D-Ansichtsfenster von [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) verfügbar ist und interaktive Pfadverfolgung für fotorealistisches Rendering mit CPU- und/oder GPU-Beschleunigung (nur Nvidia-GPUs) bietet.
+Auf dieser Seite wird der Iray-Renderer angezeigt, der im 3D-Ansichtsfenster von [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) verfügbar ist und interaktive Pfadverfolgung für fotorealistisches Rendering mit CPU- und/oder GPU-Beschleunigung (nur Nvidia-GPUs) bietet.
 
 >[!WARNING]
 > 
@@ -64,7 +64,7 @@ Weitere Informationen zum Anpassen dieser Bedingungen finden Sie im Abschnitt <b
 
 ![Mittelalterliches Schlosswandmaterial in Iray](../../../assets/iray-overview.png "Mittelalterliches Schlosswandmaterial in Iray")
 
-*Material: [Mittelalterliche Burgmauer](https://helpx.adobe.com/substance-3d/unlisted/assets/allassets/2b3f6eca9a6b6ab19d263d8b77819df431c3c973.html)* *von [Mark Foreman](https://www.artstation.com/oggyart)* *in unseren [Substance 3D-Medien](https://helpx.adobe.com/substance-3d/unlisted/assets.html)* *Bibliotheken* verfügbar
+*Material: [Mittelalterliche Burgmauer](https://helpx.adobe.com/de/substance-3d/unlisted/assets/allassets/2b3f6eca9a6b6ab19d263d8b77819df431c3c973.html)* *von [Mark Foreman](https://www.artstation.com/oggyart)* *in unseren [Substance 3D-Medien](https://helpx.adobe.com/de/substance-3d/unlisted/assets.html)* *Bibliotheken* verfügbar
 
 </td>
 </tr>

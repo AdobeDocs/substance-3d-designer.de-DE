@@ -26,7 +26,7 @@ Auf dieser Seite werden die Synergien zwischen [Substance-Graphen](../../composi
 
 Die Ausgaben von Substance-Graphen können *auf zwei Arten an exponierte Parameter* von MDL-Materialien übergeben werden, die auf dieser Seite beschrieben werden.
 
-Wenn das MDL-Material, das derzeit in der 3D-Ansicht angewendet wird, exponierte Parameter aufweist, deren Typ *[variierend](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)* ist - dieser Typ kann mithilfe der Option <b>Typ-Modifizierer</b> in den Eigenschaften des [exponierten Parameters](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html) festgelegt werden, können diese mit *Texturen* verbunden werden:
+Wenn das MDL-Material, das derzeit in der 3D-Ansicht angewendet wird, exponierte Parameter aufweist, deren Typ *[variierend](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)* ist - dieser Typ kann mithilfe der Option <b>Typ-Modifizierer</b> in den Eigenschaften des [exponierten Parameters](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html) festgelegt werden, können diese mit *Texturen* verbunden werden:
 
 * Ein <b>Color</b>-Parameter kann mit RGBA-Texturen verbunden werden.
 * einen <b>Float</b>-Parameter für Graustufenstrukturen

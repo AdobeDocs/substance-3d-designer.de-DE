@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über die Oberfläche des Substance 3D Designer-Arbeitsbereichs, einschließlich Ansichten, Bedienfeldern und Anpassungsoptionen.
 helpx_creative_field: ""
@@ -99,7 +99,7 @@ Mit der Hauptsymbolleiste können Sie auf zusätzliche Menüs zugreifen, z. B. a
 
 ## Eigenschaften
 
-[Das Eigenschaften-Dock &#x200B;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) ist das technisch ausgereifteste Fenster. Es ist immer kontextsensitiv und enthält Schieberegler, Dropdown-Listen und andere Elemente, die das Verhalten einer ausgewählten Ressource oder eines ausgewählten Knotens ändern.
+[Das Eigenschaften-Dock &#x200B;](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) ist das technisch ausgereifteste Fenster. Es ist immer kontextsensitiv und enthält Schieberegler, Dropdown-Listen und andere Elemente, die das Verhalten einer ausgewählten Ressource oder eines ausgewählten Knotens ändern.
 
 ![Eigenschaften](../assets/properties-15.jpg "Eigenschaften")
 

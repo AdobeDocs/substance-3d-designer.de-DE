@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie SBSPRJ-Projektkonfigurationsdateien in Substance 3D Designer verwenden, um Projekteinstellungen zu verwalten.
 helpx_creative_field: ""
@@ -63,7 +63,7 @@ Projektdateien können die folgenden Einstellungen enthalten:
 
 <b>Allgemein: </b>Graph-Vorlagen, Tangent-Space-Plug-ins, Standardwerte für Normal- und Bildformate.
 
-<b>Bibliothek: </b>Überwachte Pfade, die in der Bibliothek angezeigt werden sollen, sowie [Filter und Kategorien für die Bibliotheksansicht](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html).
+<b>Bibliothek: </b>Überwachte Pfade, die in der Bibliothek angezeigt werden sollen, sowie [Filter und Kategorien für die Bibliotheksansicht](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html).
 
 <b>MDL: </b>MDL überwachte Pfade.
 
@@ -79,7 +79,7 @@ Projektkonfigurationen werden wie alle anderen Typen als strukturierte XML-Datei
 
 Weitere Informationen zum Verwalten von Projektdateien und zum Ändern von Projekteinstellungen finden Sie auf der Seite [Projekteinstellungen](../../interface/preferences-window/project-settings/project-settings.md).
 
-Projektdateien enthalten auch benutzerdefinierte <b>Kategorien</b> und <b>Filter</b> für die [Bibliothek](../../interface/the-library/the-library.md). Weitere Informationen erhalten Sie auf der Seite [Verwalten von benutzerdefiniertem Inhalt und Filtern](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html).
+Projektdateien enthalten auch benutzerdefinierte <b>Kategorien</b> und <b>Filter</b> für die [Bibliothek](../../interface/the-library/the-library.md). Weitere Informationen erhalten Sie auf der Seite [Verwalten von benutzerdefiniertem Inhalt und Filtern](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html).
 
 ## Externes Bearbeiten von XML
 
