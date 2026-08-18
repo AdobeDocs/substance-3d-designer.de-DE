@@ -58,8 +58,8 @@ Es gibt eine Sonderversion von Scratches Generator, Scratches Generator Normal, 
 * **Spline-Breite in px** festlegen: *Falsch/Wahr* Bestimmt die Einheiten, die für Spline-Breiteneinstellungen verwendet werden.
 * **Luminanzzufall (nur Graustufenversion)**: *0.0 - 1.0* Die Luminanz jedes Splines wird einzeln zufällig angepasst.
 * **Normalintensität (nur normale Version)**: *0.0 - 1.0* Legt die Stärke des Effekts &quot;Normal&quot; für jeden Spline global fest.
-* ** Zufällige ** bei normaler Intensität (nur normale Version)****: *0.0 - 1.0*Randomisiert die normale Stärke für jeden Spline einzeln.
-* ** Normales Format **(nur normale Version)****: *DirectX, OpenGL*\
+* **&#x200B; Zufällige &#x200B;** bei normaler Intensität (nur normale Version)**&#x200B;**: *0.0 - 1.0*Randomisiert die normale Stärke für jeden Spline einzeln.
+* **&#x200B; Normales Format &#x200B;**(nur normale Version)**&#x200B;**: *DirectX, OpenGL*\
   Wechselt zwischen verschiedenen Normalmap-Formaten (invertiert den grünen Kanal).
 * **Überblendmodus**: *Ohne, Anfang, Ende, Anfang + Ende* Legt fest, ob und in welche Richtung die Splines verblassen.
 * **Überblendungslänge**: *0.0 - 1.0* Legt die Länge des Überblendungseffekts fest, sofern oben aktiviert.

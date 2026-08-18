@@ -34,13 +34,13 @@ Fügen Sie dem Diagramm einen oder mehrere [Output](../../compositing-graphs/nod
 
 >[!NOTE]
 >
-> Die über das [Dialogfeld &quot;Neues Substance-Diagramm&quot; ](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) verfügbaren Diagrammvorlagen verfügen über voreingestellte Ausgabeknoten, die verwendet werden können.
+> Die über das [Dialogfeld &quot;Neues Substance-Diagramm&quot; &#x200B;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) verfügbaren Diagrammvorlagen verfügen über voreingestellte Ausgabeknoten, die verwendet werden können.
 
 ![Behebung der Warnung &quot;Kein Ausgabeknoten definiert&quot;](../../assets/warnings-comp-output.gif "Behebung der Warnung &quot;Kein Ausgabeknoten definiert&quot;"){width="512px"}
 
 ### ![(Fehler)](../../assets/error.svg) Die Funktion des *[x]*-Parameters enthält einige Warnungen.
 
-Das [Funktionsdiagramm ](../../function-graphs/function-graphs.md), das auf den angegebenen Parameter des angegebenen Knotens angewendet wird, weist mindestens eine Warnung auf.\
+Das [Funktionsdiagramm &#x200B;](../../function-graphs/function-graphs.md), das auf den angegebenen Parameter des angegebenen Knotens angewendet wird, weist mindestens eine Warnung auf.\
 Der Knotenparameter wird in eckigen Klammern nach der Knotenbezeichnung angegeben und folgt der Vorlage Node[Parameter].
 
 E.g. Einheitliche Farbe[Ausgabefarbe], Pixelprozessor[pro Pixelfunktion]

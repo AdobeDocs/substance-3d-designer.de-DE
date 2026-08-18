@@ -30,7 +30,7 @@ In der Regel ist es besser, ein Substance 3D-Element anstelle von Bitmaps zu ver
 
 Beim Veröffentlichen eines Substance-Diagramms sollten Sie Folgendes beachten:
 
-* Sie <b> veröffentlichen ein Paket </b> mit seinem gesamten Inhalt, kein individuelles [Substance-Diagramm ](../../compositing-graphs/substance-compositing-graphs.md). Mit einem Substance 3D-Element können Sie dann Inhalte aus allen Substance-Graphen innerhalb dieses Pakets generieren.
+* Sie <b> veröffentlichen ein Paket </b> mit seinem gesamten Inhalt, kein individuelles [Substance-Diagramm &#x200B;](../../compositing-graphs/substance-compositing-graphs.md). Mit einem Substance 3D-Element können Sie dann Inhalte aus allen Substance-Graphen innerhalb dieses Pakets generieren.
 * Veröffentlichte Pakete sind <b>vollständig eigenständig</b>: alle erforderlichen Ressourcen in die Datei eingebettet sind. Das bedeutet, dass sie viel einfacher geteilt werden können als SBS-Dateien.
 * Die Ausgabe aus Substance 3D-Assets kann <b>vollständig dynamisch</b> sein. [Die Auflösung ist nicht festgelegt. verfügbar gemachte Parameter können geändert werden.](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) Eine Bearbeitung des Diagramms ist jedoch nicht mehr möglich.
 * Substance 3D-Medienelemente können außerhalb von Designer in allen Adobe Substance 3D-Produkten, Adobe Dimension sowie in jeder anderen Anwendung mit [Substance-Integration](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home) verwendet werden.

@@ -81,7 +81,7 @@ Einige allgemeine Tipps zur Verwendung:
   * **Symmetrie zufällig**: *0.0 - 1.0* Spiegelt zufällig bestimmte Muster nach dem ausgewählten Zufallsmodus der Symmetrie. Je höher dieser Wert, desto mehr Muster werden gespiegelt.
   * **Zufallssymmetriemodus**: *Horizontal + Vertikal, Horizontal, Vertikal* Bestimmt das Spiegelungsverhalten, wenn die zufällige Symmetrie größer als 0 ist.
 * **Größe**
-  * **** Größenmodus **:***Normal - Interstice, Normal - Size, Keep Ratio, Absolute, Pixel*Legt das allgemeine Verhalten der Mustergröße fest.\
+  * **&#x200B;**&#x200B;Größenmodus **:***Normal - Interstice, Normal - Size, Keep Ratio, Absolute, Pixel*Legt das allgemeine Verhalten der Mustergröße fest.\
     Normal : Mit der Option &quot;Abstand&quot; können Sie den Abstand zwischen den Musterelementen definieren. Er wird durch den X- und Y-Wert beeinflusst.\
     Normal : Mit dieser Option können Sie die Größe der Musterelemente definieren, unabhängig vom Abstand. Er wird durch den X- und Y-Wert beeinflusst.\
     Mit &quot;Verhältnis beibehalten&quot; können Sie eine Größe festlegen, die von einem x- und einem y-Wert beeinflusst wird, aber das x- und y-Verhältnis zwischen den beiden bleiben intakt.\

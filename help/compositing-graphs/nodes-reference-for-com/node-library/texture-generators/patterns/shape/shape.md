@@ -55,7 +55,7 @@ Trotz seiner Einfachheit ist dies ein sehr nützlicher Knoten: Es ist der Bauste
 * **Drehung 45°**: *Falsch/Wahr* Dreht sich um voreingestellte 45 Grad.
 * **Quadratische Ausbreitung**: *False/True*\
   Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen.
-* **Kachelung (nicht quadratisch)****:** *Falsch/Wahr*Wenn die Quadratische Ausbreitung aktiviert ist, wird die Form ohne Unterdrücken kachelbar.
+* **Kachelung (nicht quadratisch)**&#x200B;**:** *Falsch/Wahr*Wenn die Quadratische Ausbreitung aktiviert ist, wird die Form ohne Unterdrücken kachelbar.
 
 ## Beispielbilder
 
