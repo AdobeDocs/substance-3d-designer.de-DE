@@ -59,7 +59,7 @@ Der Inhalt eines Pakets kann <b>gespeichert</b> in eine Datei mit der Erweiterun
 
 Informationen zum <b>Erstellen</b> einer bestimmten Ressource finden Sie unter den statischen Methoden für verwandte Objekte (Beispiel: &#39;*SDSBSCompGraph.sNew()*&#39;).
 
-Ein Paket enthält auch ein Metadatenwörterbuch (SDMetadataDict). Weitere Informationen zu den Metadaten [ finden Sie hier: ](../../package-metadata/package-metadata.md).
+Ein Paket enthält auch ein Metadatenwörterbuch (SDMetadataDict). Weitere Informationen zu den Metadaten [&#x200B; finden Sie hier: &#x200B;](../../package-metadata/package-metadata.md).
 
 ## Ressource (SDR-Ressource)
 

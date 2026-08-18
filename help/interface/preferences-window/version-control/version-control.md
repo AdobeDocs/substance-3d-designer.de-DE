@@ -54,10 +54,10 @@ cVerbose = False
 
 Die Versionskontrolle ist in den [Projekteinstellungen](../../../interface/preferences-window/project-settings/project-settings.md) konfiguriert, die in den [Voreinstellungen](../../../interface/preferences-window/preferences-window.md) von Designer verfügbar sind.
 
-Registerkarte ![ &quot;Versionskontrolle&quot; in den Projekteinstellungen ](../../../assets/p4v-project-settings.jpg " Registerkarte &quot;Versionskontrolle&quot; in den Projekteinstellungen "){zoomable="yes"}
+Registerkarte ![&#x200B; &quot;Versionskontrolle&quot; in den Projekteinstellungen &#x200B;](../../../assets/p4v-project-settings.jpg " Registerkarte &quot;Versionskontrolle&quot; in den Projekteinstellungen "){zoomable="yes"}
 
 1. Gehen Sie zu &quot;Bearbeiten > Voreinstellungen&quot;.
-1. Wechseln Sie zu &quot;Projekte&quot;, wählen Sie die Zielprojektdatei &quot;[&quot; aus ](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) und wechseln Sie zur Registerkarte &quot;Versionskontrolle&quot;.
+1. Wechseln Sie zu &quot;Projekte&quot;, wählen Sie die Zielprojektdatei &quot;[&quot; aus &#x200B;](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) und wechseln Sie zur Registerkarte &quot;Versionskontrolle&quot;.
 1. Aktivieren Sie &quot;Versionskontrolle aktiviert&quot;.
 1. Füllen Sie diese Informationen im Abschnitt &quot;Arbeitsbereich&quot; aus:
 
@@ -123,12 +123,12 @@ Da alle Versionskontrollwerkzeuge unterschiedlich sind und viele Funktionen enth
    <tr style="border: 0;">
    <td style="border: 0;" valign="top">
 
-   ![ Dialogfeld &quot;Senden&quot;](../../../assets/p4v-submit.jpg " Dialogfeld &quot;Senden&quot;"){zoomable="yes"}
+   ![&#x200B; Dialogfeld &quot;Senden&quot;](../../../assets/p4v-submit.jpg " Dialogfeld &quot;Senden&quot;"){zoomable="yes"}
 
    </td>
    <td style="border: 0;" valign="top">
 
-   ![ Dialogfeld &quot;Zurücksetzen&quot; ](../../../assets/p4v-revert.jpg " Dialogfeld &quot;Zurücksetzen&quot; "){zoomable="yes"}
+   ![&#x200B; Dialogfeld &quot;Zurücksetzen&quot; &#x200B;](../../../assets/p4v-revert.jpg " Dialogfeld &quot;Zurücksetzen&quot; "){zoomable="yes"}
 
    </td>
    </tr>
