@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Eingabe , um Eingabeparameter für Substance-Graphen zu erstellen, die von Benutzern angezeigt und angepasst werden können.
 helpx_creative_field: ""
@@ -145,7 +145,7 @@ Schließlich können Sie jeden Wert für ein bestimmtes Attribut überschreiben,
 
 >[!IMPORTANT]
 >
-> Die *Vererbungsmethode Relativ zu Eingabe* für Eingabeknoten wird *nicht unterstützt* in [Substance 3D Assets (SBSAR)](https://helpx.adobe.com/substance-3d-assets.html). Legen Sie vor dem Veröffentlichen des Pakets die Vererbungsmethoden aller Eingabeknoten auf *Relativ zu übergeordneten Knoten* fest.
+> Die *Vererbungsmethode Relativ zu Eingabe* für Eingabeknoten wird *nicht unterstützt* in [Substance 3D Assets (SBSAR)](https://helpx.adobe.com/de/substance-3d-assets.html). Legen Sie vor dem Veröffentlichen des Pakets die Vererbungsmethoden aller Eingabeknoten auf *Relativ zu übergeordneten Knoten* fest.
 
 ## Integrationsattribute
 

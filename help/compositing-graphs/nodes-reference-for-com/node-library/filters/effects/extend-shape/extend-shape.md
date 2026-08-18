@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/extend-shape.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/extend-shape.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Extend Shape", um Formen über ihre Begrenzungen hinaus zu erweitern und so erweiterte Masken- und Mustereffekte zu erstellen.
 helpx_creative_field: ""

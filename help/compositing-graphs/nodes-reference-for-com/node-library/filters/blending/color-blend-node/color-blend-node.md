@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-blend-node.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-blend-node.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Farbüberblendung", um Texturen mithilfe des Farbmodus zu überblenden, um die Luminanz beizubehalten und gleichzeitig den Farbton und die Sättigung zu ändern.
 helpx_creative_field: ""

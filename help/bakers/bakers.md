@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/bakers.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie mit Substance 3D Designer-Bäcker netzbasierte Informationen in Texturdateien umwandeln können.
 helpx_creative_field: ""

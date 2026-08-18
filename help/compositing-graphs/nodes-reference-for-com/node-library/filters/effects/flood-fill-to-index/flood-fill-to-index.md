@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-index.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-index.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Flood Fill-zu-Index-Knoten, um Bereiche mit Indexwerten zu füllen, um nummerierte und beschriftete Muster zu erstellen.
 helpx_creative_field: ""
@@ -39,7 +39,7 @@ ht-degree: 2%
 
 Mit &quot;Flood Fill in Index&quot; wird jede Indexzelle in einen Wert entsprechend ihrer Indexnummer konvertiert. Der Wert beginnt mit 0 links oben. Es kann verwendet werden, um Graustufenfarben in einer normalisierten Form (0,0 bis 1,0, dividiert durch so viele Zellen, wie durch Flood Fill gefunden wurden) oder als HDR-Wert (0 bis n, wobei n die Anzahl der Zellen ist) ohne Klammerung zurückzugeben.
 
-Darüber hinaus verwendet Flood Fill in Index das neue [Value-System und gibt zusätzliche Werte](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html) zurück, die die Anzahl der gefundenen Formen und die optionale interne Datentabelle enthalten.
+Darüber hinaus verwendet Flood Fill in Index das neue [Value-System und gibt zusätzliche Werte](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html) zurück, die die Anzahl der gefundenen Formen und die optionale interne Datentabelle enthalten.
 
 ### Eingaben
 

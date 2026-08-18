@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie die Vererbung beim Substance von Compositing-Graphen funktioniert, um wiederverwendbare Diagrammhierarchien und -varianten zu erstellen.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Vererbung bei Substance-Graphen
 
-Auf dieser Seite wird beschrieben, wie die Vererbung in [Substance-Graphen](../../compositing-graphs/substance-compositing-graphs.md) in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) angewendet wird und welche Auswirkungen sie auf die Ausgabe des Diagramms hat.
+Auf dieser Seite wird beschrieben, wie die Vererbung in [Substance-Graphen](../../compositing-graphs/substance-compositing-graphs.md) in [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) angewendet wird und welche Auswirkungen sie auf die Ausgabe des Diagramms hat.
 
 ![Vererbungsmethoden](../../assets/inheritance-overview-1.jpg "Vererbungsmethoden"){width="1400px"}
 
@@ -93,7 +93,7 @@ Dadurch sollten Sie wissen, wie Änderungen am *One*-Knoten sich auf die Auflös
 
 ### Ändern von Vererbungsmethoden
 
-Im Bereich &quot;[Eigenschaften](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)&quot; verfügen alle Parameter, die im Abschnitt &quot;[Basisparameter](../../compositing-graphs/graph-parameters/graph-parameters.md)&quot; der Eigenschaften eines Knotens aufgeführt sind, über die Dropdownschaltfläche &quot;<b>Vererbungsmethode festlegen</b>&quot;, die der entsprechenden Bezeichnung gegenüberliegt.\
+Im Bereich &quot;[Eigenschaften](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)&quot; verfügen alle Parameter, die im Abschnitt &quot;[Basisparameter](../../compositing-graphs/graph-parameters/graph-parameters.md)&quot; der Eigenschaften eines Knotens aufgeführt sind, über die Dropdownschaltfläche &quot;<b>Vererbungsmethode festlegen</b>&quot;, die der entsprechenden Bezeichnung gegenüberliegt.\
 Mit dieser Schaltfläche können Sie die Vererbungsmethode auswählen, die für einen Parameter verwendet werden soll.
 
 ![Vererbungsmethode ändern](../../assets/inheritance-change.gif "Vererbungsmethode ändern"){width="512px"}

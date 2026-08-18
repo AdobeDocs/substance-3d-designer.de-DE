@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/pre-multiplied-to-straight.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/pre-multiplied-to-straight.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Vormultipliziert in gerade", um vormultiplizierte Alphatexturen in ein lineares Alphaformat zu konvertieren.
 helpx_creative_field: ""

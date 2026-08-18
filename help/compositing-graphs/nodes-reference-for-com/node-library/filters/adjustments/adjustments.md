@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments.html"
 breadcrumb-title: ''
 description: Greifen Sie in Substance 3D Designer auf Anpassungsfilterknoten zu, um Farbe, Helligkeit, Kontrast und andere Textureigenschaften zu ändern.
 helpx_creative_field: ""

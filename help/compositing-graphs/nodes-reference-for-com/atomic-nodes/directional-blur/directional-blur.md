@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Richtungsunschärfe", um Unschärfeeffekte in einer bestimmten Richtung anzuwenden, um Bewegungsunschärfe- und Stricheffekte zu erzeugen.
 helpx_creative_field: ""

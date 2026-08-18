@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/dissolve.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/dissolve.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Ausblenden", um Texturen mit dem Ausblendmodus anzugleichen und Überblendungs- und Überblendungseffekte zwischen Texturen zu erstellen.
 helpx_creative_field: ""

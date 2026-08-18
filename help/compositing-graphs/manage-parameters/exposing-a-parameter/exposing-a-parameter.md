@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
 breadcrumb-title: ''
 description: Lerne, wie du in Substance 3D Designer Compositing-Graphen Parameter definierst, mit denen sich Materialien anpassen und wiederverwenden lassen.
 helpx_creative_field: ""
@@ -66,7 +66,7 @@ Derzeit gibt es zwei Hauptmethoden zum Anzeigen von Parametern. Die eine Methode
 
 ### EINZELBELICHTUNGSMETHODE
 
-1. Suchen Sie den Parameter, der im [Eigenschaftenfenster](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) auf der Registerkarte Spezifische Parameter angezeigt werden soll.
+1. Suchen Sie den Parameter, der im [Eigenschaftenfenster](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) auf der Registerkarte Spezifische Parameter angezeigt werden soll.
 1. Klicken Sie auf die Schaltfläche mit den Dropdownoptionen ![](../../../assets/image2020-9-17-15-35-59.png).
 1. Wählen Sie ![](../../../assets/image2020-9-17-15-37-7.png) <b>Als neue Diagrammeingabe verfügbar machen</b> aus der Dropdown-Liste, die erste Option.
 1. Das Dialogfeld &quot;<b>Parameter verfügbar machen</b>&quot; wird angezeigt. Legen Sie alle Parametereigenschaften wie gewünscht fest.
@@ -79,7 +79,7 @@ Derzeit gibt es zwei Hauptmethoden zum Anzeigen von Parametern. Die eine Methode
 >[!NOTE]
 >
 > Die meisten Zahlenfelder unterstützen *einfache mathematische Formeln* als Eingabe, z. B. `17+3.5`, `7/3`, `(4+2)*3`. Drücken Sie *Eingabe*, um die Formel zu validieren, und das Ergebnis wird in das Feld eingegeben. Wenn die Formel ungültig ist, wird das Feld auf den vorherigen Wert zurückgesetzt.\
-> Einige numerische Felder in anderen Teilen der Anwendung, z. B. im Dock [Eigenschaften](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), unterstützen diese Funktion ebenfalls.
+> Einige numerische Felder in anderen Teilen der Anwendung, z. B. im Dock [Eigenschaften](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), unterstützen diese Funktion ebenfalls.
 
 ![Schritt-für-Schritt-Anleitung zur Methode zur Batch-Bereitstellung](../../../assets/batch-expose-2.gif "Schritt-für-Schritt-Anleitung zur Methode zur Batch-Bereitstellung"){width="512px"}
 
@@ -104,7 +104,7 @@ Es gibt einige Einschränkungen in Bezug auf das Verfügbarmachen von Parametern
 | --- | --- |
 | [Verlaufsbalken](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md), [Kurveneditor](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md), [Schrift](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md), [Tonwertkorrektur-Histogramm](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) | Widgets erforderlich, die für vom Benutzer erstellte Parameter nicht verfügbar sind. |
 
-Eine weitere wichtige Einschränkung betrifft [statische Parameter](../../../glossary/glossary.md). Diese können in einem [veröffentlichten Substance 3D-Asset &#x200B;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR) nicht geändert werden.
+Eine weitere wichtige Einschränkung betrifft [statische Parameter](../../../glossary/glossary.md). Diese können in einem [veröffentlichten Substance 3D-Asset &#x200B;](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR) nicht geändert werden.
 
 Statische Parameter - im Gegensatz zu dynamischen Parametern - *können nicht sofort bearbeitet werden*, nachdem das Diagramm *gekocht* wurde - d. h. verarbeitet, um den Algorithmus schnell und effizient auszuführen. Das Kochen erfolgt in Designer jedes Mal, wenn das Diagramm *bearbeitet* oder *veröffentlicht* ist.
 
@@ -185,7 +185,7 @@ Normalerweise werden alle im <b>Vorschaumodus</b> vorgenommenen Änderungen *ver
 
 >[!WARNING]
 >
-> Im Vorschaumodus wird das Erlebnis eines [veröffentlichten Substance 3D-Assets](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR) so genau wie möglich dargestellt. Daher gelten die auf dieser Seite aufgeführten Einschränkungen in diesem Modus, z. B. *statische Parameter, die in der Liste nicht vorhanden sind*.
+> Im Vorschaumodus wird das Erlebnis eines [veröffentlichten Substance 3D-Assets](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR) so genau wie möglich dargestellt. Daher gelten die auf dieser Seite aufgeführten Einschränkungen in diesem Modus, z. B. *statische Parameter, die in der Liste nicht vorhanden sind*.
 
 ![Eingabeparameter werden kopiert und eingefügt](../../../assets/copy-paste-params-2.gif "Eingabeparameter werden kopiert und eingefügt"){width="512px"}
 
