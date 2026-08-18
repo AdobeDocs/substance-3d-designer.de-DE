@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-drop-shadow.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-drop-shadow.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Shape-Schlagschatten", um den Formen Schlagschatteneffekte hinzuzufügen, um die Tiefe und Dimension von Texturen zu erzeugen.
 helpx_creative_field: ""

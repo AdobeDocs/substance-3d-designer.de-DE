@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters.html"
 breadcrumb-title: ''
 description: Greifen Sie in Substance 3D Designer auf Filterknoten zu, um Effekte, Anpassungen, Transformationen und Verarbeitungsvorgänge auf Texturen anzuwenden.
 helpx_creative_field: ""

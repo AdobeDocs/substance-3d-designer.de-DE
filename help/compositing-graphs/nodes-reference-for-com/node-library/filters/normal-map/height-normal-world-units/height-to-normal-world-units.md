@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-to-normal-world-units.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-to-normal-world-units.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Height zu Normalen Welteinheiten , um Height-Maps in Normale Maps umzuwandeln, indem Sie die Skalierung der Welteinheit für präzise Details verwenden.
 helpx_creative_field: ""

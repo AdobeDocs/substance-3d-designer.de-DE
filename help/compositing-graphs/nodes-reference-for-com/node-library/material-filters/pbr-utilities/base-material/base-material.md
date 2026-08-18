@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/base-material.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/base-material.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Basismaterial", um Materialeigenschaften für die Neuerstellung physikalisch basierter Basismaterialien zu erstellen.
 helpx_creative_field: ""
@@ -37,7 +37,7 @@ ht-degree: 4%
 
 ## Beschreibung
 
-Der schnellste und einfachste Weg zum Erstellen eines Mehrkanalmaterials in [Adobe Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html). Dieser Knoten gibt ein gebündeltes vollständiges Material zurück, das auf einfachen Farbeinstellungen und -werten basiert. Diese kann dann als Platzhalter verwendet werden oder um sie zu einem komplexen Material zu verfeinern.
+Der schnellste und einfachste Weg zum Erstellen eines Mehrkanalmaterials in [Adobe Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html). Dieser Knoten gibt ein gebündeltes vollständiges Material zurück, das auf einfachen Farbeinstellungen und -werten basiert. Diese kann dann als Platzhalter verwendet werden oder um sie zu einem komplexen Material zu verfeinern.
 
 Der Knoten ist sehr nützlich, wenn Sie vollständige Requisiten texturieren und mehrere Materialien mischen möchten. Sie können sogar jedes einzelne Material von diesem Knoten aus beginnen, ohne jemals eine komplexe Materialbasis zu benötigen.
 

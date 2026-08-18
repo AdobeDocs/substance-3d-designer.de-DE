@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/vector-warp.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/vector-warp.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Vektorverkrümmung", um Texturen mithilfe von Vektorfeldern zu verkrümmen und so flüssige und organische Verzerrungen zu erzeugen.
 helpx_creative_field: ""

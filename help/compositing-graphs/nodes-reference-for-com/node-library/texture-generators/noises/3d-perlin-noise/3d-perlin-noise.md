@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise.html"
 breadcrumb-title: ''
 description: Verwenden Sie den 3D-Knoten "Perlin Noise", um weiche Perlin-Rauschmuster im 3D-Raum zu generieren und so natürlich aussehende volumetrische Texturen zu erstellen.
 helpx_creative_field: ""
