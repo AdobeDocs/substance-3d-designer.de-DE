@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/version-14-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-0.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Designer 14.0, um mehr über neue Knoten, die Diagrammnavigation und Leistungsverbesserungen zu erfahren.
 helpx_creative_field: ""
@@ -38,13 +38,13 @@ Diese Version 14.0 bringt viele neue Inhalte mit den unten aufgeführten neuen K
 
 * <b>Kuwahara-Filter</b>: Wenn du noch mehr mit der Stilisierung erreichen willst, kannst du mithilfe der [Anisotropischen Kuwahara-Farbe](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md) / [Graustufen](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md)-Filter einige malerische Effekte erzeugen. Im Detail wendet es eine anisotrope Richtungsunschärfe an, die den Details des Bildes entspricht. Das Ergebnis ist ein Bild, das so aussieht, als würde es in Richtung der darin enthaltenen Formen fließen.
 
-Diese Knoten (Quantize color und Anisotropic Kuwahara) werden in [diesem Tutorial](https://www.adobe.com/go/designer-tutorial-quantize_de) erläutert. Es zeigt, wie man damit Materialien stilisiert und Farben effizienter und intuitiver handhabt!
+Diese Knoten (Quantize color und Anisotropic Kuwahara) werden in [diesem Tutorial](https://www.adobe.com/go/designer-tutorial-quantize) erläutert. Es zeigt, wie man damit Materialien stilisiert und Farben effizienter und intuitiver handhabt!
 
 Weitere leistungsstarke Knoten nehmen an der Party teil:
 
 * [<b>Kurvenglättung</b>](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md): Diese neue Version unterstützt jetzt alle Kachelmodi korrekt, fügt zwei neue Ausgaben hinzu (Konvexität und Konkavität) und verbessert sowohl die Genauigkeit als auch die Leistung.
 * <b>[Histogramm equalize](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md):</b> Dieser Knoten gleicht das Histogramm für ein Graustufenbild aus, indem Werte angepasst werden, um eine gleiche Verteilung zu erhalten. Dieser Knoten verfügt über zwei Begleitknoten: [Histogramm rendern](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md) zum Ausgeben des Histogramms des Bildes und [Histogramm berechnen](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b> </b> zum Codieren eines Histogramms als Pixelzeile.
-* <b>[Weiche Abschrägung](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md):</b> Dank dieser Vorlage können Sie einen Verlauf oder eine Flächenfarbe von den Rändern einer Maske zeichnen (nach außen, nach innen oder beides). Der Richtungsabstand [Knoten &#x200B;](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b> zeichnet ebenfalls einen Verlauf, jedoch in einer bestimmten Richtung.
+* <b>[Weiche Abschrägung](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md):</b> Dank dieser Vorlage können Sie einen Verlauf oder eine Flächenfarbe von den Rändern einer Maske zeichnen (nach außen, nach innen oder beides). Der Richtungsabstand [Knoten ](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b> zeichnet ebenfalls einen Verlauf, jedoch in einer bestimmten Richtung.
 * <b>[Normal uncombine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md):</b> Dieser Knoten ist das Gegenteil des [Normal combine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md)-Knotens. Die Oberflächendetails, die durch eine Height-Map beschrieben werden, werden von einer Normal-Map entfernt.
 
 <table>

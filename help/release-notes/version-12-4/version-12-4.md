@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/version-12-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-4.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Designer 12.4, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
@@ -34,7 +34,7 @@ Wenn du dein Diagramm bearbeitest, musst du manchmal mehrere Möglichkeiten ausp
 
 ### Eingeben von Formeln in Parameterfelder
 
-Es ist nicht mehr nötig, einen Rechner zu benutzen oder im Kopf zu rechnen, wenn man bestimmte Parameterwerte eingeben will. Sie können jetzt beim Festlegen eines numerischen Werts für einen Parameter in den [Eigenschaften](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) und an anderen Stellen in der Anwendung grundlegende Formeln wie Additionen, Divisionen, Multiplikationen oder Subtraktionen direkt eingeben.
+Es ist nicht mehr nötig, einen Rechner zu benutzen oder im Kopf zu rechnen, wenn man bestimmte Parameterwerte eingeben will. Sie können jetzt beim Festlegen eines numerischen Werts für einen Parameter in den [Eigenschaften](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) und an anderen Stellen in der Anwendung grundlegende Formeln wie Additionen, Divisionen, Multiplikationen oder Subtraktionen direkt eingeben.
 
 ![](../../assets/final-formula.gif){width="640px"}
 
