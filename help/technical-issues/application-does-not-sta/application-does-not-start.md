@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/application-does-not-start.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/technical-issues/application-does-not-start.html"
 breadcrumb-title: ''
 description: Beheben Sie Probleme, die den Start von Substance 3D Designer verhindern, und finden Sie Lösungen zum Starten der Anwendung.
 helpx_creative_field: ""
