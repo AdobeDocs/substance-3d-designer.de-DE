@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Anwendung kann nicht gestartet werden
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 0cbf71a4a03ac7d0dca48b8f41c753e646b7682b
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '828'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Auf dieser Seite werden häufige Ursachen aufgeführt, warum Substance 3D Design
 
 ## Designer 15.0 und höher
 
-<b>![(Fehler)](../../assets/error.svg) Problem </b>
+<b>![(Fehler)](../../assets/error.svg) Problem</b>
 
 Die Versionen 15.0 und höher von Designer können auf Systemen mit integrierter GPU (iGPU) und diskreter GPU (dGPU) nicht gestartet werden.
 
@@ -86,7 +86,7 @@ Wenn ein Upgrade auf Windows 10 nicht möglich ist, *aktualisieren Sie* Ihre Ins
 
 ## Linux
 
-<b>![(Fehler)](../../assets/error.svg) Problem </b>
+<b>![(Fehler)](../../assets/error.svg) Problem</b>
 
 Absturz beim Schließen des Startbildschirms und Anzeigen des Hauptfensters.
 
@@ -174,7 +174,7 @@ apt-get install libxcb-xinput0
 ```
 
 
-<b>![(Fehler)](../../assets/error.svg) Problem </b>
+<b>![(Fehler)](../../assets/error.svg) Problem</b>
 
 Dieser Fehler wird beim Starten von Designer ausgelöst:
 
@@ -193,7 +193,7 @@ Entfernen Sie die <b>`libcrypto.so.1.1`</b>-Bibliothek aus dem Installationsverz
 >
 > Diese Problemumgehung funktioniert nur, wenn das System über eine eigene Bibliothek libcrypto.so.1 verfügt. In aktuellen Distributionen muss möglicherweise ein Kompatibilitätspaket wie <b>libxcrypt-compat</b> installiert werden.
 
-<b>![(Fehler)](../../assets/error.svg) Problem </b>
+<b>![(Fehler)](../../assets/error.svg) Problem</b>
 
 Substance 3D Designer kann nicht auf Systemen gestartet werden, die *Arch-basierte* Linux-Distributionen verwenden.
 
