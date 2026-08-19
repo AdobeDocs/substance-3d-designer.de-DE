@@ -44,7 +44,7 @@ Weitere leistungsstarke Knoten nehmen an der Party teil:
 
 * [<b>Kurvenglättung</b>](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md): Diese neue Version unterstützt jetzt alle Kachelmodi korrekt, fügt zwei neue Ausgaben hinzu (Konvexität und Konkavität) und verbessert sowohl die Genauigkeit als auch die Leistung.
 * <b>[Histogramm equalize](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md):</b> Dieser Knoten gleicht das Histogramm für ein Graustufenbild aus, indem Werte angepasst werden, um eine gleiche Verteilung zu erhalten. Dieser Knoten verfügt über zwei Begleitknoten: [Histogramm rendern](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md) zum Ausgeben des Histogramms des Bildes und [Histogramm berechnen](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b> </b> zum Codieren eines Histogramms als Pixelzeile.
-* <b>[Weiche Abschrägung](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md):</b> Dank dieser Vorlage können Sie einen Verlauf oder eine Flächenfarbe von den Rändern einer Maske zeichnen (nach außen, nach innen oder beides). Der Richtungsabstand [Knoten ](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b> zeichnet ebenfalls einen Verlauf, jedoch in einer bestimmten Richtung.
+* <b>[Weiche Abschrägung](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md):</b> Dank dieser Vorlage können Sie einen Verlauf oder eine Flächenfarbe von den Rändern einer Maske zeichnen (nach außen, nach innen oder beides). Der Richtungsabstand [Knoten &#x200B;](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b> zeichnet ebenfalls einen Verlauf, jedoch in einer bestimmten Richtung.
 * <b>[Normal uncombine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md):</b> Dieser Knoten ist das Gegenteil des [Normal combine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md)-Knotens. Die Oberflächendetails, die durch eine Height-Map beschrieben werden, werden von einer Normal-Map entfernt.
 
 <table>
@@ -198,7 +198,7 @@ Beachten Sie, dass diese Aktualisierungen zwei wichtige Folgen haben:
 * [Inhalt] Veralteter Knoten &quot;Negate Float1&quot; im Substance-Funktionsdiagramm
 * [Inhalt] Benennen Sie &quot;Farbe quantisieren&quot; in &quot;Farbe quantisieren (einfach)&quot; um.
 * [2D-Ansicht] Anzeigen von Werten im Informationenbedienfeld für Pixel außerhalb des Bereichs 0-1
-* [Engine][Text] Neues Kerning für einige Schriftarten
+* [Engine]&#x200B;[Text] Neues Kerning für einige Schriftarten
 * [Graph] Verbessern der Invalidierungszeit bei der Bearbeitung von Deep Untergraphen bei Verwendung der In-Context-Edition
 * [Linker] Bitmaps in SBSASM nicht duplizieren
 * [Parameter] Fügen Sie ein neues Funktions-Widget für alle Eingabeparametertypen hinzu.

@@ -68,7 +68,7 @@ Die Bittiefe ist <b> nicht mehr fest mit 16 Bit verbunden</b>. Sie können jetzt
 
 Die vollständige Liste der aktualisierten Geräusche finden Sie unten in den [Versionshinweisen](#release-notes).
 
-Beispiele:   [Zellen 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [Wolken 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [ Richtungskratzer](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [ Feuchtigkeitsrauschen 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
+Beispiele:   [Zellen 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [Wolken 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [&#x200B; Richtungskratzer](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [&#x200B; Feuchtigkeitsrauschen 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
 ![Geräusche von Richtungsstörungen](../../assets/directionaldisorder.gif){zoomable="yes"}
 
@@ -126,7 +126,7 @@ Wenn Sie z. B. das Fehlen einer Variablen erkennen, können Sie einen Fallback-W
 
 [Weitere Informationen](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)
 
-![Ist Knoten ](../../assets/isdefined.png){zoomable="yes"} definiert
+![Ist Knoten &#x200B;](../../assets/isdefined.png){zoomable="yes"} definiert
 
 ## Versionshinweise
 
@@ -199,8 +199,8 @@ Wenn Sie z. B. das Fehlen einer Variablen erkennen, können Sie einen Fallback-W
 * [3D-Ansicht] Specular level wird nicht korrekt angewendet
 * [3D-Ansicht] Specular edge color funktioniert nicht, wenn Eclair rasterer verwendet wird
 * [3D-Ansicht] Vom Benutzer hinzugefügtes Material wird nicht auf Standardszenen angewendet
-* [3D-Ansicht][Bäcker] Die Materialfarbe ist zu dunkel, wenn sie einmal überschrieben wurde oder wenn ein &quot;Color&quot;-Bäcker verwendet wird
-* [3D-Ansicht][Bäcker] Keine Materialfarbe aus FBX-Datei
+* [3D-Ansicht]&#x200B;[Bäcker] Die Materialfarbe ist zu dunkel, wenn sie einmal überschrieben wurde oder wenn ein &quot;Color&quot;-Bäcker verwendet wird
+* [3D-Ansicht]&#x200B;[Bäcker] Keine Materialfarbe aus FBX-Datei
 * [Bäcker] Materialfarben in FBX-Dateien werden nicht korrekt erkannt
 * [Baker] Die Option &quot;recompute\_tangents&quot; ist in Exporten von JSON-Vorgaben immer &quot;false&quot;.
 * [Bäcker] CLI: Absturz beim aufeinander folgenden Ausführen desselben Bakers über die JSON-Datei
