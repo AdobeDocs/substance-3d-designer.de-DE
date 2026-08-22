@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Maskengeneratoren
 
-Diese Kategorie enthält eine Auswahl von schwarzweißen maskenerzeugenden Knoten. Basierend auf durch Baking erzeugte Map-Informationen erzeugen sie Masken, die dann verwendet werden können, um Materialien und andere Effekte miteinander zu vermischen. Diese Knoten ähneln [Smart Masks](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks) und [Generators](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/generators) im Substance Painter.
+Diese Kategorie enthält eine Auswahl von schwarzweißen maskenerzeugenden Knoten. Basierend auf durch Baking erzeugte Map-Informationen erzeugen sie Masken, die dann verwendet werden können, um Materialien und andere Effekte miteinander zu vermischen. Diese Knoten ähneln [Smart Masks](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/features/smart-materials-and-masks) und [Generators](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/content/creating-custom-effects/generators) im Substance Painter.
 
 Für alle diese Knoten sind [durch Baking erzeugte Map,](../../../../../bakers/bakers.md) erforderlich, da ohne [durch Baking erzeugte Map](../../../../../bakers/bakers.md) kein großes Ergebnis erzielt werden kann.
 

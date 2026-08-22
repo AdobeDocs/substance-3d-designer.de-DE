@@ -37,7 +37,7 @@ ht-degree: 1%
 
 ## Beschreibung
 
-Generiert eine Schwarzweißmaske auf der Grundlage von durch Baking erzeugte Map und Benutzereinstellungen. Ähnlich wie [Smart Masks](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks) in [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home).
+Generiert eine Schwarzweißmaske auf der Grundlage von durch Baking erzeugte Map und Benutzereinstellungen. Ähnlich wie [Smart Masks](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/features/smart-materials-and-masks) in [Painter](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/home).
 
 Dadurch wird ein weißer bis schwarzer Übergang vom unteren zum oberen Rand eines Modells erzeugt. Das ist nützlich, um geometriebasierte Abweichungen und Auswahlen vorzunehmen.
 

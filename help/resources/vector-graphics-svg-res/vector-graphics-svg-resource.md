@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Substance 3D Designer unterstützt über das Scalable Vector-Grafikformat nur eine äußerst begrenzte Form von Vektorgrafiken. SVG-Dateien können auf unterschiedliche Weise als Ressourcen eingefügt und als Ressourcen für Ihre Grafiken verwendet werden.
 
-SVG-Dateien [&#x200B; können über den atomaren SVG-Knoten erstellt oder bearbeitet werden.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) Sie können auch von [dem UV-to-SVG-Bäcker erstellt werden.](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
+SVG-Dateien [&#x200B; können über den atomaren SVG-Knoten erstellt oder bearbeitet werden.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) Sie können auch von [dem UV-to-SVG-Bäcker erstellt werden.](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
 
 >[!NOTE]
 >

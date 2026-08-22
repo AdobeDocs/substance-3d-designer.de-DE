@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Verwitterung
 
-Die Verwitterungsknoten gehen noch einen Schritt weiter, indem [Maskengeneratoren](../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md) verwendet werden: sie machen eine vollständige Materialbewitterung auf der Grundlage von Parametern und durch Baking erzeugte Map. Das Konzept ist [Smart Materials](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks) im Substance Painter sehr ähnlich.
+Die Verwitterungsknoten gehen noch einen Schritt weiter, indem [Maskengeneratoren](../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md) verwendet werden: sie machen eine vollständige Materialbewitterung auf der Grundlage von Parametern und durch Baking erzeugte Map. Das Konzept ist [Smart Materials](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/features/smart-materials-and-masks) im Substance Painter sehr ähnlich.
 
 Sie benötigen eine oder mehrere durch Baking erzeugte Map, um ein vollständiges Ergebnis aus diesen Knoten zu erhalten.
 

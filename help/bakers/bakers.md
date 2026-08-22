@@ -24,7 +24,7 @@ Backen bezieht sich auf die Aktion **Übertragen von netzwerkbasierten Informati
 
 >[!NOTE]
 >
-> Weitere Informationen zum Backen finden Sie in der [Backdokumentation](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).
+> Weitere Informationen zum Backen finden Sie in der [Backdokumentation](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/home).
 
 <table>
 <tr style="border: 0;">
@@ -93,13 +93,13 @@ Dieses Bedienfeld steuert, wo die Textur platziert wird.
 
 ### HD-Meshes
 
-Dieses Bedienfeld steuert die Liste der Gitter mit hohem Poly-Wert und die zugehörigen Einstellungen. Weitere Informationen finden Sie in den [allgemeinen Parametern](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters).
+Dieses Bedienfeld steuert die Liste der Gitter mit hohem Poly-Wert und die zugehörigen Einstellungen. Weitere Informationen finden Sie in den [allgemeinen Parametern](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/bakers-settings/common-parameters).
 
 ![High-Definition-Meshes](../assets/sd-high.png "High-Definition-Meshes")
 
 ### Standardwerte
 
-Weitere Informationen finden Sie in den [allgemeinen Parametern](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters).
+Weitere Informationen finden Sie in den [allgemeinen Parametern](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/bakers-settings/common-parameters).
 
 ![Standardwerte](../assets/sd-default-values.png "Standardwerte")
 
@@ -116,6 +116,6 @@ Jeder Bäcker in der erbt standardmäßig die Standardwerte (siehe oben). Die Gr
 
 Wenn Sie auf einen Bäcker in der Liste klicken, wird die Ansicht &quot;Bäckerparameter&quot; mit den spezifischen Parametern aktualisiert.
 
-Weitere Informationen zu den spezifischen Parametern finden Sie unter: [Baker-Einstellungen](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/bakers-settings).
+Weitere Informationen zu den spezifischen Parametern finden Sie unter: [Baker-Einstellungen](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/bakers-settings/bakers-settings).
 
 ![Baker-Renderliste](../assets/sd-baker-list.png "Baker-Renderliste")

@@ -178,7 +178,7 @@ Zur Visualisierung des Heights stehen zwei Techniken zur Verfügung:
 
 <b>Tesselation + Versatz</b> - Unterteilt die Geometrie und verschiebt die Scheitelpunkte entlang ihrer Normalen.
 
-Das Adobe-Standardmaterial ist in [diesem Abschnitt](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) unserer Dokumentation ausführlich dokumentiert.
+Das Adobe-Standardmaterial ist in [diesem Abschnitt](https://experienceleague.adobe.com/de/docs/substance-3d/general-knowledge/asm/adobe-standard-material) unserer Dokumentation ausführlich dokumentiert.
 
 +++
 
