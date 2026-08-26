@@ -22,7 +22,7 @@ ht-degree: 2%
 ## Fehlerbehebungen
 
 * Fehlerhafte Links in [Übersicht](help/getting-started/overview/overview.md)
-* Fehlerhafte Verknüpfungen und Formatierung im [Ausgabeknoten ](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
+* Fehlerhafte Verknüpfungen und Formatierung im [Ausgabeknoten &#x200B;](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 * HelpX-Verknüpfungen
 * Entfernen Sie das Inhaltsverzeichnis auf der Seite (z. B. neue Geräusche)
 * Knotenseitenlayouts korrigieren (z. B. neue Geräusche)
