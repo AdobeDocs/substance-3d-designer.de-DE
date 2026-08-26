@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
 breadcrumb-title: ''
 description: Lernen Sie die wichtigsten Konzepte des Substance von Compositing-Graphen kennen, einschließlich Knoten, Verbindungen und Workflow-Grundlagen.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/adding-actions-to-the-explorer-toolbar.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/scripting/adding-actions-to-the-explorer-toolbar.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie der Explorer-Symbolleiste in Substance 3D Designer mithilfe von Python-Skripten benutzerdefinierte Aktionen hinzufügen.
 helpx_creative_field: ""

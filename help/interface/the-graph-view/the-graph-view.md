@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: Erfahre, wie du in Substance 3D Designer mithilfe der Diagrammansicht knotenbasierte Materialdiagramme erstellst und bearbeitest.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Auf dieser Seite wird das Diagrammansichtsdock von Substance 3D Designer angezeigt.
 
-Die Diagrammansicht ist das Hauptfenster von [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html), in dem Sie Ihre Diagramme erstellen und bearbeiten. Die Diagrammansicht besteht aus zwei Hauptbereichen: eine Symbolleiste am oberen Rand, die einen schnellen Zugriff auf bestimmte Funktionen bietet, sowie den eigentlichen Diagrammbereich, in dem Knoten platziert sind.
+Die Diagrammansicht ist das Hauptfenster von [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html), in dem Sie Ihre Diagramme erstellen und bearbeiten. Die Diagrammansicht besteht aus zwei Hauptbereichen: eine Symbolleiste am oberen Rand, die einen schnellen Zugriff auf bestimmte Funktionen bietet, sowie den eigentlichen Diagrammbereich, in dem Knoten platziert sind.
 
 Die Diagrammansicht wird für alle Diagrammtypen verwendet, unterscheidet sich jedoch leicht zwischen [Substance-Graphen](../../compositing-graphs/substance-compositing-graphs.md), [Funktionsgraphen](../../function-graphs/function-graphs.md) und [FX-Map-Graphen](../../function-graphs/fxmaps/fxmaps.md), hauptsächlich im Symbolleistenbereich.
 

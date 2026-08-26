@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/retrieving-the-installation-path.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/pipeline-and-project-configuration/retrieving-the-installation-path.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie den Installationspfad von Substance 3D Designer für Skript- und Automatisierungszwecke abrufen.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 8%
 
 # Ermitteln des Installationspfads
 
-Auf dieser Seite werden Informationen über Möglichkeiten zum Abrufen des Installationspfads von [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) je nach Version und Plattform neu gruppiert.
+Auf dieser Seite werden Informationen über Möglichkeiten zum Abrufen des Installationspfads von [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) je nach Version und Plattform neu gruppiert.
 
 ## Windows
 

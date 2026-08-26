@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Greifen Sie auf die vollständige Knotenreferenz für Substance-Compositing-Graphen in Designer zu, um mehr über alle verfügbaren Knoten zu erfahren.
 helpx_creative_field: ""
