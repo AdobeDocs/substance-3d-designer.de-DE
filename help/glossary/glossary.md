@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/glossary.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/glossary.html"
 breadcrumb-title: ''
 description: Greifen Sie auf das Substance 3D Designer-Glossar zu, um Definitionen von Begriffen, Konzepten und technischer Terminologie zu finden.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b><span id="three-d-scene"></span>3D-Szene</b> | Eine Sammlung von Objekten und Daten, die bei der Darstellung und Animation einer Visualisierung des 3D-Raums eine Rolle spielen:<ul data-preserve-html="true"> <li data-preserve-html="true">[Gitter](#mesh)</li> <li data-preserve-html="true">[Materialien](#material)</li> <li data-preserve-html="true">Kameras</li> <li data-preserve-html="true">Lichter</li> <li data-preserve-html="true">Animation</li> <li data-preserve-html="true">Simulationen</li> <li data-preserve-html="true">...</li> </ul>[Beliebte Dateiformate](https://www.adobe.com/products/substance3d/discover/3d-files-formats.html) zum Speichern von 3D-Szenen sind die [USD](#usd) von Pixar und die FBX von Autodesk. Alle Dateiformate unterstützen nicht alle diese Komponenten |
+| <b><span id="three-d-scene"></span>3D-Szene</b> | Eine Sammlung von Objekten und Daten, die bei der Darstellung und Animation einer Visualisierung des 3D-Raums eine Rolle spielen:<ul data-preserve-html="true"> <li data-preserve-html="true">[Gitter](#mesh)</li> <li data-preserve-html="true">[Materialien](#material)</li> <li data-preserve-html="true">Kameras</li> <li data-preserve-html="true">Lichter</li> <li data-preserve-html="true">Animation</li> <li data-preserve-html="true">Simulationen</li> <li data-preserve-html="true">...</li> </ul>[Beliebte Dateiformate](https://www.adobe.com/de/products/substance3d/discover/3d-files-formats.html) zum Speichern von 3D-Szenen sind die [USD](#usd) von Pixar und die FBX von Autodesk. Alle Dateiformate unterstützen nicht alle diese Komponenten |
 
 ## A
 
