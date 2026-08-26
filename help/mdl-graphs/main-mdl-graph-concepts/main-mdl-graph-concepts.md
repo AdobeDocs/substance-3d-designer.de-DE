@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Hauptkonzepte für MDL-Diagramme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Der Stammknoten enthält eine Miniaturansicht mit einer Vorschau seiner aktuelle
 
 ![Stammknoten des MDL-Diagramms](../../assets/mdl-root-hl.png "Stammknoten des MDL-Diagramms")
 
-*Stammknoten in einem MDL-Diagramm und seine Eigenschaften werden im [Eigenschaften](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* *Bedienfeld* angezeigt.
+*Stammknoten in einem MDL-Diagramm und seine Eigenschaften werden im [Eigenschaften](../../interface/properties/properties.md)* *Bedienfeld* angezeigt.
 
 ## Verbindungen und Typen
 
@@ -107,7 +107,7 @@ Beachten Sie die *Regeln*, die für die Filterung angewendet wurden:
 
 ## Diagrammeingaben und Texturen
 
-MDL-Materialien können Daten aus externen Quellen empfangen, beispielsweise in Form von Werten und Texturen. Dies wird erreicht, indem <b>ein Knoten </b> verfügbar gemacht wird, im Gegensatz zum [Substance-Diagramm &#x200B;](../../compositing-graphs/substance-compositing-graphs.md), in dem dedizierte Eingabeknoten für diesen Zweck vorhanden sind.
+MDL-Materialien können Daten aus externen Quellen empfangen, beispielsweise in Form von Werten und Texturen. Dies wird erreicht, indem <b>ein Knoten </b> verfügbar gemacht wird, im Gegensatz zum [Substance-Diagramm ](../../compositing-graphs/substance-compositing-graphs.md), in dem dedizierte Eingabeknoten für diesen Zweck vorhanden sind.
 
 Daten können je nach *Typ* an den angezeigten Knoten übergeben werden. Zum Beispiel können Gleitkommawerte an einen exponierten <b>Gleitkommawert</b>-Knoten übergeben werden, und eine Textur kann an einen exponierten <b>color</b>-Knoten übergeben werden (in diesem Fall werden die RGBA-Werte der aufgenommenen Pixel als Farbwert übergeben).
 

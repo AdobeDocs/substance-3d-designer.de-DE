@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/path-2d-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/path-2d-transform.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "2D-Pfad transformieren", um Pfade mit Translations-, Dreh- und Skalierungsvorgängen zu transformieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pfad-2D-Transformation
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 1%
@@ -51,7 +51,7 @@ Die veränderten Pfade. Sie können entweder [Pfadevorschau](../../../../../../c
 
 ## Parameter
 
-<b>Transformationsmatrix</b> *Gleitkomma4*\
+<b>Transformationsmatrix</b> *Float4*\
 Die Transformationsmatrix, die auf die Splines angewendet wird. Es stehen drei Bearbeitungsmodi für die Matrixparameter zur Verfügung:\
 *- Transformations-Gizmo:* optimieren die Handles des Gizmos, das in der [2D-Ansicht](../../../../../../interface/2d-view/2d-view.md) angezeigt wird, wenn der Knoten 2D-Transformation (Spline) ausgewählt ist;\
 *- Drehung/Dehnung:* Steuern Sie die Drehung und Dehnung der Splines einzeln. Beachten Sie, dass Werte immer relativ zur aktuellen Transformation angewendet werden. Wenn Sie z. B. 50 % Breite zweimal anwenden, erhalten Sie eine Breite von 25 %.\

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/version-12-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-4.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Designer 12.4, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Version 12.4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '820'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Wenn du dein Diagramm bearbeitest, musst du manchmal mehrere Möglichkeiten ausp
 
 ### Eingeben von Formeln in Parameterfelder
 
-Es ist nicht mehr nötig, einen Rechner zu benutzen oder im Kopf zu rechnen, wenn man bestimmte Parameterwerte eingeben will. Sie können jetzt beim Festlegen eines numerischen Werts für einen Parameter in den [Eigenschaften](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) und an anderen Stellen in der Anwendung grundlegende Formeln wie Additionen, Divisionen, Multiplikationen oder Subtraktionen direkt eingeben.
+Es ist nicht mehr nötig, einen Rechner zu benutzen oder im Kopf zu rechnen, wenn man bestimmte Parameterwerte eingeben will. Sie können jetzt direkt grundlegende Formeln wie Additionen, Divisionen, Multiplikationen oder Subtraktionen eingeben, wenn Sie einen numerischen Wert für einen Parameter in den Eigenschaften und an anderen Stellen in der Anwendung festlegen.
 
 ![](../../assets/final-formula.gif){width="640px"}
 
@@ -111,7 +111,7 @@ Diese Version 12.4 bietet auch die vollständige Unterstützung von Substance-Mo
 * [3D-Ansicht] Drahtgitter-Anzeigeeigenschaft wird nicht gespeichert
 * [Inhalt] Die Parameter für die radiale Weichzeichnungsfarbe haben keine Auswirkungen auf den Alphakanal
 * [Lokalisierung] Zusätzliche Schieberegler und Schaltflächen werden in den OpenGL-Eigenschaften der Umgebung angezeigt.
-* [MDL]&#x200B;[Substance-Modell] Absturz beim Löschen exponierter Knoten
+* [MDL][Substance-Modell] Absturz beim Löschen exponierter Knoten
 * [Voreinstellungen] Die Datei Default\_config wird nie neu erstellt, wenn sie gelöscht wird
 * [Substance-Modell] Parameter für die Neuanordnung von Abstürzen, der nicht auf Instanzebene angezeigt wird
 * [API] SDProperty.getDefaultValue() gibt fast immer None zurück.

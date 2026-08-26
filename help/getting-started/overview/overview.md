@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ''
 description: Verschaffe dir einen Überblick über Substance 3D Designer, und erfahre, wie das Programm verfahrensorientierte Materialien und Strukturen erstellt.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Überblick
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: e42fdff3a7e8fca5a6d482bee42bb9f32d019c56
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '929'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Überblick
 
-[Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) ist eine Anwendung zum Erstellen von 2D-Texturen, Materialien und Filtern in einer knotenbasierten Oberfläche mit Schwerpunkt auf prozeduraler Generierung, Parametrisierung und nicht-destruktiven Arbeitsabläufen. Es ist die Anwendung mit der längsten Laufzeit im Substance 3D-Ökosystem. Die damit erstellten Ressourcen sind so vielseitig und dynamisch wie möglich.
+[Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) ist eine Anwendung zum Erstellen von 2D-Texturen, Materialien und Filtern in einer knotenbasierten Oberfläche mit Schwerpunkt auf prozeduraler Generierung, Parametrisierung und nicht-destruktiven Arbeitsabläufen. Es ist die Anwendung mit der längsten Laufzeit im Substance 3D-Ökosystem. Die damit erstellten Ressourcen sind so vielseitig und dynamisch wie möglich.
 
 Im Folgenden wird der Vergleich mit anderen Anwendungen erläutert:
 
@@ -46,11 +46,11 @@ Substance 3D Designer ist ein knotenbasierter Editor, mit dem Sie Inhalte auf vi
 
 <b>[Nicht linear](../../compositing-graphs/substance-compositing-graphs.md) </b>: können Sie eine Vielzahl von Texturausgaben gleichzeitig verfassen. Bearbeiten Sie eine Maske oder einen Schieberegler, und automatisch wird jede verknüpfte Ausgabe neu berechnet. Es ist nicht mehr erforderlich, Karten separat zu erstellen, z. B. Grundfarbe, Raueit, Normal usw.
 
-<b> [Nicht destruktiv](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) </b>: Sie können jede Aktion *rückgängig machen, ohne dass Ihre Arbeit* verloren geht. Das Iterieren und Experimentieren wird viel schneller, da es noch effizientere Workflows ermöglicht.
+<b>[Nicht destruktiv](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) </b>: Sie können jede Aktion *rückgängig machen, ohne dass Ihre Arbeit* verloren geht. Das Iterieren und Experimentieren wird viel schneller, da es noch effizientere Workflows ermöglicht.
 
-<b> [Integrierte Backups](../../bakers/bakers.md) </b>: Greifen Sie direkt in der Software auf erweiterte, rasante Backwerkzeuge für Meshes zu. Sie müssen das Backen nicht mehr in einer separaten Software durchführen und langwierige Import- und Exportprozesse durchführen.
+<b>[Integrierte Datensicherung](../../bakers/bakers.md) </b>: Greifen Sie direkt in der Software auf erweiterte, rasante Backwerkzeuge für Meshes zu. Sie müssen das Backen nicht mehr in einer separaten Software durchführen und langwierige Import- und Exportprozesse durchführen.
 
-<b> [Parametric](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) </b>: kannst du nahezu jeden Aspekt einer Textur mithilfe eines einzelnen Schiebereglers oder einer Dropdown-Liste steuern. Auf diese Weise können Sie einem einzelnen Asset endlose Kontrolle und Variation hinzufügen.
+<b>[Parametrisch](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) </b>: kannst du nahezu jeden Aspekt einer Textur mithilfe eines einzelnen Schiebereglers oder einer Dropdown-Liste steuern. Auf diese Weise können Sie einem einzelnen Asset endlose Kontrolle und Variation hinzufügen.
 
 ## Dateitypen
 
@@ -77,7 +77,7 @@ Substance-Dateien sind die **Hauptquelldateien** für Designer. Wenn Sie eine Su
 
 *(\*.SBSAR)*
 
-Substance-Archive sind <b> kompilierte, optimierte </b> Substance-Dateien. Sie sind viel schneller zu berechnen und können ohne Referenzprobleme leicht geteilt werden. Die Parameter können noch angepasst werden, aber die Bearbeitung des Diagramms ist <b>gesperrt</b>. Substance-Archive können in allen Substance 3D-Anwendungen und allen Anwendungen verwendet werden, die über eine [Substance 3D-Integration](https://experienceleague.adobe.com/de/docs/substance-3d/ecosystem/home) verfügen (einige mit einem externen Plug-in), z. B. Autodesk 3DS Max &amp; Maya, Unreal Engine oder Unity Engine.
+Substance-Archive sind <b> kompilierte, optimierte </b> Substance-Dateien. Sie sind viel schneller zu berechnen und können ohne Referenzprobleme leicht geteilt werden. Die Parameter können noch angepasst werden, aber die Bearbeitung des Diagramms ist <b>gesperrt</b>. Substance-Archive können in allen Substance 3D-Anwendungen und allen Anwendungen verwendet werden, die über eine [Substance 3D-Integration](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home) verfügen (einige mit einem externen Plug-in), z. B. Autodesk 3DS Max &amp; Maya, Unreal Engine oder Unity Engine.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -155,9 +155,9 @@ Die folgenden Ressourcentypen sind vorhanden:
 
 * [Bitmaps](../../resources/bitmap-resource/bitmap-resource.md)
 * [Vektorgrafiken (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [3D-Gitter und Szene](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
-* [Schriftart](../../resources/font-resource/font-resource.md)
-* [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
+* [3D-Szenen](../../resources/3d-scene-resource/3d-scene-resource.md)
+* [Schriften](../../resources/font-resource/font-resource.md)
+* [AxF-Dateien](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
 
 </td>
 </tr>

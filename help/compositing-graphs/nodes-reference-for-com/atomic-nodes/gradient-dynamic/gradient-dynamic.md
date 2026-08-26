@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Verlauf (Dynamisch), um dynamische Farbverläufe zu erstellen, die über Eingabeparameter und Werte gesteuert werden können.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Verlauf (dynamisch)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 9%
@@ -94,7 +94,7 @@ Alternativ kann der Schieberegler für die Verlaufseingabeposition verwendet wer
 
 |  |  |
 | --- | --- |
-| <b>Verlaufsadressierung</b> *Boolescher Wert* | Legt fest, ob sich der Verlauf wiederholt (Musterelemente) oder geklemmt wird.   Dieser Parameter bestimmt, wie HDR-Pixel außerhalb des [0, 1]-Bereichs der Graustufeneingabe behandelt werden: eingeklemmt oder gefaltet bis [0, 1]. |
+| <b>Verlaufsadressierung</b> *Boolescher Wert* | Legt fest, ob sich der Verlauf wiederholt (Musterelemente) oder geklemmt wird.   Dieser Parameter bestimmt, wie HDR-Pixel außerhalb des [0, 1]-Bereichs der Graustufeneingabe behandelt werden: eingeklemmt oder gefaltet bis [0, 1]. |
 | <b>Verlaufsausrichtung</b> *Integer* | Legt die Achse fest, entlang der die &quot;Verlaufseingabe&quot; abgetastet werden soll:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Horizontal:</i> Aufnehmen einer Pixelzeile auf der X-Achse.</li> <li data-preserve-html="true"><i>Vertikal:</i> Nehmen Sie eine Pixelspalte auf der Y-Achse auf.</li> </ul> |
 | <b>Verlaufseingabeposition</b> *Gleitend* | Die normierte Position der Zeile oder Spalte mit Pixeln, die in der &quot;Verlaufseingabe&quot; abgetastet werden soll. |
 

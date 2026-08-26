@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-1.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Richtungsrauschen 1, um Richtungsrauschen-Muster zum Erstellen anisotroper Texturvariationen zu generieren.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: RICHTUNGSRAUSCHEN 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 2%
+source-wordcount: '307'
+ht-degree: 1%
 
 ---
 
@@ -40,26 +40,6 @@ ht-degree: 2%
 Eine Variation der <b>Richtungsrauschen</b>-Geräusche.
 
 Siehe auch: [Richtungsrauschen 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-noise-2/directional-noise-2.md), [Richtungsrauschen 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-noise-3/directional-noise-3.md), [Richtungsrauschen 4](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-noise-4/directional-noise-4.md)
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Ausgaben
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameter
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Beispiele
 
 </td>
 </tr>

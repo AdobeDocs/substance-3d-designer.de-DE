@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
 breadcrumb-title: ''
 description: Erfahren Sie Richtlinien zur Leistungsoptimierung für Substance 3D Designer, um die Diagrammleistung zu verbessern und die Verarbeitungszeit zu reduzieren.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Richtlinien zur Leistungsoptimierung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
@@ -41,12 +41,12 @@ Verwenden Sie die GPU-Substance-Engine (mit Hotkey F9 wechseln), es sei denn, Si
 +++
 
 +++Das Wechseln der übergeordneten Auflösung des Diagramms ist langsam
-Es berechnet Graph, Cache und alle Miniaturansichten neu. Es ist besser, [die Registerkarte <b>Batch </b> des Exportdialogs &#x200B;](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md) zu verwenden, da dadurch eine umfangreiche, nicht benötigte Neuberechnung vermieden wird (z. B. beim Export in die Auflösung 8192).
+Es berechnet Graph, Cache und alle Miniaturansichten neu. Es ist besser, [die Registerkarte <b>Batch </b> des Exportdialogs ](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md) zu verwenden, da dadurch eine umfangreiche, nicht benötigte Neuberechnung vermieden wird (z. B. beim Export in die Auflösung 8192).
 
 +++
 
 +++In Extremfällen kann ein erhöhter Speicher-Cache erforderlich sein
-Die Anwendung &quot;[&quot; begrenzt den Arbeitsspeicher, der &#x200B;](../../interface/preferences-window/preferences-window.md) für den Bildcache verwendet werden kann. Sie können diesen jedoch überschreiben und erhöhen (mit Vorsicht).
+Die Anwendung &quot;[&quot; begrenzt den Arbeitsspeicher, der ](../../interface/preferences-window/preferences-window.md) für den Bildcache verwendet werden kann. Sie können diesen jedoch überschreiben und erhöhen (mit Vorsicht).
 
 +++
 
@@ -65,7 +65,7 @@ Farbvorgänge dauern viermal länger als Graustufenvorgänge. Versuchen Sie auß
 +++
 
 +++8 Bit verwenden, wenn 16 Bit nicht benötigt wird
-Die CPU-Version des Substance Engine (SSE2) *unterstützt weder 16-Bit-Farbton noch 8-Bit-Graustufen.* Die GPU-Engine unterstützt alle 4 Kombinationen von 8/16 Bit und Graustufen/Farbe. *Derzeit wird nur das CPU-Modul in Unity- und Unreal Engine-Plug-ins verwendet*.
+Die CPU-Version des Substance Engine (SSE2) *unterstützt weder 16-Bit-Farbton noch 8-Bit-Graustufen.* Die GPU-Engine unterstützt alle 4 Kombinationen von 8/16 Bit und Graustufen/Farbe. *Derzeit wird nur das CPU-Modul in Unity- und Unreal Engine-Plug-ins verwendet*.
 
 +++
 
@@ -141,7 +141,7 @@ Auf diese Weise ändert sich die Bitmapgröße basierend auf dem übergeordneten
 
 >[!WARNING]
 >
-> Durch Festlegen eines Knotens vom Typ [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) auf &quot;Relativ zum übergeordneten Knoten&quot; und [Veröffentlichen](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) des Diagramms in einem Substance 3D-Asset (SBSAR) wird die Bitmap mit einer Auflösung von **256x256** anstelle ihrer Originalgröße gespeichert. Es wird empfohlen, stattdessen die [Vererbungsmethode](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) der Bitmapknoten &quot;[Ausgabegröße](../../compositing-graphs/output-size/output-size.md)&quot; als &quot;Absolut&quot; zu behalten und einen [Transformations 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)-Knoten auf &quot;Relativ zum übergeordneten Knoten&quot; direkt nach dem Bitmapknoten festzulegen.
+> Durch Festlegen eines Knotens vom Typ [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) auf &quot;Relativ zum übergeordneten Knoten&quot; und [Veröffentlichen](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) des Diagramms in einem Substance 3D-Asset (SBSAR) wird die Bitmap mit einer Auflösung von **256x256** anstelle ihrer Originalgröße gespeichert. Es wird empfohlen, stattdessen die [Vererbungsmethode](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) der Bitmapknoten &quot;[Ausgabegröße](../../compositing-graphs/output-size/output-size.md)&quot; als &quot;Absolut&quot; zu behalten und einen [Transformations 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)-Knoten auf &quot;Relativ zum übergeordneten Knoten&quot; direkt nach dem Bitmapknoten festzulegen.
 
 ![Eingebettete Bitmapoptimierung 1](../../assets/input-1.jpg "Eingebettete Bitmapoptimierung 1")
 
@@ -151,7 +151,7 @@ Auf diese Weise ändert sich die Bitmapgröße basierend auf dem übergeordneten
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Außerdem wird empfohlen, das Format von Bitmap-Ressourcen auf JPEG festzulegen, um die Größe von [veröffentlichten](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) Substance 3D Assets (SBSAR) zu minimieren.
+Es wird außerdem empfohlen, das Format von Bitmap-Ressourcen auf JPEG festzulegen, um die Größe veröffentlichter Substance 3D Assets (SBSAR) zu minimieren.
 
 </td>
 <td style="border: 0;" valign="top">

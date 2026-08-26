@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Verlaufsumsetzung", um Graustufenwerte Farben mithilfe von Verlaufsrampen für Färbungen und Effekte zuzuordnen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Verlaufsumsetzung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 2%
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 Ordnet die Graustufenwerte in einem Bild mithilfe eines benutzerdefinierten Verlaufs neu zu.
 
-Dieser Knoten erfüllt einen doppelten Zweck: Es kann einfach als <b> </b>Grayscale-to-Color-Konvertierungsknoten verwendet werden oder um Graustufeneingaben zu kolorieren, indem es einem benutzerdefinierten Farbrampen zugeordnet wird.
+Dieser Knoten erfüllt einen doppelten Zweck: Es kann einfach als <b> verwendet werden. </b>-Knoten für die Konvertierung von Graustufen in Farben oder zum Kolorieren von Graustufen-Eingaben in einer Zuordnung zu einem benutzerdefinierten Farbbalken.
 
 </td>
 </tr>
@@ -67,7 +67,7 @@ Der Knoten bietet einen erweiterten und funktionsreichen Verlaufseditor, mit dem
 | --- | --- |
 | <b>Farbmodus</b> *Boolescher Wert* | Legt den Ausgabemodus auf &quot;Farbe&quot; oder &quot;Graustufen&quot; fest. |
 | <b>Verlaufsadressierung</b> *Boolescher Wert* | Setzt den Verlauf entweder auf die Wiederholung (Kachel) oder auf Klemmwerte, die außerhalb des Bereichs [0, 1] liegen. |
-| <b>Verlauf</b> *Array von Verlaufsschlüsseln* | Die benutzerdefinierte Verlaufsrampe, die zum Zuordnen der eingegebenen Graustufenwerte verwendet wird.   Kann an Ort und Stelle oder mit dem [Verlaufseditor](#gradient-editor) bearbeitet werden. |
+| <b>Verlauf</b> *Array von Verlaufsschlüsseln* | Die benutzerdefinierte Verlaufsrampe, die zum Zuordnen der eingegebenen Graustufenwerte verwendet wird.   Kann an Ort und Stelle oder mit dem [Verlaufseditor](#gradient-editor) bearbeitet werden. |
 
 ## Verlaufseditor
 

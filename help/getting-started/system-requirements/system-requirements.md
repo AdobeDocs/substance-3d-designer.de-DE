@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/getting-started/system-requirements.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/system-requirements.html"
 breadcrumb-title: ''
 description: Überprüfen Sie die Systemanforderungen für Substance 3D Designer , um sicherzustellen, dass Ihr Computer die erforderlichen Spezifikationen erfüllt.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Systemanforderungen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ec787363bab8318804a71d6cf7c5484fc67a987e
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Im Folgenden finden Sie eine Liste der mit der Anwendung kompatiblen GPU:
 >
 > **TDR (nur Windows)**
 > 
-> Für die beste Gesamtstabilität bei der Durchführung umfangreicher Berechnungen auf der GPU - z. B. Rendern komplexer Diagramme, Rendern in der 3D-Ansicht, Exportieren einer Szene aus der 3D-Ansicht usw. - wird dringend empfohlen, sicherzustellen, dass die <b>Timeout Detection and Recovery (TDR)</b>-Werte mit den Empfehlungen in [dieser Seite](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) unserer Dokumentation übereinstimmen.
+> Für die beste Gesamtstabilität bei der Durchführung umfangreicher Berechnungen auf der GPU - z. B. Rendern komplexer Diagramme, Rendern in der 3D-Ansicht, Exportieren einer Szene aus der 3D-Ansicht usw. - wird dringend empfohlen, sicherzustellen, dass die <b>Timeout Detection and Recovery (TDR)</b>-Werte mit den Empfehlungen in [dieser Seite](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) unserer Dokumentation übereinstimmen.
 
 ## Nicht unterstützte Konfigurationen
 
@@ -100,7 +100,7 @@ Im Folgenden finden Sie eine Liste der mit der Anwendung kompatiblen GPU:
 
 Im Folgenden finden Sie eine Liste der erforderlichen Mindestversionen von GPU-Treibern, damit die Anwendung problemlos ausgeführt werden kann. Diese Liste kann mit der Veröffentlichung neuer Versionen geändert werden.
 
-Informationen zum Herunterladen neuer Treiber finden Sie unter: [GPU hat veraltete Treiber](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers).
+Informationen zum Herunterladen neuer Treiber finden Sie unter: [GPU hat veraltete Treiber](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers).
 
 | Betriebssystem | NVIDIA | AMD | Intel |
 | --- | --- | --- | --- |
@@ -117,7 +117,7 @@ Um GPU-Raytracing über Optix oder DXR zu aktivieren, müssen die oben empfohlen
 
 <b>DXR</b> erfordert die folgende Mindestkonfiguration:
 
-* <b>Windows 10</b> Version 1809. Weitere Informationen finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/features/gpu-raytracing).
+* <b>Windows 10</b> Version 1809. Weitere Informationen finden Sie auf [dieser Seite](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing).
 * <b>GPU mit Pascal-Architektur</b> (Nvidia GeForce 10XX)
 
 >[!TIP]
@@ -126,7 +126,7 @@ Um GPU-Raytracing über Optix oder DXR zu aktivieren, müssen die oben empfohlen
 
 ## Tablets verwenden
 
-Tablet-Benutzer unter <b>Windows</b> sollten die auf der folgenden Seite beschriebenen Einstellungen anwenden, um die zuverlässigste Erfahrung zu erzielen: [Konfigurieren von Stiften und Tablets](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets).
+Tablet-Benutzer unter <b>Windows</b> sollten die auf der folgenden Seite beschriebenen Einstellungen anwenden, um die zuverlässigste Erfahrung zu erzielen: [Konfigurieren von Stiften und Tablets](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets).
 
 ## Sprachen
 

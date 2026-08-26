@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/preferences-window/version-control.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/version-control.html"
 breadcrumb-title: ''
 description: Konfigurieren Sie die Versionskontrolleinstellungen in den Substance 3D Designer-Voreinstellungen, um sie mit Git und anderen Systemen zu integrieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versionskontrolle
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -54,10 +54,10 @@ cVerbose = False
 
 Die Versionskontrolle ist in den [Projekteinstellungen](../../../interface/preferences-window/project-settings/project-settings.md) konfiguriert, die in den [Voreinstellungen](../../../interface/preferences-window/preferences-window.md) von Designer verfügbar sind.
 
-Registerkarte ![&#x200B; &quot;Versionskontrolle&quot; in den Projekteinstellungen &#x200B;](../../../assets/p4v-project-settings.jpg " Registerkarte &quot;Versionskontrolle&quot; in den Projekteinstellungen "){zoomable="yes"}
+Registerkarte ![ &quot;Versionskontrolle&quot; in den Projekteinstellungen ](../../../assets/p4v-project-settings.jpg " Registerkarte &quot;Versionskontrolle&quot; in den Projekteinstellungen "){zoomable="yes"}
 
 1. Gehen Sie zu &quot;Bearbeiten > Voreinstellungen&quot;.
-1. Wechseln Sie zu &quot;Projekte&quot;, wählen Sie die Zielprojektdatei &quot;[&quot; aus &#x200B;](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) und wechseln Sie zur Registerkarte &quot;Versionskontrolle&quot;.
+1. Wechseln Sie zu &quot;Projekte&quot;, wählen Sie die Zielprojektdatei &quot;[&quot; aus ](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) und wechseln Sie zur Registerkarte &quot;Versionskontrolle&quot;.
 1. Aktivieren Sie &quot;Versionskontrolle aktiviert&quot;.
 1. Füllen Sie diese Informationen im Abschnitt &quot;Arbeitsbereich&quot; aus:
 
@@ -78,7 +78,7 @@ Sie können Folgendes verwenden:
 * Ein Skript *pro* Aktion
 * Ein Skript für *alle* Aktionen
 
-Ein Starterskript für alle Aktionen ist in der Installation von Designer verfügbar: &quot;*tools/version\_control/perforce.py*&quot;.
+Ein Starterskript für alle Aktionen ist in der Installation von Designer verfügbar: &#39;*tools/version\_control/perforce.py*&#39;.
 
 >[!IMPORTANT]
 >
@@ -113,8 +113,8 @@ Da alle Versionskontrollwerkzeuge unterschiedlich sind und viele Funktionen enth
 1. Je nach Status der Paketdatei im Arbeitsbereich stehen mehrere Aktionen zur Verfügung:
 
    * <b>Hinzufügen:</b> Markieren Sie die Dateien als &quot;ToAdd&quot;.
-   * <b>Senden:</b> Senden Sie die ausgewählten Pakete. Mit dieser Aktion wird ein Dialogfeld zum Festlegen einer Änderungsnachricht angezeigt (siehe unten).
-   * <b>Zurücksetzen:</b> Stellen Sie die Änderungen wieder her. Diese Aktion zeigt ein Dialogfeld zum Auswählen der Dateien an, die zurückgesetzt werden sollen (siehe unten)
+   * <b>Senden:</b> Senden Sie die ausgewählten Pakete. Mit dieser Aktion wird ein Dialogfeld zum Festlegen einer Änderungsnachricht angezeigt (siehe unten).
+   * <b>Zurücksetzen:</b> Stellen Sie die Änderungen wieder her. Diese Aktion zeigt ein Dialogfeld zum Auswählen der Dateien an, die zurückgesetzt werden sollen (siehe unten)
    * <b>Auschecken:</b> Auschecken der Datei aus dem Depot
    * <b>Letzte Version abrufen:</b> Abrufen der neuesten Version aus dem Depot
    * <b>Status aktualisieren:</b> Status der Paketdatei aktualisieren
@@ -123,12 +123,12 @@ Da alle Versionskontrollwerkzeuge unterschiedlich sind und viele Funktionen enth
    <tr style="border: 0;">
    <td style="border: 0;" valign="top">
 
-   ![&#x200B; Dialogfeld &quot;Senden&quot;](../../../assets/p4v-submit.jpg " Dialogfeld &quot;Senden&quot;"){zoomable="yes"}
+   ![ Dialogfeld &quot;Senden&quot;](../../../assets/p4v-submit.jpg " Dialogfeld &quot;Senden&quot;"){zoomable="yes"}
 
    </td>
    <td style="border: 0;" valign="top">
 
-   ![&#x200B; Dialogfeld &quot;Zurücksetzen&quot; &#x200B;](../../../assets/p4v-revert.jpg " Dialogfeld &quot;Zurücksetzen&quot; "){zoomable="yes"}
+   ![ Dialogfeld &quot;Zurücksetzen&quot; ](../../../assets/p4v-revert.jpg " Dialogfeld &quot;Zurücksetzen&quot; "){zoomable="yes"}
 
    </td>
    </tr>

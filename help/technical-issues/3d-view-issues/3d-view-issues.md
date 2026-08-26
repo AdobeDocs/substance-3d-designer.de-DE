@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ''
 description: Beheben Sie Probleme mit der 3D-Ansicht in Substance 3D Designer, einschließlich Rendering-, Anzeige- und Leistungsproblemen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Probleme mit 3D-Ansicht
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: d81d92788a4d52b5ae1ed3ac4287f07260894f3c
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1643'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Version 15.1 und höher
 
 Die neuen 3D-Renderer wurden in Version 15.1 aktualisiert und erfordern aktuelle GPU-Treiber. Aktualisieren Sie die GPU-Treiber Ihres Systems auf die neueste Version.
 
-Hier finden Sie Treiber:   [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us) [AMD](https://www.amd.com/en/support) [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+Hier finden Sie Treiber:   [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 Version 15.0 und höher
 
@@ -93,7 +93,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) hat unsere n
 
 Zu den unterstützten GPUs gehören die NVIDIA RTX 20-Serie (Turing) oder höher gemäß den [Systemanforderungen von Designer](../../getting-started/system-requirements/system-requirements.md).
 
-Sie können den OpenGL-Renderer standardmäßig weiterhin verwenden, indem Sie die Option [neu in den Projekteinstellungen &#x200B;](../../interface/preferences-window/project-settings/project-settings.md) verwenden:
+Sie können den OpenGL-Renderer standardmäßig weiterhin verwenden, indem Sie die Option [neu in den Projekteinstellungen ](../../interface/preferences-window/project-settings/project-settings.md) verwenden:
 
 1. Gehen Sie zu Bearbeiten > Voreinstellungen > Projekte .
 2. Die letzte Projektdatei in der Liste auswählen
@@ -231,7 +231,7 @@ Designer wendet keine Standardskala und -abweichung an, es sei denn, sie werden 
 
 Für Szenen, die vor einiger Zeit in USD-Formate exportiert wurden: Exportieren Sie die Szene erneut mit einer aktuellen Version von USD, die die erforderlichen Daten enthält. Achten Sie auf Eigenschaften im Zusammenhang mit der normalen Skalierung und der Voreinstellung, sofern vorhanden, die von der Software abhängen, die zum Exportieren der Szene verwendet wird.
 
-Wenn [&#x200B; ein Material &#x200B;](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) überschreibt, verarbeitet Designer das Gitter und berechnet alle fehlenden Daten im Zusammenhang mit seinen Normalen, Tangenten und Binormalen. Wenn die Standardeinstellungen für Skalierung und Bias von Designer mit denen für das Gitter übereinstimmen, wird das Gitter korrekt angezeigt, wenn es überschrieben wird.
+Wenn [ ein Material ](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) überschreibt, verarbeitet Designer das Gitter und berechnet alle fehlenden Daten im Zusammenhang mit seinen Normalen, Tangenten und Binormalen. Wenn die Standardeinstellungen für Skalierung und Bias von Designer mit denen für das Gitter übereinstimmen, wird das Gitter korrekt angezeigt, wenn es überschrieben wird.
 
 ## Absturz beim Starten der 3D-Ansicht
 
@@ -243,7 +243,7 @@ Designer stürzt beim Starten der 3D-Ansicht ab, wenn ein Projekt erstellt wird,
 
 Stellen Sie zunächst sicher, dass Ihr System die [Systemanforderungen](../../getting-started/system-requirements/system-requirements.md) von Designer erfüllt.
 
-Aktualisieren Sie dann Ihre Grafiktreiber. Sie können die neuesten Treiber für Ihre GPU über die folgenden Links finden: [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+Aktualisieren Sie dann Ihre Grafiktreiber. Sie können die neuesten Treiber für Ihre GPU finden, indem Sie auf diese Links klicken:   [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 Wenn Ihr System sowohl eine integrierte GPU (iGPU) als auch eine separate GPU (dGPU) enthält, stellen Sie sicher, dass *die Treiber für beide aktualisieren*!
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über die Oberfläche des Substance 3D Designer-Arbeitsbereichs, einschließlich Ansichten, Bedienfeldern und Anpassungsoptionen.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Arbeitsbereich
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 163ef15c862c56a1b59a4ccd47f4396c825be18f
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '533'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ Mit der Hauptsymbolleiste können Sie auf zusätzliche Menüs zugreifen, z. B. a
 * <b>Bearbeiten: </b>Bietet Funktionen zum Rückgängigmachen und Wiederholen (unten als Schnellschaltflächen verfügbar) sowie Zugriff auf [Voreinstellungen](../interface/preferences-window/preferences-window.md) für die Anpassung in der Tiefe.
 * <b>Extras:</b> Steuert das Substance Engine und ermöglicht den Zugriff auf den Plug-in-Manager.
 * <b>Windows:</b> Ermöglicht das Ein- und Ausblenden der Fenster (einige sind standardmäßig ausgeblendet). Sie können das Fensterlayout auf die Standardeinstellungen zurücksetzen.
-* <b>Hilfe: </b>Bietet Zugriff auf zusätzliche Informationen und Onlineressourcen, wie z. B. die Substance Academy oder diese Dokumentationswebsite.
+* <b>Hilfe: </b>Bietet Zugriff auf zusätzliche Informationen und Online-Ressourcen, wie z. B. die Substance Academy oder diese Dokumentationswebsite.
 
 ## Explorer
 
@@ -93,19 +93,19 @@ Mit der Hauptsymbolleiste können Sie auf zusätzliche Menüs zugreifen, z. B. a
 
 ## Diagrammansicht
 
-[Das Diagrammansichtsdock &#x200B;](../interface/the-graph-view/the-graph-view.md) ist das wichtigste Fenster in Substance 3D Designer. Es zeigt die Knotennetzwerke jeder Diagrammart an, die in Designer verfügbar ist ([Substance-Diagramme](../compositing-graphs/substance-compositing-graphs.md), [Substance-Funktionsdiagramme](../function-graphs/function-graphs.md), [FX-Map-Diagramme](../function-graphs/fxmaps/fxmaps.md)), und ermöglicht das Erstellen und Bearbeiten dieser Diagramme.
+[Das Diagrammansichtsdock ](../interface/the-graph-view/the-graph-view.md) ist das wichtigste Fenster in Substance 3D Designer. Es zeigt die Knotennetzwerke jeder Diagrammart an, die in Designer verfügbar ist ([Substance-Diagramme](../compositing-graphs/substance-compositing-graphs.md), [Substance-Funktionsdiagramme](../function-graphs/function-graphs.md), [FX-Map-Diagramme](../function-graphs/fxmaps/fxmaps.md)), und ermöglicht das Erstellen und Bearbeiten dieser Diagramme.
 
 ![Diagrammansicht](../assets/graph-6.png "Diagrammansicht")
 
 ## Eigenschaften
 
-[Das Eigenschaften-Dock &#x200B;](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) ist das technisch ausgereifteste Fenster. Es ist immer kontextsensitiv und enthält Schieberegler, Dropdown-Listen und andere Elemente, die das Verhalten einer ausgewählten Ressource oder eines ausgewählten Knotens ändern.
+Das [Eigenschaften-Dock](properties/properties.md) ist das technisch ausgereifteste Fenster. Es ist immer kontextsensitiv und enthält Schieberegler, Dropdown-Listen und andere Elemente, die das Verhalten einer ausgewählten Ressource oder eines ausgewählten Knotens ändern.
 
 ![Eigenschaften](../assets/properties-15.jpg "Eigenschaften")
 
 ## 2D-Ansicht
 
-[Die 2D-Ansicht &#x200B;](../interface/2d-view/2d-view.md) ist das einfachste Vorschauwerkzeug. Es arbeitet eng mit der Grafik zusammen: Wenn Sie auf einen Knoten in der Diagrammansicht doppelklicken, wird das visuelle Ergebnis in der 2D-Ansicht angezeigt.
+[Die 2D-Ansicht ](../interface/2d-view/2d-view.md) ist das einfachste Vorschauwerkzeug. Es arbeitet eng mit der Grafik zusammen: Wenn Sie auf einen Knoten in der Diagrammansicht doppelklicken, wird das visuelle Ergebnis in der 2D-Ansicht angezeigt.
 
 ![2D-Ansicht](../assets/2d-view-1.jpg "2D-Ansicht")
 
@@ -117,6 +117,6 @@ Mit der Hauptsymbolleiste können Sie auf zusätzliche Menüs zugreifen, z. B. a
 
 ## Bibliothek
 
-[Das Bibliotheks-Dock &#x200B;](../interface/the-library/the-library.md) bietet standardmäßig Zugriff auf alle Inhalte, die in der Designer-Bibliothek enthalten sind, sowie auf Ihre [benutzerdefinierten Inhalte](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md). Um den Unterschied zwischen den Atomknoten und den Instanzknoten in der Bibliothek besser zu verstehen, lesen Sie unbedingt die Übersicht über die [Knoten](https://helpx.adobe.com/substance-designer/using/nodes-overview.html).
+[Das Bibliotheks-Dock ](../interface/the-library/the-library.md) bietet standardmäßig Zugriff auf alle Inhalte, die in der Designer-Bibliothek enthalten sind, sowie auf Ihre [benutzerdefinierten Inhalte](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md). Um den Unterschied zwischen den Atomknoten und den Instanzknoten in der Bibliothek besser zu verstehen, lesen Sie unbedingt die Übersicht über die [Knoten](https://helpx.adobe.com/substance-designer/using/nodes-overview.html).
 
 ![Bibliothek](../assets/library-3.jpg "Bibliothek")

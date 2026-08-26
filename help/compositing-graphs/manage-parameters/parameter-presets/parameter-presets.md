@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Parametervorgaben in Substance 3D Designer erstellen und verwenden, um Parameterkonfigurationen zu speichern und anzuwenden.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Parametervorgaben
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Es gibt zwei Möglichkeiten, Vorgaben zu speichern und zu laden. Beide bieten un
 
 Externe Vorgaben umfassen eine externe Datei auf dem Datenträger, eine \*.SBSPRS-Datei. Sie können zwischen verschiedenen Graphen und Knoten übertragen werden, jedoch nur innerhalb der Anwendung. Ihr Hauptzweck ist genau das: mehrere Werte zu groß übertragen, um sie einzeln zu kopieren.
 
-Externe Vorgaben sind für alle spezifischen Parameter auf [Graph-Instanzen](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), für die meisten spezifischen Parameter auf [Atomknoten](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ([Ausnahmen sind die Parameter, die nicht verfügbar gemacht werden können](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)) und für die angezeigten Eingabeparameter in den Eigenschaften eines [Graphs verfügbar.](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)
+Externe Vorgaben sind für alle spezifischen Parameter in [Graph-Instanzen](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), für die meisten spezifischen Parameter in [Atomknoten](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ([Ausnahmen sind die Parameter, die nicht verfügbar gemacht werden können](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)) und für die angezeigten Eingabeparameter in den [Parametern](../../graph-parameters/graph-parameters.md) eines Substance-Diagramms verfügbar.
 
 Sie werden einfach gespeichert und über dieses Menü geladen. Die gespeicherten SBSPRS-Dateien können auf jedem anderen Knoten oder Diagramm geladen werden.
 

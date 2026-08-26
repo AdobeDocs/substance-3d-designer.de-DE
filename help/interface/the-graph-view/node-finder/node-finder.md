@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-graph-view/node-finder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Node Finder, um schnell nach Knoten in Ihren Substance-Graphen zu suchen und diese zu finden, um eine effiziente Navigation zu gewährleisten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Knotensucher
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![Knotensuchersymbolleiste](../../../assets/node-finder-toolbar.png "Knotensuchersymbolleiste"){zoomable="yes"}
 
-Mit dem Node Finder-Tool können Sie eine <b>Suche nach Knoten und Variablen</b> mithilfe einer Textabfrage durchführen. Alle Knoten, die nicht mit der Abfrage übereinstimmen, sind abgeblendet, damit die Ergebnisse hervorstechen.
+Mit dem Node Finder-Tool können Sie eine <b>Suche nach Knoten und Variablen</b> mithilfe einer Textabfrage durchführen. Alle Knoten, die nicht mit der Abfrage übereinstimmen, sind abgeblendet, damit die Ergebnisse hervorstechen.
 
 Die Abfrage kann mit einem dieser Kriterien übereinstimmen:
 
@@ -31,7 +31,7 @@ Die Abfrage kann mit einem dieser Kriterien übereinstimmen:
 * <b>UID</b> eines Knotens (eindeutiger Bezeichner)
 * Die <b>Bezeichnung</b> eines Knotens
 
-Die Suche kann [Grapheninstanzen](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) rekursiv durchlaufen, sodass Knoten und Variablen in [Untergraph](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) gefunden werden können. Wenn Sie sich nicht sicher sind, welchen Begriff Sie genau suchen müssen, ist eine Fuzzy-Suchoption verfügbar, mit der Sie eine Toleranz auf die Abfrage anwenden können.
+Die Suche kann [Grapheninstanzen](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) rekursiv durchlaufen, sodass Knoten und Variablen in [Untergraph](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) gefunden werden können. Wenn Sie sich nicht sicher sind, welchen Begriff Sie genau suchen müssen, ist eine Fuzzy-Suchoption verfügbar, mit der Sie eine Toleranz auf die Abfrage anwenden können.
 
 ## Benutzeroberfläche
 
@@ -182,7 +182,7 @@ Die QuickInfo von Instanzknoten enthält die Kennung ihres referenzierten Diagra
 
 ### Verfügbare Parameter und Variablen
 
-Der Bezeichner von [verfügbar gemachten Parametern &#x200B;](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) oder eine andere Variable kann direkt durchsucht werden.
+Der Bezeichner von [verfügbar gemachten Parametern ](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) oder eine andere Variable kann direkt durchsucht werden.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">

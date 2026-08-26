@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
 breadcrumb-title: ''
 description: Verwende Werkzeuge zur Vektorbearbeitung, um in Substance 3D Designer SVG-Grafiken für prozedurale Texturen zu erstellen und zu bearbeiten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Werkzeuge zur Vektorbearbeitung.
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1850'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Auf dieser Seite werden die Bearbeitungswerkzeuge beschrieben, die im Bedienfeld
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Das Bedienfeld [2D View](https://docs.substance3d.com/display/SDDOC/2D+view) bietet einfache Vektorbearbeitungswerkzeuge, mit denen Sie Vektorgrafiken *manuell* direkt in [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) erstellen oder bearbeiten können. Diese Tools sind besonders nützlich, um beispielsweise schnell *Masken* oder *Muster* zu erstellen.
+Das Bedienfeld [2D View](https://docs.substance3d.com/display/SDDOC/2D+view) bietet einfache Vektorbearbeitungswerkzeuge, mit denen Sie Vektorgrafiken *manuell* direkt in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) erstellen oder bearbeiten können. Diese Tools sind besonders nützlich, um beispielsweise schnell *Masken* oder *Muster* zu erstellen.
 
 Die Werkzeuge unterstützen die Stifteingabe. Um die Vorteile von Stiftanzeigen zu nutzen, können Sie das Bedienfeld [2D-Ansicht](https://docs.substance3d.com/display/SDDOC/2D+view) [abdocken](https://docs.substance3d.com/display/SDDOC/Customizing+your+workspace) und es dann in eine beliebige Konfiguration platzieren und skalieren, die für das Malen angenehmer ist.
 
@@ -59,7 +59,7 @@ Bearbeitungen können *einzeln rückgängig gemacht werden*, und alle anderen Fu
 
 Die Vektorbearbeitungswerkzeuge werden im Bedienfeld [2D-Ansicht](https://docs.substance3d.com/display/SDDOC/2D+view) automatisch aktiviert, wenn die folgenden Kriterien für ein Vektorgrafikbild erfüllt sind:
 
-* Das Vektorgrafikbild ist eine [neue oder importierte &#x200B;](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources)-Ressource.
+* Das Vektorgrafikbild ist eine [neue oder importierte ](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources)-Ressource.
 * Die Bitmap wird im Bereich [2D-Ansicht](https://docs.substance3d.com/display/SDDOC/2D+view) angezeigt.
 
 *Neue* Vektorgrafikbilder können auf folgende Weise erstellt werden:

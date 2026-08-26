@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
 breadcrumb-title: ''
 description: Verwenden Sie die Knotenausrichtungswerkzeuge, um Knoten in der Diagrammansicht für sauberere, besser lesbare Diagramme zu organisieren und auszurichten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Werkzeuge zur Knotenausrichtung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ![Knotenausrichtungssymbolleiste](../../../assets/node-alignment-toolbar.png "Knotenausrichtungssymbolleiste"){zoomable="yes"}
 
-Mit den Knotenausrichtungs-Tools können Sie Knoten in Diagrammen anordnen, um deren Lesbarkeit und Authoring-Erfahrung zu verbessern. Sie bieten Aktionen zum Ausrichten von Knoten, zum gleichmäßigen Verteilen und zum Ausrichten am Raster.
+Mit den Knotenausrichtungs-Tools können Sie Knoten in Diagrammen anordnen, um deren Lesbarkeit und Authoring-Erfahrung zu verbessern. Sie bieten Aktionen zum Ausrichten von Knoten, zum gleichmäßigen Verteilen und zum Ausrichten am Raster.
 
 Sie wirken auf die <b> Knoten, die derzeit nur </b> ausgewählt sind.
 
@@ -32,7 +32,7 @@ Sie wirken auf die <b> Knoten, die derzeit nur </b> ausgewählt sind.
 > 
 > Einige Aktionen verfügen über Tastaturbefehle für den schnellen Zugriff: H, V und S. Sie werden in der folgenden Aktionsliste zwischen Klammern angezeigt.
 > 
-> Beachten Sie, dass diese alle [-Tastaturbefehle überschreiben, die Knoten &#x200B;](../../../interface/preferences-window/preferences-window.md) zugewiesen sind.
+> Beachten Sie, dass diese alle [-Tastaturbefehle überschreiben, die Knoten ](../../../interface/preferences-window/preferences-window.md) zugewiesen sind.
 
 ## Ausrichtung
 
@@ -108,7 +108,7 @@ Die Knoten können horizontal und vertikal ausgerichtet werden, wobei für jede 
 
 ### Stapeln
 
-Mit der <b>Option </b>Stapel ![](../../../assets/node-alignment-stack.png) können Sie <b>Überlappungen </b> bei der Verwendung von Ausrichtungen vermeiden. Diese Option ist standardmäßig aktiviert.
+Mit der <b>Option </b>Stapel ![](../../../assets/node-alignment-stack.png) können Sie <b>Überlappungen </b> bei der Verwendung von Ausrichtungen vermeiden. Diese Option ist standardmäßig aktiviert.
 
 Wenn diese Option aktiviert ist, werden Knoten so weit wie möglich an die Referenzposition verschoben, bis sie mit einem anderen Knoten in der Auswahl kollidieren würden. Dadurch werden sie effektiv in der ausgewählten Achse mit einem Rand von einer mittleren Gitterzelle zwischen jedem Knoten gestapelt.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/version-13-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-1.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Designer 13.1, um mehr über die Verbesserungen von Knotendiagrammen und die Unterstützung von AxF-Exporten zu erfahren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 13.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Version 13.1
 
-<b>Substance 3D Designer 13.1</b> fügt dem Knotendiagramm viele Verbesserungen der Lebensqualität hinzu, hauptsächlich in Bezug auf Frames, um das Erlebnis bei der Materialerstellung zu verbessern. Außerdem wurde der AxF-Export hinzugefügt, der einen Interoperabilitätsarbeitsablauf für Benutzer ermöglicht, die mit dem AxF-Format arbeiten. 
+<b>Substance 3D Designer 13.1</b> fügt dem Knotendiagramm viele Verbesserungen der Lebensqualität hinzu, hauptsächlich in Bezug auf Frames, um das Erlebnis bei der Materialerstellung zu verbessern. Außerdem wurde der AxF-Export hinzugefügt, der einen Interoperabilitätsarbeitsablauf für Benutzer ermöglicht, die mit dem AxF-Format arbeiten.
 
 *Freigabedatum: 12. Dezember 2023*
 
@@ -71,7 +71,7 @@ Viele Dinge wurden überdacht, z. B. die Toleranz von Zuordnungsregeln, Interakt
 
 AxF ist ein Format von [X-Rite](https://www.xrite.com/axf). Sie bietet eine Möglichkeit, komplexe Materialeigenschaften mithilfe von numerischen Daten im gesamten digitalen Design-Workflow zu erfassen, zu speichern, zu bearbeiten und zu kommunizieren. In früheren Versionen von Designer konnten Sie AxF-Dateien [importieren](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) und dann die Unterteilung verbessern oder prozedurale Effekte hinzufügen. Dann mussten Sie jedoch Änderungen als neue .sbsar-Datei exportieren.
 
-In dieser neuen Version wird die Möglichkeit eingeführt, AxF-Materialien an Ort und Stelle zu bearbeiten, und dann [Ihre Änderungen &#x200B;](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) als neue Ebene in die importierte AxF-Datei zu exportieren.
+In dieser neuen Version wird die Möglichkeit eingeführt, AxF-Materialien an Ort und Stelle zu bearbeiten, und dann [Ihre Änderungen ](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) als neue Ebene in die importierte AxF-Datei zu exportieren.
 
 </td>
 </tr>

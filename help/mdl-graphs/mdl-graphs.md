@@ -10,9 +10,9 @@ helpx_tags: ""
 title: MDL-Grafiken
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Beim Erstellen von Materialien können Sie den eigenen [Iray](../interface/3d-vi
 MDL-Graphen ergänzen [Substance-Graphen](../compositing-graphs/substance-compositing-graphs.md) insofern, als letztere *Texturen* ausgeben, die vom MDL-Material *gesampelt* werden können, um dessen Verhalten und Aussehen zu beeinflussen.
 
 Wir empfehlen, die Abschnitte dieser Dokumentation *in der Reihenfolge* für einen geführten Lernpfad zu durchlaufen, der mit den Eigenschaften einer MDL-Diagrammressource direkt unten beginnt.\
-Bist du bereit reinzuspringen? Beginnen Sie mit MDL-Diagrammen im Abschnitt [MDL-Lernressourcen](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/first-steps-with-mdl-145654095.html)!
+Bist du bereit reinzuspringen? Erste Schritte mit MDL-Diagrammen im Abschnitt MDL-Lernressourcen!
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ Bist du bereit reinzuspringen? Beginnen Sie mit MDL-Diagrammen im Abschnitt [MDL
 
 ![MDL-Diagrammeigenschaften](../assets/mdl-main.png "MDL-Diagrammeigenschaften")
 
-*MDL-Diagrammeigenschaften im Bereich [Eigenschaften](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)*
+*MDL-Diagrammeigenschaften im Eigenschaftenfenster*
 
 ## MDL-Diagrammeigenschaften
 
@@ -89,7 +89,7 @@ Hinweis: Mit einem Sternchen (\*) markierte Eigenschaften sind MDL-Anmerkungen, 
 
 ### Diagrammeingaben
 
-In diesem Abschnitt werden die interaktiven Parameter aufgelistet, die mit [verfügbar gemachten Parametern](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html) des MDL-Diagramms verbunden sind, und ihre *Standardwerte* werden definiert. Sie können jederzeit *optimiert* und *neu angeordnet* sein.
+In diesem Abschnitt werden die interaktiven Parameter aufgelistet, die mit angezeigten Parametern des MDL-Diagramms verbunden sind, und ihre *Standardwerte* werden definiert. Sie können jederzeit *optimiert* und *neu angeordnet* sein.
 
 Die Schnittstelle und das Verhalten dieser Eingaben sind durch den *Werttyp* und den *Bereich* der verfügbar gemachten Parameter definiert, mit denen sie verbunden sind. Beispiel:
 

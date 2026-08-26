@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/3d-view/glslfx-shaders.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/glslfx-shaders.html"
 breadcrumb-title: ''
 description: Verwenden Sie die GLSLFX-Shader in der Substance 3D Designer-3D-Ansicht, um das Rendern von Material anzupassen und Vorschaueffekte anzupassen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: GLSLFX Shader
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '3098'
 ht-degree: 1%
@@ -132,13 +132,13 @@ Erlauben Sie, einen Teil des OpenGL-Status einzurichten.
 
 <b>Attribute:</b>
 
-* name: Der Name der festzulegenden Eigenschaft. Der Name basiert auf der OpenGL-Funktion oder dem glEnum-Namen:
+* Name: Der Name der festzulegenden Eigenschaft. Der Name basiert auf der OpenGL-Funktion oder dem glEnum-Namen:
   * Enumerationssyntax: Ohne das Präfix &quot;GL\_&quot;, in Kleinbuchstaben. Beispiele: glEnable(GL\_BLEND\_ENABLE) => &quot;&quot;, glDisable(GL\_CULL\_FACE) => &quot;&quot;&quot;
-  * Funktionssyntax: ohne das Präfix &quot;gl&quot;, in Kleinbuchstaben und mit allen Wörtern getrennt durch das Zeichen &quot;\_&quot;. Beispiel: glBlendFunc(GL\_SRC\_ALPHA, GL\_ONE\_MINUS\_SRC\_ALPHA) => &quot;&quot;
+  * Funktionssyntax: ohne das Präfix &quot;gl&quot;, in Kleinbuchstaben und mit allen Wörtern, die durch das Zeichen &quot;\_&quot; getrennt sind. Beispiel: glBlendFunc(GL\_SRC\_ALPHA, GL\_ONE\_MINUS\_SRC\_ALPHA) => &quot;&quot;
 
 * Enumerationssyntax: Ohne das Präfix &quot;GL\_&quot;, in Kleinbuchstaben. Beispiele: glEnable(GL\_BLEND\_ENABLE) => &quot;&quot;, glDisable(GL\_CULL\_FACE) => &quot;&quot;&quot;
 
-* Funktionssyntax: ohne das Präfix &quot;gl&quot;, in Kleinbuchstaben und mit allen Wörtern getrennt durch das Zeichen &quot;\_&quot;. Beispiel: glBlendFunc(GL\_SRC\_ALPHA, GL\_ONE\_MINUS\_SRC\_ALPHA) => &quot;&quot;
+* Funktionssyntax: ohne das Präfix &quot;gl&quot;, in Kleinbuchstaben und mit allen Wörtern, die durch das Zeichen &quot;\_&quot; getrennt sind. Beispiel: glBlendFunc(GL\_SRC\_ALPHA, GL\_ONE\_MINUS\_SRC\_ALPHA) => &quot;&quot;
 
 * Wert: Der Wert der Eigenschaft.
 
@@ -595,14 +595,14 @@ Uniform Mat4 WorldMatrix;\
 uniform mat4 worldViewProjMatrix;
 
 void main()\
-&lbrace;\
+{\
 gl\_Position = worldViewProjMatrix \&#42; iVS\_Position;\
 iFS\_Normal = iVS\_Normal.xyz;\
 iFS\_UV = iVS\_UV;\
 iFS\_Tangent = iVS\_Tangent.xyz;\
 iFS\_Binormal = iVS\_Binormal.xyz;\
 iFS\_PointWS = (worldMatrix \&#42; iVS\_Position).xyz;\
-&rbrace;
+}
 
 ### Tesselation Vertex Shader-Datei
 
@@ -610,9 +610,9 @@ In .\tessellation\_parallax\tessellation\vs.glsl
 
 Inhalt:
 
-&#x200B;>> 
+>> 
 
-&#x200B;#version 120
+#version 120
 
 Attribut vec4 iVS\_Position;\
 Attribut vec4 iVS\_Normal;\
@@ -626,13 +626,13 @@ variierendes vec4 oVS\_Tangent;\
 variierendes vec4 oVS\_Binormal;
 
 void main()\
-&lbrace;\
+{\
 gl\_Position = iVS\_Position;\
 oVS\_Normal = iVS\_Normal;\
 oVS\_UV = iVS\_UV;\
 oVS\_Tangent = iVS\_Tangent;\
 oVS\_Binormal = iVS\_Binormal;\
-&rbrace;
+}
 
 ### Tesselierungssteuerungsschattierungsdatei
 
@@ -640,10 +640,10 @@ In .\tessellation\_parallax\tessellation\tcs.glsl
 
 Inhalt:
 
-&#x200B;>> 
+>> 
 
-&#x200B;#version 400 Core\
-&#x200B;#extension GL\_ARB\_tessellation\_shader : befähigen
+#version 400 Core\
+#extension GL\_ARB\_tessellation\_shader : befähigen
 
 layout(vertices = 3) out;
 
@@ -660,7 +660,7 @@ out vec4 oTCS\_Binormal[];
 uniform float tesselationFactor;
 
 void main()\
-&lbrace;\
+{\
 gl\_TessLevelOuter[0] = tesselationFactor;\
 gl\_TessLevelOuter[1] = tesselationFactor;\
 gl\_TessLevelOuter[2] = tesselationFactor;\
@@ -671,7 +671,7 @@ oTCS\_Normal[gl\_InvocationID] = oVS\_Normal[gl\_InvocationID];\
 oTCS\_UV[gl\_InvocationID] = oVS\_UV[gl\_InvocationID];\
 oTCS\_Tangent[gl\_InvocationID] = oVS\_Tangent[gl\_InvocationID];\
 oTCS\_Binormal[gl\_InvocationID] = oVS\_Binormal[gl\_InvocationID];\
-&rbrace;
+}
 
 ### Tesselierungsauswertung Shader-Datei
 
@@ -679,9 +679,9 @@ In .\tessellation\_parallax\tessellation\tcs.glsl
 
 Inhalt:
 
-&#x200B;>> 
+>> 
 
-&#x200B;#version 400 Core
+#version 400 Core
 
 layout(triangles, equal\_spacing, ccw) in;
 
@@ -705,17 +705,17 @@ out vec3 iFS\_Binormal;\
 out vec3 iFS\_PointWS;
 
 vec3 interpolieren3D(vec3 v0, vec3 v1, vec3 v2, vec3 uvw)\
-&lbrace;\
+{\
 return uvw.x \&#42; v0 + uvw.y \&#42; v1 + uvw.z \&#42; v2;\
-&rbrace;
+}
 
 vec2 interpolate2D(vec2 v0, vec2 v1, vec2 v2, vec3 uvw)\
-&lbrace;\
+{\
 return uvw.x \&#42; v0 + uvw.y \&#42; v1 + uvw.z \&#42; v2;\
-&rbrace;
+}
 
 void main()\
-&lbrace;\
+{\
 vec3 uvw = gl\_TessCoord.xyz;
 
 vec3 newPos = interpolate3D(gl\_in[0].gl\_Position.xyz, gl\_in[1].gl\_Position.xyz, gl\_in[2].gl\_Position.xyz, uvw);\
@@ -735,7 +735,7 @@ iFS\_Tangent = newTangent;\
 iFS\_Binormal = newBinormal;\
 iFS\_Normal = newNormal;\
 iFS\_PointWS = (worldMatrix \&#42; obj\_pos).xyz;\
-&rbrace;
+}
 
 ### Fragment Shader File
 
@@ -743,24 +743,24 @@ In .\tessellation\_parallax\fs.glsl
 
 Inhalt:
 
-&#x200B;>> 
+>> 
 
-&#x200B;#version 120
+#version 120
 
 // #define ALG\_NORMAL\_DIRECTX\
-&#x200B;#define ALG\_NORMAL\_OPENGL
+#define ALG\_NORMAL\_OPENGL
 
-&#x200B;#ifdef ALG\_NORMAL\_DIRECTX\
+#ifdef ALG\_NORMAL\_DIRECTX\
 // #define FLIP\_NORMAL\_X\
-&#x200B;#define FLIP\_NORMAL\_Y\
+#define FLIP\_NORMAL\_Y\
 // #define FLIP\_NORMAL\_Z\
-&#x200B;#endif //#ifdef ALG\_NORMAL\_DIRECTX
+#endif //#ifdef ALG\_NORMAL\_DIRECTX
 
-&#x200B;#ifdef ALG\_NORMAL\_OPENGL\
+#ifdef ALG\_NORMAL\_OPENGL\
 // #define FLIP\_NORMAL\_X\
-&#x200B;#define FLIP\_NORMAL\_Y\
+#define FLIP\_NORMAL\_Y\
 // #define FLIP\_NORMAL\_Z\
-&#x200B;#endif //#ifdef ALG\_NORMAL\_OPENGL
+#endif //#ifdef ALG\_NORMAL\_OPENGL
 
 variierendes vec3 iFS\_Normal;\
 variierendes vec2 iFS\_UV;\
@@ -801,17 +801,17 @@ Uniform mat4 worldInverseTransposeMatrix;\
 uniform mat4 viewInverseMatrix;
 
 vec4 litFct(float NdotL, float NdotH, float specExp)\
-&lbrace;\
+{\
 float ambient = 1,0;\
 float diffuse = max(NdotL, 0,0);\
 float Specular = step(0.0, NdotL) \&#42; pow(max(0.0, NdotH), specExp);\
 return vec4(ambient, diffuse, Specular, 1.0);\
-&rbrace;
+}
 
 vec3 lerpFct(vec3 v0, vec3 v1, float percent)\
-&lbrace;\
+{\
 return v0 + (v1-v0) \&#42; percent;\
-&rbrace;
+}
 
 // Phong-Schattierung\
 void phong\_Schattierung(\
@@ -821,37 +821,37 @@ in vec3 pointToLightDirWS,\
 in vec3 pointToCameraDirWS,\
 inout vec3 DiffuseContrib,\
 inout vec3 SpecularContrib)\
-&lbrace;\
+{\
 vec3 Hn = normalize(pointToCameraDirWS + pointToLightDirWS);\
 vec4 litV = litFct(dot(normalWS, pointToLightDirWS), dot(normalWS, Hn), SpecExpon);\
 DiffuseContrib = litV.y \&#42; LightColor;\
 SpecularContrib = litV.y \&#42; litV.z \&#42; Ks \&#42; LightColor;\
-&rbrace;
+}
 
 vec3 fixNormalSample(vec3 v)\
-&lbrace;\
+{\
 vec3 result = v - vec3(0,5,0,5,0,5);
 
-&#x200B;#ifdef FLIP\_NORMAL\_X\
+#ifdef FLIP\_NORMAL\_X\
 result.x = -result.x;\
-&#x200B;#endif // ifdef FLIP\_NORMAL\_X\
-&#x200B;#ifdef FLIP\_NORMAL\_Y\
+#endif // ifdef FLIP\_NORMAL\_X\
+#ifdef FLIP\_NORMAL\_Y\
 result.y = -result.y;\
-&#x200B;#endif // ifdef FLIP\_NORMAL\_Y\
-&#x200B;#ifdef FLIP\_NORMAL\_Z\
+#endif // ifdef FLIP\_NORMAL\_Y\
+#ifdef FLIP\_NORMAL\_Z\
 result.z = -result.z;\
-&#x200B;#endif // ifdef FLIP\_NORMAL\_Z
+#endif // ifdef FLIP\_NORMAL\_Z
 
 Rückgabeergebnis;\
-&rbrace;
+}
 
 vec3 normalVecOSToWS(vec3 normal)\
-&lbrace;\
+{\
 normale Rückkehr;\
-&rbrace;
+}
 
 void main()\
-&lbrace;\
+{\
 vec3 cameraPosWS = viewInverseMatrix[3].xyz;\
 vec3 pointToLight0DirWS = normalize(Lamp0Pos - iFS\_PointWS);\
 vec3 pointToLight1DirWS = normalize(Lamp1Pos - iFS\_PointWS);\
@@ -936,16 +936,16 @@ vec3 Ambiant\_final = diffuseColor.rgb\&#42;AmbiColor;
 vec3 emissive = texture2D(emissiveMap,uv).xyz;
 
 vec3 finalcolor = Ambiant\_final\
-&#x200B;+ specularColor\&#42;specContrib\
-&#x200B;+ diffuseColor.rgb\&#42;diffContrib\
-&#x200B;+ (reflColor\&#42;specularColor\&#42;FallofRefl)\
-&#x200B;+ emissiv;
++ specularColor\&#42;specContrib\
++ diffuseColor.rgb\&#42;diffContrib\
++ (reflColor\&#42;specularColor\&#42;FallofRefl)\
++ emissiv;
 
 // Final Color\
 vec4 finalColor4 = vec4(finalcolor, texture2D(opacityMap,uv));
 
 gl\_FragColor = finalColor4;\
-&rbrace;
+}
 
 ### GLSLFX Datei
 

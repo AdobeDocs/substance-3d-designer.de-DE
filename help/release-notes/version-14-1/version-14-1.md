@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/version-14-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-1.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Designer 14.1, um mehr über die Knotenanordnungstools und die neuen Spline- und Path-Knoten zu erfahren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 14.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 1%
@@ -146,7 +146,7 @@ Das [Knotenfinder](../../interface/the-graph-view/node-finder/node-finder.md)-To
 * [Funktionsdiagramm] Lange Werte werden überlappend auf &#39;Float&#39;-Knoten angezeigt
 * [Fx-Map] Absturz beim Anzeigen von Quadrant-Knoteneigenschaften
 * [Graph] [UDIM] Mit einer Bildlaufleiste in der UDIM-Liste werden 1.1 1.2 Einträge generiert.
-* [Graph]&#x200B;[Shortcuts] Knoten, der mit einem Shortcut erstellt wurde, wird nach dem Duplizieren des Knotens nicht auf dem vorhandenen Link platziert.
+* [Graph][Shortcuts] Knoten, der mit einem Shortcut erstellt wurde, wird nach dem Duplizieren des Knotens nicht auf dem vorhandenen Link platziert.
 * [Eigenschaften] Falsche Parameteranzeige, wenn der Wert ungültig ist
 * [Publish] Gegenseitige Abhängigkeiten führen beim Veröffentlichen eines Pakets zu einer Endlosschleife.
 * [Publish] Unbeaufsichtigter Fehler bei Verwendung der Aktion &quot;Publish&quot; für ein Paket mit entladener Abhängigkeit

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/customizing-your-workspace.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/customizing-your-workspace.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Ihren Arbeitsbereich in Substance 3D Designer anpassen, um Ihren Arbeitsablauf und Ihre Layout-Einstellungen zu optimieren.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Anpassen des Arbeitsbereichs
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Anpassen des Arbeitsbereichs
 
-Auf dieser Seite werden die Möglichkeiten zum Anordnen der Bedienfelder in der [Adobe Substance 3D Designer-Benutzeroberfläche](https://www.adobe.com/de/products/substance3d-designer.html) und zum Optimieren Ihrer Arbeitsabläufe beschrieben.
+Auf dieser Seite werden die Möglichkeiten zum Anordnen der Bedienfelder in der [Adobe Substance 3D Designer-Benutzeroberfläche](https://www.adobe.com/products/substance3d-designer.html) und zum Optimieren Ihrer Arbeitsabläufe beschrieben.
 
 <table>
 <tr style="border: 0;">
@@ -28,7 +28,7 @@ Auf dieser Seite werden die Möglichkeiten zum Anordnen der Bedienfelder in der 
 
 ## Windows-Menü
 
-In diesem Menü können Sie die Hauptelemente der Benutzeroberfläche von Designer verwalten. Jede Option wird im Abschnitt <b>Windows</b> von [dieser Seite](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html) zur Hauptsymbolleiste beschrieben. Hier stellen wir weitere Konzepte zu diesem Menü zur Verfügung.
+In diesem Menü können Sie die Hauptelemente der Benutzeroberfläche von Designer verwalten. Jede Option wird im Abschnitt <b>Windows</b> von [dieser Seite](../the-main-toolbar/the-main-toolbar.md) zur Hauptsymbolleiste beschrieben. Hier stellen wir weitere Konzepte zu diesem Menü zur Verfügung.
 
 ### Anzeigen/Ausblenden einer Ansicht
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-grayscale.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Spline Bridge Mapper Graustufen , um Texturen mit Graustufenzuordnung zwischen zwei Splines zu überbrücken.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline Bridge-Zuordnung - Graustufen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -56,9 +56,9 @@ Ordnet ein Graustufenbild einer Liste von Eingabe-Splines zu, sodass das Bild di
 <b> R</b> - X-Position\
 <b> G</b> - Y-Position\
 <b> B</b> - Height\
-    <b>A</b> - Paketdaten:\
-        * Signieren: Die Spline ist geschlossen (negativ) oder offen (positiv).\
-        * Absoluter Wert: Thickness + 1.
+<b>A</b> - Paketdaten:\
+* Signieren: Die Spline ist geschlossen (negativ) oder offen (positiv).\
+* Absoluter Wert: Thickness + 1.
 
 <b>Spline-Daten</b> *Farbe* Zusätzliche Daten der Eingabe-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.\
 <b> R</b> - Tangenten X\

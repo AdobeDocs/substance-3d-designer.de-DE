@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
 breadcrumb-title: ''
 description: Lernen Sie die wichtigsten Konzepte des Substance von Compositing-Graphen kennen, einschließlich Knoten, Verbindungen und Workflow-Grundlagen.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Grundlagen zu Substance-Graphen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '859'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Auf dieser Seite werden die wichtigen Konzepte zum Arbeiten mit Substance-Graphe
 
 ## Unterdiagramme/Veröffentlichen
 
-[Das Veröffentlichen eines Diagramms](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) oder das Erstellen eines Unterdiagramms sind zwei sehr ähnliche, abstrakte Konzepte. Es bedeutet, dass jedes Diagramm oder Netzwerk von Knoten zusammen &quot;gepackt&quot; und in eine wiederverwendbare, eigenständige Ressource umgewandelt werden kann. Das Erstellen von [Unterdiagrammen](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) erfolgt meist innerhalb der Anwendung, um bestimmte Inhalte in einem effizienten, intelligenten Workflow wiederverwendbar zu machen, da dadurch ein Satz von Knoten nicht immer wieder dupliziert wird. Die Veröffentlichung beinhaltet einen zusätzlichen Schritt zum Exportieren in das [Substance 3D Asset (SBSAR)](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)-Format, sodass Ihr Knotennetzwerkdiagramm außerhalb der Anwendung verwendet werden kann, z. B. wenn Sie ein Material für die Unreal Engine erstellen.
+[Das Veröffentlichen eines Diagramms](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) oder das Erstellen eines Unterdiagramms sind zwei sehr ähnliche, abstrakte Konzepte. Es bedeutet, dass jedes Diagramm oder Netzwerk von Knoten zusammen &quot;gepackt&quot; und in eine wiederverwendbare, eigenständige Ressource umgewandelt werden kann. Das Erstellen von [Unterdiagrammen](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) erfolgt meist innerhalb der Anwendung, um bestimmte Inhalte in einem effizienten, intelligenten Workflow wiederverwendbar zu machen, da dadurch ein Satz von Knoten nicht immer wieder dupliziert wird. Beim Veröffentlichen ist ein zusätzlicher Schritt zum Exportieren in das Substance 3D-Asset-Format (SBSAR) erforderlich, damit das Knotennetzwerkdiagramm außerhalb der Anwendung verwendet werden kann, z. B. wenn Sie Material für Unreal Engine erstellen.
 
 Eingaben, Ausgaben und exponierte Parameter sind für dieses Konzept äußerst wichtig, da sie die einzige Möglichkeit darstellen, um mit dem Graphen zu interagieren, sobald es als Untergraph oder als veröffentlichtes Substance 3D-Element verwendet wird. Die Gründe dafür sind folgende:
 

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Iray
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2159'
+source-wordcount: '2151'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Iray
 
-Auf dieser Seite wird der Iray-Renderer angezeigt, der im 3D-Ansichtsfenster von [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) verfügbar ist und interaktive Pfadverfolgung für fotorealistisches Rendering mit CPU- und/oder GPU-Beschleunigung (nur Nvidia-GPUs) bietet.
+Auf dieser Seite wird der Iray-Renderer angezeigt, der im 3D-Ansichtsfenster von [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) verfügbar ist und interaktive Pfadverfolgung für fotorealistisches Rendering mit CPU- und/oder GPU-Beschleunigung (nur Nvidia-GPUs) bietet.
 
 >[!WARNING]
 > 
@@ -64,7 +64,7 @@ Weitere Informationen zum Anpassen dieser Bedingungen finden Sie im Abschnitt <b
 
 ![Mittelalterliches Schlosswandmaterial in Iray](../../../assets/iray-overview.png "Mittelalterliches Schlosswandmaterial in Iray")
 
-*Material: [Mittelalterliche Burgmauer](https://helpx.adobe.com/de/substance-3d/unlisted/assets/allassets/2b3f6eca9a6b6ab19d263d8b77819df431c3c973.html)* *von [Mark Foreman](https://www.artstation.com/oggyart)* *in unseren [Substance 3D-Medien](https://helpx.adobe.com/de/substance-3d/unlisted/assets.html)* *Bibliotheken* verfügbar
+*Material: [Mittelalterliche Burgmauer](https://oggyart.artstation.com/projects/Xnzx0a)* *von [Mark Foreman](https://www.artstation.com/oggyart)* *in unseren [Substance 3D-Medien](https://substance3d.adobe.com/assets)* *Bibliotheken* verfügbar
 
 </td>
 </tr>
@@ -113,7 +113,7 @@ Mesh-Anzeigekomponente
 Da Iray sich auf das von NVIDIA entwickelte [MDL-Bibliotheksmodell](https://www.nvidia.com/en-us/design-visualization/technologies/material-definition-language/) stützt, werden verfügbare Schattierungen für Szenenmaterialien durch die MDL-Bibliothek ersetzt, die von Designer geladen wurde. Diese Bibliothek wird aus den folgenden Quellen erstellt:
 
 * Die in der Installation von Designer enthaltenen MDL-Dateien
-* Die MDL-Dateien wurden in den [&#x200B; Verzeichnissen gefunden, die vom Benutzer &#x200B;](../../../interface/preferences-window/project-settings/project-settings.md) in den geladenen [Projektdateien](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) aufgeführt sind.
+* Die MDL-Dateien wurden in den [ Verzeichnissen gefunden, die vom Benutzer ](../../../interface/preferences-window/project-settings/project-settings.md) in den geladenen [Projektdateien](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) aufgeführt sind.
 * Die [NVIDIA vMaterials](https://developer.nvidia.com/vmaterials)-Bibliothek, wenn sie installiert ist
 
 >[!NOTE]
@@ -401,7 +401,7 @@ Wenn eine unterstützte GPU erkannt wird, wird sie in diesem Abschnitt aufgefüh
 
 >[!WARNING]
 >
-> Die GPU-Hardwarebeschleunigung verwendet die [NVIDIA CUDA](https://developer.nvidia.com/cuda-zone)-Technologie. Stellen Sie sicher, dass Ihr *-Grafiktreiber auf dem neuesten Stand ist*, um die beste Kompatibilität und Zuverlässigkeit zu erzielen. Suchen Sie hier den neuesten Treiber für Ihre NVIDIA-GPU [&#128279;](https://www.nvidia.com/Download/index.aspx?lang=en-us).\
+> Die GPU-Hardwarebeschleunigung verwendet die [NVIDIA CUDA](https://developer.nvidia.com/cuda-zone)-Technologie. Stellen Sie sicher, dass Ihr *-Grafiktreiber auf dem neuesten Stand ist*, um die beste Kompatibilität und Zuverlässigkeit zu erzielen. Suchen Sie hier den neuesten Treiber für Ihre NVIDIA-GPU [](https://www.nvidia.com/Download/index.aspx?lang=en-us).\
 > Für Konfigurationen mit mehreren GPUs wird empfohlen, SLI *zu deaktivieren* und nur eine GPU auszuwählen, um die beste Zuverlässigkeit zu erzielen.
 
 ![Iray-Voreinstellungen](../../../assets/iray-preferences-hardware.png "Iray-Voreinstellungen")

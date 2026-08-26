@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-scratches.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-scratches.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Richtungsbezogene Scratches , um gerichtete Kratzmuster zu erstellen, um Material Abnutzungs- und Schadenseffekte hinzuzufügen.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Richtungsverkratzungen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '360'
 ht-degree: 1%
 
 ---
@@ -38,26 +38,6 @@ ht-degree: 1%
 ## Beschreibung
 
 Eine zufällige Streuung von Kratzmustern mit einstellbarem Winkel und Größe.
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Ausgaben
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameter
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Beispiele
 
 </td>
 </tr>

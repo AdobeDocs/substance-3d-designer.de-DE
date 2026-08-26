@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/working-with-path-and-spline-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/working-with-path-and-spline-tools.html"
 breadcrumb-title: ''
 description: Erfahre, wie du in deinen Graphen mit Pfaden und Spline-Werkzeugen verfahrenstechnische Muster und organische Formen erstellst.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Arbeiten mit Pfad-Spline-Werkzeugen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 0%
@@ -79,7 +79,7 @@ Beispielsweise können Sie mithilfe von Spline-Generierungsknoten wie [Spline (C
 
 Pfad und Spline-Werkzeuge erfordern umfangreiche Berechnungen, sodass Sie einige Einstellungen beachten sollten, um die beste Performance und Reaktionsfähigkeit bei der Arbeit mit den Tools sicherzustellen:
 
-1. Das Toolset verwendet <b>Substance Engine</b>-Funktionen, die auf der GPU viel schneller ausgeführt werden, umfassend. Verwenden Sie daher die GPU-Version des Moduls für Ihr System: <b>Direct3D</b> (Windows) oder <b>OpenGL</b> (macOS).\
+1. Das Toolset verwendet <b>Substance Engine</b>-Funktionen, die auf der GPU viel schneller ausgeführt werden, umfassend. Verwenden Sie daher bitte die GPU-Version der Engine für Ihr System: <b>Direct3D</b> (Windows) oder <b>OpenGL</b> (macOS).\
    Sie können das Modul wechseln, indem Sie die Taste <b>F9</b> drücken, oder indem Sie zu <b>Tools > Modul wechseln gehen...</b> in der Hauptmenüleiste.
 1. Anschließend wird dringend empfohlen, die <b>kontextbezogene Bearbeitung</b> im Abschnitt <b>Graph</b> der [Voreinstellungen](../../../../../interface/preferences-window/preferences-window.md) zu deaktivieren (navigieren Sie zu <b>Bearbeiten > Voreinstellungen...</b> in der Hauptmenüleiste, um auf dieses Fenster zuzugreifen).\
    Bei der kontextbezogenen Bearbeitung können Sie Instanzknoten im Kontext des Hostdiagramms öffnen, was zwar sehr praktisch ist, aber den Nebeneffekt hat, dass die Berechnungen, die vom Bildcache der Toolset benötigt werden, exponentiell ansteigen.

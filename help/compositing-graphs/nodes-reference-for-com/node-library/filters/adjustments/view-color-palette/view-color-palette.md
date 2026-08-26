@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Farbpalette anzeigen , um aus Texturen extrahierte Farbpalettendaten für die Analyse anzuzeigen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Farbpalette anzeigen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -68,8 +68,8 @@ Dieser Knoten kann verwendet werden, um die Paletten zu visualisieren, die von d
 
 |  |  |
 | --- | --- |
-| <b>Palette</b> *Farbe* PRIMÄR | Eine geordnete Liste von RGB-Farben, die als Pixelzeile codiert sind. Die Palette kann maximal 256 Farben enthalten.   Dies ist die Palette, die der Knoten verpackt und rendert. |
-| <b>Farbmenge der Palette</b> *Integer* | Die Menge der in der Palette gespeicherten Farben.   Wenn diese Zahl nicht mit der tatsächlichen Farbmenge in der Bildeingabe der Palette übereinstimmt, ist die Visualisierung möglicherweise unvollständig oder weist mehr leere Steckplätze auf als unbedingt erforderlich. |
+| <b>Palette</b> *Farbe* PRIMÄR | Eine geordnete Liste von RGB-Farben, die als Pixelzeile codiert sind. Die Palette kann maximal 256 Farben enthalten.   Dies ist die Palette, die der Knoten verpackt und rendert. |
+| <b>Farbmenge der Palette</b> *Integer* | Die Menge der in der Palette gespeicherten Farben.   Wenn diese Zahl nicht mit der tatsächlichen Farbmenge in der Bildeingabe der Palette übereinstimmt, ist die Visualisierung möglicherweise unvollständig oder weist mehr leere Steckplätze auf als unbedingt erforderlich. |
 
 ## Ausgangsanschlüsse
 

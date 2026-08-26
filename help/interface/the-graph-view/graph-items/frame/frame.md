@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
 breadcrumb-title: ''
 description: Verwenden Sie Frames in der Substance 3D Designer-Diagrammansicht, um Knoten für eine bessere visuelle Klarheit zu organisieren und zu gruppieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rahmen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -66,7 +66,7 @@ Zum Verschieben des Rahmens wird die Kopfzeile oder der Titel gezogen.
 +++
 
 +++Ausgewählt
-Nach der Auswahl werden Titel und Umriss des Rahmens weiß hervorgehoben. Die Kontur wird dicker.
+Nach der Auswahl werden Titel und Umriss des Rahmens weiß hervorgehoben. Die Kontur wird dicker.
 
 ![Frame (ausgewählter Status)](../../../../assets/graph-frames-selected.png "Frame (ausgewählter Status)")
 
@@ -160,7 +160,7 @@ Halten Sie die Taste <b>Strg</b> (Windows) bzw. <b>Cmd</b> (macOS) gedrückt, um
 Wenn ein Frame ausgewählt ist, sind die folgenden Eigenschaften im Dock [Eigenschaften](../../../../interface/properties/properties.md) verfügbar:
 
 +++Titel
-Der <b>Titel</b>, der oben links im Rahmen liegt. Die Sichtbarkeit des Titels kann mithilfe der <b>Title Visible</b>-Eigenschaft aktiviert oder deaktiviert werden.
+Der <b>Titel</b>, der oben links im Rahmen liegt. Die Sichtbarkeit des Titels kann mithilfe der <b>Title Visible</b>-Eigenschaft aktiviert oder deaktiviert werden.
 
 Die Größe des Titels kann bei einer minimalen Bildschirmgröße gesperrt werden, sodass der Titel beim Auszoomen aus dem Diagramm lesbar bleibt. Sie können dies tun, indem Sie die Option &quot;Bildtitel&quot; im Dropdown-Menü <b>Informationen</b> in der Symbolleiste [Diagrammansicht](../../../../interface/the-graph-view/the-graph-view.md) aktivieren.
 
@@ -196,7 +196,7 @@ Der Alphakanal der Farbe steuert die *Deckkraft* des Frames, wobei der Wert 0 be
 
 ## Beschreibung
 
-Ein Rahmen kann mit einem Text versehen werden, der innerhalb des Rahmens platziert wird. Der Text wird links ausgerichtet und beginnt in der linken oberen Ecke des Rahmens. Verwenden Sie die [Description](#properties)-Eigenschaft des Rahmens, um diesen Text zu bearbeiten.
+Ein Rahmen kann mit einem Text versehen werden, der innerhalb des Rahmens platziert wird. Der Text wird links ausgerichtet und beginnt in der linken oberen Ecke des Rahmens. Verwenden Sie die [Description](#properties)-Eigenschaft des Rahmens, um diesen Text zu bearbeiten.
 
 <table>
 <tr style="border: 0;">
@@ -204,7 +204,7 @@ Ein Rahmen kann mit einem Text versehen werden, der innerhalb des Rahmens platzi
 
 ### Standard
 
-Der <b>Titel</b> wird in einer fetten Schrift angezeigt, die sich oben links im Rahmen befindet. Die Sichtbarkeit des Titels kann ein- oder ausgeschaltet werden.
+Der <b>Titel</b> wird in einer fetten Schrift angezeigt, die sich oben links im Rahmen befindet. Die Sichtbarkeit des Titels kann ein- oder ausgeschaltet werden.
 
 Seine Größe kann bei einer minimalen Bildschirmgröße gesperrt werden, sodass es lesbar bleibt, wenn es aus dem Diagramm heraus zoomt. Sie können dies tun, indem Sie die Option &quot;Bildtitel&quot; im Dropdown-Menü <b>Informationen</b> in der Symbolleiste [Diagrammansicht](../../../../interface/the-graph-view/the-graph-view.md) aktivieren.
 
@@ -270,7 +270,7 @@ Im Folgenden finden Sie eine Liste hilfreicher Tags zum Formatieren von Text:
 
 ## Integrationsregeln
 
-Ein Objekt gilt als in einen Rahmen eingeschlossen, wenn es seine Einschlussregel erfüllt. Diese Regeln variieren je nach Objekt und Sonderfall. Sie sind unten aufgeführt.
+Ein Objekt gilt als in einen Rahmen eingeschlossen, wenn es seine Einschlussregel erfüllt. Diese Regeln variieren je nach Objekt und Sonderfall. Sie sind unten aufgeführt.
 
 Das gelbe Symbol in jeder Abbildung stellt den Punkt oder Bereich dar, der vollständig innerhalb der Grenzen eines Rahmens liegen muss, damit ein Objekt in diesen Rahmen aufgenommen werden kann.
 

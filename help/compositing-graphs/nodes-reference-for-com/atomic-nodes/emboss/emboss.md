@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
 breadcrumb-title: ''
 description: Mit dem Knoten "Relief" können Sie Reliefeffekte auf Texturen erzeugen, um Tiefe und Relief zu Oberflächendetails hinzuzufügen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Relief
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 9%
@@ -78,10 +78,10 @@ Dieser Knoten wird nicht oft für PBR-ähnliche Projekte verwendet, kann aber in
 
 |  |  |
 | --- | --- |
-| <b>Intensität</b> *Gleitend* | Passt die globale Intensität des Beleuchtungseffekts an.   Legt die Intensität des Heights und damit die Intensität des Lichteffekts fest. |
-| <b>Lichtwinkel</b> *Gleitend* | Legt den Winkel fest, in dem das Licht simuliert wird.   Definiert den Beleuchtungswinkel der Markierung des geprägten Bildes. |
-| <b>Markierungsfarbe</b> *Gleitend/Gleitend4* | Legt die Farbe der Bereiche fest, die zum Lichtwinkel zeigen.   Legt die Farbe der Markierung fest, wenn das Eingabebild eine Farbe ist. |
-| <b>Schattenfarbe</b> *Gleitend/Gleitend4* | Legt die Farbe der Bereiche fest, die vom Lichtwinkel weg zeigen.   Legt die Farbe der schattierten Bereiche des geprägten Bildes fest. |
+| <b>Intensität</b> *Gleitend* | Passt die globale Intensität des Beleuchtungseffekts an.   Legt die Intensität des Heights und damit die Intensität des Lichteffekts fest. |
+| <b>Lichtwinkel</b> *Gleitend* | Legt den Winkel fest, in dem das Licht simuliert wird.   Definiert den Beleuchtungswinkel der Markierung des geprägten Bildes. |
+| <b>Markierungsfarbe</b> *Gleitend/Gleitend4* | Legt die Farbe der Bereiche fest, die zum Lichtwinkel zeigen.   Legt die Farbe der Markierung fest, wenn das Eingabebild eine Farbe ist. |
+| <b>Schattenfarbe</b> *Gleitend/Gleitend4* | Legt die Farbe der Bereiche fest, die vom Lichtwinkel weg zeigen.   Legt die Farbe der schattierten Bereiche des geprägten Bildes fest. |
 
 ## Eingangsanschlüsse
 

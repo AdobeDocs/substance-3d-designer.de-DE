@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
 breadcrumb-title: ''
 description: ''
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ausgabe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -49,11 +49,11 @@ Jeder Substance-Graph muss *mindestens einen* Ausgabeknoten aufweisen. Wenn kein
 
 |  |  |
 | --- | --- |
-| <b>Kennung</b> *Zeichenfolge* | Der eindeutige Bezeichner der Ausgabe. Diese Eigenschaft darf nicht leer gelassen werden und darf keine Sonderzeichen oder Leerzeichen enthalten.   Der Bezeichner wird verwendet, da die Bezeichnung des Knotens die Eigenschaft &#39;Label&#39; leer lässt. Es kann auch verwendet werden, um [exportierte Texturen](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md) zu benennen. |
+| <b>Kennung</b> *Zeichenfolge* | Der eindeutige Bezeichner der Ausgabe. Diese Eigenschaft darf nicht leer gelassen werden und darf keine Sonderzeichen oder Leerzeichen enthalten.   Der Bezeichner wird verwendet, da die Bezeichnung des Knotens die Eigenschaft &#39;Label&#39; leer lässt. Es kann auch verwendet werden, um [exportierte Texturen](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md) zu benennen. |
 | <b>Beschreibung</b> *Zeichenfolge* | Die optionale Beschreibung, die als QuickInfo für die Ausgabe verwendet wird, lautet Substance graphs. |
 | <b>Bezeichnung</b> *Zeichenfolge* | Dies wird als Bezeichnung für den Ausgabeknoten verwendet, und der entsprechende Connector in [Instanzknoten](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md), der dieses Diagramm darstellt. Die Beschriftung kann Leerzeichen und Sonderzeichen enthalten. |
-| <b>Benutzerdaten</b> *Zeichenfolge* | Optionale Metadaten, die für bestimmte Filtervorgänge verwendet werden können. [Substance 3D Painter](https://www.adobe.com/de/products/substance3d/apps/painter.html) nutzt diese Daten, um [einige Funktionen zu steuern](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/content/creating-custom-effects/user-data). |
-| <b>Gruppe</b> *Zeichenfolge* | Attribut, das zum Gruppieren von Ausgaben für die [Linkerstellungsmodi von Designer verwendet wird](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md).   Ausgaben mit einem identischen &#39;Group&#39;-Attribut werden als einzelne Verbindung im &#39;Compact Material&#39;-Verknüpfungserstellungsmodus angezeigt. |
+| <b>Benutzerdaten</b> *Zeichenfolge* | Optionale Metadaten, die für bestimmte Filtervorgänge verwendet werden können. [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html) nutzt diese Daten, um [einige Funktionen zu steuern](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/user-data). |
+| <b>Gruppe</b> *Zeichenfolge* | Attribut, das zum Gruppieren von Ausgaben für die [Linkerstellungsmodi von Designer verwendet wird](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md).   Ausgaben mit einem identischen &#39;Group&#39;-Attribut werden als einzelne Verbindung im &#39;Compact Material&#39;-Verknüpfungserstellungsmodus angezeigt. |
 
 ## Integrationsattribute
 
@@ -66,7 +66,7 @@ Daher haben sie keine Auswirkungen auf das Format von [Bitmapexporten](../../../
 |  |  |
 | --- | --- |
 | <b>Komponente</b> *Zeichenfolge* | Wird verwendet, um den entsprechenden SVBRDF-Shader-Eingaben in AxF-Workflows einige Texturkanäle zuzuordnen. |
-| <b>Nutzung</b> *Zeichenfolge* | Definiert den Typ und die Verwendung des Ausgabeknotens. Diese Eigenschaft ist wichtig, da sie Folgendes bewirkt:<ul data-preserve-html="true"> <li data-preserve-html="true">Knotenverbindung in Substance-Graphen bei Verwendung einiger [Link-Erstellungsmodi](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) </li> <li data-preserve-html="true">Verbindung von Texturen mit Shadern in der 3D-Ansicht (siehe unten: &#39;[Informationen zur Rolle von Benutzern in der 3D-Ansicht](#usages-role-3dview)&#39;)</li> <li data-preserve-html="true">Verbindung von Texturen mit Materialien in Integrationen/Plug-ins</li> </ul> |
+| <b>Nutzung</b> *Zeichenfolge* | Definiert den Typ und die Verwendung des Ausgabeknotens. Diese Eigenschaft ist wichtig, da sie Folgendes bewirkt:<ul data-preserve-html="true"> <li data-preserve-html="true">Knotenverbindung in Substance-Graphen bei Verwendung einiger [Link-Erstellungsmodi](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) </li> <li data-preserve-html="true">Verbindung von Texturen mit Shadern in der 3D-Ansicht (siehe unten: &#39;[Informationen zur Rolle von Benutzern in der 3D-Ansicht](#usages-role-3dview)&#39;)</li> <li data-preserve-html="true">Verbindung von Texturen mit Materialien in Integrationen/Plug-ins</li> </ul> |
 | <b>Farbraum</b> *Zeichenfolge* | Legt den Farbraum fest, in dem diese Ausgabe interpretiert werden soll. Wird von einigen Integrationen in anderen Anwendungen verwendet und hat keine Auswirkungen in Designer. |
 
 ### Rolle von Benutzern in der 3D-Ansicht

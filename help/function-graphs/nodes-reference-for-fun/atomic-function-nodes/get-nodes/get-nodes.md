@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
 breadcrumb-title: ''
 description: Greifen Sie auf Get-Knoten in Substance 3D Designer-Funktionsdiagrammen zu, um Variablenwerte und Daten abzurufen.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Variablen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '477'
 ht-degree: 6%
 
 ---
@@ -24,7 +24,7 @@ Variablen sind eine Möglichkeit, <b>Werte</b> zu speichern, um sie später abzu
 
 ![Substance-Funktionsdiagramm - Get float](../../../../assets/assign-getfloat.gif "Substance-Funktionsdiagramm - Get float"){zoomable="yes"}
 
-Ein Get-Knoten übernimmt im Grunde eine dynamische Variable, die er aus der Ausgabe des Get-Nodes zur Verwendung in einer Funktion zurückgibt. Diese Get-Knoten bilden die Verknüpfung zwischen den Eingabeparametern, die in den [Diagrammeigenschaften](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) und [Parameterfunktionen](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) definiert sind.
+Ein Get-Knoten übernimmt im Grunde eine dynamische Variable, die er aus der Ausgabe des Get-Nodes zur Verwendung in einer Funktion zurückgibt. Diese Get-Knoten bilden die Verknüpfung zwischen den Eingabeparametern, die in den [Diagrammparametern](../../../../compositing-graphs/graph-parameters/graph-parameters.md) und [Parameterfunktionen](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) definiert sind.
 
 Jedes Mal, wenn Sie einen Get-Knoten verwenden, müssen Sie einen verfügbaren Wert aus dem Dropdown-Menü auswählen. Die Get-Knoten nehmen <b> einen Wert des entsprechenden Typs </b>. Das bedeutet, dass Sie nur gültige Optionen im Menü eines Get-Knotens sehen. Sie können niemals eine ungültige Option auswählen. Wenn eine Variable nicht verfügbar ist, bedeutet dies, dass ein Typkonflikt vorliegt
 
@@ -83,7 +83,7 @@ Der Name der abgerufenen Variable wird im Eigenschaften-Dock festgelegt.
 > 
 > Mehrere Get-Knoten bieten integrierte Variablen für den Zugriff auf vorhandene Werte entsprechend dem aktuellen Kontext an, z. B.: die aktuelle Pixelposition in einem Pixelprozessor, der aktuelle Kachelmodus eines Knotens, ...
 > 
-> Alle integrierten Variablen sind in [dieser dedizierten Seite &#x200B;](../../../../function-graphs/variables/system-variables/system-variables.md) aufgeführt.
+> Alle integrierten Variablen sind in [dieser dedizierten Seite ](../../../../function-graphs/variables/system-variables/system-variables.md) aufgeführt.
 
 ### Knoten abrufen
 
@@ -115,13 +115,13 @@ Float4 abrufen
 +++
 
 +++Ganzzahlen
-![Ganzzahl abrufen - Symbol &#x200B;](../../../../assets/fn_variables_getint.png "Ganzzahl abrufen - Symbol "){width="200px"}
+![Ganzzahl abrufen - Symbol ](../../../../assets/fn_variables_getint.png "Ganzzahl abrufen - Symbol "){width="200px"}
 
 
 
 Integer abrufen
 
-![Ganzzahl abrufen2 - Symbol &#x200B;](../../../../assets/fn_variables_getint2.png "Ganzzahl abrufen2 - Symbol "){width="200px"}
+![Ganzzahl abrufen2 - Symbol ](../../../../assets/fn_variables_getint2.png "Ganzzahl abrufen2 - Symbol "){width="200px"}
 
 
 
@@ -133,7 +133,7 @@ Integer2 abrufen
 
 Integer3 abrufen
 
-![Ganzzahl abrufen4 - Symbol &#x200B;](../../../../assets/fn_variables_getint4.png "Ganzzahl abrufen4 - Symbol "){width="200px"}
+![Ganzzahl abrufen4 - Symbol ](../../../../assets/fn_variables_getint4.png "Ganzzahl abrufen4 - Symbol "){width="200px"}
 
 
 
@@ -162,7 +162,7 @@ Zeichenfolge abrufen
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Festlegen: Knotensymbol &#x200B;](../../../../assets/fn_variables_set.png "Festlegen: Knotensymbol "){width="200px"}
+![Festlegen: Knotensymbol ](../../../../assets/fn_variables_set.png "Festlegen: Knotensymbol "){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -179,7 +179,7 @@ Text
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![&quot; ist definiert: Knotensymbol &#x200B;](../../../../assets/fn_variables_isdefined.png "Ist definiert: Knotensymbol "){width="200px"}
+![&quot; ist definiert: Knotensymbol ](../../../../assets/fn_variables_isdefined.png "Ist definiert: Knotensymbol "){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

@@ -1,8 +1,8 @@
 ---
-source-git-commit: 7eb945801ce2b27657ed7ab9948dc14dcb94e77c
+source-git-commit: 49d7d426f1b687cf6087bb1c9735a9060af48041
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 2%
+source-wordcount: '107'
+ht-degree: 11%
 
 ---
 # TODO
@@ -18,12 +18,21 @@ ht-degree: 2%
 * Beispiele auf der Seite &quot;Dokumentations-Popup&quot;
 * Glossar:
   * HDR
+  * Metallic / Metallic
+  * HDR
+  * Glanz
+  * Height Map
+  * Deckkraft
+  * Frustum
+  * Tangentialraum
+  * Saatgut/Zufallsfuttermittel
+  * FX-Map
+  * Pixelprozessor
+  * Vorgabe
 
 ## Fehlerbehebungen
 
-* Fehlerhafte Links in [Übersicht](help/getting-started/overview/overview.md)
-* Fehlerhafte Verknüpfungen und Formatierung im [Ausgabeknoten &#x200B;](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-* HelpX-Verknüpfungen
+* Fehlerhafte Verknüpfungen und Formatierung im [Ausgabeknoten ](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 * Entfernen Sie das Inhaltsverzeichnis auf der Seite (z. B. neue Geräusche)
 * Knotenseitenlayouts korrigieren (z. B. neue Geräusche)
 * Link für 1. Beispielbild in Knotenseiten (z.B. neue Geräusche)

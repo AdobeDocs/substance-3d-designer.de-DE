@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Abstand", um Abstands-Map aus Formen zum Erstellen von Masken und prozeduralen Effekten zu berechnen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Abstand
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 8%
@@ -84,16 +84,16 @@ Weitere Informationen finden Sie in den folgenden [Beispielen](#examples).
 
 |  |  |
 | --- | --- |
-| <b>Farbmodus</b> *Boolescher Wert* | Schaltet zwischen einem Graustufen- und einem Farbausgabebild um. Ändert auch den Eingabetyp &quot;Quelleingabe&quot;. |
+| <b>Farbmodus</b> *Boolescher Wert* | Schaltet zwischen einem Graustufen- und einem Farbausgabebild um. Ändert auch den Eingabetyp &quot;Quelleingabe&quot;. |
 | <b>Maximale Entfernung</b> *Gleitend* | Passt den maximalen Abstand für die Erkennung des nächsten Rahmens in der Maske in Pixel an. |
-| <b>Quelle/Entfernung kombinieren</b> *Boolescher Wert* | Legen Sie fest, wie die optionale &quot;Quelleingabe&quot; mit den endgültigen Zellen kombiniert wird.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Kombinieren:</i> Kombiniert den Wert &quot;Quelleingabe&quot; mit der verblassenden linearen Maske. Wenn der Eingang &quot;Quelleingang&quot; angeschlossen ist, wird sein Wert mit dem berechneten Abstand kombiniert.</li> <li data-preserve-html="true"><i>Nur Quelle:</i> Ergibt nur Volltonfarbe aus der Quelleingabe.</li> </ul> |
+| <b>Quelle/Entfernung kombinieren</b> *Boolescher Wert* | Legen Sie fest, wie die optionale &quot;Quelleingabe&quot; mit den endgültigen Zellen kombiniert wird.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Kombinieren:</i> Kombiniert den Wert &quot;Quelleingabe&quot; mit der verblassenden linearen Maske. Wenn der Eingang &quot;Quelleingang&quot; angeschlossen ist, wird sein Wert mit dem berechneten Abstand kombiniert.</li> <li data-preserve-html="true"><i>Nur Quelle:</i> Ergibt nur Volltonfarbe aus der Quelleingabe.</li> </ul> |
 | <b>Abstandsmodus</b> *Integer* | Wählt die Methode aus, mit der der Abstand zum nächsten Rand in der extrahierten Maske berechnet wird:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Euklidisch:</i> Summe der quadratischen X/Y-Unterschiede.</li> <li data-preserve-html="true"><i>Manhattan:</i> Summe der absoluten Werte der X/Y-Unterschiede.</li> <li data-preserve-html="true"><i>Chebyshev:</i> Maximale Anzahl absoluter Werte für X/Y-Unterschiede.</li> </ul>  <div><img alt="Beispiele für Abstandsmodi" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_copy_copy_row-yj03rtt-column-0i13nfd_image" src="../../../../assets/distance-comparison.jpg" title="Beispiele für Abstandsmodi"/></div> |
 
 ## Eingangsanschlüsse
 
 |  |  |
 | --- | --- |
-| <b>Maskeneingabe</b> *Graustufen* PRIMÄR | Eine Graustufenmaske, deren Rahmen mit einem Abstandswert berechnet werden soll.   Aus dem Bild wird eine binäre Maske mit einem Schwellenwert von 0,5 extrahiert. Dabei sind alle Werte oberhalb dieses Schwellenwerts weiß und alle darunter liegenden Werte schwarz. |
+| <b>Maskeneingabe</b> *Graustufen* PRIMÄR | Eine Graustufenmaske, deren Rahmen mit einem Abstandswert berechnet werden soll.   Aus dem Bild wird eine binäre Maske mit einem Schwellenwert von 0,5 extrahiert. Dabei sind alle Werte oberhalb dieses Schwellenwerts weiß und alle darunter liegenden Werte schwarz. |
 | <b>Quelleingabe</b> *Farbe/Graustufen* | Optionales Graustufenbild, aus dem der Pixelwert am nächsten Rand der &quot;Maskeneingabe&quot; kopiert werden soll. |
 
 ## Ausgangsanschlüsse

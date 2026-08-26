@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
 breadcrumb-title: ''
 description: Greifen Sie auf Funktionsknoten in Substance 3D Designer-Funktionsdiagrammen zu, um benutzerdefinierte Funktionsdiagramme aufzurufen und auszuführen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Funktion
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 5%
@@ -36,11 +36,11 @@ Gibt den ersten Eingang zurück, der mit der Leistung des zweiten Eingangs erhö
 +++
 
 +++2Pow
-![Knotensymbol &#x200B;](../../../../assets/2Pow_Node.jpg "2Knotensymbol ")
+![Knotensymbol ](../../../../assets/2Pow_Node.jpg "2Knotensymbol ")
 
 
 
-Gibt 2 an die Stärke des Eingabewerts zurück: <b>2^X</b>.
+Gibt 2 an die Stärke des Eingangswerts zurück: <b>2^X</b>.
 
 +++
 
@@ -183,7 +183,7 @@ Es ist nicht erforderlich, die X- und Y-Komponente des Eingangsvektors wie in de
 
 Konvertiert Polarkoordinaten in kartesische Koordinaten.
 
-Dies ist der reziproke Wert der <b>Arc-Tangente 2 </b>Funktion: <b>Länge \* Float2(cos(Angle), sin(Angle).</b>
+Dies ist der reziproke Wert der <b>Arc-Tangente 2 </b>-Funktion: <b>Länge \* Float2(cos(Angle), sin(Angle).</b>
 
 Polarkoordinaten sind ein Abstand zum Ursprung und ein Winkel in Radianten zur Horizontalen.
 

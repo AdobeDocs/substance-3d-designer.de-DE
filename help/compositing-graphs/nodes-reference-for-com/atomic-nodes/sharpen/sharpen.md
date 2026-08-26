@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Scharf stellen , um die Strukturdetails und Kanten zu verbessern und gestochen scharfe, definierte Oberflächendetails zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Scharfzeichnen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 4%
@@ -43,7 +43,7 @@ Sie ähnelt mathematisch sehr der Unscharf-Maske von Photoshop, obwohl der Name 
 
 ## Eingaben
 
-<b>Eingabe</b> *Farbe/Graustufen* (primär)\
+<b>Eingabe</b> *Farbe/Graustufen* (Primär)\
 Das Bild, das geschärft werden soll.
 
 ## Parameter

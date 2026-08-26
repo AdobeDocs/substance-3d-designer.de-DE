@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-warp.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Pfade verformen", um Texturen entlang von Pfadkurven zu verformen und so gekrümmte und organische Muster zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pfadverkrümmung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 1%
@@ -57,7 +57,7 @@ Die transformierten Pfade. Sie können entweder [Pfadevorschau](../../../../../.
 <b>Intensität</b> *Gleitend*\
 Der Parameter <b>Intensität</b> legt die Intensität der Verformung fest.
 
-<b>Anzahl der Schritte</b> *Ganze Zahl*\
+<b>Anzahl der Schritte</b> *Integer*\
 Verwenden Sie einen höheren Wert, um die Eingabepfade in mehreren kleinen Schritten zu verkrümmen.\
 Dies kann verhindern, dass sich der Pfad selbst kreuzt, insbesondere wenn hohe <b>Intensitätswerte</b> verwendet werden.
 

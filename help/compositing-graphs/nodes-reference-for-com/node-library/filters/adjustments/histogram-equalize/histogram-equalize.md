@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Histogramm ausgleichen", um die Pixelintensitäten für mehr Kontrast und Helligkeit neu zu verteilen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Histogramm entzerren
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 2%
@@ -75,8 +75,8 @@ Entzerrt das Histogramm für ein Graustufenbild und passt die Graustufenwerte ef
 
 |  |  |
 | --- | --- |
-| <b>Histogrammauflösung</b> *Integer* | Die Breite des Histogramms. Ein höherer Wert ermöglicht eine feinere Wertverteilung.   Verfügbare Auflösungen sind in Pixeln:  256, 512, 1024, 2048, 4096 |
-| <b>Glättung des Histogramms</b> *Gleitend* | Das Histogramm kann geglättet werden, indem die Graustufenwerte im Bild neu verteilt werden, um die *Differenz* zwischen jedem Wert zu entzerren.   Dieser Parameter passt die Intensität der Glättung an. |
+| <b>Histogrammauflösung</b> *Integer* | Die Breite des Histogramms. Ein höherer Wert ermöglicht eine feinere Wertverteilung.   Verfügbare Auflösungen sind in Pixeln:  256, 512, 1024, 2048, 4096 |
+| <b>Glättung des Histogramms</b> *Gleitend* | Das Histogramm kann geglättet werden, indem die Graustufenwerte im Bild neu verteilt werden, um die *Differenz* zwischen jedem Wert zu entzerren.   Dieser Parameter passt die Intensität der Glättung an. |
 
 ## Beispiele
 

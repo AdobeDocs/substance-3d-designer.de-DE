@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-select.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Pfade auswählen", um bestimmte Pfade aus einer Pfadliste anhand von Kriterien auszuwählen und zu filtern.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pfade auswählen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 1%
@@ -51,7 +51,7 @@ Die Pfade werden mit nur einem Pfad eingegeben. Sie können entweder [Pfadevorsc
 
 ## Parameter
 
-<b>Auswahlmodus</b> *Ganze Zahl* Die zum Auswählen der Pfade verwendete Methode:\
+<b>Auswahlmodus</b> *Integer* Die zum Auswählen der Pfade verwendete Methode:\
 *- Nach ID:* Wählt den Pfad aus der Liste aus, deren Index mit dem in <b>Pfad-ID</b> angegebenen Index übereinstimmt.\
 *- Nach Länge:* Wählt die Pfade aus, deren Länge über oder unter dem in <b>Ziellänge</b> angegebenen Schwellenwert liegt.
 
@@ -59,10 +59,10 @@ Die Pfade werden mit nur einem Pfad eingegeben. Sie können entweder [Pfadevorsc
 Der Index des ausgewählten Pfads.\
 Ein Wert, der größer als die Anzahl der Pfade in <b>Pfaden *ist, führt zu einer leeren Ausgabe von*</b>.
 
-<b>Länge größer oder kleiner?</b> *Boolesch* (verfügbar, wenn <b>Auswahlmodus</b> auf *Nach Länge* festgelegt ist)\
+<b>Länge größer oder kleiner?</b> *Boolescher Wert* (verfügbar, wenn der <b>Auswahlmodus</b> auf *Länge* festgelegt ist)\
 Steuert, ob die Auswahl eine größere oder geringere Länge als die <b>Ziellänge</b> enthalten soll.
 
-<b>Ziellänge</b> *Gleitkomma*(verfügbar, wenn <b>Auswahlmodus</b> auf *Länge* festgelegt ist)\
+<b>Ziellänge</b> *Float*(Verfügbar, wenn <b>Auswahlmodus</b> auf *Länge* festgelegt ist)\
 Der Längenschwellenwert, der zum Auswählen von Splines verwendet wird.
 
 ## Beispiele

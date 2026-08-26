@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ''
 description: Verwenden Sie die 3D-Ansicht in Substance 3D Designer, um eine Materialvorschau auf 3D-Objekten anzuzeigen und die Lichtverhältnisse zu testen.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3D-Ansicht
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 7eb945801ce2b27657ed7ab9948dc14dcb94e77c
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '3561'
+source-wordcount: '3514'
 ht-degree: 1%
 
 ---
@@ -128,9 +128,9 @@ In der 3D-Ansicht können Sie ganze Materialien als vollständiges Material anze
 
 Sie können alle Ausgaben eines Diagramms anzeigen, indem Sie auf *RMB* in einem leeren Bereich in der [Diagrammansicht](../../interface/the-graph-view/the-graph-view.md) klicken und im Kontextmenü die Option **Ausgaben in 3D-Ansicht anzeigen** auswählen.
 
-Sie können auch die Ausgaben eines Diagramms anzeigen, ohne es öffnen zu müssen, indem Sie auf RMB in einer Diagrammressource im [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)-Dock klicken und die Option **Ausgaben in 3D-Ansicht anzeigen** im Kontextmenü auswählen.
+Sie können auch die Ausgaben eines Diagramms anzeigen, ohne es öffnen zu müssen, indem Sie auf RMB in einer Diagrammressource im [Explorer](../the-explorer-window/the-explorer-window.md)-Dock klicken und die Option **Ausgaben in 3D-Ansicht anzeigen** im Kontextmenü auswählen.
 
-Alternativ zum Kontextmenü des Diagramms können Sie dasselbe Ergebnis erzielen, indem Sie das Diagramm aus dem [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)-Dock in die [3D-Ansicht](https://substance3d.adobe.com/) ziehen.
+Alternativ zum Kontextmenü des Diagramms können Sie dasselbe Ergebnis erzielen, indem Sie das Diagramm aus dem [Explorer](../the-explorer-window/the-explorer-window.md)-Dock in die 3D-Ansicht ziehen.
 
 Wenn *ein Diagramm* lädt, werden seine Ausgaben standardmäßig automatisch in der 3D-Ansicht angewendet. Sie können dieses Verhalten in den [Voreinstellungen](../../interface/preferences-window/preferences-window.md) deaktivieren. Gehen Sie zu **Bearbeiten > Voreinstellungen > Diagramm > Allgemein** und deaktivieren Sie die Option **Anzeigen von Ausgaben in 3D-Ansicht, wenn Sie ein Diagramm öffnen**.
 
@@ -150,7 +150,7 @@ Sie können einen beliebigen Knoten anzeigen, nicht nur Ausgabeknoten, indem Sie
 
 Sie können auch *RMB* verwenden, um einen beliebigen Knoten per Drag &amp; Drop aus der Diagrammansicht in die 3D-Ansicht zu ziehen. Ihnen wird eine Liste mit verfügbaren Kanälen angezeigt, denen der Knoten zugewiesen werden kann. Klicken Sie zum Bestätigen auf eine beliebige Option.
 
-Sie können jede einzelne Diagrammausgabe anzeigen, indem Sie die Diagrammressource im [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)-Dock erweitern und diese Ausgabe mit *LMB* in die 3D-Ansicht ziehen. Ihnen wird eine Liste mit verfügbaren Kanälen angezeigt, denen der Knoten zugewiesen werden kann. Klicken Sie zum Bestätigen auf eine beliebige Option.
+Sie können jede einzelne Diagrammausgabe anzeigen, indem Sie die Diagrammressource im [Explorer](../the-explorer-window/the-explorer-window.md)-Dock erweitern und diese Ausgabe mit *LMB* in die 3D-Ansicht ziehen. Ihnen wird eine Liste mit verfügbaren Kanälen angezeigt, denen der Knoten zugewiesen werden kann. Klicken Sie zum Bestätigen auf eine beliebige Option.
 
 ![Anzeigen von benutzerdefinierten 3D-Meshes](../../assets/3d-mesh.gif "Anzeigen von benutzerdefinierten 3D-Meshes")
 
@@ -221,7 +221,7 @@ Gehen Sie zum Exportieren des 3D-Ansichtsgitters zu <b>Szene > Tesseliertes Gitt
 >
 > **TDR (nur Windows)**
 > 
-> Für diese Funktion muss die <b>Zeitüberschreitungserkennung und -wiederherstellung (TDR)</b> mit den empfohlenen Werten in [dieser Seite](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) unserer Dokumentation übereinstimmen, wie in den [technischen Anforderungen](../../getting-started/system-requirements/system-requirements.md) von Designer angegeben.
+> Für diese Funktion muss die <b>Zeitüberschreitungserkennung und -wiederherstellung (TDR)</b> mit den empfohlenen Werten in [dieser Seite](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) unserer Dokumentation übereinstimmen, wie in den [technischen Anforderungen](../../getting-started/system-requirements/system-requirements.md) von Designer angegeben.
 
 ## Menüleiste
 
@@ -266,7 +266,7 @@ Das Menü <b>Szene</b> behandelt die angezeigte Geometrie (3D-Ressource) und die
 
 * Torus
 
-<b>UVs in 2D-Ansicht anzeigen:</b> Aktiviert die Anzeige der UVs für das aktuell ausgewählte Gitter als Overlay in [der 2D-Ansicht](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html) .
+<b>UVs in 2D-Ansicht anzeigen:</b> Aktiviert die Anzeige der UVs für das aktuell ausgewählte Gitter als Overlay in der [2D-Ansicht](../2d-view/2d-view.md).
 
 <b>3D-Ressource aus aktueller Szene erstellen...:</b> Erstellt eine neue [3D-Szenenressource](../../resources/3d-scene-resource/3d-scene-resource.md) in einem Paket aus der aktuellen Szene.
 
@@ -301,11 +301,11 @@ Das Menü &quot;Materialien&quot; enthält eine Liste aller Materialien, die ein
 
 <b>Bearbeiten</b> - Bearbeiten Sie die Einstellungen des aktuellen Materials im Eigenschaftenfenster.
 
-<b>Shaders-Liste</b> - Alle [Shaders](../../glossary/glossary.md), die für den aktuellen [3D-Renderer &#x200B;](../../interface/3d-view/3d-renderers/3d-renderers.md) verfügbar sind.
+<b>Shaders-Liste</b> - Alle [Shaders](../../glossary/glossary.md), die für den aktuellen [3D-Renderer ](../../interface/3d-view/3d-renderers/3d-renderers.md) verfügbar sind.
 
 <b>Definition laden..: </b>(Nur OpenGL-Renderer) Ermöglicht das Laden eines eigenen benutzerdefinierten [GLSLFX-Shaders.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) Der Shader wird der obigen Liste hinzugefügt.
 
-<b>Allgemeine Parameter zurücksetzen:</b> Setzt alle Parameter zurück, die für alle Shader gelten. Wenn Sie beispielsweise zwischen Rasterprogramm/GPU-Pathtracer und OpenGL-Renderer wechseln, werden mehrere Parameterwerte im [Adobe-Standardmaterial](https://experienceleague.adobe.com/de/docs/substance-3d/general-knowledge/asm/adobe-standard-material) übertragen.
+<b>Allgemeine Parameter zurücksetzen:</b> Setzt alle Parameter zurück, die für alle Shader gelten. Wenn Sie beispielsweise zwischen Rasterprogramm/GPU-Pathtracer und OpenGL-Renderer wechseln, werden mehrere Parameterwerte im [Adobe-Standardmaterial](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) übertragen.
 
 <b>Umbenennen:</b> Ändern Sie die Beschriftung für dieses Material.
 
@@ -313,7 +313,7 @@ Das Menü &quot;Materialien&quot; enthält eine Liste aller Materialien, die ein
 
 <b>Material auf Szenenstatus zurücksetzen: </b>*(Nur Rasterbildwiedergabe-/GPU-Pathtracer-Renderer)* Setzt alle Eigenschaften für [überschriebene Materialien](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) auf ihre Originalwerte aus der Szene zurück, einschließlich eventuell vorhandener Originaltexturen.
 
-<b>Hinzufügen: </b>Fügt der Liste ein neues Material hinzu. Er ist standardmäßig nicht verwendet und kann [mit einem Szenenmaterial &#x200B;](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) mithilfe des [Szenenbrowsers &#x200B;](../../interface/3d-view/scene-browser/scene-browser.md) verbunden sein.
+<b>Hinzufügen: </b>Fügt der Liste ein neues Material hinzu. Er ist standardmäßig nicht verwendet und kann [mit einem Szenenmaterial ](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) mithilfe des [Szenenbrowsers ](../../interface/3d-view/scene-browser/scene-browser.md) verbunden sein.
 
 +++
 
@@ -431,7 +431,7 @@ Zeigt eine Hierarchie aller Elemente in einer 3D-Szene an.
 
 >[!INFO]
 >
->Der Szenenbrowser und seine Features werden ausführlich in [der dedizierten Seite &#x200B;](../../interface/3d-view/scene-browser/scene-browser.md) behandelt.
+>Der Szenenbrowser und seine Features werden ausführlich in [der dedizierten Seite ](../../interface/3d-view/scene-browser/scene-browser.md) behandelt.
 
 
 <img src="3d-view.resources/3d-view-scene-toolbar-select.png" width="24" /> <b>Auswählen</b>

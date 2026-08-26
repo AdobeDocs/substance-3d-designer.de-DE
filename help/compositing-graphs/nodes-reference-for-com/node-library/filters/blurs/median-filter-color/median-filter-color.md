@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-color.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Filterfarbe Median", um Rauschen zu reduzieren und Kanten in Farbstrukturen zu erhalten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mittlere Filterfarbe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Mittlere Filterfarbe: Symbol &#x200B;](../../../../../../assets/MedianFilter_Icon_Color.png "Mittlere Filterfarbe: Symbol ")
+![Mittlere Filterfarbe: Symbol ](../../../../../../assets/MedianFilter_Icon_Color.png "Mittlere Filterfarbe: Symbol ")
 
 <b>In:</b> Filters > Blurs
 
@@ -61,11 +61,11 @@ Dieser Parameter steuert die Größe des quadratischen Kernels in Pixeln. Ein gr
 *- 3x3:* ein Kernel, der 3 Pixel breit und 3 Pixel hoch ist und insgesamt 8 Nachbarpixel umfasst.\
 *- 5x5:* ein Kernel, der 5 Pixel breit und 5 Pixel hoch ist und insgesamt 24 Nachbarpixel umfasst.
 
-<b>Filtertyp</b> *Integer* Die Berechnung, die auf die Nachbarn angewendet wurde, die im Kernel getestet wurden.\
+<b>Filtertyp </b> *Integer* Die Berechnung wurde auf die Nachbarn angewendet, die im Kernel getestet wurden.\
 *- Median:* Verwenden Sie den Medianwert aller Nachbarn direkt.\
 *- MLMAD:* steht für &quot;Median der niedrigsten mittleren absoluten Abweichung&quot;. Die Abweichung gibt an, wie unterschiedlich ein Wert vom Median ist. Anstatt den Medianwert direkt zu verwenden, der von einem Ausreißer-Pixel mit hoher Abweichung geneigt werden kann, verwendet das MLMAD-Verfahren den Median aller Abweichungen. Diese Methode führt zu einem stärkeren Glättungseffekt, der Bereiche entsprechend der Kernelgröße abflachen kann.
 
-<b>Alpha beeinflussen</b> *Boolesch* Steuert, ob der Filter auf den Alphakanal des Bildes angewendet werden soll. Wenn *True*, bleibt der Alphakanal unverändert.
+<b>Alpha betreffen</b> *Boolean* Steuert, ob der Filter auf den Alphakanal des Bildes angewendet werden soll. Wenn *True*, bleibt der Alphakanal unverändert.
 
 ## Beispiele
 

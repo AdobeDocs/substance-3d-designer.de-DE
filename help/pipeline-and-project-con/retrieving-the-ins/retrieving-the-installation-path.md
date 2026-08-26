@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/pipeline-and-project-configuration/retrieving-the-installation-path.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/retrieving-the-installation-path.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie den Installationspfad von Substance 3D Designer für Skript- und Automatisierungszwecke abrufen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ermitteln des Installationspfads
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 8%
@@ -20,14 +20,14 @@ ht-degree: 8%
 
 # Ermitteln des Installationspfads
 
-Auf dieser Seite werden Informationen über Möglichkeiten zum Abrufen des Installationspfads von [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) je nach Version und Plattform neu gruppiert.
+Auf dieser Seite werden Informationen über Möglichkeiten zum Abrufen des Installationspfads von [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) je nach Version und Plattform neu gruppiert.
 
 ## Windows
 
 ### Creative Cloud Desktop
 
 1. <b>Windows-Registrierungseditor </b> öffnen (regedit)
-1. Navigieren Sie zum Registrierungsschlüssel: <b>HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\&lt;/b>
+1. Navigieren Sie zum Registrierungsschlüssel: <b>HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Pfade\&lt;/b>
 1. Öffnen Sie den Unterschlüssel &quot;<b>Adobe Substance 3D Designer.exe</b>&quot;.
 1. Der Wert des Schlüssels enthält den Pfad zur ausführbaren Anwendungsdatei, in der er installiert ist
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Wertprozessor , um Texturwerte mit mathematischen Operationen für benutzerdefinierte Anpassungen zu verarbeiten und zu bearbeiten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Wertprozessor
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 4%
@@ -29,9 +29,9 @@ ht-degree: 4%
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-Berechnet ein [Substance-Funktionsdiagramm &#x200B;](../../../../function-graphs/the-function-graph/the-function-graph.md) und gibt dessen Ergebnis aus.
+Berechnet ein [Substance-Funktionsdiagramm ](../../../../function-graphs/the-function-graph/the-function-graph.md) und gibt dessen Ergebnis aus.
 
-Er ist mit einem [Pixelprozessor](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) vergleichbar, mit dem Unterschied, dass er nicht für jedes Pixel eine Funktion, sondern einen einzigen Wert berechnet und es [&#x200B; in einem Substance-Diagramm verfügbar macht](../../../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md).
+Er ist mit einem [Pixelprozessor](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) vergleichbar, mit dem Unterschied, dass er nicht für jedes Pixel eine Funktion, sondern einen einzigen Wert berechnet und es [ in einem Substance-Diagramm verfügbar macht](../../../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md).
 
 </td>
 </tr>
@@ -82,7 +82,7 @@ Er ist mit einem [Pixelprozessor](../../../../compositing-graphs/nodes-reference
 
 |  |  |
 | --- | --- |
-| <b>Werteprozessorfunktion</b> *Beliebiger verfügbarer Werttyp* | [Substance-Funktionsgraph &#x200B;](../../../../function-graphs/the-function-graph/the-function-graph.md) zur Berechnung des Ausgabewerts ausgewertet. |
+| <b>Werteprozessorfunktion</b> *Beliebiger verfügbarer Werttyp* | [Substance-Funktionsgraph ](../../../../function-graphs/the-function-graph/the-function-graph.md) zur Berechnung des Ausgabewerts ausgewertet. |
 
 ## Eingangsanschlüsse
 

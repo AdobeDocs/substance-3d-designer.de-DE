@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-flow-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-flow-mapper.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Spline Flow Mapper", um fließende Texturmuster entlang von Spline-Pfaden für organische Effekte zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline-Flow-Mapper
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 0%
@@ -51,9 +51,9 @@ Mit Splines kannst du die Richtung, die Trajektorie, die Intensität und die Thi
 <b> R</b> - X-Position\
 <b> G</b> - Y-Position\
 <b> B</b> - Height\
-    <b>A</b> - Paketdaten:\
-        * Signieren: Die Spline ist geschlossen (negativ) oder offen (positiv).\
-        * Absoluter Wert: Thickness + 1.
+<b>A</b> - Paketdaten:\
+* Signieren: Die Spline ist geschlossen (negativ) oder offen (positiv).\
+* Absoluter Wert: Thickness + 1.
 
 <b>Spline-Daten</b> *Farbe* Zusätzliche Daten der Eingabe-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.\
 <b> R</b> - Tangenten X\

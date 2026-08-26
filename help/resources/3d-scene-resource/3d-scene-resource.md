@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/resources/3d-scene-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/3d-scene-resource.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie 3D-Szenenressourcen in Substance 3D Designer für die Materialvorschau und das Testen importieren und verwenden.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3D-Szenen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ Die folgenden 3D-Szenendateiformate werden unterstützt:
 
 3D-Szenen können *nur* verknüpft werden, d. h. sie bleiben an ihrem Speicherort auf dem Datenträger und werden nur in der Anwendung referenziert.
 
-Wenn ein Paket mit einer 3D-Szenenressource als [Substance 3D](https://www.adobe.com/de/products/substance3d/3d-augmented-reality.html)-Asset (SBSAR) veröffentlicht wird, ist das Gitter *nicht eingebettet*, aber verworfen.
+Wenn ein Paket mit einer 3D-Szenenressource als [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)-Asset (SBSAR) veröffentlicht wird, ist das Gitter *nicht eingebettet*, aber verworfen.
 
 ## Backen von Gitterkarten
 
@@ -53,7 +53,7 @@ Das Verknüpfen einer 3D-Szene mit Ihrem Paket ist die einzige Möglichkeit, [Gi
 * Klicken Sie auf *RMB* in einem Paket und wählen Sie im Kontextmenü die Option <b>Link > 3D-Mesh</b> aus.
 * Wählen Sie eine unterstützte 3D-Szenendatei
 * Wenn die Dialogaufforderung <b>Als Udim-Gitter verknüpfen</b> angezeigt wird, klicken Sie auf *Nein*, es sei denn, Sie möchten UV-Kacheln backen.
-* Wenn die Ressource in [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) geladen ist, klicken Sie auf *RMB*, und wählen Sie im Kontextmenü die Option <b>Modellinformationen für Backen</b> aus.
+* Wenn die Ressource in [Explorer](../../interface/the-explorer-window/the-explorer-window.md) geladen ist, klicken Sie auf *RMB*, und wählen Sie im Kontextmenü die Option <b>Modellinformationen für Backen</b> aus.
 * Das Dialogfeld &quot;[Modellinformationen backen](../../bakers/bakers.md)&quot; wird angezeigt, in dem Sie alle Gitterzuordnungs-Backs einrichten und ausführen können.
 
 ![Gitterzuordnungen sichern](../../assets/bake-model-information.gif "Gitterzuordnungen sichern"){width="512px"}

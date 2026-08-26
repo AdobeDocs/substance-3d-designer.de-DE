@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
 breadcrumb-title: ''
 description: Mit den Bitmap-Malwerkzeugen in Substance 3D Designer können Sie direkt auf Bitmap-Ressourcen malen, um Strukturen zu bearbeiten.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Bitmap-Malwerkzeuge
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -48,13 +48,13 @@ Bearbeitungen können *einzeln rückgängig gemacht werden*, und alle anderen Fu
 
 Die Malwerkzeuge werden automatisch im Bedienfeld [2D-Ansicht](../../../interface/2d-view/2d-view.md) aktiviert, wenn die folgenden Kriterien für eine Bitmap erfüllt sind:
 
-* Die Bitmap ist eine [neue oder importierte &#x200B;](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)-Ressource.
+* Die Bitmap ist eine [neue oder importierte ](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)-Ressource.
 * Die Bitmap weist die Präzision *8-Bit* auf.
 * Die Bitmap wird im Bereich [2D-Ansicht](../../../interface/2d-view/2d-view.md) angezeigt.
 
 *Neue* Bitmaps können auf folgende Weise erstellt werden:
 
-* Klicken Sie im Bereich [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) auf RMB in einem *SBS-Paket* oder einem *Ordner* in einem Paket, um das Kontextmenü zu öffnen. Öffnen Sie dann das Untermenü <b>Neu</b> und wählen Sie die Option <b>Bitmap</b> aus.
+* Klicken Sie im Bereich [Explorer](../../../interface/the-explorer-window/the-explorer-window.md) auf RMB in einem *SBS-Paket* oder einem *Ordner* in einem Paket, um das Kontextmenü zu öffnen. Öffnen Sie dann das Untermenü <b>Neu</b> und wählen Sie die Option <b>Bitmap</b> aus.
 * Erstellen Sie in einem [Diagramm](../../../interface/the-graph-view/the-graph-view.md) einen [Bitmapknoten](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md), und wählen Sie die <b>Von neuer Ressource...Option </b> im Kontextmenü
 
 Das Fenster <b>Neue Bitmap</b> wird geöffnet, in dem Sie die *Namen*, *Auflösung* und *Hintergrundfarbe* der neuen Bitmapressource festlegen können.
@@ -128,9 +128,9 @@ Um eine Vorgabe zu erstellen, legen Sie die folgenden Eigenschaften nach Ihren W
 
 Vorgaben werden in *Bibliotheken* organisiert und gespeichert, die im Menü ![](../../../assets/2dview-paintingtools-editor-presetlibrary.png) <b>Pinselbibliothek</b> verwaltet werden können:
 
-<b>Bibliothek exportieren:</b> *Aktuelle Vorgaben und alle zugehörigen Einstellungen in einer Bibliotheksdatei speichern*
+<b>Bibliothek exportieren:</b> *Speichern* der aktuellen Vorgaben und aller zugehörigen Einstellungen in einer Bibliotheksdatei
 
-<b>Bibliothek importieren:</b> *Vorgaben laden* aus einer vorhandenen Bibliotheksdatei laden und *der aktuellen Liste hinzufügen* - Vorgaben mit *demselben Namen werden ersetzt* durch die Vorgaben aus der Bibliotheksdatei
+<b>Bibliothek importieren:</b> *Vorgaben laden* aus einer vorhandenen Bibliotheksdatei, und *sie der aktuellen Liste hinzufügen* - Vorgaben mit *demselben Namen werden ersetzt* durch die Vorgaben aus der Bibliotheksdatei
 
 <b>Bibliothek zurücksetzen:</b> setzt die aktuellen Vorgaben durch die Standardbibliothek zurück.
 

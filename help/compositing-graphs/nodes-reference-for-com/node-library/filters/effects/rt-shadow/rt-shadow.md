@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-shadow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-shadow.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten RT-Schatten, um Schatteninformationen aus der Geometrie in Echtzeit zu berechnen, um dynamische Beleuchtungseffekte zu erzeugen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: RT-Schatten
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Dieser Knoten sollte aufgrund der Berechnungszeit nicht in Kombination mit der C
 Die Anzahl der Strahlen, die zur Berechnung der Schatten verwendet werden.\
 Ein höherer Wert sorgt für ein glatteres und präziseres Ergebnis, was wiederum die Kosten für die Leistung verursacht.
 
-<b>Modus</b> *Ganze Zahl*\
+<b>Modus</b> *Integer*\
 Die Methode zum Zeichnen der Schatten auf der Oberfläche.
 
 <b>Height-Skalierung</b> *Gleitend*\
@@ -58,7 +58,7 @@ Die Position der Lichtquelle auf einer Kugel, die die Oberfläche umschließt:
 * <b>X</b>: horizontale Lage in Windungszahl;
 * <b>J</b>: vertikale Position, wobei 0,5 der Zenit und 0/1 der Horizont sind.
 
-<b>Lichtintensität</b> *Unverankert*\
+<b>Lichtintensität</b> *Gleitend*\
 Die Intensität der Lichtquelle.
 
 <b>Lichtgröße</b> *Float2* (verfügbar, wenn <b>Modus</b> auf *Schattiert* festgelegt ist)\
@@ -71,10 +71,10 @@ Ein höherer Wert sorgt für weichere Schatten.
 <b>Licht über Horizont halten</b> *Boolescher Wert*\
 Wenn <b>Lichtposition</b> so eingestellt ist, dass das Licht unter dem Horizont platziert wird, verhindert dieser Parameter, dass das Licht diesen Schwellenwert überschreitet, was bedeutet, dass die Y-Werte auf den Bereich [0;1] geklemmt werden.
 
-<b>Schattendeckkraft</b> *Unverankert*\
+<b>Schattendeckkraft</b> *Gleitend*\
 Ein Multiplikator für die Deckkraft von Schatten, die auf der Oberfläche gezeichnet werden.
 
-<b>Schattendämpfung</b> *Unverankert*\
+<b>Schattendämpfung</b> *Gleitend*\
 Ein Multiplikator für die Dämpfung der Schatten, je weiter sie von ihrem Zauberer entfernt sind.\
 Ein Wert von 0 führt zu einheitlichen Schatten (weiche Schatten werden weiterhin angewendet).
 

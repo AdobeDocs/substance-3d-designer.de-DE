@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/create-color-palette-16.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/create-color-palette-16.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Farbpalette erstellen , um eine 16-Farben-Palette aus Texturen für stilisierte Effekte zu extrahieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Farbpalette erstellen (16)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 1%
@@ -67,8 +67,8 @@ Dieser Knoten kann in Kombination mit den folgenden Knoten verwendet werden: [Fa
 
 |  |  |
 | --- | --- |
-| <b>Palette</b> *Farbe* PRIMÄR | Eine geordnete Liste von RGB-Farben, die als Pixelzeile codiert sind. Die Palette kann maximal 256 Farben enthalten.   Diese Eingabe ist optional. Wenn sie verwendet wird, werden die vom Knoten eingerichteten Farben an diese Palette angehängt.   Die Palette kann mit dem Knoten [Farbpalette anzeigen](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) angezeigt werden. |
-| <b>Farbmenge der Palette</b> *Integer* | Die Menge der in der Palette gespeicherten Farben.   Wenn diese Zahl nicht mit der tatsächlichen Farbmenge in der Bildeingabe der Palette übereinstimmt, ist die Visualisierung möglicherweise unvollständig oder weist mehr leere Steckplätze auf als unbedingt erforderlich. |
+| <b>Palette</b> *Farbe* PRIMÄR | Eine geordnete Liste von RGB-Farben, die als Pixelzeile codiert sind. Die Palette kann maximal 256 Farben enthalten.   Diese Eingabe ist optional. Wenn sie verwendet wird, werden die vom Knoten eingerichteten Farben an diese Palette angehängt.   Die Palette kann mit dem Knoten [Farbpalette anzeigen](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) angezeigt werden. |
+| <b>Farbmenge der Palette</b> *Integer* | Die Menge der in der Palette gespeicherten Farben.   Wenn diese Zahl nicht mit der tatsächlichen Farbmenge in der Bildeingabe der Palette übereinstimmt, ist die Visualisierung möglicherweise unvollständig oder weist mehr leere Steckplätze auf als unbedingt erforderlich. |
 
 ## Ausgangsanschlüsse
 
@@ -82,7 +82,7 @@ Dieser Knoten kann in Kombination mit den folgenden Knoten verwendet werden: [Fa
 |  |  |
 | --- | --- |
 | <b>Farbmenge</b> *Integer* | Die Anzahl der Farben, die der Palette hinzugefügt werden sollen. |
-| <b>Farbe #</b> *Float3* *Es sind so viele Parameter verfügbar wie der Wert &quot;Farbbetrag&quot;* | Eine Farbe, die der Palette hinzugefügt werden soll.   Die Farben werden der Palette in derselben Reihenfolge angehängt wie diese nummerierte Liste. |
+| <b>Farbe #</b> *Float3* *Es sind so viele Parameter verfügbar wie der Wert &quot;Farbbetrag&quot;* | Eine Farbe, die der Palette hinzugefügt werden soll.   Die Farben werden der Palette in derselben Reihenfolge angehängt wie diese nummerierte Liste. |
 
 ## Beispiele
 
