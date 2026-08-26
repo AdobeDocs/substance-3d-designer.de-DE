@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Version 12.4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '820'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Wenn du dein Diagramm bearbeitest, musst du manchmal mehrere Möglichkeiten ausp
 
 ### Eingeben von Formeln in Parameterfelder
 
-Es ist nicht mehr nötig, einen Rechner zu benutzen oder im Kopf zu rechnen, wenn man bestimmte Parameterwerte eingeben will. Sie können jetzt beim Festlegen eines numerischen Werts für einen Parameter in den [Eigenschaften](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) und an anderen Stellen in der Anwendung grundlegende Formeln wie Additionen, Divisionen, Multiplikationen oder Subtraktionen direkt eingeben.
+Es ist nicht mehr nötig, einen Rechner zu benutzen oder im Kopf zu rechnen, wenn man bestimmte Parameterwerte eingeben will. Sie können jetzt direkt grundlegende Formeln wie Additionen, Divisionen, Multiplikationen oder Subtraktionen eingeben, wenn Sie einen numerischen Wert für einen Parameter in den Eigenschaften und an anderen Stellen in der Anwendung festlegen.
 
 ![](../../assets/final-formula.gif){width="640px"}
 

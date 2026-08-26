@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Substance-Funktionsdiagramme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 [Substance-Funktionsdiagramme](https://substance3d.adobe.com/) <b>verarbeiten Einzelwerte</b> (Ganzzahlen, Gleitkommawerte, Vektoren) anstelle von Bilddaten (ganze Pixelsätze). Funktionen sind auch Diagramme mit Knotennetzwerken, aber die [Nodes verwendet](../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md) und die Schnittstelle unterscheidet sich von [normalen Substance-Diagrammen](../compositing-graphs/substance-compositing-graphs.md). Der Workflow basiert vollständig auf <b>mathematischen Vorgängen</b> und zeigt keine Bildvorschau-Miniaturansichten an. Dadurch wird die <b>Arbeit mit Substance 3D Designer </b> um einiges weiter entwickelt.
 
-Funktionen können in vielen verschiedenen Kontexten verwendet werden, wobei die wichtigsten darin bestehen, das Verhalten von [einem verfügbar gemachten Parameter](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) zu ändern, das Verhalten von [Pixelprozessoren](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) oder [FX-Maps](../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) zu verfassen und [Werte in einem Diagramm zu verwenden.](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)
+Funktionen können in vielen verschiedenen Kontexten verwendet werden, wobei die wichtigsten darin bestehen, das Verhalten von [einem verfügbar gemachten Parameter](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) zu ändern, das Verhalten von [Pixelprozessoren](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) oder [FX-Maps](../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) zu verfassen und [Werte in Substance-Graphen](../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) zu verwenden.
 
 </td>
 </tr>

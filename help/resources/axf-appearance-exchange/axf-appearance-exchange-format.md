@@ -10,9 +10,9 @@ helpx_tags: ""
 title: AxF-Dateien (Appearance eXchange Format)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2151'
+source-wordcount: '2140'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Klicken Sie auf <b>AxF importieren...Schaltfläche </b> im linken Abschnitt des 
 
 +++Explorer
 
-Klicken Sie im [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) auf RMB für ein Paket, und navigieren Sie im Kontextmenü des Pakets zu <b>Importieren > AxF</b>.
+Klicken Sie im [Explorer](../../interface/the-explorer-window/the-explorer-window.md) auf RMB für ein Paket, und navigieren Sie im Kontextmenü des Pakets zu <b>Importieren > AxF</b>.
 
 ![AxF: Import aus Explorer starten](../../assets/axf_explorer.png "AxF: Import aus Explorer "){width="600px"} starten
 

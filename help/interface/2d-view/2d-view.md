@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 2D-Ansicht
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2379'
+source-wordcount: '2354'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Bilder können auch *gezogen und* direkt in den Viewport abgelegt werden, indem 
 In der Diagrammansicht können Sie ein Bild an die 2D-Ansicht senden, indem Sie die Kontextmenüoption <b>Ausgabe in 2D-Ansicht</b> verwenden, auf die Sie durch Klicken auf *RMB*... zugreifen können.
 
 * ...auf einem *Knoten*, um *die Ausgabe dieses Knotens anzuzeigen*. Wenn der Knoten mehr als eine Ausgabe hat, wählen Sie die gewünschte Ausgabe im Untermenü
-* ...auf *leerem Platz* in der Diagrammansicht, um die Ausgabe *dieses Diagramms anzuzeigen.* Wenn der Graph mehr als eine Ausgabe hat, wählen Sie die gewünschte Ausgabe im Untermenü
+* ...auf *leerem Platz* in der Diagrammansicht, um die Ausgabe *dieses Diagramms anzuzeigen.* Wenn der Graph mehr als eine Ausgabe hat, wählen Sie die gewünschte Ausgabe im Untermenü
 
 Beim Laden eines Diagramms wird seine *erste Ausgabe* standardmäßig automatisch in der 2D-Ansicht angezeigt. Sie können dieses Verhalten in den [Voreinstellungen](../../interface/preferences-window/preferences-window.md) deaktivieren. Gehen Sie zu <b>Bearbeiten > Voreinstellungen > Graph > Substance Compositing Graph</b> und *deaktivieren* Sie die <b>Ausgabe in 2D-Ansicht anzeigen, wenn Sie eine Option Graph</b> öffnen.
 
@@ -81,7 +81,7 @@ Der Viewport ist der *Anzeigebereich* der <b>2D-Ansicht</b> und ermöglicht es I
 
 Verwenden eines Trackpads (nur macOS)
 
-* <b>Schwenken: </b>Zwei Finger wischen
+* <b>Schwenken: </b>Wischen mit zwei Fingern
 * <b>Zoom:</b> Zwei Finger zusammenziehen/Zwei Finger wischen, während Cmd gedrückt wird
 
 >[!IMPORTANT]
@@ -124,7 +124,7 @@ Sie können *ein anderes Bild* über das aktuell angezeigte Bild legen. Drücken
 
 Sobald die Datei ausgewählt ist, wird eine neue Symbolleiste mit den folgenden Steuerelementen für die Bildüberlagerung angezeigt:
 
-<b>![](../../assets/2d-view-icon-background-close.png) Schließen:</b> *Schließen* Sie die Überlagerungssteuerungssymbolleiste und *deaktivieren* Sie die Hintergrundbildüberlagerung.
+<b>![](../../assets/2d-view-icon-background-close.png) Schließen:</b> *Schließen* Sie die Symbolleiste für Überlagerungssteuerelemente, und *deaktivieren* Sie die Überlagerung des Hintergrundbilds.
 
 <b>![](../../assets/2d-view-icon-background-loadpng.png) Bild laden:</b> Wählen Sie *eine andere Bilddatei* aus, die als Überlagerung verwendet werden soll.
 
@@ -181,7 +181,7 @@ Dieses Feature ist *nicht* für andere Knoten verfügbar, einschließlich Knoten
 
 Wenn die Option <b>UVs in 2D-Ansicht anzeigen</b> im Menü <b>Szene</b> des Docks [3D-Ansicht anzeigen](../../interface/3d-view/3d-view.md) aktiviert ist, ist die UV-Überlagerungsfunktion in der 2D-Ansicht verfügbar.
 
-Sie können sie mit der Schaltfläche <b>UV</b> aktivieren. ![](../../assets/2d-view-icon-uv.png)
+Sie können sie mit der Schaltfläche <b>UV</b> aktivieren. 2![](../../assets/2d-view-icon-uv.png)
 
 Dadurch werden die UVs des Gitters [, das derzeit in der 3D-Ansicht &#x200B;](../../interface/3d-view/3d-view.md) ausgewählt ist, als farbiges Drahtgitter angezeigt.
 
@@ -343,7 +343,7 @@ Die <b>Bitmap-Malwerkzeuge</b> sind für [Bitmap-Ressourcen](../../resources/bit
 
 >[!TIP]
 >
-> Weitere Informationen finden Sie auf der Seite [Bitmap-Maleditor](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/bitmap-painting-editor-102400057.html) der Dokumentation.
+> Weitere Informationen finden Sie auf der Seite [Bitmap-Malwerkzeuge](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md) der Dokumentation.
 
 <table>
 <tr style="border: 0;">
@@ -368,7 +368,7 @@ Der <b>Vektorgrafik-Editor</b> ist für *importierte* [SVG-Ressourcen](../../res
 
 >[!TIP]
 >
-> Weitere Informationen finden Sie auf der Seite [Vektorgrafik-Editor (veraltet)](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/vector-graphic-editor-deprecated-102400059.html) der Dokumentation.
+> Weitere Informationen finden Sie auf der Seite [Werkzeuge zur Vektorbearbeitung](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) (veraltet) der Dokumentation.
 
 ![2D-Farbmanagement anzeigen](../../assets/2d-view-color-management-ocio.png "2D-Farbmanagement anzeigen"){width="360px"}
 

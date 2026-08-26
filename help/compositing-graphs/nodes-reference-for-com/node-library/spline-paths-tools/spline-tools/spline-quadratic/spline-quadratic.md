@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Spline (quadratisch)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Die Spannweite des durch die Spline gebildeten Bogens ist *einstellbar*, sodass 
 |  |  |
 | --- | --- |
 | <b>Vorschau</b> *Graustufen* | Die Vorschau der Eingabe-Splines als Graustufenbild. |
-| <b>Spline-Kabel</b> *Farbe* | Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Eingabesplines: <b>R</b> - X-Position <b>G</b> - Y-Position <b>B</b> - Height <b>A</b> - Packed data:          - Signieren: Die Spline ist geschlossen (negativ) oder offen (positiv).          - Absoluter Wert: Thickness + 1. |
+| <b>Spline-Kabel</b> *Farbe* | Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Eingabesplines: <b>R</b> - X-Position <b>G</b> - Y-Position <b>B</b> - Height <b>A</b> - Packed data:          - Signieren: Die Spline ist geschlossen (negativ) oder offen (positiv).          - Absoluter Wert: Thickness + 1. |
 | <b>Spline-Daten</b> *Farbe* | Zusätzliche Daten der Eingabe-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind:  <b>R</b> - Tangenten X <b>G</b> - Tangenten Y <b>B</b> - Tangenten Z <b>A</b> - Nicht verwendet |
 | <b>Spline-Betrag</b> *Integer* | Die Anzahl der Eingabe-Splines. |
 
@@ -57,7 +57,7 @@ Die Spannweite des durch die Spline gebildeten Bogens ist *einstellbar*, sodass 
 |  |  |
 | --- | --- |
 | <b>Vorschau</b> *Graustufen* | Die Vorschau der Ausgabe-Splines als Graustufenbild. |
-| <b>Spline-Kabel</b> *Farbe* | Die Koordinaten der Punkte der Ausgabesplines, die in den RGBA-Kanälen eines Farbbildes codiert sind:  <b>R</b> - X-Position <b>G</b> - Y-Position <b>B</b> - Height <b>A</b> - Packed data:          - Signieren: Die Spline ist geschlossen (negativ) oder offen (positiv).          - Absoluter Wert: Thickness + 1. |
+| <b>Spline-Kabel</b> *Farbe* | Die Koordinaten der Punkte der Ausgabesplines, die in den RGBA-Kanälen eines Farbbildes codiert sind:  <b>R</b> - X-Position <b>G</b> - Y-Position <b>B</b> - Height <b>A</b> - Packed data:          - Signieren: Die Spline ist geschlossen (negativ) oder offen (positiv).          - Absoluter Wert: Thickness + 1. |
 | <b>Spline-Daten</b> *Farbe* | Zusätzliche Daten zu den in den RGBA-Kanälen eines Farbbildes codierten Ausgabe-Splines:  <b>R</b> - Tangenten X <b>G</b> - Tangenten Y <b>B</b> - Tangenten Z <b>A</b> - Nicht verwendet |
 | <b>Spline-Betrag</b> *Integer* | Die Anzahl der Ausgabe-Splines. |
 
@@ -78,7 +78,7 @@ Die Spannweite des durch die Spline gebildeten Bogens ist *einstellbar*, sodass 
 | <b>Height starten</b> *Gleitend* | Passt das Height des <b>p1</b>-Punkts an, wenn ein niedrigerer Wert eine niedrigere oder tiefere Position bedeutet.  Dies wirkt sich auf das Height des Splines bei <b>p1</b> aus. |
 | <b>Height beenden</b> *Gleitend* | Passt das Height des <b>p3</b>-Punkts an, wenn ein niedrigerer Wert eine niedrigere oder tiefere Position bedeutet.  Dies wirkt sich auf die Thickness des Splines bei <b>p3</b> aus. |
 | <b>Automatisches Tangenten-Height</b> *Boolescher Wert* | Passt das Height des <b>p3</b>-Punkts an, wenn ein niedrigerer Wert eine niedrigere oder tiefere Position bedeutet.  Dies wirkt sich auf die Thickness des Splines bei <b>p3</b> aus. |
-| <b>Tangent-Height</b> *Gleitend* | Passt das Height an, das von den Tangenten gesteuert wird, die vom <b>p2</b>-Punkt gesteuert werden.  Dies wirkt sich auf das Height entlang des Splines aus, wenn es von <b>p1</b> weggezogen wird und in <b>p3</b> übergeht.   *Hinweis:* Dieser Parameter ist nur verfügbar, wenn <b>das automatische Tangenten-Height</b> auf &quot;False&quot; festgelegt ist. |
+| <b>Tangent-Height</b> *Gleitend* | Passt das Height an, das von den Tangenten gesteuert wird, die vom <b>p2</b>-Punkt gesteuert werden.  Dies wirkt sich auf das Height entlang des Splines aus, wenn es von <b>p1</b> weggezogen wird und in <b>p3</b> übergeht.   *Hinweis:* Dieser Parameter ist nur verfügbar, wenn <b>das automatische Tangenten-Height</b> auf &quot;False&quot; festgelegt ist. |
 
 
 +++
@@ -87,8 +87,8 @@ Die Spannweite des durch die Spline gebildeten Bogens ist *einstellbar*, sodass 
 
 |  |  |
 | --- | --- |
-| <b>Thickness starten</b> *Gleitend* | Passt die Thickness des <b>p1</b>-Punkts an. Dies wirkt sich auf die Thickness des Splines bei <b>p1</b> aus.   *Hinweis: Die*-Thickness wird von bestimmten Spline-Knoten verwendet. |
-| <b>Thickness beenden</b> *Gleitend* | Passt die Thickness des <b>p3</b>-Punkts an. Dies wirkt sich auf die Thickness des Splines bei <b>p3</b> aus.   *Hinweis: Die*-Thickness wird von bestimmten Spline-Knoten verwendet. |
+| <b>Thickness starten</b> *Gleitend* | Passt die Thickness des <b>p1</b>-Punkts an. Dies wirkt sich auf die Thickness des Splines bei <b>p1</b> aus.   *Hinweis: Die*-Thickness wird von bestimmten Spline-Knoten verwendet. |
+| <b>Thickness beenden</b> *Gleitend* | Passt die Thickness des <b>p3</b>-Punkts an. Dies wirkt sich auf die Thickness des Splines bei <b>p3</b> aus.   *Hinweis: Die*-Thickness wird von bestimmten Spline-Knoten verwendet. |
 | <b>Automatische Tangenten-Thickness</b> *Boolescher Wert* | Setzt die Thickness der Spline-Tangenten automatisch so, dass sie linear von der <b>Start-Thickness</b> zur <b>End-Thickness</b> interpoliert wird.   *Hinweis: Die*-Thickness wird von bestimmten Spline-Knoten verwendet. |
 | <b>Tangent-Thickness</b> *Gleitend* | Passt die Thickness an, die von den Tangenten gesteuert wird, die vom <b>p2</b>-Punkt gesteuert werden.  Dies wirkt sich auf die Thickness entlang des Splines aus, wenn sie sich von <b>p1</b> entfernt und in <b>p3</b> übergeht.   *Hinweis: Die*-Thickness wird von bestimmten Spline-Knoten verwendet.  *Hinweis 2:* Dieser Parameter ist nur verfügbar, wenn <b>die automatische Tangente Thickness</b> auf &quot;Falsch&quot; festgelegt ist. |
 
@@ -110,7 +110,7 @@ Die Spannweite des durch die Spline gebildeten Bogens ist *einstellbar*, sodass 
 
 |  |  |
 | --- | --- |
-| <b>Tangenten anzeigen</b> *Boolescher Wert* | Zeigt die Tangente <b>p1</b> Punkt &quot;out&quot; und <b>p3</b> Punkt &quot;in&quot; in der Ausgabe <b>Vorschau</b> an. Kehrt die Richtung des Splines um. |
+| <b>Tangenten anzeigen</b> *Boolescher Wert* | Zeigt die Tangente <b>p1</b> Punkt &quot;out&quot; und <b>p3</b> Punkt &quot;in&quot; in der Ausgabe <b>Vorschau</b> an.Kehrt die Richtung des Spline um. |
 | <b>Richtungshelfer anzeigen</b> *Boolescher Wert* | Zeigt einen Punkt am Anfang des Splines und eine Pfeilspitze am Ende in der <b>Vorschau</b>-Ausgabe an. |
 | <b>Umschlag der Thickness anzeigen</b> *Boolescher Wert* | Zeigt an den Kanten der Spline-Thickness zusätzliche Linien an. |
 | <b>Segmentierungsbetrag</b> *Integer* | Passt die Anzahl der Segmente an, die zum Zeichnen der Spline-Visualisierung in der <b>Vorschau</b>-Ausgabe verwendet werden.  Je höher der Wert, desto glatter die Linie. |

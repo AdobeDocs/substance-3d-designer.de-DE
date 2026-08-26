@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3D-Ansicht
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 88555fe2352e6ab9408fb2364dbb5aad3682bf57
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '3450'
+source-wordcount: '3514'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,12 @@ Die 3D-Ansicht bietet außerdem zwei Hauptmethoden zum Rendern von Materialien i
 * Raytraced-Renderer mit hoher Qualität mit **GPU-Pathtracer**-Renderer
 
 Weitere Informationen: [3D-Renderer](3d-renderers/3d-renderers.md)
+
++++ Das Andock der 3D-Ansicht
+
+![3d-view.png](3d-view.resources/3d-view.png)
+
++++
 
 ## Viewport-Interaktionen
 
@@ -122,9 +128,9 @@ In der 3D-Ansicht können Sie ganze Materialien als vollständiges Material anze
 
 Sie können alle Ausgaben eines Diagramms anzeigen, indem Sie auf *RMB* in einem leeren Bereich in der [Diagrammansicht](../../interface/the-graph-view/the-graph-view.md) klicken und im Kontextmenü die Option **Ausgaben in 3D-Ansicht anzeigen** auswählen.
 
-Sie können auch die Ausgaben eines Diagramms anzeigen, ohne es öffnen zu müssen, indem Sie auf RMB in einer Diagrammressource im [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)-Dock klicken und die Option **Ausgaben in 3D-Ansicht anzeigen** im Kontextmenü auswählen.
+Sie können auch die Ausgaben eines Diagramms anzeigen, ohne es öffnen zu müssen, indem Sie auf RMB in einer Diagrammressource im [Explorer](../the-explorer-window/the-explorer-window.md)-Dock klicken und die Option **Ausgaben in 3D-Ansicht anzeigen** im Kontextmenü auswählen.
 
-Alternativ zum Kontextmenü des Diagramms können Sie dasselbe Ergebnis erzielen, indem Sie das Diagramm aus dem [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)-Dock in die [3D-Ansicht](https://substance3d.adobe.com/) ziehen.
+Alternativ zum Kontextmenü des Diagramms können Sie dasselbe Ergebnis erzielen, indem Sie das Diagramm aus dem [Explorer](../the-explorer-window/the-explorer-window.md)-Dock in die 3D-Ansicht ziehen.
 
 Wenn *ein Diagramm* lädt, werden seine Ausgaben standardmäßig automatisch in der 3D-Ansicht angewendet. Sie können dieses Verhalten in den [Voreinstellungen](../../interface/preferences-window/preferences-window.md) deaktivieren. Gehen Sie zu **Bearbeiten > Voreinstellungen > Diagramm > Allgemein** und deaktivieren Sie die Option **Anzeigen von Ausgaben in 3D-Ansicht, wenn Sie ein Diagramm öffnen**.
 
@@ -144,7 +150,7 @@ Sie können einen beliebigen Knoten anzeigen, nicht nur Ausgabeknoten, indem Sie
 
 Sie können auch *RMB* verwenden, um einen beliebigen Knoten per Drag &amp; Drop aus der Diagrammansicht in die 3D-Ansicht zu ziehen. Ihnen wird eine Liste mit verfügbaren Kanälen angezeigt, denen der Knoten zugewiesen werden kann. Klicken Sie zum Bestätigen auf eine beliebige Option.
 
-Sie können jede einzelne Diagrammausgabe anzeigen, indem Sie die Diagrammressource im [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)-Dock erweitern und diese Ausgabe mit *LMB* in die 3D-Ansicht ziehen. Ihnen wird eine Liste mit verfügbaren Kanälen angezeigt, denen der Knoten zugewiesen werden kann. Klicken Sie zum Bestätigen auf eine beliebige Option.
+Sie können jede einzelne Diagrammausgabe anzeigen, indem Sie die Diagrammressource im [Explorer](../the-explorer-window/the-explorer-window.md)-Dock erweitern und diese Ausgabe mit *LMB* in die 3D-Ansicht ziehen. Ihnen wird eine Liste mit verfügbaren Kanälen angezeigt, denen der Knoten zugewiesen werden kann. Klicken Sie zum Bestätigen auf eine beliebige Option.
 
 ![Anzeigen von benutzerdefinierten 3D-Meshes](../../assets/3d-mesh.gif "Anzeigen von benutzerdefinierten 3D-Meshes")
 
@@ -260,7 +266,7 @@ Das Menü <b>Szene</b> behandelt die angezeigte Geometrie (3D-Ressource) und die
 
 * Torus
 
-<b>UVs in 2D-Ansicht anzeigen:</b> Aktiviert die Anzeige der UVs für das aktuell ausgewählte Gitter als Overlay in [der 2D-Ansicht](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html) .
+<b>UVs in 2D-Ansicht anzeigen:</b> Aktiviert die Anzeige der UVs für das aktuell ausgewählte Gitter als Overlay in der [2D-Ansicht](../2d-view/2d-view.md).
 
 <b>3D-Ressource aus aktueller Szene erstellen...:</b> Erstellt eine neue [3D-Szenenressource](../../resources/3d-scene-resource/3d-scene-resource.md) in einem Paket aus der aktuellen Szene.
 
@@ -548,7 +554,23 @@ Mit der Symbolleiste <b>Anzeigen</b>, die sich standardmäßig am *unteren* des 
 
 >[!NOTE]
 >
-> Die Symbolleiste kann *neu positioniert* werden, und zwar um das Dock **3**&#x200B;**&#x200B; D View**, wobei das linke *Handle* verwendet wird, das durch drei parallele Linien dargestellt wird.
+> Die Symbolleiste kann um das Dock **3D View** mit dem am weitesten links befindlichen *Handle*, dargestellt durch drei parallele Linien, *neu* positioniert werden.
+
+### 3D-Render-AOVs
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0; vertical-align: top">
+        <td style="border: 0">
+            <p>Sie können verschiedene <a href="../../glossary/glossary.md#aov">AOVs</a> mit der Schaltfläche <img src="./3d-view.resources/aov/aov-icon.png" alt="3D-Render-AOVs-Symbol" style="padding-left: 5px; padding-right: 5px" /> <b>3D-Rendering-AOVs</b> anzeigen.</p>
+            <p>Mit AOVs können Sie Gitter- und Materialinformationen isoliert für fokussierte Arbeit und Debugging auswerten.</p>
+            <p>Einige AOVs enthalten <i>HDR-Werte</i>, die im Viewport auf 1 (reinweiß) oder 0 (rein schwarz) festgeklemmt sind.<br>Um den gesamten Wertebereich zu überprüfen, können Sie ein 3D-Rendering des AOV in ein Bilddateiformat exportieren, das HDR-Werte unterstützt, z. B. <code>.exr</code>.<br>Verwenden Sie die Menüoption <code>Camera > Save render...</code>, um das aktuelle AOV zu exportieren.</p>
+            <p><i>Hinweis:</i> AOVs sind nur verfügbar, wenn der Rasterbildmodus und der GPU-Pathtracer <a href="./3d-renderers/3d-renderers.md">3D-Renderer verwendet werden</a>.</p>
+        </td>
+        <td style="width: 33%; border: 0">
+            <img src="3d-view.resources/aov/aov-composited.jpg" alt="3D-Rendering AOVs kombiniert" />
+        </td>
+    </tr>
+</table>
 
 ### Farbkanäle
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MLV-Graustufen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Höhere Werte führen zu einer stärkeren Glättung von Details und Rauschen in 
 
 <b>Smoothness</b> *Float* Die Intensität der Glättung, die auf die strukturierenden Bereiche angewendet wird, was zu runderen Bereichen führt und den Schritteffekt verringert, der bei höheren Filterintensitäten auftreten kann.
 
-<b>Kriterium</b> *Integer* Das verwendete Kriterium zur Auswahl der Werte, die die strukturierenden Bereiche im Bild definieren.\
+<b>Kriterium</b> *Integer* Das Kriterium, das zum Auswählen der Werte verwendet wird, die die Strukturierungsbereiche im Bild definieren.\
 Mit anderen Worten, wie Pixel *in Bereiche gruppiert* werden sollen, die geglättet werden sollen.\
 *- Varianz:* Wählen Sie Werte mit der niedrigsten Streuung um den Mittelwert aus, was zu Clustern von Pixeln führt, die einander ähnlich sind\
 *- Variationskoeffizient:* Wählen Sie Werte unter Berücksichtigung des Mittelwerts aus, was umgekehrt zu weniger Variationen in helleren Bereichen führt

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 13.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Version 13.1
 
-<b>Substance 3D Designer 13.1</b> fügt dem Knotendiagramm viele Verbesserungen der Lebensqualität hinzu, hauptsächlich in Bezug auf Frames, um das Erlebnis bei der Materialerstellung zu verbessern. Außerdem wurde der AxF-Export hinzugefügt, der einen Interoperabilitätsarbeitsablauf für Benutzer ermöglicht, die mit dem AxF-Format arbeiten. 
+<b>Substance 3D Designer 13.1</b> fügt dem Knotendiagramm viele Verbesserungen der Lebensqualität hinzu, hauptsächlich in Bezug auf Frames, um das Erlebnis bei der Materialerstellung zu verbessern. Außerdem wurde der AxF-Export hinzugefügt, der einen Interoperabilitätsarbeitsablauf für Benutzer ermöglicht, die mit dem AxF-Format arbeiten.
 
 *Freigabedatum: 12. Dezember 2023*
 

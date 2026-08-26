@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pixelprozessor
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 1%
@@ -95,7 +95,7 @@ Für alle, die es gewohnt sind, [Shader](../../../../glossary/glossary.md)-Funkt
 |  |  |
 | --- | --- |
 | <b>Farbmodus</b> *Boolescher Wert* | Schaltet zwischen einem Graustufen- und einem Farbausgabebild um. |
-| <b>Pro Pixelfunktion</b> *Gleitend/Gleitend4* | [Substance-Funktionsdiagramm &#x200B;](../../../../function-graphs/the-function-graph/the-function-graph.md) wird pro Pixel im Ausgabebild ausgewertet.   Verwenden Sie den Knoten [Get Float2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md), der auf die Variable <b>$pos</b> festgelegt ist, um auf die [normalisierte](../../../../glossary/glossary.md) Position des aktuellen Pixels zuzugreifen. |
+| <b>Pro Pixelfunktion</b> *Gleitend/Gleitend4* | [Substance-Funktionsdiagramm &#x200B;](../../../../function-graphs/the-function-graph/the-function-graph.md) wird pro Pixel im Ausgabebild ausgewertet.   Verwenden Sie den Knoten [Get Float2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md), der auf die Variable <b>$pos</b> festgelegt ist, um auf die [normalisierte](../../../../glossary/glossary.md) Position des aktuellen Pixels zuzugreifen. |
 
 ## Eingangsanschlüsse
 

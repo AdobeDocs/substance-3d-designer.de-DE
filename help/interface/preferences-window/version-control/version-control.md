@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versionskontrolle
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Sie können Folgendes verwenden:
 * Ein Skript *pro* Aktion
 * Ein Skript für *alle* Aktionen
 
-Ein Starterskript für alle Aktionen ist in der Installation von Designer verfügbar: &quot;*tools/version\_control/perforce.py*&quot;.
+Ein Starterskript für alle Aktionen ist in der Installation von Designer verfügbar: &#39;*tools/version\_control/perforce.py*&#39;.
 
 >[!IMPORTANT]
 >
@@ -113,8 +113,8 @@ Da alle Versionskontrollwerkzeuge unterschiedlich sind und viele Funktionen enth
 1. Je nach Status der Paketdatei im Arbeitsbereich stehen mehrere Aktionen zur Verfügung:
 
    * <b>Hinzufügen:</b> Markieren Sie die Dateien als &quot;ToAdd&quot;.
-   * <b>Senden:</b> Senden Sie die ausgewählten Pakete. Mit dieser Aktion wird ein Dialogfeld zum Festlegen einer Änderungsnachricht angezeigt (siehe unten).
-   * <b>Zurücksetzen:</b> Stellen Sie die Änderungen wieder her. Diese Aktion zeigt ein Dialogfeld zum Auswählen der Dateien an, die zurückgesetzt werden sollen (siehe unten)
+   * <b>Senden:</b> Senden Sie die ausgewählten Pakete. Mit dieser Aktion wird ein Dialogfeld zum Festlegen einer Änderungsnachricht angezeigt (siehe unten).
+   * <b>Zurücksetzen:</b> Stellen Sie die Änderungen wieder her. Diese Aktion zeigt ein Dialogfeld zum Auswählen der Dateien an, die zurückgesetzt werden sollen (siehe unten)
    * <b>Auschecken:</b> Auschecken der Datei aus dem Depot
    * <b>Letzte Version abrufen:</b> Abrufen der neuesten Version aus dem Depot
    * <b>Status aktualisieren:</b> Status der Paketdatei aktualisieren

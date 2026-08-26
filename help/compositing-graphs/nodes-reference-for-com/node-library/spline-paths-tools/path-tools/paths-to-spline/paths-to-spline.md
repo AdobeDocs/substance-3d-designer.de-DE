@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pfade zum Spline-Effekt
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
@@ -55,12 +55,12 @@ Eine Liste der codierten Segmentpfade. Verbinden Sie diese Eingabe mit dem Ergeb
 ## Ausgangsanschlüsse
 
 <b>Spline Coords </b>*Color* Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Spline-Punkte:\
-    <b>R</b> - X-Position\
-    <b>G</b> - Y-Position\
-    <b>B</b> - Height\
-    <b>A</b> - Paketdaten:\
-        * Signieren: Die Spline ist geschlossen (negativ) oder offen (positiv).\
-        * Absoluter Wert: Thickness + 1.
+<b>R</b> - X-Position\
+<b>G</b> - Y-Position\
+<b>B</b> - Height\
+<b>A</b> - Paketdaten:\
+* Signieren: Die Spline ist geschlossen (negativ) oder offen (positiv).\
+* Absoluter Wert: Thickness + 1.
 
 <b>Spline-Daten</b> *Farbe*\
 Zusätzliche Daten der Eingabe-Splines, die in den RGBA-Kanälen eines <b>color</b>-Bildes codiert sind:\

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Bibliothek
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8cb5aa2a7e1cd668f00808b3cd0e15063990fb8b
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1043'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Der Inhalt der <b>Bibliothek</b> wird als *Miniaturansichten mit der Bezeichnung
 
 * [Substance-Diagramme](../../compositing-graphs/substance-compositing-graphs.md) in [SBS](../../getting-started/overview/overview.md) und [SBSAR](../../getting-started/overview/overview.md)-Dateien werden durch ihre *erste Ausgabe* oder durch ihr *benutzerdefiniertes Symbol* dargestellt, wenn eines vom Autor des Diagramms festgelegt wurde.
 * [Bitmaps](../../resources/bitmap-resource/bitmap-resource.md) und [Vektorgrafiken (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) werden durch ein *Miniatur-Rendering* der Bitmap selbst dargestellt
-* [3D-Gitter](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html), [Funktionsdiagramme](../../function-graphs/the-function-graph/the-function-graph.md), [Schriftarten](../../resources/font-resource/font-resource.md) und [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)-Dateien werden durch *generische Symbole* für jeden Typ dargestellt.
+* [3D-Szenen](../../resources/3d-scene-resource/3d-scene-resource.md), [Funktionsdiagramme](../../function-graphs/the-function-graph/the-function-graph.md), [Schriftarten](../../resources/font-resource/font-resource.md) und [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)-Dateien werden durch *generische Symbole* für jeden Typ dargestellt.
 
 >[!WARNING]
 >

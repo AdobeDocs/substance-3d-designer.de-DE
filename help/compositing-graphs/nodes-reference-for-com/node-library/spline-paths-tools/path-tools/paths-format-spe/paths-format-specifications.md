@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spezifikationen zum Pfadformat
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -111,7 +111,7 @@ Der Pfad-Header des N-ten Pfads wird an der Adresse `path\_addr` definiert und w
 +++Oben
 <b>X</b>
 
-Anzahl der Scheitelpunkte in diesem Pfad. Muss im Bereich [0, 16777216] liegen.
+Anzahl der Scheitelpunkte in diesem Pfad. Muss im Bereich [0, 16777216] liegen.
 
 Wenn die Anfangs- und Endscheitelpunkte eines geschlossenen Pfads sich an derselben Position befinden, werden sie weiterhin für 2 Scheitelpunkte gezählt.\
 Ein Pfad mit 0 Scheitelpunkten ist ohnehin ein gültiger Pfad.
@@ -126,7 +126,7 @@ Der Pfadindex *N.* Es muss absolut mit *path\_addr* übereinstimmen (siehe Hinwe
 
 <b>W</b>
 
-Das Header-Flag: 1/16 = 0.0625.
+Das Flag header: 1/16 = 0,0625.
 
 +++
 

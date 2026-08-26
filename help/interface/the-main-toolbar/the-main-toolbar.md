@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Haupt-Werkzeugleiste
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '929'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ Auf dieser Seite werden die Hauptsymbolleiste und das Menü von [Substance 3D De
 
 <b>Neu:</b> öffnet ein Untermenü zum Erstellen eines Diagramms oder Pakets:
 
-* <b>Neues Substance-Diagramm..:</b>(Strg+N) Zeigt das Fenster [Neues Substance-Diagramm](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) an, in dem Sie ein neues [Substance-Diagramm](../../compositing-graphs/substance-compositing-graphs.md) einrichten können;
+* <b>Neues Substance-Diagramm..:</b>(Strg+N) Zeigt das Fenster [Neues Diagramm](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) an, in dem Sie ein neues [Substance-Diagramm](../../compositing-graphs/substance-compositing-graphs.md); einrichten können.
 * <b>Neues Substance-Funktionsdiagramm:</b> Erstellt ein neues Paket mit einem [Substance-Funktionsdiagramm &#x200B;](../../function-graphs/function-graphs.md);
 * <b>Leer:</b> Erstellt ein leeres Paket.
 
@@ -110,11 +110,11 @@ Auf dieser Seite werden die Hauptsymbolleiste und das Menü von [Substance 3D De
 
 <b>Fenster nicht maximieren:</b> Wenn ein Fenster *maximiert* ist, wird es mit dieser Option nicht maximiert und das Layout wird wiederhergestellt, wie es *vor* war, als das Fenster maximiert wurde.
 
-<b>Explorer:</b> Zeigen/Ausblenden des/der [Explorer-Fenster(s) an.](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
+<b>Explorer:</b> Den [Explorer anzeigen/ausblenden](../the-explorer-window/the-explorer-window.md).
 
 <b>Diagramm:</b> Zeigen/Ausblenden des [Diagrammfensters](../../interface/the-graph-view/the-graph-view.md)(s) an.
 
-<b>Parameter:</b> Das [Eigenschaftenfenster anzeigen/ausblenden](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html).
+<b>Parameter:</b> Die [Eigenschaften](../properties/properties.md) ein-/ausblenden.
 
 <b>Konsole:</b> Das Konsolenfenster ein-/ausblenden.
 
@@ -122,7 +122,7 @@ Auf dieser Seite werden die Hauptsymbolleiste und das Menü von [Substance 3D De
 
 <b>Abhängigkeitsmanager:</b> Den [Abhängigkeitsmanager anzeigen/ausblenden](../../interface/dependency-manager/dependency-manager.md).
 
-<b>2D-Ansichten:</b> [2D-Ansicht(en) ein-/ausblenden.](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)
+<b>2D-Ansichten:</b> Die [2D-Ansicht anzeigen/ausblenden](../2d-view/2d-view.md).
 
 <b>Bibliothek:</b> Das [Bibliotheksfenster ein-/ausblenden.](../../interface/the-library/the-library.md)
 
@@ -153,9 +153,9 @@ Auf dieser Seite werden die Hauptsymbolleiste und das Menü von [Substance 3D De
 
 <b>Feedback geben...:</b> Öffnet Ihren Webbrowser auf der Startseite der [Support Community](https://www.adobe.com/go/Substance-3D-feedback-Designer_de) von Adobe.
 
-<b>Substance 3D-Assets:</b> Durchsuchen Sie [Premium-3D-Inhalte](https://helpx.adobe.com/de/substance-3d/unlisted/assets.html) nach Abonnenten (früher Substance Source).
+<b>Substance 3D-Assets:</b> Durchsuchen Sie [Premium-3D-Inhalte](https://substance3d.adobe.com/assets) nach Abonnenten (früher Substance Source).
 
-<b>Substance 3D Community-Assets:</b> Sie können [kostenlose Community-Assets](https://helpx.adobe.com/de/substance-3d/unlisted/community-assets.html) (früher Substance share) durchsuchen.
+<b>Substance 3D Community-Assets:</b> Sie können [kostenlose Community-Assets](https://substance3d.adobe.com/community-assets/) (früher Substance share) durchsuchen.
 
 <b>Konto verwalten\*:</b> Öffnet die Webseite für Ihr Adobe-Konto.
 

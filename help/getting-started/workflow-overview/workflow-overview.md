@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Workflow-Übersicht
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Substance 3D Designer ist ein knotenbasierter Editor. Das bedeutet, dass fast je
 
 ## Knotenbasierter Arbeitsablauf
 
-Das Arbeiten in Designer unterscheidet sich von anderen 2D-Bildbearbeitungsprogrammen wie Photoshop. Anstatt eine Aktion manuell auszuführen (z. B. das Anpassen der Sättigung, indem Sie zu einer Menüoption wechseln und einen Schieberegler ändern), <b>konstruieren Sie die logischen Schritte</b> zum Bearbeiten oder Erstellen Ihres Bildes. Dies geschieht durch das Erstellen eines Netzwerks kleiner Bausteine mit dem Namen &quot;[Nodes](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html)&quot;. Bilddaten werden von <b> links nach rechts</b> durch die Bausteine geleitet, die durch Verknüpfungen verbunden sind, die den Pfad der Informationen bestimmen. Jeder Knoten trägt, wenn er verbunden ist, zu den Endergebnissen bei.
+Das Arbeiten in Designer unterscheidet sich von anderen 2D-Bildbearbeitungsprogrammen wie Photoshop. Anstatt eine Aktion manuell auszuführen (z. B. das Anpassen der Sättigung, indem Sie zu einer Menüoption wechseln und einen Schieberegler ändern), <b>konstruieren Sie die logischen Schritte</b> zum Bearbeiten oder Erstellen Ihres Bildes. Dies geschieht durch den Aufbau eines Netzwerks von kleinen Bausteinen, die &quot;Nodes&quot; genannt werden. Bilddaten werden von <b> links nach rechts</b> durch die Bausteine geleitet, die durch Verknüpfungen verbunden sind, die den Pfad der Informationen bestimmen. Jeder Knoten trägt, wenn er verbunden ist, zu den Endergebnissen bei.
 
 Der Hauptvorteil besteht darin, dass Ihr Arbeitsablauf <b>nicht linear</b> wird. Im Gegensatz zu Aktionen, die manuell in einem Verlaufsstapel ausgeführt werden, können Sie einen Knoten jederzeit austauschen oder ändern. Wenn du feststellst, dass deine allererste Anpassung des Kontrasts, die das Ergebnis deines Bildes bis zum Ende beeinflusst, zu viel war, kannst du immer noch zurückgehen und sie anpassen oder sogar ganz ausschneiden, ohne die gesamte Arbeit zu verlieren, die du danach ausgeführt hast.
 
@@ -129,7 +129,7 @@ In diesem Beispiel werden [Verknüpfungserstellungsmodi](../../interface/the-gra
 
 Funktionen <b>verarbeiten einzelne Werte </b> (Ganzzahlen, Gleitkommawerte, Vektoren) anstelle von Bilddaten (ganze Pixelsätze). Funktionen sind auch Diagramme mit Knotennetzwerken, aber die [Nodes verwendet](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md) und die Schnittstelle unterscheidet sich von [normalen Substance-Diagrammen](../../compositing-graphs/substance-compositing-graphs.md). Der Workflow basiert vollständig auf <b>mathematischen Vorgängen</b> und zeigt keine Bildvorschau-Miniaturansichten an. Dadurch wird die <b>Arbeit mit Substance 3D Designer </b> um einiges weiter entwickelt.
 
-Funktionen können in vielen verschiedenen Kontexten verwendet werden, wobei die wichtigsten darin bestehen, das Verhalten von [einem verfügbar gemachten Parameter](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) zu ändern, das Verhalten von [Pixelprozessoren](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) oder [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) zu verfassen und [Werte in einem Diagramm zu verwenden.](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)
+Funktionen können in vielen verschiedenen Kontexten verwendet werden, wobei die Hauptfunktionen darin bestehen, das Verhalten von [einem verfügbar gemachten Parameter](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) zu ändern, das Verhalten von [Pixelprozessoren](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) oder [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) zu verfassen und [Werte](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) in einem Substance-Diagramm zu verwenden.
 
 </td>
 </tr>

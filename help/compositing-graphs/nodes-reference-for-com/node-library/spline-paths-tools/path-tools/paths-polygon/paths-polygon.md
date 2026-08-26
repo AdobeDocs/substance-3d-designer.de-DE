@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pfade-Polygon
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 2%
@@ -49,7 +49,7 @@ Dies ist nicht dazu bestimmt, direkt verwendet oder geändert zu werden. Suchen 
 
 ## Parameter
 
-<b>Anzahl der Seiten</b> *Ganzzahl*\
+<b>Anzahl der Seiten</b> *Integer*\
 Tipp: Geben Sie einen Wert zwischen 100 und 1000 ein, um einen Kreis zu erstellen.
 
 ## Beispiele

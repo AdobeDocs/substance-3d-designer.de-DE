@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Steuerung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '557'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Auf dieser Seite werden Knoten von [Funktionsdiagrammen](../../../../function-gr
 </tr>
 </table>
 
-Sie verwenden diesen Knoten in Verbindung mit den logischen [-Knoten](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) und den [Vergleichsknoten](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/comparison-nodes/comparison-nodes.md), die Sie beim Erstellen der zu überprüfenden Bedingung unterstützen.
+Sie verwenden diesen Knoten in Verbindung mit den [logischen Knoten](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) und den [Vergleichsknoten](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/comparison-nodes/comparison-nodes.md), die Sie beim Erstellen der zu überprüfenden Bedingung unterstützen.
 
 +++Eingangsanschlüsse
 <b>Bedingung</b> *Boolescher Wert*\
@@ -47,7 +47,7 @@ Die Bedingung, die die Ausgabe des Knotens steuert.
 
 <b>If</b> *Variablentyp* Der vom Knoten ausgegebene Wert, wenn <b>Bedingung</b> *Wahr* ist.
 
-<b>Else</b> *Variablentyp* Der vom Knoten ausgegebene Wert, wenn <b>Bedingung</b> *Falsch* ist.
+<b>Sonst</b> *Variablentyp* Der vom Knoten ausgegebene Wert, wenn <b>Bedingung</b> *Falsch* ist.
 
 +++
 
@@ -76,7 +76,7 @@ Weitere Informationen zum Sequenzknoten finden Sie auf der Seite [Verwenden der 
 <b>In</b> *Variablentyp*\
 Der Teil des Graphen, der zuerst berechnet werden soll
 
-<b>Last</b> *Variablentyp*\
+<b>Letzte</b> *Variablentyp*\
 Der Teil des Graphen, der zuletzt berechnet werden soll
 
 +++
@@ -113,7 +113,7 @@ Dies bedeutet, dass Sie einem Indexwert jede Iteration hinzufügen und seinen We
 <b>Init.</b> *Variablentyp*\
 Der Teil des Graphen, der vor der ersten Iteration berechnet wird, d. h. der Beginn der Schleife.
 
-<b>Beenden Sie Cond.</b> *Boolesch*\
+<b>Abschlusskennung </b> *Boolescher Wert*\
 Die Bedingung, die &quot;true&quot; sein muss, damit die Schleife beendet wird. Er wird bei jeder Iteration neu berechnet.\
 *Hinweis:* Die maximale Anzahl von Iterationen ist weiterhin auf den Parameter <b>Max iterations</b> beschränkt.
 
@@ -123,7 +123,7 @@ Der Graph, der von der Schleife profitiert. Er wird bei jeder Iteration neu bere
 +++
 
 +++Parameter
-<b>Max. Iterationen</b> *Ganze Zahl*\
+<b>Max. Iterationen</b> *Integer*\
 Die maximale Anzahl der vom Knoten ausgeführten Iterationen.\
 Der Knoten beendet die Iteration, wenn eines der folgenden Kriterien zuerst erfüllt wird: Diese maximale Anzahl wird erreicht oder die Beendigungsbedingung wird wahr .\
 Dieser Höchstwert kann deaktiviert werden, indem der Wert auf *-1* festgelegt wird. An diesem Punkt kann nur die Beendigungsbedingung die Iterationen stoppen.

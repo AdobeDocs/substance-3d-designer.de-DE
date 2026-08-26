@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Startbildschirm
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 ![Startbildschirm](../../assets/home-screen-home.jpg "Startbildschirm")
 
-Der <b>Startbildschirm<b> </b></b> begrüßt Sie, wenn Sie Substance 3D Designer starten. Es hilft Ihnen, mit Ihren Projekten zu beginnen und auf nützliche Links zuzugreifen.
+Der <b>Startbildschirm<b> </b></b> begrüßt Sie, wenn Sie Substance 3D Designer starten. Es hilft Ihnen, mit Ihren Projekten zu beginnen und auf nützliche Links zuzugreifen.
 
 <table>
 <tr style="border: 0;">

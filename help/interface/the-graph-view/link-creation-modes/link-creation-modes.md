@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Verknüpfungserstellungsmodi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -70,12 +70,12 @@ In den Modi <b>Material</b> und <b>Kompaktes Material</b> sind Verbindungen zwis
 
 ## Die Modi
 
-|  | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-25.png"/></div> Standard | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-17-11-20.png"/></div> Kompakt | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-46.png"/></div> Kompaktes Material |
+|  | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-25.png"/></div> Standard | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-17-11-20.png"/></div> Kompakt | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-46.png"/></div> Kompaktes Material |
 | --- | --- | --- | --- |
 | <b>Eingaben</b> | Alle Eingaben sind sichtbar | Alle Eingaben sind sichtbar | Nur 1 Eingabe pro Gruppe |
 | <b>Ausgaben</b> | Alle Ausgaben sind sichtbar | Alle Ausgaben sind sichtbar | Nur 1 Ausgabe pro Gruppe |
 | <b>Verknüpfungen</b> | Alle Verknüpfungen sind sichtbar | Alle Verknüpfungen sind sichtbar | Nur 1 Link pro Gruppe (grün) |
-| <b>Verbindungen</b> | Verknüpfungen werden nacheinander verbunden. | Sie verbinden Verknüpfungen als eine Multi-Link-Materialgruppe basierend auf übereinstimmenden Verwendungen.   Wenn eine Verwendung an einem Ende vorhanden ist, ist die Verbindung eine Standardverbindung. | Sie verbinden Verknüpfungen als eine einzige Verkettungsmaterialgruppe. |
+| <b>Verbindungen</b> | Verknüpfungen werden nacheinander verbunden. | Sie verbinden Verknüpfungen als eine Multi-Link-Materialgruppe basierend auf übereinstimmenden Verwendungen.   Wenn eine Verwendung an einem Ende vorhanden ist, ist die Verbindung eine Standardverbindung. | Sie verbinden Verknüpfungen als eine einzige Verkettungsmaterialgruppe. |
 
 ## Zuweisen von Gruppen
 

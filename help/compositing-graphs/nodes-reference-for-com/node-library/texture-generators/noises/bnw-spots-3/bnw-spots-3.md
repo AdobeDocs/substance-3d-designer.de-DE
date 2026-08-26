@@ -10,10 +10,10 @@ helpx_tags: ""
 title: BnW-Punkte 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 2%
+source-wordcount: '273'
+ht-degree: 1%
 
 ---
 
@@ -40,26 +40,6 @@ ht-degree: 2%
 Eine Variation der groben <b>Schwarz-Weiß-Flecken (BnW)</b>, die Geräusche verursachen.
 
 Siehe auch: [BnW-Punkte 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-1/bnw-spots-1.md), [BnW-Punkte 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-2/bnw-spots-2.md)
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Ausgaben
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameter
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Beispiele
 
 </td>
 </tr>

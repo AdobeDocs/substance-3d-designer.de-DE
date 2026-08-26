@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Vererbung bei Substance-Graphen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1681'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Dadurch sollten Sie wissen, wie Änderungen am *One*-Knoten sich auf die Auflös
 
 ### Ändern von Vererbungsmethoden
 
-Im Bereich &quot;[Eigenschaften](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)&quot; verfügen alle Parameter, die im Abschnitt &quot;[Basisparameter](../../compositing-graphs/graph-parameters/graph-parameters.md)&quot; der Eigenschaften eines Knotens aufgeführt sind, über die Dropdownschaltfläche &quot;<b>Vererbungsmethode festlegen</b>&quot;, die der entsprechenden Bezeichnung gegenüberliegt.\
+Im Eigenschaftenfenster verfügen alle Parameter, die im Abschnitt [Basisparameter](../../compositing-graphs/graph-parameters/graph-parameters.md) der Eigenschaften eines Knotens aufgeführt sind, über eine Dropdownschaltfläche (Symbol) <b>Erbschaftsmethode festlegen</b> gegenüber der entsprechenden Bezeichnung.\
 Mit dieser Schaltfläche können Sie die Vererbungsmethode auswählen, die für einen Parameter verwendet werden soll.
 
 ![Vererbungsmethode ändern](../../assets/inheritance-change.gif "Vererbungsmethode ändern"){width="512px"}

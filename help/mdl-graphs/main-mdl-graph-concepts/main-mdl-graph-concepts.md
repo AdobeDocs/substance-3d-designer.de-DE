@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Hauptkonzepte für MDL-Diagramme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Der Stammknoten enthält eine Miniaturansicht mit einer Vorschau seiner aktuelle
 
 ![Stammknoten des MDL-Diagramms](../../assets/mdl-root-hl.png "Stammknoten des MDL-Diagramms")
 
-*Stammknoten in einem MDL-Diagramm und seine Eigenschaften werden im [Eigenschaften](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* *Bedienfeld* angezeigt.
+*Stammknoten in einem MDL-Diagramm und seine Eigenschaften werden im [Eigenschaften](../../interface/properties/properties.md)* *Bedienfeld* angezeigt.
 
 ## Verbindungen und Typen
 

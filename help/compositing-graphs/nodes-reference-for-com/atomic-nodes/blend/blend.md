@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Überblenden
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 9%
@@ -83,7 +83,7 @@ Die Funktionalität ähnelt der von zwei Ebenen übereinander in [Substance 3D P
 |  |  |
 | --- | --- |
 | <b>Deckkraft</b> *Gleitend* | Deckkraft der Ebene &quot;Vordergrund&quot;, die mit dem Hintergrund verschmilzt. Sie arbeitet unabhängig von der Deckkrafteingabe und dient ihr als zusätzlicher Multiplikator. |
-| <b>Füllmethode</b> *Integer* [Static](../../../../glossary/glossary.md) | Legt den zu verwendenden Mischvorgang fest.   Weitere Informationen finden Sie auf der [dedizierten Seite zu den Füllmethoden](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md). |
+| <b>Füllmethode</b> *Integer* [Static](../../../../glossary/glossary.md) | Legt den zu verwendenden Mischvorgang fest.   Weitere Informationen finden Sie auf der [dedizierten Seite zu den Füllmethoden](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md). |
 | <b>Alpha-Überblendung</b> *Integer* [Static](../../../../glossary/glossary.md) | Bestimmt das Mischverhalten, wenn Farbeingaben über Alpha-Kanäle verfügen:<ul data-preserve-html="true"> <li data-preserve-html="true">Quelle Alpha verwenden</li> <li data-preserve-html="true">Alpha ignorieren</li> <li data-preserve-html="true">Gerade Alpha-Überblendung</li> <li data-preserve-html="true">Vormultiplizierte Alpha-Überblendung</li> </ul> |
 | <b>Beschneidungsbereich</b> *Gleitkomma4* [Statisch](../../../../glossary/glossary.md) | Legen Sie einen benutzerdefinierten Zuschneidebereich fest, der sich wie eine zusätzliche Deckkraftmaske verhält. Jeder zugeschnittene Bereich zeigt nur den Hintergrund. |
 

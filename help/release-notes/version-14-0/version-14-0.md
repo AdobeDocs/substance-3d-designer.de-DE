@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 14.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Version 14.0
 
-<b>Substance 3D Designer 14.0 </b> bietet verschiedene Verbesserungen der Lebensqualität (Diagrammnavigation, Leistung, ...) aber vor allem enthält es eine Menge neuer Knotenpunkte (Farbbearbeitung, Kuwahara-Filter, Histogramm-Tools, weiche Abschrägung, Richtungsabstand, ...). Weitere Informationen zu diesen Änderungen finden Sie unten. 
+<b>Substance 3D Designer 14.0 </b> bietet verschiedene Verbesserungen der Lebensqualität (Diagrammnavigation, Leistung, ...) aber vor allem enthält es eine Menge neuer Knotenpunkte (Farbbearbeitung, Kuwahara-Filter, Histogramm-Tools, weiche Abschrägung, Richtungsabstand, ...). Weitere Informationen zu diesen Änderungen finden Sie unten.
 
 *Freigabedatum: 30. Juli 2024*
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 Diese Version 14.0 bringt viele neue Inhalte mit den unten aufgeführten neuen Knoten:
 
-* <b>Knoten, die der Farbbearbeitung gewidmet sind: </b>ein Knoten <b>(</b>[Farbe quantisieren](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>) </b>bis<b> </b>Reduzieren Sie die Anzahl der Farben in einem Bild und extrahieren Sie eine Palette daraus, eine Familie von Werkzeugknoten, um Ihre eigene Farbpalette zu erstellen ([Ansicht](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [Erstellen](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [Ändern](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>Farbpalette) und einer, um sie auf ein anderes Bild mithilfe einer ID-Map anzuwenden ([Farbpalette nette](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)). Sie finden auch den Knoten [ID to mask grayscale](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md), mit dem Sie Ihre ID-Zuordnung - berechnet durch Quantize color - in eine Graustufenmaske konvertieren können. Mit diesem vollständigen Satz von Knoten haben Sie alles, was Sie benötigen, um Stilisierungseffekte mit Farben zu erstellen.
+* <b>Knoten für Farbbearbeitung: </b>ein Knoten <b>(</b>[Farbe quantisieren](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>) </b>bis<b> </b>Reduzieren Sie die Anzahl der Farben in einem Bild und extrahieren Sie eine Palette daraus, eine Familie von Werkzeugknoten, um Ihre eigene Farbpalette zu erstellen ([Ansicht](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [Erstellen](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [Ändern](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>Farbpalette) und eine, um sie mithilfe einer ID-Map auf ein anderes Bild anzuwenden ([Farbpalette anwenden](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)). Sie finden auch den Knoten [ID to mask grayscale](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md), mit dem Sie Ihre ID-Zuordnung - berechnet durch Quantize color - in eine Graustufenmaske konvertieren können. Mit diesem vollständigen Satz von Knoten haben Sie alles, was Sie benötigen, um Stilisierungseffekte mit Farben zu erstellen.
 
 ![](../../assets/GIF2_2.gif){zoomable="yes"}
 
@@ -43,8 +43,8 @@ Diese Knoten (Quantize color und Anisotropic Kuwahara) werden in [diesem Tutoria
 Weitere leistungsstarke Knoten nehmen an der Party teil:
 
 * [<b>Kurvenglättung</b>](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md): Diese neue Version unterstützt jetzt alle Kachelmodi korrekt, fügt zwei neue Ausgaben hinzu (Konvexität und Konkavität) und verbessert sowohl die Genauigkeit als auch die Leistung.
-* <b>[Histogramm equalize](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md):</b> Dieser Knoten gleicht das Histogramm für ein Graustufenbild aus, indem Werte angepasst werden, um eine gleiche Verteilung zu erhalten. Dieser Knoten verfügt über zwei Begleitknoten: [Histogramm rendern](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md) zum Ausgeben des Histogramms des Bildes und [Histogramm berechnen](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b> </b> zum Codieren eines Histogramms als Pixelzeile.
-* <b>[Weiche Abschrägung](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md):</b> Dank dieser Vorlage können Sie einen Verlauf oder eine Flächenfarbe von den Rändern einer Maske zeichnen (nach außen, nach innen oder beides). Der Richtungsabstand [Knoten &#x200B;](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b> zeichnet ebenfalls einen Verlauf, jedoch in einer bestimmten Richtung.
+* <b>[Histogramm equalize](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md):</b> Dieser Knoten gleicht das Histogramm für ein Graustufenbild aus, indem Werte angepasst werden, um eine gleiche Verteilung zu erhalten. Dieser Knoten verfügt über zwei Begleit-Knoten: [Histogramm rendern](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md), um das Histogramm des Bildes auszugeben, und [Histogramm berechnen](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b> </b>, um ein Histogramm als Pixelzeile zu kodieren.
+* <b>[Weiche Abschrägung](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md):</b> Dank dieser Vorlage können Sie einen Verlauf oder eine Flächenfarbe von den Rändern einer Maske zeichnen (nach außen, nach innen oder beides). Der Knoten [Richtungsabstand](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b> zeichnet auch einen Verlauf, jedoch in eine bestimmte Richtung.
 * <b>[Normal uncombine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md):</b> Dieser Knoten ist das Gegenteil des [Normal combine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md)-Knotens. Die Oberflächendetails, die durch eine Height-Map beschrieben werden, werden von einer Normal-Map entfernt.
 
 <table>

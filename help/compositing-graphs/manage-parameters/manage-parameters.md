@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Parameter verwalten
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
@@ -59,7 +59,7 @@ Die Aktionen in diesem Menü wirken sich auf *alle* der in diesem Abschnitt aufg
 * <b>Parameter einfügen:</b> Siehe [Parameter kopieren und einfügen](../../compositing-graphs/manage-parameters/manage-parameters.md) Abschnitt unten.
 * <b>Parameter als Vorgabedatei speichern:</b> Weitere Informationen zu Parametervorgaben in [dieser dedizierten Seite](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md).
 * <b>Parameter aus einer Vorgabedatei anwenden:</b> Weitere Informationen zu Parametervorgaben in [dieser dedizierten Seite](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md).
-* <b>Alle zurücksetzen:</b> Setzt alle Parameter auf ihre Standardwerte und -bereiche zurück. Wenn Funktionen auf Parameter angewendet wurden, werden sie verworfen.
+* <b>Alle zurücksetzen:</b> Setzt alle Parameter auf ihre Standardwerte und -bereiche zurück. Wenn Funktionen auf Parameter angewendet wurden, werden sie verworfen.
 
 >[!NOTE]
 >
@@ -120,7 +120,7 @@ Menü &quot;Parameter verwalten&quot; von ![&#x200B; im Knotenkontextmenü &#x20
 
 ## Parameter kopieren und einfügen
 
-Es ist möglich, alle Parameterwerte für einen Quellknoten zu kopieren und in einen Zielknoten einzufügen. Die Parameter des Quell- und Zielknotens sind <b> zugeordnet, basierend auf ihren Bezeichnern und Typen </b>.
+Es ist möglich, alle Parameterwerte für einen Quellknoten zu kopieren und in einen Zielknoten einzufügen. Die Parameter des Quell- und Zielknotens sind <b> zugeordnet, basierend auf ihren Bezeichnern und Typen </b>.
 
 Beispielsweise kann ein Parameter &quot;Scale&quot;, der als Bezeichner &quot;scale&quot; und als Typ &quot;Float&quot; dient, kopiert und in einen anderen Parameter &quot;Shape Scale&quot; eingefügt werden, wenn sein Bezeichner ebenfalls &quot;scale&quot; lautet und sein Typ ebenfalls &quot;Float&quot; lautet.
 

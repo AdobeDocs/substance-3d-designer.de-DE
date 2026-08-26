@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Gaußsches Rauschen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 2%
+source-wordcount: '272'
+ht-degree: 1%
 
 ---
 
@@ -40,26 +40,6 @@ ht-degree: 2%
 Ein glattes Rauschen, das aus der Kombination von Verläufen entsteht, bei denen Werte nach einer Normalverteilung von Schwarz zu Weiß übergehen, ähnlich einer Glockenkurve.
 
 Siehe auch: [Gaußsche Flecken 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-spots-1/gaussian-spots-1.md), [Gaußsche Flecken 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-spots-2/gaussian-spots-2.md)
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Ausgaben
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameter
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Beispiele
 
 </td>
 </tr>

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Iray
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2159'
+source-wordcount: '2151'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ Weitere Informationen zum Anpassen dieser Bedingungen finden Sie im Abschnitt <b
 
 ![Mittelalterliches Schlosswandmaterial in Iray](../../../assets/iray-overview.png "Mittelalterliches Schlosswandmaterial in Iray")
 
-*Material: [Mittelalterliche Burgmauer](https://helpx.adobe.com/de/substance-3d/unlisted/assets/allassets/2b3f6eca9a6b6ab19d263d8b77819df431c3c973.html)* *von [Mark Foreman](https://www.artstation.com/oggyart)* *in unseren [Substance 3D-Medien](https://helpx.adobe.com/de/substance-3d/unlisted/assets.html)* *Bibliotheken* verfügbar
+*Material: [Mittelalterliche Burgmauer](https://oggyart.artstation.com/projects/Xnzx0a)* *von [Mark Foreman](https://www.artstation.com/oggyart)* *in unseren [Substance 3D-Medien](https://substance3d.adobe.com/assets)* *Bibliotheken* verfügbar
 
 </td>
 </tr>

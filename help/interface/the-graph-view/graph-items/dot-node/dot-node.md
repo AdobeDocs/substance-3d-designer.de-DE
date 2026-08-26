@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Knoten "Punkt" (auch Portal)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-Der Knoten &quot;<b>Dot</b>&quot; ist ein Hilfsprogramm, mit dem Sie Diagramme vereinfachen und bereinigen können, indem Sie Verbindungen umleiten und gruppieren. Es ist besonders nützlich für Graphen mit vielen langen Verbindungen, die über andere Verbindungen oder Knoten laufen.
+Der Knoten &quot;<b>Dot</b>&quot; ist ein Hilfsprogramm, mit dem Sie Diagramme vereinfachen und bereinigen können, indem Sie Verbindungen umleiten und gruppieren. Es ist besonders nützlich für Graphen mit vielen langen Verbindungen, die über andere Verbindungen oder Knoten laufen.
 
 Ein Paar von Punktknoten kann als <b>Portale</b> verwendet werden, um eine Verbindung über eine große Entfernung auszublenden, oder an Orten, an denen das Routing der Verbindung eine Herausforderung darstellen würde.
 
@@ -102,7 +102,7 @@ Drücken Sie ALT und verschieben Sie einen Punkt-Knoten über Verknüpfungen, um
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-Punktknoten können als <b>Portale</b> verwendet werden, um Daten über eine große Distanz im Diagramm zu senden, ohne dass ein sperriger langer Link die Lesbarkeit beeinträchtigt. Dadurch wird die Verknüpfung zwischen den Punktknoten ausgeblendet.
+Punktknoten können als <b>Portale</b> verwendet werden, um Daten über eine große Distanz im Diagramm zu senden, ohne dass ein sperriger langer Link die Lesbarkeit beeinträchtigt. Dadurch wird die Verknüpfung zwischen den Punktknoten ausgeblendet.
 
 </td>
 </tr>

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Glossar
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: 264bcb3675b4cc1d6819c06b881ea616a817dd4b
 workflow-type: tm+mt
-source-wordcount: '4459'
+source-wordcount: '4489'
 ht-degree: 1%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 1%
 | <b><span id="alpha"></span>Alpha-Kanal</b> | Der vierte Kanal eines Farbbildes, der häufig zur Beschreibung der Deckkraft verwendet wird. |
 | <b><span id="ambient-occlusion"></span>Umgebungs-Verdeckung</b> | Die Dämpfung von Umgebungslicht auf Oberflächen, die weniger belichtet und daher schwieriger zu erreichen sind. |
 | <b><span id="anisotropy"></span>Anisotropie</b> | Die Eigenschaft, richtungsabhängig zu sein. Mit anderen Worten, ein anderes Ergebnis liefern, wenn auf einer anderen Achse gemessen oder beobachtet.   Anisotrope Materialien haben je nach Herkunft ein anderes Aussehen, und anisotrope Filter werden nicht in alle Richtungen gleichmäßig angewendet. |
+| <b><span id="aov" ></span>AOV</b> | &quot;Arbitrary Output Variable&quot; (AOV) ist ein Begriff, der in [Rendering](#rendering) verwendet wird, um zusätzliche Datenkanäle zu beschreiben, die von einem Rendering ausgegeben werden können, z. B. Tiefe, Normale oder benutzerdefinierte Daten. |
 | <b><span id="api"></span>API</b> | Eine API (Application Programming Interface) ist eine Sammlung von Funktionen und Prozeduren, mit denen Benutzer auf die Funktionen und Prozeduren einer anderen Anwendung des Programms zugreifen können.   Eine API bietet eine kontrollierte und sichere Ebene zwischen dem Benutzer und einem Programm. Es kann auch eine andere Programmiersprache verwenden, um die Interaktion mit diesem Programm zu vereinfachen und die Zugänglichkeit zu erweitern.   Designer bietet eine [Python-API](../scripting/scripting.md), die einfachen Zugriff auf eine breite Palette von Funktionen bietet, mit denen Daten bearbeitet, benutzerdefinierte Tools erstellt und Workflows beschleunigt werden können. |
 | <b><span id="atomic-node"></span>Atomknoten</b> | Die grundlegenden Bausteine von Diagrammen. Alle [Instanzknoten](#instance-node) können in Diagramme atomarer Knoten unterteilt werden. Jeder Diagrammtyp hat seine eigenen atomaren Knoten. |
 

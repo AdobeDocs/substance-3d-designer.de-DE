@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Probleme mit 3D-Ansicht
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: d81d92788a4d52b5ae1ed3ac4287f07260894f3c
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1643'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Version 15.1 und höher
 
 Die neuen 3D-Renderer wurden in Version 15.1 aktualisiert und erfordern aktuelle GPU-Treiber. Aktualisieren Sie die GPU-Treiber Ihres Systems auf die neueste Version.
 
-Hier finden Sie Treiber:   [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us) [AMD](https://www.amd.com/en/support) [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+Hier finden Sie Treiber:   [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 Version 15.0 und höher
 
@@ -243,7 +243,7 @@ Designer stürzt beim Starten der 3D-Ansicht ab, wenn ein Projekt erstellt wird,
 
 Stellen Sie zunächst sicher, dass Ihr System die [Systemanforderungen](../../getting-started/system-requirements/system-requirements.md) von Designer erfüllt.
 
-Aktualisieren Sie dann Ihre Grafiktreiber. Sie können die neuesten Treiber für Ihre GPU über die folgenden Links finden: [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+Aktualisieren Sie dann Ihre Grafiktreiber. Sie können die neuesten Treiber für Ihre GPU finden, indem Sie auf diese Links klicken:   [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 Wenn Ihr System sowohl eine integrierte GPU (iGPU) als auch eine separate GPU (dGPU) enthält, stellen Sie sicher, dass *die Treiber für beide aktualisieren*!
 

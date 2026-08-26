@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Referenz für die Knoten in Substance-Graphen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 14%
+source-wordcount: '121'
+ht-degree: 16%
 
 ---
 
@@ -35,11 +35,11 @@ Was wir &quot;Knoten&quot; innerhalb von SD nennen, kann in 2 Netzgruppen untert
 
 [Knotenbibliothek](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
 
-* [Texturgeneratoren](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/generators-159449101.html)
-* [Filter](../../compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md)
-* [Materialfilter](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md)
-* [Mesh-basierte Generatoren](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/mesh-adaptive-159449105.html)
-* [Spline- und Pfade-Werkzeuge](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-paths-tools.md)
+* [Texturgeneratoren](node-library/texture-generators/texture-generators.md)
+* [Filter](node-library/filters/filters.md)
+* [Materialfilter](node-library/material-filters/material-filters.md)
+* [Mesh-basierte Generatoren](node-library/mesh-based-generators/mesh-based-generators.md)
+* [Spline- und Pfade-Werkzeuge](node-library/spline-paths-tools/spline-paths-tools.md)
 
 </td>
 <td style="border: 0;" valign="top">

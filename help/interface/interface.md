@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Arbeitsbereich
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 163ef15c862c56a1b59a4ccd47f4396c825be18f
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '533'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ Mit der Hauptsymbolleiste können Sie auf zusätzliche Menüs zugreifen, z. B. a
 * <b>Bearbeiten: </b>Bietet Funktionen zum Rückgängigmachen und Wiederholen (unten als Schnellschaltflächen verfügbar) sowie Zugriff auf [Voreinstellungen](../interface/preferences-window/preferences-window.md) für die Anpassung in der Tiefe.
 * <b>Extras:</b> Steuert das Substance Engine und ermöglicht den Zugriff auf den Plug-in-Manager.
 * <b>Windows:</b> Ermöglicht das Ein- und Ausblenden der Fenster (einige sind standardmäßig ausgeblendet). Sie können das Fensterlayout auf die Standardeinstellungen zurücksetzen.
-* <b>Hilfe: </b>Bietet Zugriff auf zusätzliche Informationen und Onlineressourcen, wie z. B. die Substance Academy oder diese Dokumentationswebsite.
+* <b>Hilfe: </b>Bietet Zugriff auf zusätzliche Informationen und Online-Ressourcen, wie z. B. die Substance Academy oder diese Dokumentationswebsite.
 
 ## Explorer
 
@@ -99,7 +99,7 @@ Mit der Hauptsymbolleiste können Sie auf zusätzliche Menüs zugreifen, z. B. a
 
 ## Eigenschaften
 
-[Das Eigenschaften-Dock &#x200B;](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) ist das technisch ausgereifteste Fenster. Es ist immer kontextsensitiv und enthält Schieberegler, Dropdown-Listen und andere Elemente, die das Verhalten einer ausgewählten Ressource oder eines ausgewählten Knotens ändern.
+Das [Eigenschaften-Dock](properties/properties.md) ist das technisch ausgereifteste Fenster. Es ist immer kontextsensitiv und enthält Schieberegler, Dropdown-Listen und andere Elemente, die das Verhalten einer ausgewählten Ressource oder eines ausgewählten Knotens ändern.
 
 ![Eigenschaften](../assets/properties-15.jpg "Eigenschaften")
 

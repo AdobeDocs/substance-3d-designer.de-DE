@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Punktliste
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -55,12 +55,12 @@ Wenn eine vorhandene Punktliste an die <b>Point</b>-Eingaben übergeben wird, wi
 
 <b>Punktlisteneingabe</b> *Farbe*\
 Eine Liste von Eingangspunkten, die in den RGBA-Kanälen eines Farbbildes codiert sind:\
-    <b>R</b> - X-Position\
-    <b>G</b> - Y-Position\
-    <b>B</b> - Height\
-    <b>A</b> - Paketdaten:\
-            * Ganzzahlteil: Smoothness;\
-            * Bruchteil: Thickness.
+<b>R</b> - X-Position\
+<b>G</b> - Y-Position\
+<b>B</b> - Height\
+<b>A</b> - Paketdaten:\
+* Ganzzahlteil: Smoothness;\
+* Bruchteil: Thickness.
 
 <b>Eingabe von Punktzahlen</b> *Integer*\
 Die Anzahl der Eingabepunkte.
@@ -71,12 +71,12 @@ Die Anzahl der Eingabepunkte.
 
 <b>Punkteliste </b>*Farbe*\
 Die Ausgabeliste der Punkte, die in den RGBA-Kanälen eines Farbbildes codiert sind:\
-    <b>R</b> - X-Position\
-    <b>G</b> - Y-Position\
-    <b>B</b> - Height\
-    <b>A</b> - Paketdaten:\
-            * Ganzzahlteil: Smoothness;\
-            * Bruchteil: Thickness.
+<b>R</b> - X-Position\
+<b>G</b> - Y-Position\
+<b>B</b> - Height\
+<b>A</b> - Paketdaten:\
+* Ganzzahlteil: Smoothness;\
+* Bruchteil: Thickness.
 
 <b>Punktzahl </b>*Ganzzahl*\
 Die Ausgabenanzahl von Punkten.
@@ -102,16 +102,16 @@ Die resultierende Smoothness wird auf den Bereich [0;1] geklemmt.
 +++
 
 +++Vorschau
-<b>Beschriftungen anzeigen</b> *Boolesch*\
+<b>Beschriftungen anzeigen</b> *Boolescher Wert*\
 Zeigt für jeden Punkt den Namen des Punkts daneben in der Vorschau an.
 
-<b>Labelgröße</b> *Gleitkomma* (verfügbar, wenn &quot;Labels anzeigen&quot; auf &quot;Wahr&quot; festgelegt ist)\
+<b>Labelgröße</b> *Float* (verfügbar, wenn &quot;Beschriftungen anzeigen&quot; auf &quot;Wahr&quot; festgelegt ist)\
 Die Größe des Labels für jeden Punkt im Texturraum, wobei 0,1 ein Zehntel der Texturbreite ist.
 
 <b>Punkte anzeigen</b> *Boolescher Wert*\
 Zeigt die Punkte in der Vorschau an.
 
-<b>Punktgröße</b> *Gleitend* (verfügbar, wenn &quot;Punkte anzeigen&quot; auf &quot;Wahr&quot; festgelegt ist)\
+<b>Punktgröße</b> *Float* (verfügbar, wenn &quot;Punkte anzeigen&quot; auf &quot;Wahr&quot; festgelegt ist)\
 Der Radius der Punkte im Texturraum, wobei 0,1 ein Zehntel der Texturbreite beträgt.
 
 +++

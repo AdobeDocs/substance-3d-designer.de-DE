@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Knotensucher
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![Knotensuchersymbolleiste](../../../assets/node-finder-toolbar.png "Knotensuchersymbolleiste"){zoomable="yes"}
 
-Mit dem Node Finder-Tool können Sie eine <b>Suche nach Knoten und Variablen</b> mithilfe einer Textabfrage durchführen. Alle Knoten, die nicht mit der Abfrage übereinstimmen, sind abgeblendet, damit die Ergebnisse hervorstechen.
+Mit dem Node Finder-Tool können Sie eine <b>Suche nach Knoten und Variablen</b> mithilfe einer Textabfrage durchführen. Alle Knoten, die nicht mit der Abfrage übereinstimmen, sind abgeblendet, damit die Ergebnisse hervorstechen.
 
 Die Abfrage kann mit einem dieser Kriterien übereinstimmen:
 
@@ -31,7 +31,7 @@ Die Abfrage kann mit einem dieser Kriterien übereinstimmen:
 * <b>UID</b> eines Knotens (eindeutiger Bezeichner)
 * Die <b>Bezeichnung</b> eines Knotens
 
-Die Suche kann [Grapheninstanzen](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) rekursiv durchlaufen, sodass Knoten und Variablen in [Untergraph](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) gefunden werden können. Wenn Sie sich nicht sicher sind, welchen Begriff Sie genau suchen müssen, ist eine Fuzzy-Suchoption verfügbar, mit der Sie eine Toleranz auf die Abfrage anwenden können.
+Die Suche kann [Grapheninstanzen](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) rekursiv durchlaufen, sodass Knoten und Variablen in [Untergraph](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) gefunden werden können. Wenn Sie sich nicht sicher sind, welchen Begriff Sie genau suchen müssen, ist eine Fuzzy-Suchoption verfügbar, mit der Sie eine Toleranz auf die Abfrage anwenden können.
 
 ## Benutzeroberfläche
 

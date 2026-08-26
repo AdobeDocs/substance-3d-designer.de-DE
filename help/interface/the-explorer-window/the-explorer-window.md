@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Explorer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1104'
 ht-degree: 2%
 
 ---
@@ -48,8 +48,8 @@ Im Explorer-Dock können Sie einige wichtige Aktionen ausführen:
 * Speichern und Schließen von geladenen Paketen
 * [Ressourcen importieren und verknüpfen](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 * [Diagrammergebnisse in Texturen exportieren](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)
-* [Erstellen eines Pakets als Substance 3D-Asset (SBSAR) in Publish](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)
-* [Senden von Paketen an andere Substance 3D-Anwendungen](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)
+* [Erstellen eines Pakets als Substance 3D-Asset (SBSAR) in Publish](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)
+* [Senden von Paketen an andere Substance 3D-Anwendungen](send-to-interoperability/send-to-interoperability.md)
 * [Karten aus einem Gitter backen](../../bakers/bakers.md)
 
 ## Obere Symbolleiste
@@ -116,11 +116,11 @@ Leerer Speicherplatz ist nur unter derzeit geöffneten Paketen verfügbar. Das K
 
 <b>Neu laden</b>, <b>Speichern, Speichern unter</b> und <b> Speichern einer Kopie als </b> ermöglicht das Speichern auf der Festplatte oder das Abrufen einer zuvor gespeicherten Version des Pakets von der Festplatte.
 
-Mit <b>Publish .sbsar-Datei</b> und <b> .sbsar-Datei erneut veröffentlichen</b> können Sie [Ihr nicht kompiliertes, nicht optimiertes Substance-Diagramm in eine leistungsstarke und tragbare SBSAR-Datei umwandeln, die wir in anderen Substance-Anwendungen und Integrationen verwenden können](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html). Publish als &quot;Vorherige&quot; wiederholt die vorherige Publish-Aktion mit denselben Optionen und überspringt das Dialogfeld &quot;Optionen&quot;, um die Iteration zu beschleunigen. Die Symbolleiste enthält Schaltflächen mit derselben Funktionalität.
+Mit <b>Publish .sbsar-Datei</b> und <b> .sbsar-Datei erneut veröffentlichen</b> können Sie Ihr nicht kompiliertes, nicht optimiertes Substance-Diagramm [veröffentlichen](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) in einer effizienten und portablen SBSAR-Datei für uns in anderen Substance-Anwendungen und Integrationen. Publish als &quot;Vorherige&quot; wiederholt die vorherige Publish-Aktion mit denselben Optionen und überspringt das Dialogfeld &quot;Optionen&quot;, um die Iteration zu beschleunigen. Die Symbolleiste enthält Schaltflächen mit derselben Funktionalität.
 
 <b>Der Export mit Abhängigkeiten</b> unterscheidet sich vom Speichern und Veröffentlichen. Es nimmt Ihre SBS-Dateien, sammelt alle referenzierten Ressourcen und Abhängigkeiten und erstellt ein eigenständiges Paket. In diesem Dialogfeld können Sie auswählen, welche Bibliotheken erfasst werden sollen und ob die Datei ein komprimiertes Archiv sein soll (7-zip). Dies ist eine gute Wahl, um eine SBS-Datei mit jemand anderem zu teilen, ohne sich über fehlende Abhängigkeiten Gedanken zu machen.
 
-<b>Senden an...</b> öffnet ein Untermenü, in dem Sie Ihr Paket direkt [senden können](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html) an [Substance 3D Sampler](https://www.adobe.com/de/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/de/products/substance3d-painter.html), [Substance 3D Stager](https://www.adobe.com/de/products/substance3d-stager.html) oder [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html).
+<b>Senden an...</b> öffnet ein Untermenü, in dem Sie Ihr Paket direkt [senden](send-to-interoperability/send-to-interoperability.md) an [Substance 3D Sampler](https://www.adobe.com/de/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/de/products/substance3d-painter.html), [Substance 3D Stager](https://www.adobe.com/de/products/substance3d-stager.html) oder [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html).
 
 <b>Copy</b> kopiert das ausgewählte Paket.
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: GLSLFX Shader
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '3098'
 ht-degree: 1%
@@ -132,13 +132,13 @@ Erlauben Sie, einen Teil des OpenGL-Status einzurichten.
 
 <b>Attribute:</b>
 
-* name: Der Name der festzulegenden Eigenschaft. Der Name basiert auf der OpenGL-Funktion oder dem glEnum-Namen:
+* Name: Der Name der festzulegenden Eigenschaft. Der Name basiert auf der OpenGL-Funktion oder dem glEnum-Namen:
   * Enumerationssyntax: Ohne das Präfix &quot;GL\_&quot;, in Kleinbuchstaben. Beispiele: glEnable(GL\_BLEND\_ENABLE) => &quot;&quot;, glDisable(GL\_CULL\_FACE) => &quot;&quot;&quot;
-  * Funktionssyntax: ohne das Präfix &quot;gl&quot;, in Kleinbuchstaben und mit allen Wörtern getrennt durch das Zeichen &quot;\_&quot;. Beispiel: glBlendFunc(GL\_SRC\_ALPHA, GL\_ONE\_MINUS\_SRC\_ALPHA) => &quot;&quot;
+  * Funktionssyntax: ohne das Präfix &quot;gl&quot;, in Kleinbuchstaben und mit allen Wörtern, die durch das Zeichen &quot;\_&quot; getrennt sind. Beispiel: glBlendFunc(GL\_SRC\_ALPHA, GL\_ONE\_MINUS\_SRC\_ALPHA) => &quot;&quot;
 
 * Enumerationssyntax: Ohne das Präfix &quot;GL\_&quot;, in Kleinbuchstaben. Beispiele: glEnable(GL\_BLEND\_ENABLE) => &quot;&quot;, glDisable(GL\_CULL\_FACE) => &quot;&quot;&quot;
 
-* Funktionssyntax: ohne das Präfix &quot;gl&quot;, in Kleinbuchstaben und mit allen Wörtern getrennt durch das Zeichen &quot;\_&quot;. Beispiel: glBlendFunc(GL\_SRC\_ALPHA, GL\_ONE\_MINUS\_SRC\_ALPHA) => &quot;&quot;
+* Funktionssyntax: ohne das Präfix &quot;gl&quot;, in Kleinbuchstaben und mit allen Wörtern, die durch das Zeichen &quot;\_&quot; getrennt sind. Beispiel: glBlendFunc(GL\_SRC\_ALPHA, GL\_ONE\_MINUS\_SRC\_ALPHA) => &quot;&quot;
 
 * Wert: Der Wert der Eigenschaft.
 

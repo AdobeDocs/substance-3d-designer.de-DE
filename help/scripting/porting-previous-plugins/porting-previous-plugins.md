@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Portieren früherer Plug-ins
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,13 @@ Weitere Informationen finden Sie im Abschnitt [Grundlagen zu Plug-ins](../../scr
 ## Erstellen von Benutzeroberflächenelementen
 
 Plug-Ins *benötigen* nicht mehr, um eine &#39;*sdplugins.PluginDesc*&#39; zu definieren.\
-Stattdessen können Plug-Ins das neue <b> [UI Manager](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/scripting-api-next-172825023.html)-Objekt </b> und <b>Qt für Python</b> verwenden, um alle erforderlichen Benutzeroberflächenelemente zu erstellen.
+Stattdessen können Plug-Ins das <b>neue [UI-Manager](../scripting-api-reference/scripting-api-reference.md#ui-manager-sduimgr)-Objekt</b> und <b>Qt für Python</b> verwenden, um alle erforderlichen Benutzeroberflächenelemente zu erstellen.
 
 Kleine Codebeispiele finden Sie im Abschnitt [Erstellen von Benutzeroberflächenelementen](../../scripting/creating-user-interface/creating-user-interface-elements.md).
 
 ## Ersetzen von Benutzern des Standortkontexts
 
 Die *SDLocationContext*-Klasse wurde *aus der Python-API entfernt*.\
-Plug-Ins können das <b>[UI-Manager](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/scripting-api-next-172825023.html)-Objekt </b> verwenden, um auf das derzeit aktive Diagramm und die Auswahl zuzugreifen.
+Plug-Ins können das <b>[UI Manager](../scripting-api-reference/scripting-api-reference.md#ui-manager-sduimgr)-Objekt</b> verwenden, um auf das derzeit aktive Diagramm und die Auswahl zuzugreifen.
 
 Einige Beispiele finden Sie im Abschnitt [Zugriff auf Diagramme und Auswahlen](../../scripting/accessing-graphs-and-sel/accessing-graphs-and-selections.md).

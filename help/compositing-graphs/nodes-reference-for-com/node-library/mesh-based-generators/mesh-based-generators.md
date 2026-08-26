@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Mesh-basierte Generatoren
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c002fea6f396f09ccb3218bd290db812d8367dc4
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '137'
 ht-degree: 4%
 
 ---
@@ -26,9 +26,9 @@ Der Name dieser Kategorie rührt daher, dass durch Baking erzeugte Map die einzi
 
 Es gibt drei Hauptkategorien:
 
-* [Maskengeneratoren](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md)\
+* [Maskengeneratoren](mask-generators/mask-generators.md)\
   Schwarz-Weiß-Maskengeneratoren, die auf einem oder mehreren durch Baking erzeugte Map basieren.
-* [Verwitterung](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/weathering.md)\
-  Materialbasierte Verwitterungseffekte auf Basis von durch Baking erzeugte Map.
-* [Dienstprogramme](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)\
+* [Verwitterung](weathering/weathering.md)
+Materialbasierte Verwitterungseffekte auf Basis von durch Baking erzeugte Map.
+* [Dienstprogramme](utilities-mesh-based-gen/utilities-mesh-based-generators.md)\
   Zusätzliche Utilitys und Tools für Backarbeiten.

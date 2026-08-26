@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Bitmap
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '463'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Lädt eine [Bitmapressource](../../../../resources/bitmap-resource/bitmap-resour
 
 Dieser Knoten wird verwendet, um entweder eine [Bitmap](../../../../glossary/glossary.md) in Ihr Diagramm zu importieren oder eine neue Bitmap zur Verwendung mit den [Bitmap-Malwerkzeugen](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md) zu erstellen.
 
-Es gibt verschiedene Möglichkeiten, diesen Knoten zu erstellen. Für alle diese Möglichkeiten müssen Sie [&#x200B; den Unterschied zwischen dem Verknüpfen und dem Importieren von Ressourcen verstehen.](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+Es gibt verschiedene Möglichkeiten, diesen Knoten zu erstellen. Für alle diese Möglichkeiten müssen Sie [den Unterschied zwischen dem Verknüpfen und dem Importieren von Ressourcen verstehen.](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ Sie können den Knoten entweder von Grund auf neu erstellen oder eine [Bitmap](.
 |  |  |
 | --- | --- |
 | <b>Farbmodus</b> *Boolescher Wert* | Bestimmt den Ausgabetyp des Knotens, der entweder in Farbe oder in Graustufen zurückgegeben wird. |
-| <b>PKG-Ressourcenpfad</b> *Zeichenfolge* | Pfad zur [Bitmapressource](../../../../resources/bitmap-resource/bitmap-resource.md), auf die vom Knoten verwiesen wird.   Es wird empfohlen, eine Ressource nicht manuell einzugeben, sondern entweder aus dem Explorer zu kopieren und in das Parametertextfeld einzufügen, oder eine Bitmapressource direkt aus dem [Explorer](../../../../interface/the-explorer-window/the-explorer-window.md) auf den Bitmapknoten im Diagramm zu ziehen und abzulegen. |
+| <b>PKG-Ressourcenpfad</b> *Zeichenfolge* | Pfad zur [Bitmapressource](../../../../resources/bitmap-resource/bitmap-resource.md), auf die vom Knoten verwiesen wird.   Es wird empfohlen, eine Ressource nicht manuell einzugeben, sondern entweder aus dem Explorer zu kopieren und in das Parametertextfeld einzufügen, oder eine Bitmapressource direkt aus dem [Explorer](../../../../interface/the-explorer-window/the-explorer-window.md) auf den Bitmapknoten im Diagramm zu ziehen und abzulegen. |
 | <b>Methode zur Größenänderung</b> *Integer* | Die Neuberechnungsmethode für das Hoch- oder Herunterskalieren einer Bitmap:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Ruhige Dehnung:</i> Wenden Sie [bilineare Filter](../../../../glossary/glossary.md) an, um die Quellpixel des gedehnten Bildes zu interpolieren.</li> <li data-preserve-html="true"><i>Nächste Dehnung:</i> Dehnen Sie das Bild und verwenden Sie die Farbe des nächstgelegenen Quellpixel so, wie sie ist.</li> </ul> |
 
 ## Bitmap-Malwerkzeuge

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Waveform 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 2%
+source-wordcount: '350'
+ht-degree: 1%
 
 ---
 
@@ -43,26 +43,6 @@ Horizontale Anordnung von vom Benutzer ausgewählten Mustern, die in einer Form 
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Ausgaben
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameter
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Beispiele
-
-</td>
-</tr>
-</table>
-
 ## Ausgaben
 
 |  |  |
@@ -74,8 +54,8 @@ Horizontale Anordnung von vom Benutzer ausgewählten Mustern, die in einer Form 
 |  |  |
 | --- | --- |
 | <b>Beispiele</b> Ganze Zahl | Die Anzahl der Muster, die entlang der X-Achse platziert werden, um die Wellenform zu zeichnen, wobei ein niedrigerer Wert zu einer abgestuften Darstellung führt. |
-| <b>Funktion</b> Ganzzahl | Die Funktion, mit der die Wellenform gezeichnet wird.   Dadurch wird die vertikale Größe des Musters gesteuert, das an jedem Sample platziert wird:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Wert-Rauschen:</i> Eine zufällige Verteilung der Werte</li> <li data-preserve-html="true"><i>Kosinus:</i> Die Werte folgen dem Verlauf einer Kosinusfunktion</li> <li data-preserve-html="true"><i>Benutzerdefinierte Funktion:</i> Verwenden Sie eine vom Benutzer verfasste Funktion zum Steuern der Werte.</li> </ul> |
-| <b>Benutzerdefinierte Funktion</b> Float *Verfügbar, wenn &quot;Funktion&quot; auf &quot;Benutzerdefinierte Funktion&quot; festgelegt ist* | Berechnet die vertikale Größe des Musters, das an jedem Sample platziert wird.   Verfügbare Variablen:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>pos</b> (<i>float</i>) Die Position des Musters auf der X-Achse. Dies kann zur Auswahl von Mustern verwendet werden.</li> </ul> |
+| <b>Funktion</b> Ganzzahl | Die Funktion, mit der die Wellenform gezeichnet wird.   Dadurch wird die vertikale Größe des Musters gesteuert, das an jedem Sample platziert wird:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Wert-Rauschen:</i> Eine zufällige Verteilung der Werte</li> <li data-preserve-html="true"><i>Kosinus:</i> Die Werte folgen dem Verlauf einer Kosinusfunktion</li> <li data-preserve-html="true"><i>Benutzerdefinierte Funktion:</i> Verwenden Sie eine vom Benutzer verfasste Funktion zum Steuern der Werte.</li> </ul> |
+| <b>Benutzerdefinierte Funktion</b> Float *Verfügbar, wenn &quot;Funktion&quot; auf &quot;Benutzerdefinierte Funktion&quot; festgelegt ist* | Berechnet die vertikale Größe des Musters, das an jedem Sample platziert wird.   Verfügbare Variablen:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>pos</b> (<i>float</i>) Die Position des Musters auf der X-Achse. Dies kann zur Auswahl von Mustern verwendet werden.</li> </ul> |
 | <b>Unregelmäßigkeit</b> Unregelmäßigkeit | Interpoliert zwischen einer sauberen und glatten Wellenform mit einer raueren und gleichmäßigeren Wellenform.    Das kann man sich als klares Signal oder weißes Rauschen vorstellen. |
 | <b>Skalierung</b> Ganze Zahl | Die horizontale Spanne der im Bild sichtbaren Wellenform. |
 | <b>Amplitude min.</b>  Float | Der Mindestwert (oder die Thickness) der Wellenform. |

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Richtlinien zur Dateigrößenreduzierung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 163ef15c862c56a1b59a4ccd47f4396c825be18f
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '822'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ Die Dateigröße wird hauptsächlich durch [eingebettete Bitmaps bestimmt.](../.
 
 ## Dateigrößenfaktoren
 
-Es gibt einige verschiedene Faktoren, die die Gesamtdateigröße von [SBSAR](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) beeinflussen. Sie sind unten mit einer kurzen Erläuterung aufgelistet.
+Es gibt einige verschiedene Faktoren, die die Gesamtdateigröße der SBSAR beeinflussen. Sie sind unten mit einer kurzen Erläuterung aufgelistet.
 
 +++Auflösung
 Offensichtlich hat eine große Wirkung. Verwenden Sie die kleinstmögliche Auflösung, da Sie möglicherweise auch möchten, dass Ihre Substance-Datei in großen Auflösungen funktioniert. Sie können standardmäßige Tricks zum Maskieren der Auflösung verwenden, um kleinere Bitmaps größer erscheinen zu lassen.
@@ -63,14 +63,14 @@ Welcher Modus für den Bitmap-Knoten festgelegt wird, hat ebenfalls Auswirkungen
 +++Bitmapformat im Paket
 In den Ressourceneigenschaften können Sie zwischen der Raw- und JPEG-Komprimierung wählen. Dies kann erhebliche Auswirkungen auf das Endergebnis haben.
 
-*Gefunden in: Bitmapressource [Eigenschaften](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), über das [Explorer-Fenster.](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
+*Gefunden in: Bitmapressourceneigenschaften über das Explorer-Fenster.*
 
 +++
 
 +++Bitmapkomprimierungsqualität im Paket
 Wenn Sie das &quot;JPEG&quot;-Bitmapformat verwenden, kann der unten stehende Schieberegler die Qualität und Dateigröße beeinflussen. Dieser Schieberegler verhält sich nicht sehr vorhersehbar, aber 1 entspricht in der Regel der höchsten Qualität JPG-Komprimierung, und 0,5 gibt in der Regel die kleinste Größe an.
 
-*Gefunden in: Bitmapressource [Eigenschaften](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), über das [Explorer-Fenster.](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
+*Gefunden in: Bitmapressourceneigenschaften über das Explorer-Fenster.*
 
 +++
 

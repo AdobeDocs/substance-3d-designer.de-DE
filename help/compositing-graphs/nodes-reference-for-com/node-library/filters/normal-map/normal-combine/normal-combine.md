@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Normale Kombination
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 2%
@@ -53,7 +53,7 @@ Wenn Sie zwei normale Maps überblenden möchten, ohne ihre Details zu kombinier
 
 ## Parameter
 
-<b>Technik</b> *Ganzzahl* Legt fest, welche interne Mischtechnik verwendet werden soll, und tauscht sie mit Geschwindigkeit gegen Qualität aus.\
+<b>Technik</b> *Integer* Legt fest, welche interne Mischungstechnik verwendet werden soll, wobei die Geschwindigkeit für die Qualität gehandelt wird.\
 *- Whiteout (geringe Qualität)
 * Kanalmixer (hohe Qualität)
 * Detailorientiert (hohe Qualität)*

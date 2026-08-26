@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Eingabe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -106,11 +106,11 @@ Wenn Sie das Diagramm mit den Ausgaben eines anderen Diagramms anzeigen möchten
 
 |  |  |
 | --- | --- |
-| <b>Kennung</b> *Zeichenfolge* | Das einzige obligatorische, eindeutige Attribut. Kann keine Leerzeichen enthalten.   Dieser wird zum Kennzeichnen von Eingaben verwendet, wenn kein Label eingerichtet ist, und zum Kennzeichnen verschiedener Ausgänge. Lassen Sie diese nicht einfach bei &quot;input\_1&quot; stehen! |
+| <b>Kennung</b> *Zeichenfolge* | Das einzige obligatorische, eindeutige Attribut. Kann keine Leerzeichen enthalten.   Dieser wird zum Kennzeichnen von Eingaben verwendet, wenn kein Label eingerichtet ist, und zum Kennzeichnen verschiedener Ausgänge. Lassen Sie diese nicht einfach bei &quot;input\_1&quot; stehen! |
 | <b>Beschreibung</b> *Zeichenfolge* | Optionale Beschreibung, die in Designers Bibliothek und Painters Regal verwendet wird. |
-| <b>Bezeichnung</b> *Zeichenfolge* | UI-Label für ansprechende Beschriftungen in Designer und der Benutzeroberfläche von Painter. Kann Leerzeichen enthalten.   Es wird empfohlen, einen Namen festzulegen, der dem der Kennung ähnelt, nur mit Leerzeichen anstelle von Unterstrichen. |
+| <b>Bezeichnung</b> *Zeichenfolge* | UI-Label für ansprechende Beschriftungen in Designer und der Benutzeroberfläche von Painter. Kann Leerzeichen enthalten.   Es wird empfohlen, einen Namen festzulegen, der dem der Kennung ähnelt, nur mit Leerzeichen anstelle von Unterstrichen. |
 | <b>Benutzerdaten</b> *Zeichenfolge* | Zusätzliche, optionale Benutzerdaten, die für bestimmte Filtervorgänge verwendet werden können, im Wesentlichen ein Platzhalter, benutzerdefiniertes Datenfeld. |
-| <b>Gruppe</b> *Zeichenfolge* | Gruppenattribut, das zum Gruppieren von Eingaben für die [Verknüpfungserstellungsmodi](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) von Designer verwendet wird.   Eingaben mit einem identischen (Groß-/Kleinschreibung unterdrückenden) Gruppenattribut werden im Modus &quot;Kompaktes Material&quot; als einzelne Verbindung dargestellt. |
+| <b>Gruppe</b> *Zeichenfolge* | Gruppenattribut, das zum Gruppieren von Eingaben für die [Verknüpfungserstellungsmodi](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) von Designer verwendet wird.   Eingaben mit einem identischen (Groß-/Kleinschreibung unterdrückenden) Gruppenattribut werden im Modus &quot;Kompaktes Material&quot; als einzelne Verbindung dargestellt. |
 
 ## Vererbung
 
@@ -157,6 +157,6 @@ Darüber hinaus werden die Verwendungsattribute auch mit [Verknüpfungserstellun
 
 |  |  |
 | --- | --- |
-| <b>Komponente</b> *Zeichenfolge* | Dadurch wird festgelegt, welche Kanäle sich tatsächlich in der resultierenden Eingabe befinden.   Dies ist eine ältere Einstellung, die nicht mehr von Integrationen und Graphen verwendet wird. |
+| <b>Komponente</b> *Zeichenfolge* | Dadurch wird festgelegt, welche Kanäle sich tatsächlich in der resultierenden Eingabe befinden.   Dies ist eine ältere Einstellung, die nicht mehr von Integrationen und Graphen verwendet wird. |
 | <b>Nutzung</b> *Zeichenfolge* | Definieren Sie einen Typ oder eine Verwendung für diese Eingabe. Es gibt an, wie andere Knoten sich mit diesem Eingang verbinden sollen. |
 | <b>Farbraum</b> *Zeichenfolge* | Legt den Farbraum fest, in dem diese Eingabe interpretiert werden soll. |

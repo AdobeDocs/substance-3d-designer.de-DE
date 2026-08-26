@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Anwendung kann nicht gestartet werden
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0cbf71a4a03ac7d0dca48b8f41c753e646b7682b
+source-git-commit: 5e56914c9048c513359d578d802097ef18493a5c
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Die Versionen 15.0 und höher von Designer können auf Systemen mit integrierter
 
 <b>![(tick)](../../assets/check.svg) Empfohlene Schritte</b>
 
-Aktualisieren Sie die Grafiktreiber der iGPU. Die neuesten Treiber finden Sie hier:  [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)  | [AMD](https://www.amd.com/en/support/download/drivers.html)
+Aktualisieren Sie die Grafiktreiber der iGPU. Die neuesten Treiber finden Sie hier:  [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)  | [AMD](https://www.amd.com/en/support/download/drivers.html)
 
 ## Windows 10/11
 
@@ -103,7 +103,7 @@ LD_PRELOAD=./plugins/pythonsdk/lib/python3.11/lib-dynload/libffi.so.6 %command%
 
 Beachten Sie, dass die Python-Versionsnummer von der ausgeführten Designer-Version abhängt:
 
-* Unterhalb von 14.0.0: Python3.9
+* kleiner als 14.0.0: Python3,9
 * kleiner als 12.1.0: Python3,7
 
 +++Startoptionen für Dampf

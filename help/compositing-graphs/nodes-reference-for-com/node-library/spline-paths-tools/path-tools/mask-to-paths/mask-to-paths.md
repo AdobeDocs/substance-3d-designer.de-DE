@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Auf Pfade maskieren
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Das Eingabemuster, das in eine Liste von Pfaden konvertiert werden soll.
 
 ## Ausgangsanschlüsse
 
-<b>Vorschau</b> *Farbe* Eine Vorschau, die über der Maske erstellt wurde, um die Auswirkungen der Parameter zu veranschaulichen.
+<b>Vorschau</b> *Farbe* Eine Vorschau, die über der Maske zusammengestellt wurde, um die Auswirkungen der Parameter zu visualisieren.
 
 <b>Pfade</b> *Farbe*\
 Eine Liste von in einem Farbbild codierten Pfaden. Jeder Pfad beschreibt eine Liste von codierten Segmenten.\
@@ -66,16 +66,16 @@ Das Ergebnis kann mit einem anderen Pfad verarbeitenden Knoten verarbeitet oder 
 Wenden Sie Glättung auf die Eingabemaske an.\
 Dies ist nützlich, wenn das Eingabemuster sehr scharfe Kanten aufweist, was in der Regel Artefakte verursacht.
 
-<b>Schwellenwert für Maske</b> *Unverankert* Der Graustufenwert von <b>Maske</b>, der verwendet wird, um die Außenseite (Werte &lt; Schwellenwert für Maske) und die Innenseite (Werte > Schwellenwert für Maske) der Form zu trennen.
+<b>Schwellenwert für Maske</b> *Gleitkommawert* Der Graustufenwert von <b>Maske</b>, der verwendet wird, um die Außenseite (Werte &lt; Schwellenwert für Maskenebene) und die Innenseite (Werte > Schwellenwert für Maskenebene) der Form zu trennen.
 
 <b>Pfad dezimieren</b> *Float* Steuert implizit die Anzahl der zu generierenden Segmente.\
 Bei einem hohen Dezimationswert sind runde Formen etwas polygonal, während bei keiner Dezimation fast ein Segment pro Pixel generiert wird.\
 Ein angemessener Betrag entspricht besser der Form von Geraden und Kurven, ohne viele Zwischenpunkte für Geraden zu schaffen.
 
-<b>Offene Pfade schließen</b> *Boolesch* Erstellen Sie ein Segment zwischen dem Anfangs- und dem Endscheitelpunkt offener Pfade.\
+<b>Geöffnete Pfade schließen</b> *Boolescher Wert* Erstellen Sie ein Segment zwischen dem Anfangs- und dem Endscheitelpunkt offener Pfade.\
 Wenn Sie diese Option deaktivieren, können unerwünschte Linien, die Ihr Muster auf unerwartete Weise durchlaufen, korrigiert werden. Pfade werden jedoch möglicherweise nicht mehr geschlossen.
 
-<b>Eckschwellenwert</b> *Gleitkomma*\
+<b>Eckschwellenwert</b> *Gleitend*\
 Jeder in Pfaden codierte Scheitelpunkt kann ein Flag enthalten, das angibt, ob er hart (d. h. eine Ecke) oder glatt ist.\
 Mit diesem Parameter können Sie mehr oder weniger Ecken entsprechend dem Winkel zwischen ihren benachbarten Segmenten markieren.\
 *Hinweis:* Dieses &#39;corner&#39;-Flag wird derzeit von keinem vorhandenen Knoten unterstützt, ist aber für die Verwendung in einem [Path Vertex Processor](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)-Knoten verfügbar. Sie können auch die Ecken mit dem Knoten [Vorschaupfade](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) anzeigen.
@@ -113,15 +113,15 @@ Dies hat erhebliche Auswirkungen auf die Konvertierung der generierten <b>Pfade 
 *- Nach Box-Größe - Kleinste bis größte:* Pfade werden entsprechend der Größe ihrer Bbox sortiert, von der kleinsten bis zur größten\
 *- Benutzerdefinierte Ordnungsfunktion:* Verwenden Sie eine benutzerdefinierte Funktion, um Pfade zu sortieren.
 
-<b>Ordnungsrichtung</b> *Gleitend* Der Winkel, der die Richtung beschreibt, in der die Pfade entlang dieser Richtung von der ersten bis zur letzten angeordnet werden.\
+<b>Bestellrichtung</b> *Gleitend* Der Winkel, der die Richtung beschreibt, in der die Pfade entlang dieser Richtung von der ersten zur letzten angeordnet werden.\
 Der Wert ist eine *Anzahl der Windungen*, die zum Drehen eines X-Links-Richtungsvektors verwendet werden. Das bedeutet, dass 0 einen Richtungsvektor von (-1, 0) und 0,25 (90 Grad) einen Richtungsvektor von (0, 1) festlegt.
 
 <b>Bestellfunktion</b> *Float* Die Funktion, die zum Ordnen der Pfade verwendet wird. Es gibt einen Float -Wert zurück.\
 Pfade werden gemäß dem Wert dieser Funktion in *aufsteigender Reihenfolge* sortiert. Mit anderen Worten, das Ergebnis der Funktion für jeden Pfad ist die *Sortiertaste*, die zum Sortieren der Pfade verwendet wird.\
 Verfügbare Variablen:
-* bbox.center (Float2): Die Position der Mitte des Pfads bbox
-* bbox.topleft (Float2): Die Position der linken oberen Ecke des Pfads bbox
-* bbox.size (Float2): Die Größe des Pfadrahmens (X: width, Y: Height)
+* bbox.center (Float2): Die Position der Mitte des Pfadkastens
+* bbox.topleft (Float2): Die Position der oberen linken Ecke des Pfadkastens
+* bbox.size (Float2): Die Größe des Pfads B (X: width, Y: Height)
 
 ## Beispiele
 

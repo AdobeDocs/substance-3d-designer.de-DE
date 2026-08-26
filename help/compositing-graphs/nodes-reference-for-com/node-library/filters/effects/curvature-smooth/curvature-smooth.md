@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Kurvenglättung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 1%
@@ -78,9 +78,9 @@ Die konkaven und konvexen Bereiche werden ebenfalls in ihre eigenen Ausgänge au
 
 |  |  |
 | --- | --- |
-| <b>Krümmung</b> *Graustufen* | Die aus der Eingabe-Normalmap berechnete Krümmungskarte.   Flache Bereiche sind zu 50 % grau. Konvexe Bereiche sind heller, konkave Bereiche sind dunkler. |
-| <b>Konvexität</b> *Graustufen* | Die Konvexitätskarte, die aus der Eingabe-Normalmap berechnet wurde.   Je konvexer ein Bereich ist, desto heller ist er auf der Karte.  Flache oder konkave Bereiche sind schwarz. |
-| <b>Konkavität</b> *Graustufen* | Die Konkavitäts-Map wurde aus der Eingabe-Normalmap berechnet.   Je konkaver ein Gebiet ist, desto heller ist es auf der Karte.  Flache oder konvexe Bereiche sind schwarz. |
+| <b>Krümmung</b> *Graustufen* | Die aus der Eingabe-Normalmap berechnete Krümmungskarte.   Flache Bereiche sind zu 50 % grau. Konvexe Bereiche sind heller, konkave Bereiche sind dunkler. |
+| <b>Konvexität</b> *Graustufen* | Die Konvexitätskarte, die aus der Eingabe-Normalmap berechnet wurde.   Je konvexer ein Bereich ist, desto heller ist er auf der Karte.  Flache oder konkave Bereiche sind schwarz. |
+| <b>Konkavität</b> *Graustufen* | Die Konkavitäts-Map wurde aus der Eingabe-Normalmap berechnet.   Je konkaver ein Gebiet ist, desto heller ist es auf der Karte.  Flache oder konvexe Bereiche sind schwarz. |
 
 ## Parameter
 

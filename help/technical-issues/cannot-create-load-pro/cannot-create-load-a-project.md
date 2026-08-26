@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Projekt kann nicht erstellt und geladen werden
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Beste Leistung erzwingen
 
 Suchen Sie nach Software, die den *Energieplan* Ihres Systems verwaltet (z. B. ASUS Armory Crate), insbesondere wenn das System ein Laptop ist.
 
-Einige Power Management-Anwendungen können den Zugriff anderer Anwendungen auf die GPU des Systems einschränken oder die GPU-Leistung beeinträchtigen, was zu Abstürzen führen kann. Wenn eine Stromverwaltungsanwendung vorhanden und aktiv ist, wechseln Sie zu der Abo-Variante, die die beste Leistung bietet.
+Einige Power Management-Anwendungen können den Zugriff anderer Anwendungen auf die GPU des Systems einschränken oder die GPU-Leistung beeinträchtigen, was zu Abstürzen führen kann. Wenn eine Stromverwaltungsanwendung vorhanden und aktiv ist, wechseln Sie zu der Abo-Variante, die die beste Leistung bietet.
 
 Erzwingen der Verwendung einer separaten GPU
 

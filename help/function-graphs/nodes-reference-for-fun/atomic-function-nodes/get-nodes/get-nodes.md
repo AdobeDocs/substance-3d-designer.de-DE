@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Variablen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '477'
 ht-degree: 6%
 
 ---
@@ -24,7 +24,7 @@ Variablen sind eine Möglichkeit, <b>Werte</b> zu speichern, um sie später abzu
 
 ![Substance-Funktionsdiagramm - Get float](../../../../assets/assign-getfloat.gif "Substance-Funktionsdiagramm - Get float"){zoomable="yes"}
 
-Ein Get-Knoten übernimmt im Grunde eine dynamische Variable, die er aus der Ausgabe des Get-Nodes zur Verwendung in einer Funktion zurückgibt. Diese Get-Knoten bilden die Verknüpfung zwischen den Eingabeparametern, die in den [Diagrammeigenschaften](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) und [Parameterfunktionen](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) definiert sind.
+Ein Get-Knoten übernimmt im Grunde eine dynamische Variable, die er aus der Ausgabe des Get-Nodes zur Verwendung in einer Funktion zurückgibt. Diese Get-Knoten bilden die Verknüpfung zwischen den Eingabeparametern, die in den [Diagrammparametern](../../../../compositing-graphs/graph-parameters/graph-parameters.md) und [Parameterfunktionen](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) definiert sind.
 
 Jedes Mal, wenn Sie einen Get-Knoten verwenden, müssen Sie einen verfügbaren Wert aus dem Dropdown-Menü auswählen. Die Get-Knoten nehmen <b> einen Wert des entsprechenden Typs </b>. Das bedeutet, dass Sie nur gültige Optionen im Menü eines Get-Knotens sehen. Sie können niemals eine ungültige Option auswählen. Wenn eine Variable nicht verfügbar ist, bedeutet dies, dass ein Typkonflikt vorliegt
 

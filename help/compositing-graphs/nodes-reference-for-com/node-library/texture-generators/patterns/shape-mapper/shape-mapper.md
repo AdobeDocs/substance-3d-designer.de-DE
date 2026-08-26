@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Formenzuordnung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 3%
@@ -88,8 +88,8 @@ Durch die Projektion wird das Bild so verformt, dass es der Umrisslinie der Form
 | --- | --- |
 | <b>Shape</b> Integer | Legt den Typ der Form fest, entlang der Muster platziert werden sollen:<ul data-preserve-html="true"> <li data-preserve-html="true">Kreis</li> <li data-preserve-html="true">Polygon</li> </ul> |
 | <b>Musterbetrag</b> Ganzzahl | Die Anzahl der Muster, die entlang der ausgewählten Form platziert werden. |
-| <b>Verknüpfungssegmente mit Mustermenge</b> Boolescher Wert *Verfügbar, wenn &quot;Form&quot; auf &quot;Polygon&quot; festgelegt ist* | Verwenden Sie den <b>Musterbetrag</b> als Anzahl von <b>Segmenten</b>.   Dadurch verhinderst du, dass Muster um Ecken fließen. Du erhältst ein gerades, einheitliches Aussehen. |
-| <b>Segmente</b> Ganzzahl *Verfügbar, wenn &quot;Form&quot; auf &quot;Polygon&quot; und &quot;Segmente mit Musterbetrag verknüpfen&quot; auf &quot;Falsch&quot; festgelegt sind* | Die Anzahl der Segmente für das Polygon, entlang denen Muster platziert werden.   Segmente haben eine *gleichmäßige Größe*, und alle Scheitelpunkte sind *äquidistant von der Mitte*, sodass durch Erhöhen der Anzahl der Segmente das Polygon zu einem Kreis zusammenläuft. |
+| <b>Verknüpfungssegmente mit Mustermenge</b> Boolescher Wert *Verfügbar, wenn &quot;Form&quot; auf &quot;Polygon&quot; festgelegt ist* | Verwenden Sie den <b>Musterbetrag</b> als Anzahl von <b>Segmenten</b>.   Dadurch verhinderst du, dass Muster um Ecken fließen. Du erhältst ein gerades, einheitliches Aussehen. |
+| <b>Segmente</b> Ganzzahl *Verfügbar, wenn &quot;Form&quot; auf &quot;Polygon&quot; und &quot;Segmente mit Musterbetrag verknüpfen&quot; auf &quot;Falsch&quot; festgelegt sind* | Die Anzahl der Segmente für das Polygon, entlang denen Muster platziert werden.   Segmente haben eine *gleichmäßige Größe*, und alle Scheitelpunkte sind *äquidistant von der Mitte*, sodass durch Erhöhen der Anzahl der Segmente das Polygon zu einem Kreis zusammenläuft. |
 | <b>Radius</b> Gleitend | Ein Multiplikator für den Radius der Form, wobei 1,0 die halbe Länge der kürzesten Seite des Bildes ist. |
 | <b>Breite</b> Gleitend | Ein Multiplikator für die Breite der Muster entlang der Form, wobei 1,0 die halbe Länge der kürzesten Seite des Bildes ist. |
 | <b>Drehung</b> Gleitend | Der Wert, um den die Drehung auf die Form angewendet wird, in der Anzahl der Windungen im Uhrzeigersinn von der horizontalen rechten Seite. |

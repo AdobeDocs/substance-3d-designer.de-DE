@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ermitteln des Installationspfads
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 8%
@@ -27,7 +27,7 @@ Auf dieser Seite werden Informationen über Möglichkeiten zum Abrufen des Insta
 ### Creative Cloud Desktop
 
 1. <b>Windows-Registrierungseditor </b> öffnen (regedit)
-1. Navigieren Sie zum Registrierungsschlüssel: <b>HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\&lt;/b>
+1. Navigieren Sie zum Registrierungsschlüssel: <b>HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Pfade\&lt;/b>
 1. Öffnen Sie den Unterschlüssel &quot;<b>Adobe Substance 3D Designer.exe</b>&quot;.
 1. Der Wert des Schlüssels enthält den Pfad zur ausführbaren Anwendungsdatei, in der er installiert ist
 

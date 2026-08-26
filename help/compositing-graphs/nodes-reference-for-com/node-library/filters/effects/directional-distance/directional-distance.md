@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Richtungsabstand
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -71,16 +71,16 @@ Der Abstand des Verlaufs kann mithilfe eines Abstands-Map dynamisch entlang des 
 
 |  |  |
 | --- | --- |
-| <b>Eingabe</b> *Graustufen* PRIMÄR | Das Bild, aus dem die Maske entnommen werden soll.   Alle Werte über 0,5 sind in dieser Maske weiß. |
-| <b>Abstands-Map</b> *Graustufen* | Eine optionale Eingabe, die verwendet wird, wenn der Wert des Parameters &quot;Abstands-Map-Multiplikator&quot; größer als 0 ist.   Er wird verwendet, um den Abschrägungs-/Dilatationsabstand entlang der Ränder der Maske einzustellen, wobei ein dunklerer Wert zu einem kürzeren Abstand führt. |
-| <b>Winkelzuordnung</b> *Graustufen* | Eine optionale Eingabe, die verwendet wird, wenn der Wert des Parameters &quot;Winkelzuordnungsvervielfacher&quot; größer als 0 ist.   Er wird verwendet, um die Richtung des Abstandsverlaufs anzupassen, indem sein Wert dem Richtungswinkel in der Anzahl der Windungen hinzugefügt wird.   Mit dem Parameter &quot;Winkel-Map-Versatz&quot; können Sie die Werte neu zuordnen, indem Sie angeben, welcher Wert 0 ist. |
+| <b>Eingabe</b> *Graustufen* PRIMÄR | Das Bild, aus dem die Maske entnommen werden soll.   Alle Werte über 0,5 sind in dieser Maske weiß. |
+| <b>Abstands-Map</b> *Graustufen* | Eine optionale Eingabe, die verwendet wird, wenn der Wert des Parameters &quot;Abstands-Map-Multiplikator&quot; größer als 0 ist.   Er wird verwendet, um den Abschrägungs-/Dilatationsabstand entlang der Ränder der Maske einzustellen, wobei ein dunklerer Wert zu einem kürzeren Abstand führt. |
+| <b>Winkelzuordnung</b> *Graustufen* | Eine optionale Eingabe, die verwendet wird, wenn der Wert des Parameters &quot;Winkelzuordnungsvervielfacher&quot; größer als 0 ist.   Er wird verwendet, um die Richtung des Abstandsverlaufs anzupassen, indem sein Wert dem Richtungswinkel in der Anzahl der Windungen hinzugefügt wird.   Mit dem Parameter &quot;Winkel-Map-Versatz&quot; können Sie die Werte neu zuordnen, indem Sie angeben, welcher Wert 0 ist. |
 
 ## Ausgangsanschlüsse
 
 |  |  |
 | --- | --- |
 | <b>Ausgabe</b> *Graustufen* | Das Ergebnisbild entsprechend dem ausgewählten &#39;Ausgabemodus&#39;. |
-| <b>UV</b> *Farbe* | Eine UV-Karte, in der die UVs von den Maskenrändern entlang der angegebenen Richtung erweitert werden.   Dieser kann mit einem [UV Mapper](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md)-Knoten verbunden werden, um ein anderes Bild mithilfe dieser erweiterten UVs zuzuordnen. |
+| <b>UV</b> *Farbe* | Eine UV-Karte, in der die UVs von den Maskenrändern entlang der angegebenen Richtung erweitert werden.   Dieser kann mit einem [UV Mapper](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md)-Knoten verbunden werden, um ein anderes Bild mithilfe dieser erweiterten UVs zuzuordnen. |
 
 ## Parameter
 
@@ -89,9 +89,9 @@ Der Abstand des Verlaufs kann mithilfe eines Abstands-Map dynamisch entlang des 
 | <b>Ausgabemodus</b> *Integer* | Die Methode zum Zeichnen des Abstandsverlaufs von den Maskenrändern:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Invertierte normalisierte Entfernung:</b> Ein Farbverlauf von 1 bis 0, wobei 0 bei der &#39;Maximalen Entfernung&#39; erreicht wird, multipliziert mit der &#39;Abstands-Map&#39;, falls verbunden</li> <li data-preserve-html="true"><b>Abstand:</b> Ein Farbverlauf mit unformatierten Abstandswerten von der Maskenbegrenzung, wobei 1 die Länge der kürzeren Seite des Eingabebildes ist</li> </ul> |
 | <b>Maximale Entfernung</b> *Gleitend* | Die Entfernung, die der Abstandsgradient zurücklegt, in einem normierten Bildraum, wobei 1 die Länge der kürzeren Seite des Eingabebildes ist. |
 | <b>Winkel</b> *Gleitend* | Die Richtung des Abstandsgradienten in mehreren Windungen, wobei 0 horizontal und nach rechts - d. h. ein (1,0) Vektor - verläuft. |
-| <b>Abstands-Map-Multiplikator</b> *Gleitend* | Passt die Auswirkung des Abstands-Map auf die &quot;Maximale Entfernung&quot; an.   Hinweis: Dieser Parameter hat keine Auswirkungen, wenn der Abstands-Map-Eingang nicht angeschlossen ist. |
+| <b>Abstands-Map-Multiplikator</b> *Gleitend* | Passt die Auswirkung des Abstands-Map auf die &quot;Maximale Entfernung&quot; an.   Hinweis: Dieser Parameter hat keine Auswirkungen, wenn der Abstands-Map-Eingang nicht angeschlossen ist. |
 | <b>Winkelzuordnungsmultiplikator</b> *Gleitend* | Passt die Auswirkung der &quot;Winkelkarte&quot; auf den &quot;Winkel&quot; an. |
-| <b>Winkelzuordnungs-Offset</b> *Gleitend* | Ordnet die Werte in der &#39;Angle Map&#39; neu zu, indem angegeben wird, welcher Wert in dieser Karte 0 sein soll.   Beispielsweise bedeutet ein Versatz von 0,5, dass ein Wert von 0,75 0,25 Windungen und ein Wert von 0,3 -0,2 Windungen beträgt. |
+| <b>Winkelzuordnungs-Offset</b> *Gleitend* | Ordnet die Werte in der &#39;Angle Map&#39; neu zu, indem angegeben wird, welcher Wert in dieser Karte 0 sein soll.   Beispielsweise bedeutet ein Versatz von 0,5, dass ein Wert von 0,75 0,25 Windungen und ein Wert von 0,3 -0,2 Windungen beträgt. |
 
 ## Beispiele
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Normale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 8%
@@ -78,9 +78,9 @@ Es ist ein sehr nützlicher Knoten, der häufig verwendet wird, um Height-Map-Ei
 
 |  |  |
 | --- | --- |
-| <b>Intensität</b> *Gleitend* | Ändert die Intensität der Height-Map.   Legt fest, wie intensiv die Eingabe-Height-Map für die Konvertierung in Normale interpretiert wird. Je nach Eingabemaps haben Werte über 100 wenig mehr Wirkung. |
-| <b>Normales Format</b> *Boolescher Wert* | Kehrt die Y-Koordinaten der Heights-Map (OpenGL) um.   Legt fest, wie der grüne Kanal (Y) codiert wird. Grundsätzlich ein Schalter &quot;Grün/Y spiegeln&quot;. |
-| <b>Inhalt des Alpha-Kanals</b> *Boolescher Wert* | Füllen Sie den Alphakanal der normalen Map mit der Eingabetextur.   Alpha mit Eingabe füllen/Alpha auf 1 erzwingen:  Auf diese Weise kann der Alpha-Kanal auf &quot;solid&quot; festgelegt werden, anstatt den Eingang als zusätzliches Alpha zu verwenden. |
+| <b>Intensität</b> *Gleitend* | Ändert die Intensität der Height-Map.   Legt fest, wie intensiv die Eingabe-Height-Map für die Konvertierung in Normale interpretiert wird. Je nach Eingabemaps haben Werte über 100 wenig mehr Wirkung. |
+| <b>Normales Format</b> *Boolescher Wert* | Kehrt die Y-Koordinaten der Heights-Map (OpenGL) um.   Legt fest, wie der grüne Kanal (Y) codiert wird. Grundsätzlich ein Schalter &quot;Grün/Y spiegeln&quot;. |
+| <b>Inhalt des Alpha-Kanals</b> *Boolescher Wert* | Füllen Sie den Alphakanal der normalen Map mit der Eingabetextur.   Alpha mit Eingabe füllen/Alpha auf 1 erzwingen:  Auf diese Weise kann der Alpha-Kanal auf &quot;solid&quot; festgelegt werden, anstatt den Eingang als zusätzliches Alpha zu verwenden. |
 
 ## Eingangsanschlüsse
 

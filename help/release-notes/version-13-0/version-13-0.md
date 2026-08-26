@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 13.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 2%
@@ -88,7 +88,7 @@ In manchen Fällen müssen Sie mehrere Splines als ein einzelnes Element behande
 
 #### Ändern
 
-Wir bieten auch Tools an, mit denen Sie Ihre Splines nachbearbeiten und optimieren können. Sie finden einen Knoten zum Anwenden einer [2D-Transformation](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md), z. B. einer Drehung, einer Verschiebung, einer Skalierung, und einen weiteren Knoten, um die Form [zu verformen](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md)<b> </b>und zwei weitere Knoten, um die [Thickness](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-thickness/spline-sample-thickness.md)<b> </b> oder das [Height](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-height/spline-sample-height.md) der Splines zu ändern.
+Wir bieten auch Tools an, mit denen Sie Ihre Splines nachbearbeiten und optimieren können. Sie finden einen Knoten zum Anwenden einer [2D-Transformation](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md), z. B. einer Drehung, einer Übersetzung, einer Skalierung und eines weiteren Knotens auf [Warp](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md)<b>. </b>die Form und zwei weitere Knoten zum Ändern der [Thickness](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-thickness/spline-sample-thickness.md)<b> </b> oder das [Height](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-height/spline-sample-height.md) der Splines.
 
 <table>
 <tr style="border: 0;">
@@ -119,7 +119,7 @@ Wir bieten auch Tools an, mit denen Sie Ihre Splines nachbearbeiten und optimier
 
 Die letzte Kategorie ist die, um die endgültige Form oder das Muster basierend auf Ihren Splines zu erstellen. Die erste Idee, die dir in den Sinn kommt, ist, eine bestimmte Form entlang des Splines zu wiederholen: Der Knoten [Streuung auf Spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md) ermöglicht dies mit vielen Parametern, um die Verteilung (Drehung, Skalierung, Offset, Farben, Masken usw.) perfekt zu steuern.
 
-Dank des Knotens [Spline Fill](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md)<b> </b> können Sie aus einem geschlossenen Spline ganz einfach ein Muster erstellen. Und wenn Sie Ihre Splines mit einem hohen Maß an Kontrolle und Präzision einer beliebigen Textur zuordnen möchten, ist der Knoten [Spline Mapper](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-color/spline-mapper-color.md) für Sie erstellt!
+Dank [Spline Fill](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md)<b> </b>-Knoten, können Sie ganz einfach ein Muster aus einem geschlossenen Spline erstellen. Und wenn Sie Ihre Splines mit einem hohen Maß an Kontrolle und Präzision einer beliebigen Textur zuordnen möchten, ist der Knoten [Spline Mapper](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-color/spline-mapper-color.md) für Sie erstellt!
 
 <table>
 <tr style="border: 0;">
@@ -150,7 +150,7 @@ Dank des Knotens [Spline Fill](../../compositing-graphs/nodes-reference-for-com/
 
 Mit dem Knoten [Maske zu Pfaden](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) können Sie den Rahmen eines Graustufenmusters in Form einer Liste von Segmenten extrahieren.
 
-Sie können diese Pfade dann mit den Knoten [Pfad 2D transformieren](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) oder [Pfad-Verkrümmung](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) verarbeiten, um sie an Ihre Anforderungen anzupassen.  Dank des Knotens [Pfade zu Spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) können Sie Ihren Pfad in eine Spline konvertieren und so alle Knoten nutzen, die Splines gewidmet sind, wie z. B. Streuungen.
+Sie können diese Pfade dann mit den Knoten [Pfad 2D transformieren](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) oder [Pfad-Verkrümmung](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) verarbeiten, um sie an Ihre Anforderungen anzupassen.  Dank des Knotens [Pfade zu Spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) können Sie Ihren Pfad in eine Spline konvertieren und so alle Knoten nutzen, die Splines gewidmet sind, wie z. B. Streuungen.
 
 <table>
 <tr style="border: 0;">

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Alle Änderungen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e71846d2834d9c1979fe840f1cf9e321f2d4d93f
+source-git-commit: 49d7d426f1b687cf6087bb1c9735a9060af48041
 workflow-type: tm+mt
-source-wordcount: '31814'
+source-wordcount: '32039'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,39 @@ ht-degree: 0%
 # Alle Änderungen
 
 ## Version 16
+
+### 16.0.5
+
+*(veröffentlicht am 26. August 2026)*
+
+**Hinzugefügt:**
+
+* [3D-Ansicht] Es wurde eine Schaltfläche zur Auswahl der aktuellen AOV hinzugefügt.
+* [Inhalt] Perlin/Gaußsches Rauschen: Skalenparameter freigeben
+* [Inhalt] Unnötige Bitmapressourcen aus der Bibliothek ausblenden
+<!--
+* &#91;Legal&#93; To meet generative AI transparency legal requirements, this version is updated to automatically attach Content Credentials to qualifying content created or edited with generative AI tools.  
+-->
+
+**Fest:**
+
+* [3D-Ansicht] Änderungen an der Umgebungssichtbarkeit, die in OpenGL vorgenommen wurden, werden nicht auf Eclair-Renderer übertragen
+* [Bäcker] Der Backkontext wurde nach dem Aktualisieren von Bäcken für eine gelöschte UDIM-Bitmapressource nicht zerstört.
+* [Baker] Absturz beim Löschen einer UDIM-Bitmap-Ressource während der Aktualisierung der Backens behoben
+* [Inhalt] Formspritzer v2: Height der Zylinderform ist nicht korrekt
+* [Inhalt] Formspritzer v2: Dichte-Map funktioniert nicht ordnungsgemäß, wenn die Knotengröße 4096 überschreitet
+* [Inhalt] Formspritzer v2: Die Verwendung des &#39;Rock&#39; SDF hinter einem If/Else kann zu einer Endlosschleife führen
+* [Sicherheit] Es wurde eine NULL-Zeigerdereferenzlücke beim Analysieren von AXF-Dateien behoben.
+* [Sicherheit] Es wurde eine NULL-Zeigerdereferenzlücke beim Analysieren von GLB-Dateien behoben.
+* [Sicherheit] Sicherheitslücken beim Schreiben außerhalb des gültigen Bereichs beim Analysieren von SBSAR-Dateien behoben
+* [Sicherheit] Es wurde eine Sicherheitslücke behoben, durch die beim Analysieren von DDS-Dateien ein Heap beschädigt wurde.
+* [Sicherheit] Es wurde eine Sicherheitslücke aufgrund einer Heap-Beschädigung beim Analysieren von GLB-Dateien behoben.
+* [Sicherheit] Es wurde eine Sicherheitslücke aufgrund einer Heap-Beschädigung beim Analysieren von TGA-Dateien behoben.
+* [Sicherheit] Es wurde eine Sicherheitslücke behoben, durch die beim Analysieren von TIFF-Dateien ein Heap beschädigt wurde.
+* [Sicherheit] Es wurde eine Sicherheitslücke aufgrund einer Heap-Beschädigung beim Analysieren von USDA-Dateien behoben.
+* [Sicherheit] Bei der Analyse von WEBP-Dateien wurde eine Sicherheitslücke aufgrund einer Heap-Beschädigung behoben.
+* [UI] Das Kontrollkästchen von Elementen in dauerhaften Kontrollkästchenmenüs erstreckt sich nur über den Elementtext.
+
 
 ### 16.0.4
 
