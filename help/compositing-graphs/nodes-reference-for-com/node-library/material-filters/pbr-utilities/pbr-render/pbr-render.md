@@ -220,7 +220,7 @@ Ausgaben
     *Hinweis:* Für die Untergrundstreuung muss der Eingabewert **Transluzenz** *höher als 0,0* sein.
   * **Streuungsabstand** *0.0 - 1.0*\
     Passt den maximalen Abstand des Streueffekts an.\
-    *Hinweis:* Dieser Wert wird mit dem Eingabewert *für die **Streuungsentfernungsskala**pro Farbkanal* multipliziert.
+    *Hinweis:* Dieser Wert wird mit dem Eingabewert *für die **Streuungsentfernungsskala**&#x200B;pro Farbkanal* multipliziert.
   * **Red Shift** *0.0 - 1.0*\
     Passt die Intensität des Effekts &quot;Rote Verschiebung&quot; bei der Streuung an.
   * **Rayleigh** *0.0 - 1.0*\

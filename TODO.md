@@ -32,7 +32,7 @@ ht-degree: 11%
 
 ## Fehlerbehebungen
 
-* Fehlerhafte Verknüpfungen und Formatierung im [Ausgabeknoten ](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
+* Fehlerhafte Verknüpfungen und Formatierung im [Ausgabeknoten &#x200B;](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 * Entfernen Sie das Inhaltsverzeichnis auf der Seite (z. B. neue Geräusche)
 * Knotenseitenlayouts korrigieren (z. B. neue Geräusche)
 * Link für 1. Beispielbild in Knotenseiten (z.B. neue Geräusche)

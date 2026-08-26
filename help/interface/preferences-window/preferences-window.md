@@ -111,7 +111,7 @@ Beachten Sie auch, dass automatische Speichervorgänge geöffnet werden sollten 
 
 |  |  |
 | --- | --- |
-| <b>Speichern Sie die SBS-Datei immer, wenn Sie sie in SBSAR veröffentlichen oder an eine andere Anwendung senden</b>  *Standard: Wahr* | Steuert das automatische Speichern des SBS-Pakets, wenn [es ](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) veröffentlicht oder an eine andere Anwendung gesendet wird. |
+| <b>Speichern Sie die SBS-Datei immer, wenn Sie sie in SBSAR veröffentlichen oder an eine andere Anwendung senden</b>  *Standard: Wahr* | Steuert das automatische Speichern des SBS-Pakets, wenn [es &#x200B;](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) veröffentlicht oder an eine andere Anwendung gesendet wird. |
 
 ### Cooker
 

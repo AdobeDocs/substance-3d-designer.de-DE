@@ -223,9 +223,9 @@ Wenn Sie auf RMB auf einem Knoten klicken, wird ein Kontextmenü angezeigt, das 
 
 <b>Erstellen\*:</b> Erstellen von Eingabe- und/oder Ausgabeknoten für jede Eingabe und/oder Ausgabe dieses Knotens
 
-<b>Verweis öffnen\*:</b> Laden Sie das Diagramm [, auf das dieser Knoten ](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) verweist, als separate Registerkarte für die Diagrammansicht.
+<b>Verweis öffnen\*:</b> Laden Sie das Diagramm [, auf das dieser Knoten &#x200B;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) verweist, als separate Registerkarte für die Diagrammansicht.
 
-<b>Verweis im Kontext öffnen\*\*:</b> Lädt das Diagramm [, auf das dieser Knoten ](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) im Kontext des aktuellen Diagramms verweist, als Breadcrumb in der vorhandenen Registerkarte &quot;Diagrammansicht&quot;.
+<b>Verweis im Kontext öffnen\*\*:</b> Lädt das Diagramm [, auf das dieser Knoten &#x200B;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) im Kontext des aktuellen Diagramms verweist, als Breadcrumb in der vorhandenen Registerkarte &quot;Diagrammansicht&quot;.
 
 <b>Graph aus Auswahl erstellen:</b> Kopieren Sie die ausgewählten Knoten in ein neues Diagramm.
 

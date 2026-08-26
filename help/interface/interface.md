@@ -93,7 +93,7 @@ Mit der Hauptsymbolleiste können Sie auf zusätzliche Menüs zugreifen, z. B. a
 
 ## Diagrammansicht
 
-[Das Diagrammansichtsdock ](../interface/the-graph-view/the-graph-view.md) ist das wichtigste Fenster in Substance 3D Designer. Es zeigt die Knotennetzwerke jeder Diagrammart an, die in Designer verfügbar ist ([Substance-Diagramme](../compositing-graphs/substance-compositing-graphs.md), [Substance-Funktionsdiagramme](../function-graphs/function-graphs.md), [FX-Map-Diagramme](../function-graphs/fxmaps/fxmaps.md)), und ermöglicht das Erstellen und Bearbeiten dieser Diagramme.
+[Das Diagrammansichtsdock &#x200B;](../interface/the-graph-view/the-graph-view.md) ist das wichtigste Fenster in Substance 3D Designer. Es zeigt die Knotennetzwerke jeder Diagrammart an, die in Designer verfügbar ist ([Substance-Diagramme](../compositing-graphs/substance-compositing-graphs.md), [Substance-Funktionsdiagramme](../function-graphs/function-graphs.md), [FX-Map-Diagramme](../function-graphs/fxmaps/fxmaps.md)), und ermöglicht das Erstellen und Bearbeiten dieser Diagramme.
 
 ![Diagrammansicht](../assets/graph-6.png "Diagrammansicht")
 
@@ -105,7 +105,7 @@ Das [Eigenschaften-Dock](properties/properties.md) ist das technisch ausgereifte
 
 ## 2D-Ansicht
 
-[Die 2D-Ansicht ](../interface/2d-view/2d-view.md) ist das einfachste Vorschauwerkzeug. Es arbeitet eng mit der Grafik zusammen: Wenn Sie auf einen Knoten in der Diagrammansicht doppelklicken, wird das visuelle Ergebnis in der 2D-Ansicht angezeigt.
+[Die 2D-Ansicht &#x200B;](../interface/2d-view/2d-view.md) ist das einfachste Vorschauwerkzeug. Es arbeitet eng mit der Grafik zusammen: Wenn Sie auf einen Knoten in der Diagrammansicht doppelklicken, wird das visuelle Ergebnis in der 2D-Ansicht angezeigt.
 
 ![2D-Ansicht](../assets/2d-view-1.jpg "2D-Ansicht")
 
@@ -117,6 +117,6 @@ Das [Eigenschaften-Dock](properties/properties.md) ist das technisch ausgereifte
 
 ## Bibliothek
 
-[Das Bibliotheks-Dock ](../interface/the-library/the-library.md) bietet standardmäßig Zugriff auf alle Inhalte, die in der Designer-Bibliothek enthalten sind, sowie auf Ihre [benutzerdefinierten Inhalte](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md). Um den Unterschied zwischen den Atomknoten und den Instanzknoten in der Bibliothek besser zu verstehen, lesen Sie unbedingt die Übersicht über die [Knoten](https://helpx.adobe.com/substance-designer/using/nodes-overview.html).
+[Das Bibliotheks-Dock &#x200B;](../interface/the-library/the-library.md) bietet standardmäßig Zugriff auf alle Inhalte, die in der Designer-Bibliothek enthalten sind, sowie auf Ihre [benutzerdefinierten Inhalte](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md). Um den Unterschied zwischen den Atomknoten und den Instanzknoten in der Bibliothek besser zu verstehen, lesen Sie unbedingt die Übersicht über die [Knoten](https://helpx.adobe.com/substance-designer/using/nodes-overview.html).
 
 ![Bibliothek](../assets/library-3.jpg "Bibliothek")

@@ -24,7 +24,7 @@ Auf dieser Seite werden die Funktionen und Einstellungen für das Farbmanagement
 
 Substance 3D Designer kann so konfiguriert werden, dass [OpenColorIO](https://opencolorio.org/) (OCIO) oder Adobe Color Engine (ACE) für das Farbmanagement verwendet wird. Dadurch können Sie *konsistente* Farbtransformationen und Bilddarstellung über mehrere Anwendungen hinweg durchführen.
 
-In diesem Modus arbeitet Designer intern mit **linearen RGB**-Farben. Da 8 Bittiefen normalerweise nicht ausreichen, um Linearfarben darzustellen, wird empfohlen, mindestens ** **16-bit** Tiefen für Farbtexturen im [Diagramm](../compositing-graphs/substance-compositing-graphs.md) zu verwenden.
+In diesem Modus arbeitet Designer intern mit **linearen RGB**-Farben. Da 8 Bittiefen normalerweise nicht ausreichen, um Linearfarben darzustellen, wird empfohlen, mindestens **&#x200B; **&#x200B;16-bit** Tiefen für Farbtexturen im [Diagramm](../compositing-graphs/substance-compositing-graphs.md) zu verwenden.
 
 >[!WARNING]
 >
@@ -104,13 +104,13 @@ Sie können *Ihre eigenen* ICC-Profile hinzufügen, indem Sie diese Dateien im O
 
 |  |  |
 | --- | --- |
-| <b>Standardanzeige für 2D- und 3D-Ansicht </b> | Legt den Standardfarbraum *display* für die Viewports [2D view](../interface/2d-view/2d-view.md) und [3D view](../interface/3d-view/3d-view.md) fest. *Standard:*** ICC-Profil für den Hauptbildschirm, vom Betriebssystem abgerufen **** |
+| <b>Standardanzeige für 2D- und 3D-Ansicht </b> | Legt den Standardfarbraum *display* für die Viewports [2D view](../interface/2d-view/2d-view.md) und [3D view](../interface/3d-view/3d-view.md) fest. *Standard:*** ICC-Profil für den Hauptbildschirm, vom Betriebssystem abgerufen &#x200B;**&#x200B;** |
 
 ### Diagrammanzeige
 
 |  |  |
 | --- | --- |
-| <b>Miniaturansichten farbverwalten</b> | Wenn *aktiviert* ist, wandelt Designer die *Knoten-Miniaturansichten* in den aktuellen *Arbeitsfarbraum* um. *Standard:*** Nicht aktiviert **** |
+| <b>Miniaturansichten farbverwalten</b> | Wenn *aktiviert* ist, wandelt Designer die *Knoten-Miniaturansichten* in den aktuellen *Arbeitsfarbraum* um. *Standard:*** Nicht aktiviert &#x200B;**&#x200B;** |
 
 ## Legacy-Modus
 
@@ -217,5 +217,5 @@ Diese sind nützlich, wenn Sie mit Diagrammen arbeiten, die *ohne* Farbmanagemen
 
 Die aktuelle Implementierung des Farbmanagements in Substance 3D Designer hat die folgenden Einschränkungen:
 
-* Das Farbmanagement wird derzeit *nicht* in der [Python-API ](../scripting/scripting.md) angezeigt.
+* Das Farbmanagement wird derzeit *nicht* in der [Python-API &#x200B;](../scripting/scripting.md) angezeigt.
 * [OpenColorIO](https://opencolorio.org/) *Looks* werden *nicht* unterstützt.

@@ -29,7 +29,7 @@ ht-degree: 1%
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-Generiert ein Bild, bei dem der Wert jedes Pixels das Ergebnis des angegebenen [Substance-Funktionsdiagramms ](../../../../function-graphs/the-function-graph/the-function-graph.md) ist.
+Generiert ein Bild, bei dem der Wert jedes Pixels das Ergebnis des angegebenen [Substance-Funktionsdiagramms &#x200B;](../../../../function-graphs/the-function-graph/the-function-graph.md) ist.
 
 Mit dem Pixelprozessor können Sie eine benutzerdefinierte Funktion für jedes Pixel ausführen, das als Ausgabe zurückgegeben wird, und zwar an einer optionalen Eingabe.
 
@@ -95,7 +95,7 @@ Für alle, die es gewohnt sind, [Shader](../../../../glossary/glossary.md)-Funkt
 |  |  |
 | --- | --- |
 | <b>Farbmodus</b> *Boolescher Wert* | Schaltet zwischen einem Graustufen- und einem Farbausgabebild um. |
-| <b>Pro Pixelfunktion</b> *Gleitend/Gleitend4* | [Substance-Funktionsdiagramm ](../../../../function-graphs/the-function-graph/the-function-graph.md) wird pro Pixel im Ausgabebild ausgewertet.   Verwenden Sie den Knoten [Get Float2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md), der auf die Variable <b>$pos</b> festgelegt ist, um auf die [normalisierte](../../../../glossary/glossary.md) Position des aktuellen Pixels zuzugreifen. |
+| <b>Pro Pixelfunktion</b> *Gleitend/Gleitend4* | [Substance-Funktionsdiagramm &#x200B;](../../../../function-graphs/the-function-graph/the-function-graph.md) wird pro Pixel im Ausgabebild ausgewertet.   Verwenden Sie den Knoten [Get Float2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md), der auf die Variable <b>$pos</b> festgelegt ist, um auf die [normalisierte](../../../../glossary/glossary.md) Position des aktuellen Pixels zuzugreifen. |
 
 ## Eingangsanschlüsse
 
