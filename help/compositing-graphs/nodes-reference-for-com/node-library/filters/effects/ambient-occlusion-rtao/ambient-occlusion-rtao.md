@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Umgebungsunterstütze (RTAO), um aus Height-Maps Echtzeit-Umgebungsunterstützungszuordnungen für eine realistische Verdeckung zu erstellen, um eine realistische Schattierung der Verdeckung zu erzielen.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über Warnungen in Substance-Compositing-Grafen und lernen Sie, wie Sie häufige Probleme und Fehler beheben.
 helpx_creative_field: ""
@@ -73,7 +73,7 @@ Suchen Sie im Bereich [Explorer](../../interface/the-explorer-window/the-explore
 
 ### ![(Fehler)](../../assets/error.svg) Referenzressource nicht gefunden
 
-Die Ressource, auf die von einem Knoten verwiesen wird, wurde nicht in dem Pfad gefunden, der in der Datei [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) gespeichert ist (SBS). Im Folgenden finden Sie einige Knoten, die auf eine Ressource verweisen:
+Die Ressource, auf die von einem Knoten verwiesen wird, wurde nicht in dem Pfad gefunden, der in der Datei [Substance 3D](https://www.adobe.com/de/products/substance3d/3d-augmented-reality.html) gespeichert ist (SBS). Im Folgenden finden Sie einige Knoten, die auf eine Ressource verweisen:
 
 * Ein [Grapheninstanz](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)-Knoten verweist auf ein Diagramm.
 * Ein [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)-Knoten verweist auf eine [Bitmap-Ressource](../../resources/bitmap-resource/bitmap-resource.md).

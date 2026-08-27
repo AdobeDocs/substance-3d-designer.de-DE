@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
 breadcrumb-title: ''
 description: Greifen Sie in Substance 3D Designer auf Atomknoten zu, um grundlegende Vorgänge wie Eingaben, Ausgaben, Füllmethoden und Farbanpassungen auszuführen.
 helpx_creative_field: ""

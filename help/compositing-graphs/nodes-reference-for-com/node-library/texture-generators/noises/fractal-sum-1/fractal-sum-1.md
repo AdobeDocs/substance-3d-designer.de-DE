@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-1.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-1.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Fraktalsumme 1, um fraktale Rauschmuster zu generieren, indem Sie mehrere Oktaven summieren, um detaillierte Texturen zu erstellen.
 helpx_creative_field: ""

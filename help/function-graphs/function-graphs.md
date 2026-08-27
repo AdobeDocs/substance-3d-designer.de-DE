@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie in Designer Substance-Funktionsdiagramme erstellen und verwenden, um benutzerdefinierte Funktionen und wiederverwendbare Knotennetzwerke zu erstellen.
 helpx_creative_field: ""

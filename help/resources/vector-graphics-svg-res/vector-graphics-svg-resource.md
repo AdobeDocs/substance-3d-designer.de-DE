@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/resources/vector-graphics-svg-resource.html"
 breadcrumb-title: ''
 description: Importiere und verwende SVG-Vektorgrafiken als Ressourcen in Substance 3D Designer für die prozedurale Materialerstellung.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Substance 3D Designer unterstützt über das Scalable Vector-Grafikformat nur eine äußerst begrenzte Form von Vektorgrafiken. SVG-Dateien können auf unterschiedliche Weise als Ressourcen eingefügt und als Ressourcen für Ihre Grafiken verwendet werden.
 
-SVG-Dateien [&#x200B; können über den atomaren SVG-Knoten erstellt oder bearbeitet werden.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) Sie können auch von [dem UV-to-SVG-Bäcker erstellt werden.](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
+SVG-Dateien [&#x200B; können über den atomaren SVG-Knoten erstellt oder bearbeitet werden.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) Sie können auch von [dem UV-to-SVG-Bäcker erstellt werden.](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ Die Exportoptionen unterscheiden sich leicht von der jeweiligen Anwendung:
 
 ### Adobe Illustrator
 
-[Illustrator](https://www.adobe.com/products/illustrator.html) bietet die größte Kontrolle über Ihre SVG-Exporte, wenn Sie auf die folgenden Optionen achten.
+[Illustrator](https://www.adobe.com/de/products/illustrator.html) bietet die größte Kontrolle über Ihre SVG-Exporte, wenn Sie auf die folgenden Optionen achten.
 
 * Nur <b>Speichern unter</b>, *nicht* Exportieren als! verwenden
 * <b>SVG Profile</b> spielt keine große Rolle, obwohl das Winzige Profil (meistens) standardmäßig auf Einstellungen zurückgesetzt wird, die definitiv korrekt sind.
