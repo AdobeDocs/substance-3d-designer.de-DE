@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Anisotropes Rauschen", um Richtungsrauschen-Muster zum Erstellen anisotroper Textureffekte zu generieren.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Anisotropes Rauschen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 2%
+source-wordcount: '246'
+ht-degree: 1%
 
 ---
 
@@ -45,26 +45,6 @@ Die Anzahl der Streifen ist einstellbar, ebenso wie die Smoothness ihrer Überg�
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Ausgaben
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameter
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Beispiele
-
-</td>
-</tr>
-</table>
-
 ## Ausgaben
 
 |  |  |
@@ -81,8 +61,8 @@ Die Anzahl der Streifen ist einstellbar, ebenso wie die Smoothness ihrer Überg�
 | <b>Rotieren</b> Boolescher Wert | Dreht das Rauschen um 90 Grad. |
 | <b>Smoothness</b> Gleitend | Die Stärke der Überblendung zwischen den Streifen, wobei 0 keine Überblendung bedeutet und 1 über ihre gesamte Länge verblasst. |
 | <b>Smoothness-Interpolation</b> Gleitend | Die Gewichtung der beiden Methoden der Interpolation angewendet, um die Streifen zu überblenden, wobei 0 linear und 1 Gauß ist. |
-| <b>Störung</b> Float | Versetzt die Bestandteile des Rauschens.   So kannst du das Rauschen animieren. |
-| <b>Störungsgeschwindigkeit</b> Gleitend | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.   Mit dieser Option können Sie die Geschwindigkeit des Versatzes bei der Animation des Rauschens steuern. |
+| <b>Störung</b> Float | Versetzt die Bestandteile des Rauschens.   So kannst du das Rauschen animieren. |
+| <b>Störungsgeschwindigkeit</b> Gleitend | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.   Mit dieser Option können Sie die Geschwindigkeit des Versatzes bei der Animation des Rauschens steuern. |
 | <b>Nicht quadratische Erweiterung</b> Boolescher Wert | Bei nicht quadratischen Bildern bleibt das erzeugte Kachelquadrat erhalten und erweitert die Rauscherzeugung auf die Grenzen des Bildes. |
 
 ## Beispiele

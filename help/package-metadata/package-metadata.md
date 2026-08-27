@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/package-metadata.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/package-metadata.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Paket-Metadaten in Substance 3D Designer für organisierte Elementbibliotheken erstellen und verwalten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Metadaten verpacken
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
@@ -67,7 +67,7 @@ In einigen Fällen können Sie die Metadaten abrufen, die Sie für ein Paket in 
 
 Die Metadaten werden entsprechend dem JSON-Format in einer Datei mit dem Namen /assemblies/content/0000/metadata.json gespeichert (der Pfad ist relativ zum Stammordner des .sbsar-Archivs).
 
-Reguläre (String-)Metadaten werden wie vorhanden gespeichert, z. B. &quot;key&quot;: &quot;stringValue&quot;, eine pro Zeile. Auch hier wird die ursprüngliche Reihenfolge der verschiedenen Schlüssel nicht beibehalten und die Implementierung ist definiert. Verlassen Sie sich bei Ihrem Prozess nie auf die Bestellung, wie bei regulären Python-Aufträgen!
+Reguläre (String-)Metadaten werden wie vorhanden gespeichert, z. B. &quot;key&quot;: &quot;stringValue&quot;, eine pro Zeile. Auch hier wird die ursprüngliche Reihenfolge der verschiedenen Schlüssel nicht beibehalten und die Implementierung ist definiert. Verlassen Sie sich bei Ihrem Prozess nie auf die Bestellung, wie bei regulären Python-Aufträgen!
 
 Da das Ziel der URL-Metadaten darin besteht, Benutzern und Plug-ins die Aufnahme ausländischer Dateien in das .sbsar-Archiv zu ermöglichen, unterliegen sie einer bestimmten Transformation: Zunächst wird die Datei der Ressource, die mit der gespeicherten URL übereinstimmt, in das Archiv an einem implementierungsdefinierten Speicherort (normalerweise in einem nummerierten Unterordner, der nur diese Datei enthält) kopiert. Es geht darum, Namenskonflikte zu vermeiden.) Die Datei behält ihren ursprünglichen Namen bei (der Name der Ressource wird an dieser Stelle verworfen). Anstelle der ursprünglichen URL in der Datei &quot;metadata.json&quot; wird dann der Pfad zur kopierten Datei im Archiv relativ zur Datei &quot;metadata.json&quot; geschrieben.
 

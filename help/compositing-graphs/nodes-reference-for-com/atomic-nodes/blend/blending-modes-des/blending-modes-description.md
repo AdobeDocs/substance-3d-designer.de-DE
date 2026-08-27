@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend/blending-modes-description.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend/blending-modes-description.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über die in Substance 3D Designer verfügbaren Füllmethoden zum Kombinieren von Texturen mit verschiedenen Compositing-Effekten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Füllmethoden
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 2%
@@ -100,7 +100,7 @@ Der Mischmodus &quot;*Divide*&quot; teilt den Wert der Hintergrundeingabepixel d
 
 Der Mischmodus &quot;*Overlay*&quot; kombiniert die Füllmethoden &quot;Multiplizieren&quot; und &quot;Negativ multiplizieren&quot;:
 
-* &#x200B;
+* 
   * Wenn der Wert des Pixels der unteren Ebene unter 0,5 liegt, wird eine Füllmethode vom Typ *Multiplizieren* angewendet.
   * Wenn der Wert der unteren Pixelebene über 0,5 liegt, wird eine Überblendung vom Typ *Bildschirm* angewendet.
 

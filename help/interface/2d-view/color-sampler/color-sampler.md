@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/2d-view/color-sampler.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view/color-sampler.html"
 breadcrumb-title: ''
 description: Verwende das Farb-Sampler-Werkzeug in der 2D-Ansicht, um Farben aus Texturen aufzunehmen und sie präzise aufeinander abzustimmen.
 helpx_creative_field: ""

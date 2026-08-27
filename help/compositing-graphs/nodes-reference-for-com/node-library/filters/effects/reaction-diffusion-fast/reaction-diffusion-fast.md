@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Reaktionsdiffusionsgeschwindigkeit", um organische Muster mithilfe von schnellen Reaktionsdiffusionsalgorithmen für prozedurale Texturen zu generieren.
 helpx_creative_field: ""

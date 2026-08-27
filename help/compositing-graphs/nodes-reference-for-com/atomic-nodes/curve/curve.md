@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Kurve , um die Texturwerte mithilfe anpassbarer Kurven für eine präzise Farb- und Helligkeitssteuerung anzupassen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Kurve
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 2%
@@ -91,7 +91,7 @@ Im Gegensatz zu den meisten anderen Knoten verfügt der Knoten Kurve nicht über
 | --- | --- |
 | <b>Kurve anwenden/freilegen</b> *Boolescher Wert* | Ermöglicht das Kopieren der Benutzerkurve in die Ausgabe, anstatt sie auf das Eingabebild anzuwenden. |
 | <b>Kurvenadressierung</b> *Boolescher Wert* | Dieser Parameter bestimmt, wie HDR-Pixel aus dem Bereich [0, 1] in der Eingabe behandelt werden: eingeklemmt oder gefaltet bis [0, 1]. |
-| <b>Kurve</b> *Array von Kurvenschlüsseln* | Die benutzerdefinierte Kurve, die zum Zuordnen der eingegebenen Graustufenwerte verwendet wird.   Kann mit dem [Kurveneditor](#curve-editor) bearbeitet werden. |
+| <b>Kurve</b> *Array von Kurvenschlüsseln* | Die benutzerdefinierte Kurve, die zum Zuordnen der eingegebenen Graustufenwerte verwendet wird.   Kann mit dem [Kurveneditor](#curve-editor) bearbeitet werden. |
 
 ## Kurveneditor
 

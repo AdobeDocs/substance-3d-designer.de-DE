@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
 breadcrumb-title: ''
 description: Extrahieren Sie Materialeigenschaften aus 3D-Szenen, um sie in Substance-Graphen für Workflows zur Materialerstellung zu verwenden.
 helpx_creative_field: ""
@@ -160,7 +160,7 @@ Die Aktion &quot;Wert in Diagramm extrahieren&quot; erstellt einen neuen [Wertpr
 Mit dieser Aktion können Sie u. a. Folgendes tun:
 
 * Im ausgewählten Diagramm wird ein Knoten vom Typ [Wertprozessor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) für diesen Eigenschaftswert erstellt und automatisch mit einem Knoten vom Typ [Ausgabe](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) verbunden, der nach dieser Materialeigenschaft konfiguriert ist.
-* Im Funktionsdiagramm [Substance des Werteprozessorknotens &#x200B;](../../function-graphs/function-graphs.md) wird ein [Konstantenknoten](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md), der dem Werttyp entspricht, erstellt und auf den extrahierten Wert als Ausgabe des Diagramms festgelegt.
+* Im Funktionsdiagramm [Substance des Werteprozessorknotens ](../../function-graphs/function-graphs.md) wird ein [Konstantenknoten](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md), der dem Werttyp entspricht, erstellt und auf den extrahierten Wert als Ausgabe des Diagramms festgelegt.
 
 Wenn eine für die Materialeigenschaft *konfigurierte Ausgabe bereits vorhanden ist* im Diagramm, werden *keine Knoten erstellt*.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
 breadcrumb-title: ''
 description: Verwenden Sie den HSL-Knoten, um Farbton, Sättigung und Helligkeit von Texturen für die Farbbearbeitung und -korrektur anzupassen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: HSL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 9%
@@ -78,8 +78,8 @@ Wenn Sie nach anderen Möglichkeiten suchen, die Farbtöne eines Bildes zu bearb
 
 |  |  |
 | --- | --- |
-| <b>Farbton</b> *Gleitend* | Bestimmt die Farbe des Eingabebildes.   Werte unter 0,5 verschieben den Farbton negativ, Werte über 0,5 verschieben ihn positiv. |
-| <b>Sättigung</b> *Gleitend* | Bestimmt die Sättigung der Farbe des Eingabebilds.   Werte unter 0,5 verringern die Sättigung, Werte über 0,5 erhöhen sie. |
+| <b>Farbton</b> *Gleitend* | Bestimmt die Farbe des Eingabebildes.   Werte unter 0,5 verschieben den Farbton negativ, Werte über 0,5 verschieben ihn positiv. |
+| <b>Sättigung</b> *Gleitend* | Bestimmt die Sättigung der Farbe des Eingabebilds.   Werte unter 0,5 verringern die Sättigung, Werte über 0,5 erhöhen sie. |
 | <b>Helligkeit</b> *Gleitend* | Bestimmt die Helligkeit des Eingabebildes Werte unter 0,5 verringern die Helligkeit, Werte über 0,5 erhöhen sie. |
 
 ## Eingangsanschlüsse

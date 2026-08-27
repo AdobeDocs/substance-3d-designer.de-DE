@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
 breadcrumb-title: ''
 description: Lerne, wie du in Substance 3D Designer Compositing-Graphen Parameter definierst, mit denen sich Materialien anpassen und wiederverwenden lassen.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Exponieren von Parametern
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2267'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 Das Freigeben von Parametern ist eines der leistungsfähigsten Tools und der Schlüssel zum Öffnen Ihrer Diagramme für andere Anwendungen wie Substance 3D Painter, Substance 3D Sampler und Substance Integrationen für Maya und 3DS Max.
 
-Auf dieser Seite werden alle erforderlichen Konzepte für den Einstieg in die Bereitstellung erläutert. Es wird [&#x200B; empfohlen, zuerst zu erfahren, was eine Diagramminstanz ist](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), bevor Sie mit dieser Seite fortfahren. Es ist auch gut, den Unterschied zwischen Publish und &quot;Exportieren&quot; sowie die betroffenen Dateitypen zu erfassen[.](../../../getting-started/overview/overview.md)
+Auf dieser Seite werden alle erforderlichen Konzepte für den Einstieg in die Bereitstellung erläutert. Es wird [ empfohlen, zuerst zu erfahren, was eine Diagramminstanz ist](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), bevor Sie mit dieser Seite fortfahren. Es ist auch gut, den Unterschied zwischen Publish und &quot;Exportieren&quot; sowie die betroffenen Dateitypen zu erfassen[.](../../../getting-started/overview/overview.md)
 
 ![Verfügbarmachen von Parametern vereinfacht](../../../assets/parameters-5.png "Verfügbarmachen von Parametern vereinfacht")
 
@@ -32,7 +32,7 @@ von angezeigten Parametern zu Diagrammparametern.*
 ## Parameter verstehen und belichten
 
 +++Was ist ein Parameter?
-*Ein Parameter ist ein einfacher Wert mit einem UI-Element, das das Verhalten eines Diagramms steuert.* Sie verwenden sie ständig in der gesamten Substance-Software: um eine Farbe zu ändern, den Mischmodus festzulegen, einen Deckkraftwert auszuwählen usw. Ohne Parameter würde die Substance-Software überhaupt keine Anpassung zulassen.
+*Ein Parameter ist ein einfacher Wert mit einem UI-Element, der das Verhalten eines Diagramms steuert.* Sie verwenden sie ständig in allen Substance-Software: um eine Farbe zu ändern, den Mischmodus festzulegen, einen Deckkraftwert auszuwählen usw. Ohne Parameter würde die Substance-Software überhaupt keine Anpassung zulassen.
 
 Parameter können in vielen verschiedenen Formen vorliegen: Regler, Zifferblätter, Eingabefelder, Dropdown-Menüs usw. Die Werte, die sie darstellen, können verschiedene Typen haben: Dezimalwerte, ganze (Ganzzahl) Werte, boolesche (Wahr-/Falsch) Werte, sogar Textausschnitte.
 
@@ -66,7 +66,7 @@ Derzeit gibt es zwei Hauptmethoden zum Anzeigen von Parametern. Die eine Methode
 
 ### EINZELBELICHTUNGSMETHODE
 
-1. Suchen Sie den Parameter, der im [Eigenschaftenfenster](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) auf der Registerkarte Spezifische Parameter angezeigt werden soll.
+1. Suchen Sie den Parameter, der im Bereich [Eigenschaften](../../../interface/properties/properties.md) auf der Registerkarte Spezifische Parameter angezeigt werden soll.
 1. Klicken Sie auf die Schaltfläche mit den Dropdownoptionen ![](../../../assets/image2020-9-17-15-35-59.png).
 1. Wählen Sie ![](../../../assets/image2020-9-17-15-37-7.png) <b>Als neue Diagrammeingabe verfügbar machen</b> aus der Dropdown-Liste, die erste Option.
 1. Das Dialogfeld &quot;<b>Parameter verfügbar machen</b>&quot; wird angezeigt. Legen Sie alle Parametereigenschaften wie gewünscht fest.
@@ -79,7 +79,7 @@ Derzeit gibt es zwei Hauptmethoden zum Anzeigen von Parametern. Die eine Methode
 >[!NOTE]
 >
 > Die meisten Zahlenfelder unterstützen *einfache mathematische Formeln* als Eingabe, z. B. `17+3.5`, `7/3`, `(4+2)*3`. Drücken Sie *Eingabe*, um die Formel zu validieren, und das Ergebnis wird in das Feld eingegeben. Wenn die Formel ungültig ist, wird das Feld auf den vorherigen Wert zurückgesetzt.\
-> Einige numerische Felder in anderen Teilen der Anwendung, z. B. im Dock [Eigenschaften](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), unterstützen diese Funktion ebenfalls.
+> Einige numerische Felder in anderen Teilen der Anwendung, z. B. im Dock [Eigenschaften](../../../interface/properties/properties.md), unterstützen diese Funktion ebenfalls.
 
 ![Schritt-für-Schritt-Anleitung zur Methode zur Batch-Bereitstellung](../../../assets/batch-expose-2.gif "Schritt-für-Schritt-Anleitung zur Methode zur Batch-Bereitstellung"){width="512px"}
 
@@ -104,7 +104,7 @@ Es gibt einige Einschränkungen in Bezug auf das Verfügbarmachen von Parametern
 | --- | --- |
 | [Verlaufsbalken](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md), [Kurveneditor](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md), [Schrift](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md), [Tonwertkorrektur-Histogramm](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) | Widgets erforderlich, die für vom Benutzer erstellte Parameter nicht verfügbar sind. |
 
-Eine weitere wichtige Einschränkung betrifft [statische Parameter](../../../glossary/glossary.md). Diese können in einem [veröffentlichten Substance 3D-Asset &#x200B;](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR) nicht geändert werden.
+Eine weitere wichtige Einschränkung betrifft [statische Parameter](../../../glossary/glossary.md). Diese können in einem [veröffentlichten Substance 3D-Asset (SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) nicht geändert werden.
 
 Statische Parameter - im Gegensatz zu dynamischen Parametern - *können nicht sofort bearbeitet werden*, nachdem das Diagramm *gekocht* wurde - d. h. verarbeitet, um den Algorithmus schnell und effizient auszuführen. Das Kochen erfolgt in Designer jedes Mal, wenn das Diagramm *bearbeitet* oder *veröffentlicht* ist.
 
@@ -128,7 +128,7 @@ Nach dem Belichten ist es nicht mehr möglich, auf einen Parameter wie zuvor zuz
 So ändern Sie die Optionen eines angezeigten Parameters:
 
 1. Klicken Sie auf die Schaltfläche &quot;Dropdown-Optionen&quot; ![](../../../assets/image2020-9-17-15-35-59.png) neben dem bereits angezeigten Parameter.
-1. Wählen Sie &quot;![](../../../assets/image2020-9-17-15-37-7.png)<b>&quot; aus, um den angezeigten Diagrammeingang zu bearbeiten.</b>. Dadurch gelangen Sie direkt zum entsprechenden Eintrag in den Diagrammeigenschaften.
+1. Wählen Sie &quot;![](../../../assets/image2020-9-17-15-37-7.png)<b>&quot; aus, um den angezeigten Diagrammeingang zu bearbeiten.</b>. Dadurch gelangen Sie direkt zum entsprechenden Eintrag in den Diagrammeigenschaften.
 1. Doppelklicken Sie in einen leeren Bereich des Diagramms, um zu den Diagrammeigenschaften zu gelangen. Suchen Sie dann den Parameter in der Liste mit <b>Eingabeparametern</b>.
 1. Klicken Sie im <b>Explorer</b> einmal auf das Diagramm, und suchen Sie dann den Parameter in der Liste der <b>Eingabeparameter</b>.
 
@@ -181,11 +181,11 @@ Normalerweise werden alle im <b>Vorschaumodus</b> vorgenommenen Änderungen *ver
 
 >[!IMPORTANT]
 >
-> Der Vorschaumodus ist deaktiviert, wenn die [-kontextbezogene Bearbeitung &#x200B;](../../../interface/preferences-window/preferences-window.md) verwendet wird.
+> Der Vorschaumodus ist deaktiviert, wenn die [-kontextbezogene Bearbeitung ](../../../interface/preferences-window/preferences-window.md) verwendet wird.
 
 >[!WARNING]
 >
-> Im Vorschaumodus wird das Erlebnis eines [veröffentlichten Substance 3D-Assets](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR) so genau wie möglich dargestellt. Daher gelten die auf dieser Seite aufgeführten Einschränkungen in diesem Modus, z. B. *statische Parameter, die in der Liste nicht vorhanden sind*.
+> Im Vorschaumodus soll das Erlebnis eines [veröffentlichten Substance 3D-Assets (SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) so genau wie möglich dargestellt werden. Daher gelten die auf dieser Seite aufgeführten Einschränkungen in diesem Modus, z. B. *statische Parameter, die in der Liste nicht vorhanden sind*.
 
 ![Eingabeparameter werden kopiert und eingefügt](../../../assets/copy-paste-params-2.gif "Eingabeparameter werden kopiert und eingefügt"){width="512px"}
 

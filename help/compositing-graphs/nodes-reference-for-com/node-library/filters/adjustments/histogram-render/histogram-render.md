@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-render.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Histogramm rendern , um Histogrammdaten als Textur für die Analyse und das Debuggen zu visualisieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rendern von Histogrammen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 1%
@@ -75,8 +75,8 @@ Zeichnet das Histogramm für ein Graustufenbild.
 
 |  |  |
 | --- | --- |
-| <b>Histogrammauflösung</b> *Integer* | Die Breite des Histogramms. Ein höherer Wert ermöglicht eine feinere Wertverteilung.   Verfügbare Auflösungen sind in Pixeln:  256, 512, 1024, 2048, 4096 |
-| <b>Automatische Skalierung</b> *Boolescher Wert* | Wenn &quot;True&quot; festgelegt ist, wird das Histogramm neu zugeordnet, damit das gesamte Height des Bildes verwendet werden kann.   Wenn &quot;False&quot; festgelegt ist, verwendet jede Spalte so viele Pixel im Height, wie ein Wert im Eingabebild vorkommt. |
+| <b>Histogrammauflösung</b> *Integer* | Die Breite des Histogramms. Ein höherer Wert ermöglicht eine feinere Wertverteilung.   Verfügbare Auflösungen sind in Pixeln:  256, 512, 1024, 2048, 4096 |
+| <b>Automatische Skalierung</b> *Boolescher Wert* | Wenn &quot;True&quot; festgelegt ist, wird das Histogramm neu zugeordnet, damit das gesamte Height des Bildes verwendet werden kann.   Wenn &quot;False&quot; festgelegt ist, verwendet jede Spalte so viele Pixel im Height, wie ein Wert im Eingabebild vorkommt. |
 | <b>Skalierung</b> *Gleitend* | Skaliert das Histogramm vertikal, wobei der Wert 1 das gesamte Height des Histogramms ist. |
 | <b>Sampling</b> *Integer* | Die Methode zum Filtern des Histogrammbilds, die sich auf das Ergebnis auswirkt, wenn die Histogrammauflösung und die Renderauflösung nicht übereinstimmen:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Bilinear:</b> wendet die bilineare Filterung auf das Histogramm an, was zu interpolierten Punkten führt</li> <li data-preserve-html="true"><b>Nächster Wert:</b> berechnet das nächste Pixel ohne Filterung, was zu flachen Schritten führt</li> </ul> |
 | <b>Y-Achse spiegeln</b> *Boolescher Wert* | Wenn &quot;True&quot;, spiegelt das Histogramm vertikal. |

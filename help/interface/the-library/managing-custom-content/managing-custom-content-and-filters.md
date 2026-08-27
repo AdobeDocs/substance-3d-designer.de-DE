@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
 breadcrumb-title: ''
 description: Hier erfahren Sie, wie Sie benutzerdefinierte Inhalte und Filter in der Substance 3D Designer-Bibliothek für den organisierten Zugriff auf Elemente verwalten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Verwalten benutzerdefinierter Inhalte und Filter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Auf dieser Seite wird die Methode zum Erstellen von Kategorien und Filtern zum V
 
 ## Überblick
 
-Nachdem [der Bibliothek &#x200B;](../../../interface/preferences-window/project-settings/project-settings.md) benutzerdefinierte Inhalte hinzugefügt wurden, müssen Sie diese *auffindbar* machen.
+Nachdem [der Bibliothek ](../../../interface/preferences-window/project-settings/project-settings.md) benutzerdefinierte Inhalte hinzugefügt wurden, müssen Sie diese *auffindbar* machen.
 
 Die Bibliothek verwendet eine Anzahl von *Datenpunkten*, um Inhalte zu identifizieren, sie zu filtern und in Suchvorgängen anzuzeigen. Zu diesen Datenpunkten gehören:
 

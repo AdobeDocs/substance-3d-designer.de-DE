@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Pfadevorschau", um Pfaddaten in der 2D-Ansicht für das Debuggen und die Überprüfung zu visualisieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vorschau von Pfaden
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 1%
@@ -54,7 +54,7 @@ Eine Liste der codierten Segmentpfade. Verbinden Sie diese Eingabe mit dem Ergeb
 <b>Ecken anzeigen</b> *Boolescher Wert*\
 Zeigt auf jedem Scheitelpunkt ein Quadrat an, das als Ecke markiert ist (additive Überblendung).
 
-<b>Eckpunkte anzeigen</b> *Boolesch*\
+<b>Eckpunkte anzeigen</b> *Boolescher Wert*\
 Zeigt an, dass an jedem Scheitelpunkt eine Kreisform angezeigt wird (additive Überblendung). Ecken werden weiterhin als Quadrate angezeigt.
 
 <b>Segments-Thickness (px)</b> *Gleitend*\

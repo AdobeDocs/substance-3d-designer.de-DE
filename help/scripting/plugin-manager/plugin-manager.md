@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/scripting/plugin-manager.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugin-manager.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Plug-in-Manager in Substance 3D Designer, um Python-Plug-ins für erweiterte Funktionen zu installieren, zu verwalten und zu konfigurieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Plugin-Manager
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 3%
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 # Plugin-Manager
 
-Das Dialogfeld &quot;<b>Plug-In-Manager</b>&quot; ist über das Menü &quot;<b>Tools</b>&quot; in der Hauptmenüleiste verfügbar. Sie können sehen, welche Plug-ins *aktiv* sind, sowie *Plug-ins laden und entladen*.
+Das Dialogfeld &quot;<b>Plug-In-Manager</b>&quot; ist über das Menü &quot;<b>Tools</b>&quot; in der Hauptmenüleiste verfügbar. Sie können sehen, welche Plug-ins *aktiv* sind, sowie *Plug-ins laden und entladen*.
 
 ![Plug-in-Manager](../../assets/pluginmgr.png "Plug-in-Manager")
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
 breadcrumb-title: ''
 description: Erfahre, wie du in Substance 3D Designer Compositing-Substance erstellst, um Workflows für prozedurale Texturen zu erstellen.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Erstellen von Substance-Graphen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1107'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Das Erstellen von Texturen in Designer beginnt mit dem Erstellen eines Substance
 
 Sie können eine der folgenden Methoden verwenden, um das Erstellen eines neuen [Substance-Diagramms](../../compositing-graphs/substance-compositing-graphs.md) zu starten:
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -44,12 +44,12 @@ Sie können eine der folgenden Methoden verwenden, um das Erstellen eines neuen 
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  Klicken Sie in einem beliebigen *vorhandenen*-Paketelement im [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) auf <b>RMB</b> und navigieren Sie im Kontextmenü zu <b>Neu > Substance-Diagramm</b>.
+  Klicken Sie in einem beliebigen *vorhandenen*-Paketelement im [Explorer](../../interface/the-explorer-window/the-explorer-window.md) auf <b>RMB</b> und navigieren Sie im Kontextmenü zu <b>Neu > Substance-Diagramm</b>.
 
   </td>
   <td style="border: 0;" valign="top">
@@ -60,7 +60,7 @@ Sie können eine der folgenden Methoden verwenden, um das Erstellen eines neuen 
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -76,12 +76,12 @@ Sie können eine der folgenden Methoden verwenden, um das Erstellen eines neuen 
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  Wechseln Sie im [Hauptmenü](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html) zu <b>Datei > Neu > Substance-Diagramm...3</b>
+  Wechseln Sie im Hauptmenü zu <b>Datei > Neu > Substance-Diagramm...1</b>
 
   </td>
   <td style="border: 0;" valign="top">
@@ -246,7 +246,7 @@ Nachdem Sie die Vorlage ausgewählt haben, können Sie grundlegende Informatione
 
 <b>Größe</b>: die übergeordnete Auflösung des Diagramms, die die Ausgabeauflösung der meisten Knoten steuert - weitere Informationen finden Sie auf der Seite [Ausgabegröße](../../compositing-graphs/output-size/output-size.md). Die Felder &quot;width&quot; und &quot;Height&quot; sind standardmäßig miteinander verknüpft. Sie können die Verknüpfung wieder aufheben, indem Sie auf die Verknüpfungsschaltfläche zwischen den Kombinationsfeldern &quot;width&quot; und &quot;Height&quot; klicken.
 
-<b>Diagramm in </b> erstellen: Mit diesem Kombinationsfeld können Sie ein *neues*-Paket für das neue Diagramm erstellen oder das neue Diagramm einem beliebigen *vorhandenen*-Paket hinzufügen, das bereits im [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)-Bedienfeld geladen wurde.
+<b>Diagramm in </b> erstellen: Mit diesem Kombinationsfeld können Sie ein *neues*-Paket für das neue Diagramm erstellen oder das neue Diagramm einem beliebigen *vorhandenen*-Paket hinzufügen, das bereits im [Explorer](../../interface/the-explorer-window/the-explorer-window.md)-Bedienfeld geladen wurde.
 
 ### Hilfe-QuickInfo
 
@@ -281,7 +281,7 @@ Verwenden Sie das Kombinationsfeld <b>Kategorie</b>, um die Kategorie auszuwähl
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-Für Vorlagen kann in den <b>Vorlagendaten</b> eine Kategorie eingerichtet sein. [Graphenattribut &#x200B;](../../compositing-graphs/graph-parameters/graph-parameters.md), das als Filter verwendet wird, um die Liste der Vorlagen einzugrenzen:
+Für Vorlagen kann in den <b>Vorlagendaten</b> eine Kategorie eingerichtet sein. [Graphenattribut ](../../compositing-graphs/graph-parameters/graph-parameters.md), das als Filter verwendet wird, um die Liste der Vorlagen einzugrenzen:
 
 &lt;category>;&lt;subtitle>
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/scripting/using-color-management.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/using-color-management.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Farbmanagementfunktionen in Substance 3D Designer Python-Skripten für präzise Farben verwenden.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Farbmanagement verwenden
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -154,6 +154,6 @@ for res in resources:
 
 ## Schreiben von SDTexturen mit Farbraumkonvertierungen
 
-Die **save**-Methode der **SDTexture**-Klasse akzeptiert jetzt einen optionalen **outputColorSpace**-Parameter. Wenn angegeben, wird die Farbraumkonvertierung *angewendet, bevor das Bild* gespeichert wird.
+Die **save**-Methode der **SDTexture**-Klasse akzeptiert jetzt einen optionalen **outputColorSpace**-Parameter. Wenn angegeben, wird die Farbraumkonvertierung *angewendet, bevor das Bild* gespeichert wird.
 
 Wenn der Farbmanagementmodus eingebettete ICC-Profile &quot;*&quot; und &quot;*&quot; unterstützt, werden diese auch vom Zieldateiformat unterstützt, wird das ICC-Farbraumprofil &quot;*&quot; in die resultierende Bilddatei &quot;*&quot; eingebettet.

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/resources/bitmap-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource.html"
 breadcrumb-title: ''
 description: Erfahre, wie du in Substance 3D Designer Bitmap-Ressourcen importieren, erstellen und verwenden kannst, um auf Texturen basierende Materialien zu erstellen.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Bitmaps
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '648'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Bitmaps
 
-Eine Bitmapressource ist eine Ressource in einem Substance-Paket. Er unterscheidet sich vom [-atomaren Bitmapknoten. Der atomare Bitmapknoten &quot;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)&quot; ist eine bestimmte Darstellung dieser Bitmap in [einem Substance-Diagramm &#x200B;](../../compositing-graphs/substance-compositing-graphs.md).
+Eine Bitmapressource ist eine Ressource in einem Substance-Paket. Er unterscheidet sich vom [-atomaren Bitmapknoten. Der atomare Bitmapknoten &quot;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)&quot; ist eine bestimmte Darstellung dieser Bitmap in [einem Substance-Diagramm ](../../compositing-graphs/substance-compositing-graphs.md).
 
 Bitmaps gehören zu den häufigsten Ressourcen außerhalb des Diagrammbereichs in Substance 3D Designer. Ihre Verwendung fällt in der Regel in eine der folgenden Kategorien:
 
@@ -34,13 +34,13 @@ Bitmaps sind in der Regel die größte Ressource, mit der sich Designer beschäf
 
 ### In Substance 3D-Dateien (SBS)
 
-Wie Bitmaps in SBS gespeichert werden, hängt davon ab, ob Sie sie verknüpfen oder importieren. Stellen Sie sicher, dass Sie mit dem Konzept vertraut sind.[&#128279;](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) Importierte Bitmaps können mit den [Bitmap-Malwerkzeugen](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md) bearbeitet werden.
+Wie Bitmaps in SBS gespeichert werden, hängt davon ab, ob Sie sie verknüpfen oder importieren. Stellen Sie sicher, dass Sie mit dem Konzept vertraut sind.](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) [Importierte Bitmaps können mit den [Bitmap-Malwerkzeugen](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md) bearbeitet werden.
 
 Im Gegensatz zu Ressourcen für das SVG (Vektorgrafiken) werden Bitmaps immer extern gespeichert, selbst wenn sie als neue Ressource erstellt oder importiert werden. Bei neuen Substance-Paketen werden sie im Speicher gespeichert, bis die .SBS-Datei auf der Festplatte gespeichert wird. Nach dem Speichern auf dem Datenträger werden Bitmaps in einem Ordner &quot;*/resources*&quot; neben der SBS-Datei gespeichert.
 
 ### In Substance 3D Assets (SBSAR)
 
-In [SBSAR-Dateien](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) sind Bitmaps eingebettet, was bedeutet, dass sie sich stark auf die endgültige SBSAR-Dateigröße auswirken. Weitere Informationen zu den Auswirkungen auf die Dateigröße finden Sie auf dieser Seite. Wenn [SBSAR-Dateien veröffentlicht werden,](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) werden nur Bitmaps eingebettet, die zur Berechnung der Ausgabe eines Diagramms verwendet werden. Nicht verwendete Bitmaps werden optimiert und aus dem endgültigen SBSAR-Paket ausgeschlossen, ohne dass sich dies auf die Dateigröße auswirkt.
+In [SBSAR-Dateien](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) sind Bitmaps eingebettet, was bedeutet, dass sie sich stark auf die endgültige SBSAR-Dateigröße auswirken. Weitere Informationen zu den Auswirkungen auf die Dateigröße finden Sie auf dieser Seite. Wenn SBSAR-Dateien veröffentlicht werden, werden nur Bitmaps eingebettet, die zur Berechnung der Ausgabe eines Diagramms verwendet werden. Nicht verwendete Bitmaps werden optimiert und aus dem endgültigen SBSAR-Paket ausgeschlossen, ohne dass sich dies auf die Dateigröße auswirkt.
 
 ## Dateityp, Farbmodus und Auflösung
 
@@ -71,4 +71,4 @@ Bitmap-Ressourcen in einem Paket verfügen über eine Reihe von Attributen, die 
 
 ## Dateigrößenreduzierung
 
-Auf der Seite [Richtlinien zur Dateigrößenreduzierung](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) im Abschnitt [Best Practices](../../best-practices/best-practices.md) finden Sie unsere Empfehlungen zum Minimieren der Dateigröße von Bitmaps, die in [veröffentlichte Substance 3D Assets](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR) eingebettet sind.
+Auf der Seite [Richtlinien zur Dateigrößenreduzierung](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) im Abschnitt [Best Practices](../../best-practices/best-practices.md) finden Sie unsere Empfehlungen zum Minimieren der Dateigröße von Bitmaps, die in [veröffentlichte Substance 3D Assets (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) eingebettet sind.

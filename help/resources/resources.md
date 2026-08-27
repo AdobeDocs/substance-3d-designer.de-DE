@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/resources.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources.html"
 breadcrumb-title: ''
 description: Erfahre, wie du in Substance 3D Designer Ressourcen wie Bitmaps, Schriften und 3D-Szenen importieren, erstellen und verwalten kannst.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Ressourcen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '155'
 ht-degree: 7%
 
 ---
@@ -55,10 +55,10 @@ Diagrammressourcen sind die wichtigsten Ressourcen, die in Designer erstellt wur
 
 Ressourcen, die keine Diagramme sind, sind in der Regel Hilfsressourcen, die als zusätzliche Daten in Diagrammen oder zur Visualisierung von Ergebnissen aus Diagrammen verwendet werden. Die folgenden Typen sind vorhanden und verfügen in diesem Abschnitt der Dokumente jeweils über eine Unterseite:
 
-* [Bitmap](../resources/bitmap-resource/bitmap-resource.md)
-* [Vektorgrafiken (SVG)](../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [3D-Szenen](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
-* [Schriftart](../resources/font-resource/font-resource.md)
+* [Bitmap](bitmap-resource/bitmap-resource.md)
+* [Vektorgrafiken (SVG)](vector-graphics-svg-res/vector-graphics-svg-resource.md)
+* [3D-Szenen](3d-scene-resource/3d-scene-resource.md)
+* [Schriftart](font-resource/font-resource.md)
 
 </td>
 </tr>

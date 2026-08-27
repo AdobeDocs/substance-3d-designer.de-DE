@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über die Pfadformatspezifikationen und die Datenstruktur, die von Pfad- und Spline-Knoten verwendet werden.
 helpx_creative_field: ""
@@ -90,7 +90,7 @@ Dies ist nützlich, wenn Sie die Pfade beispielsweise von einem [Pixelprozessor]
 
 Die Adresse des letzten in diesem Dokument definierten Scheitelpunkts. Dies ist nützlich, um neue Daten anzufügen.
 
-Es kann also tatsächlich eine beliebige Adresse sein, die größer ist (in Scannline-Reihenfolge) als die Adresse des letzten Scheitelpunktes. Es muss im Bereich &rbrack;0, 1[×]0,.5&lbrack; liegen
+Es kann also tatsächlich eine beliebige Adresse sein, die größer ist (in Scannline-Reihenfolge) als die Adresse des letzten Scheitelpunktes. Es muss im Bereich ]0, 1[×]0,.5[ liegen
 
 <b>ZW</b>
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
 breadcrumb-title: ''
 description: Verstehen Sie Warnungen in Funktionsdiagrammen von Substance 3D Designer und erfahren Sie, wie Sie häufige Probleme beheben.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Warnungen in Funktionsdiagrammen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,8 @@ ht-degree: 0%
 
 Auf dieser Seite werden Warnungen und Fehlermeldungen aufgelistet, die von [Funktionsdiagrammen](../../function-graphs/function-graphs.md) in Substance 3D Designer ausgelöst werden können, und es werden allgemeine Schritte zur Fehlerbehebung für die einzelnen Funktionsdiagramme angezeigt.
 
-Warnungen werden in der QuickInfo des Warnsymbols für die Diagrammressource im Bereich [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) sowie in der unteren linken Ecke der [Diagrammansicht](../../interface/the-graph-view/the-graph-view.md) angezeigt, wenn das Diagramm geladen ist.\
-Wenn die Funktion *auf einen Parameter* in einem [Substance-Graphen &#x200B;](../../compositing-graphs/substance-compositing-graphs.md) angewendet wird, wird jede Warnung dazu führen, dass die Warnung &quot;*Die Funktion des [x]-Parameters weist einige Fehler auf*&quot; für diesen Parameter ausgelöst wird.
+Warnungen werden in der QuickInfo des Warnsymbols für die Diagrammressource im Bereich [Explorer](../../interface/the-explorer-window/the-explorer-window.md) sowie in der unteren linken Ecke der [Diagrammansicht](../../interface/the-graph-view/the-graph-view.md) angezeigt, wenn das Diagramm geladen ist.\
+Wenn die Funktion *auf einen Parameter* in einem [Substance-Graphen ](../../compositing-graphs/substance-compositing-graphs.md) angewendet wird, wird jede Warnung dazu führen, dass die Warnung &quot;*Die Funktion des [x]-Parameters weist einige Fehler auf*&quot; für diesen Parameter ausgelöst wird.
 
 ## ![(Fehler)](../../assets/error.svg) Kein Ausgabeknoten definiert
 
