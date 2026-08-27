@@ -40,7 +40,7 @@ Fügen Sie dem Diagramm einen oder mehrere [Output](../../compositing-graphs/nod
 
 ### ![(Fehler)](../../assets/error.svg) Die Funktion des *[x]*-Parameters enthält einige Warnungen.
 
-Das [Funktionsdiagramm ](../../function-graphs/function-graphs.md), das auf den angegebenen Parameter des angegebenen Knotens angewendet wird, weist mindestens eine Warnung auf.\
+Das [Funktionsdiagramm &#x200B;](../../function-graphs/function-graphs.md), das auf den angegebenen Parameter des angegebenen Knotens angewendet wird, weist mindestens eine Warnung auf.\
 Der Knotenparameter wird in eckigen Klammern nach der Knotenbezeichnung angegeben und folgt der Vorlage Node[Parameter].
 
 E.g. Einheitliche Farbe[Ausgabefarbe], Pixelprozessor[pro Pixelfunktion]

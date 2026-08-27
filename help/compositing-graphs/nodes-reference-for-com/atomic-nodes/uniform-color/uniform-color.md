@@ -64,7 +64,7 @@ Es handelt sich um einen einfachen Knoten, der sehr häufig als Ausgangspunkt zu
 > Beide Anpassungen reduzieren die Rechenzeit und den Speicherbedarf des Knotens:
 > 
 > * Wenn ein Graustufenwert benötigt wird, stellen Sie sicher, dass Sie den [Farbmodus](#parameters) des Knotens in &#39;Graustufen&#39; ändern.
-> * Da die Ausgabe des Knotens eine flache Farbe ist, können Sie die niedrigste mögliche Auflösung verwenden. Legen Sie den Parameter &quot;[Ausgabegröße](../../../../compositing-graphs/output-size/output-size.md)&quot; des Knotens so fest, dass die &quot;Absolute&quot; [Vererbungsmethode ](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) und eine Auflösung von 16x16 Pixeln verwendet werden.
+> * Da die Ausgabe des Knotens eine flache Farbe ist, können Sie die niedrigste mögliche Auflösung verwenden. Legen Sie den Parameter &quot;[Ausgabegröße](../../../../compositing-graphs/output-size/output-size.md)&quot; des Knotens so fest, dass die &quot;Absolute&quot; [Vererbungsmethode &#x200B;](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) und eine Auflösung von 16x16 Pixeln verwendet werden.
 
 <table>
 <tr style="border: 0;">

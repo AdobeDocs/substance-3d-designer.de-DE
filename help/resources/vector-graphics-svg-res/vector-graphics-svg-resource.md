@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Substance 3D Designer unterstützt über das Scalable Vector-Grafikformat nur eine äußerst begrenzte Form von Vektorgrafiken. SVG-Dateien können auf unterschiedliche Weise als Ressourcen eingefügt und als Ressourcen für Ihre Grafiken verwendet werden.
 
-SVG-Dateien [ können über den atomaren SVG-Knoten erstellt oder bearbeitet werden.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) Sie können auch von [dem UV-to-SVG-Bäcker erstellt werden.](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
+SVG-Dateien [&#x200B; können über den atomaren SVG-Knoten erstellt oder bearbeitet werden.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) Sie können auch von [dem UV-to-SVG-Bäcker erstellt werden.](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ SVG-Ressourcen in einem Paket verfügen über eine Reihe von Attributen, die Sie
 | Autoren-URL | Wird zum [Sortieren und Kuratieren der Ressource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in der [Bibliothek](../../interface/the-library/the-library.md) verwendet. |
 | Tags | Wird zum [Sortieren und Kuratieren der Ressource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in der [Bibliothek](../../interface/the-library/the-library.md) verwendet. |
 | Benutzerdaten | Optionale zusätzliche Daten, nicht für Vektorgrafiken verwendet. |
-| In Bibliothek anzeigen | Bestimmt, ob die SVG-Ressource in [ der Bibliotheksansicht ausgeblendet werden soll.](../../interface/the-library/the-library.md) |
+| In Bibliothek anzeigen | Bestimmt, ob die SVG-Ressource in [&#x200B; der Bibliotheksansicht ausgeblendet werden soll.](../../interface/the-library/the-library.md) |
 | Vektorgrafikqualität | Beeinträchtigt die Rendering-Qualität. Der Bereich ist nicht linear und die beste Qualität wird bei 0,5 erreicht. |
 
 ## SVG-Authoring
