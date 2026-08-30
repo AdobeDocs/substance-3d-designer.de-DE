@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/graph-creation-etiquette.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/best-practices/graph-creation-etiquette.html"
 breadcrumb-title: ''
 description: Informieren Sie sich über Best Practices und die Etikette beim Erstellen von Substance-Graphen, um saubere, verwaltbare und effiziente Workflows zu gewährleisten.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/bakers.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie mit Substance 3D Designer Baker Mesh-basierte Informationen in Textur-Dateien berechnen können.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ Baking bezieht sich auf die Aktion **Übertragen von Mesh-basierten Informatione
 
 >[!NOTE]
 >
-> Weitere Informationen zum Baking finden Sie in der [Dokumentation zum Baking](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).
+> Weitere Informationen zum Baking finden Sie in der [Dokumentation zum Baking](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/home).
 
 <table>
 <tr style="border: 0;">
@@ -93,13 +93,13 @@ Dieses Bedienfeld steuert, wo sich die Baking geführt Textur befindet.
 
 ### HD-Meshes
 
-Dieses Bedienfeld steuert die Liste der Gitter mit hohem Poly-Wert und die zugehörigen Einstellungen. Weitere Informationen finden Sie in den [allgemeinen Parametern](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters).
+Dieses Bedienfeld steuert die Liste der Gitter mit hohem Poly-Wert und die zugehörigen Einstellungen. Weitere Informationen finden Sie in den [allgemeinen Parametern](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/bakers-settings/common-parameters).
 
 ![High-Definition-Meshes](bakers.resources/sd-high.png "High-Definition-Meshes")
 
 ### Standardwerte
 
-Weitere Informationen finden Sie in den [allgemeinen Parametern](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters).
+Weitere Informationen finden Sie in den [allgemeinen Parametern](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/bakers-settings/common-parameters).
 
 ![Standardwerte](bakers.resources/sd-default-values.png "Standardwerte")
 
@@ -116,6 +116,6 @@ Jeder Bäcker in der erbt standardmäßig die Standardwerte (siehe oben). Die Gr
 
 Wenn Sie auf einen Baker in der Liste klicken, wird die Parameteransicht des Bakers mit ihren spezifischen Parametern aktualisiert.
 
-Weitere Informationen zu den spezifischen Parametern finden Sie unter: [Baker-Einstellungen](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/bakers-settings).
+Weitere Informationen zu den spezifischen Parametern finden Sie unter: [Baker-Einstellungen](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/bakers-settings/bakers-settings).
 
 ![Liste zum Rendern von Bakern](bakers.resources/sd-baker-list.png "Liste zum Rendern von Bakern")

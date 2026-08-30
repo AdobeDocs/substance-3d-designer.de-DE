@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
 breadcrumb-title: ''
 description: Verwenden Sie den MLV-Graustufen-Weichzeichnungsfilter, um Bewegungsunschärfeeffekte auf Graustufen-Texturen anzuwenden und dynamische Looks zu erzeugen.
 helpx_creative_field: ""

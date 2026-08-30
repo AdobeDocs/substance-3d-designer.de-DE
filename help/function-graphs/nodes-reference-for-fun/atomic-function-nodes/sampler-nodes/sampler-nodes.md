@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
 breadcrumb-title: ''
 description: Greifen Sie auf Samplerknoten in Substance 3D Designer-Funktionsdiagrammen zu, um Texturen auszuprobieren und Farbwerte zu extrahieren.
 helpx_creative_field: ""

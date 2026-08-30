@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/blue-noise-fast.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/blue-noise-fast.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Blue Rauschen Fast-Knoten, um schnelle Blue-Rauschen-Muster für die Erstellung hochwertiger Textur-Dithering und -Varianten zu generieren.
 helpx_creative_field: ""

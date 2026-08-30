@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-position.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-position.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten 3D-Texturposition , um Positionsinformationen aus 3D-Texturen zu extrahieren und so räumliche Effekte und Zuordnungen zu erstellen.
 helpx_creative_field: ""

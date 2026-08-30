@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-2.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-2.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Rauschen Hochskalieren 2 , um Texturen mithilfe der rauschbasierten Interpolation hochzuskalieren, um die Texturqualität bei größeren Größen beizubehalten.
 helpx_creative_field: ""

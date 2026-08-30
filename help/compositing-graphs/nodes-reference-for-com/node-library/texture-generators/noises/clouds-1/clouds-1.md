@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-1.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-1.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Wolken 1", um grundlegende Wolkenmuster zum Erstellen atmosphärischer und volumetrischer Textureffekte zu generieren.
 helpx_creative_field: ""

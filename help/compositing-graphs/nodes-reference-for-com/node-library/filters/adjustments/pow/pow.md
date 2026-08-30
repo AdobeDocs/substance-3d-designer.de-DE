@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/pow.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/pow.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Pow-Knoten, um Energiefunktionsanpassungen auf Texturen anzuwenden, um Helligkeitskurven und Gamma-Korrektur zu steuern.
 helpx_creative_field: ""

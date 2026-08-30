@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/luminance-highpass.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/luminance-highpass.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Luminanz-Hochpass", um hochfrequente Luminanzen aus Texturen zu extrahieren, um Oberflächendetails zu verbessern.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 9%
 
 ## Beschreibung
 
-Bricht Beleuchtungsinformationen ab, indem ein [Highpass](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/highpass/highpass.md) für die Luminanz der Eingabe ausgeführt wird. Nützlich, um fotografierte Texturen mit Beleuchtungsinformationen zu korrigieren. Kann in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) mit mehreren Durchläufen kombiniert werden, um unterschiedliche Lichtfrequenzen zu entfernen.
+Bricht Beleuchtungsinformationen ab, indem ein [Highpass](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/highpass/highpass.md) für die Luminanz der Eingabe ausgeführt wird. Nützlich, um fotografierte Texturen mit Beleuchtungsinformationen zu korrigieren. Kann in [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) mit mehreren Durchläufen kombiniert werden, um unterschiedliche Lichtfrequenzen zu entfernen.
 
 Erweist sich als etwas besser bei der Farberhaltung als [Beleuchtung Niederfrequenzen abbrechen](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/lighting-cancel-low-fre/lighting-cancel-low-frequencies.md)
 

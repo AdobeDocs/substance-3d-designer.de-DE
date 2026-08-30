@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/create-and-edit-a-function.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/create-and-edit-a-function.html"
 breadcrumb-title: ''
 description: Erfahrt, wie ihr in Substance 3D Designer Funktionsdiagramme erstellt und bearbeitet, um wiederverwendbare Knotennetzwerke zu erstellen.
 helpx_creative_field: ""

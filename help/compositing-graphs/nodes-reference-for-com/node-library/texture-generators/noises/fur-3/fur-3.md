@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-3.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-3.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Fur 3 -Knoten, um erweiterte Fell-Texturen mit anpassbaren Eigenschaften für die Erstellung von Haar- und Fasereffekten zu generieren.
 helpx_creative_field: ""

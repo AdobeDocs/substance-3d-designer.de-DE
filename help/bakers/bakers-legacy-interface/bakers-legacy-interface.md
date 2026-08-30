@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers/bakers-legacy-interface.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/bakers/bakers-legacy-interface.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über die ältere Oberfläche von Substance 3D Designer Baker für Benutzer, die mit älteren Versionen vertraut sind.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 # Baker Legacy-Benutzeroberfläche
 
-Hier finden Sie eine Beschreibung der Baker-Oberfläche, die in [Adobe Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html)-Versionen vor 6.0.4 verfügbar ist.
+Hier finden Sie eine Beschreibung der Baker-Oberfläche, die in [Adobe Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html)-Versionen vor 6.0.4 verfügbar ist.
 
 ## Überblick
 
