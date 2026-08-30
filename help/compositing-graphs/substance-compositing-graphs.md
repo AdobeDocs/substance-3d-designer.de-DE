@@ -33,7 +33,7 @@ ht-degree: 1%
 
 Die Ergebnisse können in Form eines einfachen Schwarz-Weiß-Musters vorliegen, eines Filters, der nur auf anderen Bildern ausgeführt wird und keinen Inhalt für sich selbst generiert, oder sogar in Form eines vollwertigen prozeduralen Materials mit mehreren Kanälen.
 
-Substance-Graphen sind [ der am weitesten unterstützte Diagrammtyp ](../getting-started/overview/overview.md) und können exportiert und in einer Vielzahl von verschiedenen Workflows verwendet werden.
+Substance-Graphen sind [&#x200B; der am weitesten unterstützte Diagrammtyp &#x200B;](../getting-started/overview/overview.md) und können exportiert und in einer Vielzahl von verschiedenen Workflows verwendet werden.
 
 </td>
 </tr>

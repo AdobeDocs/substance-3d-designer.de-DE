@@ -48,7 +48,7 @@ Bearbeitungen können *einzeln rückgängig gemacht werden*, und alle anderen Fu
 
 Die Malwerkzeuge werden automatisch im Bedienfeld [2D-Ansicht](../../../interface/2d-view/2d-view.md) aktiviert, wenn die folgenden Kriterien für eine Bitmap erfüllt sind:
 
-* Die Bitmap ist eine [neue oder importierte ](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)-Ressource.
+* Die Bitmap ist eine [neue oder importierte &#x200B;](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)-Ressource.
 * Die Bitmap weist die Präzision *8-Bit* auf.
 * Die Bitmap wird im Bereich [2D-Ansicht](../../../interface/2d-view/2d-view.md) angezeigt.
 

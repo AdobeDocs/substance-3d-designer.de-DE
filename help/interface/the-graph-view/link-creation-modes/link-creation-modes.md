@@ -92,7 +92,7 @@ Gruppierte Ein- und Ausgänge eines Grafen werden visuell als *gekennzeichnet, d
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Kapsel der Gruppe auf Knoten ](link-creation-modes.resources/link-creation-mode-group-node.png "Kapsel der Gruppe auf Knoten "){zoomable="yes"}
+![Kapsel der Gruppe auf Knoten &#x200B;](link-creation-modes.resources/link-creation-mode-group-node.png "Kapsel der Gruppe auf Knoten "){zoomable="yes"}
 
 </td>
 </tr>

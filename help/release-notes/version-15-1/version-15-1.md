@@ -126,7 +126,7 @@ Wenn Sie z. B. das Fehlen einer Variablen erkennen, können Sie einen Fallback-W
 
 [Weitere Informationen](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)
 
-![Ist Knoten ](version-15-1.resources/isdefined.png){zoomable="yes"} definiert
+![Ist Knoten &#x200B;](version-15-1.resources/isdefined.png){zoomable="yes"} definiert
 
 ## Versionshinweise
 
@@ -199,8 +199,8 @@ Wenn Sie z. B. das Fehlen einer Variablen erkennen, können Sie einen Fallback-W
 * [3D-Ansicht] Specular level wird nicht korrekt angewendet
 * [3D-Ansicht] Specular edge color funktioniert nicht, wenn Eclair rasterer verwendet wird
 * [3D-Ansicht] Vom Benutzer hinzugefügtes Material wird nicht auf Standardszenen angewendet
-* [3D-Ansicht][Bäcker] Die Materialfarbe ist zu dunkel, wenn sie einmal überschrieben wurde oder wenn ein &quot;Color&quot;-Bäcker verwendet wird
-* [3D-Ansicht][Bäcker] Keine Materialfarbe aus FBX-Datei
+* [3D-Ansicht]&#x200B;[Bäcker] Die Materialfarbe ist zu dunkel, wenn sie einmal überschrieben wurde oder wenn ein &quot;Color&quot;-Bäcker verwendet wird
+* [3D-Ansicht]&#x200B;[Bäcker] Keine Materialfarbe aus FBX-Datei
 * [Bäcker] Materialfarben in FBX-Dateien werden nicht korrekt erkannt
 * [Baker] Die Option &quot;recompute\_tangents&quot; ist in Exporten von JSON-Vorgaben immer &quot;false&quot;.
 * [Bäcker] CLI: Absturz beim aufeinander folgenden Ausführen desselben Bakers über die JSON-Datei

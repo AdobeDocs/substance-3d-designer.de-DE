@@ -36,7 +36,7 @@ Gibt den ersten Eingang zurück, der mit der Leistung des zweiten Eingangs erhö
 +++
 
 +++2Pow
-![Knotensymbol ](function-nodes.resources/2Pow_Node.jpg "2Knotensymbol ")
+![Knotensymbol &#x200B;](function-nodes.resources/2Pow_Node.jpg "2Knotensymbol ")
 
 
 

@@ -52,7 +52,7 @@ Auf dieser Seite werden die Hauptsymbolleiste und das Menü von [Substance 3D De
 <b>Neu:</b> öffnet ein Untermenü zum Erstellen eines Grafen oder Pakets:
 
 * <b>Neuer Substance-Graf..:</b>(Strg+N) Zeigt das Fenster [Neuer Graf](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) an, in dem Sie einen neuen [Substance-Graf](../../compositing-graphs/substance-compositing-graphs.md) einrichten können;
-* <b>Neuer Substance-Funktions-Graf:</b> Erstellt ein neues Paket mit einem [Substance-Funktions-Graf ](../../function-graphs/function-graphs.md);
+* <b>Neuer Substance-Funktions-Graf:</b> Erstellt ein neues Paket mit einem [Substance-Funktions-Graf &#x200B;](../../function-graphs/function-graphs.md);
 * <b>Leer:</b> Erstellt ein leeres Paket.
 
 <b>Öffnen...:</b> (Strg+O) Öffnen Sie ein vorhandenes [Substance-Paket (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).

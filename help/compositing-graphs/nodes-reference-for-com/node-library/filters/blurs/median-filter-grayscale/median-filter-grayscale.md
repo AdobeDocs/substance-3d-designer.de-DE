@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Graustufen des Medianfilters: Symbol ](median-filter-grayscale.resources/MedianFilter_Icon_Grayscale.png "Graustufen des Medianfilters: Symbol ")
+![Graustufen des Medianfilters: Symbol &#x200B;](median-filter-grayscale.resources/MedianFilter_Icon_Grayscale.png "Graustufen des Medianfilters: Symbol ")
 
 <b>In:</b> Filters > Blurs
 

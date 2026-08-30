@@ -40,7 +40,7 @@ Fügen Sie dem Graf einen oder mehrere [Ausgabeknoten](../../compositing-graphs/
 
 ### ![(Fehler)](warnings-in-substance-compositing-graphs.resources/error.svg) Die Funktion des *[x]*-Parameters enthält einige Warnungen.
 
-Der [Funktions-Graf ](../../function-graphs/function-graphs.md), der auf den angegebenen Parameter des angegebenen Knotens angewendet wird, weist mindestens eine Warnung auf.\
+Der [Funktions-Graf &#x200B;](../../function-graphs/function-graphs.md), der auf den angegebenen Parameter des angegebenen Knotens angewendet wird, weist mindestens eine Warnung auf.\
 Der Knotenparameter wird in eckigen Klammern nach der Knotenbezeichnung angegeben und folgt der Vorlage Node[Parameter].
 
 E.g. Einheitliche Farbe[Ausgabefarbe], Pixelprozessor[pro Pixelfunktion]

@@ -24,7 +24,7 @@ Auf dieser Seite wird die Methode zum Erstellen von Kategorien und Filtern zum V
 
 ## Überblick
 
-Nachdem [der Bibliothek ](../../../interface/preferences-window/project-settings/project-settings.md) benutzerdefinierte Inhalte hinzugefügt wurden, müssen Sie diese *auffindbar* machen.
+Nachdem [der Bibliothek &#x200B;](../../../interface/preferences-window/project-settings/project-settings.md) benutzerdefinierte Inhalte hinzugefügt wurden, müssen Sie diese *auffindbar* machen.
 
 Die Bibliothek verwendet eine Anzahl von *Datenpunkten*, um Inhalte zu identifizieren, sie zu filtern und in Suchvorgängen anzuzeigen. Zu diesen Datenpunkten gehören:
 
