@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/clone-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/clone-filter-node.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Filterknoten "Klonen", um Texturbereiche zu duplizieren und zu versetzen, um nahtlose Muster und Kacheleffekte zu erstellen.
+description: Mit dem Filterknoten "Klon" können Sie Bereiche von Texturen duplizieren und versetzen, um nahtlose Muster und Effekte auf Kachelungen zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Clone (Filter Node)
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Klonen (Filterknoten)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 2%
+source-wordcount: '179'
+ht-degree: 4%
 
 ---
 
@@ -22,22 +22,18 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/clone-4.png)
+![](clone-filter-node.resources/clone-4.png)
 
-## Klonen
-
-**In:** *Filter/Transformationen*
-
-**Fortgeschrittene**
+<b>In:</b> Filter > Transformieren
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Klont das Eingabebild einmal an eine bestimmte Position. Kann als primitives Werkzeug zum &quot;Klonstempel&quot; fungieren.
+Klons-Eingabebild einmal an einen bestimmten Speicherort. Kann als primitives Werkzeug zum &quot;Klonstempel&quot; fungieren.
 
 Sorgfältig, um die gewünschten Ergebnisse zu erzielen:
 
@@ -45,28 +41,34 @@ Sorgfältig, um die gewünschten Ergebnisse zu erzielen:
 * Die Maske ist standardmäßig schwarz, sodass für alle Ergebnisse ein einheitlicher Graustufenwert für Weiß mindestens angeschlossen werden muss.
 * Der Offset wird außerhalb des Bildes abgeschnitten, verwende also kleine Werte.
 
-## Parameter
-
-### Eingaben
-
-* **Quelle**: *Farbeingabe*\
-  Zu klonendes Bild. Wichtig: Idealerweise hat das Bild einen Alphakanal!
-* **Maske**: *Graustufen-Eingabe*\
-  Maskenschlitz zum Maskieren der Knoteneffekte. Standardmäßig ist es schwarz.
-
-### Parameter
-
-* **Offset**: *-*\
-  Verschiebt oder verschiebt das Ergebnis. &quot;Positiv&quot; steht für &quot;Links und oben&quot;, &quot;Negativ&quot; für &quot;Rechts und unten&quot;. Verwenden Sie kleine Werte, 1,0 und höher, um sie aus dem Bild zu verschieben!
-* **Weichzeichnungsmaske**: *0.0 - 10.0\
-  Wenden Sie einen Weichzeichnungsfilter auf eine Maske an, um Kanten weichzuzeichnen.*
-
-## Beispielbilder
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/clone-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Quelle</b> <i>Farbeingabe</i> | Zu klonendes Bild. Wichtig: Idealerweise hat das Bild einen Alphakanal! |
+| <b>Maske</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. Standardmäßig ist es schwarz. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Offset</b> <i>-</i> | Verschiebt oder verschiebt das Ergebnis. &quot;Positiv&quot; steht für &quot;Links und oben&quot;, &quot;Negativ&quot; für &quot;Rechts und unten&quot;. Verwenden Sie kleine Werte, 1,0 und höher, um sie aus dem Bild zu verschieben! |
+| <b>Weichzeichnungsmaske</b> <i>0.0 - 10.0</i> | Wende einen Weichzeichnungsfilter auf eine Maske an, um die Kanten weichzuzeichnen. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="clone-filter-node.resources/clone-example.png" />
+        </td>
+    </tr>
 </table>

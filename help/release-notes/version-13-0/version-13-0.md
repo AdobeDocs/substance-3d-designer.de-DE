@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/version-13-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-0.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Designer 13.0, um mehr über die neuen Knoten, Substance Engine 9.0 und Portalknoten zu erfahren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 13.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 2%
@@ -20,13 +20,13 @@ ht-degree: 2%
 
 # Version 13.0
 
-Diese Version 13.0.0 von Substance 3D Designer bringt viel Liebe zu Materialkünstlern mit einer riesigen Anzahl neuer Knoten, dem Substance Engine 9.0, das zum ersten Mal Schleifen einführt und eine großartige Ergänzung der Grafik darstellt: den Portalknoten an. Und um mehr Benutzern gefallen zu können, stellen wir einen brandneuen Startbildschirm vor und bieten zusätzliche Sprachen an.
+Diese Version 13.0.0 von Substance 3D Designer bringt viel Liebe zu Material-Künstlern, mit einer großen Anzahl von neuen Knoten, das Substance Engine 9.0 Einführung von Loops zum ersten Mal und mit einer großartigen Ergänzung des Grafen: den Portalknoten an. Und um mehr Benutzern gefallen zu können, stellen wir einen brandneuen Startbildschirm vor und bieten zusätzliche Sprachen an.
 
-Wie bereits in der Vorgängerversion erwähnt, unterstützt diese Version keine Substance-Modellgrafiken mehr: Das bedeutet, dass Sie solche Diagramme nicht mehr in Designer öffnen, bearbeiten oder exportieren können. Alle Gründe, warum wir diese Entscheidung getroffen haben, finden Sie in diesem [Beitrag](https://community.adobe.com/t5/substance-3d-designer-discussions/substance-model-graphs-end-of-life/td-p/13693731) in unserem Community-Forum.
+Wie in der vorherigen Version erwähnt, unterstützt diese Version keine Substance-Modellgrafiken mehr: Das bedeutet, dass Sie solche Graf nicht mehr in Designer öffnen, bearbeiten oder exportieren können. Alle Gründe, warum wir diese Entscheidung getroffen haben, finden Sie in diesem [Beitrag](https://community.adobe.com/t5/substance-3d-designer-discussions/substance-model-graphs-end-of-life/td-p/13693731) in unserem Community-Forum.
 
 *Freigabedatum: 6. Juni 2023*
 
-![Material mit Pfaden](../../assets/Paths2.png "Material mit Pfaden")
+![Material mit Pfaden](version-13-0.resources/Paths2.png "Material mit Pfaden")
 
 *Bildmaterial von [Celine Dameron](https://www.artstation.com/cline)*
 
@@ -39,7 +39,7 @@ Diese Version 13.0 bringt eine Menge neuer Inhalte. Sie finden hauptsächlich zw
 
 All diese Nodes bieten eine Menge Möglichkeiten und sie werden sicherlich eine Menge kreativer Anwendungen haben. Lesen Sie den Abschnitt über [das Arbeiten mit Pfaden und Spline-Werkzeugen](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md), um sich einen Überblick über die wichtigen Konzepte zu verschaffen, die Sie verstehen müssen, um sich mit diesem Toolset vertraut zu machen.
 
-![Material mit Splines](../../assets/Splines.png "Material mit Splines")
+![Material mit Splines](version-13-0.resources/Splines.png "Material mit Splines")
 
 *Bildmaterial von [Louise Melin](https://www.artstation.com/troglodette)*
 
@@ -61,22 +61,22 @@ Sie können auch <b>Brücken </b> zwischen Splines erstellen, um einen vollstän
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Spline Cubic](../../assets/SplineCubic-Demo.gif "Spline Cubic")
+![Spline Cubic](version-13-0.resources/SplineCubic-Demo.gif "Spline Cubic")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline Poly Quadratic](../../assets/SplinePolyQuadratic-Demo.gif "Spline Poly Quadratic")
+![Spline Poly Quadratic](version-13-0.resources/SplinePolyQuadratic-Demo.gif "Spline Poly Quadratic")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline Circle](../../assets/SplineCircle-Demo.gif "Spline Circle")
+![Spline Circle](version-13-0.resources/SplineCircle-Demo.gif "Spline Circle")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline Bridge-Liste](../../assets/SplineBridge-List_Demo.gif "Spline Bridge-Liste")
+![Spline Bridge-Liste](version-13-0.resources/SplineBridge-List_Demo.gif "Spline Bridge-Liste")
 
 </td>
 </tr>
@@ -94,17 +94,17 @@ Wir bieten auch Tools an, mit denen Sie Ihre Splines nachbearbeiten und optimier
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![2D-Spline-Transformation](../../assets/Spline2DTransform-Demo1.gif "2D-Spline-Transformation")
+![2D-Spline-Transformation](version-13-0.resources/Spline2DTransform-Demo1.gif "2D-Spline-Transformation")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline-Verkrümmung](../../assets/SplineWarp-Demo.gif "Spline-Verkrümmung")
+![Spline-Verkrümmung](version-13-0.resources/SplineWarp-Demo.gif "Spline-Verkrümmung")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline-Beispiel-Thickness](../../assets/SplineSampleThickness-Demo.gif "Spline-Beispiel-Thickness")
+![Spline-Beispiel-Thickness](version-13-0.resources/SplineSampleThickness-Demo.gif "Spline-Beispiel-Thickness")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -125,22 +125,22 @@ Dank [Spline Fill](../../compositing-graphs/nodes-reference-for-com/node-library
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Streuung auf Spline-Graustufen](../../assets/ScatterOnSplineGrayscale-Demo.gif "Streuung auf Spline-Graustufen")
+![Streuung auf Spline-Graustufen](version-13-0.resources/ScatterOnSplineGrayscale-Demo.gif "Streuung auf Spline-Graustufen")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline-Füllung](../../assets/SplineFill-Demo.gif "Spline-Füllung")
+![Spline-Füllung](version-13-0.resources/SplineFill-Demo.gif "Spline-Füllung")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline-Zuordnungsfarbe](../../assets/SplineMapperColor-Demo.gif "Spline-Zuordnungsfarbe")
+![Spline-Zuordnungsfarbe](version-13-0.resources/SplineMapperColor-Demo.gif "Spline-Zuordnungsfarbe")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline-Flusszuordnung](../../assets/SplineFlowMapper-Demo.gif "Spline-Flusszuordnung")
+![Spline-Flusszuordnung](version-13-0.resources/SplineFlowMapper-Demo.gif "Spline-Flusszuordnung")
 
 </td>
 </tr>
@@ -150,18 +150,18 @@ Dank [Spline Fill](../../compositing-graphs/nodes-reference-for-com/node-library
 
 Mit dem Knoten [Maske zu Pfaden](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) können Sie den Rahmen eines Graustufenmusters in Form einer Liste von Segmenten extrahieren.
 
-Sie können diese Pfade dann mit den Knoten [Pfad 2D transformieren](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) oder [Pfad-Verkrümmung](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) verarbeiten, um sie an Ihre Anforderungen anzupassen.  Dank des Knotens [Pfade zu Spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) können Sie Ihren Pfad in eine Spline konvertieren und so alle Knoten nutzen, die Splines gewidmet sind, wie z. B. Streuungen.
+Sie können diese Pfade dann mit den Knoten [Pfad 2D Transformieren](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) oder [Pfad-Verkrümmung](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) verarbeiten, um sie an Ihre Anforderungen anzupassen.  Dank des Knotens [Pfade zu Spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) können Sie Ihren Pfad in eine Spline konvertieren und so alle Knoten nutzen, die Splines gewidmet sind, wie z. B. Streuungen.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Zu Pfaden maskieren](../../assets/MaskToPaths-Demo2.gif "Zu Pfaden maskieren")
+![Zu Pfaden maskieren](version-13-0.resources/MaskToPaths-Demo2.gif "Zu Pfaden maskieren")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Maske zu Pfaden 2](../../assets/MaskToPaths-Demo1.gif "Maske zu Pfaden 2")
+![Maske zu Pfaden 2](version-13-0.resources/MaskToPaths-Demo1.gif "Maske zu Pfaden 2")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -186,39 +186,39 @@ Um Ihnen dabei zu helfen, all diese neuen Knoten zu erlernen, haben wir zwei neu
 
 Alle oben aufgeführten neuen Knoten basieren auf der neuen Substance Engine-Version und nutzen die neue Hauptfunktion voll aus: <b>Schleifen</b>.
 
-Schleifen sind nur für die Verwendung innerhalb von [Substance-Funktionsgraphen](../../function-graphs/function-graphs.md) vorgesehen, und Sie implementieren sie höchstwahrscheinlich in einem [Pixelprozessor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), einer [Fx-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) oder einem [Value Prozessor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md). Loops ermöglicht es Ihnen natürlich, eine Funktion einfach viele Male zu wiederholen, bis eine Bedingung erfüllt ist. Es wird dir helfen, deine Diagramme aufzuhellen und an Genauigkeit zu gewinnen.
+Loops sind nur für die Verwendung innerhalb von [Substance-Funktions-Grafen](../../function-graphs/function-graphs.md) vorgesehen und werden höchstwahrscheinlich in einem [Pixelprozessor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), einer [Fx-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) oder einem [Wertprozessor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) implementiert. Loops ermöglicht es Ihnen natürlich, eine Funktion einfach viele Male zu wiederholen, bis eine Bedingung erfüllt ist. Es wird Ihnen helfen, eine Menge Ihrer Graf aufzuhellen und an Genauigkeit zu gewinnen.
 
 Dieses [Tutorial](https://www.youtube.com/watch?v=Ggoy8G90oDI) hilft Ihnen, mit Schleifen zu arbeiten.
 
 Substance Engine 9 bietet außerdem die folgenden Verbesserungen:
 
-* Neuer Farbflächenmodus im Verlaufseditor des [Verlaufsumsetzung](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)-Knotens (d. h. überhaupt keine Interpolation)
-* Atomic pow() node in Substance-Funktionsdiagrammen
+* Neuer Farbflächenmodus im Verlaufseditor des [Verlaufs-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)-Knotens (d. h. überhaupt keine Interpolation)
+* Atomic-Knoten pow() in Substance-Funktions-Graf
 * Hinzufügen von Optionen zum Eingliedern von Rahmen (Einspannen an Kanten, Wiederholen) in Sampler-Knoten
-* Nächste Sampling in [Warp](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) und [Directional Warp](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) Knoten
+* Nächste Sampling in [Warp](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)- und [Richtungsverzerrung](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)-Knoten
 
 ## Portalknoten
 
-Der Knoten [Portal](../../interface/the-graph-view/graph-items/graph-items.md) ist eine neue Erweiterung des Knotens [Dot](../../interface/the-graph-view/graph-items/graph-items.md) mit der Möglichkeit, Verbindungen in Ihrem Diagramm auszublenden.
+Der Knoten &quot;[Portal](../../interface/the-graph-view/graph-items/graph-items.md)&quot; ist eine neue Erweiterung des Knotens &quot;[Dot](../../interface/the-graph-view/graph-items/graph-items.md)&quot; mit der Möglichkeit, Verbindungen in Ihrem Graf auszublenden.
 
-Dank dieser Funktion können Sie die Lesbarkeit des Diagramms verbessern, indem Sie sehr lange Verbindungen ausblenden und von überall im Diagramm einen schnellen Zugriff auf wichtige Knoten haben.
+Dank dieser Funktion können Sie die Lesbarkeit von Grafen verbessern, indem Sie sehr lange Verbindungen ausblenden und von überall im Graf aus schnell auf Schlüsselknoten zugreifen können.
 
 Diese neue Funktion wird in diesem dedizierten [Tutorial](https://www.adobe.com/go/designer-tutorial-portals) ausführlich erläutert.
 
-![Portal-Knoten](../../assets/PortalNodeFinal.gif "Portal-Knoten")
+![Portal-Knoten](version-13-0.resources/PortalNodeFinal.gif "Portal-Knoten")
 
 ## Startbildschirm
 
 Wenn Sie Designer starten, wissen Sie, dass Sie Zugriff auf einen brandneuen [Startbildschirm](../../interface/home-screen/home-screen.md) haben, wie den, den Sie in anderen Adobe-Produkten haben. Auf diesem Bildschirm können Sie folgende Aktionen ausführen:
 
-* Erstellen Sie schnell ein neues Diagramm.
+* Schnelles Erstellen eines neuen Grafen
 * Sehen Sie sich die Liste aller kürzlich in Designer geöffneten Dateien an, mit einigen Details wie der Größe, dem Datum, an dem sie zum letzten Mal geändert wurde, oder dem vollständigen Dateipfad.
 * Eine Trainingsseite, auf der Sie einen Link zu Lernressourcen finden, z. B. Tutorials zur Einführung in neue Funktionen oder kurze Tipps;
 * Direkte Links zum Bildschirm &quot;Neue Funktionen&quot;, zum Bildschirm &quot;Info&quot;, zur Substance 3D-Website, zum Support-Community-Forum usw.
 
-![Startbildschirm - Startseite](../../assets/HomeScreen.png "Startbildschirm - Startseite")
+![Startbildschirm - Startseite](version-13-0.resources/HomeScreen.png "Startbildschirm - Startseite")
 
-![Startbildschirm - Training](../../assets/LearnPage.png "Startbildschirm - Training")
+![Startbildschirm - Training](version-13-0.resources/LearnPage.png "Startbildschirm - Training")
 
 ## Neue Sprachen
 

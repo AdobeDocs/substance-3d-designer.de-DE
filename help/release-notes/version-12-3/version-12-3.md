@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/version-12-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-3.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Designer 12.3, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 12.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Freigabedatum: *6. Oktober 2022*
 
-![](../../assets/largef.png){width="1111px"}
+![](version-12-3.resources/largef.png){width="1111px"}
 
 ## Wichtigste Funktionen
 
@@ -33,20 +33,20 @@ Freigabedatum: *6. Oktober 2022*
 Wenn Sie es gewohnt sind, Graphen zu erstellen, möchten Sie in der Lage sein, Untergraph (oder Graphinstanzen) zu erstellen, um Ihre Arbeit wiederzuverwenden, Graphen weniger überladen und effizienter zu gestalten.\
 Dies ist jetzt auch für Substance-Modellgrafiken möglich: Ziehe den Untergraph einfach aus dem Explorer in das Hauptdiagramm, um ihn als Instanzknoten zu verwenden.
 
-![](../../assets/subgraph.gif){width="600px"}
+![](version-12-3.resources/subgraph.gif){width="600px"}
 
 Wir haben auch das Konzept der Ausgabeknoten für Substance-Modellgrafiken eingeführt, wie z. B. Ausgabeszene. Sie haben jetzt die Möglichkeit, einen oder mehrere Ausgänge in Ihrem Diagramm zu haben.\
 Jede Ausgabe entspricht einem Ausgabepin, wenn Ihr Diagramm in einem anderen Diagramm instanziiert wird.
 
-![](../../assets/image2022-10-4-15-31-27.png){width="600px"}
+![](version-12-3.resources/image2022-10-4-15-31-27.png){width="600px"}
 
 Wenn Sie mit der rechten Maustaste auf einen Instanzknoten klicken, können Sie natürlich auf den zugehörigen referenzierten Untergraph zugreifen, um diesen anzuzeigen oder zu bearbeiten.
 
-![](../../assets/image2022-10-4-16-28-36.png){width="600px"}
+![](version-12-3.resources/image2022-10-4-16-28-36.png){width="600px"}
 
 Mithilfe von Untergraphen und angezeigten Parametern können Sie komplexe Elemente erstellen und unendliche Variationen anwenden, wie in der Abbildung unten gezeigt.
 
-![](../../assets/seasons.gif){width="600px"}
+![](version-12-3.resources/seasons.gif){width="600px"}
 
 ### Weitere Verbesserungen für Substance-Modellgrafiken
 
@@ -55,18 +55,18 @@ Mithilfe von Untergraphen und angezeigten Parametern können Sie komplexe Elemen
   Mit <b>Visible If</b> können Sie Bedingungen zur Parametersichtbarkeit hinzufügen, wobei eine klare und funktionale Benutzeroberfläche erhalten bleibt. Dieser Mechanismus, der bereits für Substance-Graphen verfügbar ist, wird nun auf Substance-Modellgraphen erweitert, wobei natürlich die gleiche Syntax verwendet wird. <b>\
   </b>
 
-  ![](../../assets/visibleif.gif){width="600px"}
+  ![](version-12-3.resources/visibleif.gif){width="600px"}
 
 * <b>Neue Knoten für die Kurven-Edition\
   </b>Diese Version enthält einige neue Knoten für die Kurven-Edition: <b>Kurve umkehren</b> tauscht die beiden Enden einer Kurve aus, <b>Kurve unterteilen</b> fügt weitere Scheitelpunkte auf Segmenten nach zwei Methoden hinzu, <b>Kurve glätten </b> alle Winkel auf einer 2D-Kurve glättet und <b>Kurve verschieben</b> bläst eine 2D-Kurve auf oder entleert sie, wie unten dargestellt.<b>
 
   </b>
 
-  ![](../../assets/curve-offset-4.gif){width="600px"}
+  ![](version-12-3.resources/curve-offset-4.gif){width="600px"}
 * <b>Neues Diagrammfenster </b>\
   Das Fenster &quot;<b>Neues Substance-Modelldiagramm</b>&quot; ist jetzt auch für Substance-Modelldiagramme verfügbar. Sie können Ihre eigenen Vorlagen hinzufügen oder eine Standardvorlage auswählen, dann geben Sie direkt den Namen Ihres Diagramms ein und wählen das Paket aus, dem das Diagramm hinzugefügt werden soll.
 
-  ![](../../assets/image2022-10-5-15-25-42.png){width="600px"}
+  ![](version-12-3.resources/image2022-10-5-15-25-42.png){width="600px"}
 
 ### Bedienfelder &quot;Willkommen&quot; und &quot;Neue Funktionen&quot;
 
@@ -76,9 +76,9 @@ Zunächst bietet das Bedienfeld <b>Willkommen </b> - das beim ersten Start von *
 
 Diese beiden Bereiche sind auch über das Menü &quot;Hilfe&quot; zugänglich.
 
-![](../../assets/image2022-10-3-15-47-28.png)
+![](version-12-3.resources/image2022-10-3-15-47-28.png)
 
-![](../../assets/image2022-10-3-15-47-55.png)
+![](version-12-3.resources/image2022-10-3-15-47-55.png)
 
 ### Sonstiges
 
@@ -88,7 +88,7 @@ Diese beiden Bereiche sind auch über das Menü &quot;Hilfe&quot; zugänglich.
   In früheren Versionen konnte Designer den im Betriebssystem festgelegten Skalierungsfaktor nicht korrekt verarbeiten. Wie Sie in der Abbildung unten sehen können, ist alles perfekt verwaltet auf einem 4K-Display mit 125 % Skalierung mit allen Schriften und Tasten in einer kohärenten Größe angezeigt.\
   Beachten Sie, dass die Option &quot;High DPI deaktivieren&quot; in den Voreinstellungen in dieser neuen Version auf *False* zurückgesetzt wurde, da diese Option nicht mehr erforderlich ist, um über eine verwendbare Schnittstelle zu verfügen.
 
-  ![](../../assets/highdpi-fix.gif){width="600px"}
+  ![](version-12-3.resources/highdpi-fix.gif){width="600px"}
 
 * **Native Unterstützung für Apple Silicon (M1/M2) für Steam-Version**\
   Die 12.2-Version von Designer war die erste, die die volle Unterstützung für neue Apple-Rechner auf der Basis von M1- oder M2-Chips mitbrachte, aber diese Unterstützung fehlte in der Steam-Edition. Ab jetzt können alle Designer-Benutzer von einer schnelleren und effizienteren Benutzererfahrung auf diesen Computern profitieren.

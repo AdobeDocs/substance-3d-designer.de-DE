@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Angleichen", um mithilfe verschiedener Füllmethoden zwei Texturen miteinander zu verblenden und so Kompositionseffekte zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Überblenden
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 9%
@@ -24,20 +24,20 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Blend](../../../../assets/comp_blend_1.png "Atomic node: Überblendung "){width="200px"}
+![Atomknoten: Blend](blend.resources/comp_blend_1.png "Atomic node: Überblendung "){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 Kombiniert zwei Bilder mit einer angegebenen Füllmethode und einer optionalen Maske.
 
-Es ist der nützlichste Knoten aller Atomknoten. Nahezu jeder Graph, den Sie in [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) erstellen, verwendet diesen Knoten.
+Es ist der nützlichste Knoten aller Atomknoten. Nahezu jeder Graph, den Sie in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) erstellen, verwendet diesen Knoten.
 
 </td>
 </tr>
 </table>
 
-Die Funktionalität ähnelt der von zwei Ebenen übereinander in [Substance 3D Painter](https://www.adobe.com/de/products/substance3d-painter.html) oder [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), die durch den Mischmodus, den Sie auf der obersten Ebene festgelegt haben, miteinander vermischt werden.
+Die Funktionalität ähnelt der von zwei Ebenen übereinander in [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) oder [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), die durch den Mischmodus, den Sie auf der obersten Ebene festgelegt haben, miteinander vermischt werden.
 
 >[!TIP]
 >

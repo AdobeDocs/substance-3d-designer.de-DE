@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/technical-issues/warnings-and-errors.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/warnings-and-errors.html"
 breadcrumb-title: ''
 description: Finden Sie Lösungen für häufig auftretende Warnungen und Fehler in Substance 3D Designer, um Probleme schnell zu beheben.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Warnungen und Fehler
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '816'
 ht-degree: 6%
 
 ---
@@ -20,14 +20,14 @@ ht-degree: 6%
 
 # Warnungen und Fehler
 
-Auf dieser Seite werden die Berichterstellung für Warnungen und Fehlermeldungen erläutert, die in [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) angezeigt werden können, sowie Links zur Fehlerbehebung für Warnungen anhand ihrer Quelle.
+Auf dieser Seite werden die Berichterstellung für Warnungen und Fehlermeldungen erläutert, die in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) angezeigt werden können, sowie Links zur Fehlerbehebung für Warnungen anhand ihrer Quelle.
 
 ## Überblick
 
 Bei der Arbeit an Projekten in Designer können Warnungen und Fehlermeldungen angezeigt werden, die Sie über ein Problem im Projekt informieren:
 
 * **Warnungen** werden in *gelbem* Text angezeigt und machen Sie auf ein Problem aufmerksam, das aufgrund fehlender Eingabe oder fehlerhafter Konfiguration zu einem unerwünschten Ergebnis führen kann. Normalerweise *wird Ihre Arbeit nicht blockiert*.
-* **Fehler** werden im Text *Rot* angezeigt und weisen auf eine fehlgeschlagene Berechnung, ein unerwartetes Ergebnis oder die Unfähigkeit zum Ausführen einer Aufgabe hin. Normalerweise *wird Ihre Arbeit blockiert*.
+* **Fehler** werden im Text *Rot* angezeigt und weisen auf einen Fehler bei der Berechnung, ein unerwartetes Ergebnis oder die Unfähigkeit zur Ausführung einer Aufgabe hin. Normalerweise *wird Ihre Arbeit blockiert*.
 
 Im Allgemeinen werden Warnungen und Fehler für das Element angezeigt, das sie ausgelöst hat, und *werden für jedes übergeordnete* Element dieses Elements angezeigt. Im Folgenden finden Sie eine Liste der häufigsten Stellen, an denen Warnungen und Fehler gemeldet werden:
 
@@ -37,7 +37,7 @@ Im Allgemeinen werden Warnungen und Fehler für das Element angezeigt, das sie a
 
 ### Explorer
 
-Für jedes Element im Bereich &quot;[Explorer](../../interface/the-explorer-window/the-explorer-window.md)&quot;, das eine Warnung enthält, wird diese Warnung mit einem Symbol &quot;![](../../assets/warning-icon.png)&quot; am rechten Rand des Eintrags des Elements in der Liste angezeigt. Lassen Sie den Cursor einige Sekunden auf diesem Symbol, um eine *QuickInfo* anzuzeigen, in der alle Warnungen detailliert aufgeführt sind.
+Für jedes Element im Bereich [Explorer](../../interface/the-explorer-window/the-explorer-window.md), das eine Warnung enthält, wird diese Warnung mit einem Symbol ![](warnings-and-errors.resources/warning-icon.png) am rechten Rand des Eintrags des Elements in der Liste angezeigt. Lassen Sie den Cursor einige Sekunden auf diesem Symbol, um eine *QuickInfo* anzuzeigen, in der alle Warnungen detailliert aufgeführt sind.
 
 Sie befolgen die folgenden Regeln:
 
@@ -48,7 +48,7 @@ Sie befolgen die folgenden Regeln:
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-explorer.png){width="256px"}
+![](warnings-and-errors.resources/warning-overview-explorer.png){width="256px"}
 
 </td>
 </tr>
@@ -60,18 +60,18 @@ Sie befolgen die folgenden Regeln:
 
 ### Diagrammansicht
 
-Für jedes Element im Bereich &quot;[Diagrammansicht](../../interface/the-graph-view/the-graph-view.md)&quot;, das eine Warnung enthält, wird diese Warnung mit farbigem Text in der *linken unteren Ecke* des Ansichtsports angezeigt. Wenn die Warnung von einem bestimmten Knoten ausgelöst wird, verfügt dieser Knoten über ein Warnzeichen ![](../../assets/warning-badge.png). Lassen Sie den Cursor einige Sekunden auf diesem Abzeichen, um eine *QuickInfo* anzuzeigen, in der alle Warnungen detailliert aufgeführt sind.
+Für jedes Element im Bereich &quot;[Diagrammansicht](../../interface/the-graph-view/the-graph-view.md)&quot;, das eine Warnung enthält, wird diese Warnung mit farbigem Text in der *linken unteren Ecke* des Ansichtsports angezeigt. Wenn die Warnung von einem bestimmten Knoten ausgelöst wird, verfügt dieser Knoten über ein Warnzeichen ![](warnings-and-errors.resources/warning-badge.png). Lassen Sie den Cursor einige Sekunden auf diesem Abzeichen, um eine *QuickInfo* anzuzeigen, in der alle Warnungen detailliert aufgeführt sind.
 
 Sie befolgen die folgenden Regeln:
 
-* Wenn ein Quell-Graf *, der* in einen anderen Host-Graf instanziieren wurde, eine oder mehrere Warnungen enthält, wird der [Instanzknoten](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) für diesen Quell-Graf mit einer *Einzel* `The referenced data has some warnings`-Warnung angezeigt.
+* Wenn ein Quelldiagramm *instanziiert* in einem anderen Hostdiagramm eine oder mehrere Warnungen enthält, hat der [Instanzknoten](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) für dieses Quelldiagramm eine *einzelne* `The referenced data has some warnings` Warnung.
 * Warnungslisten sind *kumulativ*, da sie die Summe der Warnungen des Diagramms *und* aller Warnungen der untergeordneten Knoten sind.
 * Alle Warnungen eines Diagramms werden für das Element ausgegeben, das dieses Diagramm im Explorer-Bedienfeld darstellt.
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-graph.png){width="256px"}
+![](warnings-and-errors.resources/warning-overview-graph.png){width="256px"}
 
 </td>
 </tr>
@@ -83,18 +83,18 @@ Sie befolgen die folgenden Regeln:
 
 ### Eigenschaften
 
-Für jedes Element im Bereich [Eigenschaften](../../interface/properties/properties.md), das eine Warnung enthält, wird diese Warnung mit einem Symbol ![](../../assets/warning-icon.png) am rechten Rand des Eintrags des Elements in der Liste angezeigt. Lassen Sie den Cursor einige Sekunden auf diesem Symbol, um eine *QuickInfo* anzuzeigen, in der alle Warnungen detailliert aufgeführt sind.
+Für jedes Element im Bereich [Eigenschaften](../../interface/properties/properties.md), das eine Warnung enthält, wird diese Warnung mit einem Symbol ![](warnings-and-errors.resources/warning-icon.png) am rechten Rand des Eintrags des Elements in der Liste angezeigt. Lassen Sie den Cursor einige Sekunden auf diesem Symbol, um eine *QuickInfo* anzuzeigen, in der alle Warnungen detailliert aufgeführt sind.
 
 Sie befolgen die folgenden Regeln:
 
 * Wenn das Element unter einem anderen Element verschachtelt ist (z. B. einer Abschnittsüberschrift), werden Warnungen zu diesem Element angezeigt, wenn es ausgeblendet wird.
 * Warnungslisten sind *kumulativ*, da sie die Summe der Warnungen eines Elements *und* aller angezeigten Warnungen seiner untergeordneten Elemente sind.
-* Wenn das [Funktionsdiagramm &#x200B;](../../function-graphs/function-graphs.md), das auf einen [Eingabeparameter &#x200B;](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) angewendet wurde, eine oder mehrere Warnungen enthält, enthält das Parameterelement eine *einzelne* `The [x] parameter's function has some warnings` Warnung.
+* Wenn das [Funktionsdiagramm ](../../function-graphs/function-graphs.md), das auf einen [Eingabeparameter ](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) angewendet wurde, eine oder mehrere Warnungen enthält, enthält das Parameterelement eine *einzelne* `The [x] parameter's function has some warnings` Warnung.
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-properties.png){width="256px"}
+![](warnings-and-errors.resources/warning-overview-properties.png){width="256px"}
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ Im Bedienfeld **Konsole** werden sowohl Warnungen als auch Fehler gemeldet. Sie 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-console.png){width="256px"}
+![](warnings-and-errors.resources/warning-overview-console.png){width="256px"}
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ Im Folgenden finden Sie eine Liste der Warnungen und Fehler, die in Designer auf
 ### Warnungen in Substance-Graphen
 
 * Kein Ausgabeknoten definiert
-* Die Funktion des Parameters [x] enthält einige Warnungen.
+* Die Funktion des `[x]`-Parameters enthält einige Warnungen.
 * Die referenzierten Daten enthalten einige Warnungen.
 * Referenzressource nicht gefunden
 * Textknoten verwendet ungültige Schriftart

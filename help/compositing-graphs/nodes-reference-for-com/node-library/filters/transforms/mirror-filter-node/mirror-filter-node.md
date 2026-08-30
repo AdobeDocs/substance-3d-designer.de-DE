@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/mirror-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/mirror-filter-node.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Filterknoten Spiegeln , um Texturen horizontal oder vertikal zu spiegeln, um symmetrische Muster und Effekte zu erstellen.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Spiegeln (Filterknoten)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 1%
+source-wordcount: '148'
+ht-degree: 4%
 
 ---
 
@@ -22,40 +22,44 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mirror-2.png){width="128px"}
+![](mirror-filter-node.resources/mirror-2.png){width="128px"}
 
-![](../../../../../../assets/mirror-grayscale.png){width="128px"}
+![](mirror-filter-node.resources/mirror-grayscale.png){width="128px"}
 
-## Spiegeln (Graustufen)
-
-**In:** *Filter/Transformationen*
-
-**Fortgeschrittene**
+<b>In:</b> Filter > Transformieren
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Spiegelt das Eingabebild über eine ausgewählte Achse von einer ausgewählten Seite. Sehr nützliche, schnelle Möglichkeit, symmetrische Effekte zu erhalten.
 
-## Parameter
-
-* **Modus**: *Spiegelachse X, Spiegelachse Y, Spiegeln* *Ecke* Wählen Sie aus, ob links-rechts, oben-unten oder beides gespiegelt werden soll.
-* **Achse X Versatz**: *0.0 - 1.0* Definieren Sie einen Versatz, der nur verwendet wird, wenn die Achse X ausgewählt ist.
-* **Achse Y Versatz**: *0.0 - 1.0* Definieren Sie einen Versatz, der nur verwendet wird, wenn die Achse Y ausgewählt ist.
-* **Achse X umkehren**: *Falsch/Wahr* Wird nur verwendet, wenn Achse X ausgewählt ist, Richtung spiegeln.
-* **Achse Y** umkehren: *Falsch/Wahr* Wird nur verwendet, wenn die Achse Y ausgewählt ist, Richtung spiegeln.
-* **Eckentyp**: *Oben links, Oben rechts, Unten links, Unten rechts* Wird nur verwendet, wenn der Eckentyp ausgewählt ist, legen Sie fest, aus welcher Ecke gespiegelt werden soll.
-
-## Beispielbilder
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/mirror-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Modus</b> <i>Spiegelachse X, Spiegelachse Y, Spiegelecke</i> | Wählen Sie, ob links-rechts, oben-unten oder beides gespiegelt werden soll. |
+| <b>Achse X Versatz</b> <i>0.0 - 1.0</i> | Definieren Sie einen Versatz, der nur verwendet wird, wenn die Achse X ausgewählt ist. |
+| <b>Achse Y Versatz</b> <i>0.0 - 1.0</i> | Definieren Sie einen Versatz, der nur verwendet wird, wenn die Achse Y ausgewählt ist. |
+| <b>Achse X umkehren</b> <i>False/True</i> | Wird nur verwendet, wenn Achse X ausgewählt ist, &quot;Richtung spiegeln&quot;. |
+| <b>Achse Y</b> umkehren <i>False/True</i> | Wird nur verwendet, wenn die Achse Y ausgewählt ist, &quot;Richtung spiegeln&quot;. |
+| <b>Eckentyp</b> <i>Oben links, oben rechts, unten links, unten rechts</i> | Wird nur verwendet, wenn der Eckentyp ausgewählt ist. Legen Sie fest, von welcher Ecke gespiegelt werden soll. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="mirror-filter-node.resources/mirror-example.png" />
+        </td>
+    </tr>
 </table>

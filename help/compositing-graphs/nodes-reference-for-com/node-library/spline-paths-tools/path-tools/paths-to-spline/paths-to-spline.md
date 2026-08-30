@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-to-spline.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-to-spline.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Pfade zu Spline", um Pfaddaten in Splines zu konvertieren, um sie mit Spline-basierten Knoten zu verwenden.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Pfade zum Spline-Effekt
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '251'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/paths-to-splines-icon.png "Knotensymbol")
+![Knotensymbol](paths-to-spline.resources/paths-to-splines-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Path Tools
 
@@ -47,35 +47,31 @@ Konvertiert Pfade in Splines, die mit einem [Spline Render](../../../../../../co
 >
 > Dieser Knoten kann nach dem Knoten [Maske in Pfade](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) verwendet werden, um eine Kette zu bilden, die eine Maske in Splines konvertiert.
 
-## Eingangsanschlüsse
+<a name="inputs"></a>
 
-<b>Pfade</b> *Farbe*\
-Eine Liste der codierten Segmentpfade. Verbinden Sie diese Eingabe mit dem Ergebnis einer [Maske mit Pfaden](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) oder mit einem anderen Pfadverarbeitungsknoten.
+## Eingaben
 
-## Ausgangsanschlüsse
+|  |  |
+|:---|:---|
+| <b>Pfade</b> <i>Farbe</i> | Eine Liste der codierten Segmentpfade. Verbinden Sie diese Eingabe mit dem Ergebnis einer [Maske mit Pfaden](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) oder mit einem anderen Pfadverarbeitungsknoten. |
 
-<b>Spline Coords </b>*Color* Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Spline-Punkte:\
-<b>R</b> - X-Position\
-<b>G</b> - Y-Position\
-<b>B</b> - Height\
-<b>A</b> - Paketdaten:\
-* Signieren: Die Spline ist geschlossen (negativ) oder offen (positiv).\
-* Absoluter Wert: Thickness + 1.
+<a name="outputs"></a>
 
-<b>Spline-Daten</b> *Farbe*\
-Zusätzliche Daten der Eingabe-Splines, die in den RGBA-Kanälen eines <b>color</b>-Bildes codiert sind:\
-<b>R</b> - Tangenten X\
-<b>G</b> - Tangenten Y\
-<b>B</b> - Nicht verwendet\
-<b>A</b> - Nicht verwendet
+## Ausgaben
 
-<b>Spline-Betrag</b> *Integer*\
-Die Anzahl der Eingabe-Splines.
+|  |  |
+|:---|:---|
+| <b>Spline-Kabel</b> <i>Farbe</i> | Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Eingabesplines:<br><b>R</b> - X position<br><b>G</b> - Y position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br> * Sign: Spline ist geschlossen (negativ) oder offen (positiv);<br> * Absolute Wert: Thickness + 1. |
+| <b>Spline-Daten</b> <i>Farbe</i> | Zusätzliche Daten der Eingabe-Splines, die in den RGBA-Kanälen eines <b>Farbbilds</b> codiert sind:<br><b>R</b> - Tangenten X<br><b>G</b> - Tangenten Y<br><b>B</b> - Nicht verwendet<br><b>A</b> - Nicht verwendet |
+| <b>Spline-Betrag</b> <i>Integer</i> | Die Anzahl der Eingabe-Splines. |
+
+<a name="parameters"></a>
 
 ## Parameter
 
-<b>Splines Precision</b> *Integer*\
-Der Basis-2-Logarithmus (log2) der Anzahl der Scheitelpunkte, die in jedem Pfad der Pfadeingabe gesampelt werden, um den entsprechenden Spline zu erstellen.
+|  |  |
+|:---|:---|
+| <b>Splines Precision</b> <i>Integer</i> | Der Basis-2-Logarithmus (log2) der Anzahl der Scheitelpunkte, die in jedem Pfad der Pfadeingabe gesampelt werden, um den entsprechenden Spline zu erstellen. |
 
 ## Beispiele
 
@@ -86,11 +82,11 @@ Der Basis-2-Logarithmus (log2) der Anzahl der Scheitelpunkte, die in jedem Pfad 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant1-Before.jpg" alt="PathsToSpline-Variant1-Before">
+      <img src="paths-to-spline.resources/PathsToSpline-Variant1-Before.jpg" alt="PathsToSpline-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant1-After.jpg" alt="PathsToSpline-Variant1-After">
+      <img src="paths-to-spline.resources/PathsToSpline-Variant1-After.jpg" alt="PathsToSpline-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -102,11 +98,11 @@ Der Basis-2-Logarithmus (log2) der Anzahl der Scheitelpunkte, die in jedem Pfad 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-to-spline.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-After.jpg" alt="PathsToSpline-Variant2-After">
+      <img src="paths-to-spline.resources/PathsToSpline-Variant2-After.jpg" alt="PathsToSpline-Variant2-After">
       <br><i>Nach</i>
     </td>
   </tr>

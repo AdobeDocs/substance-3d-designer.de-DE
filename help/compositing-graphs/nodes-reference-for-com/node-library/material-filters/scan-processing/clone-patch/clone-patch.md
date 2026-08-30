@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/clone-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/clone-patch.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Klonausbesserungsknoten zum Klonen und Ausbessern von Bereichen in gescannten Materialien, um Artefakte und Makel zu entfernen.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Klonausbesserung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 0%
+source-wordcount: '456'
+ht-degree: 3%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/clone-patch.png){width="128px"}
+![](clone-patch.resources/clone-patch.png){width="128px"}
 
-![](../../../../../../assets/clone-patch-grayscale.png){width="128px"}
+![](clone-patch.resources/clone-patch-grayscale.png){width="128px"}
 
-## Klonpflaster/Klonpflaster Graustufen
-
-**In:** *Materialfilter/Scanverarbeitung*
-
-**Komplex**
+<b>In:</b> Materialfilter > Scanverarbeitung
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -53,28 +49,25 @@ Es ist auch wichtig zu verstehen, dass Sie den Zielbereich mit einem Gizmo versc
 > 
 > Informationen zu den Fällen, in denen Sie diesen Vorgang für mehrere Eingaben gleichzeitig ausführen möchten (ohne dass es sich um ein Material handelt), finden Sie unter [Patch für mehrere Klone](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md).
 
-## Parameter
-
-* **Ist normal (nur für Farbe)**: *False/True*\
-  Legt fest, ob die Eingabe eine Normalmap ist und ob die Füllmethode als solche behandelt werden soll.
-* **Form**: *Quadrat, Datenträger* Legt die Stempelform fest. Wird nur als Basis verwendet.
-* **Edge**
-  * **Schwellenwert**: *0.0 - 1.0* Legt fest, wie weit der angeglichene Bereich reichen soll. Dieser Effekt wächst stufenweise entlang der Formen im Zielbereich und hat bei einheitlichen Hintergründen sehr wenig Effekt.*
-  * **Weichzeichnen**: *0.0 - 2.0* Weichzeichnet die Kanten des Stempelbereichs, falls ein weicherer Übergang erforderlich ist.
-  * **Smoothness**: *0.0 - 2.0* Rundet die Kanten der Stempelform ab und sorgt so für glattere Konturen.
-  * **Rasterauflösung**: *1 - 11* Legt die Qualitätsauflösung der Füllmethode fest. Je höher der Wert, desto präziser kann die Füllmethode sein.
-* **Transformationen**
-  * **Quellmatrix**: *(Transformationsmatrix)*Transformiert die Quelle (Skalierung und Drehung). Kann nicht auf der Arbeitsfläche durchgeführt werden. Nur diese Parameter können geändert werden.
-  * **Quellversatz**: *-0.5 - 0.5*&#x200B;Übersetzt den Quellspeicherort. Kann nicht auf der Arbeitsfläche durchgeführt werden. Nur diese Parameter können geändert werden. *Dieser Parameter ist wahrscheinlich der Hauptparameter, den Sie ändern möchten!*
-  * **Zielmatrix**: *(Transformationsmatrix)*Transformiert die Zielposition (Skalierung und Drehung). Kann auch durch Gizmo auf der Arbeitsfläche erfolgen.
-  * **Zielversatz**: *-0.5 - 0.5*&#x200B;Übersetzt den Zielspeicherort. Kann auch durch Gizmo auf der Arbeitsfläche erfolgen.
-
-## Beispielbilder
-
-|  |
-| --- |
-| Es sind keine Bilder an diese Seite angehängt. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Ist normal (nur für Farbe)</b> <i>False/True</i> | Legt fest, ob die Eingabe eine Normalmap ist und ob die Füllmethode als solche behandelt werden soll. |
+| <b>Form</b> <i>Quadrat, Datenträger</i> | Legt die Stempelform fest. Wird nur als Basis verwendet. |
+| <b>Edge</b> |  |
+| <b>Schwellenwert</b> <i>0.0 - 1.0</i> | Legt fest, wie weit der angeglichene Bereich reichen soll. Dieser wächst schrittweise entlang der Formen im Zielbereich und hat sehr wenig Effekt mit einheitlichen Hintergründen<i>.</i> |
+| <b>Weichzeichnen</b> <i>0.0 - 2.0</i> | Weichzeichnet die Kanten des Stempelbereichs, falls ein weicherer Übergang erforderlich ist. |
+| <b>Smoothness</b> <i>0.0 - 2.0</i> | Rundet die Kanten der Stempelform ab, sodass die Umrisse glatter werden. |
+| <b>Auflösung des Rasters</b> <i>1 - 11</i> | Legt die Qualitätsauflösung der Füllmethode fest. Je höher der Wert, desto präziser kann die Füllmethode sein. |
+| <b>Transformationen</b> |  |
+| <b>Quellmatrix</b> <i>(Transformationsmatrix)</i> | Transformieren die Quelle bei (Skalierung und Drehung). Kann nicht auf der Arbeitsfläche durchgeführt werden. Nur diese Parameter können geändert werden. |
+| <b>Quellversatz</b> <i>-0.5 - 0.5</i> | Kamera bewegt den Quellspeicherort bei. Kann nicht auf der Arbeitsfläche durchgeführt werden. Nur diese Parameter können geändert werden. <i>Dieser Parameter ist wahrscheinlich der Hauptparameter, den Sie ändern möchten!</i> |
+| <b>Zielmatrix</b> <i>(Transformationsmatrix)</i> | Transformieren den Zielspeicherort (Skalierung und Drehung) bei. Kann auch durch Gizmo auf der Arbeitsfläche erfolgen. |
+| <b>Zielversatz</b> <i>-0.5 - 0.5</i> | Kamera bewegt den Zielspeicherort bei. Kann auch durch Gizmo auf der Arbeitsfläche erfolgen. |

@@ -1,57 +1,51 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/basecolor-metallic-roughness-converter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/basecolor-metallic-roughness-converter.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "BaseColor Metallic Roughness Converter", um zwischen verschiedenen PBR-Materialformaten und Workflows zu konvertieren.
+description: Verwenden Sie den Knoten BaseColor Metallische Rauheit Converter, um zwischen verschiedenen PBR-Material-Formaten und Workflows zu konvertieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > BaseColor  Metallic  Roughness converter
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: BaseColor Metallic-Raueitskonverter
+title: BaseColor-Metallische Rauheit-Konverter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '139'
 ht-degree: 1%
 
 ---
 
 
-# BaseColor/Metallic/Raueit-Konverter
+# BaseColor / Metallic / Rauheit Konverter
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-convert.png){width="128px"}
+![](basecolor-metallic-roughness-converter.resources/pbr-convert.png){width="128px"}
 
-## BaseColor/Metallic/Raueit-Konverter
-
-**In:** *Materialfilter/PBR-Dienstprogramme*
-
-**Einfach**
+<b>In:</b> Materialfiltern > PBR-Dienstprogramme
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Dieser Knoten konvertiert Grundfarben-, Metallic- und Raueitszuordnungen in verschiedene PBR-Modellausgaben, z. B. das Specular-/Glanzmodell. Einige der enthaltenen Ausgabeziele sind bekannte Render-Engines wie Vray, Corona, Redshift, Renderman und Arnold.
+Dieser Knoten konvertiert Grundfarben-, Metallic und Rauheit-Maps in verschiedene PBR-Modellausgaben, z. B. Specular/Glanz-Modell. Einige der enthaltenen Ausgabeziele sind bekannte Render-Engine wie Vray, Corona, Redshift, Renderman und Arnold.
 
-Dies ist nützlich, wenn Sie Grafiken oder Materialien haben, die mit einem PBR-Modell erstellt wurden, während Ihr Ziel ein anderes Modell erfordert.
-
-## Parameter
-
-* **SpecularLevel-Eingabe verwenden**: *Falsch/Wahr* Stellt einen zusätzlichen Eingangssteckplatz für den SpecularLevel-Eingang bereit. Dies wird auch bei der Konvertierung berücksichtigt.
-* ***Ziel**: *PBR Diffuse/Specular/Gloss, Vray (GGX), Corona, Corona 1.6+, Redshift 1.x, Arnold 4 (AiStandard), Arnold 4 (AlSurface), RenderMan (PxrSurface)**Legt das Konvertierungszielmodell fest.
-
-## Beispielbilder
-
-|  |
-| --- |
-| Es sind keine Bilder an diese Seite angehängt. |
+Dies ist nützlich, wenn Sie Graf oder Materialien haben, die mit einem PBR-Modell erstellt wurden, während für Ihr Ziel ein anderes Modell erforderlich ist.
 
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>SpecularLevel-Eingabe verwenden</b> <i>False/True</i> | Legt einen zusätzlichen Eingangssteckplatz für den SpecularLevel-Eingang. Dies wird auch bei der Konvertierung berücksichtigt. |
+| <b>Ziel</b> <i>PBR Diffuse/Specular/Gloss, Vray (GGX), Corona, Corona 1.6+, Redshift 1.x, Arnold 4 (AiStandard), Arnold 4 (AlSurface), RenderMan (PxrSurface)</i> | Legt das Konvertierungszielmodell fest. |

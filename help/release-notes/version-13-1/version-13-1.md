@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/version-13-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-1.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Designer 13.1, um mehr über die Verbesserungen von Knotendiagrammen und die Unterstützung von AxF-Exporten zu erfahren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 13.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 *Freigabedatum: 12. Dezember 2023*
 
-![Substance 3D Designer 13.1-Banner](../../assets/24-library-hero-1920x620.png "Substance 3D Designer 13.1-Banner")
+![Substance 3D Designer 13.1-Banner](version-13-1.resources/24-library-hero-1920x620.png "Substance 3D Designer 13.1-Banner")
 
 ## Verbesserungen an Rahmen
 
@@ -34,19 +34,19 @@ Rahmen sind ein unverzichtbares Werkzeug, um das Diagramm gut organisiert und le
 
 Wenn das Diagramm wächst, muss der Inhalt der Rahmen möglicherweise neu angeordnet werden. Die Knoten können sich verschieben, um Platz für Ergänzungen zu schaffen, oder die Inhalte müssen möglicherweise weiter voneinander entfernt werden, um die Lesbarkeit zu verbessern. Um diese Anpassungen zu erleichtern, ist es jetzt möglich, einen Frame automatisch zu erweitern, wenn eingeschlossene Objekte verschoben werden: Halten Sie <b>Umschalt</b> an einem beliebigen Punkt gedrückt, während Sie ein Objekt verschieben, damit die Frameränder automatisch angepasst werden, damit das Objekt innerhalb seiner Grenzen bleibt.
 
-![autoexpand](../../assets/autoexpand.gif)
+![autoexpand](version-13-1.resources/autoexpand.gif)
 
 ### Größe an Inhalt anpassen
 
 Wenn du in deinem Diagramm Anpassungen vornimmst, wird ein Frame möglicherweise nicht mehr elegant an seinen Inhalt angepasst. Mit diesem neuen Befehl können Sie die Position und die Größe des Frames automatisch anpassen, sodass er sich an die Spanne seines Inhalts anpasst. Der Abstand beträgt dabei eine Zelle mit mittlerem Raster. Wenn der Rahmen eine Beschreibung hat, wird er so angepasst, dass nach Möglichkeit ein leerer Bereich neben der Beschreibung verwendet wird.
 
-![fitsize](../../assets/fitsize.gif)
+![fitsize](version-13-1.resources/fitsize.gif)
 
 ### Verbesserte Beschreibungen
 
 Dank des HTML-Codes können Sie jetzt formatierten Text in der Beschreibung eines Rahmens haben. Dies gilt auch für Kommentare.
 
-![richtext](../../assets/description-3.png)
+![richtext](version-13-1.resources/description-3.png)
 
 ### <b>...und vieles mehr!</b>
 
@@ -64,20 +64,20 @@ Viele Dinge wurden überdacht, z. B. die Toleranz von Zuordnungsregeln, Interakt
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![AxF-Dateisymbol](../../assets/axf-file-icon.png "AxF-Dateisymbol")
+![AxF-Dateisymbol](version-13-1.resources/axf-file-icon.png "AxF-Dateisymbol")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 AxF ist ein Format von [X-Rite](https://www.xrite.com/axf). Sie bietet eine Möglichkeit, komplexe Materialeigenschaften mithilfe von numerischen Daten im gesamten digitalen Design-Workflow zu erfassen, zu speichern, zu bearbeiten und zu kommunizieren. In früheren Versionen von Designer konnten Sie AxF-Dateien [importieren](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) und dann die Unterteilung verbessern oder prozedurale Effekte hinzufügen. Dann mussten Sie jedoch Änderungen als neue .sbsar-Datei exportieren.
 
-In dieser neuen Version wird die Möglichkeit eingeführt, AxF-Materialien an Ort und Stelle zu bearbeiten, und dann [Ihre Änderungen &#x200B;](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) als neue Ebene in die importierte AxF-Datei zu exportieren.
+In dieser neuen Version wird die Möglichkeit eingeführt, AxF-Materialien an Ort und Stelle zu bearbeiten, und dann [Ihre Änderungen ](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) als neue Ebene in die importierte AxF-Datei zu exportieren.
 
 </td>
 </tr>
 </table>
 
-![Export AxF](../../assets/exportaxf.gif)
+![Export AxF](version-13-1.resources/exportaxf.gif)
 
 ## API
 
@@ -149,8 +149,8 @@ Und schließlich verbessert diese Version 13.1 die Python-API weiter, indem sie 
 * [Graph] Die Vorschau für &quot;Eingabewert&quot; bleibt auf &quot;Falsch&quot; hängen, wenn der boolesche Standardwert angepasst wird (nur Apple Silicon)
 * [Diagramm] Punktknoten in der Nähe der Rahmenkante werden nicht vom Frame verschoben
 * [Interoperabilität] Symbol &quot;Erneut senden&quot; wird nach dem Senden an Substance 3D Stager nicht aktualisiert
-* [MDL] Die Raueit kann in Knoten, in denen dieser Parameter verfügbar ist, nicht geändert werden.
-* [MDL] Ungültige Verbindungen in der Vorlage &quot;AxF zu metallischer Raueit&quot;
+* [MDL] Die Rauheit kann in Knoten, in denen dieser Parameter verfügbar ist, nicht geändert werden.
+* [MDL] Ungültige Verbindungen in der Vorlage &quot;AxF zu Metallische Rauheit&quot;
 * [UI] Fenster &quot;Ausgaben exportieren&quot; kann minimiert werden (nur Windows)
 * [UI] Bilder werden im Bildschirm &quot;Info&quot; verpixelt angezeigt, wenn die Anzeigeskalierung verwendet wird
 * [UI] Knotenausrichtungswerkzeuge in der Diagrammsymbolleiste erstellen mehrere Rückgängig-Schritte

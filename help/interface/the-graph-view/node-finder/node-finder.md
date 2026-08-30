@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-graph-view/node-finder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Node Finder, um schnell nach Knoten in Ihren Substance-Graphen zu suchen und diese zu finden, um eine effiziente Navigation zu gewährleisten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Knotensucher
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Knotensucher
 
-![Knotensuchersymbolleiste](../../../assets/node-finder-toolbar.png "Knotensuchersymbolleiste"){zoomable="yes"}
+![Knotensuchersymbolleiste](node-finder.resources/node-finder-toolbar.png "Knotensuchersymbolleiste"){zoomable="yes"}
 
 Mit dem Node Finder-Tool können Sie eine <b>Suche nach Knoten und Variablen</b> mithilfe einer Textabfrage durchführen. Alle Knoten, die nicht mit der Abfrage übereinstimmen, sind abgeblendet, damit die Ergebnisse hervorstechen.
 
@@ -39,7 +39,7 @@ Der Knotenfinder kann auf zwei Arten aufgerufen werden:
 
 Drücken Sie in der Diagrammansicht die Tasten <b>Strg+F</b> (Windows) bzw. <b>Cmd+F</b> (macOS), um die Symbolleiste des Knotenfinders anzuzeigen und den Fokus automatisch auf das Abfragefeld festzulegen. So können Sie eine schnelle Suche durchführen.
 
-Klicken Sie in der Diagrammansichtssymbolleiste auf die Schaltfläche &quot;<b>Knotensuche&quot; ![](../../../assets/graph-node-finder.png)</b>, um die Knotensuche-Symbolleiste anzuzeigen. Nach der Anzeige wird die Symbolleiste nur durch Klicken auf diese Schaltfläche geschlossen.
+Klicken Sie in der Diagrammansichtssymbolleiste auf die Schaltfläche &quot;<b>Knotensuche&quot; ![](node-finder.resources/graph-node-finder.png)</b>, um die Knotensuche-Symbolleiste anzuzeigen. Nach der Anzeige wird die Symbolleiste nur durch Klicken auf diese Schaltfläche geschlossen.
 
 <b>Durchsucht die Graphen</b>. Mit anderen Worten, eine Suche bleibt aktiv, wenn Diagramme durch diese Aktionen geöffnet werden:
 
@@ -49,11 +49,11 @@ Klicken Sie in der Diagrammansichtssymbolleiste auf die Schaltfläche &quot;<b>K
 * FX-Map: FX-Map-Diagramm bearbeiten (Strg+E/Befehl+E)
 * Knotenparameter: Funktion bearbeiten
 
-![Knotenfinder: Durchsuchen von Graphen während der Suche](../../../assets/node-finder-traversal.gif "Knotenfinder: Diagramme während der Suche durchlaufen"){zoomable="yes"}
+![Knotenfinder: Durchsuchen von Graf während der Suche](node-finder.resources/node-finder-traversal.gif "Knotenfinder: Durchsuchen von Grafen während der Suche"){zoomable="yes"}
 
 ### Suchanfrage
 
-![Knotensuche-Abfragefeld](../../../assets/node-finder-query-field.png "Knotensuche-Abfragefeld"){zoomable="yes"}
+![Knotensuche-Abfragefeld](node-finder.resources/node-finder-query-field.png "Knotensuche-Abfragefeld"){zoomable="yes"}
 
 Die Suchbegriffe können in dieses Feld eingegeben werden und die Pfeilschaltfläche öffnet eine Liste von Abfragevorschlägen, die einige der im aktuellen Kontext verfügbaren Variablen enthalten.
 
@@ -61,50 +61,50 @@ Weitere Informationen zu den Abfragen, die Sie ausführen können, finden Sie un
 
 ### Knotenart
 
-![Knotentyp](../../../assets/node-finder-node-types.png "Knotentyp"){zoomable="yes"}
+![Knotentyp](node-finder.resources/node-finder-node-types.png "Knotentyp"){zoomable="yes"}
 
 Mit diesem Kombinationsfeld können Sie Suchergebnisse filtern, um nur einen bestimmten Knotentyp beizubehalten.
 
-Beachten Sie, dass alle Instanzknoten vom Typ *Gleich* des Knotens sind - und zwar vom Typ &#39;Instanz&#39; -, während atomare Knoten jeweils ein eigener Typ sind.
+Beachten Sie, dass alle Instanzknoten den Typ *des Knotens* aufweisen - tatsächlich den Typ &#39;instance&#39; -, während elementare Knoten jeweils einen eigenen Typ aufweisen.
 
 +++Knotentyplisten
-Die Liste ist kontextabhängig zum aktuellen Diagrammtyp.
+Die Liste ist kontextabhängig vom aktuellen Graf-Typ.
 
-![Knotentypen (Compositing)](../../../assets/node-finder-types-compositing.png "Knotentypen (Compositing)"){zoomable="yes"}
-
-
-
-*Knotentypen für das Erstellen von Diagrammen*
-
-![Knotentypen (Funktion)](../../../assets/node-finder-types-function.png "Knotentypen (Funktion)"){zoomable="yes"}
+![Knotentypen (Compositing)](node-finder.resources/node-finder-types-compositing.png "Knotentypen (Compositing)"){zoomable="yes"}
 
 
 
-*Knotentypen für Funktionsdiagramme*
+*Knotentypen für Compositing-Graf*
+
+![Knotentypen (Funktion)](node-finder.resources/node-finder-types-function.png "Knotentypen (Funktion)"){zoomable="yes"}
+
+
+
+*Knotentypen für Funktions-Graf*
 
 +++
 
-+++Suchen nach atomaren Knoten
-![Knotenfinder: Suche nach Typ &quot;Ebenen&quot; (Compositing)](../../../assets/node-finder-compositing-levels.png "Knotenfinder: Suche nach dem Typ &quot;Ebenen&quot; (Erstellen von Kompositionen)"){zoomable="yes"}
++++Suchen nach elementaren Knoten
+![Knotenfinder: Suche nach Typ &quot;Ebenen&quot; (Compositing)](node-finder.resources/node-finder-compositing-levels.png "Knotenfinder: Suche nach dem Typ &quot;Ebenen&quot; (Erstellen von Kompositionen)"){zoomable="yes"}
 
 
 
-*Es wird nach dem Knotentyp &quot;Levels&quot; in einem Substance-Diagramm gesucht*
+*Suchen nach dem Knotentyp &quot;Levels&quot; in einem Substance-Graf*
 
 +++
 
 +++Suchen nach Instanzknoten
-![Knotenfinder: Suche nach &#39;Instance&#39;-Typ (Compositing)](../../../assets/node-finder-compositing-instances.png "Knotenfinder: Suchen nach dem Typ &quot;Instanz&quot; (Zusammenstellung)"){zoomable="yes"}
+![Knotenfinder: Suche nach &#39;Instance&#39;-Typ (Compositing)](node-finder.resources/node-finder-compositing-instances.png "Knotenfinder: Suchen nach dem Typ &quot;Instanz&quot; (Zusammenstellung)"){zoomable="yes"}
 
 
 
-*Es wird nach dem Knotentyp &quot;Instanz&quot; in einem Substance-Diagramm gesucht*
+*Es wird nach dem Knotentyp &quot;Instanz&quot; in einem Substance-Graf gesucht*
 
-![Knotenfinder: Suche nach &#39;Instance&#39;-Typ (Funktion)](../../../assets/node-finder-functions-instances.png "Knotenfinder: Suche nach Typ &quot;Instanz&quot; (Funktion)"){zoomable="yes"}
+![Knotenfinder: Suche nach &#39;Instance&#39;-Typ (Funktion)](node-finder.resources/node-finder-functions-instances.png "Knotenfinder: Suche nach Typ &quot;Instanz&quot; (Funktion)"){zoomable="yes"}
 
 
 
-*Es wird nach dem Knotentyp &quot;Instanz&quot; in einem Substance-Funktionsdiagramm gesucht*
+*Es wird nach dem Knotentyp &quot;Instanz&quot; in einem Substance-Funktions-Graf gesucht*
 
 +++
 
@@ -114,14 +114,14 @@ Die Liste ist kontextabhängig zum aktuellen Diagrammtyp.
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-Die Schaltfläche &quot;<b>Suchoptionen&quot; &quot;![](../../../assets/node-finder-search-options.png)</b>&quot; öffnet eine Liste von Einstellungen für die Suche, die aktiviert und deaktiviert werden können.
+Die Schaltfläche &quot;<b>Suchoptionen&quot; &quot;![](node-finder.resources/node-finder-search-options.png)</b>&quot; öffnet eine Liste von Einstellungen für die Suche, die aktiviert und deaktiviert werden können.
 
 Weitere Informationen zu diesen Optionen finden Sie unten im Abschnitt &quot;Suchoptionen&quot;.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensuche-Suchoptionen](../../../assets/node-finder-search-options-open.png "Knotensuche-Suchoptionen"){zoomable="yes"}
+![Knotensuche-Suchoptionen](node-finder.resources/node-finder-search-options-open.png "Knotensuche-Suchoptionen"){zoomable="yes"}
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ Um Knoten zu finden, wird eine Textabfrage mit den unten aufgeführten Knoteneig
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotenfinder: Suchen nach Diagrammbezeichner](../../../assets/node-finder-functions-identifier.png "Knotenfinder: Suchen nach Diagrammbezeichner "){zoomable="yes"}
+![Knotenfinder: Suchen nach Diagrammbezeichner](node-finder.resources/node-finder-functions-identifier.png "Knotenfinder: Suchen nach Diagrammbezeichner "){zoomable="yes"}
 
 *Zum Vergrößern auf Bild klicken*
 
@@ -161,7 +161,7 @@ Um Knoten zu finden, wird eine Textabfrage mit den unten aufgeführten Knoteneig
 +++Bezeichner im Explorer
 Diagramme werden nach ihrer Kennung im Explorer aufgelistet.
 
-![Explorer: Paketinhalt](../../../assets/explorer-package-simple.png "Explorer: Paketinhalt"){zoomable="yes"}
+![Explorer: Paketinhalt](node-finder.resources/explorer-package-simple.png "Explorer: Paketinhalt"){zoomable="yes"}
 
 
 
@@ -170,7 +170,7 @@ Diagramme werden nach ihrer Kennung im Explorer aufgelistet.
 +++Kennung in der QuickInfo des Instanzknotens
 Die QuickInfo von Instanzknoten enthält die Kennung ihres referenzierten Diagramms.
 
-![Diagrammbezeichner in der QuickInfo des Instanzknotens](../../../assets/node-finder-compositing-identifier.png "Diagrammbezeichner in der QuickInfo des Instanzknotens"){zoomable="yes"}
+![Diagrammbezeichner in der QuickInfo des Instanzknotens](node-finder.resources/node-finder-compositing-identifier.png "Diagrammbezeichner in der QuickInfo des Instanzknotens"){zoomable="yes"}
 
 
 
@@ -182,12 +182,12 @@ Die QuickInfo von Instanzknoten enthält die Kennung ihres referenzierten Diagra
 
 ### Verfügbare Parameter und Variablen
 
-Der Bezeichner von [verfügbar gemachten Parametern &#x200B;](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) oder eine andere Variable kann direkt durchsucht werden.
+Der Bezeichner von [verfügbar gemachten Parametern ](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) oder eine andere Variable kann direkt durchsucht werden.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotenfinder: Knotenvariablen](../../../assets/node-finder-compositing-variable.png "Knotensuche: Knotenvariablen "){zoomable="yes"}
+![Knotenfinder: Knotenvariablen](node-finder.resources/node-finder-compositing-variable.png "Knotensuche: Knotenvariablen "){zoomable="yes"}
 
 *Zum Vergrößern auf Bild klicken*
 
@@ -200,13 +200,13 @@ Das Abfragefeld kann erweitert werden, um eine Liste mit Vorschlägen anzuzeigen
 
 Dazu gehören [integrierte Variablen](../../../function-graphs/variables/system-variables/system-variables.md), die für den aktuellen Diagrammtyp verfügbar sind, sowie die Bezeichner der exponierten Parameter des Diagramms.
 
-![Vorschläge für Knotenfinder-Abfrage](../../../assets/node-finder-available-query-suggestions.png "Vorschläge für Knotenfinder-Abfrage"){zoomable="yes"}
+![Vorschläge für Knotenfinder-Abfrage](node-finder.resources/node-finder-available-query-suggestions.png "Vorschläge für Knotenfinder-Abfrage"){zoomable="yes"}
 
 
 
 Der Bezeichner der angezeigten Parameter kann auch direkt in die [Substance-Diagrammeigenschaften](../../../compositing-graphs/graph-parameters/graph-parameters.md) kopiert oder bearbeitet werden.
 
-![Knotenfinder: verfügbar gemachte Parameter](../../../assets/node-finder-compositing-exposed-parameter.png "Knotenfinder: verfügbar gemachte Parameter"){zoomable="yes"}
+![Knotenfinder: verfügbar gemachte Parameter](node-finder.resources/node-finder-compositing-exposed-parameter.png "Knotenfinder: verfügbar gemachte Parameter"){zoomable="yes"}
 
 
 
@@ -219,7 +219,7 @@ Wenn ein Diagramm Fehler oder Warnungen enthält, die von einer <b>Variablen</b>
 
 Variablen können auch mit einem beliebigen Texteditor direkt aus den XML-Daten in der SBS-Datei kopiert werden.
 
-![Knotenfinder: Suchvariable aus Konsolenwarnung/Fehler](../../../assets/node-finder-console-identifier.png "Knotenfinder: Suchvariable aus Konsolenwarnung/Konsolenfehler"){zoomable="yes"}
+![Knotenfinder: Suchvariable aus Konsolenwarnung/Fehler](node-finder.resources/node-finder-console-identifier.png "Knotenfinder: Suchvariable aus Konsolenwarnung/Konsolenfehler"){zoomable="yes"}
 
 
 
@@ -228,7 +228,7 @@ Variablen können auch mit einem beliebigen Texteditor direkt aus den XML-Daten 
 +++Knoten abrufen/festlegen
 Beim Durchsuchen einer Variablen in einem Diagramm - einschließlich der angezeigten Parameter - werden alle Knoten hervorgehoben, bei denen ein [Get](../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)- oder [Set](../../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md)-Knoten diese Variable in einer der Parameterfunktionen des Knotens verwendet.
 
-![Knotenfinder: Die Suche nach einer Variablen entspricht Get-Knoten, die sie verwenden](../../../assets/node-finder-exposed-parameter-01.gif "Node Finder: Das Durchsuchen einer Variable entspricht Get-Knoten, die sie verwenden"){zoomable="yes"}
+![Knotenfinder: Die Suche nach einer Variablen entspricht Get-Knoten, die sie verwenden](node-finder.resources/node-finder-exposed-parameter-01.gif "Node Finder: Das Durchsuchen einer Variable entspricht Get-Knoten, die sie verwenden"){zoomable="yes"}
 
 
 
@@ -245,7 +245,7 @@ Jeder Knoten in einem Diagramm hat eine eindeutige Identifizierungsnummer (UID),
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotenfinder: Suche nach UID](../../../assets/node-finder-compositing-uid-search.png "Knotenfinder: Suche nach UID"){zoomable="yes"}
+![Knotenfinder: Suche nach UID](node-finder.resources/node-finder-compositing-uid-search.png "Knotenfinder: Suche nach UID"){zoomable="yes"}
 
 *Zum Vergrößern auf Bild klicken*
 
@@ -260,7 +260,7 @@ Die Aktion kopiert die UID in diesem Format:
 
 uid=1234567890
 
-![Knotenfinder: Knoten-UID-Aktion kopieren](../../../assets/node-finder-compositing-uid-copy.png "Knotenfinder: Knoten-UID-Aktion kopieren"){zoomable="yes"}
+![Knotenfinder: Knoten-UID-Aktion kopieren](node-finder.resources/node-finder-compositing-uid-copy.png "Knotenfinder: Knoten-UID-Aktion kopieren"){zoomable="yes"}
 
 
 
@@ -271,7 +271,7 @@ Wenn ein Diagramm Fehler oder Warnungen enthält, die von einem Knoten ausgelös
 
 Knoten-UIDs können auch mit einem beliebigen Texteditor direkt aus den XML-Daten in der SBS-Datei kopiert werden.
 
-![Knotenfinder: Knoten-UID wird über die Console gesucht](../../../assets/node-finder-console-uid.png "Knoten-Finder: Die Knoten-UID aus der Konsole wird gesucht"){zoomable="yes"}
+![Knotenfinder: Knoten-UID wird über die Console gesucht](node-finder.resources/node-finder-console-uid.png "Knoten-Finder: Die Knoten-UID aus der Konsole wird gesucht"){zoomable="yes"}
 
 
 
@@ -289,14 +289,14 @@ Die Suche nach bestimmten Knoten ist besonders effektiv, wenn die exakte Bezeich
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-Mit der <b>Schaltfläche für Suchoptionen ![](../../../assets/node-finder-search-options.png)</b> können Sie die <b>rekursiven</b>- und <b>Fuzzy</b>-Modi für die Suche nach Knoten umschalten.
+Mit der <b>Schaltfläche für Suchoptionen ![](node-finder.resources/node-finder-search-options.png)</b> können Sie die <b>rekursiven</b>- und <b>Fuzzy</b>-Modi für die Suche nach Knoten umschalten.
 
 Beide können gleichzeitig aktiviert werden.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensuche-Suchoptionen](../../../assets/node-finder-search-options-open.png "Knotensuche-Suchoptionen"){zoomable="yes"}
+![Knotensuche-Suchoptionen](node-finder.resources/node-finder-search-options-open.png "Knotensuche-Suchoptionen"){zoomable="yes"}
 
 </td>
 </tr>
@@ -308,12 +308,12 @@ Aktivieren Sie diese Option, damit Suchvorgänge [Grapheninstanzen](../../../com
 
 Diese Option kann bei der Fehlerbehebung in Diagrammen wesentlich sein, wenn Sie einen Knoten anhand seiner UID suchen müssen, die durch eine Warnung oder Fehlermeldung in der Konsole erworben wurde.
 
-![Knotenfinder: rekursive Suche](../../../assets/node-finder-recursion-01.png "Knotensuche: rekursive Suche"){zoomable="yes"}
+![Knotenfinder: rekursive Suche](node-finder.resources/node-finder-recursion-01.png "Knotensuche: rekursive Suche"){zoomable="yes"}
 
 *In der Abfrage auf der rechten Seite wird der unten stehende Instanzknoten hervorgehoben, da sein referenziertes Diagramm auf der linken Seite Übereinstimmungen mit dieser Abfrage aufweist*
 
 +++Beispiel 1
-![Knotenfinder: rekursives Suchbeispiel 1](../../../assets/node-finder-recursion-01.gif "Knotenfinder: rekursives Suchbeispiel 1"){zoomable="yes"}
+![Knotenfinder: rekursives Suchbeispiel 1](node-finder.resources/node-finder-recursion-01.gif "Knotenfinder: rekursives Suchbeispiel 1"){zoomable="yes"}
 
 
 
@@ -322,7 +322,7 @@ Ein Instanzknoten verweist auf ein Diagramm, in dem mehrere Knoten mit der Abfra
 +++
 
 +++Beispiel 2
-![Knotenfinder: rekursives Suchbeispiel 2](../../../assets/node-finder-recursion-02.gif "Knotenfinder: rekursives Suchbeispiel 2"){zoomable="yes"}
+![Knotenfinder: rekursives Suchbeispiel 2](node-finder.resources/node-finder-recursion-02.gif "Knotenfinder: rekursives Suchbeispiel 2"){zoomable="yes"}
 
 
 
@@ -336,4 +336,4 @@ Wenn Sie sich bei der genauen Schreibweise einer Abfrage nicht sicher sind, akti
 
 Beachten Sie, dass die Verwendung dieser Option wahrscheinlich zu unerwünschten Übereinstimmungen führt.
 
-![Knotenfinder: Unscharfer Modus](../../../assets/node-finder-functions-fuzzy.png "Knotenfinder: Unscharfer Modus"){zoomable="yes"}
+![Knotenfinder: Unscharfer Modus](node-finder.resources/node-finder-functions-fuzzy.png "Knotenfinder: Unscharfer Modus"){zoomable="yes"}

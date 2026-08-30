@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Parametervorgaben in Substance 3D Designer erstellen und verwenden, um Parameterkonfigurationen zu speichern und anzuwenden.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Parametervorgaben
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -24,13 +24,13 @@ Parametervorgaben geben dem Benutzer die Möglichkeit, große Mengen vorkonfigur
 
 Es gibt zwei Möglichkeiten, Vorgaben zu speichern und zu laden. Beide bieten unterschiedliche Anwendungsfälle, die nachfolgend beschrieben werden.
 
-![Dropdown-Menü &quot;Vorgabe laden/speichern&quot;](../../../assets/preset-menu.gif "Dropdown-Menü &quot;Vorgabe laden/speichern&quot;"){width="512px"}
+![Dropdown-Menü &quot;Vorgabe laden/speichern&quot;](parameter-presets.resources/preset-menu.gif "Dropdown-Menü &quot;Vorgabe laden/speichern&quot;"){width="512px"}
 
 ## Externe Vorgaben
 
 Externe Vorgaben umfassen eine externe Datei auf dem Datenträger, eine \*.SBSPRS-Datei. Sie können zwischen verschiedenen Graphen und Knoten übertragen werden, jedoch nur innerhalb der Anwendung. Ihr Hauptzweck ist genau das: mehrere Werte zu groß übertragen, um sie einzeln zu kopieren.
 
-Externe Vorgaben sind für alle spezifischen Parameter in [Graph-Instanzen](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), für die meisten spezifischen Parameter in [Atomknoten](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ([Ausnahmen sind die Parameter, die nicht verfügbar gemacht werden können](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)) und für die angezeigten Eingabeparameter in den [Parametern](../../graph-parameters/graph-parameters.md) eines Substance-Diagramms verfügbar.
+Externe Vorgaben sind für alle spezifischen Parameter auf [Grapheninstanzen](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), für die meisten spezifischen Parameter auf [Elementaren Knoten](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ([Ausnahmen sind die Parameter, die nicht gelegt werden können](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)) und für die gelegt Eingabeparameter in den [Parametern](../../graph-parameters/graph-parameters.md) eines Substance-Grafen verfügbar.
 
 Sie werden einfach gespeichert und über dieses Menü geladen. Die gespeicherten SBSPRS-Dateien können auf jedem anderen Knoten oder Diagramm geladen werden.
 
@@ -38,7 +38,7 @@ Sie werden einfach gespeichert und über dieses Menü geladen. Die gespeicherten
 >
 > Auch Teilübereinstimmungen funktionieren: Parameter, die in einem SBSPRS gespeichert sind, die auf dem geladenen Knoten nicht vorhanden sind, werden einfach ignoriert. Dies bedeutet, dass Sie Eigenschaften zwischen Knoten übertragen können, die meist ähnlich sind, [, wie die Farb- und Graustufenversion von Tile Sampler](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md)! Alle freigegebenen Parameter werden geladen. Die Zuordnung erfolgt für Bezeichner und Typ.
 
-![Bearbeitung eingebetteter Vorgaben](../../../assets/preset-embed.gif "Bearbeitung eingebetteter Vorgaben"){width="512px"}
+![Bearbeitung eingebetteter Vorgaben](parameter-presets.resources/preset-embed.gif "Bearbeitung eingebetteter Vorgaben"){width="512px"}
 
 ## Eingebettete Vorgaben
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/highpass.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/highpass.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Hochpass", um hochfrequente Details aus Texturen zu extrahieren, um Schärfe- und Detailverbesserungseffekte zu erstellen.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Hochpass
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 1%
+source-wordcount: '103'
+ht-degree: 4%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/high-pass-greyscale.png){width="128px"}
+![](highpass.resources/high-pass-greyscale.png){width="128px"}
 
-![](../../../../../../assets/high-pass.png){width="128px"}
+![](highpass.resources/high-pass.png){width="128px"}
 
-## Hochpass (Graustufen)
-
-**In:** *Filter/Korrekturen*
-
-**Einfach**
+<b>In:</b> Filters > Adjustments
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -44,17 +40,27 @@ Diese Option ist nützlich, um große Luminanzunterschiede in Bildern zu entfern
 
 Wichtig: Achten Sie darauf, die passende Version für Ihre Eingabe zu verwenden! Verwenden Sie &quot;Hochpass&quot; für Farbeingaben, &quot;Hochpass-Graustufen&quot; für Graustufen-Eingaben.
 
-## Parameter
-
-* **Radius**: *0.0 - 64.0*\
-  Filterradius: Ein kleiner Radius entfernt kleine Unterschiede, ein größerer Radius entfernt große Bereiche.
-
-## Beispielbilder
-
-![](../../../../../../assets/highpass.gif)
-
-![](../../../../../../assets/highpass-example.png){width="400px"}
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Radius</b> <i>0.0 - 64.0</i> | Filterradius: Ein kleiner Radius entfernt kleine Unterschiede, ein größerer Radius entfernt große Bereiche. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="highpass.resources/highpass.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="highpass.resources/highpass-example.png" />
+        </td>
+    </tr>
 </table>

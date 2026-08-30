@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-4.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Fraktalsumme 4, um mit vier Oktaven ein fraktales Rauschen zu erzeugen, um detaillierte organische Texturen zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FRAKTALSUMME 4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 2%
@@ -22,13 +22,9 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Fraktalsumme 4 - Symbol](../../../../../../assets/fractal_sum_4.png "Fraktalsumme 4 - Symbol"){width="200px"}
+![Fraktalsumme 4 - Symbol](fractal-sum-4.resources/fractal_sum_4.png "Fraktalsumme 4 - Symbol"){width="200px"}
 
 <b>In:</b> Texturgeneratoren > Rauschen
 
@@ -45,19 +41,23 @@ Siehe auch: [Fraktalsumme base](../../../../../../compositing-graphs/nodes-refer
 </tr>
 </table>
 
+<a name="outputs"></a>
+
 ## Ausgaben
 
 |  |  |
-| --- | --- |
-| <b>Ausgabe</b> *Graustufen* | Das erzeugte Rauschen als Graustufen-Bitmap. |
+|:---|:---|
+| <b>Ausgabe</b> <i>Graustufen</i> | Das erzeugte Rauschen als Graustufen-Bitmap. |
+
+<a name="parameters"></a>
 
 ## Parameter
 
 |  |  |
-| --- | --- |
-| <b>Störung</b> Float | Versetzt die Bestandteile des Rauschens.    So kannst du das Rauschen animieren. |
-| <b>Störungsgeschwindigkeit</b> Gleitend | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.    Mit dieser Option können Sie die Geschwindigkeit des Versatzes bei der Animation des Rauschens steuern. |
-| <b>Nicht quadratische Erweiterung</b> Boolescher Wert | Bei nicht quadratischen Bildern bleibt das erzeugte Kachelquadrat erhalten und erweitert die Rauscherzeugung auf die Grenzen des Bildes. |
+|:---|:---|
+| <b>Störung</b> <i>Gleitend</i> | Versetzt die Bestandteile des Rauschens.    So kannst du das Rauschen animieren. |
+| <b>Störungsgeschwindigkeit</b> <i>Gleitend</i> | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.    Mit dieser Option können Sie die Geschwindigkeit des Versatzes bei der Animation des Rauschens steuern. |
+| <b>Nicht quadratische Erweiterung</b> <i>Boolescher Wert</i> | Bei nicht quadratischen Bildern bleibt das erzeugte Kachelquadrat erhalten und erweitert die Rauscherzeugung auf die Grenzen des Bildes. |
 
 ## Beispiele
 
@@ -65,26 +65,12 @@ Siehe auch: [Fraktalsumme base](../../../../../../compositing-graphs/nodes-refer
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Fraktalsumme 4 - Beispiel 1](../../../../../../assets/fractal_sum_4_1.png "Fraktalsumme 4 - Beispiel 1"){zoomable="yes"}
+![Fraktalsumme 4 - Beispiel 1](fractal-sum-4.resources/fractal_sum_4_1.png "Fraktalsumme 4 - Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Fraktalsumme 4 - Beispiel 2](../../../../../../assets/noise_fractal_sum_4_v2_speed0.6_aniso0.gif "Fraktalsumme 4 - Beispiel 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![Fraktalsumme 4 - Beispiel 2](fractal-sum-4.resources/noise_fractal_sum_4_v2_speed0.6_aniso0.gif "Fraktalsumme 4 - Beispiel 2"){zoomable="yes"}
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/material-height-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/material-height-blend.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Height-Materialverblend-Knoten, um mehrere Heights auf der Grundlage von Materialzuordnungen zu überblenden und so Materialeffekte mit Ebenen zu erstellen.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Material Height Mischen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 1%
+source-wordcount: '203'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-height-blend.png){width="128px"}
+![](material-height-blend.resources/material-height-blend.png){width="128px"}
 
-## Material Height Mischen
-
-**In:** *Materialfilter/Effekte*
-
-**Fortgeschrittene**
+<b>In:</b> Materialfilter > Effekte
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -43,26 +39,19 @@ Dies kann nützlich sein, um zwei verschiedene, hochwertige Materialien ohne ein
 
 Wenn Sie Wasser oder Schnee einblenden möchten, sind die Snow [Abdeckung](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/snow-cover/snow-cover.md) und [Wasserstand](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/water-level/water-level.md) verfügbar.
 
-## Parameter
-
-### Parameter
-
-* **Kanäle**\
-  Schalten Sie die Materialkanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanzkarten anstelle von &quot;Metallisch/Raueit&quot; verwenden.
-* **Height-Offset**: *0.0 - 1.0* Verschiebt Höhenkarten so, dass der Überblendungsgrad entlang der Achse des Heights verschoben wird. Dies ist die Hauptsteuerung für die Füllmethode.
-* **Kontrast**: *0.0 - 1.0*\
-  Passt den Kontrast der Füllmethode an und sorgt für schärfere Übergänge.
-* **Modus**: *Ausgewogenes Height, Priorität des unteren Heights* Wechselt zwischen zwei verschiedenen Füllmethoden.
-* **Deckkraft**: *0.0 - 1.0*\
-  Füllmethode des Heights im Vordergrund: ein- oder ausblenden.
-* **Übereinstimmung der Albedo**: *0.0 - 1.0* Die Anzahl der internen Farbabstimmungen, die zwischen den Albedo ausgeführt werden sollen.
-
-## Beispielbilder
-
-|  |
-| --- |
-| Es sind keine Bilder an diese Seite angehängt. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Kanäle</b> | Schalten Sie die Materialkanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanzkarten anstelle von &quot;Metallisch/Raueit&quot; verwenden. |
+| <b>Height-Offset</b> <i>0.0 - 1.0</i> | Versetzt Höhenzuordnungen so, dass der Überblendungsgrad entlang der Achse des Heights verschoben wird. Dies ist die Hauptsteuerung für die Füllmethode. |
+| <b>Kontrast</b> <i>0.0 - 1.0</i> | Passt den Kontrast der Füllmethode an und sorgt für schärfere Übergänge. |
+| <b>Modus</b> <i>Ausgewogenes Height, Priorität des unteren Heights</i> |  |
+| <b>Deckkraft</b> <i>0.0 - 1.0</i> | Füllmethode des Heights im Vordergrund: ein- oder ausblenden. |
+| <b>Übereinstimmung der Albedo </b> <i>0.0 - 1.0</i> | Die Anzahl der internen Farbabstimmungen zwischen Albedo. |

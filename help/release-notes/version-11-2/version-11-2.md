@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/version-11-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-11-2.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Designer 11.2, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 11.2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Version 11.2
 
-**Substance 3D Designer 11.2** hat den Namen leicht geändert und ist jetzt mit Adobe Creative Cloud verbunden. Es bringt die erste Version von Substance Model Graphs, Send To-Funktion, eine Reihe von Raytrace-basierten Nodes und einige Änderungen an der Benutzeroberfläche.
+**Substance 3D Designer 11.2** hat den Namen leicht geändert und ist jetzt mit Adobe Creative Cloud verbunden. Es enthält die allererste Version von Substance Model Graphs, die Funktion &quot;Senden an&quot;, eine Reihe von Raytrace-basierten Knoten und einige Änderungen an der Benutzeroberfläche.
 
 Freigabedatum: *23. Juni 2021*
 
@@ -28,18 +28,18 @@ Freigabedatum: *23. Juni 2021*
 
 ### Neue Substance-Modellgrafiken
 
-Es ist ein völlig neuer Diagrammtyp verfügbar, der &quot;Substance Model Graph&quot;, mit dem Sie prozedurale 3D-Modelle mit einer vertrauten Knotenschnittstelle erstellen können.
+Mit Substance Model Graph, einem völlig neuen Graf-Typ, kannst du prozedurale 3D-Modelle mit einer vertrauten Knotenschnittstelle erstellen.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/structure-tower-render-b.jpg){width="300px"}
+![](version-11-2.resources/structure-tower-render-b.jpg){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/structure-paper-creatures-render-a.jpg){width="300px"}
+![](version-11-2.resources/structure-paper-creatures-render-a.jpg){width="300px"}
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ Dies ist eine erste Version. Erwarten Sie also einige Einschränkungen.
 
 Adobe-Versionen von Substance 3D Designer verfügen über eine neue Funktion &quot;Senden an&quot;, mit der Sie Elemente schnell an andere Substance 3D-Anwendungen senden können. Das Veröffentlichen als SBSAR und Laden einzelner Dateien ist nicht mehr erforderlich. Senden an löst dies mit einem Klick.
 
-![](../../assets/sendto-button.gif)
+![](version-11-2.resources/sendto-button.gif)
 
 >[!NOTE]
 >
@@ -61,18 +61,18 @@ Adobe-Versionen von Substance 3D Designer verfügen über eine neue Funktion &qu
 
 ### Neue Raytrace-Knoten
 
-Keine Designer-Version ohne neue Knoten abgeschlossen. Aufbauend auf der herausragenden Leistungsstärke des PBR-Rendering sind in dieser Version fünf neue RT-basierte Nodes hinzugekommen.
+Keine Designer-Version ohne neue Knoten abgeschlossen. Aufbauend auf der phänomenalen Stärke des PBR-Rendering werden in dieser Version fünf neue RT-basierte Nodes eingeführt.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/image2021-6-18-11-11-11.png){width="300px"}
+![](version-11-2.resources/image2021-6-18-11-11-11.png){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/image2021-6-18-11-9-0.png){width="300px"}
+![](version-11-2.resources/image2021-6-18-11-9-0.png){width="300px"}
 
 </td>
 </tr>
@@ -80,11 +80,11 @@ Keine Designer-Version ohne neue Knoten abgeschlossen. Aufbauend auf der herausr
 
 RTAO macht noch bessere Arbeit bei der scharfen, korrekten AO als der vorherige HBAO-Knoten.
 
-![](../../assets/rt-caustics-grayscale.png){width="300px"}
+![](version-11-2.resources/rt-caustics-grayscale.png){width="300px"}
 
-&quot;Kaustik&quot; erzeugt physikalisch korrekte, raytraced Kaustik, die auf einer Höhenkarte basiert, wie z. B. ein einfaches Perlin-Rauschen. Ideal für realistische animierte Flipbook-Strukturen zur Erstellung von Echtzeit-Kaustik.
+&quot;Kaustik&quot; generiert physikalisch korrekte, raytraced Kaustik, die auf einer Höhenkarte basiert, wie z. B. eine einfache Perlin-Rauschen. Ideal für realistische animierte Flipbook-Texturen für Kaustik in Echtzeit.
 
-![](../../assets/image2021-6-22-16-36-36.png){width="300px"}
+![](version-11-2.resources/image2021-6-22-16-36-36.png){width="300px"}
 
 RT Shadow erzeugt präzise, raytraced Schatten mit ein paar einfachen Steuerelementen.
 
@@ -92,29 +92,29 @@ RT Shadow erzeugt präzise, raytraced Schatten mit ein paar einfachen Steuerelem
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/rt-irr-01.jpg){width="200px"}
+![](version-11-2.resources/rt-irr-01.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/rt-irr-03.jpg){width="200px"}
+![](version-11-2.resources/rt-irr-03.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/rt-irr-02.jpg){width="200px"}
+![](version-11-2.resources/rt-irr-02.jpg){width="200px"}
 
 </td>
 </tr>
 </table>
 
-RT Irradiance ist der fortschrittlichste der neuen Knoten. Es führt eine Raytraced-Bestrahlung durch, die auf einem Height mit einer Materialkarte und einer Umweltkarte und/oder einer Emissionskarte basiert.
+RT Irradiance ist der fortschrittlichste der neuen Knoten. Es führt eine Raytraced-Bestrahlung auf der Grundlage eines Materials mit Höhen-Map und einer Umgebungs-Map und/oder einer Emissive-Map durch.
 
-![](../../assets/rt-irrad-pro.jpg){width="600px"}
+![](version-11-2.resources/rt-irrad-pro.jpg){width="600px"}
 
-Das bedeutet, dass du Texturen mit vordefinierter Beleuchtung erstellen kannst, z. B. für stilisierte Projekte, oder du kannst einen raytraced Leuchteffekt erzeugen, der von deiner Landkarte reflektiert wird.
+Das bedeutet, dass du Texturen mit vorab Baking geführt Beleuchtung vornehmen kannst, z. B. für stilisierte Projekte, oder du kannst Baking in Raytraced Glow hinzufügen, das von deiner Lupe reflektiert wird.
 
-![](../../assets/bent-normal-ex.jpg){width="300px"}
+![](version-11-2.resources/bent-normal-ex.jpg){width="300px"}
 
 Und zuletzt gibt es den Knoten &quot;Gebeugte Normal&quot;. Im Vergleich zu einer normalen regulären Konvertierung verwendet dieser Knoten AO, um Ihre normale Zuordnung so zu ändern, dass diese AO-Informationen verwendet werden. Bevor Sie Gitterbäcker benötigen, um den Effekt zu erstellen, erledigt dieser Knoten dies in texturespace für Sie.
 

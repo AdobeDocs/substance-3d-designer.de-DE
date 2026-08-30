@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-filter-node.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Filterknoten "Abgeflachte Kante", um abgeflachte Kanten auf Formen und Mustern zu erstellen, um Tiefe und Abmessung hinzuzufügen.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Abgeflachte Kante (Filterknoten)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 2%
+source-wordcount: '204'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/bevel.png){width="128px"}
+![](bevel-filter-node.resources/bevel.png){width="128px"}
 
-## Abgeflachte Kante
-
-**In:** *Filter/Effekte*
-
-**Fortgeschrittene**
+<b>In:</b> Filters > Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,32 +37,39 @@ Führt einen Kantenabflachungseffekt für eine Graustufen-Höhenkarte aus. Gibt 
 
 Dies ist ein nützlicher Knoten zum Anwenden von exakten Kurvenprofilen auf eine idealerweise binäre (High Contract Black/White), einfache Höhenzuordnung.
 
-## Parameter
-
-### Eingaben
-
-* **Eingabe**: *Graustufen-Eingabe*\
-  Zu konvertierende Höhenzuordnung.
-* **Benutzerdefinierte Kurve**: *Graustufen-Eingabe*\
-  Farbverlauf, der die exakte Kurve/Steigung bestimmt. Im Idealfall ein linearer Verlaufsknoten, für den Sie beliebige Korrekturen wie [Tonwertkorrektur](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) oder [Gradationskurven](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md) ausführen können. Nur aktiv, wenn &quot;Benutzerdefinierte Kurve verwenden&quot; auf &quot;True&quot; gesetzt ist.
-
-### Parameter
-
-* **Entfernung**: *-1.0 - 1.0* Wie weit der Abschrägungseffekt reichen sollte.
-* **Eckentyp**: *Rund, Angular* Ob das Abschrägungsprofil abgerundet oder gerade sein soll.
-* **Glättung**: *0.0 - 5.0* Wie viel zusätzliche Glättung (Weichzeichnen) muss nach der Abschrägung ausgeführt werden.
-* **Uneinheitlichen Weichzeichner verwenden**: *Falsch/Wahr* Ob die Glättung ungleichmäßig erfolgen soll.
-* **Benutzerdefinierte Kurve verwenden**: *Falsch/Wahr* Schaltet die Verwendung Ihrer eigenen Kurve für benutzerdefinierte Heights um. Weitere Informationen finden Sie oben.
-* **Normalintensität**: *0.0 - 50.0* Intensität der generierten Normalmap.
-* **Normales Format**: *DirectX, OpenGL*\
-  Wechseln Sie zwischen verschiedenen Normalmap-Formaten (invertiert den grünen Kanal).
-
-## Beispielbilder
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/bevel-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Eingabe</b> <i>Graustufen-Eingabe</i> | Zu konvertierende Höhenzuordnung. |
+| <b>Benutzerdefinierte Kurve</b> <i>Graustufen-Eingabe</i> | Farbverlauf, der die exakte Kurve/Steigung bestimmt. Im Idealfall ein linearer Verlaufsknoten, für den Sie beliebige Korrekturen wie [Tonwertkorrektur](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) oder [Gradationskurven](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md) ausführen können. Nur aktiv, wenn &quot;Benutzerdefinierte Kurve verwenden&quot; auf &quot;True&quot; gesetzt ist. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Entfernung</b> <i>-1.0 - 1.0</i> | Wie weit der Effekt &quot;Abgeflachte Kante&quot; reichen soll. |
+| <b>Eckentyp</b> <i>Rund, Angular</i> | Legt fest, ob das Abschrägungsprofil abgerundet oder gerade sein soll. |
+| <b>Glättung</b> <i>0.0 - 5.0</i> | Gibt an, wie viel zusätzliche Glättung (Weichzeichnung) nach der abgeflachten Kante durchgeführt werden soll. |
+| <b>Uneinheitlichen Weichzeichner verwenden</b> <i>False/True</i> | Ob die Glättung ungleichmäßig erfolgen soll. |
+| <b>Benutzerdefinierte Kurve verwenden</b> <i>False/True</i> | Schaltet die Verwendung Ihrer eigenen benutzerdefinierten Height-Kurve um. Weitere Informationen finden Sie oben. |
+| <b>Normalintensität</b> <i>0.0 - 50.0</i> | Intensität der generierten Normalmap. |
+| <b>Normales Format</b> <i>DirectX, OpenGL</i> | Wechseln Sie zwischen verschiedenen Normalmap-Formaten (invertiert den grünen Kanal). |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="bevel-filter-node.resources/bevel-example.png" />
+        </td>
+    </tr>
 </table>

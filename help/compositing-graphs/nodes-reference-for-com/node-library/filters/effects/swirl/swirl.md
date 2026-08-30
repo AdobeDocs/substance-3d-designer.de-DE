@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/swirl.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/swirl.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Wirbel , um Wirbel-Verzerrung-Effekte auf Texturen anzuwenden, um Wirbel- und Spiralmuster zu erstellen.
+description: Verwenden Sie den Knoten Wirbel , um Wirbel-Verzerrung-Effekte auf Texturen zum Erstellen von Wirbel- und Spiralmustern anzuwenden.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Swirl
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Wirbel
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 2%
+source-wordcount: '87'
+ht-degree: 6%
 
 ---
 
@@ -22,33 +22,30 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/swirl-grayscale.png)![](../../../../../../assets/swirl.png)
+![](swirl.resources/swirl-grayscale.png)![](swirl.resources/swirl.png)
 
-## Wirbel (Graustufen)
-
-**In:** *Filter/Effekte*
-
-**Einfach**
+<b>In:</b> Filters > Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Dies transformiert ein Eingabebild, indem es in eine Wirbelrichtung verkrümmt wird. Es verfügt über zusätzliche Steuerelemente zum Verschieben des Wirbels zu Teilen der Arbeitsfläche.
-
-## Parameter
-
-* **Matrix**\
-  Ermöglicht Ihnen, den Effekt &quot;Wirbel&quot; manuell zu verschieben. Kann auch durch Interaktion mit den Handles in der 2D-Vorschau geändert werden.
-  * **Matrix**: *(Transformationsmatrix)*
-  * **Offset**: *0.0 - 1.0*
-* **Betrag**: *-16.0 - 16.0* Stärke des Wirbeleffekts.
-
-## Beispielbilder
+Dadurch wird ein Eingabebild durch Verziehen in Drallrichtung transformieren. Es verfügt über zusätzliche Steuerelemente zum Verschieben des Wirbels zu Teilen der Arbeitsfläche.
 
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Matrix</b> | Ermöglicht Ihnen, den Effekt &quot;Wirbel&quot; manuell zu verschieben. Kann auch durch Interaktion mit den Handles in der 2D-Vorschau geändert werden. |
+| <b>Matrix</b> <i>(Transformationsmatrix)</i> |  |
+| <b>Offset</b> <i>0.0 - 1.0</i> |  |
+| <b>Betrag</b> <i>-16.0 - 16.0</i> | Stärke des Wirbeleffekts. |

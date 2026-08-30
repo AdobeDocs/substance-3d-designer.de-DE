@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/variables.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie Variablen in Funktionsdiagrammen von Substance 3D Designer verwenden, um Werte effizient zu speichern und wiederzuverwenden.
+description: Erfahren Sie, wie Sie Variablen in Substance 3D Designer-Funktions-Grafen verwenden, um Werte effizient zu speichern und wiederzuverwenden.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Variables
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Variablen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 1%
@@ -44,14 +44,14 @@ In Substance 3D Designer gibt es zwei Variablenfamilien: Numerisch und boolesche
 
 Numerische Variablen sind im Grunde Zahlen. Aber wir unterscheiden klar zwischen zwei Arten von Zahlen:
 
-* Ganzzahlen : 0 | 1 | -1 | 203568 usw.
-* Floats: 0,23 | 1,0 | -0,3546 | usw.
+* GANZZAHLEN : 0 | 1 | -1 | 203568 usw.
+* Fließkommazahlen: 0,23 | 1,0 | -0,3546 | usw.
 
 >[!WARNING]
 >
-> Designer unterscheidet eindeutig zwischen Ganzzahlen und Gleitkommazahlen: standardmäßig können Sie sie nicht zusammen bedienen.
+> Designer unterscheidet klar zwischen Ganzzahlen und Animationsvorlagen: standardmäßig können Sie sie nicht zusammen bedienen.
 > 
-> Glücklicherweise können Sie die Knoten *To Integer* oder To Float verwenden, um Typkonvertierungen durchzuführen.
+> Glücklicherweise können Sie die Knoten *In Ganzzahl* oder In Fließkommazahl verwenden, um Typkonvertierungen durchzuführen.
 
 ### Mehrere numerische Werte in derselben Variable
 
@@ -61,8 +61,8 @@ Auch hier müssen alle Werte vom gleichen Typ sein.
 
 Dazu haben Sie die Wahl zwischen all diesen numerischen Werten:
 
-![](../../assets/image2015-12-18-14-10-36.png)
+![](variables.resources/image2015-12-18-14-10-36.png)
 
 ## Boolescher Wert
 
-Ein Boolean ist ein reiner Binärwert, d. h., sein Wert kann nur *True* oder *False* sein (Sie können auch 0 oder 1 sagen).
+Ein Boolesche Wert ist ein reiner Binärwert, d. h., sein Wert kann nur *True* oder *False* sein (Sie können auch 0 oder 1 sagen).

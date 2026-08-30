@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Farbe quantisieren , um die Anzahl der Farben in Texturen zu reduzieren, um posterisierte und stilisierte Effekte zu erstellen.
+description: Verwenden Sie den Knoten "Farbe quantisieren", um die Anzahl der Farben in Texturen für die Erstellung posterisierter und stilisierter Effekte zu reduzieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Quantize Color (Simple)
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Farbe quantisieren (einfach)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '104'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Symbol &quot;Farbe quantisieren&quot;](../../../../../../assets/quantize.png "Symbol &quot;Farbe quantisieren&quot;"){width="200px"}
+![Symbol &quot;Farbe quantisieren&quot;](quantize.resources/quantize.png "Symbol &quot;Farbe quantisieren&quot;"){width="200px"}
 
 <b>In:</b> Filters > Adjustments
 
@@ -39,14 +39,13 @@ Annähert den Eingabebereich an eine vordefinierte Anzahl von Werten. Führt eff
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parameter
 
-<b>Rotkanal quantisieren</b> *Integer* Legt die Anzahl der Schritte für die Annäherung des roten Kanals an fest.
-
-<b>Größe des grünen Kanals</b> *Integer* Legt die Anzahl der Schritte für die Annäherung des grünen Kanals an fest.
-
-<b>Blauer Kanal quantisieren</b> *Integer*
-
-Legt die Anzahl der Schritte für die Annäherung des Blaukanals fest.
-
-<b>Alpha-Kanal quantisieren</b> *Integer* Legt die Anzahl der Schritte für die Annäherung des Alpha-Kanals an fest.
+|  |  |
+|:---|:---|
+| <b>Rotkanal quantisieren</b> *Integer* | Legt die Anzahl der Schritte für die Annäherung des roten Kanals fest. |
+| <b>Größe des grünen Kanals</b> *Integer* | Legt die Anzahl der Schritte fest, um die der grüne Kanal näherungsweise erweitert werden soll. |
+| <b>Blauer Kanal quantisieren</b> *Integer* | Legt die Anzahl der Schritte für die Annäherung des Blaukanals fest. |
+| <b>Alphakanal quantisieren</b> *Integer* | Legt die Schrittanzahl fest, nach der der Alphakanal angenähert werden soll. |

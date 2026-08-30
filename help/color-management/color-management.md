@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/color-management.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über das Farbmanagement in Substance 3D Designer, einschließlich Farbräumen, Profilen und Volltonfarben-Workflows.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Farbmanagement
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Auf dieser Seite werden die Funktionen und Einstellungen für das Farbmanagement
 
 Substance 3D Designer kann so konfiguriert werden, dass [OpenColorIO](https://opencolorio.org/) (OCIO) oder Adobe Color Engine (ACE) für das Farbmanagement verwendet wird. Dadurch können Sie *konsistente* Farbtransformationen und Bilddarstellung über mehrere Anwendungen hinweg durchführen.
 
-In diesem Modus arbeitet Designer intern mit **linearen RGB**-Farben. Da 8 Bittiefen normalerweise nicht ausreichen, um Linearfarben darzustellen, wird empfohlen, mindestens **&#x200B; **&#x200B;16-bit** Tiefen für Farbtexturen im [Diagramm](../compositing-graphs/substance-compositing-graphs.md) zu verwenden.
+In diesem Modus arbeitet Designer intern mit **linearen RGB**-Farben. Da 8 Bittiefen normalerweise nicht ausreichen, um Linearfarben darzustellen, wird empfohlen, mindestens ** **16-bit** Tiefen für Farbtexturen im [Diagramm](../compositing-graphs/substance-compositing-graphs.md) zu verwenden.
 
 >[!WARNING]
 >
@@ -68,20 +68,20 @@ Sie finden diese Konfigurationsdateien im Ordner <b>Ressourcen > ocio</b> der De
 | <b>8-Bit-Bilder</b> | Legt den Standardfarbraum für 8-Bit-Bitmaps fest. *Standard: Durch OpenColorIO-Konfigurationsdatei* festgelegt |
 | <b>16-Bit-Bilder</b> | Legt den Standardfarbraum für 16-Bit-Bitmaps fest. *Standard: Durch OpenColorIO-Konfigurationsdatei* festgelegt |
 | <b>Gleitkommabilder</b> | Legt den Standardfarbraum für Gleitkomma-Präzisions-Bitmaps fest, z. B. *HDR*-Bilder in den Formaten *\*.exr *oder*\*.hdr*. *Standard: Durch OpenColorIO-Konfigurationsdatei* festgelegt |
-| <b>Dateiname zum Erkennen des Farbraums verwenden</b> | Ermöglicht Designer das automatische Zuweisen eines Farbraums, wenn das *Suffix* eines Bitmap-Dateinamens *genau mit dem Kleinbuchstaben eines Farbraums übereinstimmt, der in der aktuellen OpenColorIO* Konfiguration *enthalten ist.* Beispiel: Eine Bitmapressource *mybitmap\_aces\_acescg.png* wird automatisch auf den Farbraum *ACES - ACEScg* festgelegt, und die entsprechende Transformation wird auf den Arbeitsfarbraum angewendet. *Standard: Aktiviert* |
+| <b>Dateiname zum Erkennen des Farbraums verwenden</b> | Ermöglicht Designer das automatische Zuweisen eines Farbraums, wenn das *Suffix* eines Bitmap-Dateinamens *genau mit dem Kleinbuchstaben eines Farbraums übereinstimmt, der in der aktuellen OpenColorIO* Konfiguration *enthalten ist.* Beispiel: Eine Bitmapressource *mybitmap\_aces\_acescg.png* wird automatisch auf den Farbraum *ACE - ACEScg* festgelegt, und der entsprechende transformieren wird auf den Arbeitsfarbraum angewendet. *Standard: Aktiviert* |
 
-### Anzeigestandard in 2D- und 3D-Ansicht
+### Anzeigestandard für 2D und 3D-Ansicht
 
 |  |  |
 | --- | --- |
-| <b>Standardanzeige für 2D- und 3D-Ansicht </b> | Legt den Standardfarbraum *display* für die Viewports [2D view](../interface/2d-view/2d-view.md) und [3D view](../interface/3d-view/3d-view.md) fest. *Standard: Durch OpenColor IO-Konfigurationsdatei* festgelegt |
-| <b>Miniaturansichten farbverwalten</b> | Erlaubt Designer das automatische Transformieren des Knotens *Miniaturansichten* in den *Arbeitsfarbraum* im Diagramm. *Standard: Aktiviert* |
+| <b>Standardanzeige für 2D- und 3D-Ansicht </b> | Legt den Standardfarbraum *display* für die Viewport [2D-Ansicht](../interface/2d-view/2d-view.md) und [3D view](../interface/3d-view/3d-view.md) fest. *Standard: Durch OpenColor IO-Konfigurationsdatei* festgelegt |
+| <b>Miniaturansichten farbverwalten</b> | Erlaubt Designer, den Knoten *Miniaturansichten* automatisch an den *Arbeitsfarbraum* im Graf transformieren. *Standard: Aktiviert* |
 
 ## Adobe ACE
 
 ### Farbeinstellungen
 
-Bei Verwendung des Adobe ACE-Modus für das Farbmanagement verwendet Substance 3D Designer die in <b>ICC-Profilen</b> (*\*.icc / \*.icm*) gespeicherten Informationen, um Farbtransformationen durchzuführen und Farbräume zu identifizieren.
+Bei Verwendung des Adobe-ACE für das Farbmanagement verwendet Substance 3D Designer die in <b>ICC-Profilen</b> (*\*.icc / \*.icm*) gespeicherten Informationen, um Farb-transformieren auszuführen und Farbräume zu identifizieren.
 
 Designer wird mit einer Reihe von ICC-Profilen geliefert. Sie finden die Dateien für diese Profile im Ordner &quot;`resources > icc`&quot; der Designer-Installationsdateien.\
 Sie können *Ihre eigenen* ICC-Profile hinzufügen, indem Sie diese Dateien im Ordner *Dokumente* für den aktuellen Systembenutzer am Speicherort `Adobe/Adobe Substance 3D Designer/icc` platzieren.
@@ -89,7 +89,7 @@ Sie können *Ihre eigenen* ICC-Profile hinzufügen, indem Sie diese Dateien im O
 |  |  |
 | --- | --- |
 | <b>Arbeitsbereich</b> | Mit dieser Einstellung können Sie den Arbeitsfarbraum auswählen, um *Farbvorgänge* in Substance 3D Designer durchzuführen. *Standard: sRGB IEC61966-2.1* |
-| <b>Renderpriorität</b> | Mit dieser Option können Sie steuern, wie Farben transformiert werden sollen, wenn sie sich außerhalb des Farbumfangs *des* Arbeitsfarbraums *befinden.**Standard: Relativ farbmetrisch* |
+| <b>Renderpriorität</b> | Mit dieser Option können Sie steuern, wie Farben transformieren werden sollen, wenn sie sich außerhalb des Farbumfangs *des* Arbeitsfarbraums *befinden.**Standard: Relativ farbmetrisch* |
 
 ### Standardwerte für den Bitmap-Farbraum
 
@@ -97,20 +97,20 @@ Sie können *Ihre eigenen* ICC-Profile hinzufügen, indem Sie diese Dateien im O
 | --- | --- |
 | <b>8-Bit-Bilder</b> | Legt das ICC-Standardprofil für 8-Bit-Bitmaps fest. *Standard:* sRGB IEC61966-2.1 ** |
 | <b>16-Bit-Bilder</b> | Legt das ICC-Standardprofil fest, das 16-Bit-Bitmaps verwendet. **Standard: *sRGB IEC61966-2.1*** |
-| <b>Gleitkommabilder</b> | Legt das ICC-Standardprofil fest, das für Gleitkomma-Präzisionsbitmaps verwendet werden soll, z. B. *HDR*-Bilder in den Formaten *\*.exr *oder*\*.hdr*. *Standard: Raw (d. h. kein Profil angewendet)* |
+| <b>Gleitkommabilder</b> | Legt das ICC-Standardprofil fest, das für Gleitkomma-Präzisionsbitmaps verwendet werden soll, z. B. *HDR.* Bilder in den Formaten *\*.exr *oder*\*.hdr*. *Standard: Raw (d. h. kein Profil angewendet)* |
 | <b>Integrierte ICC-Profile verwenden, wenn verfügbar</b> | Ermöglicht Designer die Verwendung des in einer Bitmap eingebetteten ICC-Profils anstelle der oben aufgeführten Standardwerte. *Standard: Aktiviert* |
 
 ### Standardraum für 2D- und 3D-Ansicht-Anzeige
 
 |  |  |
 | --- | --- |
-| <b>Standardanzeige für 2D- und 3D-Ansicht </b> | Legt den Standardfarbraum *display* für die Viewports [2D view](../interface/2d-view/2d-view.md) und [3D view](../interface/3d-view/3d-view.md) fest. *Standard:*** ICC-Profil für den Hauptbildschirm, vom Betriebssystem abgerufen &#x200B;**&#x200B;** |
+| <b>Standardanzeige für 2D- und 3D-Ansicht </b> | Legt den Standardfarbraum *display* für die Viewport [2D-Ansicht](../interface/2d-view/2d-view.md) und [3D view](../interface/3d-view/3d-view.md) fest. *Standard:*** ICC-Profil für den Hauptbildschirm, vom Betriebssystem abgerufen **** |
 
 ### Diagrammanzeige
 
 |  |  |
 | --- | --- |
-| <b>Miniaturansichten farbverwalten</b> | Wenn *aktiviert* ist, wandelt Designer die *Knoten-Miniaturansichten* in den aktuellen *Arbeitsfarbraum* um. *Standard:*** Nicht aktiviert &#x200B;**&#x200B;** |
+| <b>Miniaturansichten farbverwalten</b> | Wenn *aktiviert* ist, transformieren Designer die *Knotenminiaturansichten* an den aktuellen *Arbeitsfarbraum*. *Standard:*** Nicht aktiviert **** |
 
 ## Legacy-Modus
 
@@ -128,11 +128,11 @@ Sie können einen Farbraum für *exportierte Bitmaps* festlegen, wie im Abschnit
 
 Im Legacy-Modus verwendet Designer den Arbeitsfarbraum <b>sRGB</b>, der von den meisten Bildschirmen wiedergegeben werden kann.
 
-Wenn die Option &quot;Raw&quot; berücksichtigt wird, werden die Bilddaten *wie vorhanden* aus dem Diagramm geschrieben - d. h. unter Verwendung des Diagrammarbeitsfarbraums. Dies bedeutet, dass die Optionen <b>Raw</b> und <b>sRGB</b> zu der *gleichen Farbausgabe* führen.
+Wenn die Option &quot;Raw&quot; berücksichtigt wird, werden die Bilddaten *wie vorhanden* aus dem Graf geschrieben - d. h. unter Verwendung des Arbeitsfarbraums des Grafen. Dies bedeutet, dass die Optionen <b>Raw</b> und <b>sRGB</b> zu der *gleichen Farbausgabe* führen.
 
-Standardmäßig wird die Option &quot;sRGB&quot; für Ausgaben festgelegt, die *Farbinformationen* enthalten (z. B. Grundfarbe, emittierend), und die Option &quot;Raw&quot; ist für Ausgaben festgelegt, die *reine Daten* enthalten (z. B. Raueit, Metallisch, Height, Normal). Wie oben erläutert, führen diese Standardwerte effektiv zu denselben Farben und sind nur auf *zur Unterscheidung der Endverwendung* ihrer Ausgaben festgelegt.
+Standardmäßig wird die Option &quot;sRGB&quot; für Ausgaben festgelegt, die *Farbinformationen* enthalten (z. B. Grundfarbe, Emissive), und die Option &quot;Raw&quot; ist für Ausgaben festgelegt, die *reine Daten* enthalten (z. B. Rauheit, Metallic, Height, Normal). Wie oben erläutert, führen diese Standardwerte effektiv zu denselben Farben und sind nur auf *zur Unterscheidung der Endverwendung* ihrer Ausgaben festgelegt.
 
-Die Option <b>Linear</b> ist die Option *Nur*, die dazu führt, dass eine *Farbtransformation* auf das Bild angewendet wird. Sie kann nur für <b>Bilder der High Dynamic Range</b> (HDR) verwendet werden, die häufig *Gleitkomma-Präzision* (d. h. 16F oder 32F Bittiefe) im linearen Farbraum verwenden. Dadurch können diese Bilder in einer Vielzahl von Farbräumen und Produktionsumgebungen verwendet werden.
+Die <b>Linear</b>-Option ist die *Nur*-Option, die dazu führt, dass ein *Farb-transformieren* auf das Bild angewendet wird. Sie kann nur für <b>Bilder der High Dynamic Range</b> (HDR.) verwendet werden, die normalerweise *Gleitkomma-Präzision* (d. h. 16F oder 32F Bittiefe) im linearen Farbraum verwenden. Dadurch können diese Bilder in einer Vielzahl von Farbräumen und Produktionsumgebungen verwendet werden.
 
 >[!NOTE]
 >
@@ -148,30 +148,30 @@ Sie können den Farbraum einer Bitmap jederzeit ändern. Die Option befindet sic
 
 >[!NOTE]
 >
-> **Nur OpenColorIO**
+> Nur **OpenColorIO**
 > 
-> Insbesondere kann der **Dateiname** verwendet werden, um den entsprechenden Farbraum *automatisch* festzulegen. Beachten Sie, dass der Farbraumname im Dateinamen *mit dem Namen* in der OpenColorIO-Konfigurationsdatei übereinstimmen muss (z. B. *myImage\_utility - linear -srgb.png* wird auf *Utility - Linear - sRGB* (Farbraum) festgelegt.
+> Insbesondere kann der **Dateiname** verwendet werden, um den entsprechenden Farbraum *automatisch* festzulegen. Beachten Sie, dass der Farbraumname im Dateinamen *mit dem Namen* in der OpenColorIO Konfigurationsdatei übereinstimmen muss (z. B. *myImage\_utility - linear -srgb.png* wird auf *Utility - Linear - sRGB* (Farbraum) festgelegt.
 
-![Einstellung des Bitmap-Farbraums](../assets/2019-3-0-bitmap-clr-space.png "Einstellung des Bitmap-Farbraums")
+![Einstellung des Bitmap-Farbraums](color-management.resources/2019-3-0-bitmap-clr-space.png "Einstellung des Bitmap-Farbraums")
 
 ## Exportieren von Ausgaben
 
-Bei Verwendung des Dialogfelds <b>Exportausgaben</b> ist es möglich, einen <b>Farbraum</b> (OCIO) zuzuweisen oder ein <b>ICC-Profil</b> (Adobe ACE) für *jede*-Ausgabe anzuhängen.\
+Bei Verwendung des Dialogfelds <b>Exportausgaben</b> ist es möglich, einen <b>Farbraum</b> (OCIO) zuzuweisen oder ein <b>ICC-Profil</b> (Adobe ACE) für die *jede*-Ausgabe anzuhängen.\
 Designer konvertiert *Bilder in die angegebenen Farbräume, bevor die Bilddateien gespeichert werden.*
 
-![Dialogfeld für Exportausgaben](../assets/2019-3-0-clr-mgt-export-outputs.png "Dialogfeld für Exportausgaben"){width="512px"}
+![Dialogfeld für Exportausgaben](color-management.resources/2019-3-0-clr-mgt-export-outputs.png "Dialogfeld für Exportausgaben"){width="512px"}
 
 Sie können auch einen Farbraum (OCIO) zuweisen oder ein ICC-Profil (Adobe ACE) an Bilder *Gespeichert* aus der [2D-Ansicht](../interface/2d-view/2d-view.md) anhängen.
 
-![2D-Exportoptionen anzeigen](../assets/2019-3-0-clr-mgt-save-image.png "2D-Exportoptionen anzeigen")
+![Exportoptionen für 2D-Ansichten](color-management.resources/2019-3-0-clr-mgt-save-image.png "Exportoptionen für 2D-Ansichten")
 
 ## 2D- und 3D-Ansichten
 
 ### Symbolleiste anzeigen
 
-Sie können das *Farbmanagement* aktivieren/deaktivieren und die *Anzeigetransformation* für die Ansicht jederzeit mithilfe des Dropdown-Menüs in der Anzeigesymbolleiste ändern.
+Sie können das *Farbmanagement* aktivieren/deaktivieren und den *Anzeigemodus* für die transformieren jederzeit mithilfe des Dropdownmenüs in der Anzeigesymbolleiste ändern.
 
-![Farbraumeinstellung in 2D-Ansicht](../assets/2019-3-0-clr-mgt-display-toolbar.png "Farbraumeinstellung in 2D-Ansicht"){width="512px"}
+![Farbraumeinstellung in 2D-Ansicht](color-management.resources/2019-3-0-clr-mgt-display-toolbar.png "Farbraumeinstellung in 2D-Ansicht"){width="512px"}
 
 ### Library HDRI-Umgebungen
 
@@ -180,7 +180,7 @@ Wenn Sie eine OpenColorIO-Konfiguration verwenden, bei der der lineare Farbraum 
 
 In diesem Fall sollte der Farbraum für Bibliotheks-HDRI-Umgebungen in den Umgebungseigenschaften, die im Menü des Bedienfelds &quot;3D-Ansicht&quot; <b>Umgebung</b> verfügbar sind, auf *manuell* festgelegt werden.
 
-![Farbraumeinstellung der 3D-Ansichtsumgebung](../assets/2019-3-0-clr-mgt-hdri-env.png "Farbraumeinstellung der 3D-Ansichtsumgebung"){width="512px"}
+![Farbraumeinstellung der 3D-Ansichtsumgebung](color-management.resources/2019-3-0-clr-mgt-hdri-env.png "Farbraumeinstellung der 3D-Ansichtsumgebung"){width="512px"}
 
 ## Farbkonvertierungsknoten
 
@@ -211,11 +211,11 @@ Die [Library](../interface/the-library/the-library.md) enthält die folgenden Kn
 
 Diese sind nützlich, wenn Sie mit Diagrammen arbeiten, die *ohne* Farbmanagement erstellt wurden, oder mit Materialien aus der [Substance 3D Assets](https://substance3d.adobe.com/assets)-Bibliothek.
 
-![Farbkonvertierungsknoten in Bibliothek](../assets/2019-3-0-clr-mgt-nodes.png "Farbkonvertierungsknoten in Bibliothek"){width="512px"}
+![Farbkonvertierungsknoten in Bibliothek](color-management.resources/2019-3-0-clr-mgt-nodes.png "Farbkonvertierungsknoten in Bibliothek"){width="512px"}
 
 ## Bekannte Einschränkungen
 
 Die aktuelle Implementierung des Farbmanagements in Substance 3D Designer hat die folgenden Einschränkungen:
 
-* Das Farbmanagement wird derzeit *nicht* in der [Python-API &#x200B;](../scripting/scripting.md) angezeigt.
+* Das Farbmanagement wird derzeit *nicht* in der [Python-API ](../scripting/scripting.md) angezeigt.
 * [OpenColorIO](https://opencolorio.org/) *Looks* werden *nicht* unterstützt.

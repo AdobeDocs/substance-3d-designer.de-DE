@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-simplex-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-simplex-noise.html"
 breadcrumb-title: ''
 description: Verwenden Sie den 3D-Knoten "Simplex Noise", um 3D-Simplex-Rauschmuster zu generieren, um glatte, natürlich aussehende volumetrische Texturen zu erstellen.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Einfaches 3D-Rauschen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 1%
+source-wordcount: '129'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3d-simplex-noise.png){width="128px"}
+![](3d-simplex-noise.resources/3d-simplex-noise.png){width="128px"}
 
-## Einfaches 3D-Rauschen
-
-**In:** *Texturgeneratoren**/Noises*
-
-**Fortgeschrittene**
+<b>In:</b> Textur Generators > Rauschen
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -42,16 +38,25 @@ Erzeugt ein prozedurales Rauschen, wenn eine eingebettete Positionsabbildung an 
 
 Dieses Rauschen kann mit [Cube 3D GBuffers](https://support.allegorithmic.com/documentation/display/SDDOC/Cube+3D+GBuffers) als Eingabe anstelle einer tatsächlichen durch Baking erzeugte Map (wie im folgenden Beispielbild) getestet werden.
 
-## Parameter
-
-* **Skalierung**: *0.0 - 64.0*\
-  Legen Sie die globale Skalierung für den Effekt fest.
-* **Größe**: *0.0 - 2.0* Führen Sie eine ungleichmäßige Skalierung auf X-, Y- und Z-Achsen separat durch.
-
-## Beispielbilder
-
-![](../../../../../../assets/3d-simplex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Skalierung</b> <i>0.0 - 64.0</i> | Legen Sie die globale Skalierung für den Effekt fest. |
+| <b>Größe</b> <i>0.0 - 2.0</i> | Führen Sie eine ungleichmäßige Skalierung auf X-, Y- und Z-Achsen separat durch. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-simplex-noise.resources/3d-simplex.gif" />
+        </td>
+    </tr>
 </table>

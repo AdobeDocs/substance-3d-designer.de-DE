@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/home.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/home.html"
 breadcrumb-title: ''
 description: Lerne, wie du mit Substance 3D Designer prozedurale Materialien, Texturen und 3D-Elemente mit knotenbasierten Workflows erstellen kannst.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 3D Designer-Benutzerhandbuch
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 89%
@@ -20,9 +20,9 @@ ht-degree: 89%
 
 # Substance 3D Designer-Benutzerhandbuch
 
-![Substance 3D Designer-Hauptfenster](../assets/sdsummerinterface.jpg "Substance 3D Designer-Hauptfenster")
+![Substance 3D Designer-Hauptfenster](home.resources/sdsummerinterface.jpg "Substance 3D Designer-Hauptfenster")
 
-[Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) ist eine Software zum Erstellen von Materialien für Grafikanwendungen. Sie können ein Knotendiagramm verwenden, um Texturen aus prozeduralen Mustern und Geräuschen zu generieren und Bitmaps zu bearbeiten.
+[Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) ist eine Software zum Erstellen von Materialien für Grafikanwendungen. Sie können einen Node-Graf verwenden, um Texturen aus prozeduralen Mustern und Rauschen zu generieren und Bitmaps zu bearbeiten.
 
 Du kennst ein Wort oder Konzept aus Designer nicht? In unserem [Glossar](../glossary/glossary.md) findest du weitere Informationen dazu.
 
@@ -36,7 +36,7 @@ Solltest du Fragen haben, die in diesem Handbuch nicht beantwortet werden, kanns
 
 * [Aktivierung und Lizenzen](../getting-started/activation-and-licenses/activation-and-licenses.md): Auf dieser Seite findest du Informationen zum Aktivieren und Verwalten deiner Lizenzen, damit du Designer verwenden kannst.
 * [Systemanforderungen](../getting-started/system-requirements/system-requirements.md): Auf dieser Seite sind die Systemanforderungen und Informationen zur Hardwarekompatibilität aufgeführt.
-* [Übersicht](../getting-started/overview/overview.md): Auf dieser Seite erhältst du einen Überblick über Substance 3D Designer https://www.adobe.com/de/products/substance3d-designer.html und darüber, welche Rolle es im Vergleich zu den anderen Anwendungen im Substance-Ökosystem spielt und mit welchen Dateitypen und Ressourcen du in Designer arbeiten kannst.
+* [Übersicht](../getting-started/overview/overview.md): Auf dieser Seite erhältst du einen Überblick über Substance 3D Designer https://www.adobe.com/products/substance3d-designer.html und darüber, welche Rolle es im Vergleich zu den anderen Anwendungen im Substance-Ökosystem spielt und mit welchen Dateitypen und Ressourcen du in Designer arbeiten kannst.
 * [Workflow-Übersicht](../getting-started/workflow-overview/workflow-overview.md): Auf dieser Seite erfährst du, wie der knotenbasierte Workflow funktioniert, und erhältst einen Überblick über die drei Hauptarten von Graphen, die du in Designer erstellen kannst.
 * [Tastaturbefehle](../getting-started/shortcuts/shortcuts.md): Auf dieser Seite findest du eine Übersicht aller Tastaturbefehle für Substance 3D Designer.
 * [Tutorials und Lernmaterial](../getting-started/tutorials-learning/tutorials-learning.md): Wenn du mit Videos und anderen Lernmaterialien loslegen möchtest, sind diese Tutorials ein guter Einstieg:
@@ -47,7 +47,7 @@ Solltest du Fragen haben, die in diesem Handbuch nicht beantwortet werden, kanns
 ## Benutzeroberfläche
 
 * [Startbildschirm](../interface/home-screen/home-screen.md): Der Startbildschirm wird beim Start von Substance 3D Designer angezeigt. Er soll dir den Einstieg in die Arbeit erleichtern und enthält nützliche Links.
-* [Arbeitsbereich anpassen](../interface/customizing-your-wor/customizing-your-workspace.md): Hier erfährst du, wie du die Bedienfelder in der Benutzeroberfläche von Adobe Substance 3D Designer (https://www.adobe.com/de/products/substance3d-designer.html) nach deinen Wünschen organisieren und ihre Funktionen für deine Workflows nutzen kannst.
+* [Arbeitsbereich anpassen](../interface/customizing-your-wor/customizing-your-workspace.md): Hier erfährst du, wie du die Bedienfelder in der Benutzeroberfläche von Adobe Substance 3D Designer (https://www.adobe.com/products/substance3d-designer.html) nach deinen Wünschen organisieren und ihre Funktionen für deine Workflows nutzen kannst.
 * [Hauptsymbolleiste](../interface/the-main-toolbar/the-main-toolbar.md): Auf dieser Seite werden die Hauptsymbolleiste und das Menü von Adobe Substance 3D Designer beschrieben, die oben links im Hauptfenster zu finden sind.
 * [Voreinstellungen](../interface/preferences-window/preferences-window.md): Auf dieser Seite erfährst du alles über die verschiedenen Einstellungen im Menü „Voreinstellungen“.
 * [Explorer](../interface/the-explorer-window/the-explorer-window.md): Auf dieser Seite erfährst du alles über das Explorer-Bedienfeld in Adobe Substance 3D Designer. In diesem Bedienfeld kannst du Pakete und die zugehörigen Ressourcen verwalten.

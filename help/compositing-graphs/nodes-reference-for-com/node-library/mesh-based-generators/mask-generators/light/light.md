@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/light.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Licht , um Masken basierend auf Gitterlichtbedingungen zu generieren, um realistische Materialvariationen zu erstellen.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Hell
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 3%
+source-wordcount: '138'
+ht-degree: 9%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/light-2.png){width="128px"}
+![](light.resources/light-2.png){width="128px"}
 
-## Hell
-
-**In:** *Mesh-basierte Generatoren**/Masken-Generatoren*
-
-**Einfach**
+<b>In:</b> Mesh-basierte Generatoren > Maskengenerator
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,17 +37,27 @@ Generiert eine Schwarzweißmaske auf der Grundlage von durch Baking erzeugte Map
 
 Diese Maske unterscheidet sich ein wenig von anderen Generatoren: Es handelt sich um eine gefälschte Beleuchtung, die auf der Normalmap des Weltraums basiert und eine Schwarz-Weiß-&quot;Lightmap&quot;-Maske zurückgibt.
 
-## Parameter
-
-* **Horizontaler Winkel**: *0.0 - 1.0* Legt den horizontalen Winkel des falschen Lichts fest.
-* **Vertikaler Winkel**: *0.0 - 1.0* Legt den vertikalen Winkel des falschen Lichts fest.
-* **Glossargrad hervorheben**: *0.0 - 0.999* Legt den Abfall-Abstand des markierten Bereichs fest.
-* **Markierungsstufe**: *0.0 - 1.0* Legt die Helligkeitsstufe des markierten Bereichs fest.
-
-## Beispielbilder
-
-![](../../../../../../assets/light-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Horizontaler Winkel</b> <i>0.0 - 1.0</i> | Legt den horizontalen Winkel des falschen Lichts fest. |
+| <b>Vertikaler Winkel</b> <i>0.0 - 1.0</i> | Legt den vertikalen Winkel des falschen Lichts fest. |
+| <b>Glanzlichter hervorheben</b> <i>0.0 - 0.999</i> | Legt den Abstandsbereich des markierten Bereichs fest. |
+| <b>Ebene hervorheben</b> <i>0.0 - 1.0</i> | Legt die Helligkeitsstufe des markierten Bereichs fest. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="light.resources/light-ex.gif" />
+        </td>
+    </tr>
 </table>

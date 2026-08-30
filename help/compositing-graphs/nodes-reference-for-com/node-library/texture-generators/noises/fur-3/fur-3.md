@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-3.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Fur 3 -Knoten, um erweiterte Felltexturen mit anpassbaren Eigenschaften zum Erstellen von Haar- und Fasereffekten zu generieren.
+description: Verwenden Sie den Fur 3 -Knoten, um erweiterte Fell-Texturen mit anpassbaren Eigenschaften für die Erstellung von Haar- und Fasereffekten zu generieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fur 3
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Fur 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 2%
+source-wordcount: '77'
+ht-degree: 11%
 
 ---
 
@@ -22,37 +22,40 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fur-3.png){width="128px"}
+![](fur-3.resources/fur-3.png){width="128px"}
 
-## Fur 3
-
-**In:** *Texturgeneratoren**/Noises*
-
-**Einfach**
+<b>In:</b> Texturgeneratoren > Rauschen
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Dies erzeugt ein Streichorgelgeräusch.
-
-## Parameter
-
-* **Skalierung**: *1 - 8*\
-  Legt die globale Skalierung für den Effekt fest.
-* **Störung**: *0.0 - 1.0*\
-  Phasenverschiebt das Rauschen, um kleine Schwankungen einzuführen.
-* **Anzahl der Wellen**: *0.0 - 8.0*
-* **Quadratische Ausbreitung**: *False/True*\
-  Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen.
-
-## Beispielbilder
-
-![](../../../../../../assets/fur-3-ex.gif)
+Dadurch wird eine Spreiz-/Borsten-Rauschen erzeugt.
 
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Skalierung</b> <i>1 - 8</i> | Legt die globale Skalierung für den Effekt fest. |
+| <b>Störung</b> <i>0.0 - 1.0</i> | Phasenverschiebt das Rauschen, um kleine Schwankungen einzuführen. |
+| <b>Anzahl der Wellen</b> <i>0.0 - 8.0</i> |  |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="fur-3.resources/fur-3-ex.gif" />
+        </td>
+    </tr>
 </table>

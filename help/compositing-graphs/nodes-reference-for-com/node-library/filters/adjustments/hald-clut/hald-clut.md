@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hald-clut.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hald-clut.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Hald CLUT, um Farbtabellen mit dem Format Hald CLUT für Farbkorrektur und -abstufung anzuwenden.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Hald CLUT
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '90'
 ht-degree: 4%
 
 ---
@@ -22,37 +22,46 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/hald-clut.png){width="128px"}
+![](hald-clut.resources/hald-clut.png){width="128px"}
 
-## Hald CLUT
-
-**In:** *Filter/Korrekturen*
-
-**Fortgeschrittene**
+<b>In:</b> Filters > Adjustments
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Wendet eine LUT auf das Eingabebild an. Die LUT muss im Hald-Format mit einer Auflösung von 4096\*4096 vorliegen. Weitere Informationen finden Sie unter <http://www.quelsolaar.com/technology/clut.html>.
 
-### Eingaben
+</td>
+</tr>
+</table>
 
-* **Eingabe**: *Farbeingabe*\
-  Bild, auf das die LUT angewendet werden soll.
-* **lut**: *Farbeingang* Lut-Eingangssteckplatz. Muss 4096x4096 sein.
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Eingabe</b> <i>Farbeingabe</i> | Bild, auf das die LUT angewendet werden soll. |
+| <b>lut</b> <i>Farbeingabe</i> | Steckplatz am Eingang freigeben. Muss 4096x4096 sein. |
+
+<a name="parameters"></a>
 
 ## Parameter
 
-* **LUT-Intensität nach Alpha**: *Falsch/Wahr* Definiert, ob der LUT-Effekt durch den Alphakanal gewichtet wird.
+|  |  |
+|:---|:---|
+| <b>LUT-Intensität nach Alpha</b> <i>False/True</i> | Definiert, ob der LUT-Effekt vom Alphakanal gewichtet wird. |
 
-Beispiele
+## Beispiele
 
-![](../../../../../../assets/content-hald-clut.jpg)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="hald-clut.resources/content-hald-clut.jpg" />
+        </td>
+    </tr>
 </table>

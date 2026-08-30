@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-height.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-height.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Spline-Beispiel-Height , um Spline-Height-Werte entlang von Splines für prozedurale Versatz-Effekte aufzunehmen.
+description: Verwenden Sie den Knoten Spline Sample Height , um Height-Werte entlang von Splines für prozedurale Versatz-Effekte aufzunehmen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Sample Height
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Spline-Beispiel-Height
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,9 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/spline-sample-height-icon.png "Knotensymbol")
+![Knotensymbol](spline-sample-height.resources/spline-sample-height-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -37,7 +33,7 @@ ht-degree: 0%
 
 ## Beschreibung
 
-Ändert das Height der Eingabe-Splines, indem ihnen ein Eingabe-Height Map zugeordnet wird.
+Ändert das Height der Eingabe-Splines, indem ihnen eine Eingabe-Höhen-Map zugeordnet wird.
 
 Der Effekt der zugeordneten Height-Map kann angepasst werden, indem die Füllmethode und die Deckkraft dieses Effekts geändert werden.
 
@@ -45,76 +41,43 @@ Der Effekt der zugeordneten Height-Map kann angepasst werden, indem die Füllmet
 </tr>
 </table>
 
-## Eingangsanschlüsse
+<a name="inputs"></a>
 
-<b>Vorschau</b> *Graustufen* Die Vorschau der Eingabe-Splines als Graustufenbild.
+## Eingaben
 
-<b>Spline-Kabel</b> *Farbe* Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Eingabesplines:\
-<b> R</b> - X-Position\
-<b> G</b> - Y-Position\
-<b> B</b> - Height\
-<b>A</b> - Paketdaten:\
-* Signieren: Die Spline ist geschlossen (negativ) oder offen (positiv).\
-* Absoluter Wert: Thickness + 1.
+|  |  |
+|:---|:---|
+| <b>Vorschau</b> <i>Graustufen</i> | Die Vorschau der Eingabe-Splines als Graustufenbild. |
+| <b>Spline-Kabel</b> <i>Farbe</i> | Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Eingabesplines:<br><b>R</b> - X-Position<br><b>G</b> - Y-Position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br> - Sign: Spline ist geschlossen (negativ) oder offen (positiv);<br> - Absolute Wert: Thickness + 1. |
+| <b>Spline-Daten</b> <i>Farbe</i> | Zusätzliche Daten der Eingabe-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.<br><b>R</b> - Tangenten X<br><b>G</b> - Tangenten Y<br><b>B</b> - Nicht verwendet<br><b>A</b> - Nicht verwendet |
+| <b>Spline-Betrag</b> <i>Integer</i> | Die Anzahl der Eingabe-Splines. |
+| <b>Height-Map</b> <i>Graustufen</i> | Das zum Ändern des Heights des Eingabe-Splines verwendete Graustufenbild. |
 
-<b>Spline-Daten</b> *Farbe* Zusätzliche Daten der Eingabe-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.\
-<b> R</b> - Tangenten X\
-<b> G</b> - Tangenten Y\
-<b> B</b> - Nicht verwendet\
-<b> A</b> - Nicht verwendet
+<a name="outputs"></a>
 
-<b>Spline-Betrag</b> *Integer* Die Anzahl der Eingabe-Splines.
+## Ausgaben
 
-<b>Height-Map</b> *Graustufen* Das Graustufenbild, das zum Ändern des Heights des Eingabesplines verwendet wurde.
+|  |  |
+|:---|:---|
+| <b>Vorschau</b> <i>Graustufen</i> | Die Vorschau der Ausgabe-Splines als Graustufenbild. |
+| <b>Spline-Kabel</b> <i>Farbe</i> | Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Ausgabesplines.<br><b>R</b> - X-Position<br><b>G</b> - Y-Position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br> - Sign: Spline ist geschlossen (negativ) oder offen (positiv);<br> - Absolute Wert: Thickness + 1. |
+| <b>Spline-Daten</b> <i>Farbe</i> | Zusätzliche Daten der in den RGBA-Kanälen eines Farbbilds codierten Ausgabe-Splines.<br><b>R</b> - Tangenten X<br><b>G</b> - Tangenten Y<br><b>B</b> - Nicht verwendet<br><b>A</b> - Nicht verwendet |
+| <b>Spline-Betrag</b> <i>Integer</i> | Die Anzahl der Ausgabe-Splines. |
 
-## Ausgangsanschlüsse
-
-<b>Vorschau</b> *Graustufen* Die Vorschau der Ausgabe-Splines als Graustufenbild.
-
-<b>Spline-Kabel</b> *Farbe* Die Koordinaten der Punkte der Ausgabesplines, die in den RGBA-Kanälen eines Farbbildes codiert sind.\
-<b>R</b> - X-Position\
-<b>G</b> - Y-Position\
-<b>B</b> - Height\
-<b>A</b> - Paketdaten:\
-* Signieren: Die Spline ist geschlossen (negativ) oder offen (positiv).\
-* Absoluter Wert: Thickness + 1.
-
-<b>Spline-Daten</b> *Farbe* Zusätzliche Daten der Ausgabe-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.\
-<b>R</b> - Tangenten X\
-<b>G</b> - Tangenten Y\
-<b>B</b> - Nicht verwendet\
-<b>A</b> - Nicht verwendet
-
-<b>Spline-Betrag</b> *Integer* Die Anzahl der Ausgabe-Splines.
+<a name="parameters"></a>
 
 ## Parameter
 
-<b>Sampling-Modus</b> *Integer* Die Methode zum Zuordnen der Werte im Height Map zu den Splines:\
-*- Texturraum*: Die Werte werden auf die Splines angewendet, wenn sie in einer Textur unter Verwendung der UV-Koordinaten der Textur platziert würden. Dadurch wird der Wert effektiv auf die Splines &quot;an Ort und Stelle&quot; angewendet.\
-*- Horizontal entlang Spline*: Die Werte werden direkt auf die Koordinaten der codierten Splines angewendet (siehe Spline-Koordinaten-Eingabe), wobei jede Zeile auf einen anderen Spline von oben nach unten angewendet wird.\
-*- Stunde. entlang der Spline (Rand). Versatz X)*: Die Werte werden direkt auf die Koordinaten der codierten Spline-Linien angewendet (siehe Spline-Koordinateneingabe), mit einem zufälligen horizontalen Versatz in der Skalierungszuordnung für jeden Spline (d. h. jede Zeile in Spline-Koordinaten).\
-*- Stunde. entlang der Spline (Rand). Offset Y)*: Die Werte werden direkt auf die Koordinaten der codierten Spline-Linien angewendet (siehe Spline-Koordinateneingabe), wobei für jeden Spline (d. h. jede Zeile in Spline-Koordinaten) ein zufälliger vertikaler Versatz in der Skalierungszuordnung angezeigt wird.
-
-<b>Deckkraft</b> *Gleitkommawert* Ein Multiplikator für die Intensität des Beitrags der Height-Map-Eingabe zum Height des Splines.<b></b>
-
-<b>Füllmethode</b> *Integer* Die Methode zum Mischen der Daten der Height Map mit dem Height des Eingabesplines:\
-*- Kopie*: Überschreiben des Spline-Heights mit den Height-Map-Werten\
-*-* hinzufügen: Fügen Sie die Height-Map-Werte zum Height des Splines hinzu.\
-*-* subtrahieren: Subtrahieren Sie die Height-Map-Werte vom Height des Splines.\
-*- Multiplizieren*: Multiplizieren Sie die Height-Map-Werte mit dem Height des Splines.
-
-+++Vorschau
-<b>Segmentierungsbetrag</b> *Integer* Passt die Anzahl der Segmente an, die zum Zeichnen der Spline-Visualisierung in der Vorschauausgabe verwendet werden.\
-Je höher der Wert, desto glatter die Linie.
-
-<b>Richtungshelfer anzeigen</b> *Boolescher Wert* Zeigt einen Punkt am Anfang des Splines und eine Pfeilspitze an seinem Ende in der Vorschauausgabe an.
-
-<b>Umschlag der Thickness anzeigen</b> *Boolescher Wert*\
-Zeigt an den Kanten der Spline-Thickness zusätzliche Linien an.
-
-<b>Thickness (px)</b> *Gleitend* Passt die Thickness der Spline-Visualisierung in Pixel in der Vorschauausgabe an.
-
-+++
+|  |  |
+|:---|:---|
+| <b>Sampling-Modus</b> <i>Integer</i> | Die Methode zum Zuordnen der Werte auf der Höhen-Map zu den Splines:<br>- <i>Texturen-Leerzeichen</i>: Die Werte werden auf die Splines angewendet, wenn sie in einer Textur unter Verwendung der UV-Koordinaten der Textur platziert würden. Dadurch wird der Wert effektiv auf die Splines &quot;in place&quot;;<br>- <i>Horizontal entlang Spline</i> angewendet: Die Werte werden direkt auf die Koordinaten der codierten Splines angewendet (siehe Spline-Koordinateneingabe), wobei jede Zeile auf einen anderen Spline von oben nach unten angewendet wird;<br>- <i>Hor. entlang der Spline (Rand). Versatz X)</i>: Die Werte werden direkt auf die Koordinaten der codierten Splines angewendet (siehe Spline-Coords-Eingabe), mit einem zufälligen horizontalen Versatz in der Skalierungszuordnung für jeden Spline (d. h. jede Zeile in Spline-Coords);<br>- <i>Hor. entlang der Spline (Rand). Offset Y)</i>: Die Werte werden direkt auf die Koordinaten der codierten Spline-Linien angewendet (siehe Spline-Koordinateneingabe), wobei für jeden Spline (d. h. jede Zeile in Spline-Koordinaten) ein zufälliger vertikaler Versatz in der Skalierungszuordnung angezeigt wird. |
+| <b>Deckkraft</b> <i>Gleitend</i> | Ein Multiplikator für die Intensität des Beitrags des Höhen-Map-Eingangs zum Height des Splines. |
+| <b>Füllmethode</b> <i>Integer</i> | Die Methode zum Mischen der Daten der Höhen-Map mit dem Height des Eingabe-Splines:<br>- <i>Kopieren</i>: Das Height des Splines mit den Höhen-Map-Werten überschreiben;<br>- <i>Hinzufügen</i>: Fügen Sie die Höhen-Map-Werte zum Height des Splines hinzu;<br>- <i>Subtrahieren</i>: Subtrahieren der Höhen-Map-Werte auf das Height des Splines;<br>- <i>Multiplizieren</i>: Multiplizieren Sie die Height-Map-Werte mit dem Height des Splines. |
+| <b>Vorschau</b> |  |
+| <b>Segmentierungsbetrag</b> <i>Integer</i> | Passt die Anzahl der Segmente an, die zum Zeichnen der Spline-Visualisierung in der Vorschauausgabe verwendet werden.<br>Ein höherer Wert führt zu einer glatteren Linie. |
+| <b>Richtungshelfer anzeigen</b> <i>Boolescher Wert</i> | Zeigt einen Punkt am Anfang des Splines und eine Pfeilspitze an seinem Ende in der Vorschauausgabe an. |
+| <b>Umschlag der Thickness anzeigen</b> <i>Boolescher Wert</i> | Zeigt an den Kanten der Spline-Thickness zusätzliche Linien an. |
+| <b>Thickness (px)</b> <i>Gleitend</i> | Passt die Thickness der Spline-Visualisierung in Pixel in der Vorschau an. |
 
 ## Beispiele
 
@@ -125,11 +88,11 @@ Zeigt an den Kanten der Spline-Thickness zusätzliche Linien an.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
+      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After.jpg" alt="SplineSampleHeight-Variant1-After">
+      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-After.jpg" alt="SplineSampleHeight-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -141,11 +104,11 @@ Zeigt an den Kanten der Spline-Thickness zusätzliche Linien an.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
+      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After3.jpg" alt="SplineSampleHeight-Variant1-After3">
+      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-After3.jpg" alt="SplineSampleHeight-Variant1-After3">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -159,26 +122,12 @@ Zeigt an den Kanten der Spline-Thickness zusätzliche Linien an.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](../../../../../../assets/SplineSampleHeight-Variant1-After4.jpg "Knotenbeispiel 1")
+![Knotenbeispiel 1](spline-sample-height.resources/SplineSampleHeight-Variant1-After4.jpg "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](../../../../../../assets/SplineSampleHeight-Demo.gif "Knotenbeispiel 2")
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![Knotenbeispiel 2](spline-sample-height.resources/SplineSampleHeight-Demo.gif "Knotenbeispiel 2")
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/directional-distance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/directional-distance.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Richtungsabstand", um Abstandsfelder in bestimmten Richtungen für prozedurale Effekte zu berechnen.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Richtungsabstand
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Anisotropes Kuwahara-Graustufen-Symbol](../../../../../../assets/directional_distance.png "Anisotropes Kuwahara-Graustufen-Symbol"){width="200px"}
+![Anisotropes Kuwahara-Graustufen-Symbol](directional-distance.resources/directional_distance.png "Anisotropes Kuwahara-Graustufen-Symbol"){width="200px"}
 
 <b>In:</b> Filters > Effects
 
@@ -47,47 +47,33 @@ Der Abstand des Verlaufs kann mithilfe eines Abstands-Map dynamisch entlang des 
 >
 > Der Knoten &quot;[Weiche Abschrägung](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md)&quot; bietet ähnliche Funktionen, bei denen die Erweiterung in alle Richtungen ausgeführt wird.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Ausgangsanschlüsse
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameter
-
-</td>
-</tr>
-</table>
-
-## Eingangsanschlüsse
+## Eingaben
 
 |  |  |
-| --- | --- |
-| <b>Eingabe</b> *Graustufen* PRIMÄR | Das Bild, aus dem die Maske entnommen werden soll.   Alle Werte über 0,5 sind in dieser Maske weiß. |
-| <b>Abstands-Map</b> *Graustufen* | Eine optionale Eingabe, die verwendet wird, wenn der Wert des Parameters &quot;Abstands-Map-Multiplikator&quot; größer als 0 ist.   Er wird verwendet, um den Abschrägungs-/Dilatationsabstand entlang der Ränder der Maske einzustellen, wobei ein dunklerer Wert zu einem kürzeren Abstand führt. |
-| <b>Winkelzuordnung</b> *Graustufen* | Eine optionale Eingabe, die verwendet wird, wenn der Wert des Parameters &quot;Winkelzuordnungsvervielfacher&quot; größer als 0 ist.   Er wird verwendet, um die Richtung des Abstandsverlaufs anzupassen, indem sein Wert dem Richtungswinkel in der Anzahl der Windungen hinzugefügt wird.   Mit dem Parameter &quot;Winkel-Map-Versatz&quot; können Sie die Werte neu zuordnen, indem Sie angeben, welcher Wert 0 ist. |
+|:---|:---|
+| <b>Eingabe</b> <i>Graustufen</i> PRIMÄR | Das Bild, aus dem die Maske entnommen werden soll.   Alle Werte über 0,5 sind in dieser Maske weiß. |
+| <b>Abstands-Map</b> <i>Graustufen</i> | Eine optionale Eingabe, die verwendet wird, wenn der Wert des Parameters &quot;Abstands-Map-Multiplikator&quot; größer als 0 ist.   Er wird verwendet, um den Abschrägungs-/Dilatationsabstand entlang der Ränder der Maske einzustellen, wobei ein dunklerer Wert zu einem kürzeren Abstand führt. |
+| <b>Winkelzuordnung</b> <i>Graustufen</i> | Eine optionale Eingabe, die verwendet wird, wenn der Wert des Parameters &quot;Winkelzuordnungsvervielfacher&quot; größer als 0 ist.   Er wird verwendet, um die Richtung des Abstandsverlaufs anzupassen, indem sein Wert dem Richtungswinkel in der Anzahl der Windungen hinzugefügt wird.   Mit dem Parameter &quot;Winkel-Map-Versatz&quot; können Sie die Werte neu zuordnen, indem Sie angeben, welcher Wert 0 ist. |
 
-## Ausgangsanschlüsse
+<a name="outputs"></a>
+
+## Ausgaben
 
 |  |  |
-| --- | --- |
-| <b>Ausgabe</b> *Graustufen* | Das Ergebnisbild entsprechend dem ausgewählten &#39;Ausgabemodus&#39;. |
-| <b>UV</b> *Farbe* | Eine UV-Karte, in der die UVs von den Maskenrändern entlang der angegebenen Richtung erweitert werden.   Dieser kann mit einem [UV Mapper](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md)-Knoten verbunden werden, um ein anderes Bild mithilfe dieser erweiterten UVs zuzuordnen. |
+|:---|:---|
+| <b>Ausgabe</b> <i>Graustufen</i> | Das Ergebnisbild entsprechend dem ausgewählten &#39;Ausgabemodus&#39;. |
+| <b>UV</b> <i>Farbe</i> | Eine UV-Map, in der die UVs von den Maskenrändern entlang der angegebenen Richtung erweitert werden.   Dieser kann mit einem [UV Mapper](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md)-Knoten verbunden werden, um ein anderes Bild mithilfe dieser erweiterten UVs zuzuordnen. |
+
+<a name="parameters"></a>
 
 ## Parameter
 
 |  |  |
-| --- | --- |
-| <b>Ausgabemodus</b> *Integer* | Die Methode zum Zeichnen des Abstandsverlaufs von den Maskenrändern:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Invertierte normalisierte Entfernung:</b> Ein Farbverlauf von 1 bis 0, wobei 0 bei der &#39;Maximalen Entfernung&#39; erreicht wird, multipliziert mit der &#39;Abstands-Map&#39;, falls verbunden</li> <li data-preserve-html="true"><b>Abstand:</b> Ein Farbverlauf mit unformatierten Abstandswerten von der Maskenbegrenzung, wobei 1 die Länge der kürzeren Seite des Eingabebildes ist</li> </ul> |
-| <b>Maximale Entfernung</b> *Gleitend* | Die Entfernung, die der Abstandsgradient zurücklegt, in einem normierten Bildraum, wobei 1 die Länge der kürzeren Seite des Eingabebildes ist. |
+|:---|:---|
+| <b>Ausgabemodus</b> *Integer* | Die Methode zum Zeichnen des Abstandsverlaufs von den Maskenrändern:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Invertierte normalisierte Entfernung:</b> Ein Farbverlauf von 1 bis 0, wobei 0 bei der &#39;Maximalen Entfernung&#39; erreicht wird, multipliziert mit der &#39;Abstands-Map&#39;, falls verbunden</li> <li data-preserve-html="true"><b>Abstand:</b> Ein Farbverlauf mit unformatierten Abstandswerten von der Maskenbegrenzung, wobei 1 die Länge der Schmalseite des Eingabebilds ist</li> </ul> |
+| <b>Maximale Entfernung</b> *Gleitend* | Die Entfernung, die der Abstandsverlauf zurücklegt, in einem normierten Bildraum, wobei 1 die Länge der Schmalseite des Eingabebilds ist. |
 | <b>Winkel</b> *Gleitend* | Die Richtung des Abstandsgradienten in mehreren Windungen, wobei 0 horizontal und nach rechts - d. h. ein (1,0) Vektor - verläuft. |
 | <b>Abstands-Map-Multiplikator</b> *Gleitend* | Passt die Auswirkung des Abstands-Map auf die &quot;Maximale Entfernung&quot; an.   Hinweis: Dieser Parameter hat keine Auswirkungen, wenn der Abstands-Map-Eingang nicht angeschlossen ist. |
 | <b>Winkelzuordnungsmultiplikator</b> *Gleitend* | Passt die Auswirkung der &quot;Winkelkarte&quot; auf den &quot;Winkel&quot; an. |
@@ -102,11 +88,11 @@ Der Abstand des Verlaufs kann mithilfe eines Abstands-Map dynamisch entlang des 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_1_before.jpg" alt="direction_distance_example_1_before">
+      <img src="directional-distance.resources/directional_distance_example_1_before.jpg" alt="direction_distance_example_1_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_1_after.jpg" alt="direction_distance_example_1_after">
+      <img src="directional-distance.resources/directional_distance_example_1_after.jpg" alt="direction_distance_example_1_after">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -118,11 +104,11 @@ Der Abstand des Verlaufs kann mithilfe eines Abstands-Map dynamisch entlang des 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_3_before.jpg" alt="direction_distance_example_3_before">
+      <img src="directional-distance.resources/directional_distance_example_3_before.jpg" alt="direction_distance_example_3_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_3_after.jpg" alt="direction_distance_example_3_after">
+      <img src="directional-distance.resources/directional_distance_example_3_after.jpg" alt="direction_distance_example_3_after">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -139,11 +125,11 @@ Der Abstand des Verlaufs kann mithilfe eines Abstands-Map dynamisch entlang des 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_2_before.jpg" alt="direction_distance_example_2_before">
+      <img src="directional-distance.resources/directional_distance_example_2_before.jpg" alt="direction_distance_example_2_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_2_after.jpg" alt="direction_distance_example_2_after">
+      <img src="directional-distance.resources/directional_distance_example_2_after.jpg" alt="direction_distance_example_2_after">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -155,11 +141,11 @@ Der Abstand des Verlaufs kann mithilfe eines Abstands-Map dynamisch entlang des 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_5_before.jpg" alt="direction_distance_example_5_before">
+      <img src="directional-distance.resources/directional_distance_example_5_before.jpg" alt="direction_distance_example_5_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_5_after.jpg" alt="direction_distance_example_5_after">
+      <img src="directional-distance.resources/directional_distance_example_5_after.jpg" alt="direction_distance_example_5_after">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -172,11 +158,11 @@ Der Abstand des Verlaufs kann mithilfe eines Abstands-Map dynamisch entlang des 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_4_before.jpg" alt="direction_distance_example_4_before">
+      <img src="directional-distance.resources/directional_distance_example_4_before.jpg" alt="direction_distance_example_4_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_4_after.jpg" alt="direction_distance_example_4_after">
+      <img src="directional-distance.resources/directional_distance_example_4_after.jpg" alt="direction_distance_example_4_after">
       <br><i>Nach</i>
     </td>
   </tr>

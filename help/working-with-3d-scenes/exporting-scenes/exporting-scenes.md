@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
 breadcrumb-title: ''
 description: Exportieren Sie 3D-Szenen mit allen in Designer vorgenommenen Bearbeitungen mithilfe der Aktion "Szene exportieren" im Menü "3D-Szene anzeigen".
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Exportieren von Szenen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Bei anderen Formaten hängen der Inhalt der Szene und ihre interne Struktur von 
 >
 > Alle von Designer zur Szene hinzugefügten Elemente werden in die exportierte Szene aufgenommen: die Standardkamera, die Standardumgebung, alle Materialien kopiert alle zusätzlichen Lichter.
 
-![Szenenexportaktionen](../../assets/exportActions.png "Szenenexportaktionen"){zoomable="yes"}
+![Szenenexportaktionen](exporting-scenes.resources/exportActions.png "Szenenexportaktionen"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -65,7 +65,7 @@ Das bedeutet, dass Änderungen an der ursprünglichen Szene die exportierte Szen
 </td>
 <td style="border: 0;" valign="top">
 
-![Exportierte Szenendateien - Reduziert](../../assets/exportFlattened.png "Exportierte Szenendateien - Reduziert"){zoomable="yes"}
+![Exportierte Szenendateien - Reduziert](exporting-scenes.resources/exportFlattened.png "Exportierte Szenendateien - Reduziert"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Das bedeutet, dass Änderungen an der ursprünglichen Szene in die exportierte S
 </td>
 <td style="border: 0;" valign="top">
 
-![Exportierte Szenendateien - Ebenen](../../assets/exportLayered.png "Exportierte Szenendateien - Ebenen"){zoomable="yes"}
+![Exportierte Szenendateien - Ebenen](exporting-scenes.resources/exportLayered.png "Exportierte Szenendateien - Ebenen"){zoomable="yes"}
 
 </td>
 </tr>
@@ -104,4 +104,4 @@ Die exportierten Dateien folgen dieser Struktur:
 
 Texturen werden in ein Verzeichnis neben der exportierten Datei exportiert und nach dieser benannt, mit dem Suffix &quot;<b>\_textures</b>&quot;.
 
-Sie verwenden das Format <b>PNG</b>, mit Ausnahme von HDR-Texturen (Gleitkomma), die das Format <b>EXR</b> verwenden.
+Sie verwenden das Format <b>PNG</b>, mit Ausnahme von HDR. Texturen (Gleitkommaformat), die das Format <b>EXR</b> verwenden.

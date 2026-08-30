@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/cast-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/cast-nodes.html"
 breadcrumb-title: ''
-description: Verwenden Sie Umwandlungsknoten in Substance 3D Designer-Funktionsdiagrammen, um Datentypen zwischen Gleitkomma, Int und Vektor zu konvertieren.
+description: Verwenden Sie Wirf-Graf in Substance 3D Designer-Funktionsknoten, um Datentypen zwischen Gleitkomma-, int- und vektorbasierten Elementen zu konvertieren.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Cast
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Konvertieren
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 1%
@@ -20,10 +20,10 @@ ht-degree: 1%
 
 # Gussknoten
 
-Umwandlungsknoten werden verwendet, um einen Knoten von einem Typ in einen anderen Typ zu konvertieren:
+Geworfen Knoten werden verwendet, um einen Knoten von einem Typ in einen anderen Typ zu konvertieren:
 
-![](../../../../assets/image2015-12-23-10-5-19.png)
+![](cast-nodes.resources/image2015-12-23-10-5-19.png)
 
-## Wie verwende ich einen Umwandlungsknoten?
+## Wie benutzt man einen Wirf Node?
 
-Wählen Sie einfach den Umwandlungsknoten aus, der der Länge des zu konvertierenden Knotens entspricht.
+Wählen Sie einfach den Wirf-Knoten aus, der der Länge des zu konvertierenden Knotens entspricht.

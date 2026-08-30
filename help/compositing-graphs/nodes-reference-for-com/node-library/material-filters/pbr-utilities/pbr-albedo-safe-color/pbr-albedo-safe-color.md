@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-albedo-safe-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-albedo-safe-color.html"
 breadcrumb-title: ''
 description: Stellen Sie mithilfe des Knotens "PBR Albedo Safe Color" sicher, dass die Farbbereiche der Albedo für PBR-Materialien physikalisch plausibel sind.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: PBR Albedo Safe Color
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 1%
+source-wordcount: '140'
+ht-degree: 2%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-albedo-safe-color.png){width="128px"}
+![](pbr-albedo-safe-color.resources/pbr-albedo-safe-color.png){width="128px"}
 
-## PBR Albedo Safe Color
-
-**In:** *Materialfilter/PBR-Dienstprogramme*
-
-**Einfach**
+<b>In:</b> Materialfiltern > PBR-Dienstprogramme
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -43,17 +39,15 @@ Sehen Sie sich auch [PBR BaseColor / Metallic Validate](../../../../../../compos
 
 Dies ist nützlich für schnelle Korrekturen, insbesondere wenn man noch PBR lernt, aber nicht als absolutes Maß gedacht ist, das immer korrekt sein soll.
 
-## Parameter
-
-* **PBR-Workflow**: *Grundfarbe - Metallisch, Diffus - Specular* Wechselt zwischen zwei verschiedenen PBR-Workflows.
-* **Toleranz**: *0.0 - 1.0* Toleranzbetrag für Werte außerhalb des Bereichs.
-
-## Beispielbilder
-
-|  |
-| --- |
-| Es sind keine Bilder an diese Seite angehängt. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>PBR-Workflow</b> <i>Grundfarbe - Metallic, Diffuse - Specular</i> | Wechselt zwischen zwei verschiedenen PBR-Workflows. |
+| <b>Toleranz</b> <i>0.0 - 1.0</i> | Toleranzbetrag für Werte außerhalb des zulässigen Bereichs. |

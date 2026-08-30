@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/channel-mixer.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/channel-mixer.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Kanalmixer", um Farbkanäle für die Erstellung von Farbeffekten und die Konvertierung zwischen Farbräumen zu mischen.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Kanalmixer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 1%
+source-wordcount: '120'
+ht-degree: 7%
 
 ---
 
@@ -22,36 +22,40 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/channel-mixer.png){width="128px"}
+![](channel-mixer.resources/channel-mixer.png){width="128px"}
 
-## Kanalmixer
-
-**In:** *Filter/Korrekturen*
-
-**Einfach**
+<b>In:</b> Filters > Adjustments
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Ermöglicht Ihnen, RGB-Kanäle zu mischen, auszutauschen und zu mischen. Kann verwendet werden, um Kanäle herumzuschwenken, genauere Graustufenkonvertierungen durchzuführen und verschiedene Arten von Packing zu erstellen.
 
-## Parameter
-
-* **Roter Kanal**: *-200.0 -* 200.0\
-  Bestimmt, wie viel der Eingabe-RGB-Kanäle in den Rot-Ausgabekanal übergeht.
-* **Grüner Kanal**: *-200.0 - 200.0*\
-  Bestimmt, wie viel der RGB-Eingangskanäle in den grünen Ausgangskanal fließt.
-* **Blauer Kanal**: *-200.0 - 200.0* Bestimmt, wie viel der Eingabe-RGB-Kanäle in den Blue-Ausgabekanal gehen.
-* **Monochrom**: *False/True* Ausgabe in Schwarzweiß. Ermöglicht eine präzisere Graustufenkonvertierung.
-
-## Beispielbilder
-
-![](../../../../../../assets/channelmixer.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Roter Kanal</b> <i>-200.0 - 200.0</i> | Bestimmt, wie viel der Eingabe-RGB-Kanäle in den Rot-Ausgabekanal übergeht. |
+| <b>Grüner Kanal</b> <i>-200.0 - 200.0</i> | Bestimmt, wie viel der RGB-Eingangskanäle in den grünen Ausgangskanal fließt. |
+| <b>Blauer Kanal</b> <i>-200.0 - 200.0</i> | Bestimmt, wie viel der Eingabe-RGB-Kanäle in den Ausgabe-Blaukanal gehen. |
+| <b>Monochrom</b> <i>False/True</i> | Ausgabe in Schwarzweiß. Ermöglicht eine präzisere Graustufenkonvertierung. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="channel-mixer.resources/channelmixer.gif" />
+        </td>
+    </tr>
 </table>

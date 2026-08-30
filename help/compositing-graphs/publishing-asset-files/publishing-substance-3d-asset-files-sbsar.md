@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie Substance 3D-Asset-Dateien (SBSAR) aus Designer für die Verwendung in anderen Anwendungen und Engines veröffentlichen.
+description: Erfahren Sie, wie Sie Substance 3D-Asset-Dateien (SBSAR) aus Designer für die Verwendung in anderen Anwendungen und Enginen veröffentlichen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Publishing Substance 3D asset files (SBSAR)
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Exportieren in Substance 3D-Asset-Dateien (SBSAR)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1238'
 ht-degree: 2%
 
 ---
@@ -22,18 +22,18 @@ ht-degree: 2%
 
 Auf dieser Seite wird erläutert, wie Substance 3D Designer Pakete als <b>Substance 3D-Asset-Dateien</b> veröffentlichen kann. Dabei handelt es sich um ein spezielles Dateiformat mit der Erweiterung <b>SBSAR</b>, das sowohl im Substance-Ökosystem als auch in anderen Anwendungen, die es unterstützen, verwendet wird.
 
-In der Regel ist es besser, ein Substance 3D-Element anstelle von Bitmaps zu verwenden, da es viel flexibler und leichter ist. Wenn Sie sie in Substance 3D [Painter](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/home), [Sampler](https://helpx.adobe.com/de/substance-3d-sampler.html) oder [Player](https://helpx.adobe.com/substance-3d-player/home.html) verwenden, ist es schneller, [&#x200B; &quot;Senden an...&quot; zu verwenden. feature](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md).
+In der Regel ist es besser, ein Substance 3D-Element anstelle von Bitmaps zu verwenden, da es viel flexibler und leichter ist. Wenn Sie sie in Substance 3D [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home), [Sampler](https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/home) oder [Player](https://helpx.adobe.com/substance-3d-player/home.html) verwenden, ist es schneller, [ &quot;Senden an...&quot; zu verwenden. feature](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md).
 
-![Veröffentlichen von SBSAR-Dateien vereinfacht](../../assets/exportflow.png "Veröffentlichen von SBSAR-Dateien vereinfacht")
+![Veröffentlichen von SBSAR-Dateien vereinfacht](publishing-substance-3d-asset-files-sbsar.resources/exportflow.png "Veröffentlichen von SBSAR-Dateien vereinfacht")
 
 ## Publishing-Konzepte
 
-Beim Veröffentlichen eines Substance-Diagramms sollten Sie Folgendes beachten:
+Beim Veröffentlichen eines Substance-Grafen sollten Sie Folgendes beachten:
 
-* Sie <b> veröffentlichen ein Paket </b> mit seinem gesamten Inhalt, kein individuelles [Substance-Diagramm &#x200B;](../../compositing-graphs/substance-compositing-graphs.md). Mit einem Substance 3D-Element können Sie dann Inhalte aus allen Substance-Graphen innerhalb dieses Pakets generieren.
-* Veröffentlichte Pakete sind <b>vollständig eigenständig</b>: alle erforderlichen Ressourcen in die Datei eingebettet sind. Das bedeutet, dass sie viel einfacher geteilt werden können als SBS-Dateien.
-* Die Ausgabe aus Substance 3D-Assets kann <b>vollständig dynamisch</b> sein. [Die Auflösung ist nicht festgelegt. verfügbar gemachte Parameter können geändert werden.](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) Eine Bearbeitung des Diagramms ist jedoch nicht mehr möglich.
-* Substance 3D-Medienelemente können außerhalb von Designer in allen Adobe Substance 3D-Produkten, Adobe Dimension sowie in jeder anderen Anwendung mit [Substance-Integration](https://experienceleague.adobe.com/de/docs/substance-3d/ecosystem/home) verwendet werden.
+* Sie <b> veröffentlichen ein Paket </b> mit dem gesamten Inhalt, nicht einen individuellen [Substance-Graf ](../../compositing-graphs/substance-compositing-graphs.md). Mit einem Substance 3D-Element können Sie dann Inhalte aus allen Substance-Grafen innerhalb dieses Pakets generieren.
+* Veröffentlichte Pakete sind <b>vollständig eigenständig</b>: alle erforderlichen Ressourcen in die Datei eingebettet sind. Das bedeutet, dass sie viel einfacher zu teilen sind als SBS Dateien.
+* Die Ausgabe aus Substance 3D-Assets kann <b>vollständig dynamisch</b> sein. [Die Auflösung ist nicht festgelegt. freigelegte Parameter können geändert werden.](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) Die Bearbeitung des Grafen ist jedoch nicht mehr möglich.
+* Substance 3D-Medienelemente können außerhalb von Designer in allen Adobe Substance 3D-Produkten, Adobe Dimension sowie in jeder anderen Anwendung mit [Substance-Integration](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home) verwendet werden.
 * Das Veröffentlichen unterscheidet sich von [Exportieren](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). Vergewissern Sie sich, dass Sie den Unterschied gut verstehen.
 
 ## Veröffentlichung wird vorbereitet
@@ -55,14 +55,14 @@ Sobald Sie bereit zur Veröffentlichung sind, gibt es zwei Möglichkeiten, auf d
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Klicken Sie im Explorer mit der rechten Maustaste auf das Paket, und wählen Sie ![](../../assets/image2020-9-23-9-39-58.png) **Publish .sbsar-Datei...**, alternativer Hotkey Strg + P.
+Klicken Sie im Explorer mit der rechten Maustaste auf das Paket, und wählen Sie ![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-9-39-58.png) **Publish .sbsar-Datei...**, alternativer Hotkey Strg + P.
 
-Nach der einmaligen Veröffentlichung mit Dialog können Sie auch ![](../../assets/image2020-9-23-11-15-35.png) **Publish .sbsar-Datei wie zuvor** verwenden, um den Veröffentlichungsprozess zu wiederholen, ohne die Dialogfelder zu sehen, und sofort mit denselben Einstellungen veröffentlichen.
+Nach der einmaligen Veröffentlichung mit Dialog können Sie auch ![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-11-15-35.png) **Publish .sbsar-Datei wie zuvor** verwenden, um den Veröffentlichungsprozess zu wiederholen, ohne die Dialogfelder zu sehen, und sofort mit denselben Einstellungen veröffentlichen.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/publish-rightclick.gif)
+![](publishing-substance-3d-asset-files-sbsar.resources/publish-rightclick.gif)
 
 </td>
 </tr>
@@ -72,14 +72,14 @@ Nach der einmaligen Veröffentlichung mit Dialog können Sie auch ![](../../asse
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Klicken Sie im Explorer auf die Publish-Schaltfläche &quot;![](../../assets/image2020-9-23-9-39-58.png)&quot; in der oberen Symbolleiste.
+Klicken Sie im Explorer auf die Publish-Schaltfläche &quot;![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-9-39-58.png)&quot; in der oberen Symbolleiste.
 
-Nach einmaliger Veröffentlichung mit Dialogfeld können Sie auch die Publish-Schaltfläche &quot;![](../../assets/image2020-9-23-11-15-35.png)&quot; wie zuvor verwenden, um den Veröffentlichungsprozess zu wiederholen, ohne die Dialogfelder zu sehen, und sofort mit denselben Einstellungen veröffentlichen.
+Nach einmaliger Veröffentlichung mit Dialogfeld können Sie auch die Publish-Schaltfläche &quot;![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-11-15-35.png)&quot; wie zuvor verwenden, um den Veröffentlichungsprozess zu wiederholen, ohne die Dialogfelder zu sehen, und sofort mit denselben Einstellungen veröffentlichen.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/publish-toolbutton.gif)
+![](publishing-substance-3d-asset-files-sbsar.resources/publish-toolbutton.gif)
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Bevor die Asset-Publish-Optionen angezeigt werden, werden Sie aufgefordert, die 
 </td>
 <td style="border: 0;" valign="top">
 
-![Optionen zur Asset-Veröffentlichung](../../assets/publish-dialog.png "Optionen zur Asset-Veröffentlichung")
+![Optionen zur Asset-Veröffentlichung](publishing-substance-3d-asset-files-sbsar.resources/publish-dialog.png "Optionen zur Asset-Veröffentlichung")
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ Um auszuschließen, dass ein Diagramm in einer Substance 3D-Elementdatei sichtba
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/image2020-9-23-10-40-21.png)
+![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-10-40-21.png)
 
 </td>
 </tr>

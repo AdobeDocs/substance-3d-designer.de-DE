@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/surface-brush.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/surface-brush.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Oberflächenpinsel", um Masken basierend auf der Oberflächenausrichtung zu generieren, um gerichtete Verwitterungs- und Abnutzungseffekte zu erzeugen.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Oberflächenpinsel
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/surface-brush.png){width="128px"}
+![](surface-brush.resources/surface-brush.png){width="128px"}
 
-## Oberflächenpinsel
-
-**In:** *Mesh-basierte Generatoren**/Masken-Generatoren*
-
-**Fortgeschrittene**
+<b>In:</b> Mesh-basierte Generatoren > Maskengenerator
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,35 +37,42 @@ Generiert eine Schwarzweißmaske auf der Grundlage von durch Baking erzeugte Map
 
 Diese Maske stellt einen interessanten Effekt des Metallpinselns auf eine Objektoberfläche dar, verdeckt von Objektgeometrie und AO.
 
-## Parameter
-
-### Eingaben
-
-* **Normaler Weltraum**: *Farbeingabe*
-* **Krümmung**: *Graustufen-Eingabe*\
-  Durch Baking erzeugte Map für interne Effekte und Maskierung.
-* **Ambient-Verdeckung**: *Graustufen-Eingabe*\
-  Durch Baking erzeugte Map für interne Effekte und Maskierung.
-* **Position**: *Graustufen-Eingabe*
-* **Maske (optional)**: *Graustufen-Eingabe*\
-  Maskenschlitz zum Maskieren der Knoteneffekte.
-
-### Parameter
-
-* **Ebene**: *0.0 - 1.0*\
-  Legt die globale Effektstufe fest, die allmählich sichtbar wird.
-* **Kontrast**: *0.0 - 1.0*\
-  Passt den Kontrast des Ergebnisses an.
-* **Scratches Länge**: *0.0 - 8.0* Legt die Länge von Kratzern fest. Kleinere Werte sind mehr wie Punkte, höhere Werte sind lange Streifen.
-* **Achse verschließen**: *X, Y, Z, keine* Achse des Objekts, das Kratzer erhalten soll. Ändert nicht die Richtung der Kratzer.
-* **Achsenintensität verdecken**: *0.0 - 1.0* Stärke des Effekts &quot;Verdeckung der Achse&quot;.
-* **Verdeckung**: *0.0 - 1.0* Stärke des AO bei verdeckenden Kratzern.
-* **Scharfzeichnungsintensität**: *0.0 - 1.0* Legen Sie den Grad der Nachschärfung fest, der auf die Kratzer angewendet werden soll.
-
-## Beispielbilder
-
-![](../../../../../../assets/surface-brush-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Normaler Weltraum</b> <i>Farbeingabe</i> |  |
+| <b>Krümmung</b> <i>Graustufen-Eingabe</i> | Durch Baking erzeugte Map für interne Effekte und Maskierung. |
+| <b>Umgebungs-Verdeckung</b> <i>Graustufen-Eingabe</i> | Durch Baking erzeugte Map für interne Effekte und Maskierung. |
+| <b>Position</b> <i>Graustufen-Eingabe</i> |  |
+| <b>Maske (optional)</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Ebene</b> <i>0.0 - 1.0</i> | Legt die globale Effektstufe fest, die allmählich sichtbar wird. |
+| <b>Kontrast</b> <i>0.0 - 1.0</i> | Passt den Kontrast des Ergebnisses an. |
+| <b>Scratches Länge</b> <i>0.0 - 8.0</i> | Legt die Länge von Kratzern fest. Kleinere Werte sind mehr wie Punkte, höhere Werte sind lange Streifen. |
+| <b>Achse verschließen</b> <i>X, Y, Z, keine</i> | Achse des Objekts, das Kratzer erhalten soll. Ändert nicht die Richtung der Kratzer. |
+| <b>Intensität der Achse ausschließen</b> <i>0.0 - 1.0</i> | Stärke des Effekts &quot;Verdeckung der Achse&quot;. |
+| <b>Verdeckung</b> <i>0.0 - 1.0</i> | Stärke der AO auf verdeckenden Kratzern. |
+| <b>Intensität schärfen</b> <i>0.0 - 1.0</i> | Legen Sie den Grad der Nachschärfung fest, der auf die Kratzer angewendet werden soll. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="surface-brush.resources/surface-brush-ex.gif" />
+        </td>
+    </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Konstanten
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2cb8395834eb64124ebadb2cd051aead9babfa69
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Konstante Ganzzahlen generieren ganze Zahlen und haben einen Schritt von 1.
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Ganzzahltyp](../../../../assets/fn-constant-integer.png "Symbol für Ganzzahltyp")
+![Symbol für Ganzzahltyp](constant.resources/fn-constant-integer.png "Symbol für Ganzzahltyp")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ Eine Ganzzahl hat eine einzelne Komponente. Er ist nützlich als Index für Ausw
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Integer2-Typ](../../../../assets/fn-constant-integer2.png "Symbol für Integer2-Typ")
+![Symbol für Integer2-Typ](constant.resources/fn-constant-integer2.png "Symbol für Integer2-Typ")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -86,7 +86,7 @@ Ein häufiger Anwendungsfall von Integer2 ist das Festlegen von X- und Y-Rasterg
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Integer3-Typ](../../../../assets/fn-constant-integer3.png "Symbol für Integer3-Typ")
+![Symbol für Integer3-Typ](constant.resources/fn-constant-integer3.png "Symbol für Integer3-Typ")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -103,7 +103,7 @@ Ein Integer3-Knoten generiert einen statischen ganzzahligen 3-Komponenten-Vektor
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Integer4-Typ](../../../../assets/fn-constant-integer4.png "Symbol für Integer4-Typ")
+![Symbol für Integer4-Typ](constant.resources/fn-constant-integer4.png "Symbol für Integer4-Typ")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -126,7 +126,7 @@ Konstante Gleitkommawerte erzeugen Bruchzahlen, d.h. sie unterstützen Werte nac
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Gleitkommatyp](../../../../assets/fn-constant-float.png "Symbol für Gleitkommatyp")
+![Symbol für Gleitkommatyp](constant.resources/fn-constant-float.png "Symbol für Gleitkommatyp")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -143,7 +143,7 @@ Ein Gleitkommawert hat eine einzelne Komponente und wird sehr häufig für jeden
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Float2-Typ](../../../../assets/fn-constant-float2.png "Symbol für Float2-Typ")
+![Symbol für Float2-Typ](constant.resources/fn-constant-float2.png "Symbol für Float2-Typ")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -162,7 +162,7 @@ Float2 wird häufig für [Sampling-Koordinaten](../../../../function-graphs/node
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Float3-Typ](../../../../assets/fn-constant-float3.png "Symbol für Float3-Typ")
+![Symbol für Float3-Typ](constant.resources/fn-constant-float3.png "Symbol für Float3-Typ")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -181,7 +181,7 @@ Float3 wird hauptsächlich bei der Arbeit mit 3D-Objekten und [3D-Skalierungskoo
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Float4-Typ](../../../../assets/fn-constant-float4.png "Symbol für Float4-Typ")
+![Symbol für Float4-Typ](constant.resources/fn-constant-float4.png "Symbol für Float4-Typ")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -202,7 +202,7 @@ Ein Float4 erzeugt einen 4-Komponenten-Vektor (X, Y, Z, W).
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für booleschen Typ](../../../../assets/fn-constant-boolean.png "Symbol für booleschen Typ")
+![Symbol für booleschen Typ](constant.resources/fn-constant-boolean.png "Symbol für booleschen Typ")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -211,7 +211,7 @@ Ein Float4 erzeugt einen 4-Komponenten-Vektor (X, Y, Z, W).
 
 Ein Boolean -Wert ist der einfachste Datentyp, der vorhanden ist, da er nur zwei Status kennt: <code>true</code> oder <code>false</code>.
 
-Dieser Typ ist recht häufig bei der Arbeit mit Umschaltparametern und [If/Else](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/control-nodes/control-nodes.md)-Bedingungen.<br>Booleans sind eine einfache und effiziente Methode zur Steuerung des Flusses einer Funktion oder eines Diagramms, z. B. mithilfe eines [Switch-Knotens](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md).
+Dieser Typ ist recht häufig bei der Arbeit mit Umschaltparametern und [If/Else](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/control-nodes/control-nodes.md)-Bedingungen.<br>Booleans sind eine einfache und effiziente Methode zur Steuerung des Ablaufs einer Funktion oder eines Grafen, z. B. mithilfe eines [Wechselknotens](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md).
 
 </td>
 </tr>

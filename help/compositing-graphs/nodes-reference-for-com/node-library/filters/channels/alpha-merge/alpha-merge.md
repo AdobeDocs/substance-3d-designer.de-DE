@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/alpha-merge.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/alpha-merge.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Alpha-Zusammenfügung , um RGB-Texturen mit Alphakanälen zu kombinieren, um RGBA-Texturen zu erstellen.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Zusammenfügen von Alphas
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '89'
 ht-degree: 2%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rgb-a-merge.png)
+![](alpha-merge.resources/rgb-a-merge.png)
 
-## Zusammenfügen von Alphas
-
-**In:** *Filter/Kanäle*
-
-**Einfach**
+<b>In:</b> Filters > Channels
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,23 +37,15 @@ Fügt einen Alphakanal zu einer Eingabe ohne Alphakanal hinzu. Nicht zu verwechs
 
 Einfacher, aber praktischer Knoten, wenn Sie etwas maskieren möchten oder wenn Ihr Ergebnis einen Alpha-Wert erfordert.
 
-## Parameter
-
-### Eingaben
-
-* **RGB**: *Farbeingabe*\
-  Farbbild ohne Alpha
-* **A**: *Graustufen-Eingabe*\
-  Ein Graustufenbild, das als Alpha des Ergebnisses verwendet wird.
-
-*Keine Parameter.*
-
-## Beispielbilder
-
-|  |
-| --- |
-| Es sind keine Bilder an diese Seite angehängt. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>RGB</b> <i>Farbeingabe</i> | Farbbild ohne Alpha |
+| <b>A</b> <i>Graustufen-Eingabe</i> | Ein Graustufenbild, das als Alpha des Ergebnisses verwendet wird. |

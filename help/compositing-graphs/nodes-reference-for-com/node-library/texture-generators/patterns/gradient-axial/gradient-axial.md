@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-axial.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-axial.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Axiale Verläufe", um axiale Verläufe für gerichtete Farbübergänge in Substance 3D Designer zu erstellen.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Verlauf axial
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 3%
+source-wordcount: '90'
+ht-degree: 2%
 
 ---
 
@@ -22,34 +22,29 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-axial.png){width="128px"}
+![](gradient-axial.resources/gradient-axial.png){width="128px"}
 
-## Verlauf axial
-
-**In:** *Texturgeneratoren**/Muster*
-
-**Einfach**
+<b>In:</b> Texturgeneratoren > Muster
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Erstellt einen Graustufen-Farbverlaufsübergang zwischen zwei benutzerdefinierten Punkten. Ermöglicht die Erstellung linearer Farbverläufe in jedem gewünschten Winkel. Beachten Sie jedoch, dass die Ergebnisse nicht immer in Kacheln angeordnet sind.
 
-## Parameter
-
-### Parameter
-
-* **Punkt 1**:\
-  Erster Punkt, an dem der Verlauf beginnt (schwarz)
-* **Punkt 2**:\
-  Zweiter Punkt, um den Verlauf bei (weiß) zu beenden
-* **Quadratische Ausbreitung**: *False/True*\
-  Aktivieren Sie die Kompensation von Quetschen und Dehnen mit nicht quadratischen Verhältnissen.
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Punkt 1</b> | Erster Punkt, an dem der Verlauf beginnt (schwarz) |
+| <b>Punkt 2</b> | Zweiter Punkt, um den Verlauf bei (weiß) zu beenden |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Aktivieren Sie die Kompensation von Quetschen und Dehnen mit nicht quadratischen Verhältnissen. |

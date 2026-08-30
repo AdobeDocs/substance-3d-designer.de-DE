@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDL-Lernressourcen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Unsere [Substance 3D Tutorials](https://www.adobe.com/learn/substance-3d)-Websit
 
 Das in diesem Tutorial behandelte metallische Klarlack-Material lässt sich nicht nur durch Texturen definieren: Es verfügt über *zwei separate Specular-Highlights*, die sich unterschiedlich verhalten: eine grobe Metallic-Schicht mit Speckles und eine sehr glatte klare Decklack.
 
-&quot;In diesem Kurs befassen wir uns mit den Grundlagen zum Erstellen einer MDL in Substance 3D Designer. Wir werden einen physikalisch basierten Metallic/Raueit-Shader als MDL neu erstellen, um die Kernkonzepte der MDL-Knoten und -Graphen zu veranschaulichen. Im zweiten Video werden wir uns mit der Erstellung einer Autolack-MDL befassen.&quot;
+&quot;In diesem Kurs befassen wir uns mit den Grundlagen zum Erstellen einer MDL in Substance 3D Designer. Wir werden einen physikalisch basierten metallic/Rauheit-Shader als MDL nachbilden, um die Kernkonzepte der MDL-Nodes und des MDL-Grafen zu veranschaulichen. Im zweiten Video werden wir uns mit der Erstellung einer Auto-Malen MDL befassen.&quot;
 
 </td>
 <td style="border: 0;" valign="top">
@@ -61,16 +61,16 @@ Das in diesem Tutorial behandelte metallische Klarlack-Material lässt sich nich
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-### MDL-Malachitmaterialaufschluss
+### MDL-Malachit-Material-Abbau
 
-[Dieser Artikel](https://www.adobe.com/learn/substance-3d-designer/web/mdl-malachite-material-breakdown) führt Sie durch die Produktion von *aufwändigerem* Material, das auch nicht ausschließlich durch Texturen erreicht werden kann. Hier wird die Synergie zwischen MDL-Graphen und [Substance-Graphen](../../compositing-graphs/substance-compositing-graphs.md) genutzt, um sehr effizient großartige Ergebnisse zu erzielen.
+[Dieser Artikel](https://www.adobe.com/learn/substance-3d-designer/web/mdl-malachite-material-breakdown) führt Sie durch die Erstellung von *ausgefeilterem* Material, das auch nicht ausschließlich durch Texturen erzielt werden kann. Hier wird die Synergie zwischen MDL-Diagrammen und [Substance-Grafen](../../compositing-graphs/substance-compositing-graphs.md) genutzt, um sehr effizient großartige Ergebnisse zu erzielen.
 
-&quot;In diesem epischen Tutorial teilt [Mark Foreman](https://www.artstation.com/oggyart), Senior Environment Artist bei CD PROJEKT RED, sein gewinnendes MDL-Material für den Materialize Contest auf! Sie können Markierungsmaterial auf [Substance share](https://share-legacy.substance3d.com/libraries/4043) herunterladen.&quot;
+&quot;In diesem epischen Tutorial bricht [Mark Foreman](https://www.artstation.com/oggyart), Senior Environment Artist bei CD PROJEKT RED, sein erfolgreiches MDL-Material für den Materialize Contest zusammen! Sie können Marks Material auf [Substance share](https://share-legacy.substance3d.com/libraries/4043) herunterladen.&quot;
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![MDL-Malachitmaterial](../../assets/mdl-malachite-example.jpg)](https://substance3d.adobe.com/tutorials/courses/mdl-malachite-material-breakdown)
+[![MDL-Malachit-Material](mdl-learning-resources.resources/mdl-malachite-example.jpg)](https://substance3d.adobe.com/tutorials/courses/mdl-malachite-material-breakdown)
 
 *Klicken Sie auf das Bild, um auf das Tutorial zuzugreifen*
 

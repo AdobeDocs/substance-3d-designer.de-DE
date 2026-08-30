@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/ao-cancellation.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/ao-cancellation.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "AO-Stornierung", um Umgebungsgeräusche aus gescannten Verdeckungen für eine saubere Texturverarbeitung zu entfernen.
+description: Verwenden Sie den AO-Stornierungsknoten, um ambient occlusion aus gescannten Materialien zu entfernen, damit Texturen fehlerfrei verarbeitet werden können.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > AO Cancellation
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: AO-Kündigung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 1%
+source-wordcount: '133'
+ht-degree: 4%
 
 ---
 
@@ -22,36 +22,30 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/ao-cancel.png){width="128px"}
+![](ao-cancellation.resources/ao-cancel.png){width="128px"}
 
-## AO-Kündigung
-
-**In:** *Materialfilter/Scanverarbeitung*
-
-**Einfach**
+<b>In:</b> Materialfilter > Scanverarbeitung
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Dieser Knoten versucht, alle Umgebungsfarben-Beleuchtungsinformationen aus Ihrer Albedo-Map (Grundfarbe) zu entfernen, die auf einem separaten AO-Map-Eingang basieren. Es kann verwendet werden, um sicherzustellen, dass Ihre Albedo-Informationen PBR-korrekt sind und meist keine (starken) Beleuchtungsinformationen enthalten.
+Dieser Knoten versucht, alle Ambient occlusion-Beleuchtungsinformationen aus Ihrer Albedo- (Grundfarbe-) Map basierend auf einem separaten AO-Map-Eingang zu entfernen. Es kann verwendet werden, um sicherzustellen, dass Ihre Albedo-Informationen PBR-korrekt sind und meist keine (starken) Beleuchtungsinformationen enthalten.
 
-Ein nützlicher Knoten, wenn Sie eine AO-Map aus einem gescannten Gitter oder auch eine AO-Map aus Height- oder Normalinformationen erstellt haben.
-
-## Parameter
-
-* **AO-Abbruch**: *0.0 - 1.0* Stärke, mit der Beleuchtungsinformationen entfernt werden.
-* **AO-Sättigung**: *0.0 - 1.0*(De)Sättigungskompensation für Bereiche, in denen die Beleuchtung entfernt wird. So können Sie Farbverluste in dunkleren Bereichen ausgleichen.
-
-## Beispielbilder
-
-|  |
-| --- |
-| Es sind keine Bilder an diese Seite angehängt. |
+Ein nützlicher Node, wenn Sie eine Baking geführt AO-Map von einem gescannten Mesh haben, oder alternativ sogar eine AO-Map, die aus Height- oder Normal-Informationen generiert wurde.
 
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>AO-Abbruch</b> <i>0.0 - 1.0</i> | Stärke, mit der Beleuchtungsinformationen entfernt werden. |
+| <b>AO-Sättigung</b> <i>0.0 - 1.0</i> | (De)Sättigungskompensation für Bereiche, in denen die Beleuchtung entfernt wird. So können Sie Farbverluste in dunkleren Bereichen ausgleichen. |

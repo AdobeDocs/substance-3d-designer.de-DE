@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-position.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-position.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Flood Fill "Positionieren", um Bereiche mit positionsbasierten Werten zu füllen, um prozedurale Muster zu erstellen.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Flood Fill in Position
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '78'
 ht-degree: 2%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-to-position.png){width="128px"}
+![](flood-fill-to-position.resources/floodfill-to-position.png){width="128px"}
 
-## Flood Fill in Position
-
-**In:** *Filter/Effekte*
-
-**Einfach**
+<b>In:</b> Filters > Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,16 +37,22 @@ Generiert eine Positionszuordnung pro Kachel aus einer [Flood Fill](../../../../
 
 Die Farbe jeder Kachel repräsentiert ihren X- und Y-Koordinatenmittelpunkt, der in den roten und grünen Kanälen gespeichert ist. Diese Karte ist als Grundlage für weitere Berechnungen und nicht als gebrauchsfertige Karte gedacht.
 
-## Parameter
-
-*Keine Parameter.*
-
-## Beispielbilder
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/floodfill-to-position-1.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/floodposition-ex2.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c2_image" src="../../../../../../assets/floodposition-ex1.png" width="256px"/></div> |
-| --- | --- | --- |
-|  |  |  |
-
 </td>
 </tr>
+</table>
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-position.resources/floodfill-to-position-1.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-position.resources/floodposition-ex2.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-position.resources/floodposition-ex1.png" />
+        </td>
+    </tr>
 </table>

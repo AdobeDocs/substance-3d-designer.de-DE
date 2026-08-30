@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/version-12-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-4.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Designer 12.4, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 12.4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 1%
@@ -30,49 +30,49 @@ Freigabedatum: *31. Januar 2023*
 
 Wenn du dein Diagramm bearbeitest, musst du manchmal mehrere Möglichkeiten ausprobieren und verschiedene Knoten an- oder abstecken, bis du das gewünschte Ergebnis erzielt hast. Dann haben Sie am Ende einige Knoten in Ihrem Diagramm, die nicht mit einer Ausgabe verbunden sind, also keine Auswirkungen auf das Endergebnis haben. Mit diesem neuen Tool können Sie diese Knoten automatisch erkennen und löschen, um Ihre Diagramme zu bereinigen, bevor Sie sie abschließen. Das Bereinigungswerkzeug sucht optional auch nach Parameterfunktionen und kann über die entsprechende Schaltfläche in der Symbolleiste der Diagrammansicht oder über eine Auswahl von Diagrammen in der Explorer-Ansicht auf dem aktuellen Diagramm gestartet werden.
 
-![](../../assets/final-clean.gif){width="640px"}
+![](version-12-4.resources/final-clean.gif){width="640px"}
 
 ### Eingeben von Formeln in Parameterfelder
 
 Es ist nicht mehr nötig, einen Rechner zu benutzen oder im Kopf zu rechnen, wenn man bestimmte Parameterwerte eingeben will. Sie können jetzt direkt grundlegende Formeln wie Additionen, Divisionen, Multiplikationen oder Subtraktionen eingeben, wenn Sie einen numerischen Wert für einen Parameter in den Eigenschaften und an anderen Stellen in der Anwendung festlegen.
 
-![](../../assets/final-formula.gif){width="640px"}
+![](version-12-4.resources/final-formula.gif){width="640px"}
 
 ### Schaltflächen für den Schnellzugriff in der 3D-Ansicht
 
 Wir haben in der [3D-Ansicht](../../interface/3d-view/3d-view.md) eine zusätzliche Symbolleiste hinzugefügt, die allen im Menü [Anzeige](../../interface/3d-view/3d-view.md) verfügbaren Optionen entspricht, damit Sie schnell auf alle diese Optionen zugreifen können (z. B. Drahtgitter, Raster, Begrenzungsrahmen usw.). wie Schaltflächen umgeschaltet werden. Wir haben auch einen Schalter hinzugefügt, um die Umgebungskarte ein-/auszublenden.
 
-![](../../assets/final-3dview.gif){width="640px"}
+![](version-12-4.resources/final-3dview.gif){width="640px"}
 
 ### Schaltfläche zum Generieren einer Zufallsverteilung
 
 Sie können jetzt schnell verschiedene Varianten erstellen, indem Sie einen neuen Button verwenden, um die zufällige Geschwindigkeit für Ihr Diagramm zu generieren, anstatt einen Schieberegler zu verschieben.
 
-![](../../assets/final-seed.gif){width="640px"}
+![](version-12-4.resources/final-seed.gif){width="640px"}
 
 ### Sperre für das Widget &quot;Ausgabegröße&quot;
 
 Sie können nun die Breite und das Height der Ausgabegröße sperren, um sicherzustellen, dass die Größe quadratisch bleibt und die beiden Werte nicht jedes Mal geändert werden, wenn Sie sie aktualisieren möchten.
 
-![](../../assets/final-lock.gif){width="640px"}
+![](version-12-4.resources/final-lock.gif){width="640px"}
 
 ### Transformieren der Bildeingabe in Farbe/Graustufen
 
 Wechseln Sie über das Kontextmenü des Knotens schnell zwischen einer [Eingabefarbe](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) und einer [Graustufen-Eingabe](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md).
 
-![](../../assets/final-switch.gif){width="640px"}
+![](version-12-4.resources/final-switch.gif){width="640px"}
 
 ### Auswählen des angeklickten Pins bei der Anzeige des Verlaufseditors
 
 Wenn Sie im Eigenschaftenfenster auf einen Pin klicken, um einen Verlauf zu bearbeiten, wählen Sie jetzt automatisch den entsprechenden Pin im angezeigten [Verlaufseditor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) aus.
 
-![](../../assets/final-gradient.gif){width="640px"}
+![](version-12-4.resources/final-gradient.gif){width="640px"}
 
 ### Nachgelagerte Knoten auswählen
 
 Neuer Eintrag im [Knoten-Kontextmenü](../../interface/the-graph-view/the-graph-view.md), um alle Knoten auszuwählen, die direkt oder indirekt mit der Ausgabe der ausgewählten Knoten verbunden sind. Sie wählen also alle Knoten aus, die von Ihrem Knoten betroffen sind. Nützlich, um einen Teil Ihres Diagramms zu löschen oder das Diagrammlayout neu zu bearbeiten.
 
-![](../../assets/final-downstream.gif){width="640px"}
+![](version-12-4.resources/final-downstream.gif){width="640px"}
 
 ## Python-API-Updates
 
@@ -111,7 +111,7 @@ Diese Version 12.4 bietet auch die vollständige Unterstützung von Substance-Mo
 * [3D-Ansicht] Drahtgitter-Anzeigeeigenschaft wird nicht gespeichert
 * [Inhalt] Die Parameter für die radiale Weichzeichnungsfarbe haben keine Auswirkungen auf den Alphakanal
 * [Lokalisierung] Zusätzliche Schieberegler und Schaltflächen werden in den OpenGL-Eigenschaften der Umgebung angezeigt.
-* [MDL]&#x200B;[Substance-Modell] Absturz beim Löschen exponierter Knoten
+* [MDL][Substance-Modell] Absturz beim Löschen exponierter Knoten
 * [Voreinstellungen] Die Datei Default\_config wird nie neu erstellt, wenn sie gelöscht wird
 * [Substance-Modell] Parameter für die Neuanordnung von Abstürzen, der nicht auf Instanzebene angezeigt wird
 * [API] SDProperty.getDefaultValue() gibt fast immer None zurück.

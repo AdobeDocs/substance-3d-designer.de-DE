@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/technical-issues/crash-when-rendering-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/crash-when-rendering-graphs.html"
 breadcrumb-title: ''
 description: Beheben Sie Abstürze beim Rendern von Graphen in Substance 3D Designer und finden Sie Lösungen, um sie zu verhindern.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Absturz beim Rendern von Graphen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 3%
+source-wordcount: '188'
+ht-degree: 4%
 
 ---
 
@@ -24,13 +24,13 @@ Auf dieser Seite werden Abstürze aufgelistet, die während des Renderings von D
 
 ## TDR (nur Windows)
 
-<b>[![(Fehler)](../../assets/error.svg)](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) Problem</b>
+<b>[![(Fehler)](crash-when-rendering-graphs.resources/error.svg)](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) Problem </b>
 
 Der Zeitgeber <b>Timeout Detection &amp; Recovery (TDR)</b> des Systems ist *zu kurz*, damit Substance 3D Designer seine aktuellen Berechnungen abschließen kann, bevor der Grafiktreiber *neu gestartet wird*.
 
 Die von Substance 3D Designer ausgeführten Berechnungen können sehr intensiv sein und die Grafiktreiber in einem Maße verwenden, in dem *eine Weile nicht auf das Betriebssystem reagiert*.\
 Als Stabilitäts- und Sicherheitsmaßnahme startet das Betriebssystem *den Grafiktreiber* neu, wodurch die Berechnungen verkürzt werden und Substance 3D Designer *abstürzt*.
 
-<b>![(tick)](../../assets/check.svg) Empfohlene Schritte</b>
+<b>![(tick)](crash-when-rendering-graphs.resources/check.svg) Empfohlene Schritte</b>
 
-Die TDR-Zeitgeberwerte müssen *erhöht* sein, um solche Abstürze zu verhindern. Sie können dies tun, indem Sie die Anweisungen in [dieser Seite](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) der Substance 3D Painter-Dokumentation befolgen, die auch für Substance 3D Designer gelten.
+Die TDR-Zeitgeberwerte müssen *erhöht* sein, um solche Abstürze zu verhindern. Sie können dies tun, indem Sie die Anweisungen in [dieser Seite](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) der Substance 3D Painter-Dokumentation befolgen, die auch für Substance 3D Designer gelten.

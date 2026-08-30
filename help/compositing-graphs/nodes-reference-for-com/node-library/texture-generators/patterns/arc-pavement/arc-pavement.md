@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/arc-pavement.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/arc-pavement.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Pflaster, um bogenförmige Pflastermuster zum Erstellen gekrümmter Straßen- und Pfadstrukturen zu erstellen.
+description: Verwenden Sie den Knoten Pflaster, um bogenförmige Pflastermuster zum Erstellen gekrümmter Texturen für Straßen und Pfade zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Arc Pavement
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Bogenpflaster
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
@@ -22,57 +22,52 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/arcpavement-ex.png)
+![](arc-pavement.resources/arcpavement-ex.png)
 
-## Bogenpflaster
-
-**In:** *Texturgeneratoren**/Muster*
-
-**Fortgeschrittene**
+<b>In:</b> Texturgeneratoren > Muster
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Generiert ein Pariser Bogen-Straßenmuster. Dieser Effekt kann nicht mit dem Standardknoten &quot;[Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)&quot; oder &quot;[Sampler anordnen](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md)&quot; erzielt werden, daher dieser dedizierte Knoten.
 
-## Parameter
-
-* **Skalierung**: *1 - 8* Legt die globale Skalierung/Unterteilung fest.
-* **Mustermenge**: *1 -* 32\
-  Legt die Anzahl der in jedem Bogen verwendeten Steine fest.
-* **Zufälliger Musterbetrag**: *0.0 - 1.0*\
-  Zufallswerte für die Anzahl der Steine in jedem Bogen. Hat den zusätzlichen Effekt, dass Ziegelsteine verschiedene Schuppen.
-* **Mindestgröße des Musters**: *1 - 10*\
-  Steuert die Mindestmenge an Steinen, wenn Bögen randomisiert werden.
-* **Bogenbetrag**: *0 - 20*\
-  Legt die Stärke der vertikal gestapelten Bögen fest. Ändert das Height der Steine.
-* **Muster**: *Eingabebild, Quadrat, Disc, Paraboloid, Glocke, Gaußsch, Dorn, Pyramide, Ziegel, Abstufungen, Wellen, Halbglocke, Gekrächelte Glocke, Halbmond, Kapsel, Kegel*\
-  Wählt die zu verwendende Musterform aus.
-* **Eingangsbildfilter**: *Bilinear + Mipmaps, Bilinear, Nächste*
-* **Musterskalierung**: *0.0 - 1.0* Legt die Skalierung für jede Kachel fest.
-* **Musterbreite**: *0.0 - 1.0*\
-  Legt die Breite für jedes Teil fest.
-* **Pattern-Height**: *0.0 - 1.0*\
-  Legt das Height für jede Kachel fest.
-* **Zufällige Musterbreite**: *0.0 - 1.0*\
-  Weist der Kachelbreite Zufallswerte zu.
-* **Muster-Height zufällig**: *0.0 - 1.0*\
-  Randomisiert Kachel-Height.
-* **Globale Musterbreite zufällig**: *0.0 - 1.0* Randomisiert die Kachelbreite, ohne größere Lücken zwischen den Kacheln zu erstellen.
-* **Pattern Height Verringern**: *0.0 - 1.0* Steuert das Quetschen des Heights an den Enden jedes Bogens.
-* **Farbzufall**: *0.0 - 1.0*\
-  Randomisiert Kachelfarben.
-* **Quadratische Ausbreitung**: *False/True*\
-  Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen.
-
-## Beispielbilder
-
-![](../../../../../../assets/arcpavement-ex.png)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Skalierung</b> <i>1 - 8</i> | Legt die globale Skalierung/Kachelung fest. |
+| <b>Mustermenge</b> <i>1 - 32</i> | Legt die Anzahl der Ziegel fest, die in jedem Bogen verwendet werden. |
+| <b>Zufälliger Musterbetrag</b> <i>0.0 - 1.0</i> | Die Anzahl der Ziegel in jedem Bogen wird zufällig festgelegt. Nutzt zusätzlich den Effekt, dass Ziegeln verschiedene Maßstäbe zugewiesen werden. |
+| <b>Mindestgröße des Musters</b> <i>1 - 10</i> | Steuert die Mindestanzahl an Ziegeln beim Zufallsgenerator von Bögen. |
+| <b>Bogenbetrag</b> <i>0 - 20</i> | Legt die Stärke der vertikal gestapelten Bögen fest. Ändert das Height des Ziegels. |
+| <b>Muster</b> <i>Eingabebild, Quadrat, Festplatte, Paraboloid, Bell, Gaußsch, Dorn, Pyramide, Ziegel, Abstufungen, Wellen, Halbglocke, Rändelglocke, Mondsichel, Kapsel, Kegel</i> | Wählt die zu verwendende Musterform aus. |
+| <b>Filterungen des Eingabebilds</b> <i>Bilinear + Mipmaps, Bilinear, Nächste</i> |  |
+| <b>Musterskalierung</b> <i>0.0 - 1.0</i> | Legt die Skalierung für jede Kachel fest. |
+| <b>Musterbreite</b> <i>0.0 - 1.0</i> | Legt die Breite für jedes Teil fest. |
+| <b>Pattern-Height</b> <i>0.0 - 1.0</i> | Legt das Height für jede Kachel fest. |
+| <b>Musterbreite zufällig</b> <i>0.0 - 1.0</i> | Weist der Kachelbreite Zufallswerte zu. |
+| <b>Muster-Height zufällig</b> <i>0.0 - 1.0</i> | Randomisiert Kachel-Height. |
+| <b>Globale Musterbreite zufällig</b> <i>0.0 - 1.0</i> | Randomisiert die Kachelbreite, ohne größere Lücken zwischen den Kacheln zu erstellen. |
+| <b>Pattern Height Verringern</b> <i>0.0 - 1.0</i> | Steuert das Ausstreichen des Heights an den Enden jedes Bogens. |
+| <b>Farbzufall</b> <i>0.0 - 1.0</i> | Randomisiert Kachelfarben. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="arc-pavement.resources/arcpavement-ex.png" />
+        </td>
+    </tr>
 </table>

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-graph-view/graph-items.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items.html"
 breadcrumb-title: ''
-description: Erfahren Sie mehr über Diagrammelemente in Substance 3D Designer, einschließlich Rahmen, Kommentare, Pins und Portalknoten zum Organisieren von Diagrammen.
+description: Erfahren Sie mehr über Graf-Elemente in Substance 3D Designer, einschließlich Rahmen, Kommentaren, Nadeln und Portalknoten zum Organisieren von Grafen.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Graph view > Graph items
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Graphenelemente
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 7%
@@ -20,20 +20,20 @@ ht-degree: 7%
 
 # Graphenelemente
 
-Diagrammelemente sind spezielle Objekte, mit denen Sie Ihre Diagramme organisieren, ihre Lesbarkeit verbessern und das Navigieren durch sie beschleunigen können.
+Graf-Elemente sind spezielle Objekte, mit denen Sie Ihre Grafen organisieren, ihre Lesbarkeit verbessern und das Navigieren durch sie beschleunigen können.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Punktknotensymbol](../../../assets/graphatomic-dot.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
+[![Punktknotensymbol](graph-items.resources/graphatomic-dot.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
 
 ## Knoten &quot;Punkt&quot; (auch Portal)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Rahmensymbol](../../../assets/graphatomic-frame.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
+[![Rahmen-Symbol](graph-items.resources/graphatomic-frame.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
 
 ## Rahmen
 
@@ -60,14 +60,14 @@ Gruppiert Knoten mit Beschriftung und Farbcodierung, und verschiebt sie dann gan
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Kommentarsymbol](../../../assets/graphatomic-comment.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
+[![Kommentarsymbol](graph-items.resources/graphatomic-comment.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
 
 ## Kommentar
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Symbol für Navigationsstift](../../../assets/graphatomic-pin.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
+[![Symbol für die Nadel der Navigation](graph-items.resources/graphatomic-pin.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
 
 ## Pin
 
@@ -79,12 +79,12 @@ Gruppiert Knoten mit Beschriftung und Farbcodierung, und verschiebt sie dann gan
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Kennzeichne dein Diagramm.
+Kommentieren Sie Ihren Graf.
 
 </td>
 <td style="border: 0;" valign="top">
 
-Markiere Interessenbereiche in deinem Diagramm, und wechsle dann schnell zu ihnen.
+Markiere Interessenspunkte in deinem Graf, und wechsle dann schnell zu ihnen.
 
 </td>
 </tr>

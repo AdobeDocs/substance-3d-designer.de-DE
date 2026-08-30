@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
 breadcrumb-title: ''
 description: Überschreiben Sie vorhandene Materialien in 3D-Szenen, um sie zum Testen und in der Vorschau durch Ihre eigenen Substance-Materialien zu ersetzen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Außerkraftsetzte Szenenmaterialien
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Wenn Sie mit 3D-Szenen mit vorhandenen Materialien arbeiten, müssen Sie diese M
 
 Ihr Material kann von Grund auf neu erstellt werden oder eine angepasste Version des Materials einer Szene, die [in ein Substance-Diagramm extrahiert wurde](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md).
 
-![Überschreiben von Szenenmaterial, Anpassen und Zurücksetzen auf den Szenenstatus](../../assets/tweakOverriddenMaterial.gif "Überschreiben von Szenenmaterial, Anpassen und Zurücksetzen auf den Szenenstatus"){zoomable="yes"}
+![Überschreiben von Szenenmaterial, Anpassen und Zurücksetzen auf den Szenenstatus](overriding-scene-materials.resources/tweakOverriddenMaterial.gif "Überschreiben von Szenenmaterial, Anpassen und Zurücksetzen auf den Szenenstatus"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -59,14 +59,14 @@ Die Aktion &quot;Material überschreiben&quot; kann an zwei Stellen gefunden wer
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Material überschreiben - Aktion im Viewport &quot;3D-Ansicht&quot;](../../assets/overrideMaterialActionViewport.png "Material überschreiben - Aktion im Viewport &quot;3D-Ansicht&quot;"){zoomable="yes"}
+![Material überschreiben - Aktion im Viewport &quot;3D-Ansicht&quot;](overriding-scene-materials.resources/overrideMaterialActionViewport.png "Material überschreiben - Aktion im Viewport &quot;3D-Ansicht&quot;"){zoomable="yes"}
 
 *Aktion im Ansichtsport der 3D-Ansicht*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Material überschreiben - Aktion im Menü &quot;Materialien&quot;](../../assets/overrideMaterialActionMaterials.png "Material überschreiben - Aktion im Menü &quot;Materialien&quot;"){zoomable="yes"}
+![Material überschreiben - Aktion im Menü &quot;Materialien&quot;](overriding-scene-materials.resources/overrideMaterialActionMaterials.png "Material überschreiben - Aktion im Menü &quot;Materialien&quot;"){zoomable="yes"}
 
 *Aktion im Materialmenü*
 
@@ -97,17 +97,17 @@ Da die Kopie so erstellt wird, dass sie mit dem Original übereinstimmt, sollte 
 >
 > Die <b>AdobeStandardMaterial</b>-Schattierung wird im gesamten Substance 3D-Ökosystem unterstützt, ist jedoch kein Industriestandard und *kann daher möglicherweise nicht von Drittanbieteranwendungen wie Blender* unterstützt werden.
 > 
-> Für die optimale Interoperabilität außerhalb von Substance 3D-Anwendungen wird derzeit empfohlen, das <b>UsdPreviewSurface</b>-Schattierung-Modell zu verwenden, selbst wenn dieses Modell wesentlich weniger Materialeigenschaften und -effekte unterstützt.
+> Für die optimale Interoperabilität außerhalb von Substance 3D-Anwendungen wird derzeit empfohlen, das <b>UsdPreviewSurface</b>-Schattierung-Modell zu verwenden, selbst wenn dieses Modell deutlich weniger Material-Eigenschaften und -Effekte unterstützt.
 
 ## Auf Szenenzustand zurücksetzen
 
-Wenn Sie den Ausgangszustand eines Materials wiederherstellen müssen, es aber überschrieben bleiben und trotzdem bearbeiten können, kann jede Materialkopie auf ihre ursprünglichen Werte zurückgesetzt werden.
+Wenn Sie den Anfangsstatus eines Materials wiederherstellen, es aber überschrieben lassen und trotzdem bearbeiten können, können Sie jede Material-Kopie auf die ursprünglichen Werte zurücksetzen.
 
-Wenn ein Materialeigenschaftswert geändert oder eine Textur aus einem Diagramm darauf angewendet wurde, wird die Eigenschaft auf ihren ursprünglichen Wert oder ihre Textur zurückgesetzt.
+Wenn ein Eigenschaftswert eines Materials geändert oder eine Textur von einem Graf darauf angewendet wurde, wird die Eigenschaft auf ihren ursprünglichen Wert oder ihre ursprüngliche Textur zurückgesetzt.
 
 Ein Material kann vollständig oder pro Eigenschaft zurückgesetzt werden.
 
-Mit der Aktion &quot;Material auf Szenenzustand zurücksetzen&quot; im Untermenü des Materials oder im Kontextmenü eines Gitters können Sie das Material vollständig zurücksetzen.
+Verwenden Sie die Aktion &quot;Material auf Status der Szene zurücksetzen&quot; im Untermenü des Materials oder im Kontextmenü eines Meshs, um das Material vollständig zurückzusetzen.
 
 Die Aktion kann an drei Stellen durchgeführt werden:
 
@@ -119,23 +119,23 @@ Die Aktion kann an drei Stellen durchgeführt werden:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Material auf Szenenstatus zurücksetzen - Aktion im Viewport &quot;3D-Ansicht&quot;](../../assets/resetMaterialToSceneStateActionViewport.png "Material auf Szenenstatus zurücksetzen - Aktion im Viewport &quot;3D-Ansicht&quot;"){zoomable="yes"}
+![Material auf Szene zurücksetzen - Aktion im Viewport &quot;3D-Ansicht&quot;](overriding-scene-materials.resources/resetMaterialToSceneStateActionViewport.png "Material auf Szene zurücksetzen - Aktion im Viewport &quot;3D-Ansicht&quot;"){zoomable="yes"}
 
 *Aktion im Ansichtsport der 3D-Ansicht*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Material auf Szenenstatus zurücksetzen - Aktion im Menü &quot;Materialien&quot;](../../assets/resetMaterialToSceneStateActionMaterials.png "Material auf Szenenstatus zurücksetzen - Aktion im Menü &quot;Materialien&quot;"){zoomable="yes"}
+![Material auf Aktionsstatus zurücksetzen - Szene im Menü &quot;Materialien&quot;](overriding-scene-materials.resources/resetMaterialToSceneStateActionMaterials.png "Material auf Aktionsstatus zurücksetzen - Aktion im Menü &quot;Materialien&quot;"){zoomable="yes"}
 
 *Aktion im Materialmenü*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Material auf Szenenstatus zurücksetzen - Aktion im Dock &quot;Eigenschaften&quot;](../../assets/resetMaterialToSceneStateActionProps.png "Material auf Szenenstatus zurücksetzen - Aktion im Dock &quot;Eigenschaften&quot;"){zoomable="yes"}
+![Material auf Szenenstatus zurücksetzen - Aktion im Dock &quot;Eigenschaften&quot;](overriding-scene-materials.resources/resetMaterialToSceneStateActionProps.png "Material auf Szenenstatus zurücksetzen - Aktion im Dock &quot;Eigenschaften&quot;"){zoomable="yes"}
 
-*Aktion in den Materialeigenschaften*
+*Aktion in den Eigenschaften des Materials*
 
 </td>
 </tr>
@@ -145,14 +145,14 @@ Die Aktion kann an drei Stellen durchgeführt werden:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Die Aktion ist auch *pro Eigenschaft* in den Materialeigenschaften verfügbar, falls Sie nur einige Aspekte eines Materials zurücksetzen möchten.
+Die Aktion ist auch in den Elementeigenschaften *pro Eigenschaft* verfügbar, falls Sie nur einige Material eines Materials zurücksetzen möchten.
 
-Öffnen Sie das Hamburger-Menü der Materialeigenschaft, um die Aktion &quot;Auf Standardszenenstatus zurücksetzen&quot; zu finden.
+Öffnen Sie das Hamburgermenü der Eigenschaft &quot;Material&quot;, um die Aktion &quot;Auf Standardzustand der Szene zurücksetzen&quot; zu öffnen.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Auf Szenenstatus zurücksetzen - Aktion in Materialeigenschaften](../../assets/resetPropertyToSceneStateAction.png "Auf Szenenstatus zurücksetzen - Aktion in Materialeigenschaften"){zoomable="yes"}
+![Auf Aktionsstatus zurücksetzen - Szene in den Material-Eigenschaften](overriding-scene-materials.resources/resetPropertyToSceneStateAction.png "Auf Aktionsstatus zurücksetzen - Szene in den Material-Eigenschaften"){zoomable="yes"}
 
 </td>
 </tr>
@@ -162,14 +162,14 @@ Die Aktion ist auch *pro Eigenschaft* in den Materialeigenschaften verfügbar, f
 
 Erneut: Designer ändert das Szenenmaterial nicht direkt. Es wird eine Kopie der Szene erstellt und die Gitter werden an diese Kopie anstatt an das Original gebunden.
 
-Auf der anderen Seite verfügt Designer über eine *eigene* separate Materialliste im Menü &quot;Materialien&quot;, die standardmäßig mit der Materialliste der Szene übereinstimmt. Du kannst jederzeit neue Materialien in diese Liste einfügen.
+Auf der anderen Seite verfügt Designer über eine *eigene* separate Liste von Materialien im Menü &quot;Materialien&quot;, die standardmäßig mit der Liste der Material der Szene übereinstimmt. Du kannst jederzeit neue Materialien in diese Liste einfügen.
 
 Dies ist ein *anderer* Datensatz, der nur in Designer erstellt und verwaltet wird. Diese Materialien sind dann *mit den Kopien* verbunden, die die ursprünglichen Materialien der Szene überschreiben.
 
-![Überschreiben von Materialien - Datenschema](../../assets/overridingMaterialsSchematic.png "Überschreiben von Materialien - Datenschema"){zoomable="yes"}
+![Überschreiben von Materialien - Datenschema](overriding-scene-materials.resources/overridingMaterialsSchematic.png "Überschreiben von Materialien - Datenschema"){zoomable="yes"}
 
-Sie können jedes der im Menü &quot;Materialien&quot; aufgeführten Materialien mit den von Designer in der Szene erstellten Kopien verbinden: Klicken Sie auf RMB in einer Kopie im Szenenbrowser und wechseln Sie zum Untermenü &quot;Material verbinden&quot;.
+Sie können jedes der im Menü &quot;Materialien&quot; aufgelisteten Materialien mit den von Designer in der Szene erstellten Kopien verbinden: Klicken Sie im Szene-Browser auf RMB und wählen Sie das Untermenü &quot;Material verbinden&quot;.
 
-Das Untermenü listet alle Materialien in der Szene sowie alle Materialien auf, die Sie möglicherweise manuell über das Menü &quot;Materialien&quot; erstellt haben.
+Das Untermenü listet alle Material in der Szene sowie alle Material auf, die Sie möglicherweise manuell über das Menü &quot;Material&quot; erstellt haben.
 
-![Materialien verbinden](../../assets/connectMaterials.gif "Materialien verbinden"){zoomable="yes"}
+![Material verbinden](overriding-scene-materials.resources/connectMaterials.gif "Material verbinden"){zoomable="yes"}

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rust-fine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rust-fine.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Schmutz Rost Fine, um feine Metallmuster zu erzeugen, um Rost mit Korrosions- und Wettereffekten zu versehen.
+description: Verwenden Sie den Schmutz Rost Fine-Rost, um Feinmetallmuster zu erzeugen, um Korrosions- und Verwitterung-Effekte auf Metalle anzuwenden.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Rust Fine
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Schmutz Rost Bußgeld
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '176'
 ht-degree: 1%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungerustfine.jpg){width="200px"}
+![](grunge-rust-fine.resources/grungerustfine.jpg){width="200px"}
 
-**In:** *Texturgeneratoren* */Noises*
-
-**Einfach**
+<b>In:</b> Textur Generators > Rauschen
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,32 +39,32 @@ Der Knoten **Schmutz Rost Fine** generiert eine Schmutz-Map, die einer Überlage
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parameter
 
-* **Balance** *Gleitend* Passt die Balance zwischen dunklen und hellen Werten an.
-* **Kontrast** *Unverankert* Passt den Kontrast des Bildes an.
-* **Umkehren** *Boolesch* Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird.
-* **Quadratische Ausbreitung** *Boolesch* Aktiviert die Kompensation von Squash- und Dehnungsverhältnissen mit nicht quadratischen Verhältnissen.
-* Erweitert
-  * **Grundkontrast des Schmutzes** *Fließend* Passt den Kontrast der Schmutz-Textur an, die als Grundlage für den Rost verwendet wird.
-  * **Grundkrümmungsintensität** *Gleitend* Passt die Intensität des Verkrümmungseffekts an, der auf die Schmutz-Map angewendet wird, die als Grundlage für den Rost verwendet wird.
-  * **Streakintensität** *Fließend* Passt die Intensität der helleren Streifen und Flecken an, die auf der Basis-Schmutz-Textur überlagert werden.
-  * **Rauschintensität** *Fließend* Passt die Intensität des auf die Schmutz-Grundstruktur angewendeten Rauschens an.
-  * **Scharfzeichnungsintensität** *Unverankert* Passt die Intensität des globalen Scharfzeichnungseffekts an.
+|  |  |
+|:---|:---|
+| <b>Saldo</b> <i>Gleitend</i> | Passt die Balance zwischen dunklen und hellen Werten an. |
+| <b>Kontrast</b> <i>Gleitend</i> | Passt den Kontrast des Bildes an. |
+| <b>Umkehren</b> <i>Boolescher Wert</i> | Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird. |
+| <b>Quadratische Ausbreitung</b> <i>Boolescher Wert</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+| <b>Erweitert</b> |  |
+| <b>Basis-Schmutz-Kontrast</b> <i>Gleitend</i> | Passt den Kontrast der Schmutz-Textur an, die als Grundlage für den Rost verwendet wird. |
+| <b>Grundkrümmungsintensität</b> <i>Gleitend</i> | Passt die Intensität des Verkrümmungseffekts an, der auf die Schmutz-Karte angewendet wird, die als Grundlage für den Rost verwendet wird. |
+| <b>Streakintensität</b> <i>Gleitend</i> | Passt die Intensität der helleren Streifen und Flecken an, die auf der Basis-Schmutz-Textur gelegt werden. |
+| <b>Rauschen-Intensität</b> <i>Gleitend</i> | Passt die Intensität des Rauschen an, der auf die Schmutz-Textur angewendet wird. |
+| <b>Intensität schärfen</b> <i>Gleitend</i> | Passt die Intensität des globalen Scharfzeichnungseffekts an. |
 
-## Beispielbilder
+## Beispiele
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungerustfine-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungerustfine-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-rust-fine.resources/grungerustfine-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-rust-fine.resources/grungerustfine-variant.jpg" />
+        </td>
+    </tr>
 </table>

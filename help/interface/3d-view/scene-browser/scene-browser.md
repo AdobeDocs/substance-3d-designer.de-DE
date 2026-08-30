@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/3d-view/scene-browser.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Szenenbrowser, um im Viewport zu 3D-Szenenelementen, Materialien und Objekten zu navigieren und diese zu verwalten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Szenenbrowser
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 1%
@@ -22,13 +22,13 @@ ht-degree: 1%
 
 Der Szenenbrowser der 3D-Ansicht listet alle Elemente in der Szene und ihre Hierarchie auf.
 
-Es bietet Steuerelemente zum Auswählen von Objekten, zum Umschalten ihrer Sichtbarkeit sowie zum Auswählen, welches Material [&#x200B; ein Szenenmaterial überschreiben soll](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md).
+Es bietet Steuerelemente zum Auswählen von Objekten, zum Umschalten ihrer Sichtbarkeit sowie zum Auswählen, welches Material [ ein Szenenmaterial überschreiben soll](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md).
 
 Da Designer [USD](https://openusd.org/release/index.html) für die Beschreibung und Verwaltung seiner Szenen verwendet, befinden sich die Terminologie und Konzepte in dieser Szenenstruktur.
 
-Sie wird angezeigt, indem Sie auf die dedizierte Umschaltfläche &quot;![](../../../assets/sceneBrowser-toggleButton.png)&quot; in der [3D-Ansichtsszene-Symbolleiste &#x200B;](../../../interface/3d-view/3d-view.md) klicken.
+Sie wird angezeigt, indem Sie auf die dedizierte Umschaltfläche &quot;![](scene-browser.resources/sceneBrowser-toggleButton.png)&quot; in der [3D-Ansichtsszene-Symbolleiste ](../../../interface/3d-view/3d-view.md) klicken.
 
-![Szenenbrowser - Geladene 3D-Szene](../../../assets/loaded3DScene.png "Szenenbrowser - Geladene 3D-Szene"){zoomable="yes"}
+![Szenenbrowser - Geladene 3D-Szene](scene-browser.resources/loaded3DScene.png "Szenenbrowser - Geladene 3D-Szene"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -63,7 +63,7 @@ Objekte werden anderen Objekten übergeordnet, bis zum Stamm der Szene. Ein übe
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Szenenbrowser - Szenenbaum](../../../assets/sceneBrowser-sceneTree.png "Szenenbrowser - Szenenbaum"){zoomable="yes"}
+![Szenenbrowser - Szenenbaum](scene-browser.resources/sceneBrowser-sceneTree.png "Szenenbrowser - Szenenbaum"){zoomable="yes"}
 
 </td>
 </tr>
@@ -87,12 +87,12 @@ Designer fügt jeder geladenen Szene einige Objekte hinzu. Von Designer hinzugef
 
 Bei Verwendung des Editors ... in den Menüs &quot;Licht&quot;, &quot;Kamera&quot; und &quot;Umgebung&quot;. Dabei handelt es sich um die Objekte, die bearbeitet werden, unabhängig davon, ob andere Lichter, Kameras oder Umgebungen in der Szene vorhanden sind.
 
-Diese Objekte sind in der Szene enthalten, wenn [&#x200B; &#x200B;](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) exportiert hat.
+Diese Objekte sind in der Szene enthalten, wenn [ ](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) exportiert hat.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Szenenbrowser: Von Designer hinzugefügte Objekte in Fettschrift](../../../assets/sceneBrowser-addedByDesigner.png "Szenenbrowser: Von Designer hinzugefügte Objekte in Fettschrift"){zoomable="yes"}
+![Szenenbrowser: Von Designer hinzugefügte Objekte in Fettschrift](scene-browser.resources/sceneBrowser-addedByDesigner.png "Szenenbrowser: Von Designer hinzugefügte Objekte in Fettschrift"){zoomable="yes"}
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ Jedes Objekt kann in der Szene aktiviert und deaktiviert werden. Wenn diese Opti
 
 Der Status eines übergeordneten Objekts wird auf seine untergeordneten Objekte übertragen. Wenn Sie also ein übergeordnetes Objekt deaktivieren, werden auch seine untergeordneten Objekte deaktiviert.
 
-Die Sichtbarkeit eines Objekts kann durch Klicken auf die Augenschaltfläche &quot;![](../../../assets/sceneBrowser-eyeButton.png)&quot; oder über das Kontextmenü umgeschaltet werden. Das Menü bietet einige weitere Aktionen zum Verwalten der Sichtbarkeit von Szenenobjekten:
+Die Sichtbarkeit eines Objekts kann durch Klicken auf die Augenschaltfläche &quot;![](scene-browser.resources/sceneBrowser-eyeButton.png)&quot; oder über das Kontextmenü umgeschaltet werden. Das Menü bietet einige weitere Aktionen zum Verwalten der Sichtbarkeit von Szenenobjekten:
 
 * <b>Ausblenden:</b> Deaktivieren Sie das ausgewählte Objekt.
 * <b>Anzeigen:</b> Aktivieren Sie das ausgewählte Objekt.
@@ -128,7 +128,7 @@ Einige Aktionen wirken sich insbesondere auf die Sichtbarkeit von Gittern aus:
 * <b>Alle untergeordneten Elemente erweitern:</b> Erweitern Sie alle untergeordneten Listen unter dem ausgewählten Objekt rekursiv.
 * <b>Alle untergeordneten Elemente reduzieren:</b> Reduzieren aller untergeordneten Listen unter dem ausgewählten Objekt, rekursiv.
 
-![Szenenbrowser - Objektsichtbarkeit umschalten](../../../assets/sceneBrowser-toggleVisibility.gif "Szenenbrowser - Objektsichtbarkeit umschalten"){zoomable="yes"}
+![Szenenbrowser - Objektsichtbarkeit umschalten](scene-browser.resources/sceneBrowser-toggleVisibility.gif "Szenenbrowser - Objektsichtbarkeit umschalten"){zoomable="yes"}
 
 ### Umgebungen
 
@@ -138,13 +138,13 @@ Wenn eine Umgebungsbeleuchtung deaktiviert ist, wird auch ihr Lichtbeitrag zur S
 
 Wenn mehr als eine Umgebungsbeleuchtung aktiviert ist, werden ihre Beleuchtungsbeiträge *kumulativ* hinzugefügt.
 
-![Szenenbrowser - Umgebungssichtbarkeit umschalten](../../../assets/sceneBrowser-toggleEnvLights.gif "Szenenbrowser - Umgebungssichtbarkeit umschalten"){zoomable="yes"}
+![Szenenbrowser - Umgebungssichtbarkeit umschalten](scene-browser.resources/sceneBrowser-toggleEnvLights.gif "Szenenbrowser - Umgebungssichtbarkeit umschalten"){zoomable="yes"}
 
 ### Lichter
 
 Dasselbe gilt für alle Lichter in der Szene: können einzeln aktiviert und deaktiviert werden.
 
-![Szenenbrowser - Umschalten der Lichtsichtbarkeit](../../../assets/sceneBrowser-toggleLights.gif "Szenenbrowser - Umschalten der Lichtsichtbarkeit"){zoomable="yes"}
+![Szenenbrowser - Umschalten der Lichtsichtbarkeit](scene-browser.resources/sceneBrowser-toggleLights.gif "Szenenbrowser - Umschalten der Lichtsichtbarkeit"){zoomable="yes"}
 
 ## Verbundene Materialien
 
@@ -163,7 +163,7 @@ Ein überschriebenes Material bietet ein zusätzliches Element in seinem Kontext
 </td>
 <td style="border: 0;" valign="top">
 
-![Szenenbrowser - Verbundenes Material](../../../assets/sceneBrowser-connectedMaterial.png "Szenenbrowser - Verbundenes Material"){zoomable="yes"}
+![Szenenbrowser - Verbundenes Material](scene-browser.resources/sceneBrowser-connectedMaterial.png "Szenenbrowser - Verbundenes Material"){zoomable="yes"}
 
 </td>
 </tr>

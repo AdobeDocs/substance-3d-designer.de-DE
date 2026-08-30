@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Kanäle vertauschen", um Farbkanäle in Texturen neu anzuordnen, um Farbeffekte zu erstellen und Kanäle auszutauschen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Kanäle mischen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Kanäle mischen](../../../../assets/comp_shuffle.png "Atomknoten: Kanäle mischen"){width="200px"}
+![Atomknoten: Kanäle mischen](channel-shuffle.resources/comp_shuffle.png "Atomknoten: Kanäle mischen"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -90,7 +90,7 @@ Channel-Shuffle bietet einfache Optionen, aber in den meisten Fällen von Channe
 |  |  |
 | --- | --- |
 | <b>Eingabe 1</b> *Farbe/Graustufen* PRIMÄR | Primäres Eingabebild. |
-| <b>Eingabe 2</b> *Farbe/Graustufen* | Sekundäres Eingabebild |
+| <b>Eingabe 2</b> *Farbe/Graustufen* | Sekundäres Eingabebild. |
 
 ## Ausgangsanschlüsse
 

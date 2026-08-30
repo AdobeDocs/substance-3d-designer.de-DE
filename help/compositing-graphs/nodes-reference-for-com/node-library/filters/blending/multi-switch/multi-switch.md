@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/multi-switch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/multi-switch.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Multi Switch", um zwischen mehreren Eingabetexturen zu wechseln, basierend auf einem Selektor für die Auswahl bedingter Texturen.
+description: Verwenden Sie den Knoten "Mehrere Switches", um zwischen mehreren Eingabe-Texturen zu wechseln, die auf einem Selektor für die Auswahl einer bedingten Textur basieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Multi Switch
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mehrfachschalter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 2%
+source-wordcount: '147'
+ht-degree: 4%
 
 ---
 
@@ -22,42 +22,42 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-switch-greyscale.png){width="128px"}
+![](multi-switch.resources/multi-switch-greyscale.png){width="128px"}
 
-![](../../../../../../assets/multi-switch.png){width="128px"}
+![](multi-switch.resources/multi-switch.png){width="128px"}
 
-## Multiswitch (Graustufen)
-
-**In:** *Filters/Blending*
-
-**Einfach**
+<b>In:</b> Filters > Blending
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Funktioniert als Schaltkasten und durchläuft nur den Eingang, der durch den Parameter &#39;Eingabeauswahl&#39; definiert ist. Wenn also zwei Eingänge verbunden sind, wird nur einer davon zurückgegeben (unverändert), je nach Wahl des Benutzers.
 
-Sehr nützlich zum Hinzufügen vieler verschiedener Optionen in einem Diagramm. In Kombination mit [Verfügbarmachen von &#x200B;](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) (vorzugsweise als Dropdown-Liste) ist eine Menge Anpassung möglich.
+Diese Option ist sehr praktisch, wenn Sie einem Graf viele verschiedene Optionen hinzufügen möchten. In Kombination mit [leg](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) (vorzugsweise als Dropdown-Liste) ist eine große Anpassung möglich.
 
 Wichtig: Achten Sie darauf, die passende Version für Ihre Eingabe zu verwenden! Verwenden Sie &quot;Multi Switch&quot; für Farbeingaben, &quot;Multi Switch Grayscale&quot; für Graustufeneingaben.
-
-## Parameter
-
-### Eingaben
-
-* **Eingabe 1-20**: *Farbeingabe*
-
-### Parameter
-
-* **Eingabenummer**: *2 - 20* Anzahl der zu veröffentlichenden Eingaben. Wichtig: entfernt keine Verbindungen, wenn die Anzahl verringert wird!
-* **Eingabeauswahl**: *1 - 20* Welche Eingabe als Ergebnis zurückgegeben werden soll.
-
-## Beispielbilder
 
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Eingabe 1-20</b> <i>Farbeingabe</i> |  |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Eingabenummer</b> <i>2 - 20</i> | Anzahl der zu legend Eingaben. Wichtig: entfernt keine Verbindungen, wenn die Anzahl verringert wird! |
+| <b>Eingabeauswahl</b> <i>1 - 20</i> | Welche Eingabe als Ergebnis zurückgegeben werden soll. |

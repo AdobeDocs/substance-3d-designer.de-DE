@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/switch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/switch.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Wechseln", um zwischen zwei Eingabetexturen zu wechseln, die auf einer Maske für die Auswahl einer bedingten Textur basieren.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Wechseln
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 4%
+source-wordcount: '134'
+ht-degree: 3%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/switch-1.png){width="128px"}
+![](switch.resources/switch-1.png){width="128px"}
 
-![](../../../../../../assets/switch-grayscale.png){width="128px"}
+![](switch.resources/switch-grayscale.png){width="128px"}
 
-## Schalter (Graustufen)
-
-**In:** *Filters/Blending*
-
-**Einfach**
+<b>In:</b> Filters > Blending
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -45,19 +41,23 @@ Sehr nützlich zum Anzeigen einer booleschen (True/False) Auswahl in einem Diagr
 
 Wichtig: Achten Sie darauf, die passende Version für Ihre Eingabe zu verwenden! Verwenden Sie &quot;Schalter&quot; für Farbeingaben, &quot;Graustufen wechseln&quot; für Graustufeneingaben.
 
-## Parameter
-
-### Eingaben
-
-* **Eingabe 1 (Wahr)**: *Farb- oder Graustufeneingabe*
-* **Eingabe 2 (Falsch)**: *Farb- oder Graustufeneingabe*
-
-### Parameter
-
-* **Switch**: *Falsch/Wahr* Wechselt zwischen Eingabe 1 (Wahr) und 2 (Falsch).
-
-## Beispielbilder
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Eingabe 1 (Wahr)</b> <i>Farb- oder Graustufeneingabe</i> |  |
+| <b>Eingabe 2 (falsch)</b> <i>Farb- oder Graustufeneingabe</i> |  |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Switch</b> <i>False/True</i> | Wechselt zwischen Eingang 1 (True) und 2 (False). |

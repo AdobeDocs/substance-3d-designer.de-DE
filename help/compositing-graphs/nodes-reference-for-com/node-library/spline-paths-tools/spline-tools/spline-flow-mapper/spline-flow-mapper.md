@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-flow-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-flow-mapper.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Spline Flow Mapper", um fließende Texturmuster entlang von Spline-Pfaden für organische Effekte zu erstellen.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Spline-Flow-Mapper
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/spline-flow-mapper-icon.png "Knotensymbol")
+![Knotensymbol](spline-flow-mapper.resources/spline-flow-mapper-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -45,74 +45,45 @@ Mit Splines kannst du die Richtung, die Trajektorie, die Intensität und die Thi
 >
 > Das Ergebnis kann unerwünschte Artefakte außerhalb der Hülle des Spline-Effekts sein, wenn sehr niedrige Werte für die Thickness verwendet werden. Dies ist ein bekanntes Problem.
 
-## Eingangsanschlüsse
+<a name="inputs"></a>
 
-<b>Spline-Kabel</b> *Farbe* Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Eingabesplines:\
-<b> R</b> - X-Position\
-<b> G</b> - Y-Position\
-<b> B</b> - Height\
-<b>A</b> - Paketdaten:\
-* Signieren: Die Spline ist geschlossen (negativ) oder offen (positiv).\
-* Absoluter Wert: Thickness + 1.
+## Eingaben
 
-<b>Spline-Daten</b> *Farbe* Zusätzliche Daten der Eingabe-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.\
-<b> R</b> - Tangenten X\
-<b> G</b> - Tangenten Y\
-<b> B</b> - Nicht verwendet\
-<b> A</b> - Nicht verwendet
+|  |  |
+|:---|:---|
+| <b>Spline-Kabel</b> <i>Farbe</i> | Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Eingabesplines:<br><b>R</b> - X position<br><b>G</b> - Y position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>- Sign: Spline ist geschlossen (negativ) oder offen (positiv);<br>- Absolute Wert: Thickness + 1. |
+| <b>Spline-Daten</b> <i>Farbe</i> | Zusätzliche Daten der Eingabe-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.<br><b>R</b> - Tangenten X<br><b>G</b> - Tangenten Y<br><b>B</b> - Nicht verwendet<br><b>A</b> - Nicht verwendet |
+| <b>Spline-Betrag</b> <i>Integer</i> | Die Anzahl der Eingabe-Splines. |
+| <b>Dämpfungsprofilkurve</b> <i>Graustufen</i> | <span id="_Hlk135812146"></span>Das Bild, das eine Kurve anhand der Werte der ersten Pixelzeile beschreibt. Wenn der Parameter &quot;Dämpfungsprofil&quot; auf &quot;Eingangsprofilkurve&quot; eingestellt ist, wird mit dieser Eingabe die Verlaufsrampe für die Dämpfung der Flussvektordaten gesteuert, die entlang des Splines gezeichnet werden.<br>Sie können einen Knoten vom Typ [Kurve](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md) verwenden, um die Kurve zu erstellen. |
 
-<b>Spline-Betrag</b> *Integer* Die Anzahl der Eingabe-Splines.
+<a name="outputs"></a>
 
-<b>Dämpfungsprofilkurve</b> *Graustufen*<span id="_Hlk135812146"></span> Das Bild, das eine Kurve anhand der Werte der ersten Pixelzeile beschreibt.\
-Wenn der Parameter &quot;Dämpfungsprofil&quot; auf &quot;Eingangsprofilkurve&quot; eingestellt ist, wird mit dieser Eingabe die Verlaufsrampe für die Dämpfung der Flussvektordaten gesteuert, die entlang des Splines gezeichnet werden.\
-Sie können einen Knoten [Kurve](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md) verwenden, um die Kurve zu erstellen.
+## Ausgaben
 
-## Ausgangsanschlüsse
+|  |  |
+|:---|:---|
+| <b>Ausgabe</b> <i>Farbe</i> | Die in einem Farbbild codierte Ausgabestromzuordnung. |
 
-<b>Ausgabe</b> *Farbe* Die in einem Farbbild codierte Ausgabestromzuordnung.
+<a name="parameters"></a>
 
 ## Parameter
 
-<b>Segmentierungsbetrag</b> *Integer* Splines werden in Segmente vereinfacht, bevor sie von Vektordatendaten durchlaufen werden.\
-Eine größere Anzahl von Segmenten führt zu einer glatteren Flusszuordnung entlang von Kurven.
-
-<b>Modus</b> *Integer* Die Methode zum Auswählen der Splines, entlang derer Vektor-Flussdaten gezeichnet werden sollen:\
-*- Spline-Liste zeichnen*: Alle Splines in der Eingabeliste werden verwendet.\
-*- Einzelne Spline zeichnen*: Es wird nur der Spline-Code mit dem angegebenen Index verwendet.\
-*- Spline-Bereich zeichnen*: Es werden nur die Splines verwendet, deren Index im angegebenen Bereich enthalten ist.
-
-<b>Spline-Index zeichnen</b> *Integer* (Verfügbar, wenn &quot;Modus&quot; auf &quot;Einzelne Spline zeichnen&quot; festgelegt ist)Der Index der Spline, entlang der Vektor-Flussdaten gezeichnet werden sollen.
-
-<b>Spline-Bereich zeichnen</b> *Integer2* (Verfügbar, wenn &quot;Modus&quot; auf &quot;Spline-Bereich zeichnen&quot; festgelegt ist)Der Indexbereich für die Splines, entlang derer Vektor-Flussdaten gezeichnet werden sollen.
-
-<b>Thickness-Modus</b> *Integer* Die Methode zum Festlegen der Thickness der gezeichneten Vektor-Flussdaten\
-*- Manuell*: Legen Sie die Thickness explizit mit einem beliebigen Wert fest.\
-*- Aus Spline*: Verwenden Sie die Thickness des Splines.
-
-<b>Thickness</b> *Gleitkommawert* (verfügbar, wenn &quot;Thickness-Modus&quot; auf &quot;Manuell&quot; festgelegt ist)Der willkürliche Wert für die Thickness der Vektor-Flussdaten, die entlang der Splines gezeichnet werden.<b></b>
-
-<b>Thicknessen-Multiplikator</b> *Gleitkommawert* (verfügbar, wenn &quot;Thickness-Modus&quot; auf &quot;Von Spline&quot; festgelegt ist)Ein globaler Multiplikator für die Thickness der entlang den Splines gezeichneten Vektor-Flussdaten, wenn diese Thickness von der Splines gesteuert wird.
-
-<b>Richtung</b> *Integer* Die Richtung des Vektorflusses in Bezug auf den Spline.\
-*- Tangente*: Tangentenvektor des Splines verwenden\
-*- Normal*: Verwenden Sie den normalen Vektor des Splines.\
-*- Normal gespiegelt*: Verwenden Sie die gespiegelte Version des normalen Vektors des Splines.
-
-<b>Richtung spiegeln</b> *Boolean* Kehrt die Richtung der Splines um, was sich auch auf die Richtung des Flussvektors auswirkt.
-
-<b>Dämpfungsprofil</b> *Integer* Die Verlaufsrampe, die zum Zeichnen der Dämpfung der Flussvektordaten verwendet wird, die entlang der Spline gezeichnet werden:\
-*- Linear*: Verwenden einer linearen Verlaufsrampe\
-*- Gaußscher*: Gaußschen Verlauf verwenden\
-*- Eingabeprofilkurve*: Verwenden Sie die Kurve für den Eingang der Dämpfungsprofilkurve als Verlaufsrampe.
-
-<b>Dämpfung starten</b> *Boolescher Wert*<span id="_Hlk135769398"></span> Fügt einen Halbkreis am Anfang des Splines hinzu. Der Halbkreis verwendet die gleiche Dämpfung wie der Spline.
-
-<b>Enddämpfung</b> *Boolescher Wert* Fügt am Ende des Splines einen Halbkreis hinzu. Der Halbkreis verwendet die gleiche Dämpfung wie der Spline.
-
-<b>Spline-Height-Dämpfung</b> *Gleitkommawert* Die Intensität der Flussvektordaten, die entlang der Spline gezeichnet werden, wird mit dem Height der Spline multipliziert, wobei die gezeichneten Daten an die neutrale Hintergrundfarbe (0,5, 0,5, 0) übergehen, wenn das Height näher an 0 kommt.
-
-<b>Nicht-quadratische Korrektur </b>*Boolesch* Passen Sie die Punktpositionen und die Thickness an, um die Spline-Form in nicht-quadratischen Auflösungen beizubehalten.\
-Dies wirkt sich auch auf die einheitliche Verteilung aus.
+|  |  |
+|:---|:---|
+| <b>Segmentierungsbetrag</b> <i>Integer</i> | Splines werden in Segmente vereinfacht, bevor sie von Vektor-Flussdaten durchlaufen werden. Eine größere Anzahl von Segmenten führt zu einer glatteren Flusszuordnung entlang von Kurven. |
+| <b>Modus</b> <i>Integer</i> | Die Methode zum Auswählen der Splines, entlang denen Vektordatensätze gezeichnet werden sollen: <br><br>- <i>Spline-Liste zeichnen</i>: Alle Splines in der Eingabeliste werden verwendet;<br>- <i>Einzelne Spline zeichnen</i>: Nur der Spline mit dem angegebenen Index wird verwendet;<br>- <i>Spline-Bereich zeichnen</i>: Es werden nur die Splines verwendet, deren Index im angegebenen Bereich enthalten ist. |
+| <b>Spline-Index zeichnen</b> <i>Ganzzahl</i> (verfügbar, wenn &quot;Modus&quot; auf &quot;Einzelne Spline zeichnen&quot; festgelegt ist) | Der Index der Spline, entlang der Daten für den Vektorfluss gezeichnet werden sollen. |
+| <b>Spline-Bereich zeichnen</b> <i>Ganzzahl2</i> (verfügbar, wenn &quot;Modus&quot; auf &quot;Spline-Bereich zeichnen&quot; festgelegt ist) | Der Bereich der Indizes für die Splines, entlang denen Vektor-Flussdaten gezeichnet werden sollen. |
+| <b>Thickness-Modus</b> <i>Integer</i> | Die Methode zum Festlegen der Thickness der gezeichneten Vektordatenstromdaten <br><br>- <i>Manuell</i>: Legen Sie die Thickness explizit mit einem beliebigen Wert fest;<br>- <i>Von Spline</i>: Verwenden Sie die Thickness des Splines. |
+| <b>Thickness</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Thickness-Modus&quot; auf &quot;Manuell&quot; festgelegt ist) | Der beliebige Wert für die Thickness der entlang der Splines gezeichneten Vektor-Flussdaten. |
+| <b>Thicknessen-Multiplikator</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Thickness-Modus&quot; auf &quot;Von Spline&quot; festgelegt ist) | Ein globaler Multiplikator für die Thickness der entlang der Splines gezeichneten Vektor-Flussdaten, wenn diese Thickness von der der Splines gesteuert wird. |
+| <b>Richtung</b> <i>Integer</i> | Die Richtung des Vektorflusses in Bezug auf den Spline.<br><br>- <i>Tangente</i>: Verwenden Sie den Spline-Tangente-Vektor;<br>- <i>Normal</i>: Verwenden Sie den normalen Vektor des Splines;<br>- <i>Normal gespiegelt</i>: Verwenden Sie die gespiegelte Version des normalen Vektors des Splines. |
+| <b>Richtung spiegeln</b> <i>Boolescher Wert</i> | Kehrt die Richtung der Splines um, was sich auch auf die Richtung des Flussvektors auswirkt. |
+| <b>Dämpfungsprofil</b> <i>Integer</i> | Die Verlaufsrampe, die zum Zeichnen der Dämpfung der Flussvektordaten verwendet wird, die entlang der Spline gezeichnet werden:<br><br>- <i>Linear</i>: Einen linearen Verlauf verwenden;<br>- <i>Gaußsch</i>: Gaußsche Verlaufsrampe verwenden<br>- <i>Eingangsprofilkurve </i>: Verwenden Sie die Kurve für den Eingang der Dämpfungsprofilkurve als Verlaufsrampe. |
+| <b>Dämpfung starten</b> <i>Boolescher Wert</i> | <span id="_Hlk135769398"></span>Fügt einen Halbkreis am Anfang des Splines hinzu. Der Halbkreis verwendet die gleiche Dämpfung wie der Spline. |
+| <b>Enddämpfung</b> <i>Boolescher Wert</i> | Fügt einen Halbkreis am Ende des Splines hinzu. Der Halbkreis verwendet die gleiche Dämpfung wie der Spline. |
+| <b>Spline-Height-Dämpfung</b> <i>Gleitend</i> | Die Intensität der Flussvektordaten, die entlang der Spline gezeichnet werden, wird mit dem Height der Spline multipliziert, wobei die gezeichneten Daten an die neutrale Hintergrundfarbe (0,5, 0,5, 0) übergehen, wenn das Height näher an 0 kommt. |
+| <b>Nicht-quadratische Korrektur</b> <i>Boolescher Wert</i> | Passen Sie die Punktpositionen und die Thickness an, um die Spline-Form in nicht quadratischen Auflösungen beizubehalten. Dies wirkt sich auch auf die einheitliche Verteilung aus. |
 
 ## Beispiele
 
@@ -123,11 +94,11 @@ Dies wirkt sich auch auf die einheitliche Verteilung aus.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineFlowMapper-Variant1-Before.jpg" alt="SplineFlowMapper-Variant1-Before">
+      <img src="spline-flow-mapper.resources/SplineFlowMapper-Variant1-Before.jpg" alt="SplineFlowMapper-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineFlowMapper-Variant1-After.jpg" alt="SplineFlowMapper-Variant1-After">
+      <img src="spline-flow-mapper.resources/SplineFlowMapper-Variant1-After.jpg" alt="SplineFlowMapper-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -136,7 +107,7 @@ Dies wirkt sich auch auf die einheitliche Verteilung aus.
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](../../../../../../assets/SplineFlowMapper-Demo.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](spline-flow-mapper.resources/SplineFlowMapper-Demo.gif "Knotenbeispiel 2")
 
 </td>
 </tr>

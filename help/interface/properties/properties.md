@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/properties.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/properties.html"
 breadcrumb-title: ''
 description: Verwenden Sie das Eigenschaftenfenster in Substance 3D Designer, um Knoteneigenschaften und Diagrammparameter anzuzeigen und zu bearbeiten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Eigenschaften
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Der Bereich <b>Eigenschaften </b> ist ein kontextsensitiver Bereich, der sich je
 </td>
 <td style="border: 0;" valign="top">
 
-![Eigenschaften-Dock](../../assets/image2020-11-9-13-49-48.png "Eigenschaften-Dock")
+![Eigenschaften-Dock](properties.resources/image2020-11-9-13-49-48.png "Eigenschaften-Dock")
 
 </td>
 </tr>
@@ -67,7 +67,7 @@ Diagramme lassen sich in einige zusätzliche Kategorien einteilen. <b>Eingabepar
 
 ## Ressourcen und Pakete
 
-Der Eigenschaftenbereich reagiert auch auf Auswahländerungen im [Explorer](../the-explorer-window/the-explorer-window.md). Sie können auch einen Graphen auswählen (anstatt auf einen leeren Bereich zu doppelklicken) und die Eigenschaften &quot;Paket&quot; und &quot;[Ressource](../../resources/resources.md)&quot; ändern.
+Der Eigenschaftenbereich reagiert auch auf Auswahländerungen im [Explorer](../the-explorer-window/the-explorer-window.md). Sie können auch einen Graf auswählen (anstatt auf einen leeren Bereich zu doppelklicken) und die Eigenschaften &quot;Package&quot; und &quot;[Resource](../../resources/resources.md)&quot; ändern.
 
 Pakete haben **Informationen**, **Attribute** und **Metadaten** Abschnitte. [Die Paketmetadaten werden auf einer dedizierten Seite beschrieben.](../../package-metadata/package-metadata.md)
 

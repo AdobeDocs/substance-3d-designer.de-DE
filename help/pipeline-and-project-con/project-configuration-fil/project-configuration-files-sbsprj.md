@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie SBSPRJ-Projektkonfigurationsdateien in Substance 3D Designer verwenden, um Projekteinstellungen zu verwalten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Projektkonfigurationsdateien - SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Sie sind insofern besonders, als Sie mehrere Projektkonfigurationsdateien verwen
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![SBSPRJ-Dateisymbol](../../assets/sbsprj.png "SBSPRJ-Dateisymbol")
+![SBSPRJ-Dateisymbol](project-configuration-files-sbsprj.resources/sbsprj.png "SBSPRJ-Dateisymbol")
 
 </td>
 </tr>
@@ -59,7 +59,7 @@ Projektdateien können die folgenden Einstellungen enthalten:
 
 <b>Aliase: </b>Stichwortaliasse für relative Pfade.
 
-<b>Backen: </b>Einstellungen für Backennamenskonventionen.
+<b>Baking: </b>Einstellungen für das Baking von Namenskonventionen.
 
 <b>Allgemein: </b>Graph-Vorlagen, Tangent-Space-Plug-ins, Standard- und Bildformateinstellungen.
 
@@ -67,7 +67,7 @@ Projektdateien können die folgenden Einstellungen enthalten:
 
 <b>Skripterstellung: </b>Rückrufskripts und Interpreter.
 
-<b>Versionskontrolle: </b>Einstellungen für die Integration der Versionskontrolle in Designer.
+<b>Versionskontrolle: </b>Einstellungen für die Integration von Versionskontrolle in Designer.
 
 ## Ändern von Projektdateien
 
@@ -85,7 +85,7 @@ Unter Windows ist [Notepad++](https://notepad-plus-plus.org) eine gute kostenlos
 
 Sobald Sie die SBSPRJ-Datei in einem Editor geöffnet haben, sollten Sie ein relativ einfaches strukturiertes Layout sehen, mit Abschnitten, die den Registerkarten in der Benutzeroberfläche entsprechen. Nicht jede Einstellung wird hier dokumentiert, da es ziemlich selbsterklärend ist.
 
-![XML-Bearbeitung](../../assets/project-xml.png "XML-Bearbeitung")
+![XML-Bearbeitung](project-configuration-files-sbsprj.resources/project-xml.png "XML-Bearbeitung")
 
 ## Relative Pfade und Aliasse
 

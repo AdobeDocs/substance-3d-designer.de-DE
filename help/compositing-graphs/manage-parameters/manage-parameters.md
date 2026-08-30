@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Parameter in Substance-Kompositionsdiagrammen verwalten und organisieren können, um den Arbeitsablauf besser zu organisieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Parameter verwalten
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
@@ -24,9 +24,9 @@ Wenn Sie Parameter nicht nur direkt anpassen, sondern auch steuern müssen, biet
 
 * [Kopieren Sie die Werte aller Parameter eines Knotens und fügen Sie sie ein.](#copy-paste-parameters)
 * Speichern Sie die Werte oder alle Parameter eines Knotens in einer [Vorgabedatei](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md), um sie später wiederzuverwenden.
-* [Stellen Sie die Parameter &#x200B;](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) von Knoten bereit, damit sie zugänglich sind, und verknüpfen Sie sie miteinander.
-* [Parameter &#x200B;](../../compositing-graphs/visible-control-vis/visible-if-control-visibility-of-inputs-outputs-and-parameters.md) gemäß den Werten anderer Parameter ein- oder ausblenden
-* Verwenden Sie ein [Substance-Funktionsdiagramm &#x200B;](../../function-graphs/function-graphs.md), um den Wert eines Parameters zu berechnen.
+* [Stellen Sie die Parameter ](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) von Knoten bereit, damit sie zugänglich sind, und verknüpfen Sie sie miteinander.
+* [Parameter ](../../compositing-graphs/visible-control-vis/visible-if-control-visibility-of-inputs-outputs-and-parameters.md) gemäß den Werten anderer Parameter ein- oder ausblenden
+* Verwenden Sie ein [Substance-Funktionsdiagramm ](../../function-graphs/function-graphs.md), um den Wert eines Parameters zu berechnen.
 
 ## Parameteraktionen
 
@@ -46,7 +46,7 @@ Wenn die Eigenschaften eines Knotens im Eigenschaften-Dock angezeigt werden, kö
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Globales Menü &quot;Parameter verwalten&quot; in den Eigenschaften](../../assets/manage-parameters-menu-global.png "Globales Menü &quot;Parameter verwalten&quot; in den Eigenschaften"){zoomable="yes"}
+![Globales Menü &quot;Parameter verwalten&quot; in den Eigenschaften](manage-parameters.resources/manage-parameters-menu-global.png "Globales Menü &quot;Parameter verwalten&quot; in den Eigenschaften"){zoomable="yes"}
 
 </td>
 </tr>
@@ -54,7 +54,7 @@ Wenn die Eigenschaften eines Knotens im Eigenschaften-Dock angezeigt werden, kö
 
 Die Aktionen in diesem Menü wirken sich auf *alle* der in diesem Abschnitt aufgeführten Parameter aus:
 
-* <b>Verfügbarkeitsparameter:</b> Öffnet das Dialogfeld &quot;Stapelverfügbarkeitsparameter&quot;. Für jeden angezeigten Parameter erstellt die Aktion eine neue Diagrammeingabe und legt automatisch eine Funktion fest, die diese Diagrammeingabe verwendet. Weitere Informationen zum Verfügbarmachen von Parametern in [dieser dedizierten Seite &#x200B;](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
+* <b>Verfügbarkeitsparameter:</b> Öffnet das Dialogfeld &quot;Stapelverfügbarkeitsparameter&quot;. Für jeden angezeigten Parameter erstellt die Aktion eine neue Diagrammeingabe und legt automatisch eine Funktion fest, die diese Diagrammeingabe verwendet. Weitere Informationen zum Verfügbarmachen von Parametern in [dieser dedizierten Seite ](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 * <b>Parameter kopieren:</b> Siehe [Parameter kopieren und einfügen](#copy-paste-parameters) Abschnitt unten.
 * <b>Parameter einfügen:</b> Siehe [Parameter kopieren und einfügen](../../compositing-graphs/manage-parameters/manage-parameters.md) Abschnitt unten.
 * <b>Parameter als Vorgabedatei speichern:</b> Weitere Informationen zu Parametervorgaben in [dieser dedizierten Seite](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md).
@@ -76,15 +76,15 @@ Wenn Sie einen *single*-Parameter verwalten möchten, verwenden Sie das Menü &q
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Lokales Menü &quot;Parameter verwalten&quot; in den Eigenschaften](../../assets/manage-parameters-menu.png "Lokales Menü &quot;Parameter verwalten&quot; in den Eigenschaften"){zoomable="yes"}
+![Lokales Menü &quot;Parameter verwalten&quot; in den Eigenschaften](manage-parameters.resources/manage-parameters-menu.png "Lokales Menü &quot;Parameter verwalten&quot; in den Eigenschaften"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-Sie können einen [Substance-Funktionsdiagramm &#x200B;](../../function-graphs/the-function-graph/the-function-graph.md) auf diesen Parameter auf drei Arten anwenden:
+Sie können einen [Substance-Funktionsdiagramm ](../../function-graphs/the-function-graph/the-function-graph.md) auf diesen Parameter auf drei Arten anwenden:
 
-* <b>Als neue Diagrammeingabe verfügbar machen:</b> Erstellt eine neue Diagrammeingabe und legt automatisch eine Funktion fest, die diese Diagrammeingabe verwendet. Weitere Informationen zum Verfügbarmachen von Parametern in [dieser dedizierten Seite &#x200B;](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
+* <b>Als neue Diagrammeingabe verfügbar machen:</b> Erstellt eine neue Diagrammeingabe und legt automatisch eine Funktion fest, die diese Diagrammeingabe verwendet. Weitere Informationen zum Verfügbarmachen von Parametern in [dieser dedizierten Seite ](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 * <b>Leere Funktion:</b> Erstellen Sie eine neue Funktion.
 * <b>Konstantenwert:</b> Bearbeiten Sie eine Funktion, die von einem [Knoten mit konstanten Werten](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) ausgeht, der auf den aktuellen Wert des Parameters festgelegt ist.
 * <b>Zurücksetzen:</b> Setzt den Parameter auf den Standardwert und den Bereich zurück. Wenn eine Funktion auf den Parameter angewendet wurde, wird sie verworfen.
@@ -108,7 +108,7 @@ Für dieses Menü gelten die unten aufgeführten Einschränkungen für atomare K
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-Menü &quot;Parameter verwalten&quot; von ![&#x200B; im Knotenkontextmenü &#x200B;](../../assets/manage-parameters-node-menu.png " im Knotenkontextmenü "){zoomable="yes"} im Menü &quot;Parameter verwalten&quot;
+Menü &quot;Parameter verwalten&quot; von ![ im Knotenkontextmenü ](manage-parameters.resources/manage-parameters-node-menu.png " im Knotenkontextmenü "){zoomable="yes"} im Menü &quot;Parameter verwalten&quot;
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ Diese Funktion funktioniert genauso wie die Verwendung einer [Parametervoreinste
 </td>
 <td style="border: 0;" valign="top">
 
-![Parameter kopieren und einfügen](../../assets/copy-paste-parameters.gif "Parameter kopieren und einfügen"){zoomable="yes"}
+![Parameter kopieren und einfügen](manage-parameters.resources/copy-paste-parameters.gif "Parameter kopieren und einfügen"){zoomable="yes"}
 
 </td>
 </tr>

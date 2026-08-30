@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-explorer-window/send-to-interoperability.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-explorer-window/send-to-interoperability.html"
 breadcrumb-title: ''
 description: Mit der Funktion "An Interoperabilität senden" in Substance 3D Designer können Sie Materialien in andere Anwendungen exportieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Senden an...  Interoperabilität
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 1%
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 # Senden an...  Interoperabilität
 
-![Von Designer an Substance 3D-Apps senden](../../../assets/explorer-interop.png "Von Designer an Substance 3D-Apps senden"){width="512px"}
+![Von Designer an Substance 3D-Apps senden](send-to-interoperability.resources/explorer-interop.png "Von Designer an Substance 3D-Apps senden"){width="512px"}
 
-Adobe Substance 3D Designer ist mit [Substance 3D Sampler](https://www.adobe.com/de/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/de/products/substance3d-painter.html) und [Substance 3D Stager](https://www.adobe.com/de/products/substance3d-stager.html) kompatibel. Dadurch können Sie *senden* und *senden* schnell bearbeiten und so die Iteration im gesamten Substance 3D-Ökosystem erleichtern.
+Adobe Substance 3D Designer ist mit [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) und [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html) kompatibel. Dadurch können Sie *senden* und *senden* schnell bearbeiten und so die Iteration im gesamten Substance 3D-Ökosystem erleichtern.
 
 Der Arbeitsablauf ist in der Regel wie folgt:
 
@@ -49,18 +49,18 @@ Im Abschnitt <b>Attribute </b> der Eigenschaften eines [Substance-Diagramms](../
 </td>
 <td style="border: 0;" valign="top">
 
-Typattribut des ![Substance-Diagramms](../../../assets/type-attribute.jpg "Typattribut des Substance-Diagramms")
+Typattribut des ![Substance-Diagramms](send-to-interoperability.resources/type-attribute.jpg "Typattribut des Substance-Diagramms")
 
 </td>
 </tr>
 </table>
 
-* **Nicht angegeben** ist der Standardtyp, wenn Sie ihn nicht festgelegt haben. Je nachdem, an welche Anwendung Sie senden, kann dies unterschiedlich interpretiert werden. [Substance 3D Painter](https://www.adobe.com/de/products/substance3d-painter.html) verwendet standardmäßig zum Beispiel Material.
+* **Nicht angegeben** ist der Standardtyp, wenn Sie ihn nicht festgelegt haben. Je nachdem, an welche Anwendung Sie senden, kann dies unterschiedlich interpretiert werden. [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) verwendet standardmäßig zum Beispiel Material.
 * **Standardmaterial** ist für Mehrkanal-PBR-Materialien mit ordnungsgemäß beschrifteten [Ausgaben](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md);
-* **Aufklebermaterial** ist für ein Mehrkanal-PBR-Material mit Alphakanal, das als Aufkleber in [Substance 3D Painter](https://www.adobe.com/de/products/substance3d-painter.html) oder [Substance 3D Sampler](https://www.adobe.com/de/products/substance3d-sampler.html) angewendet wird.
-* **Atlasmaterial** ist für ein Mehrkanal-PBR-Material, das aus mehreren Atlasbildern besteht, zur Verwendung mit dem [Atlas Scatter-Knoten](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/atlas-scatter/atlas-scatter.md) in Designer oder [Substance 3D Sampler](https://www.adobe.com/de/products/substance3d-sampler.html);
-* **Filter** ist für universelle Filter vorgesehen, die beide in [Substance 3D Painter](https://www.adobe.com/de/products/substance3d-painter.html) oder [Substance 3D Sampler](https://www.adobe.com/de/products/substance3d-sampler.html) verwendet werden.
-* **Mesh-basierter Generator** ist für Multieingabemaskengeneratoren vorgesehen. Dieser wird nur von [Substance 3D Painter](https://www.adobe.com/de/products/substance3d-painter.html) verwendet;
+* **Aufklebermaterial** ist für ein Mehrkanal-PBR-Material mit Alphakanal, das als Aufkleber in [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) oder [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html) angewendet wird.
+* **Atlasmaterial** ist für ein Mehrkanal-PBR-Material, das aus mehreren Atlasbildern besteht, zur Verwendung mit dem [Atlas Scatter-Knoten](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/atlas-scatter/atlas-scatter.md) in Designer oder [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html);
+* **Filter** ist für universelle Filter vorgesehen, die beide in [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) oder [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html) verwendet werden.
+* **Mesh-basierter Generator** ist für Multieingabemaskengeneratoren vorgesehen. Dieser wird nur von [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) verwendet;
 * **Texture Generator** ist für Einkanal-Maps, wie 2D-Prozeduren und Geräusche, vorgesehen.
 * **Umgebungslicht** ist für eine Einkanal-Beleuchtungsumgebung, die zum Beleuchten von Szenen und Objekten verwendet wird.
 * **Lichtstruktur** ist für eine Einkanalstruktur, die auf ein physisches Licht angewendet wird.
@@ -76,12 +76,12 @@ Der Sendevorgang umfasste das [Veröffentlichen](../../../compositing-graphs/pub
 Das Senden von Inhalten kann auf folgende Weise erfolgen:
 
 * Klicken Sie mit der rechten Maustaste auf ein Paket, und öffnen Sie die Datei <b>Senden an...Untermenü &quot;</b>&quot; im Kontextmenü und anschließend die Option &quot;<b>Senden an&quot; auswählen...</b>-Option für die Zielanwendung
-* Klicken Sie oben im Explorer-Fenster auf die Schaltfläche ![](../../../assets/sendto-icon.jpg) <b>Publish/Send</b>, und wählen Sie dann <b>Senden an...</b>-Option für die Zielanwendung.
+* Klicken Sie oben im Explorer-Fenster auf die Schaltfläche ![](send-to-interoperability.resources/sendto-icon.jpg) <b>Publish/Send</b>, und wählen Sie dann <b>Senden an...</b>-Option für die Zielanwendung.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Menü &quot;Publish/Senden an&quot; in Explorer](../../../assets/explorer-sendto-displayed.jpg "Menü &quot;Publish/Senden an&quot; in Explorer")
+![Menü &quot;Publish/Senden an&quot; in Explorer](send-to-interoperability.resources/explorer-sendto-displayed.jpg "Menü &quot;Publish/Senden an&quot; in Explorer")
 
 </td>
 </tr>

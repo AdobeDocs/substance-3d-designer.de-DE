@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Text , um Texttexturen mit anpassbaren Schriftarten und Stilen zum Erstellen textbasierter Muster zu generieren.
+description: Verwenden Sie den Knoten "Text", um Texturen mit anpassbaren Schriftarten und Stilen zum Erstellen textbasierter Muster zu generieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Text
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Text
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 1%
@@ -24,12 +24,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Text](../../../../assets/comp_text_1.png "Atomischer Knoten: Text"){width="200px"}
+![Atomknoten: Text](text.resources/comp_text_1.png "Elementare Knoten: Text"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-Der Knoten &quot;Text&quot; bietet eine Möglichkeit, vom Benutzer erstellten Text in Ihren Graphen zu platzieren. Benutzer können auch Einstellungen wie Schriftart, Ausrichtung und Drehung auswählen, um die Textplatzierung anzupassen.
+Der Knoten &quot;Text&quot; bietet eine Möglichkeit, vom Benutzer erstellten Text in Ihren Graf zu platzieren. Benutzer können auch Einstellungen wie Schriftart, Ausrichtung und Drehung auswählen, um die Textplatzierung anzupassen.
 
 Der Knoten Text ist sehr leistungsstark und die einzige Möglichkeit, Text einfach zu platzieren. Die Platzierung ist oft etwas kompliziert, weil die Platzierung immer auf einer begrenzten, quadratischen Arbeitsfläche erfolgt und Schriftarten von einer systemdefinierten externen Liste gesteuert werden.
 
@@ -37,9 +37,9 @@ Der Knoten Text ist sehr leistungsstark und die einzige Möglichkeit, Text einfa
 </tr>
 </table>
 
-Nur TrueType (.ttf) und bestimmte OpenType-Schriftarten werden unterstützt. Wenn Schriften in der Liste fehlen, ist dies wahrscheinlich der Grund. <b>Schriftarten können nicht als Parameter verfügbar gemacht werden.</b>
+Nur TrueType (.ttf) und bestimmte OpenType-Schriftarten werden unterstützt. Wenn Schriften in der Liste fehlen, ist dies wahrscheinlich der Grund. <b>Schriftarten können nicht als Parameter gelegt werden.</b>
 
-Wenn ein Diagramm mit Text in bsar veröffentlicht wird, wird die Schriftart wie bei Bitmaps und anderen Ressourcen in das Paket eingebettet, um sicherzustellen, dass sie auf allen Systemen und in allen Anwendungen funktioniert.
+Wenn ein Graf, der Text verwendet, in sbsar veröffentlicht wird, wird die Schriftart in das Paket eingebettet, genau wie bei Bitmaps und anderen Ressourcen, um sicherzustellen, dass sie auf allen Systemen und in allen Anwendungen funktioniert.
 
 <table>
 <tr style="border: 0;">

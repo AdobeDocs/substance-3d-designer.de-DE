@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/version-15-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-1.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Designer 15.1, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 15.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 0%
@@ -20,47 +20,47 @@ ht-degree: 0%
 
 # Version 15.1
 
-Substance Designer 15.1 bietet ein völlig überarbeitetes Knotenerstellungsfenster mit direktem Beispielzugriff, verbesserten Rauschen-Graf-Nodes für mehr kreative Möglichkeiten, organisierten Kategorien im Knotenmenü und vielem mehr.
+Substance Designer 15.1 bietet ein komplett überarbeitetes Diagrammerstellungsfenster mit direktem Sample-Zugriff, verbesserten Noise Nodes für mehr kreative Möglichkeiten, organisierten Kategorien im Node-Menü und vielem mehr.
 
 *Freigabedatum: 11. Dezember 2025*
 
-![Banner Designer 15.1](../../assets/bannerweb.png)
+![Banner Designer 15.1](version-15-1.resources/bannerweb.png)
 
-## Verbessern der Graf-Erstellung
+## Diagrammerstellung verbessern
 
-In dieser Version wurde das [Graf-Erstellungsfenster](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) <b>umfassend neu gestaltet</b>, um die erste Benutzererfahrung in Substance 3D Designer zu verbessern. Das Hauptziel dieser Aktualisierung besteht darin, den Vorlagenauswahlprozess zu optimieren, sodass Benutzer effizient die für ihre Anforderungen am besten geeignete Vorlage identifizieren können.
+In dieser Version wurde das [Diagrammerstellungsfenster](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) <b>umfassend neu gestaltet</b>, um die erste Benutzererfahrung in Substance 3D Designer zu verbessern. Das Hauptziel dieser Aktualisierung besteht darin, den Vorlagenauswahlprozess zu optimieren, sodass Benutzer effizient die für ihre Anforderungen am besten geeignete Vorlage identifizieren können.
 
-Miniaturansichten bieten sofortige <b>visuelle Verweise</b> für die beabsichtigten Material-Typen, während detaillierte QuickInfos alle relevanten Informationen enthalten. Für eine verbesserte Organisation werden Vorlagen jetzt in bestimmte <b>Kategorien</b> wie Materialien, Filter und Scanverarbeitung unterteilt.
+Miniaturansichten bieten sofortige <b>visuelle Verweise</b> für die beabsichtigten Materialtypen, während detaillierte QuickInfos alle relevanten Informationen bereitstellen. Für eine verbesserte Organisation werden Vorlagen jetzt in bestimmte <b>Kategorien</b> wie Materialien, Filter und Scanverarbeitung unterteilt.
 
 Obwohl die Hauptbenutzeroberfläche aktualisiert wurde, haben Benutzer weiterhin Zugriff auf frühere Ansichten, einschließlich Listen-, Pakete- und Verzeichnisoptionen.
 
 [Weitere Informationen](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
 
-![Neugestaltung des Fensters &quot;Neuer Graf&quot;](../../assets/newgraph.png){zoomable="yes"}
+![Neugestaltung des neuen Diagrammfensters](version-15-1.resources/newgraph.png){zoomable="yes"}
 
 ## Eingebettete Beispiele
 
-Mit dem Start unseres neu gestalteten Fensters zur Erstellung von Grafen haben wir eine Reihe von [<b>Beispiel-Materialien</b>](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md) direkt in der Software hinzugefügt. Diese Verbesserung entspricht Ihrer Anforderung eines besseren Zugangs zu Lernressourcen.
+Mit dem Start unseres neu gestalteten Fensters zur Diagrammerstellung haben wir eine Vielzahl von [<b>Beispielmaterialien</b>](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md) direkt in der Software hinzugefügt. Diese Verbesserung entspricht Ihrer Anforderung eines besseren Zugangs zu Lernressourcen.
 
-![Neues Graf-Erstellungsfenster für Beispiele](../../assets/GraphSample.png){zoomable="yes"}
+![Neues Diagrammerstellungsfenster für Beispiele](version-15-1.resources/GraphSample.png){zoomable="yes"}
 
-Um diesem Bedarf gerecht zu werden, haben wir Material-Muster wie Stoffe (einschließlich Leder und Satin), Holz, Metall, Kunststoff, Keramik und mehr aufgenommen. Anhand dieser Beispiele können Sie Ihre Projekte leicht beginnen und sich mit den wichtigsten Familienknoten vertraut machen, die in Substance 3D Designer verfügbar sind
+Um diesem Bedarf gerecht zu werden, haben wir Materialproben wie Stoffe (einschließlich Leder und Satin), Holz, Metall, Kunststoff, Keramik und mehr aufgenommen. Anhand dieser Beispiele können Sie Ihre Projekte leicht beginnen und sich mit den wichtigsten Familienknoten vertraut machen, die in Substance 3D Designer verfügbar sind
 
-Jeder Graf ist <b>mit Anmerkungen versehen</b>, sorgfältig organisiert und enthält eine Mindestanzahl von Knoten, damit er so leicht wie möglich zu verstehen ist.
+Jedes Diagramm ist <b>mit Anmerkungen versehen</b>, sorgfältig organisiert und enthält eine minimale Anzahl von Knoten, damit es so leicht wie möglich zu verstehen ist.
 
-Sie können auf die Samples in der Kategorie &quot;Material-Samples&quot; zugreifen, wenn Sie einen neuen Substance-Graf erstellen, oder direkt vom Startbildschirm aus über die praktische Schaltfläche &quot;Zu den Samples wechseln&quot;.
+Sie können auf die Samples in der Kategorie &quot;Materialproben&quot; zugreifen, wenn Sie ein neues Substance-Diagramm erstellen, oder direkt vom Startbildschirm aus über die praktische Schaltfläche &quot;Zu Samples wechseln&quot;.
 
 Neben diesen grundlegenden Materialien haben wir auch <b>erweiterte Beispiele</b> bereitgestellt, um zu demonstrieren, wie <b>FX-map- und Pixelprozessor</b>-Funktionen effektiver verwendet werden können.
 
 [Weitere Informationen](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)
 
-![Holzprobe im Substance Designer](../../assets/samplegraph.png){zoomable="yes"}
+![Holzprobe im Substance Designer](version-15-1.resources/samplegraph.png){zoomable="yes"}
 
 ## Neue Rauschen
 
-Rauschen spielen in den meisten Grafen eine wichtige Rolle. Aus diesem Grund haben wir uns auf einige wichtige Verbesserungen in dieser Version konzentriert, um ihre Funktionalität und Benutzerfreundlichkeit zu verbessern.
+Lärm spielt in den meisten Grafiken eine entscheidende Rolle. Aus diesem Grund haben wir uns auf einige wichtige Verbesserungen in dieser Version konzentriert, um ihre Funktionalität und Benutzerfreundlichkeit zu verbessern.
 
-Mit diesem Update haben wir <b>eine bessere Unterstützung für Szenarien ohne Kachelung</b> eingeführt, um sicherzustellen, dass sich Rauschen-Muster ohne obligatorische Kachelung wie erwartet verhalten. Früher waren Noise Nodes entweder gezwungen, sich zu kacheln, oder führten zu falschen Ergebnissen, wenn die Kachelung deaktiviert wurde.
+Mit diesem Update haben wir <b>eine bessere Unterstützung für Nicht-Kachelungsszenarien</b> eingeführt, um sicherzustellen, dass sich Geräuschmuster wie erwartet verhalten, ohne dass eine Kachelung erforderlich ist. Früher waren Noise Nodes entweder gezwungen, sich zu kacheln, oder führten zu falschen Ergebnissen, wenn die Kachelung deaktiviert wurde.
 
 Die meisten Geräusche enthalten jetzt <b>neue Parameter</b>, sodass Benutzer mehr kreative Kontrolle haben. Mit diesen zusätzlichen Optionen können Grafikautoren das Aussehen und Verhalten von Störgeräuschen in ihren Workflows optimieren.
 
@@ -70,7 +70,7 @@ Die vollständige Liste der aktualisierten Geräusche finden Sie unten in den [V
 
 Beispiele:   [Zellen 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [Wolken 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [Richtungskratzer](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [Feuchtigkeitsrauschen 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
-![Geräusche von Richtungsstörungen](../../assets/directionaldisorder.gif){zoomable="yes"}
+![Geräusche von Richtungsstörungen](version-15-1.resources/directionaldisorder.gif){zoomable="yes"}
 
 ## Hierarchie im Knotenmenü
 
@@ -82,12 +82,12 @@ Die große Anzahl verfügbarer Knoten kann die schnelle Suche nach dem gewünsch
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotensuche mit Kategorie 1](../../assets/search1-2.png){zoomable="yes"}
+![Knotensuche mit Kategorie 1](version-15-1.resources/search1-2.png){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotensuche mit Kategorie 2](../../assets/search2.png){zoomable="yes"}
+![Knotensuche mit Kategorie 2](version-15-1.resources/search2.png){zoomable="yes"}
 
 </td>
 </tr>
@@ -108,11 +108,11 @@ Spielen Sie mit dem Bild unten, um den Unterschied vor und nach der Standardausg
 <table>
   <tr>
     <td>
-      <img src="../../assets/defaultouput2.png" alt="defaultouput2">
+      <img src="version-15-1.resources/defaultouput2.png" alt="defaultouput2">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../assets/defaultouput1.png" alt="Bei der Standardausgabe sind Miniaturansichten immer relevant.">
+      <img src="version-15-1.resources/defaultouput1.png" alt="Bei der Standardausgabe sind Miniaturansichten immer relevant.">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -126,7 +126,7 @@ Wenn Sie z. B. das Fehlen einer Variablen erkennen, können Sie einen Fallback-W
 
 [Weitere Informationen](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)
 
-![Ist Knoten &#x200B;](../../assets/isdefined.png){zoomable="yes"} definiert
+![Ist Knoten ](version-15-1.resources/isdefined.png){zoomable="yes"} definiert
 
 ## Versionshinweise
 
@@ -199,8 +199,8 @@ Wenn Sie z. B. das Fehlen einer Variablen erkennen, können Sie einen Fallback-W
 * [3D-Ansicht] Specular level wird nicht korrekt angewendet
 * [3D-Ansicht] Specular edge color funktioniert nicht, wenn Eclair rasterer verwendet wird
 * [3D-Ansicht] Vom Benutzer hinzugefügtes Material wird nicht auf Standardszenen angewendet
-* [3D-Ansicht]&#x200B;[Bäcker] Die Materialfarbe ist zu dunkel, wenn sie einmal überschrieben wurde oder wenn ein &quot;Color&quot;-Bäcker verwendet wird
-* [3D-Ansicht]&#x200B;[Bäcker] Keine Materialfarbe aus FBX-Datei
+* [3D-Ansicht][Bäcker] Die Materialfarbe ist zu dunkel, wenn sie einmal überschrieben wurde oder wenn ein &quot;Color&quot;-Bäcker verwendet wird
+* [3D-Ansicht][Bäcker] Keine Materialfarbe aus FBX-Datei
 * [Bäcker] Materialfarben in FBX-Dateien werden nicht korrekt erkannt
 * [Baker] Die Option &quot;recompute\_tangents&quot; ist in Exporten von JSON-Vorgaben immer &quot;false&quot;.
 * [Bäcker] CLI: Absturz beim aufeinander folgenden Ausführen desselben Bakers über die JSON-Datei

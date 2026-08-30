@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-generator.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-generator.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Tile Generator", um prozedurale Kachelmuster mit anpassbaren Steuerelementen für Größe, Offset und Variation zu erstellen.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Kachelgenerator
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 0%
+source-wordcount: '922'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/tile-generator.png){width="128px"}
+![](tile-generator.resources/tile-generator.png){width="128px"}
 
-## Tile Generator (Farbe)
-
-**In:** *Texturgeneratoren**/Muster*
-
-**Komplex**
+<b>In:</b> Texturgeneratoren > Muster
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -51,84 +47,87 @@ Einige allgemeine Tipps zur Verwendung:
 * Globale **Skalierung** und nicht einheitliche **Größe** als Nächstes anpassen.
 * Passen Sie schließlich jeden **-Parameter &quot;Variation&quot;** an, bis er Ihren Anforderungen entspricht. Subtilität ist der Schlüssel zur Variation!
 
-## Parameter
-
-### Eingaben
-
-* **Mustereingabe 1-6**: *Graustufen-Eingabe*\
-  Benutzerdefiniertes Musterbild, das verwendet wird, wenn der Parameter &quot;Muster&quot; auf &quot;Bildeingabe&quot; eingestellt ist.
-* **Hintergrund**:*Graustufeneingabe* Der zu verwendende Hintergrund anstelle der Volltonfarbe.
-
-### Parameter
-
-* **X Betrag**: *1 - 64*\
-  Anzahl der X-Wiederholungen des Musters.
-* **Y Betrag**: *1 - 64*\
-  Anzahl der Y-Wiederholungen des Musters.
-* **Quadratische Ausbreitung**: *False/True*\
-  Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen.
-* **Muster**
-  * **Muster**: *Bildeingabe, Quadrat, Disc, Paraboloid, Glocke, Gaußsch, Dorn, Pyramide, Ziegel, Gradation, Wellen, Halbglockenton, Ganghütte, Halbmond, Kapsel, Kegel*\
-    Wählt die zu verwendende Musterform aus.
-  * **Mustereingabenummer**: *1 - 6* Anzahl der zu verwendenden verschiedenen Bildeingaben. Nur verfügbar, wenn oben &quot;*Image Input*&quot; ausgewählt wurde.
-  * **Mustereingabeverteilung**: *Zufällig, nach Musternummer* So wählen Sie zwischen den verschiedenen Bildeingaben aus, wenn mehr als 1 ausgewählt ist.
-  * **Musterspezifisch**: *0.0 - 1.0*\
-    Hier können Sie die Form des ausgewählten Musters ändern. Der Effekt hängt vom ausgewählten Muster ab.
-  * **Bildeingabefilter (nur Engine >v4)**: *Bilinear + Mipmaps, Bilinear, Nächste*
-  * **Drehung**: *0, 90, 180, 270* Dreht alle Kacheln global um einen bestimmten Winkel in Schritten von 90 Grad.
-  * **Drehung zufällig**: *0.0 - 1.0* Zufällig dreht eine Kachel um einen von vier 90-Grad-Schritten.
-  * **Quincunx Flip**: *Falsch/Wahr* Dreht jede zweite Kachel um 90 Grad.
-  * **Symmetrie zufällig**: *0.0 - 1.0* Spiegelt zufällig bestimmte Muster nach dem ausgewählten Zufallsmodus der Symmetrie. Je höher dieser Wert, desto mehr Muster werden gespiegelt.
-  * **Zufallssymmetriemodus**: *Horizontal + Vertikal, Horizontal, Vertikal* Bestimmt das Spiegelungsverhalten, wenn die zufällige Symmetrie größer als 0 ist.
-* **Größe**
-  * **&#x200B;**&#x200B;Größenmodus **:***Normal - Interstice, Normal - Size, Keep Ratio, Absolute, Pixel*Legt das allgemeine Verhalten der Mustergröße fest.\
-    Normal : Mit der Option &quot;Abstand&quot; können Sie den Abstand zwischen den Musterelementen definieren. Er wird durch den X- und Y-Wert beeinflusst.\
-    Normal : Mit dieser Option können Sie die Größe der Musterelemente definieren, unabhängig vom Abstand. Er wird durch den X- und Y-Wert beeinflusst.\
-    Mit &quot;Verhältnis beibehalten&quot; können Sie eine Größe festlegen, die von einem x- und einem y-Wert beeinflusst wird, aber das x- und y-Verhältnis zwischen den beiden bleiben intakt.\
-    Mit &quot;Absolut&quot; können Sie eine absolute Größe festlegen, die nicht durch den X- und Y-Wert beeinflusst wird.\
-    Mit Pixel können Sie eine absolute Größe in Pixeln festlegen, die von der X- und Y-Größe nicht beeinflusst wird. Eine Änderung der Auflösung wirkt sich auf die Größe der Elemente aus.
-  * **Mittlere Größe**: *0.0 - 1.0*&#x200B;Ändert die Größe auf abwechselnder Spalten- und Zeilenbasis.
-  * **Interstice X/Y**: *0.0 - 1.0* Nur im Modus &quot;Normal - Schnittstellengröße&quot; verfügbar. Ändert die Lücke in der Lücke. Wirkt sich auf die Naht zwischen Formen aus und ermöglicht eine ungleichmäßige Steuerung im Gegensatz zu **Skalierung**.
-  * **Größe (Absolut/Pixel)**: *0.0 - 1.0*\
-    Nur außerhalb von &quot;Normal&quot; verfügbar - Schnittstellengrößenmodus. Legt im Gegensatz zu **Skalierung** eine nicht einheitliche Größe fest.
-  * **Skalierung**: *0.0 - 2.0* Legt die globale Skalierung fest.
-  * **Zufällige Skalierung**: *0.0 - 1.0* Legt die globale Skalierungsvariation pro Kachel fest.
-  * **Zufallsverteilung skalieren**: *0 - 1000* Verschiebt den Samen der Skalierungsvariante.
-* **Position**
-  * **Offset**: *0.0 - 1.0* Verschiebt das gesamte Muster schrittweise über jede aufeinander folgende Zeile oder Spalte hinweg (das Verhalten hängt vom Parameter &quot;Vertikaler Versatz&quot; ab).
-  * **Offset zufällig**: *0.0 - 1.0* Randomisiert den Zeilenversatz.
-  * **Offset Zufallsverteilung**: *0 - 1000*&#x200B;Ändert die relative Geschwindigkeit für den zufälligen Versatzeffekt.
-  * **Vertikaler Versatz**: *Falsch/Wahr* Legt fest, ob der Versatzeffekt auf Zeilen oder Zeilen angewendet wird; Horizontal oder Vertikal.
-  * **Position zufällig**: *0.0 - 1.0* Die Position wird auf eine ungleichmäßige Weise mit separater Steuerung für X und Y randomisiert.
-  * **Globaler Offset**: *0.0 - 1.0* Verschiebt das gesamte Ergebnis über X- und Y-Achsen.
-* **Drehung**
-  * **Drehung**: *0.0 - 1.0* Führt eine gleichmäßige freie Drehung aller Musterelemente durch.
-  * **Drehung zufällig**: *0.0 - 1.0* Randomisiert die freie Drehung aller Kacheln. Je höher dieser Wert ist, desto mehr Kacheln können gedreht werden.
-* **Farbe**
-  * **Farbe**: *(Graustufenwert)*Legt die Farbfläche der Kachel fest.
-  * **Luminanz/Farbzufall**: *0.0 - 1.0* Führt Farb- oder Luminanzvariationen pro Kachel ein.
-  * **Luminanz nach Zahl**: *Falsch/Wahr* Verblasst die Luminanz über das gesamte Muster.
-  * **Luminanz nach Skalierung**: *Falsch/Wahr* Macht die Luminanzvariation von der Kachelskala abhängig.
-  * **Prüfmaske**: *Falsch/Wahr* Blendet jede andere Kachel aus.
-  * **Horizontale Maske**: *Falsch/Wahr* Blendet jede zweite Spalte aus.
-  * **Vertikale Maske**: *Falsch/Wahr* Blendet jede zweite Zeile aus.
-  * **Zufallsmaske**: *0.0 - 1.0* Blendet Kacheln zufällig aus. Je höher dieser Wert ist, desto mehr Kacheln werden ausgeblendet.
-  * **Maske umkehren**: *Falsch/Wahr* Kehrt das Ergebnis aller Maskierungseffekte aus diesem Abschnitt um.
-  * **Füllmethode**: *Hinzufügen, Max, Sub hinzufügen* Legt den zu verwendenden Mischmodus fest.
-  * **Hintergrundfarbe**: *(Graustufenwert)*Legt die einfarbige Hintergrundfarbe fest.
-  * **Globale Deckkraft**: *0.0 - 1.0* Legt die Deckkraft globaler Kacheln fest.
-  * **Renderreihenfolge umkehren**: *Falsch/Wahr* Die Kacheln werden nach vorne gerendert oder umgekehrt.
-
-## Beispielbilder
-
-![](../../../../../../assets/tilesampler-ex.png)
-
-![](../../../../../../assets/image2020-9-17-14-50-18.png)
-
-![](../../../../../../assets/image2020-9-17-14-52-4.png)
-
-![](../../../../../../assets/image2020-9-17-14-53-47.png)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Mustereingabe 1-6</b> <i>Graustufen-Eingabe</i> | Benutzerdefiniertes Musterbild, das verwendet wird, wenn der Parameter &quot;Muster&quot; auf &quot;Bildeingabe&quot; eingestellt ist. |
+| <b>Hintergrund</b> <i>Graustufen-Eingabe</i> | Der zu verwendende Hintergrund anstelle der Volltonfarbe. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>X Betrag</b> <i>1 - 64</i> | Anzahl der X-Wiederholungen des Musters. |
+| <b>Y Betrag</b> <i>1 - 64</i> | Anzahl der Y-Wiederholungen des Musters. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+| <b>Muster</b> |  |
+| <b>Muster</b> <i>Bildeingabe, Quadrat, Datenträger, Paraboloid, Glockensymbol, Gaußsch, Dorn, Pyramide, Ziegel, Abstufung, Wellen, Halbglocke, Rändelglocke, Mondsichel, Kapsel, Kegel</i> | Wählt die zu verwendende Musterform aus. |
+| <b>Mustereingabenummer</b> <i>1 - 6</i> | Anzahl der zu verwendenden verschiedenen Bildeingaben. Nur verfügbar, wenn oben &quot;<i>Image Input</i>&quot; ausgewählt wurde. |
+| <b>Mustereingabeverteilung</b> <i>Zufällig, nach Musternummer</i> | Wählen Sie zwischen den verschiedenen Bildeingängen, wenn mehr als 1 ausgewählt ist. |
+| <b>Musterspezifisch</b> <i>0.0 - 1.0</i> | Hier können Sie die Form des ausgewählten Musters ändern. Der Effekt hängt vom ausgewählten Muster ab. |
+| <b>Filterungen zur Bildeingabe (nur Engine >v4)</b> <i>Bilinear + Mipmaps, Bilinear, Nächste</i> |  |
+| <b>Drehung</b> <i>0, 90, 180, 270</i> | Dreht alle Kacheln global um einen bestimmten Winkel in Schritten von 90 Grad. |
+| <b>Drehung zufällig</b> <i>0.0 - 1.0</i> | Dreht eine Kachel zufällig um einen von vier 90-Grad-Schritten. |
+| <b>Quincunx Flip</b> <i>False/True</i> | Dreht jede zweite Kachel um 90 Grad. |
+| <b>Symmetrie zufällig</b> <i>0.0 - 1.0</i> | Spiegelt zufällig bestimmte Muster durch die ausgewählte Symmetrie Zufallsmodus. Je höher dieser Wert, desto mehr Muster werden gespiegelt. |
+| <b>Zufallsmodus der Symmetrie</b> <i>Horizontal + Vertikal, Horizontal, Vertikal</i> | Bestimmt das Spiegelungsverhalten, wenn die zufällige Symmetrie größer als 0 ist. |
+| <b>Größe</b> |  |
+| <b>Größenmodus</b> <i>Normal - Abstand, Normal - Größe, Verhältnis beibehalten, Absolut, Pixel</i> | Legt das allgemeine Verhalten der Mustergröße fest.<br><br>Normal: In der Zwischenablage können Sie den Abstand zwischen den Musterelementen definieren. Er wird durch den X- und Y-Wert beeinflusst.<br><br>Normal: Mit &quot;Größe&quot; können Sie die Größe der Musterelemente definieren, unabhängig von der Lücke. Er wird durch den X- und Y-Wert beeinflusst.<br><br>Mit &quot;Verhältnis beibehalten&quot; können Sie eine Größe festlegen, die von der Größe X und Y beeinflusst wird. Das Verhältnis X und Y zwischen den beiden bleibt jedoch erhalten.<br><br>Mit &quot;Absolut&quot; können Sie eine absolute Größe festlegen, die nicht durch den X- und Y-Wert beeinflusst wird.Mit <br><br>Pixel können Sie eine absolute Größe in Pixeln festlegen, die von der X- und Y-Größe nicht beeinflusst wird. Eine Änderung der Auflösung wirkt sich auf die Größe der Elemente aus. |
+| <b>Mittlere Größe</b> <i>0.0 - 1.0</i> | Ändert die Größe abwechselnd auf Spalten- und Zeilenbasis. |
+| <b>Interstice X/Y</b> <i>0.0 - 1.0</i> | Nur verfügbar im Modus &quot;Normal&quot; - &quot;Schnittstellengröße&quot;. Ändert die Lücke in der Lücke. Wirkt sich auf die Naht zwischen Formen aus und ermöglicht eine ungleichmäßige Steuerung im Gegensatz zu <b>Skalierung</b>. |
+| <b>Größe (Absolut/Pixel)</b> <i>0.0 - 1.0</i> | Nur außerhalb von &quot;Normal&quot; verfügbar - Schnittstellengrößenmodus. Legt im Gegensatz zu <b>Skalierung</b> eine nicht einheitliche Größe fest. |
+| <b>Skalierung</b> <i>0.0 - 2.0</i> | Legt die globale Skalierung fest. |
+| <b>Zufällige Skalierung</b> <i>0.0 - 1.0</i> | Legt die globale Skalierungsvariation pro Kachel fest. |
+| <b>Zufallsverteilung skalieren</b> <i>0 - 1000</i> | Verschiebt die Skalierungsvariationsgeschwindigkeit. |
+| <b>Position</b> |  |
+| <b>Offset</b> <i>0.0 - 1.0</i> | Verschiebt das gesamte Muster schrittweise über alle aufeinander folgenden Zeilen oder Spalten hinweg (das Verhalten hängt von dem Parameter &quot;Vertikaler Versatz&quot; ab). |
+| <b>Offset zufällig</b> <i>0.0 - 1.0</i> | Zufallsverteilung der Zeilenverschiebung. |
+| <b>Zufallsverteilung versetzen</b> <i>0 - 1000</i> | Ändert die relative Geschwindigkeit für den zufälligen Versatzeffekt. |
+| <b>Vertikaler Versatz</b> <i>False/True</i> | Legt fest, ob der Versatzeffekt auf Zeilen oder Zeilen angewendet wird. Horizontal oder Vertikal. |
+| <b>Position zufällig</b> <i>0.0 - 1.0</i> | Uneinheitlich zufällige Positionierung mit separater Steuerung für X und Y. |
+| <b>Globaler Offset</b> <i>0.0 - 1.0</i> | Verschiebt das gesamte Ergebnis über X- und Y-Achsen. |
+| <b>Drehung</b> |  |
+| <b>Drehung</b> <i>0.0 - 1.0</i> | Ermöglicht eine gleichmäßige freie Drehung aller Musterelemente. |
+| <b>Drehung zufällig</b> <i>0.0 - 1.0</i> | Randomisiert die freie Drehung aller Kacheln. Je höher dieser Wert ist, desto mehr Kacheln können gedreht werden. |
+| <b>Farbe</b> |  |
+| <b>Farbe</b> <i>(Graustufenwert)</i> | Legt die Volltonfarbe für Kacheln fest. |
+| <b>Luminanz/Farbzufall</b> <i>0.0 - 1.0</i> | Führt die Variation von Farbe oder Luminanz pro Kachel ein. |
+| <b>Luminanz nach Nummer</b> <i>False/True</i> | Verblasst die Luminanz über das gesamte Muster. |
+| <b>Luminanz nach Skalierung</b> <i>False/True</i> | Macht die Variation der Luminanz von der Kachelgröße abhängig. |
+| <b>Prüfmaske</b> <i>False/True</i> | Blendet alle anderen Kacheln aus. |
+| <b>Horizontale Maske</b> <i>False/True</i> | Blendet jede zweite Spalte aus. |
+| <b>Vertikale Maske</b> <i>False/True</i> | Blendet jede zweite Zeile aus. |
+| <b>Zufallsmaske</b> <i>0.0 - 1.0</i> | Blendet Kacheln zufällig aus. Je höher dieser Wert ist, desto mehr Kacheln werden ausgeblendet. |
+| <b>Maske umkehren</b> <i>False/True</i> | Kehrt das Ergebnis aller Maskierungseffekte aus diesem Abschnitt um. |
+| <b>Füllmethode</b> <i>Hinzufügen, Max, Sub hinzufügen</i> | Legt fest, welche Füllmethode verwendet wird. |
+| <b>Hintergrundfarbe</b> <i>(Graustufenwert)</i> | Legt eine einfarbige Hintergrundfarbe fest. |
+| <b>Globale Deckkraft</b> <i>0.0 - 1.0</i> | Legt die Deckkraft globaler Kacheln fest. |
+| <b>Renderreihenfolge umkehren</b> <i>False/True</i> | Die Kacheln werden nach vorne gerendert oder umgekehrt. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="tile-generator.resources/tilesampler-ex.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="tile-generator.resources/image2020-9-17-14-50-18.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="tile-generator.resources/image2020-9-17-14-52-4.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="tile-generator.resources/image2020-9-17-14-53-47.png" />
+        </td>
+    </tr>
 </table>

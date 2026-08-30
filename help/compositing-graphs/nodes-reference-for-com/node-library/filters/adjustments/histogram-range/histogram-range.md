@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-range.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-range.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Histogrammbereich", um Texturwerte auf der Grundlage von Histogrammbereichen für Farbkorrekturen und Anpassungen neu zuzuordnen.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Histogrammbereich
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 1%
+source-wordcount: '130'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-range-1.png){width="128px"}
+![](histogram-range.resources/histogram-range-1.png){width="128px"}
 
-## Histogrammbereich
-
-**In:** *Filter/Korrekturen*
-
-**Einfach**
+<b>In:</b> Filters > Adjustments
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -42,15 +38,25 @@ Weitere, nützlichere Möglichkeiten zum Neuzuordnen des Bereichs finden Sie unt
 
 [Klicken Sie hier, um ein Substance Academy-Video über Histogramme anzuschauen.](https://www.youtube.com/watch?v=p9wcmJBFyGA&t=517s)
 
-## Parameter
-
-* **Bereich**: *0.0 - 1.0* Verringern des Bereichs von. Dies ähnelt dem Verschieben der Schieberegler &quot;Tonwertspreizung&quot; und &quot;Max&quot; nach innen.
-* **Position**: *0.0 - 1.0* Offset für die Bereichsreduktion, Festlegen eines anderen Mittelpunkts für die Bereichsreduktion.
-
-## Beispielbilder
-
-![](../../../../../../assets/histogram-range.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Bereich</b> <i>0.0 - 1.0</i> | Gibt an, wie stark der Bereich von unten nach unten reduziert werden soll. Dies ähnelt dem Verschieben der Schieberegler &quot;Tonwertspreizung&quot; und &quot;Max&quot; nach innen. |
+| <b>Position</b> <i>0.0 - 1.0</i> | Versatz für die Bereichsreduzierung, Festlegen eines anderen Mittelpunkts für die Bereichsreduzierung. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="histogram-range.resources/histogram-range.gif" />
+        </td>
+    </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html"
 breadcrumb-title: ''
 description: Greifen Sie in Substance 3D Designer-Funktionsdiagrammen auf Konstantenknoten zu, um Konstantenwerte und -parameter zu definieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Konstanten
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Darüber hinaus enthält diese Seite einige zusätzliche Informationen zu jedem 
 
 ## Ganzzahlen
 
-Konstante Ganzzahlen generieren ganze Zahlen und haben einen Schritt von 1.
+Konstante Ganzzahlen generieren ganze Zahlen und haben eine Stufe von 1.
 
 [Sie können in &quot;Float&quot;,](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md) konvertiert werden. Dies wird empfohlen, wenn ein Vorgang ausgeführt wird, der komplexer ist als Additionen, Subtraktionen und einfache Vergleiche.
 
@@ -34,7 +34,7 @@ Konstante Ganzzahlen generieren ganze Zahlen und haben einen Schritt von 1.
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Ganzzahltyp](../../../../assets/fn-constant-integer.png "Symbol für Ganzzahltyp")
+![Symbol für Ganzzahltyp](constant-nodes.resources/fn-constant-integer.png "Symbol für Ganzzahltyp")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -58,7 +58,7 @@ Eine Ganzzahl hat eine einzelne Komponente. Er ist nützlich als Index für Ausw
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Integer2-Typ](../../../../assets/fn-constant-integer2.png "Symbol für Integer2-Typ")
+![Symbol für Integer2-Typ](constant-nodes.resources/fn-constant-integer2.png "Symbol für Integer2-Typ")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ Integer2 ist nicht üblich, wird aber beispielsweise verwendet, um die X- und Y 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Integer3-Typ](../../../../assets/fn-constant-integer3.png "Symbol für Integer3-Typ")
+![Symbol für Integer3-Typ](constant-nodes.resources/fn-constant-integer3.png "Symbol für Integer3-Typ")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -97,7 +97,7 @@ Integer 3 ist nicht häufig und wird wahrscheinlich nicht häufig vorkommen.<b>\
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Integer4-Typ](../../../../assets/fn-constant-integer4.png "Symbol für Integer4-Typ")
+![Symbol für Integer4-Typ](constant-nodes.resources/fn-constant-integer4.png "Symbol für Integer4-Typ")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -123,7 +123,7 @@ Konstante Gleitkommazahlen erzeugen Bruchzahlen, keine ganzen Zahlen, das heißt
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Gleitkommatyp](../../../../assets/fn-constant-float.png "Symbol für Gleitkommatyp")
+![Symbol für Gleitkommatyp](constant-nodes.resources/fn-constant-float.png "Symbol für Gleitkommatyp")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -140,7 +140,7 @@ Ein Float, hat eine einzelne Komponente, die (1) wird aus Gründen der Kürze au
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Float2-Typ](../../../../assets/fn-constant-float2.png "Symbol für Float2-Typ")
+![Symbol für Float2-Typ](constant-nodes.resources/fn-constant-float2.png "Symbol für Float2-Typ")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -157,7 +157,7 @@ Ein Float2-Knoten generiert einen statischen 2-Komponenten-Float-Vektor. Die Kom
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Float3-Typ](../../../../assets/fn-constant-float3.png "Symbol für Float3-Typ")
+![Symbol für Float3-Typ](constant-nodes.resources/fn-constant-float3.png "Symbol für Float3-Typ")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -175,7 +175,7 @@ Ein Float3-Knoten generiert einen statischen 3-Komponenten-Float-Vektor. Die Kom
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Float4-Typ](../../../../assets/fn-constant-float4.png "Symbol für Float4-Typ")
+![Symbol für Float4-Typ](constant-nodes.resources/fn-constant-float4.png "Symbol für Float4-Typ")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -197,7 +197,7 @@ In Substance-Funktionsdiagrammen gibt es zwei zusätzliche Datentypen: booleans 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für booleschen Typ](../../../../assets/fn-constant-boolean.png "Symbol für booleschen Typ")
+![Symbol für booleschen Typ](constant-nodes.resources/fn-constant-boolean.png "Symbol für booleschen Typ")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -214,7 +214,7 @@ Ein Boolean -Wert ist der einfachste Datentyp, der vorhanden ist, da er nur zwei
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Zeichenfolgentyp](../../../../assets/fn-constant-string.png "Symbol für Zeichenfolgentyp")
+![Symbol für Zeichenfolgentyp](constant-nodes.resources/fn-constant-string.png "Symbol für Zeichenfolgentyp")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

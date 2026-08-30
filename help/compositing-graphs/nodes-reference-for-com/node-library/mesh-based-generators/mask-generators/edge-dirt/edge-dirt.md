@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-dirt.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-dirt.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Kante-Dirt", um Dirt-Akkumulierungsmasken an Gitterkanten zu generieren, um realistische Kantenverwitterungseffekte zu erzeugen.
+description: Verwenden Sie den Dirt "Kante", um Dirt-Akkumulierungsmasken an Kanten des Meshs zu erzeugen, um realistische Verwitterung an Kanten zu erzeugen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Dirt
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Edge-Dirt
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 2%
+source-wordcount: '160'
+ht-degree: 6%
 
 ---
 
@@ -22,49 +22,52 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-dirt.png){width="128px"}
+![](edge-dirt.resources/edge-dirt.png){width="128px"}
 
-## Edge-Dirt
-
-**In:** *Mesh-basierte Generatoren**/Masken-Generatoren*
-
-**Einfach**
+<b>In:</b> Mesh-basierte Generatoren > Maskengenerator
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Generiert eine Schwarzweißmaske auf der Grundlage von durch Baking erzeugte Map und Benutzereinstellungen. Ähnlich wie [Smart Masks](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Diese Maske stellt einen Dirt-Effekt dar, der sich um Kanten herum ansammelt und ausschließlich auf einer Krümmungskarte basiert.
-
-## Parameter
-
-### Eingaben
-
-* **Krümmung**: *Graustufen-Eingabe*\
-  Durch Baking erzeugte Map zur Platzierung von Effekten. Erforderlich!
-* **Variationsmaske**: *Graustufen-Eingabe*\
-  Maskenschlitz zum Maskieren der Knoteneffekte, wird nur verwendet, wenn der Parameter &quot;override&quot; aktiviert ist.
-* **Maske (optional)**: *Graustufen-Eingabe*\
-  Maskenschlitz zum Maskieren der Knoteneffekte.
-
-### Parameter
-
-* **Ebene**: *0.0 - 1.0*\
-  Legt die Menge des Dirts fest.
-* **Kontrast**: *0.0 - 1.0*\
-  Passt den Kontrast des Ergebnisses an.
-* **Variation**: *0.0 - 1.0*&#x200B;Überblendungen, wie viel Maskierung/Aufteilung im großen Maßstab erfolgen soll.
-* **Variationsmaske überschreiben**: *False/True*
-
-## Beispielbilder
-
-![](../../../../../../assets/edge-dirt-ex.gif)
+Diese Maske stellt einen Dirt-Effekt dar, der sich um Kanten herum ansammelt und ausschließlich auf einem Krümmungs-Map basiert.
 
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Krümmung</b> <i>Graustufen-Eingabe</i> | Durch Baking erzeugte Map zur Platzierung von Effekten. Erforderlich! |
+| <b>Variationsmaske</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte, wird nur verwendet, wenn der Parameter &quot;override&quot; aktiviert ist. |
+| <b>Maske (optional)</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Ebene</b> <i>0.0 - 1.0</i> | Legt die Menge des Dirts fest. |
+| <b>Kontrast</b> <i>0.0 - 1.0</i> | Passt den Kontrast des Ergebnisses an. |
+| <b>Variation</b> <i>0.0 - 1.0</i> | Überblendungen, wie viel Maskierung/Trennung in großem Maßstab erfolgen soll. |
+| <b>Variationsmaske überschreiben</b> <i>False/True</i> |  |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-dirt.resources/edge-dirt-ex.gif" />
+        </td>
+    </tr>
 </table>

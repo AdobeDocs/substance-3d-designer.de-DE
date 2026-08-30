@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Schmutz-Bereiche", um Bereichsmuster zu generieren, um Schmutz- und Abnutzungseffekte zu Materialien hinzuzufügen.
+description: Verwenden Sie den Knoten "Schmutz-Bereiche", um Volltonfarbenmuster zum Hinzufügen von Verschleiß- und Schmutz-Effekten zu Materialien zu generieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Spots
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Schmutz Spots
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '130'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungespots.jpg){width="200px"}
+![](grunge-spots.resources/grungespots.jpg){width="200px"}
 
-**In:** *Texturgeneratoren* */Noises*
-
-**Einfach**
+<b>In:</b> Textur Generators > Rauschen
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,31 +39,30 @@ Der Knoten &quot;**Schmutz Spots**&quot; generiert eine Schmutz-Map, die feinen 
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parameter
 
-* **Balance** *Gleitend* Passt die Balance zwischen dunklen und hellen Werten an.
-* **Kontrast** *Unverankert* Passt den Kontrast des Bildes an.
-* **Umkehren** *Boolesch* Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird.
-* **Quadratische Ausbreitung** *Boolesch* Aktiviert die Kompensation von Squash- und Dehnungsverhältnissen mit nicht quadratischen Verhältnissen.
-* Erweitert
-  * **Details** *Gleitend* Passt an, wie viele Flecken *verkrümmt* und in feinere Flecken aufgeteilt sind.
-  * **Abdeckung** *Unverankert* Passt die Abdeckung der Flecken im Bild an.
-  * **Deckungskontrast** *Unverankert* Passt den Kontrast der *Maske* an, die zur Steuerung verwendet wird.\
-    die Abdeckung der Bildpunkte.
+|  |  |
+|:---|:---|
+| <b>Saldo</b> <i>Gleitend</i> | Passt die Balance zwischen dunklen und hellen Werten an. |
+| <b>Kontrast</b> <i>Gleitend</i> | Passt den Kontrast des Bildes an. |
+| <b>Umkehren</b> <i>Boolescher Wert</i> | Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird. |
+| <b>Quadratische Ausbreitung</b> <i>Boolescher Wert</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+| <b>Erweitert</b> |  |
+| <b>Details</b> <i>Gleitend</i> | Legt fest, wie viele Flecken *verformt* und in feinere Flecken aufgeteilt werden. |
+| <b>Deckung</b> <i>Gleitend</i> | Passt die Abdeckung der Flecken im Bild an. |
+| <b>Deckungskontrast</b> <i>Gleitend</i> | Passt den Kontrast der *Maske* an, die verwendet wird, um die Abdeckung der Flecken im Bild zu steuern. |
 
-## Beispielbilder
+## Beispiele
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungespots-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungespots-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-spots.resources/grungespots-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-spots.resources/grungespots-variant.jpg" />
+        </td>
+    </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: Erfahre, wie du in Substance 3D Designer mithilfe der Diagrammansicht knotenbasierte Materialdiagramme erstellst und bearbeitest.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Diagrammansicht
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '3558'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Auf dieser Seite wird das Diagrammansichtsdock von Substance 3D Designer angezeigt.
 
-Die Diagrammansicht ist das Hauptfenster von [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html), in dem Sie Ihre Diagramme erstellen und bearbeiten. Die Diagrammansicht besteht aus zwei Hauptbereichen: eine Symbolleiste am oberen Rand, die einen schnellen Zugriff auf bestimmte Funktionen bietet, sowie den eigentlichen Diagrammbereich, in dem Knoten platziert sind.
+Die Diagrammansicht ist das Hauptfenster von [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html), in dem Sie Ihre Diagramme erstellen und bearbeiten. Die Diagrammansicht besteht aus zwei Hauptbereichen: eine Symbolleiste am oberen Rand, die einen schnellen Zugriff auf bestimmte Funktionen bietet, sowie den eigentlichen Diagrammbereich, in dem Knoten platziert sind.
 
 Die Diagrammansicht wird für alle Diagrammtypen verwendet, unterscheidet sich jedoch leicht zwischen [Substance-Graphen](../../compositing-graphs/substance-compositing-graphs.md), [Funktionsgraphen](../../function-graphs/function-graphs.md) und [FX-Map-Graphen](../../function-graphs/fxmaps/fxmaps.md), hauptsächlich im Symbolleistenbereich.
 
@@ -49,7 +49,7 @@ Verwenden eines Trackpads (nur macOS)
 > 
 > Die Zoomrichtung kann in den [Voreinstellungen](../../interface/preferences-window/preferences-window.md) umgekehrt werden.
 
-![Viewport-Navigation](../../assets/navigating.gif "Viewport-Navigation")
+![Viewport-Navigation](the-graph-view.resources/navigating.gif "Viewport-Navigation")
 
 Sie <b>konzentrieren sich </b> mit der Taste &quot;F&quot; auf den/die ausgewählten Knoten oder das gesamte Diagramm, wenn nichts ausgewählt ist.
 
@@ -57,20 +57,20 @@ Die Navigation kann auch mithilfe von <b>Navigationspunkten </b> und der Taste F
 
 ## Verschieben von Objekten
 
-Klicken Sie auf LMB für ein Objekt (d. h. einen Knoten oder ein Diagrammelement), halten Sie den Cursor gedrückt, und ziehen Sie ihn nach <b>Verschieben eines Knotens</b> um das Diagramm. Wenn mehrere Objekte ausgewählt sind, werden alle ausgewählten Objekte zusammen mit dem Objekt unter dem Cursor verschoben.
+Klicken Sie auf LMB für ein Objekt (d. h. einen Graf oder ein Knotenelement), halten Sie den Mauszeiger gedrückt und ziehen Sie ihn, um <b>einen Knoten</b> um den Graf zu verschieben. Wenn mehrere Objekte ausgewählt sind, werden alle ausgewählten Objekte zusammen mit dem Objekt unter dem Cursor verschoben.
 
 Wenn der Cursor <b> beim Verschieben von Objekten einen Rand </b> der Diagrammansicht erreicht, wird die Ansicht in Richtung des Cursors geschwenkt. Beachten Sie, dass das Schwenken schneller ist, wenn sich der Cursor weiter vom Rahmen entfernt.\
 Dies gilt auch für das Zeichnen von Auswahlfeldern über die Ränder der Diagrammansicht hinweg.
 
-Standardmäßig werden Objekte <b> beim Verschieben am Raster </b> ausgerichtet. Halten Sie beim Verschieben von Objekten die Strg-Taste (Windows) bzw. die ⌘-Taste (macOS) gedrückt, um diese Ausrichtung zu deaktivieren.
+Standardmäßig werden Objekte <b> beim Verschieben an den Raster </b> einrasten. Halten Sie beim Verschieben von Objekten die Strg-Taste (Windows) bzw. die ⌘-Taste (macOS) gedrückt, um diese einrasten zu deaktivieren.
 
 ## Graphenelemente
 
-Mehrere Hilfsobjekte stehen zur Verfügung, um das Diagramm zu organisieren und zu navigieren, insbesondere wenn es zu einem komplexen Netzwerk von Knoten wächst, was das Lesen schwierig machen kann:
+Es stehen mehrere Knotenobjekte zur Verfügung, die das Organisieren und Navigieren des Grafen erleichtern, insbesondere wenn er sich zu einem komplexen Helfer-Netzwerk auswächst, das das Lesen erschweren kann:
 
 Mit <b>Punktknoten</b> können Sie Verbindungen umleiten und zusammenführen. Sie können als <b>Portale</b> verwendet werden, um lange oder unhandliche Verbindungen auszublenden.
 
-Mit <b>Frames</b> können Sie Knoten mit einem sichtbaren Titel und einer Farbcodierung gruppieren.
+Mit <b>Rahmen</b> können Sie Knoten mit einem sichtbaren Titel und einer Farbcodierung gruppieren.
 
 Mit <b>Kommentaren</b> können Sie den Zweck eines Knotens oder einer Knotengruppe verfolgen und andere hilfreiche Anmerkungen machen.
 
@@ -78,43 +78,43 @@ Mit <b>Kommentaren</b> können Sie den Zweck eines Knotens oder einer Knotengrup
 
 >[!NOTE]
 >
-> Weitere Informationen finden Sie im Abschnitt [Graph items](../../interface/the-graph-view/graph-items/graph-items.md) dieser Dokumentation.
+> Weitere Informationen finden Sie im Abschnitt [Graf items](../../interface/the-graph-view/graph-items/graph-items.md) dieser Dokumentation.
 
-## Kontextmenü des Diagramms
+## Kontextmenü für Graf
 
-Wenn Sie auf RMB im leeren Bereich im Diagramm klicken, wird ein Kontextmenü angezeigt, das die folgenden Optionen enthalten kann:
+Wenn Sie auf RMB im leeren Bereich im Graf klicken, wird ein Kontextmenü angezeigt, das die folgenden Optionen enthalten kann:
 
-<b>Knoten hinzufügen:</b> Öffnen Sie das Knotenmenü, um einen Knoten im Diagramm hinzuzufügen.
+<b>Knoten hinzufügen:</b> Öffnen Sie das Knotenmenü, um einen Knoten im Graf hinzuzufügen.
 
-<b>Kommentar hinzufügen:</b> Fügen Sie ein nicht übergeordnetes [Kommentar](../../interface/the-graph-view/graph-items/graph-items.md)-Diagrammobjekt hinzu;
+<b>Graf hinzufügen:</b> Fügen Sie ein nicht übergeordnetes [Comment](../../interface/the-graph-view/graph-items/graph-items.md)-Kommentarobjekt hinzu.
 
-<b>Frame hinzufügen:</b> Ein [Frame](../../interface/the-graph-view/graph-items/graph-items.md)-Diagrammobjekt hinzufügen;
+<b>Rahmen hinzufügen:</b> Ein [Rahmen](../../interface/the-graph-view/graph-items/graph-items.md)-Graf-Objekt hinzufügen;
 
-<b>Pin hinzufügen:</b> Fügen Sie ein [Pin](../../interface/the-graph-view/graph-items/graph-items.md)-Diagrammobjekt hinzu;
+<b>Nadel hinzufügen:</b> Fügen Sie ein [Nadel](../../interface/the-graph-view/graph-items/graph-items.md)-Graf-Objekt hinzu.
 
 <b>Punktknoten hinzufügen:</b> Fügen Sie einen [Punktknoten](../../interface/the-graph-view/graph-items/graph-items.md) hinzu;
 
-<b>Ausgaben in 3D-Ansicht anzeigen:</b> Weisen Sie einem Material in der [3D-Ansicht alle Ausgaben des Diagramms zu](../../interface/3d-view/3d-view.md), indem Sie die Verwendungsarten abgleichen, siehe [Interaktion mit der 3D-Ansicht](#interacting-with-the-3d-view) weiter unten;
+<b>Ausgaben in 3D-Ansicht anzeigen:</b> Weisen Sie einem Material in der [3D-Ansicht alle Ausgaben des Grafen zu](../../interface/3d-view/3d-view.md), indem Sie die Verwendungsarten abgleichen. Weitere Informationen finden Sie unter [Interaktion mit der 3D-Ansicht](#interacting-with-the-3d-view) weiter unten.
 
-<b>Ausgaben in der 3D-Ansicht zurücksetzen und anzeigen:</b> Setzen Sie ein Material in der [3D-Ansicht zurück](../../interface/3d-view/3d-view.md) und weisen Sie diesem Material alle Ausgaben des Diagramms zu, indem Sie die Verwendungsarten abgleichen. Weitere Informationen finden Sie unter [Interaktion mit der 3D-Ansicht](#interacting-with-the-3d-view) weiter unten.
+<b>Zurücksetzen und Anzeigen von Ausgaben in der 3D-Ansicht:</b> Setzen Sie ein Material in der [3D-Ansicht zurück](../../interface/3d-view/3d-view.md) und weisen Sie diesem Material alle Ausgaben des Grafen zu, indem Sie die Verwendungsarten abgleichen. Weitere Informationen finden Sie unter [Interagieren mit der 3D-Ansicht](#interacting-with-the-3d-view) weiter unten.
 
 <b>Ausgabe in 2D-Ansicht anzeigen:</b> Zeigen Sie eine der Ausgaben des Diagramms in der [2D-Ansicht an](../../interface/2d-view/2d-view.md), siehe [Interaktion mit der 2D-Ansicht](#interacting-with-the-2d-view) weiter unten;
 
-<b>Knoten-Miniaturansichten berechnen:</b> Lösen Sie die Berechnung des Ergebnisses aller Knoten im Diagramm aus, die im [Bildcache](../../interface/preferences-window/preferences-window.md) gespeichert werden, und verwenden Sie ihre erste Ausgabe als Miniaturansicht.
+<b>Knoten-Miniaturansichten berechnen:</b> Lösen Sie die Berechnung des Ergebnisses aller Knoten im Graf aus, die im [Bildcache](../../interface/preferences-window/preferences-window.md) gespeichert werden, und verwenden Sie deren erste Ausgabe als Miniaturansicht.
 
-<b>Miniaturansichten der Knoten löschen:</b> Löschen Sie den [Bildcache](../../interface/preferences-window/preferences-window.md), der das Ergebnis aller Knoten im Diagramm enthält, wodurch wiederum die Miniaturansichten des Knotens gelöscht werden.
+<b>Miniaturknoten löschen:</b> Löschen Sie den [Bildcache](../../interface/preferences-window/preferences-window.md), der das Ergebnis aller Knoten im Graf enthält, wodurch wiederum die Miniaturansichten des Knotens gelöscht werden.
 
-<b>Paket speichern:</b> Speichern Sie das Paket, das dieses Diagramm enthält.
+<b>Paket speichern:</b> Speichern Sie das Paket, das diesen Graf enthält.
 
-<b>Einfügen:</b> Fügen Sie die aktuell in die Zwischenablage kopierten Knoten einschließlich ihrer Upstream-Verbindungen an der Cursorposition ein. Wenn sich der Cursor nicht im Viewport der Diagrammansicht befindet, werden die Knoten in der Mitte des Viewports platziert.
+<b>Einfügen:</b> Fügen Sie die aktuell in die Zwischenablage kopierten Knoten einschließlich ihrer Upstream-Verbindungen an der Cursorposition ein. Befindet sich der Cursor nicht im Viewport &quot;Graphansicht&quot;, werden die Knoten in der Mitte des Viewports platziert.
 
 <b>Ohne Verknüpfung einfügen:</b> Fügen Sie die derzeit in die Zwischenablage kopierten Knoten an der Cursorposition ein, mit Ausnahme der Upstream-Verbindungen. Wenn sich der Cursor nicht im Viewport der Diagrammansicht befindet, werden die Knoten in der Mitte des Viewports platziert.
 
-<b>Alle auswählen:</b> Alle Knoten im Diagramm auswählen;
+<b>Alle auswählen:</b> Alle Knoten im Graf auswählen;
 
-<b>Vorheriger Pin:</b> Navigieren zum vorherigen [Pin](../../interface/the-graph-view/graph-items/graph-items.md)-Objekt im Diagramm;
+<b>Vorherige Nadel:</b> Navigieren zum vorherigen [Nadel](../../interface/the-graph-view/graph-items/graph-items.md)-Objekt im Graf;
 
-<b>Nächster Pin:</b> Navigieren zum nächsten [Pin](../../interface/the-graph-view/graph-items/graph-items.md)-Objekt im Diagramm;
+<b>Nächste Nadel:</b> Navigieren zum nächsten [Nadel](../../interface/the-graph-view/graph-items/graph-items.md)-Objekt im Graf;
 
 <b>Auswahl kopieren:</b> Kopieren der ausgewählten Knoten, Verbindungen und Parameterwerte in die Zwischenablage;
 
@@ -122,15 +122,15 @@ Wenn Sie auf RMB im leeren Bereich im Diagramm klicken, wird ein Kontextmenü an
 
 <b>Löschen und erneutes Verknüpfen:</b> Löschen Sie die ausgewählten Knoten, und ersetzen Sie sie durch direkte Verbindungen von den Upstream-Knoten zu den Downstream-Knoten, wenn möglich.
 
-<b>Auswahl duplizieren:</b> Duplizieren Sie die ausgewählten Knoten im selben Diagramm, einschließlich ihrer Upstream-Verbindungen, an der Cursorposition. Wenn sich der Cursor nicht im Viewport der Diagrammansicht befindet, werden die Knoten in der Mitte des Viewports platziert.
+<b>Auswahl duplizieren:</b> Duplizieren Sie die ausgewählten Knoten im selben Graf, einschließlich ihrer Upstream-Verbindungen, an der Cursorposition. Befindet sich der Cursor nicht im Viewport &quot;Graphansicht&quot;, werden die Knoten in der Mitte des Viewports platziert.
 
-<b>Auswahl ohne Verknüpfung duplizieren:</b> Duplizieren Sie die ausgewählten Knoten im selben Diagramm, mit Ausnahme ihrer Upstream-Verbindungen, an der Position des Cursors. Wenn sich der Cursor nicht im Viewport der Diagrammansicht befindet, werden die Knoten in der Mitte des Viewports platziert.
+<b>Auswahl ohne Verknüpfung duplizieren:</b> Duplizieren Sie die ausgewählten Knoten im selben Graf, mit Ausnahme der Upstream-Verbindungen, an der Cursorposition. Befindet sich der Cursor nicht im Viewport &quot;Graphansicht&quot;, werden die Knoten in der Mitte des Viewports platziert.
 
 <b>Upstream-Knoten auswählen:</b> Wählen Sie alle Knoten stromaufwärts der ausgewählten Knoten aus.
 
 <b>Downstream-Knoten auswählen:</b> Wählen Sie alle Knoten unterhalb der ausgewählten Knoten aus.
 
-<b>Verbindungen austauschen\*:</b> Tauschen Sie die Verbindungen zwischen dem ausgewählten Paar von Eingangs- und Ausgangsanschlüssen aus.
+<b>Verweise austauschen\*:</b> Vertauschen Sie die Verbindungen zwischen den ausgewählten Eingangs- und Ausgangsverbindungen.
 
 <b>Knoten/Auswahl deaktivieren:</b> Deaktivieren Sie die ausgewählten Knoten, sodass sie keine Auswirkungen auf das Ergebnis des Streams haben. Siehe <b>Deaktivieren von Knoten</b> weiter unten.
 
@@ -142,7 +142,7 @@ Diagramme sind in erster Linie Gefäße für Knoten, die Daten aufnehmen, generi
 
 ### KNOTEN ERSTELLEN UND VERWALTEN
 
-Knoten können in Diagrammen auf 5 Arten platziert werden, unabhängig vom Diagrammtyp:
+Graf können auf 5 verschiedene Arten in Graf platziert werden, unabhängig vom Knotentyp:
 
 * Klicken oder Ziehen von einem Symbol in der Knotensymbolleiste (siehe unten). Nur [Atomknoten](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) können auf diese Weise platziert werden.
 * Klicken Sie mit der rechten Maustaste auf einen leeren Bereich des Diagramms und wählen Sie <b>Knoten hinzufügen</b>. Nur [Atomknoten](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) können auf diese Weise platziert werden.
@@ -150,7 +150,7 @@ Knoten können in Diagrammen auf 5 Arten platziert werden, unabhängig vom Diagr
 * Durch Drücken der <b>Leertaste</b>, um auf das <b>Knotenmenü</b> zuzugreifen. Siehe unten.
 * Verwenden Sie den Tastaturbefehl, der einem Knoten zugeordnet ist. Die Zuordnung wird im Fenster &quot;[Voreinstellungen&quot; &quot;](../../interface/preferences-window/preferences-window.md)&quot; durchgeführt.
 
-![Knoten platzieren](../../assets/nodecreation.gif "Knoten platzieren")
+![Knoten platzieren](the-graph-view.resources/nodecreation.gif "Knoten platzieren")
 
 Wenn bei der Auswahl eines anderen Knotens ein Knoten platziert wird, versucht Designer, den neuen Knoten automatisch mit dem alten Knoten zu verbinden.\
 Durch diese automatische Verbindung wird der neue Knoten &quot;*&quot; nach &quot;*&quot; immer in den Textfluss eingefügt.
@@ -180,7 +180,7 @@ Für eine Ausgabe vom Typ &quot;Graustufen&quot; werden beispielsweise nur Knote
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Diagrammansicht: Knotenmenü](../../assets/graph-node-menu_fuzzy-search.png "Diagrammansicht: Knotenmenü ")
+![Graphansicht: Knotenmenü](the-graph-view.resources/graph-node-menu_fuzzy-search.png "Graphansicht: Knotenmenü ")
 
 </td>
 </tr>
@@ -188,46 +188,46 @@ Für eine Ausgabe vom Typ &quot;Graustufen&quot; werden beispielsweise nur Knote
 
 ### AUSWÄHLEN VON KNOTEN
 
-Sie können einen oder mehrere Knoten auswählen, um sie zu kopieren, zu löschen, sie im Diagramm zu verschieben usw.
+Sie können einen oder mehrere Knoten auswählen, um sie zu kopieren, zu löschen, sie im Graf zu verschieben usw.
 
 Um einen *einzelnen*-Knoten auszuwählen, platzieren Sie den Cursor auf dem Knoten und klicken Sie auf &quot;LMB&quot;.
 
 Zum Auswählen von *mehreren* Knoten stehen die folgenden Methoden zur Verfügung:
 
 * <b>Eins für Eins:</b> Halten Sie Strg gedrückt und klicken Sie dann auf LMB auf Knoten. Nicht ausgewählte Knoten werden *der Auswahl hinzugefügt*, während ausgewählte Knoten *aus der Auswahl entfernt* werden.
-* <b>Auswahlfeld:</b> Klicken Sie auf einen leeren Bereich im Diagramm, *halten Sie den Mauszeiger gedrückt und ziehen Sie*, um ein Auswahlfeld zu zeichnen. Knoten *, die mindestens teilweise* im Feld enthalten sind, werden beim Freigeben von LMB ausgewählt.
+* <b>Auswahlfeld:</b> Klicken Sie auf LMB auf einen leeren Bereich im Graf, *halten Sie den Mauszeiger gedrückt und ziehen Sie*, um ein Auswahlfeld zu zeichnen. Knoten *, die mindestens teilweise* im Feld enthalten sind, werden beim Freigeben von LMB ausgewählt.
 * <b>Upstream:</b> Klicken Sie auf RMB auf einem Knoten, und wählen Sie die Option <b>Upstream-Knoten auswählen</b> aus: Der Knoten und alle Knoten, die Teil von Datenströmen sind, die mit den *Eingängen* des Knotens verbunden sind, werden ausgewählt.
 * <b>Downstream:</b> Klicken Sie auf RMB auf einem Knoten, und wählen Sie die Option <b>Downstream-Knoten auswählen</b> aus: Der Knoten und alle Knoten, die Teil von Streams sind, die mit den *Ausgaben* des Knotens verbunden sind, werden ausgewählt.
 
-![Auswählen von Knoten](../../assets/graph-selecting-nodes.gif "Auswählen von Knoten")
+![Auswählen von Knoten](the-graph-view.resources/graph-selecting-nodes.gif "Auswählen von Knoten")
 
 ### Kontextmenü des Knotens
 
 Wenn Sie auf RMB auf einem Knoten klicken, wird ein Kontextmenü angezeigt, das die folgenden Optionen enthalten kann:
 
-<b>Ausgabe in 2D-Ansicht anzeigen:</b> Zeigen Sie eine der Ausgaben des Knotens in der [2D-Ansicht an](../../interface/2d-view/2d-view.md), siehe [Interaktion mit der 2D-Ansicht](#interacting-with-the-2d-view) weiter unten;
+<b>Ausgabe in 2D-Ansicht anzeigen:</b> Zeigen Sie eine der Ausgaben des Knotens in der [2D-Ansicht an](../../interface/2d-view/2d-view.md), siehe [Interaktion mit der 2D-Ansicht ](#interacting-with-the-2d-view) weiter unten;
 
-<b>In 3D-Ansicht anzeigen</b>: Weisen Sie alle Ausgaben des Knotens einem Material in der [3D-Ansicht](../../interface/3d-view/3d-view.md) zu, indem Sie die Verwendungsarten abgleichen, siehe [Interaktion mit der 3D-Ansicht](#interacting-with-the-3d-view) weiter unten;
+<b>In 3D-Ansicht anzeigen</b>: Weisen Sie alle Ausgaben des Knotens einem Material in der [3D-Ansicht](../../interface/3d-view/3d-view.md) zu, indem Sie die Verwendungsarten abgleichen. Weitere Informationen finden Sie unter [Interaktion mit der 3D-Ansicht](#interacting-with-the-3d-view) weiter unten.
 
-<b>Zurücksetzen und Anzeigen in der 3D-Ansicht:</b> Setzen Sie ein Material in der [3D-Ansicht zurück](../../interface/3d-view/3d-view.md) und weisen Sie diesem Material alle Ausgaben des Knotens zu, indem Sie die Verwendungen abgleichen. Siehe [Interagieren mit der 3D-Ansicht](#interacting-with-the-3d-view) weiter unten.
+<b>Zurücksetzen und Anzeigen in der 3D-Ansicht:</b> Setzen Sie ein Material in der [3D-Ansicht zurück](../../interface/3d-view/3d-view.md) und weisen Sie diesem Material alle Knotenausgaben zu, indem Sie die Verwendungsmöglichkeiten abgleichen. Weitere Informationen finden Sie unter [Interagieren mit der 3D-Ansicht](#interacting-with-the-3d-view) weiter unten.
 
-<b>Ausgabe in 3D-Ansicht anzeigen\*:</b> Weisen Sie einem Material in der [3D-Ansicht eine bestimmte Knotenausgabe zu](../../interface/3d-view/3d-view.md), indem Sie die Verwendung abgleichen;
+<b>Ausgabe in 3D-Ansicht anzeigen\*:</b> Zuweisen einer bestimmten Knotenausgabe zu einem Material in der [3D-Ansicht](../../interface/3d-view/3d-view.md) durch Zuordnung von Verwendungen;
 
-<b>Kommentar hinzufügen:</b> Erstellen eines [Kommentar](../../interface/the-graph-view/graph-items/graph-items.md)-Diagrammobjekts und überordnen dieses diesem Knoten;
+<b>Graf hinzufügen:</b> Erstellen Sie ein [Comment](../../interface/the-graph-view/graph-items/graph-items.md)-Knotenobjekt, und überordnen Sie es diesem Knoten;
 
-<b>Rahmen hinzufügen:</b> Erstellen Sie ein [Frame](../../interface/the-graph-view/graph-items/graph-items.md)-Diagrammobjekt und passen Sie es an den/die ausgewählten Knoten an.
+<b>Rahmen hinzufügen:</b> Erstellen Sie ein [Rahmen](../../interface/the-graph-view/graph-items/graph-items.md)-Knotenobjekt, und passen Sie es an die ausgewählten Graf an.
 
-<b>Informationen in die Zwischenablage kopieren:</b> Kopieren Sie den eindeutigen Bezeichner (UID) des Knotens in die Zwischenablage.
+<b>Informationen in die Zwischenablage kopieren:</b> Kopieren der eindeutigen Identifizierung (UID) des Knotens in die Zwischenablage;
 
-<b>Verfügbarkeitsparameter:</b> Zeigt das Dialogfeld [Verfügbarkeitsknotenparameter](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) für diesen Knoten an;
+<b>Parameter Gelegt:</b> Zeigt das Dialogfeld &quot;[Knotenparameter Gelegt](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)&quot; für diesen Knoten an;
 
 <b>Erstellen\*:</b> Erstellen von Eingabe- und/oder Ausgabeknoten für jede Eingabe und/oder Ausgabe dieses Knotens
 
-<b>Verweis öffnen\*:</b> Laden Sie das Diagramm [, auf das dieser Knoten &#x200B;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) verweist, als separate Registerkarte für die Diagrammansicht.
+<b>Verweis öffnen\*:</b> Laden Sie den Graf [, auf den dieser Knoten ](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) verweist, als separate Registerkarte für die Graphansicht.
 
-<b>Verweis im Kontext öffnen\*\*:</b> Lädt das Diagramm [, auf das dieser Knoten &#x200B;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) im Kontext des aktuellen Diagramms verweist, als Breadcrumb in der vorhandenen Registerkarte &quot;Diagrammansicht&quot;.
+<b>Verweis im Kontext öffnen\*\*:</b> Laden Sie den Graf [, auf den dieser Knoten ](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) im Kontext des aktuellen Grafen verweist, als Breadcrumb auf der Registerkarte &quot;Vorhandene Graphansicht&quot;.
 
-<b>Graph aus Auswahl erstellen:</b> Kopieren Sie die ausgewählten Knoten in ein neues Diagramm.
+<b>Graf aus Auswahl erstellen:</b> Kopieren Sie die ausgewählten Knoten in einen neuen Graf.
 
 <b>Auswahl kopieren:</b> Kopieren der ausgewählten Knoten, Verbindungen und Parameterwerte in die Zwischenablage;
 
@@ -235,51 +235,51 @@ Wenn Sie auf RMB auf einem Knoten klicken, wird ein Kontextmenü angezeigt, das 
 
 <b>Löschen und erneutes Verknüpfen:</b> Löschen Sie die ausgewählten Knoten, und ersetzen Sie sie durch direkte Verbindungen von den Upstream-Knoten zu den Downstream-Knoten, wenn möglich.
 
-<b>Auswahl duplizieren:</b> Duplizieren Sie die ausgewählten Knoten im selben Diagramm, einschließlich ihrer Upstream-Verbindungen.
+<b>Auswahl duplizieren:</b> Duplizieren Sie die ausgewählten Knoten im selben Graf, einschließlich der Upstream-Verbindungen.
 
-<b>Auswahl ohne Verknüpfung duplizieren:</b> Duplizieren Sie die ausgewählten Knoten im selben Diagramm mit Ausnahme der Upstream-Verbindungen.
+<b>Auswahl ohne Verknüpfung duplizieren:</b> Duplizieren Sie die markierten Knoten im selben Graf mit Ausnahme der Upstream-Verbindungen.
 
 <b>Upstream-Knoten auswählen:</b> Wählen Sie alle Knoten stromaufwärts der ausgewählten Knoten aus.
 
 <b>Downstream-Knoten auswählen:</b> Wählen Sie alle Knoten unterhalb der ausgewählten Knoten aus.
 
-<b>Verbindungen vertauschen\*\*\*:</b> Vertauschen Sie die Verbindungen zwischen dem ausgewählten Paar von Eingangs- und Ausgangsanschlüssen.
+<b>Verknüpfungen vertauschen\*\*\*:</b> Vertauschen Sie die Verbindungen zwischen den ausgewählten Eingangs- und Ausgangsverbindungen.
 
 <b>Knoten/Auswahl deaktivieren:</b> Deaktivieren Sie den Knoten oder die ausgewählten Knoten, sodass sie keine Auswirkungen auf das Ergebnis des Streams haben. Siehe <b>Deaktivieren von Knoten</b> weiter unten.
 
-<b>\*</b>: Nur für [Grapheninstanz](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) Knoten verfügbar.\
-<b>\*\*:</b> Nur verfügbar für [Grapheninstanz](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) Knoten und wenn die Option <b>Kontextabhängiges Bearbeiten aktivieren</b> in den [Voreinstellungen](../../interface/preferences-window/preferences-window.md) aktiviert ist.\
+<b>\*</b>: Nur für [Knoten der Grapheninstanz ](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) verfügbar.\
+<b>\*\*:</b> Nur verfügbar für [Knoten der Grapheninstanz ](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) und wenn die Option <b>Kontextabhängiges Bearbeiten aktivieren</b> in den [Voreinstellungen](../../interface/preferences-window/preferences-window.md) aktiviert ist.\
 <b>\*\*\*:</b> Nur verfügbar, wenn die Auswahl zwei Verknüpfungen enthält, oder drei Knoten, bei denen zwei der Knoten mit Eingängen desselben dritten Knotens verbunden sind.
 
 >[!IMPORTANT]
 >
-> Wenn auf *RMB* geklickt wurde, wenn der Cursor *über einem Knoten* platziert wird, zielen mehrere dieser Kontextmenüoptionen auf den Knoten *that* ab, unabhängig davon, ob andere Knoten derzeit *ausgewählt* im Diagramm sind.
+> Wenn auf *RMB* geklickt wurde, wenn der Cursor *über einem Knoten* platziert wird, zielen mehrere dieser Kontextmenüoptionen auf den Knoten *that* ab, unabhängig davon, ob andere Knoten derzeit *ausgewählt* im Graf sind.
 > 
 > Für ein einheitlich vorhersagbares Ergebnis empfiehlt es sich daher, den Cursor immer über dem Knoten zu platzieren, der Teil der Auswahl ist, die Sie tatsächlich mit einer kontextbezogenen Menüaktion anvisieren möchten.
 
 ### Knoten verbinden
 
-Der *-Ausgabekonnektor* eines Knotens A kann mit dem *-Eingabekonnektor* eines anderen Knotens B verbunden werden, was dazu führt, dass Knoten B die von A ausgegebenen Daten zur Durchführung seiner Berechnungen verwendet.
+Die *-Ausgabeknoten* eines Knotens A können mit der *-Eingabeknoten-Verbindung* eines anderen Knotens B verbunden werden, was dazu führt, dass Verbindung B die von A ausgegebenen Daten zur Durchführung ihrer Berechnungen verwendet.
 
 >[!NOTE]
 >
-> Alle Connectors eines Knotens müssen unbedingt mit *nicht* verbunden sein. Wenn die Steckverbinder leer bleiben, führt dies zu Folgendem:
+> Alle Verbindungen eines Knotens müssen unbedingt mit *nicht* verbunden sein. Lässt man die Verbindungen offen, führt dies zu Folgendem:
 > 
-> * für einen *Eingabe*-Connector: der Knoten auf einen Standardwert zurückgreift, der für diese Eingabe festgelegt wurde;
-> * für einen *Ausgabe*-Connector: Die Daten werden ignoriert und verworfen, wenn der Graph berechnet wird.
+> * für eine *Eingabe*-Verbindung: der Knoten auf einen Standardwert zurückgreift, der für diese Eingabe festgelegt wurde;
+> * für eine *Ausgabe*-Verbindung: Die Daten werden ignoriert und verworfen, wenn der Graf berechnet wird.
 
-![Knoten verbinden](../../assets/links.gif "Knoten verbinden")
+![Knoten verbinden](the-graph-view.resources/links.gif "Knoten verbinden")
 
-Sie können <b>einen neuen Link erstellen</b>, indem Sie auf LMB auf jedem dieser Connectors in *beliebiger Reihenfolge* klicken.\
+Sie können <b>einen neuen Link erstellen</b>, indem Sie auf LMB in jeder dieser Verbindungen in *beliebiger Reihenfolge* klicken.\
 Wenn ein Knoten B erstellt wird, während ein Knoten A ausgewählt ist, wird außerdem der *erste Ausgang* von Knoten A automatisch mit dem *primären Eingang* von Knoten B verbunden.
 
 Die folgenden Vorgänge können für *vorhandene* Links ausgeführt werden:
 
 <b>Löschen:</b> Löschen Sie Verknüpfungen, indem Sie entweder auf LMB auf dem Link klicken und *Löschen*<b>, </b> drücken, oder indem Sie bei gedrückter Alt-Taste auf eine Verbindung klicken, die Verknüpfungen enthält. Wenn Sie bei gedrückter Alt-Taste klicken, werden alle Verknüpfungen auf dieser Verbindung gelöscht.
 
-<b>Duplizieren:</b> Duplizieren Sie Links, indem Sie Strg gedrückt halten, auf LMB auf einem Connector klicken und den Cursor ziehen. Klicken Sie auf LMB auf einem anderen Connector, um den Link zu verbinden.
+<b>Duplizieren:</b> Duplizieren Sie Links, indem Sie Strg gedrückt halten, auf LMB auf einer Verbindung klicken und den Cursor ziehen. Klicken Sie auf LMB auf einer anderen Verbindung, um den Link zu verbinden.
 
-<b>Verschieben:</b> Links können abgerufen und von einem Connector zu einem anderen verschoben werden, indem Sie die Umschalttaste gedrückt halten, auf einen LMB-Connector klicken und den Cursor ziehen. Klicken Sie auf LMB auf einem anderen Connector, um den Link zu verbinden.
+<b>Verschieben:</b> Verknüpfungen können abgerufen und von einer Verbindung zu einer anderen verschoben werden, indem Sie die Umschalttaste gedrückt halten, auf LMB auf einer Verbindung klicken und den Cursor ziehen. Klicken Sie auf LMB auf einer anderen Verbindung, um den Link zu verbinden.
 
 ### Deaktivieren von Knoten
 
@@ -287,18 +287,18 @@ Die folgenden Vorgänge können für *vorhandene* Links ausgeführt werden:
 >
 > Dies gilt nur für [Substance-Diagramme](../../compositing-graphs/substance-compositing-graphs.md).
 
-Knoten können deaktiviert werden, sodass sie im Diagramm *keinen Effekt* aufweisen, aber nicht getrennt oder gelöscht werden müssen.
+Knoten können deaktiviert werden, sodass sie *keine Auswirkungen* im Graf haben, aber nicht getrennt oder gelöscht werden müssen.
 
 Deaktivierte Knoten verhalten sich wie folgt:
 
-* Sie werden mit dem Kennzeichen &quot;![](../../assets/graph-badge-disabled.png) <b>Deaktiviert</b>&quot;*,* einem *gestrichelten Umriss* und einem internen Link mit *Umleitung* anstelle einer Miniaturansicht angezeigt.
+* Sie werden mit dem Kennzeichen &quot;![](the-graph-view.resources/graph-badge-disabled.png) <b>Deaktiviert</b>&quot;*,* einem *gestrichelten Umriss* und einem internen Link mit *Umleitung* anstelle einer Miniaturansicht angezeigt.
 * Die Knoten geben die empfangenen Daten in ihrer *Haupteingabe* aus.
 * Deaktivierte Knoten können *verkettet* werden.
 * Ihre Eigenschaften und Verbindungen sind *nicht geändert*;
 * Der deaktivierte Status lautet *Gespeichert* und bleibt sitzungsübergreifend erhalten.
 * Beim Veröffentlichen in SBSAR berücksichtigt die resultierende Datei ** den deaktivierten Status der Knoten - d. h., was Sie sehen, ist das, was Sie erhalten.
 
-Sie können einen Knoten oder eine Gruppe ausgewählter Knoten deaktivieren, indem Sie den Tastaturbefehl <b>Umschalt+D</b> verwenden oder indem Sie mit der rechten Maustaste in das Diagramm klicken und im Kontextmenü die Option <b>Knoten deaktivieren/Auswahl deaktivieren</b> auswählen.
+Sie können einen Knoten oder eine Gruppe ausgewählter Knoten deaktivieren, indem Sie den Tastaturbefehl <b>Umschalt+D</b> verwenden oder indem Sie mit der rechten Maustaste in den Graf klicken und im Kontextmenü die Option <b>Knoten deaktivieren/Auswahl deaktivieren</b> auswählen.
 
 >[!IMPORTANT]
 >
@@ -309,7 +309,7 @@ Sie können einen Knoten oder eine Gruppe ausgewählter Knoten deaktivieren, ind
 > * Die *Typen* der Haupteingabe und der Ausgabe müssen *übereinstimmen* - d. h. Graustufen zu Graustufen, Farbe zu Farbe.
 > * Alle ausgewählten Knoten müssen den Status &quot;*Gleich&quot; aufweisen* - d. h. alle müssen aktiviert sein, für ihre Aktivierung gilt die gleiche Regel.
 
-![Knoten deaktivieren](../../assets/graph-disable-node.gif "Knoten deaktivieren"){width="512px"}
+![Knoten deaktivieren](the-graph-view.resources/graph-disable-node.gif "Knoten deaktivieren"){width="512px"}
 
 ## Interaktion mit der 2D-Ansicht
 
@@ -341,109 +341,109 @@ Um eine Knotenausgabe in der [3D-Ansicht](../../interface/3d-view/3d-view.md) an
 
 Die Hauptsymbolleiste befindet sich in jedem Diagrammtyp und bietet allgemeine Funktionen sowie Umschalter für die Sichtbarkeit der anderen Symbolleisten. Sie finden diese Funktionen:
 
-![](../../assets/image2020-6-26-16-25-57.png) <b>Fokusauswahl</b> (F)\
+![](the-graph-view.resources/image2020-6-26-16-25-57.png) <b>Fokusauswahl</b> (F)\
 Fokusansicht auf Auswahl oder gesamte Szene, wenn Auswahl leer ist.
 
-![](../../assets/image2020-6-26-16-26-8.png) <b>Zoom zurücksetzen</b> (Z)\
+![](the-graph-view.resources/image2020-6-26-16-26-8.png) <b>Zoom zurücksetzen</b> (Z)\
 Bringen Sie den aktuellen Zoomfaktor auf seinen Standardstatus zurück und zentrieren Sie die Ansicht in der Mitte des Diagramms. Das kann ein- oder auszoomen bedeuten.
 
-![](../../assets/image2020-6-26-16-26-26.png) <b>Diagrammansicht exportieren\
-</b>Exportiert das vollständige Diagramm mit einer Auflösung von 1:1 als Bild. Nützlich, um einen Screenshot des gesamten Diagramms zu teilen.
+![](the-graph-view.resources/image2020-6-26-16-26-26.png) <b>Diagrammansicht exportieren\
+</b>Exportiert das vollständige Diagramm mit einer Auflösung von 1:1 als Bild. Nützlich, um einen Screenshot Ihres gesamten Grafen zu teilen.
 
-![](../../assets/image2020-6-26-16-26-37.png) <b>Knoteninformationen\
+![](the-graph-view.resources/image2020-6-26-16-26-37.png) <b>Knoteninformationen\
 </b>*- Connector-Namen anzeigen:* Schaltet die Namensanzeige jedes einzelnen Connectors auf einem Knoten um.\
 *- Knotenabzeichen anzeigen:* Schaltet die Knotenabzeichen auf allen Knoten um.\
 *- Knotengröße anzeigen:* Schaltet die Knotenauflösung um ([Nur Substance-Diagramm](../../compositing-graphs/substance-compositing-graphs.md)).\
 *- Anzeigedauer:* Schaltet die Anzeige von Millisekunden-Zeitangaben für jeden Knoten um ([nur Substance-Diagramm](../../compositing-graphs/substance-compositing-graphs.md)).\
 *- Textskalierung beim Auszoomen begrenzen:* Der Text von [Diagrammelementen](../../interface/the-graph-view/graph-items/graph-items.md) bleibt auf einer konstanten Bildschirmgröße über einen Zoomschwellenwert hinaus, wodurch der Text beim Auszoomen klar sichtbar bleibt.
 
-![](../../assets/image2020-6-26-16-26-52.png)<b> Knotensuche</b> (Strg+F)\
+![](the-graph-view.resources/image2020-6-26-16-26-52.png)<b> Knotensuche</b> (Strg+F)\
 Aktiviert ein Werkzeug, um Knoten, exponierte Parameter und andere Variablen im Diagramm zu finden. Weitere Informationen finden Sie auf der [dedizierten Seite](../../interface/the-graph-view/node-finder/node-finder.md).
 
-![](../../assets/image2020-6-26-16-27-43.png) <b>Textfluss hervorheben\
+![](the-graph-view.resources/image2020-6-26-16-27-43.png) <b>Textfluss hervorheben\
 </b>Markieren Sie alle Knoten, die vor oder nach dem aktuell ausgewählten Knoten verbunden sind. Gut zum Nachzeichnen eines komplexen Knotenpfads.
 
-![](../../assets/image2020-6-26-16-28-30.png) <b>Node-Palette\
+![](the-graph-view.resources/image2020-6-26-16-28-30.png) <b>Node-Palette\
 </b>Blendet die Knotensymbolleiste ein oder aus (siehe unten).
 
-![](../../assets/image2020-6-26-16-32-33.png) <b>Rechteckverknüpfungen\
+![](the-graph-view.resources/image2020-6-26-16-32-33.png) <b>Rechteckverknüpfungen\
 </b>Wechseln zwischen abgerundeten oder rechteckigen Verknüpfungen zwischen Knoten. Nicht verfügbar für [FX-Maps.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
 
-![](../../assets/image2020-6-26-16-38-2.png) <b>Knotenausrichtungstools\
+![](the-graph-view.resources/image2020-6-26-16-38-2.png) <b>Knotenausrichtungstools\
 </b>Aktiviert Tools, um ausgewählte Knoten im Diagramm anzuordnen. Weitere Informationen finden Sie auf der [dedizierten Seite](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md).
 
 Nur auf [Substance von Diagrammen](../../compositing-graphs/substance-compositing-graphs.md):
 
-![](../../assets/image2020-6-26-16-29-6.png) <b>Übergeordnete Größe\
+![](the-graph-view.resources/image2020-6-26-16-29-6.png) <b>Übergeordnete Größe\
 </b>Schaltet die Anzeige der übergeordneten Auflösungssteuerungseinstellungen um (siehe unten).
 
-![](../../assets/image2020-6-26-16-31-15.png) <b>Link-Erstellungsmodi</b> (1, 2, 3)\
+![](the-graph-view.resources/image2020-6-26-16-31-15.png) <b>Link-Erstellungsmodi</b> (1, 2, 3)\
 Wählen Sie zwischen den Verbindungserstellungsmodi Standard (1), Material (2) und Compact Material (3), um Knotenverbindungen einzeln oder im Stapel zu verknüpfen. Weitere Informationen finden Sie auf der [dedizierten Seite](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md).
 
-![](../../assets/image2020-6-26-16-33-35.png) <b>Zeitsteuerung\
+![](the-graph-view.resources/image2020-6-26-16-33-35.png) <b>Zeitsteuerung\
 </b>Ermöglicht das Zurücksetzen aller Knoten und das Zurücksetzen aller Zeitpunkte.
 
-![](../../assets/image2020-6-26-16-34-12.png) <b>Tools\
+![](the-graph-view.resources/image2020-6-26-16-34-12.png) <b>Tools\
 </b>*- Bereinigen:* Entfernt alle Knoten, die Teil eines Streams sind, der nicht mit einem [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)-Knoten verbunden ist.\
 *- Exportausgaben:* Öffnet die [Bitmapexport-Schnittstelle](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md).\
 *- Ausgaben erneut exportieren:* Führt den vorherigen Exportvorgang erneut aus.\
-*- PSD Exporter:* Öffnet die [PSD Exporter](../../compositing-graphs/exporting-psd-files/exporting-psd-files.md)-Schnittstelle.
+*- PSD-Exporteur:* Öffnet die [PSD-Exporteur](../../compositing-graphs/exporting-psd-files/exporting-psd-files.md)-Schnittstelle.
 
-![](../../assets/image2020-6-26-16-37-16.png) <b>Knoten-Bildcache\
+![](the-graph-view.resources/image2020-6-26-16-37-16.png) <b>Knoten-Bildcache\
 </b>Schaltet die Anzeige des Bildcache des Knotens um (siehe unten).
 
-![](../../assets/graph-cleaner.jpg) Nicht verwendete Knoten entfernen\
-</b>Zeigt Optionen zum Entfernen nicht verwendeter Knoten in Diagrammen an (siehe unten).
+![](the-graph-view.resources/graph-cleaner.jpg) Nicht verwendete Knoten entfernen\
+</b>Zeigt Optionen zum Entfernen nicht verwendeter Graf in Knoten an (siehe unten).
 
 ### Node-Palette
 
-Die Knotensymbolleiste unterscheidet sich je nach Diagrammtyp:
+Die Knotensymbolleiste hängt vom Graf ab:
 
-[![Node-Palette](../../assets/image2020-6-26-16-45-31.png)](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)<br>
-<b>[Substance von Diagrammen](../../compositing-graphs/substance-compositing-graphs.md):</b> siehe [Atomknoten](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) und [Diagrammelemente](../../interface/the-graph-view/graph-items/graph-items.md).
-
-
-![Palette von Diagrammelementen](../../assets/image2020-6-26-16-46-32.png "Palette von Diagrammelementen")<br>
-<b>[Substance-Funktionsdiagramme](../../function-graphs/function-graphs.md):</b> siehe [Diagrammelemente](../../interface/the-graph-view/graph-items/graph-items.md).
+[![Node-Palette](the-graph-view.resources/image2020-6-26-16-45-31.png)](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)<br>
+<b>[Substance Graf](../../compositing-graphs/substance-compositing-graphs.md):</b> sehen [elementare Knoten](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) und [Graf-Elemente](../../interface/the-graph-view/graph-items/graph-items.md).
 
 
-![FX-Map-Palette](../../assets/image2020-6-26-16-48-4.png "FX-Map-Palette")<br>
-<b>[FX-Map-Diagramme](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md):</b> siehe [Diagrammelemente.](../../interface/the-graph-view/graph-items/graph-items.md)
+![Graf-Elementpalette](the-graph-view.resources/image2020-6-26-16-46-32.png "Graf-Elementpalette")<br>
+<b>[Graf der Substance-Funktion](../../function-graphs/function-graphs.md):</b> finden [Graf-Elemente](../../interface/the-graph-view/graph-items/graph-items.md).
+
+
+![FX-Map-Palette](the-graph-view.resources/image2020-6-26-16-48-4.png "FX-Map-Palette")<br>
+<b>[FX-Map-Graf](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md):</b> sehen [Graf-Elemente.](../../interface/the-graph-view/graph-items/graph-items.md)
 
 ### Übergeordnete Größe
 
-![Symbolleiste für übergeordnete Größe](../../assets/image2020-6-26-17-0-48.png "Symbolleiste für übergeordnete Größe")
+![Symbolleiste für übergeordnete Größe](the-graph-view.resources/image2020-6-26-17-0-48.png "Symbolleiste für übergeordnete Größe")
 
-Diese Symbolleiste ist nur in [Substance-Graphen](../../compositing-graphs/substance-compositing-graphs.md) verfügbar und legt die [Ausgabegröße](../../compositing-graphs/output-size/output-size.md) des *übergeordneten*-Diagramms fest. Dies wirkt sich auf die Ausgabegröße des Diagramms aus, wenn die *Relativ zur übergeordneten* [Vererbungsmethode](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) verwendet wird.
+Diese Symbolleiste ist nur in [Substance-Grafen](../../compositing-graphs/substance-compositing-graphs.md) verfügbar und legt die [Ausgabegröße](../../compositing-graphs/output-size/output-size.md) der *übergeordneten* des Grafen fest. Dies wirkt sich auf die Ausgabegröße des Grafen aus, wenn die *Relativ zum übergeordneten Element* [Vererbung ](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) verwendet wird.
 
 Horizontale und vertikale Größen sind standardmäßig verknüpft, können jedoch für nicht quadratische Texturen *nicht verknüpft* sein. Die Werte können auch auf den Standardwert 256 x 256 zurückgesetzt werden.
 
 ### Zwischenspeicher für Knotenbilder
 
-![Einstellung für den Knoten-Bildcache](../../assets/graph-toolbar-node-cache.png "Einstellung für den Knoten-Bildcache")
+![Einstellung für den Knoten-Bildcache](the-graph-view.resources/graph-toolbar-node-cache.png "Einstellung für den Knoten-Bildcache")
 
-Dadurch wird die Verwendung des Zwischenspeichers beim Berechnen von Knoten in [Substance-Graphen](../../compositing-graphs/substance-compositing-graphs.md) umgeschaltet.
+Dadurch wird die Verwendung des Zwischenspeichers beim Berechnen von Knoten in [Substance-Grafen](../../compositing-graphs/substance-compositing-graphs.md) umgeschaltet.
 
-Wenn ein Knoten berechnet wird, werden seine Ausgabebilder im Speicher gespeichert - d. h. im Cache -, sodass sie *wiederverwendet werden können*, wenn das Diagramm neu berechnet wird, wenn dieser Knoten nicht von einer Änderung betroffen ist. Das bedeutet, dass nur der Teil des Graphen neu berechnet wird, der sich tatsächlich ändert.
+Wenn ein Knoten berechnet wird, werden seine Ausgabebilder im Speicher gespeichert, d. h. im Cache, sodass sie *wiederverwendet* werden können, wenn der Graf erneut berechnet wird, wenn keine Änderung auf diesen Knoten einwirkt. Dies bedeutet, dass nur der Teil des Grafen neu berechnet wird, der sich tatsächlich ändert.
 
 Das Speicherlimit dieses Cache kann im Abschnitt <b>Allgemein</b> der [Voreinstellungen](../../interface/preferences-window/preferences-window.md) im Abschnitt <b>Speicher</b> geändert werden.
 
-Die Aktivierung dieser Option führt zu einer deutlichen Steigerung der Gesamtreaktivität von Diagrammberechnungen, was mit einer deutlichen Erhöhung der Speichernutzung von Designer einhergeht.
+Die Aktivierung dieser Option führt zu einer deutlichen Steigerung der Gesamtreaktivität von Graf-Berechnungen, was mit einer deutlichen Erhöhung der Speichernutzung von Designer einhergeht.
 
 ### Nicht verwendete Knoten entfernen
 
-![Dropdown-Menü für nicht verwendete Knoten entfernen](../../assets/graph-cleaner-menu.jpg "Dropdown-Menü für nicht verwendete Knoten entfernen")
+![Dropdown-Menü für nicht verwendete Knoten entfernen](the-graph-view.resources/graph-cleaner-menu.jpg "Dropdown-Menü für nicht verwendete Knoten entfernen")
 
-Wenn Sie in Graphen iterieren und Dinge ausprobieren, können einige Knoten, die keine Auswirkungen auf das Endergebnis haben, zurückbleiben. Dies sorgt für Unordnung und verschwenderische Berechnungen, da alle Knoten in den ersten Phasen des Diagrammrenderings ausgewertet werden.
+Wenn Sie Graf einarbeiten und ausprobieren, können einige Knoten, die keine Auswirkungen auf das Endergebnis haben, zurückbleiben. Dies sorgt für zusätzlichen Durcheinander und verschwenderische Berechnung, da alle Graf in den ersten Phasen des Knoten-Renderings ausgewertet werden.
 
-Das Tool ![](../../assets/graph-cleaner.jpg) Unbenutzte Knoten entfernen</b> löscht alle Knoten, die *nicht* Teil eines Streams sind, der *in einem*-Ausgabeknoten endet. Die einzige Ausnahme sind *Eingabeknoten*, da das Löschen dieser Knoten die Schnittstelle von [Instanzknoten](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), die auf dieses Diagramm verweisen, ändern würde.
+Das Tool ![](the-graph-view.resources/graph-cleaner.jpg) Unbenutzte Knoten entfernen</b> löscht alle Knoten, die *nicht* Teil eines Streams sind, der *in einem*-Ausgabeknoten endet. Die einzige Ausnahme sind *Eingabeknoten*, da das Löschen dieser Knoten die Benutzeroberfläche von [Instanzknoten](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), die auf diesen Graf verweisen, ändern würde.
 
-![Nicht verwendete Knoten entfernen](../../assets/graph-cleaner.gif "Nicht verwendete Knoten entfernen")
+![Nicht verwendete Knoten entfernen](the-graph-view.resources/graph-cleaner.gif "Nicht verwendete Knoten entfernen")
 
-Die erste Option wendet die Bereinigung ausschließlich auf das Diagramm *Aktuell* an.
+Die erste Option wendet die Bereinigung ausschließlich auf den *aktuellen*-Graf an.
 
-Wenn das aktuelle Diagramm ein [Substance-Diagramm](../../compositing-graphs/substance-compositing-graphs.md) ist, ist eine zweite Option aktiviert, mit der Sie *alle Knotenparameterfunktionen* in den Bereinigungsprozess einbeziehen können. Wenn also ein [Funktionsdiagramm](../../function-graphs/function-graphs.md), das einen Knotenparameterwert steuert, nicht verwendete Knoten enthält, wird dieses Diagramm ebenfalls nach denselben Regeln bereinigt.
+Wenn der aktuelle Graf ein [Substance-Graf](../../compositing-graphs/substance-compositing-graphs.md) ist, ist eine zweite Option aktiviert, mit der Sie *alle Knotenparameterfunktionen* in den Bereinigungsprozess einbeziehen können. Wenn also ein [Funktions-Graf](../../function-graphs/function-graphs.md), der einen Knotenparameterwert steuert, nicht verwendete Knoten enthält, wird dieser Graf ebenfalls nach denselben Regeln bereinigt.
 
-Nach Abschluss der Bereinigung wird ein Berichtsdialogfeld angezeigt. Weitere Details finden Sie in <b>Console</b>, als Protokolle mit dem Tag `GraphCleaner`. Diese Protokolle enthalten die Anzahl der entfernten Knoten pro Diagramm und Parameterfunktionen.
+Nach Abschluss der Bereinigung wird ein Berichtsdialogfeld angezeigt. Weitere Details finden Sie in <b>Console</b>, als Protokolle mit dem Tag `GraphCleaner`. Diese Protokolle enthalten die Anzahl der entfernten Knoten pro Graf und Parameterfunktionen.
 
-Die Bereinigung kann in allen betroffenen Diagrammen als *einzelne* Aktion rückgängig gemacht werden.
+Die Bereinigung kann für alle betroffenen Graf als *Einzelaktion* rückgängig gemacht werden.

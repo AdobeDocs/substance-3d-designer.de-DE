@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-circle.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-circle.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Spline Circle-Knoten, um runde Splines zum Erzeugen runder Muster und Formen zu erstellen.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Spline Circle
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/spline-circle-icon.png "Knotensymbol")
+![Knotensymbol](spline-circle.resources/spline-circle-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -39,113 +39,56 @@ Erzeugt einen einzelnen Spline-Effekt in Form eines Kreises.
 </tr>
 </table>
 
-## Eingangsanschlüsse
+<a name="inputs"></a>
 
-<b>Vorschau</b> *Graustufen* Die Vorschau der Eingabe-Splines als Graustufenbild.
+## Eingaben
 
-<b>Spline-Kabel</b> *Farbe* Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Eingabesplines:\
-<b> R</b> - X-Position\
-<b> G</b> - Y-Position\
-<b> B</b> - Height\
-<b>A</b> - Paketdaten:\
-* Signieren: Die Spline ist geschlossen (negativ) oder offen (positiv).\
-* Absoluter Wert: Thickness + 1.
+|  |  |
+|:---|:---|
+| <b>Vorschau</b> <i>Graustufen</i> | Die Vorschau der Eingabe-Splines als Graustufenbild. |
+| <b>Spline-Kabel</b> <i>Farbe</i> | Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Eingabesplines:<br><b>R</b> - X position<br><b>G</b> - Y position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>- Sign: Spline ist geschlossen (negativ) oder offen (positiv);<br>- Absolute Wert: Thickness + 1. |
+| <b>Spline-Daten</b> <i>Farbe</i> | Zusätzliche Daten der Eingabe-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.<br><b>R</b> - Tangenten X<br><b>G</b> - Tangenten Y<br><b>B</b> - Nicht verwendet<br><b>A</b> - Nicht verwendet |
+| <b>Spline-Betrag</b> <i>Integer</i> | Die Anzahl der Eingabe-Splines. |
 
-<b>Spline-Daten</b> *Farbe* Zusätzliche Daten der Eingabe-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.\
-<b> R</b> - Tangenten X\
-<b> G</b> - Tangenten Y\
-<b> B</b> - Nicht verwendet\
-<b> A</b> - Nicht verwendet
+<a name="outputs"></a>
 
-<b>Spline-Betrag</b> *Integer* Die Anzahl der Eingabe-Splines.
+## Ausgaben
 
-## Ausgangsanschlüsse
+|  |  |
+|:---|:---|
+| <b>Vorschau</b> <i>Graustufen</i> | Die Vorschau der Ausgabe-Splines als Graustufenbild. |
+| <b>Spline-Kabel</b> <i>Farbe</i> | Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Ausgabesplines.<br><b>R</b> - X-Position<br><b>G</b> - Y-Position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>- Sign: Spline ist geschlossen (negativ) oder offen (positiv);<br>- Absolute Wert: Thickness + 1. |
+| <b>Spline-Daten</b> <i>Farbe</i> | Zusätzliche Daten der in den RGBA-Kanälen eines Farbbilds codierten Ausgabe-Splines.<br><b>R</b> - Tangenten X<br><b>G</b> - Tangenten Y<br><b>B</b> - Nicht verwendet<br><b>A</b> - Nicht verwendet |
+| <b>Spline-Betrag</b> <i>Integer</i> | Die Anzahl der Ausgabe-Splines. |
 
-<b>Vorschau</b> *Graustufen* Die Vorschau der Ausgabe-Splines als Graustufenbild.
-
-<b>Spline-Kabel</b> *Farbe* Die Koordinaten der Punkte der Ausgabesplines, die in den RGBA-Kanälen eines Farbbildes codiert sind.\
-<b>R</b> - X-Position\
-<b>G</b> - Y-Position\
-<b>B</b> - Height\
-<b>A</b> - Paketdaten:\
-* Signieren: Die Spline ist geschlossen (negativ) oder offen (positiv).\
-* Absoluter Wert: Thickness + 1.
-
-<b>Spline-Daten</b> *Farbe* Zusätzliche Daten der Ausgabe-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.\
-<b>R</b> - Tangenten X\
-<b>G</b> - Tangenten Y\
-<b>B</b> - Nicht verwendet\
-<b>A</b> - Nicht verwendet
-
-<b>Spline-Betrag</b> *Integer* Die Anzahl der Ausgabe-Splines.
+<a name="parameters"></a>
 
 ## Parameter
 
-<b>Kreisradius</b> *Gleitend*\
-Passt den Radius des Kreises im Texturraum an.
-
-<b>Kreisvordrehung</b> *Gleitend*\
-Wendet eine Drehung auf den Grundkreis an, bevor Größe angewendet wird.
-
-<b>Kreisgröße</b> *Float2*\
-Passt die horizontale Größe (X) und vertikale Größe (Y) des Kreises an.
-
-<b>Kreis nach Drehung</b> *Gleitend*\
-Wendet eine Drehung auf den Grundkreis an, nachdem die Größe angewendet wurde.
-
-<b>Kreisposition</b> *Float2*\
-Legt die Position des Mittelpunkts des Kreises im Texturraum fest.
-
-<b>Thickness starten</b> *Gleitend* Passt die Thickness des Anfangspunkts des Kreises an.\
-Diese Thickness wird entlang der Spline bis zur Thickness &quot;Ende&quot; interpoliert.\
-Hinweis: Thickness wird von bestimmten Spline-Knoten verwendet.
-
-<b>Thickness beenden</b> *Gleitend* Passt die Thickness des Kreisendpunkts an.\
-Diese Thickness wird entlang der Spline zur Start-Thickness interpoliert.\
-Hinweis: Thickness wird von bestimmten Spline-Knoten verwendet.
-
-<b>Height starten</b> *Gleitend* Passt das Height des Anfangspunkts des Kreises an, wobei ein niedrigerer Wert eine niedrigere oder tiefere Position bedeutet.\
-Dieses Height wird entlang der Spline zum Height Ende interpoliert.
-
-<b>Height beenden</b> *Gleitend* Passt das Height des Kreisendpunkts an, wobei ein niedrigerer Wert eine niedrigere oder tiefere Position bedeutet.\
-Dieses Height wird entlang des Spline vom Height Start interpoliert.
-
-<b>Zuschneiden</b> *Gleitkomma2* Verschiebt den Start- und Endpunkt des Splines entlang des Kreises.\
-Diese Werte werden normalisiert.
-
-<b>Spirale</b> *Gleitend* Verschiebt den Anfangspunkt des Kreises von seinem Radius zu seinem Mittelpunkt.\
-Der Abstand vom Mittelpunkt wird dann entlang der Spline bis zum Ende der Spline interpoliert.\
-Dieser Wert wird normalisiert.
-
-<b>Spiraldrehungen</b> *Gleitend* Definiert die Anzahl der Windungen, die von der Spirale um ihren Mittelpunkt gemacht werden.
-
-<b>Spiralleistung</b> *Gleitend* Wendet eine Leistungskurve auf den Abstand vom Mittelpunkt an, der zum Zeichnen der Spirale verwendet wird.\
-Ein Wert, der größer als Eins ist, bedeutet, dass ein größerer Teil der Spirale in der Nähe der Mitte verbleibt.
-
-<b>Richtung spiegeln</b> *Boolescher Wert*\
-Kehrt die Richtung des Spline um.
-
-<b>Einheitliche Verteilung</b> *Boolescher Wert*\
-Wenn dieser Wert auf &quot;true&quot; gesetzt ist, werden die Punkte des Splines in gleichmäßigen Abständen vom Anfang bis zum Ende ausgerichtet.
-
-<b>Spline anfügen</b> *Boolescher Wert*\
-Fügt den generierten Spline am Ende der Liste der Splines hinzu, die mit den <b>Spline</b>-Eingängen verbunden sind.
-
-<b>Nicht-quadratische Korrektur </b>*Boolesch* Passen Sie die Punktpositionen und die Thickness an, um die Spline-Form in nicht-quadratischen Auflösungen beizubehalten.\
-Dies wirkt sich auch auf die einheitliche Verteilung aus.
-
-+++Vorschau
-<b>Richtungshelfer anzeigen</b> *Boolescher Wert* Zeigt einen Punkt am Anfang des Splines und eine Pfeilspitze an seinem Ende in der Vorschauausgabe an.
-
-<b>Umschlag der Thickness anzeigen</b> *Boolescher Wert*\
-Zeigt an den Kanten der Spline-Thickness zusätzliche Linien an.
-
-<b>Segmentierungsbetrag</b> *Integer* Passt die Anzahl der Segmente an, die zum Zeichnen der Spline-Visualisierung in der Vorschauausgabe verwendet werden.\
-Je höher der Wert, desto glatter die Linie.
-
-<b>Thickness (px)</b> *Gleitend* Passt die Thickness der Spline-Visualisierung in der Vorschauausgabe in Pixel an.
-
-+++
+|  |  |
+|:---|:---|
+| <b>Kreisradius</b> <i>Gleitend</i> | Passt den Radius des Kreises im Texturraum an. |
+| <b>Kreisvordrehung</b> <i>Gleitend</i> | Wendet eine Drehung auf den Grundkreis an, bevor Größe angewendet wird. |
+| <b>Kreisgröße</b> <i>Float2</i> | Passt die horizontale Größe (X) und vertikale Größe (Y) des Kreises an. |
+| <b>Kreis nach Drehung</b> <i>Gleitend</i> | Wendet eine Drehung auf den Grundkreis an, nachdem die Größe angewendet wurde. |
+| <b>Kreisposition</b> <i>Float2</i> | Legt die Position des Mittelpunkts des Kreises im Texturraum fest. |
+| <b>Thickness starten</b> <i>Gleitend</i> | Passt die Thickness des Anfangspunkts des Kreises an. Diese Thickness wird entlang des Splines zur End-Thickness interpoliert.<br>Hinweis: Thickness wird von bestimmten Spline-Knoten verwendet. |
+| <b>Thickness beenden</b> <i>Gleitend</i> | Passt die Thickness des Kreisendpunkts an. Diese Thickness wird entlang der Spline zur Start-Thickness interpoliert.<br>Hinweis: Thickness wird von bestimmten Spline-Knoten verwendet. |
+| <b>Height starten</b> <i>Gleitend</i> | Passt das Height des Anfangspunkts des Kreises an, wenn ein niedrigerer Wert eine niedrigere oder tiefere Stelle bedeutet. Dieses Height wird entlang der Spline zum Height Ende interpoliert. |
+| <b>Height beenden</b> <i>Gleitend</i> | Passt das Height des Kreisendpunkts an, wenn ein niedrigerer Wert eine niedrigere oder tiefere Stelle bedeutet. Dieses Height wird entlang des Spline vom Height Start interpoliert. |
+| <b>Zuschneiden</b> <i>Float2</i> | Verschiebt den Start- und Endpunkt der Spline entlang des Kreises. Diese Werte werden normalisiert. |
+| <b>Spirale</b> <i>Gleitend</i> | Verschiebt den Anfangspunkt des Kreises von seinem Radius zu seinem Mittelpunkt. Der Abstand vom Mittelpunkt wird dann entlang der Spline bis zum Ende der Spline interpoliert. Dieser Wert wird normalisiert. |
+| <b>Spiraldrehungen</b> <i>Gleitend</i> | Definiert die Anzahl der Windungen, die die Spirale um ihren Mittelpunkt herum erzeugt. |
+| <b>Spiralleistung</b> <i>Gleitend</i> | Wendet eine Leistungskurve auf den Abstand vom Mittelpunkt an, der zum Zeichnen der Spirale verwendet wird. Ein Wert, der größer als Eins ist, bedeutet, dass ein größerer Teil der Spirale in der Nähe der Mitte verbleibt. |
+| <b>Richtung spiegeln</b> <i>Boolescher Wert</i> | Kehrt die Richtung des Spline um. |
+| <b>Einheitliche Verteilung</b> <i>Boolescher Wert</i> | Wenn dieser Wert auf &quot;true&quot; gesetzt ist, werden die Punkte des Splines in gleichmäßigen Abständen vom Anfang bis zum Ende ausgerichtet. |
+| <b>Spline anfügen</b> <i>Boolescher Wert</i> | Fügt den generierten Spline am Ende der Liste der Splines hinzu, die mit den <b>Spline</b>-Eingängen verbunden sind. |
+| <b>Nicht-quadratische Korrektur</b> <i>Boolescher Wert</i> | Passen Sie die Punktpositionen und die Thickness an, um die Spline-Form in nicht quadratischen Auflösungen beizubehalten. Dies wirkt sich auch auf die einheitliche Verteilung aus. |
+| <b>Vorschau</b> |  |
+| <b>Richtungshelfer anzeigen</b> <i>Boolescher Wert</i> | Zeigt einen Punkt am Anfang des Splines und eine Pfeilspitze an seinem Ende in der Vorschauausgabe an. |
+| <b>Umschlag der Thickness anzeigen</b> <i>Boolescher Wert</i> | Zeigt an den Kanten der Spline-Thickness zusätzliche Linien an. |
+| <b>Segmentierungsbetrag</b> <i>Integer</i> | Passt die Anzahl der Segmente an, die zum Zeichnen der Spline-Visualisierung in der Vorschauausgabe verwendet werden. Je höher der Wert, desto glatter die Linie. |
+| <b>Thickness (px)</b> <i>Gleitend</i> | Passt die Thickness der Spline-Visualisierung in der Vorschauausgabe in Pixel an. |
 
 ## Beispiele
 
@@ -153,12 +96,12 @@ Je höher der Wert, desto glatter die Linie.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](../../../../../../assets/SplineCircle-Variant1.jpg "Knotenbeispiel 1")
+![Knotenbeispiel 1](spline-circle.resources/SplineCircle-Variant1.jpg "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](../../../../../../assets/SplineCircle-Demo.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](spline-circle.resources/SplineCircle-Demo.gif "Knotenbeispiel 2")
 
 </td>
 </tr>
@@ -168,12 +111,12 @@ Je höher der Wert, desto glatter die Linie.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Beispiel 3](../../../../../../assets/SplineCircle-Variant2.jpg "Beispiel 3")
+![Beispiel 3](spline-circle.resources/SplineCircle-Variant2.jpg "Beispiel 3")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Beispiel 4](../../../../../../assets/SplineCircle-Variant3.jpg "Beispiel 4")
+![Beispiel 4](spline-circle.resources/SplineCircle-Variant3.jpg "Beispiel 4")
 
 </td>
 </tr>

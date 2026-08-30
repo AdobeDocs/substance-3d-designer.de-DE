@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-filter-node.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Filterknoten "Krümmung", um aus Height-Maps Krümmungszuordnungen zum Erkennen konvexer und konkaver Flächen zu generieren.
+description: Verwenden Sie den Krümmung-Filterknoten, um Krümmungs-Map aus Höhen-Map für die Erkennung konvexer und konkaver Flächen zu erzeugen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Curvature (Filter Node)
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Krümmung (Filterknoten)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 2%
+source-wordcount: '123'
+ht-degree: 4%
 
 ---
 
@@ -22,37 +22,40 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/curvature-1.png){width="128px"}
+![](curvature-filter-node.resources/curvature-1.png){width="128px"}
 
-## Krümmung
-
-**In:** *Filter/Effekte*
-
-**Einfach**
+<b>In:</b> Filters > Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Führt eine einfache, harte Konversion der Einmalpasskrümmung zur Eingabe von [Normalmap](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) durch. Die resultierende Karte enthält weiße Farbtöne für konvexe Bereiche und schwarze Farbtöne für konkave Bereiche. Die Krümmung erzeugt immer pixeldünne Linien und scharfe Übergänge.
+Führt eine einfache, harte Konversion der Einmalpasskrümmung zur Eingabe von [Normalmap](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) durch. Die resultierende Karte enthält weiße Farbtöne für konvexe Bereiche und schwarze Farbtöne für konkave Bereiche. Krümmung erzeugt immer pixelgenaue Linien und gestochen scharfe Übergänge.
 
-Dieser Knoten ist nützlich, um bestimmte Kanten schnell hervorzuheben oder abzudunkeln. Sie ist im Vergleich zu [Kurvenglättung](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) (mit höherwertigen Ergebnissen) und [Kurvenglättung](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md) (mit mehr Optionen) beschränkt.
-
-## Parameter
-
-* **Intensität**: *0.0 - 10.0* Intensität des Effekts. Erhöht den Kontrast des Ergebnisses.
-* **Normales Format**: *DirectX, OpenGL*\
-  Wechselt zwischen verschiedenen Normalmap-Formaten (invertiert den grünen Kanal).
-
-## Beispielbilder
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/curvature-ex.png" width="300px"/></div> |
-| --- |
-|  |
+Dieser Knoten ist nützlich, um bestimmte Kanten schnell hervorzuheben oder abzudunkeln. Sie ist im Vergleich zu [Krümmung Smooth](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) (das qualitativ hochwertigere Ergebnisse liefert) und [Krümmung Sobel](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md) (das mehr Optionen bietet) begrenzt.
 
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Intensität</b> <i>0.0 - 10.0</i> | Intensität des Effekts. Erhöht den Kontrast des Ergebnisses. |
+| <b>Normales Format</b> <i>DirectX, OpenGL</i> | Wechselt zwischen verschiedenen Normalmap-Formaten (invertiert den grünen Kanal). |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="curvature-filter-node.resources/curvature-ex.png" />
+        </td>
+    </tr>
 </table>

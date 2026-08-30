@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie SetSequence-Knoten in FXMaps verwenden, um sequenzielle Muster und prozedurale Varianten zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Verwenden der SetSequence-Knoten
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Bei der Arbeit mit Funktionen in <b>FX-Maps</b> befinden Sie sich gelegentlich i
 </td>
 <td style="border: 0;" valign="top">
 
-![Set- und Sequenzknoten](../../../../assets/image2017-3-17-15-5-5.png "Set- und Sequenzknoten")
+![Set- und Sequenzknoten](using-the-set-sequence-nodes.resources/image2017-3-17-15-5-5.png "Set- und Sequenzknoten")
 
 </td>
 </tr>
@@ -61,7 +61,7 @@ Standardmäßig ist die von diesem Knoten festgelegte Variable *only*, auf die i
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Knoten festlegen](../../../../assets/image2017-3-17-15-12-52.png "Knoten festlegen")
+![Knoten festlegen](using-the-set-sequence-nodes.resources/image2017-3-17-15-12-52.png "Knoten festlegen")
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ In diesem Beispiel wurde der Variablenname auf &quot;**`myVariable`**&quot; fest
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel festlegen](../../../../assets/image2018-8-30-17-45-35.png "Knotenbeispiel festlegen")
+![Knotenbeispiel festlegen](using-the-set-sequence-nodes.resources/image2018-8-30-17-45-35.png "Knotenbeispiel festlegen")
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ Die Ausgabe der *zweiten Verzweigung* wird dann an die Ausgabe des Knotens über
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Sequenzknoten](../../../../assets/image2017-3-17-15-17-38.png "Sequenzknoten")
+![Sequenzknoten](using-the-set-sequence-nodes.resources/image2017-3-17-15-17-38.png "Sequenzknoten")
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ Zuvor wird jedoch die Variable &quot;`<b>myVariable</b>`&quot; mit dem Gleitkomm
 </td>
 <td style="border: 0;" valign="top">
 
-![Beispiel für Sequenzknoten](../../../../assets/image2018-8-30-17-49-41.png "Beispiel für Sequenzknoten")
+![Beispiel für Sequenzknoten](using-the-set-sequence-nodes.resources/image2018-8-30-17-49-41.png "Beispiel für Sequenzknoten")
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ Zuvor wird jedoch die Variable &quot;`<b>myVariable</b>`&quot; mit dem Gleitkomm
 
 Sie können beispielsweise *zuerst eine Variable festlegen*, *ihren Wert zu einem späteren Zeitpunkt aktualisieren* und dann *ihren endgültigen Wert lesen*, während Sie sicherstellen, dass diese Aktionen *in einer bestimmten Reihenfolge ausgeführt werden*.
 
-![Sequenzknoten verkettet](../../../../assets/image2018-8-30-17-52-27.png "Sequenzknoten verkettet")
+![Sequenzknoten verkettet](using-the-set-sequence-nodes.resources/image2018-8-30-17-52-27.png "Sequenzknoten verkettet")
 
 ## Variable Sichtbarkeit
 
@@ -148,7 +148,7 @@ Wir werden die gesamte Berechnung in der Parameterfunktion <b>Farbe/Luminanz</b>
 </td>
 <td style="border: 0;" valign="top">
 
-![Quadranteneigenschaften](../../../../assets/image2018-8-30-18-1-6.png "Quadranteneigenschaften")
+![Quadranteneigenschaften](using-the-set-sequence-nodes.resources/image2018-8-30-18-1-6.png "Quadranteneigenschaften")
 
 </td>
 </tr>
@@ -167,13 +167,13 @@ Beachten Sie, dass die **Position**-Eigenschaft bereits durch einen Zufallswert 
 </td>
 <td style="border: 0;" valign="top">
 
-![Funktion für Farbe/Luminanz des Quadranten](../../../../assets/image2018-8-30-18-4-46.png "Funktion für Farbe/Luminanz des Quadranten")
+![Funktion für Farbe/Luminanz des Quadranten](using-the-set-sequence-nodes.resources/image2018-8-30-18-4-46.png "Funktion für Farbe/Luminanz des Quadranten")
 
 </td>
 </tr>
 </table>
 
-![Verstreute Muster](../../../../assets/image2018-8-30-18-5-30.png "Verstreute Muster")
+![Verstreute Muster](using-the-set-sequence-nodes.resources/image2018-8-30-18-5-30.png "Verstreute Muster")
 
 <table>
 <tr style="border: 0;">
@@ -184,7 +184,7 @@ Nachdem die Variable &quot;`myRotation`&quot; vorhanden ist und einen Wert aufwe
 </td>
 <td style="border: 0;" valign="top">
 
-![Menü für die Parameterfunktion der Musterrotation](../../../../assets/image2018-8-30-18-7-57.png "Menü für die Parameterfunktion der Musterrotation")
+![Menü für die Parameterfunktion der Musterrotation](using-the-set-sequence-nodes.resources/image2018-8-30-18-7-57.png "Menü für die Parameterfunktion der Musterrotation")
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ In der Funktion wird der Wert des `myRotation`-Parameters mithilfe eines **Get F
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Gleitende Ausgabe der Musterrotation abrufen](../../../../assets/image2018-8-30-18-10-58.png "Gleitende Ausgabe der Musterrotation abrufen")
+![Gleitende Ausgabe der Musterrotation abrufen](using-the-set-sequence-nodes.resources/image2018-8-30-18-10-58.png "Gleitende Ausgabe der Musterrotation abrufen")
 
 </td>
 </tr>
@@ -207,4 +207,4 @@ In der Funktion wird der Wert des `myRotation`-Parameters mithilfe eines **Get F
 
 Die Luminanz steuert jetzt auch die Drehung.
 
-![Gedrehte Muster](../../../../assets/image2018-8-30-18-12-25.png "Gedrehte Muster")
+![Gedrehte Muster](using-the-set-sequence-nodes.resources/image2018-8-30-18-12-25.png "Gedrehte Muster")

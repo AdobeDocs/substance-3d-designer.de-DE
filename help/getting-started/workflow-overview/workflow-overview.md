@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ''
 description: Lernen Sie den grundlegenden Workflow zur Erstellung von Verfahrensmaterialien in Substance 3D Designer kennen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Workflow-Übersicht
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Substance 3D Designer ist ein knotenbasierter Editor. Das bedeutet, dass fast je
 
 [Diagrammtypen](#graph-types)
 
-![Datenfluss vereinfacht](../../assets/graph-direction.png "Datenfluss vereinfacht")
+![Datenfluss vereinfacht](workflow-overview.resources/graph-direction.png "Datenfluss vereinfacht")
 
 ## Knotenbasierter Arbeitsablauf
 
@@ -40,29 +40,29 @@ Das Arbeiten in Designer unterscheidet sich von anderen 2D-Bildbearbeitungsprogr
 
 Der Hauptvorteil besteht darin, dass Ihr Arbeitsablauf <b>nicht linear</b> wird. Im Gegensatz zu Aktionen, die manuell in einem Verlaufsstapel ausgeführt werden, können Sie einen Knoten jederzeit austauschen oder ändern. Wenn du feststellst, dass deine allererste Anpassung des Kontrasts, die das Ergebnis deines Bildes bis zum Ende beeinflusst, zu viel war, kannst du immer noch zurückgehen und sie anpassen oder sogar ganz ausschneiden, ohne die gesamte Arbeit zu verlieren, die du danach ausgeführt hast.
 
-![Graph-Instanzen vereinfacht](../../assets/sub-graph.png "Graph-Instanzen vereinfacht")
+![Graph-Instanzen vereinfacht](workflow-overview.resources/sub-graph.png "Graph-Instanzen vereinfacht")
 
 ## Arbeitsablauf für Grafikinstanzen
 
-Das Instanziieren von Diagrammen ist ein wichtiger Prozess in Designer. Damit können Sie Ihre eigenen Knoten erstellen, indem Sie jede beliebige Größe oder jeden Diagrammtyp verwenden und diesen als neuen Knoten-Baustein verpacken. Diese Arten von Knoten werden als &quot;Graph-Instanzen&quot; bezeichnet. Dadurch können Sie viel effizienter sein, Zeit sparen und die Arbeit mit anderen teilen. Haben Sie zum Beispiel eine tolle Technik für Kantenverschleiß entwickelt? Erstelle eine Graph-Instanz daraus, und verwende sie selbst wieder, teile sie mit der Community oder deinem Team!
+Das Instanziieren von Diagrammen ist ein wichtiger Prozess in Designer. Damit können Sie Ihre eigenen Knoten erstellen, indem Sie jede beliebige Größe oder jeden Diagrammtyp verwenden und diesen als neuen Knoten-Baustein verpacken. Diese Knotentypen werden als &quot;Grapheninstanzen&quot; bezeichnet. Dadurch können Sie viel effizienter arbeiten, Zeit sparen und die Arbeit mit anderen teilen. Haben Sie zum Beispiel eine tolle Technik für Kantenverschleiß entwickelt? Erstellen Sie eine Grapheninstanz daraus und verwenden Sie sie selbst wieder, teilen Sie sie mit der Community oder Ihrem Team!
 
-Weitere Informationen zu Graph-Instanzen in [Substance-Graphen](../../compositing-graphs/substance-compositing-graphs.md) finden Sie in der Dokumentation in einem [dedizierten Abschnitt](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) darüber.
+Weitere Informationen zu Grapheninstanzen in [Substance-Grafen](../../compositing-graphs/substance-compositing-graphs.md) finden Sie in der Dokumentation in einem [dedizierten Abschnitt](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) darüber.
 
-![Graph-Parameter vereinfacht](../../assets/parameters-5.png "Graph-Parameter vereinfacht")
+![Vereinfachte Graf-Parameter](workflow-overview.resources/parameters-5.png "Vereinfachte Graf-Parameter")
 
 ## Benutzerdefinierte Parameter
 
-Jeder Knoten in der Kette von Vorgängen hat irgendeine Form der Steuerung: -Schaltflächen, Schiebereglern und Einstellungen anpassen, die das Endergebnis beeinflussen. Wenn du ein Sub-Graph erstellst oder deine Substance-Datei in eine andere Anwendung exportieren möchtest, kannst du ein eigenes &quot;Control Panel&quot; für deine Dateien erstellen. Jeder, der das Graph verwendet, kann es mit einem völlig einzigartigen Control Panel optimieren und verändern, was unendliche Möglichkeiten bietet. [Informieren Sie sich hier über das allgemeine Konzept benutzerdefinierter Parameter](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md), oder gehen Sie in der Tiefe weiter, und [beginnen Sie mit dem Verfügbarmachen von Parametern](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
+Jeder Knoten in der Kette von Vorgängen hat irgendeine Form der Steuerung: -Schaltflächen, Schiebereglern und Einstellungen anpassen, die das Endergebnis beeinflussen. Wenn Sie einen Sub-Graf erstellen oder Ihre Substance-Datei in eine andere Anwendung exportieren möchten, können Sie ein eigenes &quot;Bedienfeld&quot; für Ihre Dateien erstellen, sodass jeder, der den Graf verwendet, es mit einem völlig eindeutigen Bedienfeld optimieren und ändern kann, was unzählige Möglichkeiten legt. [Informieren Sie sich hier über das allgemeine Konzept benutzerdefinierter Parameter](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md), oder gehen Sie in der Tiefe weiter, und [beginnen Sie mit dem leg von Parametern](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 
 ## Diagrammtypen
 
-Im Folgenden finden Sie eine Zusammenfassung der drei Diagrammtypen, die Sie in Substance 3D Designer bearbeiten können, sowie einen Link zum entsprechenden Abschnitt in der Dokumentation.
+Im Folgenden finden Sie eine Zusammenfassung der drei Dokumenttypen, die Sie in Substance 3D Designer bearbeiten können, sowie einen Link zum entsprechenden Abschnitt in der Graf-Dokumentation.
 
 <table>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
+[![](workflow-overview.resources/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -73,7 +73,7 @@ Im Folgenden finden Sie eine Zusammenfassung der drei Diagrammtypen, die Sie in 
 
 Die Ergebnisse können in Form eines einfachen Schwarz-Weiß-Musters vorliegen, eines Filters, der nur auf anderen Bildern ausgeführt wird und keinen Inhalt für sich selbst generiert, oder sogar in Form eines vollwertigen prozeduralen Materials mit mehreren Kanälen.
 
-Substance-Graphen sind [&#x200B; der am weitesten unterstützte Diagrammtyp &#x200B;](../../getting-started/overview/overview.md) und können exportiert und in einer Vielzahl von verschiedenen Workflows verwendet werden.
+Substance-Graphen sind [ der am weitesten unterstützte Diagrammtyp ](../../getting-started/overview/overview.md) und können exportiert und in einer Vielzahl von verschiedenen Workflows verwendet werden.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Substance-Graphen sind [&#x200B; der am weitesten unterstützte Diagrammtyp &#x2
 Im Folgenden finden Sie einige typische Beispiele für häufige Anwendungsfälle.
 
 +++Einfache Form
-![Einfache Form im Substance-Diagramm](../../assets/simpleshape.png "Einfache Form im Substance-Diagramm"){width="512px"}
+![Einfache Form im Substance-Diagramm](workflow-overview.resources/simpleshape.png "Einfache Form im Substance-Diagramm"){width="512px"}
 
 
 
@@ -95,7 +95,7 @@ Der Text mit der Nummer oder die Thickness der Kante kann extern belichtet werde
 +++
 
 +++Einstellungsfilter
-![Korrekturfilter im Substance-Diagramm](../../assets/simplefilter.png "Korrekturfilter im Substance-Diagramm"){width="512px"}
+![Korrekturfilter im Substance-Diagramm](workflow-overview.resources/simplefilter.png "Korrekturfilter im Substance-Diagramm"){width="512px"}
 
 
 
@@ -106,7 +106,7 @@ Die im Histogramm eingestellten Kontrastwerte können belichtet werden, was dies
 +++
 
 +++Vollständiges Material
-![Vollständiges Material im Substance-Diagramm](../../assets/simplematerial.png "Vollständiges Material im Substance-Diagramm"){width="512px"}
+![Vollständiges Material im Substance-Diagramm](workflow-overview.resources/simplematerial.png "Vollständiges Material im Substance-Diagramm"){width="512px"}
 
 
 
@@ -120,7 +120,7 @@ In diesem Beispiel werden [Verknüpfungserstellungsmodi](../../interface/the-gra
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/function-1.png){width="120px"}](https://substance3d.adobe.com/)
+[![](workflow-overview.resources/function-1.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -129,7 +129,7 @@ In diesem Beispiel werden [Verknüpfungserstellungsmodi](../../interface/the-gra
 
 Funktionen <b>verarbeiten einzelne Werte </b> (Ganzzahlen, Gleitkommawerte, Vektoren) anstelle von Bilddaten (ganze Pixelsätze). Funktionen sind auch Diagramme mit Knotennetzwerken, aber die [Nodes verwendet](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md) und die Schnittstelle unterscheidet sich von [normalen Substance-Diagrammen](../../compositing-graphs/substance-compositing-graphs.md). Der Workflow basiert vollständig auf <b>mathematischen Vorgängen</b> und zeigt keine Bildvorschau-Miniaturansichten an. Dadurch wird die <b>Arbeit mit Substance 3D Designer </b> um einiges weiter entwickelt.
 
-Funktionen können in vielen verschiedenen Kontexten verwendet werden, wobei die Hauptfunktionen darin bestehen, das Verhalten von [einem verfügbar gemachten Parameter](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) zu ändern, das Verhalten von [Pixelprozessoren](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) oder [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) zu verfassen und [Werte](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) in einem Substance-Diagramm zu verwenden.
+Funktionen können in vielen verschiedenen Kontexten verwendet werden, wobei die Hauptfunktionen darin bestehen, das Verhalten von [einem freigelegte Parameter](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) zu ändern, das Verhalten von [Pixelprozessoren](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) oder [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) zu verfassen und [Werte](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) in einem Substance-Graf zu verwenden.
 
 </td>
 </tr>
@@ -140,18 +140,18 @@ Funktionen können in vielen verschiedenen Kontexten verwendet werden, wobei die
 Im Folgenden finden Sie einige Beispiele aus gängigen Anwendungsfällen für Substance-Funktionsdiagramme.
 
 +++Einfache Funktion
-![Einfaches Funktionsdiagramm](../../assets/lerpfunction.png "Einfaches Funktionsdiagramm"){width="256px"}
+![Einfaches Funktionsdiagramm](workflow-overview.resources/lerpfunction.png "Einfaches Funktionsdiagramm"){width="256px"}
 
 
 
-Eine einfache Funktion im Kontext eines exponierten Parameters. Es erhält einen Eingangs-Gleitkommawert namens &quot;Intensität&quot;, der von 0 bis 1 geht (ein Bereich, der leicht zu verstehen ist) und weist ihn einem festgelegten Bereich von 0,1 bis 0,8 neu zu. Wenn der Benutzer die Intensität auf 0 setzt, wird intern 0,1 verwendet, wenn die Benutzeroberfläche auf 1 gesetzt ist, 0,8 wird verwendet und jeder Wert dazwischen wird linear interpoliert. Dieser Funktionstyp wird häufig verwendet, wenn [&#x200B; Parameter &#x200B;](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) verfügbar macht, aber benutzerdefinierte Funktionen verwendet werden.
+Eine einfache Funktion im Kontext eines exponierten Parameters. Es erhält einen Eingangs-Gleitkommawert namens &quot;Intensität&quot;, der von 0 bis 1 geht (ein Bereich, der leicht zu verstehen ist) und weist ihn einem festgelegten Bereich von 0,1 bis 0,8 neu zu. Wenn der Benutzer die Intensität auf 0 setzt, wird intern 0,1 verwendet, wenn die Benutzeroberfläche auf 1 gesetzt ist, 0,8 wird verwendet und jeder Wert dazwischen wird linear interpoliert. Dieser Funktionstyp wird häufig verwendet, wenn [ Parameter ](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) verfügbar macht, aber benutzerdefinierte Funktionen verwendet werden.
 
 Diese Funktion könnte auch als *lerp(0.1, 0.8, Intensity)* in einem Pseudocode ähnlich wie HLSL oder GLSL geschrieben werden.
 
 +++
 
 +++Erweiterte Funktion
-![Erweiterte Funktion](../../assets/pixel-function.png "Erweiterte Funktion"){width="512px"}
+![Erweiterte Funktion](workflow-overview.resources/pixel-function.png "Erweiterte Funktion"){width="512px"}
 
 
 

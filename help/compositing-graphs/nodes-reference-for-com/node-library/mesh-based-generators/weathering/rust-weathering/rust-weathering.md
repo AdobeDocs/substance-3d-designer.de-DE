@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rust-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rust-weathering.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Rost Weathering-Knoten, um Netzmuster auf der Grundlage von Netzgeometrie zu generieren, um realistische Rost-Korrosionseffekte zu erzeugen.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Verwitterung im Rost
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 1%
+source-wordcount: '237'
+ht-degree: 14%
 
 ---
 
@@ -22,73 +22,66 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rust-weathering.png){width="128px"}
+![](rust-weathering.resources/rust-weathering.png){width="128px"}
 
-## Verwitterung im Rost
-
-**In:** *Mesh-basierte Generatoren**/Wetter*
-
-**Komplex**
+<b>In:</b> Mesh-basierte Generatoren > Verwitterung
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-## Parameter
-
-### Eingaben
-
-* **Ambient-Verdeckung**: *Graustufen-Eingabe*\
-  Durch Baking erzeugte Map für interne Effekte und Maskierung.
-* **Krümmung**: *Graustufen-Eingabe*\
-  Durch Baking erzeugte Map für interne Effekte und Maskierung.
-* **Position**: *Farbeingabe*
-* **Maske** : *Graustufen-Eingabe*\
-  Maskenschlitz zum Maskieren der Knoteneffekte. Mit dem Parameter &quot;Maske&quot; umschaltbar.
-
-### Parameter
-
-* **Kanäle**
-  * Schalten Sie die Materialkanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanzkarten anstelle von &quot;Metallisch/Raueit&quot; verwenden.
-* **Erweitert**
-  * **Normales Format**: *DirectX, OpenGL*\
-    Wechselt zwischen verschiedenen Normalmap-Formaten (invertiert den grünen Kanal).
-  * **Maske**: *False/True*\
-    Schaltet die Verwendung der Maskenkarte ein oder aus.
-* **Effekt**
-  * **Rost-Verteilung**: *0.0 - 1.0*
-  * **Smoothness wird verteilt**: *0.0 - 1.0*
-  * **Schadensskala &#39;Vernish&#39;**: *0.0 - 1.0*
-  * **Drips-Intensität**: *0.0 - 1.0*
-  * **Anzahl der Drips-Samples**: *0 - 32*
-  * **Drips-Smoothness**: *0.0 - 1.0*
-* **Überblenden**
-  * **Diffuse Intensität**: *0.0 - 1.0*\
-    Mischungsstärke des Diffusors.
-  * **Grundfarbintensität**: *0.0 - 1.0*\
-    Mischungsstärke der Grundfarbe.
-  * **Normalintensität**: *0.0 - 32.0*\
-    Die Füllkraft von &quot;Normal&quot;.
-  * **Specular-Intensität**: *0.0 - 1.0*\
-    Die Stärke des Speculars.
-  * **Glanzintensität**: *0.0 - 1.0*\
-    Die Stärke des Glanzes beim Mischen.
-  * **Intensität der Raueit**: *0.0 - 1.0*\
-    Die Stärke der Raueit.
-  * **Metallische Intensität**: *0.0 - 1.0*\
-    Mischfestigkeit des Metallic.
-  * **Umgebungsintensität der Verdeckung**: *0.0 - 1.0*\
-    Mischfestigkeit der Ambient-Verdeckung.
-  * **Height-Intensität**: *0.0 - 1.0*\
-    Die Stärke des Heights beim Mischen.
-
-## Beispielbilder
-
-![](../../../../../../assets/rust-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Umgebungs-Verdeckung</b> <i>Graustufen-Eingabe</i> | Durch Baking erzeugte Map für interne Effekte und Maskierung. |
+| <b>Krümmung</b> <i>Graustufen-Eingabe</i> | Durch Baking erzeugte Map für interne Effekte und Maskierung. |
+| <b>Position</b> <i>Farbeingabe</i> |  |
+| <b>Maske</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. Mit dem Parameter &quot;Maske&quot; umschaltbar. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Kanäle</b> | Schalten Sie die Materialkanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanzkarten anstelle von &quot;Metallisch/Raueit&quot; verwenden. |
+| <b>Erweitert</b> |  |
+| <b>Normales Format</b> <i>DirectX, OpenGL</i> | Wechselt zwischen verschiedenen Normalmap-Formaten (invertiert den grünen Kanal). |
+| <b>Maske</b> <i>False/True</i> | Schaltet die Verwendung der Maskenkarte ein oder aus. |
+| <b>Effekt</b> |  |
+| <b>Rost-Verteilung</b> <i>0.0 - 1.0</i> |  |
+| <b>Smoothness wird verteilt</b> <i>0.0 - 1.0</i> |  |
+| <b>Schadensskala &#39;Vernish&#39;</b> <i>0.0 - 1.0</i> |  |
+| <b>Tropfintensität</b> <i>0.0 - 1.0</i> |  |
+| <b>Anzahl der Drips-Samples</b> <i>0 - 32</i> |  |
+| <b>Drips-Smoothness</b> <i>0.0 - 1.0</i> |  |
+| <b>Überblenden</b> |  |
+| <b>Diffuse-Intensität</b> <i>0.0 - 1.0</i> | Mischungsstärke des Diffusors. |
+| <b>Intensität der Grundfarbe</b> <i>0.0 - 1.0</i> | Mischungsstärke der Grundfarbe. |
+| <b>Normalintensität</b> <i>0.0 - 32.0</i> | Die Füllkraft von &quot;Normal&quot;. |
+| <b>Specular-Intensität</b> <i>0.0 - 1.0</i> | Die Stärke des Speculars. |
+| <b>Glanz-Intensität</b> <i>0.0 - 1.0</i> | Die Stärke des Glanzes beim Mischen. |
+| <b>Intensität der Rauheit</b> <i>0.0 - 1.0</i> | Die Stärke der Raueit. |
+| <b>Metallic Intensität</b> <i>0.0 - 1.0</i> | Stärke der Metallic. |
+| <b>Ambient occlusion-Intensität</b> <i>0.0 - 1.0</i> | Mischfestigkeit der Ambient-Verdeckung. |
+| <b>Height-Intensität</b> <i>0.0 - 1.0</i> | Die Stärke des Heights beim Mischen. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="rust-weathering.resources/rust-ex.gif" />
+        </td>
+    </tr>
 </table>

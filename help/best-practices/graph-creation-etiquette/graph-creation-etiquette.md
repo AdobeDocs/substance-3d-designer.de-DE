@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/best-practices/graph-creation-etiquette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/graph-creation-etiquette.html"
 breadcrumb-title: ''
 description: Informieren Sie sich über Best Practices und die Etikette beim Erstellen von Substance-Graphen, um saubere, verwaltbare und effiziente Workflows zu gewährleisten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Diagrammerstellung-Etikette
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Diagrammelemente sind Hilfsobjekte, die neben und um Ihre Knoten in [der Diagram
 
 Der wichtigste Faktor, der zu saubereren, leichter lesbaren Graphen führt, ist die Platzierung von Frames um Kerngruppen des Graphen. Ohne Frames ist ein großer Graph fast unleserlich, und selbst kleine Diagramme werden viel einfacher zu verstehen, sobald Frames gezeichnet werden. Ein großer Vorteil von Frames ist, dass ihre <b> Namen immer in der gleichen Skalierung gerendert werden</b>, auch wenn Sie sehr weit auszoomen.
 
-![Bilder in Substance-Graphen](../../assets/frames.gif "Bilder in Substance-Graphen")
+![Bilder in Substance-Graphen](graph-creation-etiquette.resources/frames.gif "Bilder in Substance-Graphen")
 
 Mithilfe von Frames ist es viel einfacher, die Vorgänge in einem Diagramm zu verstehen. Sie können Ihnen als Autor helfen, Monate später wieder bei Ihrer Arbeit zu sein, oder als anderen Benutzer, z. B. als Kollegen, um sich in einem Diagramm zurechtzufinden, an das sie nicht gewöhnt sind.
 
@@ -57,7 +57,7 @@ Kommentare und Pins sind nur sekundär zu Frames und kein absolutes Muss für gu
 
 Die Ein- und Ausgänge müssen an den äußersten Enden der Diagramme platziert werden: Alle Ausgänge auf der rechten Seite, alle Eingänge auf der linken Seite, jeder vertikal ausgerichtet. Dadurch lassen sie sich leichter finden und identifizieren.
 
-![Eingabe- und Ausgabeplatzierung](../../assets/inout.gif "Eingabe- und Ausgabeplatzierung")
+![Eingabe- und Ausgabeplatzierung](graph-creation-etiquette.resources/inout.gif "Eingabe- und Ausgabeplatzierung")
 
 Das obige Beispiel ist ein Extremfall: Frames werden nicht immer benötigt oder möglich, aber es sollte klar sein, dass die vertikale Ausrichtung von In- und Output viel klarer ist als die zufällige, gemischte Platzierung.
 
@@ -65,7 +65,7 @@ Das obige Beispiel ist ein Extremfall: Frames werden nicht immer benötigt oder 
 
 Bei großen, sehr langen Diagrammen werden manchmal Verknüpfungen über einen sehr großen Bereich hinweg erstellt. Dies führt zu Verwirrung, wenn Verknüpfungsdrähte den Graph ohne viel Kontrolle durchqueren. Mit der Tastenkombination &quot;Alt + Umschalt + Ziehen&quot; können Sie diese Links neu organisieren und auf einem anderen Pfad umleiten, indem Sie einen Link unterteilen und einen zusätzlichen Handle in der Mitte hinzufügen. Es wird empfohlen, dies in Szenarien zu verwenden, in denen es sinnvoll ist.
 
-![Link-Umleitung](../../assets/linkjreroute.gif "Link-Umleitung")
+![Link-Umleitung](graph-creation-etiquette.resources/linkjreroute.gif "Link-Umleitung")
 
 ### Bezeichnung, Kennung und Verwendung
 
@@ -73,15 +73,15 @@ Alle Diagramme, die für die Freigabe oder Veröffentlichung bestimmt sind, soll
 
 Die vorgeschlagenen Standardbezeichnungen reichen nie aus. Nehmen Sie sich die Zeit und Mühe, den angezeigten Parametern und Ihren In- und Ausgaben benutzerdefinierte Bezeichnungen hinzuzufügen.
 
-![Bezeichner und Bezeichnung](../../assets/output-label.png "Bezeichner und Bezeichnung")
+![Bezeichner und Bezeichnung](graph-creation-etiquette.resources/output-label.png "Bezeichner und Bezeichnung")
 
 Versuchen Sie, keine Kennzeichnung zu haben, und die Beschriftung unterscheidet sich zu stark: Wenn der Bezeichner an einer anderen Stelle (in mehreren Funktionen) verwendet wird, kann es sehr schwierig sein, herauszufinden, welche UI-Eigenschaft mit welcher Variablen verknüpft ist.
 
-![Klarheit des Bezeichners](../../assets/labelvsidentifier.png "Klarheit des Bezeichners")
+![Klarheit des Bezeichners](graph-creation-etiquette.resources/labelvsidentifier.png "Klarheit des Bezeichners")
 
 Versuchen Sie, die Beschriftungen den Begriffen in Frames (Frame-Beschriftungen) und Kommentaren anzupassen. Es erleichtert, herauszufinden, welcher Abschnitt des Diagramms mit welchem exponierten Parameter verknüpft ist
 
-![Übereinstimmende Bild- und Parameterbezeichnungen](../../assets/match-labels.png "Übereinstimmende Bild- und Parameterbezeichnungen")
+![Übereinstimmende Bild- und Parameterbezeichnungen](graph-creation-etiquette.resources/match-labels.png "Übereinstimmende Bild- und Parameterbezeichnungen")
 
 ### Parametereinstellungen
 
@@ -103,7 +103,7 @@ Bei der Verwendung von Farb- und Graustufendaten ist große Sorgfalt erforderlic
 * Idealerweise werden Daten so lange wie möglich in Graustufen gespeichert und nur dann konvertiert, wenn sie unbedingt benötigt werden. Dies reduziert die Komplexität und spart Performance.
 * Die Ein- und Ausgaben sollten mit dem richtigen Typ erstellt oder eingerichtet werden: Es ist z. B. nicht sinnvoll, den &quot;mask&quot;-Eingang auf color festzulegen, wenn er zur Verwendung als binäre Maske in Graustufen konvertiert wird.
 
-![Farb- und Graustufenkonvertierungen](../../assets/colorgray01.png "Farb- und Graustufenkonvertierungen")
+![Farb- und Graustufenkonvertierungen](graph-creation-etiquette.resources/colorgray01.png "Farb- und Graustufenkonvertierungen")
 
 ### Auflösungssteuerung
 

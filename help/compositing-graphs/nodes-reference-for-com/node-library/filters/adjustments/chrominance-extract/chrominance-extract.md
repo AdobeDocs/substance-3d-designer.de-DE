@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/chrominance-extract.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/chrominance-extract.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Chrominanz extrahieren , um Chrominanzinformationen aus Texturen für die Farbanalyse und -verarbeitung zu extrahieren.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Chrominanzextraktion
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 4%
+source-wordcount: '38'
+ht-degree: 5%
 
 ---
 
@@ -22,33 +22,29 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/chrominance-extract.png)
+![](chrominance-extract.resources/chrominance-extract.png)
 
-## Chrominanzextraktion
-
-**In:** *Filter/Korrekturen*
-
-**Einfach**
+<b>In:</b> Filters > Adjustments
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Extrahiert den Chrominanzwert aus der Eingabe. Dadurch wird die Luminanz entfernt.
 
-## Parameter
-
-*Keine Parameter.*
-
-## Beispielbilder
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/chrominance-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="chrominance-extract.resources/chrominance-example.png" />
+        </td>
+    </tr>
 </table>

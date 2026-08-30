@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-render.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Spline-Render, um Splines als Texturen mit anpassbaren Breiten-, Farb- und Füllmethoden zu rendern.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Spline-Render
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,9 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/spline-render-icon.png "Knotensymbol")
+![Knotensymbol](spline-render.resources/spline-render-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -43,99 +39,55 @@ Zeichnet Zeichenfolgen von Segmenten entlang der Eingabe <b>Splines</b> über de
 </tr>
 </table>
 
-## Eingangsanschlüsse
+<a name="inputs"></a>
 
-<b>Hintergrund </b>*Graustufen* Das Graustufenbild, über das Splines gezeichnet werden sollen.
+## Eingaben
 
-<b>Spline-Kabel</b> *Farbe* Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Eingabesplines:\
-<b> R</b> - X-Position\
-<b> G</b> - Y-Position\
-<b> B</b> - Height\
-<b>A</b> - Paketdaten:\
-* Signieren: Die Spline ist geschlossen (negativ) oder offen (positiv).\
-* Absoluter Wert: Thickness + 1.
+|  |  |
+|:---|:---|
+| <b>Hintergrund</b> <i>Graustufen</i> | Das Graustufenbild, über das Splines gezeichnet werden sollen. |
+| <b>Spline-Kabel</b> <i>Farbe</i> | Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Eingabesplines:<br><b>R</b> - X-Position<br><b>G</b> - Y-Position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br> - Sign: Spline ist geschlossen (negativ) oder offen (positiv);<br> - Absolute Wert: Thickness + 1. |
+| <b>Spline-Daten</b> <i>Farbe</i> | Zusätzliche Daten der Eingabe-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.<br><b>R</b> - Tangenten X<br><b>G</b> - Tangenten Y<br><b>B</b> - Nicht verwendet<br><b>A</b> - Nicht verwendet |
+| <b>Spline-Betrag</b> <i>Integer</i> | Die Anzahl der Eingabe-Splines. |
 
-<b>Spline-Daten</b> *Farbe* Zusätzliche Daten der Eingabe-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.\
-<b> R</b> - Tangenten X\
-<b> G</b> - Tangenten Y\
-<b> B</b> - Nicht verwendet\
-<b> A</b> - Nicht verwendet
+<a name="outputs"></a>
 
-<b>Spline-Betrag</b> *Integer* Die Anzahl der Eingabe-Splines.
+## Ausgaben
 
-## Ausgangsanschlüsse
+|  |  |
+|:---|:---|
+| <b>Ausgabe</b> <i>Graustufen</i> | Das Ergebnisbild des Zeichnens der Eingabe-Splines über dem Hintergrund. |
 
-<b>Ausgabe</b> *Graustufen*\
-Das Ergebnisbild des Zeichnens der Eingabe-Splines über dem Hintergrund.
+<a name="parameters"></a>
 
 ## Parameter
 
-<b>Modus</b> *Integer* Die Methode zum Auswählen, welche Splines gezeichnet werden sollen:
-* *Spline-Liste zeichnen*: Zeichnen aller Splines in der Eingabeliste
-* *Spline zeichnen*: Zeichnen Sie nur den angegebenen Spline aus der Eingabeliste.
-* *Spline-Bereich zeichnen*: Zeichnen Sie nur die Splines im angegebenen Bereich aus der Eingabeliste.
-
-<b>Spline-Index zeichnen</b> *Integer* (Verfügbar, wenn &quot;Modus&quot; auf &quot;Einzelne Spline zeichnen&quot; festgelegt ist)Der Index des Splines, der gezeichnet werden soll.
-
-<b>Spline-Bereich zeichnen</b> *Integer2* (Verfügbar, wenn &quot;Modus&quot; auf &quot;Spline-Bereich zeichnen&quot; festgelegt ist)Der Indexbereich für die Splines, die gezeichnet werden sollen.
-
-<b>Richtungshelfer anzeigen</b> *Boolescher Wert* Zeichnet für jeden Spline einen Punkt am Anfang des Splines und eine Pfeilspitze am Ende.
-
-<b>Segmentierungsbetrag</b> *Integer* Passt die Anzahl der entlang der Splines gezeichneten Segmente an.\
-Je höher der Wert, desto glatter die Linien.
-
-<b>Spline-Betrag für Umschlag</b> *Integer*\
-Die Anzahl der doppelten Segmente, die entlang der Thickness jedes Splines gezeichnet werden sollen.
-
-<b>Start</b> *Gleitend* Verschiebt den Anfang des Bereichs des Splines, der gezeichnet werden soll.\
-Der Wert stellt die normalisierte Länge des Splines dar.
-
-<b>Ende</b> *Gleitend* Verschiebt das Ende des Bereichs des Splines, der gezeichnet werden soll.\
-Der Wert stellt die normalisierte Länge des Splines dar.
-
-<b>Thickness-Größenmodus</b> *Integer* Die Methode zum Berechnen der Thickness der gezeichneten Segmente:
-* *Image*: Der Wert wird im Texturraum normalisiert, wobei 1 die volle Breite des Bildes ist. die Thickness ist relativ zur Texturauflösung;
-* *Pixel*: Der Wert ist eine absolute Anzahl von Pixeln in der Textur, wobei 1 ein ganzes Pixel ist. Die Thickness ist von der Texturauflösung getrennt.
-
-<b>Thickness (Bild)</b> *Gleitkommawert* (verfügbar, wenn &quot;Bildgrößenmodus&quot; auf &quot;Thickness&quot; festgelegt ist)Die Thickness der gezeichneten Segmente, die im Texturraum normalisiert wurde, wobei 1 die volle Bildbreite ist.
-
-<b>Thickness (px)</b> *Gleitkommawert* (verfügbar, wenn &quot;Pixelgrößenmodus&quot; auf &quot;Thickness&quot; festgelegt ist)Die Thickness der gezeichneten Segmente als absolute Pixelanzahl in der Textur, wobei 1 ein Vollpixel ist.
-
-<b>Verbindungen aktivieren</b> *Boolean* Füllt die Lücken zwischen den einzelnen Segmenten, die entlang der Splines gezeichnet werden, mithilfe von Datenträgern.
-
-<b>Nicht-quadratische Korrektur </b>*Boolesch* Passen Sie die Punktpositionen und die Thickness an, um die Spline-Form in nicht-quadratischen Auflösungen beizubehalten.\
-Dies wirkt sich auch auf die einheitliche Verteilung aus.
-
-+++Color
-<b>Hintergrundintensität</b> *Gleitend* Der Wert multipliziert mit dem Hintergrundeingabebild.
-
-<b>Spline-Stil</b> *Integer* Die zum Einfärben der Splines verwendete Methode:
-* *Farbfläche*: Die Segmente werden mit einem einheitlichen Graustufenwert gezeichnet.
-* *Verlauf*: Ein Farbverlauf von Schwarz zu Weiß wird auf jede Zeichenfolge von Segmenten von Anfang bis Ende angewendet.
-* *Height*: Das Height der Splines wird als Graustufenwert zum Zeichnen der Segmente verwendet.
-
-<b>Spline-Farbe</b> *Gleitend* Der einheitliche Graustufenwert, der zum Zeichnen der Segmente verwendet wird.\
-Wenn ein anderer Spline-Stil als &quot;Farbfläche&quot; ausgewählt ist, wird diese Farbe mit der formatierten Farbe multipliziert.
-
-<b>Zufällige Luminanz</b> *Gleitend* Wendet für jede Zeichenfolge ungeschnittener Segmente in einem Spline einen zufälligen Offset im angegebenen Bereich auf den Graustufenwert an, der zum Zeichnen dieser Zeichenfolge verwendet wird.
-
-<b>Füllmethode</b> *Integer* Die Methode zum Mischen der Farben des Hintergrunds und der überlappenden Segmente, die entlang der Splines gezeichnet werden:
-* *Max*: Der hellste Wert wird verwendet.
-* *Hinzufügen*: Die Werte werden addiert.
-
-+++
-
-+++Zufällige Segmente
-<b>Zufallssegmente beginnen</b> *Gleitend* Passt die Wahrscheinlichkeit an, dass die Zeichenfolge der Segmente, die näher am Anfang des Splines liegt, abgeschnitten wird.
-
-<b>Ende zufälliger Segmente</b> *Gleitend* Passt die Wahrscheinlichkeit an, dass die Zeichenfolge der Segmente, die näher am Ende des Splines liegt, abgeschnitten wird.
-
-<b>Zufallsversatz</b> *Gleitend* Legt den maximalen Versatz fest, der auf jedes Schnittsegment entlang seiner Normalen angewendet wird.\
-Dieser Parameter hat keine Auswirkungen, wenn Start und Ende beide auf 0 gesetzt sind.
-
-<b>Zentrum für zufällige Verschiebung</b> *Gleitend* Verschiebt den Mittelpunkt des zufälligen Versatzes, der auf jedes Schnittsegment angewendet wird, entlang seiner Normalen.
-
-+++
+|  |  |
+|:---|:---|
+| <b>Modus</b> <i>Integer</i> | Die Methode zum Auswählen der zu zeichnenden Splines:<br>- <i>Spline-Liste zeichnen</i>: Alle Splines in der Eingabeliste zeichnen;<br>- <i>Einzelne Spline zeichnen</i>: Zeichnen Sie nur den angegebenen Spline aus der Eingabeliste;<br>- <i>Spline-Bereich zeichnen</i>: Zeichnen Sie nur die Splines im angegebenen Bereich aus der Eingabeliste. |
+| <b>Spline-Index zeichnen</b> <i>Integer</i> | (Verfügbar, wenn &quot;Modus&quot; auf &quot;Einzelne Spline zeichnen&quot; eingestellt ist) Der Index des Splines, der gezeichnet werden soll. |
+| <b>Spline-Bereich zeichnen</b> <i>Integer2</i> | (Verfügbar, wenn &quot;Modus&quot; auf &quot;Spline-Bereich zeichnen&quot; eingestellt ist) Der Indexbereich für die Splines, die gezeichnet werden sollen. |
+| <b>Richtungshelfer anzeigen</b> <i>Boolescher Wert</i> | Zeichnet für jeden Spline-Effekt einen Punkt am Anfang und eine Pfeilspitze an ihrem Ende. |
+| <b>Segmentierungsbetrag</b> <i>Integer</i> | Passt die Anzahl der entlang der Splines gezeichneten Segmente an.<br>Ein höherer Wert führt zu glatteren Linien. |
+| <b>Spline-Betrag für Umschlag</b> <i>Integer</i> | Die Anzahl der doppelten Segmente, die entlang der Thickness jedes Splines gezeichnet werden sollen. |
+| <b>Start</b> <i>Gleitend</i> | Versetzt den Anfang des Abschnitts des Spline-Effekts, der gezeichnet werden soll.<br>Der Wert stellt die normalisierte Länge des Splines dar. |
+| <b>Ende</b> <i>Gleitend</i> | Versetzt das Ende des Abschnitts des Spline-Effekts, der gezeichnet werden soll.<br>Der Wert stellt die normalisierte Länge des Splines dar. |
+| <b>Thickness-Größenmodus</b> <i>Integer</i> | Die Methode zum Berechnen der Thickness der gezeichneten Segmente:<br>- <i>Image</i>: Der Wert wird im Texturraum normalisiert, wobei 1 die volle Breite des Bildes ist. Die Thickness ist relativ zur Auflösung der Textur;<br>- <i>Pixel</i>: Der Wert ist eine absolute Anzahl von Pixeln in der Textur, wobei 1 ein ganzes Pixel ist. Die Thickness ist von der Texturauflösung getrennt. |
+| <b>Thickness (Bild)</b> <i>Gleitend</i> | (verfügbar, wenn &quot;Bildgrößenmodus&quot; auf &quot;Thickness&quot; eingestellt ist) Die Thickness der gezeichneten Texturen, die im Bildbereich normalisiert wurden, wobei 1 die volle Bildbreite ist. |
+| <b>Thickness (px)</b> <i>Gleitend</i> | (verfügbar, wenn &quot;Pixelgrößenmodus&quot; auf &quot;Thickness&quot; gesetzt ist) Die Thickness der gezeichneten Segmente als absolute Pixelanzahl in der Textur, wobei 1 ein Vollpixel ist. |
+| <b>Verbindungen aktivieren</b> <i>Boolescher Wert</i> | Füllt die Lücken zwischen den einzelnen Segmenten, die entlang der Splines gezeichnet werden, mithilfe von Discs. |
+| <b>Nicht-quadratische Korrektur</b> <i>Boolescher Wert</i> | Passen Sie die Punktpositionen und die Thickness an, um die Spline-Form in nicht quadratischen Auflösungen beizubehalten.<br>Dies wirkt sich auch auf die einheitliche Verteilung aus. |
+| <b>Farbe</b> |  |
+| <b>Hintergrundintensität</b> <i>Gleitend</i> | Der Wert, der mit dem Eingabebild Hintergrund multipliziert wird. |
+| <b>Spline-Stil</b> <i>Integer</i> | Die zum Einfärben der Splines verwendete Methode:<br>- <i>Solid</i>: Die Segmente werden mit einem einheitlichen Graustufenwert gezeichnet;<br>- <i>Verlauf</i>: Ein Farbverlauf von Schwarz zu Weiß wird entlang jeder Segmentzeichenfolge von Anfang bis Ende angewendet;<br>- <i>Height</i>: Das Height der Splines wird als Graustufenwert zum Zeichnen der Segmente verwendet. |
+| <b>Spline-Farbe</b> <i>Gleitend</i> | Der einheitliche Graustufenwert, der zum Zeichnen der Segmente verwendet wird.<br>Wenn ein anderer Spline-Stil als &quot;Farbfläche&quot; ausgewählt ist, wird diese Farbe mit der formatierten Farbe multipliziert. |
+| <b>Zufällige Luminanz</b> <i>Gleitend</i> | Wendet für jede Zeichenfolge aus ungeschnittenen Segmenten in einem Spline einen zufälligen Offset im angegebenen Bereich auf den Graustufenwert an, der zum Zeichnen dieser Zeichenfolge verwendet wird. |
+| <b>Füllmethode</b> <i>Integer</i> | Die Methode zum Mischen der Farben des Hintergrunds und der überlappenden Segmente, die entlang der Splines gezeichnet werden: <br>- <i>Max</i>: Der hellste Wert wird verwendet;<br>- <i>Hinzufügen</i>: Die Werte werden addiert. |
+| <b>Zufällige Segmente</b> |  |
+| <b>Zufallssegmente beginnen</b> <i>Gleitend</i> | Passt die Wahrscheinlichkeit an, dass die Zeichenfolge aus Segmenten, die näher am Anfang des Splines liegt, abgeschnitten wird. |
+| <b>Ende zufälliger Segmente</b> <i>Gleitend</i> | Passt die Wahrscheinlichkeit an, dass die Segmentfolge näher am Ende des Spline-Effekts abgeschnitten wird. |
+| <b>Zufallsversatz</b> <i>Gleitend</i> | Legt den maximalen Versatz fest, der auf jedes Schnittsegment entlang seiner Normalen angewendet wird.<br>Dieser Parameter hat keine Auswirkungen, wenn Start und Ende beide auf 0 festgelegt sind. |
+| <b>Zentrum für zufällige Verschiebung</b> <i>Gleitend</i> | Verschiebt den Mittelpunkt des zufälligen Versatzes, der auf jedes Schnittsegment angewendet wird, entlang seiner Normalen. |
 
 ## Beispiele
 
@@ -146,11 +98,11 @@ Dieser Parameter hat keine Auswirkungen, wenn Start und Ende beide auf 0 gesetzt
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineRender-Variant2-Before.jpg" alt="SplineRender-Variant2-Before">
+      <img src="spline-render.resources/SplineRender-Variant2-Before.jpg" alt="SplineRender-Variant2-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineRender-Variant2-After.jpg" alt="SplineRender-Variant2-After">
+      <img src="spline-render.resources/SplineRender-Variant2-After.jpg" alt="SplineRender-Variant2-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -162,11 +114,11 @@ Dieser Parameter hat keine Auswirkungen, wenn Start und Ende beide auf 0 gesetzt
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
+      <img src="spline-render.resources/SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineRender-Variant1-After.jpg" alt="SplineRender-Variant1-After">
+      <img src="spline-render.resources/SplineRender-Variant1-After.jpg" alt="SplineRender-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -183,11 +135,11 @@ Dieser Parameter hat keine Auswirkungen, wenn Start und Ende beide auf 0 gesetzt
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
+      <img src="spline-render.resources/SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineRender-Variant3.jpg" alt="SplineRender-Variant3">
+      <img src="spline-render.resources/SplineRender-Variant3.jpg" alt="SplineRender-Variant3">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -196,21 +148,7 @@ Dieser Parameter hat keine Auswirkungen, wenn Start und Ende beide auf 0 gesetzt
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](../../../../../../assets/SplineRender-Demo.gif "Knotenbeispiel 1")
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![Knotenbeispiel 1](spline-render.resources/SplineRender-Demo.gif "Knotenbeispiel 1")
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-albedo.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-albedo.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Mehrere Winkel zu Albedo", um Albedo-Maps aus gescannten Bildern mit mehreren Winkeln zu extrahieren, um saubere Materialfarben zu erhalten.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mehrere Winkel zur Albedo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 1%
+source-wordcount: '238'
+ht-degree: 2%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-angle-to-albedo.png){width="128px"}
+![](multi-angle-to-albedo.resources/multi-angle-to-albedo.png){width="128px"}
 
-## Mehrere Winkel zur Albedo
-
-**In:** *Materialfilter/Scanverarbeitung*
-
-**Einfach**
+<b>In:</b> Materialfilter > Scanverarbeitung
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -47,22 +43,22 @@ Behalte im Hinterkopf: Je mehr Samples du hast und je größer der Unterschied i
 > 
 > [Der Blogpost &quot;Ihr Smartphone ist ein Materialscanner&quot; veranschaulicht diesen Prozess etwas besser.](https://www.allegorithmic.com/blog/your-smartphone-material-scanner)
 
-## Parameter
-
-### Eingaben
-
-* **Eingabe 1-8**: *Farbeingabe* Die Anzahl der Eingaben wird durch den Parameter &quot;Samples Amount&quot; bestimmt.
-
-### Parameter
-
-* **Beispielbetrag**: *2 - 8* Legt die Anzahl der Samples (Eingaben) fest, die bei der Verarbeitung verwendet werden sollen.
-
-## Beispielbilder
-
-|  |
-| --- |
-| Es sind keine Bilder an diese Seite angehängt. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Eingabe 1-8</b> <i>Farbeingabe</i> | Die Anzahl der Eingaben wird durch den Parameter Samples Amount bestimmt. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Beispielbetrag</b> <i>2 - 8</i> | Legt die Anzahl der Samples (Eingaben) fest, die bei der Verarbeitung verwendet werden sollen. |

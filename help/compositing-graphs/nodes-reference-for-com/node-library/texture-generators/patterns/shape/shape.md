@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Shape -Knoten, um grundlegende geometrische Formen zum Erstellen von Mustern und Texturen in Substance 3D Designer zu generieren.
+description: Verwenden Sie den Formknoten, um grundlegende geometrische Formen zum Erstellen von Mustern und Texturen in Substance 3D Designer zu generieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Form
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 2%
+source-wordcount: '217'
+ht-degree: 6%
 
 ---
 
@@ -22,45 +22,47 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-2.png){width="128px"}
+![](shape.resources/shape-2.png){width="128px"}
 
-## Form
-
-**In:** *Texturgeneratoren**/Muster*
-
-**Fortgeschrittene**
+<b>In:</b> Texturgeneratoren > Muster
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Generiert eine Vielzahl von prozeduralen Formen mit Optionen zum Ändern von Grundformen. Die Formen sind immer perfekt interpoliert und präzise.
+Generiert eine Vielzahl prozeduraler Formen mit Optionen zum Ändern von Grundformen. Die Formen sind immer perfekt interpoliert und präzise.
 
-Trotz seiner Einfachheit ist dies ein sehr nützlicher Knoten: Es ist der Baustein der meisten prozeduralen Heightmap-Generierung! Durch das Kombinieren einfacher Formen mit Transformationsknoten können Sie eine vollständig prozedurale Höhenkarte erstellen, die viel präziser ist als jede Bitmap.
-
-## Parameter
-
-* **Anordnen**: *1 - 16*\
-  Legt fest, wie oft das Ergebnis gekachelt werden soll.
-* **Muster**: *Quadrat, Disc, Paraboloid, Glocke, Gaußsch, Dorn, Pyramide, Ziegel, Gradation, Wellen, Halbglocke, Glockenrippe, Kreskant, Kapsel, Kegel*, Hemisphäre**\
-  Wählt die zu verwendende Musterform aus.
-* **Musterspezifisch**: *0.0 - 1.0*\
-  Hier können Sie die Form des ausgewählten Musters ändern. Der Effekt hängt vom ausgewählten Muster ab.
-* **Skalierung**: *0.0 - 1.0* Skaliert die gesamte Form.
-* **Größe**: *0.0 - 1.0* Ermöglicht eine ungleichmäßige Skalierung über die X- oder Y-Achse.
-* **Winkel**: *0.0 - 1.0* Dreht die gesamte Form.
-* **Drehung 45°**: *Falsch/Wahr* Dreht sich um voreingestellte 45 Grad.
-* **Quadratische Ausbreitung**: *False/True*\
-  Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen.
-* **Kachelung (nicht quadratisch)**&#x200B;**:** *Falsch/Wahr*Wenn die Quadratische Ausbreitung aktiviert ist, wird die Form ohne Unterdrücken kachelbar.
-
-## Beispielbilder
-
-![](../../../../../../assets/shape-ex.gif)
+Trotz seiner Einfachheit ist dies ein sehr nützlicher Knoten: Es ist der Baustein der prozeduralsten Höhenkartengeneration! Wenn Sie Grundformen mit transformieren Knoten kombinieren, können Sie eine vollständig prozedurale Höhenkarte erstellen, die viel präziser ist als jede Bitmap.
 
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Kacheln</b> <i>1 - 16</i> | Legt fest, wie oft das Ergebnis gekachelt werden soll. |
+| <b>Muster</b> <i>Quadrat, Datenträger, Paraboloid, Glocke, Gaußsch, Dorn, Pyramide, Ziegel, Abstufung, Wellen, Halbglocke, Rändelglocke, Kreskant, Kapsel, Kegel, Hemisphäre</i> | Wählt die zu verwendende Musterform aus. |
+| <b>Musterspezifisch</b> <i>0.0 - 1.0</i> | Hier können Sie die Form des ausgewählten Musters ändern. Der Effekt hängt vom ausgewählten Muster ab. |
+| <b>Skalierung</b> <i>0.0 - 1.0</i> | Skaliert die gesamte Form. |
+| <b>Größe</b> <i>0.0 - 1.0</i> | Ermöglicht eine ungleichmäßige Skalierung über die X- oder Y-Achse. |
+| <b>Winkel</b> <i>0.0 - 1.0</i> | Dreht die gesamte Form. |
+| <b>Drehung 45°</b> <i>False/True</i> | Dreht sich bei voreingestellten 45 Grad. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+| <b>Nicht quadratische Kachelung</b> <i>False/True</i> | Wenn die Quadratische Ausbreitung aktiviert ist, wird die Form ohne Quetschen gekachelt. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="shape.resources/shape-ex.gif" />
+        </td>
+    </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-grayscale-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-grayscale-color.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Flood Fill in Graustufenfarbe", um verknüpfte Bereiche mit Graustufenfarben zu füllen, um monochrome Muster zu erstellen.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Flood Fill zu GraustufenFarbe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 2%
+source-wordcount: '162'
+ht-degree: 4%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-to-grayscale.png){width="128px"}
+![](flood-fill-to-grayscale-color.resources/floodfill-to-grayscale.png){width="128px"}
 
-![](../../../../../../assets/floodfill-to-color.png){width="128px"}
+![](flood-fill-to-grayscale-color.resources/floodfill-to-color.png){width="128px"}
 
-## Flood Fill in zufällige Graustufen/Farben
-
-**In:** *Filter/Effekte*
-
-**&#x200B;**&#x200B;Einfach&#x200B;**&#x200B;**
+<b>In:</b> Filters > Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -43,18 +39,24 @@ Verwendet Flood Fill-Daten, um Graustufen- oder Farbwertfelder zu generieren. Im
 
 Es ist ein leistungsstarkes System, um jeder Zelle einen eindeutigen Wert oder eine Farbe zu geben, aber dennoch die Kontrolle zu behalten und sie auf einer vorbestimmten Eingabe zu basieren.
 
-## Parameter
-
-### Eingaben
-
-* **Flood Fill**: *Farbeingabe*
-* **Graustufen-/Farbeingabe**: *Graustufen-/Farbeingabe*
-
-### Parameter
-
-* **Luminanz-/Farbkorrektur**: *-1.0 - 1.0* Legen Sie den Bias- oder Basiswert für den Knoten fest. Wenn eine Graustufen- oder Farbeingabe verwendet wird, wird dies verwendet, um den Anfangswert als Ausgangspunkt zu ändern.
-* **Luminanz/Farbzufall**: *-1.0 - 1.0* Legen Sie den Umfang der Variation fest.
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Flood Fill</b> <i>Farbeingabe</i> |  |
+| <b>Graustufen-/Farbeingabe</b> <i>Graustufen-/Farbeingabe</i> |  |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Luminanz-/Farbkorrektur</b> <i>-1.0 - 1.0</i> | Legen Sie den Bias- oder Basiswert für den Knoten fest. Wenn eine Graustufen- oder Farbeingabe verwendet wird, wird dies verwendet, um den Anfangswert als Ausgangspunkt zu ändern. |
+| <b>Luminanz/Farbzufall</b> <i>-1.0 - 1.0</i> | Legen Sie den Umfang der Abweichung fest. |

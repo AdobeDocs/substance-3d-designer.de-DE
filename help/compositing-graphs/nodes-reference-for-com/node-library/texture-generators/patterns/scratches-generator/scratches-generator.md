@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/scratches-generator.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/scratches-generator.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Scratches-Generator, um prozedurale Kratzmuster zum Hinzufügen von Verschleiß und Beschädigung von Materialien zu erstellen.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Scratches Generator
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 0%
+source-wordcount: '397'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/scratches-generator.png)
+![](scratches-generator.resources/scratches-generator.png)
 
-## Scratches-Generator (Normal)
-
-**In:** *Texturgeneratoren**/Muster*
-
-**Komplex**
+<b>In:</b> Texturgeneratoren > Muster
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,37 +37,46 @@ Dies setzt zufällige Kratzer mit vielen Anpassungsoptionen, zum Beispiel, die e
 
 Es gibt eine Sonderversion von Scratches Generator, Scratches Generator Normal, die Normalmaps generiert, die auf der Tiefe dieser Kratzer basieren. Die meisten Optionen sind identisch, aber es gibt einige zusätzliche Parameter, die für die normalen Einstellungen deutlich gekennzeichnet sind (siehe unten).
 
-## Parameter
-
-* **Spline-Nummer**: *1 - 512* Anzahl der zu platzierenden Kratzer (Splines).
-* **Max. Segmente pro Spline**: *2 - 256* Anzahl der Segmente/Unterteilungen über die Länge eines Kratzers. Ermöglicht glattere Kurven und Verzerrungen. Dieser Effekt ist bei höheren Verzerrungen deutlicher zu erkennen.
-* **Spline-Drehung**: *0.0 - 1.0* Gleichmäßige Drehung aller Splines, um sie in einer Richtung auszurichten.
-* **Spline-Drehung zufällig**: *0.0 - 1.0* Winkelvariationen, die jeden Spline zufällig drehen.
-* **Spline-Skalierung**: *0.0 - 1.0* Skaliert alle Splines gleichmäßig.
-* **Spline-Skalierung zufällig**: *0.0 - 1.0* Skaliert jeden Spline zufällig einzeln.
-* **Spline-Verzerrung**: *0.0 - 1.0* Einheitliche Verzerrung über alle Splines hinweg.
-* **Spline-Verzerrung zufällig**: *0.0 - 1.0* Die Verzerrung jedes Splines wird einzeln zufällig festgelegt.
-* **Häufigkeit der Spline-Verzerrung**: *0.0 - 1.0* Legt die Häufigkeit der Verzerrung fest und steuert die Detailskalierung der Verzerrung.
-* **Spline Width**: *0.0 - 2.0* Legt die Breite aller Splines gleichmäßig fest.
-* **Spline Width Random**: *0.0 - 1.0* Die Spline-Breite jedes Splines wird einzeln zufällig festgelegt.
-* **Spline-Position zufällig**: *0.0 - 1.0* Die Position jedes Splines wird einzeln randomisiert. Je niedriger dieser Wert ist, desto mehr Splines werden zur Mitte der Arbeitsfläche gruppiert. Kann verwendet werden, um Flecken von Kratzern zu erstellen.
-* **Spline-Breite in px** festlegen: *Falsch/Wahr* Bestimmt die Einheiten, die für Spline-Breiteneinstellungen verwendet werden.
-* **Luminanzzufall (nur Graustufenversion)**: *0.0 - 1.0* Die Luminanz jedes Splines wird einzeln zufällig angepasst.
-* **Normalintensität (nur normale Version)**: *0.0 - 1.0* Legt die Stärke des Effekts &quot;Normal&quot; für jeden Spline global fest.
-* **&#x200B; Zufällige &#x200B;** bei normaler Intensität (nur normale Version)**&#x200B;**: *0.0 - 1.0*Randomisiert die normale Stärke für jeden Spline einzeln.
-* **&#x200B; Normales Format &#x200B;**(nur normale Version)**&#x200B;**: *DirectX, OpenGL*\
-  Wechselt zwischen verschiedenen Normalmap-Formaten (invertiert den grünen Kanal).
-* **Überblendmodus**: *Ohne, Anfang, Ende, Anfang + Ende* Legt fest, ob und in welche Richtung die Splines verblassen.
-* **Überblendungslänge**: *0.0 - 1.0* Legt die Länge des Überblendungseffekts fest, sofern oben aktiviert.
-* **Quadratische Ausbreitung**: *False/True*\
-  Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen.
-
-## Beispielbilder
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/scratches-ex1.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/scratches-ex2.png" width="256px"/></div> |
-| --- | --- |
-|  |  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Spline-Nummer</b> <i>1 - 512</i> | Anzahl der zu platzierenden Kratzer (Splines). |
+| <b>Max. Segmente pro Spline</b> <i>2 - 256</i> | Anzahl der Segmente/Unterteilungen über die Länge eines Kratzers. Ermöglicht glattere Kurven und Verzerrungen. Dieser Effekt ist bei höheren Verzerrungen deutlicher zu erkennen. |
+| <b>Spline-Drehung</b> <i>0.0 - 1.0</i> | Gleichmäßige Drehung aller Splines, um sie in einer Richtung auszurichten. |
+| <b>Spline-Drehung zufällig</b> <i>0.0 - 1.0</i> | Variation des Winkels, dreht jede Spline zufällig. |
+| <b>Spline-Skalierung</b> <i>0.0 - 1.0</i> | Skaliert alle Splines gleichmäßig. |
+| <b>Spline-Skalierung zufällig</b> <i>0.0 - 1.0</i> | Skaliert jeden Spline zufällig einzeln. |
+| <b>Spline-Verzerrung</b> <i>0.0 - 1.0</i> | Einheitliche Verzerrung über alle Splines hinweg. |
+| <b>Spline-Verzerrung zufällig</b> <i>0.0 - 1.0</i> | Die Verzerrung jedes Splines wird per Randomisierung angepasst. |
+| <b>Häufigkeit der Spline-Verzerrung</b> <i>0.0 - 1.0</i> | Legt die Häufigkeit der Verzerrung fest und steuert die Detailskala der Verzerrung. |
+| <b>Spline-Breite</b> <i>0.0 - 2.0</i> | Legt die Breite aller Splines gleichmäßig fest. |
+| <b>Spline Width Random</b> <i>0.0 - 1.0</i> | Die Spline-Breite jedes Splines wird einzeln zufällig angepasst. |
+| <b>Spline-Position zufällig</b> <i>0.0 - 1.0</i> | Die Position jedes Splines wird individuell zufällig geändert. Je niedriger dieser Wert ist, desto mehr Splines werden in die Mitte der Arbeitsfläche Cluster. Kann verwendet werden, um Flecken von Kratzern zu erstellen. |
+| <b>Spline-Breite in px</b> festlegen <i>False/True</i> | Bestimmt die Einheiten, die für die Einstellungen der Spline-Breite verwendet werden. |
+| <b>Luminanz zufällig (nur Graustufenversion)</b> <i>0.0 - 1.0</i> | Die Luminanz jedes Splines wird einzeln zufällig geändert. |
+| <b>Normalintensität (nur normale Version)</b> <i>0.0 - 1.0</i> | Legt die Stärke des Effekts &quot;Normal&quot; für jeden Spline global fest. |
+| <b>Zufällige Normalintensität (nur normale Version)</b> <i>0.0 - 1.0</i> | Randomisiert die normale Stärke für jeden Spline einzeln. |
+| <b>Normales Format (nur normale Version)</b> <i>DirectX, OpenGL</i> | Wechselt zwischen verschiedenen Normalmap-Formaten (invertiert den grünen Kanal). |
+| <b>Verblassen-Modus</b> <i>Keine, Start, Ende, Start + Ende</i> | Legt fest, ob und in welcher Richtung die Splines Verblassen. |
+| <b>Verblassen Länge</b> <i>0.0 - 1.0</i> | Legt die Länge des Verblassen-Effekts fest, sofern oben aktiviert. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="scratches-generator.resources/scratches-ex1.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="scratches-generator.resources/scratches-ex2.png" />
+        </td>
+    </tr>
 </table>

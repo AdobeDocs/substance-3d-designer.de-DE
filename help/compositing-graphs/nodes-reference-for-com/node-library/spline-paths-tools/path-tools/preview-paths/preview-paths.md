@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Pfadevorschau", um Pfaddaten in der 2D-Ansicht für das Debuggen und die Überprüfung zu visualisieren.
+description: Mit dem Knoten "Pfadevorschau" können Sie Pfaddaten in den 2D-Ansichten für das Debuggen und die Überprüfung anzeigen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Preview Paths
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Vorschau von Pfaden
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 1%
+source-wordcount: '169'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/preview-paths-icon.png "Knotensymbol")
+![Knotensymbol](preview-paths.resources/preview-paths-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Path Tools
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## Beschreibung
 
-Tracken Sie Segmente und Scheitelpunkte des Pfades auf dem angegebenen Hintergrund. Eine zufällige Farbe pro Pfad.
+Tracken Sie Segmente und Scheitelpunkt des Pfades auf dem angegebenen Hintergrund. Eine zufällige Farbe pro Pfad.
 
 Sie erhalten ein ähnliches Ergebnis wie die <b>Vorschau</b>-Ausgabe der [Maske zu Pfaden](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md), jedoch mit weiteren Optionen.
 
@@ -41,24 +41,24 @@ Sie erhalten ein ähnliches Ergebnis wie die <b>Vorschau</b>-Ausgabe der [Maske 
 </tr>
 </table>
 
-## Eingangsanschlüsse
+<a name="inputs"></a>
 
-<b>Hintergrund</b> *Farbe*\
-Ein Hintergrundbild über dem Bild mit dem Pfad wird angezeigt. Dadurch wird auch die Rendergröße gesteuert.
+## Eingaben
 
-<b>Pfade</b> *Farbe*\
-Eine Liste der codierten Segmentpfade. Verbinden Sie diese Eingabe mit dem Ergebnis einer [Maske mit Pfaden](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) oder mit einem anderen Pfadverarbeitungsknoten.
+|  |  |
+|:---|:---|
+| <b>Hintergrund</b> <i>Farbe</i> | Ein Hintergrundbild über dem Bild mit dem Pfad wird angezeigt. Dadurch wird auch die Rendergröße gesteuert. |
+| <b>Pfade</b> <i>Farbe</i> | Eine Liste der codierten Segmentpfade. Verbinden Sie diese Eingabe mit dem Ergebnis einer [Maske mit Pfaden](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) oder mit einem anderen Pfadverarbeitungsknoten. |
+
+<a name="parameters"></a>
 
 ## Parameter
 
-<b>Ecken anzeigen</b> *Boolescher Wert*\
-Zeigt auf jedem Scheitelpunkt ein Quadrat an, das als Ecke markiert ist (additive Überblendung).
-
-<b>Eckpunkte anzeigen</b> *Boolescher Wert*\
-Zeigt an, dass an jedem Scheitelpunkt eine Kreisform angezeigt wird (additive Überblendung). Ecken werden weiterhin als Quadrate angezeigt.
-
-<b>Segments-Thickness (px)</b> *Gleitend*\
-Passt die Thickness gerenderter Segmente in Pixel an.
+|  |  |
+|:---|:---|
+| <b>Ecken anzeigen</b> <i>Boolescher Wert</i> | Zeigt auf jedem Scheitelpunkt ein Quadrat an, das als Ecke markiert ist (additive Überblendung). |
+| <b>Scheitelpunkt anzeigen</b> <i>Boolescher Wert</i> | Zeigt auf jedem Scheitelpunkt eine Kreisform an (additive Füllmethode). Ecken werden weiterhin als Quadrate angezeigt. |
+| <b>Segments-Thickness (px)</b> <i>Gleitend</i> | Passt die Thickness gerenderter Segmente in Pixel an. |
 
 ## Beispiele
 
@@ -66,12 +66,12 @@ Passt die Thickness gerenderter Segmente in Pixel an.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](../../../../../../assets/PathsToSpline-Variant2-Before_1.jpg "Knotenbeispiel 1")
+![Knotenbeispiel 1](preview-paths.resources/PathsToSpline-Variant2-Before_1.jpg "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](../../../../../../assets/PathsToSpline-Variant1-Before_1.jpg "Knotenbeispiel 2")
+![Knotenbeispiel 2](preview-paths.resources/PathsToSpline-Variant1-Before_1.jpg "Knotenbeispiel 2")
 
 </td>
 </tr>

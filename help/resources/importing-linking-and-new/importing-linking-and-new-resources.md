@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/resources/importing-linking-and-new-resources.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/importing-linking-and-new-resources.html"
 breadcrumb-title: ''
 description: Lerne, wie du in Substance 3D Designer Ressourcen für deine Materialprojekte importierst, verknüpfst und neu erstellst.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ressourcen importieren/verknüpfen und neue Ressourcen erstellen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 2%
@@ -20,21 +20,21 @@ ht-degree: 2%
 
 # Ressourcen importieren/verknüpfen und neue Ressourcen erstellen
 
-[Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) unterstützt drei Modi zum Einbringen oder Erstellen neuer Ressourcen für die Verwendung in Ihrem Diagramm. Diese Ressourcen können von vielen verschiedenen Typen sein, einschließlich, aber nicht beschränkt auf [Bitmaps](../../resources/bitmap-resource/bitmap-resource.md), [Vektorgrafiken](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md), [3D-Szenen](../3d-scene-resource/3d-scene-resource.md) und [Schriften](../../resources/font-resource/font-resource.md). Auf dieser Seite werden die verschiedenen Methoden und der jeweils am besten geeignete Zeitpunkt erläutert.
+[Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) unterstützt drei Modi zum Einbringen oder Erstellen neuer Ressourcen für die Verwendung in Ihrem Diagramm. Diese Ressourcen können von vielen verschiedenen Typen sein, einschließlich, aber nicht beschränkt auf [Bitmaps](../../resources/bitmap-resource/bitmap-resource.md), [Vektorgrafiken](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md), [3D Szenen](../3d-scene-resource/3d-scene-resource.md) und [Schriften](../../resources/font-resource/font-resource.md). Auf dieser Seite werden die verschiedenen Methoden und der jeweils am besten geeignete Zeitpunkt erläutert.
 
-Auf alle Methoden kann durch Klicken auf RMB in einem Paket im Explorer zugegriffen werden.
+Auf alle Verfahren kann durch Klicken auf RMB auf einem Paket im Explorer zugegriffen werden.
 
 Die folgende Tabelle gibt einen kurzen Überblick über die unterschiedlichen Funktionen der Methoden.
 
 |                                                                                                                                                                         | Neu | Importieren | Verknüpfung |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| Diagramme ([Substance Diagramme](../../compositing-graphs/substance-compositing-graphs.md), [Substance Funktionsdiagramme](../../function-graphs/function-graphs.md) | <div><img alt="(Häkchen)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(Fehler)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(Fehler)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| [Bitmaps](../../resources/bitmap-resource/bitmap-resource.md),[Vektorgrafiken (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) | <div><img alt="(Häkchen)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(Häkchen)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(Häkchen)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| 3D-Szenen, [Schriften](../../resources/font-resource/font-resource.md) | <div><img alt="(Fehler)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(Fehler)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(Häkchen)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| Wird neben der SBS-Datei erstellt | <div><img alt="(Häkchen)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(Häkchen)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(Fehler)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| Bearbeitbar in Designer | <div><img alt="(Häkchen)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(Häkchen)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(Fehler)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| Externe Bearbeitungen werden automatisch synchronisiert | <div><img alt="(Fehler)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(Fehler)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(Häkchen)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| Eingebettet in veröffentlichte SBSAR-Dateien | <div><img alt="(Häkchen)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(Häkchen)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(Häkchen)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
+| Graf ([Substance Graf](../../compositing-graphs/substance-compositing-graphs.md), [Substance-Graf](../../function-graphs/function-graphs.md) | <div><img alt="(Häkchen)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(Fehler)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="(Fehler)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> |
+| [Bitmaps](../../resources/bitmap-resource/bitmap-resource.md),[Vektorgrafiken (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) | <div><img alt="(Häkchen)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(Häkchen)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(Häkchen)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
+| 3D-Szenen, [Schriften](../../resources/font-resource/font-resource.md) | <div><img alt="(Fehler)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="(Fehler)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="(Häkchen)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
+| Wird neben der SBS-Datei erstellt | <div><img alt="(Häkchen)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(Häkchen)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(Fehler)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> |
+| Bearbeitbar in Designer | <div><img alt="(Häkchen)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(Häkchen)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(Fehler)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> |
+| Externe Bearbeitungen werden automatisch synchronisiert | <div><img alt="(Fehler)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="(Fehler)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="(Häkchen)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
+| Eingebettet in veröffentlichte SBSAR-Dateien | <div><img alt="(Häkchen)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(Häkchen)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(Häkchen)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
 
 ## Neue Ressourcen
 
@@ -48,7 +48,7 @@ Das Importieren einer Ressource bedeutet, dass neben der SBS-Datei (im Ordner &q
 
 Eine importierte Ressource kann dann in Designer mit den [Bitmap-Malwerkzeugen](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md) oder [Vektorbearbeitungswerkzeugen](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) in der [2D-Ansicht](../../interface/2d-view/2d-view.md) bearbeitet werden, nachdem sie im Diagramm platziert wurde. Importierte Ressourcen sind nicht mehr mit ihren ursprünglichen Quelldateien verknüpft: Wenn Sie also die ursprünglich importierte Datei ändern, entfernen oder aktualisieren, hat dies keine Auswirkungen auf die Ressource in Designer.
 
-Bei [AxF-Dateien](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) ist der Vorgang etwas komplizierter. Substance-Graphen und Bitmap-Ressourcen werden aus dem AxF-Paket erstellt. Alle diese können jedoch weiterhin in ihren jeweiligen Editoren bearbeitet werden: Diagrammansicht oder 2D-Ansicht.
+Im Fall von [AxF-Dateien](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) ist der Prozess etwas komplizierter. Substance-Graphen und Bitmap-Ressourcen werden aus dem AxF-Paket erstellt. Alle diese können jedoch weiterhin in ihren jeweiligen Editoren bearbeitet werden: Diagrammansicht oder 2D-Ansicht.
 
 >[!WARNING]
 >
@@ -62,11 +62,11 @@ Das Verknüpfen ist ideal, wenn Sie wissen, dass Sie einen externen Editor verwe
 
 ## Ressourcen werden gelöscht
 
-Beim Löschen einer Ressource aus einem Paket wird das Dialogfeld <b>Entfernen des Elements bestätigen</b> angezeigt. Wenn Elemente, die gerade entfernt werden, von anderen Ressourcen *referenziert werden (z. B. [Grapheninstanzen](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) und [Bitmapressourcen](../../resources/bitmap-resource/bitmap-resource.md), die in [Substance-Graphen](../../compositing-graphs/substance-compositing-graphs.md) verwendet werden), enthält das Dialogfeld eine* Warnung und eine Liste *dieser Elemente.*
+Beim Löschen einer Ressource aus einem Paket wird das Dialogfeld <b>Entfernen des Elements bestätigen</b> angezeigt. Wenn Elemente, die gerade entfernt werden, von anderen Ressourcen *referenziert werden (z. B. [Grapheninstanzen](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) und [Bitmapressourcen](../../resources/bitmap-resource/bitmap-resource.md), die in [Substance-Grafen](../../compositing-graphs/substance-compositing-graphs.md) verwendet werden), enthält das Dialogfeld eine* Warnung und eine Liste *dieser Elemente.*
 
 >[!NOTE]
 >
 > Wir empfehlen, diese Elemente zu berücksichtigen und die erforderlichen Maßnahmen zu ergreifen, um *beschädigte Abhängigkeiten zu antizipieren*, die sich aus dem Löschen von Elementen aus einem Paket ergeben würden.\
 > Diese Aktionen können *das Entfernen aller Benutzer* dieser Ressourcen vor dem Löschen umfassen.
 
-![&#x200B; &#39;Gelöschte verwendete Ressource&#39; Warnung](../../assets/confirm-item-removal.png " &#39;Gelöschte verwendete Ressource&#39; Warnung"){width="512px"}
+![ &#39;Gelöschte verwendete Ressource&#39; Warnung](importing-linking-and-new-resources.resources/confirm-item-removal.png " &#39;Gelöschte verwendete Ressource&#39; Warnung"){width="512px"}

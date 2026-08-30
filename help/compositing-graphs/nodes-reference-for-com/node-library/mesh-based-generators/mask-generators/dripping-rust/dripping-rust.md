@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dripping-rust.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dripping-rust.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Dripping Rost", um Rost-Tropfmuster basierend auf der Gittergeometrie und der Schwerkraftrichtung zu generieren.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Tropfender Rost
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 1%
+source-wordcount: '211'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dripping-rust.png){width="128px"}
+![](dripping-rust.resources/dripping-rust.png){width="128px"}
 
-## Tropfender Rost
-
-**In:** *Mesh-basierte Generatoren**/Masken-Generatoren*
-
-**Fortgeschrittene**
+<b>In:</b> Mesh-basierte Generatoren > Maskengenerator
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,32 +37,40 @@ Generiert eine Schwarzweißmaske auf der Grundlage von durch Baking erzeugte Map
 
 Diese Maske stellt Rost-Flocken und Flecken dar, wobei die Lecks nach unten verlaufen.
 
-## Parameter
-
-### Eingaben
-
-* **Krümmung**: *Graustufen-Eingabe*\
-  Eine fertig gestellte oder generierte Karte, die Ihnen bei der Platzierung des Rosts hilft.
-* **Ambient-Verdeckung**: *Graustufen-Eingabe*\
-  Eine fertig gestellte oder generierte Karte, die Ihnen bei der Platzierung des Rosts hilft.
-* **Position**: *Graustufen-Eingabe*\
-  Gebackene oder generierte Karte für Tropfrichtungen.
-* **Maske (optional)**: *Graustufen-Eingabe*\
-  Maskenschlitz zum Maskieren der Knoteneffekte.
-
-### Parameter
-
-* **Rost-Verteilung**: *0.0 - 1.0* Hauptsteuerung für die Menge des Rosts.
-* **Kontrast des Rosts**: *0.0 - 1.0* Legt den Kontrastumfang in generierten Rost-Flecken fest (wirkt sich nicht auf Tropfen aus).
-* **Smoothness wird verteilt**: *0.0 - 1.0* Stärke des Weichzeichnungs-/Verschmierungseffekts, der auf die Rost-Flecken angewendet werden soll.
-* **Drips-Intensität**: *0.0 - 1.0* Legt die Stärke und die Länge der Tropfen von Flecken fest.
-* **Drips-Smoothness**: *0.0 - 1.0* Menge an Unschärfe und Glättung, die auf Tropfen angewendet werden soll.
-* **Anzahl der Drips-Samples**: *0 - 32* Legt die Qualitätsstufe (Schritte) für den Tropfeneffekt fest. Hat einen leichten Einfluss auf die Geschwindigkeit.
-
-## Beispielbilder
-
-![](../../../../../../assets/dripping-rust-ex3.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Krümmung</b> <i>Graustufen-Eingabe</i> | Eine fertig gestellte oder generierte Karte, die Ihnen bei der Platzierung des Rosts hilft. |
+| <b>Umgebungs-Verdeckung</b> <i>Graustufen-Eingabe</i> | Eine fertig gestellte oder generierte Karte, die Ihnen bei der Platzierung des Rosts hilft. |
+| <b>Position</b> <i>Graustufen-Eingabe</i> | Gebackene oder generierte Karte für Tropfrichtungen. |
+| <b>Maske (optional)</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Rost-Verteilung</b> <i>0.0 - 1.0</i> | Hauptsteuerung für die Menge des Rosts. |
+| <b>Kontrast des Rosts</b> <i>0.0 - 1.0</i> | Legt den Kontrastumfang in generierten Rost-Flecken fest (wirkt sich nicht auf Tropfen aus). |
+| <b>Smoothness wird verteilt</b> <i>0.0 - 1.0</i> | Stärke des Weichzeichnungs-/Verschmierungseffekts, der auf die Flecken des Rosts angewendet werden soll. |
+| <b>Tropfintensität</b> <i>0.0 - 1.0</i> | Legt die Stärke und Länge der Tropfen von Flecken fest. |
+| <b>Drips-Smoothness</b> <i>0.0 - 1.0</i> | Weichzeichnungs- und Glättungsgrad, der auf Tropfen angewendet wird. |
+| <b>Anzahl der Drips-Samples</b> <i>0 - 32</i> | Legt die Qualitätsstufe (Schritte) für den Tropfeneffekt fest. Hat einen leichten Einfluss auf die Geschwindigkeit. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="dripping-rust.resources/dripping-rust-ex3.gif" />
+        </td>
+    </tr>
 </table>

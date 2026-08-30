@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Histogramm ausgleichen", um die Pixelintensitäten für mehr Kontrast und Helligkeit neu zu verteilen.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Histogramm entzerren
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '184'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Histogrammausgleich: icon](../../../../../../assets/histogram_equalize.png "Histogramm equalize: Symbol "){width="200px"}
+![Histogrammausgleich: icon](histogram-equalize.resources/histogram_equalize.png "Histogramm equalize: Symbol "){width="200px"}
 
 <b>In:</b> Filters > Adjustments
 
@@ -39,42 +39,28 @@ Entzerrt das Histogramm für ein Graustufenbild und passt die Graustufenwerte ef
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Ausgangsanschlüsse
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameter
-
-</td>
-</tr>
-</table>
-
-## Eingangsanschlüsse
+## Eingaben
 
 |  |  |
-| --- | --- |
-| <b>Eingabe</b> *Graustufen* PRIMÄR | Das Bild, für das das Histogramm ausgeglichen werden soll. |
+|:---|:---|
+| <b>Eingabe</b> <i>Graustufen</i> PRIMÄR | Das Bild, für das das Histogramm ausgeglichen werden soll. |
 
-## Ausgangsanschlüsse
+<a name="outputs"></a>
+
+## Ausgaben
 
 |  |  |
-| --- | --- |
-| <b>Ausgabe</b> *Graustufen* | Das Ergebnisbild mit angewendeter Histogrammentzerrung. |
+|:---|:---|
+| <b>Ausgabe</b> <i>Graustufen</i> | Das Ergebnisbild mit angewendeter Histogrammentzerrung. |
+
+<a name="parameters"></a>
 
 ## Parameter
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Histogrammauflösung</b> *Integer* | Die Breite des Histogramms. Ein höherer Wert ermöglicht eine feinere Wertverteilung.   Verfügbare Auflösungen sind in Pixeln:  256, 512, 1024, 2048, 4096 |
 | <b>Glättung des Histogramms</b> *Gleitend* | Das Histogramm kann geglättet werden, indem die Graustufenwerte im Bild neu verteilt werden, um die *Differenz* zwischen jedem Wert zu entzerren.   Dieser Parameter passt die Intensität der Glättung an. |
 
@@ -83,44 +69,44 @@ Entzerrt das Histogramm für ein Graustufenbild und passt die Graustufenwerte ef
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
+      <img src="histogram-equalize.resources/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
+      <img src="histogram-equalize.resources/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
       <br><i>Nach</i>
     </td>
   </tr>
 </table>
 
-![Histogrammausgleich: Beispiel 1](../../../../../../assets/histogram_equalize_example_3.png "Histogramm equalize: Beispiel 1"){zoomable="yes"}
+![Histogrammausgleich: Beispiel 1](histogram-equalize.resources/histogram_equalize_example_3.png "Histogramm equalize: Beispiel 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_2_before.jpg" alt="histogram_equalize_example_2_before">
+      <img src="histogram-equalize.resources/histogram_equalize_example_2_before.jpg" alt="histogram_equalize_example_2_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_2_after.jpg" alt="histogram_equalize_example_2_after">
+      <img src="histogram-equalize.resources/histogram_equalize_example_2_after.jpg" alt="histogram_equalize_example_2_after">
       <br><i>Nach</i>
     </td>
   </tr>
 </table>
 
-![Histogrammausgleich: Beispiel 2](../../../../../../assets/histogram_equalize_example_5.png "Histogramm equalize: Beispiel 2"){zoomable="yes"}
+![Histogrammausgleich: Beispiel 2](histogram-equalize.resources/histogram_equalize_example_5.png "Histogramm equalize: Beispiel 2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_4_before.jpg" alt="histogram_equalize_example_4_before">
+      <img src="histogram-equalize.resources/histogram_equalize_example_4_before.jpg" alt="histogram_equalize_example_4_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_4_after.jpg" alt="histogram_equalize_example_4_after">
+      <img src="histogram-equalize.resources/histogram_equalize_example_4_after.jpg" alt="histogram_equalize_example_4_after">
       <br><i>Nach</i>
     </td>
   </tr>
 </table>
 
-![Histogrammausgleich: Beispiel 3](../../../../../../assets/histogram_equalize_example_6.png "Histogramm equalize: Beispiel 3"){zoomable="yes"}
+![Histogrammausgleich: Beispiel 3](histogram-equalize.resources/histogram_equalize_example_6.png "Histogramm equalize: Beispiel 3"){zoomable="yes"}

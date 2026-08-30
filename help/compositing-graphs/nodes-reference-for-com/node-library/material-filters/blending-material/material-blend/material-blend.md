@@ -1,117 +1,98 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-blend.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Materialüberblendung , um ganze Materialien mithilfe von Masken zusammenzufügen und so zusammengesetzte Materialeffekte zu erstellen.
+description: Verwenden Sie den Knoten Material-Überblendung , um ganze Material mithilfe von Masken zu verblenden, um Composite-Material-Effekte zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Blend
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Materialüberblendung
+title: Material Überblendung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 0%
+source-wordcount: '458'
+ht-degree: 6%
 
 ---
 
 
-# Materialüberblendung
+# Material Überblendung
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-blend.png){width="128px"}
+![](material-blend.resources/material-blend.png){width="128px"}
 
-## Materialüberblendung
-
-**In:** *Materialfilter/Füllmethode*
-
-**Komplex**
+<b>In:</b> Materialfilter > Mischen
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Materialüberblendung ist das mehrkanalige vollständige Materialäquivalent von [dem atomaren Überblendknoten](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md). Es fügt sich zwischen zwei Vollmaterialien ein (alle möglichen Kanäle), basierend auf einer Graustufenmaske, oder optional basierend auf einer einzigen Farbe aus einer Farb-ID-Maske.
+Die Material-Überblendung ist das Multi-Channel-Material-Äquivalent von [dem Knoten der atomaren Überblendung](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md). Es überblendet zwei vollständige Materialien (alle möglichen Kanäle) auf der Grundlage einer Graustufenmaske oder optional auf der Grundlage einer einzigen Farbe aus einer Farb-ID-Maske.
 
-Dieser Knoten ist nützlich, wenn Sie zwei Materialien überblenden und eine Graustufenzuordnung haben möchten, aber keine vollständige Farb-ID eingebrannt werden soll. Wenn Sie über eine Farb-ID verfügen und mehr als zwei Materialien überblenden möchten, empfehlen wir Ihnen, [Mehrematerial-Überblendung](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md) zu verwenden.
-
-## Parameter
-
-### Eingaben
-
-* **ColorID**: *Farbeingabe*\
-  Optionale Kennungszuordnung für vordefinierte Farben.
-* **Graustufenmaske**: *Graustufen-Eingabe*\
-  Maskenschlitz zum Maskieren der Knoteneffekte.
-
-### Parameter
-
-* **Kanäle**
-  * Schalten Sie die Materialkanäle in dieser Gruppe ein und aus, wenn Sie z. B. Specular-/Glanzkarten anstelle von &quot;Metallisch/Raueit&quot; verwenden.
-* **Diffus**
-  * **Deckkraft**: *0.0 - 1.0*\
-    Füllmethode zwischen Vorder- und Hintergrund
-  * **Füllmethode**: *Normal, Hinzufügen, Subtrahieren, Multiplizieren, Addieren/Sub, Max, Min, Switch*
-* **Grundfarbe**
-  * **Deckkraft**: *0.0 - 1.0*\
-    Füllmethode zwischen Vorder- und Hintergrund
-  * **Füllmethode**: *Normal, Hinzufügen, Subtrahieren, Multiplizieren, Addieren/Sub, Max, Min, Switch*
-* **Normal**
-  * **Deckkraft**: *0.0 - 1.0*\
-    Füllmethode zwischen Vorder- und Hintergrund
-* **Specular**
-  * **Deckkraft**: *0.0 - 1.0*\
-    Füllmethode zwischen Vorder- und Hintergrund
-  * **Füllmethode**: *Normal, Hinzufügen, Subtrahieren, Multiplizieren, Addieren/Sub, Max, Min, Switch*
-* **Ausstrahlend**
-  * **Deckkraft**: *0.0 - 1.0*\
-    Füllmethode zwischen Vorder- und Hintergrund
-  * **Füllmethode**: *Normal, Hinzufügen, Subtrahieren, Multiplizieren, Addieren/Sub, Max, Min, Switch*
-* **Glossarität**
-  * **Deckkraft**: *0.0 - 1.0*\
-    Füllmethode zwischen Vorder- und Hintergrund
-  * **Füllmethode**: *Normal, Hinzufügen, Subtrahieren, Multiplizieren, Addieren/Sub, Max, Min, Switch*
-* **Raueit**
-  * **Deckkraft**: *0.0 - 1.0*\
-    Füllmethode zwischen Vorder- und Hintergrund
-  * **Füllmethode**: *Normal, Hinzufügen, Subtrahieren, Multiplizieren, Addieren/Sub, Max, Min, Switch*
-* **Metallisch**
-  * **Deckkraft**: *0.0 - 1.0*\
-    Füllmethode zwischen Vorder- und Hintergrund
-  * **Füllmethode**: *Normal, Hinzufügen, Subtrahieren, Multiplizieren, Addieren/Sub, Max, Min, Switch*
-* **Specular level**
-  * **Deckkraft**: *0.0 - 1.0*\
-    Füllmethode zwischen Vorder- und Hintergrund
-  * **Füllmethode**: *Normal, Hinzufügen, Subtrahieren, Multiplizieren, Addieren/Sub, Max, Min, Switch*
-* **Umgebungs-Verdeckung**
-  * **Deckkraft**: *0.0 - 1.0*\
-    Füllmethode zwischen Vorder- und Hintergrund
-  * **Füllmethode**: *Normal, Hinzufügen, Subtrahieren, Multiplizieren, Addieren/Sub, Max, Min, Switch*
-* **Height**
-  * **Deckkraft**: *0.0 - 1.0*\
-    Füllmethode zwischen Vorder- und Hintergrund
-  * **Füllmethode**: *Normal, Hinzufügen, Subtrahieren, Multiplizieren, Addieren/Sub, Max, Min, Switch*
-* **Deckkraft**
-  * **Deckkraft**: *0.0 - 1.0*\
-    Füllmethode zwischen Vorder- und Hintergrund
-  * **Füllmethode**: *Normal, Hinzufügen, Subtrahieren, Multiplizieren, Addieren/Sub, Max, Min, Switch*
-* **Farb-ID-Maske**: *Falsch/Wahr* Verwenden Sie Farb-ID-Maske anstelle der Graustufenmaske. Beachten Sie, dass dies nur für eine Farbe ist!
-* **Farbe**: *(Farbwert)*Welche Farbe ausgewählt und in Weiß konvertiert werden soll.
-* **Unschärfe**: *0.01 - 1.0* Der Umfang, in dem die von Ihnen ausgewählte Farbe in ihre Nachbarfarben übergeht.
-* **Auffüllen**: *0.0 - 1.0*&#x200B;Übergangskontrast der ausgewählten Farbe.
-
-## Beispielbilder
-
-|  |
-| --- |
-| Es sind keine Bilder an diese Seite angehängt. |
+Dieser Knoten ist nützlich, wenn Sie zwei Material überblenden möchten und eine Graustufenzuordnung, aber kein vollständiges Farb-ID-Baking haben möchten. Wenn Sie über ein Farb-ID-Baking verfügen und mehr als zwei Materialien überblenden möchten, empfehlen wir Ihnen, [Überblendung mit mehreren Materialien](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md) zu verwenden.
 
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>ColorID</b> <i>Farbeingabe</i> | Optional: Baking geführt Farb-ID-Map. |
+| <b>Graustufenmaske</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Kanäle</b> | Schalten Sie Material-Kanäle in dieser Gruppe ein und aus, wenn Sie Specular-/Glanz-Maps anstelle von z. B. Metallic/Rauheit verwenden. |
+| <b>Diffus</b> |  |
+| <b>Deckkraft</b> <i>0.0 - 1.0</i> | Füllmethode zwischen Vorder- und Hintergrund |
+| <b>Füllmethode</b> <i>Normal, Hinzufügen, Subtrahieren, Multiplizieren, Hinzufügen/Sub, Max, Min, Switch</i> |  |
+| <b>Grundfarbe</b> |  |
+| <b>Deckkraft</b> <i>0.0 - 1.0</i> | Füllmethode zwischen Vorder- und Hintergrund |
+| <b>Füllmethode</b> <i>Normal, Hinzufügen, Subtrahieren, Multiplizieren, Hinzufügen/Sub, Max, Min, Switch</i> |  |
+| <b>Normal</b> |  |
+| <b>Deckkraft</b> <i>0.0 - 1.0</i> | Füllmethode zwischen Vorder- und Hintergrund |
+| <b>Specular</b> |  |
+| <b>Deckkraft</b> <i>0.0 - 1.0</i> | Füllmethode zwischen Vorder- und Hintergrund |
+| <b>Füllmethode</b> <i>Normal, Hinzufügen, Subtrahieren, Multiplizieren, Hinzufügen/Sub, Max, Min, Switch</i> |  |
+| <b>Ausstrahlend</b> |  |
+| <b>Deckkraft</b> <i>0.0 - 1.0</i> | Füllmethode zwischen Vorder- und Hintergrund |
+| <b>Füllmethode</b> <i>Normal, Hinzufügen, Subtrahieren, Multiplizieren, Hinzufügen/Sub, Max, Min, Switch</i> |  |
+| <b>Glossarität</b> |  |
+| <b>Deckkraft</b> <i>0.0 - 1.0</i> | Füllmethode zwischen Vorder- und Hintergrund |
+| <b>Füllmethode</b> <i>Normal, Hinzufügen, Subtrahieren, Multiplizieren, Hinzufügen/Sub, Max, Min, Switch</i> |  |
+| <b>Raueit</b> |  |
+| <b>Deckkraft</b> <i>0.0 - 1.0</i> | Füllmethode zwischen Vorder- und Hintergrund |
+| <b>Füllmethode</b> <i>Normal, Hinzufügen, Subtrahieren, Multiplizieren, Hinzufügen/Sub, Max, Min, Switch</i> |  |
+| <b>Metallisch</b> |  |
+| <b>Deckkraft</b> <i>0.0 - 1.0</i> | Füllmethode zwischen Vorder- und Hintergrund |
+| <b>Füllmethode</b> <i>Normal, Hinzufügen, Subtrahieren, Multiplizieren, Hinzufügen/Sub, Max, Min, Switch</i> |  |
+| <b>Specular level</b> |  |
+| <b>Deckkraft</b> <i>0.0 - 1.0</i> | Füllmethode zwischen Vorder- und Hintergrund |
+| <b>Füllmethode</b> <i>Normal, Hinzufügen, Subtrahieren, Multiplizieren, Hinzufügen/Sub, Max, Min, Switch</i> |  |
+| <b>Umgebungs-Verdeckung</b> |  |
+| <b>Deckkraft</b> <i>0.0 - 1.0</i> | Füllmethode zwischen Vorder- und Hintergrund |
+| <b>Füllmethode</b> <i>Normal, Hinzufügen, Subtrahieren, Multiplizieren, Hinzufügen/Sub, Max, Min, Switch</i> |  |
+| <b>Height</b> |  |
+| <b>Deckkraft</b> <i>0.0 - 1.0</i> | Füllmethode zwischen Vorder- und Hintergrund |
+| <b>Füllmethode</b> <i>Normal, Hinzufügen, Subtrahieren, Multiplizieren, Hinzufügen/Sub, Max, Min, Switch</i> |  |
+| <b>Deckkraft</b> |  |
+| <b>Deckkraft</b> <i>0.0 - 1.0</i> | Füllmethode zwischen Vorder- und Hintergrund |
+| <b>Füllmethode</b> <i>Normal, Hinzufügen, Subtrahieren, Multiplizieren, Hinzufügen/Sub, Max, Min, Switch</i> |  |
+| <b>Farb-ID-Maske</b> <i>False/True</i> | Verwenden Sie Farb-ID-Maske anstelle einer Graustufenmaske. Beachten Sie, dass dies nur für eine Farbe ist! |
+| <b>Farbe</b> <i>(Farbwert)</i> | Welche Farbe ausgewählt und in Weiß konvertiert werden soll. |
+| <b>Unschärfe</b> <i>0.01 - 1.0</i> | Der Grad, in dem die von Ihnen ausgewählte Farbe in die Nachbarfarben übergeht. |
+| <b>Auffüllen</b> <i>0.0 - 1.0</i> | Übergangskontrast der ausgewählten Farbe. |

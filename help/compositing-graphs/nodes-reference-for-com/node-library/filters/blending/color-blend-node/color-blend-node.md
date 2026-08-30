@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-blend-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-blend-node.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Farbüberblendung", um Texturen mithilfe des Farbmodus zu überblenden, um die Luminanz beizubehalten und gleichzeitig den Farbton und die Sättigung zu ändern.
+description: Verwenden Sie den Farbüberblendungsknoten, um Texturen mithilfe des Farbmodus zu überblenden, um die Luminanz beizubehalten und gleichzeitig den Farbton und die Sättigung zu ändern.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Color (Blend Node)
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Farbe (Mischknoten)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '103'
 ht-degree: 4%
 
 ---
@@ -22,41 +22,38 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/difference.png){width="128px"}
+![](color-blend-node.resources/difference.png){width="128px"}
 
-## Color
-
-**In:** *Filters/Blending*
-
-**Einfach**
+<b>In:</b> Filters > Blending
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Führt einen Farbüberblendmodus durch, bei dem die Luminanz des Hintergrunds beibehalten wird, während der Farbton und die Chrominanz des Vordergrunds übernommen werden.
 
-## Parameter
-
-### Eingaben
-
-* **Vordergrund**: *Farbeingabe*
-* **Hintergrund**: *Farbeingabe*
-* **Maske**: *Graustufen-Eingabe*\
-  Maskenschlitz zum Maskieren der Knoteneffekte.
-
-### Parameter
-
-* **Deckkraft**: *0.0 - 1.0*\
-  Füllmethode Deckkraft zwischen Vorder- und Hintergrund.
-* **Alpha-Überblendung**: *False/True*\
-  Blendet die Alphakanäle für Vorder- und Hintergrund ein bzw. aus. Wenn der Wert auf &quot;Falsch&quot; gesetzt ist, wird der Alphakanal des Vordergrunds ignoriert.
-
-## Beispielbilder
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Vordergrund</b> <i>Farbeingabe</i> |  |
+| <b>Hintergrund</b> <i>Farbeingabe</i> |  |
+| <b>Maske</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Deckkraft</b> <i>0.0 - 1.0</i> | Füllmethode Deckkraft zwischen Vorder- und Hintergrund. |
+| <b>Alpha-Überblendung</b> <i>False/True</i> | Blendet die Alphakanäle für Vorder- und Hintergrund ein bzw. aus. Wenn der Wert auf &quot;Falsch&quot; gesetzt ist, wird der Alphakanal des Vordergrunds ignoriert. |

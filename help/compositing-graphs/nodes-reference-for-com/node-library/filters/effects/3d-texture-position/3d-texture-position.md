@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-position.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-position.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten 3D-Texturposition , um Positionsinformationen aus 3D-Texturen zu extrahieren und so räumliche Effekte und Zuordnungen zu erstellen.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3D-Texturposition
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '58'
 ht-degree: 3%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtextureposition.png){width="256px"}
+![](3d-texture-position.resources/3dtextureposition.png){width="256px"}
 
-**In:** *Filter/Effekt*
-
-**Einfach**
+<b>In:</b> Filter > Effekt
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -43,23 +41,15 @@ Dies kann verwendet werden, um 3D-Geräusche zu backen oder als *3D-Texturatlas*
 </tr>
 </table>
 
-## Parameter
+## Beispiele
 
-Keine Parameter.
-
-## Beispielbilder
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtextureposition-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtextureposition-node.png){width="128px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-position.resources/3dtextureposition-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-position.resources/3dtextureposition-node.png" />
+        </td>
+    </tr>
 </table>

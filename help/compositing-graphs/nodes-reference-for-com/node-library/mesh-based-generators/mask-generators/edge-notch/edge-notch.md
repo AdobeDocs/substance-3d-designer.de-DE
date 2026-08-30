@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-notch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-notch.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Kantenkerbe", um Kerbmuster an Netzkanten zu generieren, um realistische Kantenbeschädigungen und Einrückungseffekte zu erzeugen.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Kantenkerbe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 2%
+source-wordcount: '136'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-notch.png){width="128px"}
+![](edge-notch.resources/edge-notch.png){width="128px"}
 
-## Kantenkerbe
-
-**In:** *Mesh-basierte Generatoren**/Masken-Generatoren*
-
-**Einfach**
+<b>In:</b> Mesh-basierte Generatoren > Maskengenerator
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,24 +37,34 @@ Generiert eine Schwarzweißmaske auf der Grundlage von durch Baking erzeugte Map
 
 Diese Maske stellt eine einfache Maske für erhöhte Kanten dar, die durch ein hochfrequentes Rauschen unterbrochen wird. Weitere Optionen finden Sie unter [Edge Dirt](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-dirt/edge-dirt.md) oder [Edge Damages](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-damages/edge-damages.md).
 
+</td>
+</tr>
+</table>
+
+<a name="inputs"></a>
+
 ## Eingaben
 
-* **Krümmung**: *Graustufen-Eingabe*\
-  Durch Baking erzeugte Map zum Hervorheben von Kanten. Erforderlich!
-* **Maske (optional)**: *Graustufen-Eingabe*\
-  Maskenschlitz zum Maskieren der Knoteneffekte.
+|  |  |
+|:---|:---|
+| <b>Krümmung</b> <i>Graustufen-Eingabe</i> | Durch Baking erzeugte Map zum Hervorheben von Kanten. Erforderlich! |
+| <b>Maske (optional)</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. |
+
+<a name="parameters"></a>
 
 ## Parameter
 
-* **Ebene**: *0.0 - 1.0*\
-  Legt die Ebene des Effekts &quot;Kantenkerbung&quot; fest.
-* **Kontrast**: *0.0 - 1.0*\
-  Passt den Kontrast des Ergebnisses an.
+|  |  |
+|:---|:---|
+| <b>Ebene</b> <i>0.0 - 1.0</i> | Legt die Ebene des Effekts &quot;Kantenkerbung&quot; fest. |
+| <b>Kontrast</b> <i>0.0 - 1.0</i> | Passt den Kontrast des Ergebnisses an. |
 
-## Beispielbilder
+## Beispiele
 
-![](../../../../../../assets/edge-notch-ex.gif)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-notch.resources/edge-notch-ex.gif" />
+        </td>
+    </tr>
 </table>

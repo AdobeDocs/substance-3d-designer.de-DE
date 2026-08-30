@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-fill.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-fill.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Spline Fill, um Bereiche, die durch geschlossene Splines definiert sind, mit Texturen oder Farben zu füllen.
+description: Verwenden Sie den Spline-Füllungsknoten, um Bereiche, die durch geschlossene Splines definiert sind, mit Texturen oder Farben zu füllen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Fill
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Spline-Füllung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 0%
+source-wordcount: '217'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/spline-fill-icon.png "Knotensymbol")
+![Knotensymbol](spline-fill.resources/spline-fill-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -45,28 +45,23 @@ Offene Splines werden mit einer geraden Linie vom Anfang bis zum Ende geschlosse
 >
 > Es wird nicht empfohlen, diesen Knoten bei Splines zu verwenden, die außerhalb der Kachel [0,1] liegen. Der Füllvorgang ist in diesem Fall unzuverlässig.
 
-## Eingangsanschlüsse
+<a name="inputs"></a>
 
-<b>Spline-Kabel</b> *Farbe* Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Eingabesplines:\
-<b> R</b> - X-Position\
-<b> G</b> - Y-Position\
-<b> B</b> - Height\
-<b>A</b> - Paketdaten:\
-* Signieren: Die Spline ist geschlossen (negativ) oder offen (positiv).\
-* Absoluter Wert: Thickness + 1.
+## Eingaben
 
-<b>Spline-Daten</b> *Farbe* Zusätzliche Daten der Eingabe-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.\
-<b> R</b> - Tangenten X\
-<b> G</b> - Tangenten Y\
-<b> B</b> - Nicht verwendet\
-<b> A</b> - Nicht verwendet
+|  |  |
+|:---|:---|
+| <b>Spline-Kabel</b> <i>Farbe</i> | Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Eingabesplines:<br><b>R</b> - X position<br><b>G</b> - Y position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>- Sign: Spline ist geschlossen (negativ) oder offen (positiv);<br>- Absolute Wert: Thickness + 1. |
+| <b>Spline-Daten</b> <i>Farbe</i> | Zusätzliche Daten der Eingabe-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.<br><b>R</b> - Tangenten X<br><b>G</b> - Tangenten Y<br><b>B</b> - Nicht verwendet<br><b>A</b> - Nicht verwendet |
+| <b>Spline-Betrag</b> <i>Integer</i> | Die Anzahl der Eingabe-Splines. |
 
-<b>Spline-Betrag</b> *Integer* Die Anzahl der Eingabe-Splines.
+<a name="outputs"></a>
 
-## Ausgangsanschlüsse
+## Ausgaben
 
-<b>Ausgabe</b> *Graustufen*\
-Das Ergebnis des Füllens der Splines mit flachem Weiß vor einem flachen schwarzen Hintergrund.
+|  |  |
+|:---|:---|
+| <b>Ausgabe</b> <i>Graustufen</i> | Das Ergebnis des Füllens der Splines mit flachem Weiß vor einem flachen schwarzen Hintergrund. |
 
 ## Beispiele
 
@@ -77,11 +72,11 @@ Das Ergebnis des Füllens der Splines mit flachem Weiß vor einem flachen schwar
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineFill-Variant1-Before.jpg" alt="SplineFill-Variant1-Before">
+      <img src="spline-fill.resources/SplineFill-Variant1-Before.jpg" alt="SplineFill-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineFill-Variant1-After.jpg" alt="SplineFill-Variant1-After">
+      <img src="spline-fill.resources/SplineFill-Variant1-After.jpg" alt="SplineFill-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -90,7 +85,7 @@ Das Ergebnis des Füllens der Splines mit flachem Weiß vor einem flachen schwar
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](../../../../../../assets/SplineFill-Demo.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](spline-fill.resources/SplineFill-Demo.gif "Knotenbeispiel 2")
 
 </td>
 </tr>

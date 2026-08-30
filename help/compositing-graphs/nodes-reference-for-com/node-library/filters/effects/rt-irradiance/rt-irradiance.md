@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-irradiance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-irradiance.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten RT-Bestrahlungsstärke, um Informationen zur Bestrahlungsstärke in Echtzeit aus der Geometrie für realistische Beleuchtungsberechnungen zu berechnen.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: RT-Bestrahlung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -22,56 +22,61 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rt-irradiance.png){width="128px"}
+![](rt-irradiance.resources/rt-irradiance.png){width="128px"}
 
-**In:** *Filter/Effekte*
-
-**Komplex**
+<b>In:</b> Filters > Effects
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Generiert eine Raytraced-Bestrahlung auf einem Height-Map-Eingang, der aus einer Umgebungskarte und einer Emissionskarte generiert wird. Kann verwendet werden, um Beleuchtung in eine Textur innerhalb eines Diagramms zu &quot;backen&quot;. Wird für gefälschte globale Beleuchtung und Leuchten verwendet.Dieser Knoten sollte aufgrund der Berechnungszeit nicht in Kombination mit der CPU-Engine (SSE) verwendet werden. Gibt zwei Zuordnungen zurück: eine Bestrahlungsstärke-Ausgabe, bei der die Bestrahlungsstärke auf die Materialeingänge angewendet wird, eine Roh-Bestrahlungsstärke-Karte, die nur die berechneten Bestrahlungsstärken enthält.
+Generiert eine Raytraced-Bestrahlung auf einem Höhen-Map-Eingang, der von einer Umgebungs-Map und einer emissive-Map generiert wird. Kann verwendet werden, um das Licht in eine Textur innerhalb eines Grafen &quot;Baking führen&quot;. Wird für gefälschte globale Beleuchtung und Leuchten verwendet.Dieser Knoten sollte aufgrund der Berechnungszeit nicht in Kombination mit der CPU-Engine (SSE) verwendet werden. Gibt zwei Zuordnungen zurück: eine Bestrahlungsausgabe, bei der die Bestrahlungsstärke auf die Material-Eingänge angewendet wird, eine Roh-Bestrahlungskarte, die nur die berechneten Bestrahlungswerte enthält.
 
 </td>
 </tr>
 </table>
 
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Height</b> <i>Graustufeneingabe</i> | Height ist die einzige erforderliche Eingabe aus dem Steckplatz des Materials. Ohne sie funktioniert der Knoten nicht gut. |
+| <b>Ausstrahlend</b> <i>Farbeingabe</i> | Emissive sollte in einem Format vorliegen, bei dem reines Schwarz kein Licht aussendet, jeder andere Farbwert Licht aussendet. Alpha wird ignoriert. Eine Verbindung mit diesem Steckplatz oder dem Umgebungssteckplatz ist erforderlich, um ein Ergebnis zu sehen. |
+| <b>Umgebung</b> <i>Farbeingabe</i> | HDR. Lichtumgebung, mit der die Bestrahlung berechnet wird. Eine Verbindung zu diesem Steckplatz oder dem Emissive-Steckplatz ist erforderlich, um ein Ergebnis zu sehen. |
+
+<a name="parameters"></a>
+
 ## Parameter
 
-### Eingaben
+|  |  |
+|:---|:---|
+| <b>Height-Skalierung</b> <i>0.0 - 1.0</i> | Skalierung zum Interpretieren des Heights bei. Wirkt sich auf das gesamte Aussehen der Szene aus. |
+| <b>Qualität</b> <i>32 Strahlen, 64 Strahlen, 128 Strahlen</i> | Bestimmt die Ergebnisqualität, beeinflusst aber auch die Leistung. Weniger Strahlen bedeutet mehr Rauschen. |
+| <b>Absprungwerte berechnen</b> <i>False/True</i> | Rechnerzugriffe ein-/ausschalten. Beeinflusst Qualität und Geschwindigkeit. |
+| <b>Umgebungsdrehung</b> <i>0.0 - 1.0</i> | Drehen Sie die Umgebung. |
+| <b>Umgebungsbelastung (EV)</b> <i>-4.0 - 4.0</i> | Der für die Umgebung zu verwendende Belichtungswert wirkt sich auf die Gesamthelligkeit des Effekts aus. |
+| <b>Emissive-Intensität</b> <i>0.0 - 20.0</i> | Multiplikator für den Emissionseintrag, beeinflusst die Stärke der Bestrahlung von emittierenden Stoffen. |
+| <b>Emissive-Farbraum</b> <i>sRGB, linear</i> | Farbraum, der zum Interpretieren der ENISsive-Eingabe verwendet wird. |
+| <b>IBL Shadows in Raw Irradiance Alpha</b> <i>False/True</i> | Legen Sie fest, ob der |
+| <b>Emissive LOD-Bias</b> <i>-1.0 - 1.0</i> | Die Qualität der emissive-Bestrahlung einstellen. Ein niedrigerer Wert bedeutet mehr Rauschen. |
 
-* **Height:** *Graustufeneingabe* Height ist die einzige erforderliche Eingabe aus dem Materialschlitz. Ohne sie funktioniert der Knoten nicht gut.
-* **Ausstrahlend:** *Farbeingabe* Ausstrahlend sollte in einem Format vorliegen, in dem reines Schwarz kein Licht ausstrahlt, jeder andere Farbwert Licht ausstrahlt. Alpha wird ignoriert. Eine Verbindung mit diesem Steckplatz oder dem Umgebungssteckplatz ist erforderlich, um ein Ergebnis zu sehen.
-* **Umgebung**: *Farbeingabe*\
-  HDR-Lichtumgebung zur Berechnung der Bestrahlung mit. Eine Verbindung zu diesem Slot oder dem Emissive Slot ist erforderlich, um ein Ergebnis zu sehen.
+## Beispiele
 
-### Parameter
-
-* **Height-Skalierung**: *0.0 - 1.0*\
-  Skalierung zum Interpretieren des Heights bei. Wirkt sich auf den gesamten Szenenlook aus.
-* **Qualität**: *32 Strahlen, 64 Strahlen, 128 Strahlen*\
-  Bestimmt die Ergebnisqualität, beeinflusst aber auch die Leistung. Weniger Strahlen bedeuten mehr Rauschen.
-* **Rückschläge berechnen**: *False/True*\
-  Rechnerzugriffe ein-/ausschalten. Beeinflusst Qualität und Geschwindigkeit.
-* **Umgebungsrotation**: *0.0 - 1.0*\
-  Drehen Sie die Umgebung.
-* **Umgebungsbelastung (EV)**: *-4.0 - 4.0*\
-  Der für die Umgebung zu verwendende Belichtungswert wirkt sich auf die Gesamthelligkeit des Effekts aus.
-* **Emissionsintensität**: *0.0 - 20.0*\
-  Multiplikator für den Emissionseintrag, beeinflusst die Stärke der Bestrahlung von emittierenden Stoffen.
-* **Ausstrahlender Farbraum**: *sRGB, linear*\
-  Farbraum, der zum Interpretieren der ENISsive-Eingabe verwendet wird.
-* **IBL Shadows in Raw Irradiance Alpha**: *False/True*\
-  Legen Sie fest, ob der
-* **Verzerrung durch Emissions-LOD**: *-1.0 - 1.0* Die Qualität der emittierenden Strahlung abstimmen. Ein niedrigerer Wert bedeutet mehr Rauschen.
-
-## Beispielbilder
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/rt-irr-03-1.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/rt-irr-01-1.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c2_image" src="../../../../../../assets/rt-irr-02-1.jpg" width="300px"/></div> |
-| --- | --- | --- |
-|  |  |  |
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="rt-irradiance.resources/rt-irr-03-1.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="rt-irradiance.resources/rt-irr-01-1.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="rt-irradiance.resources/rt-irr-02-1.jpg" />
+        </td>
+    </tr>
+</table>

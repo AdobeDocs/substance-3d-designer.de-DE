@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Bitmap-Knoten, um Bitmapbilder als Texturen in Substance-Kompositionsdiagrammen zu importieren und zu verwenden.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bitmap
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Bitmap](../../../../assets/comp_bitmap.png "Atomischer Knoten: Bitmap"){width="200px"}
+![Atomknoten: Bitmap](bitmap.resources/comp_bitmap.png "Atomischer Knoten: Bitmap"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -72,7 +72,7 @@ Sie können den Knoten entweder von Grund auf neu erstellen oder eine [Bitmap](.
 > * Bitmap-Knoten können entweder Farbe oder Graustufen zurückgeben, die Standardfarbe ist jedoch Farb, selbst wenn die Ressource eine Graustufen-Bitmap ist. Dies kann sich auf die Leistung und Komplexität des Diagramms auswirken. Stellen Sie daher immer sicher, dass Sie bei Bedarf zum [Graustufen-Farbmodus](#parameters) wechseln.
 > * Durch das Löschen eines Bitmapknotens wird die [Bitmapressource](../../../../resources/bitmap-resource/bitmap-resource.md) in Ihrem [Paket](../../../../glossary/glossary.md) nicht gelöscht. Sie müssen dies manuell im [Explorer](../../../../interface/the-explorer-window/the-explorer-window.md) tun.
 > * Seien Sie jedoch vorsichtig, wenn Sie eine [Bitmapressource](../../../../resources/bitmap-resource/bitmap-resource.md) im Explorer löschen: Es funktioniert weiterhin im Diagramm für diese Sitzung, da es im Cache gespeichert wird, aber die Ressource wird als fehlend markiert, wenn Sie das [Paket](../../../../glossary/glossary.md) das nächste Mal laden.
-> * Wenn ein Substance-Diagramm [gekocht](../../../../glossary/glossary.md) ist, wird die Bitmapauflösung an ihrer Auflösung im Diagramm und nicht an ihrer Originalgröße festgelegt. Es wird empfohlen, sicherzustellen, dass der [Basisparameter für die Ausgabegröße](../../../../glossary/glossary.md) eines Bitmap-Knotens die [-Vererbungsmethode &quot;Absolut&quot; verwendet &#x200B;](../../../../glossary/glossary.md) und dem Knoten ein [Knoten für 2D](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)-Transformieren folgt, der auf &quot;Relativ zu übergeordnetem Knoten&quot; festgelegt ist (d. h. die Auflösung des Hostdiagramms).
+> * Wenn ein Substance-Diagramm [gekocht](../../../../glossary/glossary.md) ist, wird die Bitmapauflösung an ihrer Auflösung im Diagramm und nicht an ihrer Originalgröße festgelegt. Es wird empfohlen, sicherzustellen, dass der [Basisparameter für die Ausgabegröße](../../../../glossary/glossary.md) eines Bitmap-Knotens die [-Vererbungsmethode &quot;Absolut&quot; verwendet ](../../../../glossary/glossary.md) und dem Knoten ein [Knoten für 2D](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)-Transformieren folgt, der auf &quot;Relativ zu übergeordnetem Knoten&quot; festgelegt ist (d. h. die Auflösung des Hostdiagramms).
 
 <table>
 <tr style="border: 0;">

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-blur.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Kantenunschärfe", um Kantenmasken zu verwischen, um weiche Übergänge und glatte kantenbasierte Verwitterungseffekte zu erstellen.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Kantenunschärfe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 2%
+source-wordcount: '141'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-blur.png){width="128px"}
+![](edge-blur.resources/edge-blur.png){width="128px"}
 
-## Kantenunschärfe
-
-**In:** *Mesh-basierte Generatoren**/Masken-Generatoren*
-
-**Einfach**
+<b>In:</b> Mesh-basierte Generatoren > Maskengenerator
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,27 +37,35 @@ Generiert eine Schwarzweißmaske auf der Grundlage von durch Baking erzeugte Map
 
 Diese Maske hebt Kanten auf Basis einer Karte mit gebackenen Krümmungen hervor. Es ist einer der einfacheren Maskengeneratoren.
 
-## Parameter
-
-### Eingaben
-
-* **Krümmung**: *Graustufen-Eingabe*\
-  Durch Baking erzeugte Map, auf dem der Effekt basiert.
-* **Maske (optional)**: *Graustufen-Eingabe*\
-  Maskenschlitz zum Maskieren der Knoteneffekte.
-
-### Parameter
-
-* **Ebene**: *0.0 - 1.0*\
-  Legt den Grad der Kantenhervorhebung fest.
-* **Kontrast**: *0.0 - 1.0*\
-  Passt den Kontrast des Ergebnisses an.
-* **Weichzeichnungsradius**: *0.0 - 8.0* Legt den Grad der Weichzeichnung an den hervorgehobenen Kanten fest.
-
-## Beispielbilder
-
-![](../../../../../../assets/edge-blur-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Krümmung</b> <i>Graustufen-Eingabe</i> | Durch Baking erzeugte Map, auf dem der Effekt basiert. |
+| <b>Maske (optional)</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Ebene</b> <i>0.0 - 1.0</i> | Legt den Grad der Kantenhervorhebung fest. |
+| <b>Kontrast</b> <i>0.0 - 1.0</i> | Passt den Kontrast des Ergebnisses an. |
+| <b>Weichzeichnungsradius</b> <i>0.0 - 8.0</i> | Legt den Grad der Weichzeichnung an den hervorgehobenen Kanten fest. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-blur.resources/edge-blur-ex.gif" />
+        </td>
+    </tr>
 </table>

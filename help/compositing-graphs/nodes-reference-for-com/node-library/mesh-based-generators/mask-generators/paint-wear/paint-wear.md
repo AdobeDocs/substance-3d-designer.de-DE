@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/paint-wear.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/paint-wear.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Lackabnutzung", um Lackabnutzungsmasken basierend auf der Gittergeometrie zu generieren, um realistische Lackabtrageeffekte zu erzeugen.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Lackverschleiß
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 1%
+source-wordcount: '202'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/paint-wear.png){width="128px"}
+![](paint-wear.resources/paint-wear.png){width="128px"}
 
-## Lackverschleiß
-
-**In:** *Mesh-basierte Generatoren**/Masken-Generatoren*
-
-**Fortgeschrittene**
+<b>In:</b> Mesh-basierte Generatoren > Maskengenerator
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,34 +37,40 @@ Generiert eine Schwarzweißmaske auf der Grundlage von durch Baking erzeugte Map
 
 Diese Maske repräsentiert das Abtragen von Farbe an den Rändern.
 
-## Parameter
-
-### Eingaben
-
-* **Ambient-Verdeckung**: *Graustufen-Eingabe*\
-  Durch Baking erzeugte Map für interne Effekte und Maskierung.
-* **Krümmung**: *Graustufen-Eingabe*\
-  Durch Baking erzeugte Map für interne Effekte und Maskierung.
-* **Variationsmaske**: *Graustufen-Eingabe*\
-  Maskenschlitz zum Maskieren der Knoteneffekte.
-* **Maske (optional)**: *Graustufen-Eingabe*\
-  Maskenschlitz zum Maskieren der Knoteneffekte.
-
-### Parameter
-
-* **Ebene**: *0.0 - 1.0*\
-  Legt den gesamten Farbabrieb fest, der allmählich sichtbar wird.
-* **Kontrast**: *0.0 - 1.0*\
-  Passt den Kontrast des Ergebnisses an.
-* **Verdeckung**: *0.0 - 1.0* Legt fest, wie stark der gebackene AO den Verschleiß in dunkleren Bereichen verhindert.
-* **Radius**: *0.0 - 2.0* Legt fest, wie weit sich der Chipping-Effekt von konvexen Kanten ausbreitet.
-* **Variation**: *0.0 - 1.0* Legen Sie die Stärke der Variation (Schmutz) fest, die in den Effekt übergeht.
-* **Variationsmaske überschreiben**: *Falsch/Wahr* Aktiviert den Eingabesteckplatz für die benutzerdefinierte Variation (Schmutz).
-
-## Beispielbilder
-
-![](../../../../../../assets/paint-wear-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Umgebungs-Verdeckung</b> <i>Graustufen-Eingabe</i> | Durch Baking erzeugte Map für interne Effekte und Maskierung. |
+| <b>Krümmung</b> <i>Graustufen-Eingabe</i> | Durch Baking erzeugte Map für interne Effekte und Maskierung. |
+| <b>Variationsmaske</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. |
+| <b>Maske (optional)</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Ebene</b> <i>0.0 - 1.0</i> | Legt den gesamten Farbabrieb fest, der allmählich sichtbar wird. |
+| <b>Kontrast</b> <i>0.0 - 1.0</i> | Passt den Kontrast des Ergebnisses an. |
+| <b>Verdeckung</b> <i>0.0 - 1.0</i> | Legt den Effekt fest, den das Baking geführt AO auf die Vermeidung von Verschleiß in dunkleren Bereichen hat. |
+| <b>Radius</b> <i>0.0 - 2.0</i> | Legt fest, wie weit sich der Chipping-Effekt von den konvexen Kanten ausbreitet. |
+| <b>Variation</b> <i>0.0 - 1.0</i> | Legen Sie die Stärke der Variation (Schmutz) fest, die in den Effekt übergeht. |
+| <b>Variationsmaske überschreiben</b> <i>False/True</i> | Ermöglicht benutzerdefinierte Variation (Schmutz) des Karteneingangssteckplatzes. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="paint-wear.resources/paint-wear-ex.gif" />
+        </td>
+    </tr>
 </table>

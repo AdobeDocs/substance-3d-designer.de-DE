@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über die Dateiformate von Substance 3D und wie diese prozedurale Materialien und Texturen speichern, die in verschiedenen Anwendungen verwendet werden können.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Was ist eine Substance 3D-Datei?
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Was ist eine Substance 3D-Datei?
 
-![Parametrisches Ziegelwandmaterial](../../../assets/MaterialsOverview.gif "Parametrisches Ziegelwandmaterial")
+![Parametrisches Ziegelwandmaterial](what-is-a-substance-3d-file.resources/MaterialsOverview.gif "Parametrisches Ziegelwandmaterial")
 
 *Beispiel aus Ziegelwandmaterial von Käy Vriend.\
 Die Parameter können geändert werden, um das Aussehen des Materials dynamisch zu steuern.*

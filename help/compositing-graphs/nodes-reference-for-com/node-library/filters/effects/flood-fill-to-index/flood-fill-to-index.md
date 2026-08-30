@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-index.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-index.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Flood Fill-zu-Index-Knoten, um Bereiche mit Indexwerten zu füllen, um nummerierte und beschriftete Muster zu erstellen.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Flood Fill in Index
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-index.png){width="200px"}
+![](flood-fill-to-index.resources/floodfill-index.png){width="200px"}
 
-## Flood Fill in Index
-
-**In:** *Filter/Effekte*
-
-**Komplex**
+<b>In:</b> Filters > Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,21 +37,35 @@ Mit &quot;Flood Fill in Index&quot; wird jede Indexzelle in einen Wert entsprech
 
 Darüber hinaus verwendet Flood Fill in Index [Werte](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md) und gibt die Anzahl der gefundenen Formen und die optionale interne Datentabelle zurück.
 
-### Eingaben
+</td>
+</tr>
+</table>
 
-* **Flood Fill-Box**: *Farbeingabe* Standardzuordnung für Flood Fill-Eingabe. Erforderlich.
-* **Spezielle Forminformationen**: *Farbeingabe* Zusätzliche Flood Fill-Map, muss explizit auf dem vorherigen Flood Fill-Knoten aktiviert werden und muss verbunden werden!.
+<a name="inputs"></a>
 
-### Parameter
+## Eingaben
 
-* **Ausgabe**: *Normalisiert, Integer* Ermitteln Sie, ob die Ausgabe im LDR-0-1-Bereich oder im HDR-0-n-Bereich liegt.
-* **Form ignorieren, die kleiner ist als**: *0.0 - 1.0* Toleranzwert zum Ignorieren kleiner Formen.
-* **Flood Fill-Datentabelle anzeigen**: *Falsch/Wahr* Gibt zusätzliche (Debug-)Daten für die erweiterte Verwendung zurück.
+|  |  |
+|:---|:---|
+| <b>Bbox für Flood Fill</b> <i>Farbeingabe</i> | Standard-Flood Fill-Eingabe-Map. Erforderlich. |
+| <b>Spezielle Forminformationen</b> <i>Farbeingabe</i> | Zusätzliche Knotenkarte, muss explizit auf dem vorherigen Flood Fill aktiviert werden und muss mit dem Flood Fill verbunden werden!. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Ausgabe</b> <i>Normalisiert, Ganzzahl</i> | Stellen Sie fest, ob die Ausgabedarstellung im LDR-0-1-Bereich oder im HDR-0-n-Bereich liegt. |
+| <b>Form ignorieren, die kleiner ist als </b> <i>0.0 - 1.0</i> | Toleranzwert zum Ignorieren kleiner Formen. |
+| <b>Flood Fill-Datentabelle anzeigen</b> <i>False/True</i> | Gibt zusätzliche (Debug-)Daten für die erweiterte Verwendung zurück. |
 
 ## Beispiele
 
-![](../../../../../../assets/flood-fill-ex02.jpg)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-index.resources/flood-fill-ex02.jpg" />
+        </td>
+    </tr>
 </table>

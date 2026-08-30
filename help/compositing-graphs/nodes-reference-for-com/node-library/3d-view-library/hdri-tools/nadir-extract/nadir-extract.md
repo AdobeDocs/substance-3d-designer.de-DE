@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/nadir-extract.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/nadir-extract.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Nadir Extract-Knoten, um den Nadirbereich aus HDRI-Panoramen zu extrahieren, um untere Bereiche von Umgebungskarten zu verarbeiten.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Nadir Extract
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 2%
+source-wordcount: '86'
+ht-degree: 6%
 
 ---
 
@@ -22,31 +22,29 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/nadir-extract.png){width="200px"}
+![](nadir-extract.resources/nadir-extract.png){width="200px"}
 
-## Nadir Extract
-
-**In:** *3D-Ansicht/HDRI-Werkzeuge*
-
-**Einfach**
+<b>In:</b> 3D-Ansicht > HDRI-Werkzeugs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Extrahiert den zentralen Massepunkt (Nadir) eines kugelförmigen, zugeordneten Eingabebildes. Kann verwendet werden, um den Tiefpunkt eines Bildes auf das andere zu übertragen und die Kamera oder das Stativ zu maskieren.
 
-## Parameter
-
-* **Skalierung**: *0.0 - 10.0*\
-  Den &quot;Zoomfaktor&quot; für den Basispunkt festlegen
-* **Drehung**: *0.0 - 1.0*\
-  Dreht sich um die zentrale Achse.
-* **Gamma-Ausgabe**: *sRGB, Linear* Gamma-Ausgabe.
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Skalierung</b> <i>0.0 - 10.0</i> | Den &quot;Zoomfaktor&quot; für den Basispunkt festlegen |
+| <b>Drehung</b> <i>0.0 - 1.0</i> | Dreht sich um die zentrale Achse. |
+| <b>Gamma für Ausgabe</b> <i>sRGB, linear</i> | Gamma ausgeben. |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan-non-uniform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan-non-uniform.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Histogramm Scan Non-Uniform (Histogramm scannen ohne Uniform), um ein ungleichmäßiges Histogramm zur erweiterten Farbkorrektur zu scannen.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Histogramm Scan ungleichmäßig
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 1%
+source-wordcount: '210'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-scan-non-uniform.png){width="128px"}
+![](histogram-scan-non-uniform.resources/histogram-scan-non-uniform.png){width="128px"}
 
-## Histogramm Scan ungleichmäßig
-
-**In:** *Filter/Korrekturen*
-
-**Komplex**
+<b>In:</b> Filters > Adjustments
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,23 +37,27 @@ Erweiterte Version von [Histogramm-Scan](../../../../../../compositing-graphs/no
 
 Die Verwendung ist wesentlich komplexer als die normale [Histogrammprüfung](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md). Stellen Sie daher sicher, dass Sie mit dieser Methode vertraut sind, bevor Sie versuchen, die nicht einheitliche Version zu verwenden.
 
-## Parameter
-
-### Eingaben
-
-* **Eingabe**: *Graustufeneingabe* Quellergebnis zum Ändern.
-* **Positionszuordnung**: *Graustufen-Eingang* Eingangssteckplatz zum Steuern des Positionsparameters. Aktiviert, wenn &quot;Positionseingabe verwenden&quot; auf &quot;True&quot; gesetzt ist. Der effektive Wertebereich ist klein und hängt von der Kontrastkarte und den Einstellungen ab.
-* **Kontrastkarte**: *Graustufen-Eingang* Eingangssteckplatz zur Steuerung des Kontrastparameters. Aktiviert, wenn &quot;Kontrasteingabe verwenden&quot; auf &quot;True&quot; gesetzt ist. Der effektive Wertebereich ist klein.
-
-### Parameter
-
-* **Positionseingabe verwenden**: *Falsch/Wahr* Verwendung des Positionszuordnungs-Eingabefelds umschalten.
-* **Position**: *0.0 - 1.0* Steuert oder ändert die Kartenergebnisse, um die Positionseinstellung zu steuern.
-* **Kontrasteingabe verwenden**: *Falsch/Wahr* Verwendung des Kontrastzuordnungs-Eingabeslots umschalten.
-* **Kontrast**: *0.0 - 1.0* Steuert oder ändert die Kartenergebnisse, um die Kontrasteinstellung zu steuern.
-
-## Beispielbilder
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Eingabe</b> <i>Graustufen-Eingabe</i> | Quellergebnis, das geändert werden soll. |
+| <b>Positionszuordnung</b> <i>Graustufen-Eingabe</i> | Eingangssteckplatz zum Ansteuern des Positionsparameters. Aktiviert, wenn &quot;Positionseingabe verwenden&quot; auf &quot;True&quot; gesetzt ist. Der effektive Wertebereich ist klein und hängt von der Kontrastkarte und den Einstellungen ab. |
+| <b>Kontrastkarte</b> <i>Graustufen-Eingabe</i> | Eingangssteckplatz zur Steuerung des Kontrastparameters. Aktiviert, wenn &quot;Kontrasteingabe verwenden&quot; auf &quot;True&quot; gesetzt ist. Der effektive Wertebereich ist klein. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Positionseingabe verwenden</b> <i>False/True</i> | Umschalten der Verwendung des Positionszuordnungs-Eingangssteckplatzes. |
+| <b>Position</b> <i>0.0 - 1.0</i> | Steuert oder ändert die Kartenergebnisse, um die Positionseinstellung zu steuern. |
+| <b>Kontrasteingabe verwenden</b> <i>False/True</i> | Umschalten der Verwendung des Kontrastzuordnungs-Eingangssteckplatzes. |
+| <b>Kontrast</b> <i>0.0 - 1.0</i> | Steuert oder ändert die Kartenergebnisse, um die Kontrasteinstellung zu steuern. |

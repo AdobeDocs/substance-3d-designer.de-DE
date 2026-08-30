@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: Wählen Sie in der 3D-Ansicht zwischen Renderern für Raster und Pathtracer für unterschiedliche Vorschauqualität und -leistung.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D-Renderer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c7b3b375144c8b58a8e7a7a408895a23e9bd1143
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 7%
@@ -38,11 +38,11 @@ Die 3D-Ansicht bietet vier Renderer:
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Rasterizer</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
+      <img src="3d-renderers.resources/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
       <br><i>GPU-Pathtracer</i>
     </td>
   </tr>
@@ -59,11 +59,11 @@ Dank der Abhängigkeit von USD kann das Adobe-Plugin [USDFileFormat](https://git
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Rasterizer</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
+      <img src="3d-renderers.resources/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -93,11 +93,11 @@ Dank der Abhängigkeit von USD kann das Adobe-Plugin [USDFileFormat](https://git
 | **Rasterizer-Schattenbeispielanzahl** Ganze Zahl | Legt fest, wie viele Schattenstrahlen pro Pixel verfolgt werden. |
 | **Rasterizer-Schattendeckkraft** Gleitend | Legt die Deckkraft der Schatten fest, von 0,0 (keine Schatten) bis 1,0 (volle Schatten). |
 | **Für die Rasterizer-Reihenfolge unabhängige Transparenz aktiviert** Boolescher Wert | Berücksichtigt beim Rendern nicht die Reihenfolge der transparenten Flächen. Dadurch wird eine gewisse Genauigkeit für ein schnelleres Rendern transparenter Oberflächen eingebüßt. |
-| **SSS für Rasterzeichen aktivieren** Boolescher Wert | Schaltet den Streueffekt unter der Oberfläche um. |
-| **Rasterizer SSS-Beispielanzahl** Ganze Zahl | Legt fest, wie viele Samples pro Pixel für die Darstellung der Untergrundstreuung entnommen werden. |
-| **Antialiasing für Rasterakkumulation aktivieren** Boolescher Wert | Schaltet das Kumulations-Antialiasing um. Dadurch werden die Smoothness oder Kanten im gerenderten Bild verbessert, indem die Renderings durcheinander gerendert werden und die lokale Durchschnittsfarbe jedes Pixels kumulativ berechnet wird. D.h. es sammelt Werte, aus denen ein Mittelwert berechnet wird. |
-| **Rastervoxel-Rasterauflösung** Ganze Zahl | Legt die Auflösung des Voxelrasters fest, das beim Voxelmarschieren der Rasterstruktur verwendet wird.   Höhere Werte führen zu präziseren Schatten auf Kosten der Leistung. |
-| **Anzahl der IBL-Laufzeitbeispiele für Rasterizer** Ganze Zahl | Gibt an, wie viele Samples verwendet werden, um die Specular-Reflexionen von IBL zu berechnen, wenn die Technik auf `runtimeSampled` festgelegt ist. |
+| **SSS für Rasterzeichen aktivieren** Boolescher Wert | Schaltet den Effekt Volumenstreuung um. |
+| **Rasterizer SSS-Beispielanzahl** Ganzzahl | Gibt an, wie viele Samples pro Pixel für die Rendering-Volumenstreuung aufgenommen werden. |
+| **Rasterakkumulations-Antialiasing aktivieren** Boolesche Wert | Schaltet das Akkumulations-Antialiasing um, das die Smoothness oder Kanten im gerenderten Bild verbessert, indem Renderings durcheinander gerendert und die lokale Durchschnittsfarbe jedes Pixels kumulativ berechnet wird. D.h. es sammelt Werte, aus denen ein Mittelwert berechnet wird. |
+| **Rasterizer voxel Raster Resolution** Ganzzahl | Legt die Auflösung des Voxel-Rasters fest, der beim Marschieren des Voxels durch den Raster verwendet wird.   Höhere Werte führen zu präziseren Schatten auf Kosten der Leistung. |
+| **Anzahl der IBL-Laufzeitbeispiele für Rasterizer** Ganzzahl | Gibt an, wie viele Samples verwendet werden, um die Specular-Reflexionen von IBL zu berechnen, wenn die Technik auf `runtimeSampled` festgelegt ist. |
 
 +++
 
@@ -105,13 +105,13 @@ Dank der Abhängigkeit von USD kann das Adobe-Plugin [USDFileFormat](https://git
 
 |                               |                                                                                                                                                              |
 |-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Aktiviert** Boolescher Wert | Schaltet die Grundebene in der gerenderten Szene um. |
-| **Height** Gleitend | Steuert den Height-Versatz der Grundebene.   Wenn der Wert erstellt wird, wird erwartet, dass der entsprechende Bias basierend auf der Größe der Szene aktiviert ist. |
-| **Schattenintensität** Float | Wenn Schatten aktiviert sind, wird die Deckkraft der auf die Grundebene geworfenen Schatten von 0,0 (keine Schatten) bis 1,0 (Vollschatten) gesteuert. |
+| **Boolesche Wert aktiviert** | Schaltet den Boden in der gerenderten Szene um. |
+| **Height** Fließkommazahl | Steuert den Height-Versatz der Boden-Ebene.   Bei der Erstellung wird erwartet, dass dem Wert basierend auf der Skala der Szene die entsprechende Voreinstellung Baking geführt wird. |
+| **Schattenintensität** Fließkommazahl | Wenn &quot;Schatten&quot; aktiviert ist, wird die Deckkraft der Geworfen Boden auf der Schattenebene von 0,0 (keine Schatten) bis 1,0 (Vollschatten) gesteuert. |
 
 +++
 
-![Rasterizer - Beispiel 1](../../../assets/3dRendererRasterizer.jpg "Rasterizer - Beispiel 1"){zoomable="yes"}
+![Rasterizer - Beispiel 1](3d-renderers.resources/3dRendererRasterizer.jpg "Rasterizer - Beispiel 1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -125,9 +125,9 @@ Dank der Abhängigkeit von USD kann das Adobe-Plugin [USDFileFormat](https://git
 | **Versatz aktivieren** Boolescher Wert | Gibt an, ob Versatz aktiviert werden soll. |
 | **Schwellenwert für Versatz** Gleitkommawert | Legt einen Schwellenwert zum Aktivieren/Deaktivieren der GPU-Tesselierung fest. |
 | **Rückseitenauslesung aktivieren** Boolescher Wert | Ein echter Wert ermöglicht das Keulen von Dreiecksgittern, deren Normale von der Kamera abgewandt sind. Ein falscher Wert deaktiviert die Rückseitenauslesung. |
-| **Pixelzyklustyp** Ganze Zahl | Gibt die Technik an, die zum Verringern der Rechenauflösung für interaktives Rendering verwendet werden soll:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Kein Durchlauf:</i> Deaktiviert den Pixeldurchlauf und berechnet jedes vollständige Pixelmuster.</li> <li data-preserve-html="true"><i>Optimales Gerät:</i> Wählt die ideale Auflösung für den Pixelzyklus basierend auf dem Gerät aus, das zum Rendern verwendet wird.</li> <li data-preserve-html="true"><i>4x4:</i> Samples 1/16 der Pixel pro Zyklusdurchgang.</li> <li data-preserve-html="true"><i>8x8:</i> Samples 1/64 der Pixel pro Zyklusdurchgang.</li><li data-preserve-html="true"><i>Blaues Rauschen:</i> Führt eine adaptive Sampling-Methode für eine Anzahl von Pixeln durch und verteilt sie auf eine objektive Framerate.</li> </ul> |
+| **Ganzzahl für Pixelzyklustyp** | Gibt die Technik an, die zum Verringern der Rechenauflösung für interaktives Rendering verwendet werden soll:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Kein Durchlauf:</i> Deaktiviert den Pixeldurchlauf und berechnet jedes vollständige Pixelmuster.</li> <li data-preserve-html="true"><i>Optimales Gerät:</i> Wählt die ideale Auflösung für den Pixelzyklus basierend auf dem Gerät aus, das zum Rendern verwendet wird.</li> <li data-preserve-html="true"><i>4x4:</i> Samples 1/16 der Pixel pro Zyklusdurchgang.</li> <li data-preserve-html="true"><i>8x8:</i> Samples 1/64 der Pixel pro Zyklusdurchgang.</li><li data-preserve-html="true"><i>Blue Rauschen:</i> Samples adaptiv eine Anzahl von Rahmen und teilen sie auf eine objektive Pixelrate.</li> </ul> |
 | **Diagnosemodus** Ganze Zahl | Gibt den Diagnosemodus vor, der gerendert werden soll. |
-| **Hintergrund durch Übertragung anzeigen** Boolescher Wert | Ein echter Wert ermöglicht es, das Hintergrundbild durch lichtdurchlässige oder brechende Objekte zu sehen.   Wenn dies falsch ist, zeigen transmissive Objekte das gebrochene Bild der Szenenumgebung. |
+| **Hintergrund durch Übertragung anzeigen** Boolesche Wert | Ein echter Wert ermöglicht es, das Hintergrundbild durch transmissive oder refraktive Objekte zu sehen.   Wenn dieser Wert falsch ist, zeigen transmissive-Objekte das gebrochene Bild der Umgebung der Szene. |
 
 +++
 
@@ -135,17 +135,17 @@ Dank der Abhängigkeit von USD kann das Adobe-Plugin [USDFileFormat](https://git
 
 |                                    |                                                                                                                                                                  |
 |------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Aktiviert** Boolescher Wert | Schaltet die Grundebene in der gerenderten Szene um. |
-| **Height** Gleitend | Steuert den Height-Versatz der Grundebene.   Wenn der Wert erstellt wird, wird erwartet, dass der entsprechende Bias basierend auf der Größe der Szene aktiviert ist. |
-| **Schattenintensität** Float | Wenn Schatten aktiviert sind, wird die Deckkraft der auf die Grundebene geworfenen Schatten von 0,0 (keine Schatten) bis 1,0 (Vollschatten) gesteuert. |
-| **Lokale Lichter aktivieren** Boolescher Wert | Steuert, ob die direkte Beleuchtung durch lokale Lichter zu Schattenfängern beiträgt. |
-| **Reflexionen aktivieren** Boolescher Wert | Steuert die Sichtbarkeit aller Reflexionen auf der Grundebene. |
-| **Deckkraft der Spiegelungen** Gleitend | Wenn Reflexionen aktiviert sind, wird die Deckkraft der Reflexionen zwischen 0,0 (keine Reflexionen) und 1,0 (vollständige Reflexionen) gesteuert. |
-| **Raueit der Spiegelungen** Gleitend | Wenn Reflexionen aktiviert sind, wird die Materialrauhigkeit der Grundebene, die zu den Reflexionen beiträgt, von 0,0 (vollständig glänzend) bis 1,0 (vollständig rau) gesteuert. |
+| **Boolesche Wert aktiviert** | Schaltet den Boden in der gerenderten Szene um. |
+| **Height** Fließkommazahl | Steuert den Height-Versatz der Boden-Ebene.   Bei der Erstellung wird erwartet, dass dem Wert basierend auf der Skala der Szene die entsprechende Voreinstellung Baking geführt wird. |
+| **Schattenintensität** Fließkommazahl | Wenn &quot;Schatten&quot; aktiviert ist, wird die Deckkraft der Geworfen Boden auf der Schattenebene von 0,0 (keine Schatten) bis 1,0 (Vollschatten) gesteuert. |
+| **Lokale Beleuchtung aktivieren** Boolesche Wert | Steuert, ob die direkte Beleuchtung durch lokale Lichter zu Schattenfängern beiträgt. |
+| **Reflexionen aktivieren** Boolesche Wert | Steuert die Sichtbarkeit aller Reflexionen auf der Ebene des Bodens. |
+| **Fließkommazahl der Deckkraft der Spiegelungen** | Wenn Reflexionen aktiviert sind, wird die Deckkraft der Reflexionen zwischen 0,0 (keine Reflexionen) und 1,0 (vollständige Reflexionen) gesteuert. |
+| **Rauheit der Spiegelungen** Fließkommazahl | Wenn Reflexionen aktiviert sind, wird die Rauheit des Materials der Boden-Ebene gesteuert, die zu den Reflexionen beiträgt, von 0,0 (vollständig glänzend) bis 1,0 (vollständig rau). |
 
 +++
 
-![GPU-Pathtracer - Beispiel 1](../../../assets/3dRendererPathtracer.jpg "GPU-Pathtracer - Beispiel 1"){zoomable="yes"}
+![GPU-Pathtracer - Beispiel 1](3d-renderers.resources/3dRendererPathtracer.jpg "GPU-Pathtracer - Beispiel 1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -170,7 +170,7 @@ Weitere Informationen zu OpenPBR in Designer [finden Sie hier](../material-prope
 
 +++ Adobe-Standardmaterial
 
-Adobe ist ein standardisierter Shader. Sorgt für ein korrektes Aussehen zwischen allen Adobe Substance 3D-Anwendungen und unterstützt eine Vielzahl von Funktionen.
+Adobe ist standardisierter Shader. Sorgt für ein korrektes Aussehen zwischen allen Adobe Substance 3D-Anwendungen und unterstützt eine Vielzahl von Funktionen.
 
 Zur Visualisierung des Heights stehen zwei Techniken zur Verfügung:
 
@@ -178,7 +178,7 @@ Zur Visualisierung des Heights stehen zwei Techniken zur Verfügung:
 
 <b>Tesselation + Versatz</b> - Unterteilt die Geometrie und verschiebt die Scheitelpunkte entlang ihrer Normalen.
 
-Das Adobe-Standardmaterial ist in [diesem Abschnitt](https://experienceleague.adobe.com/de/docs/substance-3d/general-knowledge/asm/adobe-standard-material) unserer Dokumentation ausführlich dokumentiert.
+Das Adobe Standard Material ist in [diesem Abschnitt](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) unserer Dokumentation ausführlich dokumentiert.
 
 +++
 
@@ -192,13 +192,13 @@ Zur Visualisierung des Heights stehen zwei Techniken zur Verfügung:
 
 <b>Tesselation + Versatz</b> - Unterteilt die Geometrie und verschiebt die Scheitelpunkte entlang ihrer Normalen.
 
-Dieser Shader ist derzeit ein *in Bearbeitung* und bietet einen Überblick über die Eigenschaften der Materialien, sollte jedoch nicht für Feinanpassungen verwendet werden und einige Funktionen werden noch nicht unterstützt.
+Dieser Shader ist derzeit *in Bearbeitung* und bietet einen Überblick über die Merkmale der Material, sollte jedoch nicht für Feinanpassungen verwendet werden, und einige Funktionen werden noch nicht unterstützt.
 
 +++
 
 +++ Blinn
 
-&quot;Alte Generation&quot;, nicht-PBR richtiger Shader. Verwendet Diffuse-, Specular- und Glanzkanäle neben Standardkanälen wie Deckkraft, Height und Normal.
+&quot;Alte Generation&quot;, nicht PBR richtiger Shader. Verwendet Diffuse-, Specular- und Glanz-Kanäle neben Standardkanälen wie Deckkraft, Height und Normal.
 
 Zur Visualisierung des Heights stehen zwei Techniken zur Verfügung:
 
@@ -290,10 +290,10 @@ Unlit Debug Shader zur Visualisierung von Texturmaps ohne Beleuchtung. Verwendet
 
 +++
 
-Designer bietet außerdem die Möglichkeit, eigene Shader für den OpenGL-Renderer [&#x200B; mithilfe von GLSLFX-Dateien zu konfigurieren](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md).
+Designer bietet außerdem die Möglichkeit, eigene Shader für den OpenGL-Renderer [ mithilfe von GLSLFX-Dateien zu konfigurieren](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md).
 
 >[!IMPORTANT]
 > 
 > Dieser Renderer ist **veraltet**: Es wird keine neuen Funktionen erhalten und in einer zukünftigen Version von Designer ausgemustert.
 
-![OpenGL - Beispiel 1](../../../assets/3dRendererOpenGL.jpg "OpenGL - Beispiel 1"){zoomable="yes"}
+![OpenGL - Beispiel 1](3d-renderers.resources/3dRendererOpenGL.jpg "OpenGL - Beispiel 1"){zoomable="yes"}
