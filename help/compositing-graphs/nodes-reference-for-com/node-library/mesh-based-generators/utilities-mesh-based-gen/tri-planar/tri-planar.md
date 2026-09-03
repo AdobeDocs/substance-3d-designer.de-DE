@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/tri-planar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/tri-planar.html"
 breadcrumb-title: ''
 description: Mit dem Knoten "Dreidimensional planar" können Sie Texturen aus drei orthogonalen Ebenen projizieren, um eine nahtlose Texturzuordnung auf komplexe Geometrie zu ermöglichen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tri Planar
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 6%
@@ -24,9 +24,9 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tri-planar.resources/triplanar-1.png){width="128px"}
+![](tri-planar.resources/tri-planar-01.png){width="128px"}
 
-![](tri-planar.resources/triplanar-grayscale.png){width="128px"}
+![](tri-planar.resources/tri-planar-02.png){width="128px"}
 
 <b>In:</b> Mesh-basierte Generatoren > Dienstprogramme
 
@@ -55,7 +55,7 @@ Denken Sie daran, dass Ihre Backen sehr präzise sein sollten: 8-Bit-Backen füh
 | <b>Normaler Weltraum</b> <i>Farbeingabe</i> | Baked World Space Normal Karte, Idealerweise 16-Bit oder höhere Präzision. |
 | <b>Eingabe X</b> <i>Farbeingabe (Graustufeneingabe)</i> | Eingabe-Map für die Neuzuordnung von UV zu Welt-Raum per Triplanare Projektion. Wird für alle Achsen verwendet, wenn &quot;Bildeingaben&quot; auf 1 gesetzt ist, für die X-Achse, wenn auf 3 gesetzt. |
 | <b>Eingabe Y</b> <i>Farbeingabe (Graustufeneingabe)</i> | Nur, wenn &quot;Bildeingaben&quot; auf 3 eingestellt ist. Eingabe-Map, um von UV zum Weltraum auf der Y-Achse neu zuzuordnen. |
-| <b>Eingabe Z</b> <i>Farbeingabe (Graustufeneingabe)</i> | Nur, wenn &quot;Bildeingaben&quot; auf 3 eingestellt ist. Eingabe-Map für die Neuzuordnung von UV zu Welt-Raum auf der Z-Achse. |
+| <b>Eingabe Z</b> <i>Farbeingabe (Graustufeneingabe)</i> | Nur, wenn &quot;Bildeingaben&quot; auf 3 eingestellt ist. Eingabe-Map, um von UV zum Weltraum auf der Z-Achse neu zuzuordnen. |
 
 <a name="parameters"></a>
 
@@ -64,10 +64,10 @@ Denken Sie daran, dass Ihre Backen sehr präzise sein sollten: 8-Bit-Backen füh
 |  |  |
 |:---|:---|
 | <b>Projektion</b> <i>Alle Achsen, nur X, nur Y, nur Z</i> | Legt fest, mit welchen Achsen gemischt werden soll. |
-| <b>Image-Eingaben</b> <i>1 Eingabe, 3 Eingaben</i> | Legen Sie fest, ob eine Map für alle Achsen oder eine bestimmte Map pro Achse verwendet werden soll. |
+| <b>Image-Eingaben</b> <i>1 Eingabe, 3 Eingaben</i> | Legen Sie fest, ob eine Karte für alle Achsen oder eine bestimmte Karte pro Achse verwendet werden soll. |
 | <b>Füllmethode</b> <i>linear, erweitert</i> | Höhere Präzision und Genauigkeit. |
 | <b>Füllkontrast</b> <i>0.001 - 1.0</i> | Überblendungskontrast, Überblendung zwischen glatten oder harten Übergängen. |
-| <b>Normalisierungsfaktor</b> <i>0.0 - 1.0</i> | Verbessert die Projektion-Füllmethode, indem der Kontrastverlust im Füllbereich wiederhergestellt wird. |
+| <b>Normalisierungsfaktor</b> <i>0.0 - 1.0</i> | Verbessert die Projektionsüberblendung, indem der Kontrastverlust im Überblendungsbereich wiederhergestellt wird. |
 | <b>Textur Kachelung</b> <i>0.0 - 10.0</i> | Anzahl der Male, die die Eingabe-Texturen kacheln sollen. |
 | <b>Globale Drehung</b> <i>0.0 - 1.0</i> | Globale Drehung für alle Achsen. |
 | <b>Gespiegelte Projektion korrigieren</b> <i>False/True</i> | Legen Sie fest, wie gespiegelte Projektionen behandelt werden. |
@@ -75,8 +75,8 @@ Denken Sie daran, dass Ihre Backen sehr präzise sein sollten: 8-Bit-Backen füh
 | <b>Drehung Y</b> <i>0.0 - 1.0</i> | Einzelne Drehung um die Y-Achse der Projektion. |
 | <b>Drehung Z</b> <i>0.0 - 1.0</i> | Einzelne Drehung um die Z-Achse der Projektion. |
 | <b>Versatz X</b> <i>0.0 - 1.0</i> | Versatz über Projektion X-Achse. |
-| <b>Zufälliger Versatz X</b> <i>0.0 - 1.0</i> | Zulassen, dass der X-Achsen-Offset randomisiert wird. |
+| <b>Zufälliger Versatz X</b> <i>0.0 - 1.0</i> | Zulassen, dass der Versatz der X-Achse zufällig gewählt wird. |
 | <b>Versatz Y</b> <i>0.0 - 1.0</i> | Versatz über die Y-Achse der Projektion. |
-| <b>Zufallsversatz Y</b> <i>0.0 - 1.0</i> | Zulassen, dass der Y-Achsen-Versatz randomisiert wird. |
+| <b>Zufallsversatz Y</b> <i>0.0 - 1.0</i> | Zulassen, dass der Y-Achsenversatz randomisiert wird. |
 | <b>Versatz Z</b> <i>0.0 - 1.0</i> | Versatz über die Z-Achse der Projektion. |
-| <b>Zufallsversatz Z</b> <i>0.0 - 1.0</i> | Randomisierung des Z-Achsen-Offsets zulassen. |
+| <b>Zufallsversatz Z</b> <i>0.0 - 1.0</i> | Zulassen, dass der Versatz der Z-Achse randomisiert wird. |

@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/mesh-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/mesh-1.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Mesh 1-Mesh, um einfache Knotenmuster zum Erstellen geometrischer und Raster-basierter Texturen zu generieren.
+description: Verwenden Sie den Knoten Gitter 1, um grundlegende Gittermuster zum Erstellen geometrischer und gitterbasierter Texturen zu generieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Mesh 1
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: MESH 1
+title: Gitter 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 6%
@@ -18,13 +18,13 @@ ht-degree: 6%
 ---
 
 
-# MESH 1
+# Gitter 1
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](mesh-1.resources/mesh-1.png){width="128px"}
+![](mesh-1.resources/mesh-1-01.png){width="128px"}
 
 <b>In:</b> Texturgeneratoren > Muster
 
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 ## Beschreibung
 
-Einfacher Mesh mit dünnen Blöcken. Ideal für die Erstellung von Height- und Detailkarten.
+Einfaches Gittermuster mit dünnen Blöcken. Ideal für die Erstellung von Height- und Detailkarten.
 
 </td>
 </tr>
@@ -54,7 +54,7 @@ Einfacher Mesh mit dünnen Blöcken. Ideal für die Erstellung von Height- und D
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="mesh-1.resources/mesh-1-ex.gif" />
+            <img src="mesh-1.resources/mesh-1-02.gif" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Formknoten, um grundlegende geometrische Formen zum Erstellen von Mustern und Texturen in Substance 3D Designer zu generieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Form
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 6%
@@ -24,9 +24,9 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape.resources/shape-2.png){width="128px"}
+![](shape.resources/shape-01.png){width="128px"}
 
-<b>In:</b> Texturgeneratoren > Muster
+<b>In:</b> Texturen > Muster generieren
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -62,7 +62,7 @@ Trotz seiner Einfachheit ist dies ein sehr nützlicher Knoten: Es ist der Bauste
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="shape.resources/shape-ex.gif" />
+            <img src="shape.resources/shape-02.gif" />
         </td>
     </tr>
 </table>

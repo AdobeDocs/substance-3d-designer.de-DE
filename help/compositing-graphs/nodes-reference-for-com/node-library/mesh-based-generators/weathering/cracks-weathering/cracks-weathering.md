@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/cracks-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/cracks-weathering.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Risse Verwitterung , um Rissmuster zu Materialien hinzuzufügen, die auf der Krümmung des Meshs und den Belastungspunkten basieren.
+description: Verwenden Sie den Risse-Verwitterung -Knoten, um Rissmuster auf der Grundlage von Gitterkrümmung und Spannungspunkten zu Materialien hinzuzufügen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Cracks Weathering
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Risse Verwitterung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](cracks-weathering.resources/cracks-weathering.png){width="128px"}
+![](cracks-weathering.resources/cracks-weathering-01.png){width="128px"}
 
 <b>In:</b> Mesh-basierte Generatoren > Verwitterung
 
@@ -57,7 +57,7 @@ Vergewissern Sie sich, dass Sie die [Verknüpfungserstellungsmodi](../../../../.
 
 |  |  |
 |:---|:---|
-| <b>Kanäle</b> | Schalten Sie die Materialkanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanzkarten anstelle von &quot;Metallisch/Raueit&quot; verwenden. |
+| <b>Kanäle</b> | Schalten Sie die Material-Kanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanz-Maps anstelle von &quot;Metallic/Rauheit&quot; verwenden. |
 | <b>Erweitert</b> |  |
 | <b>Normales Format</b> <i>DirectX, OpenGL</i> | Wechselt zwischen verschiedenen Normalmap-Formaten (invertiert den grünen Kanal). |
 | <b>Maske</b> <i>False/True</i> | Schaltet die Verwendung der Maskenkarte ein oder aus. |
@@ -71,7 +71,7 @@ Vergewissern Sie sich, dass Sie die [Verknüpfungserstellungsmodi](../../../../.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="cracks-weathering.resources/cracks-ex.gif" />
+            <img src="cracks-weathering.resources/cracks-weathering-02.gif" />
         </td>
     </tr>
 </table>

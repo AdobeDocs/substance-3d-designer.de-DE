@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-grayscale.html"
 breadcrumb-title: ''
-description: Verwenden Sie die Streuung des Knotens "Spline Grayscale", um Graustufenelemente für prozedurale Muster entlang von Spline-Pfaden zu verteilen.
+description: Verwenden Sie die Streuung des Knotens "Spline Graustufen", um Graustufenelemente entlang von Spline-Pfaden für prozedurale Muster zu verteilen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Scatter on Spline Grayscale
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Streuung in Spline Grayscale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2853'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-icon.png "Knotensymbol")
+![Knotensymbol](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-01.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -41,7 +41,7 @@ Zeichnet die angegebenen Muster entlang der Eingabe-Splines über dem Eingabehin
 
 Der Knoten bietet umfassende Anpassungsoptionen für die Steuerung der Streuung von Mustern.
 
-Einige Aspekte der Streuung können mithilfe von Bildern von anderen Knoten im Diagramm gesteuert werden, um den dynamischen Aspekt des Ergebnisses zu fördern.
+Einige Streuungsaspekte lassen sich mithilfe von Bildern von anderen Graf im Knoten steuern, um die Dynamik des Ergebnisses zu verbessern.
 
 >[!NOTE]
 >
@@ -134,8 +134,8 @@ Einige Aspekte der Streuung können mithilfe von Bildern von anderen Knoten im D
 | <b>Drehungszufallszentrum (Mitte)</b> <i>Gleitend</i> | Dreht sich um die Mitte des Musters und um den Mittelpunkt der zufälligen Drehungen, die mit dem Parameter &quot;Drehung zufällig&quot; angewendet werden. |
 | <b>Farbe</b> |  |
 | <b>Füllmethode</b> <i>Integer</i> | Die Methode zum Mischen der Farben von Mustern mit dem Hintergrund und anderen überlappenden Mustern: <br><br>- <i>Max</i>: Die hellste Farbe verwenden;<br>- <i>Hinzufügen</i>: Füge die Farben zusammen. |
-| <b>Shape-Grundfarbe</b> <i>Gleitend</i> | Die Grundfarbe der Muster. |
-| <b>Multiplikator für die Grundfarbe der Form</b> <i>Gleitend</i> | Die Intensität der Shape-Grundfarbe der Muster.<br>Hinweis: Die Ausgangsfarbe ist das gewichtete Ergebnis aller Farbmultiplikatoren. |
+| <b>Form-Grundfarbe</b> <i>Gleitend</i> | Die Grundfarbe der Muster. |
+| <b>Farbmultiplikator der Grundform</b> <i>Gleitend</i> | Die Intensität der Shape-Grundfarbe der Muster.<br>Hinweis: Die Ausgangsfarbe ist das gewichtete Ergebnis aller Farbmultiplikatoren. |
 | <b>Spline-Thickness-Multiplikator</b> <i>Gleitend</i> | Die Intensität, mit der die Farbe jedes Musters mit der Thickness des Splines an seiner Position multipliziert wird.<br>Hinweis: Die Ausgangsfarbe ist das gewichtete Ergebnis aller Farbmultiplikatoren. |
 | <b>Formindexmultiplikator</b> <i>Gleitend</i> | Die Intensität, mit der die Farbe jedes Musters mit seinem normalisierten Index multipliziert wird.<br>Hinweis: Die Ausgangsfarbe ist das gewichtete Ergebnis aller Farbmultiplikatoren. |
 | <b>Hemisphere Height-Modus</b> <i>Ganzzahl</i> (verfügbar, wenn &quot;Pattern&quot; auf &quot;Hemisphere&quot; festgelegt ist) | Die Auswirkung des Spline-Heights auf ein darauf verstreutes Hemisphärenmuster:<br><br>- <i>Offset</i>: Das Spline-Height wird dem Height der Hemisphäre hinzugefügt;<br>- <i>Skalierung</i>: das Spline-Height wird mit dem Height der Hemisphäre multipliziert. |
@@ -160,11 +160,11 @@ Einige Aspekte der Streuung können mithilfe von Bildern von anderen Knoten im D
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-02.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant1-After.jpg" alt="ScatterOnSplineGrayscale-Variant1-After">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-03.jpg" alt="ScatterOnSplineGrayscale-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -176,11 +176,11 @@ Einige Aspekte der Streuung können mithilfe von Bildern von anderen Knoten im D
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-04.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant2-After.jpg" alt="ScatterOnSplineGrayscale-Variant2-After">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-05.jpg" alt="ScatterOnSplineGrayscale-Variant2-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -194,12 +194,12 @@ Einige Aspekte der Streuung können mithilfe von Bildern von anderen Knoten im D
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Demo.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-06.gif "Knotenbeispiel 2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotendemo 2](scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Demo2.gif "Knotendemo 2")
+![Knotendemo 2](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-07.gif "Knotendemo 2")
 
 </td>
 </tr>

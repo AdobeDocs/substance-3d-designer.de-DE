@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-014.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-014.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Schmutz Map 014, um prozedurale Schmutz-Texturen zum Hinzufügen von Oberflächendetails und Verschleißeffekten zu Materialien zu generieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Schmutz Map 014
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-map-014.resources/grungemap-014.png){width="128px"}
+![](grunge-map-014.resources/grunge-map-014-01.png){width="128px"}
 
 <b>In:</b> Textur Generators > Rauschen
 
@@ -49,14 +49,14 @@ Dadurch wird eine komplexe, kombinierte Noisemap erzeugt. Es kann als detaillier
 | <b>Kontrast</b> <i>0.0 - 1.0</i> |  |
 | <b>Umkehren</b> <i>False/True</i> |  |
 | <b>Pinselmuster</b> <i>0.0 - 1.0</i> | Fügt eine Maske um die Kanten hinzu, wenn sie als Alpha-Pinsel verwendet wird. |
-| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
 
 ## Beispiele
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-map-014.resources/grungemap-014-ex.gif" />
+            <img src="grunge-map-014.resources/grunge-map-014-02.gif" />
         </td>
     </tr>
 </table>

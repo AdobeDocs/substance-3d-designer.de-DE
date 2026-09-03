@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/moss-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/moss-weathering.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Moosverwitterung", um Materialien Mooswachstumsmuster basierend auf der Gitterkrümmung und -position hinzuzufügen.
+description: Verwenden Sie den Moss-Verwitterung-Knoten, um Mooswachstumsmuster zu Materialien hinzuzufügen, die auf der Krümmung und Position des Meshs basieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Moss Weathering
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Moosverwitterung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](moss-weathering.resources/moss-weathering.png){width="128px"}
+![](moss-weathering.resources/moss-weathering-01.png){width="128px"}
 
 <b>In:</b> Mesh-basierte Generatoren > Verwitterung
 
@@ -35,7 +35,7 @@ ht-degree: 7%
 
 Dies ist ein Vollmaterial-Effekt, der auf mehreren Kanälen gleichzeitig funktioniert. Es erzeugt einen überwucherten Mooseffekt mit einer einzigen Steuerung für die Propagierung.
 
-Dieser Effekt eignet sich am besten für eine fertig gestellte Weltraum-Positions-Map und eine zusätzliche Höhenmap. Dies ist zwar keine exakte Anforderung, verleiht dem Effekt aber eine glaubwürdigere Platzierung.
+Dieser Effekt eignet sich am besten für eine Baking geführt Welt-Raum-Positions-Map und eine zusätzliche Höhen-Map. Dies ist zwar keine exakte Anforderung, verleiht dem Effekt aber eine glaubwürdigere Platzierung.
 
 Vergewissern Sie sich, dass Sie die [Verknüpfungserstellungsmodi](https://support.allegorithmic.com/documentation/display/SD5/Link+Creation+Modes) richtig verstehen, wenn Sie mit vollständigen Materialien arbeiten.
 
@@ -49,7 +49,7 @@ Vergewissern Sie sich, dass Sie die [Verknüpfungserstellungsmodi](https://suppo
 
 |  |  |
 |:---|:---|
-| <b>Position</b> <i>Farbeingabe</i> | Weltall-Position gebacken. |
+| <b>Position</b> <i>Farbeingabe</i> | Baking geführt Position des Welt-Raums. |
 | <b>Height</b> <i>Graustufen-Eingabe</i> | Zusätzliche Höhenzuordnungs-Eingabe. |
 | <b>Maske</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. Mit dem Parameter &quot;Maske&quot; umschaltbar. |
 
@@ -80,7 +80,7 @@ Vergewissern Sie sich, dass Sie die [Verknüpfungserstellungsmodi](https://suppo
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="moss-weathering.resources/moss-ex.gif" />
+            <img src="moss-weathering.resources/moss-weathering-02.gif" />
         </td>
     </tr>
 </table>

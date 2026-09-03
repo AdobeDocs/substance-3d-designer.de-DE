@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/3d-texture-offset.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/3d-texture-offset.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten 3D-Texturversatz , um Texturen im 3D-Raum zu versetzen und Parallaxeffekte und Oberflächenvariationen zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D-Texturversatz
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 3%
@@ -28,12 +28,12 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](3d-texture-offset.resources/3dtextureoffsetgrayscale.png){width="200px"}
+![](3d-texture-offset.resources/3d-texture-offset-01.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](3d-texture-offset.resources/3dtextureoffsetcolor.png){width="200px"}
+![](3d-texture-offset.resources/3d-texture-offset-02.png){width="200px"}
 
 </td>
 </tr>
@@ -73,10 +73,10 @@ Der Knoten **3D Texture Offset** wendet eine *Offset-Transformation* in den Achs
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-offset.resources/3dtextureoffset-variant.jpg" />
+            <img src="3d-texture-offset.resources/3d-texture-offset-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-offset.resources/3dtextureoffset-node.png" />
+            <img src="3d-texture-offset.resources/3d-texture-offset-04.png" />
         </td>
     </tr>
 </table>

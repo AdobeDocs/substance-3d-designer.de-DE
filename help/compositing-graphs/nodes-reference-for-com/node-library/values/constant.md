@@ -1,7 +1,7 @@
 ---
 helpx_url: ""
 breadcrumb-title: ''
-description: Greifen Sie in Substance 3D Designer auf Konstantenknoten zu, um Konstantenwerte in Substance-Graphen zu definieren.
+description: Greifen Sie in Substance 3D Designer auf Konstantenknoten zu, um Konstantenwerte in Substance-Graf zu definieren.
 helpx_creative_field: ""
 helpx_description: ""
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Konstanten
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -20,22 +20,22 @@ ht-degree: 0%
 
 # Konstanten
 
-Konstantenknoten sind eine Möglichkeit, einen statischen Wert für die Verwendung in Substance-Graphen zu erstellen.
+Konstantenknoten sind eine Möglichkeit, einen statischen Wert für die Verwendung innerhalb von Substance-Grafen zu erstellen.
 
 Sie finden diese Knoten im Abschnitt **Werte > Konstanten** der Bibliothek.\
-Alle enthalten einen einfachen [Wertprozessor](../../atomic-nodes/value-processor/value-processor.md), der den Wert generiert.
+Sie alle enthalten einen einfachen [Wertprozessor](../../atomic-nodes/value-processor/value-processor.md)-Knoten, der den Wert generiert.
 
 +++ Konstante Knoten in der Bibliothek
 
-![constants-library.png](constant.resources/constants-library.png)
+![constants-library.png](constant.resources/constant-01.png)
 
 +++
 
-<p style="text-align: center;"><img src="./constant.resources/constants-float-01.png" alt="Konstanter Gleitkomma-Knoten" /></p>
+<p style="text-align: center;"><img src="./constant.resources/constant-02.png" alt="Knoten mit konstanter Fließkommazahl" /></p>
 
 ## Ganzzahlen
 
-Konstante Ganzzahlen generieren ganze Zahlen und haben einen Schritt von 1.
+Konstante Ganzzahlen generieren ganze Zahlen und haben eine Stufe von 1.
 
 [Sie können in &quot;Float&quot;,](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md) konvertiert werden. Dies wird empfohlen, wenn ein Vorgang ausgeführt wird, der komplexer ist als Additionen, Subtraktionen und einfache Vergleiche.
 
@@ -43,7 +43,7 @@ Konstante Ganzzahlen generieren ganze Zahlen und haben einen Schritt von 1.
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Ganzzahltyp](constant.resources/fn-constant-integer.png "Symbol für Ganzzahltyp")
+![Symbol für Ganzzahltyp](constant.resources/constant-03.png "Symbol für Ganzzahltyp")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ Eine Ganzzahl hat eine einzelne Komponente. Er ist nützlich als Index für Ausw
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Integer2-Typ](constant.resources/fn-constant-integer2.png "Symbol für Integer2-Typ")
+![Symbol für Integer2-Typ](constant.resources/constant-04.png "Symbol für Integer2-Typ")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -76,7 +76,7 @@ Eine Ganzzahl hat eine einzelne Komponente. Er ist nützlich als Index für Ausw
 
 Ein Integer2-Knoten generiert einen statischen Ganzzahlvektor mit 2 Komponenten und (X, Y) Komponenten.
 
-Ein häufiger Anwendungsfall von Integer2 ist das Festlegen von X- und Y-Rastergrößen, wie im Knoten [Tile Generator](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md).
+Ein häufiger Anwendungsfall von Ganzzahl2 ist das Festlegen von X- und Y-Knotengrößen, wie im Raster [Tile Generator](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md).
 
 </td>
 </tr>
@@ -86,7 +86,7 @@ Ein häufiger Anwendungsfall von Integer2 ist das Festlegen von X- und Y-Rasterg
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Integer3-Typ](constant.resources/fn-constant-integer3.png "Symbol für Integer3-Typ")
+![Symbol für Integer3-Typ](constant.resources/constant-05.png "Symbol für Integer3-Typ")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -103,7 +103,7 @@ Ein Integer3-Knoten generiert einen statischen ganzzahligen 3-Komponenten-Vektor
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Integer4-Typ](constant.resources/fn-constant-integer4.png "Symbol für Integer4-Typ")
+![Symbol für Integer4-Typ](constant.resources/constant-06.png "Symbol für Integer4-Typ")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -126,7 +126,7 @@ Konstante Gleitkommawerte erzeugen Bruchzahlen, d.h. sie unterstützen Werte nac
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Gleitkommatyp](constant.resources/fn-constant-float.png "Symbol für Gleitkommatyp")
+![Symbol für Gleitkommatyp](constant.resources/constant-07.png "Symbol für Gleitkommatyp")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -143,7 +143,7 @@ Ein Gleitkommawert hat eine einzelne Komponente und wird sehr häufig für jeden
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Float2-Typ](constant.resources/fn-constant-float2.png "Symbol für Float2-Typ")
+![Symbol für Float2-Typ](constant.resources/constant-08.png "Symbol für Float2-Typ")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -162,7 +162,7 @@ Float2 wird häufig für [Sampling-Koordinaten](../../../../function-graphs/node
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Float3-Typ](constant.resources/fn-constant-float3.png "Symbol für Float3-Typ")
+![Symbol für Float3-Typ](constant.resources/constant-09.png "Symbol für Float3-Typ")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -181,7 +181,7 @@ Float3 wird hauptsächlich bei der Arbeit mit 3D-Objekten und [3D-Skalierungskoo
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Float4-Typ](constant.resources/fn-constant-float4.png "Symbol für Float4-Typ")
+![Symbol für Float4-Typ](constant.resources/constant-10.png "Symbol für Float4-Typ")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -202,7 +202,7 @@ Ein Float4 erzeugt einen 4-Komponenten-Vektor (X, Y, Z, W).
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für booleschen Typ](constant.resources/fn-constant-boolean.png "Symbol für booleschen Typ")
+![Symbol für booleschen Typ](constant.resources/constant-11.png "Symbol für booleschen Typ")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

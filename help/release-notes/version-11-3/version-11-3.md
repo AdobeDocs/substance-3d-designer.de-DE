@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/version-11-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-11-3.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Designer 11.3 , um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 11.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Freigabedatum: *24. November 2021*
 
 ### Neue Modelldiagramm-Funktionen
 
-![](version-11-3.resources/banner-model.jpg)
+![](version-11-3.resources/version-11-3-01.jpg)
 
 Dem Modelldiagramm wurden viele Verbesserungen hinzugefügt, um die Modellierungsmöglichkeiten zu erweitern:
 
@@ -41,7 +41,7 @@ Dem Modelldiagramm wurden viele Verbesserungen hinzugefügt, um die Modellierung
   * Partikelbeschneidung
   * Partikel aus Instanzen
 
-  ![](version-11-3.resources/particle-pruning.gif)
+  ![](version-11-3.resources/version-11-3-02.gif)
 
 * <b>Neue Modellierungs- und Deformationsknoten</b>\
   Es wurden weitere neue Knoten hinzugefügt, um komplexere Formen zu erstellen. Klicken Sie auf die einzelnen Knoten, um mehr über sie zu erfahren:
@@ -59,7 +59,7 @@ Dem Modelldiagramm wurden viele Verbesserungen hinzugefügt, um die Modellierung
 
 ### Verbesserte Interoperabilität
 
-![](version-11-3.resources/banner-sendto.jpg)
+![](version-11-3.resources/version-11-3-03.jpg)
 
 Die Sende-an-Aktionen wurden um zwei neue Möglichkeiten erweitert:
 
@@ -71,24 +71,24 @@ Die Sende-an-Aktionen wurden um zwei neue Möglichkeiten erweitert:
 
 ### Sonstiges
 
-![](version-11-3.resources/banner-misc-3.jpg)
+![](version-11-3.resources/version-11-3-04.jpg)
 
 Es wurden verschiedene Verbesserungen der Lebensqualität vorgenommen:
 
 * **Eingaben relativ zu Eingaben**\
   Diagrammeingaben, die in &quot;Relativ zu Eingaben&quot; festgelegt sind, erben jetzt die Größe des verbundenen Knotens anstelle der Standardgröße der übergeordneten Diagrammgröße. Dadurch wird die Verwaltung unterschiedlicher Auflösungen über Eingaben unterschiedlicher Größe deutlich vereinfacht.
 
-  ![](version-11-3.resources/relative-to-inputs.jpg){width="400px"}
+  ![](version-11-3.resources/version-11-3-05.jpg){width="400px"}
 
 * **Neues Diagrammfenster**\
   Das neue Diagrammfenster wurde überarbeitet und ermöglicht es nun, die Details einer bestimmten Vorlage besser zu sehen und ein neues Diagramm direkt in ein vorhandenes Paket zu erstellen.
 
-  ![](version-11-3.resources/new-graph.png){width="400px"}
+  ![](version-11-3.resources/version-11-3-06.png){width="400px"}
 
 * **Alle Pakete schließen**\
   Eine kleine Aktion, die die Verwaltung vieler Pakete im Explorer weniger aufwändig macht. Verwenden Sie **Datei** > **Alle schließen**, um alle derzeit geöffneten Pakete zu schließen.
 
-  ![](version-11-3.resources/close-all-packages.png)
+  ![](version-11-3.resources/version-11-3-07.png)
 
 * **Aktuelle Ansicht maximieren**\
   Verwenden Sie die neue Titelleiste **Symbol** oder die Tastenkombination **UMSCHALT+Leertaste**, um ein Fenster auf den Vollbildmodus zu erweitern. Dies kann auch auf schwebenden Fenstern verwendet werden.
@@ -98,16 +98,16 @@ Es wurden verschiedene Verbesserungen der Lebensqualität vorgenommen:
 
 ### Inhalt
 
-![](version-11-3.resources/render-content.jpg)
+![](version-11-3.resources/version-11-3-08.jpg)
 
 In dieser Version wurden neue Diffusionsknoten und Verbesserungen für den PBR-Rendering-Knoten hinzugefügt:
 
 * <b>Diffusionsknoten</b>\
   Die neuen UV-Knoten &quot;Diffusionsfarbe&quot;, &quot;Diffusionsgrau&quot; und &quot;Diffusion&quot; ermöglichen die Erzeugung von weichen Blutungsunschärfen auf der Grundlage einer Eingabemaske.
 
-  ![](version-11-3.resources/diffusion-normal.jpg){width="230px"}
+  ![](version-11-3.resources/version-11-3-09.jpg){width="230px"}
 
-  ![](version-11-3.resources/diffusion-grayscale.jpg) ![](version-11-3.resources/diffusion-uv.jpg)
+  ![](version-11-3.resources/version-11-3-10.jpg) ![](version-11-3.resources/version-11-3-11.jpg)
 
 * **Verbesserter PBR-Rendering-Knoten**\
   Für diesen Knoten wurden die folgenden Änderungen vorgenommen:
@@ -130,18 +130,18 @@ In dieser Version wurden neue Diffusionsknoten und Verbesserungen für den PBR-R
 * [Substance-Modelle] Verbessern der Anzeige von Basis
 * [Substance-Modelle] Behalten Sie die Hierarchie der Objekte beim Exportieren eines Substance-Modelldiagramms nach .fbx bei
 * [Substance-Modelle] Unterstützung mehrerer Materialien beim FBX/OBJ-Export aus dem Substance-Modelldiagramm
-* [Substance-Modelle]&#x200B;[Inhalt] Partikelknoten
-* [Substance-Modelle]&#x200B;[Inhalt] Knoten &quot;Generative Transformation&quot;
-* [Substance-Modelle]&#x200B;[Inhalt] Organic Pattern node
-* [Substance-Modelle]&#x200B;[Inhalt] Knoten &quot;Partikel aus Instanzen&quot;
-* [Substance-Modelle]&#x200B;[Inhalt] Particle Pruning node
-* [Substance-Modelle]&#x200B;[Inhalt] Drehknoten
-* [Substance-Modelle]&#x200B;[Inhalt] Shell-Knoten
-* [Substance-Modelle]&#x200B;[Content] Projektionsknoten
-* [Substance-Modelle]&#x200B;[Inhalt] Knoten &quot;Kurven zuschneiden&quot;
-* [Substance-Modelle]&#x200B;[Inhalt] Kurve aktualisieren Sampler-Knoten
-* [Substance-Modelle]&#x200B;[Inhalt] Mesh Sampler-Knoten aktualisieren
-* [Substance-Modelle]&#x200B;[Inhalt] Jitter-Knoten aktualisieren
+* [Substance-Modelle][Inhalt] Partikelknoten
+* [Substance-Modelle][Inhalt] Knoten &quot;Generative Transformation&quot;
+* [Substance-Modelle][Inhalt] Organic Pattern node
+* [Substance-Modelle][Inhalt] Knoten &quot;Partikel aus Instanzen&quot;
+* [Substance-Modelle][Inhalt] Particle Pruning node
+* [Substance-Modelle][Inhalt] Drehknoten
+* [Substance-Modelle][Inhalt] Shell-Knoten
+* [Substance-Modelle][Content] Projektionsknoten
+* [Substance-Modelle][Inhalt] Knoten &quot;Kurven zuschneiden&quot;
+* [Substance-Modelle][Inhalt] Kurve aktualisieren Sampler-Knoten
+* [Substance-Modelle][Inhalt] Mesh Sampler-Knoten aktualisieren
+* [Substance-Modelle][Inhalt] Jitter-Knoten aktualisieren
 * Schaltfläche [UX] zum Maximieren der aktuellen Ansicht
 * [UX] Neues Diagrammfenster aktualisieren
 * [UX] Option &quot;Player herunterladen&quot; im Menü &quot;Extras&quot; hinzufügen und mit &quot;Player suchen&quot; aggregieren
@@ -179,7 +179,7 @@ In dieser Version wurden neue Diffusionsknoten und Verbesserungen für den PBR-R
 * [UI] Die Tabulatortaste muss zweimal gedrückt werden, um zwischen Werten zu navigieren
 * [UI] Das Zoomen mit der Maus wird zwischen der 3D-Ansicht und anderen Viewports umgekehrt
 * [UI] Das Laden eines bereits geöffneten SBS mithilfe der Liste &quot;Zuletzt verwendete Dateien&quot; löst fälschlicherweise die Aufforderung &quot;Paket nicht gefunden&quot; aus.
-* [UI]&#x200B;[macOS] Falsches Standard-UI-Layout nach dem Starten der Anwendung
+* [UI][macOS] Falsches Standard-UI-Layout nach dem Starten der Anwendung
 * [UI] Pakete können nicht im Stammverzeichnis eines Laufwerks gespeichert werden (nur Windows)
 * [Diagramm] Die Option &quot;In 2D-Ansicht automatisch anzeigen&quot; ist in einem bestimmten Fall inkonsistent
 * [Graph] Option &quot;Open Reference&quot; ist für SBSAR-Instanzknoten verfügbar

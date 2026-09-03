@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-4.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Zellen 4, um fortgeschrittene Zellmuster zu erzeugen, um organische und biologische Texturen zu erzeugen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ZELLEN 4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Zellen 4 - Symbol](cells-4.resources/cells_4.png "Zellen 4 - Symbol"){width="200px"}
+![Zellen 4 - Symbol](cells-4.resources/cells-4-01.png "Zellen 4 - Symbol"){width="200px"}
 
 <b>In:</b> Texturgeneratoren > Rauschen
 
@@ -33,9 +33,9 @@ ht-degree: 1%
 
 ## Beschreibung
 
-Eine Variation der <b>Zellen</b> ummauerten Rauschen.
+Eine Variation der <b>Zellen</b> von Walled Noise.
 
-Jeder Zelle ist eine Flächenfarbe zugewiesen, die zufällig oder aus einem Eingabebild entnommen werden kann.
+Jeder Zelle ist eine flache Farbe zugewiesen, die zufällig oder aus einem Eingabebild aufgenommen werden kann.
 
 Siehe auch: [Zellen 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md), [Zellen 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-2/cells-2.md), [Zellen 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-3/cells-3.md)
 
@@ -65,11 +65,11 @@ Siehe auch: [Zellen 1](../../../../../../compositing-graphs/nodes-reference-for-
 
 |  |  |
 |:---|:---|
-| <b>Skalierung</b> <i>Integer</i> | Die Unterteilung des Rasters, das zum Erzeugen der Rauschkacheln verwendet wird.    Ein höherer Wert führt dazu, dass mehr Kacheln gezeichnet werden und das Rauschen dichter ist. |
-| <b>Störung</b> <i>Gleitend</i> | Versetzt die Bestandteile des Rauschens.    So kannst du das Rauschen animieren. |
+| <b>Skalierung</b> <i>Ganzzahl</i> | Die Unterteilung des Rasters, das zum Erzeugen der Rauschkacheln verwendet wird.    Ein höherer Wert führt dazu, dass mehr Kacheln gezeichnet werden und das Rauschen dichter ist. |
+| <b>Störung</b> <i>Gleitend</i> | Versetzt die Bestandteile des Rauschens.    So animierst du die Rauschen. |
 | <b>Störungsgeschwindigkeit</b> <i>Gleitend</i> | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.    Mit dieser Option können Sie die Geschwindigkeit des Versatzes bei der Animation des Rauschens steuern. |
-| <b>Farbquelle</b> <i>Integer</i> | Die Quelle der auf die Zellen angewendeten einheitlichen Farbe:<ul data-preserve-html="true"> <li data-preserve-html="true"><b><i>Zufällig:</i></b> Verwenden Sie eine zufällige Farbe, die durch die zufällige Seed des Knotens gesteuert wird.</li> <li data-preserve-html="true"><b><i>Pseudozufall:</i></b> Verwenden Sie eine zufällige Farbe, der ein separater Wert für den Benutzersatz zugewiesen ist</li> <li data-preserve-html="true"><b><i>Bildeingabe:</i></b> Verwenden der an der Zellenposition im Eingabebild aufgenommenen Farbe</li> </ul> |
-| <b>Pseudozufallssaatgut</b> <i>Integer</i>   *Verfügbar, wenn &quot;Farbquelle&quot; auf &quot;Pseudozufallsdatum&quot; festgelegt ist* | Ermöglicht das Ändern des Startwerts für die Farbe getrennt vom Startwert des Knotens. |
+| <b>Farbquelle</b> <i>Ganzzahl</i> | Die Quelle der auf die Zellen angewendeten einheitlichen Farbe:<ul data-preserve-html="true"> <li data-preserve-html="true"><b><i>Zufällig:</i></b> Verwenden Sie eine zufällige Farbe, die durch die zufällige Seed des Knotens gesteuert wird.</li> <li data-preserve-html="true"><b><i>Pseudozufall:</i></b> Verwenden Sie eine zufällige Farbe, der ein separater Wert für den Benutzersatz zugewiesen ist</li> <li data-preserve-html="true"><b><i>Bildeingabe:</i></b> Verwenden der an der Zellenposition im Eingabebild aufgenommenen Farbe</li> </ul> |
+| <b>Pseudozufallssaatgut</b> <i>Ganzzahl</i>   *Verfügbar, wenn &quot;Farbquelle&quot; auf &quot;Pseudozufallsdatum&quot; festgelegt ist* | Ermöglicht das Ändern des Startwerts für die Farbe getrennt vom Startwert des Knotens. |
 | <b>Nicht quadratische Erweiterung</b> <i>Boolescher Wert</i> | Bei nicht quadratischen Bildern bleibt das erzeugte Kachelquadrat erhalten und erweitert die Rauscherzeugung auf die Grenzen des Bildes. |
 
 ## Beispiele
@@ -78,12 +78,12 @@ Siehe auch: [Zellen 1](../../../../../../compositing-graphs/nodes-reference-for-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Zellen 4 - Beispiel 1](cells-4.resources/cells_4_1.png "Zellen 4 - Beispiel 1"){zoomable="yes"}
+![Zellen 4 - Beispiel 1](cells-4.resources/cells-4-02.png "Zellen 4 - Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Zellen 4 - Beispiel 2](cells-4.resources/noise_cells_4_v2_speed0.3_aniso0.6.gif "Zellen 4 - Beispiel 2"){zoomable="yes"}
+![Zellen 4 - Beispiel 2](cells-4.resources/cells-4-03.gif "Zellen 4 - Beispiel 2"){zoomable="yes"}
 
 </td>
 </tr>

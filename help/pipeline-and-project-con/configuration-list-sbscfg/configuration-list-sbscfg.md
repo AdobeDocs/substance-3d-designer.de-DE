@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/pipeline-and-project-configuration/configuration-list-sbscfg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/configuration-list-sbscfg.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie SBSCFG-Konfigurationslisten in Substance 3D Designer verwenden, um Projekteinstellungen und Vorgaben zu verwalten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Konfigurationsliste - SBSCFG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Sie können mehrere Konfigurationen für verschiedene Umgebungen haben. Diese Da
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![SBSCFG-Dateisymbol](configuration-list-sbscfg.resources/sbscfg.png "SBSCFG-Dateisymbol")
+![SBSCFG-Dateisymbol](configuration-list-sbscfg.resources/configuration-list-sbscfg-01.png "SBSCFG-Dateisymbol")
 
 </td>
 </tr>
@@ -45,7 +45,7 @@ Diese Dateien sind einfach, können aber auf zwei verschiedene Arten geändert w
 
 Der hervorgehobene Abschnitt ist der Teil, der sich auf die Konfigurationsdateien bezieht. Sie fügen einfach weitere Projekte zur Liste hinzu, die in der oben definierten SBSCFG-Datei gespeichert sind.
 
-![Projekteinstellungen](configuration-list-sbscfg.resources/config-ui.png "Projekteinstellungen")
+![Projekteinstellungen](configuration-list-sbscfg.resources/configuration-list-sbscfg-02.png "Projekteinstellungen")
 
 ### Externe Bearbeitung als XML
 

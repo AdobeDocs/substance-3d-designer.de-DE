@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
 breadcrumb-title: ''
 description: Lernen Sie Tastaturbefehle in Substance 3D Designer kennen, mit denen Sie Ihren Arbeitsablauf beschleunigen und die Produktivität verbessern können.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Kürzel
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 18%
@@ -32,11 +32,11 @@ Auf dieser Seite finden Sie eine Übersicht aller Tastaturbefehle für Substance
 
 **Windows**
 
-![Tastaturbefehle unter Windows](shortcuts.resources/keyboard_shortcuts_win.png "Tastaturbefehle unter Windows"){zoomable="yes"}
+![Tastaturbefehle unter Windows](shortcuts.resources/shortcuts-01.png "Tastaturbefehle unter Windows"){zoomable="yes"}
 
 **macOS**
 
-![Tastaturbefehle auf macOS](shortcuts.resources/keyboard_shortcuts_mac.png "Tastaturbefehle auf macOS"){zoomable="yes"}
+![Tastaturbefehle auf macOS](shortcuts.resources/shortcuts-02.png "Tastaturbefehle auf macOS"){zoomable="yes"}
 
 ## Shortcuts-Listen
 

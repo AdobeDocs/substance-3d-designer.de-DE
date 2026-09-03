@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise-fractal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise-fractal.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten 3D Perlin Noise Fractal , um fraktale Perlin-Rauschmuster im 3D-Raum für die Erstellung detaillierter volumetrischer Texturen zu generieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D-Perlin-Rauschen Fraktal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-perlin-noise-fractal.resources/3dperlinnoisefractal.png){width="200px"}
+![](3d-perlin-noise-fractal.resources/3d-perlin-noise-fractal-01.png){width="200px"}
 
 <b>In:</b> Textur Generators > Rauschen
 
@@ -63,22 +63,22 @@ Dieser Knoten kann mit [Cube 3D GBuffers](../../../../../../compositing-graphs/n
 | <b>Lakunarität</b> <i>Gleitend</i> | Steuert, wie das angewendete fraktale Muster &quot;<i>&quot; Leerzeichen &quot;</i>&quot; ausfüllt. Ein <i>höherer</i> Wert führt zu <i>weniger Lücken</i> im Muster und einem <i>dichteren</i> Rauschen. |
 | <b>Globale Deckkraft</b> <i>Gleitend</i> | Steuert den <i>Bereich</i> der fraktalen 3D-Perlin-Rauschen-Werte <i> um </i> den <b>Grundlinienwert</b>. |
 | <b>Grundlinie</b> <i>Gleitend</i> | Wendet einen <i>offset</i> auf den Basiswert <i>Luminanz</i> für die Werteverteilung der 3D-Perlin-Rauschen an. |
-| <b>Kontrast</b> <i>Gleitend</i> | Passt den Kontrast des 3D-Perlin-Rauschens an. |
-| <b>Absolut</b> <i>Boolescher Wert</i> | Verwendet absolute Werte im 3D-Perlin-Rauschen. Dadurch wird <i>die Wertverteilung für die Werte <i> unter 0,5</i> effektiv umgekehrt</i>. |
-| <b>Kachelung aktivieren</b> <i>Boolescher Wert</i> | Passt das 3D-Perlin-Rauschen so an, dass sich das resultierende Muster <i></i> in der X-, Y- und Z-Achse wiederholt. |
+| <b>Kontrast</b> <i>Gleitend</i> | Passt den Kontrast der 3D-Perlin-Rauschen an. |
+| <b>Absolut</b> <i>Boolescher Wert</i> | Verwendet absolute Werte auf der 3D-Perlin-Rauschen. Dadurch wird <i>die Wertverteilung für die Werte <i> unter 0,5</i> effektiv umgekehrt</i>. |
+| <b>Kachelung aktivieren</b> <i>Boolescher Wert</i> | Passt die 3D-Perlin-Rauschen so an, dass sich das resultierende Muster <i>in X-, Y- und Z-Achse wiederholt</i>. |
 
 ## Beispiele
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise-fractal.resources/3dfractal.gif" />
+            <img src="3d-perlin-noise-fractal.resources/3d-perlin-noise-fractal-02.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise-fractal.resources/3dperlinnoisefractal-variant.jpg" />
+            <img src="3d-perlin-noise-fractal.resources/3d-perlin-noise-fractal-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise-fractal.resources/3dperlinnoisefractal-variant2.jpg" />
+            <img src="3d-perlin-noise-fractal.resources/3d-perlin-noise-fractal-04.jpg" />
         </td>
     </tr>
 </table>

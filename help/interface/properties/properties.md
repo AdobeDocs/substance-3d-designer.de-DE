@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/properties.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/properties.html"
 breadcrumb-title: ''
 description: Verwenden Sie das Eigenschaftenfenster in Substance 3D Designer, um Knoteneigenschaften und Diagrammparameter anzuzeigen und zu bearbeiten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Eigenschaften
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Der Bereich <b>Eigenschaften </b> ist ein kontextsensitiver Bereich, der sich je
 </td>
 <td style="border: 0;" valign="top">
 
-![Eigenschaften-Dock](properties.resources/image2020-11-9-13-49-48.png "Eigenschaften-Dock")
+![Eigenschaften-Dock](properties.resources/properties-01.png "Eigenschaften-Dock")
 
 </td>
 </tr>

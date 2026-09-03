@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/logical-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/logical-nodes.html"
 breadcrumb-title: ''
 description: Greifen Sie in Substance 3D Designer-Funktionsknoten auf logische Graf zu, um boolesche Logikoperationen und -vergleiche auszuführen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Logisch
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 Logische Knoten werden verwendet, um dem Graf mehrere Bedingungen hinzuzufügen:
 
-![](logical-nodes.resources/image2015-12-23-11-23-21.png)
+![](logical-nodes.resources/logical-nodes-01.png)
 
 ## Der Knoten &quot;*and*&quot;
 
-![](logical-nodes.resources/image2015-12-23-11-30-9.png)
+![](logical-nodes.resources/logical-nodes-02.png)
 
 Der Und-Knoten nimmt zwei Boolesche Wert-Knoten als Eingabe an:
 
@@ -35,7 +35,7 @@ Der Und-Knoten nimmt zwei Boolesche Wert-Knoten als Eingabe an:
 
 ## Der Knoten *Or*
 
-![](logical-nodes.resources/image2015-12-23-11-30-44.png)
+![](logical-nodes.resources/logical-nodes-03.png)
 
 Der Knoten Or nimmt zwei Boolesche Wert-Knoten als Eingabe an:
 
@@ -44,7 +44,7 @@ Der Knoten Or nimmt zwei Boolesche Wert-Knoten als Eingabe an:
 
 ## Der Knoten *Not*
 
-![](logical-nodes.resources/image2015-12-23-11-31-46.png)
+![](logical-nodes.resources/logical-nodes-04.png)
 
 Der Node Not nimmt einen Boolesche Wert als Eingabe an: wird der Eingabewert überprüft und das Gegenteil zurückgegeben:
 

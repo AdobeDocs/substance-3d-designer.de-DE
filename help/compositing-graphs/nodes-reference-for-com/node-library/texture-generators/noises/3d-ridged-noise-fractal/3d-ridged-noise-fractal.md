@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "3D-Ridge-Noise Fractal", um gekräuselte fraktale Rauschmuster im 3D-Raum zu generieren, um bergartige Texturen zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D-Fraktal mit verkipptem Rauschen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-ridged-noise-fractal.resources/3dridgednoisefractal.png){width="200px"}
+![](3d-ridged-noise-fractal.resources/3d-ridged-noise-fractal-01.png){width="200px"}
 
 <b>In:</b> Textur Generators > Rauschen
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## Beschreibung
 
-Der Knoten <b>3D Ridge Rauschen Fraktal</b> generiert eine <i>fraktal</i> Ridge-Rauschen im 3D-Raum basierend auf der <b>Positionszuordnung</b>-Eingabe.
+Der Knoten <b>3D Ridge Noise Fractal</b> generiert ein <i>fraktales</i> Ridge-Rauschen im 3D-Raum basierend auf der <b>Positionszuordnung</b>-Eingabe.
 
 Dieser Knoten kann mit [Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) als Eingabe anstelle einer tatsächlichen durch Baking erzeugte Map (wie im folgenden Beispielbild) getestet werden.
 
@@ -61,20 +61,20 @@ Dieser Knoten kann mit [Cube 3D GBuffers](../../../../../../compositing-graphs/n
 | <b>Max. Stufe</b> <i>Integer</i> | Die maximale <i>Wiederholungsstufe </i>, die im fraktalen Muster verwendet wird. Ein größerer Mindest-/Höchstbereich führt zu einem <i>reicheren Muster</i> mit Variationen in mehr Frequenzbereichen. |
 | <b>Raueit</b> <i>Gleitend</i> | Steuert die <i>Balance</i> zwischen niedrigen und hohen <i>Wiederholungsstufen</i> im fraktalen Muster.<br><br><i>Hinweis</i>: Ein Wert von <b>0</b> führt zu einer Ausgabe, die <i> nicht in Zeile </i> enthält, auf die andere niedrige Werte folgen. Dies wird erwartet. |
 | <b>Lakunarität</b> <i>Gleitend</i> | Steuert, wie das angewendete fraktale Muster &quot;<i>&quot; Leerzeichen &quot;</i>&quot; ausfüllt. Ein <i>höherer</i> Wert führt zu <i>weniger Lücken</i> im Muster und einem <i>dichteren</i> Rauschen. |
-| <b>Globale Deckkraft</b> <i>Gleitend</i> | Steuert den <i>Bereich</i> der fraktalen 3D-Ridge-Rauschen-Werte <i> um </i> den <b>Grundlinienwert</b>. |
-| <b>Grundlinie</b> <i>Gleitend</i> | Wendet einen <i>offset</i> auf den Grundlinienwert <i>Luminanz</i> für die Werteverteilung des 3D-gerippten Rauschen an. |
-| <b>Kontrast</b> <i>Gleitend</i> | Passt den Kontrast der 3D Ridge-Rauschen an. |
-| <b>Kachelung aktivieren</b> <i>Boolescher Wert</i> | Passt die 3D-Rauschen mit Ridge so an, dass sich das resultierende Muster <i>in X-, Y- und Z-Achse wiederholt</i>. |
+| <b>Globale Deckkraft</b> <i>Gleitend</i> | Steuert den <i>Bereich</i> der fraktalen 3D-Rauschwerte mit Ridge <i> um </i> den <b>Grundlinienwert</b>. |
+| <b>Grundlinie</b> <i>Gleitend</i> | Wendet einen <i>Versatz</i> auf den Grundlinienwert <i>Luminanz</i> für die 3D-Rauschwertverteilung an. |
+| <b>Kontrast</b> <i>Gleitend</i> | Passt den Kontrast des 3D-Rauschens mit gekräuselten Linien an. |
+| <b>Kachelung aktivieren</b> <i>Boolescher Wert</i> | Passt das 3D-Rauschen an, sodass sich das resultierende Muster <i></i> in der X-, Y- und Z-Achse wiederholt. |
 
 ## Beispiele
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant.jpg" />
+            <img src="3d-ridged-noise-fractal.resources/3d-ridged-noise-fractal-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant2.jpg" />
+            <img src="3d-ridged-noise-fractal.resources/3d-ridged-noise-fractal-03.jpg" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-square-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-square-transform.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Nicht-quadratische Transformation", um nicht-quadratische Texturen mit unabhängiger X- und Y-Skalierung zu transformieren.
 helpx_creative_field: ""
@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Nicht quadratischer Transformieren
+title: Transformieren ohne Quadrat
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 4%
@@ -18,15 +18,15 @@ ht-degree: 4%
 ---
 
 
-# Nicht quadratischer Transformieren
+# Transformieren ohne Quadrat
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](non-square-transform.resources/safe-transform.png)
+![](non-square-transform.resources/non-square-transform-01.png)
 
-![](non-square-transform.resources/safe-transform-grayscale.png)
+![](non-square-transform.resources/non-square-transform-02.png)
 
 <b>In:</b> Filter > Transformieren
 
@@ -37,9 +37,9 @@ ht-degree: 4%
 
 Nicht quadratsichere Version von [2D](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) transformieren. Erkennt automatisch nicht quadratische Seitenverhältnisse und kann quadratische Eingabebilder auf eine nicht quadratische Arbeitsfläche transformieren.
 
-Stellen Sie sicher, dass Sie die [Knotenparameter](../../../../../../compositing-graphs/graph-parameters/graph-parameters.md) vollständig verstehen, um diesen Graf optimal zu nutzen, da Sie einige Einstellungen richtig festlegen müssen:
+Vergewissern Sie sich, dass Sie die [Graph-Parameter](../../../../../../compositing-graphs/graph-parameters/graph-parameters.md) vollständig verstehen, um diesen Knoten optimal zu nutzen, da Sie einige Einstellungen richtig festlegen müssen:
 
-* Die Größe des **Grafen** muss nicht quadratisch sein. Andernfalls ist dieser Knoten nicht erforderlich.
+* Ihre **Graph**-Größe sollte nicht quadratisch sein, andernfalls ist dieser Knoten nicht erforderlich.
 * Legen Sie die **-Ausgabegröße des Knotens &quot;**&quot; als &quot;Nicht quadratisch transformieren&quot; auf &quot;*Relativ zu übergeordneten Knoten*&quot; fest.
 * Setzen Sie den **Kachelmodus des Knotens** auf &quot;*Keine Kachelung*&quot;, wenn Sie Ihre Eingabe nur in eine einzelne Position umwandeln möchten.
 
@@ -65,7 +65,7 @@ Stellen Sie sicher, dass Sie die [Knotenparameter](../../../../../../compositing
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="non-square-transform.resources/nonsquare-ex.png" />
+            <img src="non-square-transform.resources/non-square-transform-03.png" />
         </td>
     </tr>
 </table>

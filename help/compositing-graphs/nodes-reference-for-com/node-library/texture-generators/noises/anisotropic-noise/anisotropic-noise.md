@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Anisotropes Rauschen", um Richtungsrauschen-Muster zum Erstellen anisotroper Textureffekte zu generieren.
+description: Verwenden Sie den Knoten Anisotropes Rauschen, um Richtungsrauschen-Muster zum Erstellen anisotroper Texturen zu generieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Anisotropic noise
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Anisotropes Rauschen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 1%
@@ -24,9 +24,9 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Anisotropes Rauschen - Symbol](anisotropic-noise.resources/anisotropic_noise_v2.png "Anisotropes Rauschen - Symbol"){width="200px"}
+![Anisotropes Rauschen - Symbol](anisotropic-noise.resources/anisotropic-noise-01.png "Anisotropes Rauschen - Symbol"){width="200px"}
 
-<b>In:</b> Texturgeneratoren > Rauschen
+<b>In:</b> Texturen-Generatoren > Rauschen
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,12 +67,12 @@ Die Anzahl der Streifen ist einstellbar, ebenso wie die Smoothness ihrer √úberg√
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Anisotropes Rauschen - Beispiel 1](anisotropic-noise.resources/anisotropic_noise_v2_1.png "Anisotropes Rauschen - Beispiel 1"){zoomable="yes"}
+![Anisotropes Rauschen - Beispiel 1](anisotropic-noise.resources/anisotropic-noise-02.png "Anisotropes Rauschen - Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Anisotropes Rauschen - Beispiel 2](anisotropic-noise.resources/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "Anisotropes Rauschen - Beispiel 2"){zoomable="yes"}
+![Anisotropes Rauschen - Beispiel 2](anisotropic-noise.resources/anisotropic-noise-03.gif "Anisotropes Rauschen - Beispiel 2"){zoomable="yes"}
 
 </td>
 </tr>

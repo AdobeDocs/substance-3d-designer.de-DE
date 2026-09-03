@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/waveform-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/waveform-1.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Wellenform 1, um Wellenformmuster zum Erstellen organischer Texturen und prozeduraler Variationen zu generieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Waveform 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Wellenform 1 - Symbol](waveform-1.resources/waveform_01_v2.png "Wellenform 1 - Symbol"){width="200px"}
+![Wellenform 1 - Symbol](waveform-1.resources/waveform-1-01.png "Wellenform 1 - Symbol"){width="200px"}
 
 <b>In:</b> Texturgeneratoren > Rauschen
 
@@ -56,7 +56,7 @@ Horizontale Anordnung von vom Benutzer ausgewählten Mustern, die in einer Form 
 | <b>Beispiele</b> <i>Integer</i> | Die Anzahl der Muster, die entlang der X-Achse platziert werden, um die Wellenform zu zeichnen, wobei ein niedrigerer Wert zu einer abgestuften Darstellung führt. |
 | <b>Funktion</b> <i>Integer</i> | Die Funktion, mit der die Wellenform gezeichnet wird.   Dadurch wird die vertikale Größe des Musters gesteuert, das an jedem Sample platziert wird:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Wert-Rauschen:</i> Eine zufällige Verteilung von Werten</li> <li data-preserve-html="true"><i>Kosinus:</i> Die Werte folgen dem Verlauf einer Kosinusfunktion</li> <li data-preserve-html="true"><i>Benutzerdefinierte Funktion:</i> Verwenden Sie eine vom Benutzer verfasste Funktion zum Steuern der Werte.</li> </ul> |
 | <b>Benutzerdefinierte Funktion</b> <i>Gleitend</i>   *Verfügbar, wenn &quot;Function&quot; auf &quot;Custom function&quot; festgelegt ist* | Berechnet die vertikale Größe des Musters, das an jedem Sample platziert wird.   Verfügbare Variablen:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Pos</b> (<i>float</i>) Die Position des Musters auf der X-Achse. Dies kann zur Auswahl von Mustern verwendet werden.</li> </ul> |
-| <b>Raueit</b> <i>Gleitend</i> | Interpoliert zwischen einer sauberen und glatten Wellenform mit einer raueren und gleichmäßigeren Wellenform.    Das kann man sich als klares Signal oder weißes Rauschen vorstellen. |
+| <b>Raueit</b> <i>Gleitend</i> | Interpoliert zwischen einer sauberen und glatten Wellenform mit einer raueren und gleichmäßigeren Wellenform.    Das kann man sich als reine Signal-Weiß-Rauschen vorstellen. |
 | <b>Skalierung</b> <i>Integer</i> | Die horizontale Spanne der im Bild sichtbaren Wellenform. |
 | <b>Amplitude min.</b> <i>Gleitend</i> | Der Mindestwert (oder die Thickness) der Wellenform. |
 | <b>Maximale Amplitude</b> <i>Gleitend</i> | Der Maximalwert (oder die Thickness) der Wellenform. |
@@ -73,7 +73,7 @@ Horizontale Anordnung von vom Benutzer ausgewählten Mustern, die in einer Form 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Wellenform 1 - Beispiel 1](waveform-1.resources/waveform_01_v2_speed0.1_aniso0.gif "Wellenform 1 - Beispiel 1"){zoomable="yes"}
+![Wellenform 1 - Beispiel 1](waveform-1.resources/waveform-1-02.gif "Wellenform 1 - Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

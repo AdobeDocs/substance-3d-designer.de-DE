@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
 breadcrumb-title: ''
-description: Erfahren Sie Richtlinien zur Leistungsoptimierung für Substance 3D Designer, um die Diagrammleistung zu verbessern und die Verarbeitungszeit zu reduzieren.
+description: Erfahren Sie Richtlinien zur Leistungsoptimierung für Substance 3D Designer, um die Graf-Performance zu verbessern und die Verarbeitungszeit zu verkürzen.
 helpx_creative_field: ""
 helpx_description: Designer > Best Practices > Performance optimization guidelines
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Richtlinien zur Leistungsoptimierung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 0%
@@ -22,40 +22,40 @@ ht-degree: 0%
 
 ## Substance-Graphen
 
-Je komplexer Ihre [Substance-Diagramme](../../compositing-graphs/substance-compositing-graphs.md) sind, desto mehr Verarbeitungsleistung benötigen Sie zum Rendern. Sie sollten versuchen, <b>ein Gleichgewicht zwischen Komplexität und Rendering-Geschwindigkeit herzustellen</b>.\
+Je komplexer Ihre [Substance-Graf](../../compositing-graphs/substance-compositing-graphs.md) sind, desto mehr Verarbeitungsleistung benötigen Sie zum Rendern. Sie sollten versuchen, <b>ein Gleichgewicht zwischen Komplexität und Rendering-Geschwindigkeit herzustellen</b>.\
 Dies ist *besonders* wichtig, wenn Sie sie in Echtzeit-Grafikanwendungen wie Spielen verwenden.
 
-Im Allgemeinen sollten Knoten mit benutzerdefinierten Parametern, die zur Laufzeit geändert werden können - <b>, so nah wie möglich am Ende des Diagramms platziert werden</b>.
+Im Allgemeinen sollten Knoten, die benutzerdefinierte Parameter gelegt haben, die zur Laufzeit geändert werden können - <b>, so nah wie möglich am Ende des Grafen platziert werden</b>.
 
-Dies liegt daran, dass die Ausgabe jedes Knotens nach Möglichkeit zwischengespeichert wird. Je höher der Graph des anpassbaren Knotens ist, desto mehr Ausgaben müssen verarbeitet werden, wenn einer dieser exponierten Parameter geändert wird. Wenn sich der angezeigte Knoten nahe am Ende des Diagramms befindet, müssen nur die wenigen Knoten zwischen ihm und den Ausgabeknoten neu berechnet werden.
+Dies liegt daran, dass die Ausgabe jedes Knotens nach Möglichkeit zwischengespeichert wird. Je höher der Graf des anpassbaren Knotens ist, desto mehr Ausgaben müssen verarbeitet werden, wenn einer dieser freigelegte Parameter verändert wird. Wenn sich der gelegt Graf nahe am Ende des Knotens befindet, müssen nur die wenigen Knotenpunkte zwischen ihm und den Ausgabeknoten neu berechnet werden.
 
-Wenn Sie beispielsweise eine einheitliche Farbe am Anfang Ihres Diagramms anpassen, werden alle folgenden Knoten neu berechnet. Wenn Sie einen HSL-Knoten direkt vor der Ausgabe optimieren, wird nur dieser Knoten neu berechnet, wodurch die Leistung des Diagramms erheblich verbessert wird.
+Wenn Sie beispielsweise eine einheitliche Farbe zu Beginn des Grafen anpassen, werden alle folgenden Knoten neu berechnet. Wenn Sie einen HSL vor der Ausgabe optimieren, wird nur dieser Knoten neu berechnet, wodurch die Leistung des Grafen erheblich verbessert wird.
 
 Bitte beachten Sie die folgenden Richtlinien:
 
 ### ALLGEMEINE LEISTUNGSBEZOGENE EINSTELLUNGEN
 
 +++GPU-Engine ist viel schneller als CPU-Engine
-Verwenden Sie die GPU-Substance-Engine (mit Hotkey F9 wechseln), es sei denn, Sie haben eine nicht unterstützte (integrierte) Grafikkarte.
+Verwenden Sie das GPU-Substance-Engine (mit Hotkey F9 wechseln), es sei denn, Sie haben eine nicht unterstützte (integrierte) Grafikkarte.
 
 +++
 
-+++Das Wechseln der übergeordneten Auflösung des Diagramms ist langsam
-Es berechnet Graph, Cache und alle Miniaturansichten neu. Es ist besser, [die Registerkarte <b>Batch </b> des Exportdialogs &#x200B;](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md) zu verwenden, da dadurch eine umfangreiche, nicht benötigte Neuberechnung vermieden wird (z. B. beim Export in die Auflösung 8192).
++++Das Wechseln der übergeordneten Auflösung des Grafen ist langsam
+Es berechnet Graf, Cache und alle Miniaturansichten neu. Es ist besser, [die Registerkarte <b>Batch </b> des Exportdialogs ](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md) zu verwenden, da dadurch eine umfangreiche, nicht benötigte Neuberechnung vermieden wird (z. B. beim Export in die Auflösung 8192).
 
 +++
 
 +++In Extremfällen kann ein erhöhter Speicher-Cache erforderlich sein
-Die Anwendung &quot;[&quot; begrenzt den Arbeitsspeicher, der &#x200B;](../../interface/preferences-window/preferences-window.md) für den Bildcache verwendet werden kann. Sie können diesen jedoch überschreiben und erhöhen (mit Vorsicht).
+Die Anwendung &quot;[&quot; begrenzt den Arbeitsspeicher, der ](../../interface/preferences-window/preferences-window.md) für den Bildcache verwendet werden kann. Sie können diesen jedoch überschreiben und erhöhen (mit Vorsicht).
 
 +++
 
-### DIAGRAMMOPTIMIERUNG
+### OPTIMIERUNG DES GRAFEN
 
 +++Achten Sie auf die Knotenauflösungen und die Vererbung im Allgemeinen!
-Hohe Werte wirken sich stark auf die Leistung aus. Überlege dir also, wie das Material voraussichtlich verwendet wird und ob du die Datengröße reduzieren kannst.
+Hohe Werte wirken sich erheblich auf die Performance aus. Überlegen Sie daher, wie das Material voraussichtlich verwendet wird und ob Sie die Datengröße reduzieren können.
 
-Es wird empfohlen, mehr über die [Knotenauflösung (Ausgabegröße)](../../compositing-graphs/output-size/output-size.md) und die [Vererbung in Substance-Graphen](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) zu erfahren.
+Es wird empfohlen, mehr über die [Knotenauflösung (Ausgabegröße)](../../compositing-graphs/output-size/output-size.md) und die [Vererbung in Substance-Grafen](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) zu erfahren.
 
 +++
 
@@ -143,9 +143,9 @@ Auf diese Weise ändert sich die Bitmapgröße basierend auf dem übergeordneten
 >
 > Durch Festlegen eines Knotens vom Typ [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) auf &quot;Relativ zum übergeordneten Knoten&quot; und [Veröffentlichen](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) des Diagramms in einem Substance 3D-Asset (SBSAR) wird die Bitmap mit einer Auflösung von **256x256** anstelle ihrer Originalgröße gespeichert. Es wird empfohlen, stattdessen die [Vererbungsmethode](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) der Bitmapknoten &quot;[Ausgabegröße](../../compositing-graphs/output-size/output-size.md)&quot; als &quot;Absolut&quot; zu behalten und einen [Transformations 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)-Knoten auf &quot;Relativ zum übergeordneten Knoten&quot; direkt nach dem Bitmapknoten festzulegen.
 
-![Eingebettete Bitmapoptimierung 1](performance-optimization-guidelines.resources/input-1.jpg "Eingebettete Bitmapoptimierung 1")
+![Eingebettete Bitmapoptimierung 1](performance-optimization-guidelines.resources/performance-optimization-guidelines-01.jpg "Eingebettete Bitmapoptimierung 1")
 
-![Eingebettete Bitmapoptimierung 2](performance-optimization-guidelines.resources/relativetoparent.jpg "Eingebettete Bitmapoptimierung 2")
+![Eingebettete Bitmapoptimierung 2](performance-optimization-guidelines.resources/performance-optimization-guidelines-02.jpg "Eingebettete Bitmapoptimierung 2")
 
 <table>
 <tr style="border: 0;">
@@ -156,7 +156,7 @@ Es wird außerdem empfohlen, das Format von Bitmap-Ressourcen auf JPEG festzuleg
 </td>
 <td style="border: 0;" valign="top">
 
-![Eingebettete Bitmapoptimierung 3](performance-optimization-guidelines.resources/format.jpg "Eingebettete Bitmapoptimierung 3")
+![Eingebettete Bitmapoptimierung 3](performance-optimization-guidelines.resources/performance-optimization-guidelines-03.jpg "Eingebettete Bitmapoptimierung 3")
 
 </td>
 </tr>

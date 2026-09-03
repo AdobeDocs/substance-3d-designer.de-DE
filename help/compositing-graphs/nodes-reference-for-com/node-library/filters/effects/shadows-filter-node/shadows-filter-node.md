@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shadows-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shadows-filter-node.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Filterknoten "Tiefen", um Schatteneffekte aus Eingabe-Texturen zu generieren, um Materials Tiefe und Realismus hinzuzufügen.
+description: Verwenden Sie den Filterknoten "Tiefen", um Schatteneffekte aus Eingabetexturen zu generieren, um Materialien Tiefe und Realismus hinzuzufügen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Shadows (Filter Node)
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Schatten (Filterknoten)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shadows-filter-node.resources/shadows-1.png){width="128px"}
+![](shadows-filter-node.resources/shadows-filter-node-01.png){width="128px"}
 
 <b>In:</b> Filters > Effects
 
@@ -35,7 +35,7 @@ ht-degree: 8%
 
 Eine reine Graustufenversion des Knotens [Shape-Schlagschatten](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shape-drop-shadow/shape-drop-shadow.md). Es werden nur schwarzweiße, binäre Formen als Eingabe verwendet und nur der Schatten zurückgegeben.
 
-Dies ist hilfreich, wenn Sie direkt nach dem Schatten arbeiten und keinen vollständigeren Knoten verwenden möchten, z. B. beim Erstellen eines eigenen Materials oder bei Baking geführt Beleuchtung.
+Dies kann nützlich sein, wenn Sie direkt nach dem Schatten arbeiten und nicht mit einem umfassenderen Knoten arbeiten möchten, z. B. beim Erstellen Ihres eigenen Materials oder bei der Hintergrundbeleuchtung.
 
 </td>
 </tr>
@@ -57,7 +57,7 @@ Dies ist hilfreich, wenn Sie direkt nach dem Schatten arbeiten und keinen vollst
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="shadows-filter-node.resources/shadow-ex.png" />
+            <img src="shadows-filter-node.resources/shadows-filter-node-02.png" />
         </td>
     </tr>
 </table>

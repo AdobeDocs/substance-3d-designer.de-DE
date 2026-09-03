@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-2-splines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-2-splines.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Spline Bridge -Knoten, um Texturen zwischen zwei Splines zu überbrücken, um nahtlose Verbindungen zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline Bridge (2 Splines)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](spline-bridge-2-splines.resources/spline-bridge-2splines-icon.png "Knotensymbol")
+![Knotensymbol](spline-bridge-2-splines.resources/spline-bridge-2-splines-01.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -89,12 +89,12 @@ Generiert Splines von <b>Spline #1</b> bis <b>Spline #2</b> entlang dieser Splin
 | <b>Spline-Versatz #2</b> <i>Gleitend</i> | Wendet einen Versatz auf den Anfangspunkt aller Splines entlang der Spline-#2 an. Der Wert ist die normalisierte Länge der Spline-#2.<br>Splines, die den Anfang oder das Ende der Spline-Kurve erreichen, werden dort belassen. |
 | <b>Zufallsstart versetzen</b> <i>Gleitend</i> | Wendet einen zufälligen Versatz auf den Anfangspunkt jedes Spline entlang der Spline-#1 an. Der Wert ist der normalisierte Abstand zwischen den Splines in der Spline-#1.<br>Wenn dieser Wert auf 0 belassen wird, sind die Splines in gleichmäßigen Abständen zwischen dem Spline-#1 &quot;Anfang&quot; und dem Spline-#1 &quot;Ende&quot; angeordnet. |
 | <b>Versatz zufälliges Ende</b> <i>Gleitend</i> | Wendet einen zufälligen Versatz auf den Endpunkt jedes Spline entlang der Spline-#2 an. Der Wert ist der normalisierte Abstand zwischen den Splines in der Spline-#2.<br>Wenn dieser Wert auf 0 belassen wird, sind die Splines in gleichmäßigen Abständen zwischen dem Spline-#2 &quot;Anfang&quot; und dem Spline-#2 &quot;Ende&quot; angeordnet. |
-| <b>Tangentiallängenanfang</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Bridge Splines Type&quot; auf &quot;Cubic Bézier&quot; festgelegt ist) | Die Länge der Out-Tangente für den Startpunkt auf der Spline-#1 aller generierten Splines. |
-| <b>Tangentiallängenende</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Bridge Splines Type&quot; auf &quot;Cubic Bézier&quot; festgelegt ist) | Die Länge der In-Tangente für den Endpunkt auf der Spline-#2 aller generierten Splines. |
+| <b>Tangente Length Start</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Bridge Splines Type&quot; auf &quot;Cubic Bézier&quot; festgelegt ist) | Die Länge der Out-Tangente für den Startpunkt auf der Spline-#1 aller generierten Splines. |
+| <b>Ende der Tangente</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Bridge Splines Type&quot; auf &quot;Cubic Bézier&quot; festgelegt ist) | Die Länge der In-Tangente für den Endpunkt auf der Spline-#2 aller generierten Splines. |
 | <b>Tangentialdrehungsbeginn</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Bridge Splines Type&quot; auf &quot;Cubic Bézier&quot; festgelegt ist) | Die Drehung der Out-Tangente für den Startpunkt auf der Spline-#1 aller generierten Splines.<br>Der Wert ist eine Anzahl von Umdrehungen. |
-| <b>Tangentialdrehungsende</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Bridge Splines Type&quot; auf &quot;Cubic Bézier&quot; festgelegt ist) | Die Drehung der In-Tangente für den Endpunkt auf der Spline-#2 aller generierten Splines.<br>Der Wert ist eine Anzahl von Umdrehungen. |
+| <b>Tangente Drehende</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Bridge Splines Type&quot; auf &quot;Cubic Bézier&quot; festgelegt ist) | Die Drehung der In-Tangente für den Endpunkt auf der Spline-#2 aller generierten Splines.<br>Der Wert ist eine Anzahl von Umdrehungen. |
 | <b>Vorschau</b> |  |
-| <b>Segmentierungsbetrag</b> <i>Integer</i> | Passt die Anzahl der Segmente an, die zum Zeichnen der Spline-Visualisierung in der Vorschauausgabe verwendet werden. Je höher der Wert, desto glatter die Linie. |
+| <b>Segmentierungsbetrag</b> <i>Ganzzahl</i> | Passt die Anzahl der Segmente an, die zum Zeichnen der Spline-Visualisierung in der Vorschauausgabe verwendet werden. Je höher der Wert, desto glatter die Linie. |
 | <b>Richtungshelfer anzeigen</b> <i>Boolescher Wert</i> | Zeigt einen Punkt am Anfang des Splines und eine Pfeilspitze an seinem Ende in der Vorschauausgabe an. |
 | <b>Umschlag der Thickness anzeigen</b> <i>Boolescher Wert</i> | Zeigt an den Kanten der Spline-Thickness zusätzliche Linien an. |
 | <b>Thickness (px)</b> <i>Gleitend</i> | Passt die Thickness der Spline-Visualisierung in Pixel in der Vorschau an. |
@@ -108,11 +108,11 @@ Generiert Splines von <b>Spline #1</b> bis <b>Spline #2</b> entlang dieser Splin
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-2-splines.resources/SplineBridge-2Splines_Variant1-Before.jpg" alt="SplineBridge-2Splines_Variant1-Before">
+      <img src="spline-bridge-2-splines.resources/spline-bridge-2-splines-02.jpg" alt="SplineBridge-2Splines_Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="spline-bridge-2-splines.resources/SplineBridge-2Splines_Variant1-After.jpg" alt="SplineBridge-2Splines_Variant1-After">
+      <img src="spline-bridge-2-splines.resources/spline-bridge-2-splines-03.jpg" alt="SplineBridge-2Splines_Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -121,7 +121,7 @@ Generiert Splines von <b>Spline #1</b> bis <b>Spline #2</b> entlang dieser Splin
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](spline-bridge-2-splines.resources/SplineBridge-2Splines_Demo.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](spline-bridge-2-splines.resources/spline-bridge-2-splines-04.gif "Knotenbeispiel 2")
 
 </td>
 </tr>

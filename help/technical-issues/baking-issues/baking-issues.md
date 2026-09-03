@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/technical-issues/baking-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/baking-issues.html"
 breadcrumb-title: ''
 description: Hier finden Sie Schritte zur Fehlerbehebung für technische Probleme im Zusammenhang mit dem Backen von Texturen in Substance 3D Designer.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Backprobleme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Seit Designer 15.0 wird der Name der *Geometrie*-Objekte direkt verwendet.
 </td>
 <td style="border: 0;" valign="top">
 
-![Geometry-Objekt und übergeordnetes Objekt im Szenenbaum](baking-issues.resources/sceneTree_objectsName.png "Geometry-Objekt und übergeordnetes Objekt im Szenenbaum"){zoomable="yes"}
+![Geometry-Objekt und übergeordnetes Objekt im Szenenbaum](baking-issues.resources/baking-issues-01.png "Geometry-Objekt und übergeordnetes Objekt im Szenenbaum"){zoomable="yes"}
 
 </td>
 </tr>

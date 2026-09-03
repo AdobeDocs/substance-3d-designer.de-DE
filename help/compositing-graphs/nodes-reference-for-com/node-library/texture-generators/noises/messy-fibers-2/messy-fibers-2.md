@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-2.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Messy Fibers 2, um Zwischenfasermuster zum Erstellen von gewebten und textilen Texturen zu generieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Unsaubere Fasern 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Schmutzige Fasern 2 - Symbol](messy-fibers-2.resources/messy_fibers_2.png "Schmutzige Fasern 2 - Symbol"){width="200px"}
+![Schmutzige Fasern 2 - Symbol](messy-fibers-2.resources/messy-fibers-2-01.png "Schmutzige Fasern 2 - Symbol"){width="200px"}
 
 <b>In:</b> Texturgeneratoren > Rauschen
 
@@ -72,12 +72,12 @@ Siehe auch: [Schmutzige Fasern 1](../../../../../../compositing-graphs/nodes-ref
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Schmutzige Fasern 2 - Beispiel 1](messy-fibers-2.resources/messy_fibers_2_1.png "Schmutzige Fasern 2 - Beispiel 1"){zoomable="yes"}
+![Schmutzige Fasern 2 - Beispiel 1](messy-fibers-2.resources/messy-fibers-2-02.png "Schmutzige Fasern 2 - Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Schmutzige Fasern 2 - Beispiel 2](messy-fibers-2.resources/noise_messy_fibers_2_v2_speed0.1_aniso0.gif "Schmutzige Fasern 2 - Beispiel 2"){zoomable="yes"}
+![Schmutzige Fasern 2 - Beispiel 2](messy-fibers-2.resources/messy-fibers-2-03.gif "Schmutzige Fasern 2 - Beispiel 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -87,12 +87,12 @@ Siehe auch: [Schmutzige Fasern 1](../../../../../../compositing-graphs/nodes-ref
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Schmutzige Fasern 2 - Beispiel 3](messy-fibers-2.resources/noise_messy_fibers_2_v2_speed0.1_aniso1.gif "Schmutzige Fasern 2 - Beispiel 3"){zoomable="yes"}
+![Schmutzige Fasern 2 - Beispiel 3](messy-fibers-2.resources/messy-fibers-2-04.gif "Schmutzige Fasern 2 - Beispiel 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Schmutzige Fasern 2 - Beispiel 4](messy-fibers-2.resources/noise_messy_fibers_2_v2_speed0.1_aniso0.6.gif "Schmutzige Fasern 2 - Beispiel 4"){zoomable="yes"}
+![Schmutzige Fasern 2 - Beispiel 4](messy-fibers-2.resources/messy-fibers-2-05.gif "Schmutzige Fasern 2 - Beispiel 4"){zoomable="yes"}
 
 </td>
 </tr>

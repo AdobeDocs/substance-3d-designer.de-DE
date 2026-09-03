@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-wear.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-wear.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Edge Wear , um Verschleißmasken an Netzkanten zu generieren, um realistische Kantenschäden und Wettereffekte zu erzeugen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Edge Wear
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](edge-wear.resources/edge-wear.png){width="128px"}
+![](edge-wear.resources/edge-wear-01.png){width="128px"}
 
 <b>In:</b> Mesh-basierte Generatoren > Maskengenerator
 
@@ -67,7 +67,7 @@ Dieser Knoten stellt den Verschleiß von Objektkanten dar. Es verfügt über ein
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="edge-wear.resources/edge-wear-ex.gif" />
+            <img src="edge-wear.resources/edge-wear-02.gif" />
         </td>
     </tr>
 </table>

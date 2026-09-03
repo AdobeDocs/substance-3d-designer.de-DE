@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-3.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Zellen 3, um Zellmuster zu erzeugen, die organische und biologische Textureffekte erzeugen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ZELLEN 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Zellen 3 - Symbol](cells-3.resources/cells_3.png "Zellen 3 - Symbol"){width="200px"}
+![Zellen 3 - Symbol](cells-3.resources/cells-3-01.png "Zellen 3 - Symbol"){width="200px"}
 
 <b>In:</b> Texturgeneratoren > Rauschen
 
@@ -77,12 +77,12 @@ Siehe auch: [Zellen 1](../../../../../../compositing-graphs/nodes-reference-for-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Zellen 3 - Beispiel 1](cells-3.resources/cells_3_1.png "Zellen 3 - Beispiel 1"){zoomable="yes"}
+![Zellen 3 - Beispiel 1](cells-3.resources/cells-3-02.png "Zellen 3 - Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Zellen 3 - Beispiel 2](cells-3.resources/noise_cells_3_v2_speed0.6_aniso0.gif "Zellen 3 - Beispiel 2"){zoomable="yes"}
+![Zellen 3 - Beispiel 2](cells-3.resources/cells-3-03.gif "Zellen 3 - Beispiel 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -92,12 +92,12 @@ Siehe auch: [Zellen 1](../../../../../../compositing-graphs/nodes-reference-for-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Zellen 3 - Beispiel 3](cells-3.resources/noise_cells_3_v2_speed0.6_aniso1.gif "Zellen 3 - Beispiel 3"){zoomable="yes"}
+![Zellen 3 - Beispiel 3](cells-3.resources/cells-3-04.gif "Zellen 3 - Beispiel 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Zellen 3 - Beispiel 4](cells-3.resources/noise_cells_3_v2_speed0.3_aniso0.6.gif "Zellen 3 - Beispiel 4"){zoomable="yes"}
+![Zellen 3 - Beispiel 4](cells-3.resources/cells-3-05.gif "Zellen 3 - Beispiel 4"){zoomable="yes"}
 
 </td>
 </tr>

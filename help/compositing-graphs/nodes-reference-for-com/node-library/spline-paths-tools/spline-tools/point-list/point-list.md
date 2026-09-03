@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Punktliste", um Punktlisten für die Spline- und Pfadgenerierung zu erstellen und zu verwalten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Punktliste
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](point-list.resources/point-list-icon.png "Knotensymbol")
+![Knotensymbol](point-list.resources/point-list-01.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -83,7 +83,7 @@ Wenn eine vorhandene Punktliste an die <b>Point</b>-Eingaben übergeben wird, wi
 | <b>p#</b> <i>Float2</i> | Legt die Position des p#-Punkts im Texturen-Leerzeichen fest. |
 | <b>Vorschau</b> |  |
 | <b>Beschriftungen anzeigen</b> <i>Boolescher Wert</i> | Zeigt für jeden Punkt den Namen des Punkts daneben in der Vorschau an. |
-| <b>Labelgröße</b> <i>Float</i> (verfügbar, wenn &quot;Beschriftungen anzeigen&quot; auf &quot;Wahr&quot; festgelegt ist) | Die Größe des Labels für jeden Punkt im Texturraum, wobei 0,1 ein Zehntel der Texturbreite ist. |
+| <b>Labelgröße</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Beschriftungen anzeigen&quot; auf &quot;Wahr&quot; festgelegt ist) | Die Größe des Labels für jeden Punkt im Texturraum, wobei 0,1 ein Zehntel der Texturbreite ist. |
 | <b>Punkte anzeigen</b> <i>Boolescher Wert</i> | Zeigt die Punkte in der Vorschau an. |
 | <b>Punktgröße</b> <i>Float</i> (verfügbar, wenn &quot;Punkte anzeigen&quot; auf &quot;Wahr&quot; festgelegt ist) | Der Radius der Punkte im Texturraum, wobei 0,1 ein Zehntel der Texturbreite beträgt. |
 
@@ -93,12 +93,12 @@ Wenn eine vorhandene Punktliste an die <b>Point</b>-Eingaben übergeben wird, wi
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](point-list.resources/PointList-Variant1.jpg "Knotenbeispiel 1")
+![Knotenbeispiel 1](point-list.resources/point-list-02.jpg "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](point-list.resources/PointList-Demo1.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](point-list.resources/point-list-03.gif "Knotenbeispiel 2")
 
 </td>
 </tr>

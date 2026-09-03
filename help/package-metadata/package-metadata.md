@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/package-metadata.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/package-metadata.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Paket-Metadaten in Substance 3D Designer für organisierte Elementbibliotheken erstellen und verwalten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Metadaten verpacken
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
@@ -28,34 +28,34 @@ Wenn Sie ein Python-Plug-in entwickeln, sollten Sie Metadaten zum Testen und Deb
 
 1. Wenn Sie im Explorer auf ein Paket doppelklicken, wird das Eigenschaftenfenster für dieses Paket geöffnet.
 
-   ![Paketmetadaten](package-metadata.resources/empty.png "Paketmetadaten")
+   ![Paketmetadaten](package-metadata.resources/package-metadata-01.png "Paketmetadaten")
 1. Hier haben Sie einen eigenen Abschnitt &quot;Metadaten&quot;. Es ist in Ihrem Fall wahrscheinlich leer, wie in der Aufnahme oben.
 
    Sie können neue Metadaten hinzufügen, indem Sie auf die Schaltfläche &quot;Plus&quot; klicken.
 
-   ![Schaltfläche zum Hinzufügen von Metadaten](package-metadata.resources/hoveradd.png "Schaltfläche zum Hinzufügen von Metadaten")
+   ![Schaltfläche zum Hinzufügen von Metadaten](package-metadata.resources/package-metadata-02.png "Schaltfläche zum Hinzufügen von Metadaten")
 1. Im folgenden Abschnitt wird ein neues Element angezeigt:
 
-   ![Neue Metadaten](package-metadata.resources/newitem-1.png "Neue Metadaten")
+   ![Neue Metadaten](package-metadata.resources/package-metadata-03.png "Neue Metadaten")
 1. Es gibt ein Feld &quot;Schlüssel&quot; und ein Feld &quot;Wert&quot;. Beide Optionen sind beliebig wählbar. Das Feld &quot;Schlüssel&quot; muss in der Liste einen eindeutigen Wert aufweisen.
 
-   ![Neuer Metadatenwert](package-metadata.resources/newitemfilled.png "Neuer Metadatenwert")
+   ![Neuer Metadatenwert](package-metadata.resources/package-metadata-04.png "Neuer Metadatenwert")
 1. Sie können auch den &quot;Typ&quot; des Elements auswählen. Im Moment kann es &quot;String&quot; oder &quot;URL&quot; sein:
 
-   ![Metadatentyp ändern](package-metadata.resources/typecombo.png "Metadatentyp ändern")
+   ![Metadatentyp ändern](package-metadata.resources/package-metadata-05.png "Metadatentyp ändern")
 1. &quot;URL&quot; bedeutet hier einen Verweis auf eine Ressource, die im Paket enthalten ist. Wählen Sie dazu eine Datei auf Ihrer Festplatte aus und ziehen Sie sie per Drag &amp; Drop in das Paket im Explorer. Dabei kann es sich um eine normale Ressource wie ein Bild oder eine beliebige andere Datei wie eine Textdatei handeln.
 
-   ![Generische Ressource im Paket](package-metadata.resources/resourceinpackage.png "Generische Ressource im Paket")
+   ![Generische Ressource im Paket](package-metadata.resources/package-metadata-06.png "Generische Ressource im Paket")
 1. Die Datei wird als neue Ressource im Paket angezeigt.
 
    Kehren Sie nun zum Bedienfeld &quot;Paketeigenschaften&quot; zurück, erstellen Sie neue Metadaten, geben Sie einen passenden Schlüssel ein und wählen Sie &quot;URL&quot; als Typ. Wählen Sie dann &quot;...&quot; aus. im Feld &quot;Wert&quot; und wählen Sie &quot;Von Ressource&quot; aus. Wählen Sie die Datei aus, die Sie zuvor eingefügt haben, und überprüfen Sie:
 
-   ![URL-Metadaten](package-metadata.resources/urlmetadata.gif "URL-Metadaten")
+   ![URL-Metadaten](package-metadata.resources/package-metadata-07.gif "URL-Metadaten")
 1. Jetzt können Sie die &quot;URL&quot; der Ressource wird im Feld &quot;Wert&quot; gespeichert.
 
    Sie können Metadaten auch über die Schaltfläche &quot;X&quot; rechts neben dem Element löschen:
 
-   ![Metadaten löschen](package-metadata.resources/hoverdelete.png "Metadaten löschen")
+   ![Metadaten löschen](package-metadata.resources/package-metadata-08.png "Metadaten löschen")
 
 >[!NOTE]
 >

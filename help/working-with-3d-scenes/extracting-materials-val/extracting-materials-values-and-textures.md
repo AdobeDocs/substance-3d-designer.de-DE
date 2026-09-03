@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
 breadcrumb-title: ''
 description: Extrahieren Sie Materialeigenschaften aus 3D-Szenen, um sie in Substance-Graphen für Workflows zur Materialerstellung zu verwenden.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Extrahieren von Materialwerten und Texturen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
@@ -58,21 +58,21 @@ Mit dieser Aktion können Sie u. a. Folgendes tun:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Diagramm aus Textureingaben erstellen - Aktion im Viewport &quot;3D-Ansicht&quot;](extracting-materials-values-and-textures.resources/createGraphFromTexturesActionViewport.png "Diagramm aus Textureingaben erstellen - Aktion im Viewport &quot;3D-Ansicht&quot;"){zoomable="yes"}
+![Diagramm aus Textureingaben erstellen - Aktion im Viewport &quot;3D-Ansicht&quot;](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-01.png "Diagramm aus Textureingaben erstellen - Aktion im Viewport &quot;3D-Ansicht&quot;"){zoomable="yes"}
 
 *Aktion im Ansichtsport der 3D-Ansicht*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Diagramm aus Textureingaben erstellen - Aktion im Menü &quot;Materialien&quot;](extracting-materials-values-and-textures.resources/createGraphFromTexturesActionMaterials.png "Diagramm aus Textureingaben erstellen - Aktion im Menü &quot;Materialien&quot;"){zoomable="yes"}
+![Diagramm aus Textureingaben erstellen - Aktion im Menü &quot;Materialien&quot;](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-02.png "Diagramm aus Textureingaben erstellen - Aktion im Menü &quot;Materialien&quot;"){zoomable="yes"}
 
 *Aktion im Materialmenü*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Diagramm aus Textureingaben erstellen - Aktion im Dock &quot;Eigenschaften&quot;](extracting-materials-values-and-textures.resources/createGraphFromTexturesActionProps.png "Diagramm aus Textureingaben erstellen - Aktion im Dock &quot;Eigenschaften&quot;"){zoomable="yes"}
+![Diagramm aus Textureingaben erstellen - Aktion im Dock &quot;Eigenschaften&quot;](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-03.png "Diagramm aus Textureingaben erstellen - Aktion im Dock &quot;Eigenschaften&quot;"){zoomable="yes"}
 
 *Aktion im Eigenschaftendock*
 
@@ -80,12 +80,12 @@ Mit dieser Aktion können Sie u. a. Folgendes tun:
 </tr>
 </table>
 
-![Ergebnis der Diagrammerstellung aus Materialtexturen](extracting-materials-values-and-textures.resources/createGraphFromTexturesResult.png "Ergebnis der Diagrammerstellung aus Materialtexturen"){zoomable="yes"}
+![Ergebnis der Diagrammerstellung aus Materialtexturen](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-04.png "Ergebnis der Diagrammerstellung aus Materialtexturen"){zoomable="yes"}
 
 *Ergebnis der Diagrammerstellung aus Materialtexturen*
 
 +++Demonstration
-![Diagramm aus Textureingaben erstellen - Demonstration](extracting-materials-values-and-textures.resources/createGraphFromTextures.gif "Diagramm aus Textureingaben erstellen - Demonstration"){zoomable="yes"}
+![Diagramm aus Textureingaben erstellen - Demonstration](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-05.gif "Diagramm aus Textureingaben erstellen - Demonstration"){zoomable="yes"}
 
 
 
@@ -116,14 +116,14 @@ Beispiel: Wenn eine Textur für die Eigenschaft &quot;Grundfarbe&quot; in ein Di
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Textur in Diagramm extrahieren - Aktion im Eigenschaften-Dock](extracting-materials-values-and-textures.resources/extractTextureAction.png "Textur in Diagramm extrahieren - Aktion im Eigenschaften-Dock"){zoomable="yes"}
+![Textur in Diagramm extrahieren - Aktion im Eigenschaften-Dock](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-06.png "Textur in Diagramm extrahieren - Aktion im Eigenschaften-Dock"){zoomable="yes"}
 
 Aktion für Materialeigenschaft im Eigenschaften-Dock
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Textur in Diagramm extrahieren - Dialogfeld &quot;Zieldiagramm auswählen&quot;](extracting-materials-values-and-textures.resources/extractTextureSelectGraph.png "Textur in Diagramm extrahieren - Dialogfeld &quot;Zieldiagramm auswählen&quot;"){zoomable="yes"}
+![Textur in Diagramm extrahieren - Dialogfeld &quot;Zieldiagramm auswählen&quot;](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-07.png "Textur in Diagramm extrahieren - Dialogfeld &quot;Zieldiagramm auswählen&quot;"){zoomable="yes"}
 
 Dialogfeld &quot;Zieldiagramm auswählen&quot;
 
@@ -136,12 +136,12 @@ Dialogfeld &quot;Zieldiagramm auswählen&quot;
 </tr>
 </table>
 
-![Ergebnis der Texturextraktion](extracting-materials-values-and-textures.resources/extractTextureResult.png "Ergebnis der Texturextraktion"){zoomable="yes"}
+![Ergebnis der Texturextraktion](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-08.png "Ergebnis der Texturextraktion"){zoomable="yes"}
 
 Ergebnis der Texturextraktion
 
 +++Demonstration
-![Textur in Diagramm extrahieren - Demonstration](extracting-materials-values-and-textures.resources/extractTextureToGraph.gif "Textur in Diagramm extrahieren - Demonstration"){zoomable="yes"}
+![Textur in Diagramm extrahieren - Demonstration](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-09.gif "Textur in Diagramm extrahieren - Demonstration"){zoomable="yes"}
 
 
 
@@ -160,7 +160,7 @@ Die Aktion &quot;Wert in Diagramm extrahieren&quot; erstellt einen neuen [Wertpr
 Mit dieser Aktion können Sie u. a. Folgendes tun:
 
 * Im ausgewählten Diagramm wird ein Knoten vom Typ [Wertprozessor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) für diesen Eigenschaftswert erstellt und automatisch mit einem Knoten vom Typ [Ausgabe](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) verbunden, der nach dieser Materialeigenschaft konfiguriert ist.
-* Im Funktionsdiagramm [Substance des Werteprozessorknotens &#x200B;](../../function-graphs/function-graphs.md) wird ein [Konstantenknoten](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md), der dem Werttyp entspricht, erstellt und auf den extrahierten Wert als Ausgabe des Diagramms festgelegt.
+* Im Funktionsdiagramm [Substance des Werteprozessorknotens ](../../function-graphs/function-graphs.md) wird ein [Konstantenknoten](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md), der dem Werttyp entspricht, erstellt und auf den extrahierten Wert als Ausgabe des Diagramms festgelegt.
 
 Wenn eine für die Materialeigenschaft *konfigurierte Ausgabe bereits vorhanden ist* im Diagramm, werden *keine Knoten erstellt*.
 
@@ -170,21 +170,21 @@ Beispiel: Wenn Sie einen Wert für die Eigenschaft &quot;Anisotropie-Ebene&quot;
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Wert in Diagramm extrahieren - Aktion im Eigenschaftendock](extracting-materials-values-and-textures.resources/extractValueAction.png "Wert in Diagramm extrahieren - Aktion im Eigenschaftendock"){zoomable="yes"}
+![Wert in Diagramm extrahieren - Aktion im Eigenschaftendock](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-10.png "Wert in Diagramm extrahieren - Aktion im Eigenschaftendock"){zoomable="yes"}
 
 Aktion für Materialeigenschaft im Eigenschaften-Dock
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Wert in Diagramm extrahieren - Dialogfeld &quot;Zieldiagramm auswählen&quot;](extracting-materials-values-and-textures.resources/extractValueSelectGraph.png "Wert in Diagramm extrahieren - Dialogfeld &quot;Zieldiagramm auswählen&quot;"){zoomable="yes"}
+![Wert in Diagramm extrahieren - Dialogfeld &quot;Zieldiagramm auswählen&quot;](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-11.png "Wert in Diagramm extrahieren - Dialogfeld &quot;Zieldiagramm auswählen&quot;"){zoomable="yes"}
 
 Dialogfeld &quot;Zieldiagramm auswählen&quot;
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Wert in Diagramm extrahieren - Konstantenknoten in der Funktion des Werteprozessorknotens](extracting-materials-values-and-textures.resources/extractValueResult2.png "Wert in Diagramm extrahieren - Konstantenknoten in der Funktion des Werteprozessorknotens"){zoomable="yes"}
+![Wert in Diagramm extrahieren - Konstantenknoten in der Funktion des Werteprozessorknotens](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-12.png "Wert in Diagramm extrahieren - Konstantenknoten in der Funktion des Werteprozessorknotens"){zoomable="yes"}
 
 Konstanter Knoten in der Funktion des Werteprozessorknotens
 
@@ -192,12 +192,12 @@ Konstanter Knoten in der Funktion des Werteprozessorknotens
 </tr>
 </table>
 
-![Ergebnis der Wertextraktion](extracting-materials-values-and-textures.resources/extractValueResult.png "Ergebnis der Wertextraktion"){zoomable="yes"}
+![Ergebnis der Wertextraktion](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-13.png "Ergebnis der Wertextraktion"){zoomable="yes"}
 
 Ergebnis der Wertschöpfung
 
 +++Demonstration
-![Wert in Diagramm extrahieren - Demonstration](extracting-materials-values-and-textures.resources/extractValueToGraph.gif "Wert in Diagramm extrahieren - Demonstration"){zoomable="yes"}
+![Wert in Diagramm extrahieren - Demonstration](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-14.gif "Wert in Diagramm extrahieren - Demonstration"){zoomable="yes"}
 
 
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-2.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Linearer Verlauf 2", um lineare Farbverläufe mit erweiterten Steuerelementen für gerichtete Farbübergänge zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Verlauf Linear 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](gradient-linear-2.resources/gradient-linear-2.png){width="128px"}
+![](gradient-linear-2.resources/gradient-linear-2-01.png){width="128px"}
 
 <b>In:</b> Texturgeneratoren > Muster
 
@@ -55,7 +55,7 @@ Trotz seiner Einfachheit ist es sehr nützlich und kann vielen Zwecken dienen. V
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="gradient-linear-2.resources/gradient-linear-2-ex.gif" />
+            <img src="gradient-linear-2.resources/gradient-linear-2-02.gif" />
         </td>
     </tr>
 </table>

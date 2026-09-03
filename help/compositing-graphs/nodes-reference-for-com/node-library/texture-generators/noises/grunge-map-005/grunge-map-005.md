@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-005.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-005.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Schmutz Map 005, um prozedurale Schmutz-Texturen zu erstellen, um Oberflächendetails und Variationen zu Materialien hinzuzufügen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Schmutz Map 005
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-map-005.resources/grungemap-005.png){width="128px"}
+![](grunge-map-005.resources/grunge-map-005-01.png){width="128px"}
 
 <b>In:</b> Texturgeneratoren > Rauschen
 
@@ -57,7 +57,7 @@ Dadurch wird eine komplexe, kombinierte Noisemap erzeugt. Es kann als detaillier
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-map-005.resources/grungemap-005-ex.gif" />
+            <img src="grunge-map-005.resources/grunge-map-005-02.gif" />
         </td>
     </tr>
 </table>

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-2.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Rauschen Hochskalieren 2 , um Texturen mithilfe der rauschbasierten Interpolation hochzuskalieren, um die Texturqualität bei größeren Größen beizubehalten.
+description: Verwenden Sie den Knoten Rauschen Upscale 2, um Texturen mithilfe der Rauschen-basierten Interpolation hochzuskalieren, um die Qualität der Textur bei größeren Abmessungen beizubehalten.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Noise Upscale 2
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rauschen Hochskalieren 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](noise-upscale-2.resources/noise-upscale.png){width="128px"}
+![](noise-upscale-2.resources/noise-upscale-2-01.png){width="128px"}
 
 <b>In:</b> Filter > Transformieren
 
@@ -59,7 +59,7 @@ Siehe auch [Rauschen Upscale 1](../../../../../../compositing-graphs/nodes-refer
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="noise-upscale-2.resources/noise2ex.png" />
+            <img src="noise-upscale-2.resources/noise-upscale-2-02.png" />
         </td>
     </tr>
 </table>

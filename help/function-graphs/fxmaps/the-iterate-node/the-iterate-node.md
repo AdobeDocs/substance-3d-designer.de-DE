@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/fxmaps/the-iterate-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/the-iterate-node.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Iterieren in FXMaps, um sich wiederholende Muster und prozedurale Variationen in Ihren Materialien zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Der Knoten "Iterieren"
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -32,10 +32,10 @@ Beispiel: Wenn Sie auf jedes Bild in einem Quadrantenknoten eine zufällige Dreh
 
 Alle im Quadrant-Knoten verfügbaren dynamischen Merkmale gelten auch für wiederholte Bilder, die vom Iterate-Knoten erzeugt werden. Der Knoten dupliziert den Quadrant-Knoten auf derselben Ebene, statt eine weitere Tiefe hinzuzufügen.
 
-## Die Pass-Through-Verbindung
+## Der Pass-Through-Connector
 
-Jeder Iterate-Knoten verfügt über zwei Connectors entlang seiner Basis. Der linke Anschluss ist ein Pass-Through-Anschluss. Das Bild, das er erhält, wird direkt an die Ausgabebilder des Knotens übergeben, wo es mit allen wiederholten Verbindungen überblendet wird:
+Jeder Iterate-Knoten verfügt über zwei Connectors entlang seiner Basis. Der linke Anschluss ist ein Pass-Through-Anschluss. Das Bild, das er erhält, wird direkt an den Ausgangsanschluss des Knotens weitergeleitet, wo es mit allen wiederholten Bildern überblendet wird:
 
 Beachten Sie, dass das Pass-Through-Bild immer unberührt bleibt, unabhängig von der Einstellung des Parameters &quot;Iteration&quot;.
 
-![](the-iterate-node.resources/iterate.jpg)
+![](the-iterate-node.resources/the-iterate-node-01.jpg)

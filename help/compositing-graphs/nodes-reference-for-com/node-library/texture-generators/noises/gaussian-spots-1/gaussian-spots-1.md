@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-spots-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-spots-1.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Gaußsche Flecken 1", um Gaußsche Fleckmuster zum Erstellen organischer Strukturvariationen und Details zu generieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gaußsche Flecken 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Gaußsche Flecken 1 - Symbol](gaussian-spots-1.resources/gaussian_spots_1.png "Gaußsche Flecken 1 - Symbol"){width="200px"}
+![Gaußsche Flecken 1 - Symbol](gaussian-spots-1.resources/gaussian-spots-1-01.png "Gaußsche Flecken 1 - Symbol"){width="200px"}
 
 <b>In:</b> Texturgeneratoren > Rauschen
 
@@ -70,12 +70,12 @@ Siehe auch: [Gaußsche Flecken 2](../../../../../../compositing-graphs/nodes-ref
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Gaußsche Flecken 1 - Beispiel 1](gaussian-spots-1.resources/gaussian_spots_1_1.png "Gaußsche Flecken 1 - Beispiel 1"){zoomable="yes"}
+![Gaußsche Flecken 1 - Beispiel 1](gaussian-spots-1.resources/gaussian-spots-1-02.png "Gaußsche Flecken 1 - Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Gaußsche Flecken 1 - Beispiel 2](gaussian-spots-1.resources/noise_gaussian_spots_1_v2_speed0.6_aniso0.gif "Gaußsche Flecken 1 - Beispiel 2"){zoomable="yes"}
+![Gaußsche Flecken 1 - Beispiel 2](gaussian-spots-1.resources/gaussian-spots-1-03.gif "Gaußsche Flecken 1 - Beispiel 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -85,12 +85,12 @@ Siehe auch: [Gaußsche Flecken 2](../../../../../../compositing-graphs/nodes-ref
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Gaußsche Flecken 1 - Beispiel 3](gaussian-spots-1.resources/noise_gaussian_spots_1_v2_speed0.6_aniso1.gif "Gaußsche Flecken 1 - Beispiel 3"){zoomable="yes"}
+![Gaußsche Flecken 1 - Beispiel 3](gaussian-spots-1.resources/gaussian-spots-1-04.gif "Gaußsche Flecken 1 - Beispiel 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Gaußsche Flecken 1 - Beispiel 4](gaussian-spots-1.resources/noise_gaussian_spots_1_v2_speed0.3_aniso0.6.gif "Gaußsche Flecken 1 - Beispiel 4"){zoomable="yes"}
+![Gaußsche Flecken 1 - Beispiel 4](gaussian-spots-1.resources/gaussian-spots-1-05.gif "Gaußsche Flecken 1 - Beispiel 4"){zoomable="yes"}
 
 </td>
 </tr>

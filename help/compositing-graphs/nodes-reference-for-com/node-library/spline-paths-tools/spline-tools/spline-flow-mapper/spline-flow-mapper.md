@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-flow-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-flow-mapper.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Spline Flow Mapper", um fließende Texturmuster entlang von Spline-Pfaden für organische Effekte zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline-Flow-Mapper
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](spline-flow-mapper.resources/spline-flow-mapper-icon.png "Knotensymbol")
+![Knotensymbol](spline-flow-mapper.resources/spline-flow-mapper-01.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -94,11 +94,11 @@ Mit Splines kannst du die Richtung, die Trajektorie, die Intensität und die Thi
 <table>
   <tr>
     <td>
-      <img src="spline-flow-mapper.resources/SplineFlowMapper-Variant1-Before.jpg" alt="SplineFlowMapper-Variant1-Before">
+      <img src="spline-flow-mapper.resources/spline-flow-mapper-02.jpg" alt="SplineFlowMapper-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="spline-flow-mapper.resources/SplineFlowMapper-Variant1-After.jpg" alt="SplineFlowMapper-Variant1-After">
+      <img src="spline-flow-mapper.resources/spline-flow-mapper-03.jpg" alt="SplineFlowMapper-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -107,7 +107,7 @@ Mit Splines kannst du die Richtung, die Trajektorie, die Intensität und die Thi
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](spline-flow-mapper.resources/SplineFlowMapper-Demo.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](spline-flow-mapper.resources/spline-flow-mapper-04.gif "Knotenbeispiel 2")
 
 </td>
 </tr>

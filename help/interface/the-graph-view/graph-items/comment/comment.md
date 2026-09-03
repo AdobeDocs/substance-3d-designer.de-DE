@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
 breadcrumb-title: ''
 description: Fügen Sie Kommentare zu Substance 3D Designer Graf hinzu, um Ihren Workflow zu dokumentieren und Knotenverbindungen zu erläutern.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Kommentar
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Kommentarsymbol](comment.resources/graphatomic-comment_1.png "Kommentarsymbol")
+![Kommentarsymbol](comment.resources/comment-01.png "Kommentarsymbol")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -64,7 +64,7 @@ Drücken Sie in der Graphansicht <b>RMB</b> für ein beliebiges Objekt oder in e
 
 +++
 
-+++Diagrammsymbolleiste
++++Graf-Symbolleiste
 Klicken Sie in der Symbolleiste &quot;Graphansicht&quot; auf die Schaltfläche &quot;Kommentar&quot; in der <b>Node-Palette</b>.
 
 +++
@@ -91,7 +91,7 @@ Kommentare, die erstellt werden, wenn derzeit ein *einzelner*-Knoten ausgewählt
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Kommentare: Übergeordnete Kommentare](comment.resources/graph-comment_parented.gif "Kommentare: Übergeordnete Kommentare")
+![Kommentare: Übergeordnete Kommentare](comment.resources/comment-02.gif "Kommentare: Übergeordnete Kommentare")
 
 </td>
 </tr>
@@ -99,10 +99,10 @@ Kommentare, die erstellt werden, wenn derzeit ein *einzelner*-Knoten ausgewählt
 
 ## HTML-Formatierung
 
-Der Text kann mit HTML-Tags formatiert werden. Diese Formatierung wird mithilfe der Schaltfläche ![](comment.resources/graph-frames_html-markup-button.png) <b>HTML-Markup</b> in der Eigenschaft <b>Beschreibung</b> des Kommentars umgeschaltet.
+Der Text kann mit HTML-Tags formatiert werden. Diese Formatierung wird mithilfe der Schaltfläche ![](comment.resources/comment-03.png) <b>HTML-Markup</b> in der Eigenschaft <b>Beschreibung</b> des Kommentars umgeschaltet.
 
 >[!TIP]
 >
 > Weitere Informationen zu dieser Funktion finden Sie im Abschnitt <b>Beschreibung</b> der Dokumentation [Frames](../../../../interface/the-graph-view/graph-items/frame/frame.md).
 
-![Kommentare: HTML-Markup](comment.resources/graph-comment_html-markup.gif "Kommentare: HTML-Markup ")
+![Kommentare: HTML-Markup](comment.resources/comment-04.gif "Kommentare: HTML-Markup ")

@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/moisture-noise-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/moisture-noise-2.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Feuchtigkeitsrauschen 2", um organische Feuchtigkeitsmuster für realistische Oberflächentexturen zu erzeugen.
+description: Verwenden Sie den Node "Moisture Rauschen 2", um organische Feuchtigkeitsmuster für realistische Texturen auf der Oberfläche zu erzeugen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Moisture noise 2
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Feuchtigkeitslärm 2
+title: Feuchtigkeit Rauschen 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 1%
@@ -18,26 +18,26 @@ ht-degree: 1%
 ---
 
 
-# Feuchtigkeitslärm 2
+# Feuchtigkeit Rauschen 2
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Feuchtigkeitsrauschen 2 - Symbol](moisture-noise-2.resources/moisture_noise_2.png "Feuchtigkeitsrauschen 2 - Symbol"){width="200px"}
+![Rauschen mit Feuchtigkeit 2 - Symbol](moisture-noise-2.resources/moisture-noise-2-01.png "Rauschen mit Feuchtigkeit 2 - Symbol"){width="200px"}
 
-<b>In:</b> Texturgeneratoren > Rauschen
+<b>In:</b> Texturen-Generatoren > Rauschen
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Eine Variation der reichen und schwammigen <b>Feuchtigkeit</b>-Geräusche.
+Eine Variante der reichen und schwammigen <b>Feuchtigkeit</b> Rauschen.
 
 Platten unterschiedlicher Härte und Größe, die verstreut sind und von der unten stehenden Farbe ausgehend von einem grauen Grund hinzugefügt oder subtrahiert werden.
 
-Siehe auch: [Feuchtigkeitsrauschen 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
+Siehe auch: [Feuchtigkeits-Rauschen 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
 </td>
 </tr>
@@ -57,9 +57,9 @@ Siehe auch: [Feuchtigkeitsrauschen 1](../../../../../../compositing-graphs/nodes
 
 |  |  |
 |:---|:---|
-| <b>Skalierung</b> <i>Integer</i> | Die Unterteilung des Rasters, das zum Erzeugen der Rauschkacheln verwendet wird.    Ein höherer Wert führt dazu, dass mehr Kacheln gezeichnet werden und das Rauschen dichter ist. |
-| <b>Störung</b> <i>Gleitend</i> | Versetzt die Bestandteile des Rauschens.    So kannst du das Rauschen animieren. |
-| <b>Störungsgeschwindigkeit</b> <i>Gleitend</i> | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.    Mit dieser Option können Sie die Geschwindigkeit des Versatzes bei der Animation des Rauschens steuern. |
+| <b>Skalierung</b> <i>Integer</i> | Die Unterteilung des Rasters, der zum Generieren der Rauschen-Kacheln verwendet wird.    Ein höherer Wert führt dazu, dass mehr Kacheln gezeichnet werden und das Rauschen dichter ist. |
+| <b>Störung</b> <i>Gleitend</i> | Versetzt die Bestandteile der Rauschen.    So kannst du das Rauschen animieren. |
+| <b>Störungsgeschwindigkeit</b> <i>Gleitend</i> | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.    Dies kann verwendet werden, um die Geschwindigkeit des Versatzes bei der Animation des Rauschen zu steuern. |
 | <b>Anisotropie der Störung</b> <i>Gleitend</i> | Steuert die Richtungsspanne des Versatzes, der vom <b>Disorder</b>-Parameter angewendet wird, wobei ein höherer Wert zu einer engeren, definierteren Richtung führt.    Die Anisotropie wird durch den Parameter <b>Disorder Direction Angle</b> gesteuert. |
 | <b>Disorder anisotropy angle</b> <i>Gleitend</i> | Steuert die Richtung des Versatzes, der vom <b>Disorder</b>-Parameter angewendet wird, wenn der <b>Disorder Anisotropie</b>-Parameter nicht Null ist. |
 | <b>Mustergröße</b> <i>Float2</i> | Ein Multiplikator für die Größe eines gestreuten Musters., wobei 1,0 seine ursprüngliche Größe ist. |
@@ -75,12 +75,12 @@ Siehe auch: [Feuchtigkeitsrauschen 1](../../../../../../compositing-graphs/nodes
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Feuchtigkeitsrauschen 2 - Beispiel 1](moisture-noise-2.resources/moisture_noise_2_1.png "Feuchtigkeitsrauschen 2 - Beispiel 1"){zoomable="yes"}
+![Feuchtigkeitsrauschen 2 - Beispiel 1](moisture-noise-2.resources/moisture-noise-2-02.png "Feuchtigkeitsrauschen 2 - Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Feuchtigkeitsrauschen 2 - Beispiel 2](moisture-noise-2.resources/noise_moisture_noise_2_speed0.6_aniso0.gif "Feuchtigkeitsrauschen 2 - Beispiel 2"){zoomable="yes"}
+![Feuchtigkeitsrauschen 2 - Beispiel 2](moisture-noise-2.resources/moisture-noise-2-03.gif "Feuchtigkeitsrauschen 2 - Beispiel 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -90,12 +90,12 @@ Siehe auch: [Feuchtigkeitsrauschen 1](../../../../../../compositing-graphs/nodes
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Feuchtigkeitsrauschen 2 - Beispiel 3](moisture-noise-2.resources/noise_moisture_noise_2_speed0.6_aniso1.gif "Feuchtigkeitsrauschen 2 - Beispiel 3"){zoomable="yes"}
+![Feuchtigkeits-Rauschen 2 - Beispiel 3](moisture-noise-2.resources/moisture-noise-2-04.gif "Feuchtigkeits-Rauschen 2 - Beispiel 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Feuchtigkeitsrauschen 2 - Beispiel 4](moisture-noise-2.resources/noise_moisture_noise_2_speed0.3_aniso0.6.gif "Feuchtigkeitsrauschen 2 - Beispiel 4"){zoomable="yes"}
+![Feuchtigkeits-Rauschen 2 - Beispiel 4](moisture-noise-2.resources/moisture-noise-2-05.gif "Feuchtigkeits-Rauschen 2 - Beispiel 4"){zoomable="yes"}
 
 </td>
 </tr>

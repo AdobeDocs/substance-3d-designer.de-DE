@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
 breadcrumb-title: ''
 description: Greifen Sie auf Get-Knoten in Substance 3D Designer-Funktionsdiagrammen zu, um Variablenwerte und Daten abzurufen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Variablen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 6%
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 Variablen sind eine Möglichkeit, <b>Werte</b> zu speichern, um sie später abzurufen (<b>Get</b>) und/oder zu ändern (<b>Set</b>).
 
-![Substance-Funktionsdiagramm - Get float](get-nodes.resources/assign-getfloat.gif "Substance-Funktionsdiagramm - Get float"){zoomable="yes"}
+![Substance-Funktionsdiagramm - Get float](get-nodes.resources/get-nodes-01.gif "Substance-Funktionsdiagramm - Get float"){zoomable="yes"}
 
 Ein Get-Knoten übernimmt im Grunde eine dynamische Variable, die er aus der Ausgabe des Get-Nodes zur Verwendung in einer Funktion zurückgibt. Diese Get-Eingabeparameter bilden die Verknüpfung zwischen den in den [Parameterparametern](../../../../compositing-graphs/graph-parameters/graph-parameters.md) und [Parameterfunktionen](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) definierten Graf.
 
@@ -58,7 +58,7 @@ Wenn ein Parameter [gelegt](../../../../compositing-graphs/manage-parameters/exp
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Gleitkomma2 abrufen - Symbol](get-nodes.resources/fn_variables_getfloat2.png "Gleitkomma2 abrufen - Symbol"){width="200px"}
+![Gleitkomma2 abrufen - Symbol](get-nodes.resources/get-nodes-02.png "Gleitkomma2 abrufen - Symbol"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -83,30 +83,30 @@ Der Name der abgerufenen Variable wird im Eigenschaften-Dock festgelegt.
 > 
 > Mehrere Get-Knoten bieten integrierte Variablen für den Zugriff auf vorhandene Werte entsprechend dem aktuellen Kontext an, z. B.: die aktuelle Pixelposition in einem Pixelprozessor, der aktuelle Kachelmodus eines Knotens, ...
 > 
-> Alle integrierten Variablen sind in [dieser dedizierten Seite &#x200B;](../../../../function-graphs/variables/system-variables/system-variables.md) aufgeführt.
+> Alle integrierten Variablen sind in [dieser dedizierten Seite ](../../../../function-graphs/variables/system-variables/system-variables.md) aufgeführt.
 
 ### Knoten abrufen
 
-+++Floats
-![Gleitkommawert abrufen - Symbol](get-nodes.resources/fn_variables_getfloat.png "Gleitkommawert abrufen - Symbol"){width="200px"}
++++Fließkommazahlen
+![Gleitkommawert abrufen - Symbol](get-nodes.resources/get-nodes-03.png "Gleitkommawert abrufen - Symbol"){width="200px"}
 
 
 
 Float abrufen
 
-![Gleitkomma2 abrufen - Symbol](get-nodes.resources/fn_variables_getfloat2.png "Gleitkomma2 abrufen - Symbol"){width="200px"}
+![Gleitkomma2 abrufen - Symbol](get-nodes.resources/get-nodes-02.png "Gleitkomma2 abrufen - Symbol"){width="200px"}
 
 
 
 Float2 abrufen
 
-![Gleitkommawert abrufen3 - Symbol](get-nodes.resources/fn_variables_getfloat3.png "Gleitkommawert abrufen3 - Symbol"){width="200px"}
+![Gleitkommawert abrufen3 - Symbol](get-nodes.resources/get-nodes-04.png "Gleitkommawert abrufen3 - Symbol"){width="200px"}
 
 
 
 Float3 abrufen
 
-![Gleitkomma4 abrufen - Symbol](get-nodes.resources/fn_variables_getfloat4.png "Gleitkomma4 abrufen - Symbol"){width="200px"}
+![Gleitkomma4 abrufen - Symbol](get-nodes.resources/get-nodes-05.png "Gleitkomma4 abrufen - Symbol"){width="200px"}
 
 
 
@@ -115,25 +115,25 @@ Float4 abrufen
 +++
 
 +++Ganzzahlen
-![Ganzzahl abrufen - Symbol &#x200B;](get-nodes.resources/fn_variables_getint.png "Ganzzahl abrufen - Symbol "){width="200px"}
+![Ganzzahl abrufen - Symbol ](get-nodes.resources/get-nodes-06.png "Ganzzahl abrufen - Symbol "){width="200px"}
 
 
 
 Integer abrufen
 
-![Ganzzahl abrufen2 - Symbol &#x200B;](get-nodes.resources/fn_variables_getint2.png "Ganzzahl abrufen2 - Symbol "){width="200px"}
+![Ganzzahl abrufen2 - Symbol ](get-nodes.resources/get-nodes-07.png "Ganzzahl abrufen2 - Symbol "){width="200px"}
 
 
 
 Integer2 abrufen
 
-![Ganzzahl abrufen3 - Symbol](get-nodes.resources/fn_variables_getint3.png "Ganzzahl abrufen3 - Symbol"){width="200px"}
+![Ganzzahl abrufen3 - Symbol](get-nodes.resources/get-nodes-08.png "Ganzzahl abrufen3 - Symbol"){width="200px"}
 
 
 
 Integer3 abrufen
 
-![Ganzzahl abrufen4 - Symbol &#x200B;](get-nodes.resources/fn_variables_getint4.png "Ganzzahl abrufen4 - Symbol "){width="200px"}
+![Ganzzahl4 abrufen - Symbol](get-nodes.resources/get-nodes-09.png "Ganzzahl4 abrufen - Symbol"){width="200px"}
 
 
 
@@ -142,13 +142,13 @@ Integer4 abrufen
 +++
 
 +++Sonstige
-![Boolesch abrufen - Symbol](get-nodes.resources/fn_variables_getboolean.png "Boolesch abrufen - Symbol"){width="200px"}
+![Boolesch abrufen - Symbol](get-nodes.resources/get-nodes-10.png "Boolesch abrufen - Symbol"){width="200px"}
 
 
 
 Booleschen Wert abrufen
 
-![Zeichenfolge abrufen - Symbol](get-nodes.resources/fn_variables_getstring.png "Zeichenfolge abrufen - Symbol"){width="200px"}
+![Zeichenfolge abrufen - Symbol](get-nodes.resources/get-nodes-11.png "Zeichenfolge abrufen - Symbol"){width="200px"}
 
 
 
@@ -162,7 +162,7 @@ Zeichenfolge abrufen
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Festlegen: Knotensymbol &#x200B;](get-nodes.resources/fn_variables_set.png "Festlegen: Knotensymbol "){width="200px"}
+![Festlegen: Knotensymbol ](get-nodes.resources/get-nodes-12.png "Festlegen: Knotensymbol "){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -179,7 +179,7 @@ Text
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![&quot; ist definiert: Knotensymbol &#x200B;](get-nodes.resources/fn_variables_isdefined.png "Ist definiert: Knotensymbol "){width="200px"}
+![&quot; ist definiert: Knotensymbol ](get-nodes.resources/get-nodes-13.png "Ist definiert: Knotensymbol "){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-1.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Kristall 1", um Kristallmuster für die Erstellung kristalliner und facettierter Textureffekte zu generieren.
+description: Verwenden Sie den Knoten "Crystal 1", um Kristallmuster für die Erstellung von Effekten für kristalline und facettierte Texturen zu generieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Crystal 1
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Crystal 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](crystal-1.resources/crystal-1.png){width="128px"}
+![](crystal-1.resources/crystal-1-01.png){width="128px"}
 
 <b>In:</b> Textur Generators > Rauschen
 
@@ -33,7 +33,7 @@ ht-degree: 8%
 
 ## Beschreibung
 
-Erzeugt ein Worlye Voronoi-ähnliches Rauschen mit einer etwas größeren angular-Entfernungsmetrik. Es kann für bestimmte angular und geometrische Zwecke nützlich sein.
+Generiert eine Worlye Voronoi-Rauschen mit einer etwas größeren angular-Distanz. Es kann für bestimmte angular und geometrische Zwecke nützlich sein.
 
 </td>
 </tr>
@@ -54,7 +54,7 @@ Erzeugt ein Worlye Voronoi-ähnliches Rauschen mit einer etwas größeren angula
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="crystal-1.resources/crystal-1-ex.gif" />
+            <img src="crystal-1.resources/crystal-1-02.gif" />
         </td>
     </tr>
 </table>

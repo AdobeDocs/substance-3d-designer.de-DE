@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über Warnungen in Substance-Compositing-Grafen und lernen Sie, wie Sie häufige Probleme und Fehler beheben.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Warnungen in Substance-Graphen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Auf dieser Seite werden Warnungen und Fehlermeldungen aufgelistet, die von [Substance-Grafen](../../compositing-graphs/substance-compositing-graphs.md) in Substance 3D Designer ausgelöst werden können, und es werden allgemeine Schritte zur Fehlerbehebung für jeden dieser Fehler angezeigt.
 
-Warnungen werden in der QuickInfo des Warnsymbols für die Diagrammressource im Bereich [Explorer](../../interface/the-explorer-window/the-explorer-window.md) sowie in der unteren linken Ecke der [Diagrammansicht](../../interface/the-graph-view/the-graph-view.md) angezeigt, wenn das Diagramm geladen ist.
+In der QuickInfo des Warnsymbols für die Graf-Ressource im Bedienfeld &quot;[Explorer](../../interface/the-explorer-window/the-explorer-window.md)&quot; sowie in der unteren linken Ecke der [Graphansicht](../../interface/the-graph-view/the-graph-view.md), wenn der Graf geladen ist, werden Warnungen angezeigt.
 
 ## ![(Fehler)](warnings-in-substance-compositing-graphs.resources/error.svg) Kein Ausgabeknoten definiert
 
@@ -36,11 +36,11 @@ Fügen Sie dem Graf einen oder mehrere [Ausgabeknoten](../../compositing-graphs/
 >
 > Die über das Dialogfeld &quot;[Neuer Graf](../creating-compositing-gra/creating-a-substance-compositing-graph.md)&quot; verfügbaren Graf-Vorlagen verfügen über voreingestellte Ausgabeknoten, die verwendet werden können.
 
-![Behebung der Warnung &quot;Kein Ausgabeknoten definiert&quot;](warnings-in-substance-compositing-graphs.resources/warnings-comp-output.gif "Behebung der Warnung &quot;Kein Ausgabeknoten definiert&quot;"){width="512px"}
+![Behebung der Warnung &quot;Kein Ausgabeknoten definiert&quot;](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-01.gif "Behebung der Warnung &quot;Kein Ausgabeknoten definiert&quot;"){width="512px"}
 
 ### ![(Fehler)](warnings-in-substance-compositing-graphs.resources/error.svg) Die Funktion des *[x]*-Parameters enthält einige Warnungen.
 
-Der [Funktions-Graf &#x200B;](../../function-graphs/function-graphs.md), der auf den angegebenen Parameter des angegebenen Knotens angewendet wird, weist mindestens eine Warnung auf.\
+Der [Funktions-Graf ](../../function-graphs/function-graphs.md), der auf den angegebenen Parameter des angegebenen Knotens angewendet wird, weist mindestens eine Warnung auf.\
 Der Knotenparameter wird in eckigen Klammern nach der Knotenbezeichnung angegeben und folgt der Vorlage Node[Parameter].
 
 E.g. Einheitliche Farbe[Ausgabefarbe], Pixelprozessor[pro Pixelfunktion]
@@ -51,7 +51,7 @@ Suchen Sie den Knoten, der die Warnung ausgibt, nach seiner Bezeichnung und dem 
 
 Überprüfen Sie dann die Warnmeldungen, die unten links in der Graphansicht aufgeführt sind, und beheben Sie die Probleme. Sie können auf der Seite [Warnungen in Funktions-Grafen](../../function-graphs/warnings-function-graphs/warnings-in-function-graphs.md) nach Fehlerbehebungswarnungen in Funktions-Grafen suchen.
 
-![Korrektur &#39;Die Parameterfunktion enthält einige Warnungen&#39; Warnung](warnings-in-substance-compositing-graphs.resources/warnings-comp-param-function.gif "Korrektur &#39;Die Parameterfunktion enthält einige Warnungen&#39; Warnung")
+![Korrektur &#39;Die Parameterfunktion enthält einige Warnungen&#39; Warnung](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-02.gif "Korrektur &#39;Die Parameterfunktion enthält einige Warnungen&#39; Warnung")
 
 ### ![(Fehler)](warnings-in-substance-compositing-graphs.resources/error.svg) Die referenzierten Daten enthalten einige Warnungen.
 
@@ -69,11 +69,11 @@ Suchen Sie im Bereich [Explorer](../../interface/the-explorer-window/the-explore
 * Weitere Diagramme finden Sie auf dieser Seite.
 * Informationen zu anderen Ressourcentypen finden Sie auf der Seite [Warnungen von Abhängigkeiten](../../resources/warnings-from-dep/warnings-from-dependencies.md).
 
-![Korrektur &quot;Referenzierte Daten weisen einige Warnungen auf&quot; Warnung](warnings-in-substance-compositing-graphs.resources/warnings-comp-referenced-data.gif "Korrektur &quot;Referenzierte Daten weisen einige Warnungen auf&quot; Warnung")
+![Korrektur &quot;Referenzierte Daten weisen einige Warnungen auf&quot; Warnung](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-03.gif "Korrektur &quot;Referenzierte Daten weisen einige Warnungen auf&quot; Warnung")
 
 ### ![(Fehler)](warnings-in-substance-compositing-graphs.resources/error.svg) Referenzressource nicht gefunden
 
-Die Ressource, auf die von einem Knoten verwiesen wird, wurde nicht in dem Pfad gefunden, der in der Datei &quot;[Substance 3D](https://www.adobe.com/de/products/substance3d/3d-augmented-reality.html)&quot; (SBS) gespeichert ist. Im Folgenden finden Sie einige Knoten, die auf eine Ressource verweisen:
+Die Ressource, auf die von einem Knoten verwiesen wird, wurde nicht in dem Pfad gefunden, der in der Datei &quot;[Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)&quot; (SBS) gespeichert ist. Im Folgenden finden Sie einige Knoten, die auf eine Ressource verweisen:
 
 * Ein [Grapheninstanz](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)-Knoten verweist auf ein Diagramm.
 * Ein [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)-Knoten verweist auf eine [Bitmap-Ressource](../../resources/bitmap-resource/bitmap-resource.md).
@@ -92,7 +92,7 @@ Für [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitm
 Suchen Sie die referenzierten Ressourcen im Explorer-Bedienfeld und überprüfen Sie, ob sie an dem Speicherort vorhanden sind, der in ihrem **Dateipfad**-Attribut gespeichert ist.\
 Wenn dies nicht der Fall ist, klicken Sie auf RMB im Ressourcenelement im Explorer, und wählen Sie **Verschieben...Option &quot;**&quot; im Kontextmenü, um eine neue gültige Zieldatei für diese Ressource festzulegen.
 
-![Fehlerbehebung für die Warnung &quot;Referenzressource nicht gefunden&quot;](warnings-in-substance-compositing-graphs.resources/warnings-comp-referenced-resource.gif "Fehlerbehebung für die Warnung &quot;Referenzressource nicht gefunden&quot;")
+![Fehlerbehebung für die Warnung &quot;Referenzressource nicht gefunden&quot;](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-04.gif "Fehlerbehebung für die Warnung &quot;Referenzressource nicht gefunden&quot;")
 
 ### ![(Fehler)](warnings-in-substance-compositing-graphs.resources/error.svg) Textknoten verwendet ungültige Schriftart
 

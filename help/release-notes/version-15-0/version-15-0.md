@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/version-15-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-0.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Designer 15.0, um mehr über den neuen 3D-Renderer und die native Unterstützung in USD zu erfahren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 15.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Dieses Update enthält einen brandneuen 3D-Renderer mit Raster- und Pathtracer-M
 
 *Freigabedatum: 15. Juli 2025*
 
-![Banner](version-15-0.resources/banner-47.png "Version 15.0 Banner")
+![Banner](version-15-0.resources/version-15-0-01.png "Version 15.0 Banner")
 
 ## Neuer 3D-Renderer
 
@@ -32,7 +32,7 @@ Dieses Update enthält einen brandneuen 3D-Renderer mit Raster- und Pathtracer-M
 
 Diese neue Version bietet Ihnen Zugriff auf einen erweiterten [3D-Renderer](../../interface/3d-view/3d-renderers/3d-renderers.md) mit einem Rastermodus (für eine Echtzeitvorschau während der Arbeit an Ihrem Material) und einem Pfadverfolgungsmodus (ein Raytracing-Modus, um ein perfektes und genaues Rendering zu erhalten). Dieser neue Renderer verbessert die Funktionalität mit Funktionen wie Schatten im Rastermodus, verbessert die Qualität und Leistung und wurde zur Unterstützung zukünftiger Technologien wie [MaterialX](https://materialx.org/) entwickelt. Es ergänzt die bestehenden OpenGL- und Iray-Renderer in Designer und stimmt mit den in Substance 3D Viewer und Substance 3D Sampler verfügbaren Renderern überein, um ein einheitliches Erlebnis im gesamten Ökosystem zu gewährleisten.
 
-![Schatten und Lichtdurchlässigkeit im Rastern](version-15-0.resources/feature_1b.png)
+![Schatten und Lichtdurchlässigkeit im Rastern](version-15-0.resources/version-15-0-02.png)
 
 Die [3d-Ansichtssymbolleiste](../../interface/3d-view/3d-view.md) wurde aktualisiert, um einen schnellen Zugriff auf einige der neuen Funktionen zu ermöglichen, die in diesem Renderer verfügbar sind:
 
@@ -51,20 +51,20 @@ Darüber hinaus wurde der Hotkey zum Drehen der Umgebungsbeleuchtung entsprechen
 * <b>Farbtonzuordnung: </b>den Farbbereich mit Profilen, um einen HDR-Effekt (High Dynamic Range) zu erhalten.
 * <b>Die Tiefe des Halbbildes:</b> simuliert die Fokuseigenschaften eines Kameraobjektivs (nur Rasterobjektiv).
 
-![Post FX in Designer 15.0](version-15-0.resources/postfx.gif)
+![Post FX in Designer 15.0](version-15-0.resources/version-15-0-03.gif)
 
 ## Asset-Edition im Kontext.
 
 Wenn Sie an Ihren Materialien arbeiten, können Sie eine [Vorschau im Kontext einer bestimmten 3D-Szene anzeigen](../../working-with-3d-scenes/working-with-3d-scenes.md). Aus diesem Grund haben wir die Möglichkeit hinzugefügt, eine vollständige Szene mit all ihren Texturen, Kameras und Lichtern zu importieren und zu rendern. Und Kirsche oben, wenn diese Szene MaterialX-Shader referenziert, werden sie korrekt mit dem Rasterprogramm gerendert!
 
-![USD-Szene geladen und in Designer gerendert](version-15-0.resources/feature_2.png)
+![USD-Szene geladen und in Designer gerendert](version-15-0.resources/version-15-0-04.png)
 
 Nach dem Import können Sie an Ihrer Szene arbeiten, indem Sie ein Gitter auswählen (mit einem Klick bei gedrückter UMSCHALTTASTE oder dank des Szenenbrowsers) und [alle Materialien überschreiben](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md). Sie können dann:
 
 * Erstelle oder lade ein Diagramm, und wende es auf ein Szenenmaterial an.
-* Nehmen Sie Anpassungen an einem vorhandenen Material vor, indem Sie [seine Texturen &#x200B;](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md) in ein neues Diagramm extrahieren.
+* Nehmen Sie Anpassungen an einem vorhandenen Material vor, indem Sie [seine Texturen ](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md) in ein neues Diagramm extrahieren.
 
-Nachdem Sie Ihre 3D-Szene bearbeitet haben, können Sie [die Szene &#x200B;](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) als neue Datei oder als neue Ebene der Originaldatei exportieren, um Datenverluste zu vermeiden (nur bei USD-Format).
+Nachdem Sie Ihre 3D-Szene bearbeitet haben, können Sie [die Szene ](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) als neue Datei oder als neue Ebene der Originaldatei exportieren, um Datenverluste zu vermeiden (nur bei USD-Format).
 
 Nicht zuletzt werden jetzt weitere 3D-Formate sowohl für den Import als auch den Export unterstützt: USD (+ usda, usdc, usdz), STL, PLY und GLTF, zusätzlich zu den bereits verfügbaren Formaten FBX und OBJ.
 
@@ -76,17 +76,17 @@ Es wurden umfangreiche QuickInfos eingeführt, um den Zweck jedes Knotens besser
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Blend-Knoten](version-15-0.resources/blend.gif)
+![Blend-Knoten](version-15-0.resources/version-15-0-05.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Weichzeichnungsknoten](version-15-0.resources/blur.gif)
+![Weichzeichnungsknoten](version-15-0.resources/version-15-0-06.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Distanzknoten](version-15-0.resources/distance.gif)
+![Distanzknoten](version-15-0.resources/version-15-0-07.gif)
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Es wurden umfangreiche QuickInfos eingeführt, um den Zweck jedes Knotens besser
 
 Wenn du mit nicht quadratischen Texturen arbeiten musst, ist diese neue Option ideal für dich. In den [Materialeigenschaften](../../interface/3d-view/material-properties/material-properties.md) in der 3D-Ansicht können Sie in den UVs-Optionen zum Steuern der Kachelung jetzt einen anderen Wert für beide Achsen festlegen.
 
-![unterschiedliche U V-Skalierung](version-15-0.resources/nonsquare.png){zoomable="yes"}
+![unterschiedliche U V-Skalierung](version-15-0.resources/version-15-0-08.png){zoomable="yes"}
 
 ## Baker
 
@@ -110,7 +110,7 @@ Die [VFX Reference Platform](https://vfxplatform.com/) veröffentlicht jedes Jah
 
 ## Video
 
-[![Substance 3D Designer-Update: Neuer Renderer, POST-FX und Kontextbearbeitung | Adobe Substance 3D](version-15-0.resources/video_15.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
+[![Substance 3D Designer-Update: Neuer Renderer, POST-FX und Kontextbearbeitung | Adobe Substance 3D](version-15-0.resources/version-15-0-09.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
 
 ## Versionshinweise
 
@@ -227,8 +227,8 @@ Die [VFX Reference Platform](https://vfxplatform.com/) veröffentlicht jedes Jah
 * [3D-Ansicht] OpenGL: Einige importierte Szenen werden möglicherweise nicht gerendert.
 * [3D-Ansicht] Rastereffekt: Schattenartefakte bei Verwendung von Versatz in einer flachen Szene
 * [3D-Ansicht] Pathtracer: langsame Bewegungen beim Aktualisieren von Texturen mit aktivierter Tesselierung/Versatz
-* [3D-Ansicht] Einige Farbmaterialeigenschaften werden beim Überschreiben nicht korrekt farbverwaltet
+* [3D-Ansicht] Einige Color-Material-Eigenschaften werden beim Überschreiben nicht ordnungsgemäß farbverwaltet.
 * [3D-Ansicht] Szenen mit animierten Grundelementen werden nicht ordnungsgemäß unterstützt.
 * [3D-Ansicht] Gitter mit mehreren UDims werden noch nicht unterstützt.
-* [3D-Ansicht] Gitter mit mehreren UVs werden nicht ja unterstützt und können zu ungültiger Materialdarstellung führen
+* [3D-Ansicht] Mesh mit mehreren UVs wird nicht ja unterstützt und kann zu ungültigem Material-Rendering führen
 * [3D-Ansicht] Pathtracer wird auf AMD-Grafikkarten nicht unterstützt

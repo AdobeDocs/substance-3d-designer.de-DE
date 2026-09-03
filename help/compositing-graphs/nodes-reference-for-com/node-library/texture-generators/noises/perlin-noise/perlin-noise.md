@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/perlin-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/perlin-noise.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Perlin-Rauschen", um sanfte, natürlich aussehende Rauschmuster für die Erstellung organischer Texturen und Variationen zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Perlin-Rauschen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Perlin-Rauschen - Symbol](perlin-noise.resources/perlin_noise.png "Perlin-Rauschen - Symbol"){width="200px"}
+![Perlin-Rauschen - Symbol](perlin-noise.resources/perlin-noise-01.png "Perlin-Rauschen - Symbol"){width="200px"}
 
 <b>In:</b> Texturgeneratoren > Rauschen
 
@@ -65,12 +65,12 @@ Erzeugt ein Perlin-Rauschen, eine weit verbreitete, gleichmäßige Verteilung vo
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Perlin-Rauschen - Beispiel 1](perlin-noise.resources/perlin_noise_1.png "Perlin-Rauschen - Beispiel 1"){zoomable="yes"}
+![Perlin-Rauschen - Beispiel 1](perlin-noise.resources/perlin-noise-02.png "Perlin-Rauschen - Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Perlin-Rauschen - Beispiel 2](perlin-noise.resources/noise_perlin_noise_v2_speed0.6_aniso0.gif "Perlin-Rauschen - Beispiel 2"){zoomable="yes"}
+![Perlin-Rauschen - Beispiel 2](perlin-noise.resources/perlin-noise-03.gif "Perlin-Rauschen - Beispiel 2"){zoomable="yes"}
 
 </td>
 </tr>

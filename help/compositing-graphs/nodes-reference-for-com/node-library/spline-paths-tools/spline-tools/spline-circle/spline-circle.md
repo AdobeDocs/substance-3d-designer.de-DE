@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-circle.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-circle.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Spline Circle-Knoten, um runde Splines zum Erzeugen runder Muster und Formen zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline Circle
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](spline-circle.resources/spline-circle-icon.png "Knotensymbol")
+![Knotensymbol](spline-circle.resources/spline-circle-01.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -71,7 +71,7 @@ Erzeugt einen einzelnen Spline-Effekt in Form eines Kreises.
 | <b>Kreisvordrehung</b> <i>Gleitend</i> | Wendet eine Drehung auf den Grundkreis an, bevor Größe angewendet wird. |
 | <b>Kreisgröße</b> <i>Float2</i> | Passt die horizontale Größe (X) und vertikale Größe (Y) des Kreises an. |
 | <b>Kreis nach Drehung</b> <i>Gleitend</i> | Wendet eine Drehung auf den Grundkreis an, nachdem die Größe angewendet wurde. |
-| <b>Kreisposition</b> <i>Float2</i> | Legt die Position des Mittelpunkts des Kreises im Texturraum fest. |
+| <b>Kreisposition</b> <i>Float2</i> | Legt die Position des Kreismittelpunkts in der Textur fest. |
 | <b>Thickness starten</b> <i>Gleitend</i> | Passt die Thickness des Anfangspunkts des Kreises an. Diese Thickness wird entlang des Splines zur End-Thickness interpoliert.<br>Hinweis: Thickness wird von bestimmten Spline-Knoten verwendet. |
 | <b>Thickness beenden</b> <i>Gleitend</i> | Passt die Thickness des Kreisendpunkts an. Diese Thickness wird entlang der Spline zur Start-Thickness interpoliert.<br>Hinweis: Thickness wird von bestimmten Spline-Knoten verwendet. |
 | <b>Height starten</b> <i>Gleitend</i> | Passt das Height des Anfangspunkts des Kreises an, wenn ein niedrigerer Wert eine niedrigere oder tiefere Stelle bedeutet. Dieses Height wird entlang der Spline zum Height Ende interpoliert. |
@@ -96,12 +96,12 @@ Erzeugt einen einzelnen Spline-Effekt in Form eines Kreises.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](spline-circle.resources/SplineCircle-Variant1.jpg "Knotenbeispiel 1")
+![Knotenbeispiel 1](spline-circle.resources/spline-circle-02.jpg "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](spline-circle.resources/SplineCircle-Demo.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](spline-circle.resources/spline-circle-03.gif "Knotenbeispiel 2")
 
 </td>
 </tr>
@@ -111,12 +111,12 @@ Erzeugt einen einzelnen Spline-Effekt in Form eines Kreises.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Beispiel 3](spline-circle.resources/SplineCircle-Variant2.jpg "Beispiel 3")
+![Beispiel 3](spline-circle.resources/spline-circle-04.jpg "Beispiel 3")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Beispiel 4](spline-circle.resources/SplineCircle-Variant3.jpg "Beispiel 4")
+![Beispiel 4](spline-circle.resources/spline-circle-05.jpg "Beispiel 4")
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
 breadcrumb-title: ''
 description: Mit den Bitmap-Malwerkzeugen in Substance 3D Designer können Sie direkt auf Bitmap-Ressourcen malen, um Strukturen zu bearbeiten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bitmap-Malwerkzeuge
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1964'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden die Malwerkzeuge beschrieben, die im Bereich [2D View](../../../interface/2d-view/2d-view.md) für kompatible Bitmaps verfügbar sind.
 
-![Bitmap-Malwerkzeuge in der 2D-Ansicht](bitmap-painting-tools.resources/2dview-paintingtools-main_1.png "Bitmap-Malwerkzeuge in der 2D-Ansicht"){width="512px"}
+![Bitmap-Malwerkzeuge in der 2D-Ansicht](bitmap-painting-tools.resources/bitmap-painting-tools-01.png "Bitmap-Malwerkzeuge in der 2D-Ansicht"){width="512px"}
 
 ## Überblick
 
@@ -42,13 +42,13 @@ Bearbeitungen können *einzeln rückgängig gemacht werden*, und alle anderen Fu
 > 
 > Tablet-Benutzer sollten die auf der folgenden Seite beschriebenen Einstellungen anwenden, um ein möglichst zuverlässiges Erlebnis zu erzielen: [Konfigurieren von Stiften und Tablets](https://docs.substance3d.com/display/SPDOC/Configuring+Pens+and+Tablets)
 
-![Neues Bitmapdialogfeld](bitmap-painting-tools.resources/2dview-paintingtools-new-bitmap.png "Neues Bitmapdialogfeld"){width="512px"}
+![Neues Bitmapdialogfeld](bitmap-painting-tools.resources/bitmap-painting-tools-02.png "Neues Bitmapdialogfeld"){width="512px"}
 
 ## Aktivieren der Malwerkzeuge
 
 Die Malwerkzeuge werden automatisch im Bedienfeld [2D-Ansicht](../../../interface/2d-view/2d-view.md) aktiviert, wenn die folgenden Kriterien für eine Bitmap erfüllt sind:
 
-* Die Bitmap ist eine [neue oder importierte &#x200B;](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)-Ressource.
+* Die Bitmap ist eine [neue oder importierte ](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)-Ressource.
 * Die Bitmap weist die Präzision *8-Bit* auf.
 * Die Bitmap wird im Bereich [2D-Ansicht](../../../interface/2d-view/2d-view.md) angezeigt.
 
@@ -77,15 +77,15 @@ Zwei Werkzeugleisten werden angezeigt, wenn die Malwerkzeuge aktiviert sind: die
 
 Die Malwerkzeuge befinden sich in der Symbolleiste **Werkzeugauswahl**, die standardmäßig auf der *linken Seite* des Bedienfelds [2D-Ansicht](../../../interface/2d-view/2d-view.md) platziert ist. Tastaturbefehle ermöglichen einen schnellen Zugriff auf diese Werkzeuge und sind unten in Klammern nach dem Werkzeug-/Funktionsnamen gekennzeichnet:
 
-![](bitmap-painting-tools.resources/2dview-paintingtools-icon-colors-primary.png)![](bitmap-painting-tools.resources/2dview-paintingtools-icon-colors-secondary.png) <b>Farbauswahl</b> <b>Miniaturansichten:</b> Ermöglicht Ihnen das Definieren einer *primären* und *sekundären* Farbe. Klicken Sie auf eine dieser Miniaturansichten, um das Fenster &quot;<b>Color Editor</b>&quot; anzuzeigen und eine Farbe zu definieren. Tools verwenden die Farbe *primär*. Die primären und sekundären Farben können jederzeit *ausgetauscht* (<b>X</b>) werden.
+![](bitmap-painting-tools.resources/bitmap-painting-tools-03.png)![](bitmap-painting-tools.resources/bitmap-painting-tools-04.png) <b>Farbauswahl</b> <b>Miniaturansichten:</b> Ermöglicht Ihnen das Definieren einer *primären* und *sekundären* Farbe. Klicken Sie auf eine dieser Miniaturansichten, um das Fenster &quot;<b>Color Editor</b>&quot; anzuzeigen und eine Farbe zu definieren. Tools verwenden die Farbe *primär*. Die primären und sekundären Farben können jederzeit *ausgetauscht* (<b>X</b>) werden.
 
-![](bitmap-painting-tools.resources/2dview-paintingtools-icon-brush.png) <b>Pinselwerkzeug (B):</b> Wendet die *primäre* Farbe an der Cursorposition an, wenn die Stiftspitze oder die <b>LMB</b>-Schaltfläche gedrückt wird, wobei die in der Werkzeugoptionsleiste definierten Optionen verwendet werden
+![](bitmap-painting-tools.resources/bitmap-painting-tools-05.png) <b>Pinselwerkzeug (B):</b> Wendet die *primäre* Farbe an der Cursorposition an, wenn die Stiftspitze oder die <b>LMB</b>-Schaltfläche gedrückt wird, wobei die in der Werkzeugoptionsleiste definierten Optionen verwendet werden
 
-![](bitmap-painting-tools.resources/2dview-paintingtools-icon-clone.png) <b>Stempelwerkzeug (T):</b> Ermöglicht das Stempeln eines Teils des Bildes auf ein anderes. Sie können die *Quelle* definieren, die gestempelt werden soll, indem Sie die <b>Alt</b>-Taste gedrückt halten und auf <b>LMB</b> klicken. Dieser Bereich des Bildes wird dann auf den Bereich *target* des Bildes an der Cursorposition gestempelt, wenn die Stiftspitze oder die Schaltfläche <b>LMB</b> gedrückt wird, wobei die in der Werkzeugoptionsleiste definierten Optionen verwendet werden. Beachten Sie, dass die Quelle *die Bewegungen des Ziels* verfolgt und dass die Größe des Bereichs *Quelle* *mit* der Größe des *Pinsels* übereinstimmt.
+![](bitmap-painting-tools.resources/bitmap-painting-tools-06.png) <b>Stempelwerkzeug (T):</b> Ermöglicht das Stempeln eines Teils des Bildes auf ein anderes. Sie können die *Quelle* definieren, die gestempelt werden soll, indem Sie die <b>Alt</b>-Taste gedrückt halten und auf <b>LMB</b> klicken. Dieser Bereich des Bildes wird dann auf den Bereich *target* des Bildes an der Cursorposition gestempelt, wenn die Stiftspitze oder die Schaltfläche <b>LMB</b> gedrückt wird, wobei die in der Werkzeugoptionsleiste definierten Optionen verwendet werden. Beachten Sie, dass die Quelle *die Bewegungen des Ziels* verfolgt und dass die Größe des Bereichs *Quelle* *mit* der Größe des *Pinsels* übereinstimmt.
 
-![](bitmap-painting-tools.resources/2dview-paintingtools-clone-alignment.png) <b>Ausrichtung aktivieren (Stempelwerkzeug-Option):</b> Hiermit können Sie definieren, ob die Quelle *an Ort und Stelle bleiben soll*, wenn ein neuer Stempel beginnt, oder ob *sie relativ zur neuen Stempelstelle verschieben soll*
+![](bitmap-painting-tools.resources/bitmap-painting-tools-07.png) <b>Ausrichtung aktivieren (Stempelwerkzeug-Option):</b> Hiermit können Sie definieren, ob die Quelle *an Ort und Stelle bleiben soll*, wenn ein neuer Stempel beginnt, oder ob *sie relativ zur neuen Stempelstelle verschieben soll*
 
-<b>![](bitmap-painting-tools.resources/2dview-paintingtools-icon-eraser.png) Radiergummi (E):</b> Ersetzt die aktuelle Farbe des Bildes durch den Wert (0, 0, 0, 0) an der Cursorposition, wenn die Stiftspitze oder die Schaltfläche <b>LMB</b> gedrückt wird, und verwendet dabei die in der Werkzeugoptionsleiste definierten Optionen. Stellen Sie sicher, dass die [Transparenzanzeige](../../../interface/2d-view/2d-view.md) aktiviert ist, um die Auswirkungen dieses Tools auf den Kanal <b>Alpha</b> verfolgen zu können.
+<b>![](bitmap-painting-tools.resources/bitmap-painting-tools-08.png) Radiergummi (E):</b> Ersetzt die aktuelle Farbe des Bildes durch den Wert (0, 0, 0, 0) an der Cursorposition, wenn die Stiftspitze oder die Schaltfläche <b>LMB</b> gedrückt wird, und verwendet dabei die in der Werkzeugoptionsleiste definierten Optionen. Stellen Sie sicher, dass die [Transparenzanzeige](../../../interface/2d-view/2d-view.md) aktiviert ist, um die Auswirkungen dieses Tools auf den Kanal <b>Alpha</b> verfolgen zu können.
 
 ## Werkzeugoptionsleiste
 
@@ -97,16 +97,16 @@ Die Optionen für die in der Werkzeugleiste [Werkzeugauswahl](#bitmappaintingtoo
 
 ### PINSELAUSWAHL
 
-Mit der ![](bitmap-painting-tools.resources/2dview-paintingtools-brush-thumb.png) <b>Pinselauswahl</b> können Sie einen *vorkonfigurierten* Pinsel aus dem verfügbaren Pinsel *Vorgaben* auswählen, seine <b>Größe</b> und <b>Härte</b> *(* siehe Abschnitt <b>Form</b> des Pinseleditors) festlegen und eine *Vorschau* eines Pinselstrichs anzeigen.
+Mit der ![](bitmap-painting-tools.resources/bitmap-painting-tools-09.png) <b>Pinselauswahl</b> können Sie einen *vorkonfigurierten* Pinsel aus dem verfügbaren Pinsel *Vorgaben* auswählen, seine <b>Größe</b> und <b>Härte</b> *(* siehe Abschnitt <b>Form</b> des Pinseleditors) festlegen und eine *Vorschau* eines Pinselstrichs anzeigen.
 
-Pinselvorgaben können im Pinseleditor erstellt und bearbeitet und in *Bibliotheken* angeordnet werden. Die Pinselvorgaben, die in diesem Bereich angezeigt werden, sind die *Summe* aller geladenen Pinselvoreinstellungsbibliotheken. Diese Bibliotheken können über das Menü ![](bitmap-painting-tools.resources/2dview-paintingtools-brushpresets-library.png) <b>Pinselbibliothek</b> verwaltet werden (siehe Abschnitt <b>Vorgaben</b> des Pinsel-Editors).
+Pinselvorgaben können im Pinseleditor erstellt und bearbeitet und in *Bibliotheken* angeordnet werden. Die Pinselvorgaben, die in diesem Bereich angezeigt werden, sind die *Summe* aller geladenen Pinselvoreinstellungsbibliotheken. Diese Bibliotheken können über das Menü ![](bitmap-painting-tools.resources/bitmap-painting-tools-10.png) <b>Pinselbibliothek</b> verwaltet werden (siehe Abschnitt <b>Vorgaben</b> des Pinsel-Editors).
 
-Mit der Schaltfläche ![](bitmap-painting-tools.resources/2dview-paintingtools-brushpresets-previewbkgd.png) <b>Hintergrundfarbe auswählen</b> können Sie die Hintergrundfarbe der *Pinselstrichvorschau* ändern.
+Mit der Schaltfläche ![](bitmap-painting-tools.resources/bitmap-painting-tools-11.png) <b>Hintergrundfarbe auswählen</b> können Sie die Hintergrundfarbe der *Pinselstrichvorschau* ändern.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Pinselauswahlfenster](bitmap-painting-tools.resources/2dview-paintingtools-brushes.png "Pinselauswahlfenster")
+![Pinselauswahlfenster](bitmap-painting-tools.resources/bitmap-painting-tools-12.png "Pinselauswahlfenster")
 
 </td>
 </tr>
@@ -118,15 +118,15 @@ Mit der Schaltfläche ![](bitmap-painting-tools.resources/2dview-paintingtools-b
 
 ### PINSELEDITOR
 
-Der ![](bitmap-painting-tools.resources/2dview-paintingtools-icon-brush-options.png) <b>Pinsel-Editor</b> bietet Zugriff auf granulare Optionen zum Definieren des Verhaltens des Pinsels:
+Der ![](bitmap-painting-tools.resources/bitmap-painting-tools-13.png) <b>Pinsel-Editor</b> bietet Zugriff auf granulare Optionen zum Definieren des Verhaltens des Pinsels:
 
 <b>Vorgaben</b>
 
-Pinsel können angepasst und dann als <b>Pinselvorgabe</b> gespeichert werden, die dann in der Liste ![](bitmap-painting-tools.resources/2dview-paintingtools-editor-currentpreset.png) <b>Pinselvorgaben</b> und im Bereich ![](bitmap-painting-tools.resources/2dview-paintingtools-brush-thumb.png) <b>Pinselauswahl</b> verfügbar ist.
+Pinsel können angepasst und dann als <b>Pinselvorgabe</b> gespeichert werden, die dann in der Liste ![](bitmap-painting-tools.resources/bitmap-painting-tools-14.png) <b>Pinselvorgaben</b> und im Bereich ![](bitmap-painting-tools.resources/bitmap-painting-tools-09.png) <b>Pinselauswahl</b> verfügbar ist.
 
-Um eine Vorgabe zu erstellen, legen Sie die folgenden Eigenschaften nach Ihren Wünschen fest. Klicken Sie dann auf die Schaltfläche ![](bitmap-painting-tools.resources/2dview-paintingtools-editor-addpreset.png) <b>Pinselvorgabe hinzufügen </b> und legen Sie im Fenster <b>Vorgabenname</b> einen Pinselnamen fest. Die neue Vorgabe wird jetzt automatisch in der Liste <b>Pinselvorgaben</b> ausgewählt, und Sie können sie jederzeit ![](bitmap-painting-tools.resources/2dview-paintingtools-editor-updatepreset.png) <b>aktualisieren</b> mit den neuen aktuellen Einstellungen oder ![](bitmap-painting-tools.resources/2dview-paintingtools-editor-deletepreset.png) <b>löschen</b>.
+Um eine Vorgabe zu erstellen, legen Sie die folgenden Eigenschaften nach Ihren Wünschen fest. Klicken Sie dann auf die Schaltfläche ![](bitmap-painting-tools.resources/bitmap-painting-tools-15.png) <b>Pinselvorgabe hinzufügen </b> und legen Sie im Fenster <b>Vorgabenname</b> einen Pinselnamen fest. Die neue Vorgabe wird jetzt automatisch in der Liste <b>Pinselvorgaben</b> ausgewählt, und Sie können sie jederzeit ![](bitmap-painting-tools.resources/bitmap-painting-tools-16.png) <b>aktualisieren</b> mit den neuen aktuellen Einstellungen oder ![](bitmap-painting-tools.resources/bitmap-painting-tools-17.png) <b>löschen</b>.
 
-Vorgaben werden in *Bibliotheken* organisiert und gespeichert, die im Menü ![](bitmap-painting-tools.resources/2dview-paintingtools-editor-presetlibrary.png) <b>Pinselbibliothek</b> verwaltet werden können:
+Vorgaben werden in *Bibliotheken* organisiert und gespeichert, die im Menü ![](bitmap-painting-tools.resources/bitmap-painting-tools-18.png) <b>Pinselbibliothek</b> verwaltet werden können:
 
 <b>Bibliothek exportieren:</b> *Speichern* der aktuellen Vorgaben und aller zugehörigen Einstellungen in einer Bibliotheksdatei
 
@@ -139,7 +139,7 @@ Vorgaben werden in *Bibliotheken* organisiert und gespeichert, die im Menü ![](
 </td>
 <td style="border: 0;" valign="top">
 
-![Pinsel-Editor](bitmap-painting-tools.resources/2dview-paintingtools-brusheditor.png "Pinsel-Editor")
+![Pinsel-Editor](bitmap-painting-tools.resources/bitmap-painting-tools-19.png "Pinsel-Editor")
 
 </td>
 </tr>
@@ -214,7 +214,7 @@ Die vom Pinsel angewendete Farbe wird durch die *ausgewählte Primärfarbe* defi
 +++Textur
 Sie können eine *Bitmapdatei* auf den Pinsel anwenden und diese Bitmapdatei anstelle einer einfachen Farbe für *Stempel* verwenden. Die Pinsel-Textur verhält sich wie folgt:
 
-<b> Textur: </b> definiert den *Pfad* der Bitmap, der als Pinsel-Textur verwendet werden soll. Sie können die Bitmap über den Dateibrowser Ihres Systems auswählen, indem Sie die Schaltfläche ![](bitmap-painting-tools.resources/2dview-paintingtools-brusheditor-selecttexture.png) neben dem Eingabefeld verwenden
+<b> Textur: </b> definiert den *Pfad* der Bitmap, der als Pinsel-Textur verwendet werden soll. Sie können die Bitmap über den Dateibrowser Ihres Systems auswählen, indem Sie die Schaltfläche ![](bitmap-painting-tools.resources/bitmap-painting-tools-20.png) neben dem Eingabefeld verwenden
 
 Die Textur *only* ersetzt die einfache Flächenfarbe des Pinsels, d. h. *alle oben aufgeführten Pinseleigenschaften können weiterhin verwendet werden* und funktionieren wie beschrieben.
 
@@ -230,7 +230,7 @@ Die Pinsel-, Stempel- und Radiergummi-Werkzeuge bieten Steuerelemente für die <
 
 <b>Flow</b> steuert den *Betrag des Effekts des Tools*, der zu einem beliebigen Zeitpunkt angewendet wird. Es ist *additiv auf derselben Kontur*, was bedeutet, dass die Deckkraft eines Bereichs auf den maximalen Wert von 100 % zurückgesetzt werden kann, indem mehrere Durchgänge der *gleichen Kontur* in diesem Bereich oder mehrere separate Konturen ausgeführt werden.
 
-![Deckkraft- und Flusssteuerelemente](bitmap-painting-tools.resources/2dview-paintingtools-opacityflow.png "Deckkraft- und Flusssteuerelemente")
+![Deckkraft- und Flusssteuerelemente](bitmap-painting-tools.resources/bitmap-painting-tools-21.png "Deckkraft- und Flusssteuerelemente")
 
 <table>
 <tr style="border: 0;">
@@ -238,7 +238,7 @@ Die Pinsel-, Stempel- und Radiergummi-Werkzeuge bieten Steuerelemente für die <
 
 ### KACHELUNGSMODUS
 
-Mit den Pinsel-, Stempel- und Radiergummi-Werkzeugen können Sie auch die ![](bitmap-painting-tools.resources/2dview-paintingtools-icon-tiling.png) <b>Kachelung-Modi</b> einstellen, die festlegen, dass *eine Schleifenwiedergabe um* erfolgen kann, wenn ein Strich auf einen Bereich außerhalb der Bildgrenzen wirkt:
+Mit den Pinsel-, Stempel- und Radiergummi-Werkzeugen können Sie auch die ![](bitmap-painting-tools.resources/bitmap-painting-tools-22.png) <b>Kachelung-Modi</b> einstellen, die festlegen, dass *eine Schleifenwiedergabe um* erfolgen kann, wenn ein Strich auf einen Bereich außerhalb der Bildgrenzen wirkt:
 
 <b>Kachelung X und Y</b>: Pinselstrichkachel *sowohl horizontal als auch vertikal*
 
@@ -251,7 +251,7 @@ Mit den Pinsel-, Stempel- und Radiergummi-Werkzeugen können Sie auch die ![](bi
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Kachelung-Modus](bitmap-painting-tools.resources/2dview-paintingtools-tiling.png "Kachelung-Modus")
+![Kachelung-Modus](bitmap-painting-tools.resources/bitmap-painting-tools-23.png "Kachelung-Modus")
 
 </td>
 </tr>

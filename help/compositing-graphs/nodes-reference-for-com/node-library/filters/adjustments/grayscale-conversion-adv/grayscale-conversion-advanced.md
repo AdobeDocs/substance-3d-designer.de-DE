@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/grayscale-conversion-advanced.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/grayscale-conversion-advanced.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Graustufenkonvertierung Erweitert , um Farben mit erweiterter Kontrolle über die Konvertierungsmethoden in Graustufen zu konvertieren.
+description: Verwenden Sie den Knoten Graustufen-Konvertierung Erweitert , um Farben mit erweiterter Kontrolle über die Konvertierungsmethoden in Graustufen zu konvertieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Grayscale Conversion Advanced
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Graustufenkonvertierung Advanced
+title: Erweiterte Graustufen-Konvertierung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 3%
@@ -18,13 +18,13 @@ ht-degree: 3%
 ---
 
 
-# Graustufenkonvertierung Advanced
+# Erweiterte Graustufen-Konvertierung
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grayscale-conversion-advanced.resources/grayscale-conversion-advanced.png){width="128px"}
+![](grayscale-conversion-advanced.resources/grayscale-conversion-advanced-01.png){width="128px"}
 
 <b>In:</b> Filters > Adjustments
 
@@ -52,7 +52,7 @@ Erweiterter Knoten zur schnellen Graustufen-Konvertierung, der einige voreingest
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grayscale-conversion-advanced.resources/grayscale-conversion-advanced-example.png" />
+            <img src="grayscale-conversion-advanced.resources/grayscale-conversion-advanced-02.png" />
         </td>
     </tr>
 </table>

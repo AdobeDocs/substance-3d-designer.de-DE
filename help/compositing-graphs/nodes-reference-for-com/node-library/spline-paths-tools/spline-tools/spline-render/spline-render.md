@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-render.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Spline-Render, um Splines als Texturen mit anpassbaren Breiten-, Farb- und Füllmethoden zu rendern.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline-Render
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](spline-render.resources/spline-render-icon.png "Knotensymbol")
+![Knotensymbol](spline-render.resources/spline-render-01.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -98,11 +98,11 @@ Zeichnet Zeichenfolgen von Segmenten entlang der Eingabe <b>Splines</b> über de
 <table>
   <tr>
     <td>
-      <img src="spline-render.resources/SplineRender-Variant2-Before.jpg" alt="SplineRender-Variant2-Before">
+      <img src="spline-render.resources/spline-render-02.jpg" alt="SplineRender-Variant2-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="spline-render.resources/SplineRender-Variant2-After.jpg" alt="SplineRender-Variant2-After">
+      <img src="spline-render.resources/spline-render-03.jpg" alt="SplineRender-Variant2-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -114,11 +114,11 @@ Zeichnet Zeichenfolgen von Segmenten entlang der Eingabe <b>Splines</b> über de
 <table>
   <tr>
     <td>
-      <img src="spline-render.resources/SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
+      <img src="spline-render.resources/spline-render-04.jpg" alt="SplineRender-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="spline-render.resources/SplineRender-Variant1-After.jpg" alt="SplineRender-Variant1-After">
+      <img src="spline-render.resources/spline-render-05.jpg" alt="SplineRender-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -135,11 +135,11 @@ Zeichnet Zeichenfolgen von Segmenten entlang der Eingabe <b>Splines</b> über de
 <table>
   <tr>
     <td>
-      <img src="spline-render.resources/SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
+      <img src="spline-render.resources/spline-render-04.jpg" alt="SplineRender-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="spline-render.resources/SplineRender-Variant3.jpg" alt="SplineRender-Variant3">
+      <img src="spline-render.resources/spline-render-06.jpg" alt="SplineRender-Variant3">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -148,7 +148,7 @@ Zeichnet Zeichenfolgen von Segmenten entlang der Eingabe <b>Splines</b> über de
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](spline-render.resources/SplineRender-Demo.gif "Knotenbeispiel 1")
+![Knotenbeispiel 1](spline-render.resources/spline-render-07.gif "Knotenbeispiel 1")
 
 </td>
 </tr>

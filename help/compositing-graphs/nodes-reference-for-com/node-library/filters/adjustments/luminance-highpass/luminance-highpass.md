@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/luminance-highpass.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/luminance-highpass.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Luminanz-Hochpass", um hochfrequente Luminanzen aus Texturen zu extrahieren, um Oberflächendetails zu verbessern.
+description: Verwenden Sie den Knoten Luminanzhochpass , um hochfrequente Luminanzdetails aus Texturen zu extrahieren, um Oberflächendetails zu verbessern.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Luminance Highpass
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Luminanzen-Highpass
+title: Luminanzhochpass
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 9%
@@ -18,13 +18,13 @@ ht-degree: 9%
 ---
 
 
-# Luminanzen-Highpass
+# Luminanzhochpass
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](luminance-highpass.resources/luminance-highpass.png){width="128px"}
+![](luminance-highpass.resources/luminance-highpass-01.png){width="128px"}
 
 <b>In:</b> Filters > Adjustments
 
@@ -33,7 +33,7 @@ ht-degree: 9%
 
 ## Beschreibung
 
-Bricht Beleuchtungsinformationen ab, indem ein [Highpass](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/highpass/highpass.md) für die Luminanz der Eingabe ausgeführt wird. Nützlich, um fotografierte Texturen mit Beleuchtungsinformationen zu korrigieren. Kann in [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) mit mehreren Durchläufen kombiniert werden, um unterschiedliche Lichtfrequenzen zu entfernen.
+Bricht Beleuchtungsinformationen ab, indem ein [Hochpass](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/highpass/highpass.md) für den Luminanzwert der Eingabe ausgeführt wird. Nützlich, um fotografierte Texturen mit Beleuchtungsinformationen zu korrigieren. Kann in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) mit mehreren Durchläufen kombiniert werden, um unterschiedliche Lichtfrequenzen zu entfernen.
 
 Erweist sich als etwas besser bei der Farberhaltung als [Beleuchtung Niederfrequenzen abbrechen](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/lighting-cancel-low-fre/lighting-cancel-low-frequencies.md)
 
@@ -47,14 +47,14 @@ Erweist sich als etwas besser bei der Farberhaltung als [Beleuchtung Niederfrequ
 
 |  |  |
 |:---|:---|
-| <b>Radius</b> <i>0.0 - 64.0</i> | Radius des Hochpasseffekts. Ein kleinerer Radius annulliert eine kleinere Beleuchtung und passt sie an die Eingabebilds an. |
+| <b>Radius</b> <i>0.0 - 64.0</i> | Radius des Hochpasseffekts. Ein kleinerer Radius annulliert eine kleinere Beleuchtung und passt sie an die Eingabebilder an. |
 
 ## Beispiele
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="luminance-highpass.resources/luminance-highpass-example.png" />
+            <img src="luminance-highpass.resources/luminance-highpass-02.png" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/path-2d-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/path-2d-transform.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "2D-Pfad transformieren", um Pfade mit Translations-, Dreh- und Skalierungsvorgängen zu transformieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pfad-2D-Transformation
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](path-2d-transform.resources/path-2d-transform-icon.png "Knotensymbol")
+![Knotensymbol](path-2d-transform.resources/path-2d-transform-01.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Path Tools
 
@@ -73,11 +73,11 @@ Transformiert Pfade mithilfe eines Gizmos.
 <table>
   <tr>
     <td>
-      <img src="path-2d-transform.resources/PathsPolygon_Variant1.jpg" alt="PfadePolygon_Variant1">
+      <img src="path-2d-transform.resources/path-2d-transform-02.jpg" alt="PfadePolygon_Variant1">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="path-2d-transform.resources/Paths2DTransform-Variant1.jpg" alt="Pfade2DTransform-Variant1">
+      <img src="path-2d-transform.resources/path-2d-transform-03.jpg" alt="Pfade2DTransform-Variant1">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -89,11 +89,11 @@ Transformiert Pfade mithilfe eines Gizmos.
 <table>
   <tr>
     <td>
-      <img src="path-2d-transform.resources/PathsPolygon_Variant1.jpg" alt="PfadePolygon_Variant1">
+      <img src="path-2d-transform.resources/path-2d-transform-02.jpg" alt="PfadePolygon_Variant1">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="path-2d-transform.resources/Paths2DTransform-Variant2.jpg" alt="Pfade2DTransform-Variant2">
+      <img src="path-2d-transform.resources/path-2d-transform-04.jpg" alt="Pfade2DTransform-Variant2">
       <br><i>Nach</i>
     </td>
   </tr>

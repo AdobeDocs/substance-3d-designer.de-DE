@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-2.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Richtungsrauschen 2, um Richtungsrauschen-Muster mit zwei Oktaven zu erzeugen, um anisotrope Effekte zu erzeugen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: RICHTUNGSRAUSCHEN 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Richtungsrauschen 2 - Symbol](directional-noise-2.resources/directional_noise_2.png "Richtungsrauschen 2 - Symbol"){width="200px"}
+![Richtungsrauschen 2 - Symbol](directional-noise-2.resources/directional-noise-2-01.png "Richtungsrauschen 2 - Symbol"){width="200px"}
 
 <b>In:</b> Texturgeneratoren > Rauschen
 
@@ -71,12 +71,12 @@ Siehe auch: [Richtungsrauschen 1](../../../../../../compositing-graphs/nodes-ref
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Richtungsrauschen 2 - Beispiel 1](directional-noise-2.resources/directional_noise_2_1.png "Richtungsrauschen 2 - Beispiel 1"){zoomable="yes"}
+![Richtungsrauschen 2 - Beispiel 1](directional-noise-2.resources/directional-noise-2-02.png "Richtungsrauschen 2 - Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Richtungsrauschen 2 - Beispiel 2](directional-noise-2.resources/noise_directional_noise_2_v2_speed0.6_aniso0.gif "Richtungsrauschen 2 - Beispiel 2"){zoomable="yes"}
+![Richtungsrauschen 2 - Beispiel 2](directional-noise-2.resources/directional-noise-2-03.gif "Richtungsrauschen 2 - Beispiel 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -86,12 +86,12 @@ Siehe auch: [Richtungsrauschen 1](../../../../../../compositing-graphs/nodes-ref
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Richtungsrauschen 2 - Beispiel 3](directional-noise-2.resources/noise_directional_noise_2_v2_speed0.6_aniso1.gif "Richtungsrauschen 2 - Beispiel 3"){zoomable="yes"}
+![Richtungsrauschen 2 - Beispiel 3](directional-noise-2.resources/directional-noise-2-04.gif "Richtungsrauschen 2 - Beispiel 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Richtungsrauschen 2 - Beispiel 4](directional-noise-2.resources/noise_directional_noise_2_v2_speed0.3_aniso0.6.gif "Richtungsrauschen 2 - Beispiel 4"){zoomable="yes"}
+![Richtungsrauschen 2 - Beispiel 4](directional-noise-2.resources/directional-noise-2-05.gif "Richtungsrauschen 2 - Beispiel 4"){zoomable="yes"}
 
 </td>
 </tr>

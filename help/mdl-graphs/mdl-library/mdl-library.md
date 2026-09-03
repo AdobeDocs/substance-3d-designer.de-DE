@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/mdl-graphs/mdl-library.html"
 breadcrumb-title: ''
-description: Greifen Sie in Substance 3D Designer auf die Materialdefinitionssprachbibliothek zu, um benutzerdefinierte Materialien zu erstellen.
+description: Greifen Sie in Substance 3D Designer auf die Material Definition Language-Bibliothek zu, um benutzerdefinierte Material zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > MDL graphs > MDL library
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDL-Bibliothek
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Wenn die Bibliothek [vMaterials](https://developer.nvidia.com/vmaterials) von NV
 </td>
 <td style="border: 0;" valign="top">
 
-![MDL-Ressourcen in Bibliothek](mdl-library.resources/mdl-library.png "MDL-Ressourcen in Bibliothek")
+![MDL-Ressourcen in Bibliothek](mdl-library.resources/mdl-library-01.png "MDL-Ressourcen in Bibliothek")
 
 *&quot;mdl&quot;-Abschnitt in der Bibliothek, die vMaterials-Bibliothek und der benutzerdefinierte Inhalt werden eingerahmt*
 
@@ -62,7 +62,7 @@ Wenn die Bibliothek [vMaterials](https://developer.nvidia.com/vmaterials) von NV
 
 ## MDL-Inhalt in der 3D-Ansicht
 
-Alle in der Bibliothek verfügbaren MDL-Module können in der [3D-Ansicht](../../interface/3d-view/3d-view.md) verwendet werden, wenn der Iray-Renderer verwendet wird.
+Alle in der Library verfügbaren MDL-Module können in der [3D-Ansicht](../../interface/3d-view/3d-view.md) verwendet werden, wenn der Iray-Renderer verwendet wird.
 
 Öffnen Sie das Menü <b>Materials</b> und öffnen Sie das Untermenü *eines* Szene-Materials, um die verfügbaren MDL-Moduls zu durchsuchen. Die Listen umfassen:
 
@@ -71,6 +71,6 @@ Alle in der Bibliothek verfügbaren MDL-Module können in der [3D-Ansicht](../..
 * NVIDIA [vMaterials](https://developer.nvidia.com/vmaterials)
 * [MDL-Diagramme geladen](../../mdl-graphs/mdl-graphs.md)
 
-![MDL-Materialien in der 3D-Ansicht](mdl-library.resources/mdl-apply-in-3dview-material-list.png "MDL-Materialien in der 3D-Ansicht")
+![MDL-Materialien in der 3D-Ansicht](mdl-library.resources/mdl-library-02.png "MDL-Materialien in der 3D-Ansicht")
 
 *MDL-Materialien in der 3D-Ansicht*

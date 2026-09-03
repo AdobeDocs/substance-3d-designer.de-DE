@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/anisotropic-kuwahara-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/anisotropic-kuwahara-grayscale.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Anisotropic Kuwahara-Graustufenfilter, um stilisierte, malerische Effekte mit Richtungsglättung zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Anisotropes Kuwahara-Graustufen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Anisotropes Kuwahara-Graustufen-Symbol](anisotropic-kuwahara-gra.resources/anisotropic_kuwahara_grayscale.png "Anisotropes Kuwahara-Graustufen-Symbol"){width="200px"}
+![Anisotropes Kuwahara-Graustufen-Symbol](anisotropic-kuwahara-gra.resources/anisotropic-kuwahara-grayscale-01.png "Anisotropes Kuwahara-Graustufen-Symbol"){width="200px"}
 
 <b>In:</b> Filters > Effects
 
@@ -57,12 +57,12 @@ Links: Anisotropie 0.0 / Rechts: Anisotropie 1.0
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Eine Obstschale mit dem Kuwahara-Filter, aufgetragen mit 0 Anisotropien.](anisotropic-kuwahara-gra.resources/anisotropic_kuwahara_gray_example_3_before.jpg){zoomable="yes"}
+![Eine Obstschale mit dem Kuwahara-Filter, aufgetragen mit 0 Anisotropien.](anisotropic-kuwahara-gra.resources/anisotropic-kuwahara-grayscale-02.jpg){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Eine Obstschale mit dem Kuwahara-Filter, aufgetragen mit 0 Anisotropien.](anisotropic-kuwahara-gra.resources/anisotropic_kuwahara_gray_example_3_after.jpg){zoomable="yes"}
+![Eine Obstschale mit dem Kuwahara-Filter, aufgetragen mit 0 Anisotropien.](anisotropic-kuwahara-gra.resources/anisotropic-kuwahara-grayscale-03.jpg){zoomable="yes"}
 
 </td>
 </tr>
@@ -106,11 +106,11 @@ Links: Anisotropie 0.0 / Rechts: Anisotropie 1.0
 <table>
   <tr>
     <td>
-      <img src="anisotropic-kuwahara-gra.resources/anisotropic_kuwahara_gray_example_1_before.jpg" alt="anisotropic_kuwahara_gray_example_1_before">
+      <img src="anisotropic-kuwahara-gra.resources/anisotropic-kuwahara-grayscale-04.jpg" alt="anisotropic_kuwahara_gray_example_1_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="anisotropic-kuwahara-gra.resources/anisotropic_kuwahara_gray_example_1_after.jpg" alt="anisotropic_kuwahara_gray_example_1_after">
+      <img src="anisotropic-kuwahara-gra.resources/anisotropic-kuwahara-grayscale-05.jpg" alt="anisotropic_kuwahara_gray_example_1_after">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -119,11 +119,11 @@ Links: Anisotropie 0.0 / Rechts: Anisotropie 1.0
 <table>
   <tr>
     <td>
-      <img src="anisotropic-kuwahara-gra.resources/anisotropic_kuwahara_gray_example_2_before.jpg" alt="anisotropic_kuwahara_gray_example_2_before">
+      <img src="anisotropic-kuwahara-gra.resources/anisotropic-kuwahara-grayscale-06.jpg" alt="anisotropic_kuwahara_gray_example_2_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="anisotropic-kuwahara-gra.resources/anisotropic_kuwahara_gray_example_2_after.jpg" alt="anisotropic_kuwahara_gray_example_2_after">
+      <img src="anisotropic-kuwahara-gra.resources/anisotropic-kuwahara-grayscale-07.jpg" alt="anisotropic_kuwahara_gray_example_2_after">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -132,11 +132,11 @@ Links: Anisotropie 0.0 / Rechts: Anisotropie 1.0
 <table>
   <tr>
     <td>
-      <img src="anisotropic-kuwahara-gra.resources/anisotropic_kuwahara_gray_example_4_before.jpg" alt="anisotropic_kuwahara_gray_example_4_before">
+      <img src="anisotropic-kuwahara-gra.resources/anisotropic-kuwahara-grayscale-08.jpg" alt="anisotropic_kuwahara_gray_example_4_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="anisotropic-kuwahara-gra.resources/anisotropic_kuwahara_gray_example_4_after.jpg" alt="anisotropic_kuwahara_gray_example_4_after">
+      <img src="anisotropic-kuwahara-gra.resources/anisotropic-kuwahara-grayscale-09.jpg" alt="anisotropic_kuwahara_gray_example_4_after">
       <br><i>Nach</i>
     </td>
   </tr>

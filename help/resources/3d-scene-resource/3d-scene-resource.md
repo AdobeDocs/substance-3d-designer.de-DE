@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/resources/3d-scene-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/3d-scene-resource.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie 3D-Szenenressourcen in Substance 3D Designer für die Materialvorschau und das Testen importieren und verwenden.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D-Szenen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -44,7 +44,7 @@ Die folgenden 3D-Szenendateiformate werden unterstützt:
 
 3D-Szenen können *nur* verknüpft werden, d. h. sie bleiben an ihrem Speicherort auf dem Datenträger und werden nur in der Anwendung referenziert.
 
-Wenn ein Paket mit einer 3D-Szenenressource als [Substance 3D](https://www.adobe.com/de/products/substance3d/3d-augmented-reality.html)-Asset (SBSAR) veröffentlicht wird, ist das Gitter *nicht eingebettet*, aber verworfen.
+Wenn ein Paket mit einer 3D-Szenenressource als [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)-Asset (SBSAR) veröffentlicht wird, ist das Gitter *nicht eingebettet*, aber verworfen.
 
 ## Backen von Gitterkarten
 
@@ -56,7 +56,7 @@ Das Verknüpfen einer 3D-Szene mit Ihrem Paket ist die einzige Möglichkeit, [Gi
 * Wenn die Ressource in [Explorer](../../interface/the-explorer-window/the-explorer-window.md) geladen ist, klicken Sie auf *RMB*, und wählen Sie im Kontextmenü die Option <b>Modellinformationen für Backen</b> aus.
 * Das Dialogfeld &quot;[Modellinformationen backen](../../bakers/bakers.md)&quot; wird angezeigt, in dem Sie alle Gitterzuordnungs-Backs einrichten und ausführen können.
 
-![Gitterzuordnungen sichern](3d-scene-resource.resources/bake-model-information.gif "Gitterzuordnungen sichern"){width="512px"}
+![Gitterzuordnungen sichern](3d-scene-resource.resources/3d-scene-resource-01.gif "Gitterzuordnungen sichern"){width="512px"}
 
 ## UDIM/UV-Kachelverwendung
 

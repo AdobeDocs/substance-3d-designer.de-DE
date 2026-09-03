@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi-fractal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi-fractal.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Voronoi-Fraktalknoten, um fraktale Voronoi-Muster zur Erstellung organischer zellulärer Texturen zu erzeugen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Voronoi Fractal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](voronoi-fractal.resources/voronoifractal.png){width="200px"}
+![](voronoi-fractal.resources/voronoi-fractal-01.png){width="200px"}
 
 <b>In:</b> Textur Generators > Rauschen
 
@@ -79,28 +79,28 @@ Dieser Knoten kann mit [Cube GBuffers](../../../../../../compositing-graphs/node
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/fractal-voronoi-sea.gif" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-02.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/fractal-voronoi-scifi-panel.gif" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-03.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant2.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant6.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant3.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-07.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant5.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-08.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant4.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-09.jpg" />
         </td>
     </tr>
 </table>

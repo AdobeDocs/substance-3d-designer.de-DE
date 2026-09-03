@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-3.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten BnW-Punkte 3, um erweiterte Schwarzweiß-Volltonmuster zum Erstellen von Texturvariationen und Masken zu generieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: BnW-Punkte 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![BnW-Punkte 3 - Symbol](bnw-spots-3.resources/bnw_spots_3.png "BnW-Punkte 3 - Symbol"){width="200px"}
+![BnW-Punkte 3 - Symbol](bnw-spots-3.resources/bnw-spots-3-01.png "BnW-Punkte 3 - Symbol"){width="200px"}
 
 <b>In:</b> Texturgeneratoren > Rauschen
 
@@ -69,12 +69,12 @@ Siehe auch: [BnW-Punkte 1](../../../../../../compositing-graphs/nodes-reference-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![BnW-Punkte 3 - Beispiel 1](bnw-spots-3.resources/bnw_spots_3_1.png "BnW-Punkte 3 - Beispiel 1"){zoomable="yes"}
+![BnW-Punkte 3 - Beispiel 1](bnw-spots-3.resources/bnw-spots-3-02.png "BnW-Punkte 3 - Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![BnW-Punkte 3 - Beispiel 2](bnw-spots-3.resources/noise_bnw_spots_3_v2_speed0.6_aniso0.gif "BnW-Punkte 3 - Beispiel 2"){zoomable="yes"}
+![BnW-Punkte 3 - Beispiel 2](bnw-spots-3.resources/bnw-spots-3-03.gif "BnW-Punkte 3 - Beispiel 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ Siehe auch: [BnW-Punkte 1](../../../../../../compositing-graphs/nodes-reference-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![BnW-Punkte 3 - Beispiel 3](bnw-spots-3.resources/noise_bnw_spots_3_v2_speed0.6_aniso1.gif "BnW-Punkte 3 - Beispiel 3"){zoomable="yes"}
+![BnW-Punkte 3 - Beispiel 3](bnw-spots-3.resources/bnw-spots-3-04.gif "BnW-Punkte 3 - Beispiel 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![BnW-Punkte 3 - Beispiel 4](bnw-spots-3.resources/noise_bnw_spots_3_v2_speed0.3_aniso0.6.gif "BnW-Punkte 3 - Beispiel 4"){zoomable="yes"}
+![BnW-Punkte 3 - Beispiel 4](bnw-spots-3.resources/bnw-spots-3-05.gif "BnW-Punkte 3 - Beispiel 4"){zoomable="yes"}
 
 </td>
 </tr>

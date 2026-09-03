@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
 breadcrumb-title: ''
 description: Verwenden Sie den 3D-Voronoi-Knoten, um Voronoi-Muster zu generieren, die auf der 3D-Weltposition basieren, um volumetrische zelluläre Texturen zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D Voronoi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-voronoi.resources/3dvoronoi.png){width="200px"}
+![](3d-voronoi.resources/3d-voronoi-01.png){width="200px"}
 
 <b>In:</b> Textur Generators > Rauschen
 
@@ -43,7 +43,7 @@ Dieser Knoten kann mit [Cube 3D GBuffers](../../../../../../compositing-graphs/n
 
 >[!WARNING]
 >
-> Dieses Geräusch soll nur mit dem <i>GPU-Modul verwendet werden</i> (d. h. <b>Direct3D</b> oder <b>OpenGL</b>). Wechseln Sie zu <b>Extras > Modul wechseln...</b> oder drücken Sie die Taste <b>F9</b>, um das gewünschte Modul auszuwählen.
+> Dieses Geräusch soll nur mit dem <i>GPU-Modul verwendet werden</i> (d. h. <b>Direct3D</b> oder <b>OpenGL</b>). Wechseln Sie zu <b>Extras > Engine wechseln...</b> oder drücken Sie die Taste <b>F9</b>, um das gewünschte Engine auszuwählen.
 
 <a name="parameters"></a>
 
@@ -52,10 +52,10 @@ Dieser Knoten kann mit [Cube 3D GBuffers](../../../../../../compositing-graphs/n
 |  |  |
 |:---|:---|
 | <b>Umkehren</b> <i>Boolescher Wert</i> | Kehrt das Ausgabebild um. |
-| <b>Skalierung</b> <i>Gleitend</i> | Steuert die Skalierung der 3D-Voronoi-Rauschen.<br><br><i>Hinweis</i>: Wenn <b>Kacheln</b> auf <i>einer Achse</i> aktiviert ist, ist die Skalenanpassung <i>gestuft</i>. Dies wird erwartet. |
-| <b>Größe</b> <i>Float3</i> | Steuert die Größe der 3D-Voronoi-Rauschen in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b>. Nicht einheitliche Werte führen zu einem <i>dehnend oder auslöschenden </i>-Effekt.<br><br><i>Hinweis</i>: Wenn <b>Kachelung</b> für <i>eine beliebige Achse</i> aktiviert ist, ist die Größenanpassung <i>schrittweise</i>. Dies wird erwartet. |
+| <b>Skalierung</b> <i>Fließkommazahl</i> | Steuert die Skalierung der 3D-Voronoi-Rauschen.<br><br><i>Hinweis</i>: Wenn <b>Kacheln</b> auf <i>einer Achse</i> aktiviert ist, ist die Skalenanpassung <i>gestuft</i>. Dies wird erwartet. |
+| <b>Größe</b> <i>Fließkommazahl3</i> | Steuert die Größe der 3D-Voronoi-Rauschen in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b>. Nicht einheitliche Werte führen zu einem <i>dehnend oder auslöschenden </i>-Effekt.<br><br><i>Hinweis</i>: Wenn <b>Kachelung</b> für <i>eine beliebige Achse</i> aktiviert ist, ist die Größenanpassung <i>schrittweise</i>. Dies wird erwartet. |
 | <b>Offset</b> <i>Float3</i> | Wendet einen Offset auf die <i>Position</i> der 3D-Voronoi-Rauschen in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b> an. |
-| <b>Störung</b> <i>Float3</i> | Die Intensität des <i>zufälligen Versatzes</i>, der auf jeden Punkt des Rauschens in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b> angewendet wird. |
+| <b>Störung</b> <i>Fließkommazahl3</i> | Die Intensität des <i>zufälligen Versatzes</i>, der auf jeden Punkt des Rauschens in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b> angewendet wird. |
 | <b>Intensität der Verzerrung</b> <i>Gleitend</i> | Steuert die Intensität eines <i>Verkrümmungseffekts</i>, der auf das 3D-Voronoi-Rauschen angewendet wird. |
 | <b>Verzerrungen-Skalierungsmultiplikator</b> <i>Gleitend</i> | Steuert die Skalierung des <i>sich verformenden Musters</i>, das im Verkrümmungseffekt verwendet wird, der durch die <b>Intensität der Verzerrung</b> gesteuert wird. |
 | <b>Abgerundete Kurve</b> <i>Gleitend</i> | Rundet die <i>Steigung</i> um jeden Punkt der Rauschen, um sie <i>konvex</i> zu machen.<br><br><i>Hinweis</i>: Dieser Parameter ist nicht verfügbar, wenn der <b>Style</b>-Parameter auf <i>Edge</i> festgelegt ist. |
@@ -71,24 +71,24 @@ Dieser Knoten kann mit [Cube 3D GBuffers](../../../../../../compositing-graphs/n
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant.jpg" />
+            <img src="3d-voronoi.resources/3d-voronoi-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant5.jpg" />
+            <img src="3d-voronoi.resources/3d-voronoi-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant2.jpg" />
+            <img src="3d-voronoi.resources/3d-voronoi-04.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant4.jpg" />
+            <img src="3d-voronoi.resources/3d-voronoi-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant3.jpg" />
+            <img src="3d-voronoi.resources/3d-voronoi-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant6.jpg" />
+            <img src="3d-voronoi.resources/3d-voronoi-07.jpg" />
         </td>
     </tr>
 </table>

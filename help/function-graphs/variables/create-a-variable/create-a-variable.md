@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/variables/create-a-variable.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/create-a-variable.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie benutzerdefinierte Variablen in Substance 3D Designer-Funktionsparametern für wiederverwendbare Werte und Graf erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Erstellen einer Variablen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -64,4 +64,4 @@ Wenn Sie dies getan haben, steht die Variable im anderen Funktionsknoten desselb
 >
 > Wenn Sie mehrere Variablen erstellen müssen, wiederholen Sie einfach den Erstellungsvorgang für *Set*- und *Sequence*-Knoten und legen Sie den letzten Sequenzknoten als Ausgabeknoten fest:
 > 
-> ![](create-a-variable.resources/image2015-12-18-18-43-8.png)
+> ![](create-a-variable.resources/create-a-variable-01.png)

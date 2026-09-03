@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/scripting/plugin-search-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugin-search-paths.html"
 breadcrumb-title: ''
 description: Konfigurieren Sie Plug-in-Suchpfade in Substance 3D Designer, um anzugeben, wo sich Python-Plug-ins befinden.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Suchpfade einfügen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Benutzer können *benutzerdefinierte Verzeichnisse* manuell in den Softwarevorei
 1. Klicken Sie auf der Registerkarte <b>Python</b> auf die Schaltfläche *<b>+</b>*, um das Verzeichnis hinzuzufügen, das die Plug-ins enthält
 1. Klicken Sie zum Überprüfen auf <b>OK</b>.
 
-![Einstellungen für Python-Plug-ins Suchpfade Projekteinstellungen](plugin-search-paths.resources/image-70.png "Einstellungen für Python-Plug-ins Suchpfade Projekteinstellungen")
+![Einstellungen für Python-Plug-ins Suchpfade Projekteinstellungen](plugin-search-paths.resources/plugin-search-paths-01.png "Einstellungen für Python-Plug-ins Suchpfade Projekteinstellungen")
 
 ## Verwenden von Umgebungsvariablen
 

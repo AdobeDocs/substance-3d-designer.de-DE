@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDL-Lernressourcen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Das in diesem Tutorial behandelte metallische Klarlack-Material lässt sich nich
 </td>
 <td style="border: 0;" valign="top">
 
-[![MDL-Malachit-Material](mdl-learning-resources.resources/mdl-malachite-example.jpg)](https://substance3d.adobe.com/tutorials/courses/mdl-malachite-material-breakdown)
+[![MDL-Malachit-Material](mdl-learning-resources.resources/mdl-learning-resources-01.jpg)](https://substance3d.adobe.com/tutorials/courses/mdl-malachite-material-breakdown)
 
 *Klicken Sie auf das Bild, um auf das Tutorial zuzugreifen*
 

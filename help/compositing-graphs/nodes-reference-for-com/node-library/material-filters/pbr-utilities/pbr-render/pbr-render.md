@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
 breadcrumb-title: ''
 description: Verwenden Sie den PBR-Rendering-Knoten, um physikalisch basierte Materialien mit realistischer Beleuchtung für die Vorschau des Materialaussehens zu rendern.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: PBR-Rendering
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](pbr-render.resources/pbr-render.png){width="250px"}
+![](pbr-render.resources/pbr-render-01.png){width="250px"}
 
 <b>In:</b> Materialfiltern > PBR-Dienstprogramme
 
@@ -115,7 +115,7 @@ Dieser Knoten erfordert, dass mindestens ein vollständiges PBR-Material angesch
 | <b>Blende Difraktion</b> <i>0.0 - 2.0</i> | Fügt dem Bokeh chromatische Aberration hinzu. |
 | <b>Swirly Bokeh</b> <i>0.0 - 1.0</i> | Fügt unscharfen Bokeh-Weichzeichnungsbereichen einen Wirbel oder eine sich drehende Wirkung hinzu. |
 | <b>Fokusmodus</b> <i>Auto, Punkt</i> | Festlegen, ob der Fokus vorbestimmt oder vom Benutzer festgelegt ist. Mit dem Punktfokus können Sie einen Punkt in der 2D-Ansicht verschieben, um den Fokusabstand zu bestimmen. |
-| <b>Fokuspunkt</b> | Wenn der Fokus auf &quot;Punkt&quot; gesetzt ist, können Sie diesen Punkt verschieben. hat ein Gizmo mit 2D-Ansicht. |
+| <b>Fokuspunkt</b> | Wenn der Fokus auf &quot;Punkt&quot; gesetzt ist, können Sie diesen Punkt verschieben. hat ein 2D-Ansicht-Gizmo. |
 | <b>Fokusversatz</b> <i>-0.5 - 0.5</i> | Wenn der Fokus auf &quot;Auto&quot; eingestellt ist, können Sie ihn vor und zurück verschieben. |
 | <b>Zuordnung der benutzerdefinierten Blende verwenden</b> <i>False/True</i> | Überschreibt die oben genannten Blendeneinstellungen und verwenden Sie die Blendenmap-Eingabe, um die Bokeh-Form zu bestimmen. Benötigt eine Eingabe. |
 | <b>Post-Effekte</b> |  |
@@ -144,7 +144,7 @@ Dieser Knoten erfordert, dass mindestens ein vollständiges PBR-Material angesch
 | <b>Hüllengewicht löschen</b> <i>0.0 - 1.0</i> | Legt die Intensität oder Stärke der Klarlackschicht fest. |
 | <b>Coat specular level löschen</b> <i>0.0 - 1.0</i> | Legt die Rauheit der Klarlack-Ebene fest. |
 | <b>Normal von Basisebene erben</b> <i>False/True</i> | Einstellen, ob Klarlack Normale aus dem Basismaterial ignoriert oder verwendet. |
-| <b>Ausstrahlend</b> |  |
+| <b>Emissive</b> |  |
 | <b>Emissive Lighting aktivieren</b> <i>Wahr/Falsch</i> | Schaltet den diffusen Beitrag der emissive-Beleuchtung um. |
 | <b>Emissive-Intensität</b> <i>0.0 - 10.0</i> | Legt den globalen Multiplikator für die emissive-Map fest. |
 | <b>Volumenstreuung</b> |  |
@@ -160,30 +160,30 @@ Alle Bilder wurden mithilfe von Materialien aus der Bibliothek [Substance 3D Ass
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-v2.jpg" />
+            <img src="pbr-render.resources/pbr-render-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-thermal-insulation-panel.jpg" />
+            <img src="pbr-render.resources/pbr-render-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-ominous-obsidian.jpg" />
+            <img src="pbr-render.resources/pbr-render-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-forest-gravel-1.jpg" />
+            <img src="pbr-render.resources/pbr-render-05.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-chesterfield-1.jpg" />
+            <img src="pbr-render.resources/pbr-render-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-carbon-fiber.jpg" />
+            <img src="pbr-render.resources/pbr-render-07.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/plane-inclined-lumber-tiles.jpg" />
+            <img src="pbr-render.resources/pbr-render-08.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/cylinder-medieval-leaded-glass-window.jpg" />
+            <img src="pbr-render.resources/pbr-render-09.jpg" />
         </td>
     </tr>
 </table>

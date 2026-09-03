@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Scharf stellen , um die Strukturdetails und Kanten zu verbessern und gestochen scharfe, definierte Oberflächendetails zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Scharfzeichnen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol schärfen](sharpen.resources/sharpen-4.png "Knotensymbol schärfen")
+![Knotensymbol schärfen](sharpen.resources/sharpen-01.png "Knotensymbol schärfen")
 
 <b>In:</b> Atomknoten
 
@@ -56,4 +56,4 @@ Legt fest, ob der Alphakanal des Bildes geschärft oder unverändert bleiben sol
 
 ## Beispiele
 
-![Scharfzeichnungsknoten - Beispiel 1](sharpen.resources/sharpen-ex.png "Scharfzeichnungsknoten - Beispiel 1")
+![Scharfzeichnungsknoten - Beispiel 1](sharpen.resources/sharpen-02.png "Scharfzeichnungsknoten - Beispiel 1")

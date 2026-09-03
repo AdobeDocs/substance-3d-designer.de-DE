@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
 breadcrumb-title: ''
 description: Verwende Grafikinstanzen und Untergraphen, um wiederverwendbare Grafikkomponenten und modulare Material-Workflows zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Diagramminstanzen und Untergraph
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Diagramminstanzen und Untergraph
 
-![](graph-instances-sub-graphs.resources/sub-graph.png)
+![](graph-instances-sub-graphs.resources/graph-instances-sub-graphs-01.png)
 
 Diagramminstanzen sind Knoten, die <b> auf ein anderes Diagramm </b> verweisen. Ein Diagramm, auf das von einem Instanzknoten in einem Hostdiagramm verwiesen wird, kann als <b>Untergraph</b> des Hostdiagramms bezeichnet werden.
 

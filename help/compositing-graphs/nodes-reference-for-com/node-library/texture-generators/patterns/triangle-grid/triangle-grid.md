@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/triangle-grid.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/triangle-grid.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Triangle Grid", um dreieckige Rastermuster zum Erstellen geometrischer Texturen in Substance 3D Designer zu generieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Triangle Grid
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%
@@ -24,9 +24,9 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](triangle-grid.resources/trianglegridgrayscale.jpg){width="200px"}
+![](triangle-grid.resources/triangle-grid-01.jpg){width="200px"}
 
-![](triangle-grid.resources/trianglegridcolor.jpg){width="200px"}
+![](triangle-grid.resources/triangle-grid-02.jpg){width="200px"}
 
 <b>In:</b> Texturgeneratoren > Muster
 
@@ -73,22 +73,22 @@ Die *Positionen* der Eckpunkte können angepasst werden, was sich auf das generi
 | <b>X Betrag</b> *Integer* | Die Anzahl der auf der X-Achse erzeugten Scheitelpunkte. |
 | <b>Y Betrag</b> *Integer* | Die Anzahl der auf der Y-Achse erzeugten Scheitelpunkte. |
 | <b>Zufallspositionsmultiplikator</b> *Gleitend* | Passt die Intensität des Verkrümmungseffekts an. |
-| <b>Zufällige Position</b> *Float2* | Passt die Intensität des zufälligen Versatzes an, der auf die X- und Y-Positionen jedes Scheitelpunkts angewendet wird, relativ zur *Zellgröße* im Raster.   Dieser Offset *Stapel* mit den Parametern <b>Quincux Offset</b> und <b>Vector Map Versatz</b>. |
-| <b>Vektordarstellung-Versatz</b> *Gleitend* | Passt die *globale* Menge des Versatzes an, der auf jeden Scheitelpunkt angewendet wird, indem die Werte *gesampelt* aus der <b>Vektorzuordnung</b>-Eingabe verwendet werden.    Dieser Offset *Stapel* mit den Parametern <b>Zufällige Position</b> und <b>Quincux Offset</b>. |
-| <b>Quincux-Versatz X</b> *Gleitend* | Wendet den angegebenen Versatzbetrag auf *jede zweite Zeile* von Scheitelpunkten an, relativ zur *Zellengröße* im Raster.   Dieser Offset *Stapel* mit den Parametern <b>Zufällige Position</b> und <b>Vektorzuordnungsparameter</b>. |
-| <b>Quincux-Versatz Y</b> *Gleitend* | Wendet den angegebenen Versatzbetrag auf *jede zweite Spalte* von Scheitelpunkten an, relativ zur *Zellengröße* im Raster.    Dieser Offset *Stapel* mit den Parametern <b>Zufällige Position</b> und <b>Vektorzuordnungsparameter</b>. |
-| <b>Drehung</b> *Gleitend* | Wendet die angegebene ** Drehung auf jeden Scheitelpunkt um seine *Grundposition* an, d. h. seine Position *vor dem zufälligen Versatz* und der Versatz wird angewendet.    Diese Drehung *Stapel* mit dem Parameter <b>Drehungsstörung</b>. |
-| <b>Rotationsstörung</b> *Gleitend* | Wendet eine *zufällige* Drehung auf jeden Scheitelpunkt um seine *Grundposition* an, d. h. seine Position *vor dem zufälligen Versatz* und der Versatz wird angewendet.    Diese Drehung *Stapel* mit dem Parameter <b>Drehung</b>. |
-| <b>Height-Eingangsmultiplikator</b> *Gleitend* | Passt die Z-Position jedes Scheitelpunkts mithilfe der Werte *in* aus der Eingabe <b>Height</b> an.    Dieser Offset *stapelt* mit dem Parameter <b>Height Random</b>. |
+| <b>Zufällige Position</b> *Float2* | Passt die Intensität des zufälligen Versatzes an, der auf die X- und Y-Positionen jedes Scheitelpunkts angewendet wird, relativ zur *Größe ihrer Zelle* im Raster.   Dieser Offset *stapelt* mit den Parametern <b>Quincux Offset</b> und <b>Vector Map Versatz</b>. |
+| <b>Vektordarstellung-Versatz</b> *Gleitend* | Passt den *globalen* Versatz an, der auf jeden Scheitelpunkt angewendet wird, indem die Werte *gesampelt* aus der <b>Vektorzuordnung</b> verwendet werden.    Dieser Offset *stapelt* mit den Parametern <b>Zufällige Position</b> und <b>Quincux-Offset</b>. |
+| <b>Quincux-Versatz X</b> *Gleitend* | Wendet den angegebenen Versatzbetrag auf *jede zweite Zeile* von Scheitelpunkten an, relativ zur *Größe ihrer Zelle* im Raster.   Dieser Offset *stapelt* mit den Parametern <b>Zufällige Position</b> und <b>Vektorzuordnungs-Versatz</b>. |
+| <b>Quincux-Versatz Y</b> *Gleitend* | Wendet den angegebenen Versatzbetrag auf *jede zweite Spalte* von Scheitelpunkten an, relativ zur *Größe ihrer Zelle* im Raster.    Dieser Offset *stapelt* mit den Parametern <b>Zufällige Position</b> und <b>Vektorzuordnungs-Versatz</b>. |
+| <b>Drehung</b> *Gleitend* | Wendet die angegebene **-Drehung auf jeden Scheitelpunkt um seine *Grundposition* an, d. h. seine Position *vor dem zufälligen Versatz* und dem Versatz.    Diese Drehung *stapelt* mit dem Parameter <b>Drehungsstörung</b>. |
+| <b>Rotationsstörung</b> *Gleitend* | Wendet eine *zufällige* Drehung auf jeden Scheitelpunkt um seine *Grundposition* an, d. h. seine Position *vor dem* zufälligen Versatz und Versatz.    Diese Drehung *stapelt* mit dem Parameter <b>Drehung</b>. |
+| <b>Height-Eingangsmultiplikator</b> *Gleitend* | Passt die Z-Position jedes Scheitelpunkts mithilfe der Werte *in* aus der Eingabe <b>Height</b> an.    Dieser Offset *Stapel* mit dem Parameter <b>Height Random</b>. |
 | <b>Height zufällig</b> *Gleitend* | Wendet einen zufälligen Versatz auf die Z-Position jedes Scheitelpunktes an.  Dieser Offset *stapelt* mit dem <b>Height-Eingangsmultiplikator</b>. |
 | <b>Füllmethode</b> *Integer* | Legt die Methode zum Mischen der Werte von *überlappenden Dreiecken* fest. Im Modus können Sie effektiv *auswählen, welche* der Dreiecke sichtbar sein sollen: <ul data-preserve-html="true"> <li data-preserve-html="true"><b>Min.:</b> Text</li> <li data-preserve-html="true"><b>Max.:</b> Text</li> <li data-preserve-html="true"><b>Tiefe-Test</b>: Text</li> <li data-preserve-html="true"><b>Alpha-Überblendung:</b> Text</li> </ul>Hinweis: Die verfügbaren Füllmethoden hängen vom Wert des Parameters <b>Farbausgabe</b> ab. |
-| <b>Farbquelle</b> *Integer* *Verfügbar, wenn der Parameter &quot;Farbausgabe&quot; auf &quot;Pro Scheitelpunkt&quot;, &quot;Pro Dreieck&quot; oder &quot;Dünne Linie&quot; festgelegt ist.* | Legt die Methode für *zum Erfassen der Farbe* fest, d. h. der Luminanz, die dem Scheitelpunkt, dem Dreieck oder dem Segment zugewiesen werden soll, abhängig vom ausgewählten <b>Farbausgabe</b>-Modus:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Height</b><b>:</b> verwendet das Height des Scheitelpunkts als Luminanz</li> <li data-preserve-html="true"><b>Zufällig</b><b>:</b> verwendet einen zufälligen Luminanzwert</li> <li data-preserve-html="true"><b>Farbeingabe</b><b>:</b> verwendet den von der <b style="">Farbeingabe</b>-Eingabe aufgenommenen Wert</li> </ul> |
-| <b>Farbquellendeckkraft</b> *Float* *Verfügbar, wenn der Parameter &quot;Farbausgabe&quot; auf &quot;Dünne Zeile&quot; festgelegt ist.* | Steuert das *override* des <b>Linienfarbe</b>-Werts mit den Werten, die sich aus der ausgewählten <b>Farbquelle</b> ergeben.   Hinweis: Wenn dieser Wert auf 1 festgelegt ist, hat der Parameter <b>Linienfarbe</b> keine Auswirkungen. |
-| <b>Entfernung zur Edge-Thickness</b> *Float* *Verfügbar, wenn der Parameter &quot;Farbausgabe&quot; auf &quot;Abstand zu Kante&quot; festgelegt ist.* | Legt die Thickness des Abstandsverlaufs fest. Ein niedrigerer Wert führt zu einem *kürzeren* Verlauf. |
-| <b>Linienfarbe</b> *Float/Float4* *Verfügbar, wenn der Parameter &quot;Farbausgabe&quot; auf &quot;Dünne Zeile&quot; festgelegt ist.* | Der Luminanzwert der Segmente.   Hinweis: Wenn der Wert <b>Farbquellendeckkraft</b> auf 1 festgelegt ist, hat dieser Parameter keine Auswirkungen. |
-| <b>Hintergrundfarbe</b> *Float/Float4* *Verfügbar, wenn der Parameter &quot;Farbausgabe&quot; auf &quot;Dünne Zeile&quot; festgelegt ist.* | Der Luminanzwert des zwischen den Segmenten sichtbaren Hintergrunds.   Hinweis: Wenn der <b>Überblendmodus</b> auf *Max* festgelegt ist, überschreibt der Hintergrund die Segmente, in denen er *heller* ist, wie erwartet. |
-| <b>Zufallsfarben-Startmodus</b> *Integer* *Verfügbar, wenn der Parameter &quot;Farbausgabe&quot; auf &quot;Pro Scheitelpunkt&quot;, &quot;Pro Dreieck&quot; oder &quot;Dünne Linie&quot; und der Parameter &quot;Farbquelle&quot; auf &quot;Zufällig&quot; festgelegt ist.* | Verfahren zur Gewinnung des in der pseudozufälligen Farbverteilung verwendeten Saatguts:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Globales Zufallssegment</b><b>:</b> erbt das Seed aus dem Diagramm des Knotens</li> <li data-preserve-html="true"><b>Manuelles Seed</b><b>:</b> verwendet ein benutzerdefiniertes, eigenständiges Seed</li> </ul> |
-| <b>Zufallsfarbensamen</b> *Integer* *Verfügbar, wenn der Parameter &quot;Random Color Seed Mode&quot; auf &quot;Manual Seed&quot; und der Parameter &quot;Color Source&quot; auf &quot;Random&quot; festgelegt ist.* | Der Wert für den diskreten Ausgangswert, der in der pseudozufälligen Farbverteilung verwendet wird. |
+| <b>Farbquelle</b> *Ganzzahl* *Verfügbar, wenn der Parameter &quot;Farbausgabe&quot; auf &quot;Pro Scheitelpunkt&quot;, &quot;Pro Dreieck&quot; oder &quot;Dünne Zeile&quot; festgelegt ist.* | Legt die Methode für *zum Erfassen der Farbe* fest, d. h. der Luminanz, die dem Scheitelpunkt, dem Dreieck oder dem Segment zugewiesen werden soll, abhängig vom ausgewählten <b>Farbausgabe</b>-Modus:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Height</b><b>:</b> verwendet das Height des Scheitelpunkts als Luminanz</li> <li data-preserve-html="true"><b>Zufällig</b><b>:</b> verwendet einen zufälligen Luminanzwert</li> <li data-preserve-html="true"><b>Farbeingabe</b><b>:</b> verwendet den von der <b style="">Farbeingabe</b>-Eingabe aufgenommenen Wert</li> </ul> |
+| <b>Farbquellendeckkraft</b> *Fließkommazahl* *Verfügbar, wenn der Parameter &quot;Farbausgabe&quot; auf &quot;Dünne Zeile&quot; festgelegt ist.* | Steuert das *override* des <b>Linienfarbe</b>-Werts mit den Werten, die sich aus der ausgewählten <b>Farbquelle</b> ergeben.   Hinweis: Wenn dieser Wert auf 1 festgelegt ist, hat der Parameter <b>Linienfarbe</b> keine Auswirkungen. |
+| <b>Entfernung zur Edge-Thickness</b> *Fließkommazahl* *Verfügbar, wenn der Parameter &quot;Farbausgabe&quot; auf &quot;Abstand zu Kante&quot; festgelegt ist.* | Legt die Thickness des Abstandsverlaufs fest. Ein niedrigerer Wert führt zu einem *kürzeren* Verlauf. |
+| <b>Linienfarbe</b> *Fließkommazahl/Fließkommazahl4* *Verfügbar, wenn der Parameter &quot;Farbausgabe&quot; auf &quot;Dünne Zeile&quot; festgelegt ist.* | Der Luminanzwert der Segmente.   Hinweis: Wenn der Wert <b>Farbquellendeckkraft</b> auf 1 festgelegt ist, hat dieser Parameter keine Auswirkungen. |
+| <b>Hintergrundfarbe</b> *Fließkommazahl/Fließkommazahl4* *Verfügbar, wenn der Parameter &quot;Farbausgabe&quot; auf &quot;Dünne Zeile&quot; festgelegt ist.* | Der Luminanzwert des zwischen den Segmenten sichtbaren Hintergrunds.   Hinweis: Wenn der <b>Überblendmodus</b> auf *Max* festgelegt ist, überschreibt der Hintergrund die Segmente, in denen er *heller* ist, wie erwartet. |
+| <b>Zufallsfarben-Startmodus</b> *Ganzzahl* *Verfügbar, wenn der Parameter &quot;Farbausgabe&quot; auf &quot;Pro Scheitelpunkt&quot;, &quot;Pro Dreieck&quot; oder &quot;Thin Line&quot; und der Parameter &quot;Farbquelle&quot; auf &quot;Zufällig&quot; festgelegt ist.* | Verfahren zur Gewinnung des in der pseudozufälligen Farbverteilung verwendeten Saatguts:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Globales Zufallssegment</b><b>:</b> erbt das Seed aus dem Diagramm des Knotens</li> <li data-preserve-html="true"><b>Manuelles Seed</b><b>:</b> verwendet ein benutzerdefiniertes, eigenständiges Seed</li> </ul> |
+| <b>Zufallsfarbensamen</b> *Ganzzahl* *Verfügbar, wenn der Parameter &quot;Random Color Seed Mode&quot; auf &quot;Manual Seed&quot; und der Parameter &quot;Color Source&quot; auf &quot;Random&quot; festgelegt ist.* | Der Wert für den diskreten Ausgangswert, der in der pseudozufälligen Farbverteilung verwendet wird. |
 | <b>Quadratische Ausbreitung</b> *Boolescher Wert* | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
 
 ## Beispiele
@@ -97,37 +97,17 @@ Die *Positionen* der Eckpunkte können angepasst werden, was sich auf das generi
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Beispiel 1](triangle-grid.resources/triangle_grid_color_example_1.jpg "Triangle Grid: Beispiel 1"){zoomable="yes"}
+![Triangle Grid: Beispiel 1](triangle-grid.resources/triangle-grid-03.jpg "Triangle Grid: Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Beispiel 2](triangle-grid.resources/trianglegrid-variant2.png "Triangle Grid: Beispiel 2"){zoomable="yes"}
+![Triangle Grid: Beispiel 2](triangle-grid.resources/triangle-grid-04.png "Triangle Grid: Beispiel 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Beispiel 3](triangle-grid.resources/trianglegridcolor-variant2.jpg "Triangle Grid: Beispiel 3"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Triangle Grid: Beispiel 4](triangle-grid.resources/triangle_grid_color_example_2.jpg "Triangle Grid: Beispiel 4"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Triangle Grid: Beispiel 5](triangle-grid.resources/trianglegridcolor-variant4.jpg "Triangle Grid: Beispiel 5"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Triangle Grid: Beispiel 6](triangle-grid.resources/trianglegridcolor-variant3.jpg "Triangle Grid: Beispiel 6"){zoomable="yes"}
+![Triangle Grid: Beispiel 3](triangle-grid.resources/triangle-grid-05.jpg "Triangle Grid: Beispiel 3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -137,12 +117,32 @@ Die *Positionen* der Eckpunkte können angepasst werden, was sich auf das generi
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Leder](triangle-grid.resources/trianglegrid-demo.png "Triangle Grid: Leder"){zoomable="yes"}
+![Triangle Grid: Beispiel 4](triangle-grid.resources/triangle-grid-06.jpg "Triangle Grid: Beispiel 4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Graf](triangle-grid.resources/trianglegrid-node.png "Triangle Grid: Graf"){zoomable="yes"}
+![Triangle Grid: Beispiel 5](triangle-grid.resources/triangle-grid-07.jpg "Triangle Grid: Beispiel 5"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![Triangle Grid: Beispiel 6](triangle-grid.resources/triangle-grid-08.jpg "Triangle Grid: Beispiel 6"){zoomable="yes"}
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![Triangle Grid: Leder](triangle-grid.resources/triangle-grid-09.png "Triangle Grid: Leder"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![Triangle Grid: Graph](triangle-grid.resources/triangle-grid-10.png "Triangle Grid: Diagramm"){zoomable="yes"}
 
 </td>
 </tr>

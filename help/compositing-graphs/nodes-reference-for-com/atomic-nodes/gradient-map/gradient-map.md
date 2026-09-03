@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Verlaufsumsetzung", um Graustufenwerte Farben mithilfe von Verlaufsrampen für Färbungen und Effekte zuzuordnen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Verlaufsumsetzung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Verlaufsumsetzung](gradient-map.resources/comp_gradient_1.png "Atomknoten: Verlaufsumsetzung"){width="200px"}
+![Atomknoten: Verlaufsumsetzung](gradient-map.resources/gradient-map-01.png "Atomknoten: Verlaufsumsetzung"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,7 +78,7 @@ Sie kann auf folgende Weise aus den <b>Eigenschaften</b> des Verlaufsumsetzungs-
 * Klicken Sie auf der Schaltfläche <b>Verlaufseditor</b> auf LMB.
 * Doppelklicken Sie auf LMB auf einem Pin in der Verlaufsleiste. Der angeklickte Pin wird dann automatisch im Verlaufseditor ausgewählt, sodass Sie seine Werte direkt bearbeiten können.
 
-![Verlaufseditor](gradient-map.resources/image2017-2-17-16-13-5.png "Verlaufseditor")
+![Verlaufseditor](gradient-map.resources/gradient-map-02.png "Verlaufseditor")
 
 ### Bearbeiten der Verlaufspunkte
 
@@ -88,7 +88,7 @@ Jeder Pin legt eine Farbe an seiner Position entlang des Verlaufs fest.
 
 Die Abschnitte des Verlaufs vor und nach dem ersten bzw. letzten Pin werden auf die Farben dieses Pins festgelegt.
 
-![Verlaufseditor - Verlaufsansicht](gradient-map.resources/image2017-2-17-17-27-46.png "Verlaufseditor - Verlaufsansicht")
+![Verlaufseditor - Verlaufsansicht](gradient-map.resources/gradient-map-03.png "Verlaufseditor - Verlaufsansicht")
 
 Die folgenden Steuerelemente sind zum Bearbeiten von Pins verfügbar:
 
@@ -105,7 +105,7 @@ Der neue Pin wird an dieser Position auf die Farbe des Verlaufs gesetzt.
 </td>
 <td style="border: 0;" valign="top">
 
-![Verlaufseditor - Pin hinzufügen](gradient-map.resources/move-pin.gif "Verlaufseditor - Pin hinzufügen")
+![Verlaufseditor - Pin hinzufügen](gradient-map.resources/gradient-map-04.gif "Verlaufseditor - Pin hinzufügen")
 
 </td>
 </tr>
@@ -121,12 +121,12 @@ Halten Sie LMB gedrückt und ziehen Sie die ausgewählten Pins entlang der Verla
 
 Sie können auch die Position eines Pins mit einem numerischen Wert festlegen, indem Sie ihn auswählen und den Parameter <b>Position</b> verwenden. Die Position ist ein Wert im Bereich [0;1], wobei 0 der Anfang des Farbverlaufs und 1 sein Ende ist.
 
-![Verlaufseditor - Pin-Positionsparameter](gradient-map.resources/image2015-8-27-13-56-2.png "Verlaufseditor - Pin-Positionsparameter")
+![Verlaufseditor - Pin-Positionsparameter](gradient-map.resources/gradient-map-05.png "Verlaufseditor - Pin-Positionsparameter")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Verlaufseditor - Pin verschieben](gradient-map.resources/movepin2.gif "Verlaufseditor - Pin verschieben")
+![Verlaufseditor - Pin verschieben](gradient-map.resources/gradient-map-06.gif "Verlaufseditor - Pin verschieben")
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ Wählen Sie die Pins aus und drücken Sie die Entf-Taste oder ziehen Sie die Pin
 </td>
 <td style="border: 0;" valign="top">
 
-![Verlaufseditor - Pin löschen](gradient-map.resources/removepin.gif "Verlaufseditor - Pin löschen")
+![Verlaufseditor - Pin löschen](gradient-map.resources/gradient-map-07.gif "Verlaufseditor - Pin löschen")
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ Spiegelt die Positionen der ausgewählten Pins im Verlauf.
 </td>
 <td style="border: 0;" valign="top">
 
-![Verlaufseditor: Umkehren von Positionen](gradient-map.resources/invert.gif "Verlaufseditor: Positionen umkehren")
+![Verlaufseditor: Umkehren von Positionen](gradient-map.resources/gradient-map-08.gif "Verlaufseditor: Positionen umkehren")
 
 </td>
 </tr>
@@ -182,7 +182,7 @@ Entfernt alle Pins aus dem Verlaufsbalken.
 </td>
 <td style="border: 0;" valign="top">
 
-![Verlaufseditor - Alle löschen](gradient-map.resources/remove.gif "Verlaufseditor - Alle löschen")
+![Verlaufseditor - Alle löschen](gradient-map.resources/gradient-map-09.gif "Verlaufseditor - Alle löschen")
 
 </td>
 </tr>
@@ -190,7 +190,7 @@ Entfernt alle Pins aus dem Verlaufsbalken.
 
 <b>Farben umkehren</b>
 
-Mit dieser Schaltfläche werden die Farben der ausgewählten Nadeln auf ein Negativ gesetzt.
+Mit dieser Schaltfläche werden die Farben der ausgewählten Pins auf ein Negativ gesetzt.
 
 <b>Sättigung verringern</b>
 
@@ -201,7 +201,7 @@ Diese Schaltfläche reduziert die Sättigung der Farben, die auf den ausgewählt
 Sobald die Pins eingerichtet sind, können Sie mithilfe der verfügbaren Interpolationsmodi steuern, wie Farben von einem Pin zum nächsten übergehen:
 
 +++Linear
-Standardinterpolationsmodus: wendet eine einfache lineare Interpolation zwischen den einzelnen Nadeln an, sodass der Verlauf gleichmäßig verläuft.
+Standardinterpolationsmodus: wendet eine einfache lineare Interpolation zwischen jedem Pin an, sodass der Verlauf gleichmäßig verläuft.
 
 +++
 
@@ -230,7 +230,7 @@ Dies führt zu harten Schritten zwischen den Farben, und nur die von den Pins fe
 
 ### Farbwähler
 
-![Verlaufseditor - Farbwähler](gradient-map.resources/image2017-2-17-18-21-29.png "Verlaufseditor - Farbwähler")
+![Verlaufseditor - Farbwähler](gradient-map.resources/gradient-map-10.png "Verlaufseditor - Farbwähler")
 
 Mit dem Farbwähler können Sie eine Farbe auf verschiedene Weise festlegen:
 
@@ -245,7 +245,7 @@ Mit dem Farbwähler können Sie eine Farbe auf verschiedene Weise festlegen:
   </td>
   <td style="border: 0;" valign="top">
 
-  ![Farbwähler - Farbverlaufsbereich und Farbtonleiste](gradient-map.resources/colorpalette.gif "Farbwähler - Farbverlaufsbereich und Farbtonleiste")
+  ![Farbwähler - Farbverlaufsbereich und Farbtonleiste](gradient-map.resources/gradient-map-11.gif "Farbwähler - Farbverlaufsbereich und Farbtonleiste")
 
   </td>
   </tr>
@@ -264,7 +264,7 @@ Mit dem Farbwähler können Sie eine Farbe auf verschiedene Weise festlegen:
   </td>
   <td width="33.33%" style="border: 0;" valign="top">
 
-  ![Farbwähler - RGB-, HSV- und Alpha-Schieberegler](gradient-map.resources/image2017-2-17-18-31-41.png "Farbwähler - RGB-, HSV- und Alpha-Schieberegler")
+  ![Farbwähler - RGB-, HSV- und Alpha-Schieberegler](gradient-map.resources/gradient-map-12.png "Farbwähler - RGB-, HSV- und Alpha-Schieberegler")
 
   </td>
   </tr>
@@ -281,7 +281,7 @@ Mit dem Farbwähler können Sie eine Farbe auf verschiedene Weise festlegen:
   </td>
   <td style="border: 0;" valign="top">
 
-  ![Farbwähler - Auf Bildschirm auswählen](gradient-map.resources/pick.gif "Farbwähler - Auf Bildschirm auswählen")
+  ![Farbwähler - Auf Bildschirm auswählen](gradient-map.resources/gradient-map-13.gif "Farbwähler - Auf Bildschirm auswählen")
 
   </td>
   </tr>
@@ -297,7 +297,7 @@ In der unteren Hälfte wird die zuvor verwendete Farbe angezeigt. Doppelklicken 
 </td>
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Farbwähler - Farbe zurücksetzen](gradient-map.resources/image2015-8-27-14-40-39.png "Farbwähler - Farbe zurücksetzen")
+![Farbwähler - Farbe zurücksetzen](gradient-map.resources/gradient-map-14.png "Farbwähler - Farbe zurücksetzen")
 
 </td>
 </tr>
@@ -326,7 +326,7 @@ Darüber hinaus stehen die folgenden Funktionen unter der Farbminiatur als Schal
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Farbwähler - Schaltflächen](gradient-map.resources/invert2.gif "Farbwähler - Schaltflächen")
+![Farbwähler - Schaltflächen](gradient-map.resources/gradient-map-15.gif "Farbwähler - Schaltflächen")
 
 </td>
 </tr>
@@ -336,7 +336,7 @@ Darüber hinaus stehen die folgenden Funktionen unter der Farbminiatur als Schal
 
 Die Verlaufs-Pipette ist eine der nützlichsten Funktionen dieses Knotens, da Sie komplexe Verläufe erstellen können, indem Sie einfach eine Linie auf einem Referenzbild zeichnen.
 
-![Verlaufseditor - Verlaufsauswahl](gradient-map.resources/pickgradient.gif "Verlaufseditor - Verlaufsauswahl")
+![Verlaufseditor - Verlaufsauswahl](gradient-map.resources/gradient-map-16.gif "Verlaufseditor - Verlaufsauswahl")
 
 Der Regler <b>Genauigkeit</b> hilft Ihnen beim Anpassen des neu erstellten Verlaufs, indem Sie die Anzahl der Tasten erhöhen oder verringern: Je niedriger die Werte sind, desto präziser stimmt der Verlauf mit den ausgewählten Werten überein.
 

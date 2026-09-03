@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/splatter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/splatter.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Splatter-Knoten, um Formen über Texturen hinweg in Streuungen zu platzieren, um zufällige Muster und Details organischer Texturen zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spritzer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 9%
@@ -24,9 +24,9 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](splatter.resources/splatter.png)
+![](splatter.resources/splatter-01.png)
 
-![](splatter.resources/splatter-color.png)
+![](splatter.resources/splatter-02.png)
 
 <b>In:</b> Texturgeneratoren > Muster
 
@@ -60,7 +60,7 @@ Beachten Sie, dass die standardmäßigen Splatter-Parameter überhaupt nicht zuf
 | <b>Schwenken X</b> <i>-100.0 - 100.0</i> | Schwenk das ganze Ergebnis auf X-Achse. |
 | <b>Pan Y</b> <i>-100.0 - 100.0</i> | Schwenken des ganzen Ergebnisses auf der Y-Achse. |
 | <b>Störung</b> <i>0.0 - 100.0</i> | Verschiebt Formen zufällig. |
-| <b>Raster-Nummer</b> <i>0 - 8</i> | Wechselt durch verschiedene Raster-Größen, um die Ergebnisskala anzupassen. Beibehält die Unterteilung bei. |
+| <b>Raster-Nummer</b> <i>0 - 8</i> | Wechselt durch verschiedene Raster-Größen, um die Ergebnisskala anzupassen. Bewahrt die Kachelung. |
 | <b>Störungswinkel</b> <i>0.0 - 360.0</i> | Steuert den Winkel der Disorder Shift. |
 | <b>Zufallsstörung</b> <i>False/True</i> | Randomisiert den Winkel der Störung und sorgt für mehr Chaos. |
 | <b>Mustergröße</b> <i>5 - 12</i> |  |
@@ -77,7 +77,7 @@ Beachten Sie, dass die standardmäßigen Splatter-Parameter überhaupt nicht zuf
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="splatter.resources/splatter-ex.gif" />
+            <img src="splatter.resources/splatter-03.gif" />
         </td>
     </tr>
 </table>

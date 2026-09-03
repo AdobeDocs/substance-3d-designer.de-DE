@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi-fractal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi-fractal.html"
 breadcrumb-title: ''
 description: Verwenden Sie den 3D Voronoi Fractal-Knoten, um fraktale Voronoi-Muster basierend auf der 3D-Position für volumetrische Texturen zu generieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D Voronoi Fractal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-voronoi-fractal.resources/3dvoronoifractal.png){width="200px"}
+![](3d-voronoi-fractal.resources/3d-voronoi-fractal-01.png){width="200px"}
 
 <b>In:</b> Textur Generators > Rauschen
 
@@ -56,7 +56,7 @@ Dieser Knoten kann mit [Cube 3D GBuffers](../../../../../../compositing-graphs/n
 | <b>Größe</b> <i>Float3</i> | Steuert die Größe des fraktalen 3D-Voronoi-Rauschens in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b>. Nicht einheitliche Werte führen zu einem <i>dehnend oder auslöschenden </i>-Effekt.<br><br><i>Hinweis</i>: Wenn <b>Kachelung</b> für <i>eine beliebige Achse</i> aktiviert ist, ist die Größenanpassung <i>schrittweise</i>. Dies wird erwartet. |
 | <b>Offset</b> <i>Float3</i> | Wendet einen Offset auf die <i>Position</i> des fraktalen 3D-Voronoi-Rauschens in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b> an. |
 | <b>Störung</b> <i>Float3</i> | Die Intensität des <i>zufälligen Versatzes</i>, der auf jeden Punkt des Rauschens in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b> angewendet wird. |
-| <b>Intensität der Verzerrung</b> <i>Gleitend</i> | Steuert die Intensität eines <i>Verkrümmungseffekts</i>, der auf das fraktale 3D-Voronoi-Rauschen angewendet wird. |
+| <b>Intensität der Verzerrung</b> <i>Gleitend</i> | Steuert die Intensität eines <i>Verkrümmungseffekts</i>, der auf die fraktale 3D-Voronoi-Rauschen angewendet wird. |
 | <b>Verzerrungen-Skalierungsmultiplikator</b> <i>Gleitend</i> | Steuert die Skalierung des <i>sich verformenden Musters</i>, das im Verkrümmungseffekt verwendet wird, der durch die <b>Intensität der Verzerrung</b> gesteuert wird. |
 | <b>Min. Stufe</b> <i>Integer</i> | Die minimale <i>Wiederholungsstufe</i>, die im fraktalen Muster verwendet wird. Ein größerer Mindest-/Höchstbereich führt zu einem <i>reicheren Muster</i> mit Variationen in mehr Frequenzbereichen. |
 | <b>Max. Stufe</b> <i>Integer</i> | Die maximale <i>Wiederholungsstufe </i>, die im fraktalen Muster verwendet wird. Ein größerer Mindest-/Höchstbereich führt zu einem <i>reicheren Muster</i> mit Variationen in mehr Frequenzbereichen. |
@@ -70,31 +70,31 @@ Dieser Knoten kann mit [Cube 3D GBuffers](../../../../../../compositing-graphs/n
 | <b>Füllmethode</b> <i>Integer</i> | Legt die Methode zum Mischen der Werte von <i>überlappenden Zellen</i> im 3D-Raum fest:<br><br>- <i>Hinzufügen</i>: Fügen Sie die Werte <br>- <i>Max</i> hinzu: Beibehalten des <i>höchsten</i>-Werts<br>-<i>Min</i>: Beibehalten des <i>niedrigsten</i>-Werts |
 | <b>Stil</b> <i>Integer</i> | Legt die <i>-Methode zum Rendern der Daten</i> der fraktalen 3D-Voronoi-Rauschen fest, da die Rauschen auf einem Satz von 3D-Leerzeichen basiert:<br><br>- <i>F1</i>: Abstand zum <i>nächstgelegenen Punkt</i> im 3D-Raum<br>- <i>F2</i>: der Abstand zum <i>zweitnächsten Punkt</i> im 3D-Raum<br>- <i>F2-F1</i><br>- <i>F1\*F2</i><br>- <i>F1/F2</i><br>- <i>Edge</i>: die <i>Kante zwischen jeder Zelle</i> der Rauschen im 3D-Raum<br>- <i>Zufallsfarbe</i>: jeder Zelle der Rauschen im 3D-Raum eine <i>zufällige flache Farbe</i> zuweisen |
 | <b>Edge-Thickness</b> <i>Gleitend</i> | Passt die Thickness der Kanten an, die zwischen den Zellen der fraktalen 3D-Voronoi-Rauschen erkannt werden. Kanten werden in den X-, Y- und Z-Achsen erkannt, daher können einige Stärken schneller zunehmen als andere, je nach <i>Tiefe</i> der Zellen.<br><br><i>Hinweis</i>: Dieser Parameter ist nur verfügbar, wenn der <b>Style</b>-Parameter auf <i>Edge</i> festgelegt ist. |
-| <b>Kachelung aktivieren</b> <i>Boolescher Wert</i> | Passt die fraktale 3D-Voronoi-Rauschen so an, dass sich das resultierende Muster <i>in X-, Y- und Z-Achse wiederholt</i>. |
+| <b>Kachelung aktivieren</b> <i>Boolesche Wert</i> | Passt die fraktale 3D-Voronoi-Rauschen so an, dass sich das resultierende Muster <i>in X-, Y- und Z-Achse wiederholt</i>. |
 
 ## Beispiele
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant6.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant2.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant4.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-04.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant5.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant3.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-07.jpg" />
         </td>
     </tr>
 </table>

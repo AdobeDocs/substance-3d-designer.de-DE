@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-sampler.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-sampler.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Sampler-Kachelknoten zum Aufnehmen und Anordnen von Kacheln aus Eingabemustern, um gekachelte Texturen in Substance 3D Designer zu erstellen.
+description: Verwenden Sie den Sampler-Kachelknoten zum Aufnehmen und Anordnen von Kacheln aus Eingabetexturen, um Kachelmuster in Substance 3D Designer zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Sampler
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sampler anordnen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-sampler.resources/tile-sampler.png){width="128px"}
+![](tile-sampler.resources/tile-sampler-01.png){width="128px"}
 
 <b>In:</b> Texturgeneratoren > Muster
 
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 Tile Sampler ist der ultimative Kachelmuster-Erzeugungsknoten. Es handelt sich um eine weiterentwickelte, komplexere Version von [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md). Ab 2017 2.1 sind die Unterschiede zwischen Tile Sampler und [Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) viel geringer. Die Hauptunterschiede bestehen nun nur noch in den sieben verschiedenen Kartensteckplätzen, die für Skalierung, Position, Drehung, Größe, Farbe und Maskierung zur Verfügung stehen. Ihr Effekt kann separat eingemischt werden.
 
-Kachel-Sampler ist nützlich für die Erstellung von vom Menschen erstellten prozeduralen Mustern, mit zusätzlicher Kontrolle über bestimmte Parameter, die von externen Eingabe-Map gesteuert werden.
+Kachel-Sampler ist hilfreich beim Erstellen künstlicher prozeduraler Muster, mit zusätzlicher Kontrolle über bestimmte Parameter, die von externen Eingabemaps gesteuert werden.
 
 Vergewissern Sie sich, dass Sie mit [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) vertraut sind, bevor Sie mit Tile Sampler fortfahren. In den meisten Fällen reichen [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) aus und Sie benötigen nicht die zusätzliche Komplexität von Tile Sampler.
 
@@ -122,7 +122,7 @@ Vergewissern Sie sich, dass Sie mit [Tile Generator](../../../../../../compositi
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-sampler.resources/tilesampler-ex2.png" /><br><i>Beispiel zeigt, wie Parameter von Eingabe-Map gesteuert werden (Musterverteilung, Skalierung, Drehung).</i>
+            <img src="tile-sampler.resources/tile-sampler-02.png" /><br><i>Beispiel zeigt, wie Parameter von Eingabe-Map gesteuert werden (Musterverteilung, Skalierung, Drehung).</i>
         </td>
     </tr>
 </table>

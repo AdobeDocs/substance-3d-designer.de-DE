@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-cubic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-cubic.html"
 breadcrumb-title: ''
 description: Verwenden Sie den kubischen Spline-Knoten, um glatte kubische Splines mit vier Steuerpunkten für gekrümmte Pfade zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline (Kubisch)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](spline-cubic.resources/spline-cubic-icon.png "Knotensymbol")
+![Knotensymbol](spline-cubic.resources/spline-cubic-01.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -101,12 +101,12 @@ Die Trajektorie der Spline wird durch die &quot;out&quot;-Tangente von <b>p1</b>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](spline-cubic.resources/SplineCubic-Variant1.jpg "Knotenbeispiel 1")
+![Knotenbeispiel 1](spline-cubic.resources/spline-cubic-02.jpg "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](spline-cubic.resources/SplineCubic-Variant2.jpg "Knotenbeispiel 2")
+![Knotenbeispiel 2](spline-cubic.resources/spline-cubic-03.jpg "Knotenbeispiel 2")
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ Die Trajektorie der Spline wird durch die &quot;out&quot;-Tangente von <b>p1</b>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 3](spline-cubic.resources/SplineCubic-Demo.gif "Knotenbeispiel 3")
+![Knotenbeispiel 3](spline-cubic.resources/spline-cubic-04.gif "Knotenbeispiel 3")
 
 </td>
 <td style="border: 0;" valign="top">

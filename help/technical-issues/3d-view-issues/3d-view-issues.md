@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ''
 description: Beheben Sie Probleme mit der 3D-Ansicht in Substance 3D Designer, einschließlich Rendering-, Anzeige- und Leistungsproblemen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Probleme mit 3D-Ansicht
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 0%
@@ -93,7 +93,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) hat unsere n
 
 Zu den unterstützten GPUs gehören die NVIDIA RTX 20-Serie (Turing) oder höher gemäß den [Systemanforderungen von Designer](../../getting-started/system-requirements/system-requirements.md).
 
-Sie können den OpenGL-Renderer standardmäßig weiterhin verwenden, indem Sie die Option [neu in den Projekteinstellungen &#x200B;](../../interface/preferences-window/project-settings/project-settings.md) verwenden:
+Sie können den OpenGL-Renderer standardmäßig weiterhin verwenden, indem Sie die Option [neu in den Projekteinstellungen ](../../interface/preferences-window/project-settings/project-settings.md) verwenden:
 
 1. Gehen Sie zu Bearbeiten > Voreinstellungen > Projekte .
 2. Die letzte Projektdatei in der Liste auswählen
@@ -115,7 +115,7 @@ In der neuen 3D-Ansicht wird jetzt standardmäßig der OpenGL-Renderer verwendet
 
 **![(Fehler)](3d-view-issues.resources/error.svg) Problem**
 
-In den Versionen 15.0.0 und höher wird die Meldung &quot;Renderer not supported&quot; (Renderer nicht unterstützt) in der unteren rechten Ecke des Ansichtsfensters angezeigt, wenn die neuen 3D-Renderer (Rasterizer, GPU-Pfadverfolgung) verwendet werden. Die 3D-Szene ist nicht sichtbar.
+In den Versionen 15.0.0 und höher wird die Meldung &quot;Renderer not supported&quot; (Renderer nicht unterstützt) in der rechten unteren Ecke des Viewports angezeigt, wenn die neuen 3D-Renderer (Rasterizer, GPU-Pfadverfolgung) verwendet werden. Die 3D-Szene ist nicht sichtbar.
 
 **![(tick)](3d-view-issues.resources/check.svg) Empfohlene Schritte**
 
@@ -163,7 +163,7 @@ Die Lösung ist recht einfach: verbinden den letzten Knoten des Streams, der zur
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
 
-![](3d-view-issues.resources/3dview-height-without-normals.gif){width="256px"}
+![](3d-view-issues.resources/3d-view-issues-01.gif){width="256px"}
 
 </td>
 </tr>
@@ -183,12 +183,12 @@ Das gerenderte Bild sieht verschwommen oder verpixelt aus, wenn das System *Anze
 
 Standardmäßig verwendet Designer die *skalierte* Anzeigeauflösung, um die Renderauflösung der [3D-Ansicht](../../interface/3d-view/3d-view.md) zu definieren. Sie können dies so ändern, dass die *native* Anzeigeauflösung stattdessen für ein scharfes Rendering verwendet wird.
 
-Öffnen Sie das Menü **Bearbeiten** und wählen Sie die Option **Voreinstellungen...**-Option. Öffnen Sie im Fenster &quot;[Voreinstellungen](../../interface/preferences-window/preferences-window.md)&quot; den Abschnitt &quot;**3D-Ansicht**&quot;, und legen Sie den Parameter &quot;**Parameterskalierung**&quot; auf &quot;*Keine*&quot; fest.&quot;
+Öffnen Sie das Menü **Bearbeiten** und wählen Sie die Option **Voreinstellungen...**-Option. Öffnen Sie im Fenster [Voreinstellungen](../../interface/preferences-window/preferences-window.md) den Abschnitt **3D-Ansicht**, und legen Sie den Parameter **Viewport-Skalierung** auf *Keine* fest.
 
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
 
-![](3d-view-issues.resources/demo-viewport-scaling-option.png){width="256px"}
+![](3d-view-issues.resources/3d-view-issues-02.png){width="256px"}
 
 </td>
 </tr>
@@ -202,11 +202,11 @@ Nach dem Upgrade von Designer auf Version 15.0.0 kann ich den Parameter &quot;Te
 
 **![(tick)](3d-view-issues.resources/check.svg) Empfohlene Schritte**
 
-Wenn Sie die neuen Renderer (Rasterprogramm und GPU-Pathtracer) verwenden, finden Sie den &quot;Tessellation-Faktor&quot; in den Eigenschaften dieser Renderer. Wechseln Sie in der 3D-Ansicht zu <b>Renderer > Einstellungen bearbeiten</b>. Die Eigenschaft wird im Eigenschaften-Dock aufgelistet.
+Bei Verwendung der neuen Renderer (Rasterprogramm und GPU-Pathtracer) finden Sie den &quot;Tessellationsfaktor&quot; in den Eigenschaften dieser Renderer. Wechseln Sie in der 3D-Ansicht zu <b>Renderer > Einstellungen bearbeiten</b>. Die Eigenschaft wird im Eigenschaften-Dock aufgelistet.
 
 >[!NOTE]
 >
-> Der Umfang der Tessellation variiert je nach Renderer:
+> Der Umfang der Tesselierung variiert je nach Renderer:
 > 
 > * Rastergerät/GPU-Pathtracer: einem eindeutigen Wert, der global auf die gesamte Szene angewendet wird.
 > * OpenGL: ein Wert pro Material.
@@ -220,7 +220,7 @@ Die Schattierung von Objekten beruht auf ihren Normal-, Tangente- und binormal-V
 
 Beispiel: Eine Skala von 2 und ein Bias von -1 passen den x-Wert von `[0, 1]` an `[-1, 1]` an: `x * 2 - 1`
 
-Designer wendet keine Standardskala und -abweichung an, es sei denn, sie werden von einem 3D-Mesh angegeben. Wenn diese Informationen fehlen, wird in der Konsole eine Warnung ausgelöst, wenn [eines der Material überschrieben wird](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md):
+Designer wendet keine Standardskala und -abweichung an, es sei denn, sie werden durch ein 3D-Gitter angegeben. Wenn diese Informationen fehlen, wird in der Konsole eine Warnung ausgelöst, wenn [eines der Material überschrieben wird](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md):
 
 ```
 [SceneGraph]No 'scale' or 'bias' defined on the UsdUVTexture shader '/root/material/<materialName>' (the rendering may be incorrect)
@@ -229,9 +229,9 @@ Designer wendet keine Standardskala und -abweichung an, es sei denn, sie werden 
 
 **![(tick)](3d-view-issues.resources/check.svg) Empfohlene Schritte**
 
-Für Szenen, die vor einiger Zeit in USD exportiert wurden: Exportieren Sie die Szene erneut mit einer aktuellen Version von USD, die die erforderlichen Daten enthält. Achten Sie auf Eigenschaften im Zusammenhang mit der normalen Skalierung und der Voreinstellung, sofern vorhanden, die von der Software abhängen, die zum Exportieren der Szene verwendet wird.
+Für Szenen, die vor einiger Zeit in USD-Formate exportiert wurden: Exportieren Sie die Szene erneut mit einer aktuellen Version von USD, die die erforderlichen Daten enthält. Achten Sie auf Eigenschaften im Zusammenhang mit der normalen Skalierung und der Voreinstellung, sofern vorhanden, die von der Software abhängen, die zum Exportieren der Szene verwendet wird.
 
-Wenn [&#x200B; ein Material &#x200B;](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) überschreibt, verarbeitet Designer den Mesh und berechnet alle fehlenden Daten, die sich auf seine Normalen, Tangenten und Binormalitäten beziehen. Wenn die Standardeinstellungen für Skalierung und Bias von Designer mit denen für das Gitter übereinstimmen, wird das Gitter korrekt angezeigt, wenn es überschrieben wird.
+Wenn [ ein Material ](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) überschreibt, verarbeitet Designer den Mesh und berechnet alle fehlenden Daten, die sich auf seine Normalen, Tangenten und Binormalitäten beziehen. Wenn die Standardeinstellungen für Skalierung und Bias von Designer mit denen für das Gitter übereinstimmen, wird das Gitter korrekt angezeigt, wenn es überschrieben wird.
 
 ## Absturz beim Starten der 3D-Ansicht
 

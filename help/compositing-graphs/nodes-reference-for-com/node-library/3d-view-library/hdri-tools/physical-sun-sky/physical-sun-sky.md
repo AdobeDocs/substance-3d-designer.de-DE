@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/physical-sun-sky.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/physical-sun-sky.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Physical SunSky, um physikalisch genaue Sonne- und Himmelslichtumgebungen für eine realistische Materialvorschau zu generieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Physische SunSky
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](physical-sun-sky.resources/panorama-physical-sun-sky.png){width="200px"}
+![](physical-sun-sky.resources/physical-sun-sky-01.png){width="200px"}
 
 <b>In:</b> 3D-Ansicht > HDRI-Werkzeugs
 
@@ -59,7 +59,7 @@ Implementierung von physischer Sonne und Himmel auf Basis des Hosek-Wikie-Skylig
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="physical-sun-sky.resources/sky-ex.gif" />
+            <img src="physical-sun-sky.resources/physical-sun-sky-02.gif" />
         </td>
     </tr>
 </table>

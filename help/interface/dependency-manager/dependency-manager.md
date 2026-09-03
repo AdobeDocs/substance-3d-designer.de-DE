@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/dependency-manager.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/dependency-manager.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Abhängigkeitsmanager in Substance 3D Designer, um Ressourcenabhängigkeiten in Ihren Projekten anzuzeigen und zu verwalten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Abhängigkeitsmanager
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 5%
@@ -24,4 +24,4 @@ Mit dem <b>Abhängigkeitsmanager</b> können Sie alle Abhängigkeiten Ihres Pake
 
 Sie können darauf zugreifen, indem Sie im Explorer mit der rechten Maustaste auf ein Paket klicken und im Kontextmenü die Option &quot;Abhängigkeitsmanager&quot; auswählen.
 
-![Abhängigkeitsmanager](dependency-manager.resources/dependency-manager.png "Abhängigkeitsmanager")
+![Abhängigkeitsmanager](dependency-manager.resources/dependency-manager-01.png "Abhängigkeitsmanager")

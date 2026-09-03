@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/2d-view/color-sampler.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view/color-sampler.html"
 breadcrumb-title: ''
 description: Verwende das Farb-Sampler-Werkzeug in der 2D-Ansicht, um Farben aus Texturen aufzunehmen und sie präzise aufeinander abzustimmen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Farbaufnahme-Werkzeug
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Farbaufnahme-Werkzeug
 
-![Farbaufnahme-Werkzeug](color-sampler.resources/color-sampler-demo.png "Farbaufnahme-Werkzeug"){zoomable="yes"}
+![Farbaufnahme-Werkzeug](color-sampler.resources/color-sampler-01.png "Farbaufnahme-Werkzeug"){zoomable="yes"}
 
 Mit dem Color Sampler-Tool können Sie <b>den Wert eines bestimmten Pixels</b> in der [2D-Ansicht](../../../interface/2d-view/2d-view.md) verfolgen, während Sie Parameter anpassen oder Knoten wechseln.
 
@@ -30,16 +30,16 @@ Es platziert einen Pin im Viewport und tastet die Farbe und Position des Pixels 
 
 Führen Sie die folgenden Schritte aus, um auf das Tool zuzugreifen und es zu verwenden:
 
-1. Klicken Sie in der 2D-Ansichtssymbolleiste auf die Schaltfläche ![](color-sampler.resources/color-sampler-information-button.png) <b>Information</b>, um das Informationsdock und die Symbolleiste zu öffnen.
-1. Klicken Sie in der Informationssymbolleiste auf die Schaltfläche ![](color-sampler.resources/color-sampler-tool-icon.png) <b>Sampler-Farbwerkzeug</b>.
-1. Klicken Sie im Viewport auf das Pixel, das Sie aufnehmen möchten, um einen ![](color-sampler.resources/color-sampler-pin-icon.png) <b>Pin</b> zu platzieren.
+1. Klicken Sie in der 2D-Ansichtssymbolleiste auf die Schaltfläche ![](color-sampler.resources/color-sampler-02.png) <b>Information</b>, um das Informationsdock und die Symbolleiste zu öffnen.
+1. Klicken Sie in der Informationssymbolleiste auf die Schaltfläche ![](color-sampler.resources/color-sampler-03.png) <b>Sampler-Farbwerkzeug</b>.
+1. Klicken Sie im Viewport auf das Pixel, das Sie aufnehmen möchten, um einen ![](color-sampler.resources/color-sampler-04.png) <b>Pin</b> zu platzieren.
 1. Prüfen Sie die Stichprobenwerte im Abschnitt &quot;Spezielle Daten&quot; im Informationsdock.
-1. Wenn Sie mit dem Tool fertig sind, klicken Sie auf die Schaltfläche ![](color-sampler.resources/color-sampler-remove-pin.png) <b>Löschen</b>, um den Pin aus dem Viewport zu entfernen.\
+1. Wenn Sie mit dem Tool fertig sind, klicken Sie auf die Schaltfläche ![](color-sampler.resources/color-sampler-05.png) <b>Löschen</b>, um den Pin aus dem Viewport zu entfernen.\
    Sie können den Pin auch entfernen, indem Sie auf den RMB klicken und die Aktion &quot;Löschen&quot; im Kontextmenü auswählen.
 
 Hier ist eine Demonstration des Werkzeugs in Aktion:
 
-![Farbaufnehmer: mit dem Tool](color-sampler.resources/color-sampler-demo.gif "Farbaufnehmer: Verwenden des Tools "){zoomable="yes"}
+![Farbaufnehmer: mit dem Tool](color-sampler.resources/color-sampler-06.gif "Farbaufnehmer: Verwenden des Tools "){zoomable="yes"}
 
 *Zum Vergrößern klicken*
 
@@ -50,7 +50,7 @@ Die kopierten Werte können mithilfe einer Farbminiatur </b> <b> in Parameter ei
 
 Die Farbminiaturen im Informationsbedienfeld können auch direkt auf die Farbminiaturen dieser Parameter gezogen und abgelegt werden.
 
-![Farbaufnehmer: RGBA-Werte kopieren](color-sampler.resources/color-sampler-demo-copy-rgba-values.gif "Farbaufnehmer: RGBA-Werte kopieren"){zoomable="yes"}
+![Farbaufnehmer: RGBA-Werte kopieren](color-sampler.resources/color-sampler-07.gif "Farbaufnehmer: RGBA-Werte kopieren"){zoomable="yes"}
 
 
 
@@ -76,7 +76,7 @@ Die Informationen sind in drei Typen und zwei Formate unterteilt.
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Aufgenommene Informationen](color-sampler.resources/color-sampler-information.png "Aufgenommene Informationen"){zoomable="yes"}
+![Aufgenommene Informationen](color-sampler.resources/color-sampler-08.png "Aufgenommene Informationen"){zoomable="yes"}
 
 </td>
 </tr>

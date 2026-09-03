@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/mask-to-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/mask-to-paths.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "In Pfade maskieren", um Maskentexturen in Pfaddaten für die prozedurale Pfadgenerierung zu konvertieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Auf Pfade maskieren
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](mask-to-paths.resources/mask-to-paths-icon.png "Knotensymbol")
+![Knotensymbol](mask-to-paths.resources/mask-to-paths-01.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Path Tools
 
@@ -92,11 +92,11 @@ Die generierten Pfade können mithilfe dedizierter Knoten weiter verarbeitet wer
 <table>
   <tr>
     <td>
-      <img src="mask-to-paths.resources/MaskToPaths-Variant2-Before.jpg" alt="MaskToPaths-Variant2-Before">
+      <img src="mask-to-paths.resources/mask-to-paths-02.jpg" alt="MaskToPaths-Variant2-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="mask-to-paths.resources/MaskToPaths-Variant2-After.jpg" alt="MaskToPaths-Variant2-After">
+      <img src="mask-to-paths.resources/mask-to-paths-03.jpg" alt="MaskToPaths-Variant2-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -108,11 +108,11 @@ Die generierten Pfade können mithilfe dedizierter Knoten weiter verarbeitet wer
 <table>
   <tr>
     <td>
-      <img src="mask-to-paths.resources/MaskToPaths-Variant1-Before.jpg" alt="MaskToPaths-Variant1-Before">
+      <img src="mask-to-paths.resources/mask-to-paths-04.jpg" alt="MaskToPaths-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="mask-to-paths.resources/MaskToPaths-Variant1-After.jpg" alt="MaskToPaths-Variant1-After">
+      <img src="mask-to-paths.resources/mask-to-paths-05.jpg" alt="MaskToPaths-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -126,12 +126,12 @@ Die generierten Pfade können mithilfe dedizierter Knoten weiter verarbeitet wer
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](mask-to-paths.resources/MaskToPaths-Demo2.gif "Knotenbeispiel 2"){zoomable="yes"}
+![Knotenbeispiel 2](mask-to-paths.resources/mask-to-paths-06.gif "Knotenbeispiel 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](mask-to-paths.resources/MaskToPaths-Demo1.gif "Knotenbeispiel 1"){zoomable="yes"}
+![Knotenbeispiel 1](mask-to-paths.resources/mask-to-paths-07.gif "Knotenbeispiel 1"){zoomable="yes"}
 
 </td>
 </tr>
@@ -141,12 +141,12 @@ Die generierten Pfade können mithilfe dedizierter Knoten weiter verarbeitet wer
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 3: Startmodi](mask-to-paths.resources/MaskToPaths-Demo3.gif "Knotenbeispiel 3: Startmodi"){zoomable="yes"}
+![Knotenbeispiel 3: Startmodi](mask-to-paths.resources/mask-to-paths-08.gif "Knotenbeispiel 3: Startmodi"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 3: Bestellmodi](mask-to-paths.resources/MaskToPaths-Demo4.gif "Knotenbeispiel 3: Bestellmodi"){zoomable="yes"}
+![Knotenbeispiel 3: Bestellmodi](mask-to-paths.resources/mask-to-paths-09.gif "Knotenbeispiel 3: Bestellmodi"){zoomable="yes"}
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
 breadcrumb-title: ''
 description: Mit dem Knoten "Pfadevorschau" können Sie Pfaddaten in den 2D-Ansichten für das Debuggen und die Überprüfung anzeigen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vorschau von Pfaden
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](preview-paths.resources/preview-paths-icon.png "Knotensymbol")
+![Knotensymbol](preview-paths.resources/preview-paths-01.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Path Tools
 
@@ -66,12 +66,12 @@ Sie erhalten ein ähnliches Ergebnis wie die <b>Vorschau</b>-Ausgabe der [Maske 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](preview-paths.resources/PathsToSpline-Variant2-Before_1.jpg "Knotenbeispiel 1")
+![Knotenbeispiel 1](preview-paths.resources/preview-paths-02.jpg "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](preview-paths.resources/PathsToSpline-Variant1-Before_1.jpg "Knotenbeispiel 2")
+![Knotenbeispiel 2](preview-paths.resources/preview-paths-03.jpg "Knotenbeispiel 2")
 
 </td>
 </tr>

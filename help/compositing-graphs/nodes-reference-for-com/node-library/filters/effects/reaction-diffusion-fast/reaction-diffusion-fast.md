@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Reaktionsdiffusionsgeschwindigkeit", um organische Muster mithilfe von schnellen Reaktionsdiffusionsalgorithmen für prozedurale Texturen zu generieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Reaktionsdiffusionsgeschwindigkeit
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Symbol für Reaktions-Diffusionsknoten](reaction-diffusion-fast.resources/reaction-diffusion.png "Symbol für Reaktions-Diffusionsknoten")
+![Symbol für Reaktions-Diffusionsknoten](reaction-diffusion-fast.resources/reaction-diffusion-fast-01.png "Symbol für Reaktions-Diffusionsknoten")
 
 <b>In:</b> Filters > Effects
 
@@ -74,17 +74,17 @@ Dieser Knoten ist für die Leistung optimiert und bietet ein gewisses Maß an Pr
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Beispiel 1](reaction-diffusion-fast.resources/reactdiff03.png "Beispiel 1")
+![Beispiel 1](reaction-diffusion-fast.resources/reaction-diffusion-fast-02.png "Beispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Beispiel 2](reaction-diffusion-fast.resources/reactdiff02.png "Beispiel 2")
+![Beispiel 2](reaction-diffusion-fast.resources/reaction-diffusion-fast-03.png "Beispiel 2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Beispiel 3](reaction-diffusion-fast.resources/reactdiff01.gif "Beispiel 3")
+![Beispiel 3](reaction-diffusion-fast.resources/reaction-diffusion-fast-04.gif "Beispiel 3")
 
 </td>
 </tr>

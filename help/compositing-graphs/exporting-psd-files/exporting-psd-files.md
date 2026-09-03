@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/exporting-psd-files.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-psd-files.html"
 breadcrumb-title: ''
 description: Erfahre, wie du Compositing-Substance als PSD-Dateien exportieren kannst, um sie in Adobe Photoshop und anderen Workflows für die Bildbearbeitung zu verwenden.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Exportieren von PSD-Dateien
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 1%
@@ -26,13 +26,13 @@ Mit Substance 3D Designer können Texturen in ein Adobe Photoshop-Dokument oder 
 
 ## PSD-Exportdialog
 
-Das Dialogfeld &quot;PSD-Export&quot; kann nur mit einem einzigen Verfahren geöffnet werden. Klicken Sie in der [Diagrammansicht](../../interface/the-graph-view/the-graph-view.md) des Diagramms, das Sie auf die PSD exportieren möchten, auf die Schaltfläche ![](exporting-psd-files.resources/image2019-9-17-14-44-17.png) <b>Tools</b> und wählen Sie <b>PSD Exporter</b> aus. Die Schnittstelle wird in der <b>Diagrammansicht</b> sichtbar.
+Das Dialogfeld &quot;PSD-Export&quot; kann nur mit einem einzigen Verfahren geöffnet werden. Klicken Sie in der [Diagrammansicht](../../interface/the-graph-view/the-graph-view.md) des Diagramms, das Sie auf die PSD exportieren möchten, auf die Schaltfläche ![](exporting-psd-files.resources/exporting-psd-files-01.png) <b>Tools</b> und wählen Sie <b>PSD Exporter</b> aus. Die Schnittstelle wird in der <b>Diagrammansicht</b> sichtbar.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![PSD Exporter-Benutzeroberfläche](exporting-psd-files.resources/psd-dialog.png "PSD Exporter-Benutzeroberfläche")
+![PSD Exporter-Benutzeroberfläche](exporting-psd-files.resources/exporting-psd-files-02.png "PSD Exporter-Benutzeroberfläche")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -51,8 +51,8 @@ Das Dialogfeld &quot;PSD-Export&quot; kann nur mit einem einzigen Verfahren geö
 
 Da Photoshop Multi-Output-Materialien nicht direkt unterstützt, gibt es mehrere Möglichkeiten, Ihren PSD einzurichten. Im Folgenden finden Sie eine Übersicht über die am häufigsten verwendeten Methoden.
 
-* Richten Sie eine Reihe von Ordnern für alle Ihre Ausgaben ein. Ein Ordner für &quot;Basecolor&quot;, ein Ordner für &quot;Normal&quot;, ein Ordner für &quot;Rauheit&quot; usw.
+* Richten Sie eine Reihe von Ordnern für alle Ihre Ausgaben ein. Ein Ordner für &quot;Grundfarbe&quot;, ein Ordner für &quot;Normal&quot;, ein Ordner für &quot;Raueit&quot; usw.
 * Ziehen Sie Ihre Ausgaben mit der rechten Maustaste und legen Sie sie in der entsprechenden Gruppe ab. Wenn Sie die Dinge einfach halten wollen, kann die PSD nur an dieser Stelle belassen werden.
-* So erweitern Sie die PSD: Arbeite dich wieder links vom Graf nach vorne, indem du die relevanten Zwischenschritte deines Grafen in der entsprechenden Gruppe ablegst. Es ist nicht möglich, Ebenen zwischen Ausgaben/Gruppen zu teilen.
+* So erweitern Sie die PSD: Arbeite dich zurück links vom Diagramm, indem du die relevanten Schritte zwischen den Schritten deines Diagramms in der entsprechenden Gruppe ablegst. Es ist nicht möglich, Ebenen zwischen Ausgaben/Gruppen zu teilen.
 
-In den seltenen Fällen, in denen Ihr PSD die wichtigere Ausgabe ist, können Sie Ihren Graf so erstellen, dass Sie nur Füllmethoden verwenden. In diesem Fall sollte es möglich sein, eine editierbarere Version Ihres Grafen als Dokument mit Ebenen neu zu erstellen.
+In den seltenen Fällen, in denen Ihr PSD die wichtigere Ausgabe ist, können Sie Ihr Diagramm so erstellen, dass Sie nur Füllmethoden verwenden. In diesem Fall sollte es möglich sein, eine editierbarere Version Ihres Diagramms als Dokument mit Ebenen neu zu erstellen.

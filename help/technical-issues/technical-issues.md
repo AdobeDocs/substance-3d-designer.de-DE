@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/technical-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues.html"
 breadcrumb-title: ''
 description: Hier finden Sie Anleitungen zur Fehlerbehebung für technische Probleme in Substance 3D Designer, um Probleme schnell zu beheben.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Technische Probleme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 9%
@@ -64,7 +64,7 @@ Geben Sie eine <b>gültige E-Mail-Adresse</b> frei, damit wir Sie kontaktieren k
 </td>
 <td style="border: 0;" valign="top">
 
-![Dialogfeld für Absturz-Bericht](technical-issues.resources/crash-reporter-2.png "Dialogfeld für Absturz-Bericht"){zoomable="yes"}
+![Dialogfeld für Absturz-Bericht](technical-issues.resources/technical-issues-01.png "Dialogfeld für Absturz-Bericht"){zoomable="yes"}
 
 *Zum Vergrößern klicken*
 
@@ -91,7 +91,7 @@ Sie können uns über das Problem im Feld &quot;Beschreibung&quot; informieren, 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dialogfeld &quot;Fehlerbericht&quot;](technical-issues.resources/bug-reporter.png "Dialogfeld &quot;Fehlerbericht&quot;"){zoomable="yes"}
+![Dialogfeld &quot;Fehlerbericht&quot;](technical-issues.resources/technical-issues-02.png "Dialogfeld &quot;Fehlerbericht&quot;"){zoomable="yes"}
 
 *Zum Vergrößern klicken*
 

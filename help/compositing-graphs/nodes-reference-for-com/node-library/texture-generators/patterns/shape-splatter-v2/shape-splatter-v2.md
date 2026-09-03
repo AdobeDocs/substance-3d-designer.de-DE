@@ -1,7 +1,7 @@
 ---
 title: Form-Splätter v2
 description: Designer > Substance von Compositing-Graphen > Knotenreferenz für Substance-Compositing-Graphen > Knotenbibliothek > Generator > Muster > Formspritzer v2
-source-git-commit: f688c618b01d3ca8059e67cf0797268e44e94b17
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '4234'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Symbol für Shape-Splatter v2](shape-splatter-v2.resources/shape-splatter-v2.png "Symbol für Shape-Splatter v2")
+![Symbol für Shape-Splatter v2](shape-splatter-v2.resources/shape-splatter-v2-01.png "Symbol für Shape-Splatter v2")
 
 <b>In:</b> Generator > Pattern
 
@@ -35,7 +35,7 @@ Streuung von Formen auf einem Hintergrund-Height mit erweiterten Streuungsfunkti
 > Die von diesem Knoten generierten Daten können mit den anderen Knoten in der Shape-Splatter-V2-Familie verwendet werden:
 > * [Zuordnungsfarbe für Shape-Splatter v2](../shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.md)
 > * [Graustufen-Zuordnungs-Splatter v2](../shape-splatter-v2-mapper-grayscale/shape-splatter-v2-mapper-grayscale.md)
-> * [Form platzieren v2 auf Maske &#x200B;](../shape-splatter-v2-to-mask/shape-splatter-v2-to-mask.md)
+> * [Form platzieren v2 auf Maske ](../shape-splatter-v2-to-mask/shape-splatter-v2-to-mask.md)
 > 
 > Mit den [Rasteratlas color](../grid-atlas-color/grid-atlas-color.md) können Sie Bilder in einen Atlas mit benutzerdefinierter Größe packen, bis zu 16 Muster in 4*4 Zellen.
 
@@ -56,10 +56,10 @@ Streuung von Formen auf einem Hintergrund-Height mit erweiterten Streuungsfunkti
 | <b>Height-Offsetzuordnung</b> *Graustufen* | Eine Graustufenzuordnung, bei der den Formen entsprechend dem Drehpunkt der Formen Werte gleichmäßig hinzugefügt werden.<br><br>Der Beitrag der Map wird durch den <b>Height-Offset-Map-Multiplikator</b> gesteuert. |
 | <b>Height-Skalierungszuordnung</b> *Graustufen* | Eine Graustufenzuordnung, bei der Werte als Faktor für das Height der Formen verwendet werden.<br><br>Der Beitrag der Map wird durch den <b>Height-Skalierungsmapmultiplikator</b> gesteuert. |
 | <b>Formskalierungszuordnung</b> *Graustufen* | Eine Graustufen-Map, deren Werte als Faktor für die Skalierung der Formen verwendet werden.<br><br>Der Beitrag der Karte wird durch den <b>Skalierungszuordnungsvervielfacher</b>-Parameter gesteuert. |
-| <b>Formdrehung</b> *Graustufen* | Eine Graustufenzuordnung, bei der der 3D-Drehung von Formen Werte hinzugefügt werden, die durch die Faktoren pro Achse angepasst werden, die durch den <b>3D-Rotation Map-Multiplikator</b> bereitgestellt werden. |
+| <b>Formdrehung</b> *Graustufen* | Eine Graustufenzuordnung, bei der der 3D-Drehung von Formen Werte hinzugefügt werden, die durch die Faktoren pro Achse angepasst werden, die durch den Parameter <b>3D-Rotation Map-Multiplikator</b> bereitgestellt werden. |
 | <b>Vektorzuordnung</b> *Farbe* | Eine Map, die Richtungsvektoren beschreibt, die verwendet werden können, um die Drehung und/oder Position von Formen mithilfe der folgenden Parameter zu steuern:<br><br>- <b>Der Vektorzuordnungs-Versatz</b> passt die Auswirkungen der Map zum Verschieben der Formen an.<br>- <b>Der Rotationseingang der Steigung</b> kann auf &quot;Vektorzuordnung&quot; festgelegt werden, um diese Map zum Drehen der Formen mithilfe der zugehörigen Parameter zu verwenden. |
-| <b>Maskenzuordnung</b> *Graustufen* | Das Bild, das zum Maskieren von Formen gemäß dem Schwellenwert <b>Maskenzuordnung</b>.<br><br>verwendet wird, d. h. Formen, die sich in Bereichen der Karte befinden, in denen die Luminanz unter diesem Schwellenwert liegt, werden maskiert. |
-| <b>Mustereingabe 1</b> *Graustufen* | Die Musterzuordnung für das #1, das gestreut wird, wenn <b>Mustertyp</b> auf &quot;Mustereingabe&quot; festgelegt ist.<br><br><i>Tipp:</i> Verwenden Sie eine Height-Auflösung, die der Maximalgröße des gestreuten Musters nahe kommt. |
+| <b>Maskenzuordnung</b> *Graustufen* | Das Bild, das zum Maskieren von Formen gemäß dem Schwellenwert <b>Maskenzuordnung</b>.<br><br>verwendet wird, d. h. Formen, die sich in Kartenbereichen befinden, in denen die Luminanz unter diesem Schwellenwert liegt, werden maskiert. |
+| <b>Mustereingabe 1</b> *Graustufen* | Die Höhen-Map für das #1, das gestreut wird, wenn <b>Mustertyp</b> auf &quot;Mustereingabe&quot; festgelegt ist.<br><br><i>Tipp:</i> Verwenden Sie eine Auflösung, die der maximalen Größe des Musters beim Streuen nahe kommt. |
 | <b>Mustereingabe 2</b> *Graustufen* | Die Musterzuordnung für das #2, das gestreut wird, wenn <b>Mustertyp</b> auf &quot;Mustereingabe&quot; festgelegt ist.<br><br><i>Tipp:</i> Verwenden Sie eine Height-Auflösung, die der Maximalgröße des gestreuten Musters nahe kommt. |
 | <b>Mustereingabe 3</b> *Graustufen* | Die Musterzuordnung für das #3, das gestreut wird, wenn <b>Mustertyp</b> auf &quot;Mustereingabe&quot; festgelegt ist.<br><br><i>Tipp:</i> Verwenden Sie eine Height-Auflösung, die der Maximalgröße des gestreuten Musters nahe kommt. |
 | <b>Mustereingabe 4</b> *Graustufen* | Die Musterzuordnung für das #4, das gestreut wird, wenn <b>Mustertyp</b> auf &quot;Mustereingabe&quot; festgelegt ist.<br><br><i>Tipp:</i> Verwenden Sie eine Height-Auflösung, die der Maximalgröße des gestreuten Musters nahe kommt. |
@@ -100,13 +100,13 @@ Streuung von Formen auf einem Hintergrund-Height mit erweiterten Streuungsfunkti
 | <b>Betrag</b> *Integer* | Die Anzahl der generierten Formen. |
 | <b>Normales Ausgabeformat</b> *Integer* | Das Format der Ausgabe-Normalmap.<br><br>Kehrt den grünen Kanal effektiv um.<br><br>- <b>DirectX:</b> Die Y-Achse zeigt nach oben.<br>- <b>OpenGL:</b> Die Y-Achse zeigt nach unten. |
 | <b>Nicht quadratische Erweiterung</b> *Boolescher Wert* | Bei nicht quadratischen Bildern wird das Formverhältnis beibehalten und die Generierung wird auf die Grenzen des Bildes erweitert. |
-| <b>Formtyp</b> *Integer* | Es gibt mehrere Arten von Formen, die verteilt werden können, wobei jede spezifische Merkmale aufweist.<br><br>Die <b>SDF-Funktion</b> ist ein Funktionsdiagramm, das ein vorzeichenbehaftetes Abstandsfeld (SDF) generiert, das die Oberfläche einer 3D-Form beschreibt. Dies ermöglicht die 3D-Streuung komplexer prozeduraler Formen, die dynamisch variieren können.<br><br><b>Grundformen</b>, berechnet mit einfachen Funktionen für Rayon-/Oberflächenschnittstellen, können jetzt verwendet werden: Cube, Kugel, Zylinder, Ebene, Festplatte<br><br><b>Eingabemuster</b> sind vom Diagramm bereitgestellte Bilder. Diese werden Ebenen zugeordnet und können <i>extrudiert</i> in 3D-Formen werden:<br> - Bildeingabe: Die Muster, die mit den <b>Eingangspins des </b>-Musters verbunden sind.<br> - Rasteratlas: Die Muster werden in ein Atlasbild gepackt, das mit den <b>Rasteratlas</b>-Eingängen verbunden ist. |
+| <b>Formtyp</b> *Integer* | Es gibt mehrere Arten von Formen, die verteilt werden können, wobei jede spezifische Merkmale aufweist.<br><br>Die <b>SDF-Funktion</b> ist ein Funktionsdiagramm, das ein vorzeichenbehaftetes Abstandsfeld (SDF) generiert, das die Oberfläche einer 3D-Form beschreibt. Dies ermöglicht die 3D-Streuung komplexer prozeduraler Formen, die dynamisch variieren können.<br><br><b>Grundformen</b>, berechnet mit einfachen Funktionen für Rayon-/Oberflächenschnittstellen, können jetzt verwendet werden: Cube, Kugel, Zylinder, Ebene, Festplatte<br><br><b>Eingabemuster</b> sind vom Diagramm bereitgestellte Bilder. Diese werden Ebenen zugeordnet und können <i>extrudiert</i> in 3D-Formen werden:<br> - Bildeingabe: Die mit den <b>Nadeln für den Mustereingang #</b> verbundenen Muster.<br> - Rasteratlas: Die Muster werden in ein Atlasbild gepackt, das mit den <b>Rasteratlas</b>-Eingängen verbunden ist. |
 | <b>Größe des Rasteratlas</b> *Integer2* | Die Anzahl der Zeilen und Spalten des Atlas, die für die <b>Rasteratlas</b>-Bildeingaben bereitgestellt werden.<br><br><i>Hinweis:</i> Leere Zellen im Atlas führen zu Lücken in der Formverteilung. |
-| <b>Rasteratlas normal erneut berechnen</b> *Boolescher Wert* | Wenn <i>True</i>, wird die Normalzuordnung, die für die <b>Rasteratlas-Normal</b>-Bildeingabe bereitgestellt wurde, ignoriert, und die Normalen für die für das <b>Rasteratlas-Height</b> bereitgestellten Muster werden von Grund auf neu berechnet.<br><br>Wenn <i>False</i>, wird die Normalmap, die dem <b>Rasteratlas normal</b> bereitgestellt wird, wie vorhanden verwendet.<br><br><i>Hinweis:</i> Die Intensität der Normalen wird gemäß dem <b>Shape extrude-Height angepasst</b>. |
-| <b>Normalformat des Rasteratlas</b> *Integer* | Das Format der Normalzuordnung, das für die <b>Rasteratlas-Normalbildeingabe &quot;</b>&quot; bereitgestellt wird.<br><br>Kehrt den grünen Kanal effektiv um.<br><br>- <b>DirectX:</b> Die Y-Achse zeigt nach oben.<br>- <b>OpenGL:</b> Die Y-Achse zeigt nach unten. |
-| <b>Mustereingabenummer</b> *Integer* | Die Anzahl von Mustern, die als Eingabebilder bereitgestellt werden.<br><br>Fügt dem Knoten so viele <b>Mustereingabe-Pins #</b> hinzu. |
-| <b>Formextrude aktivieren</b> *Boolescher Wert* | Schaltet die Extrusion von Eingabemustern um, indem sie als Height Maps interpretiert werden, was zu komplizierten prozeduralen 3D-Formen führt. |
-| <b>Form extrudiert Symmetrie</b> *Boolescher Wert* | Ermöglicht die symmetrische Vor-/Rückwärtsextrusion der Eingabemuster.<br><br>Die Symmetrieachse ist der <i>Mittelpunkt</i> der Extrusion, was bedeutet, dass sich ihre Position je nach Pivot-Position der Formen ändern kann. |
+| <b>Rasteratlas normal erneut berechnen</b> *Boolescher Wert* | Wenn <i>True</i>, wird die für die <b>Rasteratlas-Normal</b>-Bildeingabe bereitgestellte Normalen-Map ignoriert, und die Normale für die für das <b>Rasteratlas-Height</b> bereitgestellten Muster werden von Grund auf neu berechnet.<br><br>Wenn <i>Falsch</i>, wird die Normalen-Map, die dem <b>Rasteratlas normal</b> bereitgestellt wird, wie vorhanden verwendet.<br><br><i>Hinweis:</i> Die Intensität der Normalen wird gemäß dem <b>Shape-extrudierten Height </b> angepasst. |
+| <b>Normalformat des Rasteratlas</b> *Integer* | Das Format der Normalen-Map, die für die <b>Rasteratlas-Normal</b>-Bildeingabe bereitgestellt wurde.<br><br>Kehrt den grünen Kanal effektiv um.<br><br>- <b>DirectX:</b> Die Y-Achse zeigt nach oben.<br>- <b>OpenGL:</b> Die Y-Achse zeigt nach unten. |
+| <b>Mustereingabenummer</b> *Integer* | Die Anzahl der Muster, die als Eingabebilder bereitgestellt wurden.<br><br>Fügt dem Knoten so viele <b>Nadeln für die Mustereingabe #</b> hinzu. |
+| <b>Formextrude aktivieren</b> *Boolescher Wert* | Schaltet die Extrusion von Eingabemustern um, indem sie als Höhen-Map interpretiert werden, was zu komplexen prozeduralen 3D-Formen führt. |
+| <b>Symmetrie für Shape-Extrusion</b> *Boolescher Wert* | Ermöglicht die symmetrische Vor-/Rückwärtsextrusion der Eingabemuster.<br><br>Die Achse der Symmetrie ist der <i>Mittelpunkt der Extrusion auf halbem Weg</i>, was bedeutet, dass sich die Position entsprechend der Pivot-Position der Formen ändern kann. |
 | <b>Height für Shape-Extrusion</b> *Gleitend* | Die maximale Entfernung der Extrusion im Bildraum, wobei 1 die längste Seite des Bildes ist.<br><br>Dieser Abstand wird auf den Wert <b>Formskalierung</b> skaliert. |
 | <b>Beispiele für das Extrudieren von Formen</b> *Integer* | Die Anzahl von Proben, die zum Zeichnen der Extrusion der Eingabemuster ausgeführt wurden.<br><br>Eine größere Anzahl führt zu glatteren, definierteren Extrusionen auf Kosten einer gewissen Leistung. |
 | <b>Musterfunktion</b> *Gleitend* | Das verfasste Substance-Funktionsdiagramm, das zum Berechnen des Musters verwendet wird, das einer 3D-Ebene SDF zugeordnet ist.<br><br>Diese Muster können auch mithilfe von <b>Shape-Extrusion aktivieren</b> extrudiert werden. |
@@ -119,7 +119,7 @@ Streuung von Formen auf einem Hintergrund-Height mit erweiterten Streuungsfunkti
 | <b>Height-Skalierung</b> *Gleitend* | Ein Multiplikator für das Height der Form, wobei 1 das vollständige Height der Form ist, das im gesamten Height-Bereich des Heights der Form ausgedrückt wird. (Siehe <b>Normalisierter Workflow</b>) |
 | <b>zufällige Skalierung des Heights</b> *Gleitend* | Verkleinert das Height jeder Form zufällig auf das angegebene Seitenverhältnis, wobei 1 bedeutet, dass das Height einer Form vollständig auf 0 verkleinert werden kann. |
 | <b>Height-Skalierungszuordnungsvervielfacher</b> *Gleitend* | Die Intensität der bereitgestellten <b>Height-Skalierungskarte</b>, wobei 1 bedeutet, dass der vollständige Kartenwert mit dem Height der Form multipliziert wird. |
-| <b>Deckkraft für Hintergrundeingabe</b> *Gleitend* | Die Intensität des bereitgestellten <b>Hintergrund-Heights</b>, das in die endgültige Height-Map eingegeben wurde.<br><br>Die Height der Formen und des Hintergrunds werden mit einer &quot;Max. Überblendung&quot; kombiniert, wobei das höhere der beiden verwendet wird. |
+| <b>Deckkraft für Hintergrundeingabe</b> *Gleitend* | Die Intensität des bereitgestellten <b>Background-Heights</b>, das in der endgültigen Höhen-Map eingegeben wurde.<br><br>Die Height der Formen und des Hintergrunds werden mit einer &quot;Max. Überblendung&quot; kombiniert, wobei das höhere der beiden verwendet wird. |
 | <b>Height-Offset vom Hintergrund</b> *Gleitend* | Das Height des Hintergrunds, das dem Height der Formen hinzugefügt werden soll. 1 bedeutet, dass das gesamte Height des Hintergrunds hinzugefügt wird.<br><br>Dies kann verwendet werden, um die Formen auf dem Hintergrund-Height &quot;ruhen&quot; zu lassen. |
 | <b>Mit Hintergrund konform</b> *Gleitend* | Die Stärke der Verformung, die auf das Height der Formen angewendet wird, um das Hintergrundpixel pro Height abzugleichen, wobei 1 eine exakte Übereinstimmung bedeutet.<br><br><i>Hinweis:</i> Dieser Parameter hat keine Auswirkungen, wenn <b>Height vom Hintergrund versetzt</b> = 0 ist. |
 | <b>Steigung im Hintergrund glätten</b> *Gleitend* | Die Intensität der Glättung, die auf das Hintergrundkorrektur-Height angewendet wird, das für die Korrekturen des <b>Height-Versatzes vom Hintergrund</b> und <b>Mit Hintergrund</b> übereinstimmen verwendet wird.<br><br>Dadurch werden die Verformungsfrequenzen und der Height-Offset weicher, was härter als erwünscht sein kann. |
@@ -127,18 +127,18 @@ Streuung von Formen auf einem Hintergrund-Height mit erweiterten Streuungsfunkti
 | <b>zufälliger Height-Offset</b> *Gleitend* | Wendet einen zufälligen Versatz bis zum angegebenen Wert auf das Height der Formen an.<br><br>Der Wert wird im gesamten Height-Bereich des Bildes ausgedrückt. |
 | <b>Height-Offset von ID</b> *Gleitend* | Der Versatz, der auf das Height der Formen gemäß ihrem Verteilungsindex angewendet wird, wobei der Versatz linear von einer Form zur nächsten bis zum angegebenen Wert zunimmt.<br><br>Der Wert kann manuell über den Wert <code>[0, 1] hinaus festgelegt werden.</code> Bereich. |
 | <b>Height-Offset-Zuordnungsmultiplikator</b> *Gleitend* | Passt die Intensität des Versatzes an, der von der <b>Height-Versatzkarte</b> angewendet wird, und zwar unter Verwendung des angegebenen Faktors, wobei 1 bedeutet, dass die Intensitätswerte der Karte unverändert angewendet werden.<br><br>Das gesamte Height der Form wird versetzt, indem der Wert in der Versatzzuordnung an der XY-Schwenkposition hinzugefügt wird.<br><br>Der Multiplikatorwert kann manuell über <code>[0, 1] hinaus festgelegt werden.</code> Bereich. |
-| <b>Größenmodus</b> *Integer* | Die Methode zum Definieren der Größe der gestreuten Formen:<br><br>- <b>Auto:</b> Größe wird als Faktor der Formzellgröße ausgedrückt.<br>- <b>Absolut (Texturraum):</b> Größe wird als Faktor der längsten Seite des Bildes ausgedrückt. |
+| <b>Größenmodus</b> *Integer* | Die Methode zum Definieren der Größe der gestreuten Formen:<br><br>- <b>Auto:</b> Die Größe wird als Faktor der Formzellgröße ausgedrückt.<br>- <b>Absolut (Textur):</b> Die Größe wird als Faktor der längsten Bildseite ausgedrückt. |
 | <b>Größenverhältnis beibehalten</b> *Boolescher Wert* | Passt die Größe der Formen an, um die ursprünglichen Proportionen in nicht quadratischen Rastern und Bildgrößen beizubehalten. |
 | <b>Formskalierung</b> *Gleitend* | Die Größe der Form als Faktor, der durch den <b>Größenmodus</b> definiert wird.<br><br><i>Hinweis:</i> Bei Verwendung der <b>Poisson-Festplatte</b>-Verteilung führt das Anpassen der Größe der Formen dazu, dass sie verschoben werden, um den verfügbaren Speicherplatz zu nutzen. Verwenden Sie den Parameter <b>Shape scale post Poisson</b>, um Formen an Ort und Stelle zu skalieren. |
 | <b>Zufällige Formskalierung</b> *Gleitend* | Verkleinert die Formen nach dem Zufallsprinzip auf den angegebenen Wert, wobei 1 dazu führen kann, dass einige Formen bis auf die Größe Null verkleinert werden. |
 | <b>Zuordnungsmultiplikator skalieren</b> *Gleitend* | Die Intensität des Multiplizierens der Werte in der <b>Form-Skalierungszuordnung</b> mit der Größe der Formen. |
 | <b>Formskalierung nach Poisson</b> *Gleitend* | Ein Skalierungsfaktor, der nach der Poisson-Plattensimulation angewendet wird. |
-| <b>Formgröße</b> *Float3* | Separate Skalierungsfaktoren pro Achse für die Anpassung der Größe der Formen. |
+| <b>Formgröße</b> *Float3* | Unterschiedliche Skalierungsfaktoren pro Achse für die Anpassung der Formgröße |
 | <b>Zufällige Formgröße</b> *Float3* | Verkleinert die Formen um den Zufallsfaktor <i> pro Achse </i> auf den angegebenen Wert, wobei 1 dazu führen kann, dass einige Formen bis auf die Größe Null verkleinert werden. |
 | <b>Zylinderradius</b> *Gleitend* | Der Radius der gestreuten Zylinder SDFs. Der Radius wird als Faktor ausgedrückt, der durch den <b>Größenmodus</b> definiert wird. |
-| <b>Formgröße</b> *Float2* | Separate Skalierungsfaktoren pro Achse für die Anpassung der Größe der Formen. |
+| <b>Formgröße</b> *Float2* | Unterschiedliche Skalierungsfaktoren pro Achse für die Anpassung der Formgröße |
 | <b>Zufällige Formgröße</b> *Float2* | Verkleinert die Formen um den Zufallsfaktor <i> pro Achse </i> auf den angegebenen Wert, wobei 1 dazu führen kann, dass einige Formen bis auf die Größe Null verkleinert werden. |
-| <b>Position zufällig</b> *Gleitend* | Wendet einen zufälligen Versatz auf den XY-Achsen bis zum angegebenen Wert an, wobei 1 die Länge der längsten Seite des Bildes ist. |
+| <b>Position zufällig</b> *Gleitend* | Wendet einen zufälligen Versatz auf die XY-Achsen bis zum angegebenen Wert an, wobei 1 der Länge der längsten Bildseite entspricht. |
 | <b>Zufallsmultiplikator für Position</b> *Float2* | Separate Faktoren pro Achse für den zufälligen Versatz, der auf die Formen auf den XY-Achsen angewendet wird. |
 | <b>Positionsverteilungssequenz</b> *Integer* | Der Algorithmus, mit dem die Formen gleichmäßig im Raum verteilt werden. <br><br>- <b>R2</b>: Auf Basis des goldenen Schnitts. Es ist schnell und bietet gleichmäßigere und scheinbar zufällige Verteilungen, unabhängig von der Anzahl der Formen.<br>- <b>Halton</b>: Basierend auf Primzahlen. Es liefert großartige Ergebnisse für dünne Verteilungen, wird aber langsamer und kann zu sichtbaren Linien führen, wenn die Anzahl der Formen zunimmt.<br><br>Diese Algorithmen werden als <i>quasirandom</i> und <i>low-disppancy</i> bezeichnet, indem sie einer deterministischen Sequenz (quasirandom) folgen, die darauf abzielt, einen Raum gleichmäßig abzudecken (low-disppancy). |
 | <b>Dichte-Map-Multiplikator</b> *Gleitend* | Ein Faktor für den Versatz, der auf die Formen angewendet wird, damit sie in den hellsten Bereichen der <b>Dichte-Map</b> gesammelt werden. |
@@ -147,19 +147,19 @@ Streuung von Formen auf einem Hintergrund-Height mit erweiterten Streuungsfunkti
 | <b>Versatz der Vektorzuordnung</b> *Gleitend* | Ein Faktor für den auf die Formen angewendeten Versatz, indem die RGB-Werte in der <b>Vektorzuordnung</b> zu den XYZ-Koordinaten der Form hinzugefügt werden.<br><br>Der Versatz wird als Faktor für die längste Seite des Bildes angegeben.<br>Beispiel: Ein RGB-Wert von (0,5, 0,5, 0) verschiebt die Formen um die Hälfte ihrer Größe entlang der X- und Y-Achse.<br><br>Ein Parameterwert von 1,0 bedeutet, dass der volle Wert hinzugefügt wird. |
 | <b>Vector Versatz Multiplier</b> *Float3* | Passt den <b>Versatz für die Vektorzuordnung</b> um einen separaten Faktor pro Achse an, wobei 0,0 bedeutet, dass kein Versatz auf diese Achse angewendet wird. |
 | <b>Globaler Offset</b> *Float2* | Ein Versatz, der auf die Position jeder Form &quot;<i>&quot; angewendet wird, nachdem </i> ein beliebiger Height-Versatz, zufällige Versätze und andere Versatz angewendet wurden.<br><br>Das bedeutet, dass das Verschieben der Formen mithilfe dieses Parameters ihre Position, Ausrichtung und Skalierung nicht ändert. |
-| <b>Zeilenpositionsoffset</b> *Gleitend* | Ein Versatz, der gemäß dem Versatzmodus <b>Zeilenposition auf Linien von Formen im Raster angewendet wird.</b> |
-| <b>Offsetmodus für Zeilenposition</b> *Integer* | Die Methode zum Anwenden des <b>Zeilenpositionsoffsets</b> auf die Formen.<br><br>Die <b>All</b>-Methoden wenden den Versatz als Faktor der längsten Seite des Bildes an (d. h. im Texturraum).<br>- <b>All - Horizontal:</b> fügt den Versatzwert schrittweise horizontal zeilenweise um einen Faktor des Zeilenindex hinzu.<br>- <b>All - Vertical:</b> fügt den Versatzwert schrittweise vertikal spaltenweise um einen Faktor des Spaltenindex hinzu.<br><br>Die <b>Quincunx</b>-Methoden wenden den Versatz als Faktor der Zellengröße der Formen an.<br>- <b>Quincunx - Horizontal:</b> Fügt den Versatzwert gleichmäßig in jeder zweiten Zeile hinzu.<br>- <b>Quincunx - Vertikal:</b> Fügt den Versatzwert gleichmäßig in jeder zweiten Spalte hinzu. |
+| <b>Zeilenpositionsoffset</b> *Gleitend* | Ein Versatz, der gemäß dem Versatzmodus <b>Zeilenposition auf Linien von Formen auf dem Raster angewendet wird.</b> |
+| <b>Offsetmodus für Zeilenposition</b> *Integer* | Die Methode zum Anwenden des <b>Zeilenpositionsoffsets</b> auf die Formen.<br><br>Die <b>All</b>-Methoden wenden den Offset als Faktor für die längste Seite des Bildes an (d. h. im Zeilenraum).<br>- <b>All - Horizontal:</b> fügt den Offset-Wert schrittweise horizontal zeilenweise um einen Textur des Zeilenindexes hinzu.<br>- <b>All - Vertical:</b> fügt den Offset-Wert schrittweise vertikal zeilenweise um einen Faktor des Spaltenindex hinzu.<br><br>Die <b>Quincunx</b>-Methoden wenden den Versatz als Faktor der Zellengröße der Formen an.<br>- <b>Quincunx - Horizontal:</b> Fügt den Versatzwert gleichmäßig in jeder zweiten Zeile hinzu.<br>- <b>Quincunx - Vertikal:</b> Fügt den Versatzwert gleichmäßig in jeder zweiten Spalte hinzu. |
 | <b>Pivot-Position (lokal)</b> *Float3* | Passt die Position des Drehpunkts im lokalen Raum der Form an, der sich auf den Ursprung der Transformationen auswirkt. (d. h. Positionsversatz, Drehung und Skalierung)<br><br>Passen Sie beispielsweise die Z-Pivot-Position so an, dass Formen um ihre Grundlinie geschwenkt werden. |
 | <b>3D-Drehung</b> *Float3* | Wendet eine Drehung pro Achse gleichmäßig auf alle Formen in der Anzahl der Windungen an. |
 | <b>zufällige 3D-Drehung</b> *Gleitend* | Ein Faktor für den zufälligen Umfang der Drehung, die auf die Formen bis zum angegebenen Wert (im Uhrzeigersinn oder gegen den Uhrzeigersinn) in der Anzahl der Windungen angewendet wird. |
-| <b>Zufallsmultiplikator für 3D-Drehung</b> *Float3* | Passt den Umfang der zufälligen Drehung an, die durch <b>3D-Drehung zufällig</b> um einen separaten Faktor pro Achse angewendet wird. |
+| <b>Zufallsmultiplikator für 3D-Drehung</b> *Float3* | Passt den Umfang der zufälligen Drehung, die von <b>3D-Drehung zufällig</b> angewendet wird, um einen separaten Faktor pro Achse an. |
 | <b>3D-Rotation Map-Multiplikator</b> *Float3* | Die Intensität, mit der die Werte in der <b>Form-Drehung</b>-Map zur Drehung jeder Form pro Achse hinzugefügt werden, wobei 1 bedeutet, dass die gesamte Drehung hinzugefügt wird. |
 | <b>Drehung um den Normalwert</b> *Gleitend* | Der Betrag der Drehung, die gleichmäßig auf alle Formen um ihre Normale - d.h. ihre lokale Z-Achse - in der Anzahl der Windungen angewendet wird. |
 | <b>Drehung um den normalen Zufallswert</b> *Gleitend* | Wendet eine zufällige Drehung auf jede Form um ihre Normale - d. h. ihre lokale Z-Achse - im Uhrzeigersinn oder gegen den Uhrzeigersinn an, bis zu einer vollen Drehung. |
 | <b>Drehung der Steigung</b> *Gleitend* | Dreht die Formen entsprechend der Steigung des Hintergrunds an ihrer Position.<br>D.h. wendet eine Drehung an, die der des globalen Z-Up-Vektors auf die Normalität des Hintergrund-Heights entspricht.<br><br>Dieser Parameter ist ein Faktor für diese Drehung, wobei 1 bedeutet, dass die volle Drehung angewendet wird.<br><br>Diese Drehung wird anderen Drehungen hinzugefügt, die auf die Formen angewendet werden können. |
-| <b>Eingabe für Drehung der Steigung</b> *Integer* | Die Quelle der Steigung, die zum Antreiben der <b>Steigungen-Drehung verwendet wird</b>.<br><br>- <b>Hintergrund:</b> Die Hintergrundvektortextur wird verwendet, die aus dieser Heights-Map berechnete Normalität ist die Zielrichtung für die Drehung.<br>- <b>Vektorkarte:</b> Die durch die Vektormaptextur angegebenen Heights werden wie für die Zielrichtung der Drehung verwendet.</b> |
-| <b>Vektorzuordnungsvervielfacher</b> *Gleitend* | Dreht die Formen um die Achse, die durch <b>Rotationsachse der Vektorzuordnung</b> angegeben wird, um die Richtung der Vektoren anzupassen, die durch die <b>Textur der Vektorzuordnung</b> beschrieben werden.<br>D.h. wendet eine Drehung an, die gleich der des globalen X-Rechts-Vektors auf die Vektoren in der Textur ist.<br><br>Dieser Parameter ist ein Faktor für diese Drehung, wobei 1 bedeutet, dass die volle Drehung angewendet wird.<br><br>Diese Drehung wird anderen Drehungen hinzugefügt, die auf die Formen angewendet werden können. |
-| <b>Rotationsachse der Vektorzuordnung</b> *Integer* | Die Achse, um die die in der <b>Vektorzuordnung</b> angegebene Drehung ausgeführt werden soll.<br><br>- <b>Normal:</b> Dreht die Formen um ihre Normale, ähnlich wie bei Verwendung des Parameters &quot;Drehung um die Normale&quot;.<br>- <b>Z Achse:</b> Dreht die Formen um die globale Z Achse, ähnlich wie die Z Komponente des Parameters &quot;3D-Drehung&quot; verwendet wird. |
+| <b>Eingabe für Drehung der Steigung</b> *Integer* | Die Quelle der Steigung, die zum Antreiben der Drehung der <b>Steigung verwendet wird</b>.<br><br>- <b>Hintergrund:</b> Die Textur des Hintergrundvektors wird verwendet, die aus dieser Höhen-Map berechnete Normalität ist die Zielrichtung für die Drehung.<br>- <b>Vektorzuordnung:</b> Die von der Textur der Vektorzuordnung angegebenen Heights werden wie für die Zielrichtung der Drehung verwendet.</b> |
+| <b>Vektorzuordnungsvervielfacher</b> *Gleitend* | Dreht die Formen um die durch <b>Vektorzuordnungsdrehrichtung</b> angegebene Achse, um die Achse der Vektoren anzupassen, die durch die <b>Vektorzuordnung</b>-Textur beschrieben werden.<br>D.h. wendet eine Drehung an, die der des globalen X-Rechts-Vektors auf die Vektoren in der Textur entspricht.<br><br>Dieser Parameter ist ein Faktor für diese Drehung, wobei 1 bedeutet, dass die volle Drehung angewendet wird.<br><br>Diese Drehung wird anderen Drehungen hinzugefügt, die auf die Formen angewendet werden können. |
+| <b>Achse der Drehung der Vektorzuordnung</b> *Integer* | Die Achse, um die die in der <b>Vektorzuordnung</b> angegebene Drehung ausgeführt werden soll.<br><br>- <b>Normal:</b> Dreht die Formen um ihre Normale, ähnlich wie bei Verwendung des Parameters &quot;Drehung um Normale&quot;.<br>- <b>Z Achse:</b> Dreht die Formen um die globale Z Achse, ähnlich wie die Z Komponente des Parameters &quot;3D Drehung&quot; verwendet wird. |
 | <b>Zufallsmaske</b> *Gleitend* | Blendet das angegebene Verhältnis der Gesamtmenge der Formen in zufälliger Reihenfolge aus, wobei 1 bedeutet, dass alle Formen ausgeblendet sind.<br><br>Dieser Parameter wird mit der Maskenzuordnung kombiniert. (falls verwendet) |
 | <b>Schwellenwert für Maskenzuordnung</b> *Gleitend* | Der Graustufenwert in der <b>Maskenzuordnung</b>, unter dem Formen ausgeblendet sind.<br><br>Die Karte wird mit dem Parameter <b>Zufällige Maske</b> kombiniert. |
 | <b>UV-Skalierung</b> *Float2* | Ein Multiplikator pro Achse für die UVs der Formen, wobei die Unterteilung mit den Werten zunimmt. |
@@ -174,29 +174,29 @@ Streuung von Formen auf einem Hintergrund-Height mit erweiterten Streuungsfunkti
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-poisson.gif" /><br><i>Poisson-Verteilung</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-02.gif" /><br><i>Poisson-Verteilung</i>
         </td>
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-uniform.gif" /><br><i>Einheitliche Verteilung</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-03.gif" /><br><i>Einheitliche Verteilung</i>
         </td>
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-density-map.gif" /><br><i>Dichte-Map</i>
-        </td>
-    </tr>
-    <tr style="border: 0; background: transparent">
-        <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-rotation.gif" /><br><i>Zufällige 3D-Drehung</i>
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-background-slope.gif" /><br><i>Drehung der Steigung</i>
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-shape-extrusion.gif" /><br><i>Formextrusion</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-04.gif" /><br><i>Dichte-Map</i>
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-sdf.jpg" /><br><i>3D-SDF-Formen</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-05.gif" /><br><i>Zufällige 3D-Drehung</i>
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-06.gif" /><br><i>Drehung der Steigung</i>
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-07.gif" /><br><i>Formextrusion</i>
+        </td>
+    </tr>
+    <tr style="border: 0; background: transparent">
+        <td style="border: 0; background: transparent">
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-08.jpg" /><br><i>3D-SDF-Formen</i>
         </td>
         <td style="border: 0; background: transparent">
         </td>

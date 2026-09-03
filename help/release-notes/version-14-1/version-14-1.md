@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/version-14-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-1.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Designer 14.1, um mehr über die Knotenanordnungstools und die neuen Spline- und Path-Knoten zu erfahren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 14.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Dieses Update enthält neue Funktionen, mit denen Sie die tägliche Nutzung von 
 
 *Freigabedatum: 14. Januar 2025*
 
-![Streuung-Splines auf Splines](version-14-1.resources/fond.png)
+![Streuung-Splines auf Splines](version-14-1.resources/version-14-1-01.png)
 
 ## Splines- und Pfade-Updates
 
@@ -34,12 +34,12 @@ Splines und Pfadknoten wurden in Version 13.0 eingeführt, und dank Ihres Feedba
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Streuung Spline auf Spline-Animation 1](version-14-1.resources/spline1.gif){zoomable="yes"}
+![Streuung Spline auf Spline-Animation 1](version-14-1.resources/version-14-1-02.gif){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Streuung-Splines auf Splines 2](version-14-1.resources/spline2.gif){zoomable="yes"}
+![Streuung-Splines auf Splines 2](version-14-1.resources/version-14-1-03.gif){zoomable="yes"}
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ Splines und Pfadknoten wurden in Version 13.0 eingeführt, und dank Ihres Feedba
 
 Wenn Sie ein sauberes und lesbares Diagramm erstellen möchten, sind die [Knoten-Ausrichtungswerkzeuge](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md) für Sie erstellt und wurden vollständig überarbeitet! Es ist jetzt möglich, die Knoten gleichmäßig (horizontal oder vertikal) zu verteilen, und durch das Ausrichten der Knoten werden Überlappungen durch das saubere Stapeln vermieden. Kirschrot oben: beide Features berücksichtigen die tatsächliche Größe der Knoten!
 
-![Knoten ausrichten](version-14-1.resources/alignment.gif){zoomable="yes"}
+![Knoten ausrichten](version-14-1.resources/version-14-1-04.gif){zoomable="yes"}
 
 ## Kopieren und Einfügen von Parametern
 
@@ -59,7 +59,7 @@ Es ist jetzt möglich, [die Parameter eines Knotens zu kopieren und in einen and
 
 Mit dem neuen [Color Sampler-Tool](../../interface/2d-view/color-sampler/color-sampler.md) in der 2D-Ansicht können Sie den Wert eines ausgewählten Pixels verfolgen, indem Sie einen Pin darauf ablegen. Dies ist sehr nützlich, um sicherzustellen, dass Sie immer die Informationen desselben Pixels über mehrere Knoten in einem Diagramm anzeigen. Öffnen Sie das Bedienfeld &quot;Informationen&quot;, um auf das Tool zuzugreifen und es auszuprobieren!
 
-![Farbaufnehmer: mit dem Tool](version-14-1.resources/color-sampler-demo.gif "Farbaufnehmer: Verwenden des Tools "){width="640px" zoomable="yes"}
+![Farbaufnehmer: mit dem Tool](version-14-1.resources/version-14-1-05.gif "Farbaufnehmer: Verwenden des Tools "){width="640px" zoomable="yes"}
 
 ## Verbesserte Suchfunktion
 
@@ -70,7 +70,7 @@ Das [Knotenfinder](../../interface/the-graph-view/node-finder/node-finder.md)-To
 * Der Fokus wird automatisch auf das Suchfeld gesetzt, wenn das Knotensuchwerkzeug aktiviert wird;
 * Das Layout der Symbolleiste wurde überdacht, um Platz zu sparen.
 
-![Suchsymbolleiste](version-14-1.resources/search-53.png){width="640px"}
+![Suchsymbolleiste](version-14-1.resources/version-14-1-06.png){width="640px"}
 
 ## Videos
 
@@ -78,12 +78,12 @@ Das [Knotenfinder](../../interface/the-graph-view/node-finder/node-finder.md)-To
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Video-Streuung-Splines auf Splines](version-14-1.resources/video_spline.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
+[![Video-Streuung-Splines auf Splines](version-14-1.resources/version-14-1-07.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Funktionen für Videobenutzererlebnisse](version-14-1.resources/video_ux.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
+[![Funktionen für Videobenutzererlebnisse](version-14-1.resources/version-14-1-08.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ Das [Knotenfinder](../../interface/the-graph-view/node-finder/node-finder.md)-To
 * [Funktionsdiagramm] Lange Werte werden überlappend auf &#39;Float&#39;-Knoten angezeigt
 * [Fx-Map] Absturz beim Anzeigen von Quadrant-Knoteneigenschaften
 * [Graph] [UDIM] Mit einer Bildlaufleiste in der UDIM-Liste werden 1.1 1.2 Einträge generiert.
-* [Graph]&#x200B;[Shortcuts] Knoten, der mit einem Shortcut erstellt wurde, wird nach dem Duplizieren des Knotens nicht auf dem vorhandenen Link platziert.
+* [Graph][Shortcuts] Knoten, der mit einem Shortcut erstellt wurde, wird nach dem Duplizieren des Knotens nicht auf dem vorhandenen Link platziert.
 * [Eigenschaften] Falsche Parameteranzeige, wenn der Wert ungültig ist
 * [Publish] Gegenseitige Abhängigkeiten führen beim Veröffentlichen eines Pakets zu einer Endlosschleife.
 * [Publish] Unbeaufsichtigter Fehler bei Verwendung der Aktion &quot;Publish&quot; für ein Paket mit entladener Abhängigkeit

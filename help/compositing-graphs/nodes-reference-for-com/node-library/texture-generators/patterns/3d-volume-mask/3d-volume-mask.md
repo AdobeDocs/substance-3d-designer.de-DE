@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-volume-mask.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-volume-mask.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten 3D-Volumenmaske , um Volumenmasken basierend auf der 3D-Position für erweiterte Material-Effekte zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D-Volumenmaske
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-volume-mask.resources/3dvolumemask.png){width="256px"}
+![](3d-volume-mask.resources/3d-volume-mask-01.png){width="256px"}
 
 <b>In:</b> Generator > Pattern
 
@@ -57,9 +57,9 @@ Der Knoten **3D Volume Mask** generiert eine Darstellung einer *primitiven Form*
 | <b>Skalierung</b> <i>Gleitend</i> | Definiert die *globale*-Skalierung der primitiven Ebene, die *einheitlich* auf alle Achsen angewendet wird. |
 | <b>Größe</b> <i>Float3</i> | Legt die Größe der Form auf jeder Achse fest. |
 | <b>Positionseingabe</b> <i>Integer</i> | Die Methode von *, die Leerzeichen* durch die **Position**-Eingabe darstellt:<br><br>- *UV Position*: Verwenden Sie eine *UV-Map*. Die X/Y (U/V)-Koordinaten werden den R/G-Kanälen zugeordnet. Die Z-Achse wird als *orthogonaler Vorwärtsvektor* angenommen.<br>- *Welt-Raum Position*: Verwenden Sie eine *Positionszuordnung*, um die Grundform im 3D-Raum zuzuordnen. Die X/Y/Z-Koordinaten werden den R/G/B-Kanälen zugeordnet. |
-| <b>UV</b> positionieren <i>Float2</i> | Die Position der Grundform im UV-Raum.<br><br>*Hinweis*: Dieser Parameter ist nur verfügbar, wenn der Parameter **Positionseingabe** auf *UV-Position* festgelegt ist. |
-| <b>Position</b> <i>Float3</i> | Die Position der Grundform im Welt-Raum.<br><br>*Hinweis*: Dieser Parameter ist nur verfügbar, wenn der Parameter **Positionseingabe** auf *Weltraumposition* festgelegt ist. |
-| <b>Drehung</b> <i>Float3</i> | Definiert die Drehung der Form im Welt-Raum. |
+| <b>UV</b> positionieren <i>Float2</i> | Die Position der Grundform im UV-Raum.<br><br>*Hinweis*: Dieser Parameter ist nur verfügbar, wenn der **Positionseingabeparameter** auf *UV-Position* festgelegt ist. |
+| <b>Position</b> <i>Float3</i> | Die Position der Grundform im Welt-Raum.<br><br>*Hinweis*: Dieser Parameter ist nur verfügbar, wenn der Parameter **Positionseingabe** auf *Position des Welt-Raums* festgelegt ist. |
+| <b>Drehung</b> <i>Float3</i> | Definiert die Drehung der Form in Welt-Raum. |
 | <b>Weiche Kante</b> <i>Gleitend</i> | Passt die Breite des *verblassenden Farbverlaufs* von der Oberfläche der Grundform nach innen an. |
 
 ## Beispiele
@@ -67,16 +67,16 @@ Der Knoten **3D Volume Mask** generiert eine Darstellung einer *primitiven Form*
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3dvolumemask-variant.jpg" />
+            <img src="3d-volume-mask.resources/3d-volume-mask-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3dvolumemask-variant2.jpg" />
+            <img src="3d-volume-mask.resources/3d-volume-mask-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3dvolumemask-variant3.jpg" />
+            <img src="3d-volume-mask.resources/3d-volume-mask-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3dvolumemask-variant4.jpg" />
+            <img src="3d-volume-mask.resources/3d-volume-mask-05.jpg" />
         </td>
     </tr>
 </table>

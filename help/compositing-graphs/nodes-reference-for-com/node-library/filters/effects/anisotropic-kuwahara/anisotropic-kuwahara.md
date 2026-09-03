@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/anisotropic-kuwahara.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/anisotropic-kuwahara.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Anisotropic Kuwahara Color-Filter, um stilisierte, malerische Farbeffekte mit Richtungsglättung zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Anisotropische Kuwahara-Farbe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Symbol für anisotrope Kuwahara-Farbe](anisotropic-kuwahara.resources/anisotropic_kuwahara_color.png "Symbol für anisotrope Kuwahara-Farbe"){width="200px"}
+![Symbol für anisotrope Kuwahara-Farbe](anisotropic-kuwahara.resources/anisotropic-kuwahara-01.png "Symbol für anisotrope Kuwahara-Farbe"){width="200px"}
 
 <b>In:</b> Filters > Effects
 
@@ -57,12 +57,12 @@ Links: Anisotropie 0.0 / Rechts: Anisotropie 1.0
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Eine Obstschale mit dem Kuwahara-Filter, aufgetragen mit 0 Anisotropien.](anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_3_before.jpg){zoomable="yes"}
+![Eine Obstschale mit dem Kuwahara-Filter, aufgetragen mit 0 Anisotropien.](anisotropic-kuwahara.resources/anisotropic-kuwahara-02.jpg){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Eine Obstschale mit dem Kuwahara-Filter, aufgetragen mit 0 Anisotropien.](anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_3_after.jpg){zoomable="yes"}
+![Eine Obstschale mit dem Kuwahara-Filter, aufgetragen mit 0 Anisotropien.](anisotropic-kuwahara.resources/anisotropic-kuwahara-03.jpg){zoomable="yes"}
 
 </td>
 </tr>
@@ -93,12 +93,12 @@ Links: Anisotropie 0.0 / Rechts: Anisotropie 1.0
 |------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <b>Radius</b> <i>Gleitend</i> | Der Weichzeichnungsradius, wenn ein höherer Wert zu einem stärkeren Weichzeichnungseffekt führt.   Der Höchstwert ist 32. |
 | <b>Smoothness</b> <i>Gleitend</i> | Passt den Grad der Farbüberblendung in die berechnete Richtung an.   Ist dieser Wert 0, werden die Farben meist in diese Richtung verschoben und es findet nur eine sehr geringe Füllmethode statt. |
-| <b>Schärfe</b> <i>Gleitend</i> | Erhöht den Kontrast in den unscharfen Bereichen und sorgt dafür, dass sie flacher und klarer definiert aussehen. |
-| <b>Anisotropie</b> <i>Gleitend</i> | Passt den Beitrag des Richtungs-Map bei der Weichzeichnung an.   Die Richtungs-Map und alle ihre Modifizierer (sowohl Parameter als auch Eingabemaps) haben weiterhin eine Wirkung, wenn dieser Parameterwert 0 ist, da die Richtungs-Map im Kuwahara-Filterkernel verwendet wird. |
-| <b>Richtungs-Map verwenden</b> <i>Boolescher Wert</i> | Wenn &#39;True&#39;, wird keine Richtungs-Map aus dem Eingabebild berechnet, und das mit dem &#39;Richtungs-Map&#39;-Eingang verbundene Bild wird stattdessen verwendet, um die anisotrope Weichzeichnung zu steuern. |
+| <b>Schärfe</b> <i>Fließkommazahl</i> | Erhöht den Kontrast in den unscharfen Bereichen und sorgt dafür, dass sie flacher und klarer definiert aussehen. |
+| <b>Anisotropie</b> <i>Fließkommazahl</i> | Passt den Beitrag des Richtungs-Map bei der Weichzeichnung an.   Die Richtungs-Map und alle ihre Modifizierer (sowohl die Parameter als auch die Eingabe-Map) haben immer noch eine Wirkung, wenn dieser Parameterwert 0 ist, da die Richtungs-Map im Kuwahara-Filterkernel verwendet wird. |
+| <b>Richtungs-Map verwenden</b> <i>Boolesche Wert</i> | Wenn &#39;True&#39;, wird keine Richtungs-Map aus dem Eingabebild berechnet, und das mit dem &#39;Richtungs-Map&#39;-Eingang verbundene Bild wird stattdessen verwendet, um die anisotrope Weichzeichnung zu steuern. |
 | <b>Smoothness testen</b> <i>Fließkommazahl</i><br><br><i>Verfügbar, wenn &#39;Richtungs-Map verwenden&#39; auf &#39;Falsch&#39; festgelegt ist</i> | Passt die Intensität der Weichzeichnung an, die auf die aus dem Bild berechneten und auf der Richtungs-Map gespeicherten Richtungen angewendet wird.   Eine Erhöhung dieses Werts sorgt für ein glatteres Ergebnis, wenn das Bild viele hochfrequente Details enthält. |
 | <b>Winkel der Anisotropie</b> <i>Fließkommazahl</i><br><br><i>Verfügbar, wenn &#39;Richtungs-Map verwenden&#39; auf &#39;Falsch&#39; festgelegt ist</i> | Fügt dem Richtungs-Map eine Drehung in der Anzahl der Umdrehungen hinzu.   Diese zusätzliche Drehung ist *kumulativ* mit der durch die Eingabe &quot;Anisotropie Angle Map&quot; angegebenen Drehung. |
-| <b>Multiplikator der Winkelzuordnung der Anisotropie</b> <i>Fließkommazahl</i><br><br><i>Verfügbar, wenn &#39;Richtungs-Map verwenden&#39; auf &#39;Falsch&#39; festgelegt ist</i> | Passt die Intensität der Werte in der Eingabe &quot;Drehwinkelkarte&quot; an, die dann über der auf den Richtungs-Map angewendeten Anisotropie in der Anzahl der Windungen hinzugefügt werden.   Diese zusätzliche Drehung ist *kumulativ* mit der durch den Parameter &#39;Winkel der Anisotropie&#39; angegebenen Drehung. |
+| <b>Anisotropy angle-Zuordnungsmultiplikator</b> <i>Fließkommazahl</i><br><br><i>Verfügbar, wenn &#39;Richtungs-Map verwenden&#39; auf &#39;Falsch&#39; festgelegt ist</i> | Passt die Intensität der Werte in der Eingabe &quot;Anisotropy angle Map&quot; an, die dann über der auf den Richtungs-Map angewendeten Drehung in der Anzahl der Windungen hinzugefügt werden.   Diese zusätzliche Drehung ist *kumulativ* mit der durch den Parameter &#39;Winkel der Anisotropie&#39; angegebenen Drehung. |
 | <b>Multiplikator für die Steigungen-Zuordnungseingabe</b> <i>Fließkommazahl</i><br><br><i>Verfügbar, wenn &#39;Richtungs-Map verwenden&#39; auf &#39;Falsch&#39; festgelegt ist</i> | Passt die Intensität an, mit der der Richtungs-Map an die Steigungen angepasst wird, die durch den Eingang &quot;Steigung Map&quot; bereitgestellt werden. |
 | <b>Alpha ignorieren</b> <i>Boolescher Wert</i> | Wenn &quot;True&quot; festgelegt wird, hat der Alphakanal des Bildes keine Auswirkungen auf den Filter.   Wenn &quot;False&quot; festgelegt ist, wird der Filter auch auf den Alphakanal angewendet. |
 
@@ -107,11 +107,11 @@ Links: Anisotropie 0.0 / Rechts: Anisotropie 1.0
 <table>
   <tr>
     <td>
-      <img src="anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_1_before.jpg" alt="anisotropic_kuwahara_color_example_1_before">
+      <img src="anisotropic-kuwahara.resources/anisotropic-kuwahara-04.jpg" alt="anisotropic_kuwahara_color_example_1_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_1_after.jpg" alt="anisotropic_kuwahara_color_example_1_after">
+      <img src="anisotropic-kuwahara.resources/anisotropic-kuwahara-05.jpg" alt="anisotropic_kuwahara_color_example_1_after">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -120,11 +120,11 @@ Links: Anisotropie 0.0 / Rechts: Anisotropie 1.0
 <table>
   <tr>
     <td>
-      <img src="anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_2_before.jpg" alt="anisotropic_kuwahara_color_example_2_before">
+      <img src="anisotropic-kuwahara.resources/anisotropic-kuwahara-06.jpg" alt="anisotropic_kuwahara_color_example_2_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_2_after.jpg" alt="anisotropic_kuwahara_color_example_2_after">
+      <img src="anisotropic-kuwahara.resources/anisotropic-kuwahara-07.jpg" alt="anisotropic_kuwahara_color_example_2_after">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -133,11 +133,11 @@ Links: Anisotropie 0.0 / Rechts: Anisotropie 1.0
 <table>
   <tr>
     <td>
-      <img src="anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_4_before.jpg" alt="anisotropic_kuwahara_color_example_4_before">
+      <img src="anisotropic-kuwahara.resources/anisotropic-kuwahara-08.jpg" alt="anisotropic_kuwahara_color_example_4_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_4_after.jpg" alt="anisotropic_kuwahara_color_example_4_after">
+      <img src="anisotropic-kuwahara.resources/anisotropic-kuwahara-09.jpg" alt="anisotropic_kuwahara_color_example_4_after">
       <br><i>Nach</i>
     </td>
   </tr>

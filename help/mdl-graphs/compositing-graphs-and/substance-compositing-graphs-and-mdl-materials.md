@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance-Grafiken und MDL-Materialien
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Wenn Sie die Option <b>View ausgaben in 3D View</b> für ein Substance-Diagramm 
 
 Einzelne Texturen aus einem Substance-Graphen können mit einem beliebigen MDL-Materialparameter verbunden werden, der die Texturabtastung unterstützt, unabhängig von der Kennung, indem RMB auf dem Substance-Graphknoten gedrückt und in die 3D-Ansicht gezogen wird. Es wird eine Liste der verfügbaren Samplerverwendungen angezeigt, und Sie können die Zielverwendung für die ausgewählte Textur auswählen.
 
-![Verfügbare MDL-Diagrammeingaben](substance-compositing-graphs-and-mdl-materials.resources/mdl-graph-inputs-samplers.png "Verfügbare MDL-Diagrammeingaben")
+![Verfügbare MDL-Diagrammeingaben](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-01.png "Verfügbare MDL-Diagrammeingaben")
 
 *Die von einem Substance-Diagramm ausgegebenen Texturen sind mit den exponierten Parametern eines MDL-Diagramms in der 3D-Ansicht verbunden*
 
@@ -48,16 +48,16 @@ Einzelne Texturen aus einem Substance-Graphen können mit einem beliebigen MDL-M
 Substance-Diagramminstanzen können direkt in MDL-platziert werden, indem sie aus dem Bedienfeld <b>Explorer</b> in das MDL-Diagramm gezogen werden. In MDL-Substance können Diagramme aus <b>Substance 3D-Dateien</b> (SBS) und <b>Substance 3D-Asset-Dateien</b> (SBSAR) verwendet werden.
 
 +++Substance aus Substance 3D-Datei (SBS)
-![Substance-Diagramm aus SBS-Datei im MDL-Diagramm](substance-compositing-graphs-and-mdl-materials.resources/mdl-sbs-instance-hl.png "Substance-Diagramm aus SBS-Datei im MDL-Diagramm")
+![Substance-Diagramm aus SBS-Datei im MDL-Diagramm](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-02.png "Substance-Diagramm aus SBS-Datei im MDL-Diagramm")
 
 
 
-*[Substance-Graph &#x200B;](../../compositing-graphs/substance-compositing-graphs.md)-Instanz aus [Substance 3D-Datei &#x200B;](../../getting-started/overview/overview.md) (SBS) im MDL-Graph*
+*[Substance-Graph ](../../compositing-graphs/substance-compositing-graphs.md)-Instanz aus [Substance 3D-Datei ](../../getting-started/overview/overview.md) (SBS) im MDL-Graph*
 
 +++
 
 +++Substance-Diagramm aus Substance 3D-Element (SBSAR)
-![Substance-Diagramm aus SBSAR-Datei im MDL-Diagramm](substance-compositing-graphs-and-mdl-materials.resources/mdl-sbsar-instance-hl.png "Substance-Diagramm aus SBSAR-Datei im MDL-Diagramm")
+![Substance-Diagramm aus SBSAR-Datei im MDL-Diagramm](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-03.png "Substance-Diagramm aus SBSAR-Datei im MDL-Diagramm")
 
 
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie SBSPRJ-Projektkonfigurationsdateien in Substance 3D Designer verwenden, um Projekteinstellungen zu verwalten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Projektkonfigurationsdateien - SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Sie sind insofern besonders, als Sie mehrere Projektkonfigurationsdateien verwen
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![SBSPRJ-Dateisymbol](project-configuration-files-sbsprj.resources/sbsprj.png "SBSPRJ-Dateisymbol")
+![SBSPRJ-Dateisymbol](project-configuration-files-sbsprj.resources/project-configuration-files-sbsprj-01.png "SBSPRJ-Dateisymbol")
 
 </td>
 </tr>
@@ -61,7 +61,7 @@ Projektdateien können die folgenden Einstellungen enthalten:
 
 <b>Baking: </b>Einstellungen für das Baking von Namenskonventionen.
 
-<b>Allgemein: </b>Graph-Vorlagen, Tangent-Space-Plug-ins, Standard- und Bildformateinstellungen.
+<b>Allgemein: </b>Standardeinstellungen für Graf-Vorlagen, Tangentialraum-Plug-ins, normale und Bildformate.
 
 <b>Bibliothek: </b>Überwachte Pfade zur Anzeige in der Bibliothek.
 
@@ -85,7 +85,7 @@ Unter Windows ist [Notepad++](https://notepad-plus-plus.org) eine gute kostenlos
 
 Sobald Sie die SBSPRJ-Datei in einem Editor geöffnet haben, sollten Sie ein relativ einfaches strukturiertes Layout sehen, mit Abschnitten, die den Registerkarten in der Benutzeroberfläche entsprechen. Nicht jede Einstellung wird hier dokumentiert, da es ziemlich selbsterklärend ist.
 
-![XML-Bearbeitung](project-configuration-files-sbsprj.resources/project-xml.png "XML-Bearbeitung")
+![XML-Bearbeitung](project-configuration-files-sbsprj.resources/project-configuration-files-sbsprj-02.png "XML-Bearbeitung")
 
 ## Relative Pfade und Aliasse
 

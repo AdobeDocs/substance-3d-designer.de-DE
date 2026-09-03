@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-3.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Fraktalsumme 3, um eine fraktale Rauschen mit drei Oktaven zu erzeugen, um organische Texturen zu erzeugen.
+description: Verwenden Sie den Knoten Fraktalsumme 3, um mit drei Oktaven ein fraktales Rauschen zu erzeugen, um organische Texturmuster zu erzeugen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fractal sum 3
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FRAKTALSUMME 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Fraktalsumme 3 - Symbol](fractal-sum-3.resources/fractal_sum_3.png "Fraktalsumme 3 - Symbol"){width="200px"}
+![Fraktalsumme 3 - Symbol](fractal-sum-3.resources/fractal-sum-3-01.png "Fraktalsumme 3 - Symbol"){width="200px"}
 
 <b>In:</b> Texturgeneratoren > Rauschen
 
@@ -65,12 +65,12 @@ Siehe auch: [Fraktalsumme base](../../../../../../compositing-graphs/nodes-refer
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Fraktalsumme 3 - Beispiel 1](fractal-sum-3.resources/fractal_sum_3_1.png "Fraktalsumme 3 - Beispiel 1"){zoomable="yes"}
+![Fraktalsumme 3 - Beispiel 1](fractal-sum-3.resources/fractal-sum-3-02.png "Fraktalsumme 3 - Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Fraktalsumme 3 - Beispiel 2](fractal-sum-3.resources/noise_fractal_sum_3_v2_speed0.6_aniso0.gif "Fraktalsumme 3 - Beispiel 2"){zoomable="yes"}
+![Fraktalsumme 3 - Beispiel 2](fractal-sum-3.resources/fractal-sum-3-03.gif "Fraktalsumme 3 - Beispiel 2"){zoomable="yes"}
 
 </td>
 </tr>

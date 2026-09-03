@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-color.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Spline Bridge Mapper Color , um Texturen mit einer Farbzuordnung zwischen zwei Splines zu überbrücken.
+description: Verwenden Sie den Knoten Spline Bridge Mapper Color , um Texturen zwischen zwei Splines mit Farbzuordnung zu überbrücken.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Bridge Mapper Color
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline-Bridge-Zuordnungsfarbe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-icon.png "Knotensymbol")
+![Knotensymbol](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-01.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -92,11 +92,11 @@ Ordnet ein Farbbild einer Liste von Eingabe-Splines zu, sodass das Bild die Spli
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-mapper-color.resources/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="spline-bridge-mapper-color.resources/spline-bridge-mapper-color-02.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Variant1-After.jpg" alt="SplineBridgeMapperColor-Variant1-After">
+      <img src="spline-bridge-mapper-color.resources/spline-bridge-mapper-color-03.jpg" alt="SplineBridgeMapperColor-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -105,7 +105,7 @@ Ordnet ein Farbbild einer Liste von Eingabe-Splines zu, sodass das Bild die Spli
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Demo.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-04.gif "Knotenbeispiel 2")
 
 </td>
 </tr>
@@ -115,12 +115,12 @@ Ordnet ein Farbbild einer Liste von Eingabe-Splines zu, sodass das Bild die Spli
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Variant1-After1.jpg "Knotenbeispiel 1")
+![Knotenbeispiel 1](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-05.jpg "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Graph.jpg "Knotenbeispiel 2")
+![Knotenbeispiel 2](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-06.jpg "Knotenbeispiel 2")
 
 </td>
 </tr>

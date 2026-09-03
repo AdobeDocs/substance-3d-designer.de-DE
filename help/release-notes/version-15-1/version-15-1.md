@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/version-15-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-1.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Designer 15.1, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 15.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Substance Designer 15.1 bietet ein komplett überarbeitetes Diagrammerstellungsf
 
 *Freigabedatum: 11. Dezember 2025*
 
-![Banner Designer 15.1](version-15-1.resources/bannerweb.png)
+![Banner Designer 15.1](version-15-1.resources/version-15-1-01.png)
 
 ## Diagrammerstellung verbessern
 
@@ -36,13 +36,13 @@ Obwohl die Hauptbenutzeroberfläche aktualisiert wurde, haben Benutzer weiterhin
 
 [Weitere Informationen](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
 
-![Neugestaltung des neuen Diagrammfensters](version-15-1.resources/newgraph.png){zoomable="yes"}
+![Neugestaltung des neuen Diagrammfensters](version-15-1.resources/version-15-1-02.png){zoomable="yes"}
 
 ## Eingebettete Beispiele
 
 Mit dem Start unseres neu gestalteten Fensters zur Diagrammerstellung haben wir eine Vielzahl von [<b>Beispielmaterialien</b>](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md) direkt in der Software hinzugefügt. Diese Verbesserung entspricht Ihrer Anforderung eines besseren Zugangs zu Lernressourcen.
 
-![Neues Diagrammerstellungsfenster für Beispiele](version-15-1.resources/GraphSample.png){zoomable="yes"}
+![Neues Diagrammerstellungsfenster für Beispiele](version-15-1.resources/version-15-1-03.png){zoomable="yes"}
 
 Um diesem Bedarf gerecht zu werden, haben wir Materialproben wie Stoffe (einschließlich Leder und Satin), Holz, Metall, Kunststoff, Keramik und mehr aufgenommen. Anhand dieser Beispiele können Sie Ihre Projekte leicht beginnen und sich mit den wichtigsten Familienknoten vertraut machen, die in Substance 3D Designer verfügbar sind
 
@@ -54,7 +54,7 @@ Neben diesen grundlegenden Materialien haben wir auch <b>erweiterte Beispiele</b
 
 [Weitere Informationen](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)
 
-![Holzprobe im Substance Designer](version-15-1.resources/samplegraph.png){zoomable="yes"}
+![Holzprobe im Substance Designer](version-15-1.resources/version-15-1-04.png){zoomable="yes"}
 
 ## Neue Rauschen
 
@@ -70,7 +70,7 @@ Die vollständige Liste der aktualisierten Geräusche finden Sie unten in den [V
 
 Beispiele:   [Zellen 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [Wolken 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [Richtungskratzer](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [Feuchtigkeitsrauschen 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
-![Geräusche von Richtungsstörungen](version-15-1.resources/directionaldisorder.gif){zoomable="yes"}
+![Geräusche von Richtungsstörungen](version-15-1.resources/version-15-1-05.gif){zoomable="yes"}
 
 ## Hierarchie im Knotenmenü
 
@@ -82,12 +82,12 @@ Die große Anzahl verfügbarer Knoten kann die schnelle Suche nach dem gewünsch
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotensuche mit Kategorie 1](version-15-1.resources/search1-2.png){zoomable="yes"}
+![Knotensuche mit Kategorie 1](version-15-1.resources/version-15-1-06.png){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotensuche mit Kategorie 2](version-15-1.resources/search2.png){zoomable="yes"}
+![Knotensuche mit Kategorie 2](version-15-1.resources/version-15-1-07.png){zoomable="yes"}
 
 </td>
 </tr>
@@ -108,11 +108,11 @@ Spielen Sie mit dem Bild unten, um den Unterschied vor und nach der Standardausg
 <table>
   <tr>
     <td>
-      <img src="version-15-1.resources/defaultouput2.png" alt="defaultouput2">
+      <img src="version-15-1.resources/version-15-1-08.png" alt="defaultouput2">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="version-15-1.resources/defaultouput1.png" alt="Bei der Standardausgabe sind Miniaturansichten immer relevant.">
+      <img src="version-15-1.resources/version-15-1-09.png" alt="Bei der Standardausgabe sind Miniaturansichten immer relevant.">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -126,7 +126,7 @@ Wenn Sie z. B. das Fehlen einer Variablen erkennen, können Sie einen Fallback-W
 
 [Weitere Informationen](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)
 
-![Ist Knoten &#x200B;](version-15-1.resources/isdefined.png){zoomable="yes"} definiert
+![Ist Knoten ](version-15-1.resources/version-15-1-10.png){zoomable="yes"} definiert
 
 ## Versionshinweise
 
@@ -199,8 +199,8 @@ Wenn Sie z. B. das Fehlen einer Variablen erkennen, können Sie einen Fallback-W
 * [3D-Ansicht] Specular level wird nicht korrekt angewendet
 * [3D-Ansicht] Specular edge color funktioniert nicht, wenn Eclair rasterer verwendet wird
 * [3D-Ansicht] Vom Benutzer hinzugefügtes Material wird nicht auf Standardszenen angewendet
-* [3D-Ansicht]&#x200B;[Bäcker] Die Materialfarbe ist zu dunkel, wenn sie einmal überschrieben wurde oder wenn ein &quot;Color&quot;-Bäcker verwendet wird
-* [3D-Ansicht]&#x200B;[Bäcker] Keine Materialfarbe aus FBX-Datei
+* [3D-Ansicht][Bäcker] Die Materialfarbe ist zu dunkel, wenn sie einmal überschrieben wurde oder wenn ein &quot;Color&quot;-Bäcker verwendet wird
+* [3D-Ansicht][Bäcker] Keine Materialfarbe aus FBX-Datei
 * [Bäcker] Materialfarben in FBX-Dateien werden nicht korrekt erkannt
 * [Baker] Die Option &quot;recompute\_tangents&quot; ist in Exporten von JSON-Vorgaben immer &quot;false&quot;.
 * [Bäcker] CLI: Absturz beim aufeinander folgenden Ausführen desselben Bakers über die JSON-Datei

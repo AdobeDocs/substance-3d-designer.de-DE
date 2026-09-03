@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
 breadcrumb-title: ''
 description: Hier erfahren Sie, wie Sie benutzerdefinierte Inhalte und Filter in der Substance 3D Designer-Bibliothek für den organisierten Zugriff auf Elemente verwalten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Verwalten benutzerdefinierter Inhalte und Filter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Auf dieser Seite wird die Methode zum Erstellen von Kategorien und Filtern zum V
 
 ## Überblick
 
-Nachdem [der Bibliothek &#x200B;](../../../interface/preferences-window/project-settings/project-settings.md) benutzerdefinierte Inhalte hinzugefügt wurden, müssen Sie diese *auffindbar* machen.
+Nachdem [der Bibliothek ](../../../interface/preferences-window/project-settings/project-settings.md) benutzerdefinierte Inhalte hinzugefügt wurden, müssen Sie diese *auffindbar* machen.
 
 Die Bibliothek verwendet eine Anzahl von *Datenpunkten*, um Inhalte zu identifizieren, sie zu filtern und in Suchvorgängen anzuzeigen. Zu diesen Datenpunkten gehören:
 
@@ -38,7 +38,7 @@ Benutzerdefinierte Kategorien und Filter können *projektspezifisch* sein und in
 
 Das bedeutet, dass Sie mit einer oder mehreren Projektdateien die Ordner festlegen können, welche Inhalte der <b>Bibliothek</b> hinzugefügt werden sollen, sowie die Kategorien und Filter, die diese Inhalte sortieren und organisieren.
 
-![Benutzerdefinierter Inhalt in Bibliothek](managing-custom-content-and-filters.resources/library-filters.png "Benutzerdefinierter Inhalt in Bibliothek")
+![Benutzerdefinierter Inhalt in Bibliothek](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-01.png "Benutzerdefinierter Inhalt in Bibliothek")
 
 ## Diagrammattribute
 
@@ -57,11 +57,11 @@ Filter sind einfache boolesche (True/False) Suchparameter, die dazu führen, das
 
 Kategorien (d. h. Ordner) und Filter werden mithilfe der folgenden Schaltflächen erstellt und bearbeitet:
 
-<b>![](managing-custom-content-and-filters.resources/library-icon-new-folder.png) Ordner hinzufügen: </b> Erstellt einen erweiterbaren Ordner in der Bibliotheksansicht. *kann keine Unterordner erstellen*.
+<b>![](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-02.png) Ordner hinzufügen: </b> Erstellt einen erweiterbaren Ordner in der Bibliotheksansicht. *kann keine Unterordner erstellen*.
 
-<b>![](managing-custom-content-and-filters.resources/library-icon-new-filter.png) Filter hinzufügen: </b> Fügt einen neuen Filter im ausgewählten Ordner hinzu. *kann* den vorhandenen Standardordnern keine Filter hinzufügen.
+<b>![](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-03.png) Filter hinzufügen: </b> Fügt einen neuen Filter im ausgewählten Ordner hinzu. *kann* den vorhandenen Standardordnern keine Filter hinzufügen.
 
-<b>![](managing-custom-content-and-filters.resources/library-icon-edit.png) Element bearbeiten: </b> Bearbeitet den aktuell ausgewählten Ordner oder Filter. *kann keine der Eigenschaften der Standardordner und -filter* bearbeiten.
+<b>![](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-04.png) Element bearbeiten: </b> Bearbeitet den aktuell ausgewählten Ordner oder Filter. *kann keine der Eigenschaften der Standardordner und -filter* bearbeiten.
 
 Um *einen Ordner oder Filter zu entfernen*, *klicken Sie mit der rechten Maustaste* darauf und wählen Sie im Kontextmenü die Option <b>Entfernen</b>.
 
@@ -76,7 +76,7 @@ Um *einen Ordner oder Filter zu entfernen*, *klicken Sie mit der rechten Maustas
 >
 > Es ist *sehr* wichtig, diese korrekt einzurichten, um sicherzustellen, dass Sie das *richtige Projekt bearbeiten*!
 
-![Edition für benutzerdefinierte Filter](managing-custom-content-and-filters.resources/library-filters-edit.png "Edition für benutzerdefinierte Filter")
+![Edition für benutzerdefinierte Filter](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-05.png "Edition für benutzerdefinierte Filter")
 
 Für **Filter** müssen in der Regel *Bedingungen* eingerichtet sein, um ihren Filterzweck zu erreichen. Diese Bedingungen werden anhand der folgenden Kriterien konfiguriert:
 

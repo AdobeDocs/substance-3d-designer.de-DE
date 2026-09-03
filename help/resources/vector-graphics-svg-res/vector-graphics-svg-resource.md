@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/resources/vector-graphics-svg-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource.html"
 breadcrumb-title: ''
 description: Importiere und verwende SVG-Vektorgrafiken als Ressourcen in Substance 3D Designer für die prozedurale Materialerstellung.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vektorgrafiken (SVG)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Substance 3D Designer unterstützt über das Scalable Vector-Grafikformat nur eine äußerst begrenzte Form von Vektorgrafiken. SVG-Dateien können auf unterschiedliche Weise als Ressourcen eingefügt und als Ressourcen für Ihre Grafiken verwendet werden.
 
-SVG-Dateien [&#x200B; können über den atomaren SVG-Knoten erstellt oder bearbeitet werden.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) Sie können auch von [dem UV-to-SVG-Bäcker erstellt werden.](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
+SVG-Dateien [ können über den atomaren SVG-Knoten erstellt oder bearbeitet werden.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) Sie können auch von [dem UV-to-SVG-Bäcker erstellt werden.](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ SVG-Ressourcen in einem Paket verfügen über eine Reihe von Attributen, die Sie
 | Autoren-URL | Wird zum [Sortieren und Kuratieren der Ressource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in der [Bibliothek](../../interface/the-library/the-library.md) verwendet. |
 | Tags | Wird zum [Sortieren und Kuratieren der Ressource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in der [Bibliothek](../../interface/the-library/the-library.md) verwendet. |
 | Benutzerdaten | Optionale zusätzliche Daten, nicht für Vektorgrafiken verwendet. |
-| In Bibliothek anzeigen | Bestimmt, ob die SVG-Ressource in [&#x200B; der Bibliotheksansicht ausgeblendet werden soll.](../../interface/the-library/the-library.md) |
+| In Bibliothek anzeigen | Bestimmt, ob die SVG-Ressource in [ der Bibliotheksansicht ausgeblendet werden soll.](../../interface/the-library/the-library.md) |
 | Vektorgrafikqualität | Beeinträchtigt die Rendering-Qualität. Der Bereich ist nicht linear und die beste Qualität wird bei 0,5 erreicht. |
 
 ## SVG-Authoring
@@ -70,7 +70,7 @@ Die Exportoptionen unterscheiden sich leicht von der jeweiligen Anwendung:
 
 ### Adobe Illustrator
 
-[Illustrator](https://www.adobe.com/de/products/illustrator.html) bietet die größte Kontrolle über Ihre SVG-Exporte, wenn Sie auf die folgenden Optionen achten.
+[Illustrator](https://www.adobe.com/products/illustrator.html) bietet die größte Kontrolle über Ihre SVG-Exporte, wenn Sie auf die folgenden Optionen achten.
 
 * Nur <b>Speichern unter</b>, *nicht* Exportieren als! verwenden
 * <b>SVG Profile</b> spielt keine große Rolle, obwohl das Winzige Profil (meistens) standardmäßig auf Einstellungen zurückgesetzt wird, die definitiv korrekt sind.
@@ -87,7 +87,7 @@ Das Bild auf der rechten Seite zeigt die empfohlenen Exportoptionen. Klicken Sie
 > Zeichenflächen können das Ergebnis der generierten SVG-Datei beeinflussen. Einige Illustrator-Dateivorlagen enthalten mehrere Zeichenflächen.\
 > Versuchen Sie, nur eine richtig zugeschnittene Zeichenfläche zu haben und diese beim Speichern als SVG im Zeichenflächenfenster auswählen zu lassen.
 
-![Exportoptionen für Illustrator-SVG](vector-graphics-svg-resource.resources/svg-export-options-ai.jpg "Exportoptionen für Illustrator-SVG"){width="512px"}
+![Exportoptionen für Illustrator-SVG](vector-graphics-svg-resource.resources/vector-graphics-svg-resource-01.jpg "Exportoptionen für Illustrator-SVG"){width="512px"}
 
 ### Inkscape
 

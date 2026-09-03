@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Edge Wear "Glasfaserknoten", um Verschleißmasken auf Glasfaserkanten basierend auf der Gitterkrümmung zu generieren.
+description: Verwenden Sie den Edge Wear "Glasfaserknoten", um Verschleißmasken an Glasfaserkanten basierend auf der Krümmung des Meshs zu generieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Fiber Glass Edge Wear
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Glasfaser-Edge Wear
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](fiber-glass-edge-wear.resources/fiber-glass-edge-wear.png){width="128px"}
+![](fiber-glass-edge-wear.resources/fiber-glass-edge-wear-01.png){width="128px"}
 
 <b>In:</b> Mesh-basierte Generatoren > Maskengenerator
 
@@ -75,7 +75,7 @@ Stellt eine Maske dar, die speziell für einen Fiberglas-Verschleiß bestimmt is
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="fiber-glass-edge-wear.resources/fiber-glass-edge-wear-ex.gif" />
+            <img src="fiber-glass-edge-wear.resources/fiber-glass-edge-wear-02.gif" />
         </td>
     </tr>
 </table>

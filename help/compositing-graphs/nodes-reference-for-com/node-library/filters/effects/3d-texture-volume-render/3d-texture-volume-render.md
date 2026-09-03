@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten 3D-Textur - Lautstärke-Rendering , um volumetrische Texturen aus 3D-Daten zu rendern und so Cloud- und Nebeleffekte zu erzeugen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D Textur Volume Render
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-texture-volume-render.resources/3dtexturevolumerender.png){width="200px"}
+![](3d-texture-volume-render.resources/3d-texture-volume-render-01.png){width="200px"}
 
 <b>In:</b> Filter > Effekt
 
@@ -61,8 +61,8 @@ Das Volume wird innerhalb der Grenzen eines *Einheitscube* dargestellt. Die Bele
 
 |  |  |
 |:---|:---|
-| <b>Ausgabeauflösung</b> <i>Integer2</i> | Die Auflösung des Ausgabebilds in <b>X</b> und <b>Y</b>, ausgedrückt als <i>Potenz von zwei</i>. |
-| <b>Position der Kamera</b> <i>Float2</i> | Die Position der Kamera um die Form.<br>Wenn der Knoten ausgewählt ist, können Sie das Positions-Gizmo in der <b>2D-Ansicht</b> bis <i>Umlaufbahn</i> der Kamera verwenden. |
+| <b>Ausgabeauflösung</b> <i>Ganzzahl2</i> | Die Auflösung des Ausgabebilds in <b>X</b> und <b>Y</b>, ausgedrückt als <i>Potenz von zwei</i>. |
+| <b>Position der Kamera</b> <i>Fließkommazahl2</i> | Die Position der Kamera um die Form.<br>Wenn der Knoten ausgewählt ist, können Sie das Positions-Gizmo in der <b>2D-Ansicht</b> bis <i>Umlaufbahn</i> der Kamera verwenden. |
 | <b>Lichtposition</b> <i>Float2</i> | Die Position des <i>Richtungslichts</i> um die Form.<br>Wenn der Knoten ausgewählt ist, können Sie das Positions-Gizmo in der <b>2D-Ansicht</b> bis <i>Bahn</i> der Lichtquelle verwenden. |
 | <b>Kameras-Entfernung</b> <i>Gleitend</i> | Der Abstand zwischen Kamera und Form. |
 | <b>Kamera FOV</b> <i>Gleitend</i> | Das Sichtfeld der Kamera in <i>Grad</i>. |
@@ -77,7 +77,7 @@ Das Volume wird innerhalb der Grenzen eines *Einheitscube* dargestellt. Die Bele
 | <b>Albedo</b> <i>Float3</i> | Die Albedo der Lautstärke. |
 | <b>Hintergrundmodus</b> <i>Integer</i> | Die Methode zur Schattierung des Hintergrunds der gerenderten Szene, die auf der <b>Hintergrundfarbe</b>:<br>- <i>Schattiert</i> basiert: Die Farbe wird von der <i>Farbe</i> und der <i>Intensität</i><br>- <i>konstanten Farbe</i> des Richtungslichts beeinflusst: Die Farbe wird gleichmäßig <i>angewendet, unabhängig</i> von der Lichtrichtung |
 | <b>Hintergrundfarbe</b> <i>Float4</i> | Die Farbe, die zum Füllen des Hintergrunds der gerenderten Szene verwendet wird. |
-| <b>Dithering</b> <i>Gleitend</i> | Passt die Intensität des <i>blauen Rauschens </i> an, das zum Glätten der Schattierung verwendet wird. |
+| <b>Dithering</b> <i>Gleitend</i> | Passt die Intensität des <i>blauen Rauschen-Dithering</i> an, der zum Glätten der Schattierung verwendet wird. |
 | <b>Boden-Ebene aktivieren</b> <i>Boolescher Wert</i> | Wenn <i>Wahr</i>, wird eine <i>unendliche</i> Boden-Ebene gerendert. Der <i>Einheitswürfel</i>, der die Form umschließt, liegt auf dieser Ebene. |
 | <b>Unendliche Ebene</b> <i>Boolescher Wert</i> | Setzt die Ebene des Bodens auf <i>unendlich</i> bis zum Horizont.<br><i>Hinweis</i>: Dieser Parameter ist nur verfügbar, wenn der Parameter <b>Enable Boden Plane</b> auf <i>True</i> festgelegt ist. |
 | <b>Boden-Ebenengröße</b> <i>Float2</i> | Passt die Größe der Boden-Ebene an.<br><i>Hinweis</i>: Dieser Parameter ist nur verfügbar, wenn der Parameter <b>Grundebene aktivieren</b> auf <i>Wahr</i> und der Parameter <b>Unendliche Ebene</b> auf <i>Falsch</i> festgelegt ist. |
@@ -87,22 +87,22 @@ Das Volume wird innerhalb der Grenzen eines *Einheitscube* dargestellt. Die Bele
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant2.jpg" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant5.jpg" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant3.jpg" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant.jpg" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant4.jpg" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-node.png" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-07.png" />
         </td>
     </tr>
 </table>

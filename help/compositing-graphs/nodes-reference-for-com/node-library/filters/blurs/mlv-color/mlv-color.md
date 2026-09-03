@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-color.html"
 breadcrumb-title: ''
 description: Verwenden Sie den MLV-Farbunschärfefilter, um Bewegungsunschärfeeffekte auf Farbstrukturen anzuwenden und dynamische visuelle Looks zu erzeugen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MLV-Farbe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![MLV-Farbe: Symbol &#x200B;](mlv-color.resources/MLV_Color_Icon.png "MLV-Farbe: Symbol ")
+![MLV-Farbe: Symbol ](mlv-color.resources/mlv-color-01.png "MLV-Farbe: Symbol ")
 
 <b>In:</b> Filters > Blurs
 
@@ -68,10 +68,10 @@ Der Filter findet strukturierende Bereiche in einem Bild und verwendet sie sowoh
 |  |  |
 |:---|:---|
 | <b>Intensität</b> *Gleitend* | Die Stärke der Filterung, die auf das Bild angewendet wurde.<br><br>Höhere Werte führen zu einer stärkeren Glättung von Details und zum Rauschen in flachere Bereiche. |
-| <b>Smoothness</b> *Gleitend* | Die Intensität der auf die Strukturierungsflächen aufgebrachten Glättung, die zu runderen Flächen führt und die bei höheren Filterungen auftreten kann, vermindert. |
-| <b>Kriterium</b> *Integer* | Das Kriterium zur Auswahl der Werte, die die Strukturierungsbereiche im Bild definieren.<br><br>Mit anderen Worten, wie Pixel *gruppiert* werden sollten in Bereiche, die geglättet werden sollen.<br><br>*- Varianz:* Wählen Sie Werte mit der niedrigsten Streuung um den Mittelwert aus, was zu Clustern von Pixeln führt, die einander ähnlich sind <br>*- Variationskoeffizient:* Wählen Sie Werte aus, während Sie den Mittelwert berücksichtigen, was umgekehrt zu weniger Variationen in helleren Bereichen führt |
+| <b>Smoothness</b> *Fließkommazahl* | Die Intensität der auf die Strukturierungsflächen aufgebrachten Glättung, die zu runderen Flächen führt und die bei höheren Filterungen auftreten kann, vermindert. |
+| <b>Kriterium</b> *Ganzzahl* | Das Kriterium zur Auswahl der Werte, die die Strukturierungsbereiche im Bild definieren.<br><br>Mit anderen Worten, wie Pixel *gruppiert* werden sollten in Bereiche, die geglättet werden sollen.<br><br>*- Varianz:* Wählen Sie Werte mit der niedrigsten Streuung um den Mittelwert aus, was zu Clustern von Pixeln führt, die einander ähnlich sind <br>*- Variationskoeffizient:* Wählen Sie Werte aus, während Sie den Mittelwert berücksichtigen, was umgekehrt zu weniger Variationen in helleren Bereichen führt |
 | <b>Gaußsch</b> *Boolescher Wert* | Verwenden Sie eine Gaußsche Verteilung zum Gruppieren von Pixeln in strukturierende Bereiche.<br><br>Wenn &quot;True&quot; festgelegt ist, führt dies zu glatteren Bereichen und einem reduzierten Abflachungseffekt. |
-| <b>Alpha betreffen</b> *Boolescher Wert* | Wenn &quot;True&quot; festgelegt ist, wird die Filterung auch auf den Alphakanal des Bildes angewendet.<br><br>Wenn &quot;False&quot; festgelegt ist, wird der Alphakanal vollständig ignoriert und bleibt in der Ausgabe unverändert. |
+| <b>Alpha betreffen</b> *Boolesche Wert* | Wenn &quot;True&quot; festgelegt ist, wird die Filterung auch auf den Alphakanal des Bildes angewendet.<br><br>Wenn &quot;False&quot; festgelegt ist, wird der Alphakanal vollständig ignoriert und bleibt in der Ausgabe unverändert. |
 | <b>Iterationen</b> *Integer* | Gibt an, wie oft der Filter ausgeführt wird, wobei jede Iteration auf das Ergebnis der vorherigen angewendet wird.<br><br>Mehr Iterationen führen zu flacheren und schärferen Strukturierungsbereichen. |
 
 ## Beispiele
@@ -79,11 +79,11 @@ Der Filter findet strukturierende Bereiche in einem Bild und verwendet sie sowoh
 <table>
   <tr>
     <td>
-      <img src="mlv-color.resources/MLV_Variant4A.png" alt="MLV_Variant4A">
+      <img src="mlv-color.resources/mlv-color-02.png" alt="MLV_Variant4A">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="mlv-color.resources/MLV_Variant4B.png" alt="MLV_Variant4B">
+      <img src="mlv-color.resources/mlv-color-03.png" alt="MLV_Variant4B">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -92,11 +92,11 @@ Der Filter findet strukturierende Bereiche in einem Bild und verwendet sie sowoh
 <table>
   <tr>
     <td>
-      <img src="mlv-color.resources/MLV_Variant5A.png" alt="MLV_Variant5A">
+      <img src="mlv-color.resources/mlv-color-04.png" alt="MLV_Variant5A">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="mlv-color.resources/MLV_Variant5B.png" alt="MLV_Variant5B">
+      <img src="mlv-color.resources/mlv-color-05.png" alt="MLV_Variant5B">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -105,11 +105,11 @@ Der Filter findet strukturierende Bereiche in einem Bild und verwendet sie sowoh
 <table>
   <tr>
     <td>
-      <img src="mlv-color.resources/MLV_Variant3A.png" alt="MLV_Variant3A">
+      <img src="mlv-color.resources/mlv-color-06.png" alt="MLV_Variant3A">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="mlv-color.resources/MLV_Variant3B.png" alt="MLV_Variant3B">
+      <img src="mlv-color.resources/mlv-color-07.png" alt="MLV_Variant3B">
       <br><i>Nach</i>
     </td>
   </tr>

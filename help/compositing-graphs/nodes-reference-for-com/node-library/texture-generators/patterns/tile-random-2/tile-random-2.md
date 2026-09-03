@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random-2.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Beliebig unterteilen 2 , um mit erweiterten Variationssteuerelementen in Substance 3D Designer zufällige Kachelmuster zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Kachel zufällig 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-random-2.resources/tilerandom2.jpg){width="200px"}
+![](tile-random-2.resources/tile-random-2-01.jpg){width="200px"}
 
 <b>In:</b> Texturgeneratoren > Muster
 
@@ -35,11 +35,11 @@ ht-degree: 0%
 
 Der Knoten **Kachelzufall 2** generiert benachbarte Kacheln mit zufälligen Größen und Height-zu-Breite-Verhältnissen.
 
-Der Raster kann durch zufällige *Schrägstellung* an den Seiten der Formen verfeinert werden, um die Winkel aufzubrechen.
+Das Raster kann durch zufällige *Neigung* der Seiten der Formen verfeinert werden, um die Winkel aufzubrechen.
 
 Formen können mit Optionen für *Skalierung*, *Abgeflachte Kante*, *Abrundung der Ecken* sowie *verzerrte Drehung* angepasst werden.
 
-Diese Korrekturen können von *Eingabe-Map* gesteuert werden.
+Diese Anpassungen können durch *Eingabemaps* gesteuert werden.
 
 Mit einer dedizierten Ausgabe können Sie die **UVs** der Form in **Flood Fill für (...)** eingeben. Knoten zur Anwendung zusätzlicher Variationen.
 
@@ -53,7 +53,7 @@ Mit einer dedizierten Ausgabe können Sie die **UVs** der Form in **Flood Fill f
 
 |  |  |
 |:---|:---|
-| <b>Karte zufälliger Größe</b> <i>Graustufen</i> | Das Graustufen-Eingabebild, das die zufällige Skalierung der Formen steuert.<br><br>Die Auswirkungen werden durch den Parameter <b>Zufällige Größe Eingabe-Map-Multiplikator</b> gesteuert. |
+| <b>Karte zufälliger Größe</b> <i>Graustufen</i> | Das Graustufen-Eingabebild, das den zufälligen Maßstab der Formen steuert.<br><br>Die Auswirkungen werden durch den Parameter <b>Zufällige Größe Eingabe-Map-Multiplikator</b> gesteuert. |
 | <b>Zufällige Schrägzuordnung</b> <i>Graustufen</i> | Das Graustufen-Eingabebild, das die zufällige Neigung der Formen steuert.<br><br>Die Auswirkungen werden durch den Parameter <b>Zufällige Neigung des Eingabe-Map-Multiplikators</b> gesteuert. |
 | <b>Abgerundete Ecken, Radiuszuordnung</b> <i>Graustufen</i> | Das Graustufen-Eingabebild, das den Radius der abgerundeten Ecken der Formen steuert.<br><br>Die Auswirkungen werden durch die Eingabe-Map-Mult.</b> für abgerundete Ecken mit dem Radius <b>festgelegt. -Parameter. |
 | <b>Abgeflachte Abstands-Map</b> <i>Graustufen</i> | Das Graustufen-Eingabebild, das die Abschrägung der Formen steuert.<br><br>Die Auswirkungen werden durch die Eingabe-Map-Mult.</b> für die <b>Abschrägungsdistanz gesteuert. -Parameter. |
@@ -65,12 +65,12 @@ Mit einer dedizierten Ausgabe können Sie die **UVs** der Form in **Flood Fill f
 
 |  |  |
 |:---|:---|
-| <b>Betrag X</b> <i>Integer</i> | Die Anzahl der Zellen auf der Achse <b>X</b>. |
-| <b>Betrag Y</b> <i>Integer</i> | Die Anzahl der Zellen auf der Achse <b>Y</b>. |
+| <b>Betrag X</b> <i>Integer</i> | Die Anzahl der Zellen in der <b>X</b>-Achse. |
+| <b>Betrag Y</b> <i>Integer</i> | Die Anzahl der Zellen in der <b>Y</b>-Achse. |
 | <b>Größe</b> |  |
 | <b>Zufallsgrößenmultiplikator</b> <i>Gleitend</i> | Wendet eine <i>globale</i>-Anpassung auf die Intensität der zufälligen Skalierung an. |
 | <b>Eingabe-Map-Multiplikator für zufällige Größe</b> <i>Gleitend</i> | Passt die Intensität der zufälligen Skalierung unter Verwendung der Werte <i>, die </i> von der <b>Karte zufälliger Größe</b> eingegeben wurden, an. |
-| <b>Zufallsgröße X</b> <i>Gleitend</i> | Passt die Intensität der zufälligen Skalierung auf der <b>X</b>-Achse <i>nur</i> an. |
+| <b>Zufallsgröße X</b> <i>Gleitend</i> | Passt die Intensität der zufälligen Skalierung auf der <b>X</b>-Achse <i>only</i> an. |
 | <b>Zufallsgröße Y</b> <i>Gleitend</i> | Passt die Intensität der zufälligen Skalierung auf der <b>Y</b>-Achse <i>only</i> an. |
 | <b>Verteilung zufälliger Größen</b> <i>Integer</i> | Steuert die Methode zur Verteilung zufälliger Skalierungswerte:<br><br>- <i>Uniform</i>: Die zufällige Skala wird <i>auf alle Zellen <br>- <i>Blue-Rauschen </i> auf dieselbe Weise </i> angewendet: Die zufällige Skala wird <i>angepasst</i> mit einem blauen Rauschen-Muster. |
 | <b>Formaspekt - Transformieren</b> |  |
@@ -113,25 +113,25 @@ Mit einer dedizierten Ausgabe können Sie die **UVs** der Form in **Flood Fill f
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-variant.jpg" />
+            <img src="tile-random-2.resources/tile-random-2-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-variant2.jpg" />
+            <img src="tile-random-2.resources/tile-random-2-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-variant3.jpg" />
+            <img src="tile-random-2.resources/tile-random-2-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-inputs.gif" />
+            <img src="tile-random-2.resources/tile-random-2-05.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-demo.gif" />
+            <img src="tile-random-2.resources/tile-random-2-06.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-demo2.gif" />
+            <img src="tile-random-2.resources/tile-random-2-07.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-node.png" />
+            <img src="tile-random-2.resources/tile-random-2-08.png" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Schmutz Shavings, um Rasiermuster für die Textur von Holzkörnern und Materialien zu generieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Schmutz Shavings
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-shavings.resources/grungeshavings.jpg){width="200px"}
+![](grunge-shavings.resources/grunge-shavings-01.jpg){width="200px"}
 
 <b>In:</b> Textur Generators > Rauschen
 
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## Beschreibung
 
-Der Knoten **Schmutz Shavings** in [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) generiert eine Schmutz-Map, die den auf einer Fläche verstreuten Spänen ähnelt.
+Der Knoten **Schmutz Shavings** in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) generiert eine Schmutz-Map, die den auf einer Fläche verstreuten Spänen ähnelt.
 
 </td>
 </tr>
@@ -60,10 +60,10 @@ Der Knoten **Schmutz Shavings** in [Substance 3D Designer](https://www.adobe.com
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-shavings.resources/grungeshavings-variant2.jpg" />
+            <img src="grunge-shavings.resources/grunge-shavings-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-shavings.resources/grungeshavings-variant.jpg" />
+            <img src="grunge-shavings.resources/grunge-shavings-03.jpg" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "2D-Transformation", um 2D-Transformationen auf Texturen anzuwenden, einschließlich Translation, Drehung und Skalierung.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 2D-Transformation
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Transformation 2D](transformation-2d.resources/comp_transformation_1.png "Atomknoten: Transformation 2D"){width="200px"}
+![Atomknoten: Transformation 2D](transformation-2d.resources/transformation-2d-01.png "Atomknoten: Transformation 2D"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -65,9 +65,9 @@ Es kann jedoch für bestimmte Anwendungen nicht perfekt geeignet sein, sodass di
 >
 > Deaktivieren der Unterteilung
 > 
-> Legen Sie die [Vererbung-Methode](../../../../glossary/glossary.md) des [Basisparameters &#x200B;](../../../../glossary/glossary.md) für den &#39;Kachelung-Modus&#39; auf &#39;Absolut&#39; fest. Dann können Sie den Parameterwert auf &#39;Keine Kachelung&#39; festlegen:
+> Legen Sie die [Vererbung-Methode](../../../../glossary/glossary.md) des [Basisparameters ](../../../../glossary/glossary.md) für den &#39;Kachelung-Modus&#39; auf &#39;Absolut&#39; fest. Dann können Sie den Parameterwert auf &#39;Keine Kachelung&#39; festlegen:
 > 
-> ![](transformation-2d.resources/tilingmode.png)
+> ![](transformation-2d.resources/transformation-2d-02.png)
 
 >[!NOTE]
 >

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/technical-issues/application-does-not-start.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/application-does-not-start.html"
 breadcrumb-title: ''
 description: Beheben Sie Probleme, die den Start von Substance 3D Designer verhindern, und finden Sie Lösungen zum Starten der Anwendung.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Anwendung kann nicht gestartet werden
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 70bcf76fbb7c055ba9aa0b61e6975c266c8dd652
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 1%
@@ -88,7 +88,7 @@ Wenn ein Upgrade auf Windows 10 nicht möglich ist, *aktualisieren Sie* Ihre Ins
 
 <b>[(Fehler)](application-does-not-start.resources/error.svg) Problem</b>
 
-Absturz beim Schließen des Startbildschirms und Anzeigen des Hauptfensters.
+Absturz beim Schließen des Startbildschirms und beim Anzeigen des Hauptfensters.
 
 <b>[(tick)](application-does-not-start.resources/check.svg) Empfohlene Schritte</b>
 
@@ -111,7 +111,7 @@ Linux-Benutzer, die Designer von Steam aus starten, können den Befehl LD\_PRELO
 
 Anschließend kann Designer in allen zukünftigen Sitzungen normalerweise von Steam aus gestartet werden.
 
-![Optionen für den Steam-Start](application-does-not-start.resources/steam_linux_launch_option.jpg "Optionen für den Steam-Start")
+![Optionen für den Steam-Start](application-does-not-start.resources/application-does-not-start-01.jpg "Optionen für den Steam-Start")
 
 
 
@@ -125,7 +125,7 @@ Die Steam-Edition von Designer kann nicht gestartet werden und gibt keine Fehler
 
 Sie können Fehlermeldungen erhalten, indem Sie stattdessen die Steam-Anwendung protokollieren.
 
-Schließen Sie Steam wie empfohlen [hier](https://github.com/ValveSoftware/steam-for-linux/issues/7114#issuecomment-629634260) vollständig, und führen Sie dann den folgenden Befehl von einem Terminal aus (oder erstellen Sie einen Tastaturbefehl für diesen Befehl):
+Wie empfohlen [hier](https://github.com/ValveSoftware/steam-for-linux/issues/7114#issuecomment-629634260), schließen Sie Steam vollständig und führen Sie dann den folgenden Befehl von einem Terminal aus (oder erstellen Sie eine Verknüpfung für diesen Befehl):
 
 ```
 steam 2>&1 | tee /path/to/logfile

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/liquid.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/liquid.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Flüssigkeit", um Flüssigkeits- und Fluidmuster zum Erstellen von Wasser-, Öl- und anderen Flüssigkeitsoberflächeneffekten zu generieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Liquid
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](liquid.resources/liquid.png){width="128px"}
+![](liquid.resources/liquid-01.png){width="128px"}
 
 <b>In:</b> Textur Generators > Rauschen
 
@@ -33,7 +33,7 @@ ht-degree: 9%
 
 ## Beschreibung
 
-Dies ist eine einfache Variante des [Gaußschen Rauschens](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md), das [sich &#x200B;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) selbst verkrümmt, um einen flüssigkeitsähnlichen Effekt zu erzeugen.
+Dies ist eine einfache Variante des [Gaußschen Rauschens](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md), das [sich ](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) selbst verkrümmt, um einen flüssigkeitsähnlichen Effekt zu erzeugen.
 
 </td>
 </tr>
@@ -55,7 +55,7 @@ Dies ist eine einfache Variante des [Gaußschen Rauschens](../../../../../../com
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="liquid.resources/liquid-ex.gif" />
+            <img src="liquid.resources/liquid-02.gif" />
         </td>
     </tr>
 </table>

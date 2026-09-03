@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-color-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-color-blend.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Materialfarben-Überblendung , um Farbkanäle zwischen Materialien zu überblenden und so zusammengesetzte Materialeffekte zu erzeugen.
+description: Verwenden Sie den Knoten Material-Überblendung , um Farbkanäle zwischen Materialien zu mischen und so zusammengesetzte Material-Effekte zu erzeugen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Color Blend
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Material Color Überblendung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-color-blend.resources/material-color-blend.png){width="128px"}
+![](material-color-blend.resources/material-color-blend-01.png){width="128px"}
 
 <b>In:</b> Materialfilter > Mischen
 
@@ -56,7 +56,7 @@ Dieser Knoten ist besonders hilfreich, wenn Sie einen einfachen Farbhinweis in D
 
 |  |  |
 |:---|:---|
-| <b>Kanäle</b> | Schalten Sie die Materialkanäle in dieser Gruppe ein und aus, wenn Sie z. B. Specular-/Glanzkarten anstelle von &quot;Metallisch/Raueit&quot; verwenden. |
+| <b>Kanäle</b> | Schalten Sie Material-Kanäle in dieser Gruppe ein und aus, wenn Sie Specular-/Glanz-Maps anstelle von z. B. Metallic/Rauheit verwenden. |
 | <b>Diffus</b> |  |
 | <b>Farbe</b> <i>(Farbwert)</i> | Der Farbwert, der über dem Diffuse-Kanal überblendet werden soll. |
 | <b>Deckkraft</b> <i>0.0 - 1.0</i> | Füllmethode Deckkraft zwischen Vorder- und Hintergrund. |

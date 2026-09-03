@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rough-dirty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rough-dirty.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Schmutz Rough Dirty-Knoten, um raue und schmutzige Schmutz-Texturen zum Hinzufügen von verwitterten Oberflächendetails zu generieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Schmutz Rough Dirty
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-rough-dirty.resources/grungeroughdirty.jpg){width="200px"}
+![](grunge-rough-dirty.resources/grunge-rough-dirty-01.jpg){width="200px"}
 
 <b>In:</b> Textur Generators > Rauschen
 
@@ -60,10 +60,10 @@ Der Knoten &quot;**Schmutz Rough Dirty**&quot; generiert eine Schmutz-Map, die e
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant.jpg" />
+            <img src="grunge-rough-dirty.resources/grunge-rough-dirty-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant2.jpg" />
+            <img src="grunge-rough-dirty.resources/grunge-rough-dirty-03.jpg" />
         </td>
     </tr>
 </table>

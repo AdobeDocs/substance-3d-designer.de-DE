@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/material-height-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/material-height-blend.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Height-Materialverblend-Knoten, um mehrere Heights auf der Grundlage von Materialzuordnungen zu überblenden und so Materialeffekte mit Ebenen zu erstellen.
+description: Verwenden Sie den Knoten Material Height Überblendung , um mehrere Materialien auf der Grundlage von Höhen-Map zu überblenden, um Materialien mit mehreren Ebenen zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Material Height Blend
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Material Height Mischen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 4%
@@ -18,13 +18,13 @@ ht-degree: 4%
 ---
 
 
-# Material Height Mischen
+# Material Height Überblendung
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-height-blend.resources/material-height-blend.png){width="128px"}
+![](material-height-blend.resources/material-height-blend-01.png){width="128px"}
 
 <b>In:</b> Materialfilter > Effekte
 

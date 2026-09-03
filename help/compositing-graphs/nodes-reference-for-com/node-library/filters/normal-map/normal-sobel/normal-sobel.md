@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-sobel.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-sobel.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Normal Sobel, um Normalen-Map aus Höhen-Map mithilfe der Sobel-Kantenerkennung für Oberflächendetails zu generieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Normal Sobel
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](normal-sobel.resources/normal-hq.png){width="128px"}
+![](normal-sobel.resources/normal-sobel-01.png){width="128px"}
 
 <b>In:</b> Filters > Normalen-Map
 
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## Beschreibung
 
-Konvertiert einen Heightmap-Eingang in eine normale Map-Ausgabe. Eine etwas komplexere Version des [Normal-Elementaren Knotens](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md), bei der anstelle der Standardauswahlmethode Sobel-Sampling verwendet wird.
+Konvertiert einen Heightmap-Eingang in eine normale Map-Ausgabe. Eine etwas komplexere Version des [normalen atomaren Knotens](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) verwendet dieser Knoten Sobel-Sampling und nicht die Standard-Sampling-Methode.
 
 </td>
 </tr>

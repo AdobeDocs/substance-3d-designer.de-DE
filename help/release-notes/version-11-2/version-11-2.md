@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/version-11-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-11-2.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Designer 11.2, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 11.2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 0%
@@ -34,12 +34,12 @@ Mit Substance Model Graph, einem völlig neuen Graf-Typ, kannst du prozedurale 3
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/structure-tower-render-b.jpg){width="300px"}
+![](version-11-2.resources/version-11-2-01.jpg){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/structure-paper-creatures-render-a.jpg){width="300px"}
+![](version-11-2.resources/version-11-2-02.jpg){width="300px"}
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ Dies ist eine erste Version. Erwarten Sie also einige Einschränkungen.
 
 Adobe-Versionen von Substance 3D Designer verfügen über eine neue Funktion &quot;Senden an&quot;, mit der Sie Elemente schnell an andere Substance 3D-Anwendungen senden können. Das Veröffentlichen als SBSAR und Laden einzelner Dateien ist nicht mehr erforderlich. Senden an löst dies mit einem Klick.
 
-![](version-11-2.resources/sendto-button.gif)
+![](version-11-2.resources/version-11-2-03.gif)
 
 >[!NOTE]
 >
@@ -67,12 +67,12 @@ Keine Designer-Version ohne neue Knoten abgeschlossen. Aufbauend auf der phänom
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/image2021-6-18-11-11-11.png){width="300px"}
+![](version-11-2.resources/version-11-2-04.png){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/image2021-6-18-11-9-0.png){width="300px"}
+![](version-11-2.resources/version-11-2-05.png){width="300px"}
 
 </td>
 </tr>
@@ -80,11 +80,11 @@ Keine Designer-Version ohne neue Knoten abgeschlossen. Aufbauend auf der phänom
 
 RTAO macht noch bessere Arbeit bei der scharfen, korrekten AO als der vorherige HBAO-Knoten.
 
-![](version-11-2.resources/rt-caustics-grayscale.png){width="300px"}
+![](version-11-2.resources/version-11-2-06.png){width="300px"}
 
 &quot;Kaustik&quot; generiert physikalisch korrekte, raytraced Kaustik, die auf einer Höhenkarte basiert, wie z. B. eine einfache Perlin-Rauschen. Ideal für realistische animierte Flipbook-Texturen für Kaustik in Echtzeit.
 
-![](version-11-2.resources/image2021-6-22-16-36-36.png){width="300px"}
+![](version-11-2.resources/version-11-2-07.png){width="300px"}
 
 RT Shadow erzeugt präzise, raytraced Schatten mit ein paar einfachen Steuerelementen.
 
@@ -92,17 +92,17 @@ RT Shadow erzeugt präzise, raytraced Schatten mit ein paar einfachen Steuerelem
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/rt-irr-01.jpg){width="200px"}
+![](version-11-2.resources/version-11-2-08.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/rt-irr-03.jpg){width="200px"}
+![](version-11-2.resources/version-11-2-09.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/rt-irr-02.jpg){width="200px"}
+![](version-11-2.resources/version-11-2-10.jpg){width="200px"}
 
 </td>
 </tr>
@@ -110,11 +110,11 @@ RT Shadow erzeugt präzise, raytraced Schatten mit ein paar einfachen Steuerelem
 
 RT Irradiance ist der fortschrittlichste der neuen Knoten. Es führt eine Raytraced-Bestrahlung auf der Grundlage eines Materials mit Höhen-Map und einer Umgebungs-Map und/oder einer Emissive-Map durch.
 
-![](version-11-2.resources/rt-irrad-pro.jpg){width="600px"}
+![](version-11-2.resources/version-11-2-11.jpg){width="600px"}
 
 Das bedeutet, dass du Texturen mit vorab Baking geführt Beleuchtung vornehmen kannst, z. B. für stilisierte Projekte, oder du kannst Baking in Raytraced Glow hinzufügen, das von deiner Lupe reflektiert wird.
 
-![](version-11-2.resources/bent-normal-ex.jpg){width="300px"}
+![](version-11-2.resources/version-11-2-12.jpg){width="300px"}
 
 Und zuletzt gibt es den Knoten &quot;Gebeugte Normal&quot;. Im Vergleich zu einer normalen regulären Konvertierung verwendet dieser Knoten AO, um Ihre normale Zuordnung so zu ändern, dass diese AO-Informationen verwendet werden. Bevor Sie Gitterbäcker benötigen, um den Effekt zu erstellen, erledigt dieser Knoten dies in texturespace für Sie.
 
@@ -159,25 +159,25 @@ Im Folgenden finden Sie unsere Videotutorials zu den neuen Funktionen:
 * [Allgemein] Menü &quot;Datei aktualisieren&quot;
 * [Allgemein] Menü &quot;Hilfe aktualisieren&quot;
 * [Publish] Neues Veröffentlichungsfenster
-* [Publish] Fügen Sie in den Einstellungen die Option hinzu, um die SBS-Datei beim Veröffentlichen einer SBSAR-Datei nicht zu speichern
-* [Eigenschaften] Hinzufügen eines Diagrammtypfelds zu den Diagrammeigenschaften
-* [Eigenschaften] Ordnen Sie die Eigenschaften von Graphen relevanter an
+* [Publish] Fügen Sie in den Einstellungen die Option hinzu, um die SBS beim Veröffentlichen einer Sbsar-Datei nicht zu speichern
+* [Eigenschaften] Hinzufügen eines Felds vom Typ &quot;Graf&quot; zu den Eigenschaften &quot;Graf&quot;
+* [Eigenschaften] Ordnen Sie die Eigenschaften von Grafen relevanter an
 * [Branding] Fenster &quot;Neues Info&quot;
 * [Branding] Anwendungsstil aktualisieren
-* [GLSLFX] Hinzufügen eines Labels zu Techniken
-* [GLSLFX] Fügen Sie die Möglichkeit hinzu, die Beschriftung eines GLSLFX-Shaders festzulegen.
+* [GLSLFX] Label zu Techniken hinzufügen
+* [GLSLFX] Möglichkeit hinzufügen, die Kennzeichnung eines GLSLFX Shader festzulegen.
 * [Metadaten] Hinzufügen von Metadaten zu den Paketressourcen
-* [Metadaten] Metadaten-Edition für Diagramme, Eingaben, Ausgaben und Ressourcen zulassen
+* [Metadaten] Metadaten-Edition für Graf, Eingaben, Ausgaben und Ressourcen zulassen
 * [Lokalisierung] Neue Übersetzungen in Deutsch, Französisch und vereinfachtem Chinesisch
 * [UX] Zoom in der 3D-Ansicht bei Ziehen mit der Maus umkehren
 * [AXF] Update auf Version 1.8.0
 * [Protokolle] Hinzufügen installierter Plug-ins zu den Protokollen
-* [VFX] ACES 1.2 OpenColorIO-Konfiguration hinzufügen
+* [VFX] ACE 1.2 OpenColorIO Konfiguration hinzufügen
 * [Python-API] Hinzufügen einer Methode zum Abfragen des in den Einstellungen angegebenen TMP-Verzeichnisses
 * [Python-API] Hinzufügen einer isModified-Methode zu SDPackage, um zu überprüfen, ob ein Paket gespeichert ist
 * [Python-API] Hinzufügen einiger Farbkonvertierungsmethoden zu SDColorManagementEngine
-* [Python API] Löschen von Diagrammobjekten (Kommentare, Pins, Rahmen, ...)
-* [Python-API] Eigenschaft &quot;Physische Größe verfügbar machen&quot; für Knoten der Grapheninstanz
+* [Python API] Löschen von Kommentarobjekten (Grafen, Nadeln, Rahmen, ...)
+* [Python API] Gelegt Physische Größe-Eigenschaft für Grapheninstanz-Knoten
 * [Python API] Verfügbarmachen und Speichern einer Kopie als
 * [Python-API] SDPackageMgr.savePackage-Methode reparieren
 * [Python API] Liste der ausgewählten Diagrammobjekte abrufen

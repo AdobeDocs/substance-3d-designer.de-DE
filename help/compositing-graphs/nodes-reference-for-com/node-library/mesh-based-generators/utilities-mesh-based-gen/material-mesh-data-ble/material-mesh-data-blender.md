@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Material Mesh Data Blender-Mesh, um Material-Überblendungsknoten für fließende Übergänge zwischen verschiedenen Material-Zonen zu erstellen.
+description: Verwenden Sie den Knoten "Material Mesh Data Blender", um Material-Mesh-Daten zu überblenden und so glatte Übergänge zwischen verschiedenen Materialzonen zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > Material Mesh Data Blender
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Material Mesh Data Blender
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-mesh-data-blender.resources/material-mesh-data-blender.png){width="128px"}
+![](material-mesh-data-blender.resources/material-mesh-data-blender-01.png){width="128px"}
 
 <b>In:</b> Mesh-basierte Generatoren > Dienstprogramme
 
@@ -33,9 +33,9 @@ ht-degree: 8%
 
 ## Beschreibung
 
-Dieser Knoten soll das Hinzufügen von Details basierend auf Baking geführt Daten erheblich erleichtern. Es verfügt über viele Schieberegler, um ein vollständiges Material für den Input zu ändern, das auf allen durch Baking erzeugte Map als Input basiert. Experimentieren Sie doch einmal damit, denn es gibt viele Möglichkeiten.
+Dieser Knoten soll das Hinzufügen von Details basierend auf gesicherten Daten erheblich erleichtern. Sie enthält viele Regler, mit denen Sie das gesamte Eingabematerial ändern können, basierend auf allen durch Baking erzeugte Map als Eingabematerial. Experimentieren Sie doch einmal damit, denn es gibt viele Möglichkeiten.
 
-Es ist hilfreich, wenn Sie z. B. Kantenhervorhebung auf Basis einer Krümmung oder anderer Maps hinzufügen, AO-Elemente mit der Diffuse/Grundfarbe mischen, Specular-Verdeckung auf Basis der Krümmung und/oder AO hinzufügen usw.
+Es ist hilfreich, wenn Sie z. B. Kantenhervorhebung basierend auf Krümmung oder anderen Maps hinzufügen, AO-Elemente mit der Diffuse-/Grundfarbe mischen, Specular-Verdeckung basierend auf Krümmung und/oder AO hinzufügen usw.
 
 </td>
 </tr>
@@ -91,7 +91,7 @@ Es ist hilfreich, wenn Sie z. B. Kantenhervorhebung auf Basis einer Krümmung od
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="material-mesh-data-blender.resources/blenddata-ex.gif" />
+            <img src="material-mesh-data-blender.resources/material-mesh-data-blender-02.gif" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-scratches.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-scratches.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Richtungsbezogene Scratches , um gerichtete Kratzmuster zu erstellen, um Material Abnutzungs- und Schadenseffekte hinzuzufügen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Richtungsverkratzungen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Richtungsabhängige Kratzer - Symbol](directional-scratches.resources/directional_scratches.png "Richtungsabhängige Kratzer - Symbol"){width="200px"}
+![Richtungsabhängige Kratzer - Symbol](directional-scratches.resources/directional-scratches-01.png "Richtungsabhängige Kratzer - Symbol"){width="200px"}
 
 <b>In:</b> Texturgeneratoren > Rauschen
 
@@ -72,27 +72,12 @@ Eine zufällige Streuung von Kratzmustern mit einstellbarem Winkel und Größe.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Richtungskratzer - Beispiel 1](directional-scratches.resources/directional_scratches_1.png "Richtungskratzer - Beispiel 1"){zoomable="yes"}
+![Richtungskratzer - Beispiel 1](directional-scratches.resources/directional-scratches-02.png "Richtungskratzer - Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Richtungskratzer - Beispiel 2](directional-scratches.resources/noise-directional-scratches-speed0.3-aniso0.gif "Richtungskratzer - Beispiel 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Richtungskratzer - Beispiel 3](directional-scratches.resources/noise-directional-scratches-speed0.3-aniso0.6.gif "Richtungskratzer - Beispiel 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Richtungskratzer - Beispiel 4](directional-scratches.resources/noise-directional-scrat-1.gif "Richtungskratzer - Beispiel 4"){zoomable="yes"}
+![Richtungskratzer - Beispiel 2](directional-scratches.resources/directional-scratches-03.gif "Richtungskratzer - Beispiel 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -102,7 +87,22 @@ Eine zufällige Streuung von Kratzmustern mit einstellbarem Winkel und Größe.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Richtungskratzer - Beispiel 5](directional-scratches.resources/noise-directional-scrat-2.gif "Richtungskratzer - Beispiel 5"){zoomable="yes"}
+![Richtungskratzer - Beispiel 3](directional-scratches.resources/directional-scratches-04.gif "Richtungskratzer - Beispiel 3"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![Richtungskratzer - Beispiel 4](directional-scratches.resources/directional-scratches-05.gif "Richtungskratzer - Beispiel 4"){zoomable="yes"}
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![Richtungskratzer - Beispiel 5](directional-scratches.resources/directional-scratches-06.gif "Richtungskratzer - Beispiel 5"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

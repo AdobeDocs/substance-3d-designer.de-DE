@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/create-color-palette-16.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/create-color-palette-16.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Farbpalette erstellen , um eine 16-Farben-Palette aus Texturen für stilisierte Effekte zu extrahieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Farbpalette erstellen (16)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Symbol &quot;Farbe quantisieren&quot;](create-color-palette-16.resources/CreateColorPalette16.png "Symbol &quot;Farbe quantisieren&quot;"){width="200px"}
+![Symbol &quot;Farbe quantisieren&quot;](create-color-palette-16.resources/create-color-palette-16-01.png "Symbol &quot;Farbe quantisieren&quot;"){width="200px"}
 
 <b>In:</b> Filters > Adjustments
 
@@ -76,15 +76,15 @@ Dieser Knoten kann in Kombination mit den folgenden Knoten verwendet werden: [Fa
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Farbpalette erstellen: Beispiel 1](create-color-palette-16.resources/create_color_palette_example_1.png "Farbpalette erstellen: Beispiel 1"){zoomable="yes"}
+![Farbpalette erstellen: Beispiel 1](create-color-palette-16.resources/create-color-palette-16-02.png "Farbpalette erstellen: Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Farbpalette erstellen: Beispiel 2](create-color-palette-16.resources/create_color_palette_example_2.png "Farbpalette erstellen: Beispiel 2"){zoomable="yes"}
+![Farbpalette erstellen: Beispiel 2](create-color-palette-16.resources/create-color-palette-16-03.png "Farbpalette erstellen: Beispiel 2"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-![Farbpalette erstellen: Beispiel 3](create-color-palette-16.resources/create_color_palette_example_3.png "Farbpalette erstellen: Beispiel 3"){zoomable="yes"}
+![Farbpalette erstellen: Beispiel 3](create-color-palette-16.resources/create-color-palette-16-04.png "Farbpalette erstellen: Beispiel 3"){zoomable="yes"}

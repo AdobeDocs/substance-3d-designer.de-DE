@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Weichzeichnungsknoten, um Weichzeichnungseffekte auf Texturen anzuwenden, um Details zu glätten und einen weichen Fokuseffekt zu erzeugen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Weichzeichnen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![Symbol für Weichzeichnerknoten](blur.resources/blur-9.png){width="200px"}
+![Symbol für Weichzeichnerknoten](blur.resources/blur-01.png){width="200px"}
 
 **In:** Atomknoten
 
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 ## Beschreibung
 
-Der Weichzeichnungsknoten führt einen &quot;box-blur&quot;-Vorgang aus: Mittelung der Pixelwerte über eine festgelegte Entfernung, was zu einem verschwommenen, unscharfen Look führt. Es bietet den einfachsten, schnellsten und einfachsten Weichzeichnungsvorgang, der in [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) verfügbar ist.
+Der Weichzeichnungsknoten führt einen &quot;box-blur&quot;-Vorgang aus: Mittelung der Pixelwerte über eine festgelegte Entfernung, was zu einem verschwommenen, unscharfen Look führt. Es bietet den einfachsten, schnellsten und einfachsten Weichzeichnungsvorgang, der in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) verfügbar ist.
 
 Der Weichzeichner eignet sich zwar gut für schnelle, einfache Vorgänge, z. B. für das leichte Weichzeichnen einiger Kanten. In jedem anspruchsvolleren Szenario ist [Weichzeichnen HQ](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/blur-hq/blur-hq.md) eine bessere Wahl, wenn Sie die Leistung gegen Qualität eintauschen möchten.
 
@@ -52,4 +52,4 @@ Das folgende Beispiel zeigt den Weichzeichner dieses Knotens auf der linken Seit
 
 | Weichzeichnen (atomar) | HQ-Weichzeichnen |
 | --- | --- |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="blur.resources/blur-example.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="blur.resources/blur-hq.png"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="blur.resources/blur-02.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="blur.resources/blur-03.png"/></div> |

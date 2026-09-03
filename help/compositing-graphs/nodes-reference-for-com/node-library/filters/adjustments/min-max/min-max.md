@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/min-max.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/min-max.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Min Max", um die Texturwerte zwischen den minimalen und maximalen Grenzwerten für die Steuerung der Wertebereiche zu klemmen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Min. Max
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](min-max.resources/min-max.png){width="200px"}
+![](min-max.resources/min-max-01.png){width="200px"}
 
 <b>In:</b> Filters > Adjustments
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 Min Max findet die hellsten und dunkelsten Werte einer Graustufeneingabe und gibt sie als [Werte](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md) zurück. Es ist als eine detailliertere, manuelle Alternative für [Auto-Stufen](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md) vorgesehen, bei der Sie die Werteingaben eines [Stufen](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)-Knotens freigeben und die Werte von Min Max darin einfügen.
 
-Um diesen Knoten mit einer Ebene zu verwenden, sollten Sie mindestens wissen, wie Sie die Dropdown-Liste [Leg-Parameter](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) sowie die Registerkarte [Wert-Eingabe](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md) verwenden.
+Um diesen Knoten mit einer Ebene zu verwenden, sollten Sie mindestens wissen, wie Sie die Dropdown-Liste [Parameter verfügbar machen](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) sowie die Registerkarte [Wert-Eingabe](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md) verwenden.
 
 </td>
 </tr>
@@ -46,7 +46,7 @@ Um diesen Knoten mit einer Ebene zu verwenden, sollten Sie mindestens wissen, wi
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="min-max.resources/minmax.png" />
+            <img src="min-max.resources/min-max-02.png" />
         </td>
     </tr>
 </table>

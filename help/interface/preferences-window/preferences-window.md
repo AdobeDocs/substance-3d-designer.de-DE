@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: Rufen Sie das Fenster "Voreinstellungen" in Substance 3D Designer auf, um Anwendungseinstellungen und -verhalten anzupassen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Voreinstellungen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Voreinstellungsfenster
 
-![Fenster für Voreinstellungen](preferences-window.resources/image2021-6-22-20-56-1.png "Fenster für Voreinstellungen")
+![Fenster für Voreinstellungen](preferences-window.resources/preferences-window-01.png "Fenster für Voreinstellungen")
 
 Auf dieser Seite werden das Fenster &quot;<b>Voreinstellungen</b>&quot; und alle zugehörigen Einstellungen angezeigt.
 
@@ -97,7 +97,7 @@ Mit dieser Einstellung können Sie den zugewiesenen Speicherpool für *alle glei
 
 ### Automatische Sicherungskopie
 
-Standardmäßig ist eine Funktion zum automatischen Speichern enthalten, die Kopien des aktuellen Status von offenen [SBS Paketen &#x200B;](https://docs.substance3d.com/display/DRAFTDESIGNER/.Overview+vDraftVersion) zu festgelegten Zeitpunkten erstellt. Automatisch gespeicherte Dateien werden in einem Ordner &quot;<b>.autosave</b>&quot; am SBS Speicherort des Pakets abgelegt.
+Standardmäßig ist eine Funktion zum automatischen Speichern enthalten, die Kopien des aktuellen Status von offenen [SBS Paketen ](https://docs.substance3d.com/display/DRAFTDESIGNER/.Overview+vDraftVersion) zu festgelegten Zeitpunkten erstellt. Automatisch gespeicherte Dateien werden in einem Ordner &quot;<b>.autosave</b>&quot; am SBS Speicherort des Pakets abgelegt.
 
 |  |  |
 | --- | --- |
@@ -111,13 +111,13 @@ Beachten Sie auch, dass automatische Speichervorgänge geöffnet werden sollten 
 
 |  |  |
 | --- | --- |
-| <b>Speichern Sie die SBS-Datei immer, wenn Sie sie in SBSAR veröffentlichen oder an eine andere Anwendung senden</b>  *Standard: Wahr* | Steuert das automatische Speichern des SBS-Pakets, wenn [es &#x200B;](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) veröffentlicht oder an eine andere Anwendung gesendet wird. |
+| <b>Speichern Sie die SBS-Datei immer, wenn Sie sie in SBSAR veröffentlichen oder an eine andere Anwendung senden</b>  *Standard: Wahr* | Steuert das automatische Speichern des SBS, wenn [es ](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) veröffentlicht oder an eine andere Anwendung gesendet wird. |
 
 ### Cooker
 
 |  |                                                                                                                                                                                                                                                                                                 |
 | --- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>Begrenzung der Kochgröße</b>  *Standard: 8192 Pixel* | Definiert die maximale Pixelauflösung, die für alle Knoten in einem beliebigen Substance [Diagramm](../../compositing-graphs/substance-compositing-graphs.md) zulässig ist. Da Graphausgaben immer quadratische Bilder mit einer Potenz von 2 Auflösungen sind, definiert der hier festgelegte Wert sowohl die maximale Breite als auch das Height in Pixel. |
+| <b>Begrenzung der Kochgröße</b>  *Standard: 8192 Pixel* | Definiert die höchstzulässige Pixelauflösung für alle Knoten in einem beliebigen Substance [Graf](../../compositing-graphs/substance-compositing-graphs.md). Da Graphausgaben immer quadratische Bilder mit einer Potenz von 2 Auflösungen sind, definiert der hier festgelegte Wert sowohl die maximale Breite als auch das Height in Pixel. |
 
 ### Modul
 
@@ -127,7 +127,7 @@ Beachten Sie auch, dass automatische Speichervorgänge geöffnet werden sollten 
 
 >[!NOTE]
 >
-> Wir empfehlen, die Vorschläge zum Verringern des Speicherbedarfs eines Diagramms im Abschnitt [Richtlinien zur Leistungsoptimierung](../../best-practices/performance-optimization/performance-optimization-guidelines.md) der Dokumentation zu lesen.
+> Wir empfehlen, die Vorschläge zur Verringerung des Speicherbedarfs eines Grafen im Abschnitt [Richtlinien zur Leistungsoptimierung](../../best-practices/performance-optimization/performance-optimization-guidelines.md) der Dokumentation zu lesen.
 
 ## Projekte
 
@@ -157,14 +157,14 @@ Weitere Informationen finden Sie auf der Seite [Projekteinstellungen](../../inte
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Kontextabhängige Bearbeitung deaktiviert](preferences-window.resources/substance3ddesigner_incontext_no.gif "Kontextabhängige Bearbeitung deaktiviert")
+![Kontextabhängige Bearbeitung deaktiviert](preferences-window.resources/preferences-window-02.gif "Kontextabhängige Bearbeitung deaktiviert")
 
 *Verweis öffnen*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Kontextabhängige Bearbeitung aktiviert](preferences-window.resources/substance3ddesigner_incontext_yes.gif "Kontextabhängige Bearbeitung aktiviert")
+![Kontextabhängige Bearbeitung aktiviert](preferences-window.resources/preferences-window-03.gif "Kontextabhängige Bearbeitung aktiviert")
 
 *Verweis im Kontext öffnen*
 
@@ -191,7 +191,7 @@ Weitere Informationen finden Sie auf der Seite [Projekteinstellungen](../../inte
 
 |  |  |
 | --- | --- |
-| <b>GPU-Raytracing</b>  *Standard: Aktiviert* | Wenn diese Option aktiviert ist, wird Raytracing für [kompatible Bäcker](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/features/gpu-raytracing) auf der GPU durchgeführt.   Je nach NVIDIA-GPU-Architektur sind die folgenden GPU-Raytracing-Backends die Standardeinstellungen:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Touring und neuer</li> <li data-preserve-html="true"><i>Optix</i>: Pascal und Maxwell</li> </ul>  **Hinweis:** Weitere Informationen zu GPU-betriebenen Bäckereien finden Sie im Abschnitt [GPU-Raytracing](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/features/gpu-raytracing) der Dokumentation [Substance Bakers](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/home).  **Tipp:** Sie können die folgenden *Befehlszeilenargumente* verwenden, wenn Sie die Anwendung starten, um *die Verwendung eines anderen GPU-Raytracing-Backends zu erzwingen*: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : Erzwingen der Verwendung von Optix auf Nvidia Turing oder neueren GPUs</li> <li data-preserve-html="true"><code>—force-dxr</code> : erzwingen der Verwendung von DXR auf Nvidia Pascal-GPUs</li> </ul> |
+| <b>GPU-Raytracing</b>  *Standard: Aktiviert* | Wenn diese Option aktiviert ist, wird Raytracing für [kompatible Bäcker](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) auf der GPU durchgeführt.   Je nach NVIDIA-GPU-Architektur sind die folgenden GPU-Raytracing-Backends die Standardeinstellungen:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Touring und neuer</li> <li data-preserve-html="true"><i>Optix</i>: Pascal und Maxwell</li> </ul>  **Hinweis:** Weitere Informationen zu GPU-betriebenen Bäckereien finden Sie im Abschnitt [GPU-Raytracing](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) der Dokumentation [Substance Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).  **Tipp:** Sie können die folgenden *Befehlszeilenargumente* verwenden, wenn Sie die Anwendung starten, um *die Verwendung eines anderen GPU-Raytracing-Backends zu erzwingen*: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : Erzwingen der Verwendung von Optix auf Nvidia Turing oder neueren GPUs</li> <li data-preserve-html="true"><code>—force-dxr</code> : erzwingen der Verwendung von DXR auf Nvidia Pascal-GPUs</li> </ul> |
 
 ## Bibliothek
 

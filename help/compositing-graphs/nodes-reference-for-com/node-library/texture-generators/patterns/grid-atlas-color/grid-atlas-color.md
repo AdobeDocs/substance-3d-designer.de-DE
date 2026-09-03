@@ -1,7 +1,7 @@
 ---
 title: Farbe des Rasteratlas
-description: Designer > Substance von Compositing-Graphen > Knotenreferenz für Substance-Compositing-Graphen > Knotenbibliothek > Generator > Rasteratlas > Musterfarbe
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+description: Designer > Substance-Compositing-Graf > Knotenreferenz für Substance-Compositing-Graf > Knotenbibliothek > Rasteratlas > Mustergenerator > Knotenfarbe
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Symbol für Rasteratlas-Farbe](grid-atlas-color.resources/grid-atlas-color.png "Symbol für Rasteratlas-Farbe")
+![Symbol für Rasteratlas-Farbe](grid-atlas-color.resources/grid-atlas-color-01.png "Symbol für Rasteratlas-Farbe")
 
 <b>In:</b> Generator > Pattern
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## Beschreibung
 
-Lege ein Raster mit anpassbarer XY-Größe mit bis zu 16 Farbbildern an.<br>Das Ausgabeatlas-Bild kann von einem [Shape-Splatter v2](../shape-splatter-v2/shape-splatter-v2.md) oder einem [Shape-Splatter-Zuordnungsfarben](../shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.md)-Knoten gesampelt werden.
+Legen Sie auf einem Raster mit anpassbarem XY-Format bis zu 16 Farbbilder ab.<br>Das Ausgabeatlas-Bild kann von einem [Shape-Splatter v2](../shape-splatter-v2/shape-splatter-v2.md) oder einem [Shape-Splatter-Zuordnungsfarben](../shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.md)-Knoten gesampelt werden.
 
 Siehe auch [Rasteratlas grayscale](../grid-atlas-grayscale/grid-atlas-grayscale.md).
 
@@ -71,9 +71,9 @@ Siehe auch [Rasteratlas grayscale](../grid-atlas-grayscale/grid-atlas-grayscale.
 |:----------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <b>Rastergröße X</b> *Integer* | Die Größe des Rasters auf der X-Achse.<br>D.h. die Anzahl der Bilder, die auf der X-Achse gepackt werden. |
 | <b>Rastergröße Y</b> *Integer* | Die Größe des Rasters auf der Y-Achse.<br>D.h. die Anzahl der Bilder, die auf der Y-Achse gepackt werden. |
-| <b>Ausgabegrößenmodus</b> *Integer* | Die Methode zum Definieren der Größe des Ausgabebilds gemäß dem Basisparameter &quot;Ausgabegröße&quot; des Knotens:<br><br>- <b>Manuell:</b> Verwenden Sie die Größe wie vorhanden.<br>- <b>Automatisches Verhältnis:</b> Passen Sie das Bildverhältnis gemäß der Rastergröße an, um die Bildgröße zu minimieren. Bei nicht quadratischen Rastern mit 3 Zeilen oder Spalten, z. B. 3, 2, 4, 3 |
+| <b>Ausgabegrößenmodus</b> *Ganzzahl* | Die Methode zum Definieren der Größe des Ausgabebilds gemäß dem Basisparameter &quot;Ausgabegröße&quot; des Knotens:<br><br>- <b>Manuell:</b> Verwenden Sie die Größe wie vorhanden.<br>- <b>Automatisches Verhältnis:</b> Passen Sie das Bildverhältnis gemäß der Rastergröße an, um die Bildgröße zu minimieren. Bei nicht quadratischen Rastern mit 3 Zeilen oder Spalten, z. B. 3, 2, 4, 3 |
 
 ## Beispiele
 
-<img src="./grid-atlas-color.resources/grid-atlas-color-graph.png" alt="Rasteratlas-Farbknoten im Kontext eines Graphen" style="width: 50%"><br>
+<img src="./grid-atlas-color.resources/grid-atlas-color-02.png" alt="Rasteratlas-Farbknoten im Kontext eines Graphen" style="width: 50%"><br>
 <i>Rasteratlas-Farbknoten im Kontext eines Diagramms</i>

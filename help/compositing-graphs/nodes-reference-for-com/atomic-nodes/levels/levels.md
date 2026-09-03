@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Tonwertkorrektur", um Helligkeit, Kontrast und Farbtonbereich von Texturen für Farbkorrekturen und Verbesserungen anzupassen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tonwertkorrektur
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Ebenen](levels.resources/comp_levels_1.png "Atomknoten: Stufen"){width="200px"}
+![Atomknoten: Ebenen](levels.resources/levels-01.png "Atomknoten: Stufen"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -76,9 +76,9 @@ Die hervorgehobene gelbe Schaltfläche schaltet die Schnittstelle zwischen den S
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](levels.resources/levels-2-1.png)
+![](levels.resources/levels-02.png)
 
-![](levels.resources/levels-1-1.png)
+![](levels.resources/levels-03.png)
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ Sehen Sie sich diese Videoübersicht über den Knoten &quot;Ebenen&quot; und sei
 
 In der Kopfzeile &quot;Spezifische Parameter&quot; finden Sie Schaltflächen, mit denen Sie auf praktische Funktionen des Histogramms zugreifen können:
 
-![Schnellzugriffe für Knoten auf Ebenen](levels.resources/levels-2.png "Schnellzugriffe für Knoten auf Ebenen")
+![Schnellzugriffe für Knoten auf Ebenen](levels.resources/levels-04.png "Schnellzugriffe für Knoten auf Ebenen")
 
 <b>1 - Umkehren:</b> Tauscht die Werte der Parameter &quot;Level out low&quot; und &quot;Lichter in Ausgabebild&quot; aus.
 
@@ -113,7 +113,7 @@ In der Kopfzeile &quot;Spezifische Parameter&quot; finden Sie Schaltflächen, mi
 
 Der Histogramm-Editor ist für visuelle, schnelle Anpassungen gedacht, bei denen präzise Werte nicht wirklich benötigt werden und der leg von Parametern nicht von Bedeutung ist. Dies ist in der Regel der schnellste und einfachste Weg, mit Tonwertkorrektur zu arbeiten.
 
-![](levels.resources/levels-histo.gif)
+![](levels.resources/levels-05.gif)
 
 Abhängig vom Eingabetyp (Farbe oder Graustufen) können Sie in der Dropdown-Liste über dem Histogramm auswählen, welchen Kanal Sie ändern möchten.
 

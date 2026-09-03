@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/mask-builder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/mask-builder.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Maskenbildner", um mehrere Maskeneingaben zu kombinieren und komplexe Maskenmuster für Material-Effekte zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Maskenbildner
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 10%
@@ -24,7 +24,7 @@ ht-degree: 10%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](mask-builder.resources/mask-builder.png){width="128px"}
+![](mask-builder.resources/mask-builder-01.png){width="128px"}
 
 <b>In:</b> Mesh-basierte Generatoren > Maskengenerator
 
@@ -82,7 +82,7 @@ Es sind keine expliziten Baking führte erforderlich, aber je mehr Sie angeben, 
 | <b>Rauschen</b> <i>0.0 - 1.0</i> | Legt die Menge an Rauschen/Schmutz fest, die in den AO-Effekt integriert werden soll. |
 | <b>Rauschen-Skalierung</b> <i>0 - 10</i> | Legt die Skalierung des AO-Rauschen/Schmutz fest. |
 | <b>Rauschen-Typ</b> <i>Flecken, Wolke, Feuchtigkeit, weißer Rauschen</i> | Wechselt zwischen 4 verschiedenen AO-Rauschen-Typen. |
-| <b>Umkehren</b> <i>False/True</i> | Kehrt die Interpretation der AO-Map um: Rauschen tritt in hellen AO-Bereichen auf, in dunklen nicht. |
+| <b>Umkehren</b> <i>False/True</i> | Kehrt die Interpretation der AO-Map um: Rauschen wird in hellen AO-Bereichen angezeigt, in dunklen nicht. |
 | <b>Krümmung</b> <i>0.0 - 1.0</i> | Legt fest, wie viel Effekt an den Kanten der Krümmung angewendet werden soll. kann sowohl konvex als auch konkav sein. Optimiere dies mit der Gruppe unten. |
 | <b>Krümmung</b> |  |
 | <b>Konvexbereich</b> <i>-1.0 - 1.0</i> | Legt fest, wie stark der Effekt an den Kanten der konvexen (hellen) Krümmung angewendet wird. |

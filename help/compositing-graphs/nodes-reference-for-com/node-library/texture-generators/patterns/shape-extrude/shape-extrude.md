@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-extrude.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-extrude.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Form-Extrudieren", um Formen zu extrudieren und 3D-ähnliche Tiefe-Effekte in Substance 3D Designer-Texturen zu erstellen.
+description: Verwenden Sie den Knoten Form-Extrudieren , um Formen zu extrudieren und 3D-ähnliche Tiefe-Effekte in Substance 3D Designer-Texturen zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Extrude
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Form > Extrudieren
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape-extrude.resources/shape-extrude.png){width="128px"}
+![](shape-extrude.resources/shape-extrude-01.png){width="128px"}
 
 <b>In:</b> Texturgeneratoren > Muster
 
@@ -66,7 +66,7 @@ Ein erweiterter Knoten, mit dem 2D-, binäre &quot;Shape&quot;-Eingaben in 3D-ge
 | <b>Abgeflachte Kurve</b> <i>-1.0 - 1.0</i> | Legen Sie die konvexe oder konkave Kurve des Effekts &quot;Abgeflachte Kante&quot; fest. Ein Wert von 0 bedeutet gerade, keine Kurve. |
 | <b>Abgeflachte Kante spiegeln</b> <i>False/True</i> | Klicke auf &quot;Abgeflachte Kante&quot;, um die Form sowohl oben als auch unten anzuwenden. |
 | <b>Multicalup-Multiplikator herunterskalieren</b> <i>0 - 2</i> | Integrierte, einfache Downskalierungssteuerung. Kann verwendet werden, um schnell Anti-Aliasing hinzuzufügen; Stellen Sie sicher, dass Sie auch die Knotenauflösung erhöhen. |
-| <b>Position</b> | Hauptsteuerung zum Drehen führt zum 3D-Raum. Korreliert mit dem interaktiven Gizmo in der 2D-Ansicht. |
+| <b>Position</b> | Hauptsteuerung zum Drehen führt zum 3D-Raum. Korreliert mit interavtice Gizmo in der 2D-Ansicht. |
 | <b>Ausgabebereich</b> <i>[0, 1], [-1, 1]</i> | Legen Sie die Minimal- und Maximalwerte für die Ausgabe fest. Wenn der Bereich auf [-1,1] festgelegt ist, werden negative Werte als schwarz dargestellt. |
 
 ## Beispiele
@@ -74,7 +74,7 @@ Ein erweiterter Knoten, mit dem 2D-, binäre &quot;Shape&quot;-Eingaben in 3D-ge
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="shape-extrude.resources/shape-extrude-1.png" />
+            <img src="shape-extrude.resources/shape-extrude-02.png" />
         </td>
     </tr>
 </table>
