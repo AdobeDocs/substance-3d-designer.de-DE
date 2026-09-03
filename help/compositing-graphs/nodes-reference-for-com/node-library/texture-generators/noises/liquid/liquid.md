@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/liquid.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/liquid.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Flüssigkeit", um Flüssigkeits- und Fluidmuster zum Erstellen von Wasser-, Öl- und anderen Flüssigkeitsoberflächeneffekten zu generieren.
 helpx_creative_field: ""

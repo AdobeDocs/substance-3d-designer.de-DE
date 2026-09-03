@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-invert.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-invert.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Normale Umkehr , um normale Map-Vektoren umzukehren, um die Ausrichtung der Oberfläche und die Beleuchtungsrichtung umzukehren.
 helpx_creative_field: ""

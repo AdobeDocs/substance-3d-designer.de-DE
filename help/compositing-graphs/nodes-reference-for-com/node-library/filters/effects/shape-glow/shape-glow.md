@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-glow.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-glow.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Formenglühen", um Formen und Texturen Leuchteffekte hinzuzufügen, um helle und atmosphärische visuelle Effekte zu erzeugen.
 helpx_creative_field: ""

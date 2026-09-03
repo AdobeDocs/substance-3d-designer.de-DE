@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hdr-range-viewer.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hdr-range-viewer.html"
 breadcrumb-title: ''
 description: Verwenden Sie den HDR. Bereichsanzeige-Knoten, um HDR. Textur-Bereiche zum Analysieren und Anpassen von High Dynamic Range-Werten zu visualisieren.
 helpx_creative_field: ""

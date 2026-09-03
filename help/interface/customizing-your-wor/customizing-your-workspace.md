@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/customizing-your-workspace.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/customizing-your-workspace.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Ihren Arbeitsbereich in Substance 3D Designer anpassen, um Ihren Arbeitsablauf und Ihre Layout-Einstellungen zu optimieren.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Anpassen des Arbeitsbereichs
 
-Auf dieser Seite werden die Möglichkeiten zum Anordnen der Bedienfelder in der [Adobe Substance 3D Designer-Benutzeroberfläche](https://www.adobe.com/products/substance3d-designer.html) und zum Optimieren Ihrer Arbeitsabläufe beschrieben.
+Auf dieser Seite werden die Möglichkeiten zum Anordnen der Bedienfelder in der [Adobe Substance 3D Designer-Benutzeroberfläche](https://www.adobe.com/de/products/substance3d-designer.html) und zum Optimieren Ihrer Arbeitsabläufe beschrieben.
 
 <table>
 <tr style="border: 0;">

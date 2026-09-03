@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d.html"
 breadcrumb-title: ''
 description: Verwenden Sie den 3D-Knoten Cube, um Texturen auf der Grundlage von 3D-Cube-Projektionen zu erstellen, um Umgebungs-Map und Effekte zu erzeugen.
 helpx_creative_field: ""

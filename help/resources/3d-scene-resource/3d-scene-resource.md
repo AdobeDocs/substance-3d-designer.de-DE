@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/3d-scene-resource.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/resources/3d-scene-resource.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie 3D-Szenenressourcen in Substance 3D Designer für die Materialvorschau und das Testen importieren und verwenden.
 helpx_creative_field: ""
@@ -44,7 +44,7 @@ Die folgenden 3D-Szenendateiformate werden unterstützt:
 
 3D-Szenen können *nur* verknüpft werden, d. h. sie bleiben an ihrem Speicherort auf dem Datenträger und werden nur in der Anwendung referenziert.
 
-Wenn ein Paket mit einer 3D-Szenenressource als [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)-Asset (SBSAR) veröffentlicht wird, ist das Gitter *nicht eingebettet*, aber verworfen.
+Wenn ein Paket mit einer 3D-Szenenressource als [Substance 3D](https://www.adobe.com/de/products/substance3d/3d-augmented-reality.html)-Asset (SBSAR) veröffentlicht wird, ist das Gitter *nicht eingebettet*, aber verworfen.
 
 ## Backen von Gitterkarten
 

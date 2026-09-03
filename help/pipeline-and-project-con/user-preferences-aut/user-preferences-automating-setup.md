@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/user-preferences-automating-setup.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/pipeline-and-project-configuration/user-preferences-automating-setup.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie die Einrichtung von Benutzervoreinstellungen in Substance 3D Designer für eine optimierte Workflow-Konfiguration automatisieren.
 helpx_creative_field: ""

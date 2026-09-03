@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-linear.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-linear.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "In lineare Darstellung konvertieren", um Texturen aus sRGB in einen linearen Farbraum zu konvertieren, um präzise Farbberechnungen durchzuführen.
 helpx_creative_field: ""

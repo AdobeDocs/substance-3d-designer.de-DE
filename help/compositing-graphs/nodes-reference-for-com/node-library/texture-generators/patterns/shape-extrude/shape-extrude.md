@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-extrude.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-extrude.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Form-Extrudieren , um Formen zu extrudieren und 3D-ähnliche Tiefe-Effekte in Substance 3D Designer-Texturen zu erstellen.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
 breadcrumb-title: ''
 description: Verwenden Sie die Knotenausrichtungswerkzeuge, um Knoten in der Diagrammansicht für sauberere, besser lesbare Diagramme zu organisieren und auszurichten.
 helpx_creative_field: ""

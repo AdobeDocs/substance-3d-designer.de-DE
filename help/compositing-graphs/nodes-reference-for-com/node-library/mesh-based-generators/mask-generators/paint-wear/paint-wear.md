@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/paint-wear.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/paint-wear.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Malen Wear, um Malen-Verschleißmasken auf der Grundlage der Mesh-Geometrie zu erstellen, um realistische Malen-Chipping-Effekte zu erzeugen.
 helpx_creative_field: ""

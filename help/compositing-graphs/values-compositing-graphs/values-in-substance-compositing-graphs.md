@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über Werttypen und Datenverarbeitung in Substance-Compositing-Graphen für eine effektive Materialerstellung.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Werte in Substance-Graphen
 
-Seit der Einführung der [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html)-Engine v7 in Version 2019.1.0 ist es jetzt möglich, Werte im Substance-Diagramm und [nicht nur in Funktionen](../../function-graphs/function-graphs.md) zu verarbeiten. Wertedaten sind dieselben Daten, die in Funktionen verwendet werden ( Integers, Floats und Booleans usw.), wodurch sie sich deutlich von Farb- oder Graustufenbilddaten unterscheiden, die Pixelwerte für ein gesamtes Bild darstellen. Wenn Values-Daten erwähnt werden, bedeutet dies insbesondere *Integer 1, Integer 2, Integer 3 und Integer 4, Float 1, Float 2, Float 3 und Float 4 sowie Boolean*. Jede hat eine eigene Farbkodierung und wird meist nicht miteinander vertauscht.
+Seit der Einführung der [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html)-Engine v7 in Version 2019.1.0 ist es jetzt möglich, Werte im Substance-Diagramm und [nicht nur in Funktionen](../../function-graphs/function-graphs.md) zu verarbeiten. Wertedaten sind dieselben Daten, die in Funktionen verwendet werden ( Integers, Floats und Booleans usw.), wodurch sie sich deutlich von Farb- oder Graustufenbilddaten unterscheiden, die Pixelwerte für ein gesamtes Bild darstellen. Wenn Values-Daten erwähnt werden, bedeutet dies insbesondere *Integer 1, Integer 2, Integer 3 und Integer 4, Float 1, Float 2, Float 3 und Float 4 sowie Boolean*. Jede hat eine eigene Farbkodierung und wird meist nicht miteinander vertauscht.
 
 Dafür gibt es einige Anwendungsfälle, z. B.:
 

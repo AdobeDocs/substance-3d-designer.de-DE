@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/crop.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/crop.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Zuschneiden", um Materialausgaben auf bestimmte Bereiche zuzuschneiden, um gescannte Materialien und Texturen zu verarbeiten.
 helpx_creative_field: ""
