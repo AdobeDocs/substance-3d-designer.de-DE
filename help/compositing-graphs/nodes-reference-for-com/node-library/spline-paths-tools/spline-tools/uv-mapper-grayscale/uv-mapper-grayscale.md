@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-grayscale.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Graustufen UV-Mapper", um Graustufentexturen entlang von Splines für die prozedurale Texturgenerierung zuzuordnen.
+description: Verwenden Sie den Knoten UV Mapper Graustufen , um Graustufen-Texturen entlang von Splines für die prozedurale Generierung von Texturen zuzuordnen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > UV Mapper Grayscale
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Graustufen für UV Mapper
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 1%
+source-wordcount: '142'
+ht-degree: 2%
 
 ---
 
@@ -22,13 +22,9 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/uv-mapper-grayscale-icon.png "Knotensymbol")
+![Knotensymbol](uv-mapper-grayscale.resources/uv-mapper-grayscale-01.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -37,7 +33,7 @@ ht-degree: 1%
 
 ## Beschreibung
 
-Ordnet das Graustufeneingabebild anhand der Koordinaten zu, die in der UV-Eingabe angegeben sind.
+Ordnet das eingegebene Graustufenbild anhand der Koordinaten zu, die in der UV-Eingabe angegeben sind.
 
 </td>
 </tr>
@@ -47,15 +43,22 @@ Ordnet das Graustufeneingabebild anhand der Koordinaten zu, die in der UV-Eingab
 >
 > Siehe auch [UV Mapper Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md).
 
-## Eingangsanschlüsse
+<a name="inputs"></a>
 
-<b>UV</b> *Farbe* Bildkoordinaten, die in den roten (U) und grünen (V) Kanälen eines Farbbildes codiert sind.
+## Eingaben
 
-<b>Eingabe</b> *Farbe* Das Graustufenbild, das den Koordinaten in der UV-Eingabe zugeordnet werden soll.
+|  |  |
+|:---|:---|
+| <b>UV</b> <i>Farbe</i> | Bildkoordinaten, die in den roten (U) und grünen (V) Kanälen eines Farbbildes codiert sind. |
+| <b>Eingabe</b> <i>Farbe</i> | Das Graustufenbild, das den Koordinaten in der UV-Eingabe zugeordnet werden soll. |
 
-## Ausgangsanschlüsse
+<a name="outputs"></a>
 
-<b>Ausgabe</b> *Farbe* Das Ergebnis der Zuordnung des Eingabebilds unter Verwendung der Eingabe-UV-Koordinaten als Graustufenbild.
+## Ausgaben
+
+|  |  |
+|:---|:---|
+| <b>Ausgabe</b> <i>Farbe</i> | Das Ergebnis der Zuordnung des Eingabebilds mithilfe der eingegebenen UV-Koordinaten als Graustufenbild. |
 
 ## Beispiele
 
@@ -66,11 +69,11 @@ Ordnet das Graustufeneingabebild anhand der Koordinaten zu, die in der UV-Eingab
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
+      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-02.jpg" alt="UVMapper-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapperGrayscale-Variant1-After.jpg" alt="UVMapperGrayscale-Variant1-After">
+      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-03.jpg" alt="UVMapperGrayscale-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -82,11 +85,11 @@ Ordnet das Graustufeneingabebild anhand der Koordinaten zu, die in der UV-Eingab
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
+      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-04.jpg" alt="UVMapper-Variant2-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant2-After.jpg" alt="UVMapper-Variant2-After">
+      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-05.jpg" alt="UVMapper-Variant2-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -96,18 +99,4 @@ Ordnet das Graustufeneingabebild anhand der Koordinaten zu, die in der UV-Eingab
 </tr>
 </table>
 
-![Knotenbeispiel 1](../../../../../../assets/UVMapper-Graph.jpg "Knotenbeispiel 1")
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
+![Knotenbeispiel 1](uv-mapper-grayscale.resources/uv-mapper-grayscale-06.jpg "Knotenbeispiel 1")

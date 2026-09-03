@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Schatten (Filterknoten)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 2%
+source-wordcount: '134'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shadows-1.png){width="128px"}
+![](shadows-filter-node.resources/shadows-filter-node-01.png){width="128px"}
 
-## Schatten
-
-**In:** *Filter/Effekte*
-
-**Einfach**
+<b>In:</b> Filters > Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,19 +37,27 @@ Eine reine Graustufenversion des Knotens [Shape-Schlagschatten](../../../../../.
 
 Dies kann nützlich sein, wenn Sie direkt nach dem Schatten arbeiten und nicht mit einem umfassenderen Knoten arbeiten möchten, z. B. beim Erstellen Ihres eigenen Materials oder bei der Hintergrundbeleuchtung.
 
-## Parameter
-
-* **Schattenentfernung**: *0.0 - 1.0* Steuert, wie weit der Schatten fallen soll.
-* **Lichtwinkel**: *0.0 - 1.0* Steuert den Einfallswinkel des Lichts.
-* **Kanten weich**: *0.0 - 1.0* Bestimmt, wie hart oder weich die Schattenkanten sind.
-* **Beispiele**: *1 - 16* Legt die Qualität für die Einstellung &quot;Kanten-Weichheit&quot; fest.
-
-## Beispielbilder
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/shadow-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Schattenentfernung</b> <i>0.0 - 1.0</i> | Steuert, wie weit der Schatten fallen soll. |
+| <b>Lichtwinkel</b> <i>0.0 - 1.0</i> | Steuert den Einfallswinkel des Lichts. |
+| <b>Kanten weich</b> <i>0.0 - 1.0</i> | Legt fest, wie hart oder weich die Schattenkanten sind. |
+| <b>Beispiele</b> <i>1 - 16</i> | Legt die Qualität für die Einstellung &quot;Kanten weichzeichnen&quot; fest. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="shadows-filter-node.resources/shadows-filter-node-02.png" />
+        </td>
+    </tr>
 </table>

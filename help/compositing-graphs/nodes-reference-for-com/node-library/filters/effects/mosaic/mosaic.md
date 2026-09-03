@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mosaik
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 3%
+source-wordcount: '110'
+ht-degree: 7%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mosaic-1.png){width="128px"}
+![](mosaic.resources/mosaic-01.png){width="128px"}
 
-![](../../../../../../assets/mosaic-grayscale.png){width="128px"}
+![](mosaic.resources/mosaic-02.png){width="128px"}
 
-## Mosaik (Graustufen)
-
-**In:** *Filter/Effekte*
-
-**Fortgeschrittene**
+<b>In:</b> Filters > Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -43,25 +39,34 @@ ht-degree: 3%
 
 Dies ist nützlich, um Graustufenzuordnungen wie Höhenkarte mehr Definition hinzuzufügen, da Formen mehr Definition erhalten können.
 
-## Parameter
-
-### Eingaben
-
-* **Farbe**: *Farb-/Graustufeneingabe*
-* **Mosaikkarte**: *Graustufen-Eingabe*\
-  Verkrümmungstreiberzuordnung. Kann mit der ersten Eingabe identisch sein.
-
-### Parameter
-
-* **Beispiele**: *0 - 16* Bestimmt die Qualität mehrerer Samples.
-* **Intensität**: *0.0 - 1.0* Stärke des Effekts.
-
-## Beispielbilder
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/mosaci-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Farbe</b> <i>Farb-/Graustufeneingabe</i> |  |
+| <b>Mosaikkarte</b> <i>Graustufen-Eingabe</i> | Verkrümmungstreiberzuordnung. Kann mit der ersten Eingabe identisch sein. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Beispiele</b> <i>0 - 16</i> | Bestimmt die Qualität mehrerer Samples. |
+| <b>Intensität</b> <i>0.0 - 1.0</i> | Stärke des Effekts. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="mosaic.resources/mosaic-03.png" />
+        </td>
+    </tr>
 </table>

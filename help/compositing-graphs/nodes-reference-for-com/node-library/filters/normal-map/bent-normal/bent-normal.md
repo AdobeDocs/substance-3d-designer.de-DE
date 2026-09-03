@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Normal gebogen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '249'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![Symbol für gebogenen normalen Knoten](../../../../../../assets/rt-bent-normal.png "Symbol für gebogenen normalen Knoten")
+![Symbol für gebogenen normalen Knoten](bent-normal.resources/bent-normal-01.png "Symbol für gebogenen normalen Knoten")
 
-<b>In:</b> *Filter/Normalmap*
+<b>In:</b> Filters > Normalen-Map
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -42,33 +42,27 @@ Dieser Knoten sollte aufgrund der Berechnungszeit nicht in Kombination mit der C
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parameter
 
-<b>Physische Größe verwenden</b> *Boolescher Wert*\
-Verwenden Sie die Einstellung Physische Größe , um die Skalierung des Heights festzulegen.
+|  |  |
+|:---|:---|
+| <b>Physische Größe verwenden</b> <i>Boolescher Wert</i> | Verwenden Sie die Einstellung Physische Größe , um die Skalierung des Heights festzulegen. |
+| <b>Physische Größe</b> <i>Float3</i> | (Verfügbar, wenn <b>Physische Größe verwenden</b> auf <i>Wahr</i> festgelegt ist) Passt die Skalierung des Heights auf der Grundlage der tatsächlichen Physische Größe der Oberfläche an. |
+| <b>Beispiele</b> <i>Integer</i> | Anzahl der Strahlen, die zur Berechnung der gebogenen Normalen verwendet werden.<br>Eine höhere liefert ein glatteres und präziseres Ergebnis auf Kosten der Leistung. |
+| <b>Height-Skalierung</b> <i>Gleitend</i> | (Verfügbar, wenn &quot;Physische Größe verwenden&quot; auf &quot;Falsch&quot; gesetzt ist) Multiplikator für die Intensität des Höhen-Map-Eingangs. |
+| <b>Verteilung</b> <i>Integer</i> | Legt die Verteilungsmethode fest. Betrifft Falloff in Richtung Schattenbereiche. |
+| <b>Maximale Entfernung</b> <i>Gleitend</i> | Legt die maximale Entfernung fest, die Strahlen zurücklegen können. |
+| <b>Spread Angle</b> <i>Gleitend</i> | Legt den Ausbreitungswinkel für die Strahlen fest, auf die geschossen werden soll. Ein Wert von 1 ist eine ganze Hemisphäre. |
+| <b>Normales Format</b> <i>Integer</i> | Kehrt den grünen Kanal der Ausgabe um. |
 
-<b>Physische Größe</b> *Float3* (verfügbar, wenn <b>Physische Größe verwenden</b> auf *Wahr* festgelegt ist)\
-Passt den Maßstab des Heights auf der Grundlage der realen Physische Größe der Fläche an.
+## Beispiele
 
-<b>Beispiele</b> *Integer*\
-Anzahl der Strahlen, die zur Berechnung der gebogenen Normalen verwendet werden.\
-Ein höherer Wert sorgt für ein glatteres und präziseres Ergebnis auf Kosten der Leistung.
-
-<b>Height-Skalierung</b> *Float (verfügbar, wenn &quot;Physische Größe verwenden&quot; auf &quot;Falsch&quot; festgelegt ist)*\
-Multiplikator für die Intensität des Height-Map-Eingangs.
-
-<b>Verteilung</b> *Integer*\
-Legt die Verteilungsmethode fest. Betrifft Falloff in Richtung Schattenbereiche.
-
-<b>Maximale Entfernung</b> *Gleitend*\
-Legt die maximale Entfernung fest, die Strahlen zurücklegen können.
-
-<b>Spread Angle</b> *Gleitend*\
-Legt den Ausbreitungswinkel für die Strahlen fest, auf die geschossen werden soll. Ein Wert von 1 ist eine ganze Hemisphäre.
-
-<b>Normales Format</b> *Integer*\
-Kehrt den grünen Kanal der Ausgabe um.
-
-## Beispielbilder
-
-![Gebogener normaler Knoten - Beispiel 1](../../../../../../assets/bent-normal-ex-1.jpg "Gebogener normaler Knoten - Beispiel 1")
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="bent-normal.resources/bent-normal-02.jpg" />
+        </td>
+    </tr>
+</table>

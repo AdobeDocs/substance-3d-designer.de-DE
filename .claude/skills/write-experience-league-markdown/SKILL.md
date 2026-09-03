@@ -2,10 +2,10 @@
 name: write-experience-league-markdown
 description: ""
 Source: https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown
-source-git-commit: ec58342925d3e608b0180b67a1e20ffaeb1f306a
+source-git-commit: e44437dcecf30714ffe5274c91135d84a0360aa7
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 5%
+source-wordcount: '647'
+ht-degree: 6%
 
 ---
 
@@ -62,11 +62,13 @@ Bezeichnung, z. B. `Getting started{#getting-started}`
 
 * `![Alt text](path/to/image.png "Optional hover title")`.
 * Optionale Parameter für die Größen-/Optimierungsabfrage werden unterstützt:
-  `![Adobe logo](assets/logo.png?width=750&format=png&optimize=medium)`.
+  `![Adobe logo](my-page.resources/logo.png?width=750&format=png&optimize=medium)`.
 * **Alt-Text darf keine Unterstriche enthalten** - sie werden nicht korrekt gerendert;
 Verwenden Sie stattdessen Bindestriche oder Leerzeichen.
-* Seitenspezifische Bilder sind in `<page-name>.resources/` live; gemeinsame/App-Symbole
-live in `help/assets/` (siehe CLAUDE.md).
+* Seitenspezifische Bilder befinden sich in einem gleichrangigen Ordner &quot;`<page-name>.resources/`&quot;.
+neben `.md`, auf die relativ verwiesen wird (z. B.
+  `<page-name>.resources/image.png`). `help/assets/` ist eine freigegebene Legacy.
+  Ordner - fügen Sie dort keine neuen Bilder hinzu (siehe CLAUDE.md).
 
 ## Tabellen
 
@@ -124,7 +126,7 @@ Unterstützte Typen: `NOTE`, `TIP`, `IMPORTANT`, `CAUTION`, `WARNING`
 ## UICONTROL-Tag
 
 Eingliedert Namen von Benutzeroberflächenelementen (Schaltflächenbeschriftungen, Menüelemente, Feldnamen) inline, sodass
-die Lokalisierungspipeline weiß, dass sie nach einer übersetzten Zeichenfolge sucht, und fällt
+die Lokalisierungspipeline weiß, dass sie nach einer Kamera bewogen Zeichenfolge sucht, und fällt
 Zurück zur englischen Bezeichnung, wenn keine vorhanden ist:
 
 ```markdown
@@ -138,7 +140,7 @@ Elemente, Schaltflächennamen, Dialogtitel, Fensternamen).
 ## DNL-Tag (&quot;Nicht lokalisieren&quot;)
 
 Eingliedert Produktnamen, Funktionsnamen von Drittanbietern oder Phrasen, die
-niemals maschinell übersetzt werden:
+niemals maschinell Kamera bewogen werden:
 
 ```markdown
 Use [!DNL Adobe Analytics] to track metrics.

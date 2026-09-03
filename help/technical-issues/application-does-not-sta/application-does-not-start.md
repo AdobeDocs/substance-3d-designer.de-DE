@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Anwendung kann nicht gestartet werden
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5e56914c9048c513359d578d802097ef18493a5c
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 1%
@@ -32,21 +32,21 @@ Auf dieser Seite werden häufige Ursachen aufgeführt, warum Substance 3D Design
 
 ## Designer 15.0 und höher
 
-<b>![(Fehler)](../../assets/error.svg) Problem</b>
+<b>[(Fehler)](application-does-not-start.resources/error.svg) Problem</b>
 
 Die Versionen 15.0 und höher von Designer können auf Systemen mit integrierter GPU (iGPU) und diskreter GPU (dGPU) nicht gestartet werden.
 
-<b>![(tick)](../../assets/check.svg) Empfohlene Schritte</b>
+<b>[(tick)](application-does-not-start.resources/check.svg) Empfohlene Schritte</b>
 
 Aktualisieren Sie die Grafiktreiber der iGPU. Die neuesten Treiber finden Sie hier:  [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)  | [AMD](https://www.amd.com/en/support/download/drivers.html)
 
 ## Windows 10/11
 
-**![(Fehler)](../../assets/error.svg) Problem**
+**![(Fehler)](application-does-not-start.resources/error.svg) Problem**
 
 Substance 3D Designer kann auf Systemen mit Windows 10 oder Windows 11 nicht gestartet werden.
 
-**![(tick)](../../assets/check.svg) Empfohlene Schritte**
+**![(tick)](application-does-not-start.resources/check.svg) Empfohlene Schritte**
 
 Ältere Versionen von Designer können unter Windows 10 oder Windows 11 möglicherweise nicht gestartet werden, da im Lizenzvalidierungsprozess eine *veraltete* `libeay32.dll` Bibliothek verwendet wird.
 
@@ -67,11 +67,11 @@ Sie können versuchen, die Bibliothek durch eine *aktualisierte Version* zu erse
 
 ## Windows 7/8/8.1
 
-**![(Fehler)](../../assets/error.svg) Problem**
+**![(Fehler)](application-does-not-start.resources/error.svg) Problem**
 
 Substance 3D Designer kann auf Systemen mit Windows 7, Windows 8 oder Windows 8.1 nicht gestartet werden.
 
-**![(tick)](../../assets/check.svg) Empfohlene Schritte**
+**![(tick)](application-does-not-start.resources/check.svg) Empfohlene Schritte**
 
 Im Rahmen des Updates der Version **11.3.0** haben wir mehrere Bibliotheken, Tools und SDKs aktualisiert, die *die Kompatibilität* mit Versionen von Windows unter Windows 10 beschädigt haben.
 
@@ -86,11 +86,11 @@ Wenn ein Upgrade auf Windows 10 nicht möglich ist, *aktualisieren Sie* Ihre Ins
 
 ## Linux
 
-<b>![(Fehler)](../../assets/error.svg) Problem</b>
+<b>[(Fehler)](application-does-not-start.resources/error.svg) Problem</b>
 
-Absturz beim Schließen des Startbildschirms und Anzeigen des Hauptfensters.
+Absturz beim Schließen des Startbildschirms und beim Anzeigen des Hauptfensters.
 
-<b>![(tick)](../../assets/check.svg) Empfohlene Schritte</b>
+<b>[(tick)](application-does-not-start.resources/check.svg) Empfohlene Schritte</b>
 
 Designer kann Python-Komponenten nicht laden, da die Systembibliothek <b>libffi.so</b> anstatt ihrer eigenen geladen wird.
 
@@ -111,17 +111,17 @@ Linux-Benutzer, die Designer von Steam aus starten, können den Befehl LD\_PRELO
 
 Anschließend kann Designer in allen zukünftigen Sitzungen normalerweise von Steam aus gestartet werden.
 
-![Optionen für den Steam-Start](../../assets/steam_linux_launch_option.jpg "Optionen für den Steam-Start")
+![Optionen für den Steam-Start](application-does-not-start.resources/application-does-not-start-01.jpg "Optionen für den Steam-Start")
 
 
 
 +++
 
-**![(Fehler)](../../assets/error.svg) Problem**
+**![(Fehler)](application-does-not-start.resources/error.svg) Problem**
 
 Die Steam-Edition von Designer kann nicht gestartet werden und gibt keine Fehlermeldung aus.
 
-**![(tick)](../../assets/check.svg) Empfohlene Schritte**
+**![(tick)](application-does-not-start.resources/check.svg) Empfohlene Schritte**
 
 Sie können Fehlermeldungen erhalten, indem Sie stattdessen die Steam-Anwendung protokollieren.
 
@@ -132,7 +132,7 @@ steam 2>&1 | tee /path/to/logfile
 ```
 
 
-<b>![(Fehler)](../../assets/error.svg) Problem</b><b>e</b>
+<b>![(Fehler)](application-does-not-start.resources/error.svg) Problem</b><b>e</b>
 
 Das `<b>xcb</b>`-Plug-In kann nicht geladen werden. Die folgende Meldung wird in der Befehlszeile angezeigt:
 
@@ -151,7 +151,7 @@ Aborted (core dumped)
 ```
 
 
-**![(tick)](../../assets/check.svg) Empfohlene Schritte**
+**![(tick)](application-does-not-start.resources/check.svg) Empfohlene Schritte**
 
 Einige erforderliche Pakete fehlen. Führen Sie den folgenden Befehl aus dem Installationsverzeichnis von Designer aus:
 
@@ -174,7 +174,7 @@ apt-get install libxcb-xinput0
 ```
 
 
-<b>![(Fehler)](../../assets/error.svg) Problem</b>
+<b>![(Fehler)](application-does-not-start.resources/error.svg) Problem</b>
 
 Dieser Fehler wird beim Starten von Designer ausgelöst:
 
@@ -185,7 +185,7 @@ error while loading shared libraries: libcrypt.so.1: cannot open shared object f
 
 Eine von Designer geladene Systembibliothek ist mit der eigenen <b>libcrypto.so.1.1</b>-Bibliothek von Designer nicht kompatibel.
 
-<b>![(tick)](../../assets/check.svg) Empfohlene Schritte</b>
+<b>![(tick)](application-does-not-start.resources/check.svg) Empfohlene Schritte</b>
 
 Entfernen Sie die <b>`libcrypto.so.1.1`</b>-Bibliothek aus dem Installationsverzeichnis von Designer, sodass stattdessen die Systembibliothek verwendet wird.
 
@@ -193,11 +193,11 @@ Entfernen Sie die <b>`libcrypto.so.1.1`</b>-Bibliothek aus dem Installationsverz
 >
 > Diese Problemumgehung funktioniert nur, wenn das System über eine eigene Bibliothek libcrypto.so.1 verfügt. In aktuellen Distributionen muss möglicherweise ein Kompatibilitätspaket wie <b>libxcrypt-compat</b> installiert werden.
 
-<b>![(Fehler)](../../assets/error.svg) Problem</b>
+<b>![(Fehler)](application-does-not-start.resources/error.svg) Problem</b>
 
 Substance 3D Designer kann nicht auf Systemen gestartet werden, die *Arch-basierte* Linux-Distributionen verwenden.
 
-**![(tick)](../../assets/check.svg) Empfohlene Schritte *(![(Warnung)](../../assets/warning.svg) Instable, nur AMD-GPUs!)***
+**![(tick)](application-does-not-start.resources/check.svg) Empfohlene Schritte *(![(Warnung)](application-does-not-start.resources/warning.svg) Instable, nur AMD-GPUs!)***
 
 Versuchen Sie, **program** (Teil der [AMDGPU-PRO](https://wiki.archlinux.org/title/AMDGPU_PRO) Treiber) zu installieren, und starten Sie Designer über diese Software. Sie können dies tun, indem Sie das Präfix &quot;`progl`&quot; im Befehl zum Starten der Anwendung verwenden:
 

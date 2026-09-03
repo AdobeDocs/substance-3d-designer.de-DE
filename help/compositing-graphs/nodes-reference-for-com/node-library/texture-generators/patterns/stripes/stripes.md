@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Streifen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 4%
+source-wordcount: '111'
+ht-degree: 11%
 
 ---
 
@@ -22,38 +22,43 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/stripes.png){width="128px"}
+![](stripes.resources/stripes-01.png){width="128px"}
 
-## Streifen
-
-**In:** *Texturgeneratoren**/Muster*
-
-**Fortgeschrittene**
+<b>In:</b> Texturgeneratoren > Muster
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Erzeugt ein kacheliges, abgewinkeltes Streifenmuster. Das Muster passt sich selbst an, um immer Kontinuität zu gewährleisten.
 
-## Parameter
-
-* **Stripe**: *1 - 100* Legt die Anzahl der Streifen fest. Verschiebt das Ergebnis automatisch, um eine Kachelung sicherzustellen.
-* **Breite**: *0.0 - 1.0* Legt die Stripe-Breite fest.
-* **Weichheit**: *0.0 - 1.0* Legt den Übergang der Streifenränder fest.
-* **Umschalttaste**: *0 - 20* Neigt die Streifen. Fügt automatisch weitere Streifen hinzu, um eine Kachelung sicherzustellen.
-* **Ausrichten**: *Kanten, Mitte* Setzt den Drehpunkt für die Verschiebung.
-* **Filtern**: *Falsch/Wahr* Aktiviert die Filterung.
-* **Quadratische Ausbreitung**: *False/True*\
-  Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen.
-
-## Beispielbilder
-
-![](../../../../../../assets/stripes-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Stripe</b> <i>1 - 100</i> | Legt die Stärke der Streifen fest. Verschiebt das Ergebnis automatisch, um eine Kachelung sicherzustellen. |
+| <b>Breite</b> <i>0.0 - 1.0</i> | Legt die Stripe-Breite fest. |
+| <b>Weichheit</b> <i>0.0 - 1.0</i> | Legt den Übergang der Streifenkanten fest. |
+| <b>Umschalttaste</b> <i>0 - 20</i> | Neigt die Streifen. Fügt automatisch weitere Streifen hinzu, um eine Kachelung sicherzustellen. |
+| <b>Ausrichten</b> <i>Kanten, Mitte</i> | Legt den Drehpunkt für die Verschiebung fest. |
+| <b>Filtern</b> <i>False/True</i> | Aktiviert die Filterung. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="stripes.resources/stripes-02.gif" />
+        </td>
+    </tr>
 </table>

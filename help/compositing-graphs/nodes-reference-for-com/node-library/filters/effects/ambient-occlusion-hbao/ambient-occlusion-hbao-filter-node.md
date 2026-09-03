@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Umgebungsluft (HBAO) (Filterknoten)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 1%
+source-wordcount: '197'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/hbao.png){width="128px"}
+![](ambient-occlusion-hbao-filter-node.resources/ambient-occlusion-hbao-filter-node-01.png){width="128px"}
 
-## Umgebungs-Verdeckung (HBAO)
-
-**In:** *Filter/Effekte*
-
-**Fortgeschrittene**
+<b>In:</b> Filters > Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,23 +37,33 @@ Verwendet eine Höhenkarte als Eingabe und generiert daraus eine Umgebungskarte 
 
 Eine alternative, komplexere, aber langsamere Version von AO finden Sie unter [Ambient Verdeckung (RTAO)](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-rtao/ambient-occlusion-rtao.md)
 
-## Parameter
-
-* **Welteinheiten verwenden**: *Falsch/Wahr* Schaltet die Verwendung von Welt- oder Bildschirmraumeinheiten um. Aktiviert zusätzliche Parameter, die eine präzisere Steuerung ermöglichen.
-* **Height-Tiefe**: *0.0 - 1.0* Wird nur verwendet, wenn &quot;World Units&quot; auf &quot;False&quot; gesetzt ist. Steuert die globale Skalierung.
-* **Oberflächengröße**: **0.0 - 1000.0** Wird nur verwendet, wenn &quot;World Units&quot; auf &quot;True&quot; festgelegt ist. Steuert die globale Skalierung.
-* **Height-Skalierung (cm)**: *0.0 - 1000.0* Wird nur verwendet, wenn &quot;World Units&quot; auf &quot;True&quot; festgelegt ist. Steuert die globale Skalierung.
-* **Radius**: *0.0 - 1.0* Steuert die Verteilung des AO.
-* **Qualität**: *4 Samples, 8 Samples, 16 Samples*\
-  Legt die Qualitätsstufe fest, indem die Anzahl der für die Berechnung verwendeten Stichproben bestimmt wird.
-* **GPU-Optimierung**: *Falsch/Wahr* Aktiviert die interne GPU-Optimierung und beschleunigt die Verarbeitung.
-
-## Beispielbilder
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/image2021-6-18-11-11-11-1.png" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/image2021-6-18-11-11-22.png" width="300px"/></div> |
-| --- | --- |
-|  |  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Welteinheiten verwenden</b> <i>False/True</i> | Schaltet die Verwendung von Welt- oder Bildschirmraumeinheiten um. Aktiviert zusätzliche Parameter, die eine präzisere Steuerung ermöglichen. |
+| <b>Height-Tiefe</b> <i>0.0 - 1.0</i> | Wird nur verwendet, wenn &quot;World Units&quot; auf &quot;False&quot; gesetzt ist. Steuert die globale Skalierung. |
+| <b>Oberflächengröße</b> <i>0.0 - 1000.0</i> | Wird nur verwendet, wenn &quot;World Units&quot; auf &quot;True&quot; gesetzt ist. Steuert die globale Skalierung. |
+| <b>Height-Skalierung (cm)</b> <i>0.0 - 1000.0</i> | Wird nur verwendet, wenn &quot;World Units&quot; auf &quot;True&quot; gesetzt ist. Steuert die globale Skalierung. |
+| <b>Radius</b> <i>0.0 - 1.0</i> | Steuert die Verteilung des AO. |
+| <b>Qualität</b> <i>4 Samples, 8 Samples, 16 Samples</i> | Legt die Qualitätsstufe fest, indem die Anzahl der für die Berechnung verwendeten Stichproben bestimmt wird. |
+| <b>GPU-Optimierung</b> <i>False/True</i> | Ermöglicht interne GPU-Optimierung und beschleunigt die Verarbeitung. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="ambient-occlusion-hbao-filter-node.resources/ambient-occlusion-hbao-filter-node-02.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="ambient-occlusion-hbao-filter-node.resources/ambient-occlusion-hbao-filter-node-03.png" />
+        </td>
+    </tr>
 </table>

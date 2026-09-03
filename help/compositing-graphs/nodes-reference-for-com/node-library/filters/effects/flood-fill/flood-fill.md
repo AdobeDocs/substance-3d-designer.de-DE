@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Flood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 0%
+source-wordcount: '339'
+ht-degree: 1%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill.png){width="128px"}
+![](flood-fill.resources/flood-fill-01.png){width="128px"}
 
-## Flood Fill
-
-**In:** *Filter/Effekte*
-
-**Einfach**
+<b>In:</b> Filters > Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -47,20 +43,31 @@ Die anderen Flood Fill-Effekte sind [Flood Fill zu Verlauf](../../../../../../co
 > 
 > Probleme treten auf, wenn Kacheln nicht durch schwarze Pixel getrennt sind, in der Regel bei Verwendung von Graustufen mit schrägen Werten. Sie können dies an einem allgemeinen Mangel an roten Werten im Ergebnis und möglicherweise seltsamen Artefaktlinien erkennen. Passen Sie in solchen Fällen den Kontrast auf der Eingangskarte an oder schalten Sie die Eingangskarte aus. Stellen Sie sicher, dass Sie die Einstellung Sicherheit/Geschwindigkeit ändern, um zu sehen, ob sich etwas verbessert.
 
-## Parameter
-
-* **Sicherheit/Geschwindigkeitsausgleich**: *Einfache oder kleine Formen, komplexe oder große Formen, Kein Fehlermodus.*Stellen Sie den Berechnungsmodus so ein, dass er am besten zu den Eingabeformen passt. Ermöglicht deutlich genauere Ergebnisse, wenn der richtige Modus ausgewählt wird.
-* **Erweiterte Optionen**: *Erweiterte Parameter anzeigen und erweiterte Parameter und die Ausgabe ausblenden/ausblenden*
-* **Sicherheitsrisiko/Geschwindigkeitsausgleich überschreiben**: *-1 - 100* Nur sichtbar mit aktivierten erweiterten Optionen. Ermöglicht das Überschreiben interner Funktionen. Sehr fortgeschritten, dient zum Erstellen eigener Effekte oder zum Debuggen.
-
-## Beispielbilder
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/flood-ex2.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/flood-ex1.png" width="256px"/></div> |
-| --- | --- |
-|  |  |
-
-Gute und schlechte Beispiele für Ergebnisse aus dem Flood Fill.
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Zielkonflikt Sicherheit/Geschwindigkeit</b> <i>Einfache oder kleine Formen, komplexe oder große Formen, kein Fehlermodus.</i> | Stellen Sie den Berechnungsmodus so ein, dass er am besten zu den Eingabeformen passt. Ermöglicht deutlich genauere Ergebnisse, wenn der richtige Modus ausgewählt wird. |
+| <b>Erweiterte Optionen</b> <i>Erweiterte Parameter anzeigen und erweiterte Parameter und die Ausgabe ausblenden/ausblenden</i> |  |
+| <b>Überschreiben Sie den Kompromiss zwischen Sicherheit und Geschwindigkeit</b> <i>-1 - 100</i> | Nur bei aktivierten erweiterten Optionen sichtbar. Ermöglicht das Überschreiben interner Funktionen. Sehr fortgeschritten, dient zum Erstellen eigener Effekte oder zum Debuggen. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill.resources/flood-fill-02.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill.resources/flood-fill-03.png" />
+        </td>
+    </tr>
+</table>
+
+Gute und schlechte Beispiele für Ergebnisse aus dem Flood Fill.

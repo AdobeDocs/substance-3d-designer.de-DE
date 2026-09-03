@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/best-practices/graph-creation-etiquette.html"
 breadcrumb-title: ''
-description: Informieren Sie sich über Best Practices und die Etikette beim Erstellen von Substance-Graphen, um saubere, verwaltbare und effiziente Workflows zu gewährleisten.
+description: Informieren Sie sich über Best Practices und Etikette für die Erstellung von Substance-Grafen, um saubere, verwaltbare und effiziente Workflows zu gewährleisten.
 helpx_creative_field: ""
 helpx_description: Designer > Best Practices > Graph Creation Etiquette
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Diagrammerstellung-Etikette
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 0%
@@ -24,64 +24,64 @@ Die Erstellung großer, komplexer Diagramme kann schnell verwirrend werden und d
 
 ## Allgemein
 
-### Diagrammorganisation
+### Graf
 
 #### Graphenelemente
 
-Diagrammelemente sind Hilfsobjekte, die neben und um Ihre Knoten in [der Diagrammansicht](../../interface/the-graph-view/the-graph-view.md) platziert werden können. Von den drei bietet der Frame die schnellsten und größten Vorteile, während der Kommentar- und der Navigationsstift für bestimmte Szenarien besser geeignet sind.
+Knotenelemente sind Knotenobjekte, die neben und um die Graf in [der Graphansicht](../../interface/the-graph-view/the-graph-view.md) platziert werden können. Von diesen drei Vorteilen bietet der Rahmen die schnellsten und größten Vorteile, während die Nadeln &quot;Kommentar&quot; und &quot;Navigation&quot; für bestimmte Szenarien besser geeignet sind.
 
 #### Rahmen
 
-Der wichtigste Faktor, der zu saubereren, leichter lesbaren Graphen führt, ist die Platzierung von Frames um Kerngruppen des Graphen. Ohne Frames ist ein großer Graph fast unleserlich, und selbst kleine Diagramme werden viel einfacher zu verstehen, sobald Frames gezeichnet werden. Ein großer Vorteil von Frames ist, dass ihre <b> Namen immer in der gleichen Skalierung gerendert werden</b>, auch wenn Sie sehr weit auszoomen.
+Die wichtigste Sache, die zu saubereren, leichter lesbaren Grafen führt, ist die Platzierung von Rahmen um Kerngruppen Ihres Grafen. Ohne Rahmen ist ein großer Graf fast unlesbar, und selbst kleine Grafen werden viel leichter verständlich, sobald man Rahmen zeichnet. Ein großer Vorteil von Rahmen besteht darin, dass ihre <b> Namen immer in der gleichen Skalierung gerendert werden</b>, auch wenn Sie sehr weit auszoomen.
 
-![Bilder in Substance-Graphen](../../assets/frames.gif "Bilder in Substance-Graphen")
+![Rahmen in Substance-Grafen](graph-creation-etiquette.resources/graph-creation-etiquette-01.gif "Rahmen in Substance-Grafen")
 
-Mithilfe von Frames ist es viel einfacher, die Vorgänge in einem Diagramm zu verstehen. Sie können Ihnen als Autor helfen, Monate später wieder bei Ihrer Arbeit zu sein, oder als anderen Benutzer, z. B. als Kollegen, um sich in einem Diagramm zurechtzufinden, an das sie nicht gewöhnt sind.
+Rahmen machen es viel leichter zu verstehen, was in einem Graf vor sich geht. Sie können Ihnen als Autor dabei helfen, Monate später auf Ihre Arbeit zurückzukommen, oder einem anderen Nutzer, z. B. einer Kollegin, bei der Suche nach einem Graf, an den sie nicht gewöhnt sind.
 
-Verwenden Sie beim Platzieren von Frames die folgenden Kriterien:
+Verwenden Sie beim Platzieren von Rahmen die folgenden Kriterien:
 
-* Identifizieren Sie **Funktionalitätsteile** (z. B. 8 Dirt, die gemeinsam einen Knoteneffekt erzeugen), und gruppieren Sie diese mithilfe von Frames.
-* Versuchen Sie immer, **verschiedene Farben** für Ihre Frames zu verwenden: Rahmen mit der gleichen blauen Standardfarbe heben sich nicht stark voneinander ab.
+* Identifizieren Sie **Funktionseinschränkungen** (z. B. 8 Dirt, die gemeinsam einen Knoteneffekt erzeugen), und gruppieren Sie diese mithilfe von Rahmen.
+* Versuchen Sie immer, **verschiedene Farben** für Ihre Rahmen zu verwenden: Rahmen mit der gleichen blauen Standardfarbe heben sich nicht stark voneinander ab.
 * **klare, beschreibende Namen** verwenden, die nicht zu lang sind (weitere Tipps finden Sie im Abschnitt unten)
-* Setzen Sie **nicht zu viel oder zu wenig** in einen Frame, da dies die Lesbarkeit nicht verbessert. Der genaue Betrag unterscheidet sich offensichtlich zwischen Graphen und Funktionalität.
+* Legen Sie **nicht zu viel oder zu wenig** in einen Rahmen, da dies die Lesbarkeit nicht verbessert. Der genaue Betrag unterscheidet sich offensichtlich zwischen Grafen und Funktionalität.
 * Fügen Sie, falls erforderlich, **Text in die Beschreibung hinzu**, um zu verstehen, was in einem Rahmen geschieht.
 
-#### Kommentare und Pins
+#### Anmerkungen und Nadeln
 
-Kommentare und Pins sind nur sekundär zu Frames und kein absolutes Muss für gut geschriebene Diagramme. Sie können in den folgenden Szenarien verwendet werden:
+Kommentare und Nadeln sind für Rahmen nur nebensächlich und für gut verfasste Graf kein absolutes Muss. Sie können in den folgenden Szenarien verwendet werden:
 
 * Kommentare eignen sich gut, um zusätzlichen Text hinzuzufügen, der über die Beschreibung eines Rahmens hinausgeht. Sie können kleine Textteile pro Knoten hinzufügen, meistens für kleine, detaillierte Informationen. Kommentare lassen sich nicht gut skalieren und werden nicht von einem entfernten Zoomfaktor gelesen.
-* Mit Navigationspunkten können Sie mit dem Tastaturbefehl F2 durch bestimmte Bereiche des Diagramms blättern. Dies kann für sehr große Diagramme nützlich sein, bei denen man oft zwischen zwei Bereichen springen muss, die sehr weit voneinander entfernt sind.
+* Mit den Navigations-Nadeln können Sie mit dem F2-Tastaturbefehl durch bestimmte Bereiche des Grafen blättern. Dies kann für sehr große Grafen nützlich sein, bei denen man oft zwischen zwei Bereichen springen muss, die sehr weit voneinander entfernt sind.
 
 ### Eingabe- und Ausgabeplatzierung
 
-Die Ein- und Ausgänge müssen an den äußersten Enden der Diagramme platziert werden: Alle Ausgänge auf der rechten Seite, alle Eingänge auf der linken Seite, jeder vertikal ausgerichtet. Dadurch lassen sie sich leichter finden und identifizieren.
+Die Ein- und Ausgänge sollten an den äußersten Enden der Grafen platziert werden: Alle Ausgänge auf der rechten Seite, alle Eingänge auf der linken Seite, jeder vertikal ausgerichtet. Dadurch lassen sie sich leichter finden und identifizieren.
 
-![Eingabe- und Ausgabeplatzierung](../../assets/inout.gif "Eingabe- und Ausgabeplatzierung")
+![Eingabe- und Ausgabeplatzierung](graph-creation-etiquette.resources/graph-creation-etiquette-02.gif "Eingabe- und Ausgabeplatzierung")
 
-Das obige Beispiel ist ein Extremfall: Frames werden nicht immer benötigt oder möglich, aber es sollte klar sein, dass die vertikale Ausrichtung von In- und Output viel klarer ist als die zufällige, gemischte Platzierung.
+Das obige Beispiel ist ein Extremfall: Rahmen sind nicht immer nötig oder möglich, aber es sollte klar sein, dass die vertikale Ausrichtung von In- und Output viel klarer ist als die zufällige, gemischte Platzierung.
 
 ### Umleiten von Verknüpfungen
 
-Bei großen, sehr langen Diagrammen werden manchmal Verknüpfungen über einen sehr großen Bereich hinweg erstellt. Dies führt zu Verwirrung, wenn Verknüpfungsdrähte den Graph ohne viel Kontrolle durchqueren. Mit der Tastenkombination &quot;Alt + Umschalt + Ziehen&quot; können Sie diese Links neu organisieren und auf einem anderen Pfad umleiten, indem Sie einen Link unterteilen und einen zusätzlichen Handle in der Mitte hinzufügen. Es wird empfohlen, dies in Szenarien zu verwenden, in denen es sinnvoll ist.
+In großen, sehr langen Grafen werden manchmal Verknüpfungen über einen sehr großen Bereich erstellt. Dies führt zu Verwirrung Link-Leitungen durch den Graf ohne viel Kontrolle. Mit dem Tastaturbefehl &quot;Alt + Umschalt + Ziehen&quot; können Sie diese Links neu organisieren und auf einem anderen Pfad umleiten, indem Sie einen Link unterteilen und einen zusätzlichen Handle in der Mitte hinzufügen. Es wird empfohlen, dies in Szenarien zu verwenden, in denen es sinnvoll ist.
 
-![Link-Umleitung](../../assets/linkjreroute.gif "Link-Umleitung")
+![Link-Umleitung](graph-creation-etiquette.resources/graph-creation-etiquette-03.gif "Link-Umleitung")
 
 ### Bezeichnung, Kennung und Verwendung
 
-Alle Diagramme, die für die Freigabe oder Veröffentlichung bestimmt sind, sollten mit der nötigen Sorgfalt in die zusätzlichen Metadaten eingefügt werden, um die Benutzerfreundlichkeit zu verbessern. Folgende Punkte sind wichtig:
+Für jeden Graf, der für die Freigabe oder Veröffentlichung vorgesehen ist, sollten die zusätzlichen Metadaten mit der richtigen Sorgfalt erstellt werden, um die Benutzerfreundlichkeit zu verbessern. Folgende Punkte sind wichtig:
 
-Die vorgeschlagenen Standardbezeichnungen reichen nie aus. Nehmen Sie sich die Zeit und Mühe, den angezeigten Parametern und Ihren In- und Ausgaben benutzerdefinierte Bezeichnungen hinzuzufügen.
+Die standardmäßig vorgeschlagenen Beschriftungen reichen nie aus. Nehmen Sie sich die Zeit und Mühe, benutzerdefinierte Beschriftungen zu freigelegten Parametern und Ihren In- und Ausgaben hinzuzufügen.
 
-![Bezeichner und Bezeichnung](../../assets/output-label.png "Bezeichner und Bezeichnung")
+![Identifizierung und Bezeichnung](graph-creation-etiquette.resources/graph-creation-etiquette-04.png "Identifizierung und Bezeichnung")
 
-Versuchen Sie, keine Kennzeichnung zu haben, und die Beschriftung unterscheidet sich zu stark: Wenn der Bezeichner an einer anderen Stelle (in mehreren Funktionen) verwendet wird, kann es sehr schwierig sein, herauszufinden, welche UI-Eigenschaft mit welcher Variablen verknüpft ist.
+Versuchen Sie, die Identifizierung und die Beschriftung nicht zu sehr zu unterscheiden: Wenn die Identifizierung an anderer Stelle (in mehreren Funktionen) verwendet wird, kann es sehr schwierig sein, herauszufinden, welche UI-Eigenschaft mit welcher Variablen verknüpft ist.
 
-![Klarheit des Bezeichners](../../assets/labelvsidentifier.png "Klarheit des Bezeichners")
+![Klarheit der Identifizierung](graph-creation-etiquette.resources/graph-creation-etiquette-05.png "Klarheit der Identifizierung")
 
-Versuchen Sie, die Beschriftungen den Begriffen in Frames (Frame-Beschriftungen) und Kommentaren anzupassen. Es erleichtert, herauszufinden, welcher Abschnitt des Diagramms mit welchem exponierten Parameter verknüpft ist
+Versuchen Sie, Ihre Beschriftungen den Begriffen zuzuordnen, die Sie in Rahmen (Kommentarbeschriftungen) und Rahmen verwenden. Es erleichtert, herauszufinden, welcher Abschnitt des Diagramms mit welchem exponierten Parameter verknüpft ist
 
-![Übereinstimmende Bild- und Parameterbezeichnungen](../../assets/match-labels.png "Übereinstimmende Bild- und Parameterbezeichnungen")
+![Übereinstimmende Bild- und Parameterbezeichnungen](graph-creation-etiquette.resources/graph-creation-etiquette-06.png "Übereinstimmende Bild- und Parameterbezeichnungen")
 
 ### Parametereinstellungen
 
@@ -103,7 +103,7 @@ Bei der Verwendung von Farb- und Graustufendaten ist große Sorgfalt erforderlic
 * Idealerweise werden Daten so lange wie möglich in Graustufen gespeichert und nur dann konvertiert, wenn sie unbedingt benötigt werden. Dies reduziert die Komplexität und spart Performance.
 * Die Ein- und Ausgaben sollten mit dem richtigen Typ erstellt oder eingerichtet werden: Es ist z. B. nicht sinnvoll, den &quot;mask&quot;-Eingang auf color festzulegen, wenn er zur Verwendung als binäre Maske in Graustufen konvertiert wird.
 
-![Farb- und Graustufenkonvertierungen](../../assets/colorgray01.png "Farb- und Graustufenkonvertierungen")
+![Farb- und Graustufenkonvertierungen](graph-creation-etiquette.resources/graph-creation-etiquette-07.png "Farb- und Graustufenkonvertierungen")
 
 ### Auflösungssteuerung
 

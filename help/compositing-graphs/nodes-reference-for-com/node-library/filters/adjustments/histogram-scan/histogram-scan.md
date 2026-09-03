@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Histogramm-Scan, um Textur-Histogramme zur Farbkorrektur und Farbanpassung zu scannen und zu analysieren.
+description: Verwenden Sie den Knoten Histogramm-Scan, um Histogramme der Textur zur Farbkorrektur und Farbanpassung zu scannen und zu analysieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Scan
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Histogramm-Scan
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 5%
+source-wordcount: '146'
+ht-degree: 7%
 
 ---
 
@@ -22,41 +22,47 @@ ht-degree: 5%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-scan-1.png){width="128px"}
+![](histogram-scan.resources/histogram-scan-01.png){width="128px"}
 
-## Histogramm-Scan
-
-**In:** *Filter/Korrekturen*
-
-**Einfach**
+<b>In:</b> Filters > Adjustments
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Sehr einfacher, aber nützlicher Knoten, der eine intuitive Möglichkeit bietet, den Kontrast und die Helligkeit von Graustufenbildern neu zuzuordnen. Kann verwendet werden, um Masken auf dynamische Weise zu &quot;vergrößern&quot; und zu &quot;verkleinern&quot;.
+Ein sehr einfacher, aber nützlicher Knoten, der eine intuitive Möglichkeit bietet, um den Kontrast und die Helligkeit von Eingabe-Graustufenbildern neu zuzuordnen. Kann verwendet werden, um Masken auf dynamische Weise zu &quot;vergrößern&quot; und zu &quot;verkleinern&quot;.
 
 [Klicken Sie hier, um ein Substance Academy-Video über Histogrammoperationen anzuzeigen.](https://www.youtube.com/watch?v=p9wcmJBFyGA&t=427s)
 
-## Parameter
-
-* **Position**: *0.0 - 1.0* Verschiebt ähnlich wie bei einer Helligkeitssteuerung den Mittelpunkt des Ergebnisses. Bei Verwendung an einer Verlaufseingabe wird der Übergangspunkt dadurch erweitert und verkleinert.\
-  Wichtig: Ein Standardwert von 0 bedeutet, dass das Endergebnis immer schwarz ist, also versuchen Sie, mit 0,5 zu beginnen!
-* **Kontrast**: *0.0 - 1.0*\
-  Passt den Kontrast des Ergebnisses an. Kann verwendet werden, um die Härte des Übergangs festzulegen.
-* **Position umkehren**: *Falsch/Wahr* Kehrt das Endergebnis um.
-
-## Beispielbilder
-
-![](../../../../../../assets/histogram-scan.gif)
-
-![](../../../../../../assets/histogram-scan2.gif)
-
-![](../../../../../../assets/histogram-scan3.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Position</b> <i>0.0 - 1.0</i> | Ähnlich wie bei einer Helligkeitssteuerung wird der Mittelpunkt des Ergebnisses verschoben. Bei Verwendung an einer Verlaufseingabe wird dadurch der Übergangspunkt erweitert und verkleinert.<br><br>Wichtig: Ein Standardwert von 0 bedeutet, dass das Endergebnis immer schwarz ist, also versuchen Sie, mit 0,5 zu beginnen! |
+| <b>Kontrast</b> <i>0.0 - 1.0</i> | Passt den Kontrast des Ergebnisses an. Kann zum Festlegen der Härte der Überblendung verwendet werden. |
+| <b>Position umkehren</b> <i>False/True</i> | Kehrt das Ergebnis um. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="histogram-scan.resources/histogram-scan-02.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="histogram-scan.resources/histogram-scan-03.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="histogram-scan.resources/histogram-scan-04.gif" />
+        </td>
+    </tr>
 </table>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Trapezform
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 1%
+source-wordcount: '104'
+ht-degree: 6%
 
 ---
 
@@ -22,37 +22,42 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/trapeze-transform.png){width="128px"}
+![](trapezoid-transform.resources/trapezoid-transform-01.png){width="128px"}
 
-![](../../../../../../assets/trapeze-transform-grayscale.png){width="128px"}
+![](trapezoid-transform.resources/trapezoid-transform-02.png){width="128px"}
 
-## Trapezform (Graustufen)
-
-**In:** *Filter/Transformationen*
-
-**Einfach**
+<b>In:</b> Filter > Transformieren
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Spezieller Transformationsknoten, der die Eingabe perspektivisch/trapezförmig verzerrt ändert. Verfügt über Steuerelemente für die Dehnung Oben und Unten. Werte können über Grenzen hinaus verschoben werden, um stärkere Effekte zu erzielen.
 
-## Parameter
-
-* **Obere Streckung**: *0.0 - 1.0* Legen Sie die Stärke der Dehnung oder des Quetschens oben fest.
-* **Untere Dehnung**: *0.0 - 1.0* Legen Sie die Stärke der Dehnung oder des Quetschens an der Schaltfläche fest.
-* **Hintergrundfarbe**: *(Graustufen-/Farbwert)*\
-  Legen Sie eine einfarbige Hintergrundfarbe fest, falls die Unterteilung deaktiviert ist.
-* **Sampling**: *Bilinear, nächstgelegen* Sampling-Qualität einstellen.
-
-## Beispielbilder
-
-![](../../../../../../assets/trapeze-example.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Top Dehn</b> <i>0.0 - 1.0</i> | Lege die Stärke des dehn- oder Squashs oben fest. |
+| <b>Unten Gedehnt</b> <i>0.0 - 1.0</i> | Stellen Sie die dehn- oder Squash-Menge an der Schaltfläche ein. |
+| <b>Hintergrundfarbe</b> <i>(Graustufen-/Farbwert)</i> | Legen Sie eine einfarbige Hintergrundfarbe fest, falls die Unterteilung deaktiviert ist. |
+| <b>Sampling</b> <i>Bilinear, nächstgelegen</i> | Legen Sie die Samplingqualität fest. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="trapezoid-transform.resources/trapezoid-transform-03.gif" />
+        </td>
+    </tr>
 </table>

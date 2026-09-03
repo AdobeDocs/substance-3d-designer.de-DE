@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Zuschneiden
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 1%
+source-wordcount: '259'
+ht-degree: 3%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/crop-10.png){width="128px"}
+![](crop.resources/crop-01.png){width="128px"}
 
-![](../../../../../../assets/crop-grayscale.png){width="128px"}
+![](crop.resources/crop-02.png){width="128px"}
 
-## Zuschneiden (Graustufen)
-
-**In:** *Materialfilter/Scanverarbeitung*
-
-**Fortgeschrittene**
+<b>In:</b> Materialfilter > Scanverarbeitung
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -46,22 +42,18 @@ Es kann in vielerlei Hinsicht nützlich sein, da die Durchführung eines Freiste
 Es ist sehr wichtig zu verstehen, dass Sie, um diesen Knoten problemlos verwenden zu können, die Möglichkeit nutzen müssen, eine Vorschau eines anderen Knotens als des Knotens anzuzeigen, dessen Parameter Sie bearbeiten!\
 Kurz gesagt: **Doppelklicken Sie auf** den Knoten, den Sie als Eingabe für diesen Knoten verwenden (das ursprüngliche, nicht zugeschnittene Bild), und **klicken Sie einmal** auf den Zuschneideknoten, der direkt danach folgt. Sie können dann das Zuschneide-Gizmo an den Bereich anpassen, auf den Sie zuschneiden möchten.
 
-## Parameter
-
-* **Eingabegröße**: *0 - 8192* Auflösung und Proportionen des Eingabebildes. Sehr wichtig für nicht quadratische Bilder.
-* **Hintergrund**: *(Farbwert) / (Graustufenwert)*Einheitlicher Hintergrundwert für Bereiche, die nicht von der Freistellung abgedeckt werden.
-* **Transformieren**: *(Transformationsmatrix)*\
-  Dreht und skaliert das Ergebnis. Das Ergebnis kann durch direkte Interaktion mit der Arbeitsfläche geändert werden.
-* **Offset**: *0.0 - 1.0*\
-  Verschiebt oder verschiebt das Ergebnis. Das Ergebnis kann durch direkte Interaktion mit der Arbeitsfläche geändert werden.
-* **Ist normal (nur für Farbversion)**: *Falsch/Wahr* Ob die Eingabe als Normalmap behandelt werden soll oder nicht.
-
-## Beispielbilder
-
-|  |
-| --- |
-| Es sind keine Bilder an diese Seite angehängt. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Eingabegröße</b> <i>0 - 8192</i> | Eingabebilds Auflösung und Proportionen. Sehr wichtig für nicht quadratische Bilder. |
+| <b>Hintergrund</b> <i>(Farbwert) / (Graustufenwert)</i> | Einheitlicher Hintergrundwert für Bereiche, die nicht von der Freistellung abgedeckt sind. |
+| <b>Transformieren</b> <i>(Transformationsmatrix)</i> | Dreht und skaliert das Ergebnis. Das Ergebnis kann durch direkte Interaktion mit der Arbeitsfläche geändert werden. |
+| <b>Offset</b> <i>0.0 - 1.0</i> | Verschiebt oder verschiebt das Ergebnis. Das Ergebnis kann durch direkte Interaktion mit der Arbeitsfläche geändert werden. |
+| <b>Ist normal (nur für Farbversion)</b> <i>False/True</i> | Gibt an, ob die Eingabe als Normalmap behandelt werden soll. |

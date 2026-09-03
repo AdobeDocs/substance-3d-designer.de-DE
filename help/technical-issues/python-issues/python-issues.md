@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Python-Probleme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,13 @@ Zu den in Python implementierten Funktionen gehören die [Publish](../../composi
 
 ## Das Modul &quot;QtForPython&quot; kann nicht geladen werden
 
-<b>![(Fehler)](../../assets/error.svg) Problem </b>
+<b>![(Fehler)](python-issues.resources/error.svg) Problem</b>
 
 Das Python-Modul &quot;QtForPython&quot; kann nicht geladen werden. Dies führt zu fehlenden Funktionen, die in Python implementiert sind, wie z. B. die Aktionen [Publish](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)/[Senden an](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md) in der Symbolleiste von [Explorer](../../interface/the-explorer-window/the-explorer-window.md) sowie das Tool zum Entfernen nicht verwendeter Knoten in Diagrammen.
 
 Darüber hinaus können viele [Python-Plug-ins](../../scripting/plugin-basics/plugin-basics.md) nicht geladen werden oder funktionieren nicht wie erwartet.
 
-<b>![(tick)](../../assets/check.svg) Empfohlene Schritte</b>
+<b>![(tick)](python-issues.resources/check.svg) Empfohlene Schritte</b>
 
 Es besteht wahrscheinlich ein Konflikt zwischen der Installation von QtForPython durch Designer und ihren Abhängigkeiten und einer vorhandenen Installation auf dem System.
 

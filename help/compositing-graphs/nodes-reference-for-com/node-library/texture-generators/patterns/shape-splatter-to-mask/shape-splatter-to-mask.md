@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Formaufteilung für Maske
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 1%
+source-wordcount: '169'
+ht-degree: 4%
 
 ---
 
@@ -22,32 +22,30 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-splatter-to-mask.png){width="128px"}
+![](shape-splatter-to-mask.resources/shape-splatter-to-mask-01.png){width="128px"}
 
-## Formaufteilung für Maske
-
-**In:** *Texturgeneratoren**/Muster*
-
-**Fortgeschrittene**
+<b>In:</b> Texturgeneratoren > Muster
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Konvertiert [Shape Splatter](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md)-Daten in eine Schwarzweiß-Maske basierend auf Muster-ID. Ermöglicht es Ihnen beispielsweise, eine Maske nur für einen bestimmten Mustertyp zu erstellen. Enthält zusätzliche Optionen zum Auswählen eines Bereichs von Muster-IDs und zum zufälligen Ausblenden einiger Formen.
 
-## Parameter
-
-### Parameter
-
-* **Muster-ID-Startbereich**: *1 - 8* Legen Sie die erste Muster-ID im Bereich fest, die ausgewählt werden soll.
-* **Pattern-ID-Endbereich**: *1 - 8* Legen Sie die letzte Muster-ID im Bereich fest, die ausgewählt werden soll.
-* **Zufallsmaske**: *0.0 - 1.0* Legen Sie die Proportion von Mustern fest, die zufällig maskiert werden sollen.
-* **Ausgabe**: *Binärmaske, Ganzzahlmaske, Graustufenwerte* Bestimmt den Typ der Ausgabewerte. Binärmaske gibt nur Schwarzweiß, 0-oder-1-Werte zurück. Ganzzahlige Maske kodiert höhere Werte bis zu 8 für jedes Muster im HDR-Format. Die Graustufenwerte verteilen den Bereich proportional zwischen 0 und 1.
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Muster-ID-Startbereich</b> <i>1 - 8</i> | Legen Sie die erste Muster-ID im Bereich fest, die ausgewählt werden soll. |
+| <b>Pattern-ID-Endbereich</b> <i>1 - 8</i> | Letzte Muster-ID im Bereich festlegen. |
+| <b>Zufallsmaske</b> <i>0.0 - 1.0</i> | Legen Sie die Proportion der Muster fest, die nach dem Zufallsprinzip maskiert werden sollen. |
+| <b>Ausgabe</b> <i>Binärmaske, Ganzzahl-Maske, Graustufenwerte</i> | Bestimmen Sie den Typ der Ausgabewerte. Binärmaske gibt nur Schwarzweiß, 0-oder-1-Werte zurück. Ganzzahlige Maske kodiert höhere Werte bis zu 8 für jedes Muster im HDR-Format. Die Graustufenwerte verteilen den Bereich proportional zwischen 0 und 1. |

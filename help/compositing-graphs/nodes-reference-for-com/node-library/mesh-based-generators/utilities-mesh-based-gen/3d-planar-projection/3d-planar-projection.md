@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/3d-planar-projection.html"
 breadcrumb-title: ''
-description: Verwenden Sie den 3D-Knoten "Planare Projektion", um Texturen mithilfe planarer Projektionen für die Texturzuordnung auf Gitteroberflächen zu projizieren.
+description: Mit dem 3D-Knoten "Planare Projektion" projizieren Sie Texturen mithilfe der planaren Projektion für die Texturen-Zuordnung auf Mesh-Oberflächen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > 3D Planar Projection
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 3D-Projektion
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 1%
+source-wordcount: '253'
+ht-degree: 7%
 
 ---
 
@@ -22,54 +22,59 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3d-planar-gray.png)![](../../../../../../assets/3d-planar.png)
+![](3d-planar-projection.resources/3d-planar-projection-01.png)![](3d-planar-projection.resources/3d-planar-projection-02.png)
 
-## 3D-Projektion (Farbe)
-
-**In:** *Mesh-basierte Generatoren**/Dienstprogramme*
-
-**Komplex**
+<b>In:</b> Mesh-basierte Generatoren > Dienstprogramme
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Führt eine planare Projektion auf der Grundlage von Gitterdaten aus (Position und Normal-Weltkarte). Ermöglicht es Ihnen, Aufkleber über Nähte zu projizieren und zu platzieren, unabhängig von der ursprünglichen UV-Zuordnung.
-
-## Parameter
-
-### Eingaben
-
-* **Positionszuordnung**: *Farbeingabe* Karte der gebackenen Position
-* **Normaler Weltraum**: *Farbeingabe* Normalmap für gebackenen Weltraum
-* **Projizierte Textur**: *Farbeingabe* Geben Sie Textur in das Projekt auf das Ziel ein.
-
-### Parameter
-
-* **Positionierung**
-  * **Projekteingabe**: *UV-Position, Weltraumposition* Wählen Sie aus, ob die Projektionsposition in 2D/UV oder 3D/Weltraum festgelegt wird.
-  * **UV-Zielposition**:\
-    Nur mit UV-Positionseingabe, am besten verwendet, um einen Punkt in der 2D-Ansicht auf der Positionskarte auszuwählen.
-  * **Zielposition**: *(Farbwert)*Nur mit der Weltraum-Positionseingabe können Sie eine exakte 3D-Koordinate definieren.
-  * **Ziel Normal**: *(Farbwert)*
-  * **Drehung**: *0.0 - 1.0\
-    Dreht die projizierte Textur entlang ihrer normalen Achse.*
-  * **Skalierung**: *0.0 - 1.0*\
-    Lege die globale Skalierung für die projizierte Struktur fest.
-  * **Größe**: *0.0 - 2.0* Führen Sie eine ungleichmäßige Skalierung der projizierten Textur durch.
-* **Maskieren**
-  * **Maximale Tiefe**: *0.0 - 1.0* Steuert, wie tief die projizierte Textur erscheint, wenn sie abgeschnitten wird.
-  * **Tiefe Fade**: *0.0 - 1.0* Stellen Sie die Überblendung für die abgeschnittene Tiefe als abrupt oder verblasst ein.
-  * **Normaler Schwellenwert**: *-1.0 - 1.0* Legen Sie den Schwellenwert für Flächen fest, die nicht genau mit der Projektionsnormalen ausgerichtet sind.
-  * **Normale Überblendung**: *0.0 - 1.0* Stellen Sie den Übergang für Flächen ein, die nicht auf plötzliche Überblendungen ausgerichtet sind.
-
-## Beispielbilder
-
-![](../../../../../../assets/3d-planar-projection-ex.gif)
+Führt eine planare Projektion auf der Grundlage Baking geführt Mesh-Daten durch (Position und World Normalen-Map). Ermöglicht es Ihnen, Aufkleber unabhängig von der ursprünglichen UV-Zuordnung über Nähte hinweg zu projizieren und zu platzieren.
 
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Positionszuordnung</b> <i>Farbeingabe</i> | Baking geführt Positionszuordnung |
+| <b>Normaler Weltraum</b> <i>Farbeingabe</i> | Baking geführt Welt-Raum-Normale Map |
+| <b>Vorhergesagte Textur</b> <i>Farbeingabe</i> | Eingabe der Textur für das Projekt auf dem Ziel. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Positionierung</b> |  |
+| <b>Projekteingabe</b> <i>UV-Position, Welt-Raum-Position</i> | Legen Sie fest, ob die Projektion in 2D/UV oder 3D/Welt-Raum positioniert werden soll. |
+| <b>Zielposition der UV</b> | Nur bei UV-Positionseingabe, am besten verwendet, um einen Punkt in der 2D-Ansicht auf der Positionskarte auszuwählen. |
+| <b>Zielposition</b> <i>(Farbwert)</i> | Nur mit der Option &quot;Positionseingabe für Welt-Raum&quot; können Sie eine exakte 3D-Koordinate definieren. |
+| <b>Ziel Normal</b> <i>(Farbwert)</i> |  |
+| <b>Drehung</b> <i>0.0 - 1.0</i> | Dreht die projizierte Textur entlang ihrer normalen Achse. |
+| <b>Skalierung</b> <i>0.0 - 1.0</i> | Legen Sie die globale Skalierung für die projizierte Textur fest. |
+| <b>Größe</b> <i>0.0 - 2.0</i> | Führen Sie eine ungleichmäßige Skalierung der projizierten Textur durch. |
+| <b>Maskieren</b> |  |
+| <b>Maximale Tiefe</b> <i>0.0 - 1.0</i> | Legt fest, wie tief die projizierte Textur erscheint und wann sie abgeschnitten wird. |
+| <b>Tiefe Verblassen</b> <i>0.0 - 1.0</i> | Stellen Sie die Überblendung für die abgeschnittene Tiefe so ein, dass sie plötzlich oder verblasst. |
+| <b>Normaler Schwellenwert</b> <i>-1.0 - 1.0</i> | Legen Sie den Schwellenwert für Flächen fest, die nicht genau mit der Normalausrichtung der Projektion ausgerichtet sind. |
+| <b>Normale Verblassen</b> <i>0.0 - 1.0</i> | Setze die Überblendung für Flächen, die nicht auf &quot;abrupt&quot; oder &quot;Verblassen&quot; ausgerichtet sind. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-planar-projection.resources/3d-planar-projection-03.gif" />
+        </td>
+    </tr>
 </table>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Verkrümmen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c002fea6f396f09ccb3218bd290db812d8367dc4
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 1%
+source-wordcount: '233'
+ht-degree: 2%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/vector-warp.png){width="128px"}
+![](vector-warp.resources/vector-warp-01.png){width="128px"}
 
-![](../../../../../../assets/vector-warp-grayscale.png){width="128px"}
+![](vector-warp.resources/vector-warp-02.png){width="128px"}
 
-## Verkrümmen (Graustufen)
-
-**In:** *Filter/Effekte*
-
-**Komplex**
+<b>In:</b> Filters > Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -45,26 +41,34 @@ Die Vektorkarte ähnelt einer Normalmap, muss jedoch nicht normalisiert werden u
 
 Dieser Knoten kann nützlich sein, wenn Sie sehr spezifische Verzerrungen mit unterschiedlichen Richtungen durchführen möchten, bei denen Standardverkrümmungsknoten ihn nicht schneiden.
 
-## Parameter
-
-### Eingaben
-
-* **Eingabe**: *Farbeingabe*\
-  Verzerren.
-* **Vektorzuordnung**: *Farbeingabe*\
-  Verzerrung-Treiberzuordnung. Die Farbkanäle Rot und Blau werden verwendet.
-
-### Parameter
-
-* **Intensität**: *0.0 - 1.0* Intensitätsmultiplikator für die Vektorkarte.
-* **Vektorformat**: *DirectX, OpenGL* Tauscht den grünen Kanal zwischen der Nach-oben- und Nach-unten-Interpretation aus.
-
-## Beispielbilder
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/vector-warp-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Eingabe</b> <i>Farbeingabe</i> | Verzerren. |
+| <b>Vektorzuordnung</b> <i>Farbeingabe</i> | Verzerrung-Treiberzuordnung. Die Farbkanäle Rot und Blau werden verwendet. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Intensität</b> <i>0.0 - 1.0</i> | Intensitätsmultiplikator für die Vektorgrafik. |
+| <b>Vektorformat</b> <i>DirectX, OpenGL</i> | Tauscht den grünen Kanal zwischen Nach-oben- und Nach-unten-Interpretation aus. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="vector-warp.resources/vector-warp-03.png" />
+        </td>
+    </tr>
 </table>

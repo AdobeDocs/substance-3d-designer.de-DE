@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/variables/create-a-variable.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie benutzerdefinierte Variablen in Substance 3D Designer-Funktionsdiagrammen für wiederverwendbare Werte und Parameter erstellen.
+description: Erfahren Sie, wie Sie benutzerdefinierte Variablen in Substance 3D Designer-Funktionsparametern für wiederverwendbare Werte und Graf erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Variables > Create a variable
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Erstellen einer Variablen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -27,13 +27,13 @@ Es gibt verschiedene Möglichkeiten, eine Variable in Substance 3D Designer zu e
 
 ## Verwenden eines Eingabeparameters
 
-Wenn Sie einen Eingabeparameter erstellen, wird eine Variable erstellt und mit diesem verknüpft. Sie können diese Variable dann in jeder Funktion Ihres Diagramms wiederverwenden.
+Wenn Sie einen Eingabeparameter erstellen, wird eine Variable erstellt und mit diesem verknüpft. Sie können diese Variable dann in jeder Funktion Ihres Grafen wiederverwenden.
 
-Daher kann ein einzelner exponierter Parameter einen Einfluss auf mehrere Teile Ihres Diagramms haben.
+Daher kann ein einziger freigelegte Parameter Auswirkungen auf mehrere Teile Ihres Grafen haben.
 
 ## Verwenden eines Set-Knotens
 
-Ein Set-Knoten ist ein Knoten, der nur in den Funktionsdiagrammen verfügbar ist:
+Ein Set-Knoten ist ein Knoten, der nur in den Funktions-Graf verfügbar ist:
 
 Es ermöglicht dem Benutzer, eine benutzerdefinierte Variable zu erstellen:
 
@@ -44,9 +44,9 @@ Es ermöglicht dem Benutzer, eine benutzerdefinierte Variable zu erstellen:
 
 Die Verwendung eines Set-Knotens ist ein bisschen speziell:
 
-Wenn Sie es deklarieren, ist es nur innerhalb des Graphen verfügbar, was standardmäßig nicht wirklich nützlich ist (schließlich können Sie seinen Wert bereits mit Links ausgeben).
+Wenn Sie ihn deklarieren, ist er nur innerhalb des Grafen verfügbar, was standardmäßig nicht sehr nützlich ist (schließlich können Sie seinen Wert bereits mit Links ausgeben).
 
-Daher müssen Sie diese neue Variable außerhalb dieses Diagramms deklarieren.
+Daher müssen Sie diese neue Variable außerhalb dieses Grafen deklarieren.
 
 Dazu müssen Sie einen Sequenzknoten verwenden und die folgenden Schritte ausführen:
 
@@ -54,14 +54,14 @@ Dazu müssen Sie einen Sequenzknoten verwenden und die folgenden Schritte ausfü
 * Verknüpfen Sie den Knoten &quot;Set&quot; mit dem Eingang &quot;In&quot; des Sequenzknotens.
 * Sequenz als Ausgabeknoten festlegen
 
-Wenn Sie dies getan haben, ist die Variable im anderen Funktionsdiagramm desselben Knotens verfügbar.
+Wenn Sie dies getan haben, steht die Variable im anderen Funktionsknoten desselben Grafen zur Verfügung.
 
 >[!WARNING]
 >
-> Wenn ein Knoten von der Substanz Engine verarbeitet wird, werden seine Parameter (und die Funktionen, die sie steuern könnten) von oben nach unten gelesen. Daher kann auf einen Set-Knoten nur über die Parameter zugegriffen werden, die sich darunter im Knotenparameterstapel befinden.
+> Wenn ein Knoten vom Substance-Engine verarbeitet wird, werden seine Parameter (und die Funktionen, die sie steuern könnten) von oben nach unten gelesen. Daher kann auf einen Set-Knoten nur über die Parameter zugegriffen werden, die sich darunter im Knotenparameterstapel befinden.
 
 >[!NOTE]
 >
 > Wenn Sie mehrere Variablen erstellen müssen, wiederholen Sie einfach den Erstellungsvorgang für *Set*- und *Sequence*-Knoten und legen Sie den letzten Sequenzknoten als Ausgabeknoten fest:
 > 
-> ![](../../../assets/image2015-12-18-18-43-8.png)
+> ![](create-a-variable.resources/create-a-variable-01.png)

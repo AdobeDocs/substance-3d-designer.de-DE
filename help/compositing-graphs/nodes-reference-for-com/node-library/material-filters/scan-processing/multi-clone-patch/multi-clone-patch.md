@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Patch für mehrere Klone
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 0%
+source-wordcount: '305'
+ht-degree: 5%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/clone-patch-multi.png){width="128px"}
+![](multi-clone-patch.resources/multi-clone-patch-01.png){width="128px"}
 
-![](../../../../../../assets/clone-patch-multi-grayscale.png){width="128px"}
+![](multi-clone-patch.resources/multi-clone-patch-02.png){width="128px"}
 
-## Patch für mehrere Klone (Graustufen)
-
-**In:** *Materialfilter/Scanverarbeitung*
-
-**Komplex**
+<b>In:</b> Materialfilter > Scanverarbeitung
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -45,30 +41,26 @@ Dieser Knoten ist die Multieingabeversion von [Clone Patch](../../../../../../co
 >
 > Weitere Informationen finden Sie unter [Klonpatch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md). Weitere Informationen finden Sie unter [Materialklonpatch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-clone-patch/material-clone-patch.md) für die Materialversion.
 
-## Parameter
-
-### Parameter
-
-* **Eingabeanzahl**: *1 - 8* Legt die Anzahl der Eingaben fest, die den gleichen Patch-Vorgang erhalten.
-* **Ist normal (nur für Farbe)**: **Falsch/Wahr** Legt fest, ob die Eingabe eine Normalmap ist und ob die Füllmethode als solche behandelt werden soll.
-* **Form**: **Quadrat, Datenträger** Legt die Stempelform fest. Wird nur als Basis verwendet.
-* **Edge**
-  * **Schwellenwert**: *0.0 - 1.0* Legt fest, wie weit der angeglichene Bereich reichen soll. Dieser wächst schrittweise entlang der Formen im Zielbereich. Es hat sehr wenig Wirkung mit einheitlichen Hintergründen*.*
-  * **Weichzeichnen**: *0.0 - 2.0* Weichzeichnet die Kanten des Stempelbereichs, falls ein weicherer Übergang erforderlich ist.
-  * **Smoothness**: *0.0 - 2.0* Rundet die Kanten der Stempelform ab und sorgt so für glattere Konturen.
-  * **Rasterauflösung**: *1 - 11* Legt die Qualitätsauflösung der Füllmethode fest. Je höher der Wert, desto präziser kann die Füllmethode sein.
-* **Transformationen**
-  * **Quellmatrix**: *(Transformationsmatrix)*Transformiert die Quelle (Skalierung und Drehung). Kann nicht auf der Arbeitsfläche durchgeführt werden. Nur diese Parameter können geändert werden.
-  * **Quellversatz**: *-0.5 - 0.5*&#x200B;Übersetzt den Quellspeicherort. Kann nicht auf der Arbeitsfläche durchgeführt werden. Nur diese Parameter können geändert werden. *Dieser Parameter ist wahrscheinlich der Hauptparameter, den Sie ändern möchten!*
-  * **Zielmatrix**: *(Transformationsmatrix)*Transformiert die Zielposition (Skalierung und Drehung). Kann auch durch Gizmo auf der Arbeitsfläche erfolgen.
-  * **Zielversatz**: *-0.5 - 0.5*&#x200B;Übersetzt den Zielspeicherort. Kann auch durch Gizmo auf der Arbeitsfläche erfolgen.
-
-## Beispielbilder
-
-|  |
-| --- |
-| Es sind keine Bilder an diese Seite angehängt. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Eingabeanzahl</b> <i>1 - 8</i> | Legt die Anzahl der Eingaben fest, die den gleichen Patch-Vorgang erhalten. |
+| <b>Ist normal (nur für Farbe)</b> <i>False/True</i> | Legt fest, ob die Eingabe eine Normalmap ist und ob die Füllmethode als solche behandelt werden soll. |
+| <b>Form</b> <i>Quadrat, Datenträger</i> | Legt die Stempelform fest. Wird nur als Basis verwendet. |
+| <b>Edge</b> |  |
+| <b>Schwellenwert</b> <i>0.0 - 1.0</i> | Legt fest, wie weit der angeglichene Bereich reichen soll. Dieser wächst schrittweise entlang der Formen im Zielbereich. Es hat sehr wenig Wirkung mit einheitlichen Hintergründen. |
+| <b>Weichzeichnen</b> <i>0.0 - 2.0</i> | Weichzeichnet die Kanten des Stempelbereichs, falls ein weicherer Übergang erforderlich ist. |
+| <b>Smoothness</b> <i>0.0 - 2.0</i> | Rundet die Kanten der Stempelform ab, sodass die Umrisse glatter werden. |
+| <b>Auflösung des Rasters</b> <i>1 - 11</i> | Legt die Qualitätsauflösung der Füllmethode fest. Je höher der Wert, desto präziser kann die Füllmethode sein. |
+| <b>Transformationen</b> |  |
+| <b>Quellmatrix</b> <i>(Transformationsmatrix)</i> | Transformieren die Quelle bei (Skalierung und Drehung). Kann nicht auf der Arbeitsfläche durchgeführt werden. Nur diese Parameter können geändert werden. |
+| <b>Quellversatz</b> <i>-0.5 - 0.5</i> | Kamera bewegt den Quellspeicherort bei. Kann nicht auf der Arbeitsfläche durchgeführt werden. Nur diese Parameter können geändert werden. *Dieser Parameter ist wahrscheinlich der Hauptparameter, den Sie ändern möchten!* |
+| <b>Zielmatrix</b> <i>(Transformationsmatrix)</i> | Transformieren den Zielspeicherort (Skalierung und Drehung) bei. Kann auch durch Gizmo auf der Arbeitsfläche erfolgen. |
+| <b>Zielversatz</b> <i>-0.5 - 0.5</i> | Kamera bewegt den Zielspeicherort bei. Kann auch durch Gizmo auf der Arbeitsfläche erfolgen. |

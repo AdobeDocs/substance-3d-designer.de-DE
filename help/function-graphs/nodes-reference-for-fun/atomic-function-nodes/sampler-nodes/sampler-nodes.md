@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sampler
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -20,13 +20,13 @@ ht-degree: 1%
 
 # Sampler Nodes
 
-![Sampler-Knoten](../../../../assets/image2016-1-12-14-45-43.png "Sampler-Knoten")
+![Sampler-Knoten](sampler-nodes.resources/sampler-nodes-01.png "Sampler-Knoten")
 
 Diese Knoten nehmen einen Wert in einem Eingabebild an den angegebenen 2D-Koordinaten auf:
 
 <b>Sample Gray</b> tastet einen Luminanzwert an der Eingabe <b>Position</b> in einem Graustufenbild ab und gibt diesen als <b>Float</b>-Wert aus.
 
-<b>Sample Color</b> tastet einen RGBA-Wert an der Eingabe <b>Position </b> in einem Farbbild ab und gibt diesen als <b>Float4</b>-Wert aus, wobei die R-, G-, B- und A-Komponenten den X-, Y-, Z- bzw. W-Komponenten zugeordnet werden.
+<b>Sample Color</b> tastet einen RGBA-Wert an der Eingabe <b>Position </b> in einem Farbbild ab und gibt diesen als <b>Fließkommazahl4</b>-Wert aus, wobei die R-, G-, B- und A-Komponenten den X-, Y-, Z- bzw. W-Komponenten zugeordnet werden.
 
 <table>
 <tr style="border: 0;">
@@ -39,7 +39,7 @@ Positionen außerhalb dieses Bereichs werden gemäß dem ausgewählten <b>Adress
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Pixelkoordinaten](../../../../assets/samplercoords.png "Pixelkoordinaten")
+![Pixelkoordinaten](sampler-nodes.resources/sampler-nodes-02.png "Pixelkoordinaten")
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ Positionen außerhalb dieses Bereichs werden gemäß dem ausgewählten <b>Adress
 
 >[!NOTE]
 >
-> Die <b>Position</b>-Eingabe sollte ein Float2-Wert sein, bei dem die X- und Y-Koordinaten des Bildes den X- bzw. Y-Komponenten des Werts zugeordnet sind.
+> Die <b>Position</b>-Eingabe sollte ein Fließkommazahl2-Wert sein, bei dem die X- und Y-Koordinaten des Bildes den X- bzw. Y-Komponenten des Werts zugeordnet sind.
 
 ## Parameter
 
@@ -67,7 +67,7 @@ Hier können Sie festlegen, wie mit Interpolation umgegangen werden soll, wenn P
 Das Pixel wird dem Ziel &quot;*wie vorhanden*&quot; an der entsprechenden Koordinate zugeordnet. Wenn das Ziel eine niedrigere Auflösung hat, kann das Pixel vollständig ignoriert werden. wenn das Ziel eine höhere Auflösung hat; es wird allen Pixeln zugeordnet, die seine Spanne abdecken. Die Ausgabe ist *schärfer* und sieht leicht *verzerrt* aus.
 
 <b>Bilineare Filterung</b>\
-Ein Filtervorgang wird auf das Quellbild angewendet, sodass seine Pixel der Zielauflösung auf eine Weise zugeordnet werden, dass *die Übergänge zwischen den Pixeln glättet*. Die Ausgabe ist *glatter* und sieht leicht *unscharf* aus.
+Eine Filterung wird auf das Quellbild angewendet, sodass seine Pixel der Zielauflösung auf eine Weise zugeordnet werden, dass *die Übergänge zwischen den Pixeln glättet*. Die Ausgabe ist *glatter* und sieht leicht *unscharf* aus.
 
 +++
 

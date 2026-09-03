@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mehrere Winkel zu Normal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 1%
+source-wordcount: '245'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-angle-to-normal.png){width="128px"}
+![](multi-angle-to-normal.resources/multi-angle-to-normal-01.png){width="128px"}
 
-## Mehrere Winkel zu Normal
-
-**In:** *Materialfilter/Scanverarbeitung*
-
-**Fortgeschrittene**
+<b>In:</b> Materialfilter > Scanverarbeitung
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -45,27 +41,26 @@ Es ist komplizierter als [Mehrwinkel zu Albedo](../../../../../../compositing-gr
 >
 > Weitere Informationen zur Albedo dieses Knotens finden Sie unter [Mehrwinkel zu Albedo](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md). Wenn Sie Ihre Eingaben vorverarbeiten möchten, können [Multi-Color Equalizer](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-color-equalizer/multi-color-equalizer.md), [Multi-Zuschnitt](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-crop/multi-crop.md) und [Multi-Clone-Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md) von Nutzen sein, da sie mit diesen Knoten kombiniert werden sollen.
 
-## Parameter
-
-### Eingaben
-
-* **Eingabe 1-8**: *Farbeingabe*
-
-### Parameter
-
-* **Normales Format**: *DirectX, OpenGL*\
-  Wechselt zwischen verschiedenen Normalmap-Formaten (invertiert den grünen Kanal).
-* **Beispielbetrag**: *2 - 8* Legt die Anzahl der zu verarbeitenden Samples (Eingaben) fest.
-* **Intensität**: *0.0 - 1.0* Legt die Intensität der Normalmap fest.
-* **Lichtwinkel der ersten Probe**: *0.0 - 360.0* Legt die Beleuchtungswinkelrichtung der ersten Eingabe fest.
-* **Nächster Beispiellichtwinkel**: *Gegen den Uhrzeigersinn, gegen den Uhrzeigersinn* Legt fest, in welche Richtung sich die Beleuchtung im nächsten Sample bewegt.
-
-## Beispielbilder
-
-|  |
-| --- |
-| Es sind keine Bilder an diese Seite angehängt. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Eingabe 1-8</b> <i>Farbeingabe</i> |  |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Normales Format</b> <i>DirectX, OpenGL</i> | Wechselt zwischen verschiedenen Normalmap-Formaten (invertiert den grünen Kanal). |
+| <b>Beispielbetrag</b> <i>2 - 8</i> | Legt die Anzahl der zu verarbeitenden Samples (Eingaben) fest. |
+| <b>Intensität</b> <i>0.0 - 1.0</i> | Legt die normale Intensität der Karte fest. |
+| <b>Lichtwinkel der ersten Probe</b> <i>0.0 - 360.0</i> | Legt die Beleuchtungswinkelrichtung der ersten Eingabe fest. |
+| <b>Nächster Beispiellichtwinkel</b> <i>Gegen den Uhrzeigersinn, im Uhrzeigersinn</i> | Legt fest, in welche Richtung sich die Beleuchtung im nächsten Sample bewegt. |

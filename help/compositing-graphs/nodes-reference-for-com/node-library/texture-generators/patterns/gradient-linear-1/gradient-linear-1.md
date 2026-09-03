@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Verlauf Linear 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 1%
+source-wordcount: '105'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-linear-1.png){width="128px"}
+![](gradient-linear-1.resources/gradient-linear-1-01.png){width="128px"}
 
-## Verlauf Linear 1
-
-**In:** *Texturgeneratoren**/Muster*
-
-**Einfach**
+<b>In:</b> Texturgeneratoren > Muster
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,16 +37,25 @@ Einfacher linearer Schwarz-Weiß-Verlauf. Erzeugt ein perfekt glattes, interpoli
 
 Trotz seiner Einfachheit ist dies ein äußerst nützliches Muster, das als Baustein mit vielen anderen Knoten verwendet werden kann! Versuchen Sie es beispielsweise zusammen mit einem [Histogrammscan](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md).
 
-## Parameter
-
-* **Anordnen**: *1 - 16*\
-  Legt fest, wie oft das Ergebnis gekachelt werden soll.
-* **Drehung**: *0°, 90°, 180°, 270°* Dreht sich um einen vordefinierten Winkel. Ändert die Richtung des Verlaufs.
-
-## Beispielbilder
-
-![](../../../../../../assets/gradient-linear-1-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Kacheln</b> <i>1 - 16</i> | Legt fest, wie oft das Ergebnis gekachelt werden soll. |
+| <b>Drehung</b> <i>0°, 90°, 180°, 270°</i> | Dreht sich um einen vordefinierten Winkel. Ändert die Richtung des Verlaufs. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="gradient-linear-1.resources/gradient-linear-1-02.gif" />
+        </td>
+    </tr>
 </table>

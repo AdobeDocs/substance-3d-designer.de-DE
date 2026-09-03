@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Hash-Funktionen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Hashknoten: Symbol &#x200B;](../../../../../assets/hash-icon.png "Hashknoten: Symbol "){width="200px"}
+![Hashknoten: Symbol &#x200B;](hash-functions.resources/hash-functions-01.png "Hashknoten: Symbol "){width="200px"}
 
 <b>In:</b> Funktionen > Zufällig
 
@@ -49,22 +49,22 @@ Verfügbare Versionen mit Eingabe- und Ausgabetyp:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>Hash 11:</b> Gleitkommawert → Gleitkommawert
+<b>Hash 11:</b> Fließkommazahl → Fließkommazahl
 
-<b>Hash 14:</b> Float → Float4
+<b>Hash 14:</b> Fließkommazahl → Fließkommazahl4
 
-<b>Hash 21:</b> Float2 → Float
+<b>Hash 21:</b> Fließkommazahl2 → Fließkommazahl
 
-<b>Hash 22:</b> Float2 → Float2
+<b>Hash 22:</b> Fließkommazahl 2 → Fließkommazahl 2
 
 </td>
 <td style="border: 0;" valign="top">
 
-<b>Hash 24:</b> Float2 → Float4
+<b>Hash 24:</b> Fließkommazahl 2 → Fließkommazahl 4
 
-<b>Hash31:</b> Float3 → Float
+<b>Hash31:</b> Fließkommazahl3 → Fließkommazahl
 
-<b>Hash 32:</b> Float3 → Float2
+<b>Hash 32:</b> Fließkommazahl 3 → Fließkommazahl 2
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ Verfügbare Versionen mit Eingabe- und Ausgabetyp:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Beispiel für Hash 14](../../../../../assets/hash14-example.png "Beispiel für Hash 14"){zoomable="yes"}
+![Beispiel für Hash 14](hash-functions.resources/hash-functions-02.png "Beispiel für Hash 14"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Beispiel für Hash 32](../../../../../assets/hash32-example.png "Beispiel für Hash 32"){zoomable="yes"}
+![Beispiel für Hash 32](hash-functions.resources/hash-functions-03.png "Beispiel für Hash 32"){zoomable="yes"}
 
 </td>
 </tr>

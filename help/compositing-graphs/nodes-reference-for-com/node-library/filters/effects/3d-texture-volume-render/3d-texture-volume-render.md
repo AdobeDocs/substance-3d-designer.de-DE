@@ -1,155 +1,108 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten 3D Texture Volume Render, um volumetrische Texturen aus 3D-Daten zu rendern und so Cloud- und Nebeleffekte zu erzeugen.
+description: Verwenden Sie den Knoten 3D-Textur - Lautstärke-Rendering , um volumetrische Texturen aus 3D-Daten zu rendern und so Cloud- und Nebeleffekte zu erzeugen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture Volume Render
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 3D Texture Volume Render
+title: 3D Textur Volume Render
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
 
 
-# 3D Texture Volume Render
+# 3D Textur Volume Render
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtexturevolumerender.png){width="200px"}
+![](3d-texture-volume-render.resources/3d-texture-volume-render-01.png){width="200px"}
 
-**In:** *Filter/Effekt*
-
-**Einfach**
+<b>In:</b> Filter > Effekt
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Der Knoten **3D Texture Volume Render** rendert die Lautstärke einer Form, die durch eine *3D-Textur* beschrieben wird, und verwendet dabei das entsprechende *vorzeichenbehaftete Abstandsfeld* aus der Bildeingabe **3D Vorzeichenbehaftetes Abstandsfeld**.
+Der Knoten **3D Textur Volume Render** rendert die Lautstärke einer Form, die durch eine *3D-Textur* beschrieben wird, und verwendet dabei das dazugehörige *vorzeichenbehaftete Abstandsfeld* aus der Bildeingabe **3D Vorzeichenbehaftetes Abstandsfeld**.
 
 Das Volume wird innerhalb der Grenzen eines *Einheitscube* dargestellt. Die Beleuchtung wird mit *gerichtetem Licht* und einem *halbkugelförmigen Oberlicht* berechnet.
 
 >[!NOTE]
 >
-> Es wird erwartet, dass es sich bei dem vorzeichenbehafteten Abstandsfeld um eine **4096x4096**-Textur handelt, die die Form mit einem **16x16**-Raster von 256 Slices beschreibt.\
-> Sie können den Knoten [3D Texture SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) verwenden, um das vorzeichenbehaftete Abstandsfeld für eine 3D-Textur von 256 Slices zu berechnen.
+> Es wird erwartet, dass das vorzeichenbehaftete Abstandsfeld eine **4096x4096**-Textur ist, die die Form mit einem **16x16**-Raster von 256 Slices beschreibt.\
+> Sie können den Knoten [3D Textur SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) verwenden, um das vorzeichenbehaftete Abstandsfeld für eine 3D-Textur von 256 Slices zu berechnen.
 
 </td>
 </tr>
 </table>
 
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>3D Vorzeichenbehaftetes Abstandsfeld</b> <i>Graustufen</i> | Das Bild 4096x4096, das die 256 <i>Slices</i> des <i>vorzeichenbehafteten Abstandsfelds</i> einer Form darstellt, angeordnet in einem 16x16-Raster.<br>Sie können den Knoten [3D Textur SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) verwenden, um das vorzeichenbehaftete Abstandsfeld für eine 3D-Textur von 256 Slices zu berechnen. |
+| <b>Dichte</b> <i>Graustufen</i> | Das 4096x4096-Bild, das die 256 <i>Slices</i> der <i>Dichte</i> einer Form darstellt, angeordnet in einem 16x16-Raster. Die Dichte wird mithilfe von Graustufenwerten von 0 (völlig transparent) bis 1 (völlig undurchsichtig) zugeordnet.<br>Sie können [3D-Volumenmaske](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/3d-volume-mask/3d-volume-mask.md) oder 3D-Rauschen-Nodes ([3D Perlin Rauschen](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-perlin-noise/3d-perlin-noise.md), [3D Voronoi](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-voronoi/3d-voronoi.md), [3D Ridge Rauschen Fraktal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-ridged-noise-fractal/3d-ridged-noise-fractal.md) usw.) in Kombination mit einem [3D-Texturen-](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-position/3d-texture-position.md)-Node als Positionseingabe verwenden, um eine Volumenmaske als 3D-Textur von 25 zu generieren. 6 Slices. |
+
+<a name="parameters"></a>
+
 ## Parameter
 
-### Eingaben
+|  |  |
+|:---|:---|
+| <b>Ausgabeauflösung</b> <i>Ganzzahl2</i> | Die Auflösung des Ausgabebilds in <b>X</b> und <b>Y</b>, ausgedrückt als <i>Potenz von zwei</i>. |
+| <b>Position der Kamera</b> <i>Fließkommazahl2</i> | Die Position der Kamera um die Form.<br>Wenn der Knoten ausgewählt ist, können Sie das Positions-Gizmo in der <b>2D-Ansicht</b> bis <i>Umlaufbahn</i> der Kamera verwenden. |
+| <b>Lichtposition</b> <i>Float2</i> | Die Position des <i>Richtungslichts</i> um die Form.<br>Wenn der Knoten ausgewählt ist, können Sie das Positions-Gizmo in der <b>2D-Ansicht</b> bis <i>Bahn</i> der Lichtquelle verwenden. |
+| <b>Kameras-Entfernung</b> <i>Gleitend</i> | Der Abstand zwischen Kamera und Form. |
+| <b>Kamera FOV</b> <i>Gleitend</i> | Das Sichtfeld der Kamera in <i>Grad</i>. |
+| <b>Absorption</b> <i>Gleitend</i> | Legt fest, wie viel Licht absorbiert wird, wenn es <i> durch </i> die Lautstärke hindurchtritt. |
+| <b>Feder</b> <i>Gleitend</i> | Multipliziert den von der <b>Dichte</b>-Eingabe angegebenen Wert mit dem <i>inneren</i>-Abstandsfeldwert.<br>Dadurch wird die Breite des <i>Überblendungsverlaufs</i> von der äußeren Begrenzung des Volumes nach innen angepasst. |
+| <b>Lichtfarbmodus</b> <i>Integer</i> | Legt die Methode zum Erfassen der Farbe des Richtungslichts fest:<br>- <i>Temperatur (Kelvin)</i>: Die Farbe ergibt sich aus der Lichttemperatur, bei der ein <i>niedrigerer</i> Wert zu einer <i>wärmeren</i> Farbe<br>- <i>RGB Color</i> führt: Definieren der Farbe mithilfe von RGB-Werten |
+| <b>Lichttemperatur (Kelvin)</b> <i>Gleitend</i> | Die Temperatur des Richtungslichts, die sich auf die <i>Farbe</i> auswirkt. Ein <i>niedrigerer</i>-Wert führt zu einer <i>wärmeren</i> Farbe.<br>Nützliche Werte:<br>1800 K - Kerzenlicht<br>2800 K - Glühbirne<br>5500 K - Tageslicht<br>6200 K - Naturweiß<br>7000 K - Bewölkter Himmel<br><i>Hinweis</i>: Dieser Parameter ist nur verfügbar, wenn der Parameter <b>Lichtfarbmodus</b> auf <i>Temperatur (Kelvin)</i> festgelegt ist. |
+| <b>Helle Farbe</b> <i>Float3</i> | Die Farbe des Richtungslichts.<br><i>Hinweis</i>: Dieser Parameter ist nur verfügbar, wenn der Parameter <b>Lichtfarbmodus</b> auf <i>RGB-Farbe</i> festgelegt ist. |
+| <b>Lichtintensität</b> <i>Gleitend</i> | Die Intensität des gerichteten Lichts. |
+| <b>Umgebungsfarbe</b> <i>Float3</i> | Die Farbe des Umgebungslichtes. |
+| <b>Umgebungsintensität</b> <i>Gleitend</i> | Die Intensität des Umgebungslichtes. |
+| <b>Albedo</b> <i>Float3</i> | Die Albedo der Lautstärke. |
+| <b>Hintergrundmodus</b> <i>Integer</i> | Die Methode zur Schattierung des Hintergrunds der gerenderten Szene, die auf der <b>Hintergrundfarbe</b>:<br>- <i>Schattiert</i> basiert: Die Farbe wird von der <i>Farbe</i> und der <i>Intensität</i><br>- <i>konstanten Farbe</i> des Richtungslichts beeinflusst: Die Farbe wird gleichmäßig <i>angewendet, unabhängig</i> von der Lichtrichtung |
+| <b>Hintergrundfarbe</b> <i>Float4</i> | Die Farbe, die zum Füllen des Hintergrunds der gerenderten Szene verwendet wird. |
+| <b>Dithering</b> <i>Gleitend</i> | Passt die Intensität des <i>blauen Rauschen-Dithering</i> an, der zum Glätten der Schattierung verwendet wird. |
+| <b>Boden-Ebene aktivieren</b> <i>Boolescher Wert</i> | Wenn <i>Wahr</i>, wird eine <i>unendliche</i> Boden-Ebene gerendert. Der <i>Einheitswürfel</i>, der die Form umschließt, liegt auf dieser Ebene. |
+| <b>Unendliche Ebene</b> <i>Boolescher Wert</i> | Setzt die Ebene des Bodens auf <i>unendlich</i> bis zum Horizont.<br><i>Hinweis</i>: Dieser Parameter ist nur verfügbar, wenn der Parameter <b>Enable Boden Plane</b> auf <i>True</i> festgelegt ist. |
+| <b>Boden-Ebenengröße</b> <i>Float2</i> | Passt die Größe der Boden-Ebene an.<br><i>Hinweis</i>: Dieser Parameter ist nur verfügbar, wenn der Parameter <b>Grundebene aktivieren</b> auf <i>Wahr</i> und der Parameter <b>Unendliche Ebene</b> auf <i>Falsch</i> festgelegt ist. |
 
-* **3D Vorzeichenbehaftetes Abstandsfeld** *Graustufen*\
-  Das Bild 4096x4096, das die 256 *Slices* des *vorzeichenbehafteten Abstandsfelds* einer Form darstellt und in einem Raster von 16x16 angeordnet ist.\
-  Sie können den Knoten [3D Texture SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) verwenden, um das vorzeichenbehaftete Abstandsfeld für eine 3D-Textur von 256 Slices zu berechnen.
-* **Dichte** *Graustufen*\
-  Das Bild mit einer Auflösung von 4096x4096, das die 256 *Slices* der *Dichte* einer Form darstellt, die in einem Raster von 16x16 angeordnet sind. Die Dichte wird mithilfe von Graustufenwerten von 0 (völlig transparent) bis 1 (völlig deckend) zugeordnet.\
-  Sie können [3D-Volumenmaske](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/3d-volume-mask/3d-volume-mask.md) oder 3D-Rauschknoten ([3D Perlin Noise](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-perlin-noise/3d-perlin-noise.md), [3D Voronoi](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-voronoi/3d-voronoi.md), [3D Ripped Noise Fractal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-ridged-noise-fractal/3d-ridged-noise-fractal.md) usw.) in Kombination mit einem [3D Texture Position](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-position/3d-texture-position.md)-Knoten als Positionseingabe verwenden, um eine Volumenmaske als 3D-Textur von 256 Slices zu generieren.
+## Beispiele
 
-### Parameter
-
-* **Ausgabeauflösung** *Integer2*\
-  Die Auflösung des Ausgabebilds in **X** und **Y**, ausgedrückt als *Potenz von zwei*.
-* **Kameraposition** *Gleitkomma2*\
-  Die Position der Kamera um die Form.\
-  Wenn der Knoten ausgewählt ist, können Sie das Positions-Gizmo in der **2D-Ansicht** verwenden, um *die Kamera um* zu kreisen.
-* **Lichtposition** *Gleitkomma2*\
-  Die Position des *Richtungslichts* um die Form.\
-  Wenn der Knoten ausgewählt ist, können Sie das Positions-Gizmo in der **2D-Ansicht** bis *Umkreisung* der Lichtquelle verwenden.
-* **Kameraabstand** *Gleitend*\
-  Der Abstand zwischen Kamera und Form.
-* **Camera FOV** *Float*\
-  Das Sichtfeld der Kamera in *Grad*.
-* **Absorption** *Gleitend*\
-  Legt fest, wie viel Licht absorbiert wird, wenn es *durch* die Lautstärke hindurchtritt.
-* **Feder** *Gleitend*\
-  Multipliziert den von der **Dichte**-Eingabe angegebenen Wert mit dem *inneren*-Abstandsfeldwert.\
-  Dadurch wird die Breite des *Überblendungsverlaufs* von der äußeren Begrenzung des Volumes nach innen angepasst.
-* **Lichtfarbmodus** *Ganze Zahl*\
-  Legt die Methode zum Erfassen der Farbe des Richtlichts fest:
-  * *Temperatur (Kelvin)*: Die Farbe ergibt sich aus der Lichttemperatur, bei der ein *niedrigerer* Wert zu einer *wärmeren* Farbe führt
-  * *RGB Color*: Definieren der Farbe mithilfe von RGB-Werten
-* **Lichttemperatur (Kelvin)** *Gleitend*\
-  Die Temperatur des Richtungslichts, die sich auf die *Farbe* auswirkt. Ein *niedrigerer*-Wert führt zu einer *wärmeren* Farbe.\
-  Nutzwerte:\
-  1800 K - Kerzenlicht\
-  2800 K - Glühbirne\
-  5500 K - Tageslicht\
-  6200 K - Naturweiß\
-  7000 K - Bewölkter Himmel\
-  *Hinweis*: Dieser Parameter ist nur verfügbar, wenn der Parameter **Lichtfarbmodus** auf *Temperatur (Kelvin)* festgelegt ist.
-* **Lichtfarbe** *Unverankert3*\
-  Die Farbe des gerichteten Lichts.\
-  *Hinweis*: Dieser Parameter ist nur verfügbar, wenn der Parameter **Lichtfarbmodus** auf *RGB-Farbe* festgelegt ist.
-* **Lichtintensität** *Unverankert*\
-  Die Intensität des gerichteten Lichts.
-* **Umgebungsfarbe** *Unverankert3*\
-  Die Farbe des Umgebungslichtes.
-* **Umgebungsintensität** *Gleitend*\
-  Die Intensität des Umgebungslichtes.
-* **Albedo** *Gleitend3*\
-  Die Albedo der Lautstärke.
-* **Hintergrundmodus** *Ganzzahl*\
-  Die Methode zur Schattierung des Hintergrunds der gerenderten Szene, die auf der **Hintergrundfarbe** basiert:
-  * *Schattiert*: Die Farbe wird von der *Farbe* und *Intensität*- *konstanten Farbe* des Richtungslichts beeinflusst: Die Farbe wird gleichmäßig *angewendet, unabhängig* von der Lichtrichtung
-* **Hintergrundfarbe** *Unverankert4*\
-  Die Farbe, die zum Füllen des Hintergrunds der gerenderten Szene verwendet wird.
-* **Dithering** *Gleitkomma*\
-  Passt die Intensität des *blauen Rauschens* an, das zum Glätten der Schattierung verwendet wird.
-* **Grundebene aktivieren** *Boolesch*\
-  Wenn *Wahr*, wird eine *unendliche* Grundebene gerendert. Der *Einheitswürfel*, der die Form umschließt, liegt auf dieser Ebene.
-* **Unendliche Ebene** *Boolesch*\
-  Setzt die Grundebene auf *unendlich* bis zum Horizont.\
-  *Hinweis*: Dieser Parameter ist nur verfügbar, wenn der Parameter **Grundebene aktivieren** auf *Wahr* festgelegt ist.
-* **Grundebenengröße** *Gleitkomma2* Passt die Größe der Grundebene an.\
-  *Hinweis*: Dieser Parameter ist nur verfügbar, wenn der Parameter **Grundebene aktivieren** auf *Wahr* und der Parameter **Unendliche Ebene** auf *Falsch* festgelegt ist.
-
-## Beispielbilder
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturevolumerender-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturevolumerender-variant5.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturevolumerender-variant3.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturevolumerender-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturevolumerender-variant4.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturevolumerender-node.png){width="512px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-03.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-04.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-05.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-06.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-07.png" />
+        </td>
+    </tr>
 </table>

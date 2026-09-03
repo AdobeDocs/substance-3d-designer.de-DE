@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/clamp.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Klemmen , um die Texturwerte innerhalb der festgelegten Mindest- und Höchstbereiche zu klemmen, um die Wertgrenzen zu steuern.
+description: Verwenden Sie den Beschränkt Node, um die Werte der Textur innerhalb der angegebenen Mindest- und Höchstbereiche zu klammern, um Wertgrenzen zu steuern.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Clamp
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Klammer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 6%
+source-wordcount: '62'
+ht-degree: 14%
 
 ---
 
@@ -22,37 +22,41 @@ ht-degree: 6%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/clamp-grayscale.png){width="128px"}
+![](clamp.resources/clamp-01.png){width="128px"}
 
-![](../../../../../../assets/clamp-1.png){width="128px"}
+![](clamp.resources/clamp-02.png){width="128px"}
 
-## Klemmen (Graustufen)
-
-**In:** *Filter/Korrekturen*
-
-**Einfach**
+<b>In:</b> Filters > Adjustments
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Klammert Eingabewerte an definierte Grenzen.
-
-## Parameter
-
-* **Min**: *0.0 -* 1.0\
-  Untere Klemmbegrenzung.
-* **Max**: *0.0 - 1.0* Oberes Klemmlimit.
-* **Auf Alpha anwenden**: *Falsch/Wahr* (nur Farbversion)\
-  Legen Sie fest, ob die Klammer auch auf das Alpha angewendet wird.
-
-## Beispielbilder
-
-![](../../../../../../assets/clamp.gif)
+Beschränkt Eingabewerte definierten Grenzwerten zu.
 
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Min.</b> <i>0.0 - 1.0</i> | Untere Klemmbegrenzung. |
+| <b>Max</b> <i>0.0 - 1.0</i> | Obere Klemmbegrenzung. |
+| <b>Auf Alpha anwenden</b> <i>Falsch/Wahr</i> (nur Farbversion) | Legen Sie fest, ob die Klammer auch auf das Alpha angewendet wird. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="clamp.resources/clamp-03.gif" />
+        </td>
+    </tr>
 </table>

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-drop-shadow.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Shape-Schlagschatten", um den Formen Schlagschatteneffekte hinzuzufügen, um die Tiefe und Dimension von Texturen zu erzeugen.
+description: Verwenden Sie den Knoten "Shape-Schlagschatten", um den Formen Schlagschatteneffekte hinzuzufügen, um Tiefe und Dimension in Texturen zu erzeugen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Shape Drop Shadow
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Shape-Schlagschatten
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 0%
+source-wordcount: '208'
+ht-degree: 6%
 
 ---
 
@@ -22,46 +22,49 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-dropshadow-grayscale.png){width="128px"}
+![](shape-drop-shadow.resources/shape-drop-shadow-01.png){width="128px"}
 
-![](../../../../../../assets/shape-dropshadow.png){width="128px"}
+![](shape-drop-shadow.resources/shape-drop-shadow-02.png){width="128px"}
 
-## Form-Schlagschatten (Graustufen)
-
-**In:** *Filter/Effekte*
-
-**Fortgeschrittene**
+<b>In:</b> Filters > Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Führt den bekannten Effekt &quot;Schlagschatten&quot; anderer 2D-Bildverarbeitungssoftware auf einer Schwarzweißmaske (für die Graustufenversion) oder einem Bild mit Transparenz (für die Farbversion) durch.
+Führt den bekannten Effekt &quot;Schlagschatten&quot; anderer 2D-Bildverarbeitungssoftware auf einer Eingabe-Schwarzweiß-weiße Maske (für die Graustufenversion) oder einem Bild mit Transparenz (für die Farbversion) durch.
 
 Er unterscheidet sich vom [Shadows](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shadows-filter-node/shadows-filter-node.md)-Effekt dadurch, dass er Bilder mit voller Transparenz zurückgibt, sodass ein vollständigerer Effekt erzielt wird, der dem ähnelt, was Sie in anderer Software erwarten würden.
 
-## Parameter
-
-* **Winkel**: *0.0 - 1.0* Einfallswinkel des (gefälschten) Lichts.
-* **Entfernung**: *-0.5 - 0.5* Entfernt den Schatten-Dropdown von der Form nach unten bzw. entfernt ihn von der Form.
-* **Größe**: *0.0 - 1.0* Steuert die Weichzeichnung/Unschärfen des Schattens.
-* **Druckbogen**: *0.0 - 1.0* Schwellenwertabgrenzung für den Weichzeichnungseffekt sorgt dafür, dass sich der Schatten weiter entfernt.
-* **Deckkraft**: *0.0 - 1.0*\
-  Fülldeckkraft für den Schatteneffekt.
-* **(Shadow) Color**: *(Farbwert)*Der auf den Schatten anzuwendende Farbton.
-* **Maskenfarbe**: *(Farbwert) *(Nur Graustufenversion)**Volltonfarbe, die für die Ausgabe mit Transparenzzuordnung verwendet wird.
-* **Eingabe ist vormultipliziert**: *Falsch/Wahr *(Nur Farbversion)**Gibt an, ob die Eingabe als vormultipliziert angenommen werden soll.
-* **Ausgabe vormultiplizieren**: *Falsch/Wahr* Ob die Ausgabe vormultipliziert werden soll.
-
-## Beispielbilder
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/dropshadowex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Winkel</b> <i>0.0 - 1.0</i> | Einfallswinkel des (gefälschten) Lichts. |
+| <b>Entfernung</b> <i>-0.5 - 0.5</i> | Entfernt den Schatten-Dropdown zur Form bzw. entfernt ihn davon. |
+| <b>Größe</b> <i>0.0 - 1.0</i> | Steuert die Unschärfe/Unschärfen des Schattens. |
+| <b>Druckbogen</b> <i>0.0 - 1.0</i> | Schwellenwertabgrenzung für den Weichzeichnungseffekt, wodurch der Schatten weiter ausgebreitet wird. |
+| <b>Deckkraft</b> <i>0.0 - 1.0</i> | Fülldeckkraft für den Schatteneffekt. |
+| <b>(Schatten) Farbe</b> <i>(Farbwert)</i> | Farbton, der auf den Schatten angewendet werden soll. |
+| <b>Maskenfarbe</b> <i>(Farbwert) (nur Graustufenversion)</i> | Volltonfarbe, die für die Ausgabe mit Transparenzzuordnung verwendet werden soll. |
+| <b>Eingabe ist vormultipliziert</b> <i>False/True (nur Farbversion)</i> | Gibt an, ob die Eingabe als vormultipliziert angenommen werden soll. |
+| <b>Ausgabe vormultiplizieren</b> <i>False/True</i> | Ob die Ausgabe vormultipliziert werden soll. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="shape-drop-shadow.resources/shape-drop-shadow-03.png" />
+        </td>
+    </tr>
 </table>

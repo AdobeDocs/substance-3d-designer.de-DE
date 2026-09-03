@@ -10,9 +10,9 @@ helpx_tags: ""
 title: RGBA-Zusammenführung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '93'
 ht-degree: 2%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rgba-merge.png){width="128px"}
+![](rgba-merge.resources/rgba-merge-01.png){width="128px"}
 
-## RGBA-Zusammenführung
-
-**In:** *Filter/Kanäle*
-
-**Einfach**
+<b>In:</b> Filters > Channels
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,23 +37,17 @@ Packt einen separaten Graustufeneingang in jeden der vier Kanäle. Nicht zu verw
 
 Sehr nützlicher Knoten für Channel-Packing-Maps. Kann beispielsweise für die Packing-Smoothness, Metallic und AO in die jeweiligen R-, G- und B-Kanäle eingesetzt werden.
 
-## Parameter
-
-### Eingaben
-
-* **R**: *Graustufen-Eingabe*
-* **G**: *Graustufen-Eingabe*
-* **B**: *Graustufen-Eingabe*
-* **A**: *Graustufen-Eingabe*
-
-*Keine Parameter.*
-
-## Beispielbilder
-
-|  |
-| --- |
-| Es sind keine Bilder an diese Seite angehängt. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>R</b> <i>Graustufen-Eingabe</i> |  |
+| <b>G</b> <i>Graustufen-Eingabe</i> |  |
+| <b>B</b> <i>Graustufen-Eingabe</i> |  |
+| <b>A</b> <i>Graustufen-Eingabe</i> |  |

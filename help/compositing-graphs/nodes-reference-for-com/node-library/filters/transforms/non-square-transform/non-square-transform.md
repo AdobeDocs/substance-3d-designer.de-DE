@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Transformieren ohne Quadrat
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 0%
+source-wordcount: '217'
+ht-degree: 4%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/safe-transform.png)
+![](non-square-transform.resources/non-square-transform-01.png)
 
-![](../../../../../../assets/safe-transform-grayscale.png)
+![](non-square-transform.resources/non-square-transform-02.png)
 
-## Transformieren ohne Quadrat (Graustufen)
-
-**In:** *Filter/Transformationen*
-
-**Fortgeschrittene**
+<b>In:</b> Filter > Transformieren
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -47,22 +43,29 @@ Vergewissern Sie sich, dass Sie die [Graph-Parameter](../../../../../../composit
 * Legen Sie die **-Ausgabegröße des Knotens &quot;**&quot; als &quot;Nicht quadratisch transformieren&quot; auf &quot;*Relativ zu übergeordneten Knoten*&quot; fest.
 * Setzen Sie den **Kachelmodus des Knotens** auf &quot;*Keine Kachelung*&quot;, wenn Sie Ihre Eingabe nur in eine einzelne Position umwandeln möchten.
 
-## Parameter
-
-* **Kachelmodus**: *Automatisch, Manuell* Aktivieren Sie automatische nichtquadratische Kompensationen, oder nicht.
-* **Kachel**: *1 - 16* Nur verfügbar, wenn der Kachelmodus auf &quot;Manuell&quot; eingestellt ist. Ermöglicht das Ändern der Skalierung kachelsicher.
-* **Offset**: *0.0 - 1.0*\
-  Verschiebt oder verschiebt das Ergebnis. Doppelklicken Sie auf den Regler, um negative Werte einzugeben.
-* **Drehung**: *0.0 - 1.0* Dreht das Eingabebild.
-* **Sichere Drehung (nur Quadrat)**: *Falsch/Wahr* Ausrichtung an sicheren Werten, um die Schärfe der Pixel beizubehalten.
-* **Hintergrundfarbe**: *(Farbwert)*Hintergrundfarbe zum Füllen des Bildes. Nur sichtbar, wenn der [Kachelmodus in Basisparametern auf &quot;*Keine Kachelung*&quot;](../../../../../../compositing-graphs/graph-parameters/graph-parameters.md) festgelegt ist.
-
-## Beispielbilder
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/nonsquare-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Kachelmodus</b> <i>Automatisch, Manuell</i> | Aktivieren Sie automatische nichtquadratische Kompensationen oder nicht. |
+| <b>Kachel</b> <i>1 - 16</i> | Nur verfügbar, wenn der Kachelmodus auf &quot;Manuell&quot; eingestellt ist. Ermöglicht das Ändern der Skalierung kachelsicher. |
+| <b>Offset</b> <i>0.0 - 1.0</i> | Verschiebt oder verschiebt das Ergebnis. Doppelklicken Sie auf den Regler, um negative Werte einzugeben. |
+| <b>Drehung</b> <i>0.0 - 1.0</i> | Dreht das Eingabebild. |
+| <b>Sichere Drehung (nur Quadrat)</b> <i>False/True</i> | Einrasten sicheren Werten bei, um die Schärfe der Pixel beizubehalten. |
+| <b>Hintergrundfarbe</b> <i>(Farbwert)</i> | Hintergrundfarbe zum Füllen des Bildes. Nur sichtbar, wenn der [Kachelmodus in Basisparametern auf &quot;*Keine Kachelung*&quot;](../../../../../../compositing-graphs/graph-parameters/graph-parameters.md) festgelegt ist. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="non-square-transform.resources/non-square-transform-03.png" />
+        </td>
+    </tr>
 </table>

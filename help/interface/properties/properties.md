@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Eigenschaften
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 99e410384cec6569f613bb771db26585887704d8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Der Bereich <b>Eigenschaften </b> ist ein kontextsensitiver Bereich, der sich je
 </td>
 <td style="border: 0;" valign="top">
 
-![Eigenschaften-Dock](../../assets/image2020-11-9-13-49-48.png "Eigenschaften-Dock")
+![Eigenschaften-Dock](properties.resources/properties-01.png "Eigenschaften-Dock")
 
 </td>
 </tr>
@@ -55,11 +55,11 @@ Eine wichtige Funktion des Substance-Ökosystems, [Verfügbarmachen von Paramete
 
 ## Nodes &amp; Substance Graphen
 
-[Die Knoten](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html) und [Substance-Graphen](../../compositing-graphs/substance-compositing-graphs.md) weisen einen leicht überlappenden Satz von Eigenschaftenkategorien auf, und ihre Funktionalität ist ähnlich.
+Knoten und [Substance-Diagramme](../../compositing-graphs/substance-compositing-graphs.md) weisen einen leicht überlappenden Satz von Eigenschaftenkategorien auf, und ihre Funktionalität ist ähnlich.
 
 <b>Basisparameter</b> und <b>Attribute</b> sind zwischen Knoten und Diagrammen identisch.
 
-Die Knoten bieten <b>Spezifische Parameter</b> oder <b> Instanzparameter</b> (abhängig davon, ob es sich um [Atomknoten](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) oder [Instanzen](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) handelt) sowie <b>Eingabewerte</b> für die Arbeit mit [Werten in Substance-Graphen](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html).
+Knoten bieten <b>Spezifische Parameter</b> oder <b> Instanzparameter</b> (abhängig davon, ob es sich um [Atomknoten](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) oder [Instanzen](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) handelt) sowie <b>Eingabewerte</b> für die Arbeit mit [Werten](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md).
 
 [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) und [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)atomare Knoten sind Ausnahmen, da sie <b>Integrationsattribute</b> und <b>Bedingungen</b> für die Sichtbarkeit aufweisen. Auf diese beiden Eigenschaftensätze kann auch zentral in den Graph-Eigenschaften unter &quot;Eingaben&quot; und &quot;Ausgaben&quot; zugegriffen werden.
 
@@ -67,7 +67,7 @@ Diagramme lassen sich in einige zusätzliche Kategorien einteilen. <b>Eingabepar
 
 ## Ressourcen und Pakete
 
-Der Eigenschaftenbereich reagiert auch auf Auswahländerungen im [Explorer-Fenster](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html). Sie können auch einen Graphen auswählen (anstatt auf einen leeren Bereich zu doppelklicken) und die Eigenschaften &quot;Paket&quot; und &quot;[Ressource](../../resources/resources.md)&quot; ändern.
+Der Eigenschaftenbereich reagiert auch auf Auswahländerungen im [Explorer](../the-explorer-window/the-explorer-window.md). Sie können auch einen Graf auswählen (anstatt auf einen leeren Bereich zu doppelklicken) und die Eigenschaften &quot;Package&quot; und &quot;[Resource](../../resources/resources.md)&quot; ändern.
 
 Pakete haben **Informationen**, **Attribute** und **Metadaten** Abschnitte. [Die Paketmetadaten werden auf einer dedizierten Seite beschrieben.](../../package-metadata/package-metadata.md)
 

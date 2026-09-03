@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Sonnenbleiche
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 1%
+source-wordcount: '161'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/sun-bleach.png){width="128px"}
+![](sun-bleach.resources/sun-bleach-01.png){width="128px"}
 
-## Sonnenbleiche
-
-**In:** *Mesh-basierte Generatoren**/Masken-Generatoren*
-
-**Einfach**
+<b>In:</b> Mesh-basierte Generatoren > Maskengenerator
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,26 +37,36 @@ Generiert eine Schwarzweißmaske auf der Grundlage von durch Baking erzeugte Map
 
 Diese Maske ähnelt [Licht](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/light/light.md), unterstützt aber auch AO. Sie führt zu einer Maske, die das Bleichen und Verblassen von Licht auf einem Effekt darstellt.
 
+</td>
+</tr>
+</table>
+
+<a name="inputs"></a>
+
 ## Eingaben
 
-* **Normaler Weltraum**: *Farbeingabe*
-* **Ambient-Verdeckung**: *Graustufen-Eingabe*\
-  Durch Baking erzeugte Map für interne Effekte und Maskierung.
-* **Maske (optional)**: *Graustufen-Eingabe*\
-  Maskenschlitz zum Maskieren der Knoteneffekte.
+|  |  |
+|:---|:---|
+| <b>Normaler Weltraum</b> <i>Farbeingabe</i> |  |
+| <b>Umgebungs-Verdeckung</b> <i>Graustufen-Eingabe</i> | Durch Baking erzeugte Map für interne Effekte und Maskierung. |
+| <b>Maske (optional)</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. |
+
+<a name="parameters"></a>
 
 ## Parameter
 
-* **Ebene**: *0.0 - 1.0*\
-  Legt die Gesamtmenge des Bleichens fest und verschiebt den Effekt weiter nach unten.
-* **Kontrast**: *0.0 - 1.0*\
-  Passt den Kontrast des Ergebnisses an.
-* **Verdeckung**: *0.0 - 1.0* Legt den Einfluss des AO auf das Endergebnis fest.
+|  |  |
+|:---|:---|
+| <b>Ebene</b> <i>0.0 - 1.0</i> | Legt die Gesamtmenge des Bleichens fest und verschiebt den Effekt weiter nach unten. |
+| <b>Kontrast</b> <i>0.0 - 1.0</i> | Passt den Kontrast des Ergebnisses an. |
+| <b>Verdeckung</b> <i>0.0 - 1.0</i> | Legt den Einfluss des AO auf das Endergebnis fest. |
 
-## Beispielbilder
+## Beispiele
 
-![](../../../../../../assets/sun-bleach-ex.gif)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="sun-bleach.resources/sun-bleach-02.gif" />
+        </td>
+    </tr>
 </table>

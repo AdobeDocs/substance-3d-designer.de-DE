@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Symmetrie-Slice
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '143'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mirror-2.png){width="128px"}
+![](symmetry-slice.resources/symmetry-slice-01.png){width="128px"}
 
-## Symmetrie-Slice
-
-**In:** *Filter/Transformationen*
-
-**Komplex**
+<b>In:</b> Filter > Transformieren
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,21 +37,28 @@ Komplexer Symmetrie-/Spiegelungs-Betriebsknoten. Ermöglicht eine Vielzahl von g
 
 Im Vergleich zu [Mirror](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md) und [Symmetry](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/symmetry/symmetry.md) verfügt dieser Knoten über viele weitere Optionen.
 
-## Parameter
-
-* **Symmetriemodus**: *0 - 6* Wählen Sie Symmetriegeometrie/Spiegellinie aus. Folgende Optionen stehen zur Auswahl: Horizontal, Vertikal, Diagonal von links nach rechts, Diagonal von rechts nach links, Vertikal umkehren, Ecke und Diagonale Ecke.
-* **Übertragungsmodus**: *0 - 6\
-  Füllmethode. Folgende Optionen stehen zur Verfügung:*
-* **Überblendung**: *0.0 - 1.0* Fügt das Originalbild wieder in das Ergebnis ein.
-* **Seite spiegeln**: *Falsch/Wahr* Dreht den Ursprung um, was bedeutet, dass die ursprüngliche Seite des Vorgangs umgekehrt wird. Die Symmetrie von links nach rechts wird beispielsweise von rechts nach links.
-* **Seite spiegeln2**: *Falsch/Wahr* Wird nur verwendet, wenn der Symmetriemodus 5 oder 6 ist. Ursprung der gedrehten Ecke.
-
-## Beispielbilder
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/symslice.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Symmetrie-Modus</b> <i>0 - 6</i> | Wählen Sie Symmetrie geometrie/Spiegellinie. Folgende Optionen stehen zur Auswahl: Horizontal, Vertikal, Diagonal von links nach rechts, Diagonal von rechts nach links, Vertikal umkehren, Ecke und Diagonale Ecke. |
+| <b>Übertragungsmodus</b> <i>0 - 6</i> | Füllmethode. Folgende Optionen stehen zur Verfügung: |
+| <b>Überblendung</b> <i>0.0 - 1.0</i> | Überblendung das Originalbild wieder in das Ergebnis ein. |
+| <b>Seite spiegeln</b> <i>False/True</i> | Spiegelt den Ursprung, d. h., die Ausgangsseite des Vorgangs wird umgekehrt. Die Symmetrie von links nach rechts wird beispielsweise von rechts nach links. |
+| <b>Seite spiegeln2</b> <i>False/True</i> | Wird nur verwendet, wenn der Symmetrie-Modus 5 oder 6 ist. Ursprung der gedrehten Ecke. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="symmetry-slice.resources/symmetry-slice-02.png" />
+        </td>
+    </tr>
 </table>

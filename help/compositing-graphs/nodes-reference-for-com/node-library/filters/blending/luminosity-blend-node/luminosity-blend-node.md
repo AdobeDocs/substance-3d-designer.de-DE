@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Luminanz (Mischknoten)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 6507710c6005db383ba88ce9e5c6ad9c34d87c9f
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '102'
 ht-degree: 4%
 
 ---
@@ -22,39 +22,36 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-## Luminanz
-
-**In:** *Filters/Blending*
-
-**Einfach**
+<b>In:</b> Filters > Blending
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Führt eine Füllmethode für die Luminanz durch, bei der Farbton und Chrominanz des Hintergrunds beibehalten werden, während die Luminanz des Vordergrunds übernommen wird.
 
-## Parameter
-
-### Eingaben
-
-* **Vordergrund**: *Farbeingabe*
-* **Hintergrund**: *Farbeingabe*
-* **Maske**: *Graustufen-Eingabe*\
-  Maskenschlitz zum Maskieren der Knoteneffekte.
-
-### Parameter
-
-* **Deckkraft**: *0.0 - 1.0*\
-  Füllmethode Deckkraft zwischen Vorder- und Hintergrund.
-* **Alpha-Überblendung**: *False/True*\
-  Blendet die Alphakanäle für Vorder- und Hintergrund ein bzw. aus. Wenn der Wert auf &quot;Falsch&quot; gesetzt ist, wird der Alphakanal des Vordergrunds ignoriert.
-
-## Beispielbilder
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Vordergrund</b> <i>Farbeingabe</i> |  |
+| <b>Hintergrund</b> <i>Farbeingabe</i> |  |
+| <b>Maske</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Deckkraft</b> <i>0.0 - 1.0</i> | Füllmethode Deckkraft zwischen Vorder- und Hintergrund. |
+| <b>Alpha-Überblendung</b> <i>False/True</i> | Blendet die Alphakanäle für Vorder- und Hintergrund ein bzw. aus. Wenn der Wert auf &quot;Falsch&quot; gesetzt ist, wird der Alphakanal des Vordergrunds ignoriert. |

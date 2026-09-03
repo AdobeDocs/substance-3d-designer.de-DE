@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Kachelüberlagerung erstellen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 0%
+source-wordcount: '268'
+ht-degree: 8%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/make-it-tile-patch.png)
+![](make-it-tile-patch.resources/make-it-tile-patch-01.png)
 
-![](../../../../../../assets/make-it-tile-patch-grayscale.png)
+![](make-it-tile-patch.resources/make-it-tile-patch-02.png)
 
-## Musterelement anordnen (Graustufen)
-
-**In:** *Filters/Tiling*
-
-**Komplex**
+<b>In:</b> Filters > Kachelung
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -47,27 +43,36 @@ Beachten Sie, dass dies ein Unterschied zu [Make-It-Tile Foto](../../../../../..
 
 Informationen zum Verwenden des gesamten Materials finden Sie unter [Smart Auto Tile](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/smart-auto-tile/smart-auto-tile.md).
 
-## Parameter
-
-* **Maskengröße**: *0.0 - 1.0* Größe der runden Maske, die beim Stempeln des Pflasters verwendet wird.
-* **Maskengenauigkeit**: *0.0 - 1.0* Abfall-/Maskengenauigkeit der Smoothness.
-* **Maskenverkrümmung**: *-100.0 - 100.0* Führt Verkrümmung an Maskenkanten ein. Gut zum Vermeiden glatter, undefinierter Übergänge zwischen Patches.
-* **Breite der Mustergröße**: *0.0 - 1000.0*&#x200B;Ändert die Breite des Patches ungleichmäßig.
-* **Height der Mustergröße**: *0.0 - 1000.0*&#x200B;Ändert das Height des Patches ungleichmäßig.
-* **Störung**: *0.0 - 1.0*\
-  Führt translationale Zufälligkeit ein, leicht verschiebbare Flecken.
-* **Größenänderung**: *0.0 - 100.0* Führt die Größenvariation für die Maske ein.
-* **Oktave**: *0 - 6* Dies ist das Hauptsteuerelement, das die Gesamtgröße bestimmt.
-* **Drehung**: *-360.0 - 360.0* Vordrehen des Patches.
-* **Drehungsvariation**: *0.0 - 360.0* Führt eine zufällige Rotation für jeden Patch-Stempel ein.
-* **Hintergrundfarbe**: *(Farbwert)*Legt die Hintergrundfarbe für Bereiche fest, in denen keine Ausbesserung auftritt.
-* **Farbvariation**: *0.0 - 1.0 (Nur Farbversion)*Führt Farbvariationen pro Patch ein.
-* **Luminanzvariation** *(nur Graustufenversion)*Führt Luminanzvariation pro Patch ein.
-
-## Beispielbilder
-
-![](../../../../../../assets/patch-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Maskengröße</b> <i>0.0 - 1.0</i> | Größe der runden Maske, die beim Prägen des Pflasters verwendet wird. |
+| <b>Maskengenauigkeit</b> <i>0.0 - 1.0</i> | Abfall-/Maskengenauigkeit der Smoothness. |
+| <b>Maskenverkrümmung</b> <i>-100.0 - 100.0</i> | Führt eine Verkrümmung an Maskenkanten ein. Gut zum Vermeiden glatter, undefinierter Übergänge zwischen Patches. |
+| <b>Breite der Mustergröße</b> <i>0.0 - 1000.0</i> | Ändert die Breite des Pflasters ungleichmäßig. |
+| <b>Height der Mustergröße</b> <i>0.0 - 1000.0</i> | Ändert das Height des Pflasters ungleichmäßig. |
+| <b>Störung</b> <i>0.0 - 1.0</i> | Führt translationale Zufälligkeit ein, leicht verschiebbare Flecken. |
+| <b>Größenänderung</b> <i>0.0 - 100.0</i> | Führt die Größenvariation für die Maske ein. |
+| <b>Oktave</b> <i>0 - 6</i> | Dies ist das Hauptsteuerelement, das die Gesamtgröße bestimmt. |
+| <b>Drehung</b> <i>-360.0 - 360.0</i> | Dreht den Patch vorab. |
+| <b>Drehungsvariation</b> <i>0.0 - 360.0</i> | Führt eine zufällige Drehung für jeden Ausbesserungsstempel ein. |
+| <b>Hintergrundfarbe</b> <i>(Farbwert)</i> | Legt die Hintergrundfarbe für Bereiche fest, in denen kein Patch auftritt. |
+| <b>Farbvariation</b> <i>0.0 - 1.0 (Nur Farbversion)</i> | Führt Farbvariationen pro Patch ein. |
+| <b>Variation der Luminanz</b> <i>(nur Graustufenversion)</i> | Führt die Luminanzvariation pro Patch ein. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="make-it-tile-patch.resources/make-it-tile-patch-03.gif" />
+        </td>
+    </tr>
 </table>

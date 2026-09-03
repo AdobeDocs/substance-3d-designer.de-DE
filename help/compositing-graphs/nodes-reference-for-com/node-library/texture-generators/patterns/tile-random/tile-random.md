@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Kachelzufall , um zufällige Kachelmuster mit prozeduralen Variationen für organische Textureffekte zu erstellen.
+description: Verwenden Sie den Knoten "Kachelzufall", um zufällige Kachelmuster mit prozeduralen Variationen für organische Texturen zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Random
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Kachelzufall
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 0%
+source-wordcount: '631'
+ht-degree: 7%
 
 ---
 
@@ -22,93 +22,91 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/tile-random.png){width="128px"}
+![](tile-random.resources/tile-random-01.png){width="128px"}
 
-## Kachelzufall (Farbe)
-
-**In:** *Generatoren/Muster*
-
-**Komplex**
+<b>In:</b> Generatoren > Muster
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-&quot;Kachelzufall&quot; generiert ein prozedurales Kachelmuster, das etwas mehr Chaos in den Kachelformen aufweist als sein Gegenstück, [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md). Dies geschieht durch zufälliges Aufteilen bestimmter Kacheln in kleinere Kacheln. Wir empfehlen Ihnen, sich zunächst mit dem Tile Generator vertraut zu machen, bevor Sie sich mit Tile Random befassen, da viele Konzepte ähnlich sind.
+&quot;Kachelzufall&quot; erzeugt ein prozedurales Kachelmuster, das etwas mehr Chaos in den Kachelformen aufweist als sein Gegenstück, [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md). Dies geschieht durch zufälliges Aufteilen bestimmter Kacheln in kleinere Kacheln. Wir empfehlen Ihnen, sich zunächst mit dem Tile Generator vertraut zu machen, bevor Sie sich mit Tile Random befassen, da viele Konzepte ähnlich sind.
 
 Anstelle von [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) wird &quot;Zufällig&quot; verwendet, wenn das Ziel ein älteres, weniger strukturiertes Muster ist. Es hat jedoch seine Einschränkungen. Daher sollten Sie [Sampler &#x200B;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) für andere erweiterte Anforderungen anordnen.
 
-## Parameter
-
-### Eingaben
-
-* **Mustereingabe**: *Graustufeneingabe (Farbeingabe)*\
-  Benutzerdefiniertes Musterbild, das verwendet wird, wenn der Parameter &quot;Muster&quot; auf &quot;Bildeingabe&quot; eingestellt ist.
-* **Hintergrundeingabe**: *Graustufeneingabe (Farbeingabe)*
-
-### Parameter
-
-* **X Betrag**: *1 - 64*\
-  Anzahl der X-Wiederholungen des Musters.
-* **Y Betrag**: *1 - 64*\
-  Anzahl der Y-Wiederholungen des Musters.
-* **Quadratische Ausbreitung**: *False/True*\
-  Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen.
-* **Muster**
-  * **Muster**: *Mustereingabe, Quadrat, Disc, Paraboloid, Glocke, Gaußsch, Dorn, Pyramide, Ziegel, Abstufung, Wellen, Halbglocke, Gekrächelte Glocke, Halbmond, Kapsel, Kegel*\
-    Wählt die zu verwendende Musterform aus.
-  * **Image Input Filtering (Engine > v4)**: *Bilinear + Mipmaps, Bilinear, Nächste*
-  * **Musterspezifisch**: *0.0 - 1.0*\
-    Hier können Sie die Form des ausgewählten Musters ändern. Der Effekt hängt vom ausgewählten Muster ab.
-  * **Musterspezifische Zufallszahl**: *0.0 - 1.0* Der Randomisierungseffekt ist vom ausgewählten Muster abhängig.
-  * **Drehung**: *0, 90, 180, 270, zufällig horizontal, zufällig vertikal* Legt die Drehung in Schritten von 90 Grad fest, mit optionaler Randomisierung.
-  * **Drehung zufällig**: *0.0 - 1.0* Fügt eine zufällige freie Drehung hinzu.
-  * **Symmetrie zufällig**:  **0.0 - 1.0** Spiegelt zufällig bestimmte Muster durch den ausgewählten Zufallsmodus der Symmetrie. Je höher dieser Wert, desto mehr Muster werden gespiegelt.
-  * **Zufallssymmetriemodus**: *Horizontal + Vertikal, Horizontal, Vertikal* Bestimmt das Spiegelungsverhalten, wenn die zufällige Symmetrie größer als 0 ist.
-* **Aufspaltung**
-  * **Modus**: *keine, automatisch, automatisch horizontal, automatisch vertikal, zufällig h+v* Legt die Regel zum Teilen von Kacheln fest.
-  * **Schwellenwert**: *0.0 - 1.0* Größenschwellenwert für den Zeitpunkt des Teilens einer Kachel.
-  * **Multiplikator**: *0 - 10* Multiplikator wird aufgeteilt. Je höher dieser Wert, desto mehr Teilungen.
-* **Größe**
-  * **Zufälliges X**: *0.0 - 1.0* Randomisiert eine ungleichmäßige Skalierung über die X-Achse.
-  * **Zufall Y**: *0.0 - 1.0* Randomisiert eine ungleichmäßige Skalierung über die Y-Achse.
-* **Interstice**
-  * **Modus**: *Relativ zum kleinsten Stein, Relativ zum größten Stein* Legt fest, auf welchen Stein die Zwischenräume der Stein-Größe relativ sind.
-  * **Betrag**: *0.0 - 1.0* Legt die Lückengröße zwischen den Steinen fest.
-* **Form**
-  * **Skalierung**: *0.0 - 1.0* Skaliert jede Kachel global.
-  * **Zufällige Skalierung**: *0.0 - 1.0* Zufällige Skalierung pro Kachel.
-  * **Drehung**: *0.0 - 1.0* Globale Drehung für jede Kachel.
-  * **Drehung zufällig**: *0.0 - 1.0* Rotiert willkürlich auf Kachelbasis.
-  * **Drehungseinschränkung**: *Falsch/Wahr* Beschränkt die Skalierung, sodass sich gedrehte Kacheln nie überlappen.
-* **Position**
-  * **Offset**: *0.0 - 1.0*\
-    Verschiebt oder verschiebt die Kacheln global, gleitet nur über die X-Achse
-  * **Offset zufällig**: *0.0 - 1.0* Randomisiert den Versatz pro Kachel, nur Folien über die X-Achse
-  * **Zufällig**: *0.0 - 1.0* Randomisiert die Position, die Kacheln bewegen sich sowohl auf der X- als auch auf der Y-Achse.
-  * **Random Constraints**: *Falsch/Wahr* Beschränkt die Skalierung so, dass sich die Kacheln berühren, aber nicht überlappen. Reduziert den Effekt &quot;Zufällige Position&quot; erheblich.
-* **Farbe**
-  * **Farbe**: *(Graustufenwert) / (Farbwert)*Legt die Volltonfarbe für alle Kacheln fest.
-  * **Farbzufall**: *0.0 - 1.0* Randomisiert die Farbe auf Kachelbasis.
-  * **Farbparametrisierung**: *keine, Fläche, Größe x, Größe y* Macht die Farbvariation von einer dieser Einstellungen abhängig.
-  * **Intensität der Farbparametrisierung**: *0.0 - 1.0* Multiplikator für den obigen Parametrisierungseffekt.
-  * **Farbparametrisierungseffekt (nur für Farbe):** **RGB+Alpha, nur RGB, nur Alpha** Bestimmt den Farbparametrisierungseffekt.
-  * **Hintergrundfarbe**: *(Graustufenwert) / (Farbwert)*Legt die Volltonhintergrundfarbe fest.
-  * **Füllmethode**: *Hinzufügen/Sub, Max. /* Hinzufügen/Sub, Alpha Blend (Color)**Legt den Mischmodus für Kacheln auf dem Hintergrund fest.
-* **Maske**
-  * **Zufällig**: *0.0 - 1.0* Beginnt zufällig mit dem Ausblenden von Kacheln. Je höher der Wert, desto mehr Kacheln verschwinden.
-  * **Umkehren**: *False/True*\
-    Kehrt das Maskenergebnis um.
-
-## Beispielbilder
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/tile-random-1.png" width="256px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Mustereingabe</b> <i>Graustufeneingabe (Farbeingabe)</i> | Benutzerdefiniertes Musterbild, das verwendet wird, wenn der Parameter &quot;Muster&quot; auf &quot;Bildeingabe&quot; eingestellt ist. |
+| <b>Hintergrundeingabe</b> <i>Graustufeneingabe (Farbeingabe)</i> |  |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>X Betrag</b> <i>1 - 64</i> | Anzahl der X-Wiederholungen des Musters. |
+| <b>Y Betrag</b> <i>1 - 64</i> | Anzahl der Y-Wiederholungen des Musters. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+| <b>Muster</b> |  |
+| <b>Muster</b> <i>Mustereingabe, Quadrat, Datenträger, Paraboloid, Gaußscher Text, Dorn, Pyramide, Ziegel, Abstufung, Wellen, Halbglocke, Rändelglocke, Mondsichel, Kapsel, Kegel</i> | Wählt die zu verwendende Musterform aus. |
+| <b>Filterungen zur Bildeingabe (Engine > v4)</b> <i>Bilinear + Mipmaps, Bilinear, Nächste</i> |  |
+| <b>Musterspezifisch</b> <i>0.0 - 1.0</i> | Hier können Sie die Form des ausgewählten Musters ändern. Der Effekt hängt vom ausgewählten Muster ab. |
+| <b>Musterspezifische Zufälligkeit</b> <i>0.0 - 1.0</i> | Der Randomisierungseffekt hängt vom ausgewählten Muster ab. |
+| <b>Drehung</b> <i>0, 90, 180, 270, zufällig horizontal, zufällig vertikal</i> | Stellt die Drehung in 90-Grad-Schritten mit optionaler Randomisierung ein. |
+| <b>Drehung zufällig</b> <i>0.0 - 1.0</i> | Fügt eine zufällige freie Drehung hinzu. |
+| <b>Symmetrie zufällig</b> <i>0.0 - 1.0</i> | Spiegelt zufällig bestimmte Muster durch die ausgewählte Symmetrie Zufallsmodus. Je höher dieser Wert, desto mehr Muster werden gespiegelt. |
+| <b>Zufallsmodus der Symmetrie</b> <i>Horizontal + Vertikal, Horizontal, Vertikal</i> | Bestimmt das Spiegelungsverhalten, wenn die zufällige Symmetrie größer als 0 ist. |
+| <b>Aufspaltung</b> |  |
+| <b>Modus</b> <i>keine, automatisch, automatisch horizontal, automatisch vertikal, zufällig h+v</i> | Legt die Regel für das Teilen von Kacheln fest. |
+| <b>Schwellenwert</b> <i>0.0 - 1.0</i> | Größenschwellenwert für das Teilen einer Kachel. |
+| <b>Multiplikator</b> <i>0 - 10</i> | Multiplikator wird aufgeteilt. Je höher dieser Wert, desto mehr Teilungen. |
+| <b>Größe</b> |  |
+| <b>Zufälliges X</b> <i>0.0 - 1.0</i> | Zufallsgenerator für ungleichmäßige Skalierung über X-Achse. |
+| <b>Zufall Y</b> <i>0.0 - 1.0</i> | Zufallsgenerator für ungleichmäßige Skalierung über die Y-Achse. |
+| <b>Interstice</b> |  |
+| <b>Modus</b> <i>Relativ zum kleinsten Ziegel, Relativ zum größten Ziegel</i> | Legt fest, auf welchen Ziegel die Zwischenablage bei der Textgröße sich bezieht. |
+| <b>Betrag</b> <i>0.0 - 1.0</i> | Legt die Größe des Abstands zwischen Ziegeln fest. |
+| <b>Form</b> |  |
+| <b>Skalierung</b> <i>0.0 - 1.0</i> | Skaliert jede Kachel global. |
+| <b>Zufällige Skalierung</b> <i>0.0 - 1.0</i> | Zufällige Skalierung pro Kachel. |
+| <b>Drehung</b> <i>0.0 - 1.0</i> | Globale Drehung für jede Kachel. |
+| <b>Drehung zufällig</b> <i>0.0 - 1.0</i> | Dreht sich willkürlich pro Kachel. |
+| <b>Drehungseinschränkung</b> <i>False/True</i> | Schränkt die Skalierung ein, sodass sich gedrehte Kacheln nie überlappen. |
+| <b>Position</b> |  |
+| <b>Offset</b> <i>0.0 - 1.0</i> | Verschiebt oder Kamera bewegt die Kacheln global, verschiebt sich nur über X-Achse |
+| <b>Offset zufällig</b> <i>0.0 - 1.0</i> | Randomisiert Versatz pro Kachel, nur Folien über X-Achse |
+| <b>Zufällig</b> <i>0.0 - 1.0</i> | Randomisiert die Position, die Kacheln bewegen sich auf der X- und Y-Achse. |
+| <b>Random Constraints</b> <i>False/True</i> | Schränkt die Skalierung ein, sodass sich die Kacheln berühren, sich aber nicht überlappen. Reduziert den Effekt &quot;Zufällige Position&quot; erheblich. |
+| <b>Farbe</b> |  |
+| <b>Farbe</b> <i>(Graustufenwert) / (Farbwert)</i> | Legt die Volltonfarbe für alle Kacheln fest. |
+| <b>Farbzufall</b> <i>0.0 - 1.0</i> | Randomisiert die Farbe pro Kachel. |
+| <b>Farbparametrisierung</b> <i>keine, Bereich, Größe x, Größe y</i> | Macht Farbvariationen von einer dieser Einstellungen abhängig. |
+| <b>Intensität der Farbparametrisierung</b> <i>0.0 - 1.0</i> | Multiplikator für den obigen Effekt &quot;Parametrisierung&quot;. |
+| <b>Effekt &quot;Farbparametrisierung&quot; (nur für Farbe)</b> <i>RGB+Alpha, nur RGB, nur Alpha</i> | Bestimmt den Effekt der reinen Farbparametrisierung. |
+| <b>Hintergrundfarbe</b> <i>(Graustufenwert) / (Farbwert)</i> | Legt eine einfarbige Hintergrundfarbe fest. |
+| <b>Füllmethode</b> <i>Hinzufügen/Sub, Max./Hinzufügen/Sub, Alpha-Überblendung (Farbe)</i> | Legt den Mischmodus für Kacheln auf dem Hintergrund fest. |
+| <b>Maske</b> |  |
+| <b>Zufällig</b> <i>0.0 - 1.0</i> | Zufällig beginnt Kacheln maskieren. Je höher der Wert, desto mehr Kacheln verschwinden. |
+| <b>Umkehren</b> <i>False/True</i> | Kehrt das Maskenergebnis um. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="tile-random.resources/tile-random-02.png" />
+        </td>
+    </tr>
 </table>

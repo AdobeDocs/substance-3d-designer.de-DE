@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Normale Umkehr
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '106'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-invert.png){width="128px"}
+![](normal-invert.resources/normal-invert-01.png){width="128px"}
 
-## Normale Umkehr
-
-**In:** *Filters/Normal Map*
-
-**Einfach**
+<b>In:</b> Filters > Normalen-Map
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,19 +37,17 @@ Ermöglicht Ihnen die Umkehrung aller Kanäle einer Normalmap und bietet eine sc
 
 Beachten Sie, dass fast jeder Node, der eine Normalmap als Eingabe oder Ausgabe verwendet, eine Option hat, den Grünen Kanal umzukehren, für Normalmaps im DirectX- oder OpenGL-Stil. Das bedeutet, dass Sie diesen Knoten in diesen Fällen fast nie benötigen sollten.
 
-## Parameter
-
-* **Rot umkehren**: *False/True*
-* **Grün umkehren**: *False/True*
-* **Blau umkehren**: *False/True*
-* **Alpha umkehren**: *False/True*
-
-## Beispielbilder
-
-|  |
-| --- |
-| Es sind keine Bilder an diese Seite angehängt. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Rot umkehren</b> <i>False/True</i> |  |
+| <b>Grün umkehren</b> <i>False/True</i> |  |
+| <b>Blau umkehren</b> <i>False/True</i> |  |
+| <b>Alpha umkehren</b> <i>False/True</i> |  |

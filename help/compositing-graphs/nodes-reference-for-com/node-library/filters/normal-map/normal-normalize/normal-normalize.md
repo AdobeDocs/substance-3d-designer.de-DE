@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-normalize.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Normal normalisieren, um Normalmap-Vektoren zu normalisieren und so eine korrekte Beleuchtung und Schattierung der Oberfläche sicherzustellen.
+description: Verwenden Sie den Knoten Normal normalisieren, um Normalen-Map-Vektoren zu normalisieren und so eine korrekte Beleuchtung und Schattierung der Oberfläche sicherzustellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Normalize
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Normal normalisieren
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 2%
+source-wordcount: '64'
+ht-degree: 1%
 
 ---
 
@@ -22,34 +22,20 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-normalize.png){width="128px"}
+![](normal-normalize.resources/normal-normalize-01.png){width="128px"}
 
-## Normal normalisieren
-
-**In:** *Filters/Normal Map*
-
-**Einfach**
+<b>In:</b> Filters > Normalen-Map
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Führt eine mathematische Vektornormalisierung für jedes einzelne Pixel im Bild durch.
 
 Dies ist nützlich, wenn viele Überblendungen und Änderungen an der Normalmap vorgenommen wurden und Sie sicherstellen möchten, dass ein korrektes Ergebnis exportiert wird.
-
-## Parameter
-
-*Keine Parameter.*
-
-## Beispielbilder
-
-|  |
-| --- |
-| Es sind keine Bilder an diese Seite angehängt. |
 
 </td>
 </tr>

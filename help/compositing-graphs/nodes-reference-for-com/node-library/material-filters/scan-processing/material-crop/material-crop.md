@@ -1,67 +1,56 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/material-crop.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Materialzuschnitt , um Texturbereiche aus gescannten Materialien zuzuschneiden und bestimmte Interessensbereiche zu isolieren.
+description: Verwenden Sie den Knoten Material-Freistellung , um Bereiche der Textur aus gescannten Materialien zuzuschneiden und so bestimmte Interessensbereiche zu isolieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Material Crop
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Materialzuschnitt
+title: Material Crop
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 1%
+source-wordcount: '147'
+ht-degree: 4%
 
 ---
 
 
-# Materialzuschnitt
+# Material Crop
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/crop-material.png){width="128px"}
+![](material-crop.resources/material-crop-01.png){width="128px"}
 
-## Materialzuschnitt
-
-**In:** *Materialfilter/Scanverarbeitung*
-
-**Einfach**
+<b>In:</b> Materialfilter > Scanverarbeitung
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Dieser Knoten ist die Vollmaterialversion von [Crop](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md) mit mehreren Kanälen. Damit können Sie einen Zuschneidevorgang für alle Materialkanäle parallel ausführen.
+Dieser Knoten ist die Vollversion des mehrkanaligen Materials von [Crop](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md). Damit können Sie einen Zuschneidevorgang für alle Material-Kanäle gleichzeitig ausführen.
 
 >[!NOTE]
 >
 > [Weitere Informationen finden Sie im Original &#x200B;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md) [Zuschneiden](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md) [.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)
 
-## Parameter
-
-### Parameter
-
-* **Kanäle**
-  * Schalten Sie die Materialkanäle in dieser Gruppe ein und aus, wenn Sie z. B. Specular-/Glanzkarten anstelle von &quot;Metallisch/Raueit&quot; verwenden.
-* **Eingabegröße**: *0 - 8192* Auflösung und Proportionen des Eingabebildes. Sehr wichtig für nicht quadratische Bilder.
-* **Hintergrund**: *(Farbwert) / (Graustufenwert)*Einheitlicher Hintergrundwert für Bereiche, die nicht von der Freistellung abgedeckt werden.
-* **Transformieren**: *(Transformationsmatrix)*\
-  Dreht und skaliert das Ergebnis. Das Ergebnis kann durch direkte Interaktion mit der Arbeitsfläche geändert werden.
-* **Offset**: *0.0 - 1.0*\
-  Verschiebt oder verschiebt das Ergebnis. Das Ergebnis kann durch direkte Interaktion mit der Arbeitsfläche geändert werden.
-
-## Beispielbilder
-
-|  |
-| --- |
-| Es sind keine Bilder an diese Seite angehängt. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Kanäle</b> | Schalten Sie Material-Kanäle in dieser Gruppe ein und aus, wenn Sie Specular-/Glanz-Maps anstelle von z. B. Metallic/Rauheit verwenden. |
+| <b>Eingabegröße</b> <i>0 - 8192</i> | Eingabebilds Auflösung und Proportionen. Sehr wichtig für nicht quadratische Bilder. |
+| <b>Hintergrund</b> <i>(Farbwert) / (Graustufenwert)</i> | Einheitlicher Hintergrundwert für Bereiche, die nicht von der Freistellung abgedeckt sind. |
+| <b>Transformieren</b> <i>(Transformationsmatrix)</i> | Dreht und skaliert das Ergebnis. Das Ergebnis kann durch direkte Interaktion mit der Arbeitsfläche geändert werden. |
+| <b>Offset</b> <i>0.0 - 1.0</i> | Verschiebt oder verschiebt das Ergebnis. Das Ergebnis kann durch direkte Interaktion mit der Arbeitsfläche geändert werden. |

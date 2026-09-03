@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Panorama 3D Position
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 2%
+source-wordcount: '64'
+ht-degree: 4%
 
 ---
 
@@ -22,31 +22,37 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-position.png){width="200px"}
+![](panorama-3d-position.resources/panorama-3d-position-01.png){width="200px"}
 
-## Panorama 3D Position
-
-**In:** *3D-Ansicht/HDRI-Werkzeuge*
-
-**Einfach**
+<b>In:</b> 3D-Ansicht > HDRI-Werkzeugs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Hilfsknoten, der eine Weltraumpositionskarte für ein spiralförmig projiziertes Panoramabild rendert. Kann verwendet werden, um Ihre eigenen sphärischen Transformationen und Lookups zu machen.
 
-## Parameter
-
-* **Vektor nach oben**: *Z nach oben, J nach oben*
-
-## Beispielbilder
-
-![](../../../../../../assets/pano3d.png)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Vektor nach oben</b> <i>Z nach oben, J nach oben</i> |  |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="panorama-3d-position.resources/panorama-3d-position-02.png" />
+        </td>
+    </tr>
 </table>

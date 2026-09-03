@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Min. Max
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 1%
+source-wordcount: '99'
+ht-degree: 2%
 
 ---
 
@@ -22,33 +22,31 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/min-max.png){width="200px"}
+![](min-max.resources/min-max-01.png){width="200px"}
 
-## Min. Max
-
-**In:** *Filter/Korrekturen*
-
-**Fortgeschrittene**
+<b>In:</b> Filters > Adjustments
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Min Max findet die hellsten und dunkelsten Werte einer Graustufeneingabe und gibt sie als [Werte](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html) zurück. Es ist als eine detailliertere, manuelle Alternative für [Auto-Stufen](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md) vorgesehen, bei der Sie die Werteingaben eines [Stufen](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)-Knotens freigeben und die Werte von Min Max darin einfügen.
+Min Max findet die hellsten und dunkelsten Werte einer Graustufeneingabe und gibt sie als [Werte](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md) zurück. Es ist als eine detailliertere, manuelle Alternative für [Auto-Stufen](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md) vorgesehen, bei der Sie die Werteingaben eines [Stufen](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)-Knotens freigeben und die Werte von Min Max darin einfügen.
 
-Um diesen Knoten mit einer Ebene zu verwenden, sollten Sie mindestens wissen, wie Sie die Dropdown-Liste [Parameter verfügbar machen](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) sowie die Registerkarte [Werteingabe](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html) verwenden.
-
-## Parameter
-
-*Keine Parameter.*
-
-## Beispielbilder
-
-![](../../../../../../assets/minmax.png)
+Um diesen Knoten mit einer Ebene zu verwenden, sollten Sie mindestens wissen, wie Sie die Dropdown-Liste [Parameter verfügbar machen](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) sowie die Registerkarte [Wert-Eingabe](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md) verwenden.
 
 </td>
 </tr>
+</table>
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="min-max.resources/min-max-02.png" />
+        </td>
+    </tr>
 </table>

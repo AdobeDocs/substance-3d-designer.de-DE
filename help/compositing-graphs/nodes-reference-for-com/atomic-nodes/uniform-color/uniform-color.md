@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gleichmäßige Farbe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Einheitliche Farbe](../../../../assets/comp_uniform_1.png "Atomarer Knoten: Einheitliche Farbe"){width="200px"}
+![Atomknoten: Einheitliche Farbe](uniform-color.resources/uniform-color-01.png "Atomarer Knoten: Einheitliche Farbe"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -96,7 +96,7 @@ Es handelt sich um einen einfachen Knoten, der sehr häufig als Ausgangspunkt zu
 |  |  |
 | --- | --- |
 | <b>Farbmodus</b> *Boolescher Wert* | Schaltet zwischen einem Graustufen- und einem Farbausgabebild um. |
-| <b>Ausgabefarbe</b> *Gleitend/Gleitend4* | Wählt die einheitliche Farbe aus, die im Ausgabebild verwendet werden soll.   Bei Verwendung des Farbmodus &quot;Alpha&quot; wird der Farbkanal für die Deckkraft verwendet, wobei 0 vollständig transparent und 1 vollständig deckend ist. |
+| <b>Ausgabefarbe</b> *Gleitend/Gleitend4* | Wählt die einheitliche Farbe aus, die im Ausgabebild verwendet werden soll.   Bei Verwendung des Farbmodus &quot;Alpha&quot; wird der Farbkanal für die Deckkraft verwendet, wobei 0 vollständig transparent und 1 vollständig deckend ist. |
 
 ## Ausgangsanschlüsse
 

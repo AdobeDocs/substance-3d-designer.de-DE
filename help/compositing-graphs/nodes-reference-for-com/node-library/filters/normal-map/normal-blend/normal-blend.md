@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Normale Überblendung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 2%
+source-wordcount: '155'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-blend.png){width="128px"}
+![](normal-blend.resources/normal-blend-01.png){width="128px"}
 
-## Normale Überblendung
-
-**In:** *Filters/Normal Map*
-
-**Fortgeschrittene**
+<b>In:</b> Filters > Normalen-Map
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,30 +37,35 @@ Mit &quot;Normale Überblendung&quot; können Sie zwei Normalmaps mit einer opti
 
 &quot;Normale Überblendung&quot; ist nicht zum Kombinieren (Überlagern) von Normalmaps gedacht, wobei die obere Karte der unteren Karte Details hinzufügt. Verwenden Sie stattdessen [Normale Kombination](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md).
 
-## Parameter
-
-### Eingaben
-
-* **NormalFG**: *Farbeingabe*\
-  Vordergrund-/obere Normalmap.
-* **NormalBG**: *Farbeingabe*\
-  Hintergrund/untere Normalmap
-* **Maske**: *Graustufen-Eingabe*\
-  Maskenschlitz zum Maskieren der Knoteneffekte. Mit dem Parameter &quot;Maske verwenden&quot; umschaltbar.
-
-### Parameter
-
-* **Deckkraft**: *0.0 - 1.0*\
-  Füllmethode zwischen Vorder- und Hintergrund
-* **Maske verwenden**: *False/True*\
-  Schaltet die Verwendung der Maskenkarte ein oder aus.
-
-## Beispielbilder
-
-![](../../../../../../assets/normalblend-ex.gif)
-
-*(.gif-Format führt Dithering im Beispiel ein, Anwendungsinterne Ergebnisse sind glatt)*
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>NormalFG</b> <i>Farbeingabe</i> | Vordergrund-/obere Normalmap. |
+| <b>NormalBG</b> <i>Farbeingabe</i> | Hintergrund/untere Normalmap |
+| <b>Maske</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. Mit dem Parameter &quot;Maske verwenden&quot; umschaltbar. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Deckkraft</b> <i>0.0 - 1.0</i> | Füllmethode zwischen Vorder- und Hintergrund |
+| <b>Maske verwenden</b> <i>False/True</i> | Schaltet die Verwendung der Maskenkarte ein oder aus. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="normal-blend.resources/normal-blend-02.gif" /><br><i>(.gif-Format führt Dithering im Beispiel ein, Anwendungsinterne Ergebnisse sind glatt)</i>
+        </td>
+    </tr>
 </table>

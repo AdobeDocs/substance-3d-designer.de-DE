@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Abstand
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Entfernung](../../../../assets/comp_distance_1.png "Atomknoten: Entfernung"){width="200px"}
+![Elementare Knoten: Distanz](distance.resources/distance-01.png "Elementare Knoten: Entfernung"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,9 +37,9 @@ Dieser Knoten erstellt eine lineare Überblendung (Farbverlauf) nach außen von 
 </tr>
 </table>
 
-Die nach außen gerichtete Überblendung endet sich, sobald sie auf eine andere Zelle trifft: sie werden sich nie überschneiden. Intern ist dies eigentlich die Berechnung und Anzeige der Entfernung zum nächsten Pixel > 0,5, mit dem Abstand Knoten als Klemme / Maximum gesetzt.
+Die nach außen expandierende Verblassen endet, sobald sie eine andere Zelle erreicht: sie werden sich nie überschneiden. Intern ist dies eigentlich die Berechnung und Anzeige der Entfernung zum nächsten Pixel > 0,5, mit dem Abstand Knoten als Klemme / Maximum gesetzt.
 
-Eine optionale Quell-Map ermöglicht das Kombinieren der Zellen mit der Textur aus einer sekundären Eingangs-Map.
+Eine optionale Quellzuordnung ermöglicht das Kombinieren der Zellen mit der Textur von einer sekundären Eingabe-Map.
 
 Der Distanzknoten ist kein einfacher Knoten, den man beherrschen kann, aber seine Hauptanwendungsfälle sind die zuverlässige Erweiterung vorhandener Masken (im Vergleich zum Weichzeichnen und Anpassen des Kontrasts), die Erzeugung von Störzellen vom Voronoi-Typ und das Abschrägen vorhandener Formen mit einem scharfen, linearen Profil (das später neu zugeordnet werden kann).
 
@@ -84,10 +84,10 @@ Weitere Informationen finden Sie in den folgenden [Beispielen](#examples).
 
 |  |  |
 | --- | --- |
-| <b>Farbmodus</b> *Boolescher Wert* | Schaltet zwischen einem Graustufen- und einem Farbausgabebild um. Ändert auch den Eingabetyp &quot;Quelleingabe&quot;. |
+| <b>Farbmodus</b> *Boolesche Wert* | Schaltet zwischen einem Graustufen- und einem Farbausgabebild um. Ändert auch den Eingabetyp &quot;Quelleingabe&quot;. |
 | <b>Maximale Entfernung</b> *Gleitend* | Passt den maximalen Abstand für die Erkennung des nächsten Rahmens in der Maske in Pixel an. |
-| <b>Quelle/Entfernung kombinieren</b> *Boolescher Wert* | Legen Sie fest, wie die optionale &quot;Quelleingabe&quot; mit den endgültigen Zellen kombiniert wird.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Kombinieren:</i> Kombiniert den Wert &quot;Quelleingabe&quot; mit der verblassenden linearen Maske. Wenn der Eingang &quot;Quelleingang&quot; angeschlossen ist, wird sein Wert mit dem berechneten Abstand kombiniert.</li> <li data-preserve-html="true"><i>Nur Quelle:</i> Ergibt nur Volltonfarbe aus der Quelleingabe.</li> </ul> |
-| <b>Abstandsmodus</b> *Integer* | Wählt die Methode aus, mit der der Abstand zum nächsten Rand in der extrahierten Maske berechnet wird:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Euklidisch:</i> Summe der quadratischen X/Y-Unterschiede.</li> <li data-preserve-html="true"><i>Manhattan:</i> Summe der absoluten Werte der X/Y-Unterschiede.</li> <li data-preserve-html="true"><i>Chebyshev:</i> Maximale Anzahl absoluter Werte für X/Y-Unterschiede.</li> </ul>  <div><img alt="Beispiele für Abstandsmodi" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_copy_copy_row-yj03rtt-column-0i13nfd_image" src="../../../../assets/distance-comparison.jpg" title="Beispiele für Abstandsmodi"/></div> |
+| <b>Quelle/Entfernung kombinieren</b> *Boolesche Wert* | Legen Sie fest, wie die optionale &quot;Quelleingabe&quot; mit den endgültigen Zellen kombiniert wird.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Kombinieren:</i> Kombiniert den Wert &quot;Quelleingabe&quot; mit der verblassenden linearen Maske. Wenn der Eingang &quot;Quelleingang&quot; angeschlossen ist, wird sein Wert mit dem berechneten Abstand kombiniert.</li> <li data-preserve-html="true"><i>Nur Quelle:</i> Ergibt nur Volltonfarbe aus der Quelleingabe.</li> </ul> |
+| <b>Abstandsmodus</b> *Integer* | Wählt die Methode aus, mit der der Abstand zum nächsten Rand in der extrahierten Maske berechnet wird:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Euklidisch:</i> Summe der quadratischen X/Y-Unterschiede.</li> <li data-preserve-html="true"><i>Manhattan:</i> Summe der X/Y-absolute Werte.</li> <li data-preserve-html="true"><i>Chebyshev:</i> Maximale Anzahl von absoluten Werten von X/Y-Unterschieden.</li> </ul>  <div><img alt="Beispiele für Abstandsmodi" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_copy_copy_row-yj03rtt-column-0i13nfd_image" src="distance.resources/distance-02.jpg" title="Beispiele für Abstandsmodi"/></div> |
 
 ## Eingangsanschlüsse
 
@@ -108,17 +108,17 @@ Weitere Informationen finden Sie in den folgenden [Beispielen](#examples).
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/distance-ex01.gif){width="250px"}
+![](distance.resources/distance-03.gif){width="250px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/distance-ex02.gif){width="250px"}
+![](distance.resources/distance-04.gif){width="250px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/distance-ex03.gif){width="250px"}
+![](distance.resources/distance-05.gif){width="250px"}
 
 </td>
 </tr>

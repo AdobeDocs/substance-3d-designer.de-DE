@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 3D Linear gradient
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 1%
+source-wordcount: '153'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3d-linear-gradient.png){width="128px"}
+![](3d-linear-gradient.resources/3d-linear-gradient-01.png){width="128px"}
 
-## 3D Linear gradient
-
-**In:** *Texturgeneratoren**/Muster*
-
-**Fortgeschrittene**
+<b>In:</b> Texturgeneratoren > Muster
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,20 +37,27 @@ Erstellt einen volumetrischen Farbverlauf basierend auf der Eingabe-Positions-Ma
 
 Siehe auch [3D-Volumenmaske](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/3d-volume-mask/3d-volume-mask.md) für einen ähnlichen Effekt.
 
-## Parameter
-
-* **Punktpositionsmodus**: *UV-Positionen, Weltraumpositionen* Wählen Sie aus, ob die Verlaufspunkte im UV-Raum (funktioniert am besten, wenn sie in der 2D-Ansicht eingestellt werden) oder in 3D-Koordinaten funktionieren, wenn Sie manuell eine exakte Position eingeben möchten.
-* **Punkt 1**:\
-  Startpunkt des Verlaufs. Kann 2D- oder 3D-Koordinaten basierend auf dem Positionsmodus sein.
-* **Punkt 2**:\
-  Endpunkt des Verlaufs. Kann 2D- oder 3D-Koordinaten basierend auf dem Positionsmodus sein.
-* **Kontrast**: *0.0 - 1.0*\
-  Passt den Kontrast des Ergebnisses an.
-
-## Beispielbilder
-
-![](../../../../../../assets/3d-gradient.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Punktpositionsmodus</b> <i>UV-Positionen, Welt-Raum-Positionen</i> | Wählen Sie aus, ob die Verlaufspunkte in &quot;UV-Raum&quot; (funktioniert am besten, wenn Sie sie in der 2D-Ansicht festlegen) oder in 3D-Koordinaten funktionieren, wenn Sie manuell eine exakte Position eingeben möchten. |
+| <b>Punkt 1</b> | Startpunkt des Verlaufs. Kann 2D- oder 3D-Koordinaten basierend auf dem Positionsmodus sein. |
+| <b>Punkt 2</b> | Endpunkt des Verlaufs. Kann 2D- oder 3D-Koordinaten basierend auf dem Positionsmodus sein. |
+| <b>Kontrast</b> <i>0.0 - 1.0</i> | Passt den Kontrast des Ergebnisses an. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-linear-gradient.resources/3d-linear-gradient-02.gif" />
+        </td>
+    </tr>
 </table>

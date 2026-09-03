@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Normale Transformation
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 1%
+source-wordcount: '101'
+ht-degree: 3%
 
 ---
 
@@ -22,32 +22,29 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-transform.png){width="128px"}
+![](normal-transform.resources/normal-transform-01.png){width="128px"}
 
-## Normale Transformation
-
-**In:** *Filters/Normal Map*
-
-**Einfach**
+<b>In:</b> Filters > Normalen-Map
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Ähnlich wie der atomare Knoten 2D transformieren ermöglicht dies die Transformation von Normalmaps, ohne den Tangent-Raum zu unterbrechen. Stattdessen wird er im laufenden Betrieb neu berechnet, was zu immer korrekten Normalmaps führt.
 
-## Parameter
-
-* **Matrix2x2**: *(Transformationsmatrix):*\
-  Drehen oder skalieren Sie die Eingabe.
-* **Offset**: *-0.5 - 0.5*\
-  Verschiebt oder verschiebt das Ergebnis. Wenn die Transformationssteuerung vorhanden ist, kann das Ergebnis durch direkte Interaktion mit der Arbeitsfläche geändert werden.
-* **Normales Format**: *DirectX, OpenGL*\
-  Zwischen verschiedenen Normalen-Map-Format wechseln (invertiert den grünen Kanal)
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Matrix2x2</b> <i>(Transformationsmatrix):</i> | Drehen oder skalieren Sie die Eingabe. |
+| <b>Offset</b> <i>-0.5 - 0.5</i> | Verschiebt oder verschiebt das Ergebnis. Wenn die Transformationssteuerung vorhanden ist, kann das Ergebnis durch direkte Interaktion mit der Arbeitsfläche geändert werden. |
+| <b>Normales Format</b> <i>DirectX, OpenGL</i> | Zwischen verschiedenen Normalen-Map-Format wechseln (invertiert den grünen Kanal) |

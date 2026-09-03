@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D-Ansicht
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '3514'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Weitere Informationen: [3D-Renderer](3d-renderers/3d-renderers.md)
 
 +++ Das Andock der 3D-Ansicht
 
-![3d-view.png](3d-view.resources/3d-view.png)
+![3d-view.png](3d-view.resources/3d-view-01.png)
 
 +++
 
@@ -38,7 +38,7 @@ Weitere Informationen: [3D-Renderer](3d-renderers/3d-renderers.md)
 
 Im folgenden Abschnitt wird erläutert, wie Sie allgemeine Aktionen kurz durchführen, zusammen mit einem animierten GIF, um den Prozess zu veranschaulichen.
 
-![Viewport-Navigation](../../assets/3d-navigate.gif "Viewport-Navigation")
+![Viewport-Navigation](3d-view.resources/3d-view-02.gif "Viewport-Navigation")
 
 ### Navigation
 
@@ -84,11 +84,11 @@ Sie können mit Gittern direkt im Viewport interagieren:
 
 <b>Drücken Sie die Esc-Taste, um die Auswahl aufzuheben.</b> Der Cursor muss sich nicht im Gitter befinden.
 
-![3D-Ansicht - Fokus und Auswahl aufheben](../../assets/sceneBrowser-focus.gif "3D-Ansicht - Fokus und Auswahl aufheben"){zoomable="yes"}
+![3D-Ansicht - Fokus und Auswahl aufheben](3d-view.resources/3d-view-03.gif "3D-Ansicht - Fokus und Auswahl aufheben"){zoomable="yes"}
 
 *Auswählen, Fokussieren, Auswahl aufheben*
 
-![3D-Ansicht - Kontextmenü](../../assets/sceneBrowser-contextualMenu.gif "3D-Ansicht - Kontextmenü"){zoomable="yes"}
+![3D-Ansicht - Kontextmenü](3d-view.resources/3d-view-04.gif "3D-Ansicht - Kontextmenü"){zoomable="yes"}
 
 *Auswählen, Kontextmenü*
 
@@ -114,13 +114,13 @@ Um Ihre eigene, benutzerdefinierte HDR-Lichtumgebung zu verwenden, importieren S
 
 Wechseln Sie zu <b>Licht > Eigenschaften bearbeiten</b>, um Punktlichter in Ihrer Szene umzuschalten.
 
-Punktlicht 1 kann durch Halten von LMB oder RMB und Ziehen im Darstellungsfenster im Beleuchtungsmodus um den Ursprung der Szene bewegt werden. <img src="../../assets/image2020-9-17-10-30-37.png" width="24" />
+Punktlicht 1 kann durch Halten von LMB oder RMB und Ziehen im Darstellungsfenster im Beleuchtungsmodus um den Ursprung der Szene bewegt werden. <img src="3d-view.resources/3d-view-05.png" width="24" />
 
-Im Kameramodus <img src="../../assets/image2020-9-17-10-31-32.png" width="24" />, Sie können auch vorübergehend in den Beleuchtungsmodus wechseln, indem Sie Strg+⇧ in Kombination mit den Maustasten gedrückt halten.
+Im Kameramodus <img src="3d-view.resources/3d-view-06.png" width="24" />, Sie können auch vorübergehend in den Beleuchtungsmodus wechseln, indem Sie Strg+⇧ in Kombination mit den Maustasten gedrückt halten.
 
 ## Daten in der 3D-Ansicht anzeigen
 
-![Anzeigen der Substance-Diagrammausgaben](../../assets/3d-material.gif "Anzeigen der Substance-Diagrammausgaben")
+![Anzeigen der Substance-Diagrammausgaben](3d-view.resources/3d-view-07.gif "Anzeigen der Substance-Diagrammausgaben")
 
 ### Substance-Graphen
 
@@ -130,9 +130,9 @@ Sie können alle Ausgaben eines Diagramms anzeigen, indem Sie auf *RMB* in einem
 
 Sie können auch die Ausgaben eines Diagramms anzeigen, ohne es öffnen zu müssen, indem Sie auf RMB in einer Diagrammressource im [Explorer](../the-explorer-window/the-explorer-window.md)-Dock klicken und die Option **Ausgaben in 3D-Ansicht anzeigen** im Kontextmenü auswählen.
 
-Alternativ zum Kontextmenü des Diagramms können Sie dasselbe Ergebnis erzielen, indem Sie das Diagramm aus dem [Explorer](../the-explorer-window/the-explorer-window.md)-Dock in die 3D-Ansicht ziehen.
+Alternativ zum Kontextmenü des Grafen können Sie dasselbe Ergebnis erzielen, indem Sie den Graf aus dem [Explorer](../the-explorer-window/the-explorer-window.md)-Dock in die 3D-Ansicht ziehen.
 
-Wenn *ein Diagramm* lädt, werden seine Ausgaben standardmäßig automatisch in der 3D-Ansicht angewendet. Sie können dieses Verhalten in den [Voreinstellungen](../../interface/preferences-window/preferences-window.md) deaktivieren. Gehen Sie zu **Bearbeiten > Voreinstellungen > Diagramm > Allgemein** und deaktivieren Sie die Option **Anzeigen von Ausgaben in 3D-Ansicht, wenn Sie ein Diagramm öffnen**.
+Wenn *einen Graf* lädt, werden seine Ausgaben standardmäßig automatisch in der 3D-Ansicht angewendet. Sie können dieses Verhalten in den [Voreinstellungen](../../interface/preferences-window/preferences-window.md) deaktivieren. Gehen Sie zu **Bearbeiten > Voreinstellungen > Graf > Allgemein** und deaktivieren Sie die Option **Ausgaben in 3D anzeigen, wenn Sie eine Option für Graf** öffnen.
 
 >[!NOTE]
 >
@@ -140,7 +140,7 @@ Wenn *ein Diagramm* lädt, werden seine Ausgaben standardmäßig automatisch in 
 > 
 > Wenn Sie benutzerdefinierte Gitter mit mehr als einem einzelnen Material verwenden, werden Sie aufgefordert, den Materialschlitz auszuwählen, dem das Material zugewiesen werden soll. Klicken Sie bei einer der oben genannten Methoden auf einen Steckplatz, um Ihre Auswahl zu bestätigen. Weitere Informationen zu Materialien und deren Zuordnung finden Sie im Abschnitt unten.
 
-![Anzeigen von Knoten- und Diagrammausgaben in 3D-Ansicht](../../assets/3d-channel.gif "Anzeigen von Knoten- und Diagrammausgaben in 3D-Ansicht")
+![Anzeigen von Knoten- und Diagrammausgaben in 3D-Ansicht](3d-view.resources/3d-view-08.gif "Anzeigen von Knoten- und Diagrammausgaben in 3D-Ansicht")
 
 ### Einzelne Knoten-/Diagrammausgabe
 
@@ -152,7 +152,7 @@ Sie können auch *RMB* verwenden, um einen beliebigen Knoten per Drag &amp; Drop
 
 Sie können jede einzelne Diagrammausgabe anzeigen, indem Sie die Diagrammressource im [Explorer](../the-explorer-window/the-explorer-window.md)-Dock erweitern und diese Ausgabe mit *LMB* in die 3D-Ansicht ziehen. Ihnen wird eine Liste mit verfügbaren Kanälen angezeigt, denen der Knoten zugewiesen werden kann. Klicken Sie zum Bestätigen auf eine beliebige Option.
 
-![Anzeigen von benutzerdefinierten 3D-Meshes](../../assets/3d-mesh.gif "Anzeigen von benutzerdefinierten 3D-Meshes")
+![Anzeigen von benutzerdefinierten 3D-Meshes](3d-view.resources/3d-view-09.gif "Anzeigen von benutzerdefinierten 3D-Meshes")
 
 ## (benutzerdefinierte) 3D-Szenen anzeigen
 
@@ -161,7 +161,7 @@ Wählen Sie eines der Standardgitter über das Dropdownmenü <b>Szene</b> in der
 
 Wechseln Sie für benutzerdefinierte 3D-Szenen zum Abschnitt [Arbeiten mit 3D-Szenen](../../working-with-3d-scenes/working-with-3d-scenes.md).
 
-![Materialeigenschaften ändern](../../assets/3d-materials.gif "Materialeigenschaften ändern")
+![Materialeigenschaften ändern](3d-view.resources/3d-view-10.gif "Materialeigenschaften ändern")
 
 ## Shader-Eigenschaften ändern
 
@@ -184,7 +184,7 @@ Mit den Aktionen &#39;Material zurücksetzen&#39; oder &#39;Auf Szenenzustand zu
 > * <b>Rasterizer/GPU-Pathtracer:</b> In den Renderereinstellungen (Renderer > Einstellungen bearbeiten) befindet sich und wirkt sich auf die *gesamte Szene aus*.
 > * <b>OpenGL:</b> befindet sich in den Materialeigenschaften und wirkt sich auf das Material aus.
 
-![Exportieren der Szene](../../assets/3d-view-export-scene.gif "Exportieren der Szene")
+![Exportieren der Szene](3d-view.resources/3d-view-11.gif "Exportieren der Szene")
 
 ## Szene exportieren
 
@@ -230,7 +230,7 @@ Die Menüleiste enthält 7 Menüs mit Optionen für die 3D-Ansicht. unten finden
 +++Szene
 Das Menü <b>Szene</b> behandelt die angezeigte Geometrie (3D-Ressource) und die Zustände der 3D-Ansicht. 3D-Ressourcen geben nur das Gitter frei, Szenenzustände sind Lichter, Kamera und zugehörige Einstellungen und können das Gitter auch daneben enthalten.
 
-![Gitter des Szenenmenüs](../../assets/3d-view-meshes.png "Gitter des Szenenmenüs")
+![Gitter des Szenenmenüs](3d-view.resources/3d-view-12.png "Gitter des Szenenmenüs")
 
 
 
@@ -309,16 +309,16 @@ Das Menü &quot;Materialien&quot; enthält eine Liste aller Materialien, die ein
 
 <b>Umbenennen:</b> Ändern Sie die Beschriftung für dieses Material.
 
-<b>Material zurücksetzen:</b> Setzt alle Shader-Parameter auf ihre Standardwerte zurück. Wenn Texturen mit einem der Sampler des Shaders verbunden sind, werden sie getrennt.
+<b>Material zurücksetzen:</b> Setzt alle Shader-Parameter auf ihre Standardwerte zurück. Wenn Texturen an einen der Sampler des Shader angeschlossen sind, werden sie getrennt.
 
-<b>Material auf Szenenstatus zurücksetzen: </b>*(Nur Rasterbildwiedergabe-/GPU-Pathtracer-Renderer)* Setzt alle Eigenschaften für [überschriebene Materialien](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) auf ihre Originalwerte aus der Szene zurück, einschließlich eventuell vorhandener Originaltexturen.
+<b>Material auf Szene zurücksetzen: </b>*(nur Rasterbildner/GPU-Pathtracer-Renderer)* Setzt alle Eigenschaften für [überschriebene Materialien](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) auf ihre Originalwerte aus der Szene zurück, einschließlich der Originalwerte (falls vorhanden) der Texturen.
 
-<b>Hinzufügen: </b>Fügt der Liste ein neues Material hinzu. Er ist standardmäßig nicht verwendet und kann [mit einem Szenenmaterial &#x200B;](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) mithilfe des [Szenenbrowsers &#x200B;](../../interface/3d-view/scene-browser/scene-browser.md) verbunden sein.
+<b>Hinzufügen: </b>Fügt der Liste ein neues Material hinzu. Er ist standardmäßig nicht verwendet und kann [&#x200B; mit einem Szene-Material &#x200B;](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) über den [Szene-Browser &#x200B;](../../interface/3d-view/scene-browser/scene-browser.md) verbunden sein.
 
 +++
 
 +++Lichter
-Das Menü <b>Licht</b> behandelt nur ältere Umgebungs- und Punktlichter. Diese Lichter sind nicht PBR-kompatibel und liefern nicht die gleichen hochwertigen Ergebnisse wie beim HDR-Rendering auf Bildbasis.
+Das Menü <b>Licht</b> behandelt nur ältere Umgebungs- und Punktlichter. Diese Lichter sind nicht PBR-konform und liefern nicht die gleichen qualitativ hochwertigen Ergebnisse wie HDR. bildbasiertes Rendering.
 
 <b>Bearbeiten:</b> Bearbeiten Sie einzelne Einstellungen für das Umgebungslicht und die beiden Punktlichter.
 
@@ -327,15 +327,15 @@ Das Menü <b>Licht</b> behandelt nur ältere Umgebungs- und Punktlichter. Diese 
 +++
 
 +++Kamera
-Mit dem Menü <b>Kamera</b> können Sie Kameraeinstellungen ändern, zu vordefinierten Winkeln wechseln und Kamerawinkel laden, die in einer benutzerdefinierten 3D-Gitterdatei gespeichert sind.
+Mit dem Menü <b>Kamera</b> können Sie die Einstellungen für die Kamera ändern, vordefinierte Winkel auswählen und die in einer benutzerdefinierten 3D-Mesh-Kamera gespeicherten Winkel laden.
 
-<b>Eigenschaften bearbeiten:</b> öffnet die Einstellungen der Standardkamera im Eigenschaftendock.
+<b>Eigenschaften bearbeiten:</b> öffnet die Standardeinstellungen der Kamera im Eigenschaftendock.
 
-<b>Fokus: </b>(F) Die Standardkamera wird auf das derzeit ausgewählte Gitter fokussiert. Sie rahmen das Gitter ein und richten den Kameraschwenk daran aus. Wenn keine aktive Auswahl vorhanden ist, wird der globale Begrenzungsrahmen der Szene verwendet.
+<b>Fokus: </b>(F) Legt den Fokus der standardmäßigen Kamera auf den aktuell ausgewählten Mesh. d. h., der Mesh wird Rahmen und die Kamera wird am Drehpunkt ausgerichtet. Wenn keine aktive Auswahl vorhanden ist, wird der globale Begrenzungsrahmen der Szene verwendet.
 
-<b>Szenenkameras:</b> Wenn die Szenen eine oder mehrere Kameras enthalten, werden sie hier aufgelistet und ihre Einstellungen werden als Vorgaben verwendet, die auf die Standardkamera der Szene angewendet werden.
+<b>Szene-Kameras:</b> Wenn die Szenen eine oder mehrere Kameras enthalten, werden diese hier aufgelistet und ihre Einstellungen werden als Vorgaben verwendet, die auf die Standardeinstellungen der Szene angewendet werden sollen.
 
-<b>Ansichten:</b> Vorkonfigurierter Ansichtspunkt für die Standardkamera. Diese beeinflussen nur die Transformation der Kamera (Position und Drehung).
+<b>Ansichtspunkte:</b> Vorkonfigurierter Ansichtspunkt für die standardmäßige Kamera. Diese wirken sich nur auf die Transformation der Kamera aus (Position und Drehung).
 
 * Standard: Ein Weitwinkelfoto von der linken Vorderseite der Objekte.
 
@@ -351,7 +351,7 @@ Mit dem Menü <b>Kamera</b> können Sie Kameraeinstellungen ändern, zu vordefin
 
 * Oben
 
-<b>Rendering speichern..:</b> (Alt+S) Speichert das aktuell gerenderte Bild auf der Festplatte mit der in den Renderereigenschaften angegebenen Auflösung oder mit den Eigenschaften der Standardkamera, wenn eine überschreibende Auflösung eingerichtet wurde.
+<b>Rendern speichern...:</b> (Alt+S) Speichert das aktuell gerenderte Image auf der Festplatte mit der in den Renderereigenschaften angegebenen Auflösung oder mit den Eigenschaften der Standardauflösung, wenn eine überschreibende Kamera eingerichtet wurde.
 
 <b>Rendern in Zwischenablage kopieren:</b> (Alt+C) Kopiert das aktuell gerenderte Bild in die Zwischenablage, um es in einen externen Bildeditor einzufügen.
 
@@ -425,7 +425,7 @@ Außerdem können Sie auf das Popup-Fenster &quot;[Versatz&quot; &quot;](displac
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-scene-browser.png" width="24" /> <b>Szenenbrowser</b>
+<img src="3d-view.resources/3d-view-13.png" width="24" /> <b>Szenenbrowser</b>
 
 Zeigt eine Hierarchie aller Elemente in einer 3D-Szene an.
 
@@ -434,7 +434,7 @@ Zeigt eine Hierarchie aller Elemente in einer 3D-Szene an.
 >Der Szenenbrowser und seine Features werden ausführlich in [der dedizierten Seite &#x200B;](../../interface/3d-view/scene-browser/scene-browser.md) behandelt.
 
 
-<img src="3d-view.resources/3d-view-scene-toolbar-select.png" width="24" /> <b>Auswählen</b>
+<img src="3d-view.resources/3d-view-14.png" width="24" /> <b>Auswählen</b>
 
 Aktiviert die direkte Auswahl von Gittern in der Szene.
 
@@ -448,7 +448,7 @@ Gitter können auch im Kamera- oder Lichtmodus ausgewählt werden, indem Sie <co
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-camera.png" width="22" /> <b>Kamera</b>
+<img src="3d-view.resources/3d-view-15.png" width="22" /> <b>Kamera</b>
 
 Ermöglicht die direkte Steuerung der Kamera in der Szene.
 
@@ -456,13 +456,13 @@ Ermöglicht die direkte Steuerung der Kamera in der Szene.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-environment.png" width="24" /> <b>Umgebung anzeigen</b>
+<img src="3d-view.resources/3d-view-16.png" width="24" /> <b>Umgebung anzeigen</b>
 
 Mit dieser Schaltfläche können Sie die Anzeige der Umgebung der Szene umschalten. Die gleiche Einstellung finden Sie im Eigenschaften-Dock, nachdem Sie in der Menüleiste der 3D-Ansicht zu <b>Umgebung > Bearbeiten</b> gewechselt sind.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-light.png" width="24" /> <b>Licht</b>
+<img src="3d-view.resources/3d-view-17.png" width="24" /> <b>Licht</b>
 
 Ermöglicht die direkte Steuerung des Punktlichts 1 in der Szene.
 
@@ -470,31 +470,31 @@ Ermöglicht die direkte Steuerung des Punktlichts 1 in der Szene.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-render-settings.png" width="24" /> <b>Rendereinstellungen</b>
+<img src="3d-view.resources/3d-view-18.png" width="24" /> <b>Rendereinstellungen</b>
 
 Zeigt die Einstellungen des aktuellen Renderers im Dock [Eigenschaften](../properties/properties.md) an.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-pathtracer.png" width="24" /> <b>Pathtracer aktivieren</b>
+<img src="3d-view.resources/3d-view-19.png" width="24" /> <b>Pathtracer aktivieren</b>
 
 Schaltet die Auswahl des [GPU-Pathtracer](3d-renderers/3d-renderers.md#gpu-pathtracer)-Renderers um.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-shadows.png" width="24" /> <b>Schatten aktivieren</b>
+<img src="3d-view.resources/3d-view-20.png" width="24" /> <b>Schatten aktivieren</b>
 
 Schaltet das Rendern von Echtzeitschatten im [Rasterizer](3d-renderers/3d-renderers.md#rasterizer)-Renderer um.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-ground-plane.png" width="24" /> <b>Grundebene aktivieren</b>
+<img src="3d-view.resources/3d-view-21.png" width="24" /> <b>Grundebene aktivieren</b>
 
 Schaltet das Rendern der Grundebene in den Renderern [Rasterizer](3d-renderers/3d-renderers.md#rasterizer) und [GPU-Pathtracer](3d-renderers/3d-renderers.md#gpu-pathtracer) um.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-displacement.png" width="24" /> <b>Versatz</b>
+<img src="3d-view.resources/3d-view-22.png" width="24" /> <b>Versatz</b>
 
 Zeigt das Popup-Fenster [Versatz](displacement/displacement.md) an.
 
@@ -504,19 +504,19 @@ Zeigt das Popup-Fenster [Versatz](displacement/displacement.md) an.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-grid.png" width="24" /> <b>Raster</b>
+<img src="3d-view.resources/3d-view-23.png" width="24" /> <b>Raster</b>
 
 Schaltet die Anzeige des Weltrasters um.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-stats.png" width="24" /> <b>Szenenstatistiken</b>
+<img src="3d-view.resources/3d-view-24.png" width="24" /> <b>Szenenstatistiken</b>
 
 Schaltet die Anzeige von Szenenstatistiken um, wie z. B. Polycount, Materialanzahl, statische Meshes-Anzahl, usw.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-pivot.png" width="24" /> <b>Achse</b>
+<img src="3d-view.resources/3d-view-25.png" width="24" /> <b>Achse</b>
 
 Schaltet die Anzeige der 3D-Achse im Viewport um.
 
@@ -526,25 +526,25 @@ Schaltet die Anzeige der 3D-Achse im Viewport um.
 
 <br>
 
-![](../../assets/3d-view-display-backface-culling.jpg) <b>Rückseitenkeulung</b>
+![](3d-view.resources/3d-view-26.jpg) <b>Rückseitenkeulung</b>
 
 Wenn Sie diese Option deaktivieren, wird eine Gitterfläche von *beiden Seiten* angezeigt. Die Option funktioniert in Kombination mit Drahtgitter.
 
 <br>
 
-![](../../assets/3d-view-display-bounding-box.jpg) <b>Begrenzungsrahmen</b>
+![](3d-view.resources/3d-view-27.jpg) <b>Begrenzungsrahmen</b>
 
 Schaltet die Anzeige des Begrenzungsrahmens des Gitters um.
 
 <br>
 
-![](../../assets/3d-view-display-vertex-tangent-space.jpg) <b>Tangentialraum Scheitelpunkt</b>
+![](3d-view.resources/3d-view-28.jpg) <b>Tangentialraum Scheitelpunkt</b>
 
 Zeigt die Tangenten-, binormalen und normalen Vektoren für alle Scheitelpunkte als farbige Gizmos an.
 
 <br>
 
-![](../../assets/3d-view-display-wireframe.jpg) <b>Drahtgitter</b>
+![](3d-view.resources/3d-view-29.jpg) <b>Drahtgitter</b>
 
 Schaltet die Anzeige des Gitters als Drahtgitter um.
 
@@ -561,20 +561,20 @@ Mit der Symbolleiste <b>Anzeigen</b>, die sich standardmäßig am *unteren* des 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0; vertical-align: top">
         <td style="border: 0">
-            <p>Sie können verschiedene <a href="../../glossary/glossary.md#aov">AOVs</a> mit der Schaltfläche <img src="./3d-view.resources/aov/aov-icon.png" alt="3D-Render-AOVs-Symbol" style="padding-left: 5px; padding-right: 5px" /> <b>3D-Rendering-AOVs</b> anzeigen.</p>
+            <p>Sie können verschiedene <a href="../../glossary/glossary.md#aov">AOVs</a> mit der Schaltfläche <img src="./3d-view.resources/aov/3d-view-30.png" alt="3D-Render-AOVs-Symbol" style="padding-left: 5px; padding-right: 5px" /> <b>3D-Rendering-AOVs</b> anzeigen.</p>
             <p>Mit AOVs können Sie Gitter- und Materialinformationen isoliert für fokussierte Arbeit und Debugging auswerten.</p>
             <p>Einige AOVs enthalten <i>HDR-Werte</i>, die im Viewport auf 1 (reinweiß) oder 0 (rein schwarz) festgeklemmt sind.<br>Um den gesamten Wertebereich zu überprüfen, können Sie ein 3D-Rendering des AOV in ein Bilddateiformat exportieren, das HDR-Werte unterstützt, z. B. <code>.exr</code>.<br>Verwenden Sie die Menüoption <code>Camera > Save render...</code>, um das aktuelle AOV zu exportieren.</p>
             <p><i>Hinweis:</i> AOVs sind nur verfügbar, wenn der Rasterbildmodus und der GPU-Pathtracer <a href="./3d-renderers/3d-renderers.md">3D-Renderer verwendet werden</a>.</p>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="3d-view.resources/aov/aov-composited.jpg" alt="3D-Rendering AOVs kombiniert" />
+            <img src="3d-view.resources/aov/3d-view-31.jpg" alt="3D-Rendering AOVs kombiniert" />
         </td>
     </tr>
 </table>
 
 ### Farbkanäle
 
-Sie können einen einzelnen Kanal des Bildes mithilfe der Schaltfläche ![](../../assets/2d-view-icon-channels.png) <b>Farbkanäle</b> anzeigen. Dadurch wird ein Kombinationsfeld geöffnet, in dem Sie auswählen können, welcher der Kanäle <b>Red</b>, <b>Green</b> und <b>Blue</b> angezeigt werden soll. Das normale Erscheinungsbild des Bildes mit allen Kanälen wird wiederhergestellt, indem die Option <b>RGB</b> ausgewählt wird.
+Sie können einen einzelnen Kanal des Bildes mithilfe der Schaltfläche ![](3d-view.resources/3d-view-32.png) <b>Farbkanäle</b> anzeigen. Dadurch wird ein Kombinationsfeld geöffnet, in dem Sie auswählen können, welcher der Kanäle <b>Red</b>, <b>Green</b> und <b>Blue</b> angezeigt werden soll. Das normale Erscheinungsbild des Bildes mit allen Kanälen wird wiederhergestellt, indem die Option <b>RGB</b> ausgewählt wird.
 
 Das *Symbol* der <b>Farbkanäle</b>-Schaltfläche *ändert sich* in Abhängigkeit von den derzeit angezeigten Kanälen.
 

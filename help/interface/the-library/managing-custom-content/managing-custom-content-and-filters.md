@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Verwalten benutzerdefinierter Inhalte und Filter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Benutzerdefinierte Kategorien und Filter können *projektspezifisch* sein und in
 
 Das bedeutet, dass Sie mit einer oder mehreren Projektdateien die Ordner festlegen können, welche Inhalte der <b>Bibliothek</b> hinzugefügt werden sollen, sowie die Kategorien und Filter, die diese Inhalte sortieren und organisieren.
 
-![Benutzerdefinierter Inhalt in Bibliothek](../../../assets/library-filters.png "Benutzerdefinierter Inhalt in Bibliothek")
+![Benutzerdefinierter Inhalt in Bibliothek](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-01.png "Benutzerdefinierter Inhalt in Bibliothek")
 
 ## Diagrammattribute
 
@@ -57,11 +57,11 @@ Filter sind einfache boolesche (True/False) Suchparameter, die dazu führen, das
 
 Kategorien (d. h. Ordner) und Filter werden mithilfe der folgenden Schaltflächen erstellt und bearbeitet:
 
-<b>![](../../../assets/library-icon-new-folder.png) Ordner hinzufügen: </b> Erstellt einen erweiterbaren Ordner in der Bibliotheksansicht. *kann keine Unterordner erstellen*.
+<b>![](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-02.png) Ordner hinzufügen: </b> Erstellt einen erweiterbaren Ordner in der Bibliotheksansicht. *kann keine Unterordner erstellen*.
 
-<b>![](../../../assets/library-icon-new-filter.png) Filter hinzufügen: </b> Fügt einen neuen Filter im ausgewählten Ordner hinzu. *kann* den vorhandenen Standardordnern keine Filter hinzufügen.
+<b>![](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-03.png) Filter hinzufügen: </b> Fügt einen neuen Filter im ausgewählten Ordner hinzu. *kann* den vorhandenen Standardordnern keine Filter hinzufügen.
 
-<b>![](../../../assets/library-icon-edit.png) Element bearbeiten: </b> Bearbeitet den aktuell ausgewählten Ordner oder Filter. *kann keine der Eigenschaften der Standardordner und -filter* bearbeiten.
+<b>![](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-04.png) Element bearbeiten: </b> Bearbeitet den aktuell ausgewählten Ordner oder Filter. *kann keine der Eigenschaften der Standardordner und -filter* bearbeiten.
 
 Um *einen Ordner oder Filter zu entfernen*, *klicken Sie mit der rechten Maustaste* darauf und wählen Sie im Kontextmenü die Option <b>Entfernen</b>.
 
@@ -76,7 +76,7 @@ Um *einen Ordner oder Filter zu entfernen*, *klicken Sie mit der rechten Maustas
 >
 > Es ist *sehr* wichtig, diese korrekt einzurichten, um sicherzustellen, dass Sie das *richtige Projekt bearbeiten*!
 
-![Edition für benutzerdefinierte Filter](../../../assets/library-filters-edit.png "Edition für benutzerdefinierte Filter")
+![Edition für benutzerdefinierte Filter](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-05.png "Edition für benutzerdefinierte Filter")
 
 Für **Filter** müssen in der Regel *Bedingungen* eingerichtet sein, um ihren Filterzweck zu erreichen. Diese Bedingungen werden anhand der folgenden Kriterien konfiguriert:
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Kurve
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Kurve](../../../../assets/comp_curve_1.png "Atomknoten: Kurve"){width="200px"}
+![Atomknoten: Kurve](curve.resources/curve-01.png "Atomknoten: Kurve"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -90,8 +90,8 @@ Im Gegensatz zu den meisten anderen Knoten verfügt der Knoten Kurve nicht über
 |  |  |
 | --- | --- |
 | <b>Kurve anwenden/freilegen</b> *Boolescher Wert* | Ermöglicht das Kopieren der Benutzerkurve in die Ausgabe, anstatt sie auf das Eingabebild anzuwenden. |
-| <b>Kurvenadressierung</b> *Boolescher Wert* | Dieser Parameter bestimmt, wie HDR-Pixel aus dem Bereich [0, 1] in der Eingabe behandelt werden: eingeklemmt oder gefaltet bis [0, 1]. |
-| <b>Kurve</b> *Array von Kurvenschlüsseln* | Die benutzerdefinierte Kurve, die zum Zuordnen der eingegebenen Graustufenwerte verwendet wird.   Kann mit dem [Kurveneditor](#curve-editor) bearbeitet werden. |
+| <b>Kurvenadressierung</b> *Boolescher Wert* | Dieser Parameter bestimmt, wie HDR. Pixel außerhalb des Bereichs [0, 1] in der Eingabe behandelt werden: eingeklemmt oder gefaltet bis [0, 1]. |
+| <b>Kurve</b> *Array von Kurvenschlüsseln* | Die benutzerdefinierte Kurve, die zum Zuordnen der eingegebenen Graustufenwerte verwendet wird.   Kann mit dem [Kurveneditor](#curve-editor) bearbeitet werden. |
 
 ## Kurveneditor
 
@@ -99,7 +99,7 @@ Im Gegensatz zu den meisten anderen Knoten verfügt der Knoten Kurve nicht über
 
 Um einen Punkt zu erstellen, doppelklicken Sie einfach auf eine beliebige Stelle in der Kurvenansicht:
 
-![](../../../../assets/createmovepoint.gif)
+![](curve.resources/curve-02.gif)
 
 ### Steuern des Punkteinflusses
 
@@ -112,31 +112,31 @@ Um präzise Ergebnisse zu erzielen, bieten die Kurvenknoten für jeden Punkt unt
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../assets/image2017-2-17-14-5-36.png)
+![](curve.resources/curve-03.png)
 
 </td>
 </tr>
 </table>
 
-![](../../../../assets/image2017-2-17-14-13-27.png) Setzen Sie den Punktmodus auf den Standardwert zurück.
+![](curve.resources/curve-04.png) Setzen Sie den Punktmodus auf den Standardwert zurück.
 
-![](../../../../assets/image2017-2-17-14-12-6.png) Sperren/Entsperren der 2 Bézier-Handler, damit der Benutzer sie gemeinsam oder unabhängig verschieben kann.
+![](curve.resources/curve-05.png) Sperren/Entsperren der 2 Bézier-Handler, damit der Benutzer sie gemeinsam oder unabhängig verschieben kann.
 
-![](../../../../assets/image2017-2-17-14-14-0.png) Beide Seiten des Punkts werden von einem Bézier-Handler gesteuert.
+![](curve.resources/curve-06.png) Beide Seiten des Punkts werden von einem Bézier-Handler gesteuert.
 
-![](../../../../assets/image2017-2-17-14-16-22.png) Die rechte Seite des Punkts wird von einem Bézier-Handler gesteuert, während die linke Seite flach bleibt.
+![](curve.resources/curve-07.png) Die rechte Seite des Punkts wird von einem Bézier-Handler gesteuert, während die linke Seite flach bleibt.
 
-![](../../../../assets/image2017-2-17-14-18-25.png) Die linke Seite des Punkts wird von einem Bézier-Handler gesteuert, während die rechte Seite flach bleibt.
+![](curve.resources/curve-08.png) Die linke Seite des Punkts wird von einem Bézier-Handler gesteuert, während die rechte Seite flach bleibt.
 
-![](../../../../assets/image2017-2-17-14-19-32.png) Die Punktseiten bleiben flach
+![](curve.resources/curve-09.png) Die Punktseiten bleiben flach
 
-![](../../../../assets/curvepointsmodes.gif)
+![](curve.resources/curve-10.gif)
 
 ### Eingabehistogramm anzeigen
 
-Sie können das Histogramm Ihrer Eingabe ein- oder ausblenden, indem Sie einfach auf ![](../../../../assets/image2017-2-17-14-50-13.png) klicken.
+Sie können das Histogramm Ihrer Eingabe ein- oder ausblenden, indem Sie einfach auf ![](curve.resources/curve-11.png) klicken.
 
-![](../../../../assets/image2017-2-17-14-48-35.png)
+![](curve.resources/curve-12.png)
 
 ### Jeden Kanal einzeln steuern (Farbeingabe)
 
@@ -151,15 +151,15 @@ Wählen Sie einfach in der Dropdown-Liste oben rechts die Kurve aus, die Sie anp
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../assets/image2017-2-17-14-52-43.png)
+![](curve.resources/curve-13.png)
 
 </td>
 </tr>
 </table>
 
-Im RGB-Kurvenmodus können Sie die einzelnen Kanalkurven durch Drücken/Deaktivieren von ![](../../../../assets/image2017-2-17-14-55-0.png) ein- bzw. ausblenden:
+Im RGB-Kurvenmodus können Sie die einzelnen Kanalkurven durch Drücken/Deaktivieren von ![](curve.resources/curve-14.png) ein- bzw. ausblenden:
 
-![](../../../../assets/image2017-2-17-14-55-38.png)
+![](curve.resources/curve-15.png)
 
 ### Ausrichten, Spiegeln und Spiegeln
 
@@ -178,7 +178,7 @@ Wenn Sie mit der rechten Maustaste auf die Kurvenansicht klicken, werden einige 
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![](../../../../assets/image2017-6-27-16-11-9.png)
+![](curve.resources/curve-16.png)
 
 </td>
 </tr>
@@ -186,9 +186,9 @@ Wenn Sie mit der rechten Maustaste auf die Kurvenansicht klicken, werden einige 
 
 <b>Horizontal/vertikal verteilen:</b> Verteilen der Punkte auf der ausgewählten Achse
 
-<b>Horizontal/vertikal spiegeln:</b> Spiegeln Sie die ausgewählten Punkte entsprechend der ausgewählten Achse.
+<b>Horizontal/vertikal spiegeln:</b> Spiegeln Sie die markierten Punkte entsprechend der markierten Achse.
 
-<b>Horizontal/vertikal spiegeln:</b> Spiegeln Sie die gesamte Kurve gemäß der ausgewählten Achse.
+<b>Horizontal/vertikal spiegeln:</b> Spiegeln Sie die gesamte Kurve gemäß der ausgewählten Achse
 
 ### Tastenkombinationen
 
@@ -203,7 +203,7 @@ Zeichnen Sie ein Auswahlfeld.
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/ctrl.gif)
+![](curve.resources/curve-17.gif)
 
 </td>
 </tr>
@@ -215,12 +215,12 @@ Zeichnen Sie ein Auswahlfeld.
 
 <b>Umschalt + Ziehen</b>
 
-Beschränken Sie die Bewegung auf die X- oder Y-Achse.
+Beschränken Sie die Verschiebung auf der X- oder Y-Achse.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/shift.gif)
+![](curve.resources/curve-18.gif)
 
 </td>
 </tr>
@@ -237,7 +237,7 @@ Unterbrechen Sie vorübergehend die Griffe, um sie unabhängig voneinander zu ve
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/altclick.gif)
+![](curve.resources/curve-19.gif)
 
 </td>
 </tr>
@@ -247,11 +247,11 @@ Unterbrechen Sie vorübergehend die Griffe, um sie unabhängig voneinander zu ve
 
 Beim Anpassen der Handler kann es vorkommen, dass ein Handler die Kurvenansicht durchläuft.
 
-In diesem Fall können Sie die Größe mithilfe der Schaltfläche &quot;![](../../../../assets/image2017-2-20-19-11-53.png)&quot; an den Inhalt anpassen.
+In diesem Fall können Sie die Größe mithilfe der Schaltfläche &quot;![](curve.resources/curve-20.png)&quot; an den Inhalt anpassen.
 
-Die Schaltfläche &quot;![](../../../../assets/image2017-2-20-19-12-45.png)&quot; setzt den Zoomfaktor auf 1 zurück
+Die Schaltfläche &quot;![](curve.resources/curve-21.png)&quot; setzt den Zoomfaktor auf 1 zurück
 
-![](../../../../assets/viewzoom.gif)
+![](curve.resources/curve-22.gif)
 
 ## Eingangsanschlüsse
 
@@ -259,7 +259,7 @@ Die Schaltfläche &quot;![](../../../../assets/image2017-2-20-19-12-45.png)&quot
 | --- | --- |
 | <b>Eingabe</b> *Graustufen/Farbe* PRIMÄR | Das zu verarbeitende Bild. |
 
-## Ausgangsanschlüsse
+## Ausgabe-Verbindungen
 
 |  |  |
 | --- | --- |

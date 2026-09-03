@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-library.html"
 breadcrumb-title: ''
-description: Über die Substance 3D Designer-Bibliothek können Sie auf Knotenvorgaben, Materialien und benutzerdefinierte Inhalte zugreifen und diese verwalten.
+description: Über die Substance 3D Designer-Bibliothek können Sie auf Knotenvorgaben, Material und benutzerdefinierte Inhalte zugreifen und diese verwalten.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Library
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bibliothek
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 # Die Bibliothek
 
-Auf dieser Seite werden das Bedienfeld &quot;**Library**&quot; von Substance 3D Designer, sein Layout sowie die Tools zum Suchen und Filtern von Inhalten angezeigt.
+Auf dieser Seite werden das Bedienfeld &quot;**Library**&quot; von Substance 3D Designer, sein Layout sowie die Tools, die es für die Suche und Filterung von Inhalten bietet, angezeigt.
 
-![Bibliothek](../../assets/library-main.png "Bibliothek")
+![Bibliothek](the-library.resources/the-library-01.png "Bibliothek")
 
 ## Überblick
 
-Das Bedienfeld <b>Bibliothek</b> ist ein *Ressourcenmanager* mit geteilter Ansicht, in dem Sie alle *Elemente*, mit denen Sie in Ihrem Diagramm arbeiten müssen, suchen und zusammenstellen können.
+Das Bedienfeld &quot;<b>Library</b>&quot; ist ein *Ressourcenmanager* mit geteilter Ansicht, in dem Sie alle Ihre *Elemente*, mit denen Sie in Ihrem Graf arbeiten müssen, suchen und zusammenstellen können.
 
 Es überwacht *Ordner* auf Ihrer Festplatte oder über ein Netzwerk, die der Liste der [von der Bibliothek überwachten Pfade](https://docs.substance3d.com/display/SDDOC/Project+Settings#ProjectSettings-proj-libraryLibrary) in den [Projekteinstellungen](../../interface/preferences-window/project-settings/project-settings.md) hinzugefügt wurden. Alle Änderungen in diesen Ordnern - Hinzufügen, Entfernen und Aktualisieren von Inhalten - werden *auf* in die <b>Bibliothek</b> übertragen.
 
@@ -34,12 +34,12 @@ Es überwacht *Ordner* auf Ihrer Festplatte oder über ein Netzwerk, die der Lis
 >
 > **Über benutzerdefinierte Inhalte**
 > 
-> Ihre benutzerdefinierten Ressourcen werden zwar der **Bibliothek** hinzugefügt, sind jedoch aufgrund der für die vorhandenen Kategorien festgelegten Filterregeln möglicherweise nicht sichtbar. Wir empfehlen, eigene Filter in Ordnern zu erstellen, um sicherzustellen, dass Ihre Inhalte während der Arbeit an Ihren Projekten zuverlässig gefunden werden können.\
+> Die benutzerdefinierten Ressourcen werden zwar der **Bibliothek** hinzugefügt, sind jedoch aufgrund der für die bestehenden Filterungen festgelegten Kategorienregeln möglicherweise nicht sichtbar. Wir empfehlen, eigene Filter in Ordnern zu erstellen, um sicherzustellen, dass Ihre Inhalte während der Arbeit an Ihren Projekten zuverlässig gefunden werden können.\
 > Weitere Informationen finden Sie im Abschnitt [Verwalten von benutzerdefiniertem Inhalt und Filtern](./managing-custom-content/managing-custom-content-and-filters.md) der Dokumentation.
 
 Die **Bibliothek** kann alle Elemente überwachen, die [Ressourcen](../../resources/resources.md) unterstützen:
 
-* Diagramme aus [Substance Packages](../../getting-started/overview/overview.md) (SBS) und [Substance Archives](../../getting-started/overview/overview.md) (SBSAR)
+* Graf von [Substance-Paketen](../../getting-started/overview/overview.md) (SBS) und [Substance-Archiven](../../getting-started/overview/overview.md) (SBSAR)
 * [Bitmapbilder](../../resources/bitmap-resource/bitmap-resource.md)
 * [Vektorgrafiken](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
 * [Funktionsdiagramme](../../function-graphs/function-graphs.md)
@@ -103,7 +103,7 @@ Sie können *mehrere* Elemente im Abschnitt <b>Inhalt</b> auswählen, indem Sie 
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![Knoten aus der Bibliothek löschen](../../assets/library-create-node.gif "Knoten aus der Bibliothek löschen")
+![Knoten aus der Bibliothek löschen](the-library.resources/the-library-02.gif "Knoten aus der Bibliothek löschen")
 
 </td>
 </tr>
@@ -112,14 +112,14 @@ Sie können *mehrere* Elemente im Abschnitt <b>Inhalt</b> auswählen, indem Sie 
 ### Element anhand des Namens suchen
 
 Mit der Leiste <b>Suche</b>, die sich oben links im Abschnitt <b>Inhalt</b> befindet, können Sie *beliebige Elemente nach Namen* durchsuchen. Wenn Sie auf diese Weise nach Inhalten suchen, wird die aktuelle Auswahl im Abschnitt <b>Kategorien</b> ignoriert, und der *gesamte Inhalt* in der <b>Bibliothek</b> wird durchsucht.\
-Sie können die Suchergebnisse nach *Diagrammtyp* filtern, indem Sie ![](../../assets/library-icon-search-filter.png) <b>Filtern nach...Symbol </b> neben der Leiste <b>Suche</b>.
+Sie können die Suchergebnisse nach *Diagrammtyp* filtern, indem Sie ![](the-library.resources/the-library-03.png) <b>Filtern nach...Symbol </b> neben der Leiste <b>Suche</b>.
 
 >[!NOTE]
 >
 > Die Suchleiste berücksichtigt den Namen des gesuchten Assets, aber auch *Tags*, die das Asset enthalten kann, oder die *Kategorie*, zu der es gehört.\
 > Wenn Sie beispielsweise &quot;*Normal*&quot; eingeben, werden alle Assets aufgelistet, die zum Generieren oder Ändern einer normalen Map verwendet werden können. Dies ist ein guter Weg, um neue Knoten zu entdecken, und damit neue Möglichkeiten!
 
-![Asset-Suche in Bibliothek](../../assets/library-search-2.png "Asset-Suche in Bibliothek")
+![Asset-Suche in Bibliothek](the-library.resources/the-library-04.png "Asset-Suche in Bibliothek")
 
 <table>
 <tr style="border: 0;">
@@ -127,12 +127,12 @@ Sie können die Suchergebnisse nach *Diagrammtyp* filtern, indem Sie ![](../../a
 
 ### Visualisieren von Bibliothekselementen
 
-Mithilfe der Dropdown-Schaltfläche ![](../../assets/library-icon-view-mode.png) <b>Anzeigemodus</b> können Sie die Anzeigegröße für Inhaltselemente auswählen.
+Mithilfe der Dropdown-Schaltfläche ![](the-library.resources/the-library-05.png) <b>Anzeigemodus</b> können Sie die Anzeigegröße für Inhaltselemente auswählen.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Bibliothekselementansichtsmodus](../../assets/library-display-modes.png "Bibliothekselementansichtsmodus")
+![Bibliothekselementansichtsmodus](the-library.resources/the-library-06.png "Bibliothekselementansichtsmodus")
 
 </td>
 </tr>
@@ -142,12 +142,12 @@ Mithilfe der Dropdown-Schaltfläche ![](../../assets/library-icon-view-mode.png)
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Mit der Schaltfläche ![](../../assets/library-icon-toggle-label.png) **Beschriftungen umschalten** können Sie die Beschriftungen der Knoten ein- oder ausblenden.
+Mit der Schaltfläche ![](the-library.resources/the-library-07.png) **Beschriftungen umschalten** können Sie die Beschriftungen der Knoten ein- oder ausblenden.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Label toggle](../../assets/library-toggle-label.png "Label toggle")
+![Label toggle](the-library.resources/the-library-08.png "Label toggle")
 
 </td>
 </tr>
@@ -163,7 +163,7 @@ Wenn Sie den Cursor auf einem Inhaltselement platzieren, wird nach kurzer Zeit e
 </td>
 <td style="border: 0;" valign="top">
 
-![QuickInfo für Asset-Informationen](../../assets/library-item-tooltip.png "QuickInfo für Asset-Informationen")
+![QuickInfo für Asset-Informationen](the-library.resources/the-library-09.png "QuickInfo für Asset-Informationen")
 
 </td>
 </tr>
@@ -180,13 +180,13 @@ Wenn Sie den Cursor auf einem Inhaltselement platzieren, wird nach kurzer Zeit e
 
 ### Favoriten
 
-Mit der Schaltfläche ![](../../assets/library-icon-favoritepng.png) <b>Zu Favoriten hinzufügen</b> können Sie ein beliebiges Element im Abschnitt <b>Inhalt</b> zu Ihrer Liste <b>Favoriten</b> hinzufügen. Mit der Schaltfläche können Sie außerdem *Inhalte* aus dieser Liste entfernen, wenn sie bereits hinzugefügt wurden.\
+Mit der Schaltfläche ![](the-library.resources/the-library-10.png) <b>Zu Favoriten hinzufügen</b> können Sie ein beliebiges Element im Abschnitt <b>Inhalt</b> zu Ihrer Liste <b>Favoriten</b> hinzufügen. Mit der Schaltfläche können Sie außerdem *Inhalte* aus dieser Liste entfernen, wenn sie bereits hinzugefügt wurden.\
 Wenn Inhalt zu dieser Liste hinzugefügt wird, ist er in der Kategorie <b>Favoriten</b> der <b>Bibliothek</b> verfügbar und wird bei der Suche nach einem Knoten im Diagramm an der *Spitze* der <b>Knoten</b>-Menüliste angezeigt, sofern die Suchbegriffe mit diesem Knoten übereinstimmen.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Favoriten in Bibliothek](../../assets/library-favourites.png "Favoriten in Bibliothek")
+![Favoriten in Bibliothek](the-library.resources/the-library-11.png "Favoriten in Bibliothek")
 
 </td>
 </tr>

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/safe-transform.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Sicheres Transformieren", um Transformationen anzuwenden, während Texturgrenzen beibehalten und Artefakte vermieden werden.
+description: Verwenden Sie den Knoten "Sicherer Transformieren", um Transformationen anzuwenden und dabei die Grenzen der Textur beizubehalten und Artefakte zu vermeiden.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Safe Transform
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Sicheres Transformieren
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 1%
+source-wordcount: '185'
+ht-degree: 5%
 
 ---
 
@@ -22,46 +22,39 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/safe-transform.png)
+![](safe-transform.resources/safe-transform-01.png)
 
-![](../../../../../../assets/safe-transform-grayscale.png)
+![](safe-transform.resources/safe-transform-02.png)
 
-## Sicheres Transformieren (Graustufen)
-
-**In:** *Filter/Transformationen*
-
-**Fortgeschrittene**
+<b>In:</b> Filter > Transformieren
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Kachelsichere Version von [2D](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) transformieren. Ermöglicht Ihnen Skalierung, Drehung und Versatz, ohne dass die Kachelung unterbrochen wird und ohne dass Pixeldetails (Verlust von Knittergenauigkeit/Schärfe) aufgrund kleiner Versätze und Drehungen verloren gehen.
+Für die Kachelung sichere Version von [2D](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) Transformieren. Ermöglicht Skalierung, Drehung und Versatz ohne Unterbrechung der Kachelung und ohne Verlust von Pixeldetails (Verlust von Genauigkeit/Schärfe) aufgrund kleiner Versätze und Drehungen.
 
-Nützlich für die Umwandlung von Rauschen, wenn maximale Kontrolle oder perfekte Schärfe erforderlich ist.
-
-## Parameter
-
-* **Kachel**: *1 - 16* Skaliert die Eingabe durch Kacheln nach unten.
-* **Offset-Modus**: *Manuell, Zufällig* Wechselt zu einem zufälligen Offset anstelle eines manuell definierten Offsets.
-* **Offset**: *0.0 - 1.0*\
-  Verschiebt oder verschiebt das Ergebnis. Vergewissert sich, dass die Pixel ausgerichtet und nicht interpoliert sind.
-* **Drehung**: *0.0 - 1.0* Dreht die Eingabe um einen Winkel.
-* **Sichere Drehung der Kachel**: *Falsch/Wahr* Bestimmt das Verhalten der Drehung, ob sie an sicheren Werten ausgerichtet werden soll, bei denen keine Pixel verwischt werden.
-* **Symmetrie**: *keine, X, Y, X+Y*
-* **Hintergrundfarbe**: *(Farbwert) (Nur Farbversion)*
-* **MIPMAP-Modus**: *Automatisch, Manuell* Bestimmt den Mipmapping-Modus. Die Einstellung auf Manuell führt zu schärferen Ergebnissen.
-* **Mipmap-Stufe**: *0 - 10* Wenn der Mipmap-Modus auf &quot;Manuell&quot; eingestellt ist, können Sie eine andere Mipmap auswählen.
-
-## Beispielbilder
-
-|  |
-| --- |
-| Es sind keine Bilder an diese Seite angehängt. |
+Diese Option ist nützlich, um Rauschen transformieren, wenn maximale Kontrolle oder perfekte Schärfe erforderlich ist.
 
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Kachel</b> <i>1 - 16</i> | Verkleinert die Eingabe um die Kachelung. |
+| <b>Offset-Modus</b> <i>Manuell, Zufällig</i> | Wechselt zu einem zufälligen Versatz anstelle eines manuell definierten. |
+| <b>Offset</b> <i>0.0 - 1.0</i> | Verschiebt oder verschiebt das Ergebnis. Stellt sicher, dass die Pixel einrasten und nicht interpoliert sind. |
+| <b>Drehung</b> <i>0.0 - 1.0</i> | Dreht die Eingabe um einen Winkel. |
+| <b>Sichere Drehung in Kacheln</b> <i>False/True</i> | Legt das Drehverhalten fest. Es gibt an, ob Werte einrasten werden sollen, bei denen keine Pixelfehler verschwinden. |
+| <b>Symmetrie</b> <i>keine, X, Y, X+Y</i> |  |
+| <b>Hintergrundfarbe</b> <i>(Farbwert) (Nur Farbversion)</i> |  |
+| <b>Mipmap-Modus</b> <i>Automatisch, Manuell</i> | Bestimmt den Mipmapping-Modus. Die Einstellung auf Manuell führt zu schärferen Ergebnissen. |
+| <b>Mipmap-Stufe</b> <i>0 - 10</i> | Wenn der Mipmap-Modus auf &quot;Manuell&quot; eingestellt ist, können Sie ein anderes Mipmap auswählen. |

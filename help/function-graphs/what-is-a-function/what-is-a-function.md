@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 'Was ist eine Funktion? '
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 Mit Funktionen in Substance 3D Designer können Sie Ergebnisse mit der Logik generieren, die Sie sonst in einer Programmiersprache finden würden.
 
-Aber anstatt Codezeilen zu verwenden, verwenden Funktionen in Designer denselben knotenartigen Ansatz. Auf den ersten Blick sieht ein Funktionsdiagramm einem normalen Diagramm sehr ähnlich.
+Aber anstatt Codezeilen zu verwenden, verwenden Funktionen in Designer denselben knotenartigen Ansatz. Auf den ersten Blick sieht ein Graf wie ein normaler Graf aus.
 
-![](../../assets/image2015-12-17-18-19-37.png)
+![](what-is-a-function.resources/what-is-a-function-01.png)
 
 Funktionen können in zwei Hauptfällen auftreten:
 
@@ -35,16 +35,16 @@ Funktionen können in zwei Hauptfällen auftreten:
 
 In Substance 3D Designer kann jeder Parameter über eine Funktion gesteuert werden.
 
-![](../../assets/image2015-12-17-21-3-46.png)
+![](what-is-a-function.resources/what-is-a-function-02.png)
 
-Daher können Sie sich Regeln und Abhängigkeiten zwischen Teilen Ihres Diagramms vorstellen, um einzigartige Ergebnisse zu erzielen.
+Daher können Sie sich Regeln und Abhängigkeiten zwischen Teilen Ihres Grafen vorstellen, um einzigartige Ergebnisse zu erzielen.
 
 So können Sie beispielsweise festlegen, dass die Deckkraft eines Überblendungsknotens die Hälfte der Intensität eines Verkrümmungsknotens beträgt:
 
-![](../../assets/warpblend.gif)
+![](what-is-a-function.resources/what-is-a-function-03.gif)
 
 Tatsächlich haben Sie möglicherweise bereits Funktionen erstellt, ohne sich dessen bewusst zu sein:
 
-Wenn Sie einen Parameter verfügbar gemacht haben, haben Sie automatisch eine Funktion und eine Variable erstellt: Die Funktion enthält einen get float -Knoten, der den Wert der neu erstellten Variablen abfängt:
+Wenn Sie einen Parameter gelegt haben, haben Sie automatisch eine Funktion und eine Variable erstellt: Die Funktion enthält einen get float -Knoten, der den Wert der neu erstellten Variablen abfängt:
 
-![](../../assets/expose.gif)
+![](what-is-a-function.resources/what-is-a-function-04.gif)

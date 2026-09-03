@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Von unten nach oben
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c002fea6f396f09ccb3218bd290db812d8367dc4
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 1%
+source-wordcount: '199'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/bottom-to-top.png){width="128px"}
+![](bottom-to-top.resources/bottom-to-top-01.png){width="128px"}
 
-## Von unten nach oben
-
-**In:** *Mesh-basierte Generatoren/Masken-Generatoren*
-
-**Einfach**
+<b>In:</b> Mesh-basierte Generatoren > Maskengenerator
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,29 +37,36 @@ Generiert eine Schwarzweißmaske auf der Grundlage von durch Baking erzeugte Map
 
 Dadurch wird ein weißer bis schwarzer Übergang vom unteren zum oberen Rand eines Modells erzeugt. Das ist nützlich, um geometriebasierte Abweichungen und Auswahlen vorzunehmen.
 
-## Parameter
-
-### Eingaben
-
-* **Position**: *Farbeingabe*\
-  Backed-Positions-Map. Erforderlich!
-* **Raueit:** *Graustufeneingabe*\
-  Dies hat nichts mit der PBR-Raueit zu tun, sondern ist eine (optionale) Variationskarte, um die Überblendung aufzubrechen. Wird nur angezeigt, wenn &quot;Raueit&quot; höher als 0 eingestellt ist.
-* **Maske (optional)**: *Graustufen-Eingabe*\
-  Maskenschlitz zum Maskieren der Knoteneffekte.
-
-### Parameter
-
-* **Ebene**: *0.0 - 1.0*\
-  Verschiebt die durchschnittliche Stufe des Ergebnisses zwischen Schwarz und Weiß, wie bei einer Helligkeitsanpassung.
-* **Kontrast**: *0.0 - 1.0*\
-  Passt den Kontrast der Überblendung an.
-* **Raueit\_Variation**: *0.0 - 1.0* Bestimmt den Umfang der Rauigkeitsabbildung, die zur Variation eingeblendet werden soll. Wenn Sie diesen Wert auf über 0 erhöhen, wird der Kartenschlitz angezeigt.
-
-## Beispielbilder
-
-![](../../../../../../assets/bottom-to-top-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Position</b> <i>Farbeingabe</i> | Backed-Positions-Map. Erforderlich! |
+| <b>Raueit</b> <i>Graustufen-Eingabe</i> | Dies hat nichts mit der PBR-Raueit zu tun, sondern ist eine (optionale) Variationskarte, um die Überblendung aufzubrechen. Wird nur angezeigt, wenn &quot;Raueit&quot; höher als 0 eingestellt ist. |
+| <b>Maske (optional)</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Ebene</b> <i>0.0 - 1.0</i> | Verschiebt die durchschnittliche Stufe des Ergebnisses zwischen Schwarz und Weiß, wie bei einer Helligkeitsanpassung. |
+| <b>Kontrast</b> <i>0.0 - 1.0</i> | Passt den Kontrast der Überblendung an. |
+| <b>Rauheit_Variation</b> <i>0.0 - 1.0</i> | Bestimmt den Umfang der Rauheiten-Map, die zur Variation eingeblendet werden soll. Wenn Sie diesen Wert auf über 0 erhöhen, wird der Kartenschlitz angezeigt. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="bottom-to-top.resources/bottom-to-top-02.gif" />
+        </td>
+    </tr>
 </table>

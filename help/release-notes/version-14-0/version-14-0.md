@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 14.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *Freigabedatum: 30. Juli 2024*
 
-![](../../assets/2024-BannerRN.png)
+![](version-14-0.resources/version-14-0-01.png)
 
 ## Neuer Inhalt
 
@@ -32,9 +32,9 @@ Diese Version 14.0 bringt viele neue Inhalte mit den unten aufgeführten neuen K
 
 * <b>Knoten für Farbbearbeitung: </b>ein Knoten <b>(</b>[Farbe quantisieren](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>) </b>bis<b> </b>Reduzieren Sie die Anzahl der Farben in einem Bild und extrahieren Sie eine Palette daraus, eine Familie von Werkzeugknoten, um Ihre eigene Farbpalette zu erstellen ([Ansicht](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [Erstellen](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [Ändern](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>Farbpalette) und eine, um sie mithilfe einer ID-Map auf ein anderes Bild anzuwenden ([Farbpalette anwenden](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)). Sie finden auch den Knoten [ID to mask grayscale](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md), mit dem Sie Ihre ID-Zuordnung - berechnet durch Quantize color - in eine Graustufenmaske konvertieren können. Mit diesem vollständigen Satz von Knoten haben Sie alles, was Sie benötigen, um Stilisierungseffekte mit Farben zu erstellen.
 
-![](../../assets/GIF2_2.gif){zoomable="yes"}
+![](version-14-0.resources/version-14-0-02.gif){zoomable="yes"}
 
-![Farbe quantisieren 2](../../assets/GIF3_2.gif){zoomable="yes"}
+![Farbe quantisieren 2](version-14-0.resources/version-14-0-03.gif){zoomable="yes"}
 
 * <b>Kuwahara-Filter</b>: Wenn du noch mehr mit der Stilisierung erreichen willst, kannst du mithilfe der [Anisotropischen Kuwahara-Farbe](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md) / [Graustufen](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md)-Filter einige malerische Effekte erzeugen. Im Detail wendet es eine anisotrope Richtungsunschärfe an, die den Details des Bildes entspricht. Das Ergebnis ist ein Bild, das so aussieht, als würde es in Richtung der darin enthaltenen Formen fließen.
 
@@ -56,11 +56,11 @@ Glatte Krümmung
 <table>
   <tr>
     <td>
-      <img src="../../assets/curvature_smooth_example_1_before.jpg" alt="curvature_smooth_example_1_before">
+      <img src="version-14-0.resources/version-14-0-04.jpg" alt="curvature_smooth_example_1_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../assets/curvature_smooth_example_1_after.jpg" alt="curvature_smooth_example_1_after">
+      <img src="version-14-0.resources/version-14-0-05.jpg" alt="curvature_smooth_example_1_after">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -74,11 +74,11 @@ Histogramm entzerren
 <table>
   <tr>
     <td>
-      <img src="../../assets/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
+      <img src="version-14-0.resources/version-14-0-06.jpg" alt="histogram_equalize_example_1_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../assets/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
+      <img src="version-14-0.resources/version-14-0-07.jpg" alt="histogram_equalize_example_1_after">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -97,11 +97,11 @@ Weiche Abschrägung
 <table>
   <tr>
     <td>
-      <img src="../../assets/bevel_smooth_example_6_before.jpg" alt="bevel_smooth_example_6_before">
+      <img src="version-14-0.resources/version-14-0-08.jpg" alt="bevel_smooth_example_6_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../assets/bevel_smooth_example_6_after.jpg" alt="bevel_smooth_example_6_after">
+      <img src="version-14-0.resources/version-14-0-09.jpg" alt="bevel_smooth_example_6_after">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -115,11 +115,11 @@ Normales Aufheben der Kombinationsfunktion
 <table>
   <tr>
     <td>
-      <img src="../../assets/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
+      <img src="version-14-0.resources/version-14-0-10.jpg" alt="normal_uncombine_example_3_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../assets/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
+      <img src="version-14-0.resources/version-14-0-11.jpg" alt="normal_uncombine_example_3_after">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -137,7 +137,7 @@ Normales Aufheben der Kombinationsfunktion
 
 * <b>2D-Ansicht: </b>Wenn die Kachelanzeige in der [2D-Ansicht](../../interface/2d-view/2d-view.md) aktiviert ist, können Sie jetzt Werte auch für Pixel abrufen, die sich nicht auf der ursprünglichen Kachel befinden: Es hilft sehr dabei, [Sampling](../../glossary/glossary.md) und Wertübergänge zwischen Kacheln zu überprüfen.
 
-![2d Ansicht](../../assets/2dview.gif){width="320px" zoomable="yes"}
+![2d Ansicht](version-14-0.resources/version-14-0-12.gif){width="320px" zoomable="yes"}
 
 * <b>Verlaufsumsetzung</b>: Mit dem mittleren Mausklick verschieben Sie alle [Verlaufstasten](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) nach links oder rechts (und bewahren so die Lücken zwischen allen Tasten auf).
 * <b>Parameter</b>: um benutzerdefinierte Funktionen über Parameter einzuschleusen, können Sie jetzt das Widget &quot;Funktion bearbeiten&quot; verwenden. Es ist eine leistungsstarke Lösung zum Erstellen benutzerdefinierter Tools, bei denen Sie Parameter mithilfe eines [Substance-Funktionsdiagramms](../../function-graphs/the-function-graph/the-function-graph.md) steuern möchten.
@@ -146,12 +146,12 @@ Normales Aufheben der Kombinationsfunktion
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Funktion bearbeiten](../../assets/functionedit.png){zoomable="yes"}
+![Funktion bearbeiten](version-14-0.resources/version-14-0-13.png){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Funktion 2](../../assets/functionedit2.png){zoomable="yes"} bearbeiten
+![Funktion 2](version-14-0.resources/version-14-0-14.png){zoomable="yes"} bearbeiten
 
 </td>
 </tr>

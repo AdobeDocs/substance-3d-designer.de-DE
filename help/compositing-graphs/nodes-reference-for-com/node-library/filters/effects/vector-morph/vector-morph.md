@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Vektormorph
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '188'
 ht-degree: 2%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/vector-morph-grayscale.png)![](../../../../../../assets/vector-morph.png)
+![](vector-morph.resources/vector-morph-01.png)![](vector-morph.resources/vector-morph-02.png)
 
-## Vektormorph (Graustufen)
-
-**In:** *Filter/Effekte*
-
-**Fortgeschrittene**
+<b>In:</b> Filters > Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -43,19 +39,23 @@ Dieser Knoten selbst ist nicht der am schwierigsten zu verwendende, aber das Ers
 
 Der Vektormorph ist [Vektorverkrümmung](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md) sehr ähnlich: der Hauptunterschied besteht darin, dass dieser Morph-Knoten das Ergebnis nicht &quot;wiederholt&quot; oder &quot;unterteilt&quot;, wenn es außerhalb der Arbeitsflächengrenzen verschoben wird. Stattdessen werden die Ränder festgeklemmt und wiederholt.
 
-## Parameter
-
-### Eingaben
-
-* **Eingabe**: *Farb-/Graustufeneingabe* Die Quelleingabe, die das Ziel für die Verkrümmung sein sollte.
-* **Vektorfeld**: *Farbeingabe* Die Vektorkarte, die zum Antrieb der Verkrümmung verwendet wurde.
-
-### Parameter
-
-* **Betrag**: *0.0 - 1.0* Legt die Intensität des Verkrümmungseffekts fest und funktioniert als Multiplikator für die Vektorkarte.
-
-## Beispielbilder
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Eingabe</b> <i>Farb-/Graustufeneingabe</i> | Die Quelleingabe, die das Ziel für die Verkrümmung sein sollte. |
+| <b>Vektorfeld</b> <i>Farbeingabe</i> | Die Vektorkarte, die zum Antrieb der Verkrümmung verwendet wurde. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Betrag</b> <i>0.0 - 1.0</i> | Legt die Intensität des Verkrümmungseffekts fest und fungiert als Multiplikator für die Vektorkarte. |

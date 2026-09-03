@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Schmutz Map 008
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 1%
+source-wordcount: '124'
+ht-degree: 7%
 
 ---
 
@@ -22,40 +22,41 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungemap-008.png){width="128px"}
+![](grunge-map-008.resources/grunge-map-008-01.png){width="128px"}
 
-## Schmutz Map 008
-
-**In:** *Texturgeneratoren**/Noises*
-
-**Einfach**
+<b>In:</b> Textur Generators > Rauschen
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Dadurch wird eine komplexe, kombinierte Noisemap erzeugt. Es kann als detailliertes Verfahren sehr nützlich sein, aber beachten Sie, dass diese sehr leistungsintensiv sind und daher langsamer zu generieren sind.
 
-## Parameter
-
-* **Saldo**: *0.0 - 1.0*\
-  Verschiebt die Balance des Ergebnisses zwischen Schwarz und Weiß, wie bei einer Helligkeitsanpassung.
-* **Kontrast**: *0.0 - 1.0*\
-  Passt den Kontrast des Ergebnisses an.
-* **Umkehren**: *False/True*\
-  Kehrt das Ergebnis um.
-* **Pinselmuster**: *0.0 - 1.0*\
-  Fügt eine Maske um die Kanten hinzu, wenn sie als Alpha-Pinsel verwendet wird.
-* **Quadratische Ausbreitung**: *False/True*\
-  Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen.
-
-## Beispielbilder
-
-![](../../../../../../assets/grungemap-008-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Saldo</b> <i>0.0 - 1.0</i> | Verschiebt die Balance des Ergebnisses zwischen Schwarz und Weiß, wie bei einer Helligkeitsanpassung. |
+| <b>Kontrast</b> <i>0.0 - 1.0</i> | Passt den Kontrast des Ergebnisses an. |
+| <b>Umkehren</b> <i>False/True</i> | Kehrt das Ergebnis um. |
+| <b>Pinselmuster</b> <i>0.0 - 1.0</i> | Fügt eine Maske um die Kanten hinzu, wenn sie als Alpha-Pinsel verwendet wird. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-map-008.resources/grunge-map-008-02.gif" />
+        </td>
+    </tr>
 </table>

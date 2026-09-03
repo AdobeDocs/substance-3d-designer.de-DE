@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Saisonfilter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 0%
+source-wordcount: '427'
+ht-degree: 11%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/default-icon.png){width="128px"}
+![](season-filter.resources/season-filter-01.png){width="128px"}
 
-## Saisonfilter
-
-**In:** *Materialfilter/Effekte*
-
-**Komplex**
+<b>In:</b> Materialfilter > Effekte
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -43,66 +39,52 @@ Beachten Sie, dass es sich um einen älteren Filter handelt, der nicht vollstän
 
 Der Knoten benötigt einen richtigen Satz von Materialeingaben, hauptsächlich mit einer ausreichend detaillierten Höhen- oder Normalmap.
 
-## Parameter
-
-### Eingaben
-
-* **Maske** : *Graustufen-Eingabe*\
-  Maskenschlitz zum Maskieren der Knoteneffekte. Mit dem Parameter &quot;Maske&quot; umschaltbar.
-
-### Parameter
-
-* **Kanäle**
-  * Schalten Sie die Materialkanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanzkarten anstelle von &quot;Metallisch/Raueit&quot; verwenden.
-* **Erweitert**
-  * **Normales Format**: *DirectX, OpenGL*\
-    Wechselt zwischen verschiedenen Normalmap-Formaten (invertiert den grünen Kanal).
-  * **Maske**: *False/True*\
-    Schaltet die Verwendung der Maskenkarte ein oder aus.
-  * **Lichtintensität**: *0.0 - 1.0*\
-    Intensität des (gefälschten) Lichts.
-  * **Lichtwinkel**: *0.0 - 1.0*\
-    Einfallswinkel des (gefälschten) Lichts
-* **Effekt**
-  * **Effekt aus Height oder Normal**: *Height, Normal* Wählt, welche Eingabemap die Effekte steuert.
-  * **Wasserstand**: *0.0 - 1.0* Erhöht oder senkt den Wasserstand auf der Grundlage von Height-/Normalinformationen.
-  * **Wasserdetails**: *0.0 - 1.0* Legt die Anzahl der Details im Wasser fest.
-  * **Brechung**: *0.0 - 1.0* Legt die Stärke der gefälschten Brechung im Effekt fest.
-  * **Reflexion**: *0.0 - 1.0* Legt den Umfang der falschen Reflexion im Effekt fest.
-  * **Reflexionsabstand**: *0.0 - 1.0* Steuert Reflexionsvisuals.
-  * **Reflexionswinkel**: *0.0 - 1.0* Steuert Reflexionsvisuals.
-  * **Flussrichtung**: *0.0 - 1.0* Steuert den Animationsfluss (verwenden Sie zur Visualisierung Substance Player).
-  * **Eis**: *0.0 - 1.0* Legt fest, wie gefroren das Wasser ist.
-  * **Eisdetails**: *0.0 - 1.0* Legt die Anzahl der Details im Eis fest.
-  * **Snow**: *0.0 - 1.0* Legt die Schneedecke fest.
-  * **Moos**: *0.0 - 1.0* Legt den Umfang der Moosbedeckung fest.
-  * **Moosskala**: *1 - 4* Legt die Skalierung der erzeugten Moostextur fest.
-  * **Moosfarbe**: *(Farbwert)*Legt die Farbe des Mooses fest.
-  * **Wasserfarbe**: *(Farbwert)*Legt die Wasserfarbe fest, einschließlich Alpha/Deckkraft.
-* **Überblenden**
-  * **Diffuse Intensität**: *0.0 - 1.0*\
-    Mischungsstärke des Diffusors.
-  * **Grundfarbintensität**: *0.0 - 1.0*\
-    Mischungsstärke der Grundfarbe.
-  * **Normalintensität**: *0.0 - 1.0*\
-    Die Füllkraft von &quot;Normal&quot;.
-  * **Specular-Intensität**: *0.0 - 1.0*\
-    Die Stärke des Speculars.
-  * **Glanzintensität**: *0.0 - 1.0*\
-    Die Stärke des Glanzes beim Mischen.
-  * **Intensität der Raueit**: *0.0 - 1.0*\
-    Die Stärke der Raueit.
-  * **Umgebungsintensität der Verdeckung**: *0.0 - 1.0*\
-    Mischfestigkeit der Ambient-Verdeckung.
-  * **Height-Intensität**: *0.0 - 1.0*\
-    Die Stärke des Heights beim Mischen.
-
-## Beispielbilder
-
-|  |
-| --- |
-| Es sind keine Bilder an diese Seite angehängt. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Maske</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. Mit dem Parameter &quot;Maske&quot; umschaltbar. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Kanäle</b> | Schalten Sie die Materialkanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanzkarten anstelle von &quot;Metallisch/Raueit&quot; verwenden. |
+| <b>Erweitert</b> |  |
+| <b>Normales Format</b> <i>DirectX, OpenGL</i> | Wechselt zwischen verschiedenen Normalmap-Formaten (invertiert den grünen Kanal). |
+| <b>Maske</b> <i>False/True</i> | Schaltet die Verwendung der Maskenkarte ein oder aus. |
+| <b>Lichtintensität</b> <i>0.0 - 1.0</i> | Intensität des (gefälschten) Lichts. |
+| <b>Lichtwinkel</b> <i>0.0 - 1.0</i> | Einfallswinkel des (gefälschten) Lichts |
+| <b>Effekt</b> |  |
+| <b>Effekt aus Height oder Normal</b> <i>Height, Normal</i> | Legt fest, welche Eingabe-Map die Effekte unterstützt. |
+| <b>Wasserstand</b> <i>0.0 - 1.0</i> | Erhöht oder senkt den Wasserstand auf Basis von Height-/Normalinformationen. |
+| <b>Wasserdetails</b> <i>0.0 - 1.0</i> | Legt die Anzahl der Details im Wasser fest. |
+| <b>Brechung</b> <i>0.0 - 1.0</i> | Legt den Grad der falschen Brechung im Effekt fest. |
+| <b>Spiegelung</b> <i>0.0 - 1.0</i> | Legt den Umfang der falschen Spiegelung im Effekt fest. |
+| <b>Reflexionsabstand</b> <i>0.0 - 1.0</i> | Steuert die Reflexionsvisualisierung. |
+| <b>Reflexionswinkel</b> <i>0.0 - 1.0</i> | Steuert die Reflexionsvisualisierung. |
+| <b>Flussrichtung</b> <i>0.0 - 1.0</i> | Steuert den Animationsfluss (Visualisierung mithilfe von Substance Player). |
+| <b>Eis</b> <i>0.0 - 1.0</i> | Legt fest, wie gefroren das Wasser ist. |
+| <b>Eisdetails</b> <i>0.0 - 1.0</i> | Legt die Anzahl der Details im Eis fest. |
+| <b>Snow</b> <i>0.0 - 1.0</i> | Legt die Schneedecke fest. |
+| <b>Moos</b> <i>0.0 - 1.0</i> | Legt den Umfang der Moosbedeckung fest. |
+| <b>Moosskala</b> <i>1 - 4</i> | Legt den Maßstab der generierten Moos-Textur fest. |
+| <b>Moosfarbe</b> <i>(Farbwert)</i> | Legt die Farbe des Mooses fest. |
+| <b>Wasserfarbe</b> <i>(Farbwert)</i> | Legt die Wasserfarbe fest, einschließlich Alpha/Deckkraft. |
+| <b>Überblenden</b> |  |
+| <b>Diffuse-Intensität</b> <i>0.0 - 1.0</i> | Mischungsstärke des Diffusors. |
+| <b>Intensität der Grundfarbe</b> <i>0.0 - 1.0</i> | Mischungsstärke der Grundfarbe. |
+| <b>Normalintensität</b> <i>0.0 - 1.0</i> | Die Füllkraft von &quot;Normal&quot;. |
+| <b>Specular-Intensität</b> <i>0.0 - 1.0</i> | Die Stärke des Speculars. |
+| <b>Glanz-Intensität</b> <i>0.0 - 1.0</i> | Die Stärke des Glanzes beim Mischen. |
+| <b>Intensität der Rauheit</b> <i>0.0 - 1.0</i> | Die Stärke der Raueit. |
+| <b>Ambient occlusion-Intensität</b> <i>0.0 - 1.0</i> | Mischfestigkeit der Ambient-Verdeckung. |
+| <b>Height-Intensität</b> <i>0.0 - 1.0</i> | Die Stärke des Heights beim Mischen. |

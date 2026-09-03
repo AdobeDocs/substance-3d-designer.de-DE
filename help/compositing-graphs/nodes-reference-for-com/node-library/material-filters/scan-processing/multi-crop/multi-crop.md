@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mehrfachzuschnitt
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 1%
+source-wordcount: '173'
+ht-degree: 4%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/crop-multi.png){width="128px"}
+![](multi-crop.resources/multi-crop-01.png){width="128px"}
 
-![](../../../../../../assets/crop-multi-grayscale.png){width="128px"}
+![](multi-crop.resources/multi-crop-02.png){width="128px"}
 
-## Mehrfachzuschnitt (Graustufen)
-
-**In:** *Materialfilter/Scanverarbeitung*
-
-**Fortgeschrittene**
+<b>In:</b> Materialfilter > Scanverarbeitung
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -45,25 +41,19 @@ Dies ist die Multikanal-Version von &quot;Zuschneiden&quot;. Es schneidet einen 
 >
 > Weitere Informationen finden Sie im ursprünglichen [Zuschneiden](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md).
 
-## Parameter
-
-### Parameter
-
-* **Eingabeanzahl**: *1 - 8* Legt die Anzahl der parallel zu verarbeitenden Eingaben fest.
-* **Eingabegröße**: *0 - 8192* Auflösung und Proportionen der Eingabebilder. Sehr wichtig für nicht quadratische Bilder.
-* **Hintergrund**: *(Farbwert) / (Graustufenwert)*Einheitlicher Hintergrundwert für Bereiche, die nicht von der Freistellung abgedeckt werden.
-* **Transformieren**: *(Transformationsmatrix)*\
-  Dreht und skaliert das Ergebnis. Das Ergebnis kann durch direkte Interaktion mit der Arbeitsfläche geändert werden.
-* **Offset**: *0.0 - 1.0*\
-  Verschiebt oder verschiebt das Ergebnis. Das Ergebnis kann durch direkte Interaktion mit der Arbeitsfläche geändert werden.
-* **Ist normal (nur für Farbversion)**: *Falsch/Wahr* Ob die Eingabe als Normalmap behandelt werden soll oder nicht.
-
-## Beispielbilder
-
-|  |
-| --- |
-| Es sind keine Bilder an diese Seite angehängt. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Eingabeanzahl</b> <i>1 - 8</i> | Legt die Anzahl der parallel zu verarbeitenden Eingaben fest. |
+| <b>Eingabegröße</b> <i>0 - 8192</i> | Auflösung und Proportionen von Eingabebilds. Sehr wichtig für nicht quadratische Bilder. |
+| <b>Hintergrund</b> <i>(Farbwert) / (Graustufenwert)</i> | Einheitlicher Hintergrundwert für Bereiche, die nicht von der Freistellung abgedeckt sind. |
+| <b>Transformieren</b> <i>(Transformationsmatrix)</i> | Dreht und skaliert das Ergebnis. Das Ergebnis kann durch direkte Interaktion mit der Arbeitsfläche geändert werden. |
+| <b>Offset</b> <i>0.0 - 1.0</i> | Verschiebt oder verschiebt das Ergebnis. Das Ergebnis kann durch direkte Interaktion mit der Arbeitsfläche geändert werden. |
+| <b>Ist normal (nur für Farbversion)</b> <i>False/True</i> | Gibt an, ob die Eingabe als Normalmap behandelt werden soll. |

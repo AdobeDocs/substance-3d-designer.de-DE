@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Kürzel
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 18%
@@ -32,11 +32,11 @@ Auf dieser Seite finden Sie eine Übersicht aller Tastaturbefehle für Substance
 
 **Windows**
 
-![Tastaturbefehle unter Windows](../../assets/keyboard_shortcuts_win.png "Tastaturbefehle unter Windows"){zoomable="yes"}
+![Tastaturbefehle unter Windows](shortcuts.resources/shortcuts-01.png "Tastaturbefehle unter Windows"){zoomable="yes"}
 
 **macOS**
 
-![Tastaturbefehle auf macOS](../../assets/keyboard_shortcuts_mac.png "Tastaturbefehle auf macOS"){zoomable="yes"}
+![Tastaturbefehle auf macOS](shortcuts.resources/shortcuts-02.png "Tastaturbefehle auf macOS"){zoomable="yes"}
 
 ## Shortcuts-Listen
 

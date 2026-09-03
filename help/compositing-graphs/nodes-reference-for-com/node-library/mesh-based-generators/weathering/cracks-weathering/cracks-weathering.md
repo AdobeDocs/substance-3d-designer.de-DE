@@ -7,33 +7,29 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Risse, die wettern
+title: Risse Verwitterung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 1%
+source-wordcount: '210'
+ht-degree: 3%
 
 ---
 
 
-# Risse, die wettern
+# Risse Verwitterung
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/cracks-weathering.png){width="128px"}
+![](cracks-weathering.resources/cracks-weathering-01.png){width="128px"}
 
-## Risse, die wettern
-
-**In:** *Mesh-basierte Generatoren**/Wetter*
-
-**Komplex**
+<b>In:</b> Mesh-basierte Generatoren > Verwitterung
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,36 +37,41 @@ Dies ist ein Vollmaterial-Effekt, der auf mehreren Kanälen gleichzeitig funktio
 
 Vergewissern Sie sich, dass Sie die [Verknüpfungserstellungsmodi](../../../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) richtig verstehen, wenn Sie mit vollständigen Materialien arbeiten.
 
-## Parameter
-
-### Eingaben
-
-* **Krümmung**: *Graustufen-Eingabe*\
-  Eine fertig gestellte oder generierte Karte, die für interne Effekte und Maskierung verwendet wird.
-* **Height** : *Graustufen-Eingabe*\
-  Eine fertig gestellte oder generierte Karte, die für interne Effekte und Maskierung verwendet wird.
-* **Maske** : *Graustufen-Eingabe*\
-  Maskenschlitz zum Maskieren der Knoteneffekte. Mit dem Parameter &quot;Maske&quot; umschaltbar.
-
-### Parameter
-
-* **Kanäle**
-  * Schalten Sie die Materialkanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanzkarten anstelle von &quot;Metallisch/Raueit&quot; verwenden.
-* **Erweitert**
-  * **Normales Format**: *DirectX, OpenGL*\
-    Wechselt zwischen verschiedenen Normalmap-Formaten (invertiert den grünen Kanal).
-  * **Maske**: *False/True*\
-    Schaltet die Verwendung der Maskenkarte ein oder aus.
-* **Effekt**
-  * **Risse-Propagierung**: *0.0 - 1.0* Wie weit sollten sich die Risse ausbreiten? Dies ist die Hauptsteuerung für diesen Effekt.
-  * **Risse Tiefe**: *0.0 - 1.0* Tiefe des Risseffekts. Dies wirkt sich hauptsächlich auf das Height und geringfügig auf die visuelle Thickness aus.
-* **Überblenden**
-  * Steuert, wie stark der Effekt in die einzelnen resultierenden Kanäle übergeht.
-
-## Beispielbilder
-
-![](../../../../../../assets/cracks-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Krümmung</b> <i>Graustufen-Eingabe</i> | Baking geführt oder generierte Map, die für interne Effekte und Maskierung verwendet wird. |
+| <b>Height</b> <i>Graustufen-Eingabe</i> | Baking geführt oder generierte Map, die für interne Effekte und Maskierung verwendet wird. |
+| <b>Maske</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. Mit dem Parameter &quot;Maske&quot; umschaltbar. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Kanäle</b> | Schalten Sie die Material-Kanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanz-Maps anstelle von &quot;Metallic/Rauheit&quot; verwenden. |
+| <b>Erweitert</b> |  |
+| <b>Normales Format</b> <i>DirectX, OpenGL</i> | Wechselt zwischen verschiedenen Normalmap-Formaten (invertiert den grünen Kanal). |
+| <b>Maske</b> <i>False/True</i> | Schaltet die Verwendung der Maskenkarte ein oder aus. |
+| <b>Effekt</b> |  |
+| <b>Risse-Propagierung</b> <i>0.0 - 1.0</i> | Wie weit sollten sich die Risse ausbreiten? Dies ist die Hauptsteuerung für diesen Effekt. |
+| <b>Risse Tiefe</b> <i>0.0 - 1.0</i> | Tiefe des Risseffekts. Dies wirkt sich hauptsächlich auf das Height und geringfügig auf die visuelle Thickness aus. |
+| <b>Überblenden</b> | Steuert, wie stark der Effekt in die einzelnen resultierenden Kanäle übergeht. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="cracks-weathering.resources/cracks-weathering-02.gif" />
+        </td>
+    </tr>
 </table>

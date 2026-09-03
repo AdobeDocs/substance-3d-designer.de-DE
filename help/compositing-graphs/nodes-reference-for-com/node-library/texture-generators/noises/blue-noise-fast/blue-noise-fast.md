@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Blaues Rauschen schnell
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 2%
+source-wordcount: '77'
+ht-degree: 6%
 
 ---
 
@@ -22,31 +22,37 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/blue-noise.png){width="128px"}
+![](blue-noise-fast.resources/blue-noise-fast-01.png){width="128px"}
 
-## Blaues Rauschen schnell
-
-**In:** *Texturgeneratoren**/Noises*
-
-**Einfach**
+<b>In:</b> Textur Generators > Rauschen
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Ein einfaches, schnelles Rauschen im Pixel-Maßstab.
 
-## Parameter
-
-* **Drehung**: *0.0 - 1.0* Dreht die internen Berechnungen des Effekts. So kannst du das Aussehen des Rauschens ein wenig verändern: Je weiter weg von 1, desto weniger pixelskaliert ist der Effekt und desto sichtbarer sind &quot;Wellen&quot;.
-
-## Beispielbilder
-
-![](../../../../../../assets/blue-noise-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Drehung</b> <i>0.0 - 1.0</i> | Dreht die internen Berechnungen des Effekts. So kannst du das Aussehen des Rauschens ein wenig verändern: Je weiter weg von 1, desto weniger pixelskaliert ist der Effekt und desto sichtbarer sind &quot;Wellen&quot;. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="blue-noise-fast.resources/blue-noise-fast-02.gif" />
+        </td>
+    </tr>
 </table>

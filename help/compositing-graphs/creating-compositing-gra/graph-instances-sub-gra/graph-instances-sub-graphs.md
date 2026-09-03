@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Diagramminstanzen und Untergraph
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: b0053a42604f68604350a6bb3a2148970536c3c7
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Diagramminstanzen und Untergraph
 
-![](../../../assets/sub-graph.png)
+![](graph-instances-sub-graphs.resources/graph-instances-sub-graphs-01.png)
 
 Diagramminstanzen sind Knoten, die <b> auf ein anderes Diagramm </b> verweisen. Ein Diagramm, auf das von einem Instanzknoten in einem Hostdiagramm verwiesen wird, kann als <b>Untergraph</b> des Hostdiagramms bezeichnet werden.
 
@@ -58,18 +58,18 @@ Beachten Sie, dass die Graphinstanz- und Untergraph-Konzepte zwar auch für Subs
 
 ### Kann ich eigene Grapheninstanzen zur Knotenbibliothek hinzufügen?
 
-<b>Ja, dies ist möglich </b>, erfordert jedoch eine bestimmte Einrichtung. Weitere Informationen finden Sie auf der Seite [Verwalten von benutzerdefiniertem Inhalt und Filtern](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html) dieser Dokumentation.
+<b>Ja, dies ist möglich </b>, erfordert jedoch eine bestimmte Einrichtung. Weitere Informationen finden Sie auf der Seite [Verwalten von benutzerdefiniertem Inhalt und Filtern](../../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) dieser Dokumentation.
 
 ### Können Sie das Quelldiagramm einer Diagramminstanz überprüfen?
 
-![(tick)](../../../assets/check.svg) Ja, und *Nur* für Instanzen von Graphen, die aus einer **Substance 3D-Datei (SBS) geladen wurden**. Diese Instanzknoten haben eine *dunkelrote* Beschriftung.\
+![(tick)](graph-instances-sub-graphs.resources/check.svg) Ja, und *Nur* für Instanzen von Graphen, die aus einer **Substance 3D-Datei (SBS) geladen wurden**. Diese Instanzknoten haben eine *dunkelrote* Beschriftung.\
 Klicken Sie mit der rechten Maustaste auf den Knoten, um das Kontextmenü zu öffnen, und wählen Sie die Option **Verweis öffnen** aus.
 
 >[!NOTE]
 >
 > Beim Überprüfen des Quelldiagramms können Sie die Eingabedaten des Diagramms der Instanz verwenden, wenn die Option **In-Context Editing** im Abschnitt **Graph** der [Voreinstellungen](../../../interface/preferences-window/preferences-window.md) *aktiviert* ist.
 
-![(minus)](../../../assets/forbidden.svg) Es ist *nicht* möglich, Diagramme zu überprüfen, die von **Substance 3D Asset (SBSAR)**-Instanzen geladen wurden, da diese bereits kompiliert wurden. Sie dürfen das Element nur in das Bedienfeld &quot;**Explorer**&quot; laden, um die Liste der angezeigten Diagramme und ihre Parameter zu überprüfen. Diese Instanzknoten haben eine *grüne*-Beschriftung.\
+![(minus)](graph-instances-sub-graphs.resources/forbidden.svg) Es ist *nicht* möglich, Diagramme zu überprüfen, die von **Substance 3D Asset (SBSAR)**-Instanzen geladen wurden, da diese bereits kompiliert wurden. Sie dürfen das Element nur in das Bedienfeld &quot;**Explorer**&quot; laden, um die Liste der angezeigten Diagramme und ihre Parameter zu überprüfen. Diese Instanzknoten haben eine *grüne*-Beschriftung.\
 Klicken Sie mit der rechten Maustaste auf den Knoten, um das Kontextmenü zu öffnen, und wählen Sie die Option **Paket laden** aus.
 
 >[!NOTE]

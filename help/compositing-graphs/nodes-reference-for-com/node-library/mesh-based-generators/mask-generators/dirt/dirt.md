@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Verschmutzung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 2%
+source-wordcount: '252'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dirt.png){width="128px"}
+![](dirt.resources/dirt-01.png){width="128px"}
 
-## Verschmutzung
-
-**In:** *Mesh-basierte Generatoren**/Masken-Generatoren*
-
-**Fortgeschrittene**
+<b>In:</b> Mesh-basierte Generatoren > Maskengenerator
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,38 +37,44 @@ Generiert eine Schwarzweißmaske auf der Grundlage von durch Baking erzeugte Map
 
 Diese Maske stellt Dirt in verdeckten und abgesenkten Kanten und Ecken dar, die auf dem gebackenen AO und der Krümmung basieren.
 
-## Parameter
-
-### Eingaben
-
-* **Krümmung**: *Graustufen-Eingabe*\
-  Durch Baking erzeugte Map für interne Effekte und Maskierung. Erforderlich!
-* **Ambient-Verdeckung**: *Graustufen-Eingabe*\
-  Durch Baking erzeugte Map für interne Effekte und Maskierung. Erforderlich!
-* **Schmutz-Eingang**: *Graustufen-Eingabe*\
-  Benutzerdefinierte Schmutz-Map-Eingabe, optional, aktiviert durch Parameter.
-* **Maske (optional)**: *Graustufen-Eingabe*\
-  Maskenschlitz zum Maskieren der Knoteneffekte.
-* **Normaler Weltraum**: *Farbeingabe*\
-  Nur für Triplanar verwendet.
-* **Position**: *Farbeingabe*\
-  Nur für Triplanar verwendet.
-
-### Parameter
-
-* **Dirt-Ebene**: *0.0 - 1.0* Hauptsteuerung für die Menge des Dirts.
-* **Kontrast des Dirts**: *0.0 - 1.0* Steuert den Hauptkontrast für den Dirt in der Maske.
-* **Schmutz-Betrag**: *0.0 - 1.0* Legt fest, wie grunzig der Dirt ist. Setzen Sie den Wert auf 0, um einen einwandfreien Dirt zu erzielen.
-* **Kantenmaskierung**: *0.0 - 1.0* Menge des Dirts, der von erhöhten Kanten entfernt werden soll (auf der Grundlage der Krümmungszuordnung).
-* **Benutzerdefinierten Schmutz verwenden**: *Falsch/Wahr* Aktiviert die Verwendung der benutzerdefinierten Schmutz-Zuordnungseingabe anstelle des integrierten Schmutz.
-* **Schmutz-Skalierung**: *1 - 16* Legt die Kachelungsskala der Schmutz-Details fest.
-* **Triplanar verwenden**: *Falsch/Wahr* Verwenden Sie [Triplanare Projektion](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md) für die Schmutz-Zuordnung, entfernt Nähte.
-* **Triplanarer Mischkontrast**: *0.001 - 1.0* Legt den Kontrast der triplanaren Projektion fest.
-
-## Beispielbilder
-
-![](../../../../../../assets/dirt-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Krümmung</b> <i>Graustufen-Eingabe</i> | Durch Baking erzeugte Map für interne Effekte und Maskierung. Erforderlich! |
+| <b>Umgebungs-Verdeckung</b> <i>Graustufen-Eingabe</i> | Durch Baking erzeugte Map für interne Effekte und Maskierung. Erforderlich! |
+| <b>Schmutz-Eingang</b> <i>Graustufen-Eingabe</i> | Benutzerdefinierte Schmutz-Map-Eingabe, optional, aktiviert durch Parameter. |
+| <b>Maske (optional)</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. |
+| <b>Normaler Weltraum</b> <i>Farbeingabe</i> | Nur für Triplanar verwendet. |
+| <b>Position</b> <i>Farbeingabe</i> | Nur für Triplanar verwendet. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Dirt-Stufe</b> <i>0.0 - 1.0</i> | Hauptsteuerung für die Menge des Dirts. |
+| <b>Kontrast des Dirts</b> <i>0.0 - 1.0</i> | Steuert den Hauptkontrast für den Dirt in der Maske. |
+| <b>Schmutz-Betrag</b> <i>0.0 - 1.0</i> | Legt fest, wie schmutzig der Dirt ist. Setzen Sie den Wert auf 0, um einen einwandfreien Dirt zu erzielen. |
+| <b>Kanten maskieren</b> <i>0.0 - 1.0</i> | Dirt, der von erhöhten Kanten entfernt werden soll (abhängig vom Krümmungs-Map). |
+| <b>Benutzerdefinierten Schmutz verwenden</b> <i>False/True</i> | Ermöglicht die Verwendung einer benutzerdefinierten Schmutz-Map-Eingabe anstelle eines integrierten Schmutz. |
+| <b>Schmutz-Skalierung</b> <i>1 - 16</i> | Legt die Skalierung der Kachelung der Schmutz-Details fest. |
+| <b>Triplanar verwenden</b> <i>False/True</i> | Verwenden Sie [Triplanare Projektion](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md) für die Schmutz-Zuordnung, um Nähte zu entfernen. |
+| <b>Triplanarer Mischkontrast</b> <i>0.001 - 1.0</i> | Legt den Kontrast der Triplanare Projektion fest. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="dirt.resources/dirt-02.gif" />
+        </td>
+    </tr>
 </table>

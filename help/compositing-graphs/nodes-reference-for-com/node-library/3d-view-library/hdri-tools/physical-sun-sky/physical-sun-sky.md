@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Physische SunSky
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 1%
+source-wordcount: '155'
+ht-degree: 9%
 
 ---
 
@@ -22,45 +22,44 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-physical-sun-sky.png){width="200px"}
+![](physical-sun-sky.resources/physical-sun-sky-01.png){width="200px"}
 
-## Physische Sonne/Himmel
-
-**In:** *3D-Ansicht/HDRI-Werkzeuge*
-
-**Fortgeschrittene**
+<b>In:</b> 3D-Ansicht > HDRI-Werkzeugs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Implementierung von physischer Sonne und Himmel auf Basis des Hosek-Wikie-Skylight-Modells. Bietet eine hervorragende Basis für eine künstliche HDRI.
 
-## Parameter
-
-* **Sun-Position**:\
-  Bereich = [0,1]x[0,1] (Längengrad-Breitenwinkel)
-* **Trübung**: *1.0 - 10.0*\
-  Die Trübung reicht von 1 bis 10
-* **Albedo**: *0.0 - 1.0*\
-  Die Albedo reicht von 0 bis 1.
-* **Grundfarbe**: *(Farbwert)*\
-  Farbe der Grundebene.
-* **Exposition (EV)**: *-1.0 - 4.0*\
-  Belichtungswert der resultierenden Ausgabe.
-* **Sun-Größe**: *0.0 - 4.0*\
-  Skalierung der Sonne, jeder Wert, der sich von 1 unterscheidet, ist physikalisch nicht korrekt. Wert hat subtile Effekte!
-* **Sonnenintensität**: *0.0 - 1.0*\
-  Intensität der Sonnenscheibe. Die Sun-Festplatte ist relativ klein, sodass der Effekt nicht sofort sichtbar ist.
-* **Sky-Intensität**: *0.0 - 1.0* Intensität des Himmels. Wirkt sich auch auf die Sonneneruption am Himmel aus, nicht auf die Scheibe selbst.
-
-## Beispielbilder
-
-![](../../../../../../assets/sky-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Sun-Position</b> | Bereich = [0,1]x[0,1] (Längengrad-Breitenwinkel) |
+| <b>Trübung</b> <i>1.0 - 10.0</i> | Die Trübung reicht von 1 bis 10 |
+| <b>Albedo</b> <i>0.0 - 1.0</i> | Die Albedo reicht von 0 bis 1. |
+| <b>Farbe des Bodens</b> <i>(Farbwert)</i> | Farbe der Grundebene. |
+| <b>Belichtung (EV)</b> <i>-1.0 - 4.0</i> | Belichtungswert der resultierenden Ausgabe. |
+| <b>Sun-Größe</b> <i>0.0 - 4.0</i> | Skalierung der Sonne, jeder Wert, der sich von 1 unterscheidet, ist physikalisch nicht korrekt. Wert hat subtile Effekte! |
+| <b>Sonnenintensität</b> <i>0.0 - 1.0</i> | Intensität der Sonnenscheibe. Die Sun-Festplatte ist relativ klein, sodass der Effekt nicht sofort sichtbar ist. |
+| <b>Himmelsintensität</b> <i>0.0 - 1.0</i> | Intensität des Himmels. Wirkt sich auch auf die Sonneneruption am Himmel aus, nicht auf die Scheibe selbst. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="physical-sun-sky.resources/physical-sun-sky-02.gif" />
+        </td>
+    </tr>
 </table>

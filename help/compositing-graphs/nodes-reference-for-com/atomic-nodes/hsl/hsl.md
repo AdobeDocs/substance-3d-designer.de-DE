@@ -10,7 +10,7 @@ helpx_tags: ""
 title: HSL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: HSL](../../../../assets/comp_hsl_1.png "Atomknoten: HSL"){width="200px"}
+![Atomknoten: HSL](hsl.resources/hsl-01.png "Atomknoten: HSL"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,8 +78,8 @@ Wenn Sie nach anderen Möglichkeiten suchen, die Farbtöne eines Bildes zu bearb
 
 |  |  |
 | --- | --- |
-| <b>Farbton</b> *Gleitend* | Bestimmt die Farbe des Eingabebildes.   Werte unter 0,5 verschieben den Farbton negativ, Werte über 0,5 verschieben ihn positiv. |
-| <b>Sättigung</b> *Gleitend* | Bestimmt die Sättigung der Farbe des Eingabebilds.   Werte unter 0,5 verringern die Sättigung, Werte über 0,5 erhöhen sie. |
+| <b>Farbton</b> *Gleitend* | Bestimmt die Farbe des Eingabebildes.   Werte unter 0,5 verschieben den Farbton negativ, Werte über 0,5 verschieben ihn positiv. |
+| <b>Sättigung</b> *Gleitend* | Bestimmt die Sättigung der Farbe des Eingabebilds.   Werte unter 0,5 verringern die Sättigung, Werte über 0,5 erhöhen sie. |
 | <b>Helligkeit</b> *Gleitend* | Bestimmt die Helligkeit des Eingabebildes Werte unter 0,5 verringern die Helligkeit, Werte über 0,5 erhöhen sie. |
 
 ## Eingangsanschlüsse

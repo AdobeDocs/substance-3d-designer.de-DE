@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 11.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Freigabedatum: *24. November 2021*
 
 ### Neue Modelldiagramm-Funktionen
 
-![](../../assets/banner-model.jpg)
+![](version-11-3.resources/version-11-3-01.jpg)
 
 Dem Modelldiagramm wurden viele Verbesserungen hinzugefügt, um die Modellierungsmöglichkeiten zu erweitern:
 
@@ -41,7 +41,7 @@ Dem Modelldiagramm wurden viele Verbesserungen hinzugefügt, um die Modellierung
   * Partikelbeschneidung
   * Partikel aus Instanzen
 
-  ![](../../assets/particle-pruning.gif)
+  ![](version-11-3.resources/version-11-3-02.gif)
 
 * <b>Neue Modellierungs- und Deformationsknoten</b>\
   Es wurden weitere neue Knoten hinzugefügt, um komplexere Formen zu erstellen. Klicken Sie auf die einzelnen Knoten, um mehr über sie zu erfahren:
@@ -59,7 +59,7 @@ Dem Modelldiagramm wurden viele Verbesserungen hinzugefügt, um die Modellierung
 
 ### Verbesserte Interoperabilität
 
-![](../../assets/banner-sendto.jpg)
+![](version-11-3.resources/version-11-3-03.jpg)
 
 Die Sende-an-Aktionen wurden um zwei neue Möglichkeiten erweitert:
 
@@ -71,24 +71,24 @@ Die Sende-an-Aktionen wurden um zwei neue Möglichkeiten erweitert:
 
 ### Sonstiges
 
-![](../../assets/banner-misc-3.jpg)
+![](version-11-3.resources/version-11-3-04.jpg)
 
 Es wurden verschiedene Verbesserungen der Lebensqualität vorgenommen:
 
 * **Eingaben relativ zu Eingaben**\
   Diagrammeingaben, die in &quot;Relativ zu Eingaben&quot; festgelegt sind, erben jetzt die Größe des verbundenen Knotens anstelle der Standardgröße der übergeordneten Diagrammgröße. Dadurch wird die Verwaltung unterschiedlicher Auflösungen über Eingaben unterschiedlicher Größe deutlich vereinfacht.
 
-  ![](../../assets/relative-to-inputs.jpg){width="400px"}
+  ![](version-11-3.resources/version-11-3-05.jpg){width="400px"}
 
 * **Neues Diagrammfenster**\
   Das neue Diagrammfenster wurde überarbeitet und ermöglicht es nun, die Details einer bestimmten Vorlage besser zu sehen und ein neues Diagramm direkt in ein vorhandenes Paket zu erstellen.
 
-  ![](../../assets/new-graph.png){width="400px"}
+  ![](version-11-3.resources/version-11-3-06.png){width="400px"}
 
 * **Alle Pakete schließen**\
   Eine kleine Aktion, die die Verwaltung vieler Pakete im Explorer weniger aufwändig macht. Verwenden Sie **Datei** > **Alle schließen**, um alle derzeit geöffneten Pakete zu schließen.
 
-  ![](../../assets/close-all-packages.png)
+  ![](version-11-3.resources/version-11-3-07.png)
 
 * **Aktuelle Ansicht maximieren**\
   Verwenden Sie die neue Titelleiste **Symbol** oder die Tastenkombination **UMSCHALT+Leertaste**, um ein Fenster auf den Vollbildmodus zu erweitern. Dies kann auch auf schwebenden Fenstern verwendet werden.
@@ -98,16 +98,16 @@ Es wurden verschiedene Verbesserungen der Lebensqualität vorgenommen:
 
 ### Inhalt
 
-![](../../assets/render-content.jpg)
+![](version-11-3.resources/version-11-3-08.jpg)
 
 In dieser Version wurden neue Diffusionsknoten und Verbesserungen für den PBR-Rendering-Knoten hinzugefügt:
 
 * <b>Diffusionsknoten</b>\
   Die neuen UV-Knoten &quot;Diffusionsfarbe&quot;, &quot;Diffusionsgrau&quot; und &quot;Diffusion&quot; ermöglichen die Erzeugung von weichen Blutungsunschärfen auf der Grundlage einer Eingabemaske.
 
-  ![](../../assets/diffusion-normal.jpg){width="230px"}
+  ![](version-11-3.resources/version-11-3-09.jpg){width="230px"}
 
-  ![](../../assets/diffusion-grayscale.jpg) ![](../../assets/diffusion-uv.jpg)
+  ![](version-11-3.resources/version-11-3-10.jpg) ![](version-11-3.resources/version-11-3-11.jpg)
 
 * **Verbesserter PBR-Rendering-Knoten**\
   Für diesen Knoten wurden die folgenden Änderungen vorgenommen:

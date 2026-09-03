@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Umkehren
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 6%
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 6%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/invert-greyscale.png){width="128px"}
+![](invert.resources/invert-01.png){width="128px"}
 
-![](../../../../../../assets/invert-3.png){width="128px"}
+![](invert.resources/invert-02.png){width="128px"}
 
-## Umkehren (Graustufen)
-
-**In:** *Filter/Korrekturen*
-
-**Einfach**
+<b>In:</b> Filters > Adjustments
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -43,16 +39,24 @@ Kehrt Eingabefarben um.
 
 Wichtig: Achten Sie darauf, die passende Version für Ihre Eingabe zu verwenden! Verwenden Sie &quot;Umkehren&quot; für Farbeingaben, &quot;Graustufen umkehren&quot; für Graustufeneingaben.
 
-## Parameter
-
-* **Umkehren**: *Falsch/Wahr* Schaltet den Effekt ein oder aus.
-
-## Beispielbilder
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/invert-gray.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Umkehren</b> <i>False/True</i> | Schaltet den Effekt ein oder aus. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="invert.resources/invert-03.png" />
+        </td>
+    </tr>
 </table>

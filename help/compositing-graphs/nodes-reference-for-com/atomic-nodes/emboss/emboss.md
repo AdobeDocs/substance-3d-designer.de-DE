@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Relief
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Relief](../../../../assets/comp_emboss_1.png "Atomknoten: Relief"){width="200px"}
+![Elementare Knoten: Relief](emboss.resources/emboss-01.png "Elementare Knoten: Relief"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,7 +37,7 @@ Das heißt, der Node führt eine einfache 2D-Schattierung auf der Basis von 2 Ei
 </tr>
 </table>
 
-Dieser Knoten wird nicht oft für PBR-ähnliche Projekte verwendet, kann aber in bestimmten Fällen verwendet werden, wenn Sie eine einfache, gebackene Beleuchtung in Ihrer Textur wünschen. Alternativ bieten [Relief mit Glanz](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md) und [Uber Relief](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md) eine ähnliche, aber umfangreichere Funktionalität.
+Dieser Knoten wird nicht oft für PBR-ähnliche Projekte verwendet, kann aber in bestimmten Fällen verwendet werden, wenn Sie eine einfache, gebackene Beleuchtung in Ihrer Textur wünschen. Alternativ bieten [Relief With Gloss](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md) und [Uber Relief](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md) eine ähnliche, aber umfassendere Funktionalität.
 
 <table>
 <tr style="border: 0;">
@@ -63,7 +63,7 @@ Dieser Knoten wird nicht oft für PBR-ähnliche Projekte verwendet, kann aber in
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-## Ausgangsanschlüsse
+## Ausgabe-Verbindungen
 
 </td>
 <td style="border: 0;" valign="top">
@@ -87,7 +87,7 @@ Dieser Knoten wird nicht oft für PBR-ähnliche Projekte verwendet, kann aber in
 
 |  |  |
 | --- | --- |
-| <b>Eingabe</b> *Graustufen/Farbe* PRIMÄR | Stellt die unschattierten Grundfarben bereit. Betrachte es als eine Art diffuse oder Grundfarben-Textur. |
+| <b>Eingabe</b> *Graustufen/Farbe* PRIMÄR | Stellt die unschattierten Grundfarben bereit. Betrachte es als eine Art diffuse oder einfarbige Textur. |
 | <b>Intensitätseingabe</b> *Graustufen* | Stellt die Höhenkarte dar, mit der die Beleuchtung der Oberfläche berechnet wird. Schwarz ist niedrig und Weiß ist hoch. |
 
 ## Ausgangsanschlüsse

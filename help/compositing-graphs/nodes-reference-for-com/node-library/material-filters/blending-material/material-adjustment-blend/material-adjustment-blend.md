@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Materialanpassungsüberblendung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 1%
+source-wordcount: '373'
+ht-degree: 2%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-adjustment-blend.png){width="128px"}
+![](material-adjustment-blend.resources/material-adjustment-blend-01.png){width="128px"}
 
-## Materialanpassungsüberblendung
-
-**In:** *Materialfilter/Füllmethode*
-
-**Fortgeschrittene**
+<b>In:</b> Materialfilter > Mischen
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,55 +37,40 @@ Dieser Knoten ermöglicht die Anpassung aller Kanäle eines Vollmaterials auf Ba
 
 Dies ist nützlich, wenn Sie einige Kanäle eines Materials anpassen möchten (z. B. diffuses Licht und Raueit dunkler machen), die auf derselben Maske basieren.
 
-## Parameter
-
-### Eingaben
-
-* **Farb-ID-Maske**: *Farbeingabe*\
-  Maskenschlitz zum Maskieren der Knoteneffekte.
-* **Graustufenmaske**: *Graustufen-Eingabe*\
-  Maskenschlitz zum Maskieren der Knoteneffekte.
-
-### Parameter
-
-* **Kanäle**\
-  Schaltet die Materialkanäle in dieser Gruppe ein und aus, z. B. bei Verwendung von Specular-/Glanzkarten anstelle von Metallisch/Raueit.\
-  Dadurch wird auch das Erscheinungsbild der relevanten Gruppen des Kanals aktiviert und deaktiviert.
-* **Diffus**\
-  Führt Korrekturvorgänge für den Diffuse-Kanal in Bereichen durch, die durch die Maske definiert sind.
-* **Grundfarbe**\
-  Führt Korrekturvorgänge für den Kanal &quot;Grundfarbe&quot; in Bereichen durch, die durch die Maske definiert sind.
-* **Normal**
-  * **Intensität**: *0.0 - 1.0* Töne nach unten Normalintensität
-* **Specular**\
-  Führt Korrekturvorgänge für den Specular-Kanal in Bereichen durch, die durch die Maske definiert sind.
-* **Ausstrahlend**\
-  Führt Anpassungsvorgänge auf dem Emissionskanal in Bereichen durch, die durch die Maske definiert werden.
-* **Glossarität**\
-  Führt Korrekturvorgänge für den Glossiness-Kanal in Bereichen durch, die durch die Maske definiert werden.
-* **Raueit**\
-  Führt Anpassungsvorgänge für den Kanal &quot;Raueit&quot; in Bereichen durch, die durch die Maske definiert werden.
-* **Metallisch**\
-  Führt Korrekturvorgänge für den metallischen Kanal in Bereichen durch, die durch die Maske definiert sind.
-* **Specular level**\
-  Führt Korrekturoperationen auf dem Specular level-Kanal in Bereichen durch, die durch die Maske definiert werden.
-* **Umgebungs-Verdeckung**\
-  Führt Korrekturvorgänge für den Umgebungsmaskenkanal in den von der Verdeckung definierten Bereichen durch.
-* **Height**\
-  Führt Korrekturvorgänge für den Height-Kanal in den von der Maske definierten Bereichen durch.
-* **Deckkraft**\
-  Führt Korrekturvorgänge für den Kanal &quot;Deckkraft&quot; in den von der Maske definierten Bereichen durch.
-* **Farb-ID-Maske**: *Falsch/Wahr* Legen Sie fest, dass Farb-ID-Maske anstelle der Graustufenmaske verwendet wird.
-* **Unschärfe**: *0.01 - 1.0* Wenn Farb-ID-Maske aktiviert ist, bestimmt dies den Farbauftrag der Farbauswahlfarbe.
-* **Farbe**: *(Farbwert)*Legt fest, welche Farbe aus der Farb-ID-Karte und der Maske ausgewählt werden soll.
-* **Auffüllen**: *0.0 - 1.0* Bestimmt den Mischkontrast/die Übergänge der Farb-ID-Maskierung.
-
-## Beispielbilder
-
-|  |
-| --- |
-| Es sind keine Bilder an diese Seite angehängt. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Farb-ID-Maske</b> <i>Farbeingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. |
+| <b>Graustufenmaske</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Kanäle</b> | Schaltet Material-Kanäle in dieser Gruppe ein und aus, z. B. wenn Specular/Glanz-Maps anstelle von Metallic/Rauheit verwendet werden.<br><br>Dies aktiviert und deaktiviert auch das Erscheinungsbild der entsprechenden Gruppen des Kanals. |
+| <b>Diffus</b> | Führt Korrekturvorgänge für den Diffuse-Kanal in Bereichen durch, die durch die Maske definiert sind. |
+| <b>Grundfarbe</b> | Führt Korrekturvorgänge für den Kanal &quot;Grundfarbe&quot; in Bereichen durch, die durch die Maske definiert sind. |
+| <b>Normal</b> |  |
+| <b>Intensität</b> <i>0.0 - 1.0</i> | Tönt die normale Intensität ab |
+| <b>Specular</b> | Führt Korrekturvorgänge für den Specular-Kanal in Bereichen durch, die durch die Maske definiert sind. |
+| <b>Ausstrahlend</b> | Führt Anpassungsvorgänge auf dem Emissionskanal in Bereichen durch, die durch die Maske definiert werden. |
+| <b>Glossarität</b> | Führt Korrekturvorgänge für den Maskenkanal in den von der Glanz definierten Bereichen durch. |
+| <b>Raueit</b> | Führt Korrekturvorgänge für den Maskenkanal in den von der Rauheit definierten Bereichen durch. |
+| <b>Metallisch</b> | Führt Korrekturvorgänge im Metallic Kanal in Bereichen durch, die durch die Maske definiert sind. |
+| <b>Specular level</b> | Führt Korrekturoperationen auf dem Specular level-Kanal in Bereichen durch, die durch die Maske definiert werden. |
+| <b>Umgebungs-Verdeckung</b> | Führt Korrekturoperationen auf dem Ambient occlusion-Kanal in Bereichen durch, die durch die Maske definiert werden. |
+| <b>Height</b> | Führt Korrekturvorgänge für den Height-Kanal in den von der Maske definierten Bereichen durch. |
+| <b>Deckkraft</b> | Führt Korrekturvorgänge für den Kanal &quot;Deckkraft&quot; in den von der Maske definierten Bereichen durch. |
+| <b>Farb-ID-Maske</b> <i>False/True</i> | Farb-ID-Maske anstelle der Graustufenmaske verwenden. |
+| <b>Unschärfe</b> <i>0.01 - 1.0</i> | Wenn Farb-ID-Maske aktiviert ist, wird hierdurch der Druckbogen der Farb-ID-Auswahlfarbe bestimmt. |
+| <b>Farbe</b> <i>(Farbwert)</i> | Legt fest, welche Farbe auf dem ID-Map ausgewählt und maskiert werden soll. |
+| <b>Auffüllen</b> <i>0.0 - 1.0</i> | Bestimmt den Mischkontrast/die Übergänge der Farb-ID-Maskierung. |

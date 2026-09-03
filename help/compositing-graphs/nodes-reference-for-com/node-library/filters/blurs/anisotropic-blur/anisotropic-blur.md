@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Anisotropischer Weichzeichner
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 1%
+source-wordcount: '133'
+ht-degree: 8%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/anisotropic-blur-grayscale.png){width="128px"}
+![](anisotropic-blur.resources/anisotropic-blur-01.png){width="128px"}
 
-![](../../../../../../assets/anisotropic-blur.png){width="128px"}
+![](anisotropic-blur.resources/anisotropic-blur-02.png){width="128px"}
 
-## Anisotropischer Weichzeichner (Graustufen)
-
-**In:** *Filter/Unschärfen*
-
-**Einfach**
+<b>In:</b> Filters > Blurs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -43,17 +39,27 @@ Führt eine qualitativ hochwertige [Richtungsunschärfe](../../../../../../compo
 
 Wichtig: Achten Sie darauf, die passende Version für Ihre Eingabe zu verwenden! Verwenden Sie &quot;Anisotropischer Weichzeichner&quot; für Farbeingaben bzw. &quot;Anisotropischer Weichzeichner, Graustufen&quot; für Graustufeneingaben.
 
-## Parameter
-
-* **Intensität**: *0.0 - 16.0* Stärke (Radius) der Weichzeichnung. Je höher dieser Wert ist, desto weiter reicht die Weichzeichnung.
-* **Anisotropie**: *0.0 - 1.0* Richtung der Weichzeichnung. Der Wert 0,0 entspricht dem normalen Weichzeichnen.
-* **Winkel**: *0.0 - 1.0* Legt den Winkel für die Weichzeichnungsrichtung fest.
-* **Qualität**: *0 - 1* Wechselt intern zwischen einer [Box-Weichzeichnung](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md) und einer HQ-Weichzeichnung. Schneller Trading für Qualität.
-
-## Beispielbilder
-
-![](../../../../../../assets/aniso-blur-example.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Intensität</b> <i>0.0 - 16.0</i> | Stärke (Radius) der Weichzeichnung. Je höher dieser Wert ist, desto weiter reicht die Weichzeichnung. |
+| <b>Anisotropie</b> <i>0.0 - 1.0</i> | Richtung der Weichzeichnung. Der Wert 0,0 entspricht dem normalen Weichzeichnen. |
+| <b>Winkel</b> <i>0.0 - 1.0</i> | Legt den Winkel für die Weichzeichnungsrichtung fest. |
+| <b>Qualität</b> <i>0 - 1</i> | Wechselt intern zwischen einer [Box-Weichzeichnung](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md) und einer HQ-Weichzeichnung. Schneller Trading für Qualität. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="anisotropic-blur.resources/anisotropic-blur-03.gif" />
+        </td>
+    </tr>
 </table>

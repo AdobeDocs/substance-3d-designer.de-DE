@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/mdl-graphs.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie in Substance 3D Designer Diagramme in der Materialdefinitionssprache erstellen und verwenden, um Materialarbeitsabläufe zu erweitern.
+description: Erfahren Sie, wie Sie in Substance 3D Designer Graf für Material Definition Language erstellen und verwenden, um erweiterte Material-Workflows zu nutzen.
 helpx_creative_field: ""
 helpx_description: Designer > MDL graphs
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDL-Grafiken
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 0%
@@ -22,13 +22,13 @@ ht-degree: 0%
 
 Auf dieser Seite werden MDL-Diagramme in Substance 3D Designer angezeigt, mit denen Sie MDL-Materialien erstellen und in Echtzeit eine Vorschau ihres Verhaltens anzeigen können.
 
-![Malachite MDL-Material](../assets/mdl-malachite-example.jpg "Malachite MDL-Material")
+![Malachite-MDL-Material](mdl-graphs.resources/mdl-graphs-01.jpg "Malachite-MDL-Material")
 
-*Malachite mit Chrysocolla, MDL-Material von [Mark Foreman](https://www.artstation.com/oggyart)* *verfügbar auf unserer [Legacy Substance share](https://share-legacy.substance3d.com/libraries/4043)* *Plattform*
+*Malachite mit Chrysocolla, MDL-Material von [Mark Foreman](https://www.artstation.com/oggyart)* *verfügbar auf unserer [Legacy-Substance share](https://share-legacy.substance3d.com/libraries/4043)* *Plattform*
 
 >[!WARNING]
 > 
-> MDL-Grafiken und alle zugehörigen Funktionen wurden in Version 16.0.0 aus Designer entfernt.
+> MDL-Diagramms und alle zugehörigen Funktionen wurden in Version 16.0.0 aus Designer entfernt.
 > 
 > Weitere Informationen: [MDL-Diagramm und Ende des Lebenszyklus von Iray](../technical-issues/mdl-graph-iray-eol/mdl-graph-iray-eol.md)
 
@@ -53,18 +53,18 @@ Mit dieser Sprache ist eine vollständige Materialdefinition portabel und kann s
 
 Beim Erstellen von Materialien können Sie den eigenen [Iray](../interface/3d-view/iray/iray.md)-Renderer von NVIDIA verwenden, der in Designer eingebettet und im Bedienfeld [3D view](../interface/3d-view/3d-view.md) verfügbar ist, um das Verhalten des Materials *interaktiv* in der Vorschau anzuzeigen.
 
-MDL-Graphen ergänzen [Substance-Graphen](../compositing-graphs/substance-compositing-graphs.md) insofern, als letztere *Texturen* ausgeben, die vom MDL-Material *gesampelt* werden können, um dessen Verhalten und Aussehen zu beeinflussen.
+MDL-Diagramm ergänzen [Substance-Graf](../compositing-graphs/substance-compositing-graphs.md) insofern, als letztere *Texturen* ausgeben, die vom MDL-Material *gesampelt* werden können, um dessen Verhalten und Aussehen zu beeinflussen.
 
 Wir empfehlen, die Abschnitte dieser Dokumentation *in der Reihenfolge* für einen geführten Lernpfad zu durchlaufen, der mit den Eigenschaften einer MDL-Diagrammressource direkt unten beginnt.\
-Bist du bereit reinzuspringen? Erste Schritte mit MDL-Diagrammen im Abschnitt MDL-Lernressourcen!
+Bist du bereit reinzuspringen? Beginnen Sie mit MDL-Diagrammen im Abschnitt MDL-Lernressourcen!
 
 >[!NOTE]
 >
 > Weitere Informationen über die technische Implementierung der Materialdefinitionssprache finden Sie in der [NVIDIA MDL-Dokumentation](https://raytracing-docs.nvidia.com/mdl/index.html), die Links zur MDL-Spezifikation und zum [MDL-Handbuch](http://mdlhandbook.com/) enthält, die alle von NVIDIA erstellt und gepflegt werden.
 
-![MDL-Diagrammeigenschaften](../assets/mdl-main.png "MDL-Diagrammeigenschaften")
+![MDL-Diagrammeigenschaften](mdl-graphs.resources/mdl-graphs-02.png "MDL-Diagrammeigenschaften")
 
-*MDL-Diagrammeigenschaften im Eigenschaftenfenster*
+*MDL-Diagramm-Eigenschaften im Eigenschaftenfenster*
 
 ## MDL-Diagrammeigenschaften
 
@@ -89,7 +89,7 @@ Hinweis: Mit einem Sternchen (\*) markierte Eigenschaften sind MDL-Anmerkungen, 
 
 ### Diagrammeingaben
 
-In diesem Abschnitt werden die interaktiven Parameter aufgelistet, die mit angezeigten Parametern des MDL-Diagramms verbunden sind, und ihre *Standardwerte* werden definiert. Sie können jederzeit *optimiert* und *neu angeordnet* sein.
+In diesem Abschnitt werden die interaktiven Parameter aufgelistet, die mit den freigelegten Parametern des MDL-Diagramms verbunden sind, und ihre *Standardwerte* definiert. Sie können jederzeit *optimiert* und *neu angeordnet* sein.
 
 Die Schnittstelle und das Verhalten dieser Eingaben sind durch den *Werttyp* und den *Bereich* der verfügbar gemachten Parameter definiert, mit denen sie verbunden sind. Beispiel:
 

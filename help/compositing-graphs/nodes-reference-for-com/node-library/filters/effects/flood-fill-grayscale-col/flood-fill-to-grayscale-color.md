@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Flood Fill zu GraustufenFarbe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 2%
+source-wordcount: '162'
+ht-degree: 4%
 
 ---
 
@@ -22,39 +22,41 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-to-grayscale.png){width="128px"}
+![](flood-fill-to-grayscale-color.resources/flood-fill-to-grayscale-color-01.png){width="128px"}
 
-![](../../../../../../assets/floodfill-to-color.png){width="128px"}
+![](flood-fill-to-grayscale-color.resources/flood-fill-to-grayscale-color-02.png){width="128px"}
 
-## Flood Fill in zufällige Graustufen/Farben
-
-**In:** *Filter/Effekte*
-
-**&#x200B;**&#x200B;Einfach&#x200B;**&#x200B;**
+<b>In:</b> Filters > Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Verwendet Flood Fill-Daten, um Graustufen- oder Farbwertfelder zu generieren. Im Gegensatz zu [Flood Fill zu zufälligem Graustufen](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-gra/flood-fill-to-random-grayscale.md) ermöglichen diese beiden Knoten mehr Kontrolle über das Festlegen der exakten Variation und Farbtöne sowie eine zusätzliche Eingabezuordnung, um den Basiswert zu bestimmen, der auf Zellbasis zufällig zugewiesen werden soll.
+Verwendet Flood Fill-Daten, um Graustufen- oder Farbwertfelder zu generieren. Im Gegensatz zu [Flood Fill zu zufälligem Graustufen](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-gra/flood-fill-to-random-grayscale.md) ermöglichen diese beiden Knoten mehr Kontrolle über das Festlegen der exakten Variation und Farbtöne, mit einer zusätzlichen Eingabe-Map, um den Basiswert zu bestimmen, der pro Zelle zufällig zugewiesen werden soll.
 
 Es ist ein leistungsstarkes System, um jeder Zelle einen eindeutigen Wert oder eine Farbe zu geben, aber dennoch die Kontrolle zu behalten und sie auf einer vorbestimmten Eingabe zu basieren.
-
-## Parameter
-
-### Eingaben
-
-* **Flood Fill**: *Farbeingabe*
-* **Graustufen-/Farbeingabe**: *Graustufen-/Farbeingabe*
-
-### Parameter
-
-* **Luminanz-/Farbkorrektur**: *-1.0 - 1.0* Legen Sie den Bias- oder Basiswert für den Knoten fest. Wenn eine Graustufen- oder Farbeingabe verwendet wird, wird dies verwendet, um den Anfangswert als Ausgangspunkt zu ändern.
-* **Luminanz/Farbzufall**: *-1.0 - 1.0* Legen Sie den Umfang der Variation fest.
 
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Flood Fill</b> <i>Farbeingabe</i> |  |
+| <b>Graustufen-/Farbeingabe</b> <i>Graustufen-/Farbeingabe</i> |  |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Luminanz-/Farbkorrektur</b> <i>-1.0 - 1.0</i> | Legen Sie den Bias- oder Basiswert für den Knoten fest. Wenn eine Graustufen- oder Farbeingabe verwendet wird, wird dies verwendet, um den Anfangswert als Ausgangspunkt zu ändern. |
+| <b>Luminanz/Farbzufall</b> <i>-1.0 - 1.0</i> | Legen Sie den Umfang der Abweichung fest. |

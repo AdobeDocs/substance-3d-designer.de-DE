@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Anpassen des Arbeitsbereichs
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
@@ -32,7 +32,7 @@ In diesem Menü können Sie die Hauptelemente der Benutzeroberfläche von Design
 
 ### Anzeigen/Ausblenden einer Ansicht
 
-Um ein bestimmtes Schnittstellenelement ein- oder auszublenden, klicken Sie im Menü *Windows* auf seinen Namen. Die angezeigten Elemente haben ein ![](../../assets/image2015-12-17-10-43-24.png)-Häkchen.
+Um ein bestimmtes Schnittstellenelement ein- oder auszublenden, klicken Sie im Menü *Windows* auf seinen Namen. Die angezeigten Elemente haben ein ![](customizing-your-workspace.resources/customizing-your-workspace-01.png)-Häkchen.
 
 ### Ein Dock mit einer Ansicht füllen
 
@@ -46,7 +46,7 @@ Mit den Optionen <b>Neuer Explorer</b>, <b>Neue 3D-Ansicht</b> und <b>Neue Bibli
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Windows-Menü](../../assets/windows-menu-1.png "Windows-Menü")
+![Windows-Menü](customizing-your-workspace.resources/customizing-your-workspace-02.png "Windows-Menü")
 
 </td>
 </tr>
@@ -56,21 +56,21 @@ Mit den Optionen <b>Neuer Explorer</b>, <b>Neue 3D-Ansicht</b> und <b>Neue Bibli
 
 Die Größe von Docks kann durch Verschieben der Kanten angepasst werden. Die Größe anderer Docks wird dynamisch an die Größe angepasst.
 
-![Größe von Docks ändern](../../assets/interface-customisation-resize.gif "Größe von Docks ändern")
+![Größe von Docks ändern](customizing-your-workspace.resources/customizing-your-workspace-03.gif "Größe von Docks ändern")
 
 ## Bewegte Docks
 
 Ein beliebiges Dock kann mithilfe der Titelleiste ** um das Hauptfenster verschoben werden. Je nach Position, an die das Dock verschoben wird, werden die Docks entsprechend skaliert.
 
-![Laufende Docks](../../assets/interface-customisation-move.gif "Laufende Docks")
+![Laufende Docks](customizing-your-workspace.resources/customizing-your-workspace-04.gif "Laufende Docks")
 
 ## Tabulatordocks
 
 Docks können in Registerkarten gestapelt werden. Dies ist nützlich, um Bildschirmfläche oder aggregierte Ansichten zu speichern, die in irgendeiner Weise miteinander in Beziehung stehen.
 
-Sie können Docks mit der Tabulatortaste verschieben, indem Sie ein Dock mit der Titelleiste *über ein vorhandenes Dock* verschieben, z. B. Docks werden nicht skaliert oder verschoben, aber um das Zieldock wird ein *Frame* angezeigt.
+Sie können Docks mit der Tabulatortaste verschieben, indem Sie ein Dock mit der Titelleiste *über ein vorhandenes Dock* verschieben, z. B. Docks werden nicht skaliert oder verschoben, aber um das Zieldock wird ein *Rahmen* angezeigt.
 
-![Tab-Docks](../../assets/interface-customisation-tab.gif "Tab-Docks")
+![Tab-Docks](customizing-your-workspace.resources/customizing-your-workspace-05.gif "Tab-Docks")
 
 ## Ausdocken
 
@@ -78,10 +78,10 @@ Ein Dock kann in einem *schwebenden Fenster* abgedockt werden, dessen Größe ge
 
 Dies kann auf zwei Arten erfolgen:
 
-* Das Dock wird mit der Titelleiste ** verschoben und entweder *aus dem Hauptfenster* oder in einem Bereich des Hauptfensters, der *kein Dock* ist, platziert. Sie können dieses Dock erneut andocken, indem Sie es entweder an ein anderes Dock *im Hauptfenster* verschieben oder auf die Schaltfläche <b>![](../../assets/dock-icons-redock.png) &quot;Redock</b>&quot; klicken.
-* Klicken auf die Schaltfläche <b>![](../../assets/dock-icons-undock.png) Undock</b>. Ein Dock, das mit dieser Methode abgedockt wurde, kann nur *angedockt* werden, indem auf die Schaltfläche <b>![](../../assets/dock-icons-redock.png) Redock</b> geklickt wird.
+* Das Dock wird mit der Titelleiste ** verschoben und entweder *aus dem Hauptfenster* oder in einem Bereich des Hauptfensters, der *kein Dock* ist, platziert. Sie können dieses Dock erneut andocken, indem Sie es entweder an ein anderes Dock *im Hauptfenster* verschieben oder auf die Schaltfläche <b>![](customizing-your-workspace.resources/customizing-your-workspace-06.png) &quot;Redock</b>&quot; klicken.
+* Klicken auf die Schaltfläche <b>![](customizing-your-workspace.resources/customizing-your-workspace-07.png) Undock</b>. Ein Dock, das mit dieser Methode abgedockt wurde, kann nur *angedockt* werden, indem auf die Schaltfläche <b>![](customizing-your-workspace.resources/customizing-your-workspace-06.png) Redock</b> geklickt wird.
 
-![Abdocken](../../assets/interface-customisation-undock.gif "Abdocken")
+![Abdocken](customizing-your-workspace.resources/customizing-your-workspace-08.gif "Abdocken")
 
 ## Maximieren von Docks
 
@@ -93,12 +93,12 @@ Jedes Dock kann maximiert werden, damit es in den Bereich oder das *übergeordne
 Docks können auf zwei Arten maximiert werden:
 
 * Platzieren des *-Cursors über dem Dock* und Drücken der Tastenkombination <b>Umschalt+Leertaste</b>
-* Klicken auf die Schaltfläche <b>![](../../assets/dock-icons-maximise.png) Maximieren</b>
+* Klicken auf die Schaltfläche <b>![](customizing-your-workspace.resources/customizing-your-workspace-09.png) Maximieren</b>
 
 Maximierte Docks können auf die Größe und den Ort minimiert werden, an dem sie *gehalten haben, bevor sie maximiert werden*. Dafür gibt es drei Möglichkeiten:
 
 * Platzieren des *-Cursors über dem Dock* und Drücken der Tastenkombination <b>Umschalt+Leertaste</b>
-* Klicken auf die Schaltfläche <b>![](../../assets/dock-icons-minimise.png) Minimieren</b>
+* Klicken auf die Schaltfläche <b>![](customizing-your-workspace.resources/customizing-your-workspace-10.png) Minimieren</b>
 * Öffnen des Menüs <b>Windows</b> und Auswählen der Option <b>Fenster nicht maximieren</b>
 
 >[!NOTE]
@@ -114,7 +114,7 @@ Maximierte Docks können auf die Größe und den Ort minimiert werden, an dem si
 > * Schaltflächen sind *deaktiviert* in der Titelleiste des Docks
 > * Ein im Hauptfenster *maximiertes Dock darf nicht mit der Titelleiste* verschoben werden.
 
-![Maximieren von Docks](../../assets/interface-customisation-maximise.gif "Maximieren von Docks")
+![Maximieren von Docks](customizing-your-workspace.resources/customizing-your-workspace-11.gif "Maximieren von Docks")
 
 ## Anheften von Docks
 
@@ -122,7 +122,7 @@ Das Anheften eines Docks *verhindert, dass es mit anderem Inhalt oder einer ande
 
 Wenn ein Dock angeheftet ist, erstellt jeder zukünftige Inhalt, der in seinem angezeigt werden soll, stattdessen *ein neues Dock*, um es zu hosten. Dieses neue Dock wird nicht angeheftet und kann daher neue Inhalte aktualisieren und hosten.
 
-Um ein Dock anzuheften, klicken Sie auf die Schaltfläche ![](../../assets/dock-icons-pin.png) <b>Anheften</b>. Sie können es dann *lösen*, indem Sie die ![](../../assets/dock-icons-pinned.png) <b>lösen</b>-Schaltfläche verwenden, um es erneut *verfügbar* zu machen, um neue Inhalte zu hosten.
+Um ein Dock anzuheften, klicken Sie auf die Schaltfläche ![](customizing-your-workspace.resources/customizing-your-workspace-12.png) <b>Anheften</b>. Sie können es dann *lösen*, indem Sie die ![](customizing-your-workspace.resources/customizing-your-workspace-13.png) <b>lösen</b>-Schaltfläche verwenden, um es erneut *verfügbar* zu machen, um neue Inhalte zu hosten.
 
 *Es können mehrere* Docks gleichzeitig angeheftet werden, einschließlich mehrerer Docks des *gleichen Typs*.
 
@@ -132,11 +132,11 @@ Das Anheften von Docks bietet folgende Möglichkeiten:
 * Anzeigen von zwei oder mehr Bitmaps gleichzeitig
 * Gleichzeitiges Arbeiten an mehreren Graphen
 
-![Anheften von Docks](../../assets/interface-customisation-pin.gif "Anheften von Docks")
+![Anheften von Docks](customizing-your-workspace.resources/customizing-your-workspace-14.gif "Anheften von Docks")
 
 ## Schließende Docks
 
-Ein beliebiges Dock kann durch Klicken auf die Schaltfläche ![](../../assets/dock-icons-close.png) <b>Schließen</b> geschlossen werden.
+Ein beliebiges Dock kann durch Klicken auf die Schaltfläche ![](customizing-your-workspace.resources/customizing-your-workspace-15.png) <b>Schließen</b> geschlossen werden.
 
 ## Oberflächenlayout zurücksetzen
 
@@ -144,4 +144,4 @@ Die gesamte Benutzeroberfläche kann auf das Standardlayout zurückgesetzt werde
 
 Ihr Anzeigestatus wird ebenfalls zurückgesetzt, was bedeutet, dass geschlossene Docks *erneut geöffnet* (z. B. 3D-Ansicht) und angezeigte Docks *geschlossen* (z. B. Konsole, Abhängigkeitsmanager, von Plug-ins erstellte Docks) sein können.
 
-![Layout zurücksetzen](../../assets/interface-customisation-reset.gif "Layout zurücksetzen")
+![Layout zurücksetzen](customizing-your-workspace.resources/customizing-your-workspace-16.gif "Layout zurücksetzen")

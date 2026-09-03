@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Pfade-Polygon
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 2%
+source-wordcount: '110'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/paths-polygon-icon.png "Knotensymbol")
+![Knotensymbol](paths-polygon.resources/paths-polygon-01.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Path Tools
 
@@ -41,16 +41,21 @@ Verwenden Sie den Knoten [Pfad 2D transformieren](../../../../../../compositing-
 </tr>
 </table>
 
-## Ausgangsanschlüsse
+<a name="outputs"></a>
 
-<b>Pfade</b> *Farbe*\
-Enthält eine Liste mit einem codierten Pfad und einer Liste mit codierten Segmenten.\
-Dies ist nicht dazu bestimmt, direkt verwendet oder geändert zu werden. Suchen Sie nach Pfaden, um kompatible Knoten zu finden.
+## Ausgaben
+
+|  |  |
+|:---|:---|
+| <b>Pfade</b> <i>Farbe</i> | Enthält eine Liste mit einem codierten Pfad und einer Liste mit codierten Segmenten.<br>Dies ist nicht für die direkte Verwendung oder Änderung vorgesehen. Suchen Sie nach Pfaden, um kompatible Knoten zu finden. |
+
+<a name="parameters"></a>
 
 ## Parameter
 
-<b>Anzahl der Seiten</b> *Integer*\
-Tipp: Geben Sie einen Wert zwischen 100 und 1000 ein, um einen Kreis zu erstellen.
+|  |  |
+|:---|:---|
+| <b>Anzahl der Seiten</b> <i>Integer</i> | Tipp: Geben Sie einen Wert zwischen 100 und 1000 ein, um einen Kreis zu erstellen. |
 
 ## Beispiele
 
@@ -58,12 +63,12 @@ Tipp: Geben Sie einen Wert zwischen 100 und 1000 ein, um einen Kreis zu erstelle
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](../../../../../../assets/PathsPolygon_Variant1_1.jpg "Knotenbeispiel 1")
+![Knotenbeispiel 1](paths-polygon.resources/paths-polygon-02.jpg "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](../../../../../../assets/PathsPolygon_Variant2.jpg "Knotenbeispiel 2")
+![Knotenbeispiel 2](paths-polygon.resources/paths-polygon-03.jpg "Knotenbeispiel 2")
 
 </td>
 </tr>

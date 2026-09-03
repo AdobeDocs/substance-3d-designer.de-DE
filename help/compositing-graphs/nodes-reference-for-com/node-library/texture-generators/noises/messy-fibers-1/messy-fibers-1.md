@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Unsaubere Fasern 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 2%
+source-wordcount: '326'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Schmutzige Fasern 1 - Symbol](../../../../../../assets/messy_fibers_1.png "Schmutzige Fasern 1 - Symbol"){width="200px"}
+![Schmutzige Fasern 1 - Symbol](messy-fibers-1.resources/messy-fibers-1-01.png "Schmutzige Fasern 1 - Symbol"){width="200px"}
 
 <b>In:</b> Texturgeneratoren > Rauschen
 
@@ -41,46 +41,30 @@ Siehe auch: [Schmutzige Fasern 2](../../../../../../compositing-graphs/nodes-ref
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Ausgaben
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameter
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Beispiele
-
-</td>
-</tr>
-</table>
+<a name="outputs"></a>
 
 ## Ausgaben
 
 |  |  |
-| --- | --- |
-| <b>Ausgabe</b> *Graustufen* | Das erzeugte Rauschen als Graustufen-Bitmap. |
+|:---|:---|
+| <b>Ausgabe</b> <i>Graustufen</i> | Das erzeugte Rauschen als Graustufen-Bitmap. |
+
+<a name="parameters"></a>
 
 ## Parameter
 
 |  |  |
-| --- | --- |
-| <b>Skalierung</b> Ganze Zahl | Die Unterteilung des Rasters, das zum Erzeugen der Rauschkacheln verwendet wird.    Ein höherer Wert führt dazu, dass mehr Kacheln gezeichnet werden und das Rauschen dichter ist. |
-| <b>Störung</b> Float | Versetzt die Bestandteile des Rauschens.    So kannst du das Rauschen animieren. |
-| <b>Störungsgeschwindigkeit</b> Gleitend | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.    Mit dieser Option können Sie die Geschwindigkeit des Versatzes bei der Animation des Rauschens steuern. |
-| <b>Disorder Anisotropie</b> Float | Steuert die Richtungsspanne des Versatzes, der vom <b>Disorder</b>-Parameter angewendet wird, wobei ein höherer Wert zu einer engeren, definierteren Richtung führt.    Die Anisotropie wird durch den Parameter <b>Disorder Direction Angle</b> gesteuert. |
-| <b>Winkel der Anisotropie der Störung</b> Gleitend | Steuert die Richtung des Versatzes, der vom <b>Disorder</b>-Parameter angewendet wird, wenn der Parameter &quot;Disorder Anisotropie&quot; nicht Null ist. |
-| <b>Winkel</b> Gleitend | Der Winkel, der verwendet wird, um die Richtung der Fäden festzulegen, in der Anzahl der Windungen und ausgehend von der horizontalen rechten Seite. |
-| <b>zufälliger Winkel</b> Gleitend | Die maximale Anzahl zufälliger Variationen, die auf den Wert <b>Winkel</b> in der Anzahl der Windungen angewendet werden. |
-| <b>Zeilennummer</b> Gleitkomma | Die Menge der Kachelung, die auf die Grundfäden aufgebracht wird, wobei ein höherer Wert zu dichteren, dünneren Fäden führt. |
-| <b>Kachelversatz</b> Gleitkomma2 | Steuert die Position des Abschnitts der unendlichen Ebene, der zum Rendern des Rauschens verwendet wird. |
-| <b>Nicht quadratische Erweiterung</b> Boolescher Wert | Bei nicht quadratischen Bildern bleibt das erzeugte Kachelquadrat erhalten und erweitert die Rauscherzeugung auf die Grenzen des Bildes. |
+|:---|:---|
+| <b>Skalierung</b> <i>Integer</i> | Die Unterteilung des Rasters, das zum Erzeugen der Rauschkacheln verwendet wird.    Ein höherer Wert führt dazu, dass mehr Kacheln gezeichnet werden und das Rauschen dichter ist. |
+| <b>Störung</b> <i>Gleitend</i> | Versetzt die Bestandteile des Rauschens.    So kannst du das Rauschen animieren. |
+| <b>Störungsgeschwindigkeit</b> <i>Gleitend</i> | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.    Mit dieser Option können Sie die Geschwindigkeit des Versatzes bei der Animation des Rauschens steuern. |
+| <b>Anisotropie der Störung</b> <i>Gleitend</i> | Steuert die Richtungsspanne des Versatzes, der vom <b>Disorder</b>-Parameter angewendet wird, wobei ein höherer Wert zu einer engeren, definierteren Richtung führt.    Die Anisotropie wird durch den Parameter <b>Disorder Direction Angle</b> gesteuert. |
+| <b>Disorder anisotropy angle</b> <i>Gleitend</i> | Steuert die Richtung des Versatzes, der vom <b>Disorder</b>-Parameter angewendet wird, wenn der Parameter &quot;Disorder Anisotropie&quot; nicht Null ist. |
+| <b>Winkel</b> <i>Gleitend</i> | Der Winkel, der verwendet wird, um die Richtung der Fäden festzulegen, in der Anzahl der Windungen und ausgehend von der horizontalen rechten Seite. |
+| <b>zufälliger Winkel</b> <i>Gleitend</i> | Die maximale Anzahl zufälliger Variationen, die auf den Wert <b>Winkel</b> in der Anzahl der Windungen angewendet werden. |
+| <b>Zeilennummer</b> <i>Gleitend</i> | Die Menge der Kachelung, die auf die Grundfäden aufgebracht wird, wobei ein höherer Wert zu dichteren, dünneren Fäden führt. |
+| <b>Kachelversatz</b> <i>Float2</i> | Steuert die Position des Abschnitts der unendlichen Ebene, der zum Rendern des Rauschens verwendet wird. |
+| <b>Nicht quadratische Erweiterung</b> <i>Boolescher Wert</i> | Bei nicht quadratischen Bildern bleibt das erzeugte Kachelquadrat erhalten und erweitert die Rauscherzeugung auf die Grenzen des Bildes. |
 
 ## Beispiele
 
@@ -88,12 +72,12 @@ Siehe auch: [Schmutzige Fasern 2](../../../../../../compositing-graphs/nodes-ref
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Schmutzige Fasern 1 - Symbol](../../../../../../assets/messy_fibers_1_1.png "Schmutzige Fasern 1 - Symbol"){zoomable="yes"}
+![Schmutzige Fasern 1 - Symbol](messy-fibers-1.resources/messy-fibers-1-02.png "Schmutzige Fasern 1 - Symbol"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Schmutzige Fasern 1 - Beispiel 2](../../../../../../assets/noise_messy_fibers_1_v2_speed0.1_aniso0.gif "Schmutzige Fasern 1 - Beispiel 2"){zoomable="yes"}
+![Schmutzige Fasern 1 - Beispiel 2](messy-fibers-1.resources/messy-fibers-1-03.gif "Schmutzige Fasern 1 - Beispiel 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -103,12 +87,12 @@ Siehe auch: [Schmutzige Fasern 2](../../../../../../compositing-graphs/nodes-ref
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Schmutzige Fasern 1 - Beispiel 3](../../../../../../assets/noise_messy_fibers_1_v2_speed0.1_aniso1.gif "Schmutzige Fasern 1 - Beispiel 3"){zoomable="yes"}
+![Schmutzige Fasern 1 - Beispiel 3](messy-fibers-1.resources/messy-fibers-1-04.gif "Schmutzige Fasern 1 - Beispiel 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Schmutzige Fasern 1 - Beispiel 4](../../../../../../assets/noise_messy_fibers_1_v2_speed0.1_aniso0.6.gif "Schmutzige Fasern 1 - Beispiel 4"){zoomable="yes"}
+![Schmutzige Fasern 1 - Beispiel 4](messy-fibers-1.resources/messy-fibers-1-05.gif "Schmutzige Fasern 1 - Beispiel 4"){zoomable="yes"}
 
 </td>
 </tr>

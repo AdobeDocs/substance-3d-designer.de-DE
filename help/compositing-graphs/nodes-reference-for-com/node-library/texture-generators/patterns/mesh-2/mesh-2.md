@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Gitter 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 2%
+source-wordcount: '78'
+ht-degree: 6%
 
 ---
 
@@ -22,35 +22,39 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mesh-2.png){width="128px"}
+![](mesh-2.resources/mesh-2-01.png){width="128px"}
 
-## Gitter 2
-
-**In:** *Texturgeneratoren**/Muster*
-
-**Einfach**
+<b>In:</b> Texturgeneratoren > Muster
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Einfaches Netzmuster mit Fettblöcken. Kann zum Erstellen von Height- und Detailzuordnungen verwendet werden.
 
-## Parameter
-
-* **Anordnen**: *1 - 16*\
-  Legt fest, wie oft das Ergebnis gekachelt werden soll.
-* **Um 45 Grad drehen**: *Falsch/Wahr* Dreht das Ergebnis.
-* **Quadratische Ausbreitung**: *False/True*\
-  Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen.
-
-## Beispielbilder
-
-![](../../../../../../assets/mesh-2-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Kacheln</b> <i>1 - 16</i> | Legt fest, wie oft das Ergebnis gekachelt werden soll. |
+| <b>Um 45 Grad drehen</b> <i>False/True</i> | Dreht das Ergebnis. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="mesh-2.resources/mesh-2-02.gif" />
+        </td>
+    </tr>
 </table>

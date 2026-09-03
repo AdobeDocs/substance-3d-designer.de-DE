@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Umgebungs-Verdeckung (RTAO)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 0%
+source-wordcount: '217'
+ht-degree: 1%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![RTAO-Knotensymbol](../../../../../../assets/rt-ao.png "RTAO-Knotensymbol")
+![RTAO-Knotensymbol](ambient-occlusion-rtao.resources/ambient-occlusion-rtao-01.png "RTAO-Knotensymbol")
 
-<b>In:</b> *Filter/Effekte*
+<b>In:</b> Filters > Effects
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -43,42 +43,29 @@ Eine schnellere und einfachere Alternative finden Sie unter [Umgebungsspannung (
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parameter
 
-<b>Physische Größe verwenden</b> *Boolesch*\
-Verwenden Sie die Einstellung Physische Größe , um die Skalierung des Heights festzulegen.
+|  |  |
+|:---|:---|
+| <b>Physische Größe verwenden</b> <i>Boolescher Wert</i> | Verwenden Sie die Einstellung Physische Größe , um die Skalierung des Heights festzulegen. |
+| <b>Physische Größe</b> <i>Float3</i> <i>(Verfügbar, wenn <b>Physische Größe </b> verwenden auf <i>Wahr</i> festgelegt ist)</i> | Passt den Maßstab des Heights an die tatsächliche Physische Größe der Fläche an. |
+| <b>Beispiele</b> <i>Integer</i> | Die Anzahl der Strahlen, die zur Berechnung der ambient occlusion verwendet werden.<br>Ein höherer Wert sorgt für ein glatteres und präziseres Ergebnis auf Kosten der Leistung. |
+| <b>Height-Skalierung</b> <i>Gleitend</i> <i>(Verfügbar, wenn <b>Physische Größe </b> verwenden auf <i>Falsch</i> festgelegt ist)</i> | Multiplikator für die Intensität des Height-Map-Eingangs. |
+| <b>Verteilung</b> <i>Integer</i> | Legt die Verteilungsmethode fest. Auswirkungen auf die Abnahme von Schattenbereichen, |
+| <b>Maximale Entfernung</b> <i>Gleitend</i> | Legt die maximale Entfernung fest, die Strahlen zurücklegen können. |
+| <b>Spread Angle</b> <i>Gleitend</i> | Legt den Ausbreitungswinkel für die Strahlen fest, auf die geschossen werden soll. Ein Wert von 1 ist eine ganze Hemisphäre. |
 
-<b>Physische Größe</b> *Float3* (verfügbar, wenn <b>Physische Größe </b> verwenden auf *Wahr* festgelegt ist)\
-Passt den Maßstab des Heights an die tatsächliche Physische Größe der Fläche an.
+## Beispiele
 
-<b>Beispiele </b>*Ganzzahl*\
-Die Anzahl der Strahlen, die zur Berechnung der Umgebungs-Verdeckung verwendet werden.\
-Ein höherer Wert sorgt für ein glatteres und präziseres Ergebnis auf Kosten der Leistung.
-
-<b>Height-Skalierung</b> *Gleitkomma* (verfügbar, wenn <b>Physische Größe verwenden</b> auf *Falsch* festgelegt ist)\
-Multiplikator für die Intensität des Height-Map-Eingangs.
-
-<b>Distribution</b> *Integer* Legt die Verteilungsmethode fest. Auswirkungen auf die Abnahme von Schattenbereichen,
-
-<b>Maximale Entfernung</b> *Gleitend*\
-Legt die maximale Entfernung fest, die Strahlen zurücklegen können.
-
-<b>Spread Angle</b> *Float*\
-Legt den Ausbreitungswinkel für die Strahlen fest, auf die geschossen werden soll. Ein Wert von 1 ist eine ganze Hemisphäre.
-
-## Beispielbilder
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![RTAO-Knoten - Beispiel 1](../../../../../../assets/image2021-6-18-11-7-48.png "RTAO-Knoten - Beispiel 1")
-
-</td>
-<td style="border: 0;" valign="top">
-
-![RTAO-Knoten - Beispiel 2](../../../../../../assets/image2021-6-18-11-9-0-1.png "RTAO-Knoten - Beispiel 2")
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="ambient-occlusion-rtao.resources/ambient-occlusion-rtao-02.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="ambient-occlusion-rtao.resources/ambient-occlusion-rtao-03.png" />
+        </td>
+    </tr>
 </table>

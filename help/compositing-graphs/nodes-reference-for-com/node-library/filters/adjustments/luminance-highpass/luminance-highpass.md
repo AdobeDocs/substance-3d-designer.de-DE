@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Luminanzhochpass
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 6%
+source-wordcount: '102'
+ht-degree: 9%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 6%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/luminance-highpass.png){width="128px"}
+![](luminance-highpass.resources/luminance-highpass-01.png){width="128px"}
 
-## Luminanzhochpass
-
-**In:** *Filter/Korrekturen*
-
-**Einfach**
+<b>In:</b> Filters > Adjustments
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,16 +37,24 @@ Bricht Beleuchtungsinformationen ab, indem ein [Hochpass](../../../../../../comp
 
 Erweist sich als etwas besser bei der Farberhaltung als [Beleuchtung Niederfrequenzen abbrechen](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/lighting-cancel-low-fre/lighting-cancel-low-frequencies.md)
 
-## Parameter
-
-* **Radius**: *0.0 - 64.0* Radius des Hochpasseffekts. Ein kleinerer Radius annulliert eine kleinere Beleuchtung und passt sie an die Eingabebilder an.
-
-## Beispielbilder
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/luminance-highpass-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Radius</b> <i>0.0 - 64.0</i> | Radius des Hochpasseffekts. Ein kleinerer Radius annulliert eine kleinere Beleuchtung und passt sie an die Eingabebilder an. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="luminance-highpass.resources/luminance-highpass-02.png" />
+        </td>
+    </tr>
 </table>

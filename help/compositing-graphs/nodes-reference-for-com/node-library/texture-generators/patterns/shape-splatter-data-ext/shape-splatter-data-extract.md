@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Extrahieren von Shape Splatter-Daten
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 3%
+source-wordcount: '71'
+ht-degree: 2%
 
 ---
 
@@ -22,32 +22,28 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-splatter-data-extract.png){width="128px"}
+![](shape-splatter-data-extract.resources/shape-splatter-data-extract-01.png){width="128px"}
 
-## Extrahieren von Shape Splatter-Daten
-
-**In:** *Texturgeneratoren**/Muster*
-
-**Komplex**
+<b>In:</b> Texturgeneratoren > Muster
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Datentrennungs-/Splitterdienstprogramm für [Shape Splatter](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md)-Daten. Ermöglicht das Konvertieren und Anzeigen einzelner Daten, um benutzerdefinierte Berechnungen durchzuführen, Daten zu überprüfen oder mehr über Shape Splatter zu erfahren.
 
-## Parameter
-
-### Eingaben
-
-* **Splatter-Daten 1**: *Farbeingabe*
-* **Splatter-Daten 2**: *Farbeingabe*
-
-*Keine Parameter.*
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Splatter-Daten 1</b> <i>Farbeingabe</i> |  |
+| <b>Splatter-Daten 2</b> <i>Farbeingabe</i> |  |

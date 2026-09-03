@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Liquid
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 2%
+source-wordcount: '93'
+ht-degree: 9%
 
 ---
 
@@ -22,38 +22,40 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/liquid.png){width="128px"}
+![](liquid.resources/liquid-01.png){width="128px"}
 
-## Liquid
-
-**In:** *Texturgeneratoren**/Noises*
-
-**Einfach**
+<b>In:</b> Textur Generators > Rauschen
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Dies ist eine einfache Variante des [Gaußschen Rauschens](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md), das [sich &#x200B;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) selbst verkrümmt, um einen flüssigkeitsähnlichen Effekt zu erzeugen.
 
-## Parameter
-
-* **Skalierung**: *1 - 128*\
-  Legt die globale Skalierung für den Effekt fest.
-* **Störung**: *0.0 - 1.0*\
-  Phasenverschiebung des Rauschens, um kleine Schwankungen zu erzeugen
-* **Verkrümmungsintensität**: *0.0 - 1.0*\
-  Legt die Intensität des Verkrümmungseffekts fest.
-* **Quadratische Ausbreitung**: *False/True*\
-  Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen.
-
-## Beispielbilder
-
-![](../../../../../../assets/liquid-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Skalierung</b> <i>1 - 128</i> | Legt die globale Skalierung für den Effekt fest. |
+| <b>Störung</b> <i>0.0 - 1.0</i> | Phasenverschiebung des Rauschens, um kleine Schwankungen zu erzeugen |
+| <b>Verkrümmungsintensität</b> <i>0.0 - 1.0</i> | Legt die Intensität des Verkrümmungseffekts fest. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="liquid.resources/liquid-02.gif" />
+        </td>
+    </tr>
 </table>

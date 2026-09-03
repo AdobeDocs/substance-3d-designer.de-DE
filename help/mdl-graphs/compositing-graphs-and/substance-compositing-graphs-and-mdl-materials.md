@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Substance-Grafiken und MDL-Materialien
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '713'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Auf dieser Seite werden die Synergien zwischen [Substance-Graphen](../../composi
 
 Die Ausgaben von Substance-Graphen können *auf zwei Arten an exponierte Parameter* von MDL-Materialien übergeben werden, die auf dieser Seite beschrieben werden.
 
-Wenn das MDL-Material, das derzeit in der 3D-Ansicht angewendet wird, exponierte Parameter aufweist, deren Typ *[variierend](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)* ist - dieser Typ kann mithilfe der Option <b>Typ-Modifizierer</b> in den Eigenschaften des [exponierten Parameters](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html) festgelegt werden, können diese mit *Texturen* verbunden werden:
+Wenn das derzeit in der 3D-Ansicht angewendete MDL-Material freigelegte Parameter mit dem Typ *[variierend](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)* enthält - dieser Typ kann mithilfe der Option <b>Typ-Modifizierer</b> in den Eigenschaften von [freigelegte Parameter](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) festgelegt werden -, können diese mit *Texturen* verbunden werden:
 
 * Ein <b>Color</b>-Parameter kann mit RGBA-Texturen verbunden werden.
 * einen <b>Float</b>-Parameter für Graustufenstrukturen
@@ -39,7 +39,7 @@ Wenn Sie die Option <b>View ausgaben in 3D View</b> für ein Substance-Diagramm 
 
 Einzelne Texturen aus einem Substance-Graphen können mit einem beliebigen MDL-Materialparameter verbunden werden, der die Texturabtastung unterstützt, unabhängig von der Kennung, indem RMB auf dem Substance-Graphknoten gedrückt und in die 3D-Ansicht gezogen wird. Es wird eine Liste der verfügbaren Samplerverwendungen angezeigt, und Sie können die Zielverwendung für die ausgewählte Textur auswählen.
 
-![Verfügbare MDL-Diagrammeingaben](../../assets/mdl-graph-inputs-samplers.png "Verfügbare MDL-Diagrammeingaben")
+![Verfügbare MDL-Diagrammeingaben](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-01.png "Verfügbare MDL-Diagrammeingaben")
 
 *Die von einem Substance-Diagramm ausgegebenen Texturen sind mit den exponierten Parametern eines MDL-Diagramms in der 3D-Ansicht verbunden*
 
@@ -48,7 +48,7 @@ Einzelne Texturen aus einem Substance-Graphen können mit einem beliebigen MDL-M
 Substance-Diagramminstanzen können direkt in MDL-platziert werden, indem sie aus dem Bedienfeld <b>Explorer</b> in das MDL-Diagramm gezogen werden. In MDL-Substance können Diagramme aus <b>Substance 3D-Dateien</b> (SBS) und <b>Substance 3D-Asset-Dateien</b> (SBSAR) verwendet werden.
 
 +++Substance aus Substance 3D-Datei (SBS)
-![Substance-Diagramm aus SBS-Datei im MDL-Diagramm](../../assets/mdl-sbs-instance-hl.png "Substance-Diagramm aus SBS-Datei im MDL-Diagramm")
+![Substance-Diagramm aus SBS-Datei im MDL-Diagramm](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-02.png "Substance-Diagramm aus SBS-Datei im MDL-Diagramm")
 
 
 
@@ -57,11 +57,11 @@ Substance-Diagramminstanzen können direkt in MDL-platziert werden, indem sie au
 +++
 
 +++Substance-Diagramm aus Substance 3D-Element (SBSAR)
-![Substance-Diagramm aus SBSAR-Datei im MDL-Diagramm](../../assets/mdl-sbsar-instance-hl.png "Substance-Diagramm aus SBSAR-Datei im MDL-Diagramm")
+![Substance-Diagramm aus SBSAR-Datei im MDL-Diagramm](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-03.png "Substance-Diagramm aus SBSAR-Datei im MDL-Diagramm")
 
 
 
-*[Substance-Graph &#x200B;](../../compositing-graphs/substance-compositing-graphs.md)-Instanz aus [Substance 3D-Asset &#x200B;](../../getting-started/overview/overview.md) (SBSAR) im MDL-Graph*
+*[Substance Graf](../../compositing-graphs/substance-compositing-graphs.md) Instanz aus [Substance 3D Asset](../../getting-started/overview/overview.md) (SBSAR) in MDL-Diagramm*
 
 +++
 

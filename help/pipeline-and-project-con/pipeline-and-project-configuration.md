@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pipeline- und Projektkonfiguration
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Pipeline- und Projektkonfiguration
 
-Substance 3D Designer verfügt über ein leistungsstarkes System zum Konfigurieren der Anwendung für die Pipelinenutzung. Über ein erweitertes System hierarchischer &quot;**Project**&quot;-Dateien kann die Anwendung sofort für Studio- oder Projektstandards konfiguriert werden, wobei alle Konfigurationen und Bibliotheksinhalte der Versionskontrolle unterliegen. Das Hauptziel des Systems besteht darin, alle Pipeline-relevanten Einstellungen zu zentralisieren, gleichzeitig jedoch mehrere Konfigurationen zu überschreiben und sich gegenseitig zu erweitern.
+Substance 3D Designer verfügt über ein leistungsstarkes System zum Konfigurieren der Anwendung für die Pipelinenutzung. Über ein erweitertes System hierarchischer &quot;**Project**&quot;-Dateien kann die Anwendung sofort gemäß Studio- oder Projektstandards konfiguriert werden, wobei alle Konfigurationen und Bibliotheksinhalte unter Versionskontrolle stehen. Das Hauptziel des Systems besteht darin, alle Pipeline-relevanten Einstellungen zu zentralisieren, gleichzeitig jedoch mehrere Konfigurationen zu überschreiben und sich gegenseitig zu erweitern.
 
 >[!WARNING]
 >
@@ -39,7 +39,7 @@ Die Abbildung veranschaulicht die Beziehung zwischen den verschiedenen Dateien i
 </td>
 <td style="border: 0;" valign="top">
 
-![Hierarchie der Konfigurationsdateien](../assets/filestructureoverview.png "Hierarchie der Konfigurationsdateien")
+![Hierarchie der Konfigurationsdateien](pipeline-and-project-configuration.resources/pipeline-and-project-configuration-01.png "Hierarchie der Konfigurationsdateien")
 
 </td>
 </tr>

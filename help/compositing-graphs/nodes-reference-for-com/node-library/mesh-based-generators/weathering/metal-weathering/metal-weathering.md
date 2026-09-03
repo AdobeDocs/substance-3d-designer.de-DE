@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Metallverwitterung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 1%
+source-wordcount: '284'
+ht-degree: 14%
 
 ---
 
@@ -22,83 +22,64 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/metal-weathering.png){width="128px"}
+![](metal-weathering.resources/metal-weathering-01.png){width="128px"}
 
-## Metallverwitterung
-
-**In:** *Mesh-basierte Generatoren**/Wetter*
-
-**Komplex**
+<b>In:</b> Mesh-basierte Generatoren > Verwitterung
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
-
-## Parameter
-
-### Eingaben
-
-* **Normaler WS**: *Farbeingabe*\
-  Baked World Space Normalmap wird für interne Effekte und Maskierung verwendet.
-* **Ambient-Verdeckung**: *Graustufen-Eingabe*\
-  Durch Baking erzeugte Map für interne Effekte und Maskierung.
-* **Maske** : *Graustufen-Eingabe*\
-  Maskenschlitz zum Maskieren der Knoteneffekte. Mit dem Parameter &quot;Maske&quot; umschaltbar.
-
-### Parameter
-
-* **Kanäle**
-  * Schalten Sie die Materialkanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanzkarten anstelle von &quot;Metallisch/Raueit&quot; verwenden.
-* **Erweitert**
-  * **Normales Format**: *Direct X, Open GL*\
-    Wechselt zwischen verschiedenen Normalmap-Formaten (invertiert den grünen Kanal).
-  * **Maske**: *False/True*\
-    Schaltet die Verwendung der Maskenkarte ein oder aus.
-* **Effekt**
-  * **Dust**: *0.0 - 1.0*
-  * **Schmutzigkeit**: *0.0 - 1.0*
-  * **Kanten, die** tragen: *0.0 - 1.0*
-  * **Farbe schälen**: *0.0 - 1.0*
-  * **Rost**: *0.0 - 1.0*
-  * **Rost-Peeling**: *0.0 - 1.0*
-  * **Rost Verdigris**: *Rost, Verdigris*
-  * **Skalierung der Paint-Risse**: *1.0 - 16.0*
-  * **Verkrümmungsintensität der Risse**: *0.0 - 1.0*
-  * **Scratches mit scharfen Kanten skalieren**: *1.0 - 32.0*
-  * **Intensität der Verkrümmung der scharfen Kanten der Scratches**: *0.0 - 1.0*
-  * **Rohmetallfarbe**: *(Farbwert)*
-  * **Raw Metal Specular Color**: *(Farbwert)*
-  * **Rohmetall-Glanzwert**: *(Graustufenwert)*
-  * **Rohmetallrauheitswert**: *(Graustufenwert)*
-* **Überblenden**
-  * **Diffuse Intensität**: *0.0 - 1.0*\
-    Mischungsstärke des Diffusors.
-  * **Grundfarbintensität**: *0.0 - 1.0*\
-    Mischungsstärke der Grundfarbe.
-  * **Normalintensität**: *0.0 - 64.0*\
-    Die Füllkraft von &quot;Normal&quot;.
-  * **Specular-Intensität**: *0.0 - 1.0*\
-    Die Stärke des Speculars.
-  * **Glanzintensität**: *0.0 - 1.0*\
-    Die Stärke des Glanzes beim Mischen.
-  * **Intensität der Raueit**: *0.0 - 1.0*\
-    Die Stärke der Raueit.
-  * **Metallische Intensität**: *0.0 - 1.0*\
-    Mischfestigkeit des Metallic.
-  * **Umgebungsintensität der Verdeckung**: *0.0 - 1.0*\
-    Mischfestigkeit der Ambient-Verdeckung.
-  * **Height-Intensität**: *0.0 - 1.0*\
-    Die Stärke des Heights beim Mischen.
-
-## Beispielbilder
-
-|  |
-| --- |
-| Es sind keine Bilder an diese Seite angehängt. |
 
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Normaler WS</b> <i>Farbeingabe</i> | Baked World Space Normalmap wird für interne Effekte und Maskierung verwendet. |
+| <b>Umgebungs-Verdeckung</b> <i>Graustufen-Eingabe</i> | Durch Baking erzeugte Map für interne Effekte und Maskierung. |
+| <b>Maske</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. Mit dem Parameter &quot;Maske&quot; umschaltbar. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Kanäle</b> | Schalten Sie die Materialkanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanzkarten anstelle von &quot;Metallisch/Raueit&quot; verwenden. |
+| <b>Erweitert</b> |  |
+| <b>Normales Format</b> <i>Direct X, Open GL</i> | Wechselt zwischen verschiedenen Normalmap-Formaten (invertiert den grünen Kanal). |
+| <b>Maske</b> <i>False/True</i> | Schaltet die Verwendung der Maskenkarte ein oder aus. |
+| <b>Effekt</b> |  |
+| <b>Dust</b> <i>0.0 - 1.0</i> |  |
+| <b>Schmutzigkeit</b> <i>0.0 - 1.0</i> |  |
+| <b>Kanten, die </b> tragen <i>0.0 - 1.0</i> |  |
+| <b>Malen Peeling</b> <i>0.0 - 1.0</i> |  |
+| <b>Rost</b> <i>0.0 - 1.0</i> |  |
+| <b>Rost-Peeling</b> <i>0.0 - 1.0</i> |  |
+| <b>Rost Verdigris</b> <i>Rost, Verdigris</i> |  |
+| <b>Skalierung von Malen-Rissen</b> <i>1.0 - 16.0</i> |  |
+| <b>Verkrümmungsintensität der Malen-Risse</b> <i>0.0 - 1.0</i> |  |
+| <b>Scratches mit scharfen Kanten skalieren</b> <i>1.0 - 32.0</i> |  |
+| <b>Intensität der Verkrümmung der scharfen Kanten der Scratches</b> <i>0.0 - 1.0</i> |  |
+| <b>Rohmetallfarbe</b> <i>(Farbwert)</i> |  |
+| <b>Specular-Rohmetallfarbe</b> <i>(Farbwert)</i> |  |
+| <b>Wert des Raw Metal-Glanzes</b> <i>(Graustufenwert)</i> |  |
+| <b>Wert für die Rauheit von Rohmetallen</b> <i>(Graustufenwert)</i> |  |
+| <b>Überblenden</b> |  |
+| <b>Diffuse-Intensität</b> <i>0.0 - 1.0</i> | Mischungsstärke des Diffusors. |
+| <b>Intensität der Grundfarbe</b> <i>0.0 - 1.0</i> | Mischungsstärke der Grundfarbe. |
+| <b>Normalintensität</b> <i>0.0 - 64.0</i> | Die Füllkraft von &quot;Normal&quot;. |
+| <b>Specular-Intensität</b> <i>0.0 - 1.0</i> | Die Stärke des Speculars. |
+| <b>Glanz-Intensität</b> <i>0.0 - 1.0</i> | Die Stärke des Glanzes beim Mischen. |
+| <b>Intensität der Rauheit</b> <i>0.0 - 1.0</i> | Die Stärke der Raueit. |
+| <b>Metallic Intensität</b> <i>0.0 - 1.0</i> | Mischfestigkeit des Metallic. |
+| <b>Ambient occlusion-Intensität</b> <i>0.0 - 1.0</i> | Mischfestigkeit der Ambient-Verdeckung. |
+| <b>Height-Intensität</b> <i>0.0 - 1.0</i> | Die Stärke des Heights beim Mischen. |

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Parameter verwalten
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
@@ -46,7 +46,7 @@ Wenn die Eigenschaften eines Knotens im Eigenschaften-Dock angezeigt werden, kö
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Globales Menü &quot;Parameter verwalten&quot; in den Eigenschaften](../../assets/manage-parameters-menu-global.png "Globales Menü &quot;Parameter verwalten&quot; in den Eigenschaften"){zoomable="yes"}
+![Globales Menü &quot;Parameter verwalten&quot; in den Eigenschaften](manage-parameters.resources/manage-parameters-01.png "Globales Menü &quot;Parameter verwalten&quot; in den Eigenschaften"){zoomable="yes"}
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ Wenn Sie einen *single*-Parameter verwalten möchten, verwenden Sie das Menü &q
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Lokales Menü &quot;Parameter verwalten&quot; in den Eigenschaften](../../assets/manage-parameters-menu.png "Lokales Menü &quot;Parameter verwalten&quot; in den Eigenschaften"){zoomable="yes"}
+![Lokales Menü &quot;Parameter verwalten&quot; in den Eigenschaften](manage-parameters.resources/manage-parameters-02.png "Lokales Menü &quot;Parameter verwalten&quot; in den Eigenschaften"){zoomable="yes"}
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Für dieses Menü gelten die unten aufgeführten Einschränkungen für atomare K
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-Menü &quot;Parameter verwalten&quot; von ![&#x200B; im Knotenkontextmenü &#x200B;](../../assets/manage-parameters-node-menu.png " im Knotenkontextmenü "){zoomable="yes"} im Menü &quot;Parameter verwalten&quot;
+Menü &quot;Parameter verwalten&quot; von ![&#x200B; im Knotenkontextmenü &#x200B;](manage-parameters.resources/manage-parameters-03.png " im Knotenkontextmenü "){zoomable="yes"} im Menü &quot;Parameter verwalten&quot;
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ Diese Funktion funktioniert genauso wie die Verwendung einer [Parametervoreinste
 </td>
 <td style="border: 0;" valign="top">
 
-![Parameter kopieren und einfügen](../../assets/copy-paste-parameters.gif "Parameter kopieren und einfügen"){zoomable="yes"}
+![Parameter kopieren und einfügen](manage-parameters.resources/manage-parameters-04.gif "Parameter kopieren und einfügen"){zoomable="yes"}
 
 </td>
 </tr>

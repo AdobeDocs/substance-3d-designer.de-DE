@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Spline (Kubisch)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/spline-cubic-icon.png "Knotensymbol")
+![Knotensymbol](spline-cubic.resources/spline-cubic-01.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -41,122 +41,59 @@ Die Trajektorie der Spline wird durch die &quot;out&quot;-Tangente von <b>p1</b>
 </tr>
 </table>
 
-## Eingangsanschlüsse
+<a name="inputs"></a>
 
-<b>Vorschau</b> *Graustufen* Die Vorschau der Eingabe-Splines als Graustufenbild.
+## Eingaben
 
-<b>Spline-Kabel</b> *Farbe* Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Eingabesplines:\
-<b> R</b> - X-Position\
-<b> G</b> - Y-Position\
-<b> B</b> - Height\
-<b>A</b> - Paketdaten:\
-* Signieren: Die Spline ist geschlossen (negativ) oder offen (positiv).\
-* Absoluter Wert: Thickness + 1.
+|  |  |
+|:---|:---|
+| <b>Vorschau</b> <i>Graustufen</i> | Die Vorschau der Eingabe-Splines als Graustufenbild. |
+| <b>Spline-Kabel</b> <i>Farbe</i> | Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Eingabesplines:<br><b>R</b> - X position<br><b>G</b> - Y position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>- Sign: Spline ist geschlossen (negativ) oder offen (positiv);<br>- Absolute Wert: Thickness + 1. |
+| <b>Spline-Daten</b> <i>Farbe</i> | Zusätzliche Daten der Eingabe-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.<br><b>R</b> - Tangenten X<br><b>G</b> - Tangenten Y<br><b>B</b> - Nicht verwendet<br><b>A</b> - Nicht verwendet |
+| <b>Spline-Betrag</b> <i>Integer</i> | Die Anzahl der Eingabe-Splines. |
 
-<b>Spline-Daten</b> *Farbe* Zusätzliche Daten der Eingabe-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.\
-<b> R</b> - Tangenten X\
-<b> G</b> - Tangenten Y\
-<b> B</b> - Nicht verwendet\
-<b> A</b> - Nicht verwendet
+<a name="outputs"></a>
 
-<b>Spline-Betrag</b> *Integer* Die Anzahl der Eingabe-Splines.
+## Ausgaben
 
-## Ausgangsanschlüsse
+|  |  |
+|:---|:---|
+| <b>Vorschau</b> <i>Graustufen</i> | Die Vorschau der Ausgabe-Splines als Graustufenbild. |
+| <b>Spline-Kabel</b> <i>Farbe</i> | Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Ausgabesplines.<br><b>R</b> - X-Position<br><b>G</b> - Y-Position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>- Sign: Spline ist geschlossen (negativ) oder offen (positiv);<br>- Absolute Wert: Thickness + 1. |
+| <b>Spline-Daten</b> <i>Farbe</i> | Zusätzliche Daten der in den RGBA-Kanälen eines Farbbilds codierten Ausgabe-Splines.<br><b>R</b> - Tangenten X<br><b>G</b> - Tangenten Y<br><b>B</b> - Nicht verwendet<br><b>A</b> - Nicht verwendet |
+| <b>Spline-Betrag</b> <i>Integer</i> | Die Anzahl der Ausgabe-Splines. |
 
-<b>Vorschau</b> *Graustufen* Die Vorschau der Ausgabe-Splines als Graustufenbild.
-
-<b>Spline-Kabel</b> *Farbe* Die Koordinaten der Punkte der Ausgabesplines, die in den RGBA-Kanälen eines Farbbildes codiert sind.\
-<b>R</b> - X-Position\
-<b>G</b> - Y-Position\
-<b>B</b> - Height\
-<b>A</b> - Paketdaten:\
-* Signieren: Die Spline ist geschlossen (negativ) oder offen (positiv).\
-* Absoluter Wert: Thickness + 1.
-
-<b>Spline-Daten</b> *Farbe* Zusätzliche Daten der Ausgabe-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.\
-<b>R</b> - Tangenten X\
-<b>G</b> - Tangenten Y\
-<b>B</b> - Nicht verwendet\
-<b>A</b> - Nicht verwendet
-
-<b>Spline-Betrag</b> *Integer* Die Anzahl der Ausgabe-Splines.
+<a name="parameters"></a>
 
 ## Parameter
 
-<b>Richtung spiegeln</b> *Boolescher Wert*\
-Kehrt die Richtung des Spline um.
-
-<b>Spline anfügen</b> *Boolescher Wert*\
-Fügt den generierten Spline am Ende der Liste der Splines hinzu, die mit den <b>Spline</b>-Eingängen verbunden sind.
-
-<b>Nicht-quadratische Korrektur </b>*Boolesch* Passen Sie die Punktpositionen und die Thickness an, um die Spline-Form in nicht-quadratischen Auflösungen beizubehalten.\
-Dies wirkt sich auch auf die einheitliche Verteilung aus.
-
-+++Höhe
-<b>Height starten</b> *Gleitend* Passt das Height des p1-Punktes an, wenn ein niedrigerer Wert eine niedrigere oder tiefere Position bedeutet.\
-Dies wirkt sich auf das Height des Splines bei p1 aus.
-
-<b>Height beenden</b> *Gleitend* Passt das Height des p2-Punktes an, wenn ein niedrigerer Wert eine niedrigere oder tiefere Position bedeutet.\
-Dies wirkt sich auf die Thickness des Splines bei p2 aus.
-
-<b>Automatisches Tangenten-Height</b> *Boolean* Legt automatisch das Height der Spline-Tangenten fest, das linear vom Height &quot;Anfang&quot; zum Height &quot;Ende&quot; interpoliert wird.
-
-<b>p1 Tangent-Height</b> *Float* (verfügbar, wenn &quot;Auto Tangent Height&quot; &quot;True&quot; ist)\
-Passt das Height der Tangente des p1-Punkts &quot;out&quot; an, wenn ein niedrigerer Wert eine niedrigere oder tiefere Position bedeutet.\
-Dies wirkt sich auf das Height entlang des Splines aus, wenn es von p1 weggezogen wird.
-
-<b>p2 Tangent-Height</b> *Float* (verfügbar, wenn &quot;Auto Tangent Height&quot; &quot;True&quot; ist)\
-Passt das Height der Tangente des p2-Punkts &quot;in&quot; an, wenn ein niedrigerer Wert eine niedrigere oder tiefere Position bedeutet.\
-Dies wirkt sich auf das Height entlang des Splines aus, wenn es von p2 weggezogen wird.
-
-+++
-
-+++Stärke
-<b>Thickness starten</b> *Gleitend* Passt die Thickness des p1-Punkts an.\
-Dies wirkt sich auf die Thickness des Splines bei p1 aus.\
-Hinweis: Thickness wird von bestimmten Spline-Knoten verwendet.
-
-<b>Thickness beenden</b> *Gleitend* Passt die Thickness des p2-Punkts an.\
-Dies wirkt sich auf die Thickness des Splines bei p2 aus.\
-Hinweis: Thickness wird von bestimmten Spline-Knoten verwendet.
-
-<b>Automatische Tangent-Thickness</b> *Boolean* Setzt die Thickness der Spline-Tangenten automatisch so, dass sie linear von der Start-Thickness zur End-Thickness interpoliert werden.\
-Hinweis: Thickness wird von bestimmten Spline-Knoten verwendet.
-
-<b>p1 Tangent-Thickness</b> *Float* (verfügbar, wenn &quot;Automatische Tangente-Thickness&quot; &quot;True&quot; ist)\
-Passt die Thickness der Tangente des p1-Punkts an.\
-Dies wirkt sich auf die Thickness entlang des Splines aus, wenn sie von p1 weggezogen wird.\
-Hinweis: Thickness wird von bestimmten Spline-Knoten verwendet.
-
-<b>p2 Tangent-Thickness</b> *Float* (verfügbar, wenn &quot;Automatische Tangente-Thickness&quot; &quot;True&quot; ist)\
-Passt die Thickness der Tangente des p2-Punktes &quot;in&quot; an.\
-Dies wirkt sich auf die Thickness entlang des Splines aus, wenn sie von p2 weggezogen wird.\
-Hinweis: Thickness wird von bestimmten Spline-Knoten verwendet.
-
-+++
-
-+++Punktkoordinaten
-<b>p1</b> *Float2* Legt die Position des p1-Punkts im Texturraum fest.
-
-<b>p1 Tangente</b> *Float2* Legt die Position des Tangentengriffs &quot;out&quot; des p1-Punkts im Texturraum fest.
-
-<b>p2</b> *Float2* Legt die Position des p2-Punkts im Texturraum fest.
-
-<b>p2 Tangente</b> *Float2* Legt die Position des Tangentengriffs &quot;in&quot; des p2-Punkts im Texturraum fest.
-
-+++
-
-+++Vorschau
-<b>Tangenten anzeigen</b> *Boolesch* Zeigt die Tangente &quot;out&quot; für den p1-Punkt und die Tangente &quot;in&quot; für den p2-Punkt in der Vorschauausgabe an.
-
-<b>Richtungshelfer anzeigen</b> *Boolescher Wert* Zeigt einen Punkt am Anfang des Splines und eine Pfeilspitze an seinem Ende in der Vorschauausgabe an.
-
-<b>Segmentierungsbetrag</b> *Integer* Passt die Anzahl der Segmente an, die zum Zeichnen der Spline-Visualisierung in der Vorschauausgabe verwendet werden.\
-Je höher der Wert, desto glatter die Linie.
-
-<b>Thickness (px)</b> *Gleitend* Passt die Thickness der Spline-Visualisierung in der Vorschauausgabe in Pixel an.
-
-+++
+|  |  |
+|:---|:---|
+| <b>Richtung spiegeln</b> <i>Boolescher Wert</i> | Kehrt die Richtung des Spline um. |
+| <b>Spline anfügen</b> <i>Boolescher Wert</i> | Fügt den generierten Spline am Ende der Liste der Splines hinzu, die mit den <b>Spline</b>-Eingängen verbunden sind. |
+| <b>Nicht-quadratische Korrektur</b> <i>Boolescher Wert</i> | Passen Sie die Punktpositionen und die Thickness an, um die Spline-Form in nicht quadratischen Auflösungen beizubehalten. Dies wirkt sich auch auf die einheitliche Verteilung aus. |
+| <b>Height</b> |  |
+| <b>Height starten</b> <i>Gleitend</i> | Passt das Height des p1-Punkts an, wenn ein niedrigerer Wert eine niedrigere oder tiefere Position bedeutet. Dies wirkt sich auf das Height des Splines bei p1 aus. |
+| <b>Height beenden</b> <i>Gleitend</i> | Passt das Height des p2-Punkts an, wenn ein niedrigerer Wert eine niedrigere oder tiefere Position bedeutet. Dies wirkt sich auf die Thickness des Splines bei p2 aus. |
+| <b>Automatisches Tangenten-Height</b> <i>Boolescher Wert</i> | Setzt das Height der Spline-Tangenten automatisch so, dass es linear vom Height &quot;Anfang&quot; zum Height &quot;Ende&quot; interpoliert wird. |
+| <b>p1 Tangent-Height</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Height der automatischen Tangente&quot; &quot;True&quot; ist) | Passt das Height der &quot;Out&quot;-Tangente des p1-Punkts an, wenn ein niedrigerer Wert eine niedrigere oder tiefere Position bedeutet. Dies wirkt sich auf das Height entlang des Splines aus, wenn es von p1 weggezogen wird. |
+| <b>p2 Tangent-Height</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Height der automatischen Tangente&quot; &quot;True&quot; ist) | Passt das Height der Tangente &quot;in&quot; des p2-Punkts an, wenn ein niedrigerer Wert eine niedrigere oder tiefere Position bedeutet. Dies wirkt sich auf das Height entlang des Splines aus, wenn es von p2 weggezogen wird. |
+| <b>Thickness</b> |  |
+| <b>Thickness starten</b> <i>Gleitend</i> | Passt die Thickness des p1-Punkts an. Dies wirkt sich auf die Thickness des Splines bei p1 aus.<br>Hinweis: Thickness wird von bestimmten Spline-Knoten verwendet. |
+| <b>Thickness beenden</b> <i>Gleitend</i> | Passt die Thickness des p2-Punkts an. Dies wirkt sich auf die Thickness des Splines bei p2 aus.<br>Hinweis: Thickness wird von bestimmten Spline-Knoten verwendet. |
+| <b>Automatische Tangent-Thickness</b> <i>Boolescher Wert</i> | Setzt die Thickness der Spline-Tangenten automatisch so, dass sie linear von der Start-Thickness zur End-Thickness interpoliert werden.<br>Hinweis: Thickness wird von bestimmten Spline-Knoten verwendet. |
+| <b>p1 Tangent-Thickness</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Thickness der automatischen Tangente&quot; &quot;True&quot; ist) | Passt die Thickness der &quot;out&quot;-Tangente des p1-Punkts an. Dies wirkt sich auf die Thickness entlang des Splines aus, wenn sie von p1 weggezogen wird.<br>Hinweis: Thickness wird von bestimmten Spline-Knoten verwendet. |
+| <b>p2 Tangent-Thickness</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Thickness der automatischen Tangente&quot; &quot;True&quot; ist) | Passt die Thickness der &quot;in&quot;-Tangente des p2-Punkts an. Dies wirkt sich auf die Thickness entlang des Splines aus, wenn sie von p2 weggezogen wird.<br>Hinweis: Thickness wird von bestimmten Spline-Knoten verwendet. |
+| <b>Punktkoordinaten</b> |  |
+| <b>p1</b> <i>Float2</i> | Legt die Position des p1-Punkts im Texturen-Leerzeichen fest. |
+| <b>p1 Tangente</b> <i>Float2</i> | Legt die Position des Griffs der Tangente &quot;out&quot; des p1-Punkts in der Textur fest. |
+| <b>p2</b> <i>Float2</i> | Legt die Position des p2-Punkts im Textur-Raum fest. |
+| <b>p2 Tangente</b> <i>Float2</i> | Legt die Position des Handles mit der Tangente &quot;in&quot; des p2-Punkts im Textur-Bereich fest. |
+| <b>Vorschau</b> |  |
+| <b>Tangenten anzeigen</b> <i>Boolescher Wert</i> | Zeigt die &quot;out&quot;-Tangente des p1-Punkts und die &quot;in&quot;-Tangente des p2-Punkts in der Vorschauausgabe an. |
+| <b>Richtungshelfer anzeigen</b> <i>Boolescher Wert</i> | Zeigt einen Punkt am Anfang des Splines und eine Pfeilspitze an seinem Ende in der Vorschauausgabe an. |
+| <b>Segmentierungsbetrag</b> <i>Integer</i> | Passt die Anzahl der Segmente an, die zum Zeichnen der Spline-Visualisierung in der Vorschauausgabe verwendet werden. Je höher der Wert, desto glatter die Linie. |
+| <b>Thickness (px)</b> <i>Gleitend</i> | Passt die Thickness der Spline-Visualisierung in der Vorschauausgabe in Pixel an. |
 
 ## Beispiele
 
@@ -164,12 +101,12 @@ Je höher der Wert, desto glatter die Linie.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](../../../../../../assets/SplineCubic-Variant1.jpg "Knotenbeispiel 1")
+![Knotenbeispiel 1](spline-cubic.resources/spline-cubic-02.jpg "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](../../../../../../assets/SplineCubic-Variant2.jpg "Knotenbeispiel 2")
+![Knotenbeispiel 2](spline-cubic.resources/spline-cubic-03.jpg "Knotenbeispiel 2")
 
 </td>
 </tr>
@@ -179,7 +116,7 @@ Je höher der Wert, desto glatter die Linie.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 3](../../../../../../assets/SplineCubic-Demo.gif "Knotenbeispiel 3")
+![Knotenbeispiel 3](spline-cubic.resources/spline-cubic-04.gif "Knotenbeispiel 3")
 
 </td>
 <td style="border: 0;" valign="top">

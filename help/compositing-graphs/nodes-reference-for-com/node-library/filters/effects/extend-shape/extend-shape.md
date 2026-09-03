@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Extend Shape
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -22,85 +22,71 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/extendshapegrayscale.png){width="200px"}
+![](extend-shape.resources/extend-shape-01.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/extendshapecolor.png){width="200px"}
+![](extend-shape.resources/extend-shape-02.png){width="200px"}
 
 </td>
 </tr>
 </table>
 
-**In:** Filters*/Effects*
-
-**Einfach**
+<b>In:</b> Filters > Effects
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Der Knoten **Extend Shape** erweitert einen *Abschnitt* der **Eingabe** um eine festgelegte Richtung und Entfernung.
+Der Knoten <b>Extend Shape</b> erweitert einen <i>Abschnitt</i> der <b>Eingabe</b> um eine festgelegte Richtung und Entfernung.
 
-Mit dem Parameter **Show helper** können Sie den erweiterten Abschnitt und die Erweiterungsrichtung anzeigen.
+Mit dem Parameter &quot;<b>Helfer anzeigen</b>&quot; können Sie den erweiterten Abschnitt und die Erweiterungsrichtung anzeigen.
 
 </td>
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parameter
 
-* **Modus** *Integer* Definiert die *Parameter*, die zum Anwenden der Erweiterung verwendet werden:
-  * *Bidirektional*: Der Abschnitt der **Eingabe**, der durch die **Erweiterungsposition** und den **Erweiterungswinkel** angegeben wird, wird über die **Erweiterungsentfernung** in *entgegengesetzte Richtungen erweitert*
-  * *Unidirektional*: Der Abschnitt der **Eingabe**, der durch die **Erweiterungsposition** und den **Erweiterungswinkel** angegeben wird, wird über die **Erweiterungsentfernung** in einer *einfachen Richtung* erweitert.
-  * *Start-/Endpositionen*: Eine Erweiterung *Vektor* wird durch **Startposition** und **Endposition** definiert. Der Abschnitt *Senkrecht* der **Eingabe** an der **Startposition** wird *über diesen Vektor* bis zur **Endposition** erweitert.
-* **Erweiterungsentfernung** *Gleitkommawert* Die Entfernung, über die der durch die **Erweiterungsposition** und **Erweiterungswinkel** angegebene Abschnitt erweitert werden soll. Der Abstand wird als *Proportion* der Bildspanne ausgedrückt.
-* **Erweiterungsposition** *Unverankert* Die Position im Bild des Abschnitts, der erweitert werden soll. Der Wert wird als *-Versatz vom Mittelpunkt* ausgedrückt.
-* **Ausdehnungswinkel** *Gleitend* Der Winkel des Abschnitts, der erweitert werden soll, wobei der Ausgangspunkt ein *vertikaler Abschnitt* ist.
-* **Startposition** *Gleitkomma2* Die Startposition des *Erweiterungsvektors*.
-* **Endposition** *Gleitkomma2* Endposition des *Erweiterungsvektors*.
-* **Luminanzversatz starten** *Unverankert* Wendet einen Luminanzversatz auf den Bereich des Bildes an, der *dem erweiterten Abschnitt vorausgeht*. Dieser Luminanzversatz wird *entlang des Abschnitts* auf die Luminanz des Bildbereichs nach dem Abschnitt interpoliert.\
-  *Hinweis*: Dieser Parameter ist nur in der **Grayscale**-Version des Knotens verfügbar.
-* **Luminanzversatz beenden** *Unverankert* Wendet einen Luminanzversatz auf den Bereich des Bildes an, der *auf den erweiterten Abschnitt folgt*. Dieser Luminanzversatz wird *entlang des Abschnitts* auf die Luminanz des Bereichs des Bildes vor dem Abschnitt interpoliert.\
-  *Hinweis*: Dieser Parameter ist nur in der **Grayscale**-Version des Knotens verfügbar.
-* **Lum. Offset ignoriert schwarze Pixel** *Boolean* Wenn auf *True* festgelegt, werden die in *beiden* **Luminanzversatz starten** und **Luminanzversatz beenden** angegebenen Luminanzversätze nur auf *nicht schwarze* Pixel angewendet, d. h. Pixel, deren Wert größer als 0 ist.\
-  *Hinweis*: Dieser Parameter ist nur in der **Grayscale**-Version des Knotens verfügbar.
-* **Filtermodus** *Integer* Definiert, wie die aufgenommenen Ergebnisse behandelt werden, wenn *zwischen Pixeln interpoliert wird*:
-  * *Nächste*: nimmt genau den *gleichen* Wert auf (schneller)
-  * *Bilinear*: wendet einen bilinearen Filter auf das Ergebnis für einen *glatteren*-Look an.
-* **Helper anzeigen** *Boolesch* Den erweiterten *Abschnitt anzeigen* als Überlagerung mit Pfeilen, die die *Richtung* der Erweiterung anzeigen.
+|  |  |
+|:---|:---|
+| <b>Modus</b> <i>Integer</i> | Definiert die <i>Parameter</i>, die zum Anwenden der Erweiterung verwendet werden:<br><br>- <i>Bidirektional</i>: Der Abschnitt der <b>Eingabe</b>, der durch die <b>Erweiterungsposition</b> und den <b>Erweiterungswinkel</b> angegeben wird, wird über die <b>Erweiterungsentfernung</b> in <i>entgegengesetzte Richtungen</i><br>- <i>unidirektional</i> erweitert: Der Abschnitt der <b>Eingabe</b>, der durch die <b>Erweiterungsposition</b> und <b>Erweiterungswinkel</b> angegeben wird, wird über die <b>Erweiterungsentfernung</b> in einer <i>einfachen Richtung</i><br>- <i>Start-/Endpositionen</i> erweitert: Eine Erweiterung <i>vektor</i> wird durch <b>Startposition</b> und <b>Endposition</b> definiert. Der Abschnitt <i>Senkrecht</i> der <b>Eingabe</b> an der <b>Startposition</b> wird <i> über diesen Vektor</i> bis zur <b>Endposition</b> erweitert. |
+| <b>Erweiterungsabstand</b> <i>Gleitend</i> | Die Entfernung, über die der durch die <b>Erweiterungsposition</b> und <b>Erweiterungswinkel</b> angegebene Abschnitt erweitert werden soll. Der Abstand wird als <i>Proportion</i> der Bildspanne ausgedrückt. |
+| <b>Erweiterungsposition</b> <i>Gleitend</i> | Die Position im Bild des Abschnitts, der erweitert werden soll. Der Wert wird als <i>-Versatz vom Mittelpunkt </i> ausgedrückt. |
+| <b>Erweiterungswinkel</b> <i>Gleitend</i> | Der Winkel des Abschnitts, der erweitert werden sollte, da der Ausgangspunkt ein <i>vertikaler Abschnitt</i> ist. |
+| <b>Startposition</b> <i>Float2</i> | Die Startposition des <i>Erweiterungsvektors</i>. |
+| <b>Endposition</b> <i>Float2</i> | Die Endposition des <i>Erweiterungsvektors</i>. |
+| <b>Offset der Luminanz starten</b> <i>Gleitend</i> | Wendet einen Luminanz-Offset auf den Bereich des Bildes <i> an, der dem erweiterten Abschnitt </i> vorausgeht. Dieser Luminanzen-Offset wird <i>entlang des Abschnitts </i> auf die Luminanz des Bildbereichs nach dem Abschnitt interpoliert.<br><br><i>Hinweis</i>: Dieser Parameter ist nur in der <b>Grayscale</b>-Version des Knotens verfügbar. |
+| <b>Offset der Luminanz beenden</b> <i>Gleitend</i> | Wendet einen Luminanz-Offset auf den Bereich des Bildes <i> an, der dem erweiterten Abschnitt folgt</i>. Dieser Luminanzen-Offset wird <i>entlang des Abschnitts </i> auf die Luminanz des Bildbereichs vor dem Abschnitt interpoliert.<br><br><i>Hinweis</i>: Dieser Parameter ist nur in der <b>Grayscale</b>-Version des Knotens verfügbar. |
+| <b>Lum. Offset ignoriert schwarze Pixel</b> <i>Boolescher Wert</i> | Wenn auf <i>True</i> festgelegt, werden die in <i>both</i> angegebenen Luminanzen-Offsets angegeben. <b>Start-Luminanz-Offset</b> und <b>End-Luminanz-Offset</b> werden nur auf <i>nicht schwarze</i> Pixel angewendet, d. h. Pixel, deren Wert größer als 0 ist.<br><br><i>Hinweis</i>: Dieser Parameter ist nur in der <b>Grayscale</b>-Version des Knotens verfügbar. |
+| <b>Filtermodus</b> <i>Integer</i> | Definiert, wie die aufgenommenen Ergebnisse behandelt werden, wenn <i>zwischen den Pixeln <br><br>- <i>Nächste</i> interpoliert wird: nimmt genau den <i>gleichen</i> Wert (schneller)<br>- <i>Bilinear</i> auf: wendet einen bilinearen Filter auf das Ergebnis für einen <i>glatteren</i>-Look an.</i> |
+| <b>Helfer anzeigen</b> <i>Boolescher Wert</i> | Visualisieren Sie den <i>erweiterten Abschnitt</i> als Überlagerung mit Pfeilen, die die <i>Richtung</i> der Erweiterung anzeigen. |
 
-## Beispielbilder
+## Beispiele
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/extendshape.gif){width="512px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/extendshape-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/extendshape-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/extendshape-node.png){width="360px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="extend-shape.resources/extend-shape-03.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="extend-shape.resources/extend-shape-04.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="extend-shape.resources/extend-shape-05.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="extend-shape.resources/extend-shape-06.png" />
+        </td>
+    </tr>
 </table>

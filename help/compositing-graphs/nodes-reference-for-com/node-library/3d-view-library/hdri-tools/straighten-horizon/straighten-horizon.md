@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Horizont begradigen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 1%
+source-wordcount: '98'
+ht-degree: 4%
 
 ---
 
@@ -22,36 +22,30 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/straighten-horizon.png){width="200px"}
+![](straighten-horizon.resources/straighten-horizon-01.png){width="200px"}
 
-## Horizont begradigen
-
-**In:** *3D-Ansicht/HDRI-Werkzeuge*
-
-**Einfach**
+<b>In:</b> 3D-Ansicht > HDRI-Werkzeugs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Für HDRIs mit einem Horizont, der nicht gerade ist, bietet dieser Knoten eine einfache, benutzerfreundliche Möglichkeit, dies zu korrigieren.
 
-## Parameter
-
-* **Horizontkorrektur aktivieren**: *False/True*\
-  Aktivieren und Deaktivieren des Effekts. Ermöglicht das Umschalten, um vorher zu vergleichen und richtige Punkte zu finden.
-* **Horizontpunkt #1 Position**:\
-  Erster Punkt, hat 2D View Handle.
-* **Horizontpunkt #2 Position**:\
-  Zweiter Punkt, hat 2D View Handle.
-* **Horizontale Drehung**: *0.0 - 1.0\
-  Zusätzliche Drehung um die zentrale Achse.*
-
-## Beispielbilder
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Horizontkorrektur aktivieren</b> <i>False/True</i> | Aktivieren und Deaktivieren des Effekts. Ermöglicht das Umschalten, um vorher zu vergleichen und richtige Punkte zu finden. |
+| <b>Horizontpunkt #1 Position</b> | Der erste Punkt, hat 2D-Ansicht Griff. |
+| <b>Horizontpunkt #2 Position</b> | Der zweite Punkt, hat 2D-Ansicht Griff. |
+| <b>Horizontale Drehung</b> <i>0.0 - 1.0</i> | Zusätzliche Drehung um die mittlere Achse. |

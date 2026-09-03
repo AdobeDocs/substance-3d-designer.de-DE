@@ -1,16 +1,16 @@
 ---
 helpx_url: ""
 breadcrumb-title: ''
-description: Mit dem Popup "Versatz" können Sie den Versatz und die Tesselierung, die auf Gitter in einer 3D-Szene angewendet wurden, schnell anpassen.
+description: Mit dem Popupfenster "Versatz" können Sie schnell den Versatz und die Tessellation anpassen, die Meshs in einer 3D-Szene zugewiesen wurden.
 helpx_creative_field: ""
 helpx_description: ""
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 3D-Ansicht - Versatz-Popup
+title: 3D-Ansicht - Popup "Versatz"
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c7b3b375144c8b58a8e7a7a408895a23e9bd1143
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 2%
@@ -23,26 +23,26 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="vertical-align: top; border: 0">
         <td style="border: 0">
-            <p>Das in der 3D-Ansichtssymbolleiste verfügbare Popup "Versatz" bietet direkte Steuerelemente zum Versatz und zur Tesselierung von Gittern.</p>
+            <p>Das in der Datensymbolleiste verfügbare Popup "Versatz" bietet direkte Steuerelemente zum Versatz und zur Tessellation von Meshs.</p>
             <p>Es gibt drei Parameter:<ul>
                 <li>Höhenskala</li>
                 <li>Höhenebene</li>
                 <li>Tessellierung</li></ul>
         </td>
         <td style="width: 60%; margin-left: 32px; border: 0">
-            <img src="./displacement.resources/3d-view-displacement-popup-mograph.gif" alt="Versatz-Popup in der 3D-Ansicht" />
+            <img src="./displacement.resources/displacement-01.gif" alt="Versatz-Popup in der 3D-Ansicht" />
         </td>
     </tr>
 </table>
 
 ## Höhenskala
 
-Die maximale Entfernung des Versatzes für die Gitterscheitelpunkte entlang ihrer Normalen in Szeneneinheiten.<br>
-Dies ist die zurückgelegte Strecke für einen Wert von 1,0 in der Karte des Heights.
+Die maximale Entfernung des Versatzes für die Scheitelpunkt des Meshs in Szene.<br>
+Dies ist die zurückgelegte Strecke für einen Wert von 1,0 auf der Höhen-Map.
 
-Wenn ein Substance-Diagramm mit einem Material verbunden ist und dieses Diagramm einen [Ausgabeknoten](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) mit
-<code>heightScale</code> verwendet wird, ist der Materialskalierungsparameter im Popup *deaktiviert* für dieses Height.
-da es derzeit durch den Graphen gesteuert wird.
+Wenn ein Substance-Graf mit einem Material verbunden ist und dieser Graf einen [Ausgabeknoten](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) mit
+<code>heightScale</code> Verwendung, dann ist der Height-Skalierungsparameter im Popup *deaktiviert* für dieses Material
+da es derzeit vom Graf angetrieben wird.
 
 >[!TIP]
 > 
@@ -51,23 +51,23 @@ da es derzeit durch den Graphen gesteuert wird.
 
 ## Höhenebene
 
-Der Graustufenwert in der Height-Map, der als *Mittelpunkt* für das Versatz-Height verwendet wird.
+Der Graustufenwert auf der Höhen-Map, der als *Mittelpunkt* für das Versatz-Height verwendet wird.
 d. h. der als 0,0-Höhenangabe verwendete Schwellenwert.
 
-Werte unter diesem Schwellenwert führen dazu, dass Scheitelpunkte rückwärts verschoben werden, während Werte über dem Schwellenwert zu
-Scheitelpunkte, die nach vorn verschoben werden.
+Werte unterhalb dieses Schwellenwerts führen dazu, dass Scheitelpunkt rückwärts verschoben werden, während Werte oberhalb des Schwellenwerts
+Scheitelpunkt werden nach vorne verdrängt.
 
 ## Tessellierung
 
-Bei der Tesselierung werden einzelne Gitterflächen unterteilt, indem ein Scheitelpunkt auf ihren Segmenten hinzugefügt und dann
-alle Scheitelpunkte auf einen neuen Scheitelpunkt in ihrer Mitte, sodass 1 Fläche zu **6** wird.
+Bei der Tessellation werden die Flächen der einzelnen Mesh unterteilt, indem ein Scheitelpunkt zu den Segmenten hinzugefügt und anschließend
+alle Scheitelpunkt auf einen neuen Scheitelpunkt in ihrer Mitte, sodass 1 Fläche zu **6** wird.
 
-Der Parameter legt fest, wie oft Gesichter rekursiv unterteilt werden sollen.
+Der Parameter legt fest, wie oft Flächen rekursiv unterteilt werden sollen.
 
-Der *Bereich* des Tesselationsparameters variiert je nach dem derzeit verwendeten *Renderer*: sie kann angewendet werden
-je Masche oder je Material.
+Der *Bereich* des Tessellation-Parameters variiert je nach dem derzeit verwendeten *Renderer*: sie kann angewendet werden
+pro Mesh oder pro Material.
 
-### Pro Gitter
+### Pro Mesh
 
 Bei Verwendung des Renderers [Rasterizer](../3d-renderers/3d-renderers.md#rasterizer) oder [GPU-Pathtracer](../3d-renderers/3d-renderers.md#gpu-pathtracer) weist jedes Mesh-Objekt in der Szene ein *separates Objekt auf.*
 Unterteilungswert.
@@ -90,7 +90,7 @@ Die Schritte zum Anzeigen des Drahtgitter für jeden Renderer werden im Folgende
 
 ### Rastereffekt/GPU-Pathtracer
 
-Verwenden Sie die <img src="../3d-view.resources/3d-view-scene-toolbar-render-settings.png" width="22" /> **Rendereinstellungen**
+Verwenden Sie die <img src="../3d-view.resources/3d-view-18.png" width="22" /> **Rendereinstellungen**
  Schaltfläche, gehen Sie dann im Eigenschaftendock zu **Rendereinstellungen > Diagnosemodus** und wählen Sie das **Drahtgitter
  (World Space)**-Option.
 

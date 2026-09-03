@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-large.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Schmutz Galvanic Large-Knoten, um großflächige galvanische Korrosionsmuster für Metalverwitterungseffekte zu erzeugen.
+description: Verwenden Sie den Schmutz Galvanic Large Node, um großflächige galvanische Korrosionsmuster für metallische Verwitterung zu erzeugen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Galvanic Large
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Schmutz Galvanic Large
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '123'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungegalvaniclarge.jpg){width="200px"}
+![](grunge-galvanic-large.resources/grunge-galvanic-large-01.jpg){width="200px"}
 
-**In:** *Texturgeneratoren**/Noises*
-
-**Einfach**
+<b>In:</b> Texturgeneratoren > Rauschen
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,30 +39,30 @@ Der Knoten **Schmutz Galvanic Large** erzeugt eine Schmutz-Map, die dem Muster a
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parameter
 
-* **Balance** *Gleitend* Passt die Balance zwischen dunklen und hellen Werten an.
-* **Kontrast** *Unverankert* Passt den Kontrast des Bildes an.
-* **Umkehren** *Boolesch* Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird.
-* **Quadratische Ausbreitung** *Boolesch* Aktiviert die Kompensation von Squash- und Dehnungsverhältnissen mit nicht quadratischen Verhältnissen.
-* Erweitert
-  * **Verkrümmungsintensität** *Gleitend* Passt die Intensität des Hauptverkrümmungseffekts an.
-  * **Deckkraft der Ridge-Details** *Gleitend* Passt die Deckkraft der helleren Ridge an.
-  * **Scharfzeichnungsintensität** *Unverankert* Passt die Intensität des globalen Scharfzeichnungseffekts an.
+|  |  |
+|:---|:---|
+| <b>Saldo</b> <i>Gleitend</i> | Passt die Balance zwischen dunklen und hellen Werten an. |
+| <b>Kontrast</b> <i>Gleitend</i> | Passt den Kontrast des Bildes an. |
+| <b>Umkehren</b> <i>Boolescher Wert</i> | Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird. |
+| <b>Quadratische Ausbreitung</b> <i>Boolescher Wert</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+| <b>Erweitert</b> |  |
+| <b>Verkrümmungsintensität</b> <i>Gleitend</i> | Passt die Intensität des Verkrümmungseffekts an. |
+| <b>Deckkraft für Ridge-Details</b> <i>Gleitend</i> | Passt die Deckkraft der helleren Kanten an. |
+| <b>Intensität schärfen</b> <i>Gleitend</i> | Passt die Intensität des globalen Scharfzeichnungseffekts an. |
 
-## Beispielbilder
+## Beispiele
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungegalvaniclarge-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungegalvaniclarge-variant2.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-galvanic-large.resources/grunge-galvanic-large-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-galvanic-large.resources/grunge-galvanic-large-03.jpg" />
+        </td>
+    </tr>
 </table>

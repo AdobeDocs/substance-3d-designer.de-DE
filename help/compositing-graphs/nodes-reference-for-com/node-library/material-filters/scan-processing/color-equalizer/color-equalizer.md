@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/color-equalizer.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Color Equalizer", um Farbvariationen in gescannten Materialien für ein konsistentes Texturaussehen auszugleichen.
+description: Verwenden Sie den Knoten "Color Equalizer", um Farbvariationen in gescannten Materialien für ein konsistentes Erscheinungsbild der Textur auszugleichen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Color Equalizer
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Color Equalizer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 1%
+source-wordcount: '345'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/color-equalizer.png){width="128px"}
+![](color-equalizer.resources/color-equalizer-01.png){width="128px"}
 
-## Color Equalizer
-
-**In:** *Materialfilter/Scanverarbeitung*
-
-**Komplex**
+<b>In:</b> Materialfilter > Scanverarbeitung
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -43,41 +39,38 @@ Dies ist sehr nützlich, wenn ein Foto oder Scan unerwünschte Farbunterschiede 
 
 Die Maskierungsoptionen sind dazu bestimmt, sehr spezifische Farbtöne zu entfernen oder nur in bestimmten Wertebereichen zu arbeiten. Verwenden Sie diese, wenn Sie der Meinung sind, dass der Effekt zu breit ist.
 
-## Parameter
-
-### Eingaben
-
-* **Eingabe**: *Farbeingabe*
-* **Maskeneingabe**: *Graustufen-Eingabe*\
-  Maskenschlitz zum Maskieren der Knoteneffekte. Nur aktiv, wenn Maske auf &quot;Eingabe&quot; eingestellt ist.
-
-### Parameter
-
-* **Eingabetabelle**: *Falsch/Wahr* Behält optional die Unterteilung an Kanten bei.
-* **Radius**: *0.0 - 50.0* Legt einen Ausgleichsradius fest. Bei einem größeren Radius werden nur große Farbunterschiede entfernt. Dies erfordert Nachbearbeitung für jedes Bild.
-* **Helle/dunkle Balance**: *0.0 - 1.0* Voreinstellung, um dunklere Farbtöne zu belassen oder zu entfernen.
-* **Benutzerdefinierte Farbvariation**: *Falsch/Wahr* Aktiviert die Möglichkeit, den Effekt in Richtung einer benutzerdefinierten Farbe zu variieren.
-* **Farbvariation**\
-  Nur aktiv, wenn &quot;Benutzerdefinierte Farbvariation&quot; aktiviert ist. Mit den Einstellungen können Sie einen Farbtonversatz auswählen, zu dem die Entzerrung erfolgen soll.
-  * **Farbton**: *0.0 - 360.0*
-  * **Chroma**: *0.0 - 1.0*
-  * **Luminanz**: *0.0 - 1.0*
-* **Maskenquelle**: *Keine, Bilddurchschnitt, Farbparameter, Eingabe* Festlegen, ob eine Maskierung erfolgen soll. Der Farbparameter aktiviert die folgenden zusätzlichen Einstellungen, die Eingabe wechselt zu einer benutzerdefinierten Maskeneingabe.
-* **Maske**\
-  Diese Option ist nur bei der Maskierung von Farbparametern aktiv. Zusätzliche Maskierungsparameter, um die Maske basierend auf dem Bild selbst zu bestimmen. Mit den folgenden Parametern können Sie einen Farbton präzise in eine Binärmaske konvertieren, auf die der Equalizer angewendet wird. Beachten Sie, dass die Effekte des Parameters &quot;Radius&quot; bei Verwendung dieser Einstellungen deutlich weniger ausgeprägt sein können.
-  * **Farbe**: *(Farbwert)*
-  * **Farbtonbereich**: *0.0 - 360.0*
-  * **Chrominanzbereich**: *0.0 - 1.0*
-  * **Luminanzbereich**: *0.0 - 1.0*
-  * **Weichzeichnen**: *0.0 - 2.0*
-  * **Smoothness**: *0.0 - 2.0*
-
-## Beispielbilder
-
-|  |
-| --- |
-| Es sind keine Bilder an diese Seite angehängt. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Eingabe</b> <i>Farbeingabe</i> |  |
+| <b>Maskeneingabe</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. Nur aktiv, wenn Maske auf &quot;Eingabe&quot; eingestellt ist. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Eingabetabelle</b> <i>False/True</i> | Behält optional die Kachelung an Kanten bei. |
+| <b>Radius</b> <i>0.0 - 50.0</i> | Legt den Ausgleichsradius fest. Bei einem größeren Radius werden nur große Farbunterschiede entfernt. Dies erfordert Nachbearbeitung für jedes Bild. |
+| <b>Helle/dunkle Balance</b> <i>0.0 - 1.0</i> | Bias, um dunklere Farbtöne zu entfernen. |
+| <b>Benutzerdefinierte Farbvariation</b> <i>False/True</i> | Aktiviert die Möglichkeit, den Effekt in Richtung einer benutzerdefinierten Farbe zu variieren. |
+| <b>Farbvariation</b> | Nur aktiv, wenn &quot;Benutzerdefinierte Farbvariation&quot; aktiviert ist. Mit den Einstellungen können Sie einen Farbtonversatz auswählen, zu dem die Entzerrung erfolgen soll. |
+| <b>Farbton</b> <i>0.0 - 360.0</i> |  |
+| <b>Chroma</b> <i>0.0 - 1.0</i> |  |
+| <b>Luminanz</b> <i>0.0 - 1.0</i> |  |
+| <b>Maskenquelle</b> <i>Keine, Bilddurchschnitt, Farbparameter, Eingabe</i> | Festlegen, ob eine Maskierung erfolgen soll. Der Farbparameter aktiviert die folgenden zusätzlichen Einstellungen, die Eingabe wechselt zu einer benutzerdefinierten Maskeneingabe. |
+| <b>Maske</b> | Diese Option ist nur bei der Maskierung von Farbparametern aktiv. Zusätzliche Maskierungsparameter, um die Maske basierend auf dem Bild selbst zu bestimmen. Mit den folgenden Parametern können Sie einen Farbton präzise in eine Binärmaske konvertieren, auf die der Equalizer angewendet wird. Beachten Sie, dass die Effekte des Parameters &quot;Radius&quot; bei Verwendung dieser Einstellungen deutlich weniger ausgeprägt sein können. |
+| <b>Farbe</b> <i>(Farbwert)</i> |  |
+| <b>Farbtonbereich</b> <i>0.0 - 360.0</i> |  |
+| <b>Chrominanzbereich</b> <i>0.0 - 1.0</i> |  |
+| <b>Luminanzbereich</b> <i>0.0 - 1.0</i> |  |
+| <b>Weichzeichnen</b> <i>0.0 - 2.0</i> |  |
+| <b>Smoothness</b> <i>0.0 - 2.0</i> |  |

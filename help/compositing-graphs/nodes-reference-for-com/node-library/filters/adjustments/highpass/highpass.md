@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Hochpass
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 1%
+source-wordcount: '103'
+ht-degree: 4%
 
 ---
 
@@ -22,39 +22,45 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/high-pass-greyscale.png){width="128px"}
+![](highpass.resources/highpass-01.png){width="128px"}
 
-![](../../../../../../assets/high-pass.png){width="128px"}
+![](highpass.resources/highpass-02.png){width="128px"}
 
-## Hochpass (Graustufen)
-
-**In:** *Filter/Korrekturen*
-
-**Einfach**
+<b>In:</b> Filters > Adjustments
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Führt einen Hochpassfilter durch, der sowohl in Farbe als auch in Graustufen verfügbar ist. Ähnlich wie bei der Photoshop-Aktion mit demselben Namen.\
-Diese Option ist nützlich, um große Luminanzunterschiede in Bildern zu entfernen, z. B. beim Bereinigen von Texturen für Kacheln.
+Diese Option ist nützlich, um große Unterschiede bei der Luminanz von Bildern zu entfernen, z. B. beim Bereinigen von Texturen für die Kachelung.
 
 Wichtig: Achten Sie darauf, die passende Version für Ihre Eingabe zu verwenden! Verwenden Sie &quot;Hochpass&quot; für Farbeingaben, &quot;Hochpass-Graustufen&quot; für Graustufen-Eingaben.
 
-## Parameter
-
-* **Radius**: *0.0 - 64.0*\
-  Filterradius: Ein kleiner Radius entfernt kleine Unterschiede, ein größerer Radius entfernt große Bereiche.
-
-## Beispielbilder
-
-![](../../../../../../assets/highpass.gif)
-
-![](../../../../../../assets/highpass-example.png){width="400px"}
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Radius</b> <i>0.0 - 64.0</i> | Filterradius: Ein kleiner Radius entfernt kleine Unterschiede, ein größerer Radius entfernt große Bereiche. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="highpass.resources/highpass-03.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="highpass.resources/highpass-04.png" />
+        </td>
+    </tr>
 </table>

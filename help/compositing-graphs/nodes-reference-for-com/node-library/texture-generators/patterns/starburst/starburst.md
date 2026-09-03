@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Starburst
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 1%
+source-wordcount: '111'
+ht-degree: 15%
 
 ---
 
@@ -22,38 +22,43 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/starburst.png){width="128px"}
+![](starburst.resources/starburst-01.png){width="128px"}
 
-## Starburst
-
-**In:** *Texturgeneratoren**/Muster*
-
-**Fortgeschrittene**
+<b>In:</b> Texturgeneratoren > Muster
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Generiert einen einfachen Starburst-Effekt mit verfügbaren Einstellungsparametern.
 
-## Parameter
-
-* **Verzweigungen**: *3 - 512* Anzahl der Verzweigungen für den Effekt.
-* **Weichzeichnungsbetrag**: *0.0 - 32.0* Steuert die Gesamtverwischung oder Weichheit.
-* **Zufälligkeit**: *0.0 - 1.0* Setzt die axiale Zufallszahl, dreht die Zweige zufällig um die Mitte.
-* **Min. Größe**: *0.0 - 1.0* Legt die Mindestgröße für die Variation fest.
-* **Maximale Größe**: *0.0 - 2.0* Legt die maximale Größe fest, steuert die globale Skalierung, wenn keine Variation verwendet wird.
-* **Größenänderung**: *0.0 - 1.0* Führt zufällige Skalierung pro Verzweigung ein.
-* **Anordnen**: *1 - 16*\
-  Legt fest, wie oft das Ergebnis gekachelt werden soll.
-
-## Beispielbilder
-
-![](../../../../../../assets/starburst-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Verzweigungen</b> <i>3 - 512</i> | Anzahl der Verzweigungen für den Effekt. |
+| <b>Weichzeichnungsbetrag</b> <i>0.0 - 32.0</i> | Steuert die Gesamtweichzeichnung bzw. -weichzeichnung. |
+| <b>Zufälligkeit</b> <i>0.0 - 1.0</i> | Legt den axialen Zufallswert fest und dreht Zweige willkürlich um die Mitte. |
+| <b>Min. Größe</b> <i>0.0 - 1.0</i> | Legt die Mindestgröße für die Variation fest. |
+| <b>Maximale Größe</b> <i>0.0 - 2.0</i> | Legt die maximale Größe fest und steuert die globale Skalierung, wenn keine Variation verwendet wird. |
+| <b>Größenänderung</b> <i>0.0 - 1.0</i> | Führt eine zufällige Skalierung pro Verzweigung ein. |
+| <b>Kacheln</b> <i>1 - 16</i> | Legt fest, wie oft das Ergebnis gekachelt werden soll. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="starburst.resources/starburst-02.gif" />
+        </td>
+    </tr>
 </table>

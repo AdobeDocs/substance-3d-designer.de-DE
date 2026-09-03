@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Technische Probleme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 9%
@@ -33,17 +33,17 @@ Auf jeder der aufgelisteten Seiten finden Sie *Schritte zur Fehlerbehebung*, um 
 * [Backprobleme](../technical-issues/baking-issues/baking-issues.md)
 * [Probleme mit der Benutzeroberfläche](../technical-issues/user-interface-issues/user-interface-issues.md)
 * [Python-Probleme](../technical-issues/python-issues/python-issues.md)
-* [Substance-Modelldiagrammfunktion fehlt](../technical-issues/model-graph-eol/substance-model-graph-eol.md)
+* [Grafik der Substance-Modellfunktion fehlt](../technical-issues/model-graph-eol/substance-model-graph-eol.md)
 
 ## Sicherheitslücke melden
 
-Designer bietet verschiedene Möglichkeiten, Abstürze und Fehler direkt zu melden.
+Designer bietet verschiedene Möglichkeiten, Absturz und Fehler direkt zu melden.
 
 >[!TIP]
 >
 > Bitte seien Sie beschreibend!
 > 
-> *Jeder* Absturz- und Fehlerbericht, den Sie uns senden *, wird von einem Mitglied des Designer-Teams* überprüft.
+> *Jeder* Absturz und Fehlerbericht, den Sie uns senden *, wird von einem Mitglied des Designer-Teams* überprüft.
 > 
 > Wenn Sie ein Problem melden, <b>geben Sie so viele Details und Kontext an, wie Sie </b> können. Dadurch können Sie das Problem wesentlich einfacher und schneller verstehen und eine Lösung finden.
 > 
@@ -55,16 +55,16 @@ Designer bietet verschiedene Möglichkeiten, Abstürze und Fehler direkt zu meld
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Wenn die Anwendung abstürzt, wird in den meisten Fällen das Dialogfeld &quot;Absturzbericht&quot; angezeigt.
+Bei Abstürzen der Anwendung wird in den meisten Fällen das Dialogfeld &quot;Absturz-Bericht&quot; angezeigt.
 
-Sie können uns im Feld &quot;Beschreibung&quot; über die Umstände des Absturzes informieren, damit wir den Absturz untersuchen und hoffentlich in einer zukünftigen Designer-Version beheben können.
+Sie können uns im Feld &quot;Beschreibung&quot; über die Umstände des Absturzes informieren, damit wir ihn untersuchen und hoffentlich in einer zukünftigen Version von Designer beheben können.
 
-Geben Sie eine <b>gültige E-Mail-Adresse</b> frei, damit wir Sie kontaktieren können, wenn wir weitere Informationen benötigen, und/oder eine Problemumgehung für den Absturz bereitstellen können, der bei Ihnen aufgetreten ist.
+Geben Sie eine <b>gültige E-Mail-Adresse</b> frei, damit wir Sie kontaktieren können, wenn wir weitere Informationen benötigen, und/oder eine Problemumgehung für den Absturz bereitstellen können, den Sie erlebt haben.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dialogfeld &quot;Absturzbericht&quot;](../assets/crash-reporter-2.png "Dialogfeld &quot;Absturzbericht&quot;"){zoomable="yes"}
+![Dialogfeld für Absturz-Bericht](technical-issues.resources/technical-issues-01.png "Dialogfeld für Absturz-Bericht"){zoomable="yes"}
 
 *Zum Vergrößern klicken*
 
@@ -74,7 +74,7 @@ Geben Sie eine <b>gültige E-Mail-Adresse</b> frei, damit wir Sie kontaktieren k
 
 >[!NOTE]
 >
-> Absturzberichte enthalten standardmäßig die Protokolldatei, Voreinstellungen und Projektdateien *von Designer*. Daher werden in diesen Dateien möglicherweise einige <b>System- und Dateipfade</b> angezeigt.
+> Absturz-Berichte enthalten Designers Protokolldatei, Voreinstellungen und Projektdateien *, standardmäßig*. Daher werden in diesen Dateien möglicherweise einige <b>System- und Dateipfade</b> angezeigt.
 > 
 > Die Verwendung dieser Dateien ist <b>streng intern und </b> auf die Untersuchung des gemeldeten Problems beschränkt.
 
@@ -91,7 +91,7 @@ Sie können uns über das Problem im Feld &quot;Beschreibung&quot; informieren, 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dialogfeld &quot;Fehlerbericht&quot;](../assets/bug-reporter.png "Dialogfeld &quot;Fehlerbericht&quot;"){zoomable="yes"}
+![Dialogfeld &quot;Fehlerbericht&quot;](technical-issues.resources/technical-issues-02.png "Dialogfeld &quot;Fehlerbericht&quot;"){zoomable="yes"}
 
 *Zum Vergrößern klicken*
 

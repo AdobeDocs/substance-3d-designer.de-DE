@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Scharfzeichnen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol schärfen](../../../../assets/sharpen-4.png "Knotensymbol schärfen")
+![Knotensymbol schärfen](sharpen.resources/sharpen-01.png "Knotensymbol schärfen")
 
 <b>In:</b> Atomknoten
 
@@ -56,4 +56,4 @@ Legt fest, ob der Alphakanal des Bildes geschärft oder unverändert bleiben sol
 
 ## Beispiele
 
-![Scharfzeichnungsknoten - Beispiel 1](../../../../assets/sharpen-ex.png "Scharfzeichnungsknoten - Beispiel 1")
+![Scharfzeichnungsknoten - Beispiel 1](sharpen.resources/sharpen-02.png "Scharfzeichnungsknoten - Beispiel 1")

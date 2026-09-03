@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Projektkonfigurationsdateien - SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Sie sind insofern besonders, als Sie mehrere Projektkonfigurationsdateien verwen
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![SBSPRJ-Dateisymbol](../../assets/sbsprj.png "SBSPRJ-Dateisymbol")
+![SBSPRJ-Dateisymbol](project-configuration-files-sbsprj.resources/project-configuration-files-sbsprj-01.png "SBSPRJ-Dateisymbol")
 
 </td>
 </tr>
@@ -39,7 +39,7 @@ Sie sind insofern besonders, als Sie mehrere Projektkonfigurationsdateien verwen
 
 Standardmäßig sind in Designer zwei Projektkonfigurationen aktiv:
 
-<b>Standardprojekt: </b>Enthält alle Standardeinstellungen und die Designer-Bibliothek wird bei einer Neuinstallation bereitgestellt.*Schreibgeschützt, kann nicht geändert oder entfernt werden.*
+<b>Standardprojekt: </b>Enthält alle Standardeinstellungen und die Designer-Bibliothek wird bei einer Neuinstallation mitgeliefert.*Schreibgeschützt, kann nicht geändert oder entfernt werden.*
 
 <b>Benutzerprojekt: </b>Da die Standardwerte schreibgeschützt sind, werden *alle Änderungen des Benutzers* standardmäßig in dieses Projekt übernommen. *Kann nicht entfernt werden.*
 
@@ -57,19 +57,17 @@ Projektdateien können die folgenden Einstellungen enthalten:
 
 <b>3D-Ansicht: </b>Standardschattierungs-, HDR- und Szenenstatusdefinitionen.
 
-<b>Aliase: </b>Aliase für Schlüsselwörter für relative Pfade.
+<b>Aliase: </b>Stichwortaliasse für relative Pfade.
 
-<b>Backen: </b>Einstellungen für Backennamenskonventionen.
+<b>Baking: </b>Einstellungen für das Baking von Namenskonventionen.
 
-<b>Allgemein: </b>Graph-Vorlagen, Tangent-Space-Plug-ins, Standardwerte für Normal- und Bildformate.
+<b>Allgemein: </b>Standardeinstellungen für Graf-Vorlagen, Tangentialraum-Plug-ins, normale und Bildformate.
 
-<b>Bibliothek: </b>Überwachte Pfade, die in der Bibliothek angezeigt werden sollen, sowie [Filter und Kategorien für die Bibliotheksansicht](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html).
-
-<b>MDL: </b>MDL überwachte Pfade.
+<b>Bibliothek: </b>Überwachte Pfade zur Anzeige in der Bibliothek.
 
 <b>Skripterstellung: </b>Rückrufskripts und Interpreter.
 
-<b>Versionskontrolle: </b>Einstellungen für die Integration der Versionskontrolle in Designer.
+<b>Versionskontrolle: </b>Einstellungen für die Integration von Versionskontrolle in Designer.
 
 ## Ändern von Projektdateien
 
@@ -79,7 +77,7 @@ Projektkonfigurationen werden wie alle anderen Typen als strukturierte XML-Datei
 
 Weitere Informationen zum Verwalten von Projektdateien und zum Ändern von Projekteinstellungen finden Sie auf der Seite [Projekteinstellungen](../../interface/preferences-window/project-settings/project-settings.md).
 
-Projektdateien enthalten auch benutzerdefinierte <b>Kategorien</b> und <b>Filter</b> für die [Bibliothek](../../interface/the-library/the-library.md). Weitere Informationen erhalten Sie auf der Seite [Verwalten von benutzerdefiniertem Inhalt und Filtern](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html).
+Projektdateien enthalten auch benutzerdefinierte <b>Kategorien</b> und <b>Filter</b> für die [Bibliothek](../../interface/the-library/the-library.md). Weitere Informationen erhalten Sie auf der Seite [Verwalten von benutzerdefiniertem Inhalt und Filtern](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md).
 
 ## Externes Bearbeiten von XML
 
@@ -87,11 +85,11 @@ Unter Windows ist [Notepad++](https://notepad-plus-plus.org) eine gute kostenlos
 
 Sobald Sie die SBSPRJ-Datei in einem Editor geöffnet haben, sollten Sie ein relativ einfaches strukturiertes Layout sehen, mit Abschnitten, die den Registerkarten in der Benutzeroberfläche entsprechen. Nicht jede Einstellung wird hier dokumentiert, da es ziemlich selbsterklärend ist.
 
-![XML-Bearbeitung](../../assets/project-xml.png "XML-Bearbeitung")
+![XML-Bearbeitung](project-configuration-files-sbsprj.resources/project-configuration-files-sbsprj-02.png "XML-Bearbeitung")
 
 ## Relative Pfade und Aliasse
 
-Relative Pfade in Kombination mit Aliasen sind einer der komplizierteren, aber wichtigsten Teile einer Projektkonfiguration. In diesem Abschnitt werden sie erläutert. Das Hinzufügen benutzerdefinierter Aliase für eine bestimmte Projektdatei erfolgt in den [Projekteinstellungen](../../interface/preferences-window/project-settings/project-settings.md).
+Relative Pfade in Kombination mit Aliasen sind einer der komplizierteren, aber wichtigsten Teile einer Projektkonfiguration. In diesem Abschnitt werden sie erläutert. Das Hinzufügen benutzerdefinierter Aliase für eine bestimmte Projektdatei erfolgt in den [Projekteinstellungen](../../interface/preferences-window/project-settings/project-settings.md).
 
 Eines der Hauptprobleme bei Dateien, die auf andere Dateien in einem System auf dem PC mehrerer Benutzer verweisen, ist, dass absolute Dateipfade nicht funktionieren. Benutzer können ihre SVN-Repositorys an völlig anderen Speicherorten definieren (z. B. C:/John/Gamedev/SubstanceLibrary oder D:/Dev/SubstanceLibrary). Aliase und relative Pfade arbeiten beide zusammen, um dieses Problem zu lösen. Andernfalls können Sie die Datei einer anderen Person öffnen und es wird versucht, nach dem benutzerdefinierten Knoten zu suchen, der an dem bestimmten Speicherort verwendet wird, an dem der Benutzer die Datei lokal gespeichert hat, was Sie wahrscheinlich nicht genau auf die gleiche Weise definiert haben.
 

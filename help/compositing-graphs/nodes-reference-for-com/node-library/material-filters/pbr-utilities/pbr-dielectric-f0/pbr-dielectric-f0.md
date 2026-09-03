@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-dielectric-f0.html"
 breadcrumb-title: ''
-description: Verwenden Sie den PBR-Knoten Dielektrisch F0, um dielektrische F0-Werte für physikalisch basierte Materialarbeitsabläufe zu berechnen.
+description: Verwenden Sie den PBR-Knoten Dielektrikum F0, um dielektrische F0-Werte für physikalisch basierte Material-Workflows zu berechnen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR Dielectric F0
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: PBR Dielektrisch F0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 1%
+source-wordcount: '112'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-dielectric-f0.png){width="128px"}
+![](pbr-dielectric-f0.resources/pbr-dielectric-f0-01.png){width="128px"}
 
-## PBR Dielektrisch F0
-
-**In:** *Materialfilter/PBR-Dienstprogramme*
-
-**Einfach**
+<b>In:</b> Materialfiltern > PBR-Dienstprogramme
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,18 +37,16 @@ Ein Hilfsknoten &quot;Voreinstellung&quot; für Specular-Werte bei Verwendung de
 
 Dies ist nützlich, um schnell die richtigen Werte als Ausgangspunkt zu erhalten, sodass Sie die Farbauswahl in einem Diagramm vermeiden können.
 
-## Parameter
-
-* **Specular F0**: *Kunststoff, Holz, Stein, Ziegel, Sand, Beton, Gewebe, gerostetes Metall, Wasser, Eis, Glas, benutzerdefinierte IOR* Wählt einen vordefinierten Specular-Bereich aus.
-* **Specular-Bereich**: *0.01 - 1.0* Passt den Specular-Wert im Bereich der ausgewählten Vorgabe an. Ermöglicht einige Anpassungen.
-* **IOR**: *1.0 - 5.0* Nur aktiviert, wenn auf Benutzerdefinierte IOR festgelegt. Einen eigenen Wert wählen.
-
-## Beispielbilder
-
-|  |
-| --- |
-| Es sind keine Bilder an diese Seite angehängt. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Specular F0</b> <i>Kunststoff, Holz, Stein, Ziegel, Sand, Beton, Gewebe, rostetes Metall, Wasser, Eis, Glas, benutzerdefinierte IOR</i> | Wählt einen vordefinierten Specular-Bereich aus. |
+| <b>Specular-Bereich</b> <i>0.01 - 1.0</i> | Passt den Specular-Wert innerhalb des ausgewählten Vorgabebereichs an. Ermöglicht einige Anpassungen. |
+| <b>IOR</b> <i>1.0 - 5.0</i> | Nur aktiviert, wenn auf Benutzerdefinierte IOR festgelegt. Einen eigenen Wert wählen. |

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Kurvenglättung , um aus Height-Maps glatte Krümmungszuordnungen für die Oberflächendetailextraktion zu generieren.
+description: Verwenden Sie den Knoten Krümmung glätten , um glatte Krümmungs-Map aus Höhen-Map für die Extraktion von Oberflächendetails zu generieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Curvature Smooth
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Kurvenglättung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '291'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Krümmungsglätten-Knotensymbol](../../../../../../assets/CurvatureSmooth.png "Krümmungsglätten-Knotensymbol"){width="200px"}
+![Krümmung Glattes Knotensymbol](curvature-smooth.resources/curvature-smooth-01.png "Krümmung Glattes Knotensymbol"){width="200px"}
 
 <b>In:</b> Filters > Effects
 
@@ -33,9 +33,9 @@ ht-degree: 1%
 
 ## Beschreibung
 
-Berechnet die Krümmung einer Fläche, die durch eine Normalmap beschrieben wird.
+Berechnet die Krümmung einer Fläche, die durch einen Normalen-Map beschrieben wird.
 
-Eine Krümmungskarte stellt die konkaven und konvexen Bereiche einer Oberfläche dar.\
+Eine Krümmungs-Map stellt die konkaven und konvexen Flächen einer Fläche dar.\
 Flache Bereiche sind zu 50 % grau. Konvexe Bereiche sind heller, konkave Bereiche sind dunkler.
 
 </td>
@@ -46,46 +46,32 @@ Die konkaven und konvexen Bereiche werden ebenfalls in ihre eigenen Ausgänge au
 
 >[!TIP]
 >
-> Sehen Sie sich [Kurvenzeichner](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md) nach, um eine schärfere Version zu erhalten, oder [Kurvenzeichner](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md), wenn Sie weitere Optionen benötigen.
+> Sehen Sie sich [Krümmung](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md) nach, um eine schärfere Version zu erhalten, oder [Krümmung Sobel](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md), wenn Sie weitere Optionen benötigen.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Ausgangsanschlüsse
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameter
-
-</td>
-</tr>
-</table>
-
-## Eingangsanschlüsse
+## Eingaben
 
 |  |  |
-| --- | --- |
-| <b>Normal</b> *Farbe* <b>PRIMÄR</b> | Die Normalmap, die die Oberfläche beschreibt, deren Krümmung berechnet werden soll. |
+|:---|:---|
+| <b>Normal</b> <i>Farbe</i> <b>PRIMÄR</b> | Die Normalen-Map, die die Fläche beschreibt, für die die Krümmung berechnet werden soll. |
 
-## Ausgangsanschlüsse
+<a name="outputs"></a>
+
+## Ausgaben
 
 |  |  |
-| --- | --- |
-| <b>Krümmung</b> *Graustufen* | Die aus der Eingabe-Normalmap berechnete Krümmungskarte.   Flache Bereiche sind zu 50 % grau. Konvexe Bereiche sind heller, konkave Bereiche sind dunkler. |
-| <b>Konvexität</b> *Graustufen* | Die Konvexitätskarte, die aus der Eingabe-Normalmap berechnet wurde.   Je konvexer ein Bereich ist, desto heller ist er auf der Karte.  Flache oder konkave Bereiche sind schwarz. |
-| <b>Konkavität</b> *Graustufen* | Die Konkavitäts-Map wurde aus der Eingabe-Normalmap berechnet.   Je konkaver ein Gebiet ist, desto heller ist es auf der Karte.  Flache oder konvexe Bereiche sind schwarz. |
+|:---|:---|
+| <b>Krümmung</b> <i>Graustufen</i> | Die Krümmungs-Map wurde von der Eingabe-Normalen-Map berechnet.   Flache Bereiche sind zu 50 % grau. Konvexe Bereiche sind heller, konkave Bereiche sind dunkler. |
+| <b>Konvexität</b> <i>Graustufen</i> | Die Konvexitätskarte wurde aus der Eingabe-Normalen-Map berechnet.   Je konvexer ein Bereich ist, desto heller ist er auf der Karte.  Flache oder konkave Bereiche sind schwarz. |
+| <b>Konkavität</b> <i>Graustufen</i> | Die Konkavitäts-Map wurde aus der Eingabe-Normalmap berechnet.   Je konkaver ein Gebiet ist, desto heller ist es auf der Karte.  Flache oder konvexe Bereiche sind schwarz. |
+
+<a name="parameters"></a>
 
 ## Parameter
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Normales Format</b> *Integer* | Das Format der Eingabe-Normalmap. Kehrt den grünen Kanal effektiv um.<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX:</b> Die Y-Achse zeigt nach oben</li> <li data-preserve-html="true"><b style="">OpenGL:</b> Die Y-Achse zeigt nach unten</li> </ul> |
 
 ## Beispiele
@@ -93,11 +79,11 @@ Die konkaven und konvexen Bereiche werden ebenfalls in ihre eigenen Ausgänge au
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_1_before.jpg" alt="curvature_smooth_example_1_before">
+      <img src="curvature-smooth.resources/curvature-smooth-02.jpg" alt="curvature_smooth_example_1_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_1_after.jpg" alt="curvature_smooth_example_1_after">
+      <img src="curvature-smooth.resources/curvature-smooth-03.jpg" alt="curvature_smooth_example_1_after">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -107,12 +93,12 @@ Die konkaven und konvexen Bereiche werden ebenfalls in ihre eigenen Ausgänge au
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Glatte Krümmung: Beispiel 2](../../../../../../assets/curvature_smooth_example_2.jpg "Kurvenglättung: Beispiel 2"){zoomable="yes"}
+![Glatte Krümmung: Beispiel 2](curvature-smooth.resources/curvature-smooth-04.jpg "Kurvenglättung: Beispiel 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Glatte Krümmung: Beispiel 3](../../../../../../assets/curvature_smooth_example_3.jpg "Kurvenglättung: Beispiel 3"){zoomable="yes"}
+![Glatte Krümmung: Beispiel 3](curvature-smooth.resources/curvature-smooth-05.jpg "Kurvenglättung: Beispiel 3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -121,11 +107,11 @@ Die konkaven und konvexen Bereiche werden ebenfalls in ihre eigenen Ausgänge au
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_4_before.jpg" alt="curvature_smooth_example_4_before">
+      <img src="curvature-smooth.resources/curvature-smooth-06.jpg" alt="curvature_smooth_example_4_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_4_after.jpg" alt="curvature_smooth_example_4_after">
+      <img src="curvature-smooth.resources/curvature-smooth-07.jpg" alt="curvature_smooth_example_4_after">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -135,12 +121,12 @@ Die konkaven und konvexen Bereiche werden ebenfalls in ihre eigenen Ausgänge au
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Glatte Krümmung: Beispiel 4](../../../../../../assets/curvature_smooth_example_5.jpg "Kurvenglättung: Beispiel 4"){zoomable="yes"}
+![Glatte Krümmung: Beispiel 4](curvature-smooth.resources/curvature-smooth-08.jpg "Kurvenglättung: Beispiel 4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Glatte Krümmung: Beispiel 5](../../../../../../assets/curvature_smooth_example_6.jpg "Kurvenglättung: Beispiel 5"){zoomable="yes"}
+![Glatte Krümmung: Beispiel 5](curvature-smooth.resources/curvature-smooth-09.jpg "Kurvenglättung: Beispiel 5"){zoomable="yes"}
 
 </td>
 </tr>

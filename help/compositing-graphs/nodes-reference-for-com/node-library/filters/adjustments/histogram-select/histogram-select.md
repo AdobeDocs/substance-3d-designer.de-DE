@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-select.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Histogramm auswählen , um bestimmte Bereiche aus Textur-Histogrammen auszuwählen und zu extrahieren, um zielgerichtete Anpassungen vorzunehmen.
+description: Verwenden Sie den Knoten Histogramm auswählen , um bestimmte Bereiche aus Histogrammen der Textur auszuwählen und zu extrahieren, um zielgerichtete Korrekturen vorzunehmen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Select
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Histogrammauswahl
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 1%
+source-wordcount: '102'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-select.png){width="128px"}
+![](histogram-select.resources/histogram-select-01.png){width="128px"}
 
-## Histogrammauswahl
-
-**In:** *Filter/Korrekturen*
-
-**Einfach**
+<b>In:</b> Filters > Adjustments
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,17 +37,26 @@ ht-degree: 1%
 
 [Klicken Sie hier, um ein Substance Academy-Video über Histogram Select anzusehen.](https://youtu.be/p9wcmJBFyGA?t=535)
 
-## Parameter
-
-* **Position**: *0.0 - 1.0* Legt die mittlere Position fest, an der die Bereichsauswahl erfolgt.
-* **Bereich**: *0.0 - 1.0* Legt die Breite des Auswahlbereichs fest.
-* **Kontrast**: *0.0 - 1.0*\
-  Passt den Kontrast/Abfall des Ergebnisses an.
-
-## Beispielbilder
-
-![](../../../../../../assets/histoselect-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Position</b> <i>0.0 - 1.0</i> | Legt die mittlere Position fest, an der die Bereichsauswahl erfolgt. |
+| <b>Bereich</b> <i>0.0 - 1.0</i> | Legt die Breite des Auswahlbereichs fest. |
+| <b>Kontrast</b> <i>0.0 - 1.0</i> | Passt den Kontrast/Abfall des Ergebnisses an. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="histogram-select.resources/histogram-select-02.gif" />
+        </td>
+    </tr>
 </table>

@@ -1,8 +1,8 @@
 ---
-source-git-commit: 49d7d426f1b687cf6087bb1c9735a9060af48041
+source-git-commit: 70bcf76fbb7c055ba9aa0b61e6975c266c8dd652
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 11%
+source-wordcount: '99'
+ht-degree: 12%
 
 ---
 # TODO
@@ -15,10 +15,11 @@ ht-degree: 11%
 ## Ergänzungen
 
 * Einstiegspunkte für die Python-API-Dokumentation in AdobeDocs
+* 3D-Ansicht: Verwenden Sie `refineLevel = 0`, um die Leistung zu verbessern, wenn Versatz auf Meshs mit hohem Poly-Anteil verwendet wird.
 * Beispiele auf der Seite &quot;Dokumentations-Popup&quot;
 * Glossar:
   * HDR
-  * Metallic / Metallic
+  * Metalität/Metallic
   * HDR
   * Glanz
   * Height Map
@@ -32,9 +33,6 @@ ht-degree: 11%
 
 ## Fehlerbehebungen
 
-* Fehlerhafte Verknüpfungen und Formatierung im [Ausgabeknoten &#x200B;](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-* Entfernen Sie das Inhaltsverzeichnis auf der Seite (z. B. neue Geräusche)
-* Knotenseitenlayouts korrigieren (z. B. neue Geräusche)
 * Link für 1. Beispielbild in Knotenseiten (z.B. neue Geräusche)
 * Fehlendes Element &quot;Negative Ganzzahl&quot; und fehlerhafte Verknüpfungen in [parameters-not-working-as-waiting.md](help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
 

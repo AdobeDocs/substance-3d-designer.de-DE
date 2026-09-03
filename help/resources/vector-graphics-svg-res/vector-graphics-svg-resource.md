@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Vektorgrafiken (SVG)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c002fea6f396f09ccb3218bd290db812d8367dc4
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '733'
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ Im Allgemeinen gilt Folgendes:
 * &quot;Kontur&quot; wird unterstützt, führt jedoch nur zu einer Kontur mit einer Breite von 1 Pixel, und die Konturformatierung wird ignoriert.
 * Gestrichelte Linienstile werden definitiv umbrochen.
 * Text muss in Pfade/Konturen konvertiert werden, um gerendert zu werden.
-* [Zusammengesetzte Pfade](https://helpx.adobe.com/ie/illustrator/using/combining-objects.html#compound_paths) werden nicht unterstützt.
+* [Zusammengesetzte Pfade](https://helpx.adobe.com/ie/illustrator/desktop/manage-objects/reshape-transform-objects/create-compound-paths.html) werden nicht unterstützt.
 * Erweiterte Funktionen wie Verläufe werden nicht unterstützt.
 * Stilelemente für CSS-Eigenschaften werden nicht unterstützt.
 
@@ -87,7 +87,7 @@ Das Bild auf der rechten Seite zeigt die empfohlenen Exportoptionen. Klicken Sie
 > Zeichenflächen können das Ergebnis der generierten SVG-Datei beeinflussen. Einige Illustrator-Dateivorlagen enthalten mehrere Zeichenflächen.\
 > Versuchen Sie, nur eine richtig zugeschnittene Zeichenfläche zu haben und diese beim Speichern als SVG im Zeichenflächenfenster auswählen zu lassen.
 
-![Exportoptionen für Illustrator-SVG](../../assets/svg-export-options-ai.jpg "Exportoptionen für Illustrator-SVG"){width="512px"}
+![Exportoptionen für Illustrator-SVG](vector-graphics-svg-resource.resources/vector-graphics-svg-resource-01.jpg "Exportoptionen für Illustrator-SVG"){width="512px"}
 
 ### Inkscape
 

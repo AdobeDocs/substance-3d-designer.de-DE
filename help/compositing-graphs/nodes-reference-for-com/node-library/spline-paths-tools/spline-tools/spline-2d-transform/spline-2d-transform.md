@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 2D-Transformation Spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 0%
+source-wordcount: '442'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/spline-2d-transform-icon.png "Knotensymbol")
+![Knotensymbol](spline-2d-transform.resources/spline-2d-transform-01.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -39,70 +39,42 @@ Wendet eine globale Transformation auf alle Eingabe-Splines an, einschließlich 
 </tr>
 </table>
 
-## Eingangsanschlüsse
+<a name="inputs"></a>
 
-<b>Vorschau</b> *Graustufen* Die Vorschau der Eingabe-Splines als Graustufenbild.
+## Eingaben
 
-<b>Spline-Kabel</b> *Farbe* Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Eingabesplines:\
-<b> R</b> - X-Position\
-<b> G</b> - Y-Position\
-<b> B</b> - Height\
-<b>A</b> - Paketdaten:\
-* Signieren: Die Spline ist geschlossen (negativ) oder offen (positiv).\
-* Absoluter Wert: Thickness + 1.
+|  |  |
+|:---|:---|
+| <b>Vorschau</b> <i>Graustufen</i> | Die Vorschau der Eingabe-Splines als Graustufenbild. |
+| <b>Spline-Kabel</b> <i>Farbe</i> | Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Eingabesplines:<br><b>R</b> - X position<br><b>G</b> - Y position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>- Sign: Spline ist geschlossen (negativ) oder offen (positiv);<br>- Absolute Wert: Thickness + 1. |
+| <b>Spline-Daten</b> <i>Farbe</i> | Zusätzliche Daten der Eingabe-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.<br><b>R</b> - Tangenten X<br><b>G</b> - Tangenten Y<br><b>B</b> - Nicht verwendet<br><b>A</b> - Nicht verwendet |
+| <b>Spline-Betrag</b> <i>Integer</i> | Die Anzahl der Eingabe-Splines. |
 
-<b>Spline-Daten</b> *Farbe* Zusätzliche Daten der Eingabe-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.\
-<b> R</b> - Tangenten X\
-<b> G</b> - Tangenten Y\
-<b> B</b> - Nicht verwendet\
-<b> A</b> - Nicht verwendet
+<a name="outputs"></a>
 
-<b>Spline-Betrag</b> *Integer* Die Anzahl der Eingabe-Splines.
+## Ausgaben
 
-## Ausgangsanschlüsse
+|  |  |
+|:---|:---|
+| <b>Vorschau</b> <i>Graustufen</i> | Die Vorschau der Ausgabe-Splines als Graustufenbild. |
+| <b>Spline-Kabel</b> <i>Farbe</i> | Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Ausgabesplines.<br><b>R</b> - X-Position<br><b>G</b> - Y-Position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>- Sign: Spline ist geschlossen (negativ) oder offen (positiv);<br>- Absolute Wert: Thickness + 1. |
+| <b>Spline-Daten</b> <i>Farbe</i> | Zusätzliche Daten der in den RGBA-Kanälen eines Farbbilds codierten Ausgabe-Splines.<br><b>R</b> - Tangenten X<br><b>G</b> - Tangenten Y<br><b>B</b> - Nicht verwendet<br><b>A</b> - Nicht verwendet |
+| <b>Spline-Betrag</b> <i>Integer</i> | Die Anzahl der Ausgabe-Splines. |
 
-<b>Vorschau</b> *Graustufen* Die Vorschau der Ausgabe-Splines als Graustufenbild.
-
-<b>Spline-Kabel</b> *Farbe* Die Koordinaten der Punkte der Ausgabesplines, die in den RGBA-Kanälen eines Farbbildes codiert sind.\
-<b>R</b> - X-Position\
-<b>G</b> - Y-Position\
-<b>B</b> - Height\
-<b>A</b> - Paketdaten:\
-* Signieren: Die Spline ist geschlossen (negativ) oder offen (positiv).\
-* Absoluter Wert: Thickness + 1.
-
-<b>Spline-Daten</b> *Farbe* Zusätzliche Daten der Ausgabe-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.\
-<b>R</b> - Tangenten X\
-<b>G</b> - Tangenten Y\
-<b>B</b> - Nicht verwendet\
-<b>A</b> - Nicht verwendet
-
-<b>Spline-Betrag</b> *Integer* Die Anzahl der Ausgabe-Splines.
+<a name="parameters"></a>
 
 ## Parameter
 
-<b>Richtung spiegeln</b> *Boolean* Kehrt die Richtung des Splines um.
-
-<b>Transformationsmatrix</b> *Float4* Die Transformationsmatrix, die auf die Splines angewendet wurde.\
-Es stehen drei Bearbeitungsmodi für die Matrixparameter zur Verfügung:\
-*- Transformations-Gizmo*: die Handles des Gizmos anpassen, das in der 2D-Ansicht angezeigt wird, wenn der Knoten 2D-Transformation verbinden ausgewählt ist;\
-*- Drehung/Dehnung*: Steuern Sie die Drehung und Dehnung der Splines einzeln. Beachten Sie, dass Werte immer relativ zur aktuellen Transformation angewendet werden. Wenn Sie z. B. 50 % Breite zweimal anwenden, erhalten Sie eine Breite von 25 %.\
-*- Matrixwerte*: Klicken Sie auf die Schaltfläche &quot;Matrixwerte bearbeiten&quot;, um die numerischen Rohwerte der Matrix direkt einzugeben.
-
-<b>Offset</b> *Float2* Wendet einen Positionsversatz auf die Splines in X (horizontal) und Y (vertikal) an.
-
-+++Vorschau
-<b>Richtungshelfer anzeigen</b> *Boolescher Wert* Zeigt einen Punkt am Anfang des Splines und eine Pfeilspitze an seinem Ende in der Vorschauausgabe an.
-
-<b>Umschlag der Thickness anzeigen</b> *Boolescher Wert*\
-Zeigt an den Kanten der Spline-Thickness zusätzliche Linien an.
-
-<b>Segmentierungsbetrag</b> *Integer* Passt die Anzahl der Segmente an, die zum Zeichnen der Spline-Visualisierung in der Vorschauausgabe verwendet werden.\
-Je höher der Wert, desto glatter die Linie.
-
-<b>Thickness (px)</b> *Gleitend* Passt die Thickness der Spline-Visualisierung in Pixel in der Vorschauausgabe an.
-
-+++
+|  |  |
+|:---|:---|
+| <b>Richtung spiegeln</b> <i>Boolescher Wert</i> | Kehrt die Richtung des Spline um. |
+| <b>Transformationsmatrix</b> <i>Float4</i> | Die Transformationsmatrix, die auf die Splines angewendet wird.<br>Es sind drei Modi zum Bearbeiten der Matrixparameter verfügbar:<br><br>- <i>Transformations-Gizmo</i>: Anpassen der Handles des Gizmos, das in der 2D-Ansicht angezeigt wird, wenn der Transformieren 2D-Spline-Knoten ausgewählt ist;<br>- <i>Drehung/Dehn</i>: Steuern Sie die Drehung und Dehnung der Splines einzeln. Beachten Sie, dass Werte immer relativ zur aktuellen Transformation angewendet werden. Wenn Sie z. B. 50 % Breite zweimal anwenden, erhalten Sie eine Breite von 25 %;<br>- <i>Matrixwerte</i>: Klicken Sie auf die Schaltfläche &quot;Matrixwerte bearbeiten&quot;, um die numerischen Rohwerte der Matrix direkt einzugeben. |
+| <b>Offset</b> <i>Float2</i> | Wendet einen Positionsversatz auf die Splines in X (horizontal) und Y (vertikal) an. |
+| <b>Vorschau</b> |  |
+| <b>Richtungshelfer anzeigen</b> <i>Boolescher Wert</i> | Zeigt einen Punkt am Anfang des Splines und eine Pfeilspitze an seinem Ende in der Vorschauausgabe an. |
+| <b>Umschlag der Thickness anzeigen</b> <i>Boolescher Wert</i> | Zeigt an den Kanten der Spline-Thickness zusätzliche Linien an. |
+| <b>Segmentierungsbetrag</b> <i>Integer</i> | Passt die Anzahl der Segmente an, die zum Zeichnen der Spline-Visualisierung in der Vorschauausgabe verwendet werden. Je höher der Wert, desto glatter die Linie. |
+| <b>Thickness (px)</b> <i>Gleitend</i> | Passt die Thickness der Spline-Visualisierung in Pixel in der Vorschau an. |
 
 ## Beispiele
 
@@ -113,11 +85,11 @@ Je höher der Wert, desto glatter die Linie.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/Spline2DTransform-Variant1-Before.jpg" alt="Spline2DTransform-Variant1-Before">
+      <img src="spline-2d-transform.resources/spline-2d-transform-02.jpg" alt="Spline2DTransform-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/Spline2DTransform-Variant2-After.jpg" alt="Spline2DTransform-Variant2-After">
+      <img src="spline-2d-transform.resources/spline-2d-transform-03.jpg" alt="Spline2DTransform-Variant2-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -129,11 +101,11 @@ Je höher der Wert, desto glatter die Linie.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/Spline2DTransform-Variant1-Before.jpg" alt="Spline2DTransform-Variant1-Before">
+      <img src="spline-2d-transform.resources/spline-2d-transform-02.jpg" alt="Spline2DTransform-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/Spline2DTransform-Variant1-After.jpg" alt="Spline2DTransform-Variant1-After">
+      <img src="spline-2d-transform.resources/spline-2d-transform-04.jpg" alt="Spline2DTransform-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -147,7 +119,7 @@ Je höher der Wert, desto glatter die Linie.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](../../../../../../assets/Spline2DTransform-Demo1.gif "Knotenbeispiel 1")
+![Knotenbeispiel 1](spline-2d-transform.resources/spline-2d-transform-05.gif "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">

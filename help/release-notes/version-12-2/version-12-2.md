@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 12.2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 0%
@@ -24,42 +24,42 @@ ht-degree: 0%
 
 Freigabedatum: *19. Juli 2022*
 
-![](../../assets/final3.png)
+![](version-12-2.resources/version-12-2-01.png)
 
 ## Wichtigste Funktionen
 
 ### Native Unterstützung für Apple-Chips (M1)
 
-Die Version 12.2 von Designer ist die erste mit der vollen nativen Unterstützung neuer Apple-Computer auf Basis des M1-Chips. Obwohl Designer früher technisch auf Apple Silicon-Geräten ausgeführt werden konnte, wird die native Unterstützung Ihnen ein schnelleres und effizienteres Erlebnis bieten. Wie Sie auf der Abbildung unten sehen können, ist die Berechnung mit dieser neuen Version auf diesen Computern *bis zu zweimal schneller*.
+Die Version 12.2 von Designer ist die erste mit der vollen nativen Unterstützung neuer Apple-Computer auf Basis des M1-Chips. Obwohl Designer früher technisch auf Apple Silicon-Geräten ausgeführt werden konnte, wird die native Unterstützung Ihnen ein schnelleres und effizienteres Erlebnis bieten. Wie Sie in der Abbildung unten sehen können, ist die Berechnung mit dieser neuen Version auf diesen Computern *bis zu zweimal schneller*.
 
-![](../../assets/ds-perf-applem1.png){width="600px"}
+![](version-12-2.resources/version-12-2-02.png){width="600px"}
 
-### Verbesserungen beim Substance von Modellgraphen
+### Verbesserungen für Substance-Modelldiagramme
 
 * <b>QuickInfos zu Knoten\
-  </b>Es ist nicht immer möglich zu erklären, was ein Knoten mit nur einem Symbol und einem Titel macht. Aus diesem Grund haben wir jetzt eine QuickInfo mit einer *vollständigen Beschreibung des Knotens*, wenn Sie sich in der Bibliothek oder in der Diagrammansicht befinden. Es hilft Ihnen, den Knoten zu finden, den Sie suchen, oder besser zu verstehen, was seine Funktionen sind. ![](../../assets/tootlipnode.png)
+  </b>Es ist nicht immer möglich zu erklären, was ein Knoten nur mit einem Symbol und einem Titel macht. Aus diesem Grund haben wir jetzt eine QuickInfo mit einer *vollständigen Beschreibung des Knotens*, wenn Sie sich in der Bibliothek oder in der Graphansicht befinden. Es hilft Ihnen, den Knoten zu finden, den Sie suchen, oder besser zu verstehen, was seine Funktionen sind. ![](version-12-2.resources/version-12-2-03.png)
 
 * <b>Tastaturbefehle für die Knotenerstellung\
-  </b>Um die Erstellung Ihrer am häufigsten verwendeten Knoten zu beschleunigen, können Sie jetzt Ihre eigenen Verknüpfungen in den Voreinstellungen definieren, wie für die anderen Arten von Diagrammen.![](../../assets/shorcuts.png)
+  </b>Um die Erstellung Ihrer am häufigsten verwendeten Graf zu beschleunigen, können Sie jetzt Ihre eigenen Verknüpfungen in den Voreinstellungen definieren, wie auch für die anderen Knotentypen.![](version-12-2.resources/version-12-2-04.png)
 
 * <b>Knoten im Kontextmenü des Knotens in der Vorschau anzeigen\
-  </b>In unserer neuesten Version haben wir die Möglichkeit hinzugefügt, mithilfe eines Tastaturbefehls (*UMSCHALT + Klicken* auf einen Knoten) eine Vorschau eines Knotens in der 3D-Ansicht anzuzeigen. Diese Funktion ist jetzt auch im *Knoten-Kontextmenü* verfügbar, um sie besser auffindbar zu machen.
+  </b>In unserer neuesten Version haben wir die Möglichkeit hinzugefügt, mithilfe eines Tastaturknotens (*UMSCHALT + Klick* auf einen Tastaturbefehl) eine Vorschau eines Knotens in der 3D-Ansicht anzuzeigen. Diese Funktion ist jetzt auch im *Knoten-Kontextmenü* verfügbar, um sie besser auffindbar zu machen.
 
-  ![](../../assets/previewnode.gif){width="600px"}
+  ![](version-12-2.resources/version-12-2-05.gif){width="600px"}
 * <b>Suche basierend auf Knotenkompatibilität\
-  </b>Wenn Sie im Knotenmenü nach einem Knoten suchen (erreichbar durch Drücken der *Leertaste* in der Diagrammansicht), werden Knoten jetzt korrekt gefiltert, um nur diejenigen anzuzeigen, die *mit dem aktuell ausgewählten* im Diagramm kompatibel sind. So können Sie den gesuchten Knoten schnell finden.
+  </b>Wenn Sie im Knotenmenü nach einem Knoten suchen (durch Drücken von *Leertaste* in der Graphansicht), werden die Knoten jetzt korrekt gefiltert, um nur die anzuzeigen, die *mit dem aktuell ausgewählten* im Graf kompatibel sind. So können Sie den gesuchten Knoten schnell finden.
 
 ### Sonstiges
 
-* <b>Verbesserungen der 2D-Ansicht</b>\
-  Wo es in früheren Versionen möglich war, die Ausgaben des Diagramms in der 3D-Ansicht über das *Kontextmenü* des Substance-Diagramms anzuzeigen, war es nicht möglich, eine Diagrammausgabe in der 2D-Ansicht anzuzeigen. Diese Option wurde nun zu diesem Menü hinzugefügt, mit einem Untermenü, in dem alle Diagrammausgaben aufgeführt sind, die in der 2D-Ansicht angezeigt werden sollen.\
-  Die Schaltfläche &quot;Ausgaben anzeigen&quot; in der Symbolleiste der 2D-Ansicht wurde ebenfalls mit einem Pfeil nach unten und einer QuickInfo aktualisiert, um das Verhalten der Anzeige zu verdeutlichen.\
+* <b>Verbesserungen an den 2D-Ansichten</b>\
+  Wo es in früheren Versionen möglich war, die Ausgaben des Grafen in der 3D-Ansicht über das *Kontextmenü* des Substance-Grafen anzuzeigen, war es nicht möglich, eine Graphausgabe in der 2D-Ansicht anzuzeigen. Diese Option wurde nun zu diesem Menü hinzugefügt, mit einem Untermenü, in dem alle Graphausgaben aufgelistet sind, die in der 2D-Ansicht angezeigt werden sollen.\
+  Die Schaltfläche &quot;2D-Ansichten anzeigen&quot; in der Datasymbolleiste wurde ebenfalls mit einem Abwärtspfeil und einer QuickInfo aktualisiert, um das Verhalten zu verdeutlichen.\
   Und schließlich wurde die Option &quot;Automatische Anzeige von Diagrammausgaben beim Laden eines Diagramms&quot; in den Voreinstellungen *in zwei separate Einstellungen* aufgeteilt - für die 2D-Ansicht bzw. die 3D-Ansicht -, damit Sie steuern können, welche Ansicht beim Laden eines Diagramms geöffnet und automatisch ausgefüllt werden soll.
 
 * <b>CLO-Vorlage</b>\
   Um die Interoperabilität mit der CLO-Software zu verbessern, haben wir eine *neue dedizierte Vorlage* hinzugefügt. Es fügt automatisch alle *Metadaten* zu Ihrem Diagramm hinzu, die erforderlich sind, um Ihr Material ordnungsgemäß in CLO zu importieren.
 
-  ![](../../assets/clo.png){width="600px"}
+  ![](version-12-2.resources/version-12-2-06.png){width="600px"}
 
 * Anforderungen für die <b>VFX-Referenzplattform</b>\
   Jedes Jahr veröffentlicht die VFX Reference Platform eine Liste von Tools und Bibliotheksversionen, die in jeder Software für die VFX-Branche verwendet werden können, um Inkompatibilitäten zwischen Software zu minimieren. Wie gewöhnlich *aktualisieren wir alle unsere Abhängigkeiten*, um alle diese Empfehlungen zu respektieren.

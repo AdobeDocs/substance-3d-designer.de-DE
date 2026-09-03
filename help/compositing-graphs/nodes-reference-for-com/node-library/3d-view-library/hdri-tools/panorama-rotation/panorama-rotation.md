@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Panorama-Drehung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 2%
+source-wordcount: '69'
+ht-degree: 14%
 
 ---
 
@@ -22,32 +22,30 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-rotation.png){width="200px"}
+![](panorama-rotation.resources/panorama-rotation-01.png){width="200px"}
 
-## Panorama-Drehung
-
-**In:** *3D-Ansicht/HDRI-Werkzeuge*
-
-**Einfach**
+<b>In:</b> 3D-Ansicht > HDRI-Werkzeugs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Dreht ein Panoramabild mit kugelförmiger Zuordnung um seinen Mittelpunkt, wobei die Projektion/Zuordnung korrekt bleibt. Nützlich zum Neigen oder Anpassen von HDR-Bildern.
 
-## Parameter
-
-* **Drehung**: *0.0 - 1.0*
-* **Richtungswinkel**: *0.0 - 1.0*
-* **Vordrehung um Pol**: *-1.0 - 1.0*
-* **Drehung um Pol** nachstellen: *0.0 - 1.0*
-
-## Beispielbilder
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Drehung</b> <i>0.0 - 1.0</i> |  |
+| <b>Richtungswinkel</b> <i>0.0 - 1.0</i> |  |
+| <b>Vordrehung um Pol</b> <i>-1.0 - 1.0</i> |  |
+| <b>Drehung um Pol buchen</b> <i>0.0 - 1.0</i> |  |

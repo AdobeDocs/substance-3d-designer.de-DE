@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
 breadcrumb-title: ''
-description: Erfahren Sie mehr über die Verknüpfungserstellungsmodi in der Substance 3D Designer-Diagrammansicht zum effizienten Verbinden von Knoten.
+description: Erfahren Sie mehr über die Verbindungserstellungsmodi in der Substance 3D Designer-Graphansicht zum effizienten Verbinden von Knoten.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > The graph view > Link creation modes
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Verknüpfungserstellungsmodi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -20,28 +20,28 @@ ht-degree: 0%
 
 # Verknüpfungserstellungsmodi
 
-In [Substance-Diagrammen](../../../compositing-graphs/substance-compositing-graphs.md) können Sie Knoten mithilfe eines von 3 <b>Verbindungserstellungsmodi</b> verbinden:
+In [Substance-Grafen](../../../compositing-graphs/substance-compositing-graphs.md) können Sie Knoten mit einem von 3 <b>Verbindungserstellungsmodi</b> verbinden:
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Link-Erstellungsmodus: Standard](../../../assets/link-creation-mode-standard.gif "Link-Erstellungsmodus: standard"){zoomable="yes"}
+![Link-Erstellungsmodus: Standard](link-creation-modes.resources/link-creation-modes-01.gif "Link-Erstellungsmodus: standard"){zoomable="yes"}
 
 *Zum Vergrößern klicken*
 
-<b>![](../../../assets/image2020-10-6-19-40-25.png) Standard</b> (1)
+<b>![](link-creation-modes.resources/link-creation-modes-02.png) Standard</b> (1)
 
 Es werden keine Bedingungen erzwungen.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Link-Erstellungsmodus: Material](../../../assets/link-creation-mode-material.gif "Link-Erstellungsmodus: Material"){zoomable="yes"}
+![Link-Erstellungsmodus: Material](link-creation-modes.resources/link-creation-modes-03.gif "Link-Erstellungsmodus: Material"){zoomable="yes"}
 
 *Zum Vergrößern klicken*
 
-![](../../../assets/image2020-10-6-17-11-20.png) <b>Material</b> (2)
+![](link-creation-modes.resources/link-creation-modes-04.png) <b>Material</b> (2)
 
 Ein- und Ausgänge werden je nach Nutzung abgeglichen.
 
@@ -50,11 +50,11 @@ Wenn nur eine der beiden eine Verwendung hat, wird die Verbindung wie im Standar
 </td>
 <td style="border: 0;" valign="top">
 
-![Link-Erstellungsmodus: Kompaktmaterial](../../../assets/link-creation-mode-compact-material.gif "Modus für die Erstellung von Verknüpfungen: Kompaktmaterial"){zoomable="yes"}
+![Link-Erstellungsmodus: Kompaktes Material](link-creation-modes.resources/link-creation-modes-05.gif "Link-Erstellungsmodus: Kompaktes Material"){zoomable="yes"}
 
 *Zum Vergrößern klicken*
 
-![](../../../assets/image2020-10-6-19-40-46.png) <b>Kompaktes Material</b> (3)
+![](link-creation-modes.resources/link-creation-modes-06.png) <b>Kompaktes Material</b> (3)
 
 Wie Material.
 
@@ -64,18 +64,18 @@ Eingänge und Ausgänge, die zu derselben *Gruppe* gehören, werden ausgeblendet
 </tr>
 </table>
 
-Sie können jederzeit in der Diagrammsymbolleiste zwischen den Modi wechseln, indem Sie auf die Schaltfläche ![](../../../assets/link-creation-mode.png) <b>Link-Erstellungsmodus</b> oder mit den oben aufgeführten Tastaturbefehlen klicken.
+Sie können jederzeit in der Symbolleiste des Grafen zwischen den Modi wechseln, indem Sie auf die Schaltfläche ![](link-creation-modes.resources/link-creation-modes-07.png) <b>Link-Erstellungsmodus</b> oder mit den oben aufgeführten Tastaturbefehlen klicken.
 
-In den Modi <b>Material</b> und <b>Kompaktes Material</b> sind Verbindungen zwischen Eingängen und Ausgängen mit *nicht übereinstimmenden Verwendungen* verboten.
+In den Modi <b>Material</b> und <b>Kompaktes Material</b> sind Verbindungen zwischen Eingängen und Ausgängen mit *nicht übereinstimmenden Verwendungen* nicht zulässig.
 
 ## Die Modi
 
-|  | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-25.png"/></div> Standard | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-17-11-20.png"/></div> Kompakt | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-46.png"/></div> Kompaktes Material |
+|  | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/link-creation-modes-02.png"/></div> Standard | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/link-creation-modes-04.png"/></div> Kompakt | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/link-creation-modes-06.png"/></div> Kompaktes Material |
 | --- | --- | --- | --- |
 | <b>Eingaben</b> | Alle Eingaben sind sichtbar | Alle Eingaben sind sichtbar | Nur 1 Eingabe pro Gruppe |
 | <b>Ausgaben</b> | Alle Ausgaben sind sichtbar | Alle Ausgaben sind sichtbar | Nur 1 Ausgabe pro Gruppe |
 | <b>Verknüpfungen</b> | Alle Verknüpfungen sind sichtbar | Alle Verknüpfungen sind sichtbar | Nur 1 Link pro Gruppe (grün) |
-| <b>Verbindungen</b> | Verknüpfungen werden nacheinander verbunden. | Sie verbinden Verknüpfungen als eine Multi-Link-Materialgruppe basierend auf übereinstimmenden Verwendungen.   Wenn eine Verwendung an einem Ende vorhanden ist, ist die Verbindung eine Standardverbindung. | Sie verbinden Verknüpfungen als eine einzige Verkettungsmaterialgruppe. |
+| <b>Verbindungen</b> | Verknüpfungen werden nacheinander verbunden. | Sie verbinden Verknüpfungen als Gruppe von Materialien mit mehreren Verknüpfungen auf der Grundlage entsprechender Verwendungen.   Wenn eine Verwendung an einem Ende vorhanden ist, ist die Verbindung eine Standardverbindung. | Sie verbinden Verknüpfungen als eine Gruppe von Materialien mit einem Link. |
 
 ## Zuweisen von Gruppen
 
@@ -83,16 +83,16 @@ In den Modi <b>Material</b> und <b>Kompaktes Material</b> sind Verbindungen zwis
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-Sie sollten den Knoten <b>Eingabe</b> und <b>Ausgabe</b> des Diagramms Gruppen zuweisen, um die Modi <b>Material</b> und <b>Kompaktes Material</b> zu verwenden.
+Sie sollten den Knoten <b>Eingabe</b> und <b>Ausgabe</b> des Grafen Gruppen zuweisen, um die Modi <b>Material</b> und <b>Kompaktes Material</b> zu verwenden.
 
 Sie weisen eine Gruppe in den <b>Attributen</b>-Parametern des Knotens zu, indem Sie den Gruppennamen in die <b>Gruppe</b>-Eigenschaft eingeben. Eine Gruppe kann ein beliebiger Zeichenfolgenwert sein, und Verknüpfungen werden gruppiert, wenn sie *exakt denselben* aufweisen, wobei die Groß- und Kleinschreibung beachtet werden muss.
 
-Gruppierte Ein- und Ausgänge eines Diagramms werden visuell durch *gekennzeichnet, die in einer dunklen Kapsel* in Knoteninstanzen eingeschlossen sind, die auf dieses Diagramm verweisen.
+Gruppierte Ein- und Ausgänge eines Grafen werden visuell als *gekennzeichnet, die in einer dunklen Kapsel* in Knoteninstanzen eingeschlossen sind, die auf diesen Graf verweisen.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Gruppenkapsel auf Knoten](../../../assets/link-creation-mode-group-node.png "Gruppenkapsel auf Knoten"){zoomable="yes"}
+![Kapsel der Gruppe auf Knoten &#x200B;](link-creation-modes.resources/link-creation-modes-08.png "Kapsel der Gruppe auf Knoten "){zoomable="yes"}
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ Gruppierte Ein- und Ausgänge eines Diagramms werden visuell durch *gekennzeichn
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![Gruppenattribut](../../../assets/link-creation-mode-group.png "Gruppenattribut"){zoomable="yes"}
+![Gruppenattribut](link-creation-modes.resources/link-creation-modes-09.png "Gruppenattribut"){zoomable="yes"}
 
 *Zum Vergrößern klicken*
 
@@ -133,7 +133,7 @@ Sobald die Links gruppiert sind, müssen die einzelnen Eingaben mit den Ausgaben
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![Verwendungsattribut](../../../assets/link-creation-mode-usage.png "Verwendungsattribut"){zoomable="yes"}
+![Verwendungsattribut](link-creation-modes.resources/link-creation-modes-10.png "Verwendungsattribut"){zoomable="yes"}
 
 *Zum Vergrößern klicken*
 

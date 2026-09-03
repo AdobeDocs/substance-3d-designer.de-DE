@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 14.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Dieses Update enthält neue Funktionen, mit denen Sie die tägliche Nutzung von 
 
 *Freigabedatum: 14. Januar 2025*
 
-![Streuung-Splines auf Splines](../../assets/fond.png)
+![Streuung-Splines auf Splines](version-14-1.resources/version-14-1-01.png)
 
 ## Splines- und Pfade-Updates
 
@@ -34,12 +34,12 @@ Splines und Pfadknoten wurden in Version 13.0 eingeführt, und dank Ihres Feedba
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Streuung Spline auf Spline-Animation 1](../../assets/spline1.gif){zoomable="yes"}
+![Streuung Spline auf Spline-Animation 1](version-14-1.resources/version-14-1-02.gif){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Streuung-Splines auf Splines 2](../../assets/spline2.gif){zoomable="yes"}
+![Streuung-Splines auf Splines 2](version-14-1.resources/version-14-1-03.gif){zoomable="yes"}
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ Splines und Pfadknoten wurden in Version 13.0 eingeführt, und dank Ihres Feedba
 
 Wenn Sie ein sauberes und lesbares Diagramm erstellen möchten, sind die [Knoten-Ausrichtungswerkzeuge](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md) für Sie erstellt und wurden vollständig überarbeitet! Es ist jetzt möglich, die Knoten gleichmäßig (horizontal oder vertikal) zu verteilen, und durch das Ausrichten der Knoten werden Überlappungen durch das saubere Stapeln vermieden. Kirschrot oben: beide Features berücksichtigen die tatsächliche Größe der Knoten!
 
-![Knoten ausrichten](../../assets/alignment.gif){zoomable="yes"}
+![Knoten ausrichten](version-14-1.resources/version-14-1-04.gif){zoomable="yes"}
 
 ## Kopieren und Einfügen von Parametern
 
@@ -59,7 +59,7 @@ Es ist jetzt möglich, [die Parameter eines Knotens zu kopieren und in einen and
 
 Mit dem neuen [Color Sampler-Tool](../../interface/2d-view/color-sampler/color-sampler.md) in der 2D-Ansicht können Sie den Wert eines ausgewählten Pixels verfolgen, indem Sie einen Pin darauf ablegen. Dies ist sehr nützlich, um sicherzustellen, dass Sie immer die Informationen desselben Pixels über mehrere Knoten in einem Diagramm anzeigen. Öffnen Sie das Bedienfeld &quot;Informationen&quot;, um auf das Tool zuzugreifen und es auszuprobieren!
 
-![Farbaufnehmer: mit dem Tool](../../assets/color-sampler-demo.gif "Farbaufnehmer: Verwenden des Tools "){width="640px" zoomable="yes"}
+![Farbaufnehmer: mit dem Tool](version-14-1.resources/version-14-1-05.gif "Farbaufnehmer: Verwenden des Tools "){width="640px" zoomable="yes"}
 
 ## Verbesserte Suchfunktion
 
@@ -70,7 +70,7 @@ Das [Knotenfinder](../../interface/the-graph-view/node-finder/node-finder.md)-To
 * Der Fokus wird automatisch auf das Suchfeld gesetzt, wenn das Knotensuchwerkzeug aktiviert wird;
 * Das Layout der Symbolleiste wurde überdacht, um Platz zu sparen.
 
-![Suchsymbolleiste](../../assets/search-53.png){width="640px"}
+![Suchsymbolleiste](version-14-1.resources/version-14-1-06.png){width="640px"}
 
 ## Videos
 
@@ -78,12 +78,12 @@ Das [Knotenfinder](../../interface/the-graph-view/node-finder/node-finder.md)-To
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Video-Streuung-Splines auf Splines](../../assets/video_spline.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
+[![Video-Streuung-Splines auf Splines](version-14-1.resources/version-14-1-07.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Funktionen für Videobenutzererlebnisse](../../assets/video_ux.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
+[![Funktionen für Videobenutzererlebnisse](version-14-1.resources/version-14-1-08.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
 
 </td>
 </tr>

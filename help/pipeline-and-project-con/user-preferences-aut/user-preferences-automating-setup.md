@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Benutzereinstellungen - Automatisieren der Einrichtung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Alternativ können Sie das Ändern der Benutzereinstellungen vollständig umgehe
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![XML-Dateisymbol](../../assets/xml-5.png "XML-Dateisymbol")
+![XML-Dateisymbol](user-preferences-automating-setup.resources/user-preferences-automating-setup-01.png "XML-Dateisymbol")
 
 </td>
 </tr>
@@ -54,7 +54,7 @@ Es gibt zwei verschiedene Möglichkeiten, Designer so zu konfigurieren, dass ein
 
 Wenn kein automatisches Setup vorhanden ist, oder zu Testzwecken, können Sie manuell zu <b>Bearbeiten > Voreinstellungen... wechseln.</b> und klicken Sie dann links auf den Abschnitt &quot;<b>Projekte</b>&quot;.
 
-![Projekteinstellungen](../../assets/preferences-ui.png "Projekteinstellungen")
+![Projekteinstellungen](user-preferences-automating-setup.resources/user-preferences-automating-setup-02.png "Projekteinstellungen")
 
 Mit der rot markierten Schaltfläche kann der Benutzer eine andere [SBSCFG-Datei](../../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md) auswählen.
 
@@ -210,4 +210,4 @@ Es wird zwar nicht empfohlen, in einer Produktionsumgebung eine manuelle Methode
 
    *&quot;C:\Program Files\Adobe\Adobe Substance 3D Designer\Adobe Substance 3D Designer.exe&quot; —config-file &quot;C:\Dev\Substance\custom\_configuration.sbscfg&quot;*
 
-![Konfigurationsdateieingabe in ausführbare Dateieigenschaften](../../assets/shortcutargument.jpg "Konfigurationsdateieingabe in ausführbare Dateieigenschaften")
+![Konfigurationsdateieingabe in ausführbare Dateieigenschaften](user-preferences-automating-setup.resources/user-preferences-automating-setup-03.jpg "Konfigurationsdateieingabe in ausführbare Dateieigenschaften")

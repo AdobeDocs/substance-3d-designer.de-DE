@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Falsche Bildausgabe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Auf dieser Seite werden technische Probleme in Substance 3D Designer aufgelistet
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(Fehler)](../../assets/error.svg) Problem**
+**![(Fehler)](incorrect-image-output.resources/error.svg) Problem**
 
 Farbverläufe in der Bildausgabe werden gestuft anstelle von &quot;Glatt&quot; dargestellt. Der Schritt wird dadurch verursacht, dass der vom Bild verwendete Wertebereich *zu eng ist*.\
 Das bedeutet, dass nicht genügend Werte für einen fließenden Übergang von einem Schritt eines Verlaufs zum nächsten vorhanden sind.
@@ -43,13 +43,13 @@ Wenn Sie nicht speziell mit HDR-Bildern arbeiten müssen, geben die meisten Ihre
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/demo-stepping-8-bit.png){width="256px"}![](../../assets/demo-stepping-8-bit-2.png){width="256px"}![](../../assets/demo-stepping-8-bit-3.png){width="256px"}
+![](incorrect-image-output.resources/incorrect-image-output-01.png){width="256px"}![](incorrect-image-output.resources/incorrect-image-output-02.png){width="256px"}![](incorrect-image-output.resources/incorrect-image-output-03.png){width="256px"}
 
 </td>
 </tr>
 </table>
 
-**![(tick)](../../assets/check.svg) Empfohlene Schritte**
+**![(tick)](incorrect-image-output.resources/check.svg) Empfohlene Schritte**
 
 Überprüfen Sie das **Ausgabeformat** (d. h. die Bittiefe) des Knotens und aller Knoten im Upstream, und stellen Sie sicher, dass dieser Knoten *mit einer Integer-Genauigkeit von mindestens 16 Bit verwendet*.
 
@@ -65,7 +65,7 @@ Beispiel:
 
 * L8: 8-Bit-Ganzzahl in Graustufen
 * C16: 16-Bit-Ganzzahl für Farbe
-* C32F: Farbe 32-Bit Gleitkomma (HDR)
+* C32F: Farbe 32-Bit-Gleitkomma (HDR.)
 
 ## Qualitätsverlust in der veröffentlichten SBSAR
 
@@ -73,23 +73,23 @@ Beispiel:
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-<b>![(Fehler)](../../assets/error.svg) Problem </b>
+<b>![(Fehler)](incorrect-image-output.resources/error.svg) Problem</b>
 
-Die Qualität der Bilder, die von einem Substance 3D-Archiv (SBSAR) ausgegeben werden, ist deutlich niedriger als das Diagramm der Substance 3D-Datei, aus der sie veröffentlicht wird (siehe Abbildung rechts).\
+Die Qualität der von einem Substance 3D-Archiv (SBSAR) ausgegebenen Bilder ist deutlich niedriger als der Graf der Substance 3D-Datei, aus der sie veröffentlicht wird (siehe Abbildung rechts).\
 Die Ausgabe erscheint in niedriger Auflösung.
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/issues-sbsar-bitmap-relative-to.jpg){width="256px"}
+![](incorrect-image-output.resources/incorrect-image-output-04.jpg){width="256px"}
 
 </td>
 </tr>
 </table>
 
-<b>![(tick)](../../assets/check.svg) Empfohlene Schritte</b>
+<b>![(tick)](incorrect-image-output.resources/check.svg) Empfohlene Schritte</b>
 
-Stellen Sie sicher, dass die Eigenschaft [Ausgabegröße](../../compositing-graphs/output-size/output-size.md) aller [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)-Knoten auf die *Absolute* [Vererbungsmethode](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) festgelegt ist.
+Stellen Sie sicher, dass die [Ausgabegröße](../../compositing-graphs/output-size/output-size.md)-Eigenschaft aller [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)-Knoten auf die *Absolute* [Vererbung-Methode](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) festgelegt ist.
 
 Ist dies nicht der Fall, wird die referenzierte [Bitmapressource](../../resources/bitmap-resource/bitmap-resource.md) mit der Standardauflösung 256\*256 im veröffentlichten Substance 3D-Archiv gespeichert, was sich* auf die Qualität* einer oder mehrerer Ausgaben auswirkt.
 
@@ -99,29 +99,29 @@ Ist dies nicht der Fall, wird die referenzierte [Bitmapressource](../../resource
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(Fehler)](../../assets/error.svg) Problem**
+**![(Fehler)](incorrect-image-output.resources/error.svg) Problem**
 
-Formen werden nach Verwendung einiger Knoten leicht weichgezeichnet, z. B. [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) oder [Überblenden](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md).
+Formen werden nach Verwendung einiger Knoten leicht unscharf dargestellt, z. B. [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) oder [Überblendung](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md).
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/issues-bilinear.jpg){width="256px"}
+![](incorrect-image-output.resources/incorrect-image-output-05.jpg){width="256px"}
 
 </td>
 </tr>
 </table>
 
-**![(tick)](../../assets/check.svg) Empfohlene Schritte**
+**![(tick)](incorrect-image-output.resources/check.svg) Empfohlene Schritte**
 
 Wenn Sie Pixel in einem Bild neu anordnen, z. B. wenn Sie die Größe einer Form ändern oder die Auflösung eines Bildes ändern, gibt es zwei Möglichkeiten zu bestimmen, wie Pixel aus der Quelle *dem Ziel zugeordnet werden sollen*:
 
 * **Nächste**: Das Pixel wird dem Ziel &quot;*wie besehen*&quot; an der entsprechenden Koordinate zugeordnet. Wenn das Ziel eine niedrigere Auflösung hat, kann das Pixel vollständig ignoriert werden. wenn das Ziel eine höhere Auflösung hat; es wird allen Pixeln zugeordnet, die seine Spanne abdecken. Die Ausgabe ist *schärfer* und sieht leicht *verzerrt* aus.
-* **Bilineare Filterung**: Ein Filtervorgang wird auf das Quellbild angewendet, sodass seine Pixel der Zielauflösung auf eine Weise zugeordnet werden, dass *die Übergänge zwischen den Pixeln glättet*. Die Ausgabe ist *glatter* und sieht leicht *unscharf* aus.
+* **Bilineare Filterungen**: Eine Filterung wird auf das Quellbild angewendet, sodass seine Pixel der Zielauflösung auf eine Weise zugeordnet werden, dass *die Übergänge zwischen den Pixeln glättet*. Die Ausgabe ist *glatter* und sieht leicht *unscharf* aus.
 
-Der Knoten [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) stellt eine **Filtermethode**-Option bereit, mit der Sie auswählen können, welche dieser beiden Zuordnungsmethoden verwendet werden sollen.
+Der Knoten [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) stellt eine **Filterung-Methode** bereit, mit der ausgewählt werden kann, welche dieser beiden Zuordnungsmethoden verwendet werden soll.
 
-Die meisten Knoten - z. [Überblendung](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) - Standardeinstellung für *bilineare Filterung* beim Aufnehmen einer Eingabetextur mit einer anderen Auflösung, was zu einer unerwünschten Unschärfe führen kann.\
-Da der 2D-Transformationsknoten *atomar* - also sehr leicht - ist, kann er *verwendet werden, selbst wenn keine Transformationen erforderlich sind*, um eine Texturauflösung mithilfe der Eigenschaft [Ausgabegröße](../../compositing-graphs/output-size/output-size.md) zu ändern, bevor die Textur an einen anderen Knoten gesendet wird. Sie können daher *die Auswirkungen* dieser Größenänderung steuern.
+Die meisten Knoten - z. [Überblendung](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) - Standard für *bilineare Filterung*, wenn eine Eingabeauflösung mit einer anderen Textur gesampelt wird, was zu einer unerwünschten Unschärfe führen kann.\
+Da der 2D-Transformationsknoten *atomar* - also sehr leicht - ist, kann er *verwendet werden, selbst wenn keine Transformationen erforderlich sind*, um eine Textur mithilfe der Eigenschaft [Ausgabegröße](../../compositing-graphs/output-size/output-size.md) zu ändern, bevor die Textur an einen anderen Knoten gesendet wird. Sie können daher *die Auswirkungen* dieser Größenänderung steuern.
 
-Im [Funktionsdiagramm](../../function-graphs/function-graphs.md) des [Pixelprozessors](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) enthalten die **Sample**-Knoten die *gleiche Option*, um zu steuern, wie die aufgenommene Textur der Auflösung des Knotens zugeordnet werden soll.
+Im [Funktions-Graf](../../function-graphs/function-graphs.md) des [Pixelprozessor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)-Knotens enthalten die **Sample**-Knoten die *gleiche Option*, um zu steuern, wie die aufgenommene Textur der Knotenauflösung zugeordnet werden soll.

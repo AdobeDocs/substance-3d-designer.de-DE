@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Voreinstellungen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Voreinstellungsfenster
 
-![Fenster für Voreinstellungen](../../assets/image2021-6-22-20-56-1.png "Fenster für Voreinstellungen")
+![Fenster für Voreinstellungen](preferences-window.resources/preferences-window-01.png "Fenster für Voreinstellungen")
 
 Auf dieser Seite werden das Fenster &quot;<b>Voreinstellungen</b>&quot; und alle zugehörigen Einstellungen angezeigt.
 
@@ -97,7 +97,7 @@ Mit dieser Einstellung können Sie den zugewiesenen Speicherpool für *alle glei
 
 ### Automatische Sicherungskopie
 
-Standardmäßig ist eine Funktion zum automatischen Speichern enthalten, die Kopien des aktuellen Status von offenen [SBS-Paketen](https://docs.substance3d.com/display/DRAFTDESIGNER/.Overview+vDraftVersion) zu festgelegten Zeitpunkten erstellt. Automatisch gespeicherte Dateien werden in einem Ordner &quot;<b>.autosave</b>&quot; am Speicherort des SBS-Pakets abgelegt.
+Standardmäßig ist eine Funktion zum automatischen Speichern enthalten, die Kopien des aktuellen Status von offenen [SBS Paketen &#x200B;](https://docs.substance3d.com/display/DRAFTDESIGNER/.Overview+vDraftVersion) zu festgelegten Zeitpunkten erstellt. Automatisch gespeicherte Dateien werden in einem Ordner &quot;<b>.autosave</b>&quot; am SBS Speicherort des Pakets abgelegt.
 
 |  |  |
 | --- | --- |
@@ -105,29 +105,29 @@ Standardmäßig ist eine Funktion zum automatischen Speichern enthalten, die Kop
 | <b>Auf dem Laufenden bleiben: # Versionen</b>  *Standard: 6* | Die maximale Anzahl von automatischen Speicherungen, die zu einem bestimmten Zeitpunkt beibehalten werden können. |
 
 Wenn die maximale Anzahl an Versionen erreicht ist, löschen neuere Sicherungen die ältesten Sicherungen.\
-Beachten Sie auch, dass automatische Speichervorgänge geöffnet werden sollten *, nachdem sie* an den ursprünglichen SBS-Paketspeicherort verschoben wurden. Sie sollten *not* an ihrem aktuellen Speicherort öffnen.
+Beachten Sie auch, dass automatische Speichervorgänge geöffnet werden sollten *, nachdem sie* an den ursprünglichen Speicherort des SBS-Pakets verschoben wurden. Sie sollten *not* an ihrem aktuellen Speicherort öffnen.
 
 ### Veröffentlichen und Senden von SBSAR-Dateien
 
 |  |  |
 | --- | --- |
-| <b>Speichern Sie die SBS-Datei immer, wenn Sie sie in SBSAR veröffentlichen oder an eine andere Anwendung senden</b>  *Standard: Wahr* | Steuert das automatische Speichern des SBS-Pakets, wenn [es &#x200B;](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) veröffentlicht oder an eine andere Anwendung gesendet wird. |
+| <b>Speichern Sie die SBS-Datei immer, wenn Sie sie in SBSAR veröffentlichen oder an eine andere Anwendung senden</b>  *Standard: Wahr* | Steuert das automatische Speichern des SBS, wenn [es &#x200B;](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) veröffentlicht oder an eine andere Anwendung gesendet wird. |
 
 ### Cooker
 
 |  |                                                                                                                                                                                                                                                                                                 |
 | --- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>Begrenzung der Kochgröße</b>  *Standard: 8192 Pixel* | Definiert die maximale Pixelauflösung, die für alle Knoten in einem beliebigen Substance [Diagramm](../../compositing-graphs/substance-compositing-graphs.md) zulässig ist. Da Diagrammausgaben immer quadratische Bilder mit einer Potenz von 2 Auflösungen sind, definiert der hier festgelegte Wert sowohl die maximale Breite als auch das Height in Pixel. |
+| <b>Begrenzung der Kochgröße</b>  *Standard: 8192 Pixel* | Definiert die höchstzulässige Pixelauflösung für alle Knoten in einem beliebigen Substance [Graf](../../compositing-graphs/substance-compositing-graphs.md). Da Graphausgaben immer quadratische Bilder mit einer Potenz von 2 Auflösungen sind, definiert der hier festgelegte Wert sowohl die maximale Breite als auch das Height in Pixel. |
 
 ### Modul
 
 |  |  |
 | --- | --- |
-| <b>GPU-Cachebeschränkung</b>  *Standard: 2048 MB* | Mit dieser Einstellung können Sie festlegen, wie viel Speicher für das Zwischenspeichern von Renderstufen reserviert werden soll. Normalerweise speichert das Substance Engine die Ausgabe jedes Knotens in einem Substance-Graphen zwischen. |
+| <b>GPU-Cachebeschränkung</b>  *Standard: 2048 MB* | Mit dieser Einstellung können Sie festlegen, wie viel Speicher für das Zwischenspeichern von Renderstufen reserviert werden soll. Normalerweise speichert das Substance Engine die Ausgabe jedes Nodes in einem Substance-Graf zwischen. |
 
 >[!NOTE]
 >
-> Wir empfehlen, die Vorschläge zum Verringern des Speicherbedarfs eines Diagramms im Abschnitt [Richtlinien zur Leistungsoptimierung](../../best-practices/performance-optimization/performance-optimization-guidelines.md) der Dokumentation zu lesen.
+> Wir empfehlen, die Vorschläge zur Verringerung des Speicherbedarfs eines Grafen im Abschnitt [Richtlinien zur Leistungsoptimierung](../../best-practices/performance-optimization/performance-optimization-guidelines.md) der Dokumentation zu lesen.
 
 ## Projekte
 
@@ -140,31 +140,31 @@ Weitere Informationen finden Sie auf der Seite [Projekteinstellungen](../../inte
 |  |  |
 | --- | --- |
 | <b>Die Tabulatortaste zeigt das Knotenmenü </b> an.  *Standard: Aktiviert* | Wenn diese Option aktiviert ist, öffnet die Tabulatortaste das <b>Knotenmenü</b> und repliziert die Funktionalität der Leertaste. |
-| <b>Erstellen von Knoten durch Klicken und Ziehen von Konnektoren aktivieren</b>  *Standard: Aktiviert* | Wenn diese Option aktiviert ist, ziehen Sie den Cursor, wenn Sie auf einen beliebigen Connector klicken, und lassen Sie den erstellten Link im leeren Diagrammbereich los, um das <b>Knotenmenü</b> anzuzeigen.   Das Menü wird auch *gefiltert*, je nach Typ des Connectors, auf den geklickt wurde. Das bedeutet, dass nur Knoten angezeigt werden, die mit dem angeklickten Connector kompatibel sind. |
-| <b>Anzeigen von Ausgaben in der 3D-Ansicht beim Öffnen eines Diagramms</b>  *Standard: Aktiviert* | Wenn diese Option aktiviert ist, werden alle Diagrammausgaben automatisch in der [3D-Ansicht](../../interface/3d-view/3d-view.md) angewendet, wenn dieses Diagramm geöffnet wird.   Dies hat auch zur Folge, dass alle Knoten gerendert werden, die Teil eines Streams sind, der zu einem [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)-Knoten führt. |
+| <b>Aktivieren der Knotenerstellung durch Klicken und Ziehen von Verbindungen</b>  *Standard: Aktiviert* | Wenn diese Option aktiviert ist, ziehen Sie den Cursor, wenn Sie auf eine Verbindung klicken, und lassen Sie den erstellten Link im leeren Graf los, um das <b>Knotenmenü</b> anzuzeigen.   Das Menü wird auch *gefiltert*, je nach Typ der Verbindung, auf die geklickt wurde. Das bedeutet, dass nur Knoten angezeigt werden, die mit der angeklickten Verbindung kompatibel sind. |
+| <b>Anzeigen von Ausgaben in der 3D-Ansicht beim Öffnen eines Grafen</b>  *Standard: Aktiviert* | Wenn diese Option aktiviert ist, werden alle Graphausgaben automatisch in der [3D-Ansicht](../../interface/3d-view/3d-view.md) angewendet, wenn dieser Graf geöffnet wird.   Dies hat auch zur Folge, dass alle Knoten gerendert werden, die Teil eines Streams sind, der zu einem [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)-Knoten führt. |
 
 ### Substance Kompositionsgraph
 
 |  |  |
 | --- | --- |
-| <b>Beim Öffnen eines Diagramms automatisch alle Miniaturansichten für Knoten berechnen</b>  *Standard: Aktiviert* | Wenn diese Option aktiviert ist, werden beim Laden des Diagramms automatisch alle Knoten-Miniaturansichten gerendert. |
-| <b>Ausgabe in 2D-Ansicht anzeigen, wenn ein Diagramm geöffnet wird</b>  *Standard: Aktiviert* | Wenn diese Option aktiviert ist, wird die erste Diagrammausgabe automatisch in der [2D-Ansicht](../../interface/2d-view/2d-view.md) angezeigt, wenn dieses Diagramm geöffnet wird. Dies hat auch zur Folge, dass alle Knoten gerendert werden, die Teil eines Streams sind, der zu diesem [Ausgabeknoten](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) führt. |
+| <b>Beim Öffnen eines Grafen automatisch alle Miniaturansichten für Knoten berechnen</b>  *Standard: Aktiviert* | Wenn diese Option aktiviert ist, werden beim Laden des Grafen automatisch alle Knotenminiaturen gerendert. |
+| <b>Ausgabe in 2D-Ansicht anzeigen, wenn ein Graf geöffnet wird</b>  *Standard: Aktiviert* | Wenn diese Option aktiviert ist, wird die erste Graphausgabe automatisch in der [2D-Ansicht](../../interface/2d-view/2d-view.md) angezeigt, wenn dieser Graf geöffnet wird. Dies hat auch zur Folge, dass alle Knoten gerendert werden, die Teil eines Streams sind, der zu diesem [Ausgabeknoten](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) führt. |
 | <b>Automatisch neu erstellten Compositing-Knoten anzeigen</b>  *Standard: Aktiviert* | Wenn diese Option aktiviert ist, wird die [2D-Ansicht](../../interface/2d-view/2d-view.md) automatisch aktualisiert, um die Ausgabe eines neu erstellten Knotens anzuzeigen. |
-| <b>Konvertierungsknoten für Farbe/Graustufen automatisch einfügen</b>  *Standard: Nicht aktiviert* | Wenn diese Option aktiviert ist, werden Farb-/Graustufen-Verbindungstypkonflikte automatisch behoben, indem *bestimmte Knoten platziert werden*, um die entsprechende Konvertierung durchzuführen.   Wenn eine *Grayscale*-Ausgabe (grauer Connector) mit einem *Color*-Eingang (gelber Connector) verbunden ist, wird automatisch ein [Gradient Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)-Knoten zwischen den beiden Connectors platziert.   Wenn eine *Color*-Ausgabe (gelber Connector) mit einem *Grayscale*-Eingang (grauer Connector) verbunden ist, wird automatisch ein [Grayscale Conversion](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md)-Knoten zwischen den beiden Connectors platziert. |
-| <b>Diagrammbearbeitung im Kontext aktivieren</b>  *Standard: Nicht aktiviert* | Wenn Sie ein Diagramm öffnen, auf das von einem [Instanzknoten](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) mit einem Rechtsklick auf den Knoten verwiesen wird, und <b>Verweis öffnen</b> auswählen, wird dieses Diagramm standardmäßig geladen und *isoliert* bearbeitet.   Wenn diese Option aktiviert ist, können Sie Diagramme bearbeiten, auf die von Instanzen *verwiesen wird. Dabei werden die Informationen verwendet, die in der Instanz* vom aktuellen Diagramm übergeben werden. Klicken Sie dazu mit der rechten Maustaste auf einen Instanzknoten und wählen Sie <b>Verweis im Kontext öffnen</b> aus, oder verwenden Sie den Tastaturbefehl Strg+E.   Das bedeutet, dass ein instanziertes Diagramm im Kontext des Diagramms bearbeitet werden kann, in dem es instanziert wird. Dies ist sehr nützlich, um die Auswirkungen der Bearbeitungen auf das Diagramm zu sehen, in dem Sie gearbeitet haben. Siehe Beispiel unten.  **Hinweis:** Die Registerkarten <b>Vorschau</b> und <b>Vorgaben</b> sind *deaktiviert* in den [Diagrammeigenschaften](../../compositing-graphs/graph-parameters/graph-parameters.md), wenn die kontextbezogene Bearbeitung verwendet wird. |
+| <b>Konvertierungsknoten für Farbe/Graustufen automatisch einfügen</b>  *Standard: Nicht aktiviert* | Wenn diese Option aktiviert ist, werden Farb-/Graustufen-Verbindungstypkonflikte automatisch behoben, indem *bestimmte Knoten platziert werden*, um die entsprechende Konvertierung durchzuführen.   Wenn eine *Grayscale*-Ausgabe (graue Verbindung) mit einem *Color*-Eingang (gelbe Verbindung) verbunden ist, wird automatisch ein [Verlaufs-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)-Knoten zwischen den beiden Verbindungen platziert.   Wenn eine *Color*-Ausgabe (gelbe Verbindung) mit einem *Grayscale*-Eingang (graue Verbindung) verbunden ist, wird automatisch ein [Graustufenkonvertierung](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md)-Knoten zwischen den beiden Verbindungen platziert. |
+| <b>Graf-Bearbeitung im Kontext aktivieren</b>  *Standard: Nicht aktiviert* | Wenn Sie einen Graf öffnen, der von einem [Instanzknoten](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) mit einem Rechtsklick auf den Knoten referenziert wird, und <b>Verweis öffnen</b> auswählen, wird dieser Graf standardmäßig geladen und *für sich* bearbeitet.   Wenn diese Option aktiviert ist, können Sie Graf bearbeiten, auf die von Instanzen *verwiesen wird. Dabei werden die Informationen verwendet, die in der Instanz* vom aktuellen Graf übergeben werden. Klicken Sie dazu mit der rechten Maustaste auf einen Instanzknoten und wählen Sie <b>Verweis im Kontext öffnen</b> aus, oder verwenden Sie den Tastaturbefehl Strg+E.   Dies bedeutet, dass ein instanzierter Graf im Kontext des Grafen bearbeitet werden kann, in den er instanziert wird. Dies ist sehr nützlich, um die Auswirkungen der Bearbeitungen auf den Graf zu sehen, in dem Sie gearbeitet haben. Siehe Beispiel unten.  **Hinweis:** Die Registerkarten <b>Vorschau</b> und <b>Vorgaben</b> sind *deaktiviert* in den [Graf-Eigenschaften](../../compositing-graphs/graph-parameters/graph-parameters.md), wenn die kontextbezogene Bearbeitung verwendet wird. |
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Kontextabhängige Bearbeitung deaktiviert](../../assets/substance3ddesigner_incontext_no.gif "Kontextabhängige Bearbeitung deaktiviert")
+![Kontextabhängige Bearbeitung deaktiviert](preferences-window.resources/preferences-window-02.gif "Kontextabhängige Bearbeitung deaktiviert")
 
 *Verweis öffnen*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Kontextabhängige Bearbeitung aktiviert](../../assets/substance3ddesigner_incontext_yes.gif "Kontextabhängige Bearbeitung aktiviert")
+![Kontextabhängige Bearbeitung aktiviert](preferences-window.resources/preferences-window-03.gif "Kontextabhängige Bearbeitung aktiviert")
 
 *Verweis im Kontext öffnen*
 

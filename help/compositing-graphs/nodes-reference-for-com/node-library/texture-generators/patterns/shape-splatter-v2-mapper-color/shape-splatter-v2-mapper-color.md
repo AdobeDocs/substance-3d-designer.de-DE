@@ -1,7 +1,7 @@
 ---
 title: Shape Splater v2 Mapper-Farbe
 description: Designer > Substance von Compositing-Graphen > Knotenreferenz für Substance-Compositing-Graphen > Knotenbibliothek > Generator > Muster > Formspritzer v2 Mapper-Farbe
-source-git-commit: f688c618b01d3ca8059e67cf0797268e44e94b17
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1948'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Symbol für die v2-Zuordnungsfarbe für Shape-Splatter](shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color.png "Symbol für die v2-Zuordnungsfarbe für Shape-Splatter")
+![Symbol für die v2-Zuordnungsfarbe für Shape-Splatter](shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-01.png "Symbol für die v2-Zuordnungsfarbe für Shape-Splatter")
 
 <b>In:</b> Generator > Pattern
 
@@ -113,24 +113,24 @@ Siehe auch [Shape splatter v2 mapper grayscale](../shape-splatter-v2-mapper-gray
 <table style="margin-top: 32px; margin-bottom: 32px; border: none">
     <tr style="border: 0; background: transparent">
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-triplanar-02.gif" /><br><i>Triplanare Zuordnung</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-02.gif" /><br><i>Triplanare Zuordnung</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-normal.gif" /><br><i>Normale Zuordnung</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-03.gif" /><br><i>Normale Zuordnung</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-02.jpg" /><br><i>Zuordnung pro Material-ID aus SDF-Formen</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-04.jpg" /><br><i>Zuordnung pro Material-ID aus SDF-Formen</i>
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-tiling.gif" /><br><i>Kachelanpassung mit triplanarer Zuordnung</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-05.gif" /><br><i>Kachelanpassung mit triplanarer Zuordnung</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-01.jpg" /><br><i>Zuordnung pro Material-ID aus Zylinderform</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-06.jpg" /><br><i>Zuordnung pro Material-ID aus Zylinderform</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-graph.png" /><br><i>Knoten im Kontext eines Diagramms</i>" /&gt;
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-07.png" /><br><i>Knoten im Kontext eines Diagramms</i>" /&gt;
         </td>
     </tr>
 </table>

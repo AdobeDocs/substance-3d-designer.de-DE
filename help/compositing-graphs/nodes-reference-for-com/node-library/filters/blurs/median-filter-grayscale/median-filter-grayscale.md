@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-grayscale.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Medianfilter - Graustufen , um Rauschen zu reduzieren und Kanten in Graustufenstrukturen zu erhalten.
+description: Verwenden Sie den Knoten Medianfilter - Graustufen , um das Rauschen zu reduzieren und Kanten in Graustufen-Texturen beizubehalten.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Median filter grayscale
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Graustufen des Medianfilters
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 0%
+source-wordcount: '326'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Graustufen des Medianfilters: Symbol &#x200B;](../../../../../../assets/MedianFilter_Icon_Grayscale.png "Graustufen des Medianfilters: Symbol ")
+![Graustufen des Medianfilters: Symbol &#x200B;](median-filter-grayscale.resources/median-filter-grayscale-01.png "Graustufen des Medianfilters: Symbol ")
 
 <b>In:</b> Filters > Blurs
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## Beschreibung
 
-Dieser Filter glättet Rauschen in einem Bild und behält dabei die Kanten bei.
+Dieser Filter glättet das Rauschen in einem Bild und behält dabei die Kanten bei.
 
 Für jedes Pixel berechnet der Knoten einen Graustufenwert entsprechend dem Medianwert der Nachbarpixel.
 
@@ -45,36 +45,41 @@ Für jedes Pixel berechnet der Knoten einen Graustufenwert entsprechend dem Medi
 >
 > Siehe auch [Mediane Filterfarbe](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/median-filter-color/median-filter-color.md).
 
-## Eingangsanschlüsse
+<a name="inputs"></a>
 
-<b>Eingabe </b>*Graustufen* Das Graustufenbild, auf das der Filter angewendet werden soll.
+## Eingaben
 
-## Ausgangsanschlüsse
+|  |  |
+|:---|:---|
+| <b>Eingabe</b> <i>Graustufen</i> | Das Graustufenbild, auf das der Filter angewendet werden soll. |
 
-<b>Ausgabe </b>*Graustufen* Das durch Anwenden des Filters auf das eingegebene Graustufenbild berechnete Graustufenbild.
+<a name="outputs"></a>
+
+## Ausgaben
+
+|  |  |
+|:---|:---|
+| <b>Ausgabe</b> <i>Graustufen</i> | Das Graustufenbild, das durch Anwenden des Filters auf das Eingabe-Graustufenbild berechnet wird. |
+
+<a name="parameters"></a>
 
 ## Parameter
 
-<b>Kernelgröße</b> *Integer* Ein Kernel ist eine bestimmte Gruppe von Werten, die in den Berechnungen eines Filters verwendet werden. Dabei handelt es sich um die Werte der benachbarten Pixel.\
-Für jedes Pixel nimmt der Filter alle Nachbarn um dieses Pixel in einem quadratischen Kernel und berechnet den Medianwert aller Nachbarn.\
-Dieser Parameter steuert die Größe des quadratischen Kernels in Pixeln. Ein größerer Kernel führt zu einem stärkeren, weiter reichenden Glättungseffekt auf Kosten einiger Details.\
-*- 3x3:* ein Kernel, der 3 Pixel breit und 3 Pixel hoch ist und insgesamt 8 Nachbarpixel umfasst.\
-*- 5x5:* ein Kernel, der 5 Pixel breit und 5 Pixel hoch ist und insgesamt 24 Nachbarpixel umfasst.
-
-<b>Filtertyp </b> *Integer* Die Berechnung wurde auf die Nachbarn angewendet, die im Kernel getestet wurden.\
-*- Median:* Verwenden Sie den Medianwert aller Nachbarn direkt.\
-*- MLMAD:* steht für &quot;Median der niedrigsten mittleren absoluten Abweichung&quot;. Die Abweichung gibt an, wie unterschiedlich ein Wert vom Median ist. Anstatt den Medianwert direkt zu verwenden, der von einem Ausreißer-Pixel mit hoher Abweichung geneigt werden kann, verwendet das MLMAD-Verfahren den Median aller Abweichungen. Diese Methode führt zu einem stärkeren Glättungseffekt, der Bereiche entsprechend der Kernelgröße abflachen kann.
+|  |  |
+|:---|:---|
+| <b>Kernelgröße</b> *Ganzzahl* | Ein Kernel ist eine bestimmte Gruppe von Werten, die in den Berechnungen eines Filters verwendet werden. Dabei handelt es sich um die Werte der benachbarten Pixel.<br><br>Für jedes Pixel nimmt der Filter alle Nachbarn um dieses Pixel in einem quadratischen Kernel und berechnet den Mittelwert aller Nachbarn.<br><br>Dieser Parameter steuert die Größe des quadratischen Kernels in Pixel. Ein größerer Kernel führt zu einem stärkeren, weiter reichenden Glättungseffekt auf Kosten einiger Details.<br><br>*- 3x3:* ein Kernel, der 3 Pixel breit und 3 Pixel hoch ist und insgesamt 8 Nachbarpixel umfasst.<br>*- 5x5:* ein Kernel, der 5 Pixel breit und 5 Pixel hoch ist und insgesamt 24 Nachbarpixel umfasst. |
+| <b>Filtertyp </b> *Ganzzahl* | Die Berechnung, die auf die Nachbarn angewendet wird, die im Kernel getestet wurden.<br><br>*- Median:* Verwenden Sie den Medianwert aller Nachbarn direkt.<br>*- MLMAD:* steht für &quot;Median der niedrigsten absoluten Medianabweichung&quot;. Die Abweichung gibt an, wie unterschiedlich ein Wert vom Median ist. Anstatt den Medianwert direkt zu verwenden, der von einem Ausreißer-Pixel mit hoher Abweichung geneigt werden kann, verwendet das MLMAD-Verfahren den Median aller Abweichungen. Diese Methode führt zu einem stärkeren Glättungseffekt, der Bereiche entsprechend der Kernelgröße abflachen kann. |
 
 ## Beispiele
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-02.png" alt="MedianFilter_Variant2A">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-03.png" alt="MedianFilter_Variant2B">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -83,11 +88,11 @@ Dieser Parameter steuert die Größe des quadratischen Kernels in Pixeln. Ein gr
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant4A.png" alt="MedianFilter_Variant4A">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-04.png" alt="MedianFilter_Variant4A">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant4B.png" alt="MedianFilter_Variant4B">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-05.png" alt="MedianFilter_Variant4B">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -96,11 +101,11 @@ Dieser Parameter steuert die Größe des quadratischen Kernels in Pixeln. Ein gr
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant1A.png" alt="MedianFilter_Variant1A">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-06.png" alt="MedianFilter_Variant1A">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant1B.png" alt="MedianFilter_Variant1B">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-07.png" alt="MedianFilter_Variant1B">
       <br><i>Nach</i>
     </td>
   </tr>

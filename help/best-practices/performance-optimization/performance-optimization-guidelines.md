@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
 breadcrumb-title: ''
-description: Erfahren Sie Richtlinien zur Leistungsoptimierung für Substance 3D Designer, um die Diagrammleistung zu verbessern und die Verarbeitungszeit zu reduzieren.
+description: Erfahren Sie Richtlinien zur Leistungsoptimierung für Substance 3D Designer, um die Graf-Performance zu verbessern und die Verarbeitungszeit zu verkürzen.
 helpx_creative_field: ""
 helpx_description: Designer > Best Practices > Performance optimization guidelines
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Richtlinien zur Leistungsoptimierung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 0%
@@ -22,26 +22,26 @@ ht-degree: 0%
 
 ## Substance-Graphen
 
-Je komplexer Ihre [Substance-Diagramme](../../compositing-graphs/substance-compositing-graphs.md) sind, desto mehr Verarbeitungsleistung benötigen Sie zum Rendern. Sie sollten versuchen, <b>ein Gleichgewicht zwischen Komplexität und Rendering-Geschwindigkeit herzustellen</b>.\
+Je komplexer Ihre [Substance-Graf](../../compositing-graphs/substance-compositing-graphs.md) sind, desto mehr Verarbeitungsleistung benötigen Sie zum Rendern. Sie sollten versuchen, <b>ein Gleichgewicht zwischen Komplexität und Rendering-Geschwindigkeit herzustellen</b>.\
 Dies ist *besonders* wichtig, wenn Sie sie in Echtzeit-Grafikanwendungen wie Spielen verwenden.
 
-Im Allgemeinen sollten Knoten mit benutzerdefinierten Parametern, die zur Laufzeit geändert werden können - <b>, so nah wie möglich am Ende des Diagramms platziert werden</b>.
+Im Allgemeinen sollten Knoten, die benutzerdefinierte Parameter gelegt haben, die zur Laufzeit geändert werden können - <b>, so nah wie möglich am Ende des Grafen platziert werden</b>.
 
-Dies liegt daran, dass die Ausgabe jedes Knotens nach Möglichkeit zwischengespeichert wird. Je höher der Graph des anpassbaren Knotens ist, desto mehr Ausgaben müssen verarbeitet werden, wenn einer dieser exponierten Parameter geändert wird. Wenn sich der angezeigte Knoten nahe am Ende des Diagramms befindet, müssen nur die wenigen Knoten zwischen ihm und den Ausgabeknoten neu berechnet werden.
+Dies liegt daran, dass die Ausgabe jedes Knotens nach Möglichkeit zwischengespeichert wird. Je höher der Graf des anpassbaren Knotens ist, desto mehr Ausgaben müssen verarbeitet werden, wenn einer dieser freigelegte Parameter verändert wird. Wenn sich der gelegt Graf nahe am Ende des Knotens befindet, müssen nur die wenigen Knotenpunkte zwischen ihm und den Ausgabeknoten neu berechnet werden.
 
-Wenn Sie beispielsweise eine einheitliche Farbe am Anfang Ihres Diagramms anpassen, werden alle folgenden Knoten neu berechnet. Wenn Sie einen HSL-Knoten direkt vor der Ausgabe optimieren, wird nur dieser Knoten neu berechnet, wodurch die Leistung des Diagramms erheblich verbessert wird.
+Wenn Sie beispielsweise eine einheitliche Farbe zu Beginn des Grafen anpassen, werden alle folgenden Knoten neu berechnet. Wenn Sie einen HSL vor der Ausgabe optimieren, wird nur dieser Knoten neu berechnet, wodurch die Leistung des Grafen erheblich verbessert wird.
 
 Bitte beachten Sie die folgenden Richtlinien:
 
 ### ALLGEMEINE LEISTUNGSBEZOGENE EINSTELLUNGEN
 
 +++GPU-Engine ist viel schneller als CPU-Engine
-Verwenden Sie die GPU-Substance-Engine (mit Hotkey F9 wechseln), es sei denn, Sie haben eine nicht unterstützte (integrierte) Grafikkarte.
+Verwenden Sie das GPU-Substance-Engine (mit Hotkey F9 wechseln), es sei denn, Sie haben eine nicht unterstützte (integrierte) Grafikkarte.
 
 +++
 
-+++Das Wechseln der übergeordneten Auflösung des Diagramms ist langsam
-Es berechnet Graph, Cache und alle Miniaturansichten neu. Es ist besser, [die Registerkarte <b>Batch </b> des Exportdialogs &#x200B;](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md) zu verwenden, da dadurch eine umfangreiche, nicht benötigte Neuberechnung vermieden wird (z. B. beim Export in die Auflösung 8192).
++++Das Wechseln der übergeordneten Auflösung des Grafen ist langsam
+Es berechnet Graf, Cache und alle Miniaturansichten neu. Es ist besser, [die Registerkarte <b>Batch </b> des Exportdialogs &#x200B;](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md) zu verwenden, da dadurch eine umfangreiche, nicht benötigte Neuberechnung vermieden wird (z. B. beim Export in die Auflösung 8192).
 
 +++
 
@@ -50,12 +50,12 @@ Die Anwendung &quot;[&quot; begrenzt den Arbeitsspeicher, der &#x200B;](../../in
 
 +++
 
-### DIAGRAMMOPTIMIERUNG
+### OPTIMIERUNG DES GRAFEN
 
 +++Achten Sie auf die Knotenauflösungen und die Vererbung im Allgemeinen!
-Hohe Werte wirken sich stark auf die Leistung aus. Überlege dir also, wie das Material voraussichtlich verwendet wird und ob du die Datengröße reduzieren kannst.
+Hohe Werte wirken sich erheblich auf die Performance aus. Überlegen Sie daher, wie das Material voraussichtlich verwendet wird und ob Sie die Datengröße reduzieren können.
 
-Es wird empfohlen, mehr über die [Knotenauflösung (Ausgabegröße)](../../compositing-graphs/output-size/output-size.md) und die [Vererbung in Substance-Graphen](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) zu erfahren.
+Es wird empfohlen, mehr über die [Knotenauflösung (Ausgabegröße)](../../compositing-graphs/output-size/output-size.md) und die [Vererbung in Substance-Grafen](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) zu erfahren.
 
 +++
 
@@ -65,12 +65,12 @@ Farbvorgänge dauern viermal länger als Graustufenvorgänge. Versuchen Sie auß
 +++
 
 +++8 Bit verwenden, wenn 16 Bit nicht benötigt wird
-Die CPU-Version des Substance Engine (SSE2) *unterstützt weder 16-Bit-Farbton noch 8-Bit-Graustufen.* Die GPU-Engine unterstützt alle 4 Kombinationen von 8/16 Bit und Graustufen/Farbe. *Derzeit wird nur das CPU-Modul in Unity- und Unreal Engine-Plug-ins verwendet*.
+Die CPU-Version des Substance Engine (SSE2) *unterstützt weder 16-Bit-Farbton noch 8-Bit-Graustufen.* Das GPU-Engine unterstützt alle 4 Kombinationen aus 8/16 Bit und Graustufen/Farbe. *Derzeit wird nur das CPU-Engine in Unity- und Unreal-Engine-Plug-ins verwendet*.
 
 +++
 
 +++Minimieren der Knotenausgabegröße, wann immer möglich
-Manchmal wirkt sich die Verkleinerung einiger Knoten nicht auf das Endergebnis aus, sondern auf die Leistung. Beispielsweise ist die Verwendung eines Knotens mit einheitlicher Farbe, der auf dieselbe Ausgabegröße wie das Dokument festgelegt ist, sinnlos: Die einheitliche Farbe sollte auf &quot;Absolut [16px x 16px]&quot; und der nachfolgende Knoten auf &quot;Relativ zur übergeordneten Farbe&quot; gesetzt werden. Im Allgemeinen eignet sich dieser Trick gut für Bilder mit niedriger Frequenz, wie zum Beispiel Perlin-Rauschen.
+Manchmal wirkt sich die Verkleinerung einiger Knoten nicht auf das Endergebnis aus, sondern auf die Leistung. Die Verwendung eines Einheitliche Farbe-Knotens, der auf dieselbe Ausgabegröße wie das Dokument festgelegt ist, ist beispielsweise sinnlos: Die Einheitliche Farbe sollte auf &quot;Absolut [16px x 16px]&quot; und der nachfolgende Knoten auf &quot;Relativ zum übergeordneten Element&quot; festgelegt werden. Im Allgemeinen eignet sich dieser Trick gut für niederfrequente Bilder, wie z. B. Perlin Rauschen.
 
 +++
 
@@ -79,7 +79,7 @@ Dies verlangsamt die Rendering-Leistung.
 
 +++
 
-+++Deaktivieren Sie bei Verwendung des Überblendungsknotens die Alpha-Überblendung, wenn sie nicht erforderlich ist.
++++Deaktivieren Sie bei Verwendung des Knotens &quot;Überblendung&quot; die Alpha-Überblendung, wenn sie nicht erforderlich ist.
 
 
 +++
@@ -89,23 +89,23 @@ Dies verlangsamt die Rendering-Leistung.
 
 +++
 
-+++Einige Geräuscherzeuger sind von der Anzahl der gezeichneten Muster betroffen.
++++Einige Rauschen-Generatoren sind von der Anzahl der gezeichneten Muster betroffen.
 Der Knoten &quot;[Tile Generator](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)&quot; wird beispielsweise langsamer, wenn Sie mehr Muster verarbeiten möchten, die Sie ihm hinzufügen.
 
 +++
 
-+++Einige Geräusche werden durch einen Skalierungsfaktor beeinflusst
-Dieser Faktor wird in der Tat mehr Muster ziehen. Zu den betroffenen Nodes gehören Geräusche, Zellen usw. Wenn Sie ein weißes Rauschmuster benötigen, verwenden Sie kein Rauschen mit einem sehr hohen Skalierungswert und verwenden Sie stattdessen die Knoten [Weißes Rauschen](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise/white-noise.md) oder [Weißes Rauschen schnell](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md).
++++Einige Rauschen sind von einem Skalierungsfaktor betroffen.
+Dieser Faktor wird in der Tat mehr Muster ziehen. Zu den betroffenen Nodes gehören Rauschen, Zellen, usw. Wenn Sie ein White-Rauschen-Muster benötigen, verwenden Sie keine Rauschen mit einem sehr hohen Skalierungswert und verwenden Sie stattdessen die Knoten [White Rauschen](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise/white-noise.md) oder [White Rauschen Fast](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md).
 
 +++
 
-+++Umgekehrt gibt es einige sehr schnelle Geräuscherzeuger
-Dazu gehören [White Noise Fast](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md), [Fraktalsumme Base](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-base/fractal-sum-base.md) und [Anisotropic Noise](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/anisotropic-noise/anisotropic-noise.md).
++++Umgekehrt gibt es einige sehr schnelle Rauschen-Generatoren
+Dazu gehören [White Rauschen Fast](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md), [Fraktalsumme Base](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-base/fractal-sum-base.md) und [Anisotropic Rauschen](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/anisotropic-noise/anisotropic-noise.md).
 
 +++
 
 +++In manchen Fällen solltest du auf umfangreiche Bildaufnahmefunktionen achten
-Mit Ausnahme von [Pixelprozessoren](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) werden Funktionen auf der CPU-Engine ausgeführt. Wenn Sie in [Value Processors](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) oder [FXmaps](../../function-graphs/fxmaps/fxmaps.md) viele Bildberechnungen (Ändern der $pos-Koordinaten) durchführen, kommt es zu einem großen Austausch zwischen VRAM und CPU-RAM, was zu Leistungsverzögerungen führt.
+Funktionen werden auf dem CPU-Engine ausgeführt, außer in [Pixelprozessoren](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md). Wenn Sie in [Wertprozessoren](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) oder [FXmaps](../../function-graphs/fxmaps/fxmaps.md) viele Bildberechnungen (Ändern der $pos-Koordinaten) durchführen, kommt es zu einem großen Austausch zwischen VRAM und CPU-RAM, was zu Leistungsverzögerungen führt.
 
 +++
 
@@ -143,9 +143,9 @@ Auf diese Weise ändert sich die Bitmapgröße basierend auf dem übergeordneten
 >
 > Durch Festlegen eines Knotens vom Typ [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) auf &quot;Relativ zum übergeordneten Knoten&quot; und [Veröffentlichen](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) des Diagramms in einem Substance 3D-Asset (SBSAR) wird die Bitmap mit einer Auflösung von **256x256** anstelle ihrer Originalgröße gespeichert. Es wird empfohlen, stattdessen die [Vererbungsmethode](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) der Bitmapknoten &quot;[Ausgabegröße](../../compositing-graphs/output-size/output-size.md)&quot; als &quot;Absolut&quot; zu behalten und einen [Transformations 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)-Knoten auf &quot;Relativ zum übergeordneten Knoten&quot; direkt nach dem Bitmapknoten festzulegen.
 
-![Eingebettete Bitmapoptimierung 1](../../assets/input-1.jpg "Eingebettete Bitmapoptimierung 1")
+![Eingebettete Bitmapoptimierung 1](performance-optimization-guidelines.resources/performance-optimization-guidelines-01.jpg "Eingebettete Bitmapoptimierung 1")
 
-![Eingebettete Bitmapoptimierung 2](../../assets/relativetoparent.jpg "Eingebettete Bitmapoptimierung 2")
+![Eingebettete Bitmapoptimierung 2](performance-optimization-guidelines.resources/performance-optimization-guidelines-02.jpg "Eingebettete Bitmapoptimierung 2")
 
 <table>
 <tr style="border: 0;">
@@ -156,7 +156,7 @@ Es wird außerdem empfohlen, das Format von Bitmap-Ressourcen auf JPEG festzuleg
 </td>
 <td style="border: 0;" valign="top">
 
-![Eingebettete Bitmapoptimierung 3](../../assets/format.jpg "Eingebettete Bitmapoptimierung 3")
+![Eingebettete Bitmapoptimierung 3](performance-optimization-guidelines.resources/performance-optimization-guidelines-03.jpg "Eingebettete Bitmapoptimierung 3")
 
 </td>
 </tr>

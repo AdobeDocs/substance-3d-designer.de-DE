@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ausgabe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Output](../../../../assets/comp_output_1.png "Atomic node: Ausgabe "){width="200px"}
+![Atomknoten: Output](output.resources/output-01.png "Atomic node: Ausgabe "){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -73,25 +73,25 @@ Daher haben sie keine Auswirkungen auf das Format von [Bitmapexporten](../../../
 
 Da Diagrammausgaben häufig als Endergebnis für einen bestimmten Texturkanal dienen sollen, können sie automatisch an den entsprechenden Sampler des Shaders gesendet werden, der in der 3D-Ansicht verwendet wird.
 
-Eine Ausgabe, deren <b>Verwendung</b>-Eigenschaft *mit einer Samplerverwendung* in der 3D-Ansicht übereinstimmt, wird mit diesem Sampler verbunden. Beispiel: Eine Ausgabe mit einer `basecolor`-Verwendung wird mit dem `basecolor`-Sampler des 3D-Ansichtshaders verbunden. Weitere Informationen finden Sie im Abschnitt [Daten anzeigen im Abschnitt 3D-Ansicht](../../../../interface/3d-view/3d-view.md) der Seite [3D-Ansicht](https://substance3d.adobe.com/documentation/display/draftdesigner/.3d%20view%20vdraftversion).
+Eine Ausgabe, deren <b>Syntax</b>-Eigenschaft *mit einer Samplerverwendung* in der 3D-Ansicht übereinstimmt, wird mit diesem Sampler verbunden. Beispiel: Ein Ausgang mit einer `basecolor`-Nutzung wird mit dem `basecolor`-Sampler des 3D-Ansicht-Shader verbunden. Weitere Informationen finden Sie im Abschnitt &quot;[Daten anzeigen&quot; im Abschnitt &quot;3D-Ansichten](../../../../interface/3d-view/3d-view.md)&quot; der Seite &quot;[3D-Ansichten](https://substance3d.adobe.com/documentation/display/draftdesigner/.3d%20view%20vdraftversion)&quot;.
 
 Klicken Sie auf RMB in einem leeren Bereich in der [Diagrammansicht](../../../../interface/the-graph-view/the-graph-view.md) und wählen Sie im Kontextmenü die Option <b>Ausgaben in 3D-Ansicht anzeigen</b> aus, um alle Ausgaben mit 3D-Ansicht-Samplern zu verbinden, die *passende Verwendungen* haben.
 
 >[!IMPORTANT]
 >
-> Wenn mehrere Verwendungen eingerichtet werden, um z. B. Kanälen in einer verpackten Textur Verwendungen zuzuweisen, wird nur die *erste Verwendung* in der Liste mit der 3D-Ansicht verbunden. Dies ist eine bekannte Einschränkung.
+> Wenn mehrere Verwendungen eingerichtet werden, um beispielsweise den Kanälen in einer gepackten Textur Benutzungen zuzuweisen, wird nur die *erste Nutzung* in der Liste mit der 3D-Ansicht verbunden. Dies ist eine bekannte Einschränkung.
 
 ## Standardausgabe
 
 Wenn ein Diagramm mehr als eine Ausgabe hat, kann eine dieser Ausgaben als Standardausgabe für dieses Diagramm festgelegt werden. Hiermit wird festgelegt, welche der Ausgaben für Folgendes verwendet werden sollen:
 
-* Die Miniaturansicht eines Instanzknotens, der dieses Diagramm darstellt
+* Die Miniaturansicht eines beliebigen Instanzknotens, der diesen Graf darstellt
 * Anzeigen dieser Instanzknoten in der 2D-Ansicht
-* Die Miniaturansicht dieses Diagramms in der Bibliothek (erfahren Sie hier, wie Sie Ihre eigenen Ressourcen [hinzufügen](../../../../interface/preferences-window/project-settings/project-settings.md)).
+* Die Miniaturansicht dieses Grafen in der Bibliothek (erfahren Sie hier, wie Sie Ihre eigenen Ressourcen [hinzufügen](../../../../interface/preferences-window/project-settings/project-settings.md)).
 
 Mit dieser Funktion können Sie Diagrammausgaben in beliebiger Reihenfolge anordnen, unabhängig davon, wie das Diagramm als Knoten dargestellt wird.
 
-So legen Sie einen Ausgabeknoten als Standardausgabe eines Diagramms fest:
+So legen Sie einen Ausgabeknoten als Standardausgabe eines Grafen fest:
 
 * Klicken Sie mit der rechten Maustaste auf einen Ausgabeknoten und wählen Sie im Kontextmenü die Aktion Als Standardausgabe festlegen aus.
 * Verwenden Sie in den Eigenschaften des Ausgabeknotens die Schaltfläche &quot;Als Standard festlegen&quot; in der Kopfzeile des Abschnitts &quot;Attribute&quot;.
@@ -101,11 +101,11 @@ Hier ist ein Beispiel für Instanzknoten vor und nach dem Festlegen einer Standa
 <table>
   <tr style="border: 0">
     <td style="border: 0">
-      <img src="../../../../assets/defaultouput2.png" alt="defaultouput2">
+      <img src="output.resources/output-02.png" alt="defaultouput2">
       <br><i>Vorher</i>
     </td>
     <td style="border: 0">
-      <img src="../../../../assets/defaultouput1.png" alt="defaultouput1">
+      <img src="output.resources/output-03.png" alt="defaultouput1">
       <br><i>Nach</i>
     </td>
   </tr>

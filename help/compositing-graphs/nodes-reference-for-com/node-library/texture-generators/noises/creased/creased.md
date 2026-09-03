@@ -10,10 +10,10 @@ helpx_tags: ""
 title: zerknittert
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 1%
+source-wordcount: '106'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/creased.png){width="128px"}
+![](creased.resources/creased-01.png){width="128px"}
 
-## zerknittert
-
-**In:** *Texturgeneratoren**/Noises*
-
-**Einfach**
+<b>In:</b> Textur Generators > Rauschen
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,20 +37,27 @@ Dieser Knoten erzeugt ein tuchartiges Geräusch. Es kann als Heightmap interpret
 
 &quot;Gekrümmt&quot; ist nützlich, wenn Sie ein Rauschen in halber Richtung mit großen Schwankungen benötigen.
 
-## Parameter
-
-* **Skalierung**: *1 - 8*\
-  Legt die globale Skalierung für den Effekt fest.
-* **Verkrümmungsintensität**: *0.0 - 128.0* Legt die Stärke des Biege-/Verkrümmungseffekts fest.
-* **Störung**: *0.0 - 100.0*\
-  Versetzt die Ebenen, die zum Erzeugen des Rauschens verwendet werden, leicht, um Variationen zu erzeugen.
-* **Quadratische Ausbreitung**: *False/True*\
-  Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen.
-
-## Beispielbilder
-
-![](../../../../../../assets/creased-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Skalierung</b> <i>1 - 8</i> | Legt die globale Skalierung für den Effekt fest. |
+| <b>Verkrümmungsintensität</b> <i>0.0 - 128.0</i> | Legt die Stärke des Effekts &quot;Krümmen/Verformen&quot; fest. |
+| <b>Störung</b> <i>0.0 - 100.0</i> | Versetzt die Ebenen, die zum Erzeugen des Rauschens verwendet werden, leicht, um Variationen zu erzeugen. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="creased.resources/creased-02.gif" />
+        </td>
+    </tr>
 </table>

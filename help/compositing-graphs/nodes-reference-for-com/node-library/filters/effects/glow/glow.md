@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Glühen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/glow-greyscale.png){width="128px"}
+![](glow.resources/glow-01.png){width="128px"}
 
-![](../../../../../../assets/glow-3.png){width="128px"}
+![](glow.resources/glow-02.png){width="128px"}
 
-## Glühen
-
-**In:** *Filter/Effekte*
-
-**Einfach**
+<b>In:</b> Filters > Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -45,19 +41,27 @@ Beachten Sie, dass dies nicht für Bilder mit Alpha-Kanälen geeignet ist, wie S
 
 Wichtig: Achten Sie darauf, die passende Version für Ihre Eingabe zu verwenden! Verwenden Sie &quot;Glühen&quot; für Farbeingaben bzw. &quot;Graustufen glühen&quot; für Graustufeneingaben.
 
-## Parameter
-
-* **Glühstärke**: *0.0 - 1.0* Globale Deckkraft für den Leuchteffekt.
-* **Betrag löschen**: *0.0 - 1.0* Schwellenwert, um festzulegen, wann der Glüheffekt abgeschnitten werden soll. Nützlich für halbtransparente Bereiche.
-* **Leuchtgröße**: *0.0 - 20.0* Steuert, wie weit der Leuchteffekt reicht.
-* **Leuchtfarbe**: *(Farbwert) (Nur Farbversion)*Legt die Farbe des Effekts &quot;Leuchten&quot; fest.
-
-## Beispielbilder
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/glow-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Glühstärke</b> <i>0.0 - 1.0</i> | Globale Deckkraft für den Effekt &quot;Glühen&quot;. |
+| <b>Betrag löschen</b> <i>0.0 - 1.0</i> | Schwellenwert, um festzulegen, wann der Leuchteffekt abgeschnitten werden soll. Nützlich für halbtransparente Bereiche. |
+| <b>Leuchtgröße</b> <i>0.0 - 20.0</i> | Steuert, wie weit der Leuchteffekt reicht. |
+| <b>Leuchtfarbe</b> <i>(Farbwert) (Nur Farbversion)</i> | Legt die Farbe des Leuchteffekts fest. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="glow.resources/glow-03.png" />
+        </td>
+    </tr>
 </table>

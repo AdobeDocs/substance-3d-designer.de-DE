@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Ressourcen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '155'
 ht-degree: 7%
 
 ---
@@ -26,7 +26,7 @@ Ressourcen sind der Inhalt der Pakete von Substance 3D Designer. Sie werden verw
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![](../assets/graph-5.png)
+![](resources.resources/resources-01.png)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -46,7 +46,7 @@ Diagrammressourcen sind die wichtigsten Ressourcen, die in Designer erstellt wur
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![](../assets/folder-4.png)
+![](resources.resources/resources-02.png)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,10 +55,10 @@ Diagrammressourcen sind die wichtigsten Ressourcen, die in Designer erstellt wur
 
 Ressourcen, die keine Diagramme sind, sind in der Regel Hilfsressourcen, die als zusätzliche Daten in Diagrammen oder zur Visualisierung von Ergebnissen aus Diagrammen verwendet werden. Die folgenden Typen sind vorhanden und verfügen in diesem Abschnitt der Dokumente jeweils über eine Unterseite:
 
-* [Bitmap](../resources/bitmap-resource/bitmap-resource.md)
-* [Vektorgrafiken (SVG)](../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [3D-Szenen](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
-* [Schriftart](../resources/font-resource/font-resource.md)
+* [Bitmap](bitmap-resource/bitmap-resource.md)
+* [Vektorgrafiken (SVG)](vector-graphics-svg-res/vector-graphics-svg-resource.md)
+* [3D-Szenen](3d-scene-resource/3d-scene-resource.md)
+* [Schriftart](font-resource/font-resource.md)
 
 </td>
 </tr>

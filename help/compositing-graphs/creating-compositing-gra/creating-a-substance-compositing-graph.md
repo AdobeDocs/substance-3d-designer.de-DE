@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Erstellen von Substance-Graphen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1107'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ Sie können eine der folgenden Methoden verwenden, um das Erstellen eines neuen 
   </td>
   <td style="border: 0;" valign="top">
 
-  ![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Vom Startbildschirm erstellen](../../assets/newGraphDialog-create-homeScreen.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Vom Startbildschirm erstellen"){zoomable="yes"}
+  ![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Vom Startbildschirm erstellen](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-01.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Vom Startbildschirm erstellen"){zoomable="yes"}
 
   </td>
   </tr>
@@ -49,28 +49,12 @@ Sie können eine der folgenden Methoden verwenden, um das Erstellen eines neuen 
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  Klicken Sie in einem beliebigen *vorhandenen*-Paketelement im [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) auf <b>RMB</b> und navigieren Sie im Kontextmenü zu <b>Neu > Substance-Diagramm</b>.
+  Klicken Sie in einem beliebigen *vorhandenen*-Paketelement im [Explorer](../../interface/the-explorer-window/the-explorer-window.md) auf <b>RMB</b> und navigieren Sie im Kontextmenü zu <b>Neu > Substance-Diagramm</b>.
 
   </td>
   <td style="border: 0;" valign="top">
 
-  ![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Aus Explorer erstellen](../../assets/newGraphDialog-create-explorer.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Aus Explorer erstellen"){zoomable="yes"}
-
-  </td>
-  </tr>
-  </table>
-
-* &#x200B;
-  <table>
-  <tr style="border: 0;">
-  <td style="border: 0;" valign="top">
-
-  Klicken Sie in der Hauptsymbolleiste auf die Schaltfläche ![](../../assets/image2021-6-22-20-36-44.png) <b>Neues Substance-Diagramm</b>.
-
-  </td>
-  <td style="border: 0;" valign="top">
-
-  ![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Aus Hauptsymbolleiste erstellen](../../assets/newGraphDialog-create-mainToolbar.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Aus Hauptsymbolleiste erstellen"){zoomable="yes"}
+  ![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Aus Explorer erstellen](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-02.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Aus Explorer erstellen"){zoomable="yes"}
 
   </td>
   </tr>
@@ -81,12 +65,28 @@ Sie können eine der folgenden Methoden verwenden, um das Erstellen eines neuen 
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  Wechseln Sie im [Hauptmenü](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html) zu <b>Datei > Neu > Substance-Diagramm...3</b>
+  Klicken Sie in der Hauptsymbolleiste auf die Schaltfläche ![](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-03.png) <b>Neues Substance-Diagramm</b>.
 
   </td>
   <td style="border: 0;" valign="top">
 
-  ![](../../assets/newGraphDialog-create-mainMenu.png)
+  ![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Aus Hauptsymbolleiste erstellen](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-04.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Aus Hauptsymbolleiste erstellen"){zoomable="yes"}
+
+  </td>
+  </tr>
+  </table>
+
+* &#x200B;
+  <table>
+  <tr style="border: 0;">
+  <td style="border: 0;" valign="top">
+
+  Wechseln Sie im Hauptmenü zu <b>Datei > Neu > Substance-Diagramm...1</b>
+
+  </td>
+  <td style="border: 0;" valign="top">
+
+  ![](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-05.png)
 
   </td>
   </tr>
@@ -102,7 +102,7 @@ Unabhängig von der gewählten Methode wird das Dialogfeld &quot;<b>Neues Substa
 
 Unabhängig von der Methode zum Erstellen eines neuen Substance-Diagramms wird Ihnen immer das Dialogfeld <b>Neues Substance-Diagramm</b> angezeigt, mit dem Sie das neue Diagramm konfigurieren können.
 
-![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Materialien](../../assets/newGraphDialog-materials.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Materialien"){zoomable="yes"}
+![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Materialien](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-06.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Materialien"){zoomable="yes"}
 
 ### Vorlagen
 
@@ -139,7 +139,7 @@ In den Ansichtsmodi <b>Liste</b>, <b>Pakete</b> und <b>Verzeichnisse</b> wird de
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Miniaturkarte](../../assets/newGraphDialog-thumbnailCard.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Miniaturkarte")
+![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Miniaturkarte](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-07.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Miniaturkarte")
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ Sie können die Beispiele auch direkt vom Startbildschirm aus aufrufen, indem Si
 
 Alle Beispiele basieren auf dem [OpenPBR-Materialmodell](../../interface/3d-view/material-properties/material-properties.md#openpbr).
 
-![Materialproben - Banner für den Startbildschirm](../../assets/materialSamples-banner.png "Materialproben - Banner für den Startbildschirm"){zoomable="yes"}
+![Materialproben - Banner für den Startbildschirm](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-08.png "Materialproben - Banner für den Startbildschirm"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -174,7 +174,7 @@ Wenn Sie mit dem Informationssymbol für jedes Vorlagenelement zeigen, wird eine
 </td>
 <td style="border: 0;" valign="top">
 
-![Dialogfeld &quot;Neues Substance-Diagramm&quot; - QuickInfo für Vorlagen](../../assets/newGraphDialog-tooltipTemplate.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - QuickInfo für Vorlagen"){zoomable="yes"}
+![Dialogfeld &quot;Neues Substance-Diagramm&quot; - QuickInfo für Vorlagen](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-09.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - QuickInfo für Vorlagen"){zoomable="yes"}
 
 </td>
 </tr>
@@ -193,14 +193,14 @@ Die von der ausgewählten Kategorie und Projektdatei durchgeführte Filterung wi
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Ansichtsmodi](../../assets/newGraphDialog-viewModes.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Ansichtsmodi"){zoomable="yes"}
+![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Ansichtsmodi](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-10.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Ansichtsmodi"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
 +++Ansichtsmodi
-![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Miniaturansicht](../../assets/newGraphDialog-viewMode-thumbnails.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Miniaturansicht"){zoomable="yes"}
+![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Miniaturansicht](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-11.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Miniaturansicht"){zoomable="yes"}
 
 
 
@@ -208,7 +208,7 @@ Die von der ausgewählten Kategorie und Projektdatei durchgeführte Filterung wi
 
 Karten mit Miniaturen, die eine Vorschau oder ein Symbol des Vorlagentyps bereitstellen.
 
-![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Listenansicht](../../assets/newGraphDialog-viewMode-list.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Listenansicht"){zoomable="yes"}
+![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Listenansicht](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-12.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Listenansicht"){zoomable="yes"}
 
 
 
@@ -216,7 +216,7 @@ Karten mit Miniaturen, die eine Vorschau oder ein Symbol des Vorlagentyps bereit
 
 Vorlagen werden nur nach ihrer Beschriftung aufgelistet.
 
-![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Paketansicht](../../assets/newGraphDialog-viewMode-packages.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Paketansicht"){zoomable="yes"}
+![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Paketansicht](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-13.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Paketansicht"){zoomable="yes"}
 
 
 
@@ -226,7 +226,7 @@ Vorlagen werden nach ihrer Bezeichnung als untergeordnete Elemente der Paketdate
 
 Bewegen Sie den Mauszeiger über ein Paketdateielement, um eine QuickInfo mit dem vollständigen Pfad anzuzeigen.
 
-![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Verzeichnisansicht](../../assets/newGraphDialog-viewMode-directories.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Verzeichnisansicht"){zoomable="yes"}
+![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Verzeichnisansicht](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-14.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Verzeichnisansicht"){zoomable="yes"}
 
 
 
@@ -246,13 +246,13 @@ Nachdem Sie die Vorlage ausgewählt haben, können Sie grundlegende Informatione
 
 <b>Größe</b>: die übergeordnete Auflösung des Diagramms, die die Ausgabeauflösung der meisten Knoten steuert - weitere Informationen finden Sie auf der Seite [Ausgabegröße](../../compositing-graphs/output-size/output-size.md). Die Felder &quot;width&quot; und &quot;Height&quot; sind standardmäßig miteinander verknüpft. Sie können die Verknüpfung wieder aufheben, indem Sie auf die Verknüpfungsschaltfläche zwischen den Kombinationsfeldern &quot;width&quot; und &quot;Height&quot; klicken.
 
-<b>Diagramm in </b> erstellen: Mit diesem Kombinationsfeld können Sie ein *neues*-Paket für das neue Diagramm erstellen oder das neue Diagramm einem beliebigen *vorhandenen*-Paket hinzufügen, das bereits im [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)-Bedienfeld geladen wurde.
+<b>Diagramm in </b> erstellen: Mit diesem Kombinationsfeld können Sie ein *neues*-Paket für das neue Diagramm erstellen oder das neue Diagramm einem beliebigen *vorhandenen*-Paket hinzufügen, das bereits im [Explorer](../../interface/the-explorer-window/the-explorer-window.md)-Bedienfeld geladen wurde.
 
 ### Hilfe-QuickInfo
 
 Bewegen Sie den Mauszeiger über das Fragezeichensymbol, um eine QuickInfo mit einer Schaltfläche anzuzeigen, die direkt auf diese Seite verweist, damit Sie bei Bedarf auf diese Dokumentation zurückgreifen können.
 
-![Dialogfeld &quot;Neues Substance-Diagramm&quot; - QuickInfo für die Hilfe](../../assets/newGraphDialog-tooltipHelp.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - QuickInfo für die Hilfe"){zoomable="yes"}
+![Dialogfeld &quot;Neues Substance-Diagramm&quot; - QuickInfo für die Hilfe](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-15.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - QuickInfo für die Hilfe"){zoomable="yes"}
 
 <a name="managing-templates"></a>
 
@@ -271,7 +271,7 @@ Verwenden Sie das Kombinationsfeld <b>Kategorie</b>, um die Kategorie auszuwähl
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Filtern nach Kategorie](../../assets/newGraphDialog-categories.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Filtern nach Kategorie"){zoomable="yes"}
+![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Filtern nach Kategorie](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-16.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Filtern nach Kategorie"){zoomable="yes"}
 
 </td>
 </tr>
@@ -290,7 +290,7 @@ Benutzerdefinierte Kategorien können in den von Projektdateien bereitgestellten
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Vorlagenkategorie einrichten](../../assets/newGraphDialog-templateCategorySetup.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Vorlagenkategorie einrichten"){zoomable="yes"}
+![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Vorlagenkategorie einrichten](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-17.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Vorlagenkategorie einrichten"){zoomable="yes"}
 
 </td>
 </tr>
@@ -309,7 +309,7 @@ Verwenden Sie dann die Schaltfläche <b>Nach Projektdatei filtern</b>, um die Li
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Filtern nach Projektdatei](../../assets/newGraphDialog-projectFiles.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Filtern nach Projektdatei"){zoomable="yes"}
+![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Filtern nach Projektdatei](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-18.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Filtern nach Projektdatei"){zoomable="yes"}
 
 </td>
 </tr>

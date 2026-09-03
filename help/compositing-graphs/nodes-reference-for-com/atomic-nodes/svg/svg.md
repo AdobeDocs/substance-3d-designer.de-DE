@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: SVG](../../../../assets/comp_svg_1.png "Atomknoten: SVG"){width="200px"}
+![Atomknoten: SVG](svg.resources/svg-01.png "Atomknoten: SVG"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -99,8 +99,8 @@ Sie können den Knoten entweder von Grund auf neu erstellen oder eine SVG-Datei 
 |  |  |
 | --- | --- |
 | <b>Farbmodus</b> *Boolescher Wert* | Bestimmt den Ausgabetyp des Knotens, der entweder in Farbe oder in Graustufen zurückgegeben wird. |
-| <b>Hintergrundfarbe</b> *Farbe/Graustufen* | Legt die Hintergrundfarbe des Ausgabebilds fest, die für Bereiche verwendet werden soll, die nicht von einer Vektorform abgedeckt sind.   *Wird von der Eingabe &quot;[Hintergrund](#inputs)&quot; überschrieben, wenn diese Eingabe verbunden ist.* |
-| <b>PKG-Ressourcenpfad</b> *Zeichenfolge* | Pfad zur [SVG-Ressource](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md), auf die vom Knoten verwiesen wird.   Es wird empfohlen, eine Ressource nicht manuell einzugeben, sondern entweder aus dem Explorer zu kopieren und in das Parametertextfeld einzufügen, oder eine Bitmapressource direkt aus dem [Explorer](../../../../interface/the-explorer-window/the-explorer-window.md) auf den SVG-Knoten im Diagramm zu ziehen. |
+| <b>Hintergrundfarbe</b> *Farbe/Graustufen* | Legt die Hintergrundfarbe des Ausgabebilds fest, die für Bereiche verwendet werden soll, die nicht von einer Vektorform abgedeckt sind.   *Wird von der Eingabe &quot;[Hintergrund](#inputs)&quot; überschrieben, wenn diese Eingabe verbunden ist.* |
+| <b>PKG-Ressourcenpfad</b> *Zeichenfolge* | Pfad zur [SVG-Ressource](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md), auf die vom Knoten verwiesen wird.   Es wird empfohlen, eine Ressource nicht manuell einzugeben, sondern entweder aus dem Explorer zu kopieren und in das Parametertextfeld einzufügen, oder eine Bitmapressource direkt aus dem [Explorer](../../../../interface/the-explorer-window/the-explorer-window.md) auf den SVG-Knoten im Diagramm zu ziehen. |
 
 ## Werkzeuge zur Vektorbearbeitung.
 
@@ -110,7 +110,7 @@ Vektorformen können in Designer bearbeitet werden. Weitere Informationen zu den
 
 |  |  |
 | --- | --- |
-| <b>Hintergrund</b> *Graustufen/Farbe* PRIMÄR | Legt die Hintergrundfarbe des Ausgabebilds fest, die für Bereiche verwendet werden soll, die nicht von einer Vektorform abgedeckt sind.   *Überschreibt den Parameter &quot;[Hintergrundfarbe](#parameters)&quot;, wenn eine Verbindung besteht.* |
+| <b>Hintergrund</b> *Graustufen/Farbe* PRIMÄR | Legt die Hintergrundfarbe des Ausgabebilds fest, die für Bereiche verwendet werden soll, die nicht von einer Vektorform abgedeckt sind.   *Überschreibt den Parameter &quot;[Hintergrundfarbe](#parameters)&quot;, wenn eine Verbindung besteht.* |
 
 ## Ausgangsanschlüsse
 

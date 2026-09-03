@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 13.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 *Freigabedatum: 12. Dezember 2023*
 
-![Substance 3D Designer 13.1-Banner](../../assets/24-library-hero-1920x620.png "Substance 3D Designer 13.1-Banner")
+![Substance 3D Designer 13.1-Banner](version-13-1.resources/version-13-1-01.png "Substance 3D Designer 13.1-Banner")
 
 ## Verbesserungen an Rahmen
 
@@ -34,19 +34,19 @@ Rahmen sind ein unverzichtbares Werkzeug, um das Diagramm gut organisiert und le
 
 Wenn das Diagramm wächst, muss der Inhalt der Rahmen möglicherweise neu angeordnet werden. Die Knoten können sich verschieben, um Platz für Ergänzungen zu schaffen, oder die Inhalte müssen möglicherweise weiter voneinander entfernt werden, um die Lesbarkeit zu verbessern. Um diese Anpassungen zu erleichtern, ist es jetzt möglich, einen Frame automatisch zu erweitern, wenn eingeschlossene Objekte verschoben werden: Halten Sie <b>Umschalt</b> an einem beliebigen Punkt gedrückt, während Sie ein Objekt verschieben, damit die Frameränder automatisch angepasst werden, damit das Objekt innerhalb seiner Grenzen bleibt.
 
-![autoexpand](../../assets/autoexpand.gif)
+![autoexpand](version-13-1.resources/version-13-1-02.gif)
 
 ### Größe an Inhalt anpassen
 
 Wenn du in deinem Diagramm Anpassungen vornimmst, wird ein Frame möglicherweise nicht mehr elegant an seinen Inhalt angepasst. Mit diesem neuen Befehl können Sie die Position und die Größe des Frames automatisch anpassen, sodass er sich an die Spanne seines Inhalts anpasst. Der Abstand beträgt dabei eine Zelle mit mittlerem Raster. Wenn der Rahmen eine Beschreibung hat, wird er so angepasst, dass nach Möglichkeit ein leerer Bereich neben der Beschreibung verwendet wird.
 
-![fitsize](../../assets/fitsize.gif)
+![fitsize](version-13-1.resources/version-13-1-03.gif)
 
 ### Verbesserte Beschreibungen
 
 Dank des HTML-Codes können Sie jetzt formatierten Text in der Beschreibung eines Rahmens haben. Dies gilt auch für Kommentare.
 
-![richtext](../../assets/description-3.png)
+![richtext](version-13-1.resources/version-13-1-04.png)
 
 ### <b>...und vieles mehr!</b>
 
@@ -64,7 +64,7 @@ Viele Dinge wurden überdacht, z. B. die Toleranz von Zuordnungsregeln, Interakt
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![AxF-Dateisymbol](../../assets/axf-file-icon.png "AxF-Dateisymbol")
+![AxF-Dateisymbol](version-13-1.resources/version-13-1-05.png "AxF-Dateisymbol")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ In dieser neuen Version wird die Möglichkeit eingeführt, AxF-Materialien an Or
 </tr>
 </table>
 
-![Export AxF](../../assets/exportaxf.gif)
+![Export AxF](version-13-1.resources/version-13-1-06.gif)
 
 ## API
 

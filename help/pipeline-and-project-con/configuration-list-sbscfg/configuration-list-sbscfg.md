@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Konfigurationsliste - SBSCFG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Sie können mehrere Konfigurationen für verschiedene Umgebungen haben. Diese Da
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![SBSCFG-Dateisymbol](../../assets/sbscfg.png "SBSCFG-Dateisymbol")
+![SBSCFG-Dateisymbol](configuration-list-sbscfg.resources/configuration-list-sbscfg-01.png "SBSCFG-Dateisymbol")
 
 </td>
 </tr>
@@ -45,7 +45,7 @@ Diese Dateien sind einfach, können aber auf zwei verschiedene Arten geändert w
 
 Der hervorgehobene Abschnitt ist der Teil, der sich auf die Konfigurationsdateien bezieht. Sie fügen einfach weitere Projekte zur Liste hinzu, die in der oben definierten SBSCFG-Datei gespeichert sind.
 
-![Projekteinstellungen](../../assets/config-ui.png "Projekteinstellungen")
+![Projekteinstellungen](configuration-list-sbscfg.resources/configuration-list-sbscfg-02.png "Projekteinstellungen")
 
 ### Externe Bearbeitung als XML
 

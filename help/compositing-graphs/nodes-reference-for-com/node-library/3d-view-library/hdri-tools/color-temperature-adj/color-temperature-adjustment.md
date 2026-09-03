@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Color Temperature Adjustment
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 2%
+source-wordcount: '93'
+ht-degree: 7%
 
 ---
 
@@ -22,35 +22,39 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/color-temperature-adjustement.png){width="250px"}
+![](color-temperature-adjustment.resources/color-temperature-adjustment-01.png){width="250px"}
 
-## Color Temperature Adjustment
-
-**In:** *3D-Ansicht/HDRI-Werkzeuge*
-
-**Einfach**
+<b>In:</b> 3D-Ansicht > HDRI-Werkzeugs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Passt die Farbbalance des Eingabebilds an. Ähnlich wie die Weißabgleichkorrektur in der Fotografie. Kann verwendet werden, um Farben in HDR-Bildern zu erwärmen oder zu kühlen, die nicht zum Standard gehören.
 
-## Parameter
-
-* **Temperatur**: *-1.0 - 1.0*\
-  Ändere die Farben zwischen warm und kalt.
-* **Magenta-Green**: *-1.0 - 1.0*\
-  Umschalttaste zwischen Magenta und Grün.
-* **Farbraum**: *HDR (linear), LDR (sRGB)*Bestimmen Sie, wie der Farbraum des Eingabebilds interpretiert wird.
-
-## Beispielbilder
-
-![](../../../../../../assets/color-tempadjust-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Temperatur</b> <i>-1.0 - 1.0</i> | Ändere die Farben zwischen warm und kalt. |
+| <b>Magenta-Green</b> <i>-1.0 - 1.0</i> | Umschalttaste zwischen Magenta und Grün. |
+| <b>Farbraum</b> <i>HDR. (linear), LDR (sRGB)</i> | Legen Sie fest, wie der Farbraum des Eingabebilds interpretiert wird. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="color-temperature-adjustment.resources/color-temperature-adjustment-02.gif" />
+        </td>
+    </tr>
 </table>

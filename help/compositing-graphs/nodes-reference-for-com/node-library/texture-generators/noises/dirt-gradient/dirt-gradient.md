@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Dirt-Verlauf
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 3%
+source-wordcount: '221'
+ht-degree: 1%
 
 ---
 
@@ -22,13 +22,9 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Dirt-Farbverlauf - Symbol](../../../../../../assets/dirt_gradient.png "Dirt-Farbverlauf - Symbol"){width="200px"}
+![Dirt-Farbverlauf - Symbol](dirt-gradient.resources/dirt-gradient-01.png "Dirt-Farbverlauf - Symbol"){width="200px"}
 
 <b>In:</b> Texturgeneratoren > Rauschen
 
@@ -45,41 +41,25 @@ Siehe auch: [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-co
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Ausgaben
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameter
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Beispiele
-
-</td>
-</tr>
-</table>
+<a name="outputs"></a>
 
 ## Ausgaben
 
 |  |  |
-| --- | --- |
-| <b>Ausgabe</b> *Graustufen* | Das erzeugte Rauschen als Graustufen-Bitmap. |
+|:---|:---|
+| <b>Ausgabe</b> <i>Graustufen</i> | Das erzeugte Rauschen als Graustufen-Bitmap. |
+
+<a name="parameters"></a>
 
 ## Parameter
 
 |  |  |
-| --- | --- |
-| <b>Störung</b> Float | Versetzt die Bestandteile des Rauschens.    So kannst du das Rauschen animieren. |
-| <b>Störungsgeschwindigkeit</b> Gleitend | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.    Mit dieser Option können Sie die Geschwindigkeit des Versatzes bei der Animation des Rauschens steuern. |
-| <b>Disorder Anisotropie</b> Float | Steuert die Richtungsspanne des Versatzes, der vom <b>Disorder</b>-Parameter angewendet wird, wobei ein höherer Wert zu einer engeren, definierteren Richtung führt.    Die Anisotropie wird durch den Parameter <b>Disorder Direction Angle</b> gesteuert. |
-| <b>Winkel der Anisotropie der Störung</b> Gleitend | Steuert die Richtung des Versatzes, der vom <b>Disorder</b>-Parameter angewendet wird, wenn der <b>Disorder Anisotropie</b>-Parameter nicht Null ist. |
-| <b>Nicht quadratische Erweiterung</b> Boolescher Wert | Bei nicht quadratischen Bildern bleibt das erzeugte Kachelquadrat erhalten und erweitert die Rauscherzeugung auf die Grenzen des Bildes. |
+|:---|:---|
+| <b>Störung</b> <i>Gleitend</i> | Versetzt die Bestandteile des Rauschens.    So kannst du das Rauschen animieren. |
+| <b>Störungsgeschwindigkeit</b> <i>Gleitend</i> | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.    Mit dieser Option können Sie die Geschwindigkeit des Versatzes bei der Animation des Rauschens steuern. |
+| <b>Anisotropie der Störung</b> <i>Gleitend</i> | Steuert die Richtungsspanne des Versatzes, der vom <b>Disorder</b>-Parameter angewendet wird, wobei ein höherer Wert zu einer engeren, definierteren Richtung führt.    Die Anisotropie wird durch den Parameter <b>Disorder Direction Angle</b> gesteuert. |
+| <b>Disorder anisotropy angle</b> <i>Gleitend</i> | Steuert die Richtung des Versatzes, der vom <b>Disorder</b>-Parameter angewendet wird, wenn der <b>Disorder Anisotropie</b>-Parameter nicht Null ist. |
+| <b>Nicht quadratische Erweiterung</b> <i>Boolescher Wert</i> | Bei nicht quadratischen Bildern bleibt das erzeugte Kachelquadrat erhalten und erweitert die Rauscherzeugung auf die Grenzen des Bildes. |
 
 ## Beispiele
 
@@ -87,12 +67,12 @@ Siehe auch: [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-co
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt-Farbverlauf - Beispiel 1](../../../../../../assets/dirt_gradient_1.png "Dirt-Farbverlauf - Beispiel 1"){zoomable="yes"}
+![Dirt-Farbverlauf - Beispiel 1](dirt-gradient.resources/dirt-gradient-02.png "Dirt-Farbverlauf - Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt-Farbverlauf - Beispiel 2](../../../../../../assets/noise_dirt_gradient_v2_speed0.6_aniso0.gif "Dirt-Farbverlauf - Beispiel 2"){zoomable="yes"}
+![Dirt-Farbverlauf - Beispiel 2](dirt-gradient.resources/dirt-gradient-03.gif "Dirt-Farbverlauf - Beispiel 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -102,26 +82,12 @@ Siehe auch: [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-co
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt-Farbverlauf - Beispiel 3](../../../../../../assets/noise_dirt_gradient_v2_speed0.6_aniso1.gif "Dirt-Farbverlauf - Beispiel 3"){zoomable="yes"}
+![Dirt-Farbverlauf - Beispiel 3](dirt-gradient.resources/dirt-gradient-04.gif "Dirt-Farbverlauf - Beispiel 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt-Farbverlauf - Beispiel 4](../../../../../../assets/noise_dirt_gradient_v2_speed0.3_aniso0.6.gif "Dirt-Farbverlauf - Beispiel 4"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![Dirt-Farbverlauf - Beispiel 4](dirt-gradient.resources/dirt-gradient-05.gif "Dirt-Farbverlauf - Beispiel 4"){zoomable="yes"}
 
 </td>
 </tr>

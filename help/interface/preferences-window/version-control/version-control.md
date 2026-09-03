@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versionskontrolle
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -28,13 +28,13 @@ ht-degree: 0%
 
 Designer bietet eine Python-Integration des Versionskontrollsystems [Perforce](https://www.perforce.com/) (P4).
 
-Die Integration fügt dem Kontextmenü von Paketen im [Explorer](../../../interface/the-explorer-window/the-explorer-window.md) ein benutzerdefiniertes Untermenü &quot;Versionskontrolle&quot; sowie benutzerdefinierte Symbole hinzu, die dem Status eines Pakets in P4 entsprechen.
+Die Integration fügt dem Kontextmenü von Paketen im [Explorer](../../../interface/the-explorer-window/the-explorer-window.md) ein benutzerdefiniertes Untermenü &quot;Versionskontrolle&quot; sowie benutzerdefinierte Symbole hinzu, die dem Paketstatus in P4 entsprechen.
 
 ## Vorbereiten von P4
 
 Notieren Sie sich in [P4V](https://www.perforce.com/products/helix-core-apps/helix-visual-client-p4v) den Namen und Pfad des Arbeitsbereichs, wie unten gezeigt:
 
-![Informationen zum P4V-Arbeitsbereich](../../../assets/p4v-workspace-strings.jpg "Informationen zum P4V-Arbeitsbereich"){zoomable="yes"}
+![Informationen zum P4V-Arbeitsbereich](version-control.resources/version-control-01.jpg "Informationen zum P4V-Arbeitsbereich"){zoomable="yes"}
 
 Öffnen Sie dieses Skript in einem Texteditor oder einer IDE, der sich in der Installation von Designer befindet: &#39;*tools/version\_control/perforce.py*&#39;.
 
@@ -52,9 +52,9 @@ cVerbose = False
 
 ## Einrichten in Designer
 
-Die Versionskontrolle ist in den [Projekteinstellungen](../../../interface/preferences-window/project-settings/project-settings.md) konfiguriert, die in den [Voreinstellungen](../../../interface/preferences-window/preferences-window.md) von Designer verfügbar sind.
+Die Versionskontrolle wird in den [Projekteinstellungen](../../../interface/preferences-window/project-settings/project-settings.md) konfiguriert, die in den [Voreinstellungen](../../../interface/preferences-window/preferences-window.md) von Designer verfügbar sind.
 
-Registerkarte ![&#x200B; &quot;Versionskontrolle&quot; in den Projekteinstellungen &#x200B;](../../../assets/p4v-project-settings.jpg " Registerkarte &quot;Versionskontrolle&quot; in den Projekteinstellungen "){zoomable="yes"}
+Registerkarte ![&#x200B; &quot;Versionskontrolle&quot; in den Projekteinstellungen &#x200B;](version-control.resources/version-control-02.jpg " Registerkarte &quot;Versionskontrolle&quot; in den Projekteinstellungen "){zoomable="yes"}
 
 1. Gehen Sie zu &quot;Bearbeiten > Voreinstellungen&quot;.
 1. Wechseln Sie zu &quot;Projekte&quot;, wählen Sie die Zielprojektdatei &quot;[&quot; aus &#x200B;](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) und wechseln Sie zur Registerkarte &quot;Versionskontrolle&quot;.
@@ -64,7 +64,7 @@ Registerkarte ![&#x200B; &quot;Versionskontrolle&quot; in den Projekteinstellung
    * <b>Name:</b> Geben Sie den Arbeitsbereichsnamen ein, den Sie zuvor von P4V abgerufen haben.
    * <b>Pfad:</b> Geben Sie den &#39;Workspace-Pfad&#39; ein, den Sie zuvor von P4V abgerufen haben
 
-![P4-Setup in Designer: Arbeitsbereich](../../../assets/p4v-project-settings-workspace.jpg "P4-Einrichtung in Designer: Arbeitsbereich"){zoomable="yes"}
+![P4-Setup in Designer: Arbeitsbereich](version-control.resources/version-control-03.jpg "P4-Einrichtung in Designer: Arbeitsbereich"){zoomable="yes"}
 
 ### Einrichten von Aktionen
 
@@ -88,7 +88,7 @@ Ein Starterskript für alle Aktionen ist in der Installation von Designer verfü
 1. Wählen Sie bei der Installation von Designer das folgende Skript aus: *Tools/version\_control/perforce.py*
 1. Das Skript sollte automatisch für alle anderen Aktionen eingerichtet werden.
 
-![P4-Setup in Designer: actions](../../../assets/p4v-project-settings-actions.jpg "P4 setup in Designer: Aktionen"){zoomable="yes"}
+![P4-Setup in Designer: actions](version-control.resources/version-control-04.jpg "P4 setup in Designer: Aktionen"){zoomable="yes"}
 
 ### Benutzerdefinierte Aktionen einrichten
 
@@ -103,7 +103,7 @@ Da alle Versionskontrollwerkzeuge unterschiedlich sind und viele Funktionen enth
 1. Legen Sie eine Skriptdateierweiterung oder ein Suffix sowie den Pfad zur ausführbaren Interpreterdatei fest.
 1. Bearbeiten Sie das Skript perforce.py, um den Speicherort der Binärdatei &#39;p4&#39; zu aktualisieren.
 
-![P4-Setup in Designer: Interpreter](../../../assets/p4v-project-settings-interpreters.jpg "P4-Setup in Designer: Interpreter"){zoomable="yes"}
+![P4-Setup in Designer: Interpreter](version-control.resources/version-control-05.jpg "P4-Setup in Designer: Interpreter"){zoomable="yes"}
 
 ## Verwendung der Versionskontrolle
 
@@ -123,12 +123,12 @@ Da alle Versionskontrollwerkzeuge unterschiedlich sind und viele Funktionen enth
    <tr style="border: 0;">
    <td style="border: 0;" valign="top">
 
-   ![&#x200B; Dialogfeld &quot;Senden&quot;](../../../assets/p4v-submit.jpg " Dialogfeld &quot;Senden&quot;"){zoomable="yes"}
+   ![&#x200B; Dialogfeld &quot;Senden&quot;](version-control.resources/version-control-06.jpg " Dialogfeld &quot;Senden&quot;"){zoomable="yes"}
 
    </td>
    <td style="border: 0;" valign="top">
 
-   ![&#x200B; Dialogfeld &quot;Zurücksetzen&quot; &#x200B;](../../../assets/p4v-revert.jpg " Dialogfeld &quot;Zurücksetzen&quot; "){zoomable="yes"}
+   ![&#x200B; Dialogfeld &quot;Zurücksetzen&quot; &#x200B;](version-control.resources/version-control-07.jpg " Dialogfeld &quot;Zurücksetzen&quot; "){zoomable="yes"}
 
    </td>
    </tr>
@@ -148,28 +148,28 @@ Das Paket verfügt je nach Status über die folgenden Symbole:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Paketsymbol: Aktuell](../../../assets/p4-up-to-date.png "Paketsymbol: Aktuell")
+![Paketsymbol: Aktuell](version-control.resources/version-control-08.png "Paketsymbol: Aktuell")
 
 Aktuell
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Paketsymbol: Ausgecheckt](../../../assets/p4-checked-out.png "Paketsymbol: Ausgecheckt")
+![Paketsymbol: Ausgecheckt](version-control.resources/version-control-09.png "Paketsymbol: Ausgecheckt")
 
 Ausgecheckt
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Paketsymbol: Hinzugefügt](../../../assets/p4-added.png "Paketsymbol: Hinzugefügt")
+![Paketsymbol: Hinzugefügt](version-control.resources/version-control-10.png "Paketsymbol: Hinzugefügt")
 
 Zum Hinzufügen markiert
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Paketsymbol: Nicht im Depot](../../../assets/p4-not-in-depot.png "Paketsymbol: Nicht im Depot ")
+![Paketsymbol: Nicht im Depot](version-control.resources/version-control-11.png "Paketsymbol: Nicht im Depot ")
 
 Nicht im Lager
 

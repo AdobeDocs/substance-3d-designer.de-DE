@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rückgängig machen und Wiederholen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Mit der <b>SDHistoryUtils.UndoGroup</b>-Klasse können Benutzer *Gruppenaktionen* in einem Befehl *rückgängig machen oder wiederholen*.
 
-Diese Gruppen werden von Benutzern *benannt* und mit diesem Namen in der Liste &quot;Rückgängig&quot;/&quot;Wiederholen&quot; in der Benutzeroberfläche angezeigt.  Dadurch wird eine große Anzahl von Aktionen leichter zu handhaben.
+Diese Gruppen werden von Benutzern *benannt* und mit diesem Namen in der Liste &quot;Rückgängig&quot;/&quot;Wiederholen&quot; in der Benutzeroberfläche angezeigt.  Dadurch wird eine große Anzahl von Aktionen leichter zu handhaben.
 
 ```
 import sd 

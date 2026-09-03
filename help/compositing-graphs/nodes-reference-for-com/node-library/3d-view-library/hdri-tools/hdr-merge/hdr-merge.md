@@ -10,10 +10,10 @@ helpx_tags: ""
 title: HDR verbinden
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 9%
+source-wordcount: '98'
+ht-degree: 13%
 
 ---
 
@@ -22,35 +22,37 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/hdr-merge.png){width="200px"}
+![](hdr-merge.resources/hdr-merge-01.png){width="200px"}
 
-## HDR verbinden
-
-**In:** *3D-Ansicht/HDRI-Werkzeuge*
-
-**Einfach**
+<b>In:</b> 3D-Ansicht > HDRI-Werkzeugs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Kombiniere mehrere Belichtungen zu einer High Dynamic Range. Der erste Eingang ist das am stärksten unterbelichtete Bild.
 
-## Eingaben
-
-* **Eingabe 1-**&#x200B;**&#x200B; 16**: *Farbeingabe*Eingabebilder Die verfügbare Menge hängt vom Parameter ab.
-
-## Parameter
-
-* **Eingaben**: *2 - 16*\
-  Legt die Menge der verfügbaren Eingaben fest.
-* **Belichtungsdelta (EV)**: *0.0 - 4.0*\
-  Legt den Belichtungsunterschied fest, der zwischen Bildern interpretiert werden soll.
-* **Weißpunkt**: *0.0 - 13.0* Legen Sie den Weißpunkt fest, um eine Anpassung beim Endergebnis durchzuführen.
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Eingaben
+
+|  |  |
+|:---|:---|
+| <b>Eingabe 1-16</b> <i>Farbeingabe</i> | Eingabebilder. Die verfügbare Menge hängt vom Parameter ab. |
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Eingaben</b> <i>2 - 16</i> | Legt die Menge der verfügbaren Eingaben fest. |
+| <b>Belichtungsdelta (EV)</b> <i>0.0 - 4.0</i> | Legt den Belichtungsunterschied fest, der zwischen Bildern interpretiert werden soll. |
+| <b>Weißpunkt</b> <i>0.0 - 13.0</i> | Mit dem Weißpunkt kannst du das Endergebnis weiter anpassen. |

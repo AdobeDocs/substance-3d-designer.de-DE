@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Parameter funktionieren nicht wie erwartet
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 5%
+source-wordcount: '295'
+ht-degree: 6%
 
 ---
 
@@ -24,11 +24,11 @@ Auf dieser Seite werden häufige Ursachen für Parameter aufgelistet, die in Sub
 
 ## Parameter funktioniert nicht im Vorschaumodus und veröffentlichten Substance 3D-Assets (SBSAR)
 
-<b>![(Fehler)](../../assets/error.svg) Problem </b>
+<b>![(Fehler)](parameters-not-working-as-expected.resources/error.svg) Problem</b>
 
 Einige der angezeigten Parameter für ein Diagramm sind *nicht aufgelistet*, wenn Sie den [Vorschaumodus](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) in Designer verwenden, oder in der Parameterliste von Substance 3D Assets (SBSAR) [veröffentlicht](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) aus diesem Diagramm.
 
-<b>![(tick)](../../assets/check.svg)Empfohlene Schritte</b>
+<b>![(tick)](parameters-not-working-as-expected.resources/check.svg)Empfohlene Schritte</b>
 
 Bei den fehlenden Parametern handelt es sich wahrscheinlich um [statische Parameter](../../glossary/glossary.md), die *nicht sofort bearbeitet werden können*, nachdem das Diagramm *gekocht* wurde - d. h. verarbeitet wurde, um seinen Algorithmus schnell und effizient auszuführen. Das Kochen erfolgt in Designer jedes Mal, wenn das Diagramm *bearbeitet* oder *veröffentlicht* ist. Von solchen Einschränkungen betroffene Parameter sind im Abschnitt [Einschränkungen](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) der Seite [Verfügbarmachen eines Parameters](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) dieser Dokumentation aufgeführt.
 
@@ -47,10 +47,10 @@ Im Folgenden finden Sie eine Liste der statischen Parameter:
 
 ## Falsches Ergebnis für Substance-Funktionsdiagramm, das auf den Parameter angewendet wird
 
-<b>![(Fehler)](../../assets/error.svg) Problem </b>
+<b>![(Fehler)](parameters-not-working-as-expected.resources/error.svg) Problem</b>
 
 Ein auf einen Knotenparameter angewendetes Substance-Funktionsdiagramm gibt nicht den erwarteten Wert aus, wenn eine negative Ganzzahl verwendet wird.
 
-<b>![(tick)](../../assets/check.svg) Empfohlene Schritte</b>
+<b>![(tick)](parameters-not-working-as-expected.resources/check.svg) Empfohlene Schritte</b>
 
 Negative Ganzzahlen werden derzeit nicht richtig unterstützt. Verwenden Sie als Problemumgehung den negativen ganzzahligen Wert in einem [Integer2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md)-Wert und extrahieren Sie ihn mit einem [Swizzle Integer](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md)-Knoten.

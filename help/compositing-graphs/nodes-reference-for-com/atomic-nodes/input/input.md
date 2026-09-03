@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Eingabe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -24,17 +24,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Atomknoten: Eingabefarbe](../../../../assets/comp_inputcolor_1.png "Atomarer Knoten: Eingabefarbe"){width="200px"}
+![Atomknoten: Eingabefarbe](input.resources/input-01.png "Atomarer Knoten: Eingabefarbe"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Atomknoten: Eingabe-Graustufen](../../../../assets/comp_inputgrayscale_1.png "Atomic node: Eingabe-Graustufen"){width="200px"}
+![Atomknoten: Eingabe-Graustufen](input.resources/input-02.png "Atomic node: Eingabe-Graustufen"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Atomknoten: Eingabewert &#x200B;](../../../../assets/comp_inputnumeric_1.png "Atomischer Knoten: Eingabewert "){width="200px"}
+![Atomknoten: Eingabewert &#x200B;](input.resources/input-03.png "Atomischer Knoten: Eingabewert "){width="200px"}
 
 </td>
 </tr>
@@ -107,10 +107,10 @@ Wenn Sie das Diagramm mit den Ausgaben eines anderen Diagramms anzeigen möchten
 |  |  |
 | --- | --- |
 | <b>Kennung</b> *Zeichenfolge* | Das einzige obligatorische, eindeutige Attribut. Kann keine Leerzeichen enthalten.   Dieser wird zum Kennzeichnen von Eingaben verwendet, wenn kein Label eingerichtet ist, und zum Kennzeichnen verschiedener Ausgänge. Lassen Sie diese nicht einfach bei &quot;input\_1&quot; stehen! |
-| <b>Beschreibung</b> *Zeichenfolge* | Optionale Beschreibung, die in Designers Bibliothek und Painters Regal verwendet wird. |
-| <b>Bezeichnung</b> *Zeichenfolge* | UI-Label für ansprechende Beschriftungen in Designer und der Benutzeroberfläche von Painter. Kann Leerzeichen enthalten.   Es wird empfohlen, einen Namen festzulegen, der dem der Kennung ähnelt, nur mit Leerzeichen anstelle von Unterstrichen. |
-| <b>Benutzerdaten</b> *Zeichenfolge* | Zusätzliche, optionale Benutzerdaten, die für bestimmte Filtervorgänge verwendet werden können, im Wesentlichen ein Platzhalter, benutzerdefiniertes Datenfeld. |
-| <b>Gruppe</b> *Zeichenfolge* | Gruppenattribut, das zum Gruppieren von Eingaben für die [Verknüpfungserstellungsmodi](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) von Designer verwendet wird.   Eingaben mit einem identischen (Groß-/Kleinschreibung unterdrückenden) Gruppenattribut werden im Modus &quot;Kompaktes Material&quot; als einzelne Verbindung dargestellt. |
+| <b>Beschreibung</b> *Zeichenfolge* | Optionale Beschreibung, die in der Designer-Bibliothek und im Painter-Regal verwendet wird. |
+| <b>Bezeichnung</b> *Zeichenfolge* | UI-Label für ansprechende Beschriftungen in Designer und der Benutzeroberfläche von Painter. Kann Leerzeichen enthalten.   Es wird empfohlen, einen Namen festzulegen, der der Identifizierung ähnelt, nur mit Leerzeichen anstelle von Unterstrichen. |
+| <b>Benutzerdaten</b> *Zeichenfolge* | Zusätzliche, optionale Benutzerdaten, die für bestimmte Datenvorgänge verwendet werden können, im Wesentlichen ein Platzhalter, benutzerdefiniertes Datenfeld. |
+| <b>Gruppe</b> *Zeichenfolge* | Gruppenattribut, das zum Gruppieren von Eingaben für die [Verknüpfungserstellungsmodi](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) von Designer verwendet wird.   Eingaben mit einem identischen (Beachtung der Groß-/Kleinschreibung) Gruppenattribut werden im kompakten Materialmodus als Einzelverbindung dargestellt. |
 
 ## Vererbung
 
@@ -124,7 +124,7 @@ Zu den Basisparametern gehören u. a. die <b>Ausgabegröße</b>, das <b>Ausgabef
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-[![Primäre Eingabe im Substance-Diagramm &#x200B;](../../../../assets/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+[![Primäre Eingabe im Substance-Diagramm &#x200B;](input.resources/input-04.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
 
 </td>
 </tr>

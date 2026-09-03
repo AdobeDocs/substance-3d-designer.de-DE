@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tonwertkorrektur
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Ebenen](../../../../assets/comp_levels_1.png "Atomknoten: Stufen"){width="200px"}
+![Atomknoten: Ebenen](levels.resources/levels-01.png "Atomknoten: Stufen"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -76,9 +76,9 @@ Die hervorgehobene gelbe Schaltfläche schaltet die Schnittstelle zwischen den S
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](../../../../assets/levels-2-1.png)
+![](levels.resources/levels-02.png)
 
-![](../../../../assets/levels-1-1.png)
+![](levels.resources/levels-03.png)
 
 </td>
 </tr>
@@ -90,8 +90,8 @@ Die hervorgehobene gelbe Schaltfläche schaltet die Schnittstelle zwischen den S
 | <b>Ebene hoch</b> *Gleitend/Gleitend4* | Definiert die Lichtebenen des Eingabebilds.  Ordnet die eingegebenen hohen Werte neu zu, um vollständig weiß zu werden. |
 | <b>Ebene in der Mitte</b> *Gleitend/Gleitend4* | Definiert die Mitteltöne des Eingabebildes.  Ordnet die eingegebenen Mittelwerte neu zu, sodass sie mittelgrau sind. |
 | <b>Ebene niedrig</b> *Gleitend/Gleitend4* | Definiert die niedrigen Helligkeitsstufen des Ausgabebilds.  Klammert die Ausgabewerte für Schwarz, um den Grenzwert festzulegen. |
-| <b>Ebene hoch</b> *Gleitend/Gleitend4* | Definiert die Markierungsstufen des Ausgabebilds.  Klammert die Ausgabe von White-Werten, um den Grenzwert festzulegen. |
-| <b>Zwischenklemme</b> *Boolescher Wert* | Bestimmt, ob der transformierte Eingangswert vor der Berechnung des Ausgangspegels auf [0, 1] geklemmt wird. |
+| <b>Ebene hoch</b> *Gleitend/Gleitend4* | Definiert die Markierungsstufen des Ausgabebilds.  Beschränkt die Ausgabe Weißwerte, um Limit festzulegen. |
+| <b>Zwischenklemme</b> *Boolescher Wert* | Bestimmt, ob der transformieren Eingangswert vor der Berechnung des Ausgangspegels auf [0, 1] geklemmt wird. |
 
 ## Benutzerhandbuch
 
@@ -101,25 +101,25 @@ Sehen Sie sich diese Videoübersicht über den Knoten &quot;Ebenen&quot; und sei
 
 In der Kopfzeile &quot;Spezifische Parameter&quot; finden Sie Schaltflächen, mit denen Sie auf praktische Funktionen des Histogramms zugreifen können:
 
-![Schnellzugriffe für Knoten auf Ebenen](../../../../assets/levels-2.png "Schnellzugriffe für Knoten auf Ebenen")
+![Schnellzugriffe für Knoten auf Ebenen](levels.resources/levels-04.png "Schnellzugriffe für Knoten auf Ebenen")
 
-<b>1 - Umkehren:</b> Tauscht die Werte der Parameter &quot;Level out low&quot; und &quot;Level out high&quot; aus.
+<b>1 - Umkehren:</b> Tauscht die Werte der Parameter &quot;Level out low&quot; und &quot;Lichter in Ausgabebild&quot; aus.
 
-<b>2 - Automatischer Pegel:</b> Passt die Werte der Parameter &quot;Pegel in niedrig&quot; und &quot;Pegel in hoch&quot; automatisch an den niedrigsten bzw. höchsten Wert im Bild an.
+<b>2 - Automatischer Pegel:</b> Passt die Werte der Parameter &quot;Tiefen in Eingabebild&quot; und &quot;Lichter in Eingabebild&quot; automatisch an den niedrigsten bzw. höchsten im Bild vorhandenen Wert an.
 
 <b>3 - Schnittstellen wechseln:</b> Schaltet zwischen dem Histogramm- und dem Schiebereglereditor um.
 
 ### Histogramm
 
-Der Histogramm-Editor ist für visuelle, schnelle Anpassungen vorgesehen, bei denen genaue Werte nicht wirklich benötigt werden und die Belichtung von Parametern nicht von Bedeutung ist. Dies ist in der Regel der schnellste und einfachste Weg, mit Tonwertkorrektur zu arbeiten.
+Der Histogramm-Editor ist für visuelle, schnelle Anpassungen gedacht, bei denen präzise Werte nicht wirklich benötigt werden und der leg von Parametern nicht von Bedeutung ist. Dies ist in der Regel der schnellste und einfachste Weg, mit Tonwertkorrektur zu arbeiten.
 
-![](../../../../assets/levels-histo.gif)
+![](levels.resources/levels-05.gif)
 
 Abhängig vom Eingabetyp (Farbe oder Graustufen) können Sie in der Dropdown-Liste über dem Histogramm auswählen, welchen Kanal Sie ändern möchten.
 
 ### Schieberegler
 
-Der Schieberegler-Editor verzichtet auf jeden visuellen Editor und stellt nur numerische Schieberegler bereit, was vor allem nützlich ist, wenn Sie auf sehr exakte Werte klammern oder zuordnen möchten oder wenn Sie beabsichtigen, einen dieser Parameter [verfügbar zu machen](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), da dies nur im Schieberegler-Editor möglich ist.
+Der Schieberegler-Editor verzichtet auf jeden visuellen Editor und stellt nur numerische Schieberegler bereit, was vor allem nützlich ist, wenn Sie auf sehr exakte Werte klammern oder zuordnen möchten oder wenn Sie beabsichtigen, einen dieser Parameter [legen](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), da dies nur im Schieberegler-Editor möglich ist.
 
 Die Schieberegler ändern sich je nach Farb- oder Graustufeneingabe: Farbeingaben erzeugen vier Regler für jeden RGBA-Kanal. Graustufen verfügt nur über einen Regler, was die Arbeit erleichtert. Eine Erklärung zu jedem Regler finden Sie oben in der Parameterliste.
 

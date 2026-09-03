@@ -1,7 +1,7 @@
 ---
 title: Rasteratlas-Graustufen
 description: Designer > Substance-Compositing-Graphen > Knotenreferenz für Substance-Compositing-Graphen > Knotenbibliothek > Generator > Muster > Rasteratlas-Graustufen
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Graustufen-Symbol für Rasteratlas](grid-atlas-grayscale.resources/grid-atlas-grayscale.png "Graustufen für Rasteratlas")
+![Graustufen-Symbol für Rasteratlas](grid-atlas-grayscale.resources/grid-atlas-grayscale-01.png "Graustufen für Rasteratlas")
 
 <b>In:</b> Generator > Pattern
 
@@ -52,8 +52,8 @@ Siehe auch [Farbe des Rasteratlas](../grid-atlas-color/grid-atlas-color.md).
 | <b>Eingabe 12</b> *Graustufen* | Die #12 für Graustufenbilder. |
 | <b>Eingabe 13</b> *Graustufen* | Die #13 für Graustufenbilder. |
 | <b>Eingabe 14</b> *Graustufen* | Die #14 für Graustufenbilder. |
-| <b>Eingabe 15</b> *Graustufen* | Die #15 für Graustufenbilder. |
-| <b>Eingabe 16</b> *Graustufen* | Die #16 für Graustufenbilder. |
+| <b>Eingabe 15</b> *Graustufen* | Das Graustufenbild-#15. |
+| <b>Eingabe 16</b> *Graustufen* | Das Graustufenbild-#16. |
 
 <a name="outputs"></a>
 
@@ -75,5 +75,5 @@ Siehe auch [Farbe des Rasteratlas](../grid-atlas-color/grid-atlas-color.md).
 
 ## Beispiele
 
-<img src="./grid-atlas-grayscale.resources/grid-atlas-grayscale-graph.png" alt="Rasteratlas eines Graustufenknotens im Kontext eines Graphen" style="width: 50%"><br>
-<i>Rasteratlas-Graustufenknoten im Kontext eines Diagramms</i>
+<img src="./grid-atlas-grayscale.resources/grid-atlas-grayscale-02.png" alt="Rasteratlas-Graustufenknoten im Kontext eines Grafen" style="width: 50%"><br>
+<i>Rasteratlas-Graustufenknoten im Kontext eines Grafen</i>

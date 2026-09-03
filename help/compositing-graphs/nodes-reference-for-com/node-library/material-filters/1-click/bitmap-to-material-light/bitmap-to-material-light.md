@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Bitmap in Materiallicht
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 0%
+source-wordcount: '517'
+ht-degree: 11%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/b2m-light.png)
+![](bitmap-to-material-light.resources/bitmap-to-material-light-01.png)
 
-## Bitmap in Materiallicht
-
-**In:** *Materialfilter/1-Klick*
-
-**Fortgeschrittene**
+<b>In:</b> Materialfilter > 1-Click
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,56 +37,51 @@ Dieser Knoten konvertiert eine einzelne Diffuse/Grundfarbe-Eingabe in ein vollst
 
 Obwohl nicht garantiert, dass perfekte, PBR-korrekte Materialien entstehen, ist es eine gute und schnelle Möglichkeit, loszulegen, wenn Sie nur ein einzelnes Bild haben und ein vollständiges Material wünschen.
 
-## Parameter
-
-* **Kanäle**
-  * Schaltet die Materialkanäle in dieser Gruppe ein und aus, z. B. bei Verwendung von Specular-/Glanzkarten anstelle von Metallisch/Raueit.
-* **Global**
-  * **Tiefen-Saldo**: *-1.0 - 1.0* Legt eine Vorspannung/Verschiebung für die Höhenkarte fest.
-* **Diffus**
-  * **Scharfzeichnen**: *0.0 - 1.0* Fügt dem diffusen Ergebnis eine Scharfzeichnung hinzu.
-  * **Farbton**: *0.0 - 1.0* Farbtöne diffundieren mit einer vom Benutzer ausgewählten Farbtonverschiebung.
-  * **Sättigung**: *0.0 - 1.0*&#x200B;Ändert die Sättigung des Diffuse-Ergebnisses.
-  * **Helligkeit**: *0.0 - 1.0* Passt die Helligkeit des diffusen Ergebnisses an.
-  * **Kontrast**: *-1.0 - 1.0*\
-    Passt den Kontrast des Ergebnisses an.
-* **Relief**\
-  Die Gruppe &quot;Relief&quot; steuert sowohl die Ausgabe als auch die Ausgabe als Height.
-  * **Normales Ausgabeformat**: *DirectX, OpenGL* Wechselt zwischen Normalformaten (spiegelt grün).
-  * **Generiertes Relief umkehren**: *Falsch/Wahr* Kehrt die Interpretation des Heights um.
-  * **Normalstärke**: *0.0 - 20.0* Legt die Stärke der generierten Normalmap fest.
-  * **Relief-Equalizer**: *0.0 - 1.0* Legt Konvertierungssalden für verschiedene Detailskalen fest.
-  * **Pinch-Intensität**: *0.0 - 1.0* Schärft normale Übergänge. Fügt vor dem Konvertieren in das normale Format einen Scharfzeichnungsfilter hinzu, um die Kanten deutlicher herauszuarbeiten.
-  * **Normaler Scharfzeichner**: *0.0 - 1.0* Schärft die Normalmap nach der Konvertierung und bringt die Details zum Vorschein.
-  * **Normale Weiche**: *0.0 - 1.0* Die Normalmap wird nach der Konvertierung weichgezeichnet. Details werden ausgeblendet.
-* **Specular**
-  * **Diffuser Einfluss auf den Specular**: *0.0 - 1.0* Legt den Einfluss von Diffuse auf den Specular fest. Wirkt sich auch auf die Ausgaben für &quot;Glossiness&quot; und &quot;Raueit&quot; aus.
-  * **Sättigung des Speculars**: *0.0 - 1.0*&#x200B;Ändert die Sättigung für die Specular-Ausgabe.
-  * **Specular Sharpen**: *0.0 - 1.0* Schärft die Specular-Ausgabe.
-  * **Specular level in**: *0.0 - 1.0* Legt die Eingangspegel für die Specular-Interpretation fest.
-  * **Specular level aus**: *0.0 - 1.0*&#x200B;Ändert die Ausgangspegel des Speculars.
-  * **Metallischer Specular-Einfluss**: *0.0 - 1.0* Bestimmt den Einfluss des optionalen Metallic-Eingangs auf die Specular-Map.
-* **Glossarität**
-  * **Glossarstufen in**: *0.0 - 1.0* Legt die Eingangspegel für die Glossiness-Interpretation fest.
-  * **Glossarstufen ausgehend**: *0.0 - 1.0*&#x200B;Ändert die Glossiness-Ausgabeebenen.
-  * **Metallischer Glanzeinfluss**: *0.0 - 1.0* Bestimmt den Einfluss des optionalen metallischen Eingangs auf die Glossiness-Map.
-* **Raueit**
-  * **Raueitsstufen in**: *0.0 - 1.0* Legt die Eingangspegel für die Rauigkeitsinterpretation fest.
-  * **Raueit wird ausgeglichen**: *0.0 - 1.0*&#x200B;Ändert die Raueit-Ausgabeebenen.
-  * **Einfluss der metallischen Raueit**: *0.0 - 1.0* Bestimmt den Einfluss des optionalen metallischen Eingangs auf die Glossiness-Map.
-* **Umgebungs-Verdeckung**
-  * **Verdeckung in Diffuse**: *0.0 - 1.0*&#x200B;Überblendungen in generiertem AO in Diffuse-Ausgabe.
-  * **Verteilung der umgebenden Verdeckung**: *0.0 - 1.0* Legt fest, wie weit die generierten AO-Spreads reichen.
-  * **Umgebungslichtabstand der Verdeckung**: *0.0 - 1.0* Legt eine O-Interpretation für &quot;Tiefe&quot; fest. Hat weniger Einfluss, wenn es eine große Verteilung gibt.
-  * **Umgebungslichtwinkel der Verdeckung**: *0.0 - 1.0* Legt den gefälschten AO-Abspielwinkel der Beleuchtung fest. Kann verwendet werden, um jede Richtung AO zu kompensieren, die sich bereits im Diffuse befindet, wenn sie auf einen entgegengesetzten Winkel eingestellt ist.
-  * **Umgebungs-Verdeckungen**: *0.0 - 1.0*&#x200B;Ändert AO-Ausgabepegel.
-
-## Beispielbilder
-
-|  |
-| --- |
-| Es sind keine Bilder an diese Seite angehängt. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Kanäle</b> | Schaltet die Materialkanäle in dieser Gruppe ein und aus, z. B. bei Verwendung von Specular-/Glanzkarten anstelle von Metallisch/Raueit. |
+| <b>Global</b> |  |
+| <b>Tiefen-Saldo</b> <i>-1.0 - 1.0</i> | Legt eine Vorspannung/Verschiebung für die Höhenkarte fest. |
+| <b>Diffus</b> |  |
+| <b>Scharfzeichnen</b> <i>0.0 - 1.0</i> | Fügt dem diffusen Ergebnis die Schärfe hinzu. |
+| <b>Farbton</b> <i>0.0 - 1.0</i> | Tint diffundieren mit einer vom Benutzer ausgewählten Farbtonverschiebung. |
+| <b>Sättigung</b> <i>0.0 - 1.0</i> | Ändert die Sättigung der Diffuse. |
+| <b>Helligkeit</b> <i>0.0 - 1.0</i> | Passt die Helligkeit der Diffuse an. |
+| <b>Kontrast</b> <i>-1.0 - 1.0</i> | Passt den Kontrast des Ergebnisses an. |
+| <b>Relief</b> | Die Gruppe &quot;Relief&quot; steuert sowohl die Ausgabe als auch die Ausgabe als Height. |
+| <b>Normales Ausgabeformat</b> <i>DirectX, OpenGL</i> | Wechselt zwischen normalen Formaten (wird grün gespiegelt). |
+| <b>Generiertes Relief umkehren</b> <i>False/True</i> | Kehrt die Interpretation des Heights um. |
+| <b>Normale Stärke</b> <i>0.0 - 20.0</i> | Legt die Stärke der generierten Normalmap fest. |
+| <b>Relief-Equalizer</b> <i>0.0 - 1.0</i> | Legt Konvertierungssalden für verschiedene Detailskalen fest. |
+| <b>Pinch-Intensität</b> <i>0.0 - 1.0</i> | Schärft normale Übergänge. Fügt vor dem Konvertieren in das normale Format einen Scharfzeichnungsfilter hinzu, um die Kanten deutlicher herauszuarbeiten. |
+| <b>Normaler Scharfzeichner</b> <i>0.0 - 1.0</i> | Schärft Normalmap nach der Konvertierung, bringt die Details heraus. |
+| <b>Normales Weichzeichnen</b> <i>0.0 - 1.0</i> | Reduziert die Normalmap nach der Konvertierung und blendet Details aus. |
+| <b>Specular</b> |  |
+| <b>Einfluss der Specular-Diffuse</b> <i>0.0 - 1.0</i> | Legt den Einfluss von Diffuse auf den Specular fest. Wirkt sich auch auf die Ausgabe von Glanz und Rauheit aus. |
+| <b>Sättigung des Speculars</b> <i>0.0 - 1.0</i> | Ändert die Sättigung für den Specular. |
+| <b>Specular Sharpen</b> <i>0.0 - 1.0</i> | Schärft die Specular-Ausgabe. |
+| <b>Specular level in </b> <i>0.0 - 1.0</i> | Legt die Eingangspegel für die Interpretation des Specular fest. |
+| <b>Specular level versendet</b> <i>0.0 - 1.0</i> | Ändert die Ausgangspegel des Speculars. |
+| <b>Metallic Specular-Einfluss</b> <i>0.0 - 1.0</i> | Bestimmt den Einfluss des optionalen Metallic Eingangs auf die Specular-Map. |
+| <b>Glossarität</b> |  |
+| <b>Glanz-Stufen in </b> <i>0.0 - 1.0</i> | Legt die Eingangspegel für die Interpretation des Glanzes fest. |
+| <b>Glanz-Levels ausgehend</b> <i>0.0 - 1.0</i> | Ändert die Glanz-Ausgangspegel. |
+| <b>Metallic Glanz </b> <i>0.0 - 1.0</i> | Bestimmt den Einfluss der optionalen Metallic Eingabe auf die Glanz-Map. |
+| <b>Raueit</b> |  |
+| <b>Rauheiten in </b> <i>0.0 - 1.0</i> | Legt die Eingangspegel für die Interpretation der Rauheit fest. |
+| <b>Rauheit wird ausgeglichen</b> <i>0.0 - 1.0</i> | Ändert die Ausgabepegel der Rauheit. |
+| <b>Einfluss auf die Metallische Rauheit</b> <i>0.0 - 1.0</i> | Bestimmt den Einfluss der optionalen Metallic Eingabe auf die Glanz-Map. |
+| <b>Umgebungs-Verdeckung</b> |  |
+| <b>Ambient occlusion in Diffuse</b> <i>0.0 - 1.0</i> | Überblendungen in generiertem AO in der Diffuse. |
+| <b>Ambient occlusion Spread</b> <i>0.0 - 1.0</i> | Legt fest, wie weit generiertes AO sich ausbreitet. |
+| <b>Ambient occlusion Lichtdistanz</b> <i>0.0 - 1.0</i> | Legt die AO-Interpretation der &quot;Tiefe&quot; fest. Hat weniger Einfluss, wenn es eine große Verteilung gibt. |
+| <b>Ambient occlusion Lichtwinkel</b> <i>0.0 - 1.0</i> | Legt den Geworfen Winkel für die gefälschte Beleuchtung fest. Kann verwendet werden, um jede Richtung AO zu kompensieren, die sich bereits im Diffuse befindet, wenn sie auf einen entgegengesetzten Winkel eingestellt ist. |
+| <b>Ambient occlusion-Stufen</b> <i>0.0 - 1.0</i> | Ändert AO-Ausgangspegel. |

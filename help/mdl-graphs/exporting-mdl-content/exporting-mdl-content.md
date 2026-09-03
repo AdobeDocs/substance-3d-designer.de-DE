@@ -10,9 +10,9 @@ helpx_tags: ""
 title: MDL-Inhalte werden exportiert
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -20,70 +20,70 @@ ht-degree: 0%
 
 # MDL-Inhalte werden exportiert
 
-Auf dieser Seite werden die Exportprozesse für [MDL-Grafiken](../../mdl-graphs/mdl-graphs.md) und Materialien in Substance 3D Designer beschrieben.
+Auf dieser Seite werden die Exportprozesse für [MDL-Diagramms](../../mdl-graphs/mdl-graphs.md) und Materials in Substance 3D Designer beschrieben.
 
 ## Überblick
 
-Sobald ein MDL-Material in Designer erstellt wurde, muss es in ein Format exportiert werden, das *die Materialdefinition* tragen kann, und von Renderern gelesen werden, die MDL unterstützen. MDL verwendet proprietäre Formate für Materialdefinitionen, so genannte MDL-Module, die in verschiedenen Formaten geschrieben und verpackt sind und alle aus Designer exportiert werden können.
+Nachdem ein MDL-Material in Designer erstellt wurde, muss es in ein Format exportiert werden, das *die Definition des Materials enthalten kann*, und von Renderern gelesen werden, die MDL unterstützen. MDL verwendet proprietäre Formate für Materialien, so genannte MDL-Module, die in verschiedenen Formaten geschrieben und verpackt werden, die alle aus Designer exportiert werden können.
 
 >[!NOTE]
 >
-> Alle diese Formate können direkt mit einem *Texteditor* geöffnet werden - manchmal nach dem Entpacken mit einem Archivmanager -, um die von ihnen gehaltene Materialdefinition zu überprüfen.
+> Alle diese Formate können direkt mit einem *Texteditor* geöffnet werden - manchmal nach dem Entpacken mit einem Archivmanager -, um die darin enthaltene Formatdefinition zu überprüfen.
 
 ## MDL-Modul (\*.mdl)
 
-Dies ist das grundlegende Austauschdateiformat für Materialdefinitionen. Ein MDL-Modul definiert Folgendes:
+Dies ist das grundlegende Austauschdateiformat für Material-Definitionen. Ein MDL-Modul definiert Folgendes:
 
-* die Eigenschaften und das Verhalten des Materials
-* seine exponierten Parameter und Standardwerte
+* Merkmale und Verhalten des Materials
+* seine freigelegte Parameter und Standardwerte
 * ihre Anmerkungen (d. h. Metadaten): Autor, Tags, Kategorien, ...
 
-Das Exportieren eines MDL-Moduls wird auf der Ebene *Paket* ausgeführt. Um ein MDL-Modul für ein bestimmtes Paket zu exportieren, klicken Sie im [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) auf die Schaltfläche ![](../../assets/mdl-export-module-icon.png) <b>MDL-Modul exportieren</b> oder wählen Sie dieselbe Option im Kontextmenü des *Pakets* aus. Wählen Sie einen Zielspeicherort und einen Namen für das exportierte MDL-Modul aus, und das Dialogfeld <b>Bericht exportieren</b> wird mit der Liste der während des Exportvorgangs protokollierten Nachrichten angezeigt.
+Das Exportieren eines MDL-Moduls wird auf der Ebene *Paket* ausgeführt. Um ein MDL-Modul für ein bestimmtes Paket zu exportieren, klicken Sie im [Explorer](../../interface/the-explorer-window/the-explorer-window.md) auf die Schaltfläche ![](exporting-mdl-content.resources/exporting-mdl-content-01.png) <b>MDL-Modul</b> exportieren, oder wählen Sie diese Option im Kontextmenü des *Pakets* aus. Wählen Sie einen Zielspeicherort und einen Namen für das exportierte MDL-Modul aus, und das Dialogfeld <b>Bericht exportieren</b> wird mit der Liste der während des Exportvorgangs protokollierten Nachrichten angezeigt.
 
-Das exportierte Modul enthält die Definitionen von *allen* der MDL-Materialien, die durch ein [MDL-Diagramm](../../mdl-graphs/mdl-graphs.md) im Paket definiert sind.
-
->[!NOTE]
->
-> Erfahren Sie mehr über MDL-Module in den Abschnitten 4 und 15 der [MDL-Spezifikation von NVIDIA](https://developer.download.nvidia.com/designworks/mdl-sdk/secure/MDL_spec_1.6.1_16Dec2019.pdf?__token__=exp=1776166178~hmac=38656bc9d8199764568d1fa0d4d945b90c57638ebd37b100a402bdc983e518ee&t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczovL3d3dy5nb29nbGUuY29tLyJ9).
+Das exportierte Modul enthält die Definitionen von *allen* MDL-Materialien, die durch ein [MDL-Diagramm](../../mdl-graphs/mdl-graphs.md) im Paket definiert sind.
 
 >[!NOTE]
 >
-> Warnungen nach dieser Vorlage: `x appears to be invalid whereas it was expected to be an mdl::call` wird durch die Art und Weise verursacht, wie MDL-Materialien in MDL-Diagrammen verarbeitet werden, und *sicher sind, um* zu ignorieren.
+> Erfahren Sie mehr über die MDL-Modul in den Abschnitten 4 und 15 der [MDL-Spezifikation von NVIDIA](https://developer.download.nvidia.com/designworks/mdl-sdk/secure/MDL_spec_1.6.1_16Dec2019.pdf?__token__=exp=1776166178~hmac=38656bc9d8199764568d1fa0d4d945b90c57638ebd37b100a402bdc983e518ee&t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczovL3d3dy5nb29nbGUuY29tLyJ9).
 
-![MDL-Exportpfad](../../assets/mdl-export-module.png "MDL-Exportpfad")
+>[!NOTE]
+>
+> Warnungen nach dieser Vorlage: `x appears to be invalid whereas it was expected to be an mdl::call` wird durch die Art und Weise verursacht, wie MDL-Material in MDL-Diagrammen verarbeitet werden, und *kann* sicher ignorieren.
 
-*Die Pfade &quot;MDL-Modul exportieren&quot; im Explorer und das resultierende Dialogfeld &quot;Bericht exportieren&quot;*
+![MDL-Exportpfad](exporting-mdl-content.resources/exporting-mdl-content-02.png "MDL-Exportpfad")
+
+*Die &quot;MDL-Modul exportieren&quot;-Pfade im Explorer und das resultierende Dialogfeld &quot;Bericht exportieren&quot;*
 
 ### MDL-Vorgabe (\*.mdl)
 
-Eine MDL-Modulvorgabe ist weitgehend identisch mit dem Modul, auf dem sie basiert, wobei der einzige Unterschied darin besteht, dass sie einen anderen Satz von Standardwerten enthält - weitere Informationen [hier](https://www.migenius.com/doc/realityserver/latest/resources/general/iray/api_reference/iray/html/classmi_1_1neuraylib_1_1IMdl__factory.html#details).
+Eine Modulvorgabe ist weitgehend identisch mit dem MDL-Modul, auf dem sie basiert. Der einzige Unterschied besteht darin, dass sie einen anderen Satz von Standardwerten enthält - weitere Informationen [hier](https://www.migenius.com/doc/realityserver/latest/resources/general/iray/api_reference/iray/html/classmi_1_1neuraylib_1_1IMdl__factory.html#details).
 
-Eine Vorgabe für ein MDL-Material, das einem Szenenmaterial &quot;`my_material`&quot; zugewiesen ist, kann von den folgenden Speicherorten exportiert werden:
+Eine Vorgabe für ein MDL-Material, das einem Szene-Material &quot;`my_material`&quot; zugewiesen ist, kann von den folgenden Speicherorten exportiert werden:
 
-* Das Bedienfeld &quot;[Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)&quot;, indem Sie auf &quot;<b>RMB</b>&quot; in der MDL-Diagrammressource klicken und die Exportvorgabe &quot;<b>&quot; auswählen...Option </b> im Kontextmenü
-* Das Bedienfeld [3D-Ansicht](../../interface/3d-view/3d-view.md) mit <b>Materialien > my\_material > Vorgabe exportieren...</b>-Menüoption
+* Der Bereich &quot;[Explorer](../../interface/the-explorer-window/the-explorer-window.md)&quot;, indem Sie auf &quot;<b>RMB</b>&quot; in der Ressource &quot;MDL-Diagramm&quot; klicken und die Exportvorgabe &quot;<b>Exportieren&quot; auswählen...Option </b> im Kontextmenü
+* Das [3D-Ansicht](../../interface/3d-view/3d-view.md)-Bedienfeld mit <b>Materials > my\_Material > Vorgabe exportieren...</b>-Menüoption
 
-Die Menüoption öffnet das Dialogfeld <b>MDL-Materialvorgabe exportieren</b>, das die folgenden Optionen bietet:
+Die Menüoption öffnet das Dialogfeld <b>MDL-Material-Vorgabe exportieren</b>, das die folgenden Optionen bietet:
 
 * <b>Verzeichnis</b>: Der Zielspeicherort, an den das MDL-Modul exportiert wird
 * <b>MDL-Dateiname</b>: Der Name des MDL-Moduls
-* <b>Importierte MDL-Module einbetten</b>: Wenn das MDL-Modul auf importierten Modulen basiert - d. h. über Modulabhängigkeiten verfügt, führt das Aktivieren dieser Option dazu, dass die Modulabhängigkeiten in das exportierte MDL-Modul *eingebettet* werden, sodass es effektiv *autark* auf Kosten der Dateigröße und der dynamischen Vererbung ist.
+* <b>Importierte MDL-Module einbetten</b>: Wenn das MDL-Modul auf importierten Modulen basiert - d. h. über Modulabhängigkeiten verfügt, führt das Aktivieren dieser Option dazu, dass die Modulabhängigkeiten *in das exportierte MDL-Modul eingebettet* werden, sodass es effektiv *autark* ist, auf Kosten der Dateigröße und der dynamischen Vererbung
 
-Die exportierte Voreinstellung verwendet die *aktuellen Werte* der Materialparameter in der 3D-Ansicht als *neue Standardwerte*. Diese Werte können mit der Option <b>Materialien > my\_material > Bearbeiten</b> geändert werden, die die exponierten Parameter des Materials im Bedienfeld [Eigenschaften](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) anzeigt.
+Die exportierte Voreinstellung verwendet die *aktuellen Werte* der Parameter des Materials in der 3D-Ansicht als *neue Standardwerte*. Diese Werte können mit der Option <b>Materials > my\_Material > Edit</b> geändert werden, die die freigelegte Parameter des Materials im Eigenschaftenfenster anzeigt.
 
 >[!WARNING]
 >
-> Beim Exportieren eines MDL-Moduls aus dem Bedienfeld [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) führt dies dazu, dass ein MDL-Modul *alle* MDL-Materialien enthält, die durch ein MDL-Diagramm im Paket definiert sind. Beim Exportieren einer MDL-Vorgabe aus der [3D-Ansicht](../../interface/3d-view/3d-view.md) führt dies dazu, dass ein MDL-Modul *nur* enthält, die Definition der MDL-Materialien, die auf das *ausgewählte Material* im Menü `my_material` in diesem Beispiel angewendet wurden.
+> Beim Exportieren eines MDL-Moduls aus dem [Explorer](../../interface/the-explorer-window/the-explorer-window.md)-Bedienfeld wird ein MDL-Modul mit *allen* MDL-Materialien, die durch ein MDL-Diagramm im Paket definiert sind, exportiert. Beim Exportieren einer MDL-Vorgabe aus [3D-Ansicht](../../interface/3d-view/3d-view.md) wird ein MDL-Modul mit *nur* MDL-Materialien exportiert, die auf das *ausgewählte Material* im Menü angewendet wurden - `my_material` in diesem Beispiel.
 
-![MDL-Vorgabe-Exportpfad](../../assets/mdl-export-preset.png "MDL-Vorgabe-Exportpfad")
+![MDL-Vorgabe-Exportpfad](exporting-mdl-content.resources/exporting-mdl-content-03.png "MDL-Vorgabe-Exportpfad")
 
-*Der Pfad &quot;Exportvorgabe&quot; in der 3D-Ansicht und das resultierende Dialogfeld &quot;MDL-Materialvorgabe exportieren&quot;*
+*Der Pfad &quot;Exportvorgabe&quot; in der 3D-Ansicht und das resultierende Dialogfeld &quot;Exportvorgabe für MDL-Material&quot;*
 
-## MDL-Modularchiv (\*.mdr)
+## MDL-Modul-Archiv (\*.mdr)
 
-Ein MDL-Modularchiv kombiniert MDL-Module (siehe oben) mit Ressourcen wie *Texturen* und Readme-Dateien in einer *einzelnen transportablen Datei*.
+Ein MDL-Modul-Archiv kombiniert MDL-Module (siehe oben) mit Ressourcen wie *Texturen* und Readme-Dateien in einer *einzelnen transportablen Datei*.
 
-Das Exportieren eines MDL-Modularchivs wird auf der Ebene *Paket* ausgeführt. Um ein MDL-Modularchiv für ein bestimmtes Paket zu exportieren, klicken Sie im [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) auf die Schaltfläche ![](../../assets/mdl-export-module-icon.png) <b>MDL-Modularchiv exportieren</b>, oder wählen Sie dieselbe Option im Kontextmenü des *Pakets* aus. Wählen Sie einen Zielspeicherort und einen Namen für das exportierte MDL-Modularchiv aus, und das Dialogfeld <b>Bericht exportieren</b> wird mit der Liste der während des Exportvorgangs protokollierten Nachrichten angezeigt.
+Das Exportieren eines Paketarchivs erfolgt auf der Ebene *MDL-Modul*. Um ein Paketarchiv für ein bestimmtes MDL-Modul zu exportieren, klicken Sie auf die Schaltfläche ![](exporting-mdl-content.resources/exporting-mdl-content-01.png) <b>MDL-Modul-Archiv exportieren</b> in [Explorer](../../interface/the-explorer-window/the-explorer-window.md), oder wählen Sie dieselbe Option im Kontextmenü des *Pakets* aus. Wählen Sie einen Zielspeicherort und einen Namen für das exportierte MDL-Modularchiv aus, und das Dialogfeld <b>Bericht exportieren</b> wird mit der Liste der während des Exportvorgangs protokollierten Nachrichten angezeigt.
 
 Das exportierte Modularchiv enthält ein MDL-Modul, das die Definitionen von *allen* der MDL-Materialien enthält, die durch ein [MDL-Diagramm](../../mdl-graphs/mdl-graphs.md) im Paket definiert sind. Wenn ein [Substance-Diagramm](../../compositing-graphs/substance-compositing-graphs.md) [in ein MDL-Diagramm &#x200B;](../../mdl-graphs/compositing-graphs-and/substance-compositing-graphs-and-mdl-materials.md) instanziiert und mit einem Stream verbunden ist, der an den [Root](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)-Knoten geht, werden die von ihm ausgegebenen Texturen *im Archiv gespeichert*.
 
@@ -98,7 +98,7 @@ Zusätzlich zu diesen Elementen enthält das Archiv eine <b>MANIFEST</b>-Datei, 
 >
 > Erfahren Sie mehr über das MDL-Archivdateiformat in Anhang C der [MDL-Spezifikation von NVIDIA](https://developer.download.nvidia.com/designworks/mdl-sdk/secure/MDL_spec_1.6.1_16Dec2019.pdf?__token__=exp=1776166178~hmac=38656bc9d8199764568d1fa0d4d945b90c57638ebd37b100a402bdc983e518ee&t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczovL3d3dy5nb29nbGUuY29tLyJ9).
 
-![MDR-Exportpfad](../../assets/mdl-export-archive.png "MDR-Exportpfad")
+![MDR-Exportpfad](exporting-mdl-content.resources/exporting-mdl-content-04.png "MDR-Exportpfad")
 
 *Der Pfad &quot;MDL-Modularchiv exportieren&quot; im Explorer und das resultierende Dialogfeld &quot;Bericht exportieren&quot;*
 
@@ -108,7 +108,7 @@ MDL-Grafiken mit exponierten Parametern können als gekapselte MDL-Materialien e
 
 Während Sie beispielsweise noch die Werte der angezeigten Parameter ändern können, um das Verhalten eines Materials zu steuern, ist die *Definition* dieser Parameter *nicht verfügbar* in einem gekapselten MDL-Modul.
 
-Das Exportieren eines gekapselten MDL-Moduls wird im [Explorer](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) auf der MDL-Diagrammebene durchgeführt, indem die Option <b>Als .mdle</b> exportieren im Kontextmenü eines MDL-Diagramms ausgewählt wird. Wählen Sie einen Zielspeicherort und einen Namen für das exportierte MDL-gekapselte Modul aus, und das Dialogfeld <b>Bericht exportieren</b> wird mit der Liste der während des Exportvorgangs protokollierten Meldungen angezeigt.
+Das Exportieren eines gekapselten MDL-Moduls wird im [Explorer](../../interface/the-explorer-window/the-explorer-window.md) auf der MDL-Diagrammebene durchgeführt, indem die Option <b>Als .mdle</b> exportieren im Kontextmenü eines MDL-Diagramms ausgewählt wird. Wählen Sie einen Zielspeicherort und einen Namen für das exportierte MDL-gekapselte Modul aus, und das Dialogfeld <b>Bericht exportieren</b> wird mit der Liste der während des Exportvorgangs protokollierten Meldungen angezeigt.
 
 *Nur* die Materialdefinition für das *ausgewählte MDL-Diagramm* wird in das exportierte gekapselte MDL-Modul aufgenommen.
 
@@ -116,6 +116,6 @@ Das Exportieren eines gekapselten MDL-Moduls wird im [Explorer](https://helpx.ad
 >
 > Erfahren Sie mehr über Definitionen von gekapseltem Material in Abschnitt 13.5 der [MDL-Spezifikation von NVIDIA](https://developer.download.nvidia.com/designworks/mdl-sdk/secure/MDL_spec_1.6.1_16Dec2019.pdf?__token__=exp=1776166178~hmac=38656bc9d8199764568d1fa0d4d945b90c57638ebd37b100a402bdc983e518ee&t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczovL3d3dy5nb29nbGUuY29tLyJ9) und der [MDL SDK API](https://raytracing-docs.nvidia.com/mdl/api/mi_neuray_example_mdle.html).
 
-![MDLE-Exportpfad](../../assets/mdl-export-encapsulated.png "MDLE-Exportpfad")
+![MDLE-Exportpfad](exporting-mdl-content.resources/exporting-mdl-content-05.png "MDLE-Exportpfad")
 
 *Der Pfad &quot;Als Mdle exportieren&quot; im Explorer und das resultierende Dialogfeld &quot;Bericht exportieren&quot;*

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Schmutz Leaks
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '131'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeleaks.jpg){width="200px"}
+![](grunge-leaks.resources/grunge-leaks-01.jpg){width="200px"}
 
-**In:** *Texturgeneratoren* */Noises*
-
-**Einfach**
+<b>In:</b> Texturgeneratoren > Rauschen
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,31 +39,31 @@ Der Knoten **Schmutz Leaks** generiert eine Schmutz-Map, die so ähnlich ist, al
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parameter
 
-* **Balance** *Gleitend* Passt die Balance zwischen dunklen und hellen Werten an.
-* **Kontrast** *Unverankert* Passt den Kontrast des Bildes an.
-* **Umkehren** *Boolesch* Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird.
-* **Quadratische Ausbreitung** *Boolesch* Aktiviert die Kompensation von Squash- und Dehnungsverhältnissen mit nicht quadratischen Verhältnissen.
-* Erweitert
-  * **Tropflänge** *Unverankert* Passt die Länge der Tropfstreifen an.
-  * **Formkontrast** *Fließend* Verschiebt zwischen hellen und dunklen Formen und kontrastiert über die Tropfen hinweg.
-  * **Tropfschärfe** *Unverankert* Passt die Schärfe und Krümmung der Tropfen an.
-  * **Intensität schärfen** *Unverankert* Passen Sie die allgemeine Unschärfe des Bildes an.
+|  |  |
+|:---|:---|
+| <b>Saldo</b> <i>Gleitend</i> | Passt die Balance zwischen dunklen und hellen Werten an. |
+| <b>Kontrast</b> <i>Gleitend</i> | Passt den Kontrast des Bildes an. |
+| <b>Umkehren</b> <i>Boolescher Wert</i> | Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird. |
+| <b>Quadratische Ausbreitung</b> <i>Boolescher Wert</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+| <b>Erweitert</b> |  |
+| <b>Tropflänge</b> <i>Gleitend</i> | Passt die Länge der Tropfstreifen an. |
+| <b>Formkontrast</b> <i>Gleitend</i> | Verschiebt zwischen hellen und dunklen Formen und kontrastiert über die Tropfen hinweg. |
+| <b>Tropfknackigkeit</b> <i>Gleitend</i> | Passt die Schärfe und die Krümmung der Tropfen an. |
+| <b>Intensität schärfen</b> <i>Gleitend</i> | Passen Sie die Unebenheit des Bildes insgesamt an. |
 
-## Beispielbilder
+## Beispiele
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeleaks-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeleaks-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-leaks.resources/grunge-leaks-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-leaks.resources/grunge-leaks-03.jpg" />
+        </td>
+    </tr>
 </table>

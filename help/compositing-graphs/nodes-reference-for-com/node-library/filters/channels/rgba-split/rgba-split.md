@@ -10,10 +10,10 @@ helpx_tags: ""
 title: RGBA-Teilung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 2%
+source-wordcount: '84'
+ht-degree: 1%
 
 ---
 
@@ -22,34 +22,20 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rgba-split.png){width="128px"}
+![](rgba-split.resources/rgba-split-01.png){width="128px"}
 
-## RGBA-Teilung
-
-**In:** *Filter/Kanäle*
-
-**Einfach**
+<b>In:</b> Filters > Channels
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Teilt ein Eingabebild in die entsprechenden Kanäle für Rot, Grün, Blau und Alpha auf. Sie &quot;entpackt&quot; ein Bild effektiv.
 
 Hilfreich für die separate Analyse und Verwendung verpackter Kanäle. Wenn Sie eine Positionskarte oder eine Weltraum-Normalmap für Substance Painter-Effekte verwenden, können Sie beispielsweise die X-, Y- oder Z-Komponente herausfiltern.
-
-## Parameter
-
-*Keine Parameter.*
-
-## Beispielbilder
-
-|  |
-| --- |
-| Es sind keine Bilder an diese Seite angehängt. |
 
 </td>
 </tr>

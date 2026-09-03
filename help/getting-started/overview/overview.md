@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Überblick
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e42fdff3a7e8fca5a6d482bee42bb9f32d019c56
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 Im Folgenden wird der Vergleich mit anderen Anwendungen erläutert:
 
-|  | <div><img alt="Substance 3D Sampler-Symbol" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="../../assets/sa-appicon-noshadow-256.png" title="Substance 3D Sampler-Symbol" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Substance 3D Painter-Symbol" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="../../assets/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Substance 3D Designer-Symbol" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="../../assets/ds-appicon-noshadow-256.png" title="Substance 3D Designer-Symbol" width="64px"/></div>  Substance 3D Designer |
+|  | <div><img alt="Substance 3D Sampler-Symbol" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="overview.resources/overview-01.png" title="Substance 3D Sampler-Symbol" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Substance 3D Painter-Symbol" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="overview.resources/overview-02.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Substance 3D Designer-Symbol" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="overview.resources/overview-03.png" title="Substance 3D Designer-Symbol" width="64px"/></div>  Substance 3D Designer |
 | --- | --- | --- | --- |
 | <b>Lernkurve</b> | Niedrig | Mittel | Hoch |
 | <b>Author-Materialien</b> | Ja | Ja | Ja |
@@ -60,7 +60,7 @@ Die Anwendung und ihr Ökosystem verwenden 4 verschiedene Dateitypen. Zur Klarst
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/ds-sbs-48.png)
+![](overview.resources/overview-04.png)
 
 ### Substance 3D File
 
@@ -71,7 +71,7 @@ Substance-Dateien sind die **Hauptquelldateien** für Designer. Wenn Sie eine Su
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/sbsar-48.png)
+![](overview.resources/overview-05.png)
 
 ### Substance 3D Asset
 
@@ -82,7 +82,7 @@ Substance-Archive sind <b> kompilierte, optimierte </b> Substance-Dateien. Sie s
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/bmp-96.png){width="48px"}
+![](overview.resources/overview-06.png){width="48px"}
 
 ### Statische Dateien
 
@@ -104,7 +104,7 @@ Substance 3D-Dateien können eine Vielzahl von Ressourcen für verschiedene Zwec
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
+[![](overview.resources/overview-07.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -123,7 +123,7 @@ Mit Substance-Graphen können Sie *2D-Bilddaten* generieren und verarbeiten und 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
+[![](overview.resources/overview-08.png){width="150px"}](../../function-graphs/function-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -142,7 +142,7 @@ Mit Substance-Graphen können Sie *2D-Bilddaten* generieren und verarbeiten und 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+[![](overview.resources/overview-09.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

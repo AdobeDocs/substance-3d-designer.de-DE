@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: FX-Map](../../../../assets/fxmap.png "Atomknoten: FX-Map"){width="200px"}
+![Atomknoten: FX-Map](fx-map.resources/fx-map-01.png "Atomknoten: FX-Map"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -75,7 +75,7 @@ Beachten Sie, dass im Gegensatz zu anderen Knoten der größte Teil des Verhalte
 
 |  |  |
 | --- | --- |
-| <b>Farbmodus</b> *Boolescher Wert* | Schaltet zwischen einem Graustufen- und einem Farbausgabebild um. Die Farbe ist viel langsamer als in Graustufen. |
+| <b>Farbmodus</b> *Boolescher Wert* | Schaltet zwischen einem Graustufen- und einem Farbausgabebild um. Die Farbe ist viel langsamer als in Graustufen. |
 | <b>Hintergrund</b> *Gleitend/Gleitend4* | Legt die Anfangsfarbe des Hintergrunds fest, mit der die Ergebnisse zusammengefügt werden. |
 | <b>Renderregion</b> *Float4* | Ermöglicht es Ihnen, den ersten Pixelbereich für jede Seite der FX-Map festzulegen, was zu einem Dehnungseffekt führt. |
 | <b>Kachelbereich</b> *Float4* | Ermöglicht das Versetzen des Kachelabstands der FX-Map. |
@@ -102,4 +102,4 @@ Beachten Sie, dass im Gegensatz zu anderen Knoten der größte Teil des Verhalte
 
 ## Beispiele
 
-![](../../../../assets/image2015-9-10-17-28-32.png)
+![](fx-map.resources/fx-map-02.png)
