@@ -23,7 +23,7 @@ ht-degree: 0%
 Auf dieser Seite werden Warnungen und Fehlermeldungen aufgelistet, die von [Funktionsdiagrammen](../../function-graphs/function-graphs.md) in Substance 3D Designer ausgelöst werden können, und es werden allgemeine Schritte zur Fehlerbehebung für die einzelnen Funktionsdiagramme angezeigt.
 
 Warnungen werden in der QuickInfo des Warnsymbols für die Diagrammressource im Bereich [Explorer](../../interface/the-explorer-window/the-explorer-window.md) sowie in der unteren linken Ecke der [Diagrammansicht](../../interface/the-graph-view/the-graph-view.md) angezeigt, wenn das Diagramm geladen ist.\
-Wenn die Funktion *auf einen Parameter* in einem [Substance-Graphen ](../../compositing-graphs/substance-compositing-graphs.md) angewendet wird, wird jede Warnung dazu führen, dass die Warnung &quot;*Die Funktion des [x]-Parameters weist einige Fehler auf*&quot; für diesen Parameter ausgelöst wird.
+Wenn die Funktion *auf einen Parameter* in einem [Substance-Graphen &#x200B;](../../compositing-graphs/substance-compositing-graphs.md) angewendet wird, wird jede Warnung dazu führen, dass die Warnung &quot;*Die Funktion des [x]-Parameters weist einige Fehler auf*&quot; für diesen Parameter ausgelöst wird.
 
 ## ![(Fehler)](warnings-in-function-graphs.resources/error.svg) Kein Ausgabeknoten definiert
 

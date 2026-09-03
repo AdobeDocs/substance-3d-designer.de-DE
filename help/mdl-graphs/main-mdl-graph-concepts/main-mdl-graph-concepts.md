@@ -107,7 +107,7 @@ Beachten Sie die *Regeln*, die für die Filterung angewendet wurden:
 
 ## Diagrammeingaben und Texturen
 
-MDL-Materialien können Daten aus externen Quellen empfangen, beispielsweise in Form von Werten und Texturen. Dies wird erreicht, indem <b>ein Knoten </b> verfügbar gemacht wird, im Gegensatz zum [Substance-Diagramm ](../../compositing-graphs/substance-compositing-graphs.md), in dem dedizierte Eingabeknoten für diesen Zweck vorhanden sind.
+MDL-Materialien können Daten aus externen Quellen empfangen, beispielsweise in Form von Werten und Texturen. Dies wird erreicht, indem <b>ein Knoten </b> verfügbar gemacht wird, im Gegensatz zum [Substance-Diagramm &#x200B;](../../compositing-graphs/substance-compositing-graphs.md), in dem dedizierte Eingabeknoten für diesen Zweck vorhanden sind.
 
 Daten können je nach *Typ* an den angezeigten Knoten übergeben werden. Zum Beispiel können Gleitkommawerte an einen exponierten <b>Gleitkommawert</b>-Knoten übergeben werden, und eine Textur kann an einen exponierten <b>color</b>-Knoten übergeben werden (in diesem Fall werden die RGBA-Werte der aufgenommenen Pixel als Farbwert übergeben).
 

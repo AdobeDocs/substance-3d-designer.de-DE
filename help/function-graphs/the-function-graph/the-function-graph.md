@@ -53,7 +53,7 @@ Die im Substance-Funktionsknoten verfügbaren Graf unterscheiden sich vollständ
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Substance-Funktionsdiagrammknotenliste ](the-function-graph.resources/the-function-graph-02.png "Substance-Funktionsdiagrammknotenliste ")
+![Substance-Funktionsdiagrammknotenliste &#x200B;](the-function-graph.resources/the-function-graph-02.png "Substance-Funktionsdiagrammknotenliste ")
 
 </td>
 </tr>

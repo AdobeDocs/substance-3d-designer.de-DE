@@ -37,7 +37,7 @@ Dieses Projekt enthält eine einfache Filtereinrichtung, die als Graf in anderen
 </td>
 <td style="border: 0;" valign="top">
 
-![ Beispiel für &quot;Filter&quot; ](sample-substance-compositing-graphs.resources/sample-substance-compositing-graphs-02.png " Beispiel für &quot;Filter&quot; "){zoomable="yes"}
+![&#x200B; Beispiel für &quot;Filter&quot; &#x200B;](sample-substance-compositing-graphs.resources/sample-substance-compositing-graphs-02.png " Beispiel für &quot;Filter&quot; "){zoomable="yes"}
 
 </td>
 </tr>
@@ -58,7 +58,7 @@ Informationen zur Vererbung finden Sie in [dieser Seite](../../compositing-graph
 </td>
 <td style="border: 0;" valign="top">
 
-![ Beispiel &quot;Vererbung&quot; ](sample-substance-compositing-graphs.resources/sample-substance-compositing-graphs-03.png " Beispiel &quot;Vererbung&quot; "){zoomable="yes"}
+![&#x200B; Beispiel &quot;Vererbung&quot; &#x200B;](sample-substance-compositing-graphs.resources/sample-substance-compositing-graphs-03.png " Beispiel &quot;Vererbung&quot; "){zoomable="yes"}
 
 </td>
 </tr>
@@ -79,7 +79,7 @@ Dieses Projekt veranschaulicht zwei einfache Anwendungsfälle für den Pixelproz
 </td>
 <td style="border: 0;" valign="top">
 
-![ Beispiel für &quot;Pixelprozessor&quot; ](sample-substance-compositing-graphs.resources/sample-substance-compositing-graphs-04.png " Beispiel für &quot;Pixelprozessor&quot; "){zoomable="yes"}
+![&#x200B; Beispiel für &quot;Pixelprozessor&quot; &#x200B;](sample-substance-compositing-graphs.resources/sample-substance-compositing-graphs-04.png " Beispiel für &quot;Pixelprozessor&quot; "){zoomable="yes"}
 
 </td>
 </tr>

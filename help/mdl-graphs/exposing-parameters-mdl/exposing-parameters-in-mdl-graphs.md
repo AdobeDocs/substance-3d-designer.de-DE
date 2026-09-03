@@ -57,7 +57,7 @@ In einem MDL-Diagramm wird ein Parameter der Graphenebene ausgesetzt - d. h., er
 
 Knoten, die verfügbar gemacht werden können, haben im Kontextmenü die Option <b>Verfügbar machen</b>. In den meisten Fällen sind dies Knoten, die einen Wert oder Daten generieren, z. B. Float-, Color- oder Texturkoordinaten.
 
-![ Option &quot;Expose&quot; im Kontextmenü eines Knotens ](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-07.png "&amp;quot;Expose&amp;quot; Option im Kontextmenü eines Knotens ")
+![&#x200B; Option &quot;Expose&quot; im Kontextmenü eines Knotens &#x200B;](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-07.png "&quot;Expose&quot; Option im Kontextmenü eines Knotens ")
 
 *Option &quot;Verfügbar machen&quot; im Kontextmenü eines Knotens*
 

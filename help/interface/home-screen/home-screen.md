@@ -82,7 +82,7 @@ Auf der linken Seite des Bildschirms finden Sie eine Liste mit Tastaturbefehlen 
 * <b>Paket öffnen:</b> Ermöglicht das Laden eines vorhandenen Pakets;
 * <b>Import AxF:</b> Startet einen [AxF-Importarbeitsablauf](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md).
 
-![Substance 3D Designer-Bildschirm ](home-screen.resources/home-screen-10.jpg "Substance 3D Designer-Bildschirm "){width="256px"}
+![Substance 3D Designer-Bildschirm &#x200B;](home-screen.resources/home-screen-10.jpg "Substance 3D Designer-Bildschirm "){width="256px"}
 
 ## Verknüpfungen
 

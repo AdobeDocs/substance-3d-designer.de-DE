@@ -97,7 +97,7 @@ Mit dieser Einstellung können Sie den zugewiesenen Speicherpool für *alle glei
 
 ### Automatische Sicherungskopie
 
-Standardmäßig ist eine Funktion zum automatischen Speichern enthalten, die Kopien des aktuellen Status von offenen [SBS Paketen ](https://docs.substance3d.com/display/DRAFTDESIGNER/.Overview+vDraftVersion) zu festgelegten Zeitpunkten erstellt. Automatisch gespeicherte Dateien werden in einem Ordner &quot;<b>.autosave</b>&quot; am SBS Speicherort des Pakets abgelegt.
+Standardmäßig ist eine Funktion zum automatischen Speichern enthalten, die Kopien des aktuellen Status von offenen [SBS Paketen &#x200B;](https://docs.substance3d.com/display/DRAFTDESIGNER/.Overview+vDraftVersion) zu festgelegten Zeitpunkten erstellt. Automatisch gespeicherte Dateien werden in einem Ordner &quot;<b>.autosave</b>&quot; am SBS Speicherort des Pakets abgelegt.
 
 |  |  |
 | --- | --- |
@@ -111,7 +111,7 @@ Beachten Sie auch, dass automatische Speichervorgänge geöffnet werden sollten 
 
 |  |  |
 | --- | --- |
-| <b>Speichern Sie die SBS-Datei immer, wenn Sie sie in SBSAR veröffentlichen oder an eine andere Anwendung senden</b>  *Standard: Wahr* | Steuert das automatische Speichern des SBS, wenn [es ](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) veröffentlicht oder an eine andere Anwendung gesendet wird. |
+| <b>Speichern Sie die SBS-Datei immer, wenn Sie sie in SBSAR veröffentlichen oder an eine andere Anwendung senden</b>  *Standard: Wahr* | Steuert das automatische Speichern des SBS, wenn [es &#x200B;](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) veröffentlicht oder an eine andere Anwendung gesendet wird. |
 
 ### Cooker
 

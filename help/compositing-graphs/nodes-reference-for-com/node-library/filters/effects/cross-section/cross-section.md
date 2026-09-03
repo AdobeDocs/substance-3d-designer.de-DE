@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ Knotensymbol &quot;Querschnitt&quot; ](cross-section.resources/cross-section-01.png " Knotensymbol &quot;Querschnitt&quot; "){width="200px"}
+![&#x200B; Knotensymbol &quot;Querschnitt&quot; &#x200B;](cross-section.resources/cross-section-01.png " Knotensymbol &quot;Querschnitt&quot; "){width="200px"}
 
 <b>In:</b> Filters > Effects
 

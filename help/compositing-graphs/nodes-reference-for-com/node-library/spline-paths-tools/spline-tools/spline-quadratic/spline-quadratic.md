@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Spline (quadratisch): Symbol ](spline-quadratic.resources/spline-quadratic-01.png "Spline (Quadratisch): Symbol ")
+![Spline (quadratisch): Symbol &#x200B;](spline-quadratic.resources/spline-quadratic-01.png "Spline (Quadratisch): Symbol ")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 

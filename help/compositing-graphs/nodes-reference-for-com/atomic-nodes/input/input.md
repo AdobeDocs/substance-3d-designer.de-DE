@@ -34,7 +34,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![Atomknoten: Eingabewert ](input.resources/input-03.png "Atomischer Knoten: Eingabewert "){width="200px"}
+![Atomknoten: Eingabewert &#x200B;](input.resources/input-03.png "Atomischer Knoten: Eingabewert "){width="200px"}
 
 </td>
 </tr>
@@ -118,13 +118,13 @@ Wenn Sie das Diagramm mit den Ausgaben eines anderen Diagramms anzeigen möchten
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-Wenn mehrere Eingaben vorhanden sind, müssen Sie darauf achten, wie das Diagramm die Basisparameter](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) von diesen Eingaben [erbt.\
+Wenn mehrere Eingaben vorhanden sind, müssen Sie darauf achten, wie das Diagramm die Basisparameter[&#128279;](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) von diesen Eingaben erbt.\
 Zu den Basisparametern gehören u. a. die <b>Ausgabegröße</b>, das <b>Ausgabeformat</b> und der <b>Anordnungsmodus</b>.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-[![Primäre Eingabe im Substance-Diagramm ](input.resources/input-04.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+[![Primäre Eingabe im Substance-Diagramm &#x200B;](input.resources/input-04.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
 
 </td>
 </tr>

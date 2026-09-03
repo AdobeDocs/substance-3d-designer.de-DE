@@ -134,7 +134,7 @@ In den unten verlinkten Knotenseiten finden Sie Beispiele für die Ausgabebreite
 * [Inhalt] Neue Version des Knotens &quot;Graustufen quantisieren&quot;
 * [Inhalt] Neue Voronoi- und Voronoi-Fraktalrauschen (2D/3D)
 * Schwellenwert [Inhalt]: Vergleichsmodus &quot;Unterer&quot; und &quot;Unterer und gleicher&quot; hinzufügen
-* [Inhalt][3D-Ansicht] Fügen Sie den ausgelieferten Ressourcen eine Gitteranpassung für die Anzeige von Stoffen hinzu.
+* [Inhalt]&#x200B;[3D-Ansicht] Fügen Sie den ausgelieferten Ressourcen eine Gitteranpassung für die Anzeige von Stoffen hinzu.
 * [Substance-Modelle] Neuer Knoten &quot;Gruppeninstanzen erweitern&quot;
 * [Substance-Modelle] Neuer Fuse-Knoten
 * [Substance-Modelle] Neuer Knoten Umbenennen
@@ -176,8 +176,8 @@ In den unten verlinkten Knotenseiten finden Sie Beispiele für die Ausgabebreite
 * Flood Fill [Inhalt]: Anschnittbereich in Schaltflächen für boolesche Parameter
 * [Inhalt] Falscher Bereich für den Parameter &quot;Erster Lichtwinkel&quot; des Knotens &quot;Mehrere Winkel&quot; bis &quot;Normal&quot;
 * [Substance-Modelle] Eigenschaften des Knotens zeigen Bezeichner anstelle der Bezeichnung an
-* [Substance-Modelle][3D-Ansicht] Aktualisierungsproblem beim erneuten Öffnen eines Projekts
-* [Substance-Modelle][3Dview] Aktualisierungsproblem bei Verwendung der Drahtgitter-Vorschau
+* [Substance-Modelle]&#x200B;[3D-Ansicht] Aktualisierungsproblem beim erneuten Öffnen eines Projekts
+* [Substance-Modelle]&#x200B;[3Dview] Aktualisierungsproblem bei Verwendung der Drahtgitter-Vorschau
 * [Parameter] Absturz beim Löschen von Diagrammeingaben in schneller Abfolge in einem bestimmten Fall
 * [Parameter] Absturz beim Zurücksetzen eines Instanzparameters während der Bearbeitung seiner Referenzbeschreibung
 * [Bitmap] UDIM-Erkennung wird nicht für Bitmap-Dateien ausgelöst, die im Diagramm abgelegt wurden

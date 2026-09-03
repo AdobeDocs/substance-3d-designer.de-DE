@@ -83,7 +83,7 @@ Der Name der abgerufenen Variable wird im Eigenschaften-Dock festgelegt.
 > 
 > Mehrere Get-Knoten bieten integrierte Variablen für den Zugriff auf vorhandene Werte entsprechend dem aktuellen Kontext an, z. B.: die aktuelle Pixelposition in einem Pixelprozessor, der aktuelle Kachelmodus eines Knotens, ...
 > 
-> Alle integrierten Variablen sind in [dieser dedizierten Seite ](../../../../function-graphs/variables/system-variables/system-variables.md) aufgeführt.
+> Alle integrierten Variablen sind in [dieser dedizierten Seite &#x200B;](../../../../function-graphs/variables/system-variables/system-variables.md) aufgeführt.
 
 ### Knoten abrufen
 
@@ -115,13 +115,13 @@ Float4 abrufen
 +++
 
 +++Ganzzahlen
-![Ganzzahl abrufen - Symbol ](get-nodes.resources/get-nodes-06.png "Ganzzahl abrufen - Symbol "){width="200px"}
+![Ganzzahl abrufen - Symbol &#x200B;](get-nodes.resources/get-nodes-06.png "Ganzzahl abrufen - Symbol "){width="200px"}
 
 
 
 Integer abrufen
 
-![Ganzzahl abrufen2 - Symbol ](get-nodes.resources/get-nodes-07.png "Ganzzahl abrufen2 - Symbol "){width="200px"}
+![Ganzzahl abrufen2 - Symbol &#x200B;](get-nodes.resources/get-nodes-07.png "Ganzzahl abrufen2 - Symbol "){width="200px"}
 
 
 
@@ -162,7 +162,7 @@ Zeichenfolge abrufen
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Festlegen: Knotensymbol ](get-nodes.resources/get-nodes-12.png "Festlegen: Knotensymbol "){width="200px"}
+![Festlegen: Knotensymbol &#x200B;](get-nodes.resources/get-nodes-12.png "Festlegen: Knotensymbol "){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -179,7 +179,7 @@ Text
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![&quot; ist definiert: Knotensymbol ](get-nodes.resources/get-nodes-13.png "Ist definiert: Knotensymbol "){width="200px"}
+![&quot; ist definiert: Knotensymbol &#x200B;](get-nodes.resources/get-nodes-13.png "Ist definiert: Knotensymbol "){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

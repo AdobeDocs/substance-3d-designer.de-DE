@@ -90,7 +90,7 @@ Beachten Sie, dass die Größe über 8196 *begrenzt* ist. Diese Obergrenze wird 
 
 ## Ändern der Vererbungsmethode
 
-In den meisten Fällen ist die standardmäßige [Vererbung-Methode ](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) für die Eigenschaft &quot;Ausgabegröße&quot; folgende, je nach Element:
+In den meisten Fällen ist die standardmäßige [Vererbung-Methode &#x200B;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) für die Eigenschaft &quot;Ausgabegröße&quot; folgende, je nach Element:
 
 * Graf: *Relativ zum übergeordneten Element*
 * Knoten: *Relativ zur Eingabe*: Die von der [primären Eingabe](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) des Knotens geerbten Werte werden in diesem Fall verwendet.

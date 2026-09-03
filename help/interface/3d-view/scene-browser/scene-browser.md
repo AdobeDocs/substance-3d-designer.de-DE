@@ -22,11 +22,11 @@ ht-degree: 1%
 
 Im Szenen-Browser der 3D-Ansicht sind alle Elemente der Szene und ihre Hierarchie aufgelistet.
 
-Es bietet Steuerelemente zum Auswählen von Objekten, zum Umschalten ihrer Sichtbarkeit sowie zum Auswählen, welches Material [ ein Szene-Material überschreiben soll](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md).
+Es bietet Steuerelemente zum Auswählen von Objekten, zum Umschalten ihrer Sichtbarkeit sowie zum Auswählen, welches Material [&#x200B; ein Szene-Material überschreiben soll](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md).
 
 Da Designer [USD](https://openusd.org/release/index.html) für die Beschreibung und Verwaltung seiner Szenen verwendet, befinden sich die Terminologie und Konzepte in dieser Szenenstruktur.
 
-Sie wird angezeigt, indem Sie auf die dedizierte Umschaltfläche &quot;![](scene-browser.resources/scene-browser-01.png)&quot; in der [3D-Ansichtsszene-Symbolleiste ](../../../interface/3d-view/3d-view.md) klicken.
+Sie wird angezeigt, indem Sie auf die dedizierte Umschaltfläche &quot;![](scene-browser.resources/scene-browser-01.png)&quot; in der [3D-Ansichtsszene-Symbolleiste &#x200B;](../../../interface/3d-view/3d-view.md) klicken.
 
 ![Szenenbrowser - Geladene 3D-Szene](scene-browser.resources/scene-browser-02.png "Szenenbrowser - Geladene 3D-Szene"){zoomable="yes"}
 
@@ -87,7 +87,7 @@ Designer fügt jeder geladenen Szene einige Objekte hinzu. Von Designer hinzugef
 
 Bei Verwendung des Editors ... in den Menüs &quot;Licht&quot;, &quot;Kamera&quot; und &quot;Umgebung&quot;. Dabei handelt es sich um die Objekte, die bearbeitet werden, unabhängig davon, ob andere Lichter, Kameras oder Umgebungen in der Szene vorhanden sind.
 
-Diese Objekte sind in der Szene enthalten, wenn [ ](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) exportiert hat.
+Diese Objekte sind in der Szene enthalten, wenn [&#x200B; &#x200B;](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) exportiert hat.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">

@@ -93,7 +93,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) hat unsere n
 
 Zu den unterstützten GPUs gehören die NVIDIA RTX 20-Serie (Turing) oder höher gemäß den [Systemanforderungen von Designer](../../getting-started/system-requirements/system-requirements.md).
 
-Sie können den OpenGL-Renderer standardmäßig weiterhin verwenden, indem Sie die Option [neu in den Projekteinstellungen ](../../interface/preferences-window/project-settings/project-settings.md) verwenden:
+Sie können den OpenGL-Renderer standardmäßig weiterhin verwenden, indem Sie die Option [neu in den Projekteinstellungen &#x200B;](../../interface/preferences-window/project-settings/project-settings.md) verwenden:
 
 1. Gehen Sie zu Bearbeiten > Voreinstellungen > Projekte .
 2. Die letzte Projektdatei in der Liste auswählen
@@ -231,7 +231,7 @@ Designer wendet keine Standardskala und -abweichung an, es sei denn, sie werden 
 
 Für Szenen, die vor einiger Zeit in USD-Formate exportiert wurden: Exportieren Sie die Szene erneut mit einer aktuellen Version von USD, die die erforderlichen Daten enthält. Achten Sie auf Eigenschaften im Zusammenhang mit der normalen Skalierung und der Voreinstellung, sofern vorhanden, die von der Software abhängen, die zum Exportieren der Szene verwendet wird.
 
-Wenn [ ein Material ](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) überschreibt, verarbeitet Designer den Mesh und berechnet alle fehlenden Daten, die sich auf seine Normalen, Tangenten und Binormalitäten beziehen. Wenn die Standardeinstellungen für Skalierung und Bias von Designer mit denen für das Gitter übereinstimmen, wird das Gitter korrekt angezeigt, wenn es überschrieben wird.
+Wenn [&#x200B; ein Material &#x200B;](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) überschreibt, verarbeitet Designer den Mesh und berechnet alle fehlenden Daten, die sich auf seine Normalen, Tangenten und Binormalitäten beziehen. Wenn die Standardeinstellungen für Skalierung und Bias von Designer mit denen für das Gitter übereinstimmen, wird das Gitter korrekt angezeigt, wenn es überschrieben wird.
 
 ## Absturz beim Starten der 3D-Ansicht
 

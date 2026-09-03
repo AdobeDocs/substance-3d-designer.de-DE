@@ -20,7 +20,7 @@ ht-degree: 4%
 
 # Post-Effekte
 
-![Effekte nach ](post-effects.resources/post-effects-01.png "Effekte nach "){zoomable="yes"}
+![Effekte nach &#x200B;](post-effects.resources/post-effects-01.png "Effekte nach "){zoomable="yes"}
 
 In den Kameraeigenschaften können Sie Nachbearbeitungseffekte aktivieren, um das Rendering zu verbessern, oder bestimmte Materialeigenschaften überprüfen.
 
