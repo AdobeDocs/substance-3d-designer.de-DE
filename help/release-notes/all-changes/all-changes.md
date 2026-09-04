@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/all-changes.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/all-changes.html"
 breadcrumb-title: ''
 description: Prüfe alle Änderungen und Updates in den verschiedenen Versionen von Substance 3D Designer, um die Entwicklung und Verbesserungen der neuen Funktionen verfolgen zu können.
 helpx_creative_field: ""
