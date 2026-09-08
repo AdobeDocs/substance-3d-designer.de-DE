@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-gradient.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-gradient.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Dirt-Verlaufsknoten, um Verlaufsbasierte Dirt-Muster zu generieren, um gerichtete Verwitterungs- und Akkumulationseffekte zu erzeugen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dirt-Verlauf
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 1%
@@ -19,10 +19,6 @@ ht-degree: 1%
 
 
 # Dirt-Verlauf
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
 
 <table>
 <tr style="border: 0;">
@@ -45,21 +41,25 @@ Siehe auch: [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-co
 </tr>
 </table>
 
+<a name="outputs"></a>
+
 ## Ausgaben
 
 |  |  |
-| --- | --- |
-| <b>Ausgabe</b> *Graustufen* | Das erzeugte Rauschen als Graustufen-Bitmap. |
+|:---|:---|
+| <b>Ausgabe</b> <i>Graustufen</i> | Das erzeugte Rauschen als Graustufen-Bitmap. |
+
+<a name="parameters"></a>
 
 ## Parameter
 
 |  |  |
-| --- | --- |
-| <b>Störung</b> Float | Versetzt die Bestandteile des Rauschens.    So kannst du das Rauschen animieren. |
-| <b>Störungsgeschwindigkeit</b> Gleitend | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.    Mit dieser Option können Sie die Geschwindigkeit des Versatzes bei der Animation des Rauschens steuern. |
-| <b>Disorder Anisotropie</b> Float | Steuert die Richtungsspanne des Versatzes, der vom <b>Disorder</b>-Parameter angewendet wird, wobei ein höherer Wert zu einer engeren, definierteren Richtung führt.    Die Anisotropie wird durch den Parameter <b>Disorder Direction Angle</b> gesteuert. |
-| <b>Winkel der Anisotropie der Störung</b> Gleitend | Steuert die Richtung des Versatzes, der vom <b>Disorder</b>-Parameter angewendet wird, wenn der <b>Disorder Anisotropie</b>-Parameter nicht Null ist. |
-| <b>Nicht quadratische Erweiterung</b> Boolescher Wert | Bei nicht quadratischen Bildern bleibt das erzeugte Kachelquadrat erhalten und erweitert die Rauscherzeugung auf die Grenzen des Bildes. |
+|:---|:---|
+| <b>Störung</b> <i>Gleitend</i> | Versetzt die Bestandteile des Rauschens.    So kannst du das Rauschen animieren. |
+| <b>Störungsgeschwindigkeit</b> <i>Gleitend</i> | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.    Mit dieser Option können Sie die Geschwindigkeit des Versatzes bei der Animation des Rauschens steuern. |
+| <b>Anisotropie der Störung</b> <i>Gleitend</i> | Steuert die Richtungsspanne des Versatzes, der vom <b>Disorder</b>-Parameter angewendet wird, wobei ein höherer Wert zu einer engeren, definierteren Richtung führt.    Die Anisotropie wird durch den Parameter <b>Disorder Direction Angle</b> gesteuert. |
+| <b>Disorder anisotropy angle</b> <i>Gleitend</i> | Steuert die Richtung des Versatzes, der vom <b>Disorder</b>-Parameter angewendet wird, wenn der <b>Disorder Anisotropie</b>-Parameter nicht Null ist. |
+| <b>Nicht quadratische Erweiterung</b> <i>Boolescher Wert</i> | Bei nicht quadratischen Bildern bleibt das erzeugte Kachelquadrat erhalten und erweitert die Rauscherzeugung auf die Grenzen des Bildes. |
 
 ## Beispiele
 
@@ -88,20 +88,6 @@ Siehe auch: [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-co
 <td style="border: 0;" valign="top">
 
 ![Dirt-Farbverlauf - Beispiel 4](../../../../../../assets/noise_dirt_gradient_v2_speed0.3_aniso0.6.gif "Dirt-Farbverlauf - Beispiel 4"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
 
 </td>
 </tr>

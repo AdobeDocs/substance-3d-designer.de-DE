@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise-fractal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise-fractal.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten 3D Perlin Noise Fractal , um fraktale Perlin-Rauschmuster im 3D-Raum für die Erstellung detaillierter volumetrischer Texturen zu generieren.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3D-Perlin-Rauschen Fraktal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -22,83 +22,63 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/3dperlinnoisefractal.png){width="200px"}
 
-**In:** *Texturgeneratoren**/Noises*
-
-**Fortgeschrittene**
+<b>In:</b> Textur Generators > Rauschen
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Der Knoten **3D Perlin Noise Fractal** generiert ein *Fraktal* Perlin-Rauschen im 3D-Raum basierend auf der **Positionszuordnung**-Eingabe.
+Der Knoten <b>3D Perlin Noise Fractal</b> generiert ein <i>Fraktal</i> Perlin-Rauschen im 3D-Raum basierend auf der <b>Positionszuordnung</b>-Eingabe.
 
 Dieser Knoten kann mit [Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) als Eingabe anstelle einer tatsächlichen durch Baking erzeugte Map (wie im folgenden Beispielbild) getestet werden.
-
->[!WARNING]
->
-> Dieses Geräusch soll nur mit dem *GPU-Modul verwendet werden* (d. h. **Direct3D** oder **OpenGL**). Wechseln Sie zu **Extras > Modul wechseln...** oder drücken Sie die Taste **F9**, um das gewünschte Modul auszuwählen.
 
 </td>
 </tr>
 </table>
 
+>[!WARNING]
+>
+> Dieses Geräusch soll nur mit dem <i>GPU-Modul verwendet werden</i> (d. h. <b>Direct3D</b> oder <b>OpenGL</b>). Wechseln Sie zu <b>Extras > Modul wechseln...</b> oder drücken Sie die Taste <b>F9</b>, um das gewünschte Modul auszuwählen.
+
+<a name="parameters"></a>
+
 ## Parameter
 
-* **Umkehren** *Boolesche Wert*\
-  Kehrt das Ausgabebild um.
-* **Skalierung** *Fließkommazahl*\
-  Steuert die Skalierung des fraktalen 3D-Perlin-Rauschens.
-* **Größe** *Fließkommazahl3*\
-  Steuert die Größe des fraktalen 3D-Perlin-Rauschens in den Achsen **X**, **Y** und **Z**. Nicht einheitliche Werte führen zu einem *Dehnungs- oder Squashing*-Effekt.
-* **Offset** *Float3*\
-  Wendet einen Offset auf die *Position* des fraktalen 3D-Perlin-Rauschens in den Achsen **X**, **Y** und **Z** an.
-* **Intensität der Verzerrung** *Gleitend*\
-  Steuert die Intensität eines *Verkrümmungseffekts*, der auf das fraktale 3D-Perlin-Rauschen angewendet wird.
-* **Verzerrung-Skalierungsmultiplikator** *Fließkommazahl*\
-  Steuert die Skalierung des *sich verformenden Musters*, das im Verkrümmungseffekt verwendet wird, der durch die **Intensität der Verzerrung** gesteuert wird.
-* **Min Level** *Ganzzahl*\
-  Die minimale *Wiederholungsstufe*, die im fraktalen Muster verwendet wird. Ein größerer Mindest-/Höchstbereich führt zu einem *reicheren Muster* mit Variationen in mehr Frequenzbereichen.
-* **Max. Stufe** *Ganzzahl*\
-  Die maximale *Wiederholungsstufe*, die im fraktalen Muster verwendet wird. Ein größerer Mindest-/Höchstbereich führt zu einem *reicheren Muster* mit Variationen in mehr Frequenzbereichen.
-* **Rauheit** *Fließkommazahl*\
-  Steuert die *Balance* zwischen niedrigen und hohen *Wiederholungsstufen* im fraktalen Muster.\
-  *Hinweis*: Ein Wert von **0** führt zu einer Ausgabe, die *nicht in Zeile* enthält, auf die andere niedrige Werte folgen. Dies wird erwartet.
-* **Lakunarität** *Gleitend*\
-  Steuert, wie das angewendete fraktale Muster &quot;*&quot; Leerzeichen &quot;*&quot; ausfüllt. Ein *höherer* Wert führt zu *weniger Lücken* im Muster und einem *dichteren* Rauschen.
-* **Globale Deckkraft** *Gleitend*\
-  Steuert den *Bereich* der fraktalen 3D-Perlin-Rauschen-Werte *um* den **Grundlinienwert**.
-* **Grundlinie** *Fließkommazahl*\
-  Wendet einen *offset* auf den Basiswert *Luminanz* für die Werteverteilung der 3D-Perlin-Rauschen an.
-* **Kontrast** *Fließkommazahl*\
-  Passt den Kontrast der 3D-Perlin-Rauschen an.
-* **Absolut** *Boolesche Wert*\
-  Verwendet absolute Werte auf der 3D-Perlin-Rauschen. Dadurch wird *die Wertverteilung für die Werte* unter 0,5 *effektiv umgekehrt*.
-* **Kachelung aktivieren** *Boolesche Wert*\
-  Passt die 3D-Perlin-Rauschen so an, dass sich das resultierende Muster *in X-, Y- und Z-Achse wiederholt*.
+|  |  |
+|:---|:---|
+| <b>Umkehren</b> <i>Boolescher Wert</i> | Kehrt das Ausgabebild um. |
+| <b>Skalierung</b> <i>Gleitend</i> | Steuert die Skalierung des fraktalen 3D-Perlin-Rauschens. |
+| <b>Größe</b> <i>Float3</i> | Steuert die Größe des fraktalen 3D-Perlin-Rauschens in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b>. Nicht einheitliche Werte führen zu einem <i>Dehnungs- oder Squashing</i>-Effekt. |
+| <b>Offset</b> <i>Float3</i> | Wendet einen Offset auf die <i>Position</i> des fraktalen 3D-Perlin-Rauschens in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b> an. |
+| <b>Intensität der Verzerrung</b> <i>Gleitend</i> | Steuert die Intensität eines <i>Verkrümmungseffekts</i>, der auf das fraktale 3D-Perlin-Rauschen angewendet wird. |
+| <b>Verzerrungen-Skalierungsmultiplikator</b> <i>Gleitend</i> | Steuert die Skalierung des <i>sich verformenden Musters</i>, das im Verkrümmungseffekt verwendet wird, der durch die <b>Intensität der Verzerrung</b> gesteuert wird. |
+| <b>Min. Stufe</b> <i>Integer</i> | Die minimale <i>Wiederholungsstufe</i>, die im fraktalen Muster verwendet wird. Ein größerer Mindest-/Höchstbereich führt zu einem <i>reicheren Muster</i> mit Variationen in mehr Frequenzbereichen. |
+| <b>Max. Stufe</b> <i>Integer</i> | Die maximale <i>Wiederholungsstufe </i>, die im fraktalen Muster verwendet wird. Ein größerer Mindest-/Höchstbereich führt zu einem <i>reicheren Muster</i> mit Variationen in mehr Frequenzbereichen. |
+| <b>Raueit</b> <i>Gleitend</i> | Steuert die <i>Balance</i> zwischen niedrigen und hohen <i>Wiederholungsstufen</i> im fraktalen Muster.<br><br><i>Hinweis</i>: Ein Wert von <b>0</b> führt zu einer Ausgabe, die <i> nicht in Zeile </i> enthält, auf die andere niedrige Werte folgen. Dies wird erwartet. |
+| <b>Lakunarität</b> <i>Gleitend</i> | Steuert, wie das angewendete fraktale Muster &quot;<i>&quot; Leerzeichen &quot;</i>&quot; ausfüllt. Ein <i>höherer</i> Wert führt zu <i>weniger Lücken</i> im Muster und einem <i>dichteren</i> Rauschen. |
+| <b>Globale Deckkraft</b> <i>Gleitend</i> | Steuert den <i>Bereich</i> der fraktalen 3D-Perlin-Rauschen-Werte <i> um </i> den <b>Grundlinienwert</b>. |
+| <b>Grundlinie</b> <i>Gleitend</i> | Wendet einen <i>offset</i> auf den Basiswert <i>Luminanz</i> für die Werteverteilung der 3D-Perlin-Rauschen an. |
+| <b>Kontrast</b> <i>Gleitend</i> | Passt den Kontrast der 3D-Perlin-Rauschen an. |
+| <b>Absolut</b> <i>Boolescher Wert</i> | Verwendet absolute Werte auf der 3D-Perlin-Rauschen. Dadurch wird <i>die Wertverteilung für die Werte <i> unter 0,5</i> effektiv umgekehrt</i>. |
+| <b>Kachelung aktivieren</b> <i>Boolescher Wert</i> | Passt die 3D-Perlin-Rauschen so an, dass sich das resultierende Muster <i>in X-, Y- und Z-Achse wiederholt</i>. |
 
-## Beispielbilder
+## Beispiele
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dfractal.gif){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dperlinnoisefractal-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dperlinnoisefractal-variant2.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/3dfractal.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/3dperlinnoisefractal-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/3dperlinnoisefractal-variant2.jpg" />
+        </td>
+    </tr>
 </table>
