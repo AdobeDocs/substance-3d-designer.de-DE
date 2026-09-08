@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/scratches-generator.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/scratches-generator.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Scratches-Generator, um prozedurale Kratzmuster zum Hinzufügen von Verschleiß und Beschädigung von Materialien zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Scratches Generator
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](scratches-generator.resources/scratches-generator-01.png)
+![](../../../../../../assets/scratches-generator.png)
 
 <b>In:</b> Texturgeneratoren > Muster
 
@@ -66,17 +66,17 @@ Es gibt eine Sonderversion von Scratches Generator, Scratches Generator Normal, 
 | <b>Normales Format (nur normale Version)</b> <i>DirectX, OpenGL</i> | Wechselt zwischen verschiedenen Normalmap-Formaten (invertiert den grünen Kanal). |
 | <b>Verblassen-Modus</b> <i>Keine, Start, Ende, Start + Ende</i> | Legt fest, ob und in welcher Richtung die Splines Verblassen. |
 | <b>Verblassen Länge</b> <i>0.0 - 1.0</i> | Legt die Länge des Verblassen-Effekts fest, sofern oben aktiviert. |
-| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
 
 ## Beispiele
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="scratches-generator.resources/scratches-generator-02.png" />
+            <img src="../../../../../../assets/scratches-ex1.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="scratches-generator.resources/scratches-generator-03.png" />
+            <img src="../../../../../../assets/scratches-ex2.png" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-linear-gradient.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-linear-gradient.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten 3D Linear gradient, um lineare Farbverläufe zu erstellen, die auf der 3D-Weltposition für räumliche Effekte basieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D Linear gradient
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-linear-gradient.resources/3d-linear-gradient-01.png){width="128px"}
+![](../../../../../../assets/3d-linear-gradient.png){width="128px"}
 
 <b>In:</b> Texturgeneratoren > Muster
 
@@ -57,7 +57,7 @@ Siehe auch [3D-Volumenmaske](../../../../../../compositing-graphs/nodes-referenc
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-linear-gradient.resources/3d-linear-gradient-02.gif" />
+            <img src="../../../../../../assets/3d-gradient.gif" />
         </td>
     </tr>
 </table>

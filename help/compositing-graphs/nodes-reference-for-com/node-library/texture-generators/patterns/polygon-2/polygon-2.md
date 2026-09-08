@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/polygon-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/polygon-2.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Polygon 2, um erweiterte polygonale Muster mit anpassbaren Seiten und Eigenschaften zu generieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Polygon 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 11%
@@ -24,9 +24,9 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](polygon-2.resources/polygon-2-01.png){width="128px"}
+![](../../../../../../assets/polygon-2-1.png){width="128px"}
 
-<b>In:</b> Texturgeneratoren > Muster
+<b>In:</b> Texturen > Muster generieren
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -52,14 +52,14 @@ Erzeugt ein Polygon mit glattem Verlauf und Anpassungsoptionen. Eine erweiterte 
 | <b>Verlauf</b> <i>0.0 - 1.0</i> | Passt den Verlaufskontrast an. |
 | <b>Verlauf umkehren</b> <i>False/True</i> | Kehrt die Verlaufsrichtung um. |
 | <b>Automatische Skalierung</b> <i>False/True</i> | Skaliert so, dass es in die Arbeitsfläche mit Standardeinstellungen passt. |
-| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
 
 ## Beispiele
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="polygon-2.resources/polygon-2-02.gif" />
+            <img src="../../../../../../assets/polygon-2-ex.gif" />
         </td>
     </tr>
 </table>

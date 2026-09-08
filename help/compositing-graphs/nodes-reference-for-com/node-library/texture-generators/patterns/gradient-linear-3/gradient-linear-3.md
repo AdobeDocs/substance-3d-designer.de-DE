@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-3.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Linearer Verlauf 3", um erweiterte lineare Verläufe mit erweiterten Steuerelementen für glatte Farbübergänge zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Verlauf Linear 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 6%
@@ -24,9 +24,9 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](gradient-linear-3.resources/gradient-linear-3-01.png)
+![](../../../../../../assets/gradient3.png)
 
-<b>In:</b> Texturgeneratoren > Muster
+<b>In:</b> Texturen > Muster generieren
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,7 +45,7 @@ Der fortschrittlichste lineare Farbverlauf. Anstelle des abgerundeten, rohrartig
 
 |  |  |
 |:---|:---|
-| <b>Kacheln</b> <i>1 - 16</i> | Legt fest, wie oft das Ergebnis gekachelt werden soll. |
+| <b>Kachelung</b> <i>1 - 16</i> | Legt fest, wie oft das Ergebnis gekachelt werden soll. |
 | <b>Position</b> <i>0.0 - 1.0</i> | Legt fest, wo der Mittelpunkt oder der Höhepunkt des Verlaufs liegt. |
 | <b>Drehung</b> <i>0, 90°</i> | Ändert die Richtung von links nach rechts oben und von unten nach unten bzw. umgekehrt. |
 
@@ -54,7 +54,7 @@ Der fortschrittlichste lineare Farbverlauf. Anstelle des abgerundeten, rohrartig
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="gradient-linear-3.resources/gradient-linear-3-02.gif" />
+            <img src="../../../../../../assets/gradient3-ex.gif" />
         </td>
     </tr>
 </table>
