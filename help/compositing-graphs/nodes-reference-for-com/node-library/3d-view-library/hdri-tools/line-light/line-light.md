@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/line-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/line-light.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Linienlicht , um lineare Lichtquellen in HDRI-Umgebungen für die Simulation von Fluoreszenz- und Streifenlicht zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Linienbeleuchtung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](line-light.resources/line-light-01.png){width="200px"}
+![](../../../../../../assets/panorama-line-light.png){width="200px"}
 
 <b>In:</b> 3D-Ansicht > HDRI-Werkzeugs
 
@@ -57,15 +57,15 @@ Die Positionierungsmodi für diesen Knoten sind etwas komplexer als andere HDRI-
 
 |  |  |
 |:---|:---|
-| <b>Positionsmodus</b> <i>Boden/Decke, Abstand zum Ursprung, Weltpositionen</i> | Sie können aus drei verschiedenen Platzierungsmodi auswählen. Boden/Decke und Abstand zum Ursprung unterstützen die Manipulation in der 2D-Ansicht, Weltpositionen können nur über Eigenschaften verändert werden, aber es wird eine genauere Platzierung unterstützt. |
-| <b>Boden-Raster anzeigen</b> <i>False/True</i> | Helfer-Funktion, um das Zeichnen eines Debug-Boden-Rasters zu ermöglichen. Hilft bei der Schätzung der Position von Linien im Raum. |
+| <b>Positionsmodus</b> <i>Boden/Decke, Abstand zum Ursprung, Weltpositionen</i> | Sie können aus drei verschiedenen Platzierungsmodi auswählen. Boden/Decke und Abstand zum Ursprung unterstützen die Bearbeitung in der 2D-Ansicht, Weltpositionen können nur über Eigenschaften geändert werden, aber es wird eine exaktere Platzierung unterstützt. |
+| <b>Boden-Raster anzeigen</b> <i>False/True</i> | Hilfsfunktion, um das Zeichnen eines Debug-Bodenrasters zu ermöglichen. Hilft bei der Schätzung der Position von Linien im Raum. |
 | <b>Positionskoordinaten</b> |  |
 | <b>Vektor nach oben</b> <i>Z nach oben, J nach oben</i> | Nur mit dem Modus &quot;Weltposition&quot; bestimmen Sie die Ausrichtung des Koordinatensystems. |
 | <b>Punkt 1 UV-Position</b> | Nur mit Boden / Decke und Abstand zum Ursprung. Legt die erste Punktposition im UV-Raum fest. |
 | <b>Point 2 UV-Position</b> | Nur mit Boden / Decke und Abstand zum Ursprung. Legt die zweite Punktposition im UV-Raum fest. |
-| <b>Weltrangliste für Punkt 1</b> <i>-2.0 - 2.0</i> | Nur im Modus &quot;Weltpositionen&quot;. Legt den ersten Punkt im Welt-Raum fest. Keine 2D-Ansichtsinteraktion unterstützt. |
-| <b>Weltrangliste für Punkt 2</b> <i>-2.0 - 2.0</i> | Nur im Modus &quot;Weltpositionen&quot;. Legt den zweiten Punkt im Welt-Raum fest. Keine 2D-Ansichtsinteraktion unterstützt. |
-| <b>Absolutes Height der Zeile</b> <i>0.0 - 1.0</i> | Nur bei der Positionsart &quot;Boden/Decke&quot; wird das absolute Height von der Decke eingestellt. Verwenden Sie &quot;Bodenraster anzeigen&quot;, um die Position besser zu schätzen. |
+| <b>Weltrangliste für Punkt 1</b> <i>-2.0 - 2.0</i> | Nur im Modus &quot;Weltpositionen&quot;. Legt den ersten Punkt im Welt-Raum fest. Keine 2D-Ansicht-Interaktion unterstützt. |
+| <b>Weltrangliste für Punkt 2</b> <i>-2.0 - 2.0</i> | Nur im Modus &quot;Weltpositionen&quot;. Legt den zweiten Punkt im Welt-Raum fest. Keine 2D-Ansicht-Interaktion unterstützt. |
+| <b>Absolutes Height der Zeile</b> <i>0.0 - 1.0</i> | Nur mit Boden / Deckenpositionsmodus, setzt absolutes Height von der Decke. Verwenden Sie Boden-Raster anzeigen , um die Position besser zu schätzen. |
 | <b>Abstand zum Ursprung</b> <i>0.0 - 1.0</i> | Nur mit Abstand zum Ursprung-Positionsmodus. Legt für beide Punkte den Abstand vom Mittelpunkt des Panoramas fest. |
 | <b>Formfarbmodus</b> <i>RGB, Temperatur (Kelvin), Bildeingabe</i> | Wählen Sie die Methode aus, die zum Festlegen der Formfarbe verwendet werden soll. Image Input ermöglicht die Verwendung des zweiten Eingangssteckplatzes. |
 | <b>Farbe</b> <i>(Farbwert)</i> | Nur bei RGB als Formfarbmodus. Wählt Farbe für die Form. |
@@ -91,7 +91,7 @@ Die Positionierungsmodi für diesen Knoten sind etwas komplexer als andere HDRI-
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="line-light.resources/line-light-02.gif" />
+            <img src="../../../../../../assets/line-light-ex.gif" />
         </td>
     </tr>
 </table>

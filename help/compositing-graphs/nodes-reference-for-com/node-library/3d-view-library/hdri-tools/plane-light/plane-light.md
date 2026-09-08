@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/plane-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/plane-light.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Flachlicht", um HDRI-Umgebungen planare Lichtquellen für eine gerichtete Lichtsteuerung hinzuzufügen.
+description: Verwenden Sie den Knoten Planares Licht , um HDRI-Umgebungen planare Lichtquellen für die Steuerung der gerichteten Beleuchtung hinzuzufügen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Plane Light
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flächenlicht
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](plane-light.resources/plane-light-01.png){width="200px"}
+![](../../../../../../assets/panorama-plane-light.png){width="200px"}
 
 <b>In:</b> 3D-Ansicht > HDRI-Werkzeugs
 
@@ -35,7 +35,7 @@ ht-degree: 4%
 
 Erzeugt eine sphärisch projizierte Ebenenform. Die Ebene kann mithilfe der Eingabeparameter in 3D platziert und ausgerichtet werden.
 
-Es unterscheidet sich von dem einfacheren [Formenlicht](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/shape-light/shape-light.md) dadurch, dass es über erweiterte Platzierungsoptionen außerhalb der Projektion für einfachere Abstand zum Ursprung verfügt und mehr Muster und Masken angewendet werden können, ähnlich wie [Linienlicht](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/line-light/line-light.md).
+Es unterscheidet sich von dem einfacheren [Formenlicht](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/shape-light/shape-light.md) dadurch, dass es über erweiterte Platzierungsoptionen außerhalb der einfacheren Musterprojektion verfügt und mehr Abstand zum Ursprung und Masken angewendet werden können, ähnlich wie [Linienlicht](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/line-light/line-light.md).
 
 </td>
 </tr>
@@ -58,11 +58,11 @@ Es unterscheidet sich von dem einfacheren [Formenlicht](../../../../../../compos
 |  |  |
 |:---|:---|
 | <b>Positionsmodus</b> <i>Boden/Decke, Abstand zum Ursprung, Weltpositionen</i> | Sie können aus drei verschiedenen Platzierungsmodi auswählen. Boden/Decke und Abstand zum Ursprung unterstützen die Bearbeitung in der 2D-Ansicht, Weltpositionen können nur über Eigenschaften geändert werden, aber es wird eine exaktere Platzierung unterstützt. |
-| <b>Boden-Raster anzeigen</b> <i>False/True</i> | Helfer-Funktion, um das Zeichnen eines Debug-Boden-Rasters zu ermöglichen. Hilft bei der Schätzung der Position von Linien im Raum. |
+| <b>Boden-Raster anzeigen</b> <i>False/True</i> | Hilfsfunktion, um das Zeichnen eines Debug-Bodenrasters zu ermöglichen. Hilft bei der Schätzung der Position von Linien im Raum. |
 | <b>Positionskoordinaten</b> |  |
 | <b>Vektor nach oben</b> <i>Z nach oben, J nach oben</i> | Nur mit dem Modus &quot;Weltposition&quot; bestimmen Sie die Ausrichtung des Koordinatensystems. |
 | <b>Ebene UV Position</b> | Nur mit Boden / Decke und Abstand zum Ursprung. Legt die Ebenenposition im UV-Raum fest. |
-| <b>Weltposition der Ebene</b> <i>-2.0 - 2.0</i> | Nur im Modus &quot;Weltpositionen&quot;. Legt den Weltraum für die Ebenenposition fest. Keine 2D-Ansicht-Interaktion unterstützt. |
+| <b>Weltposition der Ebene</b> <i>-2.0 - 2.0</i> | Nur im Modus &quot;Weltpositionen&quot;. Legt den Weltraum für die Ebenenposition fest. Keine 2D-Ansichtsinteraktion unterstützt. |
 | <b>Absolutes Height der Ebene</b> <i>0.0 - 1.0</i> | Nur bei der Positionsart &quot;Boden/Decke&quot; wird das absolute Height von der Decke eingestellt. Verwenden Sie &quot;Bodenraster anzeigen&quot;, um die Position besser zu schätzen. |
 | <b>Abstand zum Ursprung</b> <i>0.0 - 1.0</i> | Nur mit Abstand zum Ursprung-Positionsmodus. Legt für beide Punkte den Abstand vom Mittelpunkt des Panoramas fest. |
 | <b>Formfarbmodus</b> <i>RGB, Temperatur (Kelvin), Bildeingabe</i> | Wählen Sie die Methode aus, die zum Festlegen der Formfarbe verwendet werden soll. Image Input ermöglicht die Verwendung des zweiten Eingangssteckplatzes. |
@@ -89,7 +89,7 @@ Es unterscheidet sich von dem einfacheren [Formenlicht](../../../../../../compos
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="plane-light.resources/plane-light-02.gif" />
+            <img src="../../../../../../assets/plane-light-ex.gif" />
         </td>
     </tr>
 </table>

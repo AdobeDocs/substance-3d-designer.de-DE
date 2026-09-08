@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-rotation.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-rotation.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Panoramadrehung", um HDRI-Panoramaumgebungen zu drehen, um die Beleuchtungsrichtung in der 3D-Ansicht anzupassen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Panorama-Drehung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 14%
@@ -24,7 +24,7 @@ ht-degree: 14%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](panorama-rotation.resources/panorama-rotation-01.png){width="200px"}
+![](../../../../../../assets/panorama-rotation.png){width="200px"}
 
 <b>In:</b> 3D-Ansicht > HDRI-Werkzeugs
 
@@ -33,7 +33,7 @@ ht-degree: 14%
 
 ## Beschreibung
 
-Dreht ein Panoramabild mit kugelförmiger Zuordnung um seinen Mittelpunkt, wobei die Projektion/Zuordnung korrekt bleibt. Nützlich zum Neigen oder Anpassen von HDR-Bildern.
+Dreht ein Panoramabild mit kugelförmiger Zuordnung um seinen Mittelpunkt, wobei die richtige Projektion/Zuordnung beibehalten wird. Nützlich zum Neigen oder Anpassen von HDR-Bildern.
 
 </td>
 </tr>

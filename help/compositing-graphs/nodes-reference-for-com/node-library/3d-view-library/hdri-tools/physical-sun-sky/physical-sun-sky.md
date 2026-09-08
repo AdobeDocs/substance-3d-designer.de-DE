@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/physical-sun-sky.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/physical-sun-sky.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Physical SunSky, um physikalisch genaue Sonne- und Himmelslichtumgebungen für eine realistische Materialvorschau zu generieren.
+description: Verwenden Sie den Knoten Physical SunSky, um physikalisch akkurate Sonnen- und Himmelslichtumgebungen für eine realistische Vorschau des Materials zu generieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Physical SunSky
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Physische SunSky
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](physical-sun-sky.resources/physical-sun-sky-01.png){width="200px"}
+![](../../../../../../assets/panorama-physical-sun-sky.png){width="200px"}
 
 <b>In:</b> 3D-Ansicht > HDRI-Werkzeugs
 
@@ -48,7 +48,7 @@ Implementierung von physischer Sonne und Himmel auf Basis des Hosek-Wikie-Skylig
 | <b>Sun-Position</b> | Bereich = [0,1]x[0,1] (Längengrad-Breitenwinkel) |
 | <b>Trübung</b> <i>1.0 - 10.0</i> | Die Trübung reicht von 1 bis 10 |
 | <b>Albedo</b> <i>0.0 - 1.0</i> | Die Albedo reicht von 0 bis 1. |
-| <b>Farbe des Bodens</b> <i>(Farbwert)</i> | Farbe der Grundebene. |
+| <b>Farbe des Bodens</b> <i>(Farbwert)</i> | Farbe des Bodens. |
 | <b>Belichtung (EV)</b> <i>-1.0 - 4.0</i> | Belichtungswert der resultierenden Ausgabe. |
 | <b>Sun-Größe</b> <i>0.0 - 4.0</i> | Skalierung der Sonne, jeder Wert, der sich von 1 unterscheidet, ist physikalisch nicht korrekt. Wert hat subtile Effekte! |
 | <b>Sonnenintensität</b> <i>0.0 - 1.0</i> | Intensität der Sonnenscheibe. Die Sun-Festplatte ist relativ klein, sodass der Effekt nicht sofort sichtbar ist. |
@@ -59,7 +59,7 @@ Implementierung von physischer Sonne und Himmel auf Basis des Hosek-Wikie-Skylig
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="physical-sun-sky.resources/physical-sun-sky-02.gif" />
+            <img src="../../../../../../assets/sky-ex.gif" />
         </td>
     </tr>
 </table>
