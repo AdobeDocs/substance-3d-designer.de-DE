@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/exposure-preview.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/exposure-preview.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Belichtungsvorschau", um eine Vorschau der Belichtungskorrekturen in HDRI-Umgebungen vor dem endgültigen Rendern anzuzeigen.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-3d-position.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-3d-position.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten 3D-Position des Panoramas, um HDR-Panoramen im 3D-Raum zu positionieren und so benutzerdefinierte Lichtumgebungen zu erstellen.
 helpx_creative_field: ""
