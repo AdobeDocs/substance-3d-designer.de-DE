@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-height.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-height.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Spline-Beispiel-Height , um Spline-Height-Werte entlang von Splines für prozedurale Versatz-Effekte aufzunehmen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline-Beispiel-Height
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](spline-sample-height.resources/spline-sample-height-01.png "Knotensymbol")
+![Knotensymbol](../../../../../../assets/spline-sample-height-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -88,11 +88,11 @@ Der Effekt der zugeordneten Height-Map kann angepasst werden, indem die Füllmet
 <table>
   <tr>
     <td>
-      <img src="spline-sample-height.resources/spline-sample-height-02.jpg" alt="SplineSampleHeight-Variant1-Before">
+      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="spline-sample-height.resources/spline-sample-height-03.jpg" alt="SplineSampleHeight-Variant1-After">
+      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After.jpg" alt="SplineSampleHeight-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -104,11 +104,11 @@ Der Effekt der zugeordneten Height-Map kann angepasst werden, indem die Füllmet
 <table>
   <tr>
     <td>
-      <img src="spline-sample-height.resources/spline-sample-height-02.jpg" alt="SplineSampleHeight-Variant1-Before">
+      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="spline-sample-height.resources/spline-sample-height-04.jpg" alt="SplineSampleHeight-Variant1-After3">
+      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After3.jpg" alt="SplineSampleHeight-Variant1-After3">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -122,12 +122,12 @@ Der Effekt der zugeordneten Height-Map kann angepasst werden, indem die Füllmet
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](spline-sample-height.resources/spline-sample-height-05.jpg "Knotenbeispiel 1")
+![Knotenbeispiel 1](../../../../../../assets/SplineSampleHeight-Variant1-After4.jpg "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](spline-sample-height.resources/spline-sample-height-06.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](../../../../../../assets/SplineSampleHeight-Demo.gif "Knotenbeispiel 2")
 
 </td>
 </tr>

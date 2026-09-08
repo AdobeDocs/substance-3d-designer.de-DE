@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Spline Poly Quadratic-Knoten, um komplexe quadratische Splines mit mehreren Kontrollpunkten zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline (Poly Quadratic)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](spline-poly-quadratic.resources/spline-poly-quadratic-01.png "Knotensymbol")
+![Knotensymbol](../../../../../../assets/spline-poly-quadratic-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -115,11 +115,11 @@ Die Bahn der Spline kann von ihren Zwischenpunkten weg geglättet werden, indem 
 <table>
   <tr>
     <td>
-      <img src="spline-poly-quadratic.resources/spline-poly-quadratic-02.jpg" alt="SplinePolyQuadratic-Variant1-Before">
+      <img src="../../../../../../assets/SplinePolyQuadratic-Variant1-Before.jpg" alt="SplinePolyQuadratic-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="spline-poly-quadratic.resources/spline-poly-quadratic-03.jpg" alt="SplinePolyQuadratic-Variant1-After">
+      <img src="../../../../../../assets/SplinePolyQuadratic-Variant1-After.jpg" alt="SplinePolyQuadratic-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -128,7 +128,7 @@ Die Bahn der Spline kann von ihren Zwischenpunkten weg geglättet werden, indem 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](spline-poly-quadratic.resources/spline-poly-quadratic-04.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](../../../../../../assets/SplinePolyQuadratic-Demo.gif "Knotenbeispiel 2")
 
 </td>
 </tr>

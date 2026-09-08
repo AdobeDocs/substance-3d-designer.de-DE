@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-list.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Spline Bridge-Liste , um Texturen zwischen mehreren Splines in einer Liste für komplexe Muster zu überbrücken.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline Bridge (Liste)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](spline-bridge-list.resources/spline-bridge-list-01.png "Knotensymbol")
+![Knotensymbol](../../../../../../assets/spline-bridge-list-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -56,7 +56,7 @@ Die generierten Splines können linear (gerade) oder quadratisch (gekrümmt) sei
 | <b>Vorschau</b> <i>Graustufen</i> | Die Vorschau der Eingabe-Splines als Graustufenbild. |
 | <b>Spline-Kabel</b> <i>Farbe</i> | Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Eingabesplines:<br><b>R</b> - X position<br><b>G</b> - Y position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>- Sign: Spline ist geschlossen (negativ) oder offen (positiv);<br>- Absolute Wert: Thickness + 1. |
 | <b>Spline-Daten</b> <i>Farbe</i> | Zusätzliche Daten der Eingabe-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.<br><b>R</b> - Tangenten X<br><b>G</b> - Tangenten Y<br><b>B</b> - Nicht verwendet<br><b>A</b> - Nicht verwendet |
-| <b>Spline-Betrag</b> <i>Integer</i> | Die Anzahl der Eingabe-Splines. |
+| <b>Spline-Betrag</b> <i>Ganzzahl</i> | Die Anzahl der Eingabe-Splines. |
 
 <a name="outputs"></a>
 
@@ -80,12 +80,12 @@ Die generierten Splines können linear (gerade) oder quadratisch (gekrümmt) sei
 | <b>Eingabe-Splines sind geschlossen</b> <i>Boolescher Wert</i> | Steuert, ob der erste und der letzte Punkt der Eingabe-Splines als ein einzelner Punkt verarbeitet werden sollen. Dadurch wird verhindert, dass der erste und der letzte Spline-Verlauf dupliziert werden. |
 | <b>Richtung spiegeln</b> <i>Boolescher Wert</i> | Kehrt die Richtung des Spline um. |
 | <b>Bridge-Spline schließen</b> <i>Boolescher Wert</i> | Erweitert die durchlaufenden Splines, um zum ersten Spline in der Eingabeliste zurückzukehren. |
-| <b>Spline-Versatz der ersten Brücke</b> <i>Fließkommazahl2</i> | Wendet einen Versatz auf den Anfang aller durchlaufenen Splines an. Der Wert ist die normalisierte Länge der Eingabe-Splines.<br>Generierte Splines, die den Anfangs- oder Endpunkt der durchlaufenen Splines erfüllen, werden dort belassen. |
+| <b>Spline-Versatz der ersten Brücke</b> <i>Float2</i> | Wendet einen Versatz auf den Anfang aller durchlaufenen Splines an. Der Wert ist die normalisierte Länge der Eingabe-Splines.<br>Generierte Splines, die den Anfangs- oder Endpunkt der durchlaufenen Splines erfüllen, werden dort belassen. |
 | <b>Letzter Spline-Versatz für Bridge</b> <i>Float2</i> | Wendet einen Versatz auf das Ende aller durchlaufenen Splines an. Der Wert ist die normalisierte Länge der Eingabe-Splines.<br>Generierte Splines, die den Anfangs- oder Endpunkt der durchlaufenen Splines erfüllen, werden dort belassen. |
-| <b>Bereich für zufällige Verschiebung</b> <i>Ganzzahl</i> | Der maximale Abstand, der für den zufälligen Versatz verwendet wird, der auf Splines angewendet wird.<br><br>- <i>Übergeordneter Spline:</i> Die gesamte Länge der übergeordneten Splines wird verwendet. Kann Überschneidungen verursachen.<br>- <i>Intervall:</i> Das Intervall zwischen den Brückenzwickeln wird verwendet. Dadurch werden Überschneidungen vermieden. Dieser Abstand nimmt mit zunehmender Anzahl der Brückenverzahnungen ab. |
+| <b>Bereich für zufällige Verschiebung</b> <i>Integer</i> | Der maximale Abstand, der für den zufälligen Versatz verwendet wird, der auf Splines angewendet wird.<br><br>- <i>Übergeordneter Spline:</i> Die gesamte Länge der übergeordneten Splines wird verwendet. Kann Überschneidungen verursachen.<br>- <i>Intervall:</i> Das Intervall zwischen den Brückenzwickeln wird verwendet. Dadurch werden Überschneidungen vermieden. Dieser Abstand nimmt mit zunehmender Anzahl der Brückenverzahnungen ab. |
 | <b>Zufallsversatz starten</b> <i>Gleitend</i> | Ein Multiplikator für den zufälligen Versatz, der auf die Startposition von Brückenzahnkeilen angewendet wird, wobei der maximale Abstand durch den Parameter <b>Bereich für zufällige Versätze</b> angegeben wird. |
 | <b>Zufallsverschiebung beenden</b> <i>Gleitend</i> | Ein Multiplikator für den zufälligen Versatz, der auf die Endposition von Brückenzahnkeilen angewendet wird, wobei der maximale Abstand durch den Parameter <b>Zufälliger Versatzbereich</b> angegeben wird. |
-| <b>Globaler zufälliger Versatz</b> <i>Fließkommazahl</i> | Ein Multiplikator für den *gleichen Betrag* des zufälligen Versatzes, der auf die *beiden* Anfangs- und Endposition von Brückenzahnkeilen angewendet wird, wobei der maximale Abstand durch den <b>Parameter für den Bereich des zufälligen Versatzes</b> angegeben wird. |
+| <b>Globaler zufälliger Versatz</b> <i>Gleitend</i> | Ein Multiplikator für den *gleichen Betrag* des zufälligen Versatzes, der auf die *beiden* Anfangs- und Endposition von Brückenzahnkeilen angewendet wird, wobei der maximale Abstand durch den <b>Parameter für den Bereich des zufälligen Versatzes</b> angegeben wird. |
 | <b>Einheitliche Verteilung</b> <i>Boolescher Wert</i> | Wenn dieser Wert auf &quot;true&quot; gesetzt ist, werden die Punkte der generierten Splines in gleichmäßigen Abständen von Anfang bis Ende angeordnet. |
 | <b>Thickness</b> |  |
 | <b>Thickness-Modus</b> <i>Integer</i> | Die Methode zum Erfassen des Thickness-Werts für die Bridge-Splines.<br><br>- <i>Von übergeordneten Splines erben:</i> Die Thickness der übergeordneten Splines an den Start- und Endpositionen der Bridge-Splines wird verwendet<br>- <i>Überschreiben:</i> Der beliebige Wert, den Sie im Parameter <b>Thickness</b> angeben, wird verwendet |
@@ -113,11 +113,11 @@ Die generierten Splines können linear (gerade) oder quadratisch (gekrümmt) sei
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-list.resources/spline-bridge-list-02.jpg" alt="SplineBridge-List_Variant1_Before">
+      <img src="../../../../../../assets/SplineBridge-List_Variant1_Before.jpg" alt="SplineBridge-List_Variant1_Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="spline-bridge-list.resources/spline-bridge-list-03.jpg" alt="SplineBridge-List_Variant1_After">
+      <img src="../../../../../../assets/SplineBridge-List_Variant1_After.jpg" alt="SplineBridge-List_Variant1_After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -126,10 +126,10 @@ Die generierten Splines können linear (gerade) oder quadratisch (gekrümmt) sei
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](spline-bridge-list.resources/spline-bridge-list-04.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](../../../../../../assets/SplineBridge-List_Demo.gif "Knotenbeispiel 2")
 
 </td>
 </tr>
 </table>
 
-![Knoten im Diagramm](spline-bridge-list.resources/spline-bridge-list-05.jpg "Knoten im Diagramm")
+![Knoten im Diagramm](../../../../../../assets/SplineBridge-List_Graph.jpg "Knoten im Diagramm")

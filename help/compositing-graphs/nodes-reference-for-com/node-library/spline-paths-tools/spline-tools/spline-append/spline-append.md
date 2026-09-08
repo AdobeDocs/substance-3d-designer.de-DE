@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-append.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-append.html"
 breadcrumb-title: ''
 description: Mit dem Spline-Append-Knoten können Sie mehrere Splines anfügen, um längere kontinuierliche Pfade zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline Append
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](spline-append.resources/spline-append-01.png "Knotensymbol")
+![Knotensymbol](../../../../../../assets/spline-append-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -91,15 +91,15 @@ Die Reihenfolge der Listen bleibt erhalten, d. h. das Anhängen einer Liste D-E-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](spline-append.resources/spline-append-02.jpg "Knotenbeispiel 1")
+![Knotenbeispiel 1](../../../../../../assets/SplineAppend-Demo.jpg "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](spline-append.resources/spline-append-03.jpg "Knotenbeispiel 2")
+![Knotenbeispiel 2](../../../../../../assets/SplineAppend-Graph.jpg "Knotenbeispiel 2")
 
 </td>
 </tr>
 </table>
 
-![Knotendemo](spline-append.resources/spline-append-04.gif "Knotendemo")
+![Knotendemo](../../../../../../assets/SplineAppend-Demo2.gif "Knotendemo")

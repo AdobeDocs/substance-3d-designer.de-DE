@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Spline Mapper Grayscale, um Graustufen-Texturen entlang von Spline-Pfaden mit anpassbaren Parametern zuzuordnen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline Mapper Graustufen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](spline-mapper-grayscale.resources/spline-mapper-grayscale-01.png "Knotensymbol")
+![Knotensymbol](../../../../../../assets/spline-mapper-grayscale-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -59,9 +59,9 @@ Der Knoten gibt das zugeordnete Bild als Graustufenbild sowie weitere Informatio
 |:---|:---|
 | <b>Spline-Kabel</b> <i>Farbe</i> | Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Eingabesplines:<br><b>R</b> - X-Position<br><b>G</b> - Y-Position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br> - Sign: Spline ist geschlossen (negativ) oder offen (positiv);<br> - Absolute Wert: Thickness + 1. |
 | <b>Spline-Daten</b> <i>Farbe</i> | Zusätzliche Daten der Eingabe-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.<br><b>R</b> - Tangenten X<br><b>G</b> - Tangenten Y<br><b>B</b> - Nicht verwendet<br><b>A</b> - Nicht verwendet |
-| <b>Spline-Betrag</b> <i>Ganzzahl</i> | Die Anzahl der Eingabe-Splines. |
+| <b>Spline-Betrag</b> <i>Integer</i> | Die Anzahl der Eingabe-Splines. |
 | <b>Farbzuordnung</b> <i>Graustufen</i> | Das Eingabe-Graustufenbild, das entlang der Eingabe-Splines zugeordnet werden soll. |
-| <b>Höhen-Map</b> <i>Graustufen</i> | Die Graustufen-Höhen-Map für die Eingabe, die entlang der Eingabe-Splines zugeordnet werden soll. |
+| <b>Height-Map</b> <i>Graustufen</i> | Die Graustufen-Höhen-Map für die Eingabe, die entlang der Eingabe-Splines zugeordnet werden soll. |
 | <b>Twist Curve</b> <i>Graustufen</i> | Das Bild, das eine Kurve anhand der Werte der ersten Pixelzeile beschreibt.<br>Wenn der Parameter <b>Form</b> auf <i>Halbzylinder</i> oder <i>Zylinder</i> festgelegt ist, wird diese Eingabe verwendet, um die Verdrillung der UVs um die Form herum zu steuern. Die Auswirkungen werden mithilfe des Parameters <b>UVs-Kurvenmultiplikator verdrehen</b> gesteuert.<br>Die Kurve stellt ein Profil für den Umfang der Drehung entlang der Spline bereit, wobei das erste Pixel in der Zeile die Drehung am Anfang der Spline und das letzte die Drehung am Ende ist. Der Graustufenwert stellt eine Anzahl von Windungen dar.<br>Sie können einen Knoten vom Typ [Kurve](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md) verwenden, um die Kurve zu erstellen. |
 
 <a name="outputs"></a>
@@ -89,7 +89,7 @@ Der Knoten gibt das zugeordnete Bild als Graustufenbild sowie weitere Informatio
 | <b>Spline-Bereich zeichnen</b> <i>Ganzzahl2</i> | (Verfügbar, wenn &quot;Modus&quot; auf &quot;Spline-Bereich zeichnen&quot; eingestellt ist) Der Indexbereich für die Splines, entlang denen das Bild zugeordnet werden soll. |
 | <b>Start</b> <i>Fließkommazahl</i> | Versetzt den Anfang des Abschnitts des Spline-Effekts, der zugeordnet werden soll.<br>Der Wert stellt die normalisierte Länge des Splines dar. |
 | <b>Ende</b> <i>Fließkommazahl</i> | Versetzt das Ende des Abschnitts des Spline-Effekts, der zugeordnet werden soll.<br>Der Wert stellt die normalisierte Länge des Splines dar. |
-| <b>Thickness-Modus</b> <i>Integer</i> | Die Methode zum Festlegen der Thickness des zugeordneten Bildes: <br>- <i>Manuell</i>: Legen Sie die Thickness explizit mit einem beliebigen Wert fest;<br>- <i>Von Spline</i>: Verwenden Sie die Thickness des Splines. |
+| <b>Thickness-Modus</b> <i>Ganzzahl</i> | Die Methode zum Festlegen der Thickness des zugeordneten Bildes: <br>- <i>Manuell</i>: Legen Sie die Thickness explizit mit einem beliebigen Wert fest;<br>- <i>Von Spline</i>: Verwenden Sie die Thickness des Splines. |
 | <b>Thickness</b> <i>Gleitend</i> | (Verfügbar, wenn &quot;Thickness-Modus&quot; auf &quot;Manuell&quot; eingestellt ist) Der willkürliche Wert für die Thickness des zugeordneten Bildes entlang der Splines. |
 | <b>Thicknessen-Multiplikator</b> <i>Gleitend</i> | (Verfügbar, wenn &quot;Thickness-Modus&quot; auf &quot;Von Spline&quot; eingestellt ist) Ein globaler Multiplikator für die Thickness des zugeordneten Bildes entlang der Splines, wenn diese Thickness von der der Splines gesteuert wird. |
 | <b>Form</b> <i>Integer</i> | Die primitive Form, die zum Zuordnen von Bildkoordinaten entlang der Splines verwendet wird:<br>- <i>Ebene</i>: Koordinaten werden einer flachen Ebene zugeordnet;<br>- <i>Halbzylinder</i>: Koordinaten werden einem Halbzylinder zugeordnet, dessen Achse des Grundkreises der Spline-Richtung folgt;<br>- <i>Zylinder</i>: Koordinaten werden einem Zylinder zugeordnet, dessen Grundkreisrichtung der Achse der Spline folgt. |
@@ -111,11 +111,11 @@ Der Knoten gibt das zugeordnete Bild als Graustufenbild sowie weitere Informatio
 <table>
   <tr>
     <td>
-      <img src="spline-mapper-grayscale.resources/spline-mapper-grayscale-02.jpg" alt="SplineMapperColor-Variant1-Before">
+      <img src="../../../../../../assets/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="spline-mapper-grayscale.resources/spline-mapper-grayscale-03.jpg" alt="SplineMapperGrayscale-Variant1-After">
+      <img src="../../../../../../assets/SplineMapperGrayscale-Variant1-After.jpg" alt="SplineMapperGrayscale-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -124,7 +124,7 @@ Der Knoten gibt das zugeordnete Bild als Graustufenbild sowie weitere Informatio
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](spline-mapper-grayscale.resources/spline-mapper-grayscale-04.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](../../../../../../assets/SplineMapperGrayscale-Demo.gif "Knotenbeispiel 2")
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ Der Knoten gibt das zugeordnete Bild als Graustufenbild sowie weitere Informatio
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 3](spline-mapper-grayscale.resources/spline-mapper-grayscale-05.jpg "Knotenbeispiel 3")
+![Knotenbeispiel 3](../../../../../../assets/SplineMapperGrayscale-Variant1-After1.jpg "Knotenbeispiel 3")
 
 </td>
 <td style="border: 0;" valign="top">

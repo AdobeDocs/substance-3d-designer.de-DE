@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Pfade-Polygon", um polygonale Pfade aus Scheitelpunktdaten für die Erzeugung geometrischer Muster zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pfade-Polygon
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](paths-polygon.resources/paths-polygon-01.png "Knotensymbol")
+![Knotensymbol](../../../../../../assets/paths-polygon-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Path Tools
 
@@ -63,12 +63,12 @@ Verwenden Sie den Knoten [Pfad 2D transformieren](../../../../../../compositing-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](paths-polygon.resources/paths-polygon-02.jpg "Knotenbeispiel 1")
+![Knotenbeispiel 1](../../../../../../assets/PathsPolygon_Variant1_1.jpg "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](paths-polygon.resources/paths-polygon-03.jpg "Knotenbeispiel 2")
+![Knotenbeispiel 2](../../../../../../assets/PathsPolygon_Variant2.jpg "Knotenbeispiel 2")
 
 </td>
 </tr>

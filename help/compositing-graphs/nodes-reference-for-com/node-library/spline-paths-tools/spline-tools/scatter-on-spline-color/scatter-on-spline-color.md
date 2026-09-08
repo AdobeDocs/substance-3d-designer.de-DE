@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color.html"
 breadcrumb-title: ''
 description: Verwenden Sie die Streuung des Knotens "Spline-Farbe", um Farbelemente für prozedurale Muster entlang von Spline-Pfaden zu verteilen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Streuung auf Spline-Farbe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '3092'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](scatter-on-spline-color.resources/scatter-on-spline-color-01.png "Knotensymbol")
+![Knotensymbol](../../../../../../assets/scatter-on-spline-color-icon.png "Knotensymbol")
 
 In: Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -76,10 +76,10 @@ Einige Aspekte der Streuung können mithilfe von Bildern von anderen Knoten im D
 
 |  |  |
 |:---|:---|
-| <b>Spline-Eingabe</b> <i>Ganzzahl</i> | Die Methode zum Auswählen, welche Splines für Streuungsmuster verwendet werden sollen:<br>** Alle Splines *: Alle Splines in der Eingabeliste verwenden;<br>* *Einzelne Spline*: Verwenden Sie nur den angegebenen Spline aus der Eingabeliste;<br>* *Spline-Bereich*: Verwenden Sie nur die Splines im angegebenen Bereich aus der Eingabeliste. |
+| <b>Spline-Eingabe</b> <i>Integer</i> | Die Methode zur Auswahl der Splines, die für Streuungsmuster verwendet werden sollen:<br>** Alle Splines *: Alle Splines in der Eingabeliste verwenden;<br>* *Einzelne Spline*: Verwenden Sie nur den angegebenen Spline aus der Eingabeliste;<br>* *Spline Range*: Verwenden Sie nur die Splines im angegebenen Bereich aus der Eingabeliste. |
 | <b>Spline-Index</b> <i>Ganzzahl</i> (verfügbar, wenn &quot;Spline-Eingabe&quot; auf &quot;Einzelne Spline&quot; festgelegt ist) | Der Listenindex des Splines, der für Streuungsmuster verwendet werden soll. |
 | <b>Spline-Bereich</b> <i>Ganzzahl2</i> (verfügbar, wenn &quot;Spline-Eingabe&quot; auf &quot;Spline-Bereich&quot; festgelegt ist) | Der Bereich der Listenindizes, einschließlich der Splines, die für Streuungsmuster verwendet werden sollen. |
-| <b>Streuung-Modus</b> <i>Ganzzahl</i> | Die Methode zum Streuen der Muster entlang der Splines, die sich auf die Anzahl der Muster auf jedem Spline auswirkt:<br>* Shape Amount: Die angegebene Anzahl von gleichmäßig verteilten Mustern ist gestreut.<br>* Form-Abstand: Die Anzahl der Muster wird automatisch an den angegebenen gleichmäßigen Abstand angepasst.<br>In beiden Fällen fallen das erste und das letzte Muster genau auf den Anfang bzw. das Ende jedes Splines. |
+| <b>Streuung-Modus</b> <i>Integer</i> | Die Methode zum Streuen der Muster entlang der Splines, die sich auf die Anzahl der Muster auf jedem Spline auswirkt:<br>* Shape Amount: Die angegebene Anzahl von gleichmäßig verteilten Mustern ist gestreut.<br>* Form-Abstand: Die Anzahl der Muster wird automatisch an den angegebenen gleichmäßigen Abstand angepasst.<br>In beiden Fällen fallen das erste und das letzte Muster genau auf den Anfang bzw. das Ende jedes Splines. |
 | <b>Betrag der Form</b> <i>Ganzzahl</i> (verfügbar, wenn &quot;Streuung-Modus&quot; auf &quot;Shape-Stärke&quot; festgelegt ist) | Die Anzahl der gleichmäßig beabstandeten Muster, die entlang jeder Spline verstreut sind. |
 | <b>Formverteilung entlang Spline</b> <i>Ganzzahl</i> (verfügbar, wenn &quot;Streuung-Modus&quot; auf &quot;Shape-Stärke&quot; festgelegt ist) | Die Methode zum Verteilen der Muster entlang eines Splines:<br>** Von Quelle *: Der Abstand der Muster wird durch die Tangenten des Spline-Punkts beeinflusst, bei denen Formen weiter auseinander liegen in der Nähe von Punkten mit langen Tangenten;<br>* *Uniform*: Die Muster werden entlang der Spline gleichmäßig verteilt, unabhängig von ihren Tangenten und ihrer Flugbahn. |
 | <b>Formabstand</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Streuung-Modus&quot; auf &quot;Form-Abstand&quot; festgelegt ist) | Der minimale Abstand entlang einer Spline, um den Muster beabstandet sein sollten, während das erste und das letzte Muster noch am Anfang bzw. Ende jeder Spline landen. |
@@ -106,10 +106,10 @@ Einige Aspekte der Streuung können mithilfe von Bildern von anderen Knoten im D
 | <b>Startdämpfung/Enddämpfung versetzen</b> <i>Float2</i> | Klammert den Abstand zwischen dem Mittelpunkt des Spline-Effekts und seinen Anfangs- und Endpunkten aus, wenn Versätze auf Duplikate angewendet werden.<br>Dies bedeutet, dass die Abstände für Duplikate verringert werden, die sich näher an den Enden eines Splines befinden. |
 | <b>Versatzdämpfung durch Thickness</b> <i>Gleitend</i> | Faktoren in der Thickness des Splines, wenn Versätze auf Duplikate angewendet werden.<br>Dies bedeutet, dass die Abstände für Duplikate auf einem Abschnitt eines Splines mit einer niedrigeren Thickness verringert werden. |
 | <b>Größe</b> |  |
-| <b>Größenmodus</b> <i>Ganzzahl</i> | Die Methode zum Festlegen der Größe der gestreuten Muster:<br>*- Normal*: Die Größe wird mithilfe eines globalen &quot;Scale&quot;-Parameters einheitlich gesteuert.<br>*- Thickness aus Spline verwenden*: Die Größe hängt von der Thickness des Splines ab. |
-| <b>Auswirkungen der Thickness</b> <i>Ganzzahl</i> (verfügbar, wenn &quot;Größenmodus&quot; auf &quot;Thickness aus Spline verwenden&quot; festgelegt ist) | Gibt an, welche Achse der Skalierung eines Musters von der Spline-Thickness gesteuert werden soll: <br>* X &amp; Y: Die Thickness wird mit der Größe in der X- und Y-Achse multipliziert;<br>* X: Die Thickness wird nur mit der Größe auf der X-Achse multipliziert;<br>* Y: Die Thickness wird nur auf der Y-Achse multipliziert.<br>Wenn das Muster nicht multipliziert wird, entspricht die Originalskala der gesamten Bildspanne.<br>Das bedeutet, dass im X-Modus die Y-Achse die gesamte Bildspanne ist und mit dem Parameter &quot;Größe&quot; angepasst werden muss. Dasselbe gilt für die Größe in der X-Achse, wenn der Y-Modus verwendet wird. |
-| <b>Größe</b> <i>Fließkommazahl2</i> | Die ursprüngliche Größe von Mustern in X und Y, bevor andere Anpassungen durch andere Parameter vorgenommen werden. |
-| <b>Größe zufällig</b> <i>Fließkommazahl2</i> | Wendet einen Zufallsmultiplikator bis zum angegebenen Wert an, um die Größe der Muster in X und Y zu verringern. |
+| <b>Größenmodus</b> <i>Integer</i> | Die Methode zum Festlegen der Größe der gestreuten Muster:<br>*- Normal*: Die Größe wird mithilfe eines globalen &quot;Scale&quot;-Parameters einheitlich gesteuert.<br>*- Thickness aus Spline verwenden*: Die Größe hängt von der Thickness des Splines ab. |
+| <b>Auswirkungen der Thickness</b> <i>Ganzzahl</i> (verfügbar, wenn &quot;Größenmodus&quot; auf &quot;Thickness aus Spline verwenden&quot; festgelegt ist) | Gibt an, welche Achse der Skalierung eines Musters von der Spline-Thickness gesteuert werden soll: <br>* X &amp; Y: Die Thickness wird mit der Größe in der X- und Y-Achse multipliziert;<br>* X: Die Thickness wird nur mit der Größe auf der X-Achse multipliziert;<br>* Y: Die Thickness wird nur mit der Größe der Y-Achse multipliziert.<br>Wenn das Muster nicht multipliziert wird, entspricht die Originalskala der gesamten Bildspanne.<br>Das bedeutet, dass im X-Modus die Y-Achse die gesamte Bildspanne ist und mit dem Parameter &quot;Größe&quot; angepasst werden muss. Dasselbe gilt für die Größe in der X-Achse, wenn der Y-Modus verwendet wird. |
+| <b>Größe</b> <i>Float2</i> | Die ursprüngliche Größe von Mustern in X und Y, bevor andere Anpassungen durch andere Parameter vorgenommen werden. |
+| <b>Größe zufällig</b> <i>Float2</i> | Wendet einen Zufallsmultiplikator bis zum angegebenen Wert an, um die Größe der Muster in X und Y zu verringern. |
 | <b>Skalierung der Thickness</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Größenmodus&quot; auf &quot;Thickness aus Spline verwenden&quot; festgelegt ist) | Ein zusätzlicher Multiplikator für die Skalierung der Muster, wenn er von der Spline-Thickness gesteuert wird. |
 | <b>Skalierung</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Größenmodus&quot; auf &quot;Normal&quot; festgelegt ist) | Eine globale Steuerung für die Größe aller Muster, wobei 1 die gesamte Bildspanne ist.<br>Die Skalierung wird relativ zum Pivot eines Musters angewendet. Die Pivot-Position kann mit dem Parameter &quot;Form Pivot&quot; versetzt werden. |
 | <b>Zufällige Skalierung</b> <i>Gleitend</i> | Wendet einen Zufallsmultiplikator bis zum angegebenen Wert an, um die Größe der Muster zu verringern. |
@@ -167,11 +167,11 @@ Einige Aspekte der Streuung können mithilfe von Bildern von anderen Knoten im D
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-02.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-03.jpg" alt="ScatterOnSplineColor-Variant1-After">
+      <img src="../../../../../../assets/ScatterOnSplineColor-Variant1-After.jpg" alt="ScatterOnSplineColor-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -183,11 +183,11 @@ Einige Aspekte der Streuung können mithilfe von Bildern von anderen Knoten im D
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-04.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-05.jpg" alt="ScatterOnSplineColor-Variant2-After">
+      <img src="../../../../../../assets/ScatterOnSplineColor-Variant2-After.jpg" alt="ScatterOnSplineColor-Variant2-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -201,12 +201,12 @@ Einige Aspekte der Streuung können mithilfe von Bildern von anderen Knoten im D
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](scatter-on-spline-color.resources/scatter-on-spline-color-06.gif "Knotenbeispiel 1")
+![Knotenbeispiel 1](../../../../../../assets/ScatterOnSplineGrayscale-Demo.gif "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](scatter-on-spline-color.resources/scatter-on-spline-color-07.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](../../../../../../assets/ScatterOnSplineColor-Demo.gif "Knotenbeispiel 2")
 
 </td>
 </tr>

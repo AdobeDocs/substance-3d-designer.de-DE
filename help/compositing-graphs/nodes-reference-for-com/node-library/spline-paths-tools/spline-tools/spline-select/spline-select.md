@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-select.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Spline-Auswahlknoten, um bestimmte Bereiche basierend auf den Spline-Pfaden in Ihren Graf auszuwählen und zu maskieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline-Auswahl
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](spline-select.resources/spline-select-01.png "Knotensymbol")
+![Knotensymbol](../../../../../../assets/spline-select-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -90,11 +90,11 @@ Ausgewählte Splines können auch zugeschnitten werden.
 <table>
   <tr>
     <td>
-      <img src="spline-select.resources/spline-select-02.jpg" alt="SplineSelect-Variant1-Before">
+      <img src="../../../../../../assets/SplineSelect-Variant1-Before.jpg" alt="SplineSelect-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="spline-select.resources/spline-select-03.jpg" alt="SplineSelect-Variant1-After2">
+      <img src="../../../../../../assets/SplineSelect-Variant1-After2.jpg" alt="SplineSelect-Variant1-After2">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -106,11 +106,11 @@ Ausgewählte Splines können auch zugeschnitten werden.
 <table>
   <tr>
     <td>
-      <img src="spline-select.resources/spline-select-04.jpg" alt="SplineSelect-Variant2-Before">
+      <img src="../../../../../../assets/SplineSelect-Variant2-Before.jpg" alt="SplineSelect-Variant2-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="spline-select.resources/spline-select-05.jpg" alt="SplineSelect-Variant2-After">
+      <img src="../../../../../../assets/SplineSelect-Variant2-After.jpg" alt="SplineSelect-Variant2-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -124,7 +124,7 @@ Ausgewählte Splines können auch zugeschnitten werden.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](spline-select.resources/spline-select-06.gif "Knotenbeispiel 1")
+![Knotenbeispiel 1](../../../../../../assets/SplineSelect-Demo.gif "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">

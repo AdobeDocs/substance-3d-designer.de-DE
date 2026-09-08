@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Punktliste", um Punktlisten für die Spline- und Pfadgenerierung zu erstellen und zu verwalten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Punktliste
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](point-list.resources/point-list-01.png "Knotensymbol")
+![Knotensymbol](../../../../../../assets/point-list-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -93,12 +93,12 @@ Wenn eine vorhandene Punktliste an die <b>Point</b>-Eingaben übergeben wird, wi
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](point-list.resources/point-list-02.jpg "Knotenbeispiel 1")
+![Knotenbeispiel 1](../../../../../../assets/PointList-Variant1.jpg "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](point-list.resources/point-list-03.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](../../../../../../assets/PointList-Demo1.gif "Knotenbeispiel 2")
 
 </td>
 </tr>
