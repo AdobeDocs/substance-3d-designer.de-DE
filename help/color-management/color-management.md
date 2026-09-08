@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/color-management.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über das Farbmanagement in Substance 3D Designer, einschließlich Farbräumen, Profilen und Volltonfarben-Workflows.
 helpx_creative_field: ""

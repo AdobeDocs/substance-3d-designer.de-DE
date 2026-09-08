@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Einheitliche Farbe", um Texturen für die einheitliche Farbe zum Erstellen von Farbflächen und Basisebenen zu generieren.
 helpx_creative_field: ""

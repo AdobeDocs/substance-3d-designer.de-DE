@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-damas.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-damas.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Schmutz Damas -Knoten, um damassähnliche Schmutz-Muster zu erzeugen, um verzierte verwitterte Oberflächendetails zu erstellen.
 helpx_creative_field: ""

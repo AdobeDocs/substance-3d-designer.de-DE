@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-3.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-3.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Messy Fibers 3, um komplexe Fasermuster zum Erstellen von Textur- und Textureffekten zu generieren.
 helpx_creative_field: ""

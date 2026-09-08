@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Schmutz Shavings, um Rasiermuster für die Textur von Holzkörnern und Materialien zu generieren.
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 5%
 
 ## Beschreibung
 
-Der Knoten **Schmutz Shavings** in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) generiert eine Schmutz-Map, die den auf einer Fläche verstreuten Spänen ähnelt.
+Der Knoten **Schmutz Shavings** in [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) generiert eine Schmutz-Map, die den auf einer Fläche verstreuten Spänen ähnelt.
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-main-toolbar.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-main-toolbar.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über die Hauptsymbolleiste in Substance 3D Designer, um auf allgemeine Werkzeuge und Befehle für Ihren Arbeitsablauf zuzugreifen.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-Auf dieser Seite werden die Hauptsymbolleiste und das Menü von [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) beschrieben, die oben links im Hauptfenster angezeigt werden.Es besteht aus zwei Teilen: die Dropdown-Hauptmenüs und Schaltflächen mit Schnellzugriff. Auf alle Schaltflächenfunktionen für den Schnellzugriff kann auch über die Menüs <b>Datei</b> und <b>Bearbeiten</b> zugegriffen werden.
+Auf dieser Seite werden die Hauptsymbolleiste und das Menü von [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) beschrieben, die oben links im Hauptfenster angezeigt werden.Es besteht aus zwei Teilen: die Dropdown-Hauptmenüs und Schaltflächen mit Schnellzugriff. Auf alle Schaltflächenfunktionen für den Schnellzugriff kann auch über die Menüs <b>Datei</b> und <b>Bearbeiten</b> zugegriffen werden.
 
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
@@ -165,7 +165,7 @@ Auf dieser Seite werden die Hauptsymbolleiste und das Menü von [Substance 3D De
 
 <b>Neue Funktionen...:</b> Zeigt einen Bildschirm an, in dem die Funktionen hervorgehoben werden, die der neuesten Version von Designer hinzugefügt wurden
 
-<b>Begrüßungsbildschirm...\*:</b> Zeigt einen Bildschirm an, der neue Benutzer durch den Zweck von Designer und seine Position im [Substance 3D-Ökosystem führt](https://helpx.adobe.com/substance-3d.html)
+<b>Begrüßungsbildschirm...\*:</b> Zeigt einen Bildschirm an, der neue Benutzer durch den Zweck von Designer und seine Position im [Substance 3D-Ökosystem führt](https://helpx.adobe.com/de/substance-3d.html)
 
 <b>Partner:</b> Ermöglicht Ihnen den Zugriff auf die Haftungsausschlüsse und Hinweise für Integrationen von Drittanbietern von unseren Partnern in Designer.
 

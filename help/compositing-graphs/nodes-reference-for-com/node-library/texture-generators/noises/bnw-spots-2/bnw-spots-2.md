@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-2.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-2.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten BnW-Punkte 2, um Schwarz-Weiß-Volltonfarbmuster mit erweiterten Steuerelementen für Strukturvariationen zu erstellen.
 helpx_creative_field: ""

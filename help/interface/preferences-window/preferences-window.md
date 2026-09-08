@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: Rufen Sie das Fenster "Voreinstellungen" in Substance 3D Designer auf, um Anwendungseinstellungen und -verhalten anzupassen.
 helpx_creative_field: ""
@@ -191,7 +191,7 @@ Weitere Informationen finden Sie auf der Seite [Projekteinstellungen](../../inte
 
 |  |  |
 | --- | --- |
-| <b>GPU-Raytracing</b>  *Standard: Aktiviert* | Wenn diese Option aktiviert ist, wird Raytracing für [kompatible Bäcker](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) auf der GPU durchgeführt.   Je nach NVIDIA-GPU-Architektur sind die folgenden GPU-Raytracing-Backends die Standardeinstellungen:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Touring und neuer</li> <li data-preserve-html="true"><i>Optix</i>: Pascal und Maxwell</li> </ul>  **Hinweis:** Weitere Informationen zu GPU-betriebenen Bäckereien finden Sie im Abschnitt [GPU-Raytracing](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) der Dokumentation [Substance Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).  **Tipp:** Sie können die folgenden *Befehlszeilenargumente* verwenden, wenn Sie die Anwendung starten, um *die Verwendung eines anderen GPU-Raytracing-Backends zu erzwingen*: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : Erzwingen der Verwendung von Optix auf Nvidia Turing oder neueren GPUs</li> <li data-preserve-html="true"><code>—force-dxr</code> : die Verwendung von DXR auf Nvidia Pascal-GPUs erzwingen</li> </ul> |
+| <b>GPU-Raytracing</b>  *Standard: Aktiviert* | Wenn diese Option aktiviert ist, wird Raytracing für [kompatible Bäcker](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/features/gpu-raytracing) auf der GPU durchgeführt.   Je nach NVIDIA-GPU-Architektur sind die folgenden GPU-Raytracing-Backends die Standardeinstellungen:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Touring und neuer</li> <li data-preserve-html="true"><i>Optix</i>: Pascal und Maxwell</li> </ul>  **Hinweis:** Weitere Informationen zu GPU-betriebenen Bäckereien finden Sie im Abschnitt [GPU-Raytracing](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/features/gpu-raytracing) der Dokumentation [Substance Bakers](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/home).  **Tipp:** Sie können die folgenden *Befehlszeilenargumente* verwenden, wenn Sie die Anwendung starten, um *die Verwendung eines anderen GPU-Raytracing-Backends zu erzwingen*: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : Erzwingen der Verwendung von Optix auf Nvidia Turing oder neueren GPUs</li> <li data-preserve-html="true"><code>—force-dxr</code> : die Verwendung von DXR auf Nvidia Pascal-GPUs erzwingen</li> </ul> |
 
 ## Bibliothek
 

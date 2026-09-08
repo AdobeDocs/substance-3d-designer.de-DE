@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-3.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-3.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Richtungsrauschen 3 -Knoten, um Richtungsrauschen-Muster mit drei Oktaven zum Erstellen von Richtungs-Texturen zu generieren.
 helpx_creative_field: ""

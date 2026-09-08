@@ -60,7 +60,7 @@ Mit der Option <b>Projekt</b> können Sie die Vorlagenliste nach Projektdatei fi
 Die Vorlagenliste kann in verschiedenen Modi mit den *Schaltflächen* neben dem Kombinationsfeld **Projekt** angezeigt werden:
 
 * **![](../../assets/mdl-template-recent-icon.png)Anzeige zuletzt verwendet**: filtert die Liste, um die zuletzt verwendeten Vorlagen in der Reihenfolge von *zuletzt bis zuletzt* anzuzeigen, wobei das oberste Element das zuletzt verwendete ist
-* **![](../../assets/mdl-template-graphs-icon.png)Graf anzeigen**: Vorlagen werden nur nach ihrer *Bezeichnung* in der Reihenfolge der [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)-Dateien im Vorlagenverzeichnis angezeigt
+* **![](../../assets/mdl-template-graphs-icon.png)Graf anzeigen**: Vorlagen werden nur nach ihrer *Bezeichnung* in der Reihenfolge der [Substance 3D](https://www.adobe.com/de/products/substance3d/3d-augmented-reality.html)-Dateien im Vorlagenverzeichnis angezeigt
 * **![](../../assets/mdl-template-packages-icon.png)Substance 3D-Dateien anzeigen**: Vorlagen werden anhand ihrer Bezeichnung als *untergeordnete Elemente der Substance 3D-Datei, zu der sie gehören, angezeigt*. Die Reihenfolge der Dateien im Vorlagenverzeichnis ist dabei identisch.
 * **![](../../assets/mdl-template-directory-icon.png)Verzeichnisse anzeigen**: Vorlagen werden anhand ihrer Bezeichnung als *untergeordnete Elemente des Verzeichnisses angezeigt, zu dem sie gehören*, in der Reihenfolge der Dateien im Vorlagenverzeichnis.
 
