@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render-mapping.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render-mapping.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "PBR-Rendering Mapping", um Material-Ausgaben in verschiedene PBR-Rendering-Zuordnungsformate zu konvertieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: PBR-Rendering Mapping
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](pbr-render-mapping.resources/pbr-render-mapping-01.png)![](pbr-render-mapping.resources/pbr-render-mapping-02.png)
+![](../../../../../../assets/pbr-render-mapping-color.png)![](../../../../../../assets/pbr-render-mapping-grayscale.png)
 
 <b>In:</b> Materialfiltern > PBR-Dienstprogramme
 
@@ -65,10 +65,10 @@ Beispiel ist eine Komposition aus vier verschiedenen PBR-Rendering-Zuordnungskno
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="pbr-render-mapping.resources/pbr-render-mapping-03.png" />
+            <img src="../../../../../../assets/pbr-render-mapping-ex.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render-mapping.resources/pbr-render-mapping-04.png" />
+            <img src="../../../../../../assets/pbr-render-mapping-ex-2.png" />
         </td>
     </tr>
 </table>

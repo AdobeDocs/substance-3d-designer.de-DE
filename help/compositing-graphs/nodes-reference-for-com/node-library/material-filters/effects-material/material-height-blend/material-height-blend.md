@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/material-height-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/material-height-blend.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Material Height Überblendung , um mehrere Materialien auf der Grundlage von Höhen-Map zu überblenden, um Materialien mit mehreren Ebenen zu erstellen.
 helpx_creative_field: ""
@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Material Height Mischen
+title: Material Height Überblendung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-height-blend.resources/material-height-blend-01.png){width="128px"}
+![](../../../../../../assets/material-height-blend.png){width="128px"}
 
 <b>In:</b> Materialfilter > Effekte
 
@@ -33,9 +33,9 @@ ht-degree: 4%
 
 ## Beschreibung
 
-Dieser Knoten ist eine erweiterte Version von [Materialüberblendung](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/height-blend/height-blend.md), bei der zwei Heights auf der Grundlage ihrer Höhenkarten überblendet werden. Es gibt keine benutzerdefinierte Maske. Sie müssen also zwei Höhenkarten haben, eine für jedes Material, von denen mindestens eine keinen einheitlichen Wert hat.
+Bei diesem Knoten handelt es sich um eine erweiterte Version von [Height Überblendung](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/height-blend/height-blend.md), bei der zwei Material auf der Grundlage ihrer Höhenkarten miteinander vermischt werden. Es gibt keine benutzerdefinierte Maske. Sie müssen also zwei Heightmaps haben, eine für jedes Material, von denen mindestens eine keinen einheitlichen Wert hat.
 
-Dies kann nützlich sein, um zwei verschiedene, hochwertige Materialien ohne eine hochwertige Mischmaske zu kombinieren.
+Dies kann nützlich sein, um zwei verschiedene, hochwertige Materialien ohne eine hochwertige blending mask zu kombinieren.
 
 Wenn Sie Wasser oder Schnee einblenden möchten, sind die Snow [Abdeckung](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/snow-cover/snow-cover.md) und [Wasserstand](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/water-level/water-level.md) verfügbar.
 
@@ -49,7 +49,7 @@ Wenn Sie Wasser oder Schnee einblenden möchten, sind die Snow [Abdeckung](../..
 
 |  |  |
 |:---|:---|
-| <b>Kanäle</b> | Schalten Sie die Materialkanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanzkarten anstelle von &quot;Metallisch/Raueit&quot; verwenden. |
+| <b>Kanäle</b> | Schalten Sie die Material-Kanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanz-Maps anstelle von &quot;Metallic/Rauheit&quot; verwenden. |
 | <b>Height-Offset</b> <i>0.0 - 1.0</i> | Versetzt Höhenzuordnungen so, dass der Überblendungsgrad entlang der Achse des Heights verschoben wird. Dies ist die Hauptsteuerung für die Füllmethode. |
 | <b>Kontrast</b> <i>0.0 - 1.0</i> | Passt den Kontrast der Füllmethode an und sorgt für schärfere Übergänge. |
 | <b>Modus</b> <i>Ausgewogenes Height, Priorität des unteren Heights</i> |  |

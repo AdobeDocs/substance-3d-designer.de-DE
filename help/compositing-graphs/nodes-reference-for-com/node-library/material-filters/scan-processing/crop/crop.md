@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/crop.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/crop.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Zuschneiden", um Materialausgaben auf bestimmte Bereiche zuzuschneiden, um gescannte Materialien und Texturen zu verarbeiten.
+description: Verwenden Sie den Knoten "Zuschneiden", um Material-Ausgaben auf bestimmte Bereiche zuzuschneiden, um gescannte Materialien und Texturen zu verarbeiten.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Crop
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Zuschneiden
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 3%
@@ -24,9 +24,9 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](crop.resources/crop-01.png){width="128px"}
+![](../../../../../../assets/crop-10.png){width="128px"}
 
-![](crop.resources/crop-02.png){width="128px"}
+![](../../../../../../assets/crop-grayscale.png){width="128px"}
 
 <b>In:</b> Materialfilter > Scanverarbeitung
 
@@ -37,7 +37,7 @@ ht-degree: 3%
 
 Beim Freistellen handelt es sich um eine parametrische, nicht-destruktive Version des bekannten Freistellungswerkzeugs. Wenn Sie einen Bereich eines Bildes auswählen, wird das Ergebnis mit den nicht ausgewählten Bereichen zurückgegeben.
 
-Es kann in vielerlei Hinsicht nützlich sein, da die Durchführung eines Freistellungsvorgangs mit Atomknoten nicht so einfach ist. Dieser Knoten ist besonders für die Konvertierung von nicht quadratischen Bildern nützlich. Stellen Sie in diesem Fall sicher, dass die Eingangsauflösung korrekt eingestellt ist.
+Dies kann auf viele Arten nützlich sein, da die Durchführung eines Freistellungsvorgangs mit elementaren Knoten nicht so einfach ist. Dieser Knoten ist besonders für die Konvertierung von nicht quadratischen Bildern nützlich. Stellen Sie in diesem Fall sicher, dass die Eingangsauflösung korrekt eingestellt ist.
 
 Es ist sehr wichtig zu verstehen, dass Sie, um diesen Knoten problemlos verwenden zu können, die Möglichkeit nutzen müssen, eine Vorschau eines anderen Knotens als des Knotens anzuzeigen, dessen Parameter Sie bearbeiten!\
 Kurz gesagt: **Doppelklicken Sie auf** den Knoten, den Sie als Eingabe für diesen Knoten verwenden (das ursprüngliche, nicht zugeschnittene Bild), und **klicken Sie einmal** auf den Zuschneideknoten, der direkt danach folgt. Sie können dann das Zuschneide-Gizmo an den Bereich anpassen, auf den Sie zuschneiden möchten.
@@ -55,5 +55,5 @@ Kurz gesagt: **Doppelklicken Sie auf** den Knoten, den Sie als Eingabe für dies
 | <b>Eingabegröße</b> <i>0 - 8192</i> | Eingabebilds Auflösung und Proportionen. Sehr wichtig für nicht quadratische Bilder. |
 | <b>Hintergrund</b> <i>(Farbwert) / (Graustufenwert)</i> | Einheitlicher Hintergrundwert für Bereiche, die nicht von der Freistellung abgedeckt sind. |
 | <b>Transformieren</b> <i>(Transformationsmatrix)</i> | Dreht und skaliert das Ergebnis. Das Ergebnis kann durch direkte Interaktion mit der Arbeitsfläche geändert werden. |
-| <b>Offset</b> <i>0.0 - 1.0</i> | Verschiebt oder verschiebt das Ergebnis. Das Ergebnis kann durch direkte Interaktion mit der Arbeitsfläche geändert werden. |
+| <b>Offset</b> <i>0.0 - 1.0</i> | Verschiebt oder Kamera bewegt das Ergebnis. Das Ergebnis kann durch direkte Interaktion mit der Arbeitsfläche geändert werden. |
 | <b>Ist normal (nur für Farbversion)</b> <i>False/True</i> | Gibt an, ob die Eingabe als Normalmap behandelt werden soll. |
