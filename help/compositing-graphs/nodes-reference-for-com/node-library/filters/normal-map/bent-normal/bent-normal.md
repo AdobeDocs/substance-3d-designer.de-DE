@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/bent-normal.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/bent-normal.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Abgewinkelte Normale, um abgewinkelte Normalmaps zu erzeugen, die die Umgebungsbeleuchtung und die indirekte Verdeckung berücksichtigen.
 helpx_creative_field: ""

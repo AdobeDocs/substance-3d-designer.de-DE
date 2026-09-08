@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/facing-normal.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/facing-normal.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Gegenüberliegende Normale", um Normalen-Map auf der Grundlage der Gegenflächenrichtung zu erzeugen, um ausrichtungsbasierte Effekte zu erzeugen.
 helpx_creative_field: ""
