@@ -35,7 +35,7 @@ Auf das Fenster &quot;Baking&quot; kann über die Meshdatei im Fenster &quot;[Ex
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-Option ![ &#39;Baking-Modus-Informationen&#39; im Kontextmenü der 3D-Szene-Ressource](../assets/sd-mesh-right-click.png " &#39;Baking-Modus-Informationen&#39; im Kontextmenü der 3D-Szene-Ressource")
+Option ![&#x200B; &#39;Baking-Modus-Informationen&#39; im Kontextmenü der 3D-Szene-Ressource](../assets/sd-mesh-right-click.png " &#39;Baking-Modus-Informationen&#39; im Kontextmenü der 3D-Szene-Ressource")
 
 </td>
 </tr>

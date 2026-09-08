@@ -41,12 +41,12 @@ Verwenden Sie das GPU-Substance-Engine (mit Hotkey F9 wechseln), es sei denn, Si
 +++
 
 +++Das Wechseln der übergeordneten Auflösung des Grafen ist langsam
-Es berechnet Graf, Cache und alle Miniaturansichten neu. Es ist besser, [die Registerkarte <b>Batch </b> des Exportdialogs ](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md) zu verwenden, da dadurch eine umfangreiche, nicht benötigte Neuberechnung vermieden wird (z. B. beim Export in die Auflösung 8192).
+Es berechnet Graf, Cache und alle Miniaturansichten neu. Es ist besser, [die Registerkarte <b>Batch </b> des Exportdialogs &#x200B;](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md) zu verwenden, da dadurch eine umfangreiche, nicht benötigte Neuberechnung vermieden wird (z. B. beim Export in die Auflösung 8192).
 
 +++
 
 +++In Extremfällen kann ein erhöhter Speicher-Cache erforderlich sein
-Die Anwendung &quot;[&quot; begrenzt den Arbeitsspeicher, der ](../../interface/preferences-window/preferences-window.md) für den Bildcache verwendet werden kann. Sie können diesen jedoch überschreiben und erhöhen (mit Vorsicht).
+Die Anwendung &quot;[&quot; begrenzt den Arbeitsspeicher, der &#x200B;](../../interface/preferences-window/preferences-window.md) für den Bildcache verwendet werden kann. Sie können diesen jedoch überschreiben und erhöhen (mit Vorsicht).
 
 +++
 

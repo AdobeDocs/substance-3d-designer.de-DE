@@ -107,7 +107,7 @@ Beachten Sie die *Regeln*, die für die Filterung angewendet wurden:
 
 ## Graf-Eingänge und Texturen
 
-MDL-Material können Daten aus externen Quellen empfangen, zum Beispiel in Form von Werten und Texturen. Dies wird erreicht, indem <b>ein Node </b> gelegt wird, im Gegensatz zum [Substance-Graf ](../../compositing-graphs/substance-compositing-graphs.md), in dem dedizierte Eingabeknoten für diesen Zweck vorhanden sind.
+MDL-Material können Daten aus externen Quellen empfangen, zum Beispiel in Form von Werten und Texturen. Dies wird erreicht, indem <b>ein Node </b> gelegt wird, im Gegensatz zum [Substance-Graf &#x200B;](../../compositing-graphs/substance-compositing-graphs.md), in dem dedizierte Eingabeknoten für diesen Zweck vorhanden sind.
 
 Daten können je nach *Typ* an den gelegt Knoten übergeben werden. Beispielsweise können Fließkommazahl-Werte an einen gelegt <b>float</b>-Knoten übergeben werden, und eine Textur kann an einen gelegt <b>color</b>-Knoten übergeben werden (in diesem Fall werden die RGBA-Werte der aufgenommenen Pixel als Farbwert übergeben).
 

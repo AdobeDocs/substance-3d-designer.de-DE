@@ -37,7 +37,7 @@ ht-degree: 2%
 
 ## Beschreibung
 
-Dies ist eine einfache Variante von [Gaußschem Rauschen](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md), die [sich ](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) mit sich selbst verzieht, um einen flüssigkeitsähnlichen Effekt zu erzeugen.
+Dies ist eine einfache Variante von [Gaußschem Rauschen](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md), die [sich &#x200B;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) mit sich selbst verzieht, um einen flüssigkeitsähnlichen Effekt zu erzeugen.
 
 ## Parameter
 

@@ -42,7 +42,7 @@ Unsere Website [Substance 3D Tutorials](https://www.adobe.com/learn/substance-3d
 
 ### Erstellen einer MDL in Substance 3D Designer
 
-[Diese Serie ](https://www.adobe.com/learn/substance-3d-designer/web/creating-an-mdl-in-substance-3d-designer) ist ein *hervorragender Ausgangspunkt* zum Erkennen von MDL-Diagrammen und zum Arbeiten mit MDL-Materialien in Designer.
+[Diese Serie &#x200B;](https://www.adobe.com/learn/substance-3d-designer/web/creating-an-mdl-in-substance-3d-designer) ist ein *hervorragender Ausgangspunkt* zum Erkennen von MDL-Diagrammen und zum Arbeiten mit MDL-Materialien in Designer.
 
 Das metallic Klarlack-Material, das in diesem Tutorial behandelt wird, lässt sich nicht nur durch Texturen definieren: Es verfügt über *zwei separate Specular-Highlights*, die sich unterschiedlich verhalten: ein grober metallic Mantel mit Speckles und ein sehr glatter klarer Deckmantel.
 
