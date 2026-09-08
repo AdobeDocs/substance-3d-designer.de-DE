@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/bottom-to-top.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/bottom-to-top.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Unten nach oben", um Verlaufsmasken von unten nach oben basierend auf der Gitterweltposition zu generieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Von unten nach oben
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](bottom-to-top.resources/bottom-to-top-01.png){width="128px"}
+![](../../../../../../assets/bottom-to-top.png){width="128px"}
 
 <b>In:</b> Mesh-basierte Generatoren > Maskengenerator
 
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## Beschreibung
 
-Generiert eine Schwarzweißmaske auf der Grundlage von durch Baking erzeugte Map und Benutzereinstellungen. Ähnlich wie [Smart Masks](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/features/smart-materials-and-masks) in [Painter](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/home).
+Generiert eine Schwarzweißmaske auf der Grundlage von durch Baking erzeugte Map und Benutzereinstellungen. Ähnlich wie [Smart Masks](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks) in [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home).
 
 Dadurch wird ein weißer bis schwarzer Übergang vom unteren zum oberen Rand eines Modells erzeugt. Das ist nützlich, um geometriebasierte Abweichungen und Auswahlen vorzunehmen.
 
@@ -66,7 +66,7 @@ Dadurch wird ein weißer bis schwarzer Übergang vom unteren zum oberen Rand ein
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="bottom-to-top.resources/bottom-to-top-02.gif" />
+            <img src="../../../../../../assets/bottom-to-top-ex.gif" />
         </td>
     </tr>
 </table>

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dripping-rust.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dripping-rust.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Dripping Rost", um Rost-Tropfmuster basierend auf der Gittergeometrie und der Schwerkraftrichtung zu generieren.
+description: Verwenden Sie den Knoten "Tropfender Rost", um Tropfmuster des Rosts auf der Grundlage der Geometrie des Meshs und der Schwerkraftrichtung zu generieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Dripping Rust
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tropfender Rost
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](dripping-rust.resources/dripping-rust-01.png){width="128px"}
+![](../../../../../../assets/dripping-rust.png){width="128px"}
 
 <b>In:</b> Mesh-basierte Generatoren > Maskengenerator
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## Beschreibung
 
-Generiert eine Schwarzweißmaske auf der Grundlage von durch Baking erzeugte Map und Benutzereinstellungen. Ähnlich wie [Smart Masks](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
+Erzeugt eine Schwarz-weiße Maske basierend auf durch Baking erzeugte Map und Benutzereinstellungen. Ähnlich wie [Intelligente Masken](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
 Diese Maske stellt Rost-Flocken und Flecken dar, wobei die Lecks nach unten verlaufen.
 
@@ -47,9 +47,9 @@ Diese Maske stellt Rost-Flocken und Flecken dar, wobei die Lecks nach unten verl
 
 |  |  |
 |:---|:---|
-| <b>Krümmung</b> <i>Graustufen-Eingabe</i> | Eine fertig gestellte oder generierte Karte, die Ihnen bei der Platzierung des Rosts hilft. |
-| <b>Umgebungs-Verdeckung</b> <i>Graustufen-Eingabe</i> | Eine fertig gestellte oder generierte Karte, die Ihnen bei der Platzierung des Rosts hilft. |
-| <b>Position</b> <i>Graustufen-Eingabe</i> | Gebackene oder generierte Karte für Tropfrichtungen. |
+| <b>Krümmung</b> <i>Graustufen-Eingabe</i> | Baking geführt oder generierte Map, die bei der Platzierung von Rosten behilflich sein soll. |
+| <b>Ambient occlusion</b> <i>Graustufen-Eingabe</i> | Baking geführt oder generierte Map, die bei der Platzierung von Rosten behilflich sein soll. |
+| <b>Position</b> <i>Graustufen-Eingabe</i> | Baking geführt oder generierte Karte für Tropfrichtungen. |
 | <b>Maske (optional)</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. |
 
 <a name="parameters"></a>
@@ -70,7 +70,7 @@ Diese Maske stellt Rost-Flocken und Flecken dar, wobei die Lecks nach unten verl
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="dripping-rust.resources/dripping-rust-02.gif" />
+            <img src="../../../../../../assets/dripping-rust-ex3.gif" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/selective-dirt.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/selective-dirt.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Selektiver Dirt", um für eine realistische Verwitterung Akkumulationsmasken für selektiven Dirt auf der Grundlage der Geometrie des Meshs zu generieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Selektiver Dirt
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](selective-dirt.resources/selective-dirt-01.png){width="128px"}
+![](../../../../../../assets/selective-dirt.png){width="128px"}
 
 <b>In:</b> Mesh-basierte Generatoren > Maskengenerator
 
@@ -35,7 +35,7 @@ ht-degree: 8%
 
 Generiert eine Schwarzweißmaske auf der Grundlage von durch Baking erzeugte Map und Benutzereinstellungen. Ähnlich wie [Smart Masks](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Diese [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html)-Maske stellt einen einfachen Dirt-Effekt auf konvexe Kanten dar.
+Diese [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html)-Maske stellt einen einfachen Dirt-Effekt auf konvexe Kanten dar.
 
 </td>
 </tr>
@@ -67,7 +67,7 @@ Diese [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-desi
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="selective-dirt.resources/selective-dirt-02.gif" />
+            <img src="../../../../../../assets/selective-dirt-ex.gif" />
         </td>
     </tr>
 </table>
