@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten 3D-Textur - Lautstärke-Rendering , um volumetrische Texturen aus 3D-Daten zu rendern und so Cloud- und Nebeleffekte zu erzeugen.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-sdf.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-sdf.html"
 breadcrumb-title: ''
 description: Verwenden Sie den 3D Textur SDF-Knoten, um aus 3D-Daten Texturen für vorzeichenbehaftete Abstandsfelder zu generieren, um glatte Formen und Effekte zu erstellen.
 helpx_creative_field: ""

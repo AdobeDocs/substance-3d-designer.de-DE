@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/non-uniform-directional-warp.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/non-uniform-directional-warp.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Non Uniform Directional Warp-Knoten, um eine ungleichmäßige Richtungsverkrümmung anzuwenden, um unterschiedliche Verzerrungen zu erzeugen.
 helpx_creative_field: ""
