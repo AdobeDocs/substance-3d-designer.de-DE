@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/material-samples.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/material-samples.html"
 breadcrumb-title: ''
 description: Designer bietet eine kuratierte Auswahl an Beispielgrafiken aus verschiedenen Materialtypen, aus denen Sie lernen und mit denen Sie experimentieren können.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Material-Samples
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Material-Samples
 
-![Materialproben - Vorlagenkarten](../../../assets/materialSamples-cards.png "Materialproben - Vorlagenkarten")
+![Materialproben - Vorlagenkarten](material-samples.resources/materialSamples-cards.png "Materialproben - Vorlagenkarten")
 
 Designer bietet eine kuratierte Auswahl an Beispielgrafiken aus verschiedenen Materialtypen, aus denen Sie lernen und mit denen Sie experimentieren können.
 
@@ -36,14 +36,14 @@ Beim Erstellen eines neuen Substance-Diagramms finden Sie die Beispiele im [Dial
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Materialproben](../../../assets/newGraphDialog-samples-1.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Materialproben"){zoomable="yes"}
+![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Materialproben](material-samples.resources/newGraphDialog-samples-1.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Materialproben"){zoomable="yes"}
 
 Öffnen Sie die Kombinationsbox <b>Kategorie</b> und wählen Sie <b>Materialbeispiele</b> aus, um die verfügbaren Vorlagen aufzulisten.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Materialproben - Bannerschaltfläche](../../../assets/materialSamples-bannerButton.png "Materialproben - Bannerschaltfläche"){zoomable="yes"}
+![Materialproben - Bannerschaltfläche](material-samples.resources/materialSamples-bannerButton.png "Materialproben - Bannerschaltfläche"){zoomable="yes"}
 
 Sie können direkt zur Liste der Beispiele im Dialogfeld wechseln, indem Sie die Schaltfläche <b>Zu den Beispielen wechseln</b> verwenden, die sich an geeigneter Stelle befindet.
 im <b>Startbildschirm</b>.
@@ -62,7 +62,7 @@ in der Probe untersucht.
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![Materialproben - QuickInfo für Vorlagenkarte](../../../assets/newGraphDialog-sampleTooltip.png "Materialproben - QuickInfo für Vorlagenkarte"){zoomable="yes"}
+![Materialproben - QuickInfo für Vorlagenkarte](material-samples.resources/newGraphDialog-sampleTooltip.png "Materialproben - QuickInfo für Vorlagenkarte"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,4 +84,4 @@ Ihr Arbeitsbereich wird automatisch eingerichtet und Sie können loslegen. (Dies
 > Das Material in der 3D-Ansicht wechselt automatisch zur <code>OpenPBR-Oberfläche.</code> Shader, um
 > Probe exakt anzeigen.
 
-![Material-Beispiel - Graf](../../../assets/materialSamples-graph.png "Material-Beispiel - Graf"){zoomable="yes"}
+![Material-Beispiel - Graf](material-samples.resources/materialSamples-graph.png "Material-Beispiel - Graf"){zoomable="yes"}
