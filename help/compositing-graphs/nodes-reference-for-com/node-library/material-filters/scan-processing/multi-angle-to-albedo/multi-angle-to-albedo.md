@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-albedo.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-albedo.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Mehrere Winkel zu Albedo", um Albedo-Maps aus gescannten Bildern mit mehreren Winkeln zu extrahieren, um saubere Materialfarben zu erhalten.
 helpx_creative_field: ""

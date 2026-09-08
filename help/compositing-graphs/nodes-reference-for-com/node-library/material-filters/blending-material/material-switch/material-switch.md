@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-switch.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-switch.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Material wechseln", um zwischen mehreren Materialien zu wechseln, die auf Eingabemasken oder Bedingungen basieren.
 helpx_creative_field: ""

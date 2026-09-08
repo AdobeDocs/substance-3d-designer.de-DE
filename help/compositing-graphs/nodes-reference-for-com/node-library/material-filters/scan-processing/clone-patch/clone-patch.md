@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/clone-patch.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/clone-patch.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Klon-Ausbesserungsknoten zum Klonen und Ausbessern von Bereichen in gescannten Materialien, um Artefakte und Makel zu entfernen.
 helpx_creative_field: ""
