@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 2D-Transformation
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Transformation 2D](transformation-2d.resources/transformation-2d-01.png "Atomknoten: Transformation 2D"){width="200px"}
+![Atomknoten: Transformation 2D](../../../../assets/comp_transformation_1.png "Atomknoten: Transformation 2D"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ Es kann jedoch für bestimmte Anwendungen nicht perfekt geeignet sein, sodass di
 > 
 > Legen Sie die [Vererbung-Methode](../../../../glossary/glossary.md) des [Basisparameters &#x200B;](../../../../glossary/glossary.md) für den &#39;Kachelung-Modus&#39; auf &#39;Absolut&#39; fest. Dann können Sie den Parameterwert auf &#39;Keine Kachelung&#39; festlegen:
 > 
-> ![](transformation-2d.resources/transformation-2d-02.png)
+> ![](../../../../assets/tilingmode.png)
 
 >[!NOTE]
 >

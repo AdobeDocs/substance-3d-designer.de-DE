@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Graphenparameter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 1%
@@ -41,7 +41,7 @@ Die Werte der Basisparameter des Diagramms hängen wiederum vom Kontext ab, in d
 </td>
 <td style="border: 0;" valign="top">
 
-![Basisparameter](graph-parameters.resources/graph-parameters-01.png "Basisparameter"){width="512px" zoomable="yes"}
+![Basisparameter](../../assets/doc-graph-props-base-params.png "Basisparameter"){width="512px" zoomable="yes"}
 
 </td>
 </tr>
@@ -53,11 +53,11 @@ In den meisten Fällen spielt die Vererbung eine wichtige Rolle bei der Definiti
 
 |                      |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |:---------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>Ausgabegröße</b> | Mit diesem Parameter können Sie die *Basisauflösung* von Bildern im Diagramm auswählen.  Verwenden Sie die <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/graph-parameters-02.jpg"/></div> Sperrschaltfläche, damit die Höhen- und Breitenwerte übereinstimmen und das Bild quadratisch bleibt, wenn Größenanpassungen vorgenommen werden.<br><br>*Standard: (0,0) - Relativ zu übergeordnetem* [Weitere Informationen](../../compositing-graphs/output-size/output-size.md) |
+| <b>Ausgabegröße</b> | Mit diesem Parameter können Sie die *Basisauflösung* von Bildern im Diagramm auswählen.  Verwenden Sie die <div><img data-preserve-html="true" height="22" src="../../assets/props-output-size-lock.jpg"/></div> Sperrschaltfläche, damit die Höhen- und Breitenwerte übereinstimmen und das Bild quadratisch bleibt, wenn Größenanpassungen vorgenommen werden.<br><br>*Standard: (0,0) - Relativ zu übergeordnetem* [Weitere Informationen](../../compositing-graphs/output-size/output-size.md) |
 | <b>Ausgabeformat</b> | Ermöglicht die Auswahl von *base Bittiefe* im Diagramm aus den folgenden Optionen:<ul data-preserve-html="true"><li data-preserve-html="true">8 Bit</li><li data-preserve-html="true">16 Bit</li><li data-preserve-html="true">HDR Low Precision 16F (16-Bit-Gleitkomma)</li><li data-preserve-html="true">HDR High Precision 32F (32-Bit-Gleitkomma)</li></ul>*Standard: 8 Bit pro Kanal - relativ zum übergeordneten Element* |
 | <b>Pixelgröße</b> | Definiert die Pixelgröße. Es wird empfohlen, die **Width**- und **Height**-Werte auf **1** festzulegen.*Standard: (1,1) - Relativ zu übergeordnetem* |
 | <b>Mustermodus</b> | Definiert den Basis-*Kachelmodus* im Diagramm anhand der folgenden Optionen:<ul data-preserve-html="true"> <li data-preserve-html="true">Kein Wiederholen</li> <li data-preserve-html="true">Horizontales Wiederholen</li> <li data-preserve-html="true">Vertikales Wiederholen</li> <li data-preserve-html="true">H+V Kacheln (d. h. horizontal und vertikal)</li> </ul>*Standard: H- und V-Kachelung - Relativ zu übergeordnetem Element* |
-| <b>Zufallswert</b> | Definiert die Basis *Zufallswert* für das Diagramm.  Verwenden Sie die <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/graph-parameters-03.jpg"/></div> Schaltfläche, um dem zufälligen Seed einen neuen zufälligen Wert zuzuweisen.<br><br>*Standard: 0 - Relativ zu übergeordnetem* |
+| <b>Zufallswert</b> | Definiert die Basis *Zufallswert* für das Diagramm.  Verwenden Sie die <div><img data-preserve-html="true" height="22" src="../../assets/prop-randomise.jpg"/></div> Schaltfläche, um dem zufälligen Seed einen neuen zufälligen Wert zuzuweisen.<br><br>*Standard: 0 - Relativ zu übergeordnetem* |
 
 <table>
 <tr style="border: 0;">
@@ -72,7 +72,7 @@ Der Abschnitt <b>Attribute</b> enthält *Metadaten* für das Diagramm, das Infor
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Graph-Attribute](graph-parameters.resources/graph-parameters-04.png "Graph-Attribute"){zoomable="yes"}
+![Graph-Attribute](../../assets/doc-graph-props-attributes.png "Graph-Attribute"){zoomable="yes"}
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ Alle für das Diagramm spezifischen Parameter, einschließlich [verfügbar gemac
 </td>
 <td style="border: 0;" valign="top">
 
-![Eingabeparameter](graph-parameters.resources/graph-parameters-05.png "Eingabeparameter"){zoomable="yes"}
+![Eingabeparameter](../../assets/doc-graph-props-input-parameters.png "Eingabeparameter"){zoomable="yes"}
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ Sie können die Reihenfolge der Elemente ändern, indem Sie ganz links auf den A
 </td>
 <td style="border: 0;" valign="top">
 
-![Eingaben](graph-parameters.resources/graph-parameters-06.png "Eingaben"){zoomable="yes"}
+![Eingaben](../../assets/doc-graph-props-inputs.png "Eingaben"){zoomable="yes"}
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ Sie können die Reihenfolge der Elemente ändern, indem Sie ganz links auf den A
 </td>
 <td style="border: 0;" valign="top">
 
-![Ausgaben](graph-parameters.resources/graph-parameters-07.png "Ausgaben"){zoomable="yes"}
+![Ausgaben](../../assets/doc-graph-props-outputs.png "Ausgaben"){zoomable="yes"}
 
 </td>
 </tr>

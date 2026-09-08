@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Schmutz
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-concrete.resources/grunge-concrete-01.jpg){width="200px"}
+![](../../../../../../assets/grungeconcrete.jpg){width="200px"}
 
 <b>In:</b> Texturgeneratoren > Rauschen
 
@@ -52,17 +52,17 @@ Der Knoten **Schmutz Concrete** generiert eine Schmutz-Map, die dem Höhen-Map e
 | <b>Erweitert</b> |  |
 | <b>Basisrauschen</b> <i>Gleitend</i> | Passt das Rauschen der Basis-Textur an. |
 | <b>Dirt prüft Deckkraft</b> <i>Gleitend</i> | Passt die Deckkraft der Flecken des Dirts an. |
-| <b>Dirt umkehren</b> <i>Boolescher Wert</i> | Kehrt die Auswirkung der Flecken des Dirts um. |
-| <b>Deckkraft der Scratches</b> <i>Gleitend</i> | Passt die Deckkraft der Kratzer an. |
-| <b>Scharfzeichnen</b> <i>Gleitend</i> | Passt die Intensität des Scharfzeichnungseffekts an, der auf das Bild angewendet wird. |
-| <b>Große Variationsintensität</b> <i>Gleitend</i> | Passt die großen (niedrigen) Variationen an, die auf die Basis-Textur angewendet werden. |
+| <b>Dirt umkehren</b> <i>Boolesche Wert</i> | Kehrt die Auswirkung der Flecken des Dirts um. |
+| <b>Deckkraft der Scratches</b> <i>Fließkommazahl</i> | Passt die Deckkraft der Kratzer an. |
+| <b>Scharfzeichnen</b> <i>Fließkommazahl</i> | Passt die Intensität des Scharfzeichnungseffekts an, der auf das Bild angewendet wird. |
+| <b>Große Variationsintensität</b> <i>Fließkommazahl</i> | Passt die großen (niedrigen) Variationen an, die auf die Basis-Textur angewendet werden. |
 
 ## Beispiele
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-concrete.resources/grunge-concrete-02.jpg" />
+            <img src="../../../../../../assets/grungeconcrete-variant.jpg" />
         </td>
     </tr>
 </table>

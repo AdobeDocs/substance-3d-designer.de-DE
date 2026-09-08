@@ -1,7 +1,7 @@
 ---
 title: Shape Splater v2 Mapper Graustufen
 description: Designer > Substance-Compositing-Grafen > Knotenreferenz für Substance-Compositing-Grafen > Knotenbibliothek > Generator > Muster > Shape-Splater v2 mapper grayscale
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1766'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Graustufen-Symbol für Shape-Splatter v2-Zuordnungs-Graustufen](./shape-splatter-v2-mapper-grayscale.resources/shape-splatter-v2-mapper-grayscale-01.png "Graustufen-Symbol für Shape-Splatter v2-Zuordnungs-Graustufen")
+![Graustufen-Symbol für Shape-Splatter v2-Zuordnungs-Graustufen](./shape-splatter-v2-mapper-grayscale.resources/shape-splatter-v2-mapper-grayscale.png "Graustufen-Symbol für Shape-Splatter v2-Zuordnungs-Graustufen")
 
 <b>In:</b> Generator > Pattern
 
@@ -102,6 +102,6 @@ Siehe auch [Zuordnungsfarbe für Shape-Splatter v2](../shape-splatter-v2-mapper-
 | <b>Mustermodus</b> *Integer* | Die Achsen, entlang denen die Textur wiederholt werden soll:<br> - <b>Keine Unterteilung</b><br> - <b>Horizontale Unterteilung</b><br> - <b>Vertikale Unterteilung</b><br> - <b>H und V Unterteilung</b>: Kombinierte horizontale und vertikale Kachelung. |
 | <b>UV-Kachelung</b> *Gleitend* | Passt die globale Unterteilung der Bilder an, die den Formen zugeordnet werden.<br><br>Höhere Werte führen zu mehr Wiederholungen. |
 | <b>UV-Skalierung</b> *Float2* | Passt die Unterteilung der Bilder, die den Formen zugeordnet sind, nach dem angegebenen Faktor an, mit separaten Steuerelementen für die U- und V-Skalierung. Höhere Werte führen zu mehr Wiederholungen. |
-| <b>UV-Versatz</b> *Float2* | Wendet einen Versatz auf die Zuordnung der Bilder zwischen den Formen an, wodurch eine Feinanpassung der Positionierung der Bilder auf den Formen möglich ist.<br><br>Dieser Offset wird dem <b>zufälligen Offset</b> hinzugefügt, falls vorhanden. |
-| <b>Zufälliger Versatz</b> *Gleitend* | Wendet einen zufälligen positiven oder negativen Versatz <i> pro Form </i> auf die Zuordnung der Bilder zwischen den Formen an, bis zum angegebenen Wert.<br><br>Dieser Offset wird dem <b>UV-Versatz</b> hinzugefügt, falls vorhanden. |
+| <b>UV-Versatz</b> *Fließkommazahl2* | Wendet einen Versatz auf die Zuordnung der Bilder zwischen den Formen an, wodurch eine Feinanpassung der Positionierung der Bilder auf den Formen möglich ist.<br><br>Dieser Offset wird dem <b>zufälligen Offset</b> hinzugefügt, falls vorhanden. |
+| <b>Zufälliger Versatz</b> *Fließkommazahl* | Wendet einen zufälligen positiven oder negativen Versatz <i> pro Form </i> auf die Zuordnung der Bilder zwischen den Formen an, bis zum angegebenen Wert.<br><br>Dieser Offset wird dem <b>UV-Versatz</b> hinzugefügt, falls vorhanden. |
 

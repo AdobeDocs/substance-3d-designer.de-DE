@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Lecks
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](leaks.resources/leaks-01.png){width="128px"}
+![](../../../../../../assets/leaks.png){width="128px"}
 
 <b>In:</b> Mesh-basierte Generatoren > Maskengenerator
 
@@ -74,7 +74,7 @@ Stellen Sie sicher, dass Sie die Variationsmaske ändern: Da sie die Platzierung
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="leaks.resources/leaks-02.gif" />
+            <img src="../../../../../../assets/leaks-ex.gif" />
         </td>
     </tr>
 </table>

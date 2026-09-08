@@ -10,7 +10,7 @@ helpx_tags: ""
 title: RICHTUNGSRAUSCHEN 4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Richtungsrauschen 4 - Symbol](directional-noise-4.resources/directional-noise-4-01.png "Richtungsrauschen 4 - Symbol"){width="200px"}
+![Richtungsrauschen 4 - Symbol](../../../../../../assets/directional_noise_4.png "Richtungsrauschen 4 - Symbol"){width="200px"}
 
 <b>In:</b> Texturgeneratoren > Rauschen
 
@@ -71,12 +71,12 @@ Siehe auch: [Richtungsrauschen 1](../../../../../../compositing-graphs/nodes-ref
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Richtungsrauschen 4 - Beispiel 1](directional-noise-4.resources/directional-noise-4-02.png "Richtungsrauschen 4 - Beispiel 1"){zoomable="yes"}
+![Richtungsrauschen 4 - Beispiel 1](../../../../../../assets/directional_noise_4_1.png "Richtungsrauschen 4 - Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Richtungsrauschen 4 - Beispiel 2](directional-noise-4.resources/directional-noise-4-03.gif "Richtungsrauschen 4 - Beispiel 2"){zoomable="yes"}
+![Richtungsrauschen 4 - Beispiel 2](../../../../../../assets/noise_directional_noise_4_v2_speed0.6_aniso0.gif "Richtungsrauschen 4 - Beispiel 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -86,12 +86,12 @@ Siehe auch: [Richtungsrauschen 1](../../../../../../compositing-graphs/nodes-ref
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Richtungsrauschen 4 - Beispiel 3](directional-noise-4.resources/directional-noise-4-04.gif "Richtungsrauschen 4 - Beispiel 3"){zoomable="yes"}
+![Richtungsrauschen 4 - Beispiel 3](../../../../../../assets/noise_directional_noise_4_v2_speed0.6_aniso1.gif "Richtungsrauschen 4 - Beispiel 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Richtungsrauschen 4 - Beispiel 4](directional-noise-4.resources/directional-noise-4-05.gif "Richtungsrauschen 4 - Beispiel 4"){zoomable="yes"}
+![Richtungsrauschen 4 - Beispiel 4](../../../../../../assets/noise_directional_noise_4_v2_speed0.3_aniso0.6.gif "Richtungsrauschen 4 - Beispiel 4"){zoomable="yes"}
 
 </td>
 </tr>

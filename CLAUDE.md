@@ -1,7 +1,7 @@
 ---
-source-git-commit: e44437dcecf30714ffe5274c91135d84a0360aa7
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Dieses Repository enthält die Dokumentation für Substance 3D Designer. Es ist 
 
 * `help/` — der gesamte Dokumentationsinhalt, der so organisiert ist, dass er das Inhaltsverzeichnis spiegelt.
 * `help/guide/TOC.md` - das Inhaltsverzeichnis. Jeder Eintrag ist ein relativer Link (der auf `/help/...` verwurzelt ist) zur Markdown-Datei einer Seite. `TOC.md` enthält auch Seitenstruktur-Metadaten (`user-guide-title`, `breadcrumb-title`, `nudge`, Abschnittsanker wie `{#section-id}`).
-* `help/assets/` - Legacy-Ordner für freigegebene Bilder. Seitenspezifische Medien befinden sich jetzt in einem gleichrangigen Ordner für jede Seite `<md-file-name>.resources/` (siehe Ordner-/Inhaltsverzeichniskonvention unten). Nur eine Handvoll übriger Bilder, die von keiner Seite referenziert werden, sind noch hier zu finden. Legen Sie neue Bilder im Ordner &quot;`.resources`&quot; der Seite &quot;Verwenden&quot; ab, nicht hier.
+* `help/assets/` - freigegebene, nicht seitenspezifische Bilder (z. B. App-Symbole, die auf mehreren Seiten wiederverwendet werden).
 * `help/glossary/glossary.md` - eine einzelne große Glossarseite, alphabetisch geordnet mit Ankerbereichen (`<span id="term"></span>`), die für die Vernetzung über `#term` Fragmente verwendet werden.
 * `metadata.md` - Titelblatt auf Repo-Ebene (Cloud/Lösung/Produkt-IDs, `git-repo` usw.) die von jedem `TOC.md` geerbt wird. Nur für repo-weite Metadatenänderungen bearbeiten; seitenspezifische Metadaten gehören zum eigenen Titelblatt der Seite.
 * `redirects.csv`, `linkcheckexclude.json`, `markdownlint_custom.json`, `pipeline.opts` — Konfiguration der Publishing-Pipeline (Umleitungen, Ausnahmen bei der Linkprüfung, Überschreibungen der Lint-Regel, Pipelineoptionen).
@@ -31,10 +31,6 @@ Für jeden Eintrag in `help/guide/TOC.md`:
 * Wenn die Seite über individuelle Medien (Bilder, GIF, Videos) verfügt, befindet sie sich in einem gleichgeordneten Unterordner mit dem Namen `<md-file-name>.resources`.
 
 Wenn Sie eine Seite hinzufügen oder verschieben, aktualisieren Sie `TOC.md` und das Ordnerlayout gemeinsam - sie müssen synchron bleiben.
-
-## Knotenreferenzseiten
-
-Die Knotenbibliotheksbäume (z. B. `help/compositing-graphs/nodes-reference-for-com/node-library/<category>/<node>/<node>.md`) sind ein eigenständiger Seitentyp mit einem eigenen, konsistenten Layout: eine Symbol-/Beschreibungstabelle, gefolgt von verankerten `## Inputs` / `## Outputs` / `## Parameters` HTML (`#inputs`/`#outputs`/`#parameters`) und einer `## Examples`-Galerie. Sie verwenden das **minimal**-Titelblatt (nur `title` + `description`), nicht den unten stehenden regulären Inhaltsseitenblock, der `.../texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md` nachempfunden ist. Eingebettete Medien (Symbol, Beispielbilder/GIF) befinden sich in einem gleichrangigen Ordner &quot;`<node-name>.resources/`&quot; neben der Seite, auf den relativ verwiesen wird. Verwenden Sie die `generate-node-documentation`-Kenntnisse (sofern vorhanden) für die vollständige Authoring-Vorlage.
 
 ## Titelblatt der Seite
 

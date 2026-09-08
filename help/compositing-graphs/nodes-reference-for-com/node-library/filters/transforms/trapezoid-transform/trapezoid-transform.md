@@ -1,16 +1,16 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/trapezoid-transform.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Trapezform , um Texturen eine trapezförmige Verzerrung zuzuweisen, um perspektivische Korrektureffekte zu erstellen.
+description: Verwenden Sie den Knoten Trapezzeichen Transformieren , um Texturen eine trapezförmige Verzerrung zuzuweisen, um Perspektiven-Korrektureffekte zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Trapezoid Transform
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Trapezform
+title: Trapez-Transformieren
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 6%
@@ -18,15 +18,15 @@ ht-degree: 6%
 ---
 
 
-# Trapezform
+# Trapez-Transformieren
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](trapezoid-transform.resources/trapezoid-transform-01.png){width="128px"}
+![](../../../../../../assets/trapeze-transform.png){width="128px"}
 
-![](trapezoid-transform.resources/trapezoid-transform-02.png){width="128px"}
+![](../../../../../../assets/trapeze-transform-grayscale.png){width="128px"}
 
 <b>In:</b> Filter > Transformieren
 
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 ## Beschreibung
 
-Spezieller Transformationsknoten, der die Eingabe perspektivisch/trapezförmig verzerrt ändert. Verfügt über Steuerelemente für die Dehnung Oben und Unten. Werte können über Grenzen hinaus verschoben werden, um stärkere Effekte zu erzielen.
+Spezieller transformieren-Knoten, der die Eingabe in einer Perspektive-/Trapezverzerrungsart ändert. Hat die Steuerung für &quot;Oben&quot; und &quot;Unten&quot; gedehnt. Werte können über Grenzen hinaus verschoben werden, um stärkere Effekte zu erzielen.
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ Spezieller Transformationsknoten, der die Eingabe perspektivisch/trapezförmig v
 |:---|:---|
 | <b>Top Dehn</b> <i>0.0 - 1.0</i> | Lege die Stärke des dehn- oder Squashs oben fest. |
 | <b>Unten Gedehnt</b> <i>0.0 - 1.0</i> | Stellen Sie die dehn- oder Squash-Menge an der Schaltfläche ein. |
-| <b>Hintergrundfarbe</b> <i>(Graustufen-/Farbwert)</i> | Legen Sie eine einfarbige Hintergrundfarbe fest, falls die Unterteilung deaktiviert ist. |
+| <b>Hintergrundfarbe</b> <i>(Graustufen-/Farbwert)</i> | Legen Sie eine einfarbige Hintergrundfarbe fest, falls die Kachelung deaktiviert ist. |
 | <b>Sampling</b> <i>Bilinear, nächstgelegen</i> | Legen Sie die Samplingqualität fest. |
 
 ## Beispiele
@@ -57,7 +57,7 @@ Spezieller Transformationsknoten, der die Eingabe perspektivisch/trapezförmig v
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="trapezoid-transform.resources/trapezoid-transform-03.gif" />
+            <img src="../../../../../../assets/trapeze-example.gif" />
         </td>
     </tr>
 </table>

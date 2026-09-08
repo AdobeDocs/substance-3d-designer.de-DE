@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Diagrammerstellung-Etikette
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Knotenelemente sind Knotenobjekte, die neben und um die Graf in [der Graphansich
 
 Die wichtigste Sache, die zu saubereren, leichter lesbaren Grafen führt, ist die Platzierung von Rahmen um Kerngruppen Ihres Grafen. Ohne Rahmen ist ein großer Graf fast unlesbar, und selbst kleine Grafen werden viel leichter verständlich, sobald man Rahmen zeichnet. Ein großer Vorteil von Rahmen besteht darin, dass ihre <b> Namen immer in der gleichen Skalierung gerendert werden</b>, auch wenn Sie sehr weit auszoomen.
 
-![Rahmen in Substance-Grafen](graph-creation-etiquette.resources/graph-creation-etiquette-01.gif "Rahmen in Substance-Grafen")
+![Rahmen in Substance-Grafen](../../assets/frames.gif "Rahmen in Substance-Grafen")
 
 Rahmen machen es viel leichter zu verstehen, was in einem Graf vor sich geht. Sie können Ihnen als Autor dabei helfen, Monate später auf Ihre Arbeit zurückzukommen, oder einem anderen Nutzer, z. B. einer Kollegin, bei der Suche nach einem Graf, an den sie nicht gewöhnt sind.
 
@@ -51,37 +51,37 @@ Verwenden Sie beim Platzieren von Rahmen die folgenden Kriterien:
 Kommentare und Nadeln sind für Rahmen nur nebensächlich und für gut verfasste Graf kein absolutes Muss. Sie können in den folgenden Szenarien verwendet werden:
 
 * Kommentare eignen sich gut, um zusätzlichen Text hinzuzufügen, der über die Beschreibung eines Rahmens hinausgeht. Sie können kleine Textteile pro Knoten hinzufügen, meistens für kleine, detaillierte Informationen. Kommentare lassen sich nicht gut skalieren und werden nicht von einem entfernten Zoomfaktor gelesen.
-* Mit den Navigations-Nadeln können Sie mit dem F2-Tastaturbefehl durch bestimmte Bereiche des Grafen blättern. Dies kann für sehr große Grafen nützlich sein, bei denen man oft zwischen zwei Bereichen springen muss, die sehr weit voneinander entfernt sind.
+* Mit Navigationspunkten können Sie mit dem Tastaturbefehl F2 durch bestimmte Bereiche des Diagramms blättern. Dies kann für sehr große Diagramme nützlich sein, bei denen man oft zwischen zwei Bereichen springen muss, die sehr weit voneinander entfernt sind.
 
 ### Eingabe- und Ausgabeplatzierung
 
-Die Ein- und Ausgänge sollten an den äußersten Enden der Grafen platziert werden: Alle Ausgänge auf der rechten Seite, alle Eingänge auf der linken Seite, jeder vertikal ausgerichtet. Dadurch lassen sie sich leichter finden und identifizieren.
+Die Ein- und Ausgänge müssen an den äußersten Enden der Diagramme platziert werden: Alle Ausgänge auf der rechten Seite, alle Eingänge auf der linken Seite, jeder vertikal ausgerichtet. Dadurch lassen sie sich leichter finden und identifizieren.
 
-![Eingabe- und Ausgabeplatzierung](graph-creation-etiquette.resources/graph-creation-etiquette-02.gif "Eingabe- und Ausgabeplatzierung")
+![Eingabe- und Ausgabeplatzierung](../../assets/inout.gif "Eingabe- und Ausgabeplatzierung")
 
-Das obige Beispiel ist ein Extremfall: Rahmen sind nicht immer nötig oder möglich, aber es sollte klar sein, dass die vertikale Ausrichtung von In- und Output viel klarer ist als die zufällige, gemischte Platzierung.
+Das obige Beispiel ist ein Extremfall: Frames werden nicht immer benötigt oder möglich, aber es sollte klar sein, dass die vertikale Ausrichtung von In- und Output viel klarer ist als die zufällige, gemischte Platzierung.
 
 ### Umleiten von Verknüpfungen
 
-In großen, sehr langen Grafen werden manchmal Verknüpfungen über einen sehr großen Bereich erstellt. Dies führt zu Verwirrung Link-Leitungen durch den Graf ohne viel Kontrolle. Mit dem Tastaturbefehl &quot;Alt + Umschalt + Ziehen&quot; können Sie diese Links neu organisieren und auf einem anderen Pfad umleiten, indem Sie einen Link unterteilen und einen zusätzlichen Handle in der Mitte hinzufügen. Es wird empfohlen, dies in Szenarien zu verwenden, in denen es sinnvoll ist.
+Bei großen, sehr langen Diagrammen werden manchmal Verknüpfungen über einen sehr großen Bereich hinweg erstellt. Dies führt zu Verwirrung, wenn Verknüpfungsdrähte den Graph ohne viel Kontrolle durchqueren. Mit der Tastenkombination &quot;Alt + Umschalt + Ziehen&quot; können Sie diese Links neu organisieren und auf einem anderen Pfad umleiten, indem Sie einen Link unterteilen und einen zusätzlichen Handle in der Mitte hinzufügen. Es wird empfohlen, dies in Szenarien zu verwenden, in denen es sinnvoll ist.
 
-![Link-Umleitung](graph-creation-etiquette.resources/graph-creation-etiquette-03.gif "Link-Umleitung")
+![Link-Umleitung](../../assets/linkjreroute.gif "Link-Umleitung")
 
 ### Bezeichnung, Kennung und Verwendung
 
-Für jeden Graf, der für die Freigabe oder Veröffentlichung vorgesehen ist, sollten die zusätzlichen Metadaten mit der richtigen Sorgfalt erstellt werden, um die Benutzerfreundlichkeit zu verbessern. Folgende Punkte sind wichtig:
+Alle Diagramme, die für die Freigabe oder Veröffentlichung bestimmt sind, sollten mit der nötigen Sorgfalt in die zusätzlichen Metadaten eingefügt werden, um die Benutzerfreundlichkeit zu verbessern. Folgende Punkte sind wichtig:
 
-Die standardmäßig vorgeschlagenen Beschriftungen reichen nie aus. Nehmen Sie sich die Zeit und Mühe, benutzerdefinierte Beschriftungen zu freigelegten Parametern und Ihren In- und Ausgaben hinzuzufügen.
+Die vorgeschlagenen Standardbezeichnungen reichen nie aus. Nehmen Sie sich die Zeit und Mühe, den angezeigten Parametern und Ihren In- und Ausgaben benutzerdefinierte Bezeichnungen hinzuzufügen.
 
-![Identifizierung und Bezeichnung](graph-creation-etiquette.resources/graph-creation-etiquette-04.png "Identifizierung und Bezeichnung")
+![Bezeichner und Bezeichnung](../../assets/output-label.png "Bezeichner und Bezeichnung")
 
-Versuchen Sie, die Identifizierung und die Beschriftung nicht zu sehr zu unterscheiden: Wenn die Identifizierung an anderer Stelle (in mehreren Funktionen) verwendet wird, kann es sehr schwierig sein, herauszufinden, welche UI-Eigenschaft mit welcher Variablen verknüpft ist.
+Versuchen Sie, keine Kennzeichnung zu haben, und die Beschriftung unterscheidet sich zu stark: Wenn der Bezeichner an einer anderen Stelle (in mehreren Funktionen) verwendet wird, kann es sehr schwierig sein, herauszufinden, welche UI-Eigenschaft mit welcher Variablen verknüpft ist.
 
-![Klarheit der Identifizierung](graph-creation-etiquette.resources/graph-creation-etiquette-05.png "Klarheit der Identifizierung")
+![Klarheit des Bezeichners](../../assets/labelvsidentifier.png "Klarheit des Bezeichners")
 
-Versuchen Sie, Ihre Beschriftungen den Begriffen zuzuordnen, die Sie in Rahmen (Kommentarbeschriftungen) und Rahmen verwenden. Es erleichtert, herauszufinden, welcher Abschnitt des Diagramms mit welchem exponierten Parameter verknüpft ist
+Versuchen Sie, die Beschriftungen den Begriffen in Frames (Frame-Beschriftungen) und Kommentaren anzupassen. Es erleichtert, herauszufinden, welcher Abschnitt des Diagramms mit welchem exponierten Parameter verknüpft ist
 
-![Übereinstimmende Bild- und Parameterbezeichnungen](graph-creation-etiquette.resources/graph-creation-etiquette-06.png "Übereinstimmende Bild- und Parameterbezeichnungen")
+![Übereinstimmende Bild- und Parameterbezeichnungen](../../assets/match-labels.png "Übereinstimmende Bild- und Parameterbezeichnungen")
 
 ### Parametereinstellungen
 
@@ -103,7 +103,7 @@ Bei der Verwendung von Farb- und Graustufendaten ist große Sorgfalt erforderlic
 * Idealerweise werden Daten so lange wie möglich in Graustufen gespeichert und nur dann konvertiert, wenn sie unbedingt benötigt werden. Dies reduziert die Komplexität und spart Performance.
 * Die Ein- und Ausgaben sollten mit dem richtigen Typ erstellt oder eingerichtet werden: Es ist z. B. nicht sinnvoll, den &quot;mask&quot;-Eingang auf color festzulegen, wenn er zur Verwendung als binäre Maske in Graustufen konvertiert wird.
 
-![Farb- und Graustufenkonvertierungen](graph-creation-etiquette.resources/graph-creation-etiquette-07.png "Farb- und Graustufenkonvertierungen")
+![Farb- und Graustufenkonvertierungen](../../assets/colorgray01.png "Farb- und Graustufenkonvertierungen")
 
 ### Auflösungssteuerung
 
@@ -112,5 +112,5 @@ Die Steuerung der Auflösung eines [Substance-Graphen](../../compositing-graphs/
 [Um dieses Thema vollständig zu verstehen, stellen Sie sicher, dass Sie über absolute und relative Ausgabegrößen Bescheid wissen.](../../compositing-graphs/output-size/output-size.md)
 
 * Ein Diagramm sollte in fast allen Fällen auf die Auflösung &quot;Relativ zu übergeordnetem Element&quot; eingestellt werden, es sei denn, es gibt eine sehr spezifische Ausnahme, in der es nicht erforderlich ist (sehr selten).
-* Knoten sollten im Allgemeinen keine Überschreibungseinstellungen für die Ausgabegröße haben. Die Auflösung lässt sich in den meisten Fällen am besten über die Eigenschaften &quot;Übergeordnet&quot; oder &quot;Diagramm&quot; steuern.
-* Bei Bitmaps sollte besonders darauf geachtet werden, dass sich die Standardeinstellung &quot;Absolute Ausgabegröße&quot; nicht über den gesamten Graphen erstreckt. Diese Einstellung sollte auf &quot;Relativ zu übergeordnetem&quot; Wert überschrieben werden. Dies ist eine der wenigen Ausnahmen von der oben genannten Regel.
+* Knoten sollten im Allgemeinen keine Überschreibungseinstellungen für die Ausgabegröße haben. Die Auflösung lässt sich in den meisten Fällen am besten über die Eigenschaften &quot;Übergeordnet&quot; oder &quot;Graf&quot; steuern.
+* Bei Bitmaps sollte besonders darauf geachtet werden, dass die Standardeinstellung &quot;Absolute Ausgabegröße&quot; nicht über den gesamten Graf verteilt wird. Diese Einstellung sollte auf &quot;Relativ zum übergeordneten Element&quot; überschrieben werden. Dies ist eine der wenigen Ausnahmen von der oben genannten Regel.

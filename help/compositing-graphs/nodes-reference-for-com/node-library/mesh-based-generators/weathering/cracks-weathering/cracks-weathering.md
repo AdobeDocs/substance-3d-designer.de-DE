@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Risse Verwitterung
+title: Risse, die wettern
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 6eb38d6ccaadda1d070e4e0b67311312adb7d082
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 3%
@@ -18,13 +18,13 @@ ht-degree: 3%
 ---
 
 
-# Risse Verwitterung
+# Risse, die wettern
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](cracks-weathering.resources/cracks-weathering-01.png){width="128px"}
+![](../../../../../../assets/cracks-weathering.png){width="128px"}
 
 <b>In:</b> Mesh-basierte Generatoren > Verwitterung
 
@@ -57,7 +57,7 @@ Vergewissern Sie sich, dass Sie die [Verknüpfungserstellungsmodi](../../../../.
 
 |  |  |
 |:---|:---|
-| <b>Kanäle</b> | Schalten Sie die Material-Kanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanz-Maps anstelle von &quot;Metallic/Rauheit&quot; verwenden. |
+| <b>Kanäle</b> | Schalten Sie die Materialkanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanzkarten anstelle von &quot;Metallisch/Raueit&quot; verwenden. |
 | <b>Erweitert</b> |  |
 | <b>Normales Format</b> <i>DirectX, OpenGL</i> | Wechselt zwischen verschiedenen Normalmap-Formaten (invertiert den grünen Kanal). |
 | <b>Maske</b> <i>False/True</i> | Schaltet die Verwendung der Maskenkarte ein oder aus. |
@@ -71,7 +71,7 @@ Vergewissern Sie sich, dass Sie die [Verknüpfungserstellungsmodi](../../../../.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="cracks-weathering.resources/cracks-weathering-02.gif" />
+            <img src="../../../../../../assets/cracks-ex.gif" />
         </td>
     </tr>
 </table>

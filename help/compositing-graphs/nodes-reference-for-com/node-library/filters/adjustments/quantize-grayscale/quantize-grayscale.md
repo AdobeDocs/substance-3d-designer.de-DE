@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Graustufen quantisieren
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Symbol &quot;Graustufen quantisieren&quot;](quantize-grayscale.resources/quantize-grayscale-01.png "Symbol &quot;Graustufen quantisieren&quot;"){width="200px"}
+![Symbol &quot;Graustufen quantisieren&quot;](../../../../../../assets/quantize-grayscale.png "Symbol &quot;Graustufen quantisieren&quot;"){width="200px"}
 
 <b>In:</b> Filters > Adjustments
 
@@ -52,6 +52,6 @@ Erzeugt einen einzelnen Spline-Effekt in Form eines Kreises.
 
 ## Beispiele
 
-![Beispiel 1](quantize-grayscale.resources/quantize-grayscale-02.gif "Beispiel 1")
+![Beispiel 1](../../../../../../assets/quantizegrayscale.gif "Beispiel 1")
 
-![Beispiel 2](quantize-grayscale.resources/quantize-grayscale-03.png "Beispiel 2")
+![Beispiel 2](../../../../../../assets/quantizegrayscale.png "Beispiel 2")

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knotenpunkt "Form-Spritzer", um Formen in Streuungen über Texturen hinweg anzuordnen, um prozedurale Muster und Details zu erstellen.
+description: Verwenden Sie den Knoten "Formaufteilung", um Formen über Texturen hinweg Streuung und so prozedurale Muster und Details zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Splatter
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Formaufteilung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 7%
@@ -24,18 +24,18 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape-splatter.resources/shape-splatter-01.png){width="128px"}
+![](../../../../../../assets/shape-splatter.png){width="128px"}
 
-<b>In:</b> Texturgeneratoren > Muster
+<b>In:</b> Texturen > Muster generieren
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Ein sehr komplexer Knoten, der für die Verwendung mit den zugehörigen Knoten [Shape Splatter Blend](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-blend/shape-splatter-blend.md), [Shape Splatter to Mask](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-to-mask/shape-splatter-to-mask.md) und [Shape Splatter Data Extract](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-data-ext/shape-splatter-data-extract.md) entwickelt wurde. Wird verwendet, um Formen ähnlich wie [Sampler anordnen](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) oder [Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) zu spritzen, jedoch mit einem dynamischen, nicht-destruktiven Prozess, der die Kontrolle über jeden Schritt über ein mehrstufiges System ermöglicht, das dem [Flood Fill ähnelt.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) Während der Flood Fill eine Basiseingabekarte aus einer externen Quelle verwendet, generiert Shape Splatter die Zuordnung und die darauf folgenden Daten in einem einzigen Schritt als eine Art erweiterte Version von [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md).
+Ein sehr komplexer Knoten, der für die Verwendung mit den zugehörigen Knoten [Shape Splatter Überblendung](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-blend/shape-splatter-blend.md), [Shape Splatter to Mask](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-to-mask/shape-splatter-to-mask.md) und [Shape Splatter Data Extract](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-data-ext/shape-splatter-data-extract.md) entwickelt wurde. Wird verwendet, um Formen ähnlich wie [Sampler anordnen](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) oder [Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) zu spritzen, jedoch mit einem dynamischen, nicht-destruktiven Prozess, der die Kontrolle über jeden Schritt über ein mehrstufiges System ermöglicht, das dem [Flood Fill ähnelt.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) Während der Flood Fill eine Basis-Eingabe-Map aus einer externen Quelle verwendet, generiert Shape Splatter die Map und die darauf folgenden Daten in einem einzigen Schritt als eine Art erweitertere Version von [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md).
 
-Der Hauptzweck besteht darin, die Platzierung von Formen auf und gesteuert durch eine Height-Map zu ermöglichen und dann verschiedene Maps aus den Splatter-Daten zu generieren. Zum Beispiel das Platzieren von Felsen, Zweigen und Blättern auf einer Landschaft, orientiert und angetrieben von verschiedenen Karten. Verschiedene Maps können dann für Height, Normal, Grundfarbe, Raueit und jeden anderen Kanal verwendet werden, während alle immer noch auf den gleichen gemeinsamen Splatter-Daten basieren.
+Der Hauptzweck besteht darin, die Platzierung von Formen auf einer Höhen-Map zu ermöglichen, die von dieser gesteuert wird, und dann verschiedene Maps aus den Splatter-Daten zu generieren. Zum Beispiel das Platzieren von Felsen, Zweigen und Blättern auf einer Landschaft, orientiert und angetrieben von verschiedenen Karten. Verschiedene Maps können dann für Height, Normal, Grundfarbe, Rauheit und jeden anderen Kanal verwendet werden, während alle immer noch auf den gleichen gemeinsamen Splatter-Daten basieren.
 
 </td>
 </tr>

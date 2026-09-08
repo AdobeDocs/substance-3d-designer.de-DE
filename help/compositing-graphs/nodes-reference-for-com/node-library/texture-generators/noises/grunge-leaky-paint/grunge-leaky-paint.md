@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Schmutz Leaky Paint
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-leaky-paint.resources/grunge-leaky-paint-01.jpg){width="200px"}
+![](../../../../../../assets/grungeleakypaint.jpg){width="200px"}
 
 <b>In:</b> Texturgeneratoren > Rauschen
 
@@ -52,18 +52,18 @@ Der Knoten &quot;**Schmutz Leaky Paint**&quot; generiert eine Schmutz-Map, die d
 | <b>Erweitert</b> |  |
 | <b>Leckintensität</b> <i>Gleitend</i> | Passt die Dichte und Intensität der Tropfen an. |
 | <b>Leckskala</b> <i>Integer</i> | Passt die Skalierung der Tropfentrennung an. |
-| <b>Leckwinkel zufällig</b> <i>Gleitend</i> | Passt den maximalen Winkel von ** Tropfen an, der zufällig in *Windungszahl* gedreht werden kann. |
-| <b>Leck-Crispness</b> <i>Gleitend</i> | Passt die Genauigkeit und Schärfe der Tropfen an. |
+| <b>Leckwinkel zufällig</b> <i>Fließkommazahl</i> | Passt den maximalen Winkel von ** Tropfen an, der zufällig in *Windungszahl* gedreht werden kann. |
+| <b>Leck-Crispness</b> <i>Fließkommazahl</i> | Passt die Genauigkeit und Schärfe der Tropfen an. |
 
 ## Beispiele
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-leaky-paint.resources/grunge-leaky-paint-02.jpg" />
+            <img src="../../../../../../assets/grungeleakypaint-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-leaky-paint.resources/grunge-leaky-paint-03.jpg" />
+            <img src="../../../../../../assets/grungeleakypaint-variant2.jpg" />
         </td>
     </tr>
 </table>

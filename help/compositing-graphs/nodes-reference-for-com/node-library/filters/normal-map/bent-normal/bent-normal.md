@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Normal gebogen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Symbol für gebogenen normalen Knoten](bent-normal.resources/bent-normal-01.png "Symbol für gebogenen normalen Knoten")
+![Symbol für gebogenen normalen Knoten](../../../../../../assets/rt-bent-normal.png "Symbol für gebogenen normalen Knoten")
 
 <b>In:</b> Filters > Normalen-Map
 
@@ -62,7 +62,7 @@ Dieser Knoten sollte aufgrund der Berechnungszeit nicht in Kombination mit der C
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="bent-normal.resources/bent-normal-02.jpg" />
+            <img src="../../../../../../assets/bent-normal-ex-1.jpg" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Schmutz Scratches Rough
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-scratches-rough.resources/grunge-scratches-rough-01.jpg){width="200px"}
+![](../../../../../../assets/grungescratchesrough.jpg){width="200px"}
 
 <b>In:</b> Textur Generators > Rauschen
 
@@ -52,15 +52,15 @@ Der Knoten **Schmutz Scratches Rough** generiert eine Schmutz-Map, die einer gro
 | <b>Erweitert</b> |  |
 | <b>Kratzmenge</b> <i>Gleitend</i> | Stellt die Anzahl der Kratzer auf der Oberfläche ein. |
 | <b>Scratch-Kachelung</b> <i>Integer</i> | Passt die Kachelung an, die auf die Kratzer angewendet wird. |
-| <b>Scratch Blur</b> <i>Gleitend</i> | Passt die Unschärfe der Kratzer an. |
-| <b>Arbeitsbreite</b> <i>Gleitend</i> | Passt die Breite der Kratzer an. |
-| <b>Kratzlänge</b> <i>Gleitend</i> | Passt die Länge der Kratzer an. |
-| <b>Maskieren von Kratzern</b> <i>Gleitend</i> | Passt die Intensität der Maskierung an, die auf Teile der Kratzer angewendet wird. |
-| <b>Schmutzigkeit bei Kratzern</b> <i>Gleitend</i> | Stellt die Schmutzigkeit der Kratzer ein, wodurch Schärfe und Kontinuität unterbrochen werden. |
-| <b>Doppelter Kratzer</b> <i>Gleitend</i> | Passt die Deckkraft eines zweiten Kratzers, der mit einem leichten Verkrümmungseffekt neben jedem Kratzer angewendet wird, an. |
-| <b>Intensität der Kratzpunkte</b> <i>Gleitend</i> | Passt die Intensität der beschädigten Punkte an, die neben den Kratzern angewendet werden. |
-| <b>Scratch Spots-Kachelung</b> <i>Integer</i> | Stellt die Kachelung der beschädigten Punkte ein. |
-| <b>Intensität der Dust</b> <i>Gleitend</i> | Passt die Intensität der Überlagerung der Dust an. |
+| <b>Scratch Blur</b> <i>Fließkommazahl</i> | Passt die Unschärfe der Kratzer an. |
+| <b>Arbeitsbreite</b> <i>Fließkommazahl</i> | Passt die Breite der Kratzer an. |
+| <b>Kratzlänge</b> <i>Fließkommazahl</i> | Passt die Länge der Kratzer an. |
+| <b>Maskieren von Kratzern</b> <i>Fließkommazahl</i> | Passt die Intensität der Maskierung an, die auf Teile der Kratzer angewendet wird. |
+| <b>Schmutzigkeit bei Kratzern</b> <i>Fließkommazahl</i> | Stellt die Schmutzigkeit der Kratzer ein, wodurch Schärfe und Kontinuität unterbrochen werden. |
+| <b>Doppelter Kratzer</b> <i>Fließkommazahl</i> | Passt die Deckkraft eines zweiten Kratzers, der mit einem leichten Verkrümmungseffekt neben jedem Kratzer angewendet wird, an. |
+| <b>Intensität der Kratzpunkte</b> <i>Fließkommazahl</i> | Passt die Intensität der beschädigten Punkte an, die neben den Kratzern angewendet werden. |
+| <b>Scratch Spots-Kachelung</b> <i>Ganzzahl</i> | Stellt die Kachelung der beschädigten Punkte ein. |
+| <b>Intensität der Dust</b> <i>Fließkommazahl</i> | Passt die Intensität der Überlagerung der Dust an. |
 | <b>Dust Kachelung</b> <i>Integer</i> | Passt die Kachelung der Überlagerung der Dust an. |
 | <b>Intensität schärfen</b> <i>Gleitend</i> | Passt die Intensität des globalen Scharfzeichnungseffekts an. |
 
@@ -69,10 +69,10 @@ Der Knoten **Schmutz Scratches Rough** generiert eine Schmutz-Map, die einer gro
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-rough.resources/grunge-scratches-rough-02.jpg" />
+            <img src="../../../../../../assets/grungescratchesrough-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-rough.resources/grunge-scratches-rough-03.jpg" />
+            <img src="../../../../../../assets/grungescratchesrough-variant2.jpg" />
         </td>
     </tr>
 </table>

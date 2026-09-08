@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Basismaterial
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](base-material.resources/base-material-01.png){width="128px"}
+![](../../../../../../assets/pbr-base-material.png){width="128px"}
 
 <b>In:</b> Materialfiltern > PBR-Dienstprogramme
 
@@ -58,7 +58,7 @@ Dieser Knoten ist sehr nützlich, wenn Sie vollständige Requisiten texturieren 
 | <b>PBR-Workflow</b> <i>Metall - Rauheit, Specular - Glanz</i> | Legt das verwendete PBR-Modell fest. |
 | <b>Materialvorgabe</b> <i>Benutzerdefiniert, Dielektrisch, Gold, Silber, Aluminium, Eisen, Kupfer, Titan, Nickel, Kobalt, Platin</i> | Schneller Tastaturbefehl zur Herstellung bestimmter Metalle. Deaktiviert irrelevante Optionen. |
 | <b>Grundfarbe</b> <i>(Farbwert)</i> | Für die Grundfarbe verwendete Volltonfarbe. |
-| <b>Metallisch</b> <i>(Graustufenwert)</i> | Solider Wert für Metallic. |
+| <b>Metallic</b> <i>(Graustufenwert)</i> | Solider Wert für Metallic. |
 | <b>Diffuse </b> <i>(Farbwert)</i> | Volltonfarbe für Diffuse. |
 | <b>Specular</b> <i>(Farbwert)</i> | Für Specular verwendete Volltonfarbe. |
 | <b>Specular-Vorgaben</b> <i>Kunststoff, Holz, Stein, Ziegel, Sand, Beton, Gewebe, rostetes Metall, Wasser, Eis, Glas</i> | Optionale Schnellvorgaben zum Festlegen von PBR-korrekten Specular-Werten. |

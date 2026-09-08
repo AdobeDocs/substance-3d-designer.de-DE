@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Kachel zufällig 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-random-2.resources/tile-random-2-01.jpg){width="200px"}
+![](../../../../../../assets/tilerandom2.jpg){width="200px"}
 
 <b>In:</b> Texturgeneratoren > Muster
 
@@ -65,13 +65,13 @@ Mit einer dedizierten Ausgabe können Sie die **UVs** der Form in **Flood Fill f
 
 |  |  |
 |:---|:---|
-| <b>Betrag X</b> <i>Integer</i> | Die Anzahl der Zellen in der <b>X</b>-Achse. |
-| <b>Betrag Y</b> <i>Integer</i> | Die Anzahl der Zellen in der <b>Y</b>-Achse. |
+| <b>Betrag X</b> <i>Ganzzahl</i> | Die Anzahl der Zellen in der <b>X</b>-Achse. |
+| <b>Betrag Y</b> <i>Ganzzahl</i> | Die Anzahl der Zellen in der <b>Y</b>-Achse. |
 | <b>Größe</b> |  |
-| <b>Zufallsgrößenmultiplikator</b> <i>Gleitend</i> | Wendet eine <i>globale</i>-Anpassung auf die Intensität der zufälligen Skalierung an. |
-| <b>Eingabe-Map-Multiplikator für zufällige Größe</b> <i>Gleitend</i> | Passt die Intensität der zufälligen Skalierung unter Verwendung der Werte <i>, die </i> von der <b>Karte zufälliger Größe</b> eingegeben wurden, an. |
-| <b>Zufallsgröße X</b> <i>Gleitend</i> | Passt die Intensität der zufälligen Skalierung auf der <b>X</b>-Achse <i>only</i> an. |
-| <b>Zufallsgröße Y</b> <i>Gleitend</i> | Passt die Intensität der zufälligen Skalierung auf der <b>Y</b>-Achse <i>only</i> an. |
+| <b>Zufallsgrößenmultiplikator</b> <i>Fließkommazahl</i> | Wendet eine <i>globale</i>-Anpassung auf die Intensität der zufälligen Skalierung an. |
+| <b>Eingabe-Map-Multiplikator für zufällige Größe</b> <i>Fließkommazahl</i> | Passt die Intensität der zufälligen Skalierung unter Verwendung der Werte <i>, die </i> von der <b>Karte zufälliger Größe</b> eingegeben wurden, an. |
+| <b>Zufallsgröße X</b> <i>Fließkommazahl</i> | Passt die Intensität der zufälligen Skalierung auf der <b>X</b>-Achse <i>only</i> an. |
+| <b>Zufallsgröße Y</b> <i>Fließkommazahl</i> | Passt die Intensität der zufälligen Skalierung auf der <b>Y</b>-Achse <i>only</i> an. |
 | <b>Verteilung zufälliger Größen</b> <i>Integer</i> | Steuert die Methode zur Verteilung zufälliger Skalierungswerte:<br><br>- <i>Uniform</i>: Die zufällige Skala wird <i>auf alle Zellen <br>- <i>Blue-Rauschen </i> auf dieselbe Weise </i> angewendet: Die zufällige Skala wird <i>angepasst</i> mit einem blauen Rauschen-Muster. |
 | <b>Formaspekt - Transformieren</b> |  |
 | <b>Interstice-Thickness</b> <i>Gleitend</i> | Passt die Thickness des Zwischenraums zwischen Formen an. Sie ist <i>gleich für alle </i> Formen. |
@@ -113,25 +113,25 @@ Mit einer dedizierten Ausgabe können Sie die **UVs** der Form in **Flood Fill f
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-02.jpg" />
+            <img src="../../../../../../assets/tilerandom2-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-03.jpg" />
+            <img src="../../../../../../assets/tilerandom2-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-04.jpg" />
+            <img src="../../../../../../assets/tilerandom2-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-05.gif" />
+            <img src="../../../../../../assets/tilerandom2-inputs.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-06.gif" />
+            <img src="../../../../../../assets/tilerandom2-demo.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-07.gif" />
+            <img src="../../../../../../assets/tilerandom2-demo2.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-08.png" />
+            <img src="../../../../../../assets/tilerandom2-node.png" />
         </td>
     </tr>
 </table>

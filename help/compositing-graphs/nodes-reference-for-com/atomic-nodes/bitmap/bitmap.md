@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bitmap
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Bitmap](bitmap.resources/bitmap-01.png "Atomischer Knoten: Bitmap"){width="200px"}
+![Atomknoten: Bitmap](../../../../assets/comp_bitmap.png "Atomischer Knoten: Bitmap"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -105,7 +105,7 @@ Sie können den Knoten entweder von Grund auf neu erstellen oder eine [Bitmap](.
 | --- | --- |
 | <b>Farbmodus</b> *Boolescher Wert* | Bestimmt den Ausgabetyp des Knotens, der entweder in Farbe oder in Graustufen zurückgegeben wird. |
 | <b>PKG-Ressourcenpfad</b> *Zeichenfolge* | Pfad zur [Bitmapressource](../../../../resources/bitmap-resource/bitmap-resource.md), auf die vom Knoten verwiesen wird.   Es wird empfohlen, eine Ressource nicht manuell einzugeben, sondern entweder aus dem Explorer zu kopieren und in das Parametertextfeld einzufügen, oder eine Bitmapressource direkt aus dem [Explorer](../../../../interface/the-explorer-window/the-explorer-window.md) auf den Bitmapknoten im Diagramm zu ziehen und abzulegen. |
-| <b>Methode zur Größenänderung</b> *Integer* | Die Neuberechnungsmethode für das Hoch- oder Herunterskalieren einer Bitmap:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Nahtlos gedehnt:</i> Wenden Sie [bilineare Filterungen](../../../../glossary/glossary.md) an, um die Quellpixel des gedehnt Bildes zu interpolieren.</li> <li data-preserve-html="true"><i>Nächste Dehnung:</i> Dehnen Sie das Bild und verwenden Sie die Farbe des nächstgelegenen Quellpixel so, wie sie ist.</li> </ul> |
+| <b>Methode zur Größenänderung</b> *Integer* | Die Neuberechnungsmethode für das Hoch- oder Herunterskalieren einer Bitmap:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Ruhige Dehnung:</i> Wenden Sie [bilineare Filter](../../../../glossary/glossary.md) an, um die Quellpixel des gedehnten Bildes zu interpolieren.</li> <li data-preserve-html="true"><i>Nächste Dehnung:</i> Dehnen Sie das Bild und verwenden Sie die Farbe des nächstgelegenen Quellpixel so, wie sie ist.</li> </ul> |
 
 ## Bitmap-Malwerkzeuge
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Arbeiten mit Pfad-Spline-Werkzeugen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Das Bild auf der rechten Seite stellt den Bildausgang beispielsweise durch einen
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ausgabe von Pfaden-Polygonen](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-01.jpg "Ausgabe von Pfaden-Polygonen")
+![Ausgabe von Pfaden-Polygonen](../../../../../assets/PathsPolygon_Data.jpg "Ausgabe von Pfaden-Polygonen")
 
 </td>
 </tr>
@@ -69,7 +69,7 @@ Beispielsweise können Sie mithilfe von Spline-Generierungsknoten wie [Spline (C
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Spline Cubic in 2D-Ansicht](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-02.gif "Spline Cubic in 2D-Ansicht")
+![Spline Cubic in 2D-Ansicht](../../../../../assets/SplineCubic-Demo.gif "Spline Cubic in 2D-Ansicht")
 
 </td>
 </tr>
@@ -86,7 +86,7 @@ Pfad und Spline-Werkzeuge erfordern umfangreiche Berechnungen, sodass Sie einige
 
 Wenn Sie eine dieser beiden Einstellungen in den empfohlenen Zustand ändern, sollten Sie eine deutliche Leistungsverbesserung bemerken.
 
-![Pfadwerkzeuge in Bibliothek](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-03.jpg "Pfadwerkzeuge in Bibliothek")
+![Pfadwerkzeuge in Bibliothek](../../../../../assets/PathsTools.jpg "Pfadwerkzeuge in Bibliothek")
 
 ## Pfadwerkzeuge
 
@@ -97,7 +97,7 @@ Das [Pfade-Polygon](../../../../../compositing-graphs/nodes-reference-for-com/no
 Alternativ können Pfade aus einem Graustufenbild mithilfe des Knotens [Mask to Paths](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) extrahiert werden.\
 Dies ist derzeit die einzige Möglichkeit, komplexe Formen zu erstellen. Sie können die gesamte Bibliothek von [Substance-Diagrammknoten](../../../../../compositing-graphs/nodes-reference-for-com/nodes-reference-for-substance-compositing-graphs.md) nutzen, um die Formen zu erstellen, die schließlich in Pfade konvertiert werden.
 
-![Knoten zur Pfaderzeugung](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-04.jpg "Knoten zur Pfaderzeugung"){width="600px"}
+![Knoten zur Pfaderzeugung](../../../../../assets/Paths_Generation.jpg "Knoten zur Pfaderzeugung"){width="600px"}
 
 ### Bearbeiten von Pfaden
 
@@ -121,7 +121,7 @@ Separate Pfade haben in der Vorschau eine eindeutige Farbe, sodass sie jeden Pfa
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Pfadevorschau-Knoten](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-05.jpg "Pfadevorschau-Knoten")
+![Pfadevorschau-Knoten](../../../../../assets/PreviewPaths_Node.jpg "Pfadevorschau-Knoten")
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ Eine sehr nützliche Kombination, um das Splines-Toolset über Pfade hinweg zu n
 
 <b>Maske > Nach Pfaden maskieren > Pfade nach Spline</b>
 
-![Pfad zu Spline](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-06.jpg "Pfad zu Spline")
+![Pfad zu Spline](../../../../../assets/Spline_PathToSpline.jpg "Pfad zu Spline")
 
 ### Spezifikationen für Pfadformate
 
@@ -146,7 +146,7 @@ Diese Codierung folgt einer Spezifikation, die auf der Seite &quot;[Paths Format
 
 Sie können diese Spezifikation verwenden, um mithilfe dieses Formats eigene Knoten zu erstellen und die Knoten [Paths Vertex Processor](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) optimal zu nutzen.
 
-![Spline-Werkzeuge in Library](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-07.jpg "Spline-Werkzeuge in Library")
+![Spline-Werkzeuge in Library](../../../../../assets/SplineTools.jpg "Spline-Werkzeuge in Library")
 
 ## Spline-Werkzeuge
 
@@ -185,7 +185,7 @@ Daher ist es sehr wichtig, die Reihenfolge zu berücksichtigen, in der Sie Splin
 
 Dies wirkt sich auf Knoten aus, die Splines miteinander kombinieren müssen, z. B. [Spline Bridge (List)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md), [Spline Bridge Mapper](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md) und [Spline Merge List](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-merge-list/spline-merge-list.md).
 
-![Anfügen von Splines mit Link-Erstellungsmodi](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-08.gif "Anfügen von Splines mit Link-Erstellungsmodi")
+![Anfügen von Splines mit Link-Erstellungsmodi](../../../../../assets/LinkCreationMode_Splines.gif "Anfügen von Splines mit Link-Erstellungsmodi")
 
 ### Spline-Eingänge und -Ausgänge
 
@@ -212,7 +212,7 @@ Diese Vorschau kann in den Knotenparametern mithilfe der Parameter in der Gruppe
 </td>
 <td style="border: 0;" valign="top">
 
-![Vorschauausgabe auf Spline-Knoten](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-09.jpg "Vorschauausgabe auf Spline-Knoten")
+![Vorschauausgabe auf Spline-Knoten](../../../../../assets/Spline_PreviewOutput.jpg "Vorschauausgabe auf Spline-Knoten")
 
 </td>
 </tr>
@@ -231,7 +231,7 @@ Um Spline als Pixel zu zeichnen, werden sie von der Werkzeuggruppe in Linien ode
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Spline als Segmente gerendert](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-10.jpg "Spline als Segmente gerendert")
+![Spline als Segmente gerendert](../../../../../assets/Spline_Segments.jpg "Spline als Segmente gerendert")
 
 </td>
 </tr>

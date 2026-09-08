@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Verlauf Linear 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 5%
@@ -24,9 +24,9 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](gradient-linear-2.resources/gradient-linear-2-01.png){width="128px"}
+![](../../../../../../assets/gradient-linear-2.png){width="128px"}
 
-<b>In:</b> Texturgeneratoren > Muster
+<b>In:</b> Texturen > Muster generieren
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -47,7 +47,7 @@ Trotz seiner Einfachheit ist es sehr nützlich und kann vielen Zwecken dienen. V
 
 |  |  |
 |:---|:---|
-| <b>Kacheln</b> <i>1 - 16</i> | Legt fest, wie oft das Ergebnis gekachelt werden soll. |
+| <b>Kachelung</b> <i>1 - 16</i> | Legt fest, wie oft das Ergebnis gekachelt werden soll. |
 | <b>Drehung</b> <i>0, 90°</i> | Ändert die Richtung von links nach rechts oben und von unten nach unten bzw. umgekehrt. |
 
 ## Beispiele
@@ -55,7 +55,7 @@ Trotz seiner Einfachheit ist es sehr nützlich und kann vielen Zwecken dienen. V
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="gradient-linear-2.resources/gradient-linear-2-02.gif" />
+            <img src="../../../../../../assets/gradient-linear-2-ex.gif" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Eingabe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -24,17 +24,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Atomknoten: Eingabefarbe](input.resources/input-01.png "Atomarer Knoten: Eingabefarbe"){width="200px"}
+![Atomknoten: Eingabefarbe](../../../../assets/comp_inputcolor_1.png "Atomarer Knoten: Eingabefarbe"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Atomknoten: Eingabe-Graustufen](input.resources/input-02.png "Atomic node: Eingabe-Graustufen"){width="200px"}
+![Atomknoten: Eingabe-Graustufen](../../../../assets/comp_inputgrayscale_1.png "Atomic node: Eingabe-Graustufen"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Atomknoten: Eingabewert &#x200B;](input.resources/input-03.png "Atomischer Knoten: Eingabewert "){width="200px"}
+![Atomknoten: Eingabewert &#x200B;](../../../../assets/comp_inputnumeric_1.png "Atomischer Knoten: Eingabewert "){width="200px"}
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ Zu den Basisparametern gehören u. a. die <b>Ausgabegröße</b>, das <b>Ausgabef
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-[![Primäre Eingabe im Substance-Diagramm &#x200B;](input.resources/input-04.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+[![Primäre Eingabe im Substance-Diagramm &#x200B;](../../../../assets/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
 
 </td>
 </tr>

@@ -1,7 +1,7 @@
 ---
 title: Rasteratlas-Graustufen
 description: Designer > Substance-Compositing-Graphen > Knotenreferenz für Substance-Compositing-Graphen > Knotenbibliothek > Generator > Muster > Rasteratlas-Graustufen
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Graustufen-Symbol für Rasteratlas](grid-atlas-grayscale.resources/grid-atlas-grayscale-01.png "Graustufen für Rasteratlas")
+![Graustufen-Symbol für Rasteratlas](grid-atlas-grayscale.resources/grid-atlas-grayscale.png "Graustufen für Rasteratlas")
 
 <b>In:</b> Generator > Pattern
 
@@ -75,5 +75,5 @@ Siehe auch [Farbe des Rasteratlas](../grid-atlas-color/grid-atlas-color.md).
 
 ## Beispiele
 
-<img src="./grid-atlas-grayscale.resources/grid-atlas-grayscale-02.png" alt="Rasteratlas-Graustufenknoten im Kontext eines Grafen" style="width: 50%"><br>
+<img src="./grid-atlas-grayscale.resources/grid-atlas-grayscale-graph.png" alt="Rasteratlas-Graustufenknoten im Kontext eines Grafen" style="width: 50%"><br>
 <i>Rasteratlas-Graustufenknoten im Kontext eines Grafen</i>

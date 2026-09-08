@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-generator.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Tile Generator", um prozedurale Kachelmuster mit anpassbaren Steuerelementen für Größe, Offset und Variation zu erstellen.
+description: Verwenden Sie den Knoten "Tile Generator", um prozedurale Kachelmuster mit anpassbaren Steuerelementen für Größe, Versatz und Variation zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Generator
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Kachelgenerator
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 6%
@@ -24,9 +24,9 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-generator.resources/tile-generator-01.png){width="128px"}
+![](../../../../../../assets/tile-generator.png){width="128px"}
 
-<b>In:</b> Texturgeneratoren > Muster
+<b>In:</b> Texturen > Muster generieren
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -118,16 +118,16 @@ Einige allgemeine Tipps zur Verwendung:
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-generator.resources/tile-generator-02.png" />
+            <img src="../../../../../../assets/tilesampler-ex.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-generator.resources/tile-generator-03.png" />
+            <img src="../../../../../../assets/image2020-9-17-14-50-18.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-generator.resources/tile-generator-04.png" />
+            <img src="../../../../../../assets/image2020-9-17-14-52-4.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-generator.resources/tile-generator-05.png" />
+            <img src="../../../../../../assets/image2020-9-17-14-53-47.png" />
         </td>
     </tr>
 </table>

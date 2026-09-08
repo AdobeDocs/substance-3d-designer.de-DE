@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Funktion
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 5%
@@ -27,7 +27,7 @@ Obwohl ihre Eingangsanschlüsse im Allgemeinen nicht typisiert sind, unterstütz
 ## Knotenliste
 
 +++Pow
-![Pow-Knotensymbol](function-nodes.resources/function-nodes-01.jpg "Pow-Knotensymbol")
+![Pow-Knotensymbol](../../../../assets/Pow_Node.jpg "Pow-Knotensymbol")
 
 
 
@@ -36,7 +36,7 @@ Gibt den ersten Eingang zurück, der mit der Leistung des zweiten Eingangs erhö
 +++
 
 +++2Pow
-![Knotensymbol &#x200B;](function-nodes.resources/function-nodes-02.jpg "2Knotensymbol ")
+![Knotensymbol &#x200B;](../../../../assets/2Pow_Node.jpg "2Knotensymbol ")
 
 
 
@@ -45,7 +45,7 @@ Gibt 2 an die Stärke des Eingangswerts zurück: <b>2^X</b>.
 +++
 
 +++Quadratwurzel
-![Quadratisches Stammknotensymbol](function-nodes.resources/function-nodes-03.jpg "Quadratisches Stammknotensymbol")
+![Quadratisches Stammknotensymbol](../../../../assets/SquareRoot_Node.jpg "Quadratisches Stammknotensymbol")
 
 
 
@@ -54,7 +54,7 @@ Gibt die Quadratwurzel des Eingabewerts zurück: <b>√X</b>.
 +++
 
 +++Exponentiell
-![Exponentielles Knotensymbol](function-nodes.resources/function-nodes-04.jpg "Exponentielles Knotensymbol")
+![Exponentielles Knotensymbol](../../../../assets/Exponential_Node.jpg "Exponentielles Knotensymbol")
 
 
 
@@ -65,7 +65,7 @@ Gibt den Exponentialwert des Eingabewerts zurück: <b>e^X</b>
 +++
 
 +++Logarithmus
-![Symbol für Logarithmus-Knoten](function-nodes.resources/function-nodes-05.jpg "Symbol für Logarithmus-Knoten")
+![Symbol für Logarithmus-Knoten](../../../../assets/Logarithm_Node.jpg "Symbol für Logarithmus-Knoten")
 
 
 
@@ -74,7 +74,7 @@ Gibt den natürlichen Logarithmus des Eingabewerts zurück: <b>ln(X)</b>.
 +++
 
 +++Logarithmusbasis 2
-![Symbol für Logarithmus Base 2-Knoten](function-nodes.resources/function-nodes-06.jpg "Symbol für Logarithmus Base 2-Knoten")
+![Symbol für Logarithmus Base 2-Knoten](../../../../assets/LogarithmBase2_Node.jpg "Symbol für Logarithmus Base 2-Knoten")
 
 
 
@@ -83,7 +83,7 @@ Gibt den Logarithmus zur Basis 2 des Eingabewerts zurück: <b>log2(X)</b>.
 +++
 
 +++Absolut
-![Absolutes Knotensymbol](function-nodes.resources/function-nodes-07.jpg "Absolutes Knotensymbol")
+![Absolutes Knotensymbol](../../../../assets/Absolute_Node.jpg "Absolutes Knotensymbol")
 
 
 
@@ -92,7 +92,7 @@ Gibt den absoluten Wert der Eingabe zurück: <b>abs(X)</b>.
 +++
 
 +++Aufrunden
-![Ceil-Knotensymbol](function-nodes.resources/function-nodes-08.jpg "Ceil-Knotensymbol")
+![Ceil-Knotensymbol](../../../../assets/Ceil_Node.jpg "Ceil-Knotensymbol")
 
 
 
@@ -101,7 +101,7 @@ Rundet den Eingabewert auf. Es gibt den kleinsten ganzzahligen Wert zurück, der
 +++
 
 +++Floor
-![Symbol für Bodenknoten](function-nodes.resources/function-nodes-09.jpg "Symbol für Bodenknoten")
+![Symbol für Bodenknoten](../../../../assets/Floor_Node.jpg "Symbol für Bodenknoten")
 
 
 
@@ -110,7 +110,7 @@ Rundet den Eingabewert ab. Es gibt den größten ganzzahligen Wert zurück, der 
 +++
 
 +++Lineare Interpolation
-![Symbol für linearen Interpolationsknoten](function-nodes.resources/function-nodes-10.jpg "Symbol für linearen Interpolationsknoten")
+![Symbol für linearen Interpolationsknoten](../../../../assets/LinearInterpolation_Node.jpg "Symbol für linearen Interpolationsknoten")
 
 
 
@@ -119,7 +119,7 @@ Gibt die lineare Interpolation zwischen zwei Werten in Funktion eines Gleitkomma
 +++
 
 +++Minimum
-![Mindestknotensymbol](function-nodes.resources/function-nodes-11.jpg "Mindestknotensymbol")
+![Mindestknotensymbol](../../../../assets/Minimum_Node.jpg "Mindestknotensymbol")
 
 
 
@@ -128,7 +128,7 @@ Gibt den niedrigsten der beiden Eingabewerte zurück: <b>Min(A, B)</b>.
 +++
 
 +++Maximum
-![Maximales Knotensymbol](function-nodes.resources/function-nodes-12.jpg "Maximales Knotensymbol")
+![Maximales Knotensymbol](../../../../assets/Maximum_Node.jpg "Maximales Knotensymbol")
 
 
 
@@ -137,7 +137,7 @@ Gibt den höchsten der beiden Eingabewerte zurück: <b>max(A, B)</b>.
 +++
 
 +++Cosine
-![Symbol für Kosinusknoten](function-nodes.resources/function-nodes-13.jpg "Symbol für Kosinusknoten")
+![Symbol für Kosinusknoten](../../../../assets/Cosine_Node.jpg "Symbol für Kosinusknoten")
 
 
 
@@ -146,7 +146,7 @@ Gibt den Kosinus des Eingabewerts in Bogenmaß zurück: <b>cos(X)</b>.
 +++
 
 +++Sine
-![Sinusknotensymbol](function-nodes.resources/function-nodes-14.jpg "Sinusknotensymbol")
+![Sinusknotensymbol](../../../../assets/Sine_Node.jpg "Sinusknotensymbol")
 
 
 
@@ -155,7 +155,7 @@ Gibt den Sinus des Eingabewerts in Bogenmaß zurück: <b>sin(X)</b>.
 +++
 
 +++Tangent
-![Tangent-Knotensymbol](function-nodes.resources/function-nodes-15.jpg "Tangent-Knotensymbol")
+![Tangent-Knotensymbol](../../../../assets/Tangent_Node.jpg "Tangent-Knotensymbol")
 
 
 
@@ -164,7 +164,7 @@ Gibt die Tangente des Eingangswerts in Bogenmaß zurück: <b>tan(X)</b>.
 +++
 
 +++Arkustangens 2
-![Knotensymbol &quot;Arc Tangent 2&quot;](function-nodes.resources/function-nodes-16.jpg "Knotensymbol &quot;Arc Tangent 2&quot;")
+![Knotensymbol &quot;Arc Tangent 2&quot;](../../../../assets/ArcTangent2_Node.jpg "Knotensymbol &quot;Arc Tangent 2&quot;")
 
 
 
@@ -177,7 +177,7 @@ Es ist nicht erforderlich, die X- und Y-Komponente des Eingangsvektors wie in de
 +++
 
 +++Kartesisch
-![Absolutes Knotensymbol](function-nodes.resources/function-nodes-07.jpg "Absolutes Knotensymbol")
+![Absolutes Knotensymbol](../../../../assets/Absolute_Node.jpg "Absolutes Knotensymbol")
 
 
 
@@ -190,7 +190,7 @@ Polarkoordinaten sind ein Abstand zum Ursprung und ein Winkel in Radianten zur H
 +++
 
 +++Zufallswert
-![Symbol für zufälligen Knoten](function-nodes.resources/function-nodes-17.jpg "Symbol für zufälligen Knoten")
+![Symbol für zufälligen Knoten](../../../../assets/Random_Node.jpg "Symbol für zufälligen Knoten")
 
 
 

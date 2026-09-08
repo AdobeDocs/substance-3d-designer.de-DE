@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FRAKTALSUMME 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 2%
@@ -24,9 +24,9 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Fraktalsumme 2 - Symbol](fractal-sum-2.resources/fractal-sum-2-01.png "Fraktalsumme 2 - Symbol"){width="200px"}
+![Fraktalsumme 2 - Symbol](../../../../../../assets/fractal_sum_2.png "Fraktalsumme 2 - Symbol"){width="200px"}
 
-<b>In:</b> Texturen-Generatoren > Rauschen
+<b>In:</b> Texturgeneratoren > Rauschen
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -47,7 +47,7 @@ Siehe auch: [Fraktalsumme base](../../../../../../compositing-graphs/nodes-refer
 
 |  |  |
 |:---|:---|
-| <b>Ausgabe</b> <i>Graustufen</i> | Die generierte Rauschen als Graustufen-Bitmap. |
+| <b>Ausgabe</b> <i>Graustufen</i> | Das erzeugte Rauschen als Graustufen-Bitmap. |
 
 <a name="parameters"></a>
 
@@ -55,9 +55,9 @@ Siehe auch: [Fraktalsumme base](../../../../../../compositing-graphs/nodes-refer
 
 |  |  |
 |:---|:---|
-| <b>Störung</b> <i>Fließkommazahl</i> | Versetzt die Bestandteile des Rauschens.    So animierst du die Rauschen. |
-| <b>Störungsgeschwindigkeit</b> <i>Fließkommazahl</i> | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.    Dies kann verwendet werden, um die Geschwindigkeit des Versatzes bei der Animation des Rauschen zu steuern. |
-| <b>Nicht quadratische Erweiterung</b> <i>Boolesche Wert</i> | Behält bei nicht quadratischen Bildern das erzeugte Kachelquadrat bei und erweitert die Rauschen-Generation auf die Grenzen des Bildes. |
+| <b>Störung</b> <i>Gleitend</i> | Versetzt die Bestandteile des Rauschens.    So kannst du das Rauschen animieren. |
+| <b>Störungsgeschwindigkeit</b> <i>Gleitend</i> | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.    Mit dieser Option können Sie die Geschwindigkeit des Versatzes bei der Animation des Rauschens steuern. |
+| <b>Nicht quadratische Erweiterung</b> <i>Boolescher Wert</i> | Bei nicht quadratischen Bildern bleibt das erzeugte Kachelquadrat erhalten und erweitert die Rauscherzeugung auf die Grenzen des Bildes. |
 
 ## Beispiele
 
@@ -65,12 +65,12 @@ Siehe auch: [Fraktalsumme base](../../../../../../compositing-graphs/nodes-refer
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Fraktalsumme 2 - Beispiel 1](fractal-sum-2.resources/fractal-sum-2-02.png "Fraktalsumme 2 - Beispiel 1"){zoomable="yes"}
+![Fraktalsumme 2 - Beispiel 1](../../../../../../assets/fractal_sum_2_1.png "Fraktalsumme 2 - Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Fraktalsumme 2 - Beispiel 2](fractal-sum-2.resources/fractal-sum-2-03.gif "Fraktalsumme 2 - Beispiel 2"){zoomable="yes"}
+![Fraktalsumme 2 - Beispiel 2](../../../../../../assets/noise_fractal_sum_2_v2_speed0.6_aniso0.gif "Fraktalsumme 2 - Beispiel 2"){zoomable="yes"}
 
 </td>
 </tr>

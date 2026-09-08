@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Schmutz Leaks
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-leaks.resources/grunge-leaks-01.jpg){width="200px"}
+![](../../../../../../assets/grungeleaks.jpg){width="200px"}
 
 <b>In:</b> Texturgeneratoren > Rauschen
 
@@ -52,18 +52,18 @@ Der Knoten **Schmutz Leaks** generiert eine Schmutz-Map, die so ähnlich ist, al
 | <b>Erweitert</b> |  |
 | <b>Tropflänge</b> <i>Gleitend</i> | Passt die Länge der Tropfstreifen an. |
 | <b>Formkontrast</b> <i>Gleitend</i> | Verschiebt zwischen hellen und dunklen Formen und kontrastiert über die Tropfen hinweg. |
-| <b>Tropfknackigkeit</b> <i>Gleitend</i> | Passt die Schärfe und die Krümmung der Tropfen an. |
-| <b>Intensität schärfen</b> <i>Gleitend</i> | Passen Sie die Unebenheit des Bildes insgesamt an. |
+| <b>Tropfknackigkeit</b> <i>Fließkommazahl</i> | Passt die Schärfe und die Krümmung der Tropfen an. |
+| <b>Intensität schärfen</b> <i>Fließkommazahl</i> | Passen Sie die Unebenheit des Bildes insgesamt an. |
 
 ## Beispiele
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-leaks.resources/grunge-leaks-02.jpg" />
+            <img src="../../../../../../assets/grungeleaks-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-leaks.resources/grunge-leaks-03.jpg" />
+            <img src="../../../../../../assets/grungeleaks-variant.jpg" />
         </td>
     </tr>
 </table>

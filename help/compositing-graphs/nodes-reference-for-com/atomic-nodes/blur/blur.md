@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Weichzeichnungsknoten, um Weichzeichnungseffekte auf Texturen anzuwenden, um Details zu glätten und einen weichen Fokuseffekt zu erzeugen.
+description: Verwenden Sie den Weichzeichnungsknoten, um Unschärfe-Effekte auf Texturen anzuwenden, um Details zu glätten und einen Weichzeichnungseffekt zu erzeugen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blur
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Weichzeichnen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 6%
@@ -24,9 +24,9 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![Symbol für Weichzeichnerknoten](blur.resources/blur-01.png){width="200px"}
+![Symbol für Weichzeichnerknoten](../../../../assets/blur-9.png){width="200px"}
 
-**In:** Atomknoten
+**In:** Elementare Knoten
 
 **Einfach**
 
@@ -52,4 +52,4 @@ Das folgende Beispiel zeigt den Weichzeichner dieses Knotens auf der linken Seit
 
 | Weichzeichnen (atomar) | HQ-Weichzeichnen |
 | --- | --- |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="blur.resources/blur-02.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="blur.resources/blur-03.png"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../../../assets/blur-example.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../../../assets/blur-hq.png"/></div> |

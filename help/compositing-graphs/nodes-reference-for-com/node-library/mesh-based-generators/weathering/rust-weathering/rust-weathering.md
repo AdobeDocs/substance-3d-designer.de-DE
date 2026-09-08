@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Verwitterung im Rost
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 6eb38d6ccaadda1d070e4e0b67311312adb7d082
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 14%
@@ -24,7 +24,7 @@ ht-degree: 14%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](rust-weathering.resources/rust-weathering-01.png){width="128px"}
+![](../../../../../../assets/rust-weathering.png){width="128px"}
 
 <b>In:</b> Mesh-basierte Generatoren > Verwitterung
 
@@ -74,14 +74,14 @@ ht-degree: 14%
 | <b>Intensität der Rauheit</b> <i>0.0 - 1.0</i> | Die Stärke der Raueit. |
 | <b>Metallic Intensität</b> <i>0.0 - 1.0</i> | Mischfestigkeit des Metallic. |
 | <b>Ambient occlusion-Intensität</b> <i>0.0 - 1.0</i> | Mischfestigkeit der Ambient-Verdeckung. |
-| <b>Height-Intensität</b> <i>0.0 - 1.0</i> | Die Stärke des Heights beim Mischen. |
+| <b>Height-Intensität</b> <i>0.0 - 1.0</i> | Die Stärke des Heights. |
 
 ## Beispiele
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="rust-weathering.resources/rust-weathering-02.gif" />
+            <img src="../../../../../../assets/rust-ex.gif" />
         </td>
     </tr>
 </table>

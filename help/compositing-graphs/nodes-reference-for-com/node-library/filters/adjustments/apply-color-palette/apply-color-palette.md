@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Farbpalette anwenden
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Symbol &quot;Farbe quantisieren&quot;](apply-color-palette.resources/apply-color-palette-01.png "Symbol &quot;Farbe quantisieren&quot;"){width="200px"}
+![Symbol &quot;Farbe quantisieren&quot;](../../../../../../assets/ApplyColorPalette.png "Symbol &quot;Farbe quantisieren&quot;"){width="200px"}
 
 <b>In:</b> Filters > Adjustments
 
@@ -64,31 +64,31 @@ Dieser Knoten kann in Kombination mit den folgenden Knoten verwendet werden: [Fa
 
 ## Beispiele
 
-![Farbpalette anwenden: Beispiel 1](apply-color-palette.resources/apply-color-palette-02.png "Farbpalette anwenden: Beispiel 1"){zoomable="yes"}
+![Farbpalette anwenden: Beispiel 1](../../../../../../assets/apply_color_palette_example_2.png "Farbpalette anwenden: Beispiel 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="apply-color-palette.resources/apply-color-palette-03.jpg" alt="apply_color_palette_example_1_before">
+      <img src="../../../../../../assets/apply_color_palette_example_1_before.jpg" alt="apply_color_palette_example_1_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="apply-color-palette.resources/apply-color-palette-04.jpg" alt="apply_color_palette_example_1_after">
+      <img src="../../../../../../assets/apply_color_palette_example_1_after.jpg" alt="apply_color_palette_example_1_after">
       <br><i>Nach</i>
     </td>
   </tr>
 </table>
 
-![Farbpalette anwenden: Beispiel 3](apply-color-palette.resources/apply-color-palette-05.png "Farbpalette anwenden: Beispiel 3"){zoomable="yes"}
+![Farbpalette anwenden: Beispiel 3](../../../../../../assets/apply_color_palette_example_4.png "Farbpalette anwenden: Beispiel 3"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="apply-color-palette.resources/apply-color-palette-06.jpg" alt="apply_color_palette_example_3_before">
+      <img src="../../../../../../assets/apply_color_palette_example_3_before.jpg" alt="apply_color_palette_example_3_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="apply-color-palette.resources/apply-color-palette-07.jpg" alt="apply_color_palette_example_3_after">
+      <img src="../../../../../../assets/apply_color_palette_example_3_after.jpg" alt="apply_color_palette_example_3_after">
       <br><i>Nach</i>
     </td>
   </tr>

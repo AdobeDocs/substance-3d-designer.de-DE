@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rendern von Histogrammen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Anisotropes Kuwahara-Graustufen-Symbol](histogram-render.resources/histogram-render-01.png "Anisotropes Kuwahara-Graustufen-Symbol"){width="200px"}
+![Anisotropes Kuwahara-Graustufen-Symbol](../../../../../../assets/histogram_render.png "Anisotropes Kuwahara-Graustufen-Symbol"){width="200px"}
 
 <b>In:</b> Filters > Adjustments
 
@@ -69,6 +69,6 @@ Zeichnet das Histogramm für ein Graustufenbild.
 
 ## Beispiele
 
-![Histogramm-Rendering: Beispiel 1](histogram-render.resources/histogram-render-02.png "Histogramm-Rendering: Beispiel 1"){zoomable="yes"}
+![Histogramm-Rendering: Beispiel 1](../../../../../../assets/histogram_render_example_1.png "Histogramm-Rendering: Beispiel 1"){zoomable="yes"}
 
-![Histogramm-Rendering: Beispiel 2](histogram-render.resources/histogram-render-03.png "Histogramm-Rendering: Beispiel 2"){zoomable="yes"}
+![Histogramm-Rendering: Beispiel 2](../../../../../../assets/histogram_render_example_2.png "Histogramm-Rendering: Beispiel 2"){zoomable="yes"}

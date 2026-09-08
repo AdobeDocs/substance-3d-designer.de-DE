@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Senden an...  Interoperabilität
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Senden an...  Interoperabilität
 
-![Von Designer an Substance 3D-Apps senden](send-to-interoperability.resources/send-to-interoperability-01.png "Von Designer an Substance 3D-Apps senden"){width="512px"}
+![Von Designer an Substance 3D-Apps senden](../../../assets/explorer-interop.png "Von Designer an Substance 3D-Apps senden"){width="512px"}
 
 Adobe Substance 3D Designer ist mit [Substance 3D Sampler](https://www.adobe.com/de/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/de/products/substance3d-painter.html) und [Substance 3D Stager](https://www.adobe.com/de/products/substance3d-stager.html) kompatibel. Dadurch können Sie *senden* und *senden* schnell bearbeiten und so die Iteration im gesamten Substance 3D-Ökosystem erleichtern.
 
@@ -49,7 +49,7 @@ Im Abschnitt <b>Attribute </b> der Eigenschaften eines [Substance-Diagramms](../
 </td>
 <td style="border: 0;" valign="top">
 
-Typattribut des ![Substance-Diagramms](send-to-interoperability.resources/send-to-interoperability-02.jpg "Typattribut des Substance-Diagramms")
+Typattribut des ![Substance-Diagramms](../../../assets/type-attribute.jpg "Typattribut des Substance-Diagramms")
 
 </td>
 </tr>
@@ -76,12 +76,12 @@ Der Sendevorgang umfasste das [Veröffentlichen](../../../compositing-graphs/pub
 Das Senden von Inhalten kann auf folgende Weise erfolgen:
 
 * Klicken Sie mit der rechten Maustaste auf ein Paket, und öffnen Sie die Datei <b>Senden an...Untermenü &quot;</b>&quot; im Kontextmenü und anschließend die Option &quot;<b>Senden an&quot; auswählen...</b>-Option für die Zielanwendung
-* Klicken Sie oben im Explorer-Fenster auf die Schaltfläche ![](send-to-interoperability.resources/send-to-interoperability-03.jpg) <b>Publish/Send</b>, und wählen Sie dann <b>Senden an...</b>-Option für die Zielanwendung.
+* Klicken Sie oben im Explorer-Fenster auf die Schaltfläche ![](../../../assets/sendto-icon.jpg) <b>Publish/Send</b>, und wählen Sie dann <b>Senden an...</b>-Option für die Zielanwendung.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Menü &quot;Publish/Senden an&quot; in Explorer](send-to-interoperability.resources/send-to-interoperability-04.jpg "Menü &quot;Publish/Senden an&quot; in Explorer")
+![Menü &quot;Publish/Senden an&quot; in Explorer](../../../assets/explorer-sendto-displayed.jpg "Menü &quot;Publish/Senden an&quot; in Explorer")
 
 </td>
 </tr>
@@ -120,5 +120,5 @@ Error sending package to Substance 3D Painter. Check the console for details. SB
 
 Dies liegt in der Regel an Standardfehlern und -warnungen. Beheben Sie diese, um das Problem zu beheben:
 
-* Keine [Ausgabeknoten](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)in Ihrem Diagramm definiert. Ausgabeknoten hinzufügen und etwas mit ihnen verbinden;
-* Fehlende oder fehlerhafte Variablen in [Knoten abrufen](../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) in [Funktionsdiagrammen](../../../function-graphs/function-graphs.md). Verfolgen Sie sie mit dem *gelben Warnschild* auf den betroffenen Knoten.
+* Keine [Ausgabeknoten](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)in Ihrem Graf definiert. Ausgabeknoten hinzufügen und etwas mit ihnen verbinden;
+* Fehlende oder fehlerhafte Variablen in [Knoten abrufen](../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) in [Funktions-Grafen](../../../function-graphs/function-graphs.md). Verfolgen Sie sie mit dem *gelben Warnschild* auf den betroffenen Knoten.

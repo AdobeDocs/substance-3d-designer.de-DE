@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Schmutz Galvanic Small
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 2%
@@ -24,9 +24,9 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-galvanic-small.resources/grunge-galvanic-small-01.jpg){width="200px"}
+![](../../../../../../assets/grungegalvanicsmall.jpg){width="200px"}
 
-<b>In:</b> Texturgeneratoren > Rauschen
+<b>In:</b> Texturen-Generatoren > Rauschen
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,13 +45,13 @@ Der **Schmutz Galvanic Small**-Schmutz erzeugt eine Stahlkarte, die dem Muster a
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Gleitend</i> | Passt die Balance zwischen dunklen und hellen Werten an. |
-| <b>Kontrast</b> <i>Gleitend</i> | Passt den Kontrast des Bildes an. |
-| <b>Umkehren</b> <i>Boolescher Wert</i> | Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird. |
-| <b>Quadratische Ausbreitung</b> <i>Boolescher Wert</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+| <b>Saldo</b> <i>Fließkommazahl</i> | Passt die Balance zwischen dunklen und hellen Werten an. |
+| <b>Kontrast</b> <i>Fließkommazahl</i> | Passt den Kontrast des Bildes an. |
+| <b>Umkehren</b> <i>Boolesche Wert</i> | Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird. |
+| <b>Quadratische Ausbreitung</b> <i>Boolesche Wert</i> | Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
 | <b>Erweitert</b> |  |
-| <b>Frische</b> <i>Gleitend</i> | Stellt die Genauigkeit und Schärfe der verzinkten Formen ein. |
-| <b>Dirt</b> <i>Gleitend</i> | Passt die Deckkraft der Dirt-Überlagerung an. |
+| <b>Frische</b> <i>Fließkommazahl</i> | Stellt die Genauigkeit und Schärfe der verzinkten Formen ein. |
+| <b>Dirt</b> <i>Fließkommazahl</i> | Passt die Deckkraft der Dirt-Überlagerung an. |
 | <b>Micro-Verzerrung</b> <i>Gleitend</i> | Passt die Intensität des Effekts &quot;Hochfrequenzverkrümmung&quot; an. |
 
 ## Beispiele
@@ -59,10 +59,10 @@ Der **Schmutz Galvanic Small**-Schmutz erzeugt eine Stahlkarte, die dem Muster a
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-galvanic-small.resources/grunge-galvanic-small-02.jpg" />
+            <img src="../../../../../../assets/grungegalvanicsmall-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-galvanic-small.resources/grunge-galvanic-small-03.jpg" />
+            <img src="../../../../../../assets/grungegalvanicsmall-variant.jpg" />
         </td>
     </tr>
 </table>

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-merge.html"
 breadcrumb-title: ''
-description: Verwenden Sie den RGBA-Zusammenführungsknoten, um separate rote, grüne, blaue und Alphakanäle zu einer einzigen RGBA-Textur zu kombinieren.
+description: Verwenden Sie den RGBA-Zusammenführungsknoten, um separate Rot-, Grün-, Blau- und Alphakanal zu einer einzigen RGBA-Textur zu kombinieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > RGBA Merge
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: RGBA-Zusammenführung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](rgba-merge.resources/rgba-merge-01.png){width="128px"}
+![](../../../../../../assets/rgba-merge.png){width="128px"}
 
 <b>In:</b> Filters > Channels
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 Packt einen separaten Graustufeneingang in jeden der vier Kanäle. Nicht zu verwechseln mit RGB-A Merge, da dieser Knoten Ihnen mehr Kontrolle über das Zusammenführen gibt!
 
-Sehr nützlicher Knoten für Channel-Packing-Maps. Kann beispielsweise für die Packing-Smoothness, Metallic und AO in die jeweiligen R-, G- und B-Kanäle eingesetzt werden.
+Sehr nützlicher Knoten für Channel-Packing-Maps. Kann beispielsweise zur Packing-Smoothness, Metallic und AO in die jeweiligen R-, G- und B-Kanäle eingesetzt werden.
 
 </td>
 </tr>

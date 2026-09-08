@@ -1,16 +1,16 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/clone-patch.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Klonausbesserungsknoten zum Klonen und Ausbessern von Bereichen in gescannten Materialien, um Artefakte und Makel zu entfernen.
+description: Verwenden Sie den Klon-Ausbesserungsknoten zum Klonen und Ausbessern von Bereichen in gescannten Materialien, um Artefakte und Makel zu entfernen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Clone Patch
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Klonausbesserung
+title: Klon-Patch
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 3%
@@ -18,15 +18,15 @@ ht-degree: 3%
 ---
 
 
-# Klonausbesserung
+# Klon-Patch
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](clone-patch.resources/clone-patch-01.png){width="128px"}
+![](../../../../../../assets/clone-patch.png){width="128px"}
 
-![](clone-patch.resources/clone-patch-02.png){width="128px"}
+![](../../../../../../assets/clone-patch-grayscale.png){width="128px"}
 
 <b>In:</b> Materialfilter > Scanverarbeitung
 
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 ## Beschreibung
 
-Clone Patch ist ein prozeduraler, parametrischer Knoten &quot;Clone Stamp&quot;. Es klont einen Bereich einer Eingabe in einen anderen und blendet möglicherweise unerwünschte Details aus. Diese Methode ist nicht so schnell und einfach wie die Verwendung eines vertrauten Werkzeugs in einer pinselbasierten Anwendung. Sie bietet jedoch den entscheidenden Vorteil, dass sie nicht-destruktiv ist und in einem knotenbasierten Workflow funktioniert. Darüber hinaus führt dieser Knoten eine intelligente Analyse sowohl des Ziel- als auch des Quellbereichs durch und versucht, die Elemente auf der Grundlage von Kontrast, Werten und Formen so gut wie möglich zu mischen.
+Klon Patch ist ein prozeduraler, parametrischer Klon-Stempel. Es klont einen Bereich einer Eingabe in einen anderen und blendet möglicherweise unerwünschte Details aus. Diese Methode ist nicht so schnell und einfach wie die Verwendung eines vertrauten Werkzeugs in einer pinselbasierten Anwendung. Sie bietet jedoch den entscheidenden Vorteil, dass sie nicht-destruktiv ist und in einem knotenbasierten Workflow funktioniert. Darüber hinaus führt dieser Knoten eine intelligente Analyse sowohl des Ziel- als auch des Quellbereichs durch und versucht, die Elemente auf der Grundlage von Kontrast, Werten und Formen so gut wie möglich zu mischen.
 
 Dies ist vor allem für die seltenen Momente gedacht, in denen Sie eine manuelle Korrektur eines bestimmten Bereichs vornehmen möchten, falls irgendwo ein unerwünschtes Detail vorhanden ist.
 
@@ -45,9 +45,9 @@ Es ist auch wichtig zu verstehen, dass Sie den Zielbereich mit einem Gizmo versc
 
 >[!NOTE]
 >
-> Wenn Sie dies für ein vollständiges Material wünschen (wie dies meistens der Fall ist), finden Sie weitere Informationen unter [Material Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-clone-patch/material-clone-patch.md).
+> Wenn Sie dies für ein vollständiges Material wünschen (wie dies meistens der Fall ist), finden Sie weitere Informationen unter [Patch für Material-Klon](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-clone-patch/material-clone-patch.md).
 > 
-> Informationen zu den Fällen, in denen Sie diesen Vorgang für mehrere Eingaben gleichzeitig ausführen möchten (ohne dass es sich um ein Material handelt), finden Sie unter [Patch für mehrere Klone](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md).
+> Informationen zu den Fällen, in denen Sie diesen Vorgang für mehrere Eingaben gleichzeitig ausführen möchten (ohne dass es sich um ein Material handelt), finden Sie unter [Patch für mehrere Klon](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md).
 
 </td>
 </tr>

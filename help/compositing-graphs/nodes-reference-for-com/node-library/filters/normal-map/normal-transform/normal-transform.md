@@ -1,16 +1,16 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-transform.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Normale Transformation", um Transformationen auf normale Maps anzuwenden und dabei die Vektorrichtungen korrekt beizubehalten.
+description: Verwenden Sie den Knoten "Normal Transformieren", um Transformationen auf Normalen-Map anzuwenden und gleichzeitig die Vektorrichtungen korrekt beizubehalten.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Transform
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Normale Transformation
+title: Normaler Transformieren
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 3%
@@ -18,13 +18,13 @@ ht-degree: 3%
 ---
 
 
-# Normale Transformation
+# Normaler Transformieren
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](normal-transform.resources/normal-transform-01.png){width="128px"}
+![](../../../../../../assets/normal-transform.png){width="128px"}
 
 <b>In:</b> Filters > Normalen-Map
 
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## Beschreibung
 
-Ähnlich wie der atomare Knoten 2D transformieren ermöglicht dies die Transformation von Normalmaps, ohne den Tangent-Raum zu unterbrechen. Stattdessen wird er im laufenden Betrieb neu berechnet, was zu immer korrekten Normalmaps führt.
+Ähnlich wie der atomare Transformieren 2D-Knoten ermöglicht dies die Transformation von Normalmaps, ohne den Tangente-Raum zu unterbrechen. Stattdessen wird er im laufenden Betrieb neu berechnet, was zu immer richtigen Normalmaps führt.
 
 </td>
 </tr>
@@ -46,5 +46,5 @@ ht-degree: 3%
 |  |  |
 |:---|:---|
 | <b>Matrix2x2</b> <i>(Transformationsmatrix):</i> | Drehen oder skalieren Sie die Eingabe. |
-| <b>Offset</b> <i>-0.5 - 0.5</i> | Verschiebt oder verschiebt das Ergebnis. Wenn die Transformationssteuerung vorhanden ist, kann das Ergebnis durch direkte Interaktion mit der Arbeitsfläche geändert werden. |
+| <b>Offset</b> <i>-0.5 - 0.5</i> | Verschiebt oder Kamera bewegt das Ergebnis. Wenn die Transformationssteuerung vorhanden ist, kann das Ergebnis durch direkte Interaktion mit der Arbeitsfläche geändert werden. |
 | <b>Normales Format</b> <i>DirectX, OpenGL</i> | Zwischen verschiedenen Normalen-Map-Format wechseln (invertiert den grünen Kanal) |

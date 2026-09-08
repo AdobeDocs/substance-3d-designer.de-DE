@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Form-Angleichen
+title: Überblendung "Form-Spritzer"
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 14%
@@ -18,15 +18,15 @@ ht-degree: 14%
 ---
 
 
-# Form-Angleichen
+# Überblendung &quot;Form-Spritzer&quot;
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape-splatter-blend.resources/shape-splatter-blend-01.png){width="128px"}
+![](../../../../../../assets/shape-splatter-blend.png){width="128px"}
 
-<b>In:</b> Texturgeneratoren > Muster
+<b>In:</b> Texturen > Muster generieren
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

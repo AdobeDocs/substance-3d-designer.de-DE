@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tonwertkorrektur
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Ebenen](levels.resources/levels-01.png "Atomknoten: Stufen"){width="200px"}
+![Atomknoten: Ebenen](../../../../assets/comp_levels_1.png "Atomknoten: Stufen"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -76,9 +76,9 @@ Die hervorgehobene gelbe Schaltfläche schaltet die Schnittstelle zwischen den S
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](levels.resources/levels-02.png)
+![](../../../../assets/levels-2-1.png)
 
-![](levels.resources/levels-03.png)
+![](../../../../assets/levels-1-1.png)
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ Sehen Sie sich diese Videoübersicht über den Knoten &quot;Ebenen&quot; und sei
 
 In der Kopfzeile &quot;Spezifische Parameter&quot; finden Sie Schaltflächen, mit denen Sie auf praktische Funktionen des Histogramms zugreifen können:
 
-![Schnellzugriffe für Knoten auf Ebenen](levels.resources/levels-04.png "Schnellzugriffe für Knoten auf Ebenen")
+![Schnellzugriffe für Knoten auf Ebenen](../../../../assets/levels-2.png "Schnellzugriffe für Knoten auf Ebenen")
 
 <b>1 - Umkehren:</b> Tauscht die Werte der Parameter &quot;Level out low&quot; und &quot;Lichter in Ausgabebild&quot; aus.
 
@@ -113,7 +113,7 @@ In der Kopfzeile &quot;Spezifische Parameter&quot; finden Sie Schaltflächen, mi
 
 Der Histogramm-Editor ist für visuelle, schnelle Anpassungen gedacht, bei denen präzise Werte nicht wirklich benötigt werden und der leg von Parametern nicht von Bedeutung ist. Dies ist in der Regel der schnellste und einfachste Weg, mit Tonwertkorrektur zu arbeiten.
 
-![](levels.resources/levels-05.gif)
+![](../../../../assets/levels-histo.gif)
 
 Abhängig vom Eingabetyp (Farbe oder Graustufen) können Sie in der Dropdown-Liste über dem Histogramm auswählen, welchen Kanal Sie ändern möchten.
 

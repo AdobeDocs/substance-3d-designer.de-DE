@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Schmutz Map 011
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-map-011.resources/grunge-map-011-01.png){width="128px"}
+![](../../../../../../assets/grungemap-011.png){width="128px"}
 
 <b>In:</b> Textur Generators > Rauschen
 
@@ -33,7 +33,7 @@ ht-degree: 8%
 
 ## Beschreibung
 
-Dadurch wird eine komplexe, kombinierte Noisemap erzeugt. Es kann als detailliertes Verfahren sehr nützlich sein, aber beachten Sie, dass diese sehr leistungsintensiv sind und daher langsamer zu generieren sind.
+Dadurch wird eine komplexe, kombinierte Noisemap erzeugt. Es kann als detailliertes prozedurale sehr nützlich sein, aber beachten Sie, dass diese sehr leistungsintensiv und damit langsamer zu generieren sind.
 
 </td>
 </tr>
@@ -50,14 +50,14 @@ Dadurch wird eine komplexe, kombinierte Noisemap erzeugt. Es kann als detaillier
 | <b>Kontrast</b> <i>0.0 - 1.0</i> | Passt den Kontrast des Ergebnisses an. |
 | <b>Umkehren</b> <i>False/True</i> | Kehrt das Ergebnis um. |
 | <b>Pinselmuster</b> <i>0.0 - 1.0</i> | Fügt eine Maske um die Kanten hinzu, wenn sie als Alpha-Pinsel verwendet wird. |
-| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
 
 ## Beispiele
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-map-011.resources/grunge-map-011-02.gif" />
+            <img src="../../../../../../assets/grungemap-011-ex.gif" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Kaustik
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](caustics.resources/caustics-01.png){width="128px"}
+![](../../../../../../assets/rt-caustics-grayscale.png){width="128px"}
 
 <b>In:</b> Textur Generators > Rauschen
 
@@ -51,18 +51,18 @@ Erzeugt projizierte Kaustik basierend auf einem Höhen-Map und einer Lichtrichtu
 | <b>Position des Surface-Heights</b> <i>0.0 - 1.0</i> | Abstand der brechenden Fläche von der Projektion einstellen. |
 | <b>Surface IOR</b> <i>1.0 - 2.0</i> | Legen Sie den Brechungsindex fest, um in der Farbversion mehr Streuung zu erhalten. |
 | <b>Fotonengröße</b> <i>1.0 - 50.0</i> | Die Fotonengröße beeinflusst die Knautschigkeit des Effekts. |
-| <b>Dispersion</b> <i>0.0 - 0.01 (nur Farbversion)</i> | Nur die Farb-Streuung. Nicht sichtbar, wenn der IOR niedrig ist. |
+| <b>Streuung</b> <i>0.0 - 0.01 (nur Farbversion)</i> | Nur die Farb-Streuung. Nicht sichtbar, wenn der IOR niedrig ist. |
 | <b>Jittering</b> <i>0.0 - 1.0</i> | Unregelmäßiges Jittern zu den Geworfen Foton-Partikeln hinzufügen. |
 | <b>Lichtposition</b> | Verschiebt die Lichtposition. Auch durch ein Gizmo in der 2D-Ansicht. |
 | <b>Hintergrundfarbe</b> <i>(Farbwert) (nur Farbversion)</i> | Ändern Sie die Hintergrundfarbe. Beschränkt auf Schwarz in der Graustufenversion. |
-| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Aktivieren Sie die Kompensation von Quetschen und Dehnen mit nicht quadratischen Verhältnissen. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Aktivieren Sie die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
 
 ## Beispiele
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="caustics.resources/caustics-02.png" />
+            <img src="../../../../../../assets/rt-caustics-grayscale-1.png" />
         </td>
     </tr>
 </table>

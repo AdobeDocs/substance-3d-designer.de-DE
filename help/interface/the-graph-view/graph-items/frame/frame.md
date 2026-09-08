@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rahmen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Rahmen-Symbol](frame.resources/frame-01.png "Rahmen-Symbol")
+![Rahmen-Symbol](../../../../assets/graphatomic-frame_1.png "Rahmen-Symbol")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -48,7 +48,7 @@ Standardmäßig ist der Rahmen ein Rechteck mit abgerundeten Ecken, das mit der 
 
 Der in der <b>Title</b>-Eigenschaft festgelegte Titel wird in Grau auf der linken oberen Ecke des Rahmens angezeigt.
 
-![Rahmen (Standardstatus)](frame.resources/frame-02.png "Rahmen (Standardstatus)")
+![Rahmen (Standardstatus)](../../../../assets/graph-frames-default.png "Rahmen (Standardstatus)")
 
 
 
@@ -59,7 +59,7 @@ Wenn Sie den Mauszeiger über den Rahmen führen, wird eine Kopfzeile angezeigt.
 
 Ziehen Sie die Kopfzeile bzw. den Rahmen.
 
-![Rahmen (Hover-Zustand)](frame.resources/frame-03.png "Rahmen (Hover-Zustand)")
+![Rahmen (Hover-Zustand)](../../../../assets/graph-frames-hover.png "Rahmen (Hover-Zustand)")
 
 
 
@@ -68,7 +68,7 @@ Ziehen Sie die Kopfzeile bzw. den Rahmen.
 +++Ausgewählt
 Nach der Auswahl werden Titel und Umriss des Rahmens weiß hervorgehoben. Die Kontur wird dicker.
 
-![Rahmen (ausgewählter Status)](frame.resources/frame-04.png "Rahmen (ausgewählter Status)")
+![Rahmen (ausgewählter Status)](../../../../assets/graph-frames-selected.png "Rahmen (ausgewählter Status)")
 
 
 
@@ -111,7 +111,7 @@ Wenn beim Erstellen eines Frames eine Auswahl in einem Diagramm aktiv ist, wird 
 
 Vor diesem Hintergrund ist es beim Erstellen von Rahmen mit einem Tastaturbefehl noch schneller, den Inhalt eines Diagramms zu rahmen.
 
-![Frames: Erstellungsmethoden](frame.resources/frame-05.gif "Frames: Erstellungsmethoden"){width="480px"}
+![Frames: Erstellungsmethoden](../../../../assets/graph-frames_creation.gif "Frames: Erstellungsmethoden"){width="480px"}
 
 >[!TIP]
 >
@@ -130,7 +130,7 @@ In der Abbildung werden die Interaktionsbereiche zum Schwenken (blau) und Skalie
 </td>
 <td style="border: 0;" valign="top">
 
-![Frames: Interaktionszonen](frame.resources/frame-06.png "Frames: Interaktionszonen")
+![Frames: Interaktionszonen](../../../../assets/graph-frames_interaction-zones.png "Frames: Interaktionszonen")
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ Halten Sie die Taste <b>Strg</b> (Windows) bzw. <b>Cmd</b> (macOS) gedrückt, um
 </td>
 <td style="border: 0;" valign="top">
 
-![Frames: Rasterausrichtung](frame.resources/frame-07.gif "Frames: Rasterausrichtung ")
+![Frames: Rasterausrichtung](../../../../assets/graph-frames_grid-snapping.gif "Frames: Rasterausrichtung ")
 
 </td>
 </tr>
@@ -164,7 +164,7 @@ Der <b>Titel</b>, der oben links auf dem Rahmen liegt. Die Sichtbarkeit des Tite
 
 Die Größe des Titels kann bei einer minimalen Bildschirmgröße gesperrt werden, sodass der Titel beim Auszoomen aus dem Diagramm lesbar bleibt. Sie können dies tun, indem Sie die Option &quot;Bildtitel&quot; im Dropdown-Menü <b>Informationen</b> in der Symbolleiste [Diagrammansicht](../../../../interface/the-graph-view/the-graph-view.md) aktivieren.
 
-![Frames: Titel](frame.resources/frame-08.gif "Bilder: Titel"){width="640px"}
+![Frames: Titel](../../../../assets/graph_frames_title.gif "Bilder: Titel"){width="640px"}
 
 
 
@@ -173,11 +173,11 @@ Die Größe des Titels kann bei einer minimalen Bildschirmgröße gesperrt werde
 +++Beschreibung
 Die <b>Beschreibung</b> ist ein optionaler zusätzlicher Textausschnitt, der zum Kommentieren des Inhalts des Rahmens verwendet werden kann.
 
-Der Text kann mit HTML-Tags formatiert werden. Diese Formatierung wird durch Klicken auf die Schaltfläche ![](frame.resources/frame-09.png) <b>HTML-Markup</b> umgeschaltet.
+Der Text kann mit HTML-Tags formatiert werden. Diese Formatierung wird durch Klicken auf die Schaltfläche ![](../../../../assets/graph-frames_html-markup-button.png) <b>HTML-Markup</b> umgeschaltet.
 
 Weitere Informationen finden Sie im Abschnitt &quot;Beschreibung&quot; weiter unten.
 
-![Frames: Beschreibung](frame.resources/frame-10.gif "Rahmen: Beschreibung"){width="640px"}
+![Frames: Beschreibung](../../../../assets/graph-frames_description.gif "Rahmen: Beschreibung"){width="640px"}
 
 
 
@@ -188,7 +188,7 @@ Die <b>Rahmen-Farbe</b> wird verwendet, um den Rahmen in der Graphansicht zu fü
 
 Der Alphakanal der Farbe steuert die *Deckkraft* des Rahmens, wobei ein Wert von 0 bedeutet, dass der Rahmen vollständig transparent ist.
 
-![Frames: Color](frame.resources/frame-11.gif "Rahmen: Farbe "){width="640px"}
+![Frames: Color](../../../../assets/graph-frames_colour.gif "Rahmen: Farbe "){width="640px"}
 
 
 
@@ -211,7 +211,7 @@ Sein Format kann bei einer minimalen Bildschirmgröße gesperrt werden, sodass e
 </td>
 <td style="border: 0;" valign="top">
 
-![Rahmen (Standardbeschreibung)](frame.resources/frame-12.png "Rahmen (Standardbeschreibung)"){zoomable="yes"}
+![Rahmen (Standardbeschreibung)](../../../../assets/graph-frames-descr.png "Rahmen (Standardbeschreibung)"){zoomable="yes"}
 
 </td>
 </tr>
@@ -223,12 +223,12 @@ Sein Format kann bei einer minimalen Bildschirmgröße gesperrt werden, sodass e
 
 ### HTML-Formatierung
 
-Der Text kann mithilfe von HTML-Tags in der <b>Description</b>-Eigenschaft des Rahmens formatiert werden. Die Formatierung muss aktiviert werden, indem die Schaltfläche ![](frame.resources/frame-09.png) <b>HTML-Markup</b> in derselben Eigenschaft verwendet wird.
+Der Text kann mithilfe von HTML-Tags in der <b>Description</b>-Eigenschaft des Rahmens formatiert werden. Die Formatierung muss aktiviert werden, indem die Schaltfläche ![](../../../../assets/graph-frames_html-markup-button.png) <b>HTML-Markup</b> in derselben Eigenschaft verwendet wird.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Rahmen (HTML-formatierte Beschreibung)](frame.resources/frame-13.png "Rahmen (HTML-formatierte Beschreibung)"){zoomable="yes"}
+![Rahmen (HTML-formatierte Beschreibung)](../../../../assets/graph-frames-descr-html.png "Rahmen (HTML-formatierte Beschreibung)"){zoomable="yes"}
 
 </td>
 </tr>
@@ -285,7 +285,7 @@ Wenn Connectors angezeigt oder ausgeblendet, hinzugefügt oder entfernt werden, 
 
 Daher sollte sich die Position des Mittelpunkts eines Knotens erst ändern, wenn er *absichtlich verschoben wurde*.
 
-![Frame-Einbindung: hohe Knoten](frame.resources/frame-14.png "Frame-Einbindung: hohe Knoten")
+![Frame-Einbindung: hohe Knoten](../../../../assets/frame_inclusion_node_tall.png "Frame-Einbindung: hohe Knoten")
 
 
 
@@ -297,11 +297,11 @@ Wenn mehrere Knoten in einer Kette angedockt sind, wird der Hostknoten des letzt
 
 Abzeichen, Verbindungen und Informationen, die unter dem Knoten angezeigt werden, werden alle ignoriert.
 
-![Frame-Einbindung: angedockte Knoten](frame.resources/frame-15.png "Frame-Einbindung: angedockte Knoten")
+![Frame-Einbindung: angedockte Knoten](../../../../assets/frame_inclusion_node_docked.png "Frame-Einbindung: angedockte Knoten")
 
 
 
-![Frame-Einbindung: node](frame.resources/frame-16.png "Frame-Einbindung: nodes")
+![Frame-Einbindung: node](../../../../assets/frame_inclusion_node.png "Frame-Einbindung: nodes")
 
 
 
@@ -312,7 +312,7 @@ Der <b>Mittelpunkt</b> des Punkts wird verwendet.
 
 Connectors, Portalsymbole und Namen werden ignoriert.
 
-![Frame-Einbindung: Punktknoten](frame.resources/frame-17.png "Frame-Einbindung: Punktknoten")
+![Frame-Einbindung: Punktknoten](../../../../assets/frame_inclusion_dot.png "Frame-Einbindung: Punktknoten")
 
 
 
@@ -329,11 +329,11 @@ Abzeichen, Verbindungen und Informationen, die unter dem Knoten angezeigt werden
 
 
 
-![Frame-Einbindung: übergeordnete Kommentare](frame.resources/frame-18.png "Frame-Einbindung: übergeordnete Kommentare")
+![Frame-Einbindung: übergeordnete Kommentare](../../../../assets/frame_inclusion_comment_parented.png "Frame-Einbindung: übergeordnete Kommentare")
 
 
 
-![Frame-Einbindung: comments](frame.resources/frame-19.png "Frame-Einbindung: Kommentare")
+![Frame-Einbindung: comments](../../../../assets/frame_inclusion_comment.png "Frame-Einbindung: Kommentare")
 
 
 
@@ -342,7 +342,7 @@ Abzeichen, Verbindungen und Informationen, die unter dem Knoten angezeigt werden
 +++Pins
 Der <b>Tipp</b> des Pin-Symbols wird verwendet.
 
-![Frame-Einbindung: Navigationsstifte](frame.resources/frame-20.png "Rahmeneinbindung: Navigationsstifte")
+![Frame-Einbindung: Navigationsstifte](../../../../assets/frame_inclusion_pin.png "Rahmeneinbindung: Navigationsstifte")
 
 
 
@@ -355,7 +355,7 @@ Das bedeutet, dass ein verschachtelter Frame vollständig innerhalb der Grenzen 
 
 Der Titel wird ignoriert.
 
-![Frame-Einbindung: geschachtelte Frames](frame.resources/frame-21.png "Frame-Einbindung: geschachtelte Frames")
+![Frame-Einbindung: geschachtelte Frames](../../../../assets/frame_inclusion_frame.png "Frame-Einbindung: geschachtelte Frames")
 
 
 
@@ -363,7 +363,7 @@ Der Titel wird ignoriert.
 
 ## Größe an Inhalt anpassen
 
-![Frames: Größe an Inhalt anpassen](frame.resources/frame-22.png "Bilder: Größe an Inhalt anpassen")
+![Frames: Größe an Inhalt anpassen](../../../../assets/graph-frames_fit-size-to-content.png "Bilder: Größe an Inhalt anpassen")
 
 Wenn du in deinem Diagramm Anpassungen vornimmst, wird ein Frame möglicherweise nicht mehr elegant an seinen Inhalt angepasst. In diesem Fall ist es möglich, die Position und die Größe des Rahmens automatisch so anzupassen, dass er sich an die Spanne seines Inhalts anpasst, mit einer Auffüllung von einer Zelle mit mittlerem Raster.
 
@@ -386,14 +386,14 @@ Wenn kein eingeschlossenes Objekt in diesen Bereich passt, wird das Height des R
 </td>
 <td style="border: 0;" valign="top">
 
-![Frames: Größe an Inhalt anpassen (mit Beschreibung)](frame.resources/frame-23.png "Rahmen: Größe an Inhalt anpassen (mit Beschreibung)")
+![Frames: Größe an Inhalt anpassen (mit Beschreibung)](../../../../assets/graph-frames_fit-description.png "Rahmen: Größe an Inhalt anpassen (mit Beschreibung)")
 
 </td>
 </tr>
 </table>
 
 +++Beispiel
-![Frames: Größe an Inhalt anpassen (GIF)](frame.resources/frame-24.gif "Rahmen: Größe an Inhalt anpassen (GIF)"){width="640px"}
+![Frames: Größe an Inhalt anpassen (GIF)](../../../../assets/graph-frames_fit-size-to-content.gif "Rahmen: Größe an Inhalt anpassen (GIF)"){width="640px"}
 
 
 
@@ -401,7 +401,7 @@ Wenn kein eingeschlossenes Objekt in diesen Bereich passt, wird das Height des R
 
 ## Automatisch erweitern
 
-![Frames: Automatisch erweitern](frame.resources/frame-25.png "Rahmen: Automatische Erweiterung")
+![Frames: Automatisch erweitern](../../../../assets/graph-frames_auto-expand.png "Rahmen: Automatische Erweiterung")
 
 Wenn das Diagramm wächst, muss der Inhalt der Rahmen möglicherweise neu angeordnet werden. Die Knoten können sich verschieben, um Platz für Ergänzungen zu schaffen, oder die Inhalte müssen möglicherweise weiter voneinander entfernt werden, um die Lesbarkeit zu verbessern.
 
@@ -416,7 +416,7 @@ Wenn ein Objekt nicht vollständig von den Begrenzungen des Rahmens umschlossen 
 > Während die Taste <b>Umschalt</b> während des Verschiebens gedrückt oder losgelassen werden kann, um die automatische Korrektur des Rahmens auszulösen oder abzubrechen, muss sie *gedrückt werden*, wenn der Vorgang abgeschlossen ist, um die Korrektur effektiv anzuwenden.
 
 +++Beispiel
-![Frames: Automatisch erweitern (GIF)](frame.resources/frame-26.gif "Rahmen: Automatisch erweitern (GIF)"){width="640px"}
+![Frames: Automatisch erweitern (GIF)](../../../../assets/graph-frames_auto-expand.gif "Rahmen: Automatisch erweitern (GIF)"){width="640px"}
 
 
 

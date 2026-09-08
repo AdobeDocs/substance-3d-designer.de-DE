@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-compute.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Histogramm berechnen , um Histogrammdaten aus Texturen für die Analyse und Verarbeitung zu berechnen.
+description: Verwenden Sie den Knoten Histogramm berechnen, um Histogrammdaten aus Texturen für die Analyse und Verarbeitung zu berechnen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram compute
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Histogramm berechnen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Histogrammberechnung: Symbol](histogram-compute.resources/histogram-compute-01.png "Histogrammberechner: Symbol "){width="200px"}
+![Histogrammberechnung: Symbol](../../../../../../assets/histogram_compute.png "Histogrammberechner: Symbol "){width="200px"}
 
 <b>In:</b> Filters > Adjustments
 
@@ -73,20 +73,20 @@ Benutzerdefinierte Tools können mithilfe der vom Knoten berechneten Daten erste
 
 |  |  |
 |:---|:---|
-| <b>Histogrammauflösung</b> *Integer* | Die Breite des Histogramms. Ein höherer Wert ermöglicht eine feinere Wertverteilung.   Verfügbare Auflösungen sind in Pixeln:  256, 512, 1024, 2048, 4096 |
+| <b>Histogrammauflösung</b> *Ganzzahl* | Die Breite des Histogramms. Ein höherer Wert ermöglicht eine feinere Wertverteilung.   Verfügbare Auflösungen sind in Pixeln:  256, 512, 1024, 2048, 4096 |
 
 ## Beispiele
 
-![Histogrammberechnung: Beispiel 1](histogram-compute.resources/histogram-compute-02.jpg "Histogramm berechnen: Beispiel 1"){zoomable="yes"}
+![Histogrammberechnung: Beispiel 1](../../../../../../assets/histogram_compute_example_1.jpg "Histogramm berechnen: Beispiel 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="histogram-compute.resources/histogram-compute-03.jpg" alt="histogram_compute_example_2_before">
+      <img src="../../../../../../assets/histogram_compute_example_2_before.jpg" alt="histogram_compute_example_2_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="histogram-compute.resources/histogram-compute-04.jpg" alt="histogram_compute_example_2_after">
+      <img src="../../../../../../assets/histogram_compute_example_2_after.jpg" alt="histogram_compute_example_2_after">
       <br><i>Nach</i>
     </td>
   </tr>

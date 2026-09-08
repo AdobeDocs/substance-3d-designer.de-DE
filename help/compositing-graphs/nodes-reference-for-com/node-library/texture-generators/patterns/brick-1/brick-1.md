@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Brick 1
+title: ZIEGEL 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 10%
@@ -18,22 +18,22 @@ ht-degree: 10%
 ---
 
 
-# Brick 1
+# ZIEGEL 1
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](brick-1.resources/brick-1-01.png){width="128px"}
+![](../../../../../../assets/brick-1.png){width="128px"}
 
-<b>In:</b> Texturgeneratoren > Muster
+<b>In:</b> Texturen > Muster generieren
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Einfaches Ziegelmuster. Weitere Optionen finden Sie unter [Ziegelgenerator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/brick-generator/brick-generator.md) oder [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md).
+Simple Ziegel Pattern. Weitere Optionen finden Sie unter [Ziegel Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/brick-generator/brick-generator.md) oder [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md).
 
 </td>
 </tr>
@@ -45,17 +45,17 @@ Einfaches Ziegelmuster. Weitere Optionen finden Sie unter [Ziegelgenerator](../.
 
 |  |  |
 |:---|:---|
-| <b>Kacheln</b> <i>1 - 16</i> | Legt fest, wie oft das Ergebnis gekachelt werden soll. |
-| <b>Edge-Smoothness</b> <i>0.0 - 1.0</i> | Überblendungen zwischen scharfen und glatten Kanten. |
+| <b>Kachelung</b> <i>1 - 16</i> | Legt fest, wie oft das Ergebnis gekachelt werden soll. |
+| <b>Kantenglättung</b> <i>0.0 - 1.0</i> | Überblendungen zwischen scharfen und glatten Kanten. |
 | <b>Schnittstellenbreite</b> <i>0.0 - 1.0</i> | Legt den Zwischenraum fest (Spaltgröße). |
-| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
 
 ## Beispiele
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="brick-1.resources/brick-1-02.gif" />
+            <img src="../../../../../../assets/brick-1-ex.gif" />
         </td>
     </tr>
 </table>

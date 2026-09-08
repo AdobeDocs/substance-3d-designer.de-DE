@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Wolken 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Clouds 3 - Symbol](clouds-3.resources/clouds-3-01.png "Clouds 3 - Symbol"){width="200px"}
+![Clouds 3 - Symbol](../../../../../../assets/clouds_3.png "Clouds 3 - Symbol"){width="200px"}
 
 <b>In:</b> Texturen-Generatoren > Rauschen
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## Beschreibung
 
-Eine Variation der groben <b>Wolken</b>-Geräusche.
+Eine Variante der groben <b>Wolken</b> Rauschen.
 
 Siehe auch: [Wolken 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-1/clouds-1.md), [Wolken 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md)
 
@@ -47,7 +47,7 @@ Siehe auch: [Wolken 1](../../../../../../compositing-graphs/nodes-reference-for-
 
 |  |  |
 |:---|:---|
-| <b>Ausgabe</b> <i>Graustufen</i> | Das erzeugte Rauschen als Graustufen-Bitmap. |
+| <b>Ausgabe</b> <i>Graustufen</i> | Die generierte Rauschen als Graustufen-Bitmap. |
 
 <a name="parameters"></a>
 
@@ -55,10 +55,10 @@ Siehe auch: [Wolken 1](../../../../../../compositing-graphs/nodes-reference-for-
 
 |  |  |
 |:---|:---|
-| <b>Skalierung</b> <i>Integer</i> | Die Unterteilung des Rasters, der zum Generieren der Rauschen-Kacheln verwendet wird.    Ein höherer Wert führt dazu, dass mehr Kacheln gezeichnet werden und das Rauschen dichter ist. |
-| <b>Störung</b> <i>Fließkommazahl</i> | Versetzt die Bestandteile des Rauschens.    So animierst du die Rauschen. |
-| <b>Störungsgeschwindigkeit</b> <i>Fließkommazahl</i> | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.    Mit dieser Option können Sie die Geschwindigkeit des Versatzes bei der Animation des Rauschens steuern. |
-| <b>Anisotropie der Störung</b> <i>Gleitend</i> | Steuert die Richtungsspanne des Versatzes, der vom <b>Disorder</b>-Parameter angewendet wird, wobei ein höherer Wert zu einer engeren, definierteren Richtung führt.    Die Anisotropie wird durch den Parameter <b>Disorder Direction Angle</b> gesteuert. |
+| <b>Skalierung</b> <i>Ganzzahl</i> | Die Unterteilung des Rasters, der zum Generieren der Rauschen-Kacheln verwendet wird.    Ein höherer Wert führt dazu, dass mehr Kacheln gezeichnet werden und das Rauschen dichter ist. |
+| <b>Störung</b> <i>Fließkommazahl</i> | Versetzt die Bestandteile der Rauschen.    So animierst du die Rauschen. |
+| <b>Störungsgeschwindigkeit</b> <i>Fließkommazahl</i> | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.    Dies kann verwendet werden, um die Geschwindigkeit des Versatzes bei der Animation des Rauschen zu steuern. |
+| <b>Anisotropie der Störung</b> <i>Fließkommazahl</i> | Steuert die Richtungsspanne des Versatzes, der vom <b>Disorder</b>-Parameter angewendet wird, wobei ein höherer Wert zu einer engeren, definierteren Richtung führt.    Die Anisotropie wird durch den Parameter <b>Disorder Direction Angle</b> gesteuert. |
 | <b>Disorder anisotropy angle</b> <i>Gleitend</i> | Steuert die Richtung des Versatzes, der vom <b>Disorder</b>-Parameter angewendet wird, wenn der <b>Disorder Anisotropie</b>-Parameter nicht Null ist. |
 | <b>Kachelversatz</b> <i>Float2</i> | Steuert die Position des Abschnitts der unendlichen Ebene, der zum Rendern des Rauschens verwendet wird. |
 | <b>Nicht quadratische Erweiterung</b> <i>Boolescher Wert</i> | Bei nicht quadratischen Bildern bleibt das erzeugte Kachelquadrat erhalten und erweitert die Rauscherzeugung auf die Grenzen des Bildes. |
@@ -69,12 +69,12 @@ Siehe auch: [Wolken 1](../../../../../../compositing-graphs/nodes-reference-for-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Clouds 3 - Beispiel 1](clouds-3.resources/clouds-3-02.png "Clouds 3 - Beispiel 1"){zoomable="yes"}
+![Clouds 3 - Beispiel 1](../../../../../../assets/clouds_3_1.png "Clouds 3 - Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Clouds 3 - Beispiel 2](clouds-3.resources/clouds-3-03.gif "Clouds 3 - Beispiel 2"){zoomable="yes"}
+![Clouds 3 - Beispiel 2](../../../../../../assets/noise_clouds_3_v2_speed0.6_aniso0.gif "Clouds 3 - Beispiel 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ Siehe auch: [Wolken 1](../../../../../../compositing-graphs/nodes-reference-for-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Clouds 3 - Beispiel 3](clouds-3.resources/clouds-3-04.gif "Clouds 3 - Beispiel 3"){zoomable="yes"}
+![Clouds 3 - Beispiel 3](../../../../../../assets/noise_clouds_3_v2_speed0.6_aniso1.gif "Clouds 3 - Beispiel 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Clouds 3 - Beispiel 4](clouds-3.resources/clouds-3-05.gif "Clouds 3 - Beispiel 4"){zoomable="yes"}
+![Clouds 3 - Beispiel 4](../../../../../../assets/noise_clouds_3_v2_speed0.3_aniso0.6.gif "Clouds 3 - Beispiel 4"){zoomable="yes"}
 
 </td>
 </tr>

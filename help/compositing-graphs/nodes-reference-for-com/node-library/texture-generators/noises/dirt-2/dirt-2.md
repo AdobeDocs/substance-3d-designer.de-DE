@@ -10,7 +10,7 @@ helpx_tags: ""
 title: DIRT 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
@@ -24,16 +24,16 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Dirt 2 - Symbol](dirt-2.resources/dirt-2-01.png "Dirt 2 - Symbol"){width="200px"}
+![Dirt 2 - Symbol](../../../../../../assets/dirt_2.png "Dirt 2 - Symbol"){width="200px"}
 
-<b>In:</b> Texturen-Generatoren > Rauschen
+<b>In:</b> Texturgeneratoren > Rauschen
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Eine Variation der körnigen <b>Dirt</b>-Rauschen.
+Eine Variation der körnigen <b>Dirt</b>-Geräusche.
 
 Siehe auch: [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-1/dirt-1.md), [Dirt 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-3/dirt-3.md), [Dirt 4](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-4/dirt-4.md), [Dirt 5](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-5/dirt-5.md), [Dirt-Verlauf](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-gradient/dirt-gradient.md)
 
@@ -56,9 +56,9 @@ Siehe auch: [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-co
 |  |  |
 |:---|:---|
 | <b>Skalierung</b> <i>Integer</i> | Die Unterteilung des Rasters, das zum Erzeugen der Rauschkacheln verwendet wird.    Ein höherer Wert führt dazu, dass mehr Kacheln gezeichnet werden und das Rauschen dichter ist. |
-| <b>Störung</b> <i>Gleitend</i> | Versetzt die Bestandteile der Rauschen.    So animierst du die Rauschen. |
-| <b>Störungsgeschwindigkeit</b> <i>Fließkommazahl</i> | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.    Dies kann verwendet werden, um die Geschwindigkeit des Versatzes bei der Animation des Rauschen zu steuern. |
-| <b>Anisotropie der Störung</b> <i>Fließkommazahl</i> | Steuert die Richtungsspanne des Versatzes, der vom <b>Disorder</b>-Parameter angewendet wird, wobei ein höherer Wert zu einer engeren, definierteren Richtung führt.    Die Anisotropie wird durch den Parameter <b>Disorder Direction Angle</b> gesteuert. |
+| <b>Störung</b> <i>Gleitend</i> | Versetzt die Bestandteile des Rauschens.    So kannst du das Rauschen animieren. |
+| <b>Störungsgeschwindigkeit</b> <i>Gleitend</i> | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.    Mit dieser Option können Sie die Geschwindigkeit des Versatzes bei der Animation des Rauschens steuern. |
+| <b>Anisotropie der Störung</b> <i>Gleitend</i> | Steuert die Richtungsspanne des Versatzes, der vom <b>Disorder</b>-Parameter angewendet wird, wobei ein höherer Wert zu einer engeren, definierteren Richtung führt.    Die Anisotropie wird durch den Parameter <b>Disorder Direction Angle</b> gesteuert. |
 | <b>Disorder anisotropy angle</b> <i>Gleitend</i> | Steuert die Richtung des Versatzes, der vom <b>Disorder</b>-Parameter angewendet wird, wenn der <b>Disorder Anisotropie</b>-Parameter nicht Null ist. |
 | <b>Kachelversatz</b> <i>Float2</i> | Steuert die Position des Abschnitts der unendlichen Ebene, der zum Rendern des Rauschens verwendet wird. |
 | <b>Nicht quadratische Erweiterung</b> <i>Boolescher Wert</i> | Bei nicht quadratischen Bildern bleibt das erzeugte Kachelquadrat erhalten und erweitert die Rauscherzeugung auf die Grenzen des Bildes. |
@@ -69,12 +69,12 @@ Siehe auch: [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-co
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt 2 - Beispiel 1](dirt-2.resources/dirt-2-02.png "Dirt 2 - Beispiel 1"){zoomable="yes"}
+![Dirt 2 - Beispiel 1](../../../../../../assets/dirt_2_1.png "Dirt 2 - Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt 2 - Beispiel 2](dirt-2.resources/dirt-2-03.gif "Dirt 2 - Beispiel 2"){zoomable="yes"}
+![Dirt 2 - Beispiel 2](../../../../../../assets/noise_dirt_2_v2_speed0.6_aniso0.gif "Dirt 2 - Beispiel 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ Siehe auch: [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-co
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt 2 - Beispiel 3](dirt-2.resources/dirt-2-04.gif "Dirt 2 - Beispiel 3"){zoomable="yes"}
+![Dirt 2 - Beispiel 3](../../../../../../assets/noise_dirt_2_v2_speed0.6_aniso1.gif "Dirt 2 - Beispiel 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt 2 - Beispiel 4](dirt-2.resources/dirt-2-05.gif "Dirt 2 - Beispiel 4"){zoomable="yes"}
+![Dirt 2 - Beispiel 4](../../../../../../assets/noise_dirt_2_v2_speed0.3_aniso0.6.gif "Dirt 2 - Beispiel 4"){zoomable="yes"}
 
 </td>
 </tr>

@@ -1,7 +1,7 @@
 ---
 title: 3D-Viewer
 description: Designer > Substance-Compositing-Grafen > Knotenreferenz für Substance-Compositing-Grafen > Knotenbibliothek > Filter > Effekt > 3D-Viewer
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1989'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![3D-Viewer-Symbol](./3d-viewer.resources/3d-viewer-01.png "3D-Viewer")
+![3D-Viewer-Symbol](./3d-viewer.resources/3d-viewer.png "3D-Viewer")
 
 <b>In:</b> Filter > Effekt
 
@@ -75,10 +75,10 @@ Berechnet ein 3D-Rendering für ein angegebenes SDF oder eine durch einen Funkti
 | <b>UV-Position</b> *Float2* | Die Position im 2D-Bildbereich, die verwendet wurde, um die Kameraposition und -richtung abzuleiten, die die <b>Zielposition</b> umkreist.<br><br><i>Tipp:</i> Dieser Parameter kann intuitiv angepasst werden, indem das <i>Positions-Gizmo</i> verwendet wird, das in der 2D-Ansicht verfügbar ist, wenn der Knoten ausgewählt ist. |
 | <b>FOV</b> *Gleitend* | Das Blickfeld der orthogonalen Kamera (FOV), das sich auf den Zoomfaktor auswirkt. |
 | <b>Brennweite</b> *Gleitend* | Die Brennweite der Kamera, die den Zoomfaktor und die Tiefe des Feldeffekts beeinflusst. |
-| <b>Entfernung vom Ziel</b> *Fließkommazahl* | Die Entfernung, die die Kamera von der <b>Zielposition</b> halten soll.<br><br>Durch Anpassen dieser Option wird die Kamera entlang der Kamera-Ziel-Richtung verschoben. |
+| <b>Entfernung vom Ziel</b> *Fließkommazahl* | Die Entfernung, die die Kamera von der <b>Zielposition</b> ruhen soll.<br><br>Durch Anpassen dieser Option wird die Kamera entlang der Kamera-Ziel-Richtung verschoben. |
 | <b>Zielposition</b> *Fließkommazahl3* | Die Lage des Kamera-Ziels, auf das die Kamera immer ausgerichtet ist. |
 | <b>Tonemapper</b> *Ganzzahl* | Der Tonzuordnungsalgorithmus, der auf das Rendering der Szene angewendet werden soll.<br><br>- <b>Keine (Raw)<br>- <b>sRGB</b><br>- <b>AgX</b><br>- <b>ACE</b> |
-| <b>Tiefe des Felds aktivieren</b> *Boolescher Wert* | Simuliert den Effekt der Kamera der Tiefe des Halbbilds für die Kamera der Perspektive.<br><br>Verwenden Sie die <b>F-Zahl</b> und den <b>Fokusabstand</b>, um die Blende bzw. den Fokus des Effekts anzupassen.<br><br>Das Ergebnis ist auch auf die <b>Brennweite</b> ausgewirkt. |
+| <b>Tiefe des Felds aktivieren</b> *Boolesche Wert* | Simuliert den Effekt der Kamera der Tiefe des Halbbilds für die Kamera der Perspektive.<br><br>Verwenden Sie die <b>F-Zahl</b> und den <b>Fokusabstand</b>, um die Blende bzw. den Fokus des Effekts anzupassen.<br><br>Das Ergebnis ist auch auf die <b>Brennweite</b> ausgewirkt. |
 | <b>F-number</b> *Fließkommazahl* | Die <i>Blende</i>.<br><br>Ein niedrigerer Wert der Kamera führt zu einer geringeren <i>Tiefe des Felds</i>, d. h. einem geringeren Abstandsbereich für scharfe Objekte und einem stärkeren Weichzeichnungseffekt, wenn der Abstand von diesem Bereich zunimmt. |
 | <b>Fokusentfernung</b> *Fließkommazahl* | Legt die Entfernung des Fokuspunkts von der Kamera entlang des Vorwärtsvektors fest.<br><br>Flächen innerhalb dieses Abstandsbereichs erscheinen scharf, dieser Bereich — die <i>Tiefe des Feldes </i> — wird durch die <b>F-Zahl</b> definiert. |
 | <b>Belichtung (EV)</b> *Fließkommazahl* | Die Lichtmenge, die den Kamerasensor erreicht, d. h. die Intensität der Beleuchtung im Rendering.<br><br>Ein niedrigerer Wert führt zu einer dunkleren gerenderten Szene.<br><br>Der &#39;Belichtungswert&#39; (EV) bezieht sich speziell darauf, wie viel Licht der Kamerasensor <i>belichtet</i> hat. |
@@ -102,24 +102,24 @@ Berechnet ein 3D-Rendering für ein angegebenes SDF oder eine durch einen Funkti
 <table style="border: none;">
     <tr style="width: 50%;">
         <td style="text-align: center">
-            <img src="3d-viewer.resources/3d-viewer-02.jpg" alt="Beispiel 1" />
+            <img src="3d-viewer.resources/3d-viewer-example-01.jpg" alt="Beispiel 1" />
         </td>
         <td style="width: 50%;">
             <table style="border: none;">
                 <tr style="vertical-align: top;">
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-03.jpg" alt="Beispiel 1" />
+                        <img src="3d-viewer.resources/3d-viewer-example-02a.jpg" alt="Beispiel 1" />
                     </td>
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-04.jpg" alt="Beispiel 2" />
+                        <img src="3d-viewer.resources/3d-viewer-example-02b.jpg" alt="Beispiel 2" />
                     </td>
                 </tr>
                 <tr style="vertical-align: top;">
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-05.jpg" alt="Beispiel 3" />
+                        <img src="3d-viewer.resources/3d-viewer-example-02c.jpg" alt="Beispiel 3" />
                     </td>
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-06.jpg" alt="Beispiel 4" />
+                        <img src="3d-viewer.resources/3d-viewer-example-02d.jpg" alt="Beispiel 4" />
                     </td>
                 </tr>
             </table>
