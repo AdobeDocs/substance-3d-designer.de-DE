@@ -93,7 +93,7 @@ als die neue Inline-HTML zu erfinden, sofern nicht erforderlich.
 
 * Inline-Code: einzelne Backticks.
 * Umzäunte Blöcke: Triple Backticks, mit einer optionalen Syntaxsprache
-Markierung (` ```python `, ` ```javascript ` usw.).
+Markierung (` `&#x200B;``python `, ` ``&#x200B;`javascript ` usw.).
 
 ## Hinweis/Warnblöcke
 

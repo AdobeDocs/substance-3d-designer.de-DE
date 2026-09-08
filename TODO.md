@@ -33,7 +33,7 @@ ht-degree: 11%
 
 ## Fehlerbehebungen
 
-* Fehlerhafte Verknüpfungen und Formatierung im [Ausgabeknoten ](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
+* Fehlerhafte Verknüpfungen und Formatierung im [Ausgabeknoten &#x200B;](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 * Link für 1. Beispielbild in Knotenseiten (z.B. neue Rauschen)
 * Fehlendes Element &quot;Negative Ganzzahl&quot; und fehlerhafte Verknüpfungen in [parameters-not-working-as-waiting.md](help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
 
