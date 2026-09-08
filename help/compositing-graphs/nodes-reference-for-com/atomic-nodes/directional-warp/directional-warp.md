@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Richtungsverkrümmung", um Texturen eine Richtungsverkrümmung zuzuweisen und so Fluss- und Bewegungseffekte zu erzeugen.
 helpx_creative_field: ""
