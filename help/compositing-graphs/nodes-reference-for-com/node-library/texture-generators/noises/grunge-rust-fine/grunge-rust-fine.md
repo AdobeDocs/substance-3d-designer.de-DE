@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rust-fine.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rust-fine.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Schmutz Rost Fine-Rost, um Feinmetallmuster zu erzeugen, um Korrosions- und Verwitterung-Effekte auf Metalle anzuwenden.
 helpx_creative_field: ""

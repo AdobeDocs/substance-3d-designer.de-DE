@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-004.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-004.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Schmutz Map 004, um prozedurale Schmutz-Muster zu generieren, um verwitterte und abgenutzte Textur hinzuzufügen.
 helpx_creative_field: ""
