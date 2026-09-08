@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/linear-burn.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/linear-burn.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Linear nachbelichten", um Texturen mithilfe des Modus "Linear nachbelichten" zu überblenden und so Abdunkel- und Kontrasteffekte zu erzeugen.
 helpx_creative_field: ""
