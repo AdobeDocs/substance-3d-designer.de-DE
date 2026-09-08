@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/clamp.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/clamp.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Beschränkt Node, um die Werte der Textur innerhalb der angegebenen Mindest- und Höchstbereiche zu klammern, um Wertgrenzen zu steuern.
 helpx_creative_field: ""
