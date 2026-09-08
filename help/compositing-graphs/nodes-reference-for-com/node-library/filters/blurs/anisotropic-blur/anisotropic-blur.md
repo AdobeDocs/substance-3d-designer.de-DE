@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/anisotropic-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/anisotropic-blur.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Anisotropischer Weichzeichner , um Richtungsunschärfeeffekte zum Erstellen von Bewegungsunschärfe- und Stricheffekten anzuwenden.
+description: Verwenden Sie den Knoten "Anisotropischer Weichzeichner", um Richtungseffekte zum Erstellen von Bewegungsunschärfe- und Streueffekten anzuwenden.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Anisotropic Blur
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Anisotropischer Weichzeichner
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 8%
@@ -24,9 +24,9 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](anisotropic-blur.resources/anisotropic-blur-01.png){width="128px"}
+![](../../../../../../assets/anisotropic-blur-grayscale.png){width="128px"}
 
-![](anisotropic-blur.resources/anisotropic-blur-02.png){width="128px"}
+![](../../../../../../assets/anisotropic-blur.png){width="128px"}
 
 <b>In:</b> Filters > Blurs
 
@@ -35,7 +35,7 @@ ht-degree: 8%
 
 ## Beschreibung
 
-Führt eine qualitativ hochwertige [Richtungsunschärfe](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md) durch, mit einigen Einstellungen zum Anpassen des Erscheinungsbilds. Auch bekannt als &quot;Bewegungsunschärfe&quot;.
+Führt eine qualitativ hochwertige [Richtungsunschärfe](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md) durch, mit einigen Einstellungen zum Anpassen des Erscheinungsbilds. Auch als &quot;Bewegungsunschärfe&quot; bezeichnet.
 
 Wichtig: Achten Sie darauf, die passende Version für Ihre Eingabe zu verwenden! Verwenden Sie &quot;Anisotropischer Weichzeichner&quot; für Farbeingaben bzw. &quot;Anisotropischer Weichzeichner, Graustufen&quot; für Graustufeneingaben.
 
@@ -59,7 +59,7 @@ Wichtig: Achten Sie darauf, die passende Version für Ihre Eingabe zu verwenden!
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="anisotropic-blur.resources/anisotropic-blur-03.gif" />
+            <img src="../../../../../../assets/aniso-blur-example.gif" />
         </td>
     </tr>
 </table>

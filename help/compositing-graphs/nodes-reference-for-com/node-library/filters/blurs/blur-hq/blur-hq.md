@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/blur-hq.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/blur-hq.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Weichzeichnen HQ , um hochwertige Unschärfe-Effekte auf Texturen anzuwenden und so sanfte, professionelle Weichzeichnungsergebnisse zu erzielen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: HQ-Weichzeichnen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 10%
@@ -24,9 +24,9 @@ ht-degree: 10%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](blur-hq.resources/blur-hq-01.png){width="128px"}
+![](../../../../../../assets/blur-hq-1.png){width="128px"}
 
-![](blur-hq.resources/blur-hq-02.png){width="128px"}
+![](../../../../../../assets/blur-hq-grayscale.png){width="128px"}
 
 <b>In:</b> Filters > Blurs
 
@@ -35,7 +35,7 @@ ht-degree: 10%
 
 ## Beschreibung
 
-Führt einen Gaußschen Weichzeichner hoher Qualität auf das Ergebnis durch. Viel bessere Qualität als [die Standardunschärfe des atomaren Rahmens](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md) [.](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
+Führt einen Gaußschen Weichzeichner hoher Qualität auf das Ergebnis durch. Viel bessere Qualität als [die Standardunschärfe des atomaren Rahmens](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)[.](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
 
 Wichtig: Achten Sie darauf, die passende Version für Ihre Eingabe zu verwenden! Verwenden Sie &quot;Weichzeichner-HQ&quot; für Farbeingaben bzw. &quot;Weichzeichner-HQ-Graustufen&quot; für Graustufeneingaben.
 
@@ -57,7 +57,7 @@ Wichtig: Achten Sie darauf, die passende Version für Ihre Eingabe zu verwenden!
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="blur-hq.resources/blur-hq-03.gif" />
+            <img src="../../../../../../assets/hqblur-example.gif" />
         </td>
     </tr>
 </table>
