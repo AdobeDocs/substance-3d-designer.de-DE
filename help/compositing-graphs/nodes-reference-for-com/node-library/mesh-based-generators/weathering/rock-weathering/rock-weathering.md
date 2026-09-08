@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rock-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rock-weathering.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Felsverwitterung", um Wettermuster auf Felsoberflächen basierend auf der Gittergeometrie für realistische Erosionseffekte zu generieren.
+description: Verwenden Sie den Knoten Rock-Verwitterung , um Verwitterung auf Felsoberflächen auf Basis der Mesh-Geometrie zu generieren, um realistische Erosionseffekte zu erzielen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Rock Weathering
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Steinverwitterung
+title: Rock-Verwitterung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 6eb38d6ccaadda1d070e4e0b67311312adb7d082
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 16%
@@ -18,13 +18,13 @@ ht-degree: 16%
 ---
 
 
-# Steinverwitterung
+# Rock-Verwitterung
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](rock-weathering.resources/rock-weathering-01.png){width="128px"}
+![](../../../../../../assets/rock-weathering.png){width="128px"}
 
 <b>In:</b> Mesh-basierte Generatoren > Verwitterung
 
@@ -43,9 +43,9 @@ ht-degree: 16%
 
 |  |  |
 |:---|:---|
-| <b>Umgebungs-Verdeckung</b> <i>Graustufen-Eingabe</i> | Durch Baking erzeugte Map für interne Effekte und Maskierung. |
+| <b>Ambient occlusion</b> <i>Graustufen-Eingabe</i> | Durch Baking erzeugte Map für interne Effekte und Maskierung. |
 | <b>Krümmung</b> <i>Graustufen-Eingabe</i> | Durch Baking erzeugte Map für interne Effekte und Maskierung. |
-| <b>Normaler WS</b> <i>Farbeingabe</i> | Baked World Space Normalmap wird für interne Effekte und Maskierung verwendet. |
+| <b>Normaler WS</b> <i>Farbeingabe</i> | Baking geführt Welt-Raum Normalmap wird für interne Effekte und Maskierung verwendet. |
 | <b>Maske</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. Mit dem Parameter &quot;Maske&quot; umschaltbar. |
 
 <a name="parameters"></a>
@@ -54,7 +54,7 @@ ht-degree: 16%
 
 |  |  |
 |:---|:---|
-| <b>Kanäle</b> | Schalten Sie die Materialkanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanzkarten anstelle von &quot;Metallisch/Raueit&quot; verwenden. |
+| <b>Kanäle</b> | Schalten Sie die Material-Kanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanz-Maps anstelle von &quot;Metallic/Rauheit&quot; verwenden. |
 | <b>Erweitert</b> |  |
 | <b>Normales Format</b> <i>DirectX, OpenGL</i> | Wechselt zwischen verschiedenen Normalmap-Formaten (invertiert den grünen Kanal). |
 | <b>Maske</b> <i>False/True</i> | Schaltet die Verwendung der Maskenkarte ein oder aus. |
@@ -86,7 +86,7 @@ ht-degree: 16%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="rock-weathering.resources/rock-weathering-02.gif" />
+            <img src="../../../../../../assets/rock-ex.gif" />
         </td>
     </tr>
 </table>
