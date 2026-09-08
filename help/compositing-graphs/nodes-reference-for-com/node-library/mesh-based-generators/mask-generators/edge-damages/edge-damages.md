@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-damages.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-damages.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Kantenschaden", um Schadensmasken an Netzkanten zu generieren, um realistische Kantenverschleiß- und Brucheffekte zu erzeugen.
 helpx_creative_field: ""

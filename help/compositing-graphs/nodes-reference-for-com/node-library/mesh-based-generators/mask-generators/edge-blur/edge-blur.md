@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-blur.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-blur.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Kantenunschärfe", um Kantenmasken zu verwischen, um weiche Übergänge und glatte kantenbasierte Verwitterungseffekte zu erstellen.
 helpx_creative_field: ""

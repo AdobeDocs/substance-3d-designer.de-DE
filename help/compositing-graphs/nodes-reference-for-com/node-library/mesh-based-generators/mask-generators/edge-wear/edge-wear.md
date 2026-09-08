@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-wear.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-wear.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Edge Wear-Knoten, um Verschleißmasken an Kanten des Meshs zu generieren, um realistische Beschädigungen an Kanten und Verwitterung zu erzeugen.
 helpx_creative_field: ""
