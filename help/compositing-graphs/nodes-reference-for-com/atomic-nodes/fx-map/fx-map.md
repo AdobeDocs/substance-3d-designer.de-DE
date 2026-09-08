@@ -71,7 +71,7 @@ Er ist einer der leistungsstärksten elementare Knoten und der komplexeste in de
 
 ## Parameter
 
-Beachten Sie, dass im Gegensatz zu anderen Knoten der größte Teil des Verhaltens eines FX-Map nicht durch die Parameter bestimmt wird, sondern [ durch Bearbeiten der FX-Map-Funktionen](../../../../function-graphs/fxmaps/fxmaps.md), die sich darin befinden.
+Beachten Sie, dass im Gegensatz zu anderen Knoten der größte Teil des Verhaltens eines FX-Map nicht durch die Parameter bestimmt wird, sondern [&#x200B; durch Bearbeiten der FX-Map-Funktionen](../../../../function-graphs/fxmaps/fxmaps.md), die sich darin befinden.
 
 |  |  |
 | --- | --- |
@@ -79,7 +79,7 @@ Beachten Sie, dass im Gegensatz zu anderen Knoten der größte Teil des Verhalte
 | <b>Hintergrund</b> *Fließkommazahl/Fließkommazahl4* | Legt die Anfangsfarbe des Hintergrunds fest, mit der die Ergebnisse zusammengefügt werden. |
 | <b>Renderregion</b> *Fließkommazahl4* | Ermöglicht es Ihnen, den ersten Pixelbereich für jede Seite des FX-Map festzulegen, was zu einem dehnend Effekt führt. |
 | <b>Region der Kachelung</b> *Fließkommazahl4* | Ermöglicht das Versetzen der Kachelung des FX-Map. |
-| <b>Außerhalb abrufen</b> *Boolesche Wert* | Führt eine Optimierung durch [Auslesen von ](../../../../glossary/glossary.md) Mustern durch, die außerhalb des normalen Bereichs liegen. |
+| <b>Außerhalb abrufen</b> *Boolesche Wert* | Führt eine Optimierung durch [Auslesen von &#x200B;](../../../../glossary/glossary.md) Mustern durch, die außerhalb des normalen Bereichs liegen. |
 | <b>Rauheit</b> *Gleitend* | Funktioniert als Tiefe- und Deckkraftmultiplikator. Es wendet eine Voreinstellung auf den FX-Map-Mischprozess an. |
 | <b>Globale Deckkraft</b> *Gleitend* | Legt die globale Deckkraft der Ausgabe der FX-Map fest. |
 
