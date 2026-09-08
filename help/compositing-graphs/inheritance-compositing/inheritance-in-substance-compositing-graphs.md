@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie die Vererbung beim Substance von Compositing-Graphen funktioniert, um wiederverwendbare Diagrammhierarchien und -varianten zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vererbung bei Substance-Graphen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 0%
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 # Vererbung bei Substance-Graphen
 
-Auf dieser Seite wird beschrieben, wie die Vererbung in [Substance-Graphen](../../compositing-graphs/substance-compositing-graphs.md) in [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) angewendet wird und welche Auswirkungen sie auf die Ausgabe des Diagramms hat.
+Auf dieser Seite wird beschrieben, wie die Vererbung in [Substance-Graphen](../../compositing-graphs/substance-compositing-graphs.md) in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) angewendet wird und welche Auswirkungen sie auf die Ausgabe des Diagramms hat.
 
-![Vererbungsmethoden](../../assets/inheritance-overview-1.jpg "Vererbungsmethoden"){width="1400px"}
+![Vererbungsmethoden](inheritance-in-substance-compositing-graphs.resources/inheritance-overview-1.jpg "Vererbungsmethoden"){width="1400px"}
 
 ## Überblick
 
@@ -38,7 +38,7 @@ Alle Knoten in einem Substance-Diagramm können *den Wert einiger Parameter von 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Symbol für &#39;Absolute&#39; Vererbungsmethode](../../assets/ds-inheritance-absolute.png "Symbol für &#39;Absolute&#39; Vererbungsmethode"){width="128px"}
+![Symbol für &#39;Absolute&#39; Vererbungsmethode](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-absolute.png "Symbol für &#39;Absolute&#39; Vererbungsmethode"){width="128px"}
 
 <b>Absolut</b>
 
@@ -47,7 +47,7 @@ Keine Vererbung, der Wert ist *willkürlich und lokal* für den Parameter defini
 </td>
 <td style="border: 0;" valign="top">
 
-![Symbol für die Vererbungsmethode &quot;Relativ zur Eingabe&quot;](../../assets/ds-inheritance-relative-to-input.png "Symbol für die Vererbungsmethode &quot;Relativ zur Eingabe&quot;"){width="128px"}
+![Symbol für die Vererbungsmethode &quot;Relativ zur Eingabe&quot;](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-relative-to-input.png "Symbol für die Vererbungsmethode &quot;Relativ zur Eingabe&quot;"){width="128px"}
 
 <b>Relativ zur Eingabe </b>
 
@@ -56,7 +56,7 @@ Der Wert wird von den Daten geerbt, die mit dem *primären Eingang* des Knotens 
 </td>
 <td style="border: 0;" valign="top">
 
-![Symbol für Vererbungsmethode &quot;Relativ zu übergeordnetem Element&quot;](../../assets/ds-inheritance-relative-to-parent.png "Symbol für Vererbungsmethode &quot;Relativ zu übergeordnetem Element&quot;"){width="128px"}
+![Symbol für Vererbungsmethode &quot;Relativ zu übergeordnetem Element&quot;](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-relative-to-parent.png "Symbol für Vererbungsmethode &quot;Relativ zu übergeordnetem Element&quot;"){width="128px"}
 
 <b>Relativ zu übergeordnetem Element </b>
 
@@ -66,7 +66,7 @@ Der Wert wird von *parent* des Knotens oder Diagramms geerbt.
 </tr>
 </table>
 
-![Demonstration von Vererbungsmethoden](../../assets/inheritance-overview.gif "Demonstration von Vererbungsmethoden")
+![Demonstration von Vererbungsmethoden](inheritance-in-substance-compositing-graphs.resources/inheritance-overview.gif "Demonstration von Vererbungsmethoden")
 
 Vererbungsmethoden werden auf die [Basisparameter](../../compositing-graphs/graph-parameters/graph-parameters.md) eines Knotens angewendet. Dies ist der Satz allgemeiner Parameter, über die alle Knoten verfügen, die *grundlegende Aspekte* ihres Verhaltens steuern. Zu diesen Parametern gehören:
 
@@ -86,8 +86,8 @@ Dadurch sollten Sie wissen, wie Änderungen am *One*-Knoten sich auf die Auflös
 
 >[!NOTE]
 >
-> **Ausgabegröße:** Verwenden Sie die Sperrschaltfläche ![](../../assets/props-output-size-lock.jpg), damit der Wert des Heights *mit dem Wert der Breite* übereinstimmt.\
-> **Zufallswert:** Verwenden Sie die Schaltfläche ![](../../assets/prop-randomise.jpg), um dem Zufallswert einen neuen Zufallswert zuzuweisen.
+> **Ausgabegröße:** Verwenden Sie die Sperrschaltfläche ![](inheritance-in-substance-compositing-graphs.resources/props-output-size-lock.jpg), damit der Wert des Heights *mit dem Wert der Breite* übereinstimmt.\
+> **Zufallswert:** Verwenden Sie die Schaltfläche ![](inheritance-in-substance-compositing-graphs.resources/prop-randomise.jpg), um dem Zufallswert einen neuen Zufallswert zuzuweisen.
 
 ## Änderungen vornehmen
 
@@ -96,7 +96,7 @@ Dadurch sollten Sie wissen, wie Änderungen am *One*-Knoten sich auf die Auflös
 Im Eigenschaftenfenster verfügen alle Parameter, die im Abschnitt [Basisparameter](../../compositing-graphs/graph-parameters/graph-parameters.md) der Eigenschaften eines Knotens aufgeführt sind, über eine Dropdownschaltfläche (Symbol) <b>Erbschaftsmethode festlegen</b> gegenüber der entsprechenden Bezeichnung.\
 Mit dieser Schaltfläche können Sie die Vererbungsmethode auswählen, die für einen Parameter verwendet werden soll.
 
-![Vererbungsmethode ändern](../../assets/inheritance-change.gif "Vererbungsmethode ändern"){width="512px"}
+![Vererbungsmethode ändern](inheritance-in-substance-compositing-graphs.resources/inheritance-change.gif "Vererbungsmethode ändern"){width="512px"}
 
 In den meisten Fällen sind die Basisparameter eines *Knotens* auf *Relativ zu Eingabe* festgelegt, um das prozedurale Verhalten der Verkettung von Knoten zu nutzen, während die Basisparameter eines *Graphen* auf *Relativ zu übergeordneten* festgelegt sind, sodass die globalen Parameter an den Kontext angepasst werden können, in dem das Diagramm verwendet wird.
 
@@ -146,7 +146,7 @@ Wenn ein Diagramm über mehrere Eingaben verfügt, kann jede Eingabe je nach Ver
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Symbol für die Vererbungsmethode &quot;Relativ zur Eingabe&quot;](../../assets/ds-inheritance-relative-to-input.png "Symbol für die Vererbungsmethode &quot;Relativ zur Eingabe&quot;"){width="128px"}
+![Symbol für die Vererbungsmethode &quot;Relativ zur Eingabe&quot;](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-relative-to-input.png "Symbol für die Vererbungsmethode &quot;Relativ zur Eingabe&quot;"){width="128px"}
 
 <b>Relativ zur Eingabe </b>
 
@@ -155,7 +155,7 @@ Der Eingang erbt von seinen diskreten Eingangsdaten, unabhängig von den Base-Pa
 </td>
 <td style="border: 0;" valign="top">
 
-![Symbol für Vererbungsmethode &quot;Relativ zu übergeordnetem Element&quot;](../../assets/ds-inheritance-relative-to-parent.png "Symbol für Vererbungsmethode &quot;Relativ zu übergeordnetem Element&quot;"){width="128px"}
+![Symbol für Vererbungsmethode &quot;Relativ zu übergeordnetem Element&quot;](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-relative-to-parent.png "Symbol für Vererbungsmethode &quot;Relativ zu übergeordnetem Element&quot;"){width="128px"}
 
 <b>Relativ zu übergeordnetem Element </b>
 
@@ -180,17 +180,17 @@ Die Eingabe erbt vom Graphen, und die empfangenen Daten werden entsprechend ange
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Farbe/Graustufen für primäre Eingabe](../../assets/inheritance-primary-input-both.png){width="48px"}
+![Farbe/Graustufen für primäre Eingabe](inheritance-in-substance-compositing-graphs.resources/inheritance-primary-input-both.png){width="48px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Farbe für primäre Eingabe](../../assets/inheritance-primary-input-color.png){width="48px"}
+![Farbe für primäre Eingabe](inheritance-in-substance-compositing-graphs.resources/inheritance-primary-input-color.png){width="48px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Graustufen für primäre Eingabe](../../assets/inheritance-primary-input-grayscale.png){width="48px"}
+![Graustufen für primäre Eingabe](inheritance-in-substance-compositing-graphs.resources/inheritance-primary-input-grayscale.png){width="48px"}
 
 </td>
 </tr>
@@ -201,7 +201,7 @@ Eine der Eingaben kann als **Primäre Eingabe** des Diagramms festgelegt werden,
 </td>
 <td style="border: 0;" valign="top">
 
-![Eingangskonnektortypen](../../assets/inheritance-primary-input.jpg "Eingangskonnektortypen")
+![Eingangskonnektortypen](inheritance-in-substance-compositing-graphs.resources/inheritance-primary-input.jpg "Eingangskonnektortypen")
 
 </td>
 </tr>
@@ -233,14 +233,14 @@ Buchstaben stellen *separate Sätze* von Base-Parametern dar und sollten helfen,
 
 **Beispiel A**
 
-![Vererbungsdiagramm A](../../assets/inheritance-schematic-a.png "Vererbungsdiagramm A"){zoomable="yes"}
+![Vererbungsdiagramm A](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-a.png "Vererbungsdiagramm A"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 **Beispiel B**
 
-![Vererbungsdiagramm B](../../assets/inheritance-schematic-b.png "Vererbungsdiagramm B"){zoomable="yes"}
+![Vererbungsdiagramm B](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-b.png "Vererbungsdiagramm B"){zoomable="yes"}
 
 </td>
 </tr>
@@ -252,14 +252,14 @@ Buchstaben stellen *separate Sätze* von Base-Parametern dar und sollten helfen,
 
 **Beispiel C**
 
-![Vererbungsdiagramm C](../../assets/inheritance-schematic-c.png "Vererbungsdiagramm C"){zoomable="yes"}
+![Vererbungsdiagramm C](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-c.png "Vererbungsdiagramm C"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 **Beispiel D**
 
-![Vererbungsdiagramm D](../../assets/inheritance-schematic-d.png "Vererbungsdiagramm D"){zoomable="yes"}
+![Vererbungsdiagramm D](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-d.png "Vererbungsdiagramm D"){zoomable="yes"}
 
 </td>
 </tr>
@@ -295,6 +295,6 @@ Insbesondere das *Primäre Eingabe*-Konzept wird leicht *übersehen* und kann zu
 
 Der Knoten [Blend](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) ist dafür sehr anfällig, da er sehr häufig verwendet wird. Die <b>Background</b>-Eingabe ist die primäre Eingabe.
 
-![Vererbung der Ausgabegröße](../../assets/inheritance-blend.jpg "Vererbung der Ausgabegröße"){width="512px"}
+![Vererbung der Ausgabegröße](inheritance-in-substance-compositing-graphs.resources/inheritance-blend.jpg "Vererbung der Ausgabegröße"){width="512px"}
 
 Sie müssen auf die Reihenfolge achten, in der Sie die beiden Eingaben mischen: Der Eingang, dessen Auflösung und Präzision Sie im Diagramm beibehalten möchten, sollte mit dem Eingang Hintergrund verbunden sein, wenn der benötigte Mischmodus dies ermöglicht. Andernfalls müssen Sie möglicherweise die Base-Parameter des Überblendungsknotens und die zugehörige Vererbungsmethode anpassen, um dies zu kompensieren.
