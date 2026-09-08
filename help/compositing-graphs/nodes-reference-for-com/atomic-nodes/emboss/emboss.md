@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Relief , um Reliefeffekte auf Texturen zu erzeugen, mit denen Sie Oberflächendetails Tiefe und Relief hinzufügen können.
+description: Mit dem Knoten "Relief" können Sie Reliefeffekte auf Texturen erzeugen, um Tiefe und Relief zu Oberflächendetails hinzuzufügen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Emboss
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Relief
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Elementare Knoten: Relief](../../../../assets/comp_emboss_1.png "Elementare Knoten: Relief"){width="200px"}
+![Atomknoten: Relief](emboss.resources/comp_emboss_1.png "Atomknoten: Relief"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,7 +37,7 @@ Das heißt, der Node führt eine einfache 2D-Schattierung auf der Basis von 2 Ei
 </tr>
 </table>
 
-Dieser Knoten wird nicht oft für PBR-ähnliche Projekte verwendet, kann aber in bestimmten Fällen verwendet werden, wenn Sie eine einfache, Baking geführt Beleuchtung in Ihrer Textur wünschen. Alternativ bieten [Relief With Gloss](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md) und [Uber Relief](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md) eine ähnliche, aber umfassendere Funktionalität.
+Dieser Knoten wird nicht oft für PBR-ähnliche Projekte verwendet, kann aber in bestimmten Fällen verwendet werden, wenn Sie eine einfache, gebackene Beleuchtung in Ihrer Textur wünschen. Alternativ bieten [Relief mit Glanz](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md) und [Uber Relief](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md) eine ähnliche, aber umfangreichere Funktionalität.
 
 <table>
 <tr style="border: 0;">
@@ -63,7 +63,7 @@ Dieser Knoten wird nicht oft für PBR-ähnliche Projekte verwendet, kann aber in
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-## Ausgabe-Verbindungen
+## Ausgangsanschlüsse
 
 </td>
 <td style="border: 0;" valign="top">
@@ -78,12 +78,12 @@ Dieser Knoten wird nicht oft für PBR-ähnliche Projekte verwendet, kann aber in
 
 |  |  |
 | --- | --- |
-| <b>Intensität</b> *Fließkommazahl* | Passt die globale Intensität des Beleuchtungseffekts an.   Legt die Intensität des Bildes des Heights und damit die Stärke des Beleuchtungseffekts fest. |
-| <b>Lichtwinkel</b> *Fließkommazahl* | Legt den Winkel fest, in dem das Licht simuliert wird.   Definiert den Beleuchtungswinkel der Markierung des geprägten Bildes. |
-| <b>Markierungsfarbe</b> *Fließkommazahl/Fließkommazahl4* | Legt die Farbe der Bereiche fest, die zum Lichtwinkel zeigen.   Legt die Hervorhebungsfarbe fest, wenn das Eingabebild eine Farbe ist. |
-| <b>Schattenfarbe</b> *Fließkommazahl/Fließkommazahl4* | Legt die Farbe der Bereiche fest, die vom Lichtwinkel weg zeigen.   Legt die Farbe der schattierten Bereiche des geprägten Bildes fest. |
+| <b>Intensität</b> *Gleitend* | Passt die globale Intensität des Beleuchtungseffekts an.   Legt die Intensität des Heights und damit die Intensität des Lichteffekts fest. |
+| <b>Lichtwinkel</b> *Gleitend* | Legt den Winkel fest, in dem das Licht simuliert wird.   Definiert den Beleuchtungswinkel der Markierung des geprägten Bildes. |
+| <b>Markierungsfarbe</b> *Gleitend/Gleitend4* | Legt die Farbe der Bereiche fest, die zum Lichtwinkel zeigen.   Legt die Farbe der Markierung fest, wenn das Eingabebild eine Farbe ist. |
+| <b>Schattenfarbe</b> *Gleitend/Gleitend4* | Legt die Farbe der Bereiche fest, die vom Lichtwinkel weg zeigen.   Legt die Farbe der schattierten Bereiche des geprägten Bildes fest. |
 
-## Eingabe-Verbindungen
+## Eingangsanschlüsse
 
 |  |  |
 | --- | --- |
