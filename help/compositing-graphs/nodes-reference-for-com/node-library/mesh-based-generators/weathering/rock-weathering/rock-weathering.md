@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rock-weathering.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rock-weathering.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Rock-Verwitterung , um Verwitterung auf Felsoberflächen auf Basis der Mesh-Geometrie zu generieren, um realistische Erosionseffekte zu erzielen.
 helpx_creative_field: ""
