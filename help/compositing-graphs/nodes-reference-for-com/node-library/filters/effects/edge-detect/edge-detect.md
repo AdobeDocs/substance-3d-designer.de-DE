@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/edge-detect.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/edge-detect.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Kantenerkennung", um Kanten in Texturen zum Erstellen von Konturen und Kantenmasken-Effekten zu erkennen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Kantenerkennung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](edge-detect.resources/edge-detect-01.png){width="128px"}
+![](../../../../../../assets/edge-detect.png){width="128px"}
 
 <b>In:</b> Filters > Effects
 
@@ -57,7 +57,7 @@ Dies ist in vielen Fällen nützlich, wenn eine Maske für Kanten benötigt wird
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="edge-detect.resources/edge-detect-02.png" />
+            <img src="../../../../../../assets/edge-detect-ex.png" />
         </td>
     </tr>
 </table>

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-filter-node.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Filterknoten "Abgeflachte Kante", um abgeflachte Kanten auf Formen und Mustern zu erstellen, um Tiefe und Abmessung hinzuzufügen.
+description: Mit dem Filterknoten "Abgeflachte Kante" erstellen Sie abgeflachte Kanten an Formen und Mustern, um Tiefe und Dimension hinzuzufügen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Bevel (Filter Node)
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Abgeflachte Kante (Filterknoten)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](bevel-filter-node.resources/bevel-filter-node-01.png){width="128px"}
+![](../../../../../../assets/bevel.png){width="128px"}
 
 <b>In:</b> Filters > Effects
 
@@ -69,7 +69,7 @@ Dies ist ein nützlicher Knoten zum Anwenden von exakten Kurvenprofilen auf eine
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="bevel-filter-node.resources/bevel-filter-node-02.png" />
+            <img src="../../../../../../assets/bevel-example.png" />
         </td>
     </tr>
 </table>

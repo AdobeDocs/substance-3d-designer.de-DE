@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-smooth.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-smooth.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Weiche Abschrägung", um abgeflachte Kanten an Formen und Mustern zu erstellen, die realistische Flächen ergeben.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Weiche Abschrägung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Anisotropes Kuwahara-Graustufen-Symbol](bevel-smooth.resources/bevel-smooth-01.png "Anisotropes Kuwahara-Graustufen-Symbol"){width="200px"}
+![Anisotropes Kuwahara-Graustufen-Symbol](../../../../../../assets/bevel_smooth.png "Anisotropes Kuwahara-Graustufen-Symbol"){width="200px"}
 
 <b>In:</b> Filters > Effects
 
@@ -87,12 +87,12 @@ Der Abstand des Verlaufs kann mithilfe eines Abstands-Map dynamisch entlang des 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Weiche Abschrägung: Beispiel 1](bevel-smooth.resources/bevel-smooth-02.gif "Weiche Abschrägungen: Beispiel 1"){width="1024px" zoomable="yes"}
+![Weiche Abschrägung: Beispiel 1](../../../../../../assets/bevel_smooth_example_1.gif "Weiche Abschrägungen: Beispiel 1"){width="1024px" zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Weiche Abschrägung: Beispiel 8](bevel-smooth.resources/bevel-smooth-03.jpg "Weiche Abschrägungen: Beispiel 8"){width="1024px" zoomable="yes"}
+![Weiche Abschrägung: Beispiel 8](../../../../../../assets/bevel_smooth_example_8.jpg "Weiche Abschrägungen: Beispiel 8"){width="1024px" zoomable="yes"}
 
 </td>
 </tr>
@@ -105,11 +105,11 @@ Der Abstand des Verlaufs kann mithilfe eines Abstands-Map dynamisch entlang des 
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-04.jpg" alt="bevel_smooth_example_4_before">
+      <img src="../../../../../../assets/bevel_smooth_example_4_before.jpg" alt="bevel_smooth_example_4_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-05.jpg" alt="bevel_smooth_example_4_after">
+      <img src="../../../../../../assets/bevel_smooth_example_4_after.jpg" alt="bevel_smooth_example_4_after">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -121,11 +121,11 @@ Der Abstand des Verlaufs kann mithilfe eines Abstands-Map dynamisch entlang des 
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-06.jpg" alt="bevel_smooth_example_2_before">
+      <img src="../../../../../../assets/bevel_smooth_example_2_before.jpg" alt="bevel_smooth_example_2_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-07.jpg" alt="bevel_smooth_example_2_after">
+      <img src="../../../../../../assets/bevel_smooth_example_2_after.jpg" alt="bevel_smooth_example_2_after">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -142,11 +142,11 @@ Der Abstand des Verlaufs kann mithilfe eines Abstands-Map dynamisch entlang des 
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-08.jpg" alt="bevel_smooth_example_3_before">
+      <img src="../../../../../../assets/bevel_smooth_example_3_before.jpg" alt="bevel_smooth_example_3_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-09.jpg" alt="bevel_smooth_example_3_after">
+      <img src="../../../../../../assets/bevel_smooth_example_3_after.jpg" alt="bevel_smooth_example_3_after">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -158,11 +158,11 @@ Der Abstand des Verlaufs kann mithilfe eines Abstands-Map dynamisch entlang des 
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-10.jpg" alt="bevel_smooth_example_5_before">
+      <img src="../../../../../../assets/bevel_smooth_example_5_before.jpg" alt="bevel_smooth_example_5_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-11.jpg" alt="bevel_smooth_example_5_after">
+      <img src="../../../../../../assets/bevel_smooth_example_5_after.jpg" alt="bevel_smooth_example_5_after">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -175,11 +175,11 @@ Der Abstand des Verlaufs kann mithilfe eines Abstands-Map dynamisch entlang des 
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-12.jpg" alt="bevel_smooth_example_7_before">
+      <img src="../../../../../../assets/bevel_smooth_example_7_before.jpg" alt="bevel_smooth_example_7_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-13.jpg" alt="bevel_smooth_example_7_after">
+      <img src="../../../../../../assets/bevel_smooth_example_7_after.jpg" alt="bevel_smooth_example_7_after">
       <br><i>Nach</i>
     </td>
   </tr>

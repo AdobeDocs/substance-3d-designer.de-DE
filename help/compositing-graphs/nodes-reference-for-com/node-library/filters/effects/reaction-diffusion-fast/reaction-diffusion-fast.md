@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Reaktionsdiffusionsgeschwindigkeit", um organische Muster mithilfe von schnellen Reaktionsdiffusionsalgorithmen für prozedurale Texturen zu generieren.
+description: Verwenden Sie den Knoten "Reaction Diffusion Fast", um organische Muster mithilfe schneller Algorithmen zur Diffusion der Reaktion für prozedurale Texturen zu generieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Reaction Diffusion Fast
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Reaktionsdiffusionsgeschwindigkeit
+title: Reaktionsschnelle Diffusion
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 3%
@@ -18,13 +18,13 @@ ht-degree: 3%
 ---
 
 
-# Reaktionsdiffusionsgeschwindigkeit
+# Reaktionsschnelle Diffusion
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Symbol für Reaktions-Diffusionsknoten](reaction-diffusion-fast.resources/reaction-diffusion-fast-01.png "Symbol für Reaktions-Diffusionsknoten")
+![Symbol für den Reaktionsreaktionsknotenknoten](../../../../../../assets/reaction-diffusion.png "Symbol für den Reaktionsreaktionsknotenknoten") für die Diffusion von Diffusionen
 
 <b>In:</b> Filters > Effects
 
@@ -33,9 +33,9 @@ ht-degree: 3%
 
 ## Beschreibung
 
-Dieser Knoten führt einen Reaktions-Diffusionseffekt auf ein Graustufenbild durch.
+Dieser Knoten führt einen Effekt der Diffusion einer Reaktion auf ein Eingabe-Graustufenbild aus.
 
-Die Reaktions-Diffusion ist ein Prozess, bei dem sich Materie ausbreitet (diffundiert) und mit anderer Materie interagiert (reagiert). Es ist ein mathematisches Modell, das simuliert, was in der Natur passiert, wenn bestimmte Muster auf Tierhaut gebildet werden, zum Beispiel.
+Reaktions-Diffusion ist ein Prozess, bei dem sich Materie ausbreitet (diffus) und mit anderer Materie interagiert (reagiert). Es ist ein mathematisches Modell, das simuliert, was in der Natur passiert, wenn bestimmte Muster auf Tierhaut gebildet werden, zum Beispiel.
 
 Dieser Knoten ist für die Leistung optimiert und bietet ein gewisses Maß an Präzision für die Geschwindigkeit.
 
@@ -65,8 +65,8 @@ Dieser Knoten ist für die Leistung optimiert und bietet ein gewisses Maß an Pr
 
 |  |  |
 |:---|:---|
-| <b>Radius</b> *Gleitend* | Wie weit sollte sich der Effekt ausbreiten? |
-| <b>Kontrast</b> *Gleitend* | Passt den Kontrast der Eingabe an und dient als eine Art Schwellenwert. |
+| <b>Radius</b> *Fließkommazahl* | Wie weit sollte sich der Effekt ausbreiten? |
+| <b>Kontrast</b> *Fließkommazahl* | Passt den Kontrast der Eingabe an und dient als eine Art Schwellenwert. |
 
 ## Beispiele
 
@@ -74,17 +74,17 @@ Dieser Knoten ist für die Leistung optimiert und bietet ein gewisses Maß an Pr
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Beispiel 1](reaction-diffusion-fast.resources/reaction-diffusion-fast-02.png "Beispiel 1")
+![Beispiel 1](../../../../../../assets/reactdiff03.png "Beispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Beispiel 2](reaction-diffusion-fast.resources/reaction-diffusion-fast-03.png "Beispiel 2")
+![Beispiel 2](../../../../../../assets/reactdiff02.png "Beispiel 2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Beispiel 3](reaction-diffusion-fast.resources/reaction-diffusion-fast-04.gif "Beispiel 3")
+![Beispiel 3](../../../../../../assets/reactdiff01.gif "Beispiel 3")
 
 </td>
 </tr>
