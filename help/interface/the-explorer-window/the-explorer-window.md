@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-explorer-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-explorer-window.html"
 breadcrumb-title: ''
 description: Verwenden Sie das Explorer-Fenster in Substance 3D Designer, um Ihre Projektdateien und -ressourcen zu durchsuchen, zu organisieren und zu verwalten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Explorer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Explorer
 
-Auf dieser Seite wird das Explorer-Dock in [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) beschrieben. In diesem Bedienfeld kannst du Pakete und die zugehörigen Ressourcen verwalten.
+Auf dieser Seite wird das Explorer-Dock in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) beschrieben. In diesem Bedienfeld kannst du Pakete und die zugehörigen Ressourcen verwalten.
 
 <table>
 <tr style="border: 0;">
@@ -35,7 +35,7 @@ Im Explorer können Sie Ihre Projekte starten und beenden, da Sie damit jede Art
 </td>
 <td style="border: 0;" valign="top">
 
-![Explorer-Dock](the-explorer-window.resources/the-explorer-window-01.jpg "Explorer-Dock")
+![Explorer-Dock](../../assets/explorer-3.jpg "Explorer-Dock")
 
 </td>
 </tr>
@@ -56,16 +56,16 @@ Im Explorer-Dock können Sie einige wichtige Aktionen ausführen:
 
 Mit dieser Symbolleiste können Sie schnell Funktionen im Zusammenhang mit Ihrem gesamten Arbeitsablauf ausführen. Alle Schaltflächen sind *kontextabhängig*, d. h. sie aktivieren und ändern ihr Verhalten entsprechend Ihrer aktuellen Auswahl im Explorer.
 
-![](the-explorer-window.resources/the-explorer-window-02.png) <b>Speichern</b> ausgewähltes Paket.
+![](../../assets/save.png) <b>Speichern</b> ausgewähltes Paket.
 
-![](the-explorer-window.resources/the-explorer-window-03.jpg) <b>Publish oder [senden](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b> ausgewählte Elemente:
+![](../../assets/sendto-icon.jpg) <b>Publish oder [senden](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b> ausgewählte Elemente:
 
 * [Publish beliebiges ausgewähltes Paket zu einem Substance 3D-Asset (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md);
-* Senden Sie das ausgewählte Paket an [Substance 3D Sampler](https://www.adobe.com/de/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/de/products/substance3d-painter.html) oder [Substance 3D Stager](https://www.adobe.com/de/products/substance3d-stager.html).
+* Senden Sie das ausgewählte Paket an [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) oder [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html).
 
-![](the-explorer-window.resources/the-explorer-window-04.png) <b>Publish oder senden Sie wie zuvor:</b> Publish oder senden Sie die ausgewählten Elemente mit den gleichen Einstellungen wie zuvor. Diese Option ist nur für ein Paket verfügbar, das bereits *mindestens einmal* in der *aktuellen*-Sitzung veröffentlicht wurde.
+![](../../assets/republish.png) <b>Publish oder senden Sie wie zuvor:</b> Publish oder senden Sie die ausgewählten Elemente mit den gleichen Einstellungen wie zuvor. Diese Option ist nur für ein Paket verfügbar, das bereits *mindestens einmal* in der *aktuellen*-Sitzung veröffentlicht wurde.
 
-![](the-explorer-window.resources/the-explorer-window-05.jpg) <b>Nicht verwendete Knoten entfernen</b> in ausgewählten Diagrammen. Das Tool befolgt die folgenden Regeln:
+![](../../assets/graph-cleaner.jpg) <b>Nicht verwendete Knoten entfernen</b> in ausgewählten Diagrammen. Das Tool befolgt die folgenden Regeln:
 
 * Das Tool ist nur verfügbar, wenn die ausgewählten Elemente vom *gleichen Typ sind*: nur Diagramme, Ordner oder Pakete;
 * Wenn die Auswahl Ordner oder Pakete enthält, bereinigt das Tool alle darin enthaltenen Diagramme *rekursiv*;
@@ -77,14 +77,14 @@ Erfahren Sie mehr über das Tool im Abschnitt &quot;Nicht verwendete Knoten entf
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dropdown-Menü &quot;Publish/Senden&quot;](the-explorer-window.resources/the-explorer-window-06.jpg "Dropdown-Menü &quot;Publish/Senden&quot;")
+![Dropdown-Menü &quot;Publish/Senden&quot;](../../assets/explorer-sendto-displayed.jpg "Dropdown-Menü &quot;Publish/Senden&quot;")
 
 *Publish/Send*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dropdown-Menü für nicht verwendete Knoten entfernen](the-explorer-window.resources/the-explorer-window-07.jpg "Dropdown-Menü für nicht verwendete Knoten entfernen")
+![Dropdown-Menü für nicht verwendete Knoten entfernen](../../assets/explorer-graph-cleaner.jpg "Dropdown-Menü für nicht verwendete Knoten entfernen")
 
 *Nicht verwendete Knoten entfernen*
 
@@ -120,7 +120,7 @@ Mit <b>Publish .sbsar-Datei</b> und <b> .sbsar-Datei erneut veröffentlichen</b>
 
 <b>Der Export mit Abhängigkeiten</b> unterscheidet sich vom Speichern und Veröffentlichen. Es nimmt Ihre SBS-Dateien, sammelt alle referenzierten Ressourcen und Abhängigkeiten und erstellt ein eigenständiges Paket. In diesem Dialogfeld können Sie auswählen, welche Bibliotheken erfasst werden sollen und ob die Datei ein komprimiertes Archiv sein soll (7-zip). Dies ist eine gute Wahl, um eine SBS-Datei mit jemand anderem zu teilen, ohne sich über fehlende Abhängigkeiten Gedanken zu machen.
 
-<b>Senden an...</b> öffnet ein Untermenü, in dem Sie Ihr Paket direkt [senden](send-to-interoperability/send-to-interoperability.md) an [Substance 3D Sampler](https://www.adobe.com/de/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/de/products/substance3d-painter.html), [Substance 3D Stager](https://www.adobe.com/de/products/substance3d-stager.html) oder [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html).
+<b>Senden an...</b> öffnet ein Untermenü, in dem Sie Ihr Paket direkt [senden](send-to-interoperability/send-to-interoperability.md) an [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html), [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html) oder [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html).
 
 <b>Copy</b> kopiert das ausgewählte Paket.
 
@@ -200,9 +200,9 @@ Mit <b>Einfügen</b> werden kopierte Diagramme und/oder Ressourcen *in* das ausg
 
 Die Symbolleiste am unteren Rand des Explorer-Docks enthält Informationen zu einem Paket oder einer Paketressource:
 
-<b>![](the-explorer-window.resources/the-explorer-window-08.jpg) Abhängigkeiten:</b> Wenn ein Paket ausgewählt ist, werden seine Paketabhängigkeiten in einem dedizierten Bereich aufgelistet.
+<b>![](../../assets/explorer-dependencies.jpg) Abhängigkeiten:</b> Wenn ein Paket ausgewählt ist, werden seine Paketabhängigkeiten in einem dedizierten Bereich aufgelistet.
 
-<b>![](the-explorer-window.resources/the-explorer-window-09.jpg)-Informationen: </b> Stellt Metadaten bereit, die sich auf das derzeit ausgewählte Paket oder die derzeit ausgewählte Ressource beziehen:
+<b>![](../../assets/explorer-information.jpg)-Informationen: </b> Stellt Metadaten bereit, die sich auf das derzeit ausgewählte Paket oder die derzeit ausgewählte Ressource beziehen:
 
 * Paket: den vollständigen Dateipfad des Pakets
 * [Bitmapressource](../../resources/bitmap-resource/bitmap-resource.md): den vollständigen Dateipfad der Ressource, ihr [ICC-Profil](../../color-management/color-management.md), die Bildgröße und die [Importmethode](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) (d. h. *Verknüpft* oder *Importiert*)
@@ -211,14 +211,14 @@ Die Symbolleiste am unteren Rand des Explorer-Docks enthält Informationen zu ei
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Abhängigkeitsbereich](the-explorer-window.resources/the-explorer-window-10.jpg "Abhängigkeitsbereich")
+![Abhängigkeitsbereich](../../assets/explorer-dependencies-displayed.jpg "Abhängigkeitsbereich")
 
 *Abhängigkeiten*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Informationsbereich](the-explorer-window.resources/the-explorer-window-11.jpg "Informationsbereich")
+![Informationsbereich](../../assets/explorer-information-displayed.jpg "Informationsbereich")
 
 *Informationen*
 

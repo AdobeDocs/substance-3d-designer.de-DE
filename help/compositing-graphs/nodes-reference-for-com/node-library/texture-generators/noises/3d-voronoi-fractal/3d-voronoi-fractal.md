@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi-fractal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi-fractal.html"
 breadcrumb-title: ''
 description: Verwenden Sie den 3D Voronoi Fractal-Knoten, um fraktale Voronoi-Muster basierend auf der 3D-Position für volumetrische Texturen zu generieren.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3D Voronoi Fractal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -22,79 +22,130 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](3d-voronoi-fractal.resources/3d-voronoi-fractal-01.png){width="200px"}
+![](../../../../../../assets/3dvoronoifractal.png){width="200px"}
 
-<b>In:</b> Textur Generators > Rauschen
+**In:** *Texturgeneratoren* */Noises*
+
+**Fortgeschrittene**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Der Knoten <b>3D Voronoi Fractal</b> erzeugt ein <i>Fraktal</i>-Voronoi-Rauschen im 3D-Raum auf der Grundlage der <b>Positionszuordnung</b>-Eingabe.
+Der Knoten **3D Voronoi Fractal** erzeugt ein *Fraktal*-Voronoi-Rauschen im 3D-Raum auf der Grundlage der **Positionszuordnung**-Eingabe.
 
 Dieser Knoten kann mit [Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) als Eingabe anstelle einer tatsächlichen durch Baking erzeugte Map (wie im folgenden Beispielbild) getestet werden.
+
+>[!WARNING]
+>
+> Dieses Geräusch soll nur mit dem *GPU-Modul verwendet werden* (d. h. **Direct3D** oder **OpenGL**). Wechseln Sie zu **Extras > Modul wechseln...** oder drücken Sie die Taste **F9**, um das gewünschte Modul auszuwählen.
 
 </td>
 </tr>
 </table>
 
->[!WARNING]
->
-> Dieses Geräusch soll nur mit dem <i>GPU-Modul verwendet werden</i> (d. h. <b>Direct3D</b> oder <b>OpenGL</b>). Wechseln Sie zu <b>Extras > Modul wechseln...</b> oder drücken Sie die Taste <b>F9</b>, um das gewünschte Modul auszuwählen.
-
-<a name="parameters"></a>
-
 ## Parameter
 
-|  |  |
-|:---|:---|
-| <b>Umkehren</b> <i>Boolescher Wert</i> | Kehrt das Ausgabebild um. |
-| <b>Skalierung</b> <i>Gleitend</i> | Steuert die Skalierung der fraktalen 3D-Voronoi-Rauschen.<br><br><i>Hinweis</i>: Wenn <b>Kacheln</b> auf <i>einer Achse</i> aktiviert ist, ist die Skalenanpassung <i>gestuft</i>. Dies wird erwartet. |
-| <b>Größe</b> <i>Float3</i> | Steuert die Größe des fraktalen 3D-Voronoi-Rauschens in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b>. Nicht einheitliche Werte führen zu einem <i>dehnend oder auslöschenden </i>-Effekt.<br><br><i>Hinweis</i>: Wenn <b>Kachelung</b> für <i>eine beliebige Achse</i> aktiviert ist, ist die Größenanpassung <i>schrittweise</i>. Dies wird erwartet. |
-| <b>Offset</b> <i>Float3</i> | Wendet einen Offset auf die <i>Position</i> des fraktalen 3D-Voronoi-Rauschens in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b> an. |
-| <b>Störung</b> <i>Float3</i> | Die Intensität des <i>zufälligen Versatzes</i>, der auf jeden Punkt des Rauschens in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b> angewendet wird. |
-| <b>Intensität der Verzerrung</b> <i>Gleitend</i> | Steuert die Intensität eines <i>Verkrümmungseffekts</i>, der auf die fraktale 3D-Voronoi-Rauschen angewendet wird. |
-| <b>Verzerrungen-Skalierungsmultiplikator</b> <i>Gleitend</i> | Steuert die Skalierung des <i>sich verformenden Musters</i>, das im Verkrümmungseffekt verwendet wird, der durch die <b>Intensität der Verzerrung</b> gesteuert wird. |
-| <b>Min. Stufe</b> <i>Integer</i> | Die minimale <i>Wiederholungsstufe</i>, die im fraktalen Muster verwendet wird. Ein größerer Mindest-/Höchstbereich führt zu einem <i>reicheren Muster</i> mit Variationen in mehr Frequenzbereichen. |
-| <b>Max. Stufe</b> <i>Integer</i> | Die maximale <i>Wiederholungsstufe </i>, die im fraktalen Muster verwendet wird. Ein größerer Mindest-/Höchstbereich führt zu einem <i>reicheren Muster</i> mit Variationen in mehr Frequenzbereichen. |
-| <b>Raueit</b> <i>Gleitend</i> | Steuert die <i>Balance</i> zwischen niedrigen und hohen <i>Wiederholungsstufen</i> im fraktalen Muster.<br><br><i>Hinweis</i>: Ein Wert von <b>0</b> führt zu einer Ausgabe, die <i> nicht in Zeile </i> enthält, auf die andere niedrige Werte folgen. Dies wird erwartet.<br><br><i>Hinweis 2</i>: Dieser Parameter ist nur verfügbar, wenn der Parameter <b>Überblendmodus</b> auf <i>Hinzufügen</i> festgelegt ist. |
-| <b>Lakunarität</b> <i>Gleitend</i> | Steuert, wie das angewendete fraktale Muster &quot;<i>&quot; Leerzeichen &quot;</i>&quot; ausfüllt. Ein <i>höherer</i> Wert führt zu <i>weniger Lücken</i> im Muster und einem <i>dichteren</i> Rauschen. |
-| <b>Globale Deckkraft</b> <i>Gleitend</i> | Steuert den <i>Bereich</i> der Werte der fraktalen 3D-Perlin-Rauschen von 0. |
-| <b>Abgerundete Kurve</b> <i>Gleitend</i> | Rundet die <i>Steigung</i> um jeden Punkt der Rauschen, um sie <i>konvex</i> zu machen.<br><br><i>Hinweis</i>: Dieser Parameter ist nicht verfügbar, wenn der <b>Style</b>-Parameter auf <i>Edge</i> festgelegt ist. |
-| <b>Entfernungsskala</b> <i>Gleitend</i> | Passt den <i>Abstand des Farbverlaufs</i> um jeden Punkt des Rauschens an. |
-| <b>Entfernungsmodus</b> <i>Integer</i> | Legt die Methode auf <i>Berechnen des Abstandsverlaufs</i> um jeden Punkt der Rauschen fest:<br><br>- <i>Euklidean</i><br>- <i>Manhattan</i><br>- <i>Chebyshev</i><br>- <i>Minkowski</i> |
-| <b>Minkowski-Zahl</b> <i>Gleitend</i> | Die Reihenfolge <i>p</i> der Minkowski-Entfernung. Wenn wir den Abstandsverlauf in Quadranten unterteilen, wirkt sich diese Zahl wie folgt auf diese Quadranten aus:<br><br>- p ist <i>genau</i> 1: Straight<br>- p ist <i>niedriger</i> als 1: Konkav<br>- p ist <i>größer</i> als 1: Konvex<br><br>Interessante Werte:<br>- <i>1.0</i>: Entfernung von Manhattan<br>- <i>2.0</i>: Euklidische Entfernung<br>- <i>Unendlich</i>: Chebyshev-Abstand<br><br><i>Hinweis</i>: Dieser Parameter ist nur verfügbar, wenn der Parameter <b>Entfernungsmodus</b> auf <i>Minkowski</i> festgelegt ist. |
-| <b>Füllmethode</b> <i>Integer</i> | Legt die Methode zum Mischen der Werte von <i>überlappenden Zellen</i> im 3D-Raum fest:<br><br>- <i>Hinzufügen</i>: Fügen Sie die Werte <br>- <i>Max</i> hinzu: Beibehalten des <i>höchsten</i>-Werts<br>-<i>Min</i>: Beibehalten des <i>niedrigsten</i>-Werts |
-| <b>Stil</b> <i>Integer</i> | Legt die <i>-Methode zum Rendern der Daten</i> der fraktalen 3D-Voronoi-Rauschen fest, da die Rauschen auf einem Satz von 3D-Leerzeichen basiert:<br><br>- <i>F1</i>: Abstand zum <i>nächstgelegenen Punkt</i> im 3D-Raum<br>- <i>F2</i>: der Abstand zum <i>zweitnächsten Punkt</i> im 3D-Raum<br>- <i>F2-F1</i><br>- <i>F1\*F2</i><br>- <i>F1/F2</i><br>- <i>Edge</i>: die <i>Kante zwischen jeder Zelle</i> der Rauschen im 3D-Raum<br>- <i>Zufallsfarbe</i>: jeder Zelle der Rauschen im 3D-Raum eine <i>zufällige flache Farbe</i> zuweisen |
-| <b>Edge-Thickness</b> <i>Gleitend</i> | Passt die Thickness der Kanten an, die zwischen den Zellen der fraktalen 3D-Voronoi-Rauschen erkannt werden. Kanten werden in den X-, Y- und Z-Achsen erkannt, daher können einige Stärken schneller zunehmen als andere, je nach <i>Tiefe</i> der Zellen.<br><br><i>Hinweis</i>: Dieser Parameter ist nur verfügbar, wenn der <b>Style</b>-Parameter auf <i>Edge</i> festgelegt ist. |
-| <b>Kachelung aktivieren</b> <i>Boolesche Wert</i> | Passt die fraktale 3D-Voronoi-Rauschen so an, dass sich das resultierende Muster <i>in X-, Y- und Z-Achse wiederholt</i>. |
+* **Umkehren** *Boolesche Wert*\
+  Kehrt das Ausgabebild um.
+* **Skalierung** *Fließkommazahl*\
+  Steuert die Skalierung der fraktalen 3D Voronoi-Rauschen.\
+  *Hinweis*: Wenn **Kacheln** auf *einer Achse* aktiviert ist, ist die Skalenanpassung *gestuft*. Dies wird erwartet.
+* **Größe** *Fließkommazahl3*\
+  Steuert die Größe des fraktalen 3D-Voronoi-Rauschens in den Achsen **X**, **Y** und **Z**. Nicht einheitliche Werte führen zu einem *Dehnungs- oder Squashing*-Effekt.\
+  *Hinweis*: Wenn **Kachelung** für *eine beliebige Achse* aktiviert ist, ist die Größenanpassung *schrittweise*. Dies wird erwartet.
+* **Offset** *Float3*\
+  Wendet einen Offset auf die *Position* des fraktalen 3D-Voronoi-Rauschens in den Achsen **X**, **Y** und **Z** an.
+* **Störung** *Float3*\
+  Die Intensität des *zufälligen Versatzes*, der auf jeden Punkt des Rauschens in den Achsen **X**, **Y** und **Z** angewendet wird.
+* **Intensität der Verzerrung** *Gleitend*\
+  Steuert die Intensität eines *Verkrümmungseffekts*, der auf die fraktale 3D-Voronoi-Rauschen angewendet wird.
+* **Verzerrung-Skalierungsmultiplikator** *Fließkommazahl*\
+  Steuert die Skalierung des *sich verformenden Musters*, das im Verkrümmungseffekt verwendet wird, der durch die **Intensität der Verzerrung** gesteuert wird.
+* **Min Level** *Ganzzahl*\
+  Die minimale *Wiederholungsstufe*, die im fraktalen Muster verwendet wird. Ein größerer Mindest-/Höchstbereich führt zu einem *reicheren Muster* mit Variationen in mehr Frequenzbereichen.
+* **Max. Stufe** *Ganzzahl*\
+  Die maximale *Wiederholungsstufe*, die im fraktalen Muster verwendet wird. Ein größerer Mindest-/Höchstbereich führt zu einem *reicheren Muster* mit Variationen in mehr Frequenzbereichen.
+* **Rauheit** *Fließkommazahl*\
+  Steuert die *Balance* zwischen niedrigen und hohen *Wiederholungsstufen* im fraktalen Muster.\
+  *Hinweis*: Ein Wert von **0** führt zu einer Ausgabe, die *nicht in Zeile* enthält, auf die andere niedrige Werte folgen. Dies wird erwartet.\
+  *Hinweis 2*: Dieser Parameter ist nur verfügbar, wenn der Parameter **Überblendmodus** auf *Hinzufügen* festgelegt ist.
+* **Lakunarität** *Gleitend*\
+  Steuert, wie das angewendete fraktale Muster &quot;*&quot; Leerzeichen &quot;*&quot; ausfüllt. Ein *höherer* Wert führt zu *weniger Lücken* im Muster und einem *dichteren* Rauschen.
+* **Globale Deckkraft** *Gleitend*\
+  Steuert den *Bereich* der Werte der fraktalen 3D-Perlin-Rauschen von 0.
+* **Abgerundete Kurve** *Gleitkomma*\
+  Rundet die *Steigung* um jeden Punkt des Rauschens, um sie *konvex* zu machen.\
+  *Hinweis*: Dieser Parameter ist nicht verfügbar, wenn der **Style**-Parameter auf *Edge* festgelegt ist.
+* **Abstandsskala** *Gleitend*\
+  Passt den *Abstand des Farbverlaufs* um jeden Punkt des Rauschens an.
+* **Entfernungsmodus** *Ganzzahl*\
+  Legt die Methode auf *fest, um den Abstandsverlauf* um jeden Punkt der Rauschen zu berechnen:
+  * *Euklidean*
+  * *Manhattan*
+  * *Chebyshev*
+  * *Minkowski*
+* **Minkowski-Zahl** *Gleitend*\
+  Die Reihenfolge *p* der Minkowski-Entfernung. Wenn wir den Abstandsverlauf in Quadranten unterteilen, wirkt sich diese Zahl wie folgt auf diese Quadranten aus:
+  * p ist *genau* 1: Gerade
+  * p ist *niedriger* als 1: konkav
+  * p ist *größer* als 1: konvex\
+    Interessante Werte:\
+    *- 1.0*: Entfernung von Manhattan\
+    *- 2.0*: Euklidische Entfernung\
+    *- Unendlich*: Chebyshev-Abstand\
+    *Hinweis*: Dieser Parameter ist nur verfügbar, wenn der Parameter **Entfernungsmodus** auf *Minkowski* festgelegt ist.
+* **Überblendung-Modus** *Ganzzahl*\
+  Legt die Methode für das Mischen der Werte von *überlappenden Zellen* im 3D-Raum fest:
+  * *Hinzufügen*: Werte hinzufügen.
+  * *Max*: *höchster* Wert beibehalten
+  * *Min*: *niedrigste* Werte beibehalten
+* **Stil** *Ganzzahl* Legt die *-Methode für das Rendern der Daten* der fraktalen 3D-Voronoi-Rauschen fest, da die Rauschen auf einem Satz von 3D-Punkten basiert:
+  * *F1*: der Abstand zum *nächstgelegenen Punkt* im 3D-Raum
+  * *F2*: der Abstand zum *zweitnächsten Punkt* im 3D-Raum
+  * *F2-F1*- *F1\* F2 *-* F1/F2 *-* Edge *: die* Kante zwischen jeder Zelle* der Rauschen im 3D-Raum
+  * *Zufallsfarbe*: jeder Zelle der Rauschen im 3D-Raum eine *zufällige Flächenfarbe* zuweisen
+* **Edge-Thickness** *Fließkommazahl* Passt die Thickness der Kanten an, die zwischen den Zellen der fraktalen 3D-Voronoi-Rauschen erkannt werden. Kanten werden in der X-, Y- und Z-Achse erkannt, daher können einige Stärken schneller zunehmen als andere, je nach *Tiefe* der Zellen.\
+  *Hinweis*: Dieser Parameter ist nur verfügbar, wenn der **Style**-Parameter auf *Edge* festgelegt ist.
+* **Kachelung aktivieren** *Boolesche Wert*\
+  Passt das fraktale 3D-Voronoi-Rauschen so an, dass sich das resultierende Muster *in der X-, Y- und Z-Achse wiederholt*.
 
-## Beispiele
+## Beispielbilder
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-02.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-03.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-04.jpg" />
-        </td>
-    </tr>
-    <tr style="border: 0; background: transparent">
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-05.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-06.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-07.jpg" />
-        </td>
-    </tr>
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/3dvoronoifractal-variant6.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/3dvoronoifractal-variant2.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/3dvoronoifractal-variant4.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/3dvoronoifractal-variant5.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/3dvoronoifractal-variant.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/3dvoronoifractal-variant3.jpg){width="256px"}
+
+</td>
+</tr>
 </table>

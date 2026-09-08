@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
 breadcrumb-title: ''
-description: Greifen Sie in Substance 3D Designer-Funktionsdiagrammen auf Steuerungsknoten zu, um den Ablauf und die Ausführungslogik zu steuern.
+description: Greifen Sie in Substance 3D Designer-Funktionsknoten zu, um Flow- und Ausführungslogik zu steuern. Graf
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Control
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Steuerung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4b69ef5fd76498339222e7b72708f9833acf0e63
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '557'
 ht-degree: 1%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 1%
 
 # Steuerungsknoten
 
-Auf dieser Seite werden Knoten von [Funktionsdiagrammen](../../../../function-graphs/the-function-graph/the-function-graph.md) beschrieben, deren Zweck darin besteht, den *Ausführungsfluss* zu steuern.
+Auf dieser Seite werden Graf von [Function Knoten](../../../../function-graphs/the-function-graph/the-function-graph.md) beschrieben, die den *Ausführungsfluss* steuern.
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![If...Else node](../../../../assets/IfElse_Node.jpg "If...Else node")
+![Wenn...Anderer Knoten](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/IfElse_Node.jpg "If...Else-Knoten")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -41,8 +41,8 @@ Auf dieser Seite werden Knoten von [Funktionsdiagrammen](../../../../function-gr
 
 Sie verwenden diesen Knoten in Verbindung mit den [logischen Knoten](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) und den [Vergleichsknoten](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/comparison-nodes/comparison-nodes.md), die Sie beim Erstellen der zu überprüfenden Bedingung unterstützen.
 
-+++Eingangsanschlüsse
-<b>Bedingung</b> *Boolescher Wert*\
++++Eingabe-Verbindungen
+<b>Bedingung</b> *Boolesche Wert*\
 Die Bedingung, die die Ausgabe des Knotens steuert.
 
 <b>If</b> *Variablentyp* Der vom Knoten ausgegebene Wert, wenn <b>Bedingung</b> *Wahr* ist.
@@ -55,14 +55,14 @@ Die Bedingung, die die Ausgabe des Knotens steuert.
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Sequenzknoten](../../../../assets/Sequence_Node.jpg "Sequenzknoten")
+![Sequenzknoten](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/Sequence_Node.jpg "Sequenzknoten")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Abfolge
 
-Stellt sicher, dass ein Teil des Diagramms vor einem anderen berechnet wird.
+Stellt sicher, dass ein Teil des Grafen vor einem anderen berechnet wird.
 
 </td>
 </tr>
@@ -72,7 +72,7 @@ Dies ist entscheidend für die Steuerung des Status von Variablen, wenn sie erst
 
 Weitere Informationen zum Sequenzknoten finden Sie auf der Seite [Verwenden der Set-/Sequenzknoten](../../../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md) dieser Dokumentation.
 
-+++Eingangsanschlüsse
++++Eingabe-Verbindungen
 <b>In</b> *Variablentyp*\
 Der Teil des Grafen, der zuerst berechnet werden soll
 
@@ -85,7 +85,7 @@ Der Teil des Grafen, der zuletzt berechnet werden soll
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knoten &quot;Ganze Schleife&quot;](../../../../assets/WhileLoop-Node.jpg "Knoten &quot;Ganze Schleife&quot;")
+![Knoten &quot;Ganze Schleife&quot;](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/WhileLoop-Node.jpg "Ganzer Loop-Knoten")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -94,28 +94,28 @@ Der Teil des Grafen, der zuletzt berechnet werden soll
 
 Führt die Verzweigung <b>Init</b> einmal aus, und iteriert dann die Verzweigung <b>Exit Cond.</b>. und <b>Schleifentext</b> verzweigt bis zur <b>Exit-Kond.</b> Branch gibt *True* zurück.
 
-Sobald die Schleife abgeschlossen ist, gibt der Knoten das Ergebnis der letzten Iteration des <b>Schleifenkörpers</b> aus.
+Sobald die Schleife abgeschlossen ist, gibt der Knoten das Ergebnis der letzten Iteration des <b>Schleifentextes</b> aus.
 
 </td>
 </tr>
 </table>
 
-Schleifen haben eine implizite maximale Anzahl von Iterationen, die deaktiviert werden können, indem sie auf -1 gesetzt werden.
+Loops verfügen über eine implizite maximale Anzahl von Iterationen, die durch Setzen auf -1 deaktiviert werden können.
 
-Variablen behalten ihren Wert über mehrere Iterationen hinweg bei und können in der Exitbedingung (Exitbedingung) aufgerufen werden.\
-Dies bedeutet, dass Sie einem Indexwert jede Iteration hinzufügen und seinen Wert in der Beendigungsbedingung überprüfen können, um die Anzahl der erforderlichen Schleifen zu steuern.
+Variablen behalten ihren Wert über Iterationen hinweg bei und können in der Exitbedingung (Exitbedingung) aufgerufen werden.\
+Dies bedeutet, dass Sie jede Iteration zu einem Indexwert hinzufügen und seinen Wert in der Beendigungsbedingung überprüfen können, um die Anzahl der erforderlichen Schleifen zu steuern.
 
 >[!IMPORTANT]
 >
-> Mit <b>Exit Cond.</b> verbundene Knoten und <b>Schleifenbody</b>-Verzweigungen können nicht mit anderen Verzweigungen des Diagramms verbunden werden.
+> Mit <b>Exit Cond.</b> verbundene Knoten und <b>Schleifenbody</b>-Verzweigungen können nicht mit anderen Verzweigungen des Grafen verbunden werden.
 
 +++Eingangsanschlüsse
 <b>Init.</b> *Variablentyp*\
-Der Teil des Graphen, der vor der ersten Iteration berechnet wird, d. h. der Beginn der Schleife.
+Der Teil des Grafen, der vor der ersten Iteration berechnet wird, d. h. der Beginn der Schleife.
 
 <b>Abschlusskennung </b> *Boolescher Wert*\
 Die Bedingung, die &quot;true&quot; sein muss, damit die Schleife beendet wird. Er wird bei jeder Iteration neu berechnet.\
-*Hinweis:* Die maximale Anzahl von Iterationen ist weiterhin auf den Parameter <b>Max iterations</b> beschränkt.
+*Hinweis:* Die maximale Anzahl von Iterationen ist weiterhin auf den Parameter <b>Max. Iterationen</b> beschränkt.
 
 <b>Schleifentext</b> *Variablentyp*\
 Der Graph, der von der Schleife profitiert. Er wird bei jeder Iteration neu berechnet.

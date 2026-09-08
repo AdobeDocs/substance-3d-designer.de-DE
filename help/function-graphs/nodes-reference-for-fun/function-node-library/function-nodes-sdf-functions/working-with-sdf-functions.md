@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Arbeiten mit SDF-Funktionen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '2573'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Beachten Sie als Ausgangspunkt den grundlegenden Arbeitsablauf, der wie folgt au
 1. Erstellen Sie eine SDF-Funktion in einem [3D-Viewer](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md)-Knoten, um das Ergebnis zu visualisieren.
 2. Kopieren Sie den fertigen Funktionsknoten (oder [instanziieren it](../../../../glossary/glossary.md#instance-node)) in den SDF-Funktion-Graf eines Knotens, der SDF-Funktionen unterstützt, wie z. B. [Shape splatter v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md).
 
-<img style="display: block; margin: auto;" src="working-with-sdf-functions.resources/working-with-sdf-functions-01.gif" alt="Grafik der 3D-SDF-Funktionen-Knotenfunktion in Substance 3D Designer" />
+<img style="display: block; margin: auto;" src="working-with-sdf-functions.resources/working-with-sdf-mograph.gif" alt="Grafik der 3D-SDF-Funktionen-Knotenfunktion in Substance 3D Designer" />
 
 ## Was ist eine SDF-Funktion?
 
@@ -39,7 +39,7 @@ Beachten Sie als Ausgangspunkt den grundlegenden Arbeitsablauf, der wie folgt au
             <p>Genau wie mathematische Funktionen in 2D als Kurven aufgetragen werden können, können sie in 3D als Flächen aufgetragen werden.</p><p>Ein vorzeichenbehaftetes Abstandsfeld ist eine mathematische Funktion, die eine Oberfläche im 3D-Raum definiert, indem der Abstand von einem beliebigen Punkt im Raum zum nächsten Punkt auf der Oberfläche berechnet wird.</p><p>Teilen wir den Namen "Feld für signierte Abstände" auf, um ihn besser zu verstehen:<ul><li><b>Signiert</b> bedeutet, dass die Funktion einen positiven Wert zurückgibt, wenn sich der Punkt außerhalb/vor der Oberfläche befindet, einen negativen Wert, wenn sich der Punkt innerhalb/hinter der Oberfläche befindet, und Null, wenn sich der Punkt genau auf der Oberfläche befindet.</li><li><b>Abstand</b> bezieht sich auf die Tatsache, dass die Funktion den Abstand von einem beliebigen Punkt im Raum zum *nächstgelegenen* Punkt auf der Oberfläche berechnet.</li><li><b>Feld</b> bedeutet, dass die Funktion ein Feld mit Werten beschreibt, da jeder Punkt im Raum einen entsprechenden Wert hat, der den Abstand zur nächsten Fläche darstellt.</li></ul></p>
         </td>
         <td style="border: 0; width: 33%; vertical-align: top">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-02.gif" alt="Visualisierung der durch eine SDF-Funktion erzeugten Form mit weitläufigen Isolinien." />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-what-is-an-sdf.gif" alt="Visualisierung der durch eine SDF-Funktion erzeugten Form mit weitläufigen Isolinien." />
         </td>
     </tr>
 </table>
@@ -64,7 +64,7 @@ SDF-Funktion-Nodes sind für die Verwendung in speziellen Substance-Funktionsgra
 Knotenparameter, die als Funktion ausgedrückt werden sollen, verwenden einen &#39;Edit function&#39;-Button.
 
 Was Sie über Substance-Funktionsdiagramme wissen müssen:
-* Ähnlich wie Substance-Graphen sind Knoten-Connectors *spezialisiert*, d. h., sie können nur mit anderen Connectors von *gleicher Farbe* [verbunden werden, die ihren Typ &#x200B;](../../function-nodes-overview/function-nodes-overview.md#color-coding) darstellen.
+* Ähnlich wie Substance-Graphen sind Knoten-Connectors *spezialisiert*, d. h., sie können nur mit anderen Connectors von *gleicher Farbe* [verbunden werden, die ihren Typ ](../../function-nodes-overview/function-nodes-overview.md#color-coding) darstellen.
 * Knoten haben keine Parameter, sie können nur Eingaben haben. (Mit einigen wenigen Ausnahmen)
 * Das Diagramm hat einen einzelnen Ausgabeknoten. Klicken Sie mit der rechten Maustaste auf einen Knoten, und wählen Sie `Set as output` aus, um ihn als Ausgabeknoten festzulegen.
 * Ähnlich wie Substance-Graphen gibt es *atomic* Nodes - die Basisbausteine - und *instance* Nodes, die andere Substance-Funktionsgraphen darstellen.
@@ -72,7 +72,7 @@ Was Sie über Substance-Funktionsdiagramme wissen müssen:
 
 +++ Beispiel für ein Funktionsdiagramm, das eine SDF-Funktion definiert
 
-![working-with-sdf-function-graph.png](working-with-sdf-functions.resources/working-with-sdf-functions-03.png)
+![working-with-sdf-function-graph.png](working-with-sdf-functions.resources/working-with-sdf-function-graph.png)
 
 +++
 
@@ -86,11 +86,11 @@ Der Node bietet spezielle Funktionen zur Visualisierung von Aspekten der SDF-Fun
 
 Der Knoten [Physische Sonne/Himmel](../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/physical-sun-sky/physical-sun-sky.md) kann verwendet werden, um die Umgebungsbeleuchtung im 3D-Viewer schnell einzurichten.
 
-<img style="margin-top: 32px; margin-bottom: 32px;" src="./working-with-sdf-functions.resources/working-with-sdf-functions-04.gif" alt="3D-Viewer-Knoten für die Visualisierung von SDF-Funktionen einrichten." />
+<img style="margin-top: 32px; margin-bottom: 32px;" src="./working-with-sdf-functions.resources/working-with-sdf-setup.gif" alt="3D-Viewer-Knoten für die Visualisierung von SDF-Funktionen einrichten." />
 
 >[!TIP]
 > 
-> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>Alle SDF-Funktion-Nodes sowie deren Eingabe-Connectors bieten QuickInfos, die Sie über ihren Zweck und ihre Verwendung informieren.</p><p>Schauen Sie sie sich an!</p></td><td style="border: none; width: 33%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-functions-05.png" alt="QuickInfo für den Eingabe-Connector auf dem SDF-Funktion-Knoten." /></td></tr></table>
+> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>Alle SDF-Funktion-Nodes sowie deren Eingabe-Connectors bieten QuickInfos, die Sie über ihren Zweck und ihre Verwendung informieren.</p><p>Schauen Sie sie sich an!</p></td><td style="border: none; width: 33%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-tooltips.png" alt="QuickInfo für den Eingabe-Connector auf dem SDF-Funktion-Knoten." /></td></tr></table>
 
 ### Knotenwerte festlegen
 
@@ -101,11 +101,11 @@ Sie können diese auf die übliche Weise über das Knotenmenü erstellen oder ei
 
 Die meisten Eingangsanschlüsse von SDF-Funktion-Nodes haben einen Standardwert, der in der QuickInfo angegeben ist.
 
-<img style="margin-top: 32px; margin-bottom: 32px" src="working-with-sdf-functions.resources/working-with-sdf-functions-06.gif" alt="Konstante Knoten, die zum Bearbeiten von SDF-Grundeinstellungen verwendet werden." />
+<img style="margin-top: 32px; margin-bottom: 32px" src="working-with-sdf-functions.resources/working-with-sdf-constants.gif" alt="Konstante Knoten, die zum Bearbeiten von SDF-Grundeinstellungen verwendet werden." />
 
 >[!TIP]
 > 
-> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>Wenn Sie einige Werte nicht immer sichtbar halten müssen, docken Sie Knoten mit der Taste "<code>D</code>" an, um Platz zu sparen und den Graf zu optimieren.</p><p>Sie können die Werte auch mithilfe von Kommentaren verfolgen.</p></td><td style="border: none; width: 67%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-functions-07.png" alt="QuickInfo für den Eingabe-Connector auf dem SDF-Funktion-Knoten." /></td></tr></table>
+> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>Wenn Sie einige Werte nicht immer sichtbar halten müssen, docken Sie Knoten mit der Taste "<code>D</code>" an, um Platz zu sparen und den Graf zu optimieren.</p><p>Sie können die Werte auch mithilfe von Kommentaren verfolgen.</p></td><td style="border: none; width: 67%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-docked-nodes.png" alt="QuickInfo für den Eingabe-Connector auf dem SDF-Funktion-Knoten." /></td></tr></table>
 
 
 ### Der Begrenzungs-Rahmen
@@ -116,7 +116,7 @@ Die meisten Eingangsanschlüsse von SDF-Funktion-Nodes haben einen Standardwert,
             <p>Der Begrenzungsknoten ist ein Rahmen im 3D-Raum, der die <i>Grenzen</i> definiert, in denen die SDF-Funktion ausgewertet und im <a href="../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md">Shape-Splatter v2</a> gezeichnet wird.</p><p>Ist der Rahmen zu klein, können Teile der Form abgeschnitten werden. Wenn er zu groß ist, kann er zu unnötigen Berechnungen und längeren Verarbeitungszeiten führen.</p><p>Mit dem <b>Bounding Rahmen</b>-Parameter können Sie die Visualisierung des Bounding Rahmens aktivieren. Sie können dann die Größe des Begrenzungsparameters anpassen, indem Sie die Werte des Rahmens "<b>Begrenzungsparameter: Größe</b>" ändern."</p><p>Verwenden Sie den Parameter <b>Aus Rahmen einfärben</b>, um die Bereiche außerhalb des Begrenzungsrahmens in Hellrot anzuzeigen, damit Sie den Rahmen entsprechend anpassen können.</p>
         </td>
         <td style="border: none; width: 33%; vertical-align: top">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-08.jpg" alt="Begrenzungsrahmenfunktion des 3D-Anzeigeknotens für SDF-Funktionen." />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-bounding-frame.jpg" alt="Begrenzungsrahmenfunktion des 3D-Anzeigeknotens für SDF-Funktionen." />
         </td>
     </tr>
 </table>
@@ -129,7 +129,7 @@ Die meisten Eingangsanschlüsse von SDF-Funktion-Nodes haben einen Standardwert,
             <p>Da es beim transformieren von Formen darum geht, den Zeichenraum * transformieren, ist das Ergebnis der Knotenpunkte, die nach einigen Transformationen verwendet werden, überraschend.<br>In diesen Fällen ist es hilfreich, den Raum selbst zu visualisieren. Dies kann durch <i>Visualisieren des Abstandsfelds</i> der Form erfolgen.</p><p>Dazu verwendet der 3D-Anzeigeknoten <i>Isolinien</i>, die sich wiederholende Konturlinien darstellen, die einen bestimmten Abstand von der Formoberfläche darstellen. Der <b>SDF-Isolinien</b>-Parameter aktiviert diese Visualisierung.<br>Die Isolinien werden auf einer horizontalen Ebene gezeichnet, die sich an dem Height befindet, das durch den <b>SDF-Isolinienposition</b>-Parameter angegeben wird.</p><p>Wenn Sie sehen, wie Isolinien durch die auf die Form angewendeten Transformationen deformiert werden, können Sie besser verstehen, wie die Form selbst transformieren wird, und die Knotenparameter entsprechend anpassen.</p>
         </td>
         <td style="border: none; width: 33%; vertical-align: top">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-09.jpg" alt="Begrenzungsrahmenfunktion des 3D-Anzeigeknotens für SDF-Funktionen." />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-isolines.jpg" alt="Begrenzungsrahmenfunktion des 3D-Anzeigeknotens für SDF-Funktionen." />
         </td>
     </tr>
 </table>
@@ -142,7 +142,7 @@ Sie können beliebig viele Bibliotheksansichten erstellen, um Ihren Arbeitsberei
 
 +++ Beispielarbeitsbereich
 
-![working-with-sdf-workspace.png](working-with-sdf-functions.resources/working-with-sdf-functions-10.png)
+![working-with-sdf-workspace.png](working-with-sdf-functions.resources/working-with-sdf-workspace.png)
 
 +++
 
@@ -256,7 +256,7 @@ Dies ist nicht nur eine Frage der Bequemlichkeit, sondern stellt sicher, dass SD
 
 Hier ist ein Beispiel:
 
-![Arbeiten mit sdf-p-input.gif](working-with-sdf-functions.resources/working-with-sdf-functions-11.gif)
+![Arbeiten mit sdf-p-input.gif](working-with-sdf-functions.resources/working-with-sdf-p-input.gif)
 
 Eine Kugel wird wiederholt, um den Raum als 3D-Raster darzustellen. Sie wird durch *Wiederholen des Leerzeichens* wiederholt.\
 Ohne gemeinsam genutzte `P`-Elemente verwendet der gebogene Zylinder den von der Kugel verwendeten wiederholenden Raum.\
@@ -271,8 +271,8 @@ Sie können dann die Funktion, die Sie vom 3D-Anzeigeknoten kopiert haben, in di
 
 Stellen Sie sicher, dass Sie den Parameter **SDF-Begrenzungsrahmengröße** an den [Begrenzungsrahmen](#the-bounding-frame) anpassen, den Sie im 3D-Anzeigeknoten verwendet haben, und stellen Sie sicher, dass die Form ordnungsgemäß gezeichnet wird.
 
-![Arbeiten mit sdf-shape-splatter-v2.png](working-with-sdf-functions.resources/working-with-sdf-functions-12.png)\
-*Form platzieren v2 mit einem **Formentyp**, der auf `SDF function` festgelegt ist. Beachten Sie, dass die Größe des **SDF-Begrenzungsrahmens**&#x200B;an die Form angepasst wurde.*
+![Arbeiten mit sdf-shape-splatter-v2.png](working-with-sdf-functions.resources/working-with-sdf-shape-splatter-v2.png)\
+*Form platzieren v2 mit einem **Formentyp**, der auf `SDF function` festgelegt ist. Beachten Sie, dass die Größe des **SDF-Begrenzungsrahmens**an die Form angepasst wurde.*
 
 >[!TIP]
 > 
@@ -292,58 +292,58 @@ Beachten Sie, dass Flächen mit unterschiedlichen Material-IDs über angeglichen
 Verwenden Sie den Knoten [Materialkennung einstellen](./sdf-functions-material/set-id/set-id.md) nach dem Teil einer Form, der mit einer bestimmten Materialkennung markiert werden soll, und verwenden Sie einen konstanten Knoten [Ganzzahl](../../atomic-function-nodes/constant-nodes/constant-nodes.md), um den gewünschten Materialkennungswert festzulegen.\
 Setzen Sie im 3D-Anzeigeknoten den Parameter **Ausgabe** auf `Material ID`, um die Material-IDs der Formen anzuzeigen.
 
-![working-with-sdf-material-id.png](working-with-sdf-functions.resources/working-with-sdf-functions-13.png)\
+![working-with-sdf-material-id.png](working-with-sdf-functions.resources/working-with-sdf-material-id-01.png)\
 *Auf der rechten Seite werden die Ausgabe von zwei 3D-Anzeigeknoten zusammengestellt, um die Form (links) und ihre Material-IDs (rechts) anzuzeigen, um zu veranschaulichen, wie in gemischten Formen Materialien interpoliert werden, während Material-IDs geteilt werden.*
 
 Material IDs können von Shape splatter v2 Companion Nodes genutzt werden:
 * [Shape Splatter v2 Mapper](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.md) Knoten können diese Material-IDs verwenden, um verschiedene Muster zuzuweisen.
-* [Formspritzer v2 auf Maske &#x200B;](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-to-mask/shape-splatter-v2-to-mask.md) kann Teile von Formen gemäß ihrer Material-ID maskieren.
+* [Formspritzer v2 auf Maske ](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-to-mask/shape-splatter-v2-to-mask.md) kann Teile von Formen gemäß ihrer Material-ID maskieren.
 
 <table style="border: none; margin-top: 32px">
     <tr style="border: 0">
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-14.jpg" alt="SDF-Material-IDs für die Farbzuordnung im Farbknoten Shape Splater v2 Mapper."/><i>Für die Farbzuordnung verwendete Material-IDs<br> in der Zuordnungsfarbe für Shape-Splint v2</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-material-id-06.jpg" alt="SDF-Material-IDs für die Farbzuordnung im Farbknoten Shape Splater v2 Mapper."/><i>Für die Farbzuordnung verwendete Material-IDs<br>in der Zuordnungsfarbe Shape Splater v2</i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-15.jpg" alt="SDF-Material-IDs für triplanare Abbildung im Farbknoten Shape Splater v2 Mapper."/><i>Material-IDs für triplanare Zuordnung<br> in der Formspritzer-v2-Zuordnungsfarbe </i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-material-id-04.jpg" alt="SDF-Material-IDs für triplanare Abbildung im Farbknoten Shape Splater v2 Mapper."/><i>Material-IDs für triplanare Zuordnung<br> in der Formspritzer-v2-Zuordnungsfarbe </i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-16.jpg" alt="SDF-Material-IDs zum Maskieren in Shape-Splater v2 zu Maskierungsknoten."/><br><i>Material-IDs zum Maskieren von <br>in Form-Splatter v2 zum Maskieren von </i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-material-id-05.jpg" alt="SDF-Material-IDs zum Maskieren in Shape-Splater v2 zu Maskierungsknoten."/><br><i>Material-IDs zum Maskieren von <br>in Formspritzer v2 zur Maske von </i>
         </td>
     </tr>
 </table>
 
 ### Farbe, Raueit und Metallität
 
-Mit den Knoten [Farbe festlegen](./sdf-functions-material/set-color/set-color.md), [Rauheit festlegen](./sdf-functions-material/set-roughness/set-roughness.md) und [Metalität festlegen](./sdf-functions-material/set-metalness/set-metalness.md) können Sie diese Material-Attribute für Formen in der SDF-Funktion definieren.
+Mit den Knoten [Farbe einstellen](./sdf-functions-material/set-color/set-color.md), [Raueit einstellen](./sdf-functions-material/set-roughness/set-roughness.md) und [Metalität einstellen](./sdf-functions-material/set-metalness/set-metalness.md) können Sie diese Materialattribute für Formen in der SDF-Funktion definieren.
 
-Wenn Sie diese SDF-Funktion dann als Formtyp im Knoten [Shape splatter v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) verwenden, sind diese Material-Attribute als Maps in den **SDF color**-, **SDF Rauheit**- und **SDF metalness**-Ausgaben des Knotens verfügbar. Diese Maps können als Grundlage für komplexere Material-Arbeiten unter Verwendung anderer Knoten dienen.
+Wenn Sie diese SDF-Funktion dann als Formtyp im Knoten [Shape splatter v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) verwenden, sind diese Materialattribute als Maps in den **SDF-Farbausgaben**, **SDF-Raueit** und **SDF-Metalität** des Knotens verfügbar. Diese Karten können als Grundlage für komplexere Materialarbeiten mit anderen Knoten dienen.
 
-Beachten Sie, dass Werte, die sich deutlich von Material-IDs unterscheiden, *in angeglichenen Formen als Farbverlauf* interpoliert werden, wie in den folgenden Beispielen zu sehen ist.
+Beachten Sie, dass Werte, die sich deutlich von Material-IDs unterscheiden, als Farbverlauf *interpoliert* werden, wie in den folgenden Beispielen zu sehen ist.
 
 <table style="border: none; margin-top: 32px">
     <tr style="border: 0">
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-17.jpg" alt="SDF-Farbausgabe des Shape-Splatter v2-Knotens."/><i>SDF-Farbausgabe</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-color.jpg" alt="SDF-Farbausgabe des Shape-Splatter v2-Knotens."/><i>SDF-Farbausgabe</i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-18.jpg" alt="SDF-Rauheit des Shape-Splatter v2-Knotens."/><br><i>Ausgabe der SDF-Rauheit</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-roughness.jpg" alt="SDF-Raueit des Shape-Splater v2-Knotens."/><br><i>SDF-Rauhigkeitsausgabe</i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-19.jpg" alt="SDF-Metalität des Shape-Splatter v2-Knotens."/><i>SDF-Metalitätsausgabe</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-metalness.jpg" alt="SDF-Metalität des Shape-Splatter v2-Knotens."/><i>SDF-Metalitätsausgabe</i>
         </td>
     </tr>
 </table>
 
-### Material
+### Materialprobe
 
 <table style="border: none">
     <tr style="border: none">
         <td style="border: none; vertical-align: top">
-            <p>Das Beispiel <b>Rusty bolts</b> <a href="../../../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">Material</a> ist verfügbar, um in SDF-Funktionen zu springen, die im Kontext des Shape-Splatter-v2-Knotens angewendet wurden.</p><p>Das Diagramm ist so strukturiert und kommentiert, dass es Sie durch seine Struktur, Knoteneinstellungen und SDF-Funktion-Setups führt.</p><p>Es ist auch <i>vollständig bearbeitbar</i>, sodass es als Sandbox verwendet werden kann, um ein praktischeres Verständnis der Toolsets Shape Splater v2 und SDF-Funktionen zu erhalten. Du kannst beliebig viele Beispieldiagramme erstellen. Experimentiere einfach mit den Beispieldiagrammen.</p>
+            <p>Die Materialprobe <b>Rusty bolts</b> <a href="../../../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">Materialprobe</a> ist verfügbar, um in SDF-Funktionen zu springen, die im Kontext des Shape-Splutter-Knotens v2 angewendet wurden.</p><p>Das Diagramm ist so strukturiert und kommentiert, dass es Sie durch seine Struktur, Knoteneinstellungen und SDF-Funktion-Setups führt.</p><p>Es ist auch <i>vollständig bearbeitbar</i>, sodass es als Sandbox verwendet werden kann, um ein praktischeres Verständnis der Toolsets Shape Splater v2 und SDF-Funktionen zu erhalten. Du kannst beliebig viele Beispieldiagramme erstellen. Experimentiere einfach mit den Beispieldiagrammen.</p>
         </td>
         <td style="border: none; width: 20%; vertical-align: top; text-align: right">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-20.png" alt="Begrenzungsrahmenfunktion des 3D-Anzeigeknotens für SDF-Funktionen." />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="Begrenzungsrahmenfunktion des 3D-Anzeigeknotens für SDF-Funktionen." />
         </td>
     </tr>
 </table>

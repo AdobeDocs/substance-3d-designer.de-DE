@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/home-screen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/home-screen.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Startbildschirm in Substance 3D Designer, um auf aktuelle Projekte, Vorlagen und Lernressourcen zuzugreifen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Startbildschirm
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Startbildschirm
 
-![Startbildschirm](home-screen.resources/home-screen-01.jpg "Startbildschirm")
+![Startbildschirm](../../assets/home-screen-home.jpg "Startbildschirm")
 
 Der <b>Startbildschirm<b> </b></b> begrüßt Sie, wenn Sie Substance 3D Designer starten. Es hilft Ihnen, mit Ihren Projekten zu beginnen und auf nützliche Links zuzugreifen.
 
@@ -33,18 +33,18 @@ Um den Startbildschirm zu schließen, verwenden Sie die Schaltfläche <b>Zurück
 </td>
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Schaltfläche &quot;Zurück&quot;](home-screen.resources/home-screen-02.jpg "Schaltfläche &quot;Zurück&quot;")
+![Schaltfläche &quot;Zurück&quot;](../../assets/home-screen-back-icon.jpg "Schaltfläche &quot;Zurück&quot;")
 
 </td>
 </tr>
 </table>
 
-![Abschnitt &quot;Startseite&quot;](home-screen.resources/home-screen-03.jpg "Abschnitt &quot;Startseite&quot;"){width="512px"}
+![Abschnitt &quot;Startseite&quot;](../../assets/home-screen-home_1.jpg "Abschnitt &quot;Startseite&quot;"){width="512px"}
 
 ## Startseite
 
-Der Abschnitt ![](home-screen.resources/home-screen-04.jpg) <b>Startseite</b> enthält ein Banner mit einem hervorgehobenen Vorschlag für die weitere Verwendung von Designer.\
-Dieses Banner kann mit der Schaltfläche ![](home-screen.resources/home-screen-05.jpg) <b>Vorschläge ausblenden</b> auf der rechten Seite ausgeblendet werden.
+Der Abschnitt ![](../../assets/home-screen-home-icon.jpg) <b>Startseite</b> enthält ein Banner mit einem hervorgehobenen Vorschlag für die weitere Verwendung von Designer.\
+Dieses Banner kann mit der Schaltfläche ![](../../assets/home-screen-expand-icon.jpg) <b>Vorschläge ausblenden</b> auf der rechten Seite ausgeblendet werden.
 
 Unten bietet eine Liste der zuletzt geladenen Dateien unter der Kopfzeile <b>Zuletzt verwendet</b> schnellen Zugriff auf die zuletzt geladenen Projekte, von den zuletzt geladenen bis zu den ältesten.
 
@@ -54,11 +54,11 @@ Zuletzt verwendete Dateien können mithilfe des Eingabefelds <b>Filter</b> oben 
 >
 > Lassen Sie den Cursor einige Sekunden auf einem Eintrag, um den vollständigen Pfad der Datei anzuzeigen.
 
-![Lernabschnitt](home-screen.resources/home-screen-06.jpg "Lernabschnitt"){width="512px"}
+![Lernabschnitt](../../assets/home-screen-learn.jpg "Lernabschnitt"){width="512px"}
 
 ## Lernen
 
-Der Abschnitt ![](home-screen.resources/home-screen-07.jpg) <b>Training</b> bietet nützliche Lernressourcen, mit denen Sie Substance 3D Designer besser verstehen können.
+Der Abschnitt ![](../../assets/home-screen-learn-icon.jpg) <b>Training</b> bietet nützliche Lernressourcen, mit denen Sie Substance 3D Designer besser verstehen können.
 
 Diese Ressourcen werden als Kartenlinks aufgelistet und wie folgt gruppiert:
 
@@ -68,21 +68,21 @@ Diese Ressourcen werden als Kartenlinks aufgelistet und wie folgt gruppiert:
   * [QuickInfos](https://substance3d.adobe.com/tutorials/courses/Designer-Quicktips/youtube-Q9mEcCWsOQc) ist eine kuratierte Wiedergabeliste mit Techniken zum Erstellen von Materialien, Mustern, Filtern usw.;
   * Mit [Onlinedokumentation](../../home/home.md) gelangen Sie zu dieser Dokumentation.
 
-![Neuer Bildschirm](home-screen.resources/home-screen-08.jpg "Neuer Bildschirm"){width="512px"}
+![Neuer Bildschirm](../../assets/home-screen-whats-new.jpg "Neuer Bildschirm"){width="512px"}
 
 ## Neuerungen
 
-Die Schaltfläche ![](home-screen.resources/home-screen-09.jpg) <b>Neue Funktionen</b> oben rechts auf dem Bildschirm zeigt einen Bildschirm mit den wichtigsten Funktionen an, die in Ihrer Designer-Version hinzugefügt wurden, sowie einen Link zu den vollständigen [Versionshinweisen](../../release-notes/release-notes.md) für diese Version.
+Die Schaltfläche ![](../../assets/home-screen-whats-new-icon.jpg) <b>Neue Funktionen</b> oben rechts auf dem Bildschirm zeigt einen Bildschirm mit den wichtigsten Funktionen an, die in Ihrer Designer-Version hinzugefügt wurden, sowie einen Link zu den vollständigen [Versionshinweisen](../../release-notes/release-notes.md) für diese Version.
 
 ## Projekt starten
 
-Auf der linken Seite des Bildschirms finden Sie eine Liste mit Tastaturbefehlen zum Erstellen eines neuen Diagramms in einem neuen Paket:
+Auf der linken Seite des Bildschirms finden Sie eine Liste mit Tastaturbefehlen zum Erstellen eines neuen Grafen in einem neuen Paket:
 
-* <b>Neues Substance-Diagramm:</b> Öffnet das Fenster [Neues Substance-Diagramm](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md);
+* <b>Neuer Substance-Graf:</b> Öffnet das Fenster [Neuer Substance-Graf](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md);
 * <b>Paket öffnen:</b> Ermöglicht das Laden eines vorhandenen Pakets;
 * <b>Import AxF:</b> Startet einen [AxF-Importarbeitsablauf](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md).
 
-![Substance 3D Designer-Bildschirm &#x200B;](home-screen.resources/home-screen-10.jpg "Substance 3D Designer-Bildschirm "){width="256px"}
+![Substance 3D Designer-Bildschirm ](../../assets/home-screen-about.jpg "Substance 3D Designer-Bildschirm "){width="256px"}
 
 ## Verknüpfungen
 
@@ -90,6 +90,6 @@ Unten links auf dem Bildschirm werden nützliche Links wie folgt aufgeführt:
 
 * <b>Info zu Designer:</b> Zeigt den Bildschirm &quot;Info zu Designer&quot; an (siehe oben);
 * <b>Onlinedokumentation:</b> Öffnet eine Webseite zu [dieser Dokumentation](../../home/home.md);
-* <b>Website:</b> Öffnet eine Webseite zur Substance 3D Designer [Produktseite](https://www.adobe.com/de/products/substance3d-designer.html);
+* <b>Website:</b> Öffnet eine Webseite zur Substance 3D Designer [Produktseite](https://www.adobe.com/products/substance3d-designer.html);
 * <b>Foren:</b> Öffnet eine Webseite für die [Support Community](https://community.adobe.com/t5/substance-3d-designer/ct-p/ct-substance-3d-designer?page=1&sort=latest_replies&filter=all&lang=all&tabid=discussions) von Substance 3D Designer.
 * <b>Community-Assets:</b> Öffnet eine Webseite zu Substance 3D [Community-Assets](https://substance3d.adobe.com/community-assets/).

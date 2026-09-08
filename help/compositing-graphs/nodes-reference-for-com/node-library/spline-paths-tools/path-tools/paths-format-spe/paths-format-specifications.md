@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über die Pfadformatspezifikationen und die Datenstruktur, die von Pfad- und Spline-Knoten verwendet werden.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spezifikationen zum Pfadformat
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Alle Daten in einem Pixel im oberen Teil sind semantisch eng mit dem entsprechen
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Pfade Polygon-codierte Daten](paths-format-specifications.resources/paths-format-specifications-01.jpg "Pfade Polygon-codierte Daten")
+![Pfade Polygon-codierte Daten](../../../../../../assets/PathsPolygon_Data.jpg "Pfade Polygon-codierte Daten")
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Dies ist nützlich, wenn Sie die Pfade beispielsweise von einem [Pixelprozessor]
 
 Die Adresse des letzten in diesem Dokument definierten Scheitelpunkts. Dies ist nützlich, um neue Daten anzufügen.
 
-Es kann also tatsächlich eine beliebige Adresse sein, die größer ist (in Scannline-Reihenfolge) als die Adresse des letzten Scheitelpunktes. Es muss im Bereich &rbrack;0, 1[×]0,.5&lbrack; liegen
+Es kann also tatsächlich eine beliebige Adresse sein, die größer ist (in Scannline-Reihenfolge) als die Adresse des letzten Scheitelpunktes. Es muss im Bereich ]0, 1[×]0,.5[ liegen
 
 <b>ZW</b>
 
@@ -269,11 +269,11 @@ Bitte beachten Sie, dass aus Gründen der Einfachheit davon ausgegangen wird, da
 
 Sie können `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) im Parameter &quot;Iterationen&quot; des 3. Iterate-Knotens nach einem Beispiel für dessen Verwendung durchsuchen.
 
-![Minimaler Anwendungsfall von sample_next](paths-format-specifications.resources/paths-format-specifications-02.png "Minimaler Anwendungsfall von sample_next")
+![Minimaler Anwendungsfall von sample_next](../../../../../../assets/paths-spec_fxmap-sample-next_02.png "Minimaler Anwendungsfall von sample_next")
 
 
 
-![Anwendungsfall von sample_next in Vorschaupfaden (path_trace)](paths-format-specifications.resources/paths-format-specifications-03.png "Anwendungsfall von sample_next in Vorschaupfaden (path_trace)")
+![Anwendungsfall von sample_next in Vorschaupfaden (path_trace)](../../../../../../assets/paths-spec_fxmap-sample-next_01.png "Anwendungsfall von sample_next in Vorschaupfaden (path_trace)")
 
 
 

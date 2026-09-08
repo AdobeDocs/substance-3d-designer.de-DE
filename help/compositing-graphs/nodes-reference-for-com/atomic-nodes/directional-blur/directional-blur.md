@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Richtungsunschärfe", um Unschärfeeffekte in einer bestimmten Richtung anzuwenden, um Bewegungsunschärfe- und Stricheffekte zu erzeugen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Richtungsunschärfe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Richtungsunschärfe](directional-blur.resources/directional-blur-01.png "Atomarer Knoten: Richtungsunschärfe"){width="200px"}
+![Atomknoten: Richtungsunschärfe](../../../../assets/comp_dirmotionblur_1.png "Atomarer Knoten: Richtungsunschärfe"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -69,14 +69,14 @@ Diese Bilder unten zeigen die Richtungsunschärfe und die [Anisotrope Unschärfe
 
 <b>Richtungsunschärfe</b>
 
-![Vergleich der Richtungsunschärfe](directional-blur.resources/directional-blur-02.png "Vergleich der Richtungsunschärfe"){zoomable="yes"}
+![Vergleich der Richtungsunschärfe](../../../../assets/dirblur-01.png "Vergleich der Richtungsunschärfe"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 <b>Anisotropischer Weichzeichner</b>
 
-![Vergleich der anisotropen Weichzeichnung](directional-blur.resources/directional-blur-03.png "Vergleich der anisotropen Weichzeichnung"){zoomable="yes"}
+![Vergleich der anisotropen Weichzeichnung](../../../../assets/aniso-01.png "Vergleich der anisotropen Weichzeichnung"){zoomable="yes"}
 
 </td>
 </tr>

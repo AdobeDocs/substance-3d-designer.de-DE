@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/bakers/bakers-legacy-interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers/bakers-legacy-interface.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über die ältere Oberfläche von Substance 3D Designer Baker für Benutzer, die mit älteren Versionen vertraut sind.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Baker Legacy-Benutzeroberfläche
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 3%
@@ -20,29 +20,29 @@ ht-degree: 3%
 
 # Baker Legacy-Benutzeroberfläche
 
-Hier finden Sie eine Beschreibung der Baker-Oberfläche, die in [Adobe Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html)-Versionen vor 6.0.4 verfügbar ist.
+Hier finden Sie eine Beschreibung der Baker-Oberfläche, die in [Adobe Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html)-Versionen vor 6.0.4 verfügbar ist.
 
 ## Überblick
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-01.png)
+![](../../assets/image2017-3-13-9-33-40.png)
 
 Das Bedienfeld &quot;Baker&quot; ist in vier Bereiche unterteilt:
 
 ### 1: Szene
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-02.png)
+![](../../assets/image2017-3-13-9-35-53.png)
 
 Legen Sie fest, welcher Teil des Meshs am Baking beteiligt ist.
 
 Neu in Version 6, können Sie auch nach Material auswählen:
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-03.png)
+![](../../assets/image2017-3-13-9-45-26.png)
 
 ### 2: Baker
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-04.png)
+![](../../assets/image2017-3-13-9-46-26.png)
 
-Durch Drücken der Schaltfläche ![](bakers-legacy-interface.resources/bakers-legacy-interface-05.png) können Sie die gewünschten Baker zur Verarbeitungsliste hinzufügen.
+Durch Drücken der Schaltfläche ![](../../assets/image2017-3-13-9-47-47.png) können Sie die gewünschten Baker zur Verarbeitungsliste hinzufügen.
 
 >[!NOTE]
 >
@@ -50,21 +50,21 @@ Durch Drücken der Schaltfläche ![](bakers-legacy-interface.resources/bakers-le
 
 Durch Klicken auf das Pluszeichen (+) im Baker-Layout können Sie die Baker zu einem Stapel hinzufügen (Sie können beliebig viele Baker zu einem Stapel hinzufügen).
 
-.![](bakers-legacy-interface.resources/bakers-legacy-interface-06.png)
+.![](../../assets/image2017-3-13-9-52-8.png)
 
-Sie können einen Baking führend Prozess aus der Liste entfernen, indem Sie ![](bakers-legacy-interface.resources/bakers-legacy-interface-07.png) drücken.
+Sie können einen Baking führend Prozess aus der Liste entfernen, indem Sie ![](../../assets/image2017-3-13-9-54-33.png) drücken.
 
-Sie können die Liste der Baking führend Prozesse neu anordnen, indem Sie einen Baking führend Prozess auswählen und ![](bakers-legacy-interface.resources/bakers-legacy-interface-08.png) verwenden.
+Sie können die Liste der Baking führend Prozesse neu anordnen, indem Sie einen Baking führend Prozess auswählen und ![](../../assets/image2017-3-13-9-55-33.png) verwenden.
 
 ### 3: Parameter für Baker
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-09.png)
+![](../../assets/image2017-3-13-13-24-0.png)
 
 In diesem Abschnitt werden die spezifischen Optionen für den aktuell ausgewählten Baker angezeigt.
 
 ### 4: Allgemeine Parameter
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-10.png)
+![](../../assets/image2017-3-13-13-28-12.png)
 
 Zeigt die Parameter an, die von den Bakern gemeinsam verwendet werden.
 
@@ -82,4 +82,4 @@ Durch Drücken der Schaltfläche OK unten rechts im Fenster Baker wird der Bakin
 
 Neu in Version 6: Sie können den Backvorgang jetzt mit der Schaltfläche &quot;Abbrechen&quot; abbrechen:
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-11.png)
+![](../../assets/image2017-3-13-13-50-4.png)

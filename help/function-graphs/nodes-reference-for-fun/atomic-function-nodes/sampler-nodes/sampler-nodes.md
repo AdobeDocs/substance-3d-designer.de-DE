@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
 breadcrumb-title: ''
 description: Greifen Sie auf Samplerknoten in Substance 3D Designer-Funktionsdiagrammen zu, um Texturen auszuprobieren und Farbwerte zu extrahieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sampler
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Sampler Nodes
 
-![Sampler-Knoten](sampler-nodes.resources/sampler-nodes-01.png "Sampler-Knoten")
+![Sampler-Knoten](../../../../assets/image2016-1-12-14-45-43.png "Sampler-Knoten")
 
 Diese Knoten nehmen einen Wert in einem Eingabebild an den angegebenen 2D-Koordinaten auf:
 
@@ -39,7 +39,7 @@ Positionen außerhalb dieses Bereichs werden gemäß dem ausgewählten <b>Adress
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Pixelkoordinaten](sampler-nodes.resources/sampler-nodes-02.png "Pixelkoordinaten")
+![Pixelkoordinaten](../../../../assets/samplercoords.png "Pixelkoordinaten")
 
 </td>
 </tr>

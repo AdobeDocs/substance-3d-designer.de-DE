@@ -1,7 +1,7 @@
 ---
 title: Shape Splater v2 Mapper-Farbe
 description: Designer > Substance von Compositing-Graphen > Knotenreferenz für Substance-Compositing-Graphen > Knotenbibliothek > Generator > Muster > Formspritzer v2 Mapper-Farbe
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1948'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Symbol für die v2-Zuordnungsfarbe für Shape-Splatter](shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-01.png "Symbol für die v2-Zuordnungsfarbe für Shape-Splatter")
+![Symbol für die v2-Zuordnungsfarbe für Shape-Splatter](shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color.png "Symbol für die v2-Zuordnungsfarbe für Shape-Splatter")
 
 <b>In:</b> Generator > Pattern
 
@@ -37,7 +37,7 @@ Siehe auch [Shape splatter v2 mapper grayscale](../shape-splatter-v2-mapper-gray
 > Dieser Knoten erfordert Eingabedaten, die vom Knoten [Shape splatter v2](../shape-splatter-v2/shape-splatter-v2.md) generiert werden.
 > 
 > Weitere Knoten in der Shape-Splatter-V2-Familie:
-> * [Form platzieren v2 auf Maske &#x200B;](../shape-splatter-v2-to-mask/shape-splatter-v2-to-mask.md)
+> * [Form platzieren v2 auf Maske ](../shape-splatter-v2-to-mask/shape-splatter-v2-to-mask.md)
 >
 > Mit den [Rasteratlas color](../grid-atlas-color/grid-atlas-color.md) können Sie Bilder in einen Atlas mit benutzerdefinierter Größe packen, bis zu 16 Muster in 4*4 Zellen.
 
@@ -93,15 +93,15 @@ Siehe auch [Shape splatter v2 mapper grayscale](../shape-splatter-v2-mapper-gray
 | <b>Bildprojektion</b> *Integer* | Die Anzahl von <b>Mustereingabebildern #</b>, die über die planaren Projektionen verteilt sind und zur dreiplanaren Zuordnung beitragen.<br><br>Um alle Seiten einer Form abzudecken, wird eine vordere (+) und hintere (-) planare Projektion auf jede Achse mit insgesamt 6 Projektionen durchgeführt.<br><br>- <b>1 Bild:</b> Der Mustereintrag 1 wird für alle planaren Projektionen verwendet.<br>- <b>3 Bilder:</b> Für die +/- Projektion jeder Achse wird ein separater Mustereingang verwendet.<br>- <b>6 Bilder:</b> Jede Projektion verwendet einen separaten Mustereingang.<br>- <b>1 Bild pro Material :</b> Verwenden Sie eine separate Mustereingabe pro Material-ID, wobei jedes Bild für alle planaren Projektionen verwendet wird. |
 | <b>Projektionszentrum</b> *Float3* | Verschiebt die triplanare Projektion pro Achse im Objektraum.<br><br>Der Versatz wird auf den <i>gesamten Projektionsraum </i> angewendet, sodass ein Versatz auf einer Achse die Positionierung der Texturen beeinflusst, die auf die <i>anderen zwei</i> Achsen projiziert werden. |
 | <b>Projektionsskala</b> *Gleitend* | Passt die Skalierung der projizierten Texturen auf <i>allen Achsen</i> um den angegebenen Faktor an. |
-| <b>Eingabeauswahlmodus</b> *Integer* | Die Methode zum Auswählen, welche der Eingabebilder den Formen zugeordnet werden sollen.<br><br>Der <b>Shape-Typ</b>, der im Quellknoten &#39;Shape splatter v2&#39; ausgewählt ist, ändert die Art und Weise, wie Rasteratlasse Formen zugewiesen werden:<br><br>- <b>Rasteratlas</b> bedeutet, dass die Bilder in der &#39;Mustereingabe&#39; durch übereinstimmende Rasterindizes abgerufen werden (beide Atlanten sollten die gleiche Rastergröße verwenden)<br>- <b>Mustereingabe</b> bedeutet, dass die Bilder in den Eingaben der &#39;Mustereingabe #&#39; durch übereinstimmende Indizes abgerufen werden.<br>- <b>Andere Formtypen:</b> werden indem die Indizes mit den Material-IDs der Form abgeglichen werden.<br><br>Die verfügbaren Auswahlmethoden sind:<br>- <b>Aus Spritzdaten:</b> Abgleichen der Indizes der Rasteratlas &quot;Mustereingabe #&quot; oder &quot;Mustereingabe&quot; mit den Indizes der Formen, die vom Knoten &quot;Form spritzen v2&quot; zugewiesen werden.<br>- <b>Manuell:</b> Verwenden Sie den durch den Parameter &quot;Bildindex&quot; angegebenen .<br>- <b>-&rbrace;Zufällig:</b> Verwenden Sie einen zufälligen Index in dem Bereich, der durch den Parameter &quot;Zufälliger Bereich&quot; angegeben wird. |
-| <b>Mustereingabenummer</b> *Integer* | Die Menge von <b>Mustereingabebildern #</b>, die den Formen zugeordnet werden sollen. |
-| <b>Image index</b> *Integer* | Der Index des Eingabemusters aus der <b>Mustereingabe #</b> oder <b>Rasteratlas-Eingabe </b>, der den Formen zugeordnet werden soll. |
-| <b>Zufallsbereich</b> *Integer2* | Der Indexbereich von der <b>Mustereingabe #</b> oder <b>Mustereingabe </b>, in die das Rasteratlas zufällig ausgewählt werden soll, um den Formen zugeordnet zu werden. |
-| <b>HSL-Anpassung</b> *Float3* | Ein Versatz, der gleichmäßig auf den Farbton, die Sättigung und die Luminanz (HSL) aller Formen angewendet wird. |
-| <b>HSL zufällig</b> *Float3* | Ein zufälliger positiver oder negativer Versatz, der auf den Farbton, die Sättigung und die Luminanz (HSL) der Formen bis zu den angegebenen Werten angewendet wird. |
-| <b>Deckkraft für Farbeingabe</b> *Gleitend* | Die Intensität des Beitrags der <b>Farbeingabe</b> zu den Farben der Formen gemäß dem ausgewählten <b>Farbeingabe-Mischmodus</b>. |
-| <b>Farbeingabe-Mischmodus</b> *Integer* | Die Farbüberblendung, die zum Kombinieren von Vorder- und Hintergrundbildern verwendet wird.<br><br>Diese Vorgänge sind mit ihren Entsprechungen im Knoten <b>Blend</b> identisch.<br><br>Verfügbare Modi:<br>- <b>Kopieren</b><br>- <b>Hinzufügen (linear abwedeln)</b><br>- <b>Subtrahieren</b><br>- <b>Multiplizieren</b><br>- <b>Überlagerung</b> |
-| <b>Normaler zufälliger Winkel</b> *Gleitend* | Ein Richtungsvektor wird vom Ursprung des Normalvektors zu einem zufälligen Punkt auf der Basis eines Kegels um den Normalvektor erzeugt, dann wird der Normalvektor mit diesem Zufallsrichtungsvektor vermischt.<br><br>Mit diesem Parameter wird der Winkel <i> des Kegels </i> angepasst, wobei 1 eine Halbkugel ist und 0 bedeutet, dass der Richtungsvektor gleich dem Normalenvektor ist. |
+| <b>Eingabeauswahlmodus</b> *Integer* | Die Methode zum Auswählen, welche der Eingabebilder den Formen zugeordnet werden sollen.<br><br>Der <b>Shape-Typ</b>, der im Quellknoten &#39;Shape splatter v2&#39; ausgewählt ist, ändert die Art und Weise, wie Rasteratlasse Formen zugewiesen werden:<br><br>- <b>Rasteratlas</b> bedeutet, dass die Bilder in der &#39;Mustereingabe&#39; durch übereinstimmende Rasterindizes abgerufen werden (beide Atlanten sollten die gleiche Rastergröße verwenden)<br>- <b>Mustereingabe</b> bedeutet, dass die Bilder in den Eingaben der &#39;Mustereingabe #&#39; durch übereinstimmende Indizes abgerufen werden.<br>- <b>Andere Formtypen:</b> werden indem die Indizes mit den Material-IDs der Form abgeglichen werden.<br><br>Die verfügbaren Auswahlmethoden sind:<br>- <b>Aus Spritzdaten:</b> Abgleichen der Indizes der Rasteratlas &quot;Mustereingabe #&quot; oder &quot;Mustereingabe&quot; mit den Indizes der Formen, die vom Knoten &quot;Form spritzen v2&quot; zugewiesen werden.<br>- <b>Manuell:</b> Verwenden Sie den durch den Parameter &quot;Bildindex&quot; angegebenen .<br>- <b>-}Zufällig:</b> Verwenden Sie einen zufälligen Index in dem Bereich, der durch den Parameter &quot;Zufälliger Bereich&quot; angegeben wird. |
+| <b>Mustereingabenummer</b> *Ganzzahl* | Die Anzahl von <b>Mustereingabe #</b> Eingabebildern, die den Formen zugeordnet werden sollen. |
+| <b>Image index</b> *Ganzzahl* | Der Index des Eingabemusters aus der <b>Mustereingabe #</b> oder <b>Rasteratlas-Eingabe </b>, der den Formen zugeordnet werden soll. |
+| <b>Zufallsbereich</b> *Ganzzahl2* | Der Indexbereich von der <b>Mustereingabe #</b> oder <b>Mustereingabe </b>, in die das Rasteratlas zufällig ausgewählt werden soll, um den Formen zugeordnet zu werden. |
+| <b>HSL</b> *Fließkommazahl3* | Ein Versatz, der gleichmäßig auf den Farbton, die Sättigung und die Luminanz (HSL) aller Formen angewendet wird. |
+| <b>HSL zufällig</b> *Fließkommazahl3* | Ein zufälliger positiver oder negativer Versatz, der auf den Farbton, die Sättigung und die Luminanz (HSL) der Formen bis zu den angegebenen Werten angewendet wird. |
+| <b>Deckkraft für Farbeingabe</b> *Fließkommazahl* | Die Intensität des Beitrags der <b>Farbeingabe</b> zu den Farben der Formen gemäß dem ausgewählten <b>Farbeingabe-Mischmodus</b>. |
+| <b>Farbeingabe-Mischmodus</b> *Ganzzahl* | Die Farbüberblendung, die zum Kombinieren von Vorder- und Hintergrundbildern verwendet wird.<br><br>Diese Vorgänge sind mit ihren Entsprechungen im Knoten <b>Überblendung</b> identisch.<br><br>Verfügbare Modi:<br>- <b>Kopieren</b><br>- <b>Hinzufügen (linear abwedeln)</b><br>- <b>Subtrahieren</b><br>- <b>Multiplizieren</b><br>- <b>Überlagerung</b> |
+| <b>Normaler zufälliger Winkel</b> *Fließkommazahl* | Ein Richtungsvektor wird vom Ursprung des Normalvektors zu einem zufälligen Punkt auf der Basis eines Kegels um den Normalvektor erzeugt, dann wird der Normalvektor mit diesem Zufallsrichtungsvektor vermischt.<br><br>Mit diesem Parameter wird der Winkel <i> des Kegels </i> angepasst, wobei 1 eine Halbkugel ist und 0 bedeutet, dass der Richtungsvektor gleich dem Normalenvektor ist. |
 | <b>Mustermodus</b> *Integer* | Die Achsen, entlang denen die Textur wiederholt werden soll:<br> - <b>Keine Unterteilung</b><br> - <b>Horizontale Unterteilung</b><br> - <b>Vertikale Unterteilung</b><br> - <b>H und V Unterteilung</b>: Kombinierte horizontale und vertikale Kachelung. |
 | <b>UV-Kachelung</b> *Gleitend* | Passt die globale Unterteilung der Bilder an, die den Formen zugeordnet werden.<br><br>Höhere Werte führen zu mehr Wiederholungen. |
 | <b>UV-Skalierung</b> *Float2* | Passt die Unterteilung der Bilder, die den Formen zugeordnet sind, nach dem angegebenen Faktor an, mit separaten Steuerelementen für die U- und V-Skalierung. Höhere Werte führen zu mehr Wiederholungen. |
@@ -113,24 +113,24 @@ Siehe auch [Shape splatter v2 mapper grayscale](../shape-splatter-v2-mapper-gray
 <table style="margin-top: 32px; margin-bottom: 32px; border: none">
     <tr style="border: 0; background: transparent">
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-02.gif" /><br><i>Triplanare Zuordnung</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-triplanar-02.gif" /><br><i>Triplanare Zuordnung</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-03.gif" /><br><i>Normale Zuordnung</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-normal.gif" /><br><i>Normale Zuordnung</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-04.jpg" /><br><i>Zuordnung pro Material-ID aus SDF-Formen</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-02.jpg" /><br><i>Zuordnung pro Material-ID aus SDF-Formen</i>
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-05.gif" /><br><i>Kachelanpassung mit triplanarer Zuordnung</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-tiling.gif" /><br><i>Kachelanpassung mit triplanarer Zuordnung</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-06.jpg" /><br><i>Zuordnung pro Material-ID aus Zylinderform</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-01.jpg" /><br><i>Zuordnung pro Material-ID aus Zylinderform</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-07.png" /><br><i>Knoten im Kontext eines Diagramms</i>" /&gt;
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-graph.png" /><br><i>Knoten im Kontext eines Diagramms</i>" /&gt;
         </td>
     </tr>
 </table>

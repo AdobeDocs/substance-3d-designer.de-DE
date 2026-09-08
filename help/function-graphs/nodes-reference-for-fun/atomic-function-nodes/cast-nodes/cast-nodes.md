@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/cast-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/cast-nodes.html"
 breadcrumb-title: ''
 description: Verwenden Sie Wirf-Graf in Substance 3D Designer-Funktionsknoten, um Datentypen zwischen Gleitkomma-, int- und vektorbasierten Elementen zu konvertieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Konvertieren
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Geworfen Knoten werden verwendet, um einen Knoten von einem Typ in einen anderen Typ zu konvertieren:
 
-![](cast-nodes.resources/cast-nodes-01.png)
+![](../../../../assets/image2015-12-23-10-5-19.png)
 
 ## Wie benutzt man einen Wirf Node?
 

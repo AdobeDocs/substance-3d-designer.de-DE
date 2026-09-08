@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-014.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-014.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Schmutz Map 014, um prozedurale Schmutz-Texturen zum Hinzufügen von Oberflächendetails und Verschleißeffekten zu Materialien zu generieren.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Schmutz Map 014
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 8%
+source-wordcount: '108'
+ht-degree: 1%
 
 ---
 
@@ -22,41 +22,37 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](grunge-map-014.resources/grunge-map-014-01.png){width="128px"}
+![](../../../../../../assets/grungemap-014.png){width="128px"}
 
-<b>In:</b> Textur Generators > Rauschen
+## Schmutz Map 014
+
+**In:** *Texturgeneratoren**/Noises*
+
+**Einfach**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Dadurch wird eine komplexe, kombinierte Noisemap erzeugt. Es kann als detailliertes Verfahren sehr nützlich sein, aber beachten Sie, dass diese sehr leistungsintensiv sind und daher langsamer zu generieren sind.
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## Parameter
 
-|  |  |
-|:---|:---|
-| <b>Saldo</b> <i>0.0 - 1.0</i> |  |
-| <b>Kontrast</b> <i>0.0 - 1.0</i> |  |
-| <b>Umkehren</b> <i>False/True</i> |  |
-| <b>Pinselmuster</b> <i>0.0 - 1.0</i> | Fügt eine Maske um die Kanten hinzu, wenn sie als Alpha-Pinsel verwendet wird. |
-| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
+* **Saldo**: *0.0 - 1.0*
+* **Kontrast**: *0.0 - 1.0*
+* **Umkehren**: *False/True*
+* **Pinselmuster**: *0.0 - 1.0*\
+  Fügt eine Maske um die Kanten hinzu, wenn sie als Alpha-Pinsel verwendet wird.
+* **Quadratische Ausbreitung**: *False/True*\
+  Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen.
 
-## Beispiele
+## Beispielbilder
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-map-014.resources/grunge-map-014-02.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/grungemap-014-ex.gif)
+
+</td>
+</tr>
 </table>

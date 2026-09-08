@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-small.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-small.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Schmutz Galvanic Small-Knoten, um galvanische Korrosionsmuster im kleinen Maßstab für metallische Verwitterung zu erzeugen.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Schmutz Galvanic Small
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '118'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](grunge-galvanic-small.resources/grunge-galvanic-small-01.jpg){width="200px"}
+![](../../../../../../assets/grungegalvanicsmall.jpg){width="200px"}
 
-<b>In:</b> Texturgeneratoren > Rauschen
+**In:** *Texturgeneratoren**/Noises*
+
+**Einfach**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -39,30 +41,30 @@ Der **Schmutz Galvanic Small**-Schmutz erzeugt eine Stahlkarte, die dem Muster a
 </tr>
 </table>
 
-<a name="parameters"></a>
-
 ## Parameter
 
-|  |  |
-|:---|:---|
-| <b>Saldo</b> <i>Gleitend</i> | Passt die Balance zwischen dunklen und hellen Werten an. |
-| <b>Kontrast</b> <i>Gleitend</i> | Passt den Kontrast des Bildes an. |
-| <b>Umkehren</b> <i>Boolescher Wert</i> | Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird. |
-| <b>Quadratische Ausbreitung</b> <i>Boolescher Wert</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
-| <b>Erweitert</b> |  |
-| <b>Frische</b> <i>Gleitend</i> | Stellt die Genauigkeit und Schärfe der verzinkten Formen ein. |
-| <b>Dirt</b> <i>Gleitend</i> | Passt die Deckkraft der Dirt-Überlagerung an. |
-| <b>Micro-Verzerrung</b> <i>Gleitend</i> | Passt die Intensität des Effekts &quot;Hochfrequenzverkrümmung&quot; an. |
+* **Balance** *Fließkommazahl* Passt die Balance zwischen dunklen und hellen Werten an.
+* **Kontrast** *Fließkommazahl* Passt den Bildkontrast an.
+* **Umkehren** *Boolesch* Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird.
+* **Quadratische Ausbreitung** *Boolesche Wert* Aktiviert die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen.
+* Erweitert
+  * **Frische** *Fließkommazahl* Passt die Frische und Schärfe der verzinkten Formen an.
+  * **Dirt** *Fließkommazahl* Passt die Deckkraft der Dirt-Überlagerung an.
+  * **Mikrointensität** *Fließkommazahl* Passt die Verzerrung des Hochfrequenzverzerrungseffekts an.
 
-## Beispiele
+## Beispielbilder
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-galvanic-small.resources/grunge-galvanic-small-02.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-galvanic-small.resources/grunge-galvanic-small-03.jpg" />
-        </td>
-    </tr>
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungegalvanicsmall-variant2.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungegalvanicsmall-variant.jpg){width="256px"}
+
+</td>
+</tr>
 </table>

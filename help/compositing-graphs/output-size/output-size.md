@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ''
 description: Konfigurieren Sie die Einstellungen der Ausgabegröße für Substance-Kompositionsdiagramme, um die Strukturauflösung und -qualität zu steuern.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ausgabegröße
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 5%
@@ -20,15 +20,15 @@ ht-degree: 5%
 
 # Ausgabegröße
 
-Dies ist der erste der <b>Basisparameter</b> eines Grafen und zusammen mit dem <b>Ausgabeformat</b> (oder der Bittiefe) von entscheidender Bedeutung, da es große Auswirkungen auf die Ausgabe eines Grafen hat, sowohl in Designer als auch in anderen Anwendungen als [veröffentlichte Substance 3D Asset (SBSAR)](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)-Datei.
+Es ist der erste der <b>Basisparameter</b> eines Diagramms und zusammen mit dem <b>Ausgabeformat</b> (oder der Bittiefe) ist wichtig, um gut zu verstehen, da es große Auswirkungen auf die Ausgabe eines Diagramms hat, sowohl in Designer als auch in anderen Anwendungen als [veröffentlichte Substance 3D Asset (SBSAR)](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)-Datei.
 
 >[!TIP]
 >
-> Es wird dringend empfohlen, [Vererbung in Substance-Grafen](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) als Grundlage für die effiziente Verwendung der Eigenschaft &quot;Ausgabegröße&quot; zu verstehen.
+> Es wird dringend empfohlen, ein gutes Verständnis der [Vererbung in Substance-Graphen](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) als Grundlage für die effiziente Verwendung der Eigenschaft &quot;Ausgabegröße&quot; zu erwerben.
 
 >[!NOTE]
 >
-> Verwenden Sie die Sperrschaltfläche &quot;![](output-size.resources/output-size-01.jpg)&quot;, damit der Wert für das Height &quot;*&quot; mit dem Wert für die Breite übereinstimmt*.
+> Verwenden Sie die Sperrschaltfläche &quot;![](../../assets/props-output-size-lock.jpg)&quot;, damit der Wert für das Height &quot;*&quot; mit dem Wert für die Breite übereinstimmt*.
 
 <table>
 <tr style="border: 0;">
@@ -68,7 +68,7 @@ Dies gilt auch, wenn der Wert für die Ausgabegröße von einer [Funktion](../..
 
 >[!NOTE]
 >
-> In [Function Grafen](../../function-graphs/function-graphs.md) geben die `$size` und `$sizelog2` [Systemvariablen](../../function-graphs/variables/system-variables/system-variables.md) einen Fließkommazahl2-Wert zurück, der der aktuellen Auflösung des Grafen oder Knotens entspricht, und zwar als unformatierte Pixelanzahl bzw. als Potenz von zwei.\
+> In [Funktionsdiagrammen](../../function-graphs/function-graphs.md) geben die `$size` und `$sizelog2` [Systemvariablen](../../function-graphs/variables/system-variables/system-variables.md) einen Float2-Wert zurück, der der aktuellen Auflösung des Knotens oder Diagramms entspricht, und zwar als unformatierte Pixelanzahl bzw. als Potenz von zwei.\
 > Beispiel: Für ein 1024\*512-Bild gibt `$size` `(1024,512)` zurück, während `$sizelog2` `(10,9)` zurückgibt.
 
 ## Relative Größe
@@ -86,38 +86,38 @@ Beachten Sie, dass die Größe über 8196 *begrenzt* ist. Diese Obergrenze wird 
 
 >[!NOTE]
 >
-> Unter 16 ist die Auflösung *nicht* begrenzt, es wird jedoch nicht empfohlen, nach unten zu gehen, da unter diesem Schwellenwert keine Leistungssteigerungen auftreten. Im Gegenteil, die Leistung *sinkt* aufgrund der spezifischen Implementierung des <b>Substance-Engine </b>. Verwenden Sie daher 16x16 als allgemeine Mindestauflösung in Substance-Grafen.
+> Unter 16 ist die Auflösung *nicht* begrenzt, es wird jedoch nicht empfohlen, nach unten zu gehen, da unter diesem Schwellenwert keine Leistungssteigerungen auftreten. Im Gegenteil, die Leistung *sinkt* aufgrund der spezifischen Implementierung des <b>Substance-Moduls</b>. Verwenden Sie daher 16x16 als allgemeine Mindestauflösung in Substance-Graphen.
 
 ## Ändern der Vererbungsmethode
 
-In den meisten Fällen ist die standardmäßige [Vererbung-Methode &#x200B;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) für die Eigenschaft &quot;Ausgabegröße&quot; folgende, je nach Element:
+In den meisten Fällen ist die standardmäßige [-Vererbungsmethode ](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) für die Eigenschaft &quot;Ausgabegröße&quot; je nach Element die folgende:
 
-* Graf: *Relativ zum übergeordneten Element*
+* Diagramm: *Relativ zu übergeordnetem Element*
 * Knoten: *Relativ zur Eingabe*: Die von der [primären Eingabe](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) des Knotens geerbten Werte werden in diesem Fall verwendet.
 * [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)-Knoten: *Absolut* - Lesen Sie die Seite [Bitmapressource](../../resources/bitmap-resource/bitmap-resource.md) und [Richtlinien zur Leistungsoptimierung](../../best-practices/performance-optimization/performance-optimization-guidelines.md), um zu erfahren, warum dies der Fall ist
 
-Zeigen Sie die Eigenschaften eines Knotens oder Diagramms an, indem Sie auf dieses Element klicken. Suchen Sie dann im Bereich [Eigenschaften](../../interface/properties/properties.md) die Eigenschaft <b>Ausgabegröße</b> im Abschnitt <b>Basisparameter</b>. Wählen Sie im Dropdown-Menü Vererbung die gewünschte Vererbung aus.
+Zeigen Sie die Eigenschaften eines Knotens oder Diagramms an, indem Sie auf dieses Element klicken. Suchen Sie dann im Bereich [Eigenschaften](../../interface/properties/properties.md) die Eigenschaft <b>Ausgabegröße</b> im Abschnitt <b>Basisparameter</b>. Wählen Sie im Dropdown-Menü Vererbungsmethode die gewünschte Vererbungsmethode aus.
 
-![Vererbungsmethode für Ausgabegröße](output-size.resources/output-size-02.gif "Vererbungsmethode für Ausgabegröße"){width="512px"}
+![Vererbungsmethode für Ausgabegröße](../../assets/change-mode.gif "Vererbungsmethode für Ausgabegröße"){width="512px"}
 
 ## Beispielprobleme
 
-Wenn Sie ein neuer [Adobe Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html)-Benutzer sind, treten möglicherweise einige häufige Probleme auf. Im Folgenden finden Sie einige Beispiele sowie Lösungen.
+Wenn Sie ein neuer [Adobe Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html)-Benutzer sind, treten möglicherweise einige häufige Probleme auf. Im Folgenden finden Sie einige Beispiele sowie Lösungen.
 
 +++Problem 1
-**![(Fehler)](output-size.resources/error.svg) Problem**
+**![(Fehler)](../../assets/error.svg) Problem**
 
-![Beispielproblem 1](output-size.resources/output-size-03.png "Beispielproblem 1")
+![Beispielproblem 1](../../assets/problem2-bad.png "Beispielproblem 1")
 
 
 
-Die Einstellung **Übergeordnete Größe** ist *ausgegraut*, und der Graf verwendet eine unerwünschte Auflösung von 256\*256.
+Die Einstellung **Übergeordnete Größe** ist *ausgegraut*, und das Diagramm verwendet eine unerwünschte Auflösung von 256\*256.
 
-In den Eigenschaften des Grafen wurde die Vererbung-Methode der Eigenschaft &quot;Ausgabegröße&quot; auf *Absolut* festgelegt, wodurch die Vererbung zu Gunsten eines beliebigen Werts beendet wird.
+In den Eigenschaften des Diagramms wurde die Vererbungsmethode der Eigenschaft &quot;Ausgabegröße&quot; auf *Absolut* festgelegt, wodurch die Vererbung zu Gunsten eines beliebigen Werts beendet wird.
 
-**![(tick)](output-size.resources/check.svg) Lösung**
+**![(tick)](../../assets/check.svg) Lösung**
 
-![Beispielproblem 1 Lösung](output-size.resources/output-size-04.png "Beispielproblem 1 Lösung")
+![Beispielproblem 1 Lösung](../../assets/problem2-good.png "Beispielproblem 1 Lösung")
 
 
 
@@ -126,9 +126,9 @@ Legen Sie die Vererbungsmethode für die Ausgabegröße des Diagramms auf *Relat
 +++
 
 +++Problem 2
-**![(Fehler)](output-size.resources/error.svg) Problem**
+**![(Fehler)](../../assets/error.svg) Problem**
 
-![Beispielproblem 2](output-size.resources/output-size-05.png "Beispielproblem 2")
+![Beispielproblem 2](../../assets/problem1-bad.png "Beispielproblem 2")
 
 
 
@@ -136,9 +136,9 @@ Oben sehen Sie einen Fall, in dem die Ausgabe eines Diagramms zu einer anderen A
 
 Das Problem stammt vom Knoten [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md). Standardmäßig wird die *Absolute*-Vererbungsmethode verwendet und 512\*512 als Auflösung basierend auf der [Bitmapressource](../../resources/bitmap-resource/bitmap-resource.md) ausgewählt. Der mit ihm verbundene Knoten ist auf &quot;*Relativ zur Eingabe &quot;*&quot; festgelegt und erbt daher seine Ausgabegröße vom Bitmapknoten.
 
-**![(tick)](output-size.resources/check.svg) Lösung**
+**![(tick)](../../assets/check.svg) Lösung**
 
-![Beispielproblem 2 Lösung](output-size.resources/output-size-06.png "Beispielproblem 2 Lösung")
+![Beispielproblem 2 Lösung](../../assets/problem1-good.png "Beispielproblem 2 Lösung")
 
 
 
@@ -147,9 +147,9 @@ Legen Sie die Vererbungsmethode der Ausgabegröße des Bitmapknotens auf *Relati
 +++
 
 +++Problem 3
-**![(Fehler)](output-size.resources/error.svg) Problem**
+**![(Fehler)](../../assets/error.svg) Problem**
 
-![Beispielproblem 3](output-size.resources/output-size-07.png "Beispielproblem 3")
+![Beispielproblem 3](../../assets/problem3-bad.png "Beispielproblem 3")
 
 
 
@@ -157,9 +157,9 @@ Oben sehen Sie ein Problem, bei dem die Auflösung in der Mitte der Kette viel h
 
 Das Problem wird durch einen relativen Modifizierer von 3 auf dem Knoten [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) verursacht, wodurch die Ausgabe achtmal größer wird.
 
-**![(tick)](output-size.resources/check.svg) Lösung**
+**![(tick)](../../assets/check.svg) Lösung**
 
-![Beispielproblem 3 Lösung](output-size.resources/output-size-08.png "Beispielproblem 3 Lösung")
+![Beispielproblem 3 Lösung](../../assets/problem3-good.png "Beispielproblem 3 Lösung")
 
 
 

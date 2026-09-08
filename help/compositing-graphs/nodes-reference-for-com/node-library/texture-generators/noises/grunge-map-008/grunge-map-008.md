@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-008.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-008.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Schmutz Map 008 -Knoten, um prozedurale Schmutz-Muster zu generieren, um verwitterte Texturdetails zu Materialien hinzuzufügen.
+description: Verwenden Sie den Knoten Schmutz Map 008, um prozedurale Schmutz-Muster zu generieren, um Materialien verwitterte Textur hinzuzufügen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 008
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Schmutz Map 008
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 7%
+source-wordcount: '129'
+ht-degree: 1%
 
 ---
 
@@ -22,41 +22,40 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](grunge-map-008.resources/grunge-map-008-01.png){width="128px"}
+![](../../../../../../assets/grungemap-008.png){width="128px"}
 
-<b>In:</b> Textur Generators > Rauschen
+## Schmutz Map 008
+
+**In:** *Textur-Generatoren**/Rauschen*
+
+**Einfach**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Dadurch wird eine komplexe, kombinierte Noisemap erzeugt. Es kann als detailliertes Verfahren sehr nützlich sein, aber beachten Sie, dass diese sehr leistungsintensiv sind und daher langsamer zu generieren sind.
-
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
+Dadurch wird eine komplexe, kombinierte Noisemap erzeugt. Es kann als detailliertes prozedurale sehr nützlich sein, aber beachten Sie, dass diese sehr leistungsintensiv und damit langsamer zu generieren sind.
 
 ## Parameter
 
-|  |  |
-|:---|:---|
-| <b>Saldo</b> <i>0.0 - 1.0</i> | Verschiebt die Balance des Ergebnisses zwischen Schwarz und Weiß, wie bei einer Helligkeitsanpassung. |
-| <b>Kontrast</b> <i>0.0 - 1.0</i> | Passt den Kontrast des Ergebnisses an. |
-| <b>Umkehren</b> <i>False/True</i> | Kehrt das Ergebnis um. |
-| <b>Pinselmuster</b> <i>0.0 - 1.0</i> | Fügt eine Maske um die Kanten hinzu, wenn sie als Alpha-Pinsel verwendet wird. |
-| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+* **Saldo**: *0.0 - 1.0*\
+  Verschiebt die Balance des Ergebnisses zwischen Schwarz und Weiß, wie bei einer Helligkeitsanpassung.
+* **Kontrast**: *0.0 - 1.0*\
+  Passt den Kontrast des Ergebnisses an.
+* **Umkehren**: *False/True*\
+  Kehrt das Ergebnis um.
+* **Pinselmuster**: *0.0 - 1.0*\
+  Fügt eine Maske um die Kanten hinzu, wenn sie als Alpha-Pinsel verwendet wird.
+* **Quadratische Ausbreitung**: *False/True*\
+  Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen.
 
-## Beispiele
+## Beispielbilder
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-map-008.resources/grunge-map-008-02.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/grungemap-008-ex.gif)
+
+</td>
+</tr>
 </table>

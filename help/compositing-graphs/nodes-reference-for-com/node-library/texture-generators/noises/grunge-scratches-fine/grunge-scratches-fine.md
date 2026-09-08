@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-fine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-fine.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Schmutz Scratches Fein , um feine Kratzmuster für subtilen Verschleiß und Oberflächendetaileffekte hinzuzufügen.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Schmutz Scratches Bußgeld
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '123'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](grunge-scratches-fine.resources/grunge-scratches-fine-01.jpg){width="200px"}
+![](../../../../../../assets/grungescratchesfine.jpg){width="200px"}
 
-<b>In:</b> Textur Generators > Rauschen
+**In:** *Texturgeneratoren* */Noises*
+
+**Einfach**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -39,30 +41,30 @@ Der Knoten **Schmutz Scratches Fine** generiert eine Schmutz-Map, die einer fein
 </tr>
 </table>
 
-<a name="parameters"></a>
-
 ## Parameter
 
-|  |  |
-|:---|:---|
-| <b>Saldo</b> <i>Gleitend</i> | Passt die Balance zwischen dunklen und hellen Werten an. |
-| <b>Kontrast</b> <i>Gleitend</i> | Passt den Kontrast des Bildes an. |
-| <b>Umkehren</b> <i>Boolescher Wert</i> | Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird. |
-| <b>Quadratische Ausbreitung</b> <i>Boolescher Wert</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
-| <b>Erweitert</b> |  |
-| <b>Anzahl Scratches</b> <i>Gleitend</i> | Passt die Anzahl feiner Kratzer auf der Oberfläche an. |
-| <b>Intensität schärfen</b> <i>Gleitend</i> | Passt die Intensität des globalen Scharfzeichnungseffekts an. |
-| <b>Bias für Arbeitsvolumes</b> <i>Gleitend</i> | Passt die Balance der Luminanzen an, die einzelnen Kratzern zugeordnet sind. |
+* **Balance** *Fließkommazahl* Passt die Balance zwischen dunklen und hellen Werten an.
+* **Kontrast** *Fließkommazahl* Passt den Bildkontrast an.
+* **Umkehren** *Boolesch* Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird.
+* **Quadratische Ausbreitung** *Boolesche Wert* Aktiviert die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen.
+* Erweitert
+  * **Anzahl Scratches** *Fließkommazahl* Passt die Anzahl feiner Kratzer auf der Oberfläche an.
+  * **Scharfzeichnungsintensität** *Unverankert* Passt die Intensität des globalen Scharfzeichnungseffekts an.
+  * **Bias des Arbeitsvolumes** *Fließkommazahl* Passt den Saldo der Luminanz an, die den einzelnen Arbeitsschritten zugeordnet ist.
 
-## Beispiele
+## Beispielbilder
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-fine.resources/grunge-scratches-fine-02.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-fine.resources/grunge-scratches-fine-03.jpg" />
-        </td>
-    </tr>
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungescratchesfine-variant.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungescratchesfine-variant2.jpg){width="256px"}
+
+</td>
+</tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
 breadcrumb-title: ''
 description: Verwenden Sie Navigationspunkte in der Diagrammansicht, um schnell zwischen verschiedenen Positionen in Substance 3D Designer-Diagrammen zu wechseln.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pin
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Symbol für Navigationsstift](navigation-pin.resources/navigation-pin-01.png "Symbol für Navigationsstift")
+![Symbol für Navigationsstift](../../../../assets/graphatomic-pin_1.png "Symbol für Navigationsstift")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,4 +78,4 @@ Bei jedem Diagrammtyp werden beim Drücken von <b>F2</b> alle Pins in diesem Dia
 
 Die Pins werden im Viewport auf der aktuellen Zoomstufe eingerahmt.
 
-![Pins: Springen zu Pins](navigation-pin.resources/navigation-pin-02.gif "Pins: Springen zu Pins")
+![Pins: Springen zu Pins](../../../../assets/graph-pin_jumping.gif "Pins: Springen zu Pins")

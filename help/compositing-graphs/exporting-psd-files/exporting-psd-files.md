@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/exporting-psd-files.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-psd-files.html"
 breadcrumb-title: ''
 description: Erfahre, wie du Compositing-Substance als PSD-Dateien exportieren kannst, um sie in Adobe Photoshop und anderen Workflows für die Bildbearbeitung zu verwenden.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Exportieren von PSD-Dateien
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 1%
@@ -26,13 +26,13 @@ Mit Substance 3D Designer können Texturen in ein Adobe Photoshop-Dokument oder 
 
 ## PSD-Exportdialog
 
-Das Dialogfeld &quot;PSD-Export&quot; kann nur mit einem einzigen Verfahren geöffnet werden. Klicken Sie in der [Diagrammansicht](../../interface/the-graph-view/the-graph-view.md) des Diagramms, das Sie auf die PSD exportieren möchten, auf die Schaltfläche ![](exporting-psd-files.resources/exporting-psd-files-01.png) <b>Tools</b> und wählen Sie <b>PSD Exporter</b> aus. Die Schnittstelle wird in der <b>Diagrammansicht</b> sichtbar.
+Das Dialogfeld &quot;PSD-Export&quot; kann nur mit einem einzigen Verfahren geöffnet werden. Klicken Sie in der [Diagrammansicht](../../interface/the-graph-view/the-graph-view.md) des Diagramms, das Sie auf die PSD exportieren möchten, auf die Schaltfläche ![](../../assets/image2019-9-17-14-44-17.png) <b>Tools</b> und wählen Sie <b>PSD Exporter</b> aus. Die Schnittstelle wird in der <b>Diagrammansicht</b> sichtbar.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![PSD Exporter-Benutzeroberfläche](exporting-psd-files.resources/exporting-psd-files-02.png "PSD Exporter-Benutzeroberfläche")
+![PSD Exporter-Benutzeroberfläche](../../assets/psd-dialog.png "PSD Exporter-Benutzeroberfläche")
 
 </td>
 <td style="border: 0;" valign="top">

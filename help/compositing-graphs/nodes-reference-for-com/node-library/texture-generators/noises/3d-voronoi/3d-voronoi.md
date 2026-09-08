@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
 breadcrumb-title: ''
 description: Verwenden Sie den 3D-Voronoi-Knoten, um Voronoi-Muster zu generieren, die auf der 3D-Weltposition basieren, um volumetrische zelluläre Texturen zu erstellen.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3D Voronoi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -22,73 +22,113 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](3d-voronoi.resources/3d-voronoi-01.png){width="200px"}
+![](../../../../../../assets/3dvoronoi.png){width="200px"}
 
-<b>In:</b> Textur Generators > Rauschen
+**In:** *Texturgeneratoren* */Noises*
+
+**Fortgeschrittene**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Der Knoten <b>3D Voronoi</b> generiert eine Voronoi-Rauschen im 3D-Raum auf der Grundlage der Eingabe <b>Positionsmap</b>.
+Der Knoten **3D Voronoi** generiert eine Voronoi-Rauschen im 3D-Raum auf der Grundlage der Eingabe **Positionsmap**.
 
 Dieser Knoten kann mit [Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) als Eingabe anstelle einer tatsächlichen durch Baking erzeugte Map (wie im folgenden Beispielbild) getestet werden.
+
+>[!WARNING]
+>
+> Dieses Geräusch soll nur mit dem *GPU-Modul verwendet werden* (d. h. **Direct3D** oder **OpenGL**). Wechseln Sie zu **Extras > Modul wechseln...** oder drücken Sie die Taste **F9**, um das gewünschte Modul auszuwählen.
 
 </td>
 </tr>
 </table>
 
->[!WARNING]
->
-> Dieses Geräusch soll nur mit dem <i>GPU-Modul verwendet werden</i> (d. h. <b>Direct3D</b> oder <b>OpenGL</b>). Wechseln Sie zu <b>Extras > Engine wechseln...</b> oder drücken Sie die Taste <b>F9</b>, um das gewünschte Engine auszuwählen.
-
-<a name="parameters"></a>
-
 ## Parameter
 
-|  |  |
-|:---|:---|
-| <b>Umkehren</b> <i>Boolescher Wert</i> | Kehrt das Ausgabebild um. |
-| <b>Skalierung</b> <i>Fließkommazahl</i> | Steuert die Skalierung der 3D-Voronoi-Rauschen.<br><br><i>Hinweis</i>: Wenn <b>Kacheln</b> auf <i>einer Achse</i> aktiviert ist, ist die Skalenanpassung <i>gestuft</i>. Dies wird erwartet. |
-| <b>Größe</b> <i>Fließkommazahl3</i> | Steuert die Größe der 3D-Voronoi-Rauschen in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b>. Nicht einheitliche Werte führen zu einem <i>dehnend oder auslöschenden </i>-Effekt.<br><br><i>Hinweis</i>: Wenn <b>Kachelung</b> für <i>eine beliebige Achse</i> aktiviert ist, ist die Größenanpassung <i>schrittweise</i>. Dies wird erwartet. |
-| <b>Offset</b> <i>Float3</i> | Wendet einen Offset auf die <i>Position</i> der 3D-Voronoi-Rauschen in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b> an. |
-| <b>Störung</b> <i>Fließkommazahl3</i> | Die Intensität des <i>zufälligen Versatzes</i>, der auf jeden Punkt des Rauschens in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b> angewendet wird. |
-| <b>Intensität der Verzerrung</b> <i>Gleitend</i> | Steuert die Intensität eines <i>Verkrümmungseffekts</i>, der auf das 3D-Voronoi-Rauschen angewendet wird. |
-| <b>Verzerrungen-Skalierungsmultiplikator</b> <i>Gleitend</i> | Steuert die Skalierung des <i>sich verformenden Musters</i>, das im Verkrümmungseffekt verwendet wird, der durch die <b>Intensität der Verzerrung</b> gesteuert wird. |
-| <b>Abgerundete Kurve</b> <i>Gleitend</i> | Rundet die <i>Steigung</i> um jeden Punkt der Rauschen, um sie <i>konvex</i> zu machen.<br><br><i>Hinweis</i>: Dieser Parameter ist nicht verfügbar, wenn der <b>Style</b>-Parameter auf <i>Edge</i> festgelegt ist. |
-| <b>Entfernungsskala</b> <i>Gleitend</i> | Passt den <i>Abstand des Farbverlaufs</i> um jeden Punkt des Rauschens an. |
-| <b>Entfernungsmodus</b> <i>Integer</i> | Legt die Methode auf <i>Berechnen des Abstandsverlaufs</i> um jeden Punkt der Rauschen fest:<br><br>- <i>Euklidean</i><br>- <i>Manhattan</i><br>- <i>Chebyshev</i><br>- <i>Minkowski</i> |
-| <b>Minkowski-Zahl</b> <i>Gleitend</i> | Die Reihenfolge <i>p</i> der Minkowski-Entfernung. Wenn wir den Abstandsverlauf in Quadranten unterteilen, wirkt sich diese Zahl wie folgt auf diese Quadranten aus:<br><br>- p ist <i>genau</i> 1: Straight<br>- p ist <i>niedriger</i> als 1: Konkav<br>- p ist <i>größer</i> als 1: Konvex<br><br>Interessante Werte:<br>- <i>1.0</i>: Entfernung von Manhattan<br>- <i>2.0</i>: Euklidische Entfernung<br>- <i>Unendlich</i>: Chebyshev-Abstand<br><br><i>Hinweis</i>: Dieser Parameter ist nur verfügbar, wenn der Parameter <b>Entfernungsmodus</b> auf <i>Minkowski</i> festgelegt ist. |
-| <b>Stil</b> <i>Integer</i> | Legt die <i>-Methode zum Rendern der Daten</i> der 3D-Voronoi-Rauschen fest, da die Rauschen auf einer Punktmenge im 3D-Raum basiert:<br><br>- <i>F1</i>: Abstand zum <i>nächstgelegenen Punkt</i> im 3D-Raum<br>- <i>F2</i>: der Abstand zum <i>zweitnächsten Punkt</i> im 3D-Raum<br>- <i>F2-F1</i><br>- <i>F1\*F2</i><br>- <i>F1/F2</i><br>- <i>Edge</i>: die <i>Kante zwischen jeder Zelle</i> der Rauschen im 3D-Raum<br>- <i>Zufallsfarbe</i>: jeder Zelle der Rauschen im 3D-Raum eine <i>zufällige flache Farbe</i> zuweisen |
-| <b>Edge-Thickness</b> <i>Gleitend</i> | Passt die Thickness der Kanten an, die zwischen den Zellen der 3D-Voronoi-Rauschen erkannt werden. Kanten werden in den X-, Y- und Z-Achsen erkannt, daher können einige Stärken schneller zunehmen als andere, je nach <i>Tiefe</i> der Zellen.<br><br><i>Hinweis</i>: Dieser Parameter ist nur verfügbar, wenn der <b>Style</b>-Parameter auf <i>Edge</i> festgelegt ist. |
-| <b>Kachelung aktivieren</b> <i>Boolescher Wert</i> | Passt die 3D-Voronoi-Rauschen so an, dass sich das resultierende Muster <i>in X-, Y- und Z-Achse wiederholt</i>. |
+* **Umkehren** *Boolesche Wert*\
+  Kehrt das Ausgabebild um.
+* **Skalierung** *Fließkommazahl*\
+  Steuert die Skalierung der 3D-Voronoi-Rauschen.\
+  *Hinweis*: Wenn **Kacheln** auf *einer Achse* aktiviert ist, ist die Skalenanpassung *gestuft*. Dies wird erwartet.
+* **Größe** *Fließkommazahl3*\
+  Steuert die Größe der 3D-Voronoi-Rauschen in den Achsen **X**, **Y** und **Z**. Nicht einheitliche Werte führen zu einem *Dehnungs- oder Squashing*-Effekt.\
+  *Hinweis*: Wenn **Kachelung** für *eine beliebige Achse* aktiviert ist, ist die Größenanpassung *schrittweise*. Dies wird erwartet.
+* **Offset** *Float3*\
+  Wendet einen Offset auf die *Position* der 3D-Voronoi-Rauschen in den Achsen **X**, **Y** und **Z** an.
+* **Störung** *Float3*\
+  Die Intensität des *zufälligen Versatzes*, der auf jeden Punkt des Rauschens in den Achsen **X**, **Y** und **Z** angewendet wird.
+* **Intensität der Verzerrung** *Gleitend*\
+  Steuert die Intensität eines *Verkrümmungseffekts*, der auf das 3D-Voronoi-Rauschen angewendet wird.
+* **Verzerrung-Skalierungsmultiplikator** *Fließkommazahl*\
+  Steuert die Skalierung des *sich verformenden Musters*, das im Verkrümmungseffekt verwendet wird, der durch die **Intensität der Verzerrung** gesteuert wird.
+* **Abgerundete Kurve** *Gleitkomma*\
+  Rundet die *Steigung* um jeden Punkt des Rauschens, um sie *konvex* zu machen.\
+  *Hinweis* : Dieser Parameter ist nicht verfügbar, wenn der **Style**-Parameter auf *Edge* festgelegt ist.
+* **Abstandsskala** *Gleitend*\
+  Passt den *Abstand des Farbverlaufs* um jeden Punkt des Rauschens an.
+* **Entfernungsmodus** *Ganzzahl*\
+  Legt die Methode auf *fest, um den Abstandsverlauf* um jeden Punkt der Rauschen zu berechnen:
+  * *Euklidean*
+  * *Manhattan*
+  * *Chebyshev*
+  * *Minkowski*
+* **Minkowski-Zahl** *Gleitend*\
+  Die Reihenfolge *p* der Minkowski-Entfernung. Wenn wir den Abstandsverlauf in Quadranten unterteilen, wirkt sich diese Zahl wie folgt auf diese Quadranten aus:
+  * p ist *genau* 1: Gerade
+  * p ist *niedriger* als 1: konkav
+  * p ist *größer* als 1: konvex\
+    Interessante Werte:\
+    *- 1.0*: Entfernung von Manhattan\
+    *- 2.0*: Euklidische Entfernung\
+    *- Unendlich*: Chebyshev-Abstand\
+    *Hinweis*: Dieser Parameter ist nur verfügbar, wenn der Parameter **Entfernungsmodus** auf *Minkowski* festgelegt ist.
+* **Stil** *Ganzzahl* Legt die *-Methode für das Rendern der Daten* der 3D-Voronoi-Rauschen fest, da die Rauschen auf einem Satz von 3D-Leerzeichen basiert:
+  * *F1*: der Abstand zum *nächstgelegenen Punkt* im 3D-Raum
+  * *F2*: der Abstand zum *zweitnächsten Punkt* im 3D-Raum
+  * *F2-F1*- *F1\* F2 *-* F1/F2 *-* Edge *: die* Kante zwischen jeder Zelle* der Rauschen im 3D-Raum
+  * *Zufallsfarbe*: jeder Zelle der Rauschen im 3D-Raum eine *zufällige Flächenfarbe* zuweisen
+* **Edge-Thickness** *Fließkommazahl* Passt die Thickness der Kanten an, die zwischen den Zellen der 3D-Voronoi-Rauschen erkannt werden. Kanten werden in der X-, Y- und Z-Achse erkannt, daher können einige Stärken schneller zunehmen als andere, je nach *Tiefe* der Zellen.\
+  *Hinweis*: Dieser Parameter ist nur verfügbar, wenn der **Style**-Parameter auf *Edge* festgelegt ist.
+* **Kachelung aktivieren** *Boolesche Wert*\
+  Passt die 3D-Voronoi-Rauschen so an, dass sich das resultierende Muster *in X-, Y- und Z-Achse wiederholt*.
 
-## Beispiele
+## Beispielbilder
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3d-voronoi-02.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3d-voronoi-03.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3d-voronoi-04.jpg" />
-        </td>
-    </tr>
-    <tr style="border: 0; background: transparent">
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3d-voronoi-05.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3d-voronoi-06.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3d-voronoi-07.jpg" />
-        </td>
-    </tr>
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/3dvoronoi-variant.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/3dvoronoi-variant5.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/3dvoronoi-variant2.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/3dvoronoi-variant4.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/3dvoronoi-variant3.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/3dvoronoi-variant6.jpg){width="256px"}
+
+</td>
+</tr>
 </table>

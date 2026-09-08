@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Erfahre, wie du in Substance 3D Designer Compositing-Grafiken erstellst, um prozedurale Texturen und Material-Workflows zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance-Graphen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](substance-compositing-graphs.resources/substance-compositing-graphs-01.png){width="120px"}](https://substance3d.adobe.com/)
+[![](../assets/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 Die Ergebnisse können in Form eines einfachen Schwarz-Weiß-Musters vorliegen, eines Filters, der nur auf anderen Bildern ausgeführt wird und keinen Inhalt für sich selbst generiert, oder sogar in Form eines vollwertigen prozeduralen Materials mit mehreren Kanälen.
 
-Substance-Graphen sind [&#x200B; der am weitesten unterstützte Diagrammtyp &#x200B;](../getting-started/overview/overview.md) und können exportiert und in einer Vielzahl von verschiedenen Workflows verwendet werden.
+Substance-Graphen sind [ der am weitesten unterstützte Diagrammtyp ](../getting-started/overview/overview.md) und können exportiert und in einer Vielzahl von verschiedenen Workflows verwendet werden.
 
 </td>
 </tr>
@@ -44,7 +44,7 @@ Substance-Graphen sind [&#x200B; der am weitesten unterstützte Diagrammtyp &#x2
 Im Folgenden finden Sie einige typische Beispiele für häufige Anwendungsfälle.
 
 +++Einfache Form
-![Einfache Form im Substance-Diagramm](substance-compositing-graphs.resources/substance-compositing-graphs-02.png "Einfache Form im Substance-Diagramm"){width="512px"}
+![Einfache Form im Substance-Diagramm](../assets/simpleshape.png "Einfache Form im Substance-Diagramm"){width="512px"}
 
 
 
@@ -55,7 +55,7 @@ Der Text mit der Nummer oder die Thickness der Kante kann extern belichtet werde
 +++
 
 +++Einstellungsfilter
-![Korrekturfilter im Substance-Diagramm](substance-compositing-graphs.resources/substance-compositing-graphs-03.png "Korrekturfilter im Substance-Diagramm"){width="512px"}
+![Korrekturfilter im Substance-Diagramm](../assets/simplefilter.png "Korrekturfilter im Substance-Diagramm"){width="512px"}
 
 
 
@@ -66,7 +66,7 @@ Die im Histogramm eingestellten Kontrastwerte können belichtet werden, was dies
 +++
 
 +++Vollständiges Material
-![Vollständiges Material im Substance-Diagramm](substance-compositing-graphs.resources/substance-compositing-graphs-04.png "Vollständiges Material im Substance-Diagramm"){width="512px"}
+![Vollständiges Material im Substance-Diagramm](../assets/simplematerial.png "Vollständiges Material im Substance-Diagramm"){width="512px"}
 
 
 

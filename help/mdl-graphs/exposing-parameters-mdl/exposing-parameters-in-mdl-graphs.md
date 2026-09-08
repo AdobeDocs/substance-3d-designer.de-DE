@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Verfügbarmachen von Parametern in MDL-Diagrammen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Auf dieser Seite wird erläutert, wie Parameter in MDL-Diagrammen verfügbar gemacht werden, damit sie mit Werten und Texturen verbunden werden können, die von *anderen Knoten* im Diagramm oder von *externen Quellen* bereitgestellt werden.
 
-![Verfügbarer Zustand der Knoteneingaben](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-01.png "Verfügbarer Zustand der Knoteneingaben")
+![Verfügbarer Zustand der Knoteneingaben](../../assets/mdl-node-inputs-hl.png "Verfügbarer Zustand der Knoteneingaben")
 
 *Verfügbarer Status der Knoteneingaben*
 
@@ -32,11 +32,11 @@ In den meisten Fällen können die *Eingabekonnektoren* der Eigenschaften eines 
 
 Wenn ein Knoten in der <b>Diagrammansicht</b> ausgewählt ist, werden seine Eigenschaften im Bereich <b>Eigenschaften</b> angezeigt. Die meisten Eigenschaften werden mit einer Reihe von Schaltflächen rechts neben der jeweiligen Beschriftung aufgelistet:
 
-* **![](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-02.png)Kopieren Sie den Wert in einen neuen Knoten und verknüpfen Sie ihn mit diesem Parameter**: erstellt einen *Eingabestecker* für diese Eigenschaft und verbindet ihn mit einem *neuen Knoten*, der den aktuellen Wert dieser Eigenschaft ausgibt.
-* **![](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-03.png)Erstellen Sie einen Eingabepin für diesen Parameter**: erstellt einen *Eingabestecker* für diese Eigenschaft.
-* **![](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-04.png)Setzen Sie diesen Parameter auf seinen Standardwert zurück**: Wenn kein Wert mit dem Eingangsconnector dieser Eigenschaft verbunden ist, wird der Wert auf den Standardwert zurückgesetzt
+* **![](../../assets/mdl-expose-new-node.png)Kopieren Sie den Wert in einen neuen Knoten und verknüpfen Sie ihn mit diesem Parameter**: erstellt einen *Eingabestecker* für diese Eigenschaft und verbindet ihn mit einem *neuen Knoten*, der den aktuellen Wert dieser Eigenschaft ausgibt.
+* **![](../../assets/mdl-expose-new-input.png)Erstellen Sie einen Eingabepin für diesen Parameter**: erstellt einen *Eingabestecker* für diese Eigenschaft.
+* **![](../../assets/mdl-expose-reset.png)Setzen Sie diesen Parameter auf seinen Standardwert zurück**: Wenn kein Wert mit dem Eingangsconnector dieser Eigenschaft verbunden ist, wird der Wert auf den Standardwert zurückgesetzt
 
-![](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-05.gif)
+![](../../assets/mdl-expose-input.gif)
 
 *Manipulieren von Knoteneingaben*
 
@@ -47,7 +47,7 @@ Wenn Sie auf eine der ersten beiden Schaltflächen klicken, wird ein *typisierte
 
 Der Eingangsanschluss kann *entfernt* werden, indem Sie erneut auf die Schaltfläche **Eingabeanschluss für diesen Parameter erstellen** klicken. An diesem Punkt kehrt der Eigenschaftswert zu dem Wert zurück, der im Bereich **Eigenschaften** festgelegt wurde.
 
-![Verfügbare Knotenparameter](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-06.png "Verfügbare Knotenparameter")
+![Verfügbare Knotenparameter](../../assets/mdl-exposed-float-hl.png "Verfügbare Knotenparameter")
 
 *Verfügbare Knotenparameter*
 
@@ -57,7 +57,7 @@ In einem MDL-Diagramm wird ein Parameter der Graphenebene ausgesetzt - d. h., er
 
 Knoten, die verfügbar gemacht werden können, haben im Kontextmenü die Option <b>Verfügbar machen</b>. In den meisten Fällen sind dies Knoten, die einen Wert oder Daten generieren, z. B. Float-, Color- oder Texturkoordinaten.
 
-![&#x200B; Option &quot;Expose&quot; im Kontextmenü eines Knotens &#x200B;](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-07.png "&quot;Expose&quot; Option im Kontextmenü eines Knotens ")
+![ Option &quot;Expose&quot; im Kontextmenü eines Knotens ](../../assets/mdl-expose-float-menu-hl.png "&amp;quot;Expose&amp;quot; Option im Kontextmenü eines Knotens ")
 
 *Option &quot;Verfügbar machen&quot; im Kontextmenü eines Knotens*
 
@@ -81,6 +81,6 @@ Der verfügbar gemachte Parameter wird direkt im *freigegebenen Knoten* konfigur
 >
 > Während die Graf-Eingaben auf der Ebene *node* konfiguriert sind, wird ihre Reihenfolge auf der Ebene *Graf* im Abschnitt **Graf input** der [Graf-Eigenschaften](../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md) verwaltet.
 
-![Knoten werden in Knoteneingaben Gelegt](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-08.gif "Graf werden in Knoteneingaben Gelegt")
+![Knoten werden in Knoteneingaben Gelegt](../../assets/mdl-expose-parameter.gif "Graf werden in Knoteneingaben Gelegt")
 
 *Knoten werden in Graf-Eingaben Gelegt*

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-2.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Fur 2 -Knoten, um Pelzstrukturen mit erweiterten Steuerelementen für die Simulation von Haaren und Fasermaterialien zu erstellen.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Fur 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 9%
+source-wordcount: '101'
+ht-degree: 1%
 
 ---
 
@@ -22,40 +22,38 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](fur-2.resources/fur-2-01.png){width="128px"}
+![](../../../../../../assets/fur-2.png){width="128px"}
 
-<b>In:</b> Texturgeneratoren > Rauschen
+## Fur 2
+
+**In:** *Texturgeneratoren**/Noises*
+
+**Einfach**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Dadurch entsteht eine wellenförmige Art von pelzartigem Rauschen.
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## Parameter
 
-|  |  |
-|:---|:---|
-| <b>Skalierung</b> <i>1 - 8</i> | Legt die globale Skalierung für den Effekt fest. |
-| <b>Waves Scale</b> <i>0.0 - 1.0</i> | Ändert die Größe der Wellen. Größer bedeutet weniger Wiederholungen. |
-| <b>Wellenrotation</b> <i>0.0 - 1.0</i> | Verdreht die Wellen mehr. Dieser Wert sollte wahrscheinlich niedrig gehalten werden, da die Ergebnisse extrem sein können. |
-| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+* **Skalierung**: *1 - 8*\
+  Legt die globale Skalierung für den Effekt fest.
+* **Waves Scale**: *0.0 - 1.0*\
+  Ändert die Größe der Wellen. Größer bedeutet weniger Wiederholungen.
+* **Wellenrotation**: *0.0 - 1.0*\
+  Verdreht die Wellen mehr. Dieser Wert sollte wahrscheinlich niedrig gehalten werden, da die Ergebnisse extrem sein können.
+* **Quadratische Ausbreitung**: *False/True*\
+  Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen.
 
-## Beispiele
+## Beispielbilder
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="fur-2.resources/fur-2-02.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/fur-2-ex.gif)
+
+</td>
+</tr>
 </table>

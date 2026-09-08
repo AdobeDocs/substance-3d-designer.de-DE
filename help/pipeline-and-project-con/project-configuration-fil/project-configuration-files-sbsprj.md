@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie SBSPRJ-Projektkonfigurationsdateien in Substance 3D Designer verwenden, um Projekteinstellungen zu verwalten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Projektkonfigurationsdateien - SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Sie sind insofern besonders, als Sie mehrere Projektkonfigurationsdateien verwen
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![SBSPRJ-Dateisymbol](project-configuration-files-sbsprj.resources/project-configuration-files-sbsprj-01.png "SBSPRJ-Dateisymbol")
+![SBSPRJ-Dateisymbol](../../assets/sbsprj.png "SBSPRJ-Dateisymbol")
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ Unter Windows ist [Notepad++](https://notepad-plus-plus.org) eine gute kostenlos
 
 Sobald Sie die SBSPRJ-Datei in einem Editor geöffnet haben, sollten Sie ein relativ einfaches strukturiertes Layout sehen, mit Abschnitten, die den Registerkarten in der Benutzeroberfläche entsprechen. Nicht jede Einstellung wird hier dokumentiert, da es ziemlich selbsterklärend ist.
 
-![XML-Bearbeitung](project-configuration-files-sbsprj.resources/project-configuration-files-sbsprj-02.png "XML-Bearbeitung")
+![XML-Bearbeitung](../../assets/project-xml.png "XML-Bearbeitung")
 
 ## Relative Pfade und Aliasse
 

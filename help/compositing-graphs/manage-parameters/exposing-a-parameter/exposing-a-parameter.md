@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
 breadcrumb-title: ''
 description: Lerne, wie du in Substance 3D Designer Compositing-Graphen Parameter definierst, mit denen sich Materialien anpassen und wiederverwenden lassen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Exponieren von Parametern
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 4%
@@ -22,9 +22,9 @@ ht-degree: 4%
 
 Das Freigeben von Parametern ist eines der leistungsfähigsten Tools und der Schlüssel zum Öffnen Ihrer Diagramme für andere Anwendungen wie Substance 3D Painter, Substance 3D Sampler und Substance Integrationen für Maya und 3DS Max.
 
-Auf dieser Seite werden alle erforderlichen Konzepte für den Einstieg in die Bereitstellung erläutert. Es wird [&#x200B; empfohlen, zuerst zu erfahren, was eine Diagramminstanz ist](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), bevor Sie mit dieser Seite fortfahren. Es ist auch gut, den Unterschied zwischen Publish und &quot;Exportieren&quot; sowie die betroffenen Dateitypen zu erfassen[.](../../../getting-started/overview/overview.md)
+Auf dieser Seite werden alle erforderlichen Konzepte für den Einstieg in die Bereitstellung erläutert. Es wird [ empfohlen, zuerst zu erfahren, was eine Diagramminstanz ist](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), bevor Sie mit dieser Seite fortfahren. Es ist auch gut, den Unterschied zwischen Publish und &quot;Exportieren&quot; sowie die betroffenen Dateitypen zu erfassen[.](../../../getting-started/overview/overview.md)
 
-![Verfügbarmachen von Parametern vereinfacht](exposing-a-parameter.resources/exposing-a-parameter-01.png "Verfügbarmachen von Parametern vereinfacht")
+![Verfügbarmachen von Parametern vereinfacht](../../../assets/parameters-5.png "Verfügbarmachen von Parametern vereinfacht")
 
 *\*Gestrichelte, transparente Linien oben sind eine abstrakte Darstellung der Verbindung\
 von angezeigten Parametern zu Diagrammparametern.*
@@ -62,18 +62,18 @@ Parameter können in vielen verschiedenen Formen vorliegen: Regler, Zifferblätt
 
 Derzeit gibt es zwei Hauptmethoden zum Anzeigen von Parametern. Die eine Methode eignet sich besser für die schnelle Belichtung eines einzelnen Parameters, die zweite Methode eignet sich besser für die Belichtung mehrerer Parameter in einem Sweep.
 
-![Exemplarische Vorgehensweise für Methoden zur einmaligen Verfügbarmachung](exposing-a-parameter.resources/exposing-a-parameter-02.gif "Exemplarische Vorgehensweise für Methoden zur einmaligen Verfügbarmachung"){width="512px"}
+![Exemplarische Vorgehensweise für Methoden zur einmaligen Verfügbarmachung](../../../assets/single-expose2.gif "Exemplarische Vorgehensweise für Methoden zur einmaligen Verfügbarmachung"){width="512px"}
 
 ### EINZELBELICHTUNGSMETHODE
 
 1. Suchen Sie den Parameter, der im Bereich [Eigenschaften](../../../interface/properties/properties.md) auf der Registerkarte Spezifische Parameter angezeigt werden soll.
-1. Klicken Sie auf die Schaltfläche mit den Dropdownoptionen ![](exposing-a-parameter.resources/exposing-a-parameter-03.png).
-1. Wählen Sie ![](exposing-a-parameter.resources/exposing-a-parameter-04.png) <b>Als neue Diagrammeingabe verfügbar machen</b> aus der Dropdown-Liste, die erste Option.
+1. Klicken Sie auf die Schaltfläche mit den Dropdownoptionen ![](../../../assets/image2020-9-17-15-35-59.png).
+1. Wählen Sie ![](../../../assets/image2020-9-17-15-37-7.png) <b>Als neue Diagrammeingabe verfügbar machen</b> aus der Dropdown-Liste, die erste Option.
 1. Das Dialogfeld &quot;<b>Parameter verfügbar machen</b>&quot; wird angezeigt. Legen Sie alle Parametereigenschaften wie gewünscht fest.
 
    Es wird empfohlen, mindestens die <b>ID</b> und <b>Bezeichnung</b> zu ändern.
 1. Drücken Sie <b>OK</b>, um den Vorgang zu bestätigen.
-1. Der Name des Parameters wird *blau*, und der Name ![](exposing-a-parameter.resources/exposing-a-parameter-05.png)\
+1. Der Name des Parameters wird *blau*, und der Name ![](../../../assets/image2020-9-17-15-35-46.png)\
    Neben den Dropdownoptionen wird die Schaltfläche <b> Parameterfunktion bearbeiten</b> angezeigt, um zu bestätigen, dass der Parameter angezeigt wird.
 
 >[!NOTE]
@@ -81,20 +81,20 @@ Derzeit gibt es zwei Hauptmethoden zum Anzeigen von Parametern. Die eine Methode
 > Die meisten Zahlenfelder unterstützen *einfache mathematische Formeln* als Eingabe, z. B. `17+3.5`, `7/3`, `(4+2)*3`. Drücken Sie *Eingabe*, um die Formel zu validieren, und das Ergebnis wird in das Feld eingegeben. Wenn die Formel ungültig ist, wird das Feld auf den vorherigen Wert zurückgesetzt.\
 > Einige numerische Felder in anderen Teilen der Anwendung, z. B. im Dock [Eigenschaften](../../../interface/properties/properties.md), unterstützen diese Funktion ebenfalls.
 
-![Schritt-für-Schritt-Anleitung zur Methode zur Batch-Bereitstellung](exposing-a-parameter.resources/exposing-a-parameter-06.gif "Schritt-für-Schritt-Anleitung zur Methode zur Batch-Bereitstellung"){width="512px"}
+![Schritt-für-Schritt-Anleitung zur Methode zur Batch-Bereitstellung](../../../assets/batch-expose-2.gif "Schritt-für-Schritt-Anleitung zur Methode zur Batch-Bereitstellung"){width="512px"}
 
 ### Stapelbelichtungsmethode
 
 Wenn ein Parameter angezeigt wird, ist diese Methode etwas langsamer als die vorherige. Wenn mehrere Parameter verfügbar gemacht werden, ist dies viel schneller.
 
-1. Suchen Sie statt eines einzelnen Parameters die Schaltfläche ![](exposing-a-parameter.resources/exposing-a-parameter-07.png) <b>Mehrfachbelichtung</b> oben rechts auf der Registerkarte <b>Spezifische Parameter</b>.
+1. Suchen Sie statt eines einzelnen Parameters die Schaltfläche ![](../../../assets/image2020-9-17-15-39-7.png) <b>Mehrfachbelichtung</b> oben rechts auf der Registerkarte <b>Spezifische Parameter</b>.
 1. Wählen Sie <b>Stapelbereitstellungsparameter aus...</b> aus dem Dropdownmenü
 1. Das Dialogfeld &quot;<b>Batch-Bereitstellung</b>&quot; wird angezeigt, in dem Sie die Bereitstellung aller <b>spezifischen Parameter eines Knotens anpassen können.</b>
 1. Verwenden Sie <b>Alle</b>, <b>Keine</b> oder bestimmte Kontrollkästchen, um zu entscheiden, welche Parameter verfügbar gemacht werden sollen.
 1. Klicken Sie in der Liste auf einen Parameternamen unter der Spalte <b>Graph input identifier</b>, um den Namen zu ändern.
 1. Klicken Sie auf einen <b>Gruppennamen</b> in der Spalte <b>Graph-Eingabegruppe</b> in der Liste, um eine (Unter-)Gruppe für einen bestimmten Parameter hinzuzufügen.
 1. Verwenden Sie die <b>Graph-Eingabekennung</b> und die <b>Graph-Eingabegruppe</b>-Eingabefelder am unteren Rand, um allen angezeigten Parametern Präfix, Suffix und Eingabegruppen gleichzeitig hinzuzufügen. Alle diese Werte werden zusätzlich zu den Einstellungen pro Parameter angewendet.
-1. Klicken Sie auf <b>OK</b>, um alle ausgewählten Parameter zu bestätigen und anzuzeigen. Die Parameternamen zeigen jetzt *blau* an, um zu bestätigen, dass die Parameter angezeigt werden, sowie eine ![](exposing-a-parameter.resources/exposing-a-parameter-05.png) <b>Schaltfläche zum Bearbeiten der Funktion</b>.
+1. Klicken Sie auf <b>OK</b>, um alle ausgewählten Parameter zu bestätigen und anzuzeigen. Die Parameternamen zeigen jetzt *blau* an, um zu bestätigen, dass die Parameter angezeigt werden, sowie eine ![](../../../assets/image2020-9-17-15-35-46.png) <b>Schaltfläche zum Bearbeiten der Funktion</b>.
 
 ## Einschränkungen
 
@@ -127,12 +127,12 @@ Nach dem Belichten ist es nicht mehr möglich, auf einen Parameter wie zuvor zuz
 
 So ändern Sie die Optionen eines angezeigten Parameters:
 
-1. Klicken Sie auf die Schaltfläche &quot;Dropdown-Optionen&quot; ![](exposing-a-parameter.resources/exposing-a-parameter-03.png) neben dem bereits angezeigten Parameter.
-1. Wählen Sie &quot;![](exposing-a-parameter.resources/exposing-a-parameter-04.png)<b>&quot; aus, um den angezeigten Diagrammeingang zu bearbeiten.</b>. Dadurch gelangen Sie direkt zum entsprechenden Eintrag in den Diagrammeigenschaften.
+1. Klicken Sie auf die Schaltfläche &quot;Dropdown-Optionen&quot; ![](../../../assets/image2020-9-17-15-35-59.png) neben dem bereits angezeigten Parameter.
+1. Wählen Sie &quot;![](../../../assets/image2020-9-17-15-37-7.png)<b>&quot; aus, um den angezeigten Diagrammeingang zu bearbeiten.</b>. Dadurch gelangen Sie direkt zum entsprechenden Eintrag in den Diagrammeigenschaften.
 1. Doppelklicken Sie in einen leeren Bereich des Diagramms, um zu den Diagrammeigenschaften zu gelangen. Suchen Sie dann den Parameter in der Liste mit <b>Eingabeparametern</b>.
 1. Klicken Sie im <b>Explorer</b> einmal auf das Diagramm, und suchen Sie dann den Parameter in der Liste der <b>Eingabeparameter</b>.
 
-![Eingabeparameter](exposing-a-parameter.resources/exposing-a-parameter-08.png "Eingabeparameter"){width="512px"}
+![Eingabeparameter](../../../assets/input-parameters-2.png "Eingabeparameter"){width="512px"}
 
 ### EINGABEPARAMETER
 
@@ -151,7 +151,7 @@ Alle angezeigten Parameter werden auf der Registerkarte Eingabeparameter aufgeli
 1. <b>Benutzerdaten</b>: benutzerdefinierte Benutzerdaten, die für jeden Zweck verfügbar sind.
 1. <b>Sichtbar, wenn</b>: spezielles Ausdruckssystem zum Ein- oder Ausblenden von Parametern basierend auf externen Bedingungen. Siehe [Sichtbar, wenn: Kontrollieren der Sichtbarkeit von Eingängen, Ausgängen und Parametern](../../../compositing-graphs/visible-control-vis/visible-if-control-visibility-of-inputs-outputs-and-parameters.md)
 
-![Dropdownlisten-Editor für Integer-Parameter](exposing-a-parameter.resources/exposing-a-parameter-09.gif "Dropdownlisten-Editor für Integer-Parameter"){width="512px"}
+![Dropdownlisten-Editor für Integer-Parameter](../../../assets/dropdown.gif "Dropdownlisten-Editor für Integer-Parameter"){width="512px"}
 
 #### Dropdown-Liste
 
@@ -163,13 +163,13 @@ Ein Sonderfall ist die <b>Dropdownliste </b> für Integer-Typen. Es gibt keine S
 * Mit dem dritten Kontrollkästchen können Sie ein Element als das standardmäßig ausgewählte Element markieren.
 * Das X löscht ein Element, das + fügt ein Element hinzu.
 
-![Eingabeparameter neu anordnen](exposing-a-parameter.resources/exposing-a-parameter-10.gif "Eingabeparameter neu anordnen"){width="512px"}
+![Eingabeparameter neu anordnen](../../../assets/reorder-2.gif "Eingabeparameter neu anordnen"){width="512px"}
 
 #### Neuanordnung
 
 Sie können die Parameter neu anordnen, indem Sie die dunklen, gestreiften Handles auf die linke Seite des Namens der Eingabeparameter in der Liste ziehen und ablegen. Beachten Sie, dass sich Gruppierungsparameter auf die Reihenfolge auswirken können.
 
-![Vorschau der Eingabeparameter](exposing-a-parameter.resources/exposing-a-parameter-11.gif "Vorschau der Eingabeparameter"){width="512px"}
+![Vorschau der Eingabeparameter](../../../assets/parameter-preview-2.gif "Vorschau der Eingabeparameter"){width="512px"}
 
 ### VORSCHAU VON PARAMETERN
 
@@ -181,21 +181,21 @@ Normalerweise werden alle im <b>Vorschaumodus</b> vorgenommenen Änderungen *ver
 
 >[!IMPORTANT]
 >
-> Der Vorschaumodus ist deaktiviert, wenn die [-kontextbezogene Bearbeitung &#x200B;](../../../interface/preferences-window/preferences-window.md) verwendet wird.
+> Der Vorschaumodus ist deaktiviert, wenn die [-kontextbezogene Bearbeitung ](../../../interface/preferences-window/preferences-window.md) verwendet wird.
 
 >[!WARNING]
 >
 > Im Vorschaumodus soll das Erlebnis eines [veröffentlichten Substance 3D-Assets (SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) so genau wie möglich dargestellt werden. Daher gelten die auf dieser Seite aufgeführten Einschränkungen in diesem Modus, z. B. *statische Parameter, die in der Liste nicht vorhanden sind*.
 
-![Eingabeparameter werden kopiert und eingefügt](exposing-a-parameter.resources/exposing-a-parameter-12.gif "Eingabeparameter werden kopiert und eingefügt"){width="512px"}
+![Eingabeparameter werden kopiert und eingefügt](../../../assets/copy-paste-params-2.gif "Eingabeparameter werden kopiert und eingefügt"){width="512px"}
 
 ### KOPIEREN UND EINFÜGEN VON PARAMETERN
 
 Parameter können zwischen Graphen kopiert und eingefügt werden.
 
-Ein einzelner Parameter kann mit der Schaltfläche &quot;Kopieren&quot; ![](exposing-a-parameter.resources/exposing-a-parameter-13.png) kopiert werden. Mehrere Parameter können über das Parametermenü &quot;![](exposing-a-parameter.resources/exposing-a-parameter-07.png)&quot; kopiert werden. Wählen Sie &quot;Eingaben kopieren&quot;, um alle Eingaben zu kopieren.
+Ein einzelner Parameter kann mit der Schaltfläche &quot;Kopieren&quot; ![](../../../assets/image2019-9-19-11-3-49.png) kopiert werden. Mehrere Parameter können über das Parametermenü &quot;![](../../../assets/image2020-9-17-15-39-7.png)&quot; kopiert werden. Wählen Sie &quot;Eingaben kopieren&quot;, um alle Eingaben zu kopieren.
 
-Wählen Sie &quot;Eingaben einfügen&quot; ![](exposing-a-parameter.resources/exposing-a-parameter-14.png) im Menü &quot;Parameter&quot; ![](exposing-a-parameter.resources/exposing-a-parameter-07.png), um einen oder mehrere Parameter einzufügen.
+Wählen Sie &quot;Eingaben einfügen&quot; ![](../../../assets/image2020-9-17-16-43-15.png) im Menü &quot;Parameter&quot; ![](../../../assets/image2020-9-17-15-39-7.png), um einen oder mehrere Parameter einzufügen.
 
 Wenn Sie Werte und nicht den tatsächlich angezeigten Parameter selbst übertragen möchten, [lesen Sie die Informationen zu Parametervorgaben.](../../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)
 
@@ -203,29 +203,29 @@ Wenn Sie Werte und nicht den tatsächlich angezeigten Parameter selbst übertrag
 
 Aufgrund der Art von Parametern können Probleme mit fehlenden oder nicht verwendeten Parametern auftreten, wenn Sie über einen Eingabeparameter verfügen, der mehrere Knoten steuert, oder wenn Eingabeparameter vorhanden sein können, ohne einen Knoten zu steuern. Nachfolgend werden häufige Probleme und deren Lösungen beschrieben.
 
-![Fehler bei Knotenparametern](exposing-a-parameter.resources/exposing-a-parameter-15.gif "Fehler bei Knotenparametern"){width="512px"}
+![Fehler bei Knotenparametern](../../../assets/parameter-error.gif "Fehler bei Knotenparametern"){width="512px"}
 
 ### VERFOLGEN VON FEHLERHAFTEN PARAMETERN AUF KNOTEN
 
-Mit dem Knotensuche-Tool &quot;![](exposing-a-parameter.resources/exposing-a-parameter-16.png)&quot;, das sich in der oberen Leiste der Diagrammansicht befindet, können Sie nachverfolgen, welcher Parameter von welchem Knoten verwendet wird. Klicken Sie darauf, um Knoten mithilfe bestimmter Parameter zu suchen.
+Mit dem Knotensuche-Tool &quot;![](../../../assets/image2019-9-19-14-15-53.png)&quot;, das sich in der oberen Leiste der Diagrammansicht befindet, können Sie nachverfolgen, welcher Parameter von welchem Knoten verwendet wird. Klicken Sie darauf, um Knoten mithilfe bestimmter Parameter zu suchen.
 
-Wenn ein Knoten ein tatsächliches Problem aufweist, zeigt er oben links ein Warnungskennzeichen ![](exposing-a-parameter.resources/exposing-a-parameter-17.png) an. Wenn Sie den Mauszeiger über das Abzeichen bewegen, wird eine QuickInfo mit weiteren Informationen angezeigt.
+Wenn ein Knoten ein tatsächliches Problem aufweist, zeigt er oben links ein Warnungskennzeichen ![](../../../assets/image2019-9-19-14-23-54.png) an. Wenn Sie den Mauszeiger über das Abzeichen bewegen, wird eine QuickInfo mit weiteren Informationen angezeigt.
 
-Um ein Problem zurückzusetzen und zu entfernen, klicken Sie für den Parameter, den Sie reparieren oder zurücksetzen möchten, auf die Dropdown-Schaltfläche &quot;![](exposing-a-parameter.resources/exposing-a-parameter-03.png)&quot; neben der Schaltfläche &quot;Funktion bearbeiten&quot; und wählen Sie &quot;![](exposing-a-parameter.resources/exposing-a-parameter-18.png) <b>Zurücksetzen&quot;. </b>Hiermit wird ein Parameter auf seinen vorherigen, nicht exponierten Zustand zurückgesetzt. Der blaue Name wird wieder grau, um dies widerzuspiegeln.
+Um ein Problem zurückzusetzen und zu entfernen, klicken Sie für den Parameter, den Sie reparieren oder zurücksetzen möchten, auf die Dropdown-Schaltfläche &quot;![](../../../assets/image2020-9-17-15-35-59.png)&quot; neben der Schaltfläche &quot;Funktion bearbeiten&quot; und wählen Sie &quot;![](../../../assets/image2020-9-17-16-56-18.png) <b>Zurücksetzen&quot;. </b>Hiermit wird ein Parameter auf seinen vorherigen, nicht exponierten Zustand zurückgesetzt. Der blaue Name wird wieder grau, um dies widerzuspiegeln.
 
-![Nicht verwendete Eingabeparameter löschen](exposing-a-parameter.resources/exposing-a-parameter-19.gif "Nicht verwendete Eingabeparameter löschen"){width="512px"}
+![Nicht verwendete Eingabeparameter löschen](../../../assets/clean-inputs-2.gif "Nicht verwendete Eingabeparameter löschen"){width="512px"}
 
 ### BEREINIGEN NICHT VERWENDETER EINGABEPARAMETER
 
-Wenn Sie den Überblick über Ihre Eingabeparameter verloren haben und nicht mehr wissen, welche Parameter verwendet werden, können Sie sie mit einem kleinen Werkzeug bereinigen. Klicken Sie auf die Menüschaltfläche &quot;Eingabeparameter&quot; ![](exposing-a-parameter.resources/exposing-a-parameter-07.png), und wählen Sie <b>Eingaben bereinigen.</b>
+Wenn Sie den Überblick über Ihre Eingabeparameter verloren haben und nicht mehr wissen, welche Parameter verwendet werden, können Sie sie mit einem kleinen Werkzeug bereinigen. Klicken Sie auf die Menüschaltfläche &quot;Eingabeparameter&quot; ![](../../../assets/image2020-9-17-15-39-7.png), und wählen Sie <b>Eingaben bereinigen.</b>
 
 Ein neues Dialogfeld mit allen nicht verwendeten Parametern wird angezeigt. Aktivieren bzw. deaktivieren Sie die Parameter, die Sie entfernen bzw. beibehalten möchten, und klicken Sie auf &quot;OK&quot;. Wenn kein Dialogfeld angezeigt wird, sind derzeit keine nicht verwendeten Parameter zum Bereinigen vorhanden.
 
-![Parameter werden entfernt](exposing-a-parameter.resources/exposing-a-parameter-20.gif "Parameter werden entfernt"){width="512px"}
+![Parameter werden entfernt](../../../assets/delete-param-2.gif "Parameter werden entfernt"){width="512px"}
 
 ### PARAMETER ENTFERNEN
 
 Um einen verwendeten Parameter tatsächlich zu entfernen, sind zwei unterschiedliche Schritte erforderlich.
 
-1. Klicken Sie auf dem Knoten mit dem offengelegten Parameter auf den Dropdown-Pfeil rechts neben der blau eingefärbten Schaltfläche „Funktion“: ![](exposing-a-parameter.resources/exposing-a-parameter-21.png). Wählen Sie dann &quot;Auf Standardwert zurücksetzen&quot;. Dadurch wird die Verwendung des Parameters auf diesem einen Knoten entfernt. für jeden anderen Knoten, der denselben Parameter verwendet, zu wiederholen. &quot;Auf Standardwert zurücksetzen&quot; setzt auch den Bereich des Parameter-Widgets auf den *weichen Bereich* zurück.
+1. Klicken Sie auf dem Knoten mit dem offengelegten Parameter auf den Dropdown-Pfeil rechts neben der blau eingefärbten Schaltfläche „Funktion“: ![](../../../assets/image2019-9-19-14-55-55.png). Wählen Sie dann &quot;Auf Standardwert zurücksetzen&quot;. Dadurch wird die Verwendung des Parameters auf diesem einen Knoten entfernt. für jeden anderen Knoten, der denselben Parameter verwendet, zu wiederholen. &quot;Auf Standardwert zurücksetzen&quot; setzt auch den Bereich des Parameter-Widgets auf den *weichen Bereich* zurück.
 1. Klicken Sie in der Liste &quot;Eingabeparameter&quot; des Diagramms auf das X rechts neben dem Parametereintrag. Dadurch wird der Parameter vollständig gelöscht. Wenn Knoten versuchen, diesen Parameter zu verwenden, wird ein Warnschild angezeigt (siehe oben).

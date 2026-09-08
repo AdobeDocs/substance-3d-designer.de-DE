@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
 breadcrumb-title: ''
 description: Erfahren Sie Richtlinien zur Leistungsoptimierung für Substance 3D Designer, um die Graf-Performance zu verbessern und die Verarbeitungszeit zu verkürzen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Richtlinien zur Leistungsoptimierung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 0%
@@ -41,12 +41,12 @@ Verwenden Sie das GPU-Substance-Engine (mit Hotkey F9 wechseln), es sei denn, Si
 +++
 
 +++Das Wechseln der übergeordneten Auflösung des Grafen ist langsam
-Es berechnet Graf, Cache und alle Miniaturansichten neu. Es ist besser, [die Registerkarte <b>Batch </b> des Exportdialogs &#x200B;](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md) zu verwenden, da dadurch eine umfangreiche, nicht benötigte Neuberechnung vermieden wird (z. B. beim Export in die Auflösung 8192).
+Es berechnet Graf, Cache und alle Miniaturansichten neu. Es ist besser, [die Registerkarte <b>Batch </b> des Exportdialogs ](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md) zu verwenden, da dadurch eine umfangreiche, nicht benötigte Neuberechnung vermieden wird (z. B. beim Export in die Auflösung 8192).
 
 +++
 
 +++In Extremfällen kann ein erhöhter Speicher-Cache erforderlich sein
-Die Anwendung &quot;[&quot; begrenzt den Arbeitsspeicher, der &#x200B;](../../interface/preferences-window/preferences-window.md) für den Bildcache verwendet werden kann. Sie können diesen jedoch überschreiben und erhöhen (mit Vorsicht).
+Die Anwendung &quot;[&quot; begrenzt den Arbeitsspeicher, der ](../../interface/preferences-window/preferences-window.md) für den Bildcache verwendet werden kann. Sie können diesen jedoch überschreiben und erhöhen (mit Vorsicht).
 
 +++
 
@@ -143,9 +143,9 @@ Auf diese Weise ändert sich die Bitmapgröße basierend auf dem übergeordneten
 >
 > Durch Festlegen eines Knotens vom Typ [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) auf &quot;Relativ zum übergeordneten Knoten&quot; und [Veröffentlichen](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) des Diagramms in einem Substance 3D-Asset (SBSAR) wird die Bitmap mit einer Auflösung von **256x256** anstelle ihrer Originalgröße gespeichert. Es wird empfohlen, stattdessen die [Vererbungsmethode](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) der Bitmapknoten &quot;[Ausgabegröße](../../compositing-graphs/output-size/output-size.md)&quot; als &quot;Absolut&quot; zu behalten und einen [Transformations 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)-Knoten auf &quot;Relativ zum übergeordneten Knoten&quot; direkt nach dem Bitmapknoten festzulegen.
 
-![Eingebettete Bitmapoptimierung 1](performance-optimization-guidelines.resources/performance-optimization-guidelines-01.jpg "Eingebettete Bitmapoptimierung 1")
+![Eingebettete Bitmapoptimierung 1](../../assets/input-1.jpg "Eingebettete Bitmapoptimierung 1")
 
-![Eingebettete Bitmapoptimierung 2](performance-optimization-guidelines.resources/performance-optimization-guidelines-02.jpg "Eingebettete Bitmapoptimierung 2")
+![Eingebettete Bitmapoptimierung 2](../../assets/relativetoparent.jpg "Eingebettete Bitmapoptimierung 2")
 
 <table>
 <tr style="border: 0;">
@@ -156,7 +156,7 @@ Es wird außerdem empfohlen, das Format von Bitmap-Ressourcen auf JPEG festzuleg
 </td>
 <td style="border: 0;" valign="top">
 
-![Eingebettete Bitmapoptimierung 3](performance-optimization-guidelines.resources/performance-optimization-guidelines-03.jpg "Eingebettete Bitmapoptimierung 3")
+![Eingebettete Bitmapoptimierung 3](../../assets/format.jpg "Eingebettete Bitmapoptimierung 3")
 
 </td>
 </tr>
