@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Pixelprozessor , um einzelne Pixel mit benutzerdefinierten Expressions für eine erweiterte Texturbearbeitung zu verarbeiten.
 helpx_creative_field: ""

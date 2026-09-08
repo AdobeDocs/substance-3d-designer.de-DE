@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Graustufenkonvertierung", um Farb-Texturen mithilfe verschiedener Konvertierungsmethoden in Graustufen zu konvertieren.
 helpx_creative_field: ""
