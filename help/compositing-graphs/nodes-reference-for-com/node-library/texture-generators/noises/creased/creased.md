@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/creased.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/creased.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Geknittert", um Faltenmuster zu erzeugen, mit denen sich Texturen aus gefaltetem Stoff und zerknitterten Oberflächen erzeugen lassen.
 helpx_creative_field: ""
