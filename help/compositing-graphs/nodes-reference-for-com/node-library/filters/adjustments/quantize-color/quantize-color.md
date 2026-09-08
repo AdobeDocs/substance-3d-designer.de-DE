@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-color.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Farbe quantisieren", um die Anzahl der Farbstufen für stilisierte Posterisierungseffekte zu reduzieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Farbe quantisieren
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Symbol &quot;Farbe quantisieren&quot;](quantize-color.resources/quantize-color-01.png "Symbol &quot;Farbe quantisieren&quot;"){width="200px"}
+![Symbol &quot;Farbe quantisieren&quot;](../../../../../../assets/QuantizeColor.png "Symbol &quot;Farbe quantisieren&quot;"){width="200px"}
 
 <b>In:</b> Filters > Adjustments
 
@@ -66,7 +66,7 @@ Dieser Knoten kann in Kombination mit den folgenden Knoten verwendet werden: [Fa
 |  |  |
 |:---|:---|
 | <b>Ausgabe</b> <i>Farbe</i> | Das quantisierte Farbbild. |
-| <b>ID</b> <i>Graustufen</i> | Eine Karte, in der jeder quantisierten Farbe eine eindeutige Ganzzahlkennung zugewiesen ist.   Diese können verwendet werden für:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Extrahieren einer Maske </b> aus einigen quantisierten Bereichen mit der [ID zu Maske &#x200B;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md)-Knoten</li> <li data-preserve-html="true"><b>Das quantisierte Bild mit den Knoten [Farbpalette anwenden](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md) oder [Farbpalette ändern](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md) neu einfärben</b></li> </ul> |
+| <b>ID</b> <i>Graustufen</i> | Eine Karte, in der jeder quantisierten Farbe eine eindeutige Ganzzahlkennung zugewiesen ist.   Diese können verwendet werden für:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Extrahieren einer Maske </b> aus einigen quantisierten Bereichen mit der [ID zu Maske ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md)-Knoten</li> <li data-preserve-html="true"><b>Das quantisierte Bild mit den Knoten [Farbpalette anwenden](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md) oder [Farbpalette ändern](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md) neu einfärben</b></li> </ul> |
 | <b>Palette</b> <i>Farbe</i> | Die aus dem Bild extrahierte Palette, die die verbleibenden Farben nach der Quantisierung enthält.   Das Bild ist eine sortierte Liste von RGB-Farben, die als Pixelzeile codiert sind, und darf maximal 256 Farben enthalten.   Die Palette kann mit dem Knoten [Farbpalette anzeigen](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) angezeigt werden. |
 | <b>Farbmenge der Palette</b> <i>Integer</i> | Die Menge der in der Palette gespeicherten Farben. |
 
@@ -90,11 +90,11 @@ Dieser Knoten kann in Kombination mit den folgenden Knoten verwendet werden: [Fa
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize-color-02.jpg" alt="quantize_color_example_6_before">
+      <img src="../../../../../../assets/quantize_color_example_6_before.jpg" alt="quantize_color_example_6_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize-color-03.jpg" alt="quantize_color_example_6_after">
+      <img src="../../../../../../assets/quantize_color_example_6_after.jpg" alt="quantize_color_example_6_after">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -103,11 +103,11 @@ Dieser Knoten kann in Kombination mit den folgenden Knoten verwendet werden: [Fa
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize-color-04.jpg" alt="quantize_color_example_2_before">
+      <img src="../../../../../../assets/quantize_color_example_2_before.jpg" alt="quantize_color_example_2_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize-color-05.jpg" alt="quantize_color_example_2_after">
+      <img src="../../../../../../assets/quantize_color_example_2_after.jpg" alt="quantize_color_example_2_after">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -116,11 +116,11 @@ Dieser Knoten kann in Kombination mit den folgenden Knoten verwendet werden: [Fa
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize-color-06.jpg" alt="quantize_color_example_3_before">
+      <img src="../../../../../../assets/quantize_color_example_3_before.jpg" alt="quantize_color_example_3_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize-color-07.jpg" alt="quantize_color_example_3_after">
+      <img src="../../../../../../assets/quantize_color_example_3_after.jpg" alt="quantize_color_example_3_after">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -129,11 +129,11 @@ Dieser Knoten kann in Kombination mit den folgenden Knoten verwendet werden: [Fa
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize-color-08.jpg" alt="quantize_color_example_4_before">
+      <img src="../../../../../../assets/quantize_color_example_4_before.jpg" alt="quantize_color_example_4_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize-color-09.jpg" alt="quantize_color_example_4_after">
+      <img src="../../../../../../assets/quantize_color_example_4_after.jpg" alt="quantize_color_example_4_after">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -142,11 +142,11 @@ Dieser Knoten kann in Kombination mit den folgenden Knoten verwendet werden: [Fa
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize-color-10.jpg" alt="quantize_color_example_5_before">
+      <img src="../../../../../../assets/quantize_color_example_5_before.jpg" alt="quantize_color_example_5_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize-color-11.jpg" alt="quantize_color_example_5_after">
+      <img src="../../../../../../assets/quantize_color_example_5_after.jpg" alt="quantize_color_example_5_after">
       <br><i>Nach</i>
     </td>
   </tr>

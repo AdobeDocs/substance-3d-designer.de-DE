@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/grayscale-conversion-advanced.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/grayscale-conversion-advanced.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Graustufen-Konvertierung Erweitert , um Farben mit erweiterter Kontrolle über die Konvertierungsmethoden in Graustufen zu konvertieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Erweiterte Graustufen-Konvertierung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grayscale-conversion-advanced.resources/grayscale-conversion-advanced-01.png){width="128px"}
+![](../../../../../../assets/grayscale-conversion-advanced.png){width="128px"}
 
 <b>In:</b> Filters > Adjustments
 
@@ -52,7 +52,7 @@ Erweiterter Knoten zur schnellen Graustufen-Konvertierung, der einige voreingest
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grayscale-conversion-advanced.resources/grayscale-conversion-advanced-02.png" />
+            <img src="../../../../../../assets/grayscale-conversion-advanced-example.png" />
         </td>
     </tr>
 </table>
