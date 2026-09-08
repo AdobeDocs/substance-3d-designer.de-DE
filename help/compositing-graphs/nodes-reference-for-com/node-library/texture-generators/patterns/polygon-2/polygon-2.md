@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/polygon-2.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/polygon-2.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Polygon 2, um erweiterte polygonale Muster mit anpassbaren Seiten und Eigenschaften zu generieren.
 helpx_creative_field: ""

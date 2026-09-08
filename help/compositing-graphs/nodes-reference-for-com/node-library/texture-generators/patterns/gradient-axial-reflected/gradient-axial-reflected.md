@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-axial-reflected.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-axial-reflected.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Axial reflektierter Verlauf", um reflektierte axiale Farbverläufe für symmetrische Farbübergänge zu erstellen.
 helpx_creative_field: ""

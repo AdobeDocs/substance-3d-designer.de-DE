@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-2.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-2.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Ziegel 2, um erweiterte Ziegel-Muster mit erweiterten Steuerelementen für die Erstellung realistischer Mauerwerk-Texturen zu generieren.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gaussian-1.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gaussian-1.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Gaußscher 1, um Gaußsche Rauschen-Muster zum Erstellen organischer Texturen und Variationen zu generieren.
 helpx_creative_field: ""

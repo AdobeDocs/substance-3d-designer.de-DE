@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/starburst.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/starburst.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Starburst-Knoten, um Starburst-Muster zu erstellen, die von einem Mittelpunkt ausstrahlen, um dekorative Textureffekte zu erzielen.
 helpx_creative_field: ""
