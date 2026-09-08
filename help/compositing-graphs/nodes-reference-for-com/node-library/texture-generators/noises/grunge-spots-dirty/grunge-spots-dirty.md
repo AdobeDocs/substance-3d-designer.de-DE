@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots-dirty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots-dirty.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Schmutz-Spots-Dirty", um Schmutzfleckmuster zum Erstellen von verwitterten und gealterten Material-Effekten hinzuzufügen.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Schmutz Spots Dirty
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '114'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/grungespotsdirty.jpg){width="200px"}
 
-**In:** *Texturgeneratoren* */Noises*
-
-**Einfach**
+<b>In:</b> Textur Generators > Rauschen
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -41,29 +39,29 @@ Der **Schmutz Spots Dirty**-Knoten generiert eine Schmutz-Map, die mit Spots des
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parameter
 
-* **Balance** *Fließkommazahl* Passt die Balance zwischen dunklen und hellen Werten an.
-* **Kontrast** *Fließkommazahl* Passt den Bildkontrast an.
-* **Umkehren** *Boolesch* Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird.
-* **Quadratische Ausbreitung** *Boolesche Wert* Aktiviert die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen.
-* Erweitert
-  * **Deckung** *Fließkommazahl* Passt die Deckung des Dirts an.
-  * **Skalierung** *Ganzzahl* Passt die Skalierung der Flecken des Dirts an. Ein *höherer* Wert führt zu *feineren* Punkten.
+|  |  |
+|:---|:---|
+| <b>Saldo</b> <i>Gleitend</i> | Passt die Balance zwischen dunklen und hellen Werten an. |
+| <b>Kontrast</b> <i>Gleitend</i> | Passt den Kontrast des Bildes an. |
+| <b>Umkehren</b> <i>Boolescher Wert</i> | Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird. |
+| <b>Quadratische Ausbreitung</b> <i>Boolescher Wert</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+| <b>Erweitert</b> |  |
+| <b>Deckung</b> <i>Gleitend</i> | Passt die Abdeckung des Dirts an. |
+| <b>Skalierung</b> <i>Integer</i> | Passt die Skalierung der Flecken des Dirts an. Ein *höherer* Wert führt zu *feineren* Punkten. |
 
-## Beispielbilder
+## Beispiele
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungespotsdirty-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungespotsdirty-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/grungespotsdirty-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/grungespotsdirty-variant.jpg" />
+        </td>
+    </tr>
 </table>
