@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Voronoi-Knoten, um Voronoi-Muster zu generieren, um zelluläre Texturen und organische Materialeffekte zu erzeugen.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Voronoi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/voronoi.png){width="200px"}
 
-**In:** *Texturgeneratoren* */Noises*
-
-**Fortgeschrittene**
+<b>In:</b> Textur Generators > Rauschen
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
@@ -47,96 +45,50 @@ Dieser Knoten kann mit [Cube GBuffers](../../../../../../compositing-graphs/node
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parameter
 
-* **Umkehren** *Boolesche Wert*\
-  Kehrt das Ausgabebild um.
-* **Skalierung** *Fließkommazahl*\
-  Steuert den Umfang des Voronoi-Rauschens.\
-  *Hinweis*: Wenn **Kacheln** auf *einer Achse* aktiviert ist, ist die Skalenanpassung *gestuft*. Dies wird erwartet.
-* **Größe** *Fließkommazahl3*\
-  Steuert die Größe des Voronoi-Rauschens in den Achsen **X**, **Y** und **Z**. Nicht einheitliche Werte führen zu einem *Dehnungs- oder Squashing*-Effekt.\
-  *Hinweis*: Wenn **Kachelung** für *eine beliebige Achse* aktiviert ist, ist die Größenanpassung *schrittweise*. Dies wird erwartet.
-* **Offset** *Float3*\
-  Wendet einen Offset auf die *Position* des Voronoi-Rauschens in den Achsen **X**, **Y** und **Z** an.
-* **Störung** *Float3*\
-  Die Intensität des *zufälligen Versatzes*, der auf jeden Punkt des Rauschens in den Achsen **X**, **Y** und **Z** angewendet wird.
-* **Intensität der Verzerrung** *Gleitend*\
-  Steuert die Intensität eines *Verkrümmungseffekts*, der auf die Voronoi-Rauschen angewendet wird.
-* **Verzerrung-Skalierungsmultiplikator** *Fließkommazahl*\
-  Steuert die Skalierung des *sich verformenden Musters*, das im Verkrümmungseffekt verwendet wird, der durch die **Intensität der Verzerrung** gesteuert wird.
-* **Abgerundete Kurve** *Gleitkomma*\
-  Rundet die *Steigung* um jeden Punkt des Rauschens, um sie *konvex* zu machen.\
-  *Hinweis* : Dieser Parameter ist nicht verfügbar, wenn der **Style**-Parameter auf *Edge* festgelegt ist.
-* **Abstandsskala** *Gleitend*\
-  Passt den *Abstand des Farbverlaufs* um jeden Punkt des Rauschens an.
-* **Entfernungsmodus** *Ganzzahl*\
-  Legt die Methode auf *fest, um den Abstandsverlauf* um jeden Punkt der Rauschen zu berechnen:
-  * *Euklidean*
-  * *Manhattan*
-  * *Chebyshev*
-  * *Minkowski*
-* **Minkowski-Zahl** *Gleitend*\
-  Die Reihenfolge *p* der Minkowski-Entfernung. Wenn wir den Abstandsverlauf in Quadranten unterteilen, wirkt sich diese Zahl wie folgt auf diese Quadranten aus:
-  * p ist *genau* 1: Gerade
-  * p ist *niedriger* als 1: konkav
-  * p ist *größer* als 1: konvex\
-    Interessante Werte:\
-    *- 1.0*: Entfernung von Manhattan\
-    *- 2.0*: Euklidische Entfernung\
-    *- Unendlich*: Chebyshev-Abstand\
-    *Hinweis*: Dieser Parameter ist nur verfügbar, wenn der Parameter **Entfernungsmodus** auf *Minkowski* festgelegt ist.
-* **Stil** *Ganzzahl* Legt die *Methode zum Rendern der Daten* der Voronoi-Rauschen fest, da die Rauschen auf einer Menge von Leerzeichen basiert:
-  * *F1*: der Abstand zum *nächstgelegenen Punkt* im Raum
-  * *F2*: der Abstand zum *zweitnächsten Punkt* im Raum
-  * *F2-F1*- *F1\* F2 *-* F1/F2 *-* Edge *: die* Kante zwischen jeder Zelle* des Rauschens im Raum
-  * *Zufallsfarbe*: jeder Zelle der Rauschen im Raum eine *zufällige flache Farbe* zuweisen
-* **Edge-Thickness** *Fließkommazahl* Passt die Thickness der Kanten an, die zwischen den Zellen der Voronoi-Rauschen erkannt werden. Kanten werden in der X-, Y- und Z-Achse erkannt, daher können einige Stärken schneller zunehmen als andere, je nach *Tiefe* der Zellen.\
-  *Hinweis*: Dieser Parameter ist nur verfügbar, wenn der **Style**-Parameter auf *Edge* festgelegt ist.
-* **Zufallsfarben-Startmodus** *Ganzzahl*\
-  Legt die Methode für *fest, mit der* den zufälligen Seed für die Farbauswahl pro Zelle erfasst wird:
-  * *Globale Zufallsverteilung*: Verwenden Sie das vom Knoten geerbte Seed *geerbt*
-  * *Manuelles Seed*: Verwenden eines *einzelnen*-Seeds\
-    *Hinweis*: Dieser Parameter ist nur verfügbar, wenn der **Style**-Parameter auf *Random color* festgelegt ist.
-* **Zufallsfarbensamen** *Ganzzahl*\
-  Der diskrete Zufallswert, der für die Farbauswahl pro Zelle verwendet werden soll.\
-  *Hinweis*: Dieser Parameter ist nur verfügbar, wenn der **Style**-Parameter auf *Zufallsfarbe* und der **Zufallsfarben-Übertragungsmodus**-Parameter auf ***Manuelle Übertragung*** festgelegt ist.
-* **Quadratische Ausbreitung** *Boolesche Wert*\
-  Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen.
+|  |  |
+|:---|:---|
+| <b>Umkehren</b> <i>Boolescher Wert</i> | Kehrt das Ausgabebild um. |
+| <b>Skalierung</b> <i>Gleitend</i> | Steuert die Skalierung der Voronoi-Rauschen.<br><br>*Hinweis*: Wenn **Kacheln** auf *einer Achse* aktiviert ist, ist die Skalenanpassung *gestuft*. Dies wird erwartet. |
+| <b>Größe</b> <i>Float3</i> | Steuert die Größe des Voronoi-Rauschens in den Achsen **X**, **Y** und **Z**. Nicht einheitliche Werte führen zu einem *dehnend oder auslöschenden*-Effekt.<br><br>*Hinweis*: Wenn **Kachelung** für *eine beliebige Achse* aktiviert ist, ist die Größenanpassung *schrittweise*. Dies wird erwartet. |
+| <b>Offset</b> <i>Float3</i> | Wendet einen Offset auf die *Position* des Voronoi-Rauschens in den Achsen **X**, **Y** und **Z** an. |
+| <b>Störung</b> <i>Float3</i> | Die Intensität des *zufälligen Versatzes*, der auf jeden Punkt des Rauschens in den Achsen **X**, **Y** und **Z** angewendet wird. |
+| <b>Intensität der Verzerrung</b> <i>Gleitend</i> | Steuert die Intensität eines *Verkrümmungseffekts*, der auf die Voronoi-Rauschen angewendet wird. |
+| <b>Verzerrungen-Skalierungsmultiplikator</b> <i>Gleitend</i> | Steuert die Skalierung des *sich verformenden Musters*, das im Verkrümmungseffekt verwendet wird, der durch die **Intensität der Verzerrung** gesteuert wird. |
+| <b>Abgerundete Kurve</b> <i>Gleitend</i> | Rundet die *Steigung* um jeden Punkt der Rauschen, um sie *konvex* zu machen.<br><br>*Hinweis*: Dieser Parameter ist nicht verfügbar, wenn der **Style**-Parameter auf *Edge* festgelegt ist. |
+| <b>Entfernungsskala</b> <i>Gleitend</i> | Passt den *Abstand des Farbverlaufs* um jeden Punkt des Rauschens an. |
+| <b>Entfernungsmodus</b> <i>Integer</i> | Legt die Methode auf *Berechnen des Abstandsverlaufs* um jeden Punkt der Rauschen fest:<br><br>- *Euklidean*<br>- *Manhattan*<br>- *Chebyshev*<br>- *Minkowski* |
+| <b>Minkowski-Zahl</b> <i>Gleitend</i> | Die Reihenfolge *p* der Minkowski-Entfernung. Wenn wir den Abstandsverlauf in Quadranten unterteilen, wirkt sich diese Zahl wie folgt auf diese Quadranten aus:<br><br>- p ist *genau* 1: Straight<br>- p ist *niedriger* als 1: Konkav<br>- p ist *größer* als 1: Konvex<br><br>Interessante Werte:<br><br>- *1.0*: Entfernung von Manhattan<br>- *2.0*: Euklidische Entfernung<br>- *Unendlich*: Chebyshev-Abstand <br><br>*Hinweis*: Dieser Parameter ist nur verfügbar, wenn der Parameter **Entfernungsmodus** auf *Minkowski* festgelegt ist. |
+| <b>Stil</b> <i>Integer</i> | Legt die *-Methode zum Rendern der Daten* der Voronoi-Rauschen fest, da die Rauschen auf einer Gruppe von Leerzeichen basiert:<br><br>- *F1*: der Abstand zum *nächstgelegenen Punkt* im Raum<br>- *F2*: der Abstand zum *zweitnächsten Punkt* im Raum<br>- *F2-F1*<br>- *F1\* F2 *<br>-* F1/F2 *<br>-* Edge *: die* Kante zwischen jeder Zelle *der Rauschen im Leerzeichen<br>-* Zufallsfarbe *: jeder Zelle der Rauschen im Raum eine* zufällige flache Farbe* zuweisen |
+| <b>Edge-Thickness</b> <i>Gleitend</i> | Passt die Thickness der Kanten an, die zwischen den Zellen der Voronoi-Rauschen erkannt werden. Kanten werden in den X-, Y- und Z-Achsen erkannt, daher können einige Stärken schneller zunehmen als andere, je nach *Tiefe* der Zellen.<br><br>*Hinweis*: Dieser Parameter ist nur verfügbar, wenn der **Style**-Parameter auf *Edge* festgelegt ist. |
+| <b>Zufallsfarben-Startmodus</b> <i>Integer</i> | Legt die Methode zum *Erfassen* des zufälligen Seeds für die Farbauswahl pro Zelle fest:<br><br>- *Globale zufällige Seeds*: Verwenden Sie das Seed *geerbt* vom Knoten <br>- *Manuelles Seed*: Verwenden Sie ein *diskretes* Seed <br><br>*Hinweis*: Dieser Parameter ist nur verfügbar, wenn der **Style**-Parameter auf *Random color* festgelegt ist. |
+| <b>Zufallsfarbensamen</b> <i>Integer</i> | Der diskrete Zufallswert, der für die Farbauswahl pro Zelle verwendet werden soll.<br><br>*Hinweis*: Dieser Parameter ist nur verfügbar, wenn der **Style**-Parameter auf *Zufallsfarbe* und der **Zufallsfarben-Übertragungsmodus**-Parameter auf ***Manuelle Übertragung*** festgelegt ist. |
+| <b>Quadratische Ausbreitung</b> <i>Boolescher Wert</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
 
-## Beispielbilder
+## Beispiele
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/voronoi-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/voronoi-variant3.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/voronoi-variant5.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/voronoi-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/voronoi-variant4.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/voronoi-variant6.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/voronoi-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/voronoi-variant3.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/voronoi-variant5.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/voronoi-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/voronoi-variant4.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/voronoi-variant6.jpg" />
+        </td>
+    </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/plasma.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/plasma.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Plasma", um plasmaähnliche Rauschmuster zu erzeugen, um organische und flüssige Textureffekte zu erzeugen.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Plasma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 2%
+source-wordcount: '88'
+ht-degree: 7%
 
 ---
 
@@ -22,36 +22,39 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/plasma.png){width="128px"}
 
-## Plasma
-
-**In:** *Texturgeneratoren**/Noises*
-
-**Einfach**
+<b>In:</b> Textur Generators > Rauschen
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
 Dadurch wird eine etwas andere Variante von [Gaußschem Rauschen](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md) erzeugt, mit längeren dunklen Streifen als Täler. Es verfügt über eine ähnliche Abstandssteuerung für die Skalierung, die die Unterteilung beibehält.
 
-## Parameter
-
-* **Skalierung**: *1 - 128*\
-  Legt die globale Skalierung für den Effekt fest.
-* **Störung**: *0.0 - 1.0*\
-  Phasenverschiebt das Rauschen, um kleine Schwankungen einzuführen.
-* **Quadratische Ausbreitung**: *False/True*\
-  Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen.
-
-## Beispielbilder
-
-![](../../../../../../assets/plasma-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameter
+
+|  |  |
+|:---|:---|
+| <b>Skalierung</b> <i>1 - 128</i> | Legt die globale Skalierung für den Effekt fest. |
+| <b>Störung</b> <i>0.0 - 1.0</i> | Phasenverschiebt das Rauschen, um kleine Schwankungen einzuführen. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+
+## Beispiele
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/plasma-ex.gif" />
+        </td>
+    </tr>
 </table>
