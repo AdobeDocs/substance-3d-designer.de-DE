@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-3.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Rauschen Upscale 3, um Texturen mithilfe erweiterter Rauschen-basierter Algorithmen hochzuskalieren, um Details bei höheren Auflösungen beizubehalten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rauschen Hochskalieren 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](noise-upscale-3.resources/noise-upscale-3-01.png){width="128px"}
+![](../../../../../../assets/noise-upscale.png){width="128px"}
 
 <b>In:</b> Filter > Transformieren
 
@@ -57,7 +57,7 @@ Siehe auch [Rauschen Upscale 1](../../../../../../compositing-graphs/nodes-refer
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="noise-upscale-3.resources/noise-upscale-3-02.png" />
+            <img src="../../../../../../assets/noise3ex.png" />
         </td>
     </tr>
 </table>

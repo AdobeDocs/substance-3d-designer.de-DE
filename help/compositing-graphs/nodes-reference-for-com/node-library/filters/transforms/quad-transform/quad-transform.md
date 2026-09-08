@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/quad-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/quad-transform.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Quad Transformieren-Knoten, um vierseitige Transformationen auf Texturen anzuwenden, um Perspektiven zu korrigieren und zu verformen.
+description: Verwenden Sie den Quad-Transformieren-Knoten, um Texturen mit vierseitigen Transformationen für perspektivische Korrekturen und Verkrümmungen zu versehen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Quad Transform
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Quad Transform
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 2%
@@ -18,15 +18,15 @@ ht-degree: 2%
 ---
 
 
-# Quad Transformieren
+# Quad Transform
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](quad-transform.resources/quad-transform-01.png){width="128px"}
+![](../../../../../../assets/quad-transform-grayscale.png){width="128px"}
 
-![](quad-transform.resources/quad-transform-02.png){width="128px"}
+![](../../../../../../assets/quad-transform.png){width="128px"}
 
 <b>In:</b> Filter > Transformieren
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 ## Beschreibung
 
-Spezieller transformieren-Knoten, der die Transformation einer Quad-Form durch Interaktion mit ihren Eckpunkten ermöglicht. Lässt sehr spezifische transformieren zu.
+Spezieller Transformationsknoten, der die Transformation einer Quad-Form durch Interaktion mit ihren Eckpunkten ermöglicht. Ermöglicht sehr spezifische Transformationen in einer praktischen Weise.
 
 </td>
 </tr>
@@ -61,7 +61,7 @@ Spezieller transformieren-Knoten, der die Transformation einer Quad-Form durch I
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="quad-transform.resources/quad-transform-03.gif" />
+            <img src="../../../../../../assets/quad-example.gif" />
         </td>
     </tr>
 </table>

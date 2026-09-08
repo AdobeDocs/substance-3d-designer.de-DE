@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/clone-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/clone-filter-node.html"
 breadcrumb-title: ''
 description: Mit dem Filterknoten "Klon" können Sie Bereiche von Texturen duplizieren und versetzen, um nahtlose Muster und Effekte auf Kachelungen zu erstellen.
 helpx_creative_field: ""
@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Klonen (Filterknoten)
+title: Klon (Filterknoten)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 4%
@@ -18,13 +18,13 @@ ht-degree: 4%
 ---
 
 
-# Klonen (Filterknoten)
+# Klon (Filterknoten)
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](clone-filter-node.resources/clone-filter-node-01.png)
+![](../../../../../../assets/clone-4.png)
 
 <b>In:</b> Filter > Transformieren
 
@@ -60,7 +60,7 @@ Sorgfältig, um die gewünschten Ergebnisse zu erzielen:
 
 |  |  |
 |:---|:---|
-| <b>Offset</b> <i>-</i> | Verschiebt oder verschiebt das Ergebnis. &quot;Positiv&quot; steht für &quot;Links und oben&quot;, &quot;Negativ&quot; für &quot;Rechts und unten&quot;. Verwenden Sie kleine Werte, 1,0 und höher, um sie aus dem Bild zu verschieben! |
+| <b>Offset</b> <i>-</i> | Verschiebt oder Kamera bewegt das Ergebnis. &quot;Positiv&quot; steht für &quot;Links und oben&quot;, &quot;Negativ&quot; für &quot;Rechts und unten&quot;. Verwenden Sie kleine Werte, 1,0 und höher, um sie aus dem Bild zu verschieben! |
 | <b>Weichzeichnungsmaske</b> <i>0.0 - 10.0</i> | Wende einen Weichzeichnungsfilter auf eine Maske an, um die Kanten weichzuzeichnen. |
 
 ## Beispiele
@@ -68,7 +68,7 @@ Sorgfältig, um die gewünschten Ergebnisse zu erzielen:
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="clone-filter-node.resources/clone-filter-node-02.png" />
+            <img src="../../../../../../assets/clone-example.png" />
         </td>
     </tr>
 </table>
