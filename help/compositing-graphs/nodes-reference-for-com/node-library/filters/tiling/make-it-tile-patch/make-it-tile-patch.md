@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling/make-it-tile-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling/make-it-tile-patch.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Make It Tile Patch zum Ausbessern und Erstellen nahtloser Kacheltexturen aus Eingabebildern.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Kachelüberlagerung erstellen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
+source-git-commit: f792519db40504d7bb888acf0dc418c6ebfd688a
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 8%
@@ -24,9 +24,9 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/make-it-tile-patch.png)
+![](make-it-tile-patch.resources/make-it-tile-patch.png)
 
-![](../../../../../../assets/make-it-tile-patch-grayscale.png)
+![](make-it-tile-patch.resources/make-it-tile-patch-grayscale.png)
 
 <b>In:</b> Filters > Kachelung
 
@@ -72,7 +72,7 @@ Informationen zum Verwenden des gesamten Materials finden Sie unter [Smart Auto 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/patch-ex.gif" />
+            <img src="make-it-tile-patch.resources/patch-ex.gif" />
         </td>
     </tr>
 </table>
