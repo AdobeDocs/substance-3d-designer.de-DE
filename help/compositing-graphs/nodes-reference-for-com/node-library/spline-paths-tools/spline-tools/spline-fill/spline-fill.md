@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline-Füllung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](spline-fill.resources/spline-fill-01.png "Knotensymbol")
+![Knotensymbol](../../../../../../assets/spline-fill-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -72,11 +72,11 @@ Offene Splines werden mit einer geraden Linie vom Anfang bis zum Ende geschlosse
 <table>
   <tr>
     <td>
-      <img src="spline-fill.resources/spline-fill-02.jpg" alt="SplineFill-Variant1-Before">
+      <img src="../../../../../../assets/SplineFill-Variant1-Before.jpg" alt="SplineFill-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="spline-fill.resources/spline-fill-03.jpg" alt="SplineFill-Variant1-After">
+      <img src="../../../../../../assets/SplineFill-Variant1-After.jpg" alt="SplineFill-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -85,7 +85,7 @@ Offene Splines werden mit einer geraden Linie vom Anfang bis zum Ende geschlosse
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](spline-fill.resources/spline-fill-04.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](../../../../../../assets/SplineFill-Demo.gif "Knotenbeispiel 2")
 
 </td>
 </tr>

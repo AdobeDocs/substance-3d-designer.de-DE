@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Richtlinien zur Leistungsoptimierung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 583588c4e12e3d0857c2b16200945e36ea523151
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 0%
@@ -143,9 +143,9 @@ Auf diese Weise ändert sich die Bitmapgröße basierend auf dem übergeordneten
 >
 > Durch Festlegen eines Knotens vom Typ [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) auf &quot;Relativ zum übergeordneten Knoten&quot; und [Veröffentlichen](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) des Diagramms in einem Substance 3D-Asset (SBSAR) wird die Bitmap mit einer Auflösung von **256x256** anstelle ihrer Originalgröße gespeichert. Es wird empfohlen, stattdessen die [Vererbungsmethode](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) der Bitmapknoten &quot;[Ausgabegröße](../../compositing-graphs/output-size/output-size.md)&quot; als &quot;Absolut&quot; zu behalten und einen [Transformations 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)-Knoten auf &quot;Relativ zum übergeordneten Knoten&quot; direkt nach dem Bitmapknoten festzulegen.
 
-![Eingebettete Bitmapoptimierung 1](../../assets/input-1.jpg "Eingebettete Bitmapoptimierung 1")
+![Eingebettete Bitmapoptimierung 1](performance-optimization-guidelines.resources/input-1.jpg "Eingebettete Bitmapoptimierung 1")
 
-![Eingebettete Bitmapoptimierung 2](../../assets/relativetoparent.jpg "Eingebettete Bitmapoptimierung 2")
+![Eingebettete Bitmapoptimierung 2](performance-optimization-guidelines.resources/relativetoparent.jpg "Eingebettete Bitmapoptimierung 2")
 
 <table>
 <tr style="border: 0;">
@@ -156,7 +156,7 @@ Es wird außerdem empfohlen, das Format von Bitmap-Ressourcen auf JPEG festzuleg
 </td>
 <td style="border: 0;" valign="top">
 
-![Eingebettete Bitmapoptimierung 3](../../assets/format.jpg "Eingebettete Bitmapoptimierung 3")
+![Eingebettete Bitmapoptimierung 3](performance-optimization-guidelines.resources/format.jpg "Eingebettete Bitmapoptimierung 3")
 
 </td>
 </tr>

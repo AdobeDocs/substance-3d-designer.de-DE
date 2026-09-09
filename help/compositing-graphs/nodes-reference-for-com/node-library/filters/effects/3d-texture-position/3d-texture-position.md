@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D-Texturposition
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-texture-position.resources/3d-texture-position-01.png){width="256px"}
+![](../../../../../../assets/3dtextureposition.png){width="256px"}
 
 <b>In:</b> Filter > Effekt
 
@@ -33,9 +33,9 @@ ht-degree: 3%
 
 ## Beschreibung
 
-Der Knoten **3D Textur Position** generiert die *Positions-Slices* eines Einheitenwürfels.
+Der Knoten **3D Texturposition** generiert die *Positionsslices* eines Einheitswürfels.
 
-Dies kann verwendet werden, um 3D-Rauschen Baking führen oder als *3D-Textur-Atlas* zu fungieren.
+Dies kann verwendet werden, um 3D-Geräusche zu backen oder als *3D-Texturatlas* zu fungieren.
 
 </td>
 </tr>
@@ -46,10 +46,10 @@ Dies kann verwendet werden, um 3D-Rauschen Baking führen oder als *3D-Textur-At
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-position.resources/3d-texture-position-02.jpg" />
+            <img src="../../../../../../assets/3dtextureposition-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-position.resources/3d-texture-position-03.png" />
+            <img src="../../../../../../assets/3dtextureposition-node.png" />
         </td>
     </tr>
 </table>

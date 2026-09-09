@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline-Verkrümmung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](spline-warp.resources/spline-warp-01.png "Knotensymbol")
+![Knotensymbol](../../../../../../assets/spline-warp-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -97,11 +97,11 @@ Die Intensität des Verkrümmungseffekts kann mithilfe von Dämpfungssteuereleme
 <table>
   <tr>
     <td>
-      <img src="spline-warp.resources/spline-warp-02.jpg" alt="SplineWarp-Variant1-Before">
+      <img src="../../../../../../assets/SplineWarp-Variant1-Before.jpg" alt="SplineWarp-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="spline-warp.resources/spline-warp-03.jpg" alt="SplineWarp-Variant1-After">
+      <img src="../../../../../../assets/SplineWarp-Variant1-After.jpg" alt="SplineWarp-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -113,11 +113,11 @@ Die Intensität des Verkrümmungseffekts kann mithilfe von Dämpfungssteuereleme
 <table>
   <tr>
     <td>
-      <img src="spline-warp.resources/spline-warp-04.jpg" alt="SplineWarp-Variant2-Before">
+      <img src="../../../../../../assets/SplineWarp-Variant2-Before.jpg" alt="SplineWarp-Variant2-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="spline-warp.resources/spline-warp-05.jpg" alt="SplineWarp-Variant2-After">
+      <img src="../../../../../../assets/SplineWarp-Variant2-After.jpg" alt="SplineWarp-Variant2-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -131,7 +131,7 @@ Die Intensität des Verkrümmungseffekts kann mithilfe von Dämpfungssteuereleme
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](spline-warp.resources/spline-warp-06.gif "Knotenbeispiel 1")
+![Knotenbeispiel 1](../../../../../../assets/SplineWarp-Demo.gif "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">

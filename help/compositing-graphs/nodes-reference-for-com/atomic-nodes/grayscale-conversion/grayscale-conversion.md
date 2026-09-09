@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Graustufenkonvertierung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Graustufen-Konvertierung](../../../../assets/comp_grayscaleconversion_1.png "Elementare Knoten: Graustufen-Konvertierung"){width="200px"}
+![Atomknoten: Graustufen-Konvertierung](grayscale-conversion.resources/comp_grayscaleconversion_1.png "Elementare Knoten: Graustufen-Konvertierung"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -102,7 +102,7 @@ Dies bedeutet, dass ein Graustufen-Konvertierungsknoten im Allgemeinen nur für 
 | --- | --- |
 | <b>Eingabe</b> *Farbe* PRIMÄR | Das zu verarbeitende Farbbild. |
 
-## Ausgangsanschlüsse
+## Ausgabe-Verbindungen
 
 |  |  |
 | --- | --- |

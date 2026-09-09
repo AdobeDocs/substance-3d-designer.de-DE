@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Parameter verwalten
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
@@ -46,7 +46,7 @@ Wenn die Eigenschaften eines Knotens im Eigenschaften-Dock angezeigt werden, kö
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Globales Menü &quot;Parameter verwalten&quot; in den Eigenschaften](../../assets/manage-parameters-menu-global.png "Globales Menü &quot;Parameter verwalten&quot; in den Eigenschaften"){zoomable="yes"}
+![Globales Menü &quot;Parameter verwalten&quot; in den Eigenschaften](manage-parameters.resources/manage-parameters-menu-global.png "Globales Menü &quot;Parameter verwalten&quot; in den Eigenschaften"){zoomable="yes"}
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ Wenn Sie einen *single*-Parameter verwalten möchten, verwenden Sie das Menü &q
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Lokales Menü &quot;Parameter verwalten&quot; in den Eigenschaften](../../assets/manage-parameters-menu.png "Lokales Menü &quot;Parameter verwalten&quot; in den Eigenschaften"){zoomable="yes"}
+![Lokales Menü &quot;Parameter verwalten&quot; in den Eigenschaften](manage-parameters.resources/manage-parameters-menu.png "Lokales Menü &quot;Parameter verwalten&quot; in den Eigenschaften"){zoomable="yes"}
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Für dieses Menü gelten die unten aufgeführten Einschränkungen für atomare K
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-Menü &quot;Parameter verwalten&quot; von ![&#x200B; im Knotenkontextmenü &#x200B;](../../assets/manage-parameters-node-menu.png " im Knotenkontextmenü "){zoomable="yes"} im Menü &quot;Parameter verwalten&quot;
+Menü &quot;Parameter verwalten&quot; von ![&#x200B; im Knotenkontextmenü &#x200B;](manage-parameters.resources/manage-parameters-node-menu.png " im Knotenkontextmenü "){zoomable="yes"} im Menü &quot;Parameter verwalten&quot;
 
 </td>
 </tr>
@@ -129,22 +129,22 @@ Diese Funktion funktioniert genauso wie die Verwendung einer [Parametervoreinste
 </td>
 <td style="border: 0;" valign="top">
 
-![Parameter kopieren und einfügen](../../assets/copy-paste-parameters.gif "Parameter kopieren und einfügen"){zoomable="yes"}
+![Parameter kopieren und einfügen](manage-parameters.resources/copy-paste-parameters.gif "Parameter kopieren und einfügen"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-## Einschränkungen für elementare Knoten
+## Atomare Knotenbeschränkungen
 
-Einige Features sind für einige [elementare Knoten](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) aufgrund ihrer spezifischen Implementierung und Steuerelemente nicht verfügbar.
+Einige Features sind für einige [atomare Knoten](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) aufgrund ihrer spezifischen Implementierung und Steuerelemente nicht verfügbar.
 
 Diese Aktionen...
 
 * [Kopieren/Einfügen von Parametern](#copy-paste-parameters)
 * [Vorgabedatei speichern/anwenden](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)
 
-...sind für diese elementare Knoten nicht verfügbar:
+...sind für diese atomaren Knoten nicht verfügbar:
 
 <table>
 <tr style="border: 0;">

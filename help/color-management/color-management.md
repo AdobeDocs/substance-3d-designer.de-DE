@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Farbmanagement
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 583588c4e12e3d0857c2b16200945e36ea523151
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 1%
@@ -152,18 +152,18 @@ Sie können den Farbraum einer Bitmap jederzeit ändern. Die Option befindet sic
 > 
 > Insbesondere kann der **Dateiname** verwendet werden, um den entsprechenden Farbraum *automatisch* festzulegen. Beachten Sie, dass der Farbraumname im Dateinamen *mit dem Namen* in der OpenColorIO Konfigurationsdatei übereinstimmen muss (z. B. *myImage\_utility - linear -srgb.png* wird auf *Utility - Linear - sRGB* (Farbraum) festgelegt.
 
-![Einstellung des Bitmap-Farbraums](../assets/2019-3-0-bitmap-clr-space.png "Einstellung des Bitmap-Farbraums")
+![Einstellung des Bitmap-Farbraums](color-management.resources/2019-3-0-bitmap-clr-space.png "Einstellung des Bitmap-Farbraums")
 
 ## Exportieren von Ausgaben
 
 Bei Verwendung des Dialogfelds <b>Exportausgaben</b> ist es möglich, einen <b>Farbraum</b> (OCIO) zuzuweisen oder ein <b>ICC-Profil</b> (Adobe ACE) für die *jede*-Ausgabe anzuhängen.\
 Designer konvertiert *Bilder in die angegebenen Farbräume, bevor die Bilddateien gespeichert werden.*
 
-![Dialogfeld für Exportausgaben](../assets/2019-3-0-clr-mgt-export-outputs.png "Dialogfeld für Exportausgaben"){width="512px"}
+![Dialogfeld für Exportausgaben](color-management.resources/2019-3-0-clr-mgt-export-outputs.png "Dialogfeld für Exportausgaben"){width="512px"}
 
 Sie können auch einen Farbraum (OCIO) zuweisen oder ein ICC-Profil (Adobe ACE) an Bilder *Gespeichert* aus der [2D-Ansicht](../interface/2d-view/2d-view.md) anhängen.
 
-![Exportoptionen für 2D-Ansichten](../assets/2019-3-0-clr-mgt-save-image.png "Exportoptionen für 2D-Ansichten")
+![Exportoptionen für 2D-Ansichten](color-management.resources/2019-3-0-clr-mgt-save-image.png "Exportoptionen für 2D-Ansichten")
 
 ## 2D- und 3D-Ansichten
 
@@ -171,7 +171,7 @@ Sie können auch einen Farbraum (OCIO) zuweisen oder ein ICC-Profil (Adobe ACE) 
 
 Sie können das *Farbmanagement* aktivieren/deaktivieren und den *Anzeigemodus* für die transformieren jederzeit mithilfe des Dropdownmenüs in der Anzeigesymbolleiste ändern.
 
-![Farbraumeinstellung in 2D-Ansicht](../assets/2019-3-0-clr-mgt-display-toolbar.png "Farbraumeinstellung in 2D-Ansicht"){width="512px"}
+![Farbraumeinstellung in 2D-Ansicht](color-management.resources/2019-3-0-clr-mgt-display-toolbar.png "Farbraumeinstellung in 2D-Ansicht"){width="512px"}
 
 ### Library HDRI-Umgebungen
 
@@ -180,7 +180,7 @@ Wenn Sie eine OpenColorIO-Konfiguration verwenden, bei der der lineare Farbraum 
 
 In diesem Fall sollte der Farbraum für Bibliotheks-HDRI-Umgebungen in den Umgebungseigenschaften, die im Menü des Bedienfelds &quot;3D-Ansicht&quot; <b>Umgebung</b> verfügbar sind, auf *manuell* festgelegt werden.
 
-![Farbraumeinstellung der 3D-Ansichtsumgebung](../assets/2019-3-0-clr-mgt-hdri-env.png "Farbraumeinstellung der 3D-Ansichtsumgebung"){width="512px"}
+![Farbraumeinstellung der 3D-Ansichtsumgebung](color-management.resources/2019-3-0-clr-mgt-hdri-env.png "Farbraumeinstellung der 3D-Ansichtsumgebung"){width="512px"}
 
 ## Farbkonvertierungsknoten
 
@@ -211,7 +211,7 @@ Die [Library](../interface/the-library/the-library.md) enthält die folgenden Kn
 
 Diese sind nützlich, wenn Sie mit Diagrammen arbeiten, die *ohne* Farbmanagement erstellt wurden, oder mit Materialien aus der [Substance 3D Assets](https://substance3d.adobe.com/assets)-Bibliothek.
 
-![Farbkonvertierungsknoten in Bibliothek](../assets/2019-3-0-clr-mgt-nodes.png "Farbkonvertierungsknoten in Bibliothek"){width="512px"}
+![Farbkonvertierungsknoten in Bibliothek](color-management.resources/2019-3-0-clr-mgt-nodes.png "Farbkonvertierungsknoten in Bibliothek"){width="512px"}
 
 ## Bekannte Einschränkungen
 

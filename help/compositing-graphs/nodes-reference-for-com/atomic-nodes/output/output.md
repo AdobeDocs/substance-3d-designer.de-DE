@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ausgabe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Output](../../../../assets/comp_output_1.png "Atomic node: Ausgabe "){width="200px"}
+![Atomknoten: Output](output.resources/comp_output_1.png "Atomic node: Ausgabe "){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -101,11 +101,11 @@ Hier ist ein Beispiel für Instanzknoten vor und nach dem Festlegen einer Standa
 <table>
   <tr style="border: 0">
     <td style="border: 0">
-      <img src="../../../../assets/defaultouput2.png" alt="defaultouput2">
+      <img src="output.resources/defaultouput2.png" alt="defaultouput2">
       <br><i>Vorher</i>
     </td>
     <td style="border: 0">
-      <img src="../../../../assets/defaultouput1.png" alt="defaultouput1">
+      <img src="output.resources/defaultouput1.png" alt="defaultouput1">
       <br><i>Nach</i>
     </td>
   </tr>

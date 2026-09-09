@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D Textur Volume Render
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-texture-volume-render.resources/3d-texture-volume-render-01.png){width="200px"}
+![](../../../../../../assets/3dtexturevolumerender.png){width="200px"}
 
 <b>In:</b> Filter > Effekt
 
@@ -61,8 +61,8 @@ Das Volume wird innerhalb der Grenzen eines *Einheitscube* dargestellt. Die Bele
 
 |  |  |
 |:---|:---|
-| <b>Ausgabeauflösung</b> <i>Ganzzahl2</i> | Die Auflösung des Ausgabebilds in <b>X</b> und <b>Y</b>, ausgedrückt als <i>Potenz von zwei</i>. |
-| <b>Position der Kamera</b> <i>Fließkommazahl2</i> | Die Position der Kamera um die Form.<br>Wenn der Knoten ausgewählt ist, können Sie das Positions-Gizmo in der <b>2D-Ansicht</b> bis <i>Umlaufbahn</i> der Kamera verwenden. |
+| <b>Ausgabeauflösung</b> <i>Integer2</i> | Die Auflösung des Ausgabebilds in <b>X</b> und <b>Y</b>, ausgedrückt als <i>Potenz von zwei</i>. |
+| <b>Position der Kamera</b> <i>Float2</i> | Die Position der Kamera um die Form.<br>Wenn der Knoten ausgewählt ist, können Sie das Positions-Gizmo in der <b>2D-Ansicht</b> bis <i>Umlaufbahn</i> der Kamera verwenden. |
 | <b>Lichtposition</b> <i>Float2</i> | Die Position des <i>Richtungslichts</i> um die Form.<br>Wenn der Knoten ausgewählt ist, können Sie das Positions-Gizmo in der <b>2D-Ansicht</b> bis <i>Bahn</i> der Lichtquelle verwenden. |
 | <b>Kameras-Entfernung</b> <i>Gleitend</i> | Der Abstand zwischen Kamera und Form. |
 | <b>Kamera FOV</b> <i>Gleitend</i> | Das Sichtfeld der Kamera in <i>Grad</i>. |
@@ -87,22 +87,22 @@ Das Volume wird innerhalb der Grenzen eines *Einheitscube* dargestellt. Die Bele
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-02.jpg" />
+            <img src="../../../../../../assets/3dtexturevolumerender-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-03.jpg" />
+            <img src="../../../../../../assets/3dtexturevolumerender-variant5.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-04.jpg" />
+            <img src="../../../../../../assets/3dtexturevolumerender-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-05.jpg" />
+            <img src="../../../../../../assets/3dtexturevolumerender-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-06.jpg" />
+            <img src="../../../../../../assets/3dtexturevolumerender-variant4.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-07.png" />
+            <img src="../../../../../../assets/3dtexturevolumerender-node.png" />
         </td>
     </tr>
 </table>

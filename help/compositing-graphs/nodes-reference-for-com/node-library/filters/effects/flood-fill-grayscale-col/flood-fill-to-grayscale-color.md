@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flood Fill zu GraustufenFarbe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](flood-fill-to-grayscale-color.resources/flood-fill-to-grayscale-color-01.png){width="128px"}
+![](../../../../../../assets/floodfill-to-grayscale.png){width="128px"}
 
-![](flood-fill-to-grayscale-color.resources/flood-fill-to-grayscale-color-02.png){width="128px"}
+![](../../../../../../assets/floodfill-to-color.png){width="128px"}
 
 <b>In:</b> Filters > Effects
 
@@ -35,7 +35,7 @@ ht-degree: 4%
 
 ## Beschreibung
 
-Verwendet Flood Fill-Daten, um Graustufen- oder Farbwertfelder zu generieren. Im Gegensatz zu [Flood Fill zu zufälligem Graustufen](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-gra/flood-fill-to-random-grayscale.md) ermöglichen diese beiden Knoten mehr Kontrolle über das Festlegen der exakten Variation und Farbtöne, mit einer zusätzlichen Eingabe-Map, um den Basiswert zu bestimmen, der pro Zelle zufällig zugewiesen werden soll.
+Verwendet Flood Fill-Daten, um Graustufen- oder Farbwertfelder zu generieren. Im Gegensatz zu [Flood Fill zu zufälligem Graustufen](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-gra/flood-fill-to-random-grayscale.md) ermöglichen diese beiden Knoten mehr Kontrolle über das Festlegen der exakten Variation und Farbtöne sowie eine zusätzliche Eingabezuordnung, um den Basiswert zu bestimmen, der auf Zellbasis zufällig zugewiesen werden soll.
 
 Es ist ein leistungsstarkes System, um jeder Zelle einen eindeutigen Wert oder eine Farbe zu geben, aber dennoch die Kontrolle zu behalten und sie auf einer vorbestimmten Eingabe zu basieren.
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pixelprozessor
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Pixelprozessor](../../../../assets/comp_pixelprocessor_1.png "Atomknoten: Pixelprozessor "){width="200px"}
+![Atomknoten: Pixelprozessor](pixel-processor.resources/comp_pixelprocessor_1.png "Atomknoten: Pixelprozessor "){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -103,7 +103,7 @@ Für alle, die es gewohnt sind, [Shader](../../../../glossary/glossary.md)-Funkt
 | --- | --- |
 | <b>Eingabebild #</b> *Graustufen/Farbe* | Verwenden Sie einen [Beispielfarbe](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md)- oder [Beispielgrau](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md)-Knoten, um auf die Werte in der Eingabe des angegebenen Index zuzugreifen. |
 
-## Ausgangsanschlüsse
+## Ausgabe-Verbindungen
 
 |  |  |
 | --- | --- |

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline-Beispiel-Thickness
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](spline-sample-thickness.resources/spline-sample-thickness-01.png "Knotensymbol")
+![Knotensymbol](../../../../../../assets/spline-sample-thickness-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -70,9 +70,9 @@ Der Effekt der zugeordneten Height-Map kann angepasst werden, indem die Füllmet
 
 |  |  |
 |:---|:---|
-| <b>Sampling-Modus</b> <i>Ganzzahl</i> | Die Methode zum Zuordnen der Werte auf der Dicken-Map zu den Splines:<br>- <i>Texturen-Leerzeichen</i>: Die Werte werden auf die Splines angewendet, wo sie sich befinden würden, wenn sie in einer Textur unter Verwendung der UV-Koordinaten der Textur platziert würden. Dadurch wird der Wert effektiv auf die Splines &quot;in place&quot;;<br>- <i>Horizontal entlang Spline</i> angewendet: Die Werte werden direkt auf die Koordinaten der codierten Splines angewendet (siehe Spline-Koordinateneingabe), wobei jede Zeile auf einen anderen Spline von oben nach unten angewendet wird;<br>- <i>Hor. entlang der Spline (Rand). Versatz X)</i>: Die Werte werden direkt auf die Koordinaten der codierten Splines angewendet (siehe Spline-Coords-Eingabe), mit einem zufälligen horizontalen Versatz in der Skalierungszuordnung für jeden Spline (d. h. jede Zeile in Spline-Coords);<br>- <i>Hor. entlang der Spline (Rand). Offset Y)</i>: Die Werte werden direkt auf die Koordinaten der codierten Spline-Linien angewendet (siehe Spline-Koordinateneingabe), wobei für jeden Spline (d. h. jede Zeile in Spline-Koordinaten) ein zufälliger vertikaler Versatz in der Skalierungszuordnung angezeigt wird. |
+| <b>Sampling-Modus</b> <i>Integer</i> | Die Methode zum Zuordnen der Werte auf der Dicken-Map zu den Splines:<br>- <i>Texturen-Leerzeichen</i>: Die Werte werden auf die Splines angewendet, wenn sie in einer Textur unter Verwendung der UV-Koordinaten der Textur platziert würden. Dadurch wird der Wert effektiv auf die Splines &quot;in place&quot;;<br>- <i>Horizontal entlang Spline</i> angewendet: Die Werte werden direkt auf die Koordinaten der codierten Splines angewendet (siehe Spline-Koordinateneingabe), wobei jede Zeile auf einen anderen Spline von oben nach unten angewendet wird;<br>- <i>Hor. entlang der Spline (Rand). Versatz X)</i>: Die Werte werden direkt auf die Koordinaten der codierten Splines angewendet (siehe Spline-Coords-Eingabe), mit einem zufälligen horizontalen Versatz in der Skalierungszuordnung für jeden Spline (d. h. jede Zeile in Spline-Coords);<br>- <i>Hor. entlang der Spline (Rand). Offset Y)</i>: Die Werte werden direkt auf die Koordinaten der codierten Spline-Linien angewendet (siehe Spline-Koordinateneingabe), wobei für jeden Spline (d. h. jede Zeile in Spline-Koordinaten) ein zufälliger vertikaler Versatz in der Skalierungszuordnung angezeigt wird. |
 | <b>Deckkraft</b> <i>Gleitend</i> | Ein Multiplikator für die Intensität des Beitrags des Dicken-Map-Eingangs zur Thickness des Splines. |
-| <b>Füllmethode</b> <i>Ganzzahl</i> | Die Methode zum Mischen der Daten der Dicken-Map mit der <span id="_Hlk135820484"></span>-Thickness des Eingabesplines:<br>- <i>Kopieren</i>: Die Thickness des Splines mit den Höhen-Map-Werten überschreiben;<br>- <i>Hinzufügen</i>: Fügen Sie die Dicken-Map-Werte zur Thickness des Splines hinzu;<br>- <i>Subtrahieren</i>: Subtrahieren der Dicken-Map-Werte auf die Thickness des Splines;<br>- <i>Multiplizieren</i>: Multiplizieren Sie die Dicken-Map-Werte mit der Thickness des Splines. |
+| <b>Füllmethode</b> <i>Integer</i> | Die Methode zum Mischen der Daten der Dicken-Map mit der <span id="_Hlk135820484"></span>-Thickness des Eingabesplines:<br>- <i>Kopieren</i>: Die Thickness des Splines mit den Höhen-Map-Werten überschreiben;<br>- <i>Hinzufügen</i>: Fügen Sie die Dicken-Map-Werte zur Thickness des Splines hinzu;<br>- <i>Subtrahieren</i>: Subtrahieren der Dicken-Map-Werte auf die Thickness des Splines;<br>- <i>Multiplizieren</i>: Multiplizieren Sie die Dicken-Map-Werte mit der Thickness des Splines. |
 | <b>Vorschau</b> |  |
 | <b>Segmentierungsbetrag</b> <i>Integer</i> | Passt die Anzahl der Segmente an, die zum Zeichnen der Spline-Visualisierung in der Vorschauausgabe verwendet werden.<br>Ein höherer Wert führt zu einer glatteren Linie. |
 | <b>Richtungshelfer anzeigen</b> <i>Boolescher Wert</i> | Zeigt einen Punkt am Anfang des Splines und eine Pfeilspitze an seinem Ende in der Vorschauausgabe an. |
@@ -88,11 +88,11 @@ Der Effekt der zugeordneten Height-Map kann angepasst werden, indem die Füllmet
 <table>
   <tr>
     <td>
-      <img src="spline-sample-thickness.resources/spline-sample-thickness-02.jpg" alt="SplineSampleThickness-Variant1-Before">
+      <img src="../../../../../../assets/SplineSampleThickness-Variant1-Before.jpg" alt="SplineSampleThickness-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="spline-sample-thickness.resources/spline-sample-thickness-03.jpg" alt="SplineSampleThickness-Variant1-After">
+      <img src="../../../../../../assets/SplineSampleThickness-Variant1-After.jpg" alt="SplineSampleThickness-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -104,11 +104,11 @@ Der Effekt der zugeordneten Height-Map kann angepasst werden, indem die Füllmet
 <table>
   <tr>
     <td>
-      <img src="spline-sample-thickness.resources/spline-sample-thickness-04.jpg" alt="SplineSampleThickness-Variant2-Before">
+      <img src="../../../../../../assets/SplineSampleThickness-Variant2-Before.jpg" alt="SplineSampleThickness-Variant2-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="spline-sample-thickness.resources/spline-sample-thickness-05.jpg" alt="SplineSampleThickness-Variant2-After">
+      <img src="../../../../../../assets/SplineSampleThickness-Variant2-After.jpg" alt="SplineSampleThickness-Variant2-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -122,12 +122,12 @@ Der Effekt der zugeordneten Height-Map kann angepasst werden, indem die Füllmet
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](spline-sample-thickness.resources/spline-sample-thickness-06.jpg "Knotenbeispiel 1")
+![Knotenbeispiel 1](../../../../../../assets/SplineSampleThickness-Variant1-After1.jpg "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](spline-sample-thickness.resources/spline-sample-thickness-07.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](../../../../../../assets/SplineSampleThickness-Demo.gif "Knotenbeispiel 2")
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Verlaufsumsetzung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Verlaufsumsetzung](../../../../assets/comp_gradient_1.png "Atomknoten: Verlaufsumsetzung"){width="200px"}
+![Atomknoten: Verlaufsumsetzung](gradient-map.resources/comp_gradient_1.png "Atomknoten: Verlaufsumsetzung"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,7 +78,7 @@ Sie kann auf folgende Weise aus den <b>Eigenschaften</b> des Verlaufsumsetzungs-
 * Klicken Sie auf der Schaltfläche <b>Verlaufseditor</b> auf LMB.
 * Doppelklicken Sie auf LMB auf einem Pin in der Verlaufsleiste. Der angeklickte Pin wird dann automatisch im Verlaufseditor ausgewählt, sodass Sie seine Werte direkt bearbeiten können.
 
-![Verlaufseditor](../../../../assets/image2017-2-17-16-13-5.png "Verlaufseditor")
+![Verlaufseditor](gradient-map.resources/image2017-2-17-16-13-5.png "Verlaufseditor")
 
 ### Bearbeiten der Verlaufspunkte
 
@@ -88,7 +88,7 @@ Jeder Pin legt eine Farbe an seiner Position entlang des Verlaufs fest.
 
 Die Abschnitte des Verlaufs vor und nach dem ersten bzw. letzten Pin werden auf die Farben dieses Pins festgelegt.
 
-![Verlaufseditor - Verlaufsansicht](../../../../assets/image2017-2-17-17-27-46.png "Verlaufseditor - Verlaufsansicht")
+![Verlaufseditor - Verlaufsansicht](gradient-map.resources/image2017-2-17-17-27-46.png "Verlaufseditor - Verlaufsansicht")
 
 Die folgenden Steuerelemente sind zum Bearbeiten von Pins verfügbar:
 
@@ -105,7 +105,7 @@ Der neue Pin wird an dieser Position auf die Farbe des Verlaufs gesetzt.
 </td>
 <td style="border: 0;" valign="top">
 
-![Verlaufseditor - Pin hinzufügen](../../../../assets/move-pin.gif "Verlaufseditor - Pin hinzufügen")
+![Verlaufseditor - Pin hinzufügen](gradient-map.resources/move-pin.gif "Verlaufseditor - Pin hinzufügen")
 
 </td>
 </tr>
@@ -121,12 +121,12 @@ Halten Sie LMB gedrückt und ziehen Sie die ausgewählten Pins entlang der Verla
 
 Sie können auch die Position eines Pins mit einem numerischen Wert festlegen, indem Sie ihn auswählen und den Parameter <b>Position</b> verwenden. Die Position ist ein Wert im Bereich [0;1], wobei 0 der Anfang des Farbverlaufs und 1 sein Ende ist.
 
-![Verlaufseditor - Pin-Positionsparameter](../../../../assets/image2015-8-27-13-56-2.png "Verlaufseditor - Pin-Positionsparameter")
+![Verlaufseditor - Pin-Positionsparameter](gradient-map.resources/image2015-8-27-13-56-2.png "Verlaufseditor - Pin-Positionsparameter")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Verlaufseditor - Pin verschieben](../../../../assets/movepin2.gif "Verlaufseditor - Pin verschieben")
+![Verlaufseditor - Pin verschieben](gradient-map.resources/movepin2.gif "Verlaufseditor - Pin verschieben")
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ Wählen Sie die Pins aus und drücken Sie die Entf-Taste oder ziehen Sie die Pin
 </td>
 <td style="border: 0;" valign="top">
 
-![Verlaufseditor - Pin löschen](../../../../assets/removepin.gif "Verlaufseditor - Pin löschen")
+![Verlaufseditor - Pin löschen](gradient-map.resources/removepin.gif "Verlaufseditor - Pin löschen")
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ Spiegelt die Positionen der ausgewählten Pins im Verlauf.
 </td>
 <td style="border: 0;" valign="top">
 
-![Verlaufseditor: Umkehren von Positionen](../../../../assets/invert.gif "Verlaufseditor: Positionen umkehren")
+![Verlaufseditor: Umkehren von Positionen](gradient-map.resources/invert.gif "Verlaufseditor: Positionen umkehren")
 
 </td>
 </tr>
@@ -182,7 +182,7 @@ Entfernt alle Pins aus dem Verlaufsbalken.
 </td>
 <td style="border: 0;" valign="top">
 
-![Verlaufseditor - Alle löschen](../../../../assets/remove.gif "Verlaufseditor - Alle löschen")
+![Verlaufseditor - Alle löschen](gradient-map.resources/remove.gif "Verlaufseditor - Alle löschen")
 
 </td>
 </tr>
@@ -190,27 +190,27 @@ Entfernt alle Pins aus dem Verlaufsbalken.
 
 <b>Farben umkehren</b>
 
-Mit dieser Schaltfläche werden die Farben der ausgewählten Nadeln auf ein Negativ gesetzt.
+Mit dieser Schaltfläche werden die Farben der ausgewählten Pins auf ein Negativ gesetzt.
 
 <b>Sättigung verringern</b>
 
-Durch Klicken auf diese Schaltfläche wird die Sättigung der Farben reduziert, die für die ausgewählten Nadeln festgelegt wurden.
+Diese Schaltfläche reduziert die Sättigung der Farben, die auf den ausgewählten Pins gesetzt wurden.
 
 ### Interpolationsmodi
 
-Sobald die Nadeln eingerichtet sind, können Sie mit den verfügbaren Interpolationsmodi steuern, wie Farben von einer Nadel zur nächsten übergehen:
+Sobald die Pins eingerichtet sind, können Sie mithilfe der verfügbaren Interpolationsmodi steuern, wie Farben von einem Pin zum nächsten übergehen:
 
 +++Linear
-Standardinterpolationsmodus: wendet eine einfache lineare Interpolation zwischen den einzelnen Nadeln an, sodass der Verlauf gleichmäßig verläuft.
+Standardinterpolationsmodus: wendet eine einfache lineare Interpolation zwischen jedem Pin an, sodass der Verlauf gleichmäßig verläuft.
 
 +++
 
 +++Flache Tangenten
-Wenn Sie sich den Übergang zwischen Verläufen als Bézier-Kurven vorstellen, bei denen Nadeln Kurvenpunkte sind, legt dieser Modus für diese Punkte horizontale Tangenten fest.
+Wenn Sie sich den Übergang zwischen Verläufen als Bézier-Kurven vorstellen, bei denen Pins Punkte der Kurve sind, legt dieser Modus für diese Punkte horizontale Tangenten fest.
 
 Dies führt zu einem Übergang, der an eine stufenlose Interpolation erinnert.
 
-Wenn dieser Modus ausgewählt ist, ist der Parameter <b>Mittelpunkt</b> aktiviert, mit dem Sie die horizontale Position des vertikalen Mittelpunkts der Kurve zwischen den Punkten versetzen können. Dadurch wird die Skala zwischen der Out- und In-Tangente effektiv geändert.
+Wenn dieser Modus ausgewählt ist, ist der Parameter <b>Mittelpunkt</b> aktiviert, mit dem Sie die horizontale Position des vertikalen Mittelpunkts der Kurve zwischen den Punkten versetzen können. Dadurch wird die Skala zwischen der &quot;Aus&quot;- und der &quot;In&quot;-Tangente effektiv getippt.
 
 +++
 
@@ -222,15 +222,15 @@ Wenn dieser Modus aktiviert ist, ist der Parameter <b>Smoothness</b> aktiviert. 
 +++
 
 +++Keine Interpolation
-Die Farbe ändert sich nur an der Position einer Nadel und bleibt bis zur nächsten Nadel entlang des Verlaufsbalkens konstant.
+Die Farbe ändert sich nur an der Position der Pins und bleibt bis zum nächsten Pin entlang des Verlaufsbalkens konstant.
 
-Dies führt zu sehr intensiven Farbübergängen, sodass nur die von den Nadeln festgelegten Farben auf dem Verlauf vorhanden sind.
+Dies führt zu harten Schritten zwischen den Farben, und nur die von den Pins festgelegten Farben sind auf dem Verlauf vorhanden.
 
 +++
 
 ### Farbwähler
 
-![Verlaufseditor - Farbwähler](../../../../assets/image2017-2-17-18-21-29.png "Verlaufseditor - Farbwähler")
+![Verlaufseditor - Farbwähler](gradient-map.resources/image2017-2-17-18-21-29.png "Verlaufseditor - Farbwähler")
 
 Mit dem Farbwähler können Sie eine Farbe auf verschiedene Weise festlegen:
 
@@ -245,7 +245,7 @@ Mit dem Farbwähler können Sie eine Farbe auf verschiedene Weise festlegen:
   </td>
   <td style="border: 0;" valign="top">
 
-  ![Farbwähler - Farbverlaufsbereich und Farbtonleiste](../../../../assets/colorpalette.gif "Farbwähler - Farbverlaufsbereich und Farbtonleiste")
+  ![Farbwähler - Farbverlaufsbereich und Farbtonleiste](gradient-map.resources/colorpalette.gif "Farbwähler - Farbverlaufsbereich und Farbtonleiste")
 
   </td>
   </tr>
@@ -264,7 +264,7 @@ Mit dem Farbwähler können Sie eine Farbe auf verschiedene Weise festlegen:
   </td>
   <td width="33.33%" style="border: 0;" valign="top">
 
-  ![Farbwähler - RGB-, HSV- und Alpha-Schieberegler](../../../../assets/image2017-2-17-18-31-41.png "Farbwähler - RGB-, HSV- und Alpha-Schieberegler")
+  ![Farbwähler - RGB-, HSV- und Alpha-Schieberegler](gradient-map.resources/image2017-2-17-18-31-41.png "Farbwähler - RGB-, HSV- und Alpha-Schieberegler")
 
   </td>
   </tr>
@@ -281,7 +281,7 @@ Mit dem Farbwähler können Sie eine Farbe auf verschiedene Weise festlegen:
   </td>
   <td style="border: 0;" valign="top">
 
-  ![Farbwähler - Auf Bildschirm auswählen](../../../../assets/pick.gif "Farbwähler - Auf Bildschirm auswählen")
+  ![Farbwähler - Auf Bildschirm auswählen](gradient-map.resources/pick.gif "Farbwähler - Auf Bildschirm auswählen")
 
   </td>
   </tr>
@@ -297,7 +297,7 @@ In der unteren Hälfte wird die zuvor verwendete Farbe angezeigt. Doppelklicken 
 </td>
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Farbwähler - Farbe zurücksetzen](../../../../assets/image2015-8-27-14-40-39.png "Farbwähler - Farbe zurücksetzen")
+![Farbwähler - Farbe zurücksetzen](gradient-map.resources/image2015-8-27-14-40-39.png "Farbwähler - Farbe zurücksetzen")
 
 </td>
 </tr>
@@ -326,7 +326,7 @@ Darüber hinaus stehen die folgenden Funktionen unter der Farbminiatur als Schal
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Farbwähler - Schaltflächen](../../../../assets/invert2.gif "Farbwähler - Schaltflächen")
+![Farbwähler - Schaltflächen](gradient-map.resources/invert2.gif "Farbwähler - Schaltflächen")
 
 </td>
 </tr>
@@ -336,7 +336,7 @@ Darüber hinaus stehen die folgenden Funktionen unter der Farbminiatur als Schal
 
 Die Verlaufs-Pipette ist eine der nützlichsten Funktionen dieses Knotens, da Sie komplexe Verläufe erstellen können, indem Sie einfach eine Linie auf einem Referenzbild zeichnen.
 
-![Verlaufseditor - Verlaufsauswahl](../../../../assets/pickgradient.gif "Verlaufseditor - Verlaufsauswahl")
+![Verlaufseditor - Verlaufsauswahl](gradient-map.resources/pickgradient.gif "Verlaufseditor - Verlaufsauswahl")
 
 Der Regler <b>Genauigkeit</b> hilft Ihnen beim Anpassen des neu erstellten Verlaufs, indem Sie die Anzahl der Tasten erhöhen oder verringern: Je niedriger die Werte sind, desto präziser stimmt der Verlauf mit den ausgewählten Werten überein.
 

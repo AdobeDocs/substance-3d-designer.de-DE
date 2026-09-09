@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Diagrammerstellung-Etikette
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 583588c4e12e3d0857c2b16200945e36ea523151
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Knotenelemente sind Knotenobjekte, die neben und um die Graf in [der Graphansich
 
 Die wichtigste Sache, die zu saubereren, leichter lesbaren Grafen führt, ist die Platzierung von Rahmen um Kerngruppen Ihres Grafen. Ohne Rahmen ist ein großer Graf fast unlesbar, und selbst kleine Grafen werden viel leichter verständlich, sobald man Rahmen zeichnet. Ein großer Vorteil von Rahmen besteht darin, dass ihre <b> Namen immer in der gleichen Skalierung gerendert werden</b>, auch wenn Sie sehr weit auszoomen.
 
-![Rahmen in Substance-Grafen](../../assets/frames.gif "Rahmen in Substance-Grafen")
+![Rahmen in Substance-Grafen](graph-creation-etiquette.resources/frames.gif "Rahmen in Substance-Grafen")
 
 Rahmen machen es viel leichter zu verstehen, was in einem Graf vor sich geht. Sie können Ihnen als Autor dabei helfen, Monate später auf Ihre Arbeit zurückzukommen, oder einem anderen Nutzer, z. B. einer Kollegin, bei der Suche nach einem Graf, an den sie nicht gewöhnt sind.
 
@@ -57,7 +57,7 @@ Kommentare und Nadeln sind für Rahmen nur nebensächlich und für gut verfasste
 
 Die Ein- und Ausgänge müssen an den äußersten Enden der Diagramme platziert werden: Alle Ausgänge auf der rechten Seite, alle Eingänge auf der linken Seite, jeder vertikal ausgerichtet. Dadurch lassen sie sich leichter finden und identifizieren.
 
-![Eingabe- und Ausgabeplatzierung](../../assets/inout.gif "Eingabe- und Ausgabeplatzierung")
+![Eingabe- und Ausgabeplatzierung](graph-creation-etiquette.resources/inout.gif "Eingabe- und Ausgabeplatzierung")
 
 Das obige Beispiel ist ein Extremfall: Frames werden nicht immer benötigt oder möglich, aber es sollte klar sein, dass die vertikale Ausrichtung von In- und Output viel klarer ist als die zufällige, gemischte Platzierung.
 
@@ -65,7 +65,7 @@ Das obige Beispiel ist ein Extremfall: Frames werden nicht immer benötigt oder 
 
 Bei großen, sehr langen Diagrammen werden manchmal Verknüpfungen über einen sehr großen Bereich hinweg erstellt. Dies führt zu Verwirrung, wenn Verknüpfungsdrähte den Graph ohne viel Kontrolle durchqueren. Mit der Tastenkombination &quot;Alt + Umschalt + Ziehen&quot; können Sie diese Links neu organisieren und auf einem anderen Pfad umleiten, indem Sie einen Link unterteilen und einen zusätzlichen Handle in der Mitte hinzufügen. Es wird empfohlen, dies in Szenarien zu verwenden, in denen es sinnvoll ist.
 
-![Link-Umleitung](../../assets/linkjreroute.gif "Link-Umleitung")
+![Link-Umleitung](graph-creation-etiquette.resources/linkjreroute.gif "Link-Umleitung")
 
 ### Bezeichnung, Kennung und Verwendung
 
@@ -73,15 +73,15 @@ Alle Diagramme, die für die Freigabe oder Veröffentlichung bestimmt sind, soll
 
 Die vorgeschlagenen Standardbezeichnungen reichen nie aus. Nehmen Sie sich die Zeit und Mühe, den angezeigten Parametern und Ihren In- und Ausgaben benutzerdefinierte Bezeichnungen hinzuzufügen.
 
-![Bezeichner und Bezeichnung](../../assets/output-label.png "Bezeichner und Bezeichnung")
+![Bezeichner und Bezeichnung](graph-creation-etiquette.resources/output-label.png "Bezeichner und Bezeichnung")
 
 Versuchen Sie, keine Kennzeichnung zu haben, und die Beschriftung unterscheidet sich zu stark: Wenn der Bezeichner an einer anderen Stelle (in mehreren Funktionen) verwendet wird, kann es sehr schwierig sein, herauszufinden, welche UI-Eigenschaft mit welcher Variablen verknüpft ist.
 
-![Klarheit des Bezeichners](../../assets/labelvsidentifier.png "Klarheit des Bezeichners")
+![Klarheit des Bezeichners](graph-creation-etiquette.resources/labelvsidentifier.png "Klarheit des Bezeichners")
 
 Versuchen Sie, die Beschriftungen den Begriffen in Frames (Frame-Beschriftungen) und Kommentaren anzupassen. Es erleichtert, herauszufinden, welcher Abschnitt des Diagramms mit welchem exponierten Parameter verknüpft ist
 
-![Übereinstimmende Bild- und Parameterbezeichnungen](../../assets/match-labels.png "Übereinstimmende Bild- und Parameterbezeichnungen")
+![Übereinstimmende Bild- und Parameterbezeichnungen](graph-creation-etiquette.resources/match-labels.png "Übereinstimmende Bild- und Parameterbezeichnungen")
 
 ### Parametereinstellungen
 
@@ -103,7 +103,7 @@ Bei der Verwendung von Farb- und Graustufendaten ist große Sorgfalt erforderlic
 * Idealerweise werden Daten so lange wie möglich in Graustufen gespeichert und nur dann konvertiert, wenn sie unbedingt benötigt werden. Dies reduziert die Komplexität und spart Performance.
 * Die Ein- und Ausgaben sollten mit dem richtigen Typ erstellt oder eingerichtet werden: Es ist z. B. nicht sinnvoll, den &quot;mask&quot;-Eingang auf color festzulegen, wenn er zur Verwendung als binäre Maske in Graustufen konvertiert wird.
 
-![Farb- und Graustufenkonvertierungen](../../assets/colorgray01.png "Farb- und Graustufenkonvertierungen")
+![Farb- und Graustufenkonvertierungen](graph-creation-etiquette.resources/colorgray01.png "Farb- und Graustufenkonvertierungen")
 
 ### Auflösungssteuerung
 
@@ -112,5 +112,5 @@ Die Steuerung der Auflösung eines [Substance-Graphen](../../compositing-graphs/
 [Um dieses Thema vollständig zu verstehen, stellen Sie sicher, dass Sie über absolute und relative Ausgabegrößen Bescheid wissen.](../../compositing-graphs/output-size/output-size.md)
 
 * Ein Diagramm sollte in fast allen Fällen auf die Auflösung &quot;Relativ zu übergeordnetem Element&quot; eingestellt werden, es sei denn, es gibt eine sehr spezifische Ausnahme, in der es nicht erforderlich ist (sehr selten).
-* Knoten sollten im Allgemeinen keine Überschreibungseinstellungen für die Ausgabegröße haben. Die Auflösung lässt sich in den meisten Fällen am besten über die Eigenschaften &quot;Übergeordnet&quot; oder &quot;Graf&quot; steuern.
-* Bei Bitmaps sollte besonders darauf geachtet werden, dass die Standardeinstellung &quot;Absolute Ausgabegröße&quot; nicht über den gesamten Graf verteilt wird. Diese Einstellung sollte auf &quot;Relativ zum übergeordneten Element&quot; überschrieben werden. Dies ist eine der wenigen Ausnahmen von der oben genannten Regel.
+* Knoten sollten im Allgemeinen keine Überschreibungseinstellungen für die Ausgabegröße haben. Die Auflösung lässt sich in den meisten Fällen am besten über die Eigenschaften &quot;Übergeordnet&quot; oder &quot;Diagramm&quot; steuern.
+* Bei Bitmaps sollte besonders darauf geachtet werden, dass sich die Standardeinstellung &quot;Absolute Ausgabegröße&quot; nicht über den gesamten Graphen erstreckt. Diese Einstellung sollte auf &quot;Relativ zu übergeordnetem&quot; Wert überschrieben werden. Dies ist eine der wenigen Ausnahmen von der oben genannten Regel.

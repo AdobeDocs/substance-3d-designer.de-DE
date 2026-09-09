@@ -10,7 +10,7 @@ helpx_tags: ""
 title: RT-Schatten
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![RT Shadows-Knotensymbol](rt-shadow.resources/rt-shadow-01.png "RT Shadows-Knotensymbol")
+![RT Shadows-Knotensymbol](../../../../../../assets/rt-shadow.png "RT Shadows-Knotensymbol")
 
 <b>In:</b> Filters > Effects
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## Beschreibung
 
-Generiert Raytracing-Schatten von einer Höhen-Map-Eingabe.
+Generiert Raytraced Shadows aus einer Height-Map-Eingabe.
 
 Dieser Knoten sollte aufgrund der Berechnungszeit nicht in Kombination mit der CPU-Engine (SSE) verwendet werden.
 
@@ -47,30 +47,30 @@ Dieser Knoten sollte aufgrund der Berechnungszeit nicht in Kombination mit der C
 
 |  |  |
 |:---|:---|
-| <b>Beispiele</b> <i>Ganzzahl</i> | Die Anzahl der Strahlen, die zur Berechnung der Schatten verwendet werden.<br>Ein höherer Wert sorgt für ein glatteres und präziseres Ergebnis, und das auf Kosten der Leistung. |
+| <b>Beispiele</b> <i>Integer</i> | Die Anzahl der Strahlen, die zur Berechnung der Schatten verwendet werden.<br>Ein höherer Wert sorgt für ein glatteres und präziseres Ergebnis, und das auf Kosten der Leistung. |
 | <b>Modus</b> <i>Integer</i> | Die Methode zum Zeichnen der Schatten auf der Oberfläche. |
-| <b>Height-Skalierung</b> <i>Gleitend</i> | Ein Multiplikator für die Intensität der Eingabe-Höhen-Map. |
+| <b>Height-Skalierung</b> <i>Gleitend</i> | Ein Multiplikator für die Intensität der Eingabe-Height-Map. |
 | <b>Lichtposition</b> <i>Float2</i> | Die Position der Lichtquelle auf einer Kugel, die die Oberfläche umschließt: <br><br>- <b>X</b>: Horizontale Position in Windungszahl;<br>- <b>Y</b>: vertikale Position, wobei 0,5 der Zenit und 0/1 der Horizont sind. |
-| <b>Lichtintensität</b> <i>Fließkommazahl</i> | Die Intensität der Lichtquelle. |
-| <b>Lichtgröße</b> <i>Fließkommazahl2</i> | (Verfügbar, wenn <b>Modus</b> auf <i>Schattiert</i> festgelegt ist) Die Größe der Lichtquelle als Rechteck. |
+| <b>Lichtintensität</b> <i>Gleitend</i> | Die Intensität der Lichtquelle. |
+| <b>Lichtgröße</b> <i>Float2</i> | (Verfügbar, wenn <b>Modus</b> auf <i>Schattiert</i> festgelegt ist) Die Größe der Lichtquelle als Rechteck. |
 | <b>Lichtskala (weiche Schatten)</b> <i>Gleitend</i> | Ein Multiplikator für den Beitrag der <b>Lichtgröße</b> zur Richtung der Strahlen.<br>Ein höherer Wert führt zu weicheren Schatten. |
-| <b>Licht über Horizont halten</b> <i>Boolesche Wert</i> | Wenn <b>Lichtposition</b> so eingestellt ist, dass das Licht unter dem Horizont platziert wird, verhindert dieser Parameter, dass das Licht diesen Schwellenwert überschreitet, was bedeutet, dass die Y-Werte auf den Bereich [0;1] geklemmt werden. |
-| <b>Schattendeckkraft</b> <i>Fließkommazahl</i> | Ein Multiplikator für die Deckkraft von Schatten, die auf der Oberfläche gezeichnet werden. |
+| <b>Licht über Horizont halten</b> <i>Boolescher Wert</i> | Wenn <b>Lichtposition</b> so eingestellt ist, dass das Licht unter dem Horizont platziert wird, verhindert dieser Parameter, dass das Licht diesen Schwellenwert überschreitet, was bedeutet, dass die Y-Werte auf den Bereich [0;1] geklemmt werden. |
+| <b>Schattendeckkraft</b> <i>Gleitend</i> | Ein Multiplikator für die Deckkraft von Schatten, die auf der Oberfläche gezeichnet werden. |
 | <b>Schattendämpfung</b> <i>Gleitend</i> | Ein Multiplikator für die Dämpfung der Schatten, je weiter sie von ihrem Zauberer entfernt sind.<br>Ein Wert von 0 führt zu einheitlichen Schatten (weiche Schatten werden noch angewendet). |
-| <b>Max. Schattenlänge</b> <i>Fließkommazahl</i> | Die maximale Entfernung, die ein Schatten von seinem Zauberer gezeichnet werden kann.<br>Ein Wert von 0 führt zu keinen sichtbaren Schatten. |
+| <b>Max. Schattenlänge</b> <i>Gleitend</i> | Die maximale Entfernung, die ein Schatten von seinem Zauberer gezeichnet werden kann.<br>Ein Wert von 0 führt zu keinen sichtbaren Schatten. |
 
 ## Beispiele
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="rt-shadow.resources/rt-shadow-02.jpg" />
+            <img src="../../../../../../assets/RTShadows-01.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="rt-shadow.resources/rt-shadow-03.jpg" />
+            <img src="../../../../../../assets/RTShadows-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="rt-shadow.resources/rt-shadow-04.jpg" />
+            <img src="../../../../../../assets/RTShadows-03.jpg" />
         </td>
     </tr>
 </table>

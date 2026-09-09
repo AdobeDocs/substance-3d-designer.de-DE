@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Streuung Splines on Splines
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '2832'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Streuung-Splines auf Splines: Symbol &#x200B;](scatter-splines-on-splines.resources/scatter-splines-on-splines-01.png "Streuung-Splines auf Splines: Symbol ")
+![Streuung-Splines auf Splines: Symbol &#x200B;](../../../../../../assets/scatter-splines-on-splines-icon.png "Streuung-Splines auf Splines: Symbol ")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -54,7 +54,7 @@ Klicken Sie auf das Bild auf der rechten Seite, um auf unser <b>Tutorial </b> zu
 </td>
 <td style="border: 0;" valign="top">
 
-[![Video-Spline-Knoten](scatter-splines-on-splines.resources/scatter-splines-on-splines-02.png)](https://youtu.be/aUUWV1dYQdI)
+[![Video-Spline-Knoten](../../../../../../assets/video_spline.png)](https://youtu.be/aUUWV1dYQdI)
 
 </td>
 </tr>
@@ -67,9 +67,9 @@ Klicken Sie auf das Bild auf der rechten Seite, um auf unser <b>Tutorial </b> zu
 |  |  |
 |:---|:---|
 | <b>Vorschau</b> *Graustufen* | Die Vorschau der Eingabe-Splines als Graustufenbild. |
-| <b>Spline-Kabel</b> *Farbe* | Die Koordinaten der Punkte der übergeordneten Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind:  <b>R</b> - X-Position <b>G</b> - Y-Position <b>B</b> - Height <b>A</b> - Packed data:          - Signieren: Spline ist geschlossen (negativ) oder offen (positiv) - Absoluter Wert: THICKNESS + 1 |
+| <b>Spline-Kabel</b> *Farbe* | Die Koordinaten der Punkte der übergeordneten Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind:  <b>R</b> - X-Position <b>G</b> - Y-Position <b>B</b> - Height <b>A</b> - Packed data:          - Signieren: Spline ist geschlossen (negativ) oder offen (positiv) - Absolute Wert: THICKNESS + 1 |
 | <b>Spline-Daten</b> *Farbe* | Zusätzliche Daten der übergeordneten Splines, die in den RGBA-Kanälen eines Farbbilds codiert sind:  <b>R</b> - Tangenten X <b>G</b> - Tangenten Y <b>B</b> - Tangenten Z <b>A</b> - Nicht verwendet |
-| <b>Spline-Betrag</b> *Integer* | Die Anzahl der übergeordneten Splines. |
+| <b>Spline-Betrag</b> *Ganzzahl* | Die Anzahl der übergeordneten Splines. |
 | <b>Benutzerdefinierte Spline-Codes</b> *Farbe* | Die Koordinaten der Punkte der benutzerdefinierten Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind:  <b>R</b> - X-Position <b>G</b> - Y-Position <b>B</b> - Height <b>A</b> - Packed data:          - Signieren: Spline ist geschlossen (negativ) oder offen (positiv) - Absoluter Wert: THICKNESS + 1 |
 | <b>Benutzerdefinierte Spline-Daten</b> *Farbe* | Zusätzliche Daten zu den benutzerdefinierten Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind:  <b>R</b> - Tangenten X <b>G</b> - Tangenten Y <b>B</b> - Tangenten Z <b>A</b> - Nicht verwendet |
 | <b>Benutzerdefinierter Spline-Betrag</b> *Integer* | Die Anzahl der benutzerdefinierten Splines. |
@@ -106,13 +106,13 @@ Klicken Sie auf das Bild auf der rechten Seite, um auf unser <b>Tutorial </b> zu
 | <b>Links/Rechts zufälliger Link</b> *Boolescher Wert* | Steuert, ob die Splines auf jeder Seite des übergeordneten Splines die gleichen Werte verwenden sollen, wenn zufällige Drehung, zufällige Skalierung usw. verwendet werden. Mit anderen Worten:<br><br>- <i>Falsch:</i> Jeder Spline verwendet separate zufällige Werte<br>- <i>Wahr:</i> Beide Splines verwenden dieselben zufälligen Werte. |
 | <b>Spline-Pivot-Modus</b> *Integer* | Legt die Methode zum Platzieren des Drehpunkts für gestreute Splines fest, der sich auf die Drehung und Skalierung auswirkt.<br>Beachten Sie, dass der Drehpunkt *immer auf dem übergeordneten Spline* platziert ist und seine Steuerelemente sich auf den gestreuten Spline auswirken. Mit anderen Worten: Der Pivot bewegt sich nicht, sondern der gestreute Spline, der sich relativ dazu bewegt und skaliert.<br><br>- <b>Position entlang des Splines</b> Bewegen Sie den Pivot entlang des gestreuten Splines.<br>- <b>Absolute Position</b> Legen Sie eine beliebige Position für den Pivot fest. |
 | <b>Pivot-Position entlang Spline</b> *Gleitend* | Die normierte Position des Drehzapfens entlang der gestreuten Spline, wobei 0 sein Anfang und 1 sein Ende ist.<br>Beachten Sie, dass der Drehpunkt der *Richtung* des gestreuten Splines folgt und sich die Ausrichtung des Splines ändern kann, um die Position und Drehung des Drehpunkts relativ zum übergeordneten Spline beizubehalten. |
-| <b>Absolute Pivot-Position</b> *Float2* | Die Position im UV-Raum des Drehzapfens. |
+| <b>Absolute Pivot-Position</b> *Float2* | Die Position des Drehpunkts im UV-Raum. |
 | <b>Nicht-quadratische Korrektur</b> *Boolescher Wert* | Passen Sie die Splines-Positionen und die Thickness an, um die Form in nicht quadratischen Auflösungen beizubehalten.<br><i>Hinweis:</i> Bei der Verwendung von benutzerdefinierten Splines sollte der benutzerdefinierte Splines das *gleiche Bildverhältnis* wie die <b>Splines der Streuung auf Splines</b> verwenden. |
 | <b>Größe</b> |  |
 | <b>Spline-Skalierung</b> *Gleitend* | Ein globales Steuerelement für die Größe aller Splines, wobei 1 ihre volle Originalgröße ist.<br>Die Skalierung wird relativ auf den Pivot eines Splines angewendet. Die Pivot-Position kann mit dem Parameter <b>Spline Pivot</b> versetzt werden. |
 | <b>Spline-Skalierung zufällig</b> *Gleitend* | Wendet einen zufälligen Multiplikator bis zum angegebenen Wert an, um die Größe der Splines zu verringern. |
 | <b>Zuordnungseingabemultiplikator skalieren</b> *Gleitend* | Steuert die Intensität der <b>Skalierungszuordnung</b>-Eingabe. Diese Karte dient als Multiplikator für die aktuelle Größe der Muster.<br>Der Effekt dieser Karte wird mit den anderen Parametern in der Gruppe <b>Größe</b> kombiniert. |
-| <b>Sampling-Modus für Zuordnungseingabe skalieren</b> *Ganzzahl* | Die Methode zum Zuordnen der Werte in der <b>Skalierungszuordnung</b> zu den Splines:<br><br>- <b>Texturen-Leerzeichen</b> Die Werte werden auf die Splines angewendet, wo sie sich befinden würden, wenn sie in einer Textur unter Verwendung der UV-Koordinaten der Textur platziert würden. Dadurch wird der Wert effektiv auf die Splines &quot;in place&quot; <br>- <b>Horizontal entlang Spline </b> angewendet. Die Werte werden direkt auf die codierten Splines-Koordinaten angewendet (siehe <b>Spline-Koordinaten</b>-Eingabe), wobei jede Zeile auf einen anderen Spline von oben nach unten angewendet wird<br>- <b>Hor. entlang der Spline (Rand). offset X)</b> Die Werte werden direkt auf die Koordinaten der codierten Splines angewendet (siehe <b>Spline Coords</b> Eingabe), mit einem zufälligen horizontalen Versatz in der <b>Skalierungszuordnung</b> für jeden Spline (d. h. jede Zeile in <b>Spline Coords</b>)<br>- <b>Stunde. entlang der Spline (Rand). offset Y)</b> Die Werte werden direkt auf die Koordinaten der codierten Splines angewendet (siehe <b>Spline Coords</b> Eingabe), mit einem zufälligen vertikalen Versatz in der <b>Skalierungszuordnung</b> für jeden Spline (d. h. jede Zeile in <b>Spline Coords</b>) |
+| <b>Sampling-Modus für Zuordnungseingabe skalieren</b> *Integer* | Die Methode zum Zuordnen der Werte in der <b>Skalierungszuordnung</b> zu den Splines:<br><br>- <b>Texturen-Leerzeichen</b> Die Werte werden auf die Splines angewendet, wo sie sich befinden würden, wenn sie in einer Textur unter Verwendung der UV-Koordinaten der Textur platziert würden. Dadurch wird der Wert effektiv auf die Splines &quot;in place&quot; <br>- <b>Horizontal entlang Spline </b> angewendet. Die Werte werden direkt auf die codierten Splines-Koordinaten angewendet (siehe <b>Spline-Koordinaten</b>-Eingabe), wobei jede Zeile auf einen anderen Spline von oben nach unten angewendet wird<br>- <b>Hor. entlang der Spline (Rand). offset X)</b> Die Werte werden direkt auf die Koordinaten der codierten Splines angewendet (siehe <b>Spline Coords</b> Eingabe), mit einem zufälligen horizontalen Versatz in der <b>Skalierungszuordnung</b> für jeden Spline (d. h. jede Zeile in <b>Spline Coords</b>)<br>- <b>Stunde. entlang der Spline (Rand). offset Y)</b> Die Werte werden direkt auf die Koordinaten der codierten Splines angewendet (siehe <b>Spline Coords</b> Eingabe), mit einem zufälligen vertikalen Versatz in der <b>Skalierungszuordnung</b> für jeden Spline (d. h. jede Zeile in <b>Spline Coords</b>) |
 | <b>Dämpfung starten/beenden</b> *Float2* | Klammert bei der Skalierung der Splines den Abstand zwischen dem Mittelpunkt des Splines und seinen Werten <b>Anfang</b> und <b>Ende</b> ein.<br>Dies bedeutet, dass die Größe für Splines, die sich näher an den Enden eines Splines befinden, verringert wird. |
 | <b>Position</b> |  |
 | <b>Lokaler Offset</b> *Float2* | Wendet einen Versatz auf die Positionen der Splines entlang der Tangente des übergeordneten Splines (parallel) und der Senkrechten (senkrecht) an. |
@@ -153,8 +153,8 @@ Klicken Sie auf das Bild auf der rechten Seite, um auf unser <b>Tutorial </b> zu
 | <b>Richtungshelfer anzeigen</b> *Boolescher Wert* | Zeigt einen Punkt am Anfang des Splines und eine Pfeilspitze am Ende in der <b>Vorschau</b>-Ausgabe an. |
 | <b>Umschlag der Thickness anzeigen</b> *Boolescher Wert* | Zeigt an den Kanten der Spline-Thickness zusätzliche Linien an. |
 | <b>Thickness (px)</b> *Gleitend* | Passt die Thickness der Spline-Visualisierung in der <b>Vorschau</b>-Ausgabe in Pixel an. |
-| <b>Segmentierungsbetrag</b> *Ganzzahl* | Passt die Anzahl der Segmente an, die zum Zeichnen der Spline-Visualisierung in der <b>Vorschau</b>-Ausgabe verwendet werden. Je höher der Wert, desto glatter die Linie. |
-| <b>Hintergrundintensität</b> *Fließkommazahl* | Die Intensität der <b>Vorschau</b>-Eingabe in der <b>Vorschau</b>-Ausgabenvisualisierung. |
+| <b>Segmentierungsbetrag</b> *Integer* | Passt die Anzahl der Segmente an, die zum Zeichnen der Spline-Visualisierung in der <b>Vorschau</b>-Ausgabe verwendet werden. Je höher der Wert, desto glatter die Linie. |
+| <b>Hintergrundintensität</b> *Gleitend* | Die Intensität der <b>Vorschau</b>-Eingabe in der <b>Vorschau</b>-Ausgabenvisualisierung. |
 
 ## Beispiele
 
@@ -162,12 +162,12 @@ Klicken Sie auf das Bild auf der rechten Seite, um auf unser <b>Tutorial </b> zu
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Streuung-Splines auf Splines: Beispiel 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-03.png "Streuung-Splines auf Splines: Beispiel 1"){zoomable="yes"}
+![Streuung-Splines auf Splines: Beispiel 1](../../../../../../assets/scatter-splines-on-splines-example-1.png "Streuung-Splines auf Splines: Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Streuung-Splines auf Splines: Beispiel 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-04.png "Streuung-Splines auf Splines: Beispiel 1"){zoomable="yes"}
+![Streuung-Splines auf Splines: Beispiel 1](../../../../../../assets/scatter-splines-on-splines-example-2.png "Streuung-Splines auf Splines: Beispiel 1"){zoomable="yes"}
 
 </td>
 </tr>
@@ -177,12 +177,12 @@ Klicken Sie auf das Bild auf der rechten Seite, um auf unser <b>Tutorial </b> zu
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Streuung-Splines auf Splines: Beispiel 3](scatter-splines-on-splines.resources/scatter-splines-on-splines-05.png "Streuung-Splines auf Splines: Beispiel 3"){zoomable="yes"}
+![Streuung-Splines auf Splines: Beispiel 3](../../../../../../assets/scatter-splines-on-splines-example-4.png "Streuung-Splines auf Splines: Beispiel 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Streuung-Splines auf Splines: Beispiel 4](scatter-splines-on-splines.resources/scatter-splines-on-splines-06.png "Streuung-Splines auf Splines: Beispiel 4"){zoomable="yes"}
+![Streuung-Splines auf Splines: Beispiel 4](../../../../../../assets/scatter-splines-on-splines-example-3.png "Streuung-Splines auf Splines: Beispiel 4"){zoomable="yes"}
 
 </td>
 </tr>
@@ -194,15 +194,15 @@ Klicken Sie auf das Bild auf der rechten Seite, um auf unser <b>Tutorial </b> zu
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Streuung-Splines auf Splines: 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-07.png "Streuung-Splines auf Splines rendern: 1"){zoomable="yes"} rendern
+![Streuung-Splines auf Splines: 1](../../../../../../assets/scatter-splines-on-splines-demo-1.png "Streuung-Splines auf Splines rendern: 1"){zoomable="yes"} rendern
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Streuung-Splines auf Splines: 2](scatter-splines-on-splines.resources/scatter-splines-on-splines-08.png "Streuung-Splines auf Splines rendern: 2"){zoomable="yes"} rendern
+![Streuung-Splines auf Splines: 2](../../../../../../assets/scatter-splines-on-splines-demo-3.png "Streuung-Splines auf Splines rendern: 2"){zoomable="yes"} rendern
 
 </td>
 </tr>
 </table>
 
-![Streuung-Splines auf Splines: 3](scatter-splines-on-splines.resources/scatter-splines-on-splines-09.png "Streuung-Splines auf Splines rendern: 3"){zoomable="yes"} rendern
+![Streuung-Splines auf Splines: 3](../../../../../../assets/scatter-splines-on-splines-demo-2.png "Streuung-Splines auf Splines rendern: 3"){zoomable="yes"} rendern

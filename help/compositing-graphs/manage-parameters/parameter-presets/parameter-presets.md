@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Parametervorgaben
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 69056338cc47db71e0754c72495d33a2a3c36dea
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Parametervorgaben geben dem Benutzer die Möglichkeit, große Mengen vorkonfigur
 
 Es gibt zwei Möglichkeiten, Vorgaben zu speichern und zu laden. Beide bieten unterschiedliche Anwendungsfälle, die nachfolgend beschrieben werden.
 
-![Dropdown-Menü &quot;Vorgabe laden/speichern&quot;](../../../assets/preset-menu.gif "Dropdown-Menü &quot;Vorgabe laden/speichern&quot;"){width="512px"}
+![Dropdown-Menü &quot;Vorgabe laden/speichern&quot;](parameter-presets.resources/preset-menu.gif "Dropdown-Menü &quot;Vorgabe laden/speichern&quot;"){width="512px"}
 
 ## Externe Vorgaben
 
@@ -38,7 +38,7 @@ Sie werden einfach gespeichert und über dieses Menü geladen. Die gespeicherten
 >
 > Auch Teilübereinstimmungen funktionieren: Parameter, die in einem SBSPRS gespeichert sind, die auf dem geladenen Knoten nicht vorhanden sind, werden einfach ignoriert. Dies bedeutet, dass Sie Eigenschaften zwischen Knoten übertragen können, die meist ähnlich sind, [, wie die Farb- und Graustufenversion von Tile Sampler](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md)! Alle freigegebenen Parameter werden geladen. Die Zuordnung erfolgt für Bezeichner und Typ.
 
-![Bearbeitung eingebetteter Vorgaben](../../../assets/preset-embed.gif "Bearbeitung eingebetteter Vorgaben"){width="512px"}
+![Bearbeitung eingebetteter Vorgaben](parameter-presets.resources/preset-embed.gif "Bearbeitung eingebetteter Vorgaben"){width="512px"}
 
 ## Eingebettete Vorgaben
 

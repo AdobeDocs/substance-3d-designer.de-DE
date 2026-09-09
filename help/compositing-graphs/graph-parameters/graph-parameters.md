@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/graph-parameters.html"
 breadcrumb-title: ''
-description: Erfahre, wie du in Substance 3D Designer Parameter für Diagramme erstellst und verwaltest, um Materialeigenschaften und -verhalten zu steuern.
+description: Erfahren Sie, wie Sie in Substance 3D Designer Graf-Parameter erstellen und verwalten, um Material-Eigenschaften und -Verhaltensweisen zu steuern.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Graph parameters
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Graphenparameter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 1%
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 # Graphenparameter
 
-Auf dieser Seite werden die Standardparameter für das <b>Substance-Diagramm </b> beschrieben.
+Auf dieser Seite werden die Standardparameter für den <b>Substance-Graf </b> beschrieben.
 
-Ein Diagramm verfügt über mehrere Parameter, die Sie ändern können. Sie können sie suchen, indem Sie entweder auf *Leerraum* im Diagramm klicken oder das *Diagrammelement* im Bereich <b>Explorer</b> auswählen. Die Parameter werden dann in der Parameteransicht angezeigt.
+Ein Graf verfügt über mehrere Parameter, die Sie ändern können. Sie können sie entweder durch Klicken auf *Leerraum* im Graf oder durch Auswählen des *Graf-Elements* im Bereich <b>Explorer</b> suchen. Die Parameter werden dann in der Parameteransicht angezeigt.
 
 <a name="base-parameters"></a>
 
@@ -34,30 +34,30 @@ Ein Diagramm verfügt über mehrere Parameter, die Sie ändern können. Sie kön
 
 Dieser Abschnitt enthält Parameter, die Auswirkungen auf *alle darin enthaltenen Knoten haben*.
 
-Tatsächlich erhält jeder Knoten in diesem Diagramm, für den die Basisparameter auf die [Vererbungsmethode &quot;Relativ zu übergeordnetem&quot; &#x200B;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) festgelegt sind, ihre Werte aus den *Basisparametern des Diagramms*.
+Jeder Graf in diesem Knoten, für den die Basisparameter auf die [&#128279;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)-Vererbung &quot;Relativ zum übergeordneten Element&quot;  festgelegt sind, erhält seine Werte aus den *Basisparametern des*-Grafen.
 
-Die Werte der Basisparameter des Diagramms hängen wiederum vom Kontext ab, in dem das Diagramm verwendet wird.
+Die Basisparameterwerte des Grafen hängen wiederum vom Kontext ab, in dem der Graf verwendet wird.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Basisparameter](../../assets/doc-graph-props-base-params.png "Basisparameter"){width="512px" zoomable="yes"}
+![Basisparameter](graph-parameters.resources/doc-graph-props-base-params.png "Basisparameter"){width="512px" zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-Wenn das Diagramm beispielsweise in einem anderen Diagramm als Instanzknoten verwendet wird, verwenden seine Basisparameter standardmäßig die Vererbungsmethode &quot;Relativ zur Eingabe&quot;. Dies bedeutet, dass sie ihre Werte vom Knoten erhalten, der mit seinem primären Eingang verbunden ist. (außer sie wurden [überschrieben](#input-parameters))
+Wenn der Graf beispielsweise in einem anderen Graf als Instanzknoten verwendet wird, verwenden seine Basisparameter standardmäßig die Methode &quot;Relativ zur Eingabe&quot;-Vererbung. Dies bedeutet, dass sie ihre Werte vom Knoten erhalten, der mit seinem primären Eingang verbunden ist. (außer sie wurden [überschrieben](#input-parameters))
 
-In den meisten Fällen spielt die Vererbung eine wichtige Rolle bei der Definition dieser Werte und bei der Art und Weise, wie sich diese Werte im gesamten Diagramm ändern. Es wird daher dringend empfohlen, vor Verwendung dieser Parameter ein gutes Verständnis von [Vererbung in Substance-Graphen](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) zu erwerben.
+In den meisten Fällen spielt die Vererbung eine wichtige Rolle bei der Definition dieser Werte und bei der Art und Weise, wie sich diese Werte im gesamten Graf ändern. Es wird daher dringend empfohlen, vor der Verwendung dieser Graf ein gutes Verständnis von [Vererbung in Substance-Parametern](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) zu erwerben.
 
 |                      |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |:---------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>Ausgabegröße</b> | Mit diesem Parameter können Sie die *Basisauflösung* von Bildern im Diagramm auswählen.  Verwenden Sie die <div><img data-preserve-html="true" height="22" src="../../assets/props-output-size-lock.jpg"/></div> Sperrschaltfläche, damit die Höhen- und Breitenwerte übereinstimmen und das Bild quadratisch bleibt, wenn Größenanpassungen vorgenommen werden.<br><br>*Standard: (0,0) - Relativ zu übergeordnetem* [Weitere Informationen](../../compositing-graphs/output-size/output-size.md) |
-| <b>Ausgabeformat</b> | Ermöglicht die Auswahl von *base Bittiefe* im Diagramm aus den folgenden Optionen:<ul data-preserve-html="true"><li data-preserve-html="true">8 Bit</li><li data-preserve-html="true">16 Bit</li><li data-preserve-html="true">HDR Low Precision 16F (16-Bit-Gleitkomma)</li><li data-preserve-html="true">HDR High Precision 32F (32-Bit-Gleitkomma)</li></ul>*Standard: 8 Bit pro Kanal - relativ zum übergeordneten Element* |
+| <b>Ausgabegröße</b> | Mit diesem Parameter können Sie die *Basisauflösung* von Bildern im Graf auswählen.  Verwenden Sie die <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/props-output-size-lock.jpg"/></div> Sperrschaltfläche, damit die Höhen- und Breitenwerte übereinstimmen und das Bild quadratisch bleibt, wenn Größenanpassungen vorgenommen werden.<br><br>*Standard: (0,0) - Relativ zum übergeordneten Element* [Weitere Informationen](../../compositing-graphs/output-size/output-size.md) |
+| <b>Ausgabeformat</b> | Ermöglicht die Auswahl von *base Bittiefe* im Graf aus den folgenden Optionen:<ul data-preserve-html="true"><li data-preserve-html="true">8 Bit</li><li data-preserve-html="true">16 Bit</li><li data-preserve-html="true">HDR. Low Precision 16F (16-Bit-Gleitkomma)</li><li data-preserve-html="true">HDR. High Precision 32F (32-Bit-Gleitkomma)</li></ul>*Standard: 8 Bit pro Kanal - relativ zum übergeordneten Element* |
 | <b>Pixelgröße</b> | Definiert die Pixelgröße. Es wird empfohlen, die **Width**- und **Height**-Werte auf **1** festzulegen.*Standard: (1,1) - Relativ zu übergeordnetem* |
 | <b>Mustermodus</b> | Definiert den Basis-*Kachelmodus* im Diagramm anhand der folgenden Optionen:<ul data-preserve-html="true"> <li data-preserve-html="true">Kein Wiederholen</li> <li data-preserve-html="true">Horizontales Wiederholen</li> <li data-preserve-html="true">Vertikales Wiederholen</li> <li data-preserve-html="true">H+V Kacheln (d. h. horizontal und vertikal)</li> </ul>*Standard: H- und V-Kachelung - Relativ zu übergeordnetem Element* |
-| <b>Zufallswert</b> | Definiert die Basis *Zufallswert* für das Diagramm.  Verwenden Sie die <div><img data-preserve-html="true" height="22" src="../../assets/prop-randomise.jpg"/></div> Schaltfläche, um dem zufälligen Seed einen neuen zufälligen Wert zuzuweisen.<br><br>*Standard: 0 - Relativ zu übergeordnetem* |
+| <b>Zufallswert</b> | Definiert die Basis *Zufallswert* für das Diagramm.  Verwenden Sie die <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/prop-randomise.jpg"/></div> Schaltfläche, um dem zufälligen Seed einen neuen zufälligen Wert zuzuweisen.<br><br>*Standard: 0 - Relativ zu übergeordnetem* |
 
 <table>
 <tr style="border: 0;">
@@ -72,7 +72,7 @@ Der Abschnitt <b>Attribute</b> enthält *Metadaten* für das Diagramm, das Infor
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Graph-Attribute](../../assets/doc-graph-props-attributes.png "Graph-Attribute"){zoomable="yes"}
+![Graph-Attribute](graph-parameters.resources/doc-graph-props-attributes.png "Graph-Attribute"){zoomable="yes"}
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ Alle für das Diagramm spezifischen Parameter, einschließlich [verfügbar gemac
 </td>
 <td style="border: 0;" valign="top">
 
-![Eingabeparameter](../../assets/doc-graph-props-input-parameters.png "Eingabeparameter"){zoomable="yes"}
+![Eingabeparameter](graph-parameters.resources/doc-graph-props-input-parameters.png "Eingabeparameter"){zoomable="yes"}
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ Sie können die Reihenfolge der Elemente ändern, indem Sie ganz links auf den A
 </td>
 <td style="border: 0;" valign="top">
 
-![Eingaben](../../assets/doc-graph-props-inputs.png "Eingaben"){zoomable="yes"}
+![Eingaben](graph-parameters.resources/doc-graph-props-inputs.png "Eingaben"){zoomable="yes"}
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ Sie können die Reihenfolge der Elemente ändern, indem Sie ganz links auf den A
 </td>
 <td style="border: 0;" valign="top">
 
-![Ausgaben](../../assets/doc-graph-props-outputs.png "Ausgaben"){zoomable="yes"}
+![Ausgaben](graph-parameters.resources/doc-graph-props-outputs.png "Ausgaben"){zoomable="yes"}
 
 </td>
 </tr>

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Tonwertkorrektur", um Helligkeit, Kontrast und Farbtonbereich von Texturen für Farbkorrekturen und Verbesserungen anzupassen.
+description: Verwenden Sie den Knoten "Tonwertkorrektur", um Helligkeit, Kontrast und Tonwertbereich von Texturen für Farbkorrekturen und -verbesserungen anzupassen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Levels
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tonwertkorrektur
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Ebenen](../../../../assets/comp_levels_1.png "Atomknoten: Stufen"){width="200px"}
+![Elementare Knoten: Stufen](levels.resources/comp_levels_1.png "Elementare Knoten: Stufen"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,7 +37,7 @@ Mit dem Knoten &quot;Tonwertkorrektur&quot; können Sie die Tonwerte einer Einga
 </tr>
 </table>
 
-Er ist einer der wichtigsten und hilfreichsten Knoten in Substance 3D Designer und wird sehr oft verwendet, um Werte in einem Diagramm neu zuzuordnen und anzupassen, da er die präziseste und genaueste Schnittstelle für sich ändernde Werte bietet.
+Er ist einer der wichtigsten und nützlichsten Knoten in Substance 3D Designer und wird sehr oft verwendet, um Werte in einem Graf neu zuzuordnen und anzupassen, da er die genaueste und passende Schnittstelle für sich ändernde Werte bietet.
 
 Obwohl es sich um einen wichtigen Knoten handelt, kann die Schnittstelle in einigen Anwendungsfällen etwas umständlich sein. Überprüfen Sie daher [Auto Levels](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md), [Kontrast/Luminanz](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/contrast-luminosity/contrast-luminosity.md) und [Histogramm Scan](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) auf Alternativen.
 
@@ -76,9 +76,9 @@ Die hervorgehobene gelbe Schaltfläche schaltet die Schnittstelle zwischen den S
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](../../../../assets/levels-2-1.png)
+![](levels.resources/levels-2-1.png)
 
-![](../../../../assets/levels-1-1.png)
+![](levels.resources/levels-1-1.png)
 
 </td>
 </tr>
@@ -86,12 +86,12 @@ Die hervorgehobene gelbe Schaltfläche schaltet die Schnittstelle zwischen den S
 
 |  |  |
 | --- | --- |
-| <b>Ebene niedrig</b> *Gleitend/Gleitend4* | Definiert die niedrigen Lichtpegel des Eingabebilds. Ordnet die eingegebenen niedrigen Werte neu zu, um vollständig schwarz zu werden. |
-| <b>Ebene hoch</b> *Gleitend/Gleitend4* | Definiert die Lichtebenen des Eingabebilds.  Ordnet die eingegebenen hohen Werte neu zu, um vollständig weiß zu werden. |
-| <b>Ebene in der Mitte</b> *Gleitend/Gleitend4* | Definiert die Mitteltöne des Eingabebildes.  Ordnet die eingegebenen Mittelwerte neu zu, sodass sie mittelgrau sind. |
-| <b>Ebene niedrig</b> *Gleitend/Gleitend4* | Definiert die niedrigen Helligkeitsstufen des Ausgabebilds.  Klammert die Ausgabewerte für Schwarz, um den Grenzwert festzulegen. |
-| <b>Ebene hoch</b> *Gleitend/Gleitend4* | Definiert die Markierungsstufen des Ausgabebilds.  Beschränkt die Ausgabe Weißwerte, um Limit festzulegen. |
-| <b>Zwischenklemme</b> *Boolescher Wert* | Bestimmt, ob der transformieren Eingangswert vor der Berechnung des Ausgangspegels auf [0, 1] geklemmt wird. |
+| <b>Tiefen in Eingabebild</b> *Fließkommazahl/Fließkommazahl4* | Definiert die Schwachlichtlevel des Eingabebilds. Ordnet die eingegebenen niedrigen Werte neu zu, um vollständig schwarz zu werden. |
+| <b>Lichter in Eingabebild</b> *Fließkommazahl/Fließkommazahl4* | Definiert die Hervorhebungsstufen des Eingabebilds.  Ordnet die eingegebenen hohen Werte neu zu, um vollständig weiß zu werden. |
+| <b>Mitten in Eingabebild</b> *Fließkommazahl/Fließkommazahl4* | Definiert die Mitteltöne des Eingabebilds.  Ordnet die eingegebenen Mittelwerte neu zu, sodass sie mittelgrau sind. |
+| <b>Ebene niedrig</b> *Fließkommazahl/Fließkommazahl4* | Definiert die niedrigen Helligkeitsstufen des Ausgabebilds.  Beschränkt Schwarze Werte für die Ausgabe, um einen Grenzwert festzulegen. |
+| <b>Lichter in Ausgabebild</b> *Fließkommazahl/Fließkommazahl4* | Definiert die Markierungsstufen des Ausgabebilds.  Beschränkt die Ausgabe Weißwerte, um Limit festzulegen. |
+| <b>Zwischenklemme</b> *Boolesche Wert* | Bestimmt, ob der transformieren Eingangswert vor der Berechnung des Ausgangspegels auf [0, 1] geklemmt wird. |
 
 ## Benutzerhandbuch
 
@@ -101,7 +101,7 @@ Sehen Sie sich diese Videoübersicht über den Knoten &quot;Ebenen&quot; und sei
 
 In der Kopfzeile &quot;Spezifische Parameter&quot; finden Sie Schaltflächen, mit denen Sie auf praktische Funktionen des Histogramms zugreifen können:
 
-![Schnellzugriffe für Knoten auf Ebenen](../../../../assets/levels-2.png "Schnellzugriffe für Knoten auf Ebenen")
+![Schnellzugriffe für Knoten auf Ebenen](levels.resources/levels-2.png "Schnellzugriffe für Knoten auf Ebenen")
 
 <b>1 - Umkehren:</b> Tauscht die Werte der Parameter &quot;Level out low&quot; und &quot;Lichter in Ausgabebild&quot; aus.
 
@@ -113,7 +113,7 @@ In der Kopfzeile &quot;Spezifische Parameter&quot; finden Sie Schaltflächen, mi
 
 Der Histogramm-Editor ist für visuelle, schnelle Anpassungen gedacht, bei denen präzise Werte nicht wirklich benötigt werden und der leg von Parametern nicht von Bedeutung ist. Dies ist in der Regel der schnellste und einfachste Weg, mit Tonwertkorrektur zu arbeiten.
 
-![](../../../../assets/levels-histo.gif)
+![](levels.resources/levels-histo.gif)
 
 Abhängig vom Eingabetyp (Farbe oder Graustufen) können Sie in der Dropdown-Liste über dem Histogramm auswählen, welchen Kanal Sie ändern möchten.
 
@@ -123,13 +123,13 @@ Der Schieberegler-Editor verzichtet auf jeden visuellen Editor und stellt nur nu
 
 Die Schieberegler ändern sich je nach Farb- oder Graustufeneingabe: Farbeingaben erzeugen vier Regler für jeden RGBA-Kanal. Graustufen verfügt nur über einen Regler, was die Arbeit erleichtert. Eine Erklärung zu jedem Regler finden Sie oben in der Parameterliste.
 
-## Eingangsanschlüsse
+## Eingabe-Verbindungen
 
 |  |  |
 | --- | --- |
 | <b>Eingabe</b> *Graustufen/Farbe* PRIMÄR | Das zu verarbeitende Bild. |
 
-## Ausgangsanschlüsse
+## Ausgabe-Verbindungen
 
 |  |  |
 | --- | --- |

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: UV-Mapper-Farbe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](uv-mapper-color.resources/uv-mapper-color-01.png "Knotensymbol")
+![Knotensymbol](../../../../../../assets/uv-mapper-color-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -77,11 +77,11 @@ Ordnet das Eingabefarbbild anhand der Koordinaten zu, die in der UV-Eingabe ange
 <table>
   <tr>
     <td>
-      <img src="uv-mapper-color.resources/uv-mapper-color-02.jpg" alt="UVMapper-Variant1-Before">
+      <img src="../../../../../../assets/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="uv-mapper-color.resources/uv-mapper-color-03.jpg" alt="UVMapper-Variant1-After">
+      <img src="../../../../../../assets/UVMapper-Variant1-After.jpg" alt="UVMapper-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -93,11 +93,11 @@ Ordnet das Eingabefarbbild anhand der Koordinaten zu, die in der UV-Eingabe ange
 <table>
   <tr>
     <td>
-      <img src="uv-mapper-color.resources/uv-mapper-color-04.jpg" alt="UVMapper-Variant2-Before">
+      <img src="../../../../../../assets/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="uv-mapper-color.resources/uv-mapper-color-05.jpg" alt="UVMapperColor-Variant2-After">
+      <img src="../../../../../../assets/UVMapperColor-Variant2-After.jpg" alt="UVMapperColor-Variant2-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -107,4 +107,4 @@ Ordnet das Eingabefarbbild anhand der Koordinaten zu, die in der UV-Eingabe ange
 </tr>
 </table>
 
-![Knoten im Diagramm](uv-mapper-color.resources/uv-mapper-color-06.jpg "Knoten im Diagramm")
+![Knoten im Diagramm](../../../../../../assets/UVMapperColor-Graph.jpg "Knoten im Diagramm")

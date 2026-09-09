@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline-Bridge-Zuordnungsfarbe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-01.png "Knotensymbol")
+![Knotensymbol](../../../../../../assets/spline-bridge-mapper-color-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -57,7 +57,7 @@ Ordnet ein Farbbild einer Liste von Eingabe-Splines zu, sodass das Bild die Spli
 |:---|:---|
 | <b>Spline-Kabel</b> <i>Farbe</i> | Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Eingabesplines:<br><b>R</b> - X position<br><b>G</b> - Y position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>- Sign: Spline ist geschlossen (negativ) oder offen (positiv);<br>- Absolute Wert: Thickness + 1. |
 | <b>Spline-Daten</b> <i>Farbe</i> | Zusätzliche Daten der Eingabe-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.<br><b>R</b> - Tangenten X<br><b>G</b> - Tangenten Y<br><b>B</b> - Nicht verwendet<br><b>A</b> - Nicht verwendet |
-| <b>Spline-Betrag</b> <i>Integer</i> | Die Anzahl der Eingabe-Splines. |
+| <b>Spline-Betrag</b> <i>Ganzzahl</i> | Die Anzahl der Eingabe-Splines. |
 | <b>Farbzuordnung</b> <i>Farbe</i> | Das Eingabefarbbild, das den Eingabesplines zugeordnet werden soll. |
 
 <a name="outputs"></a>
@@ -92,11 +92,11 @@ Ordnet ein Farbbild einer Liste von Eingabe-Splines zu, sodass das Bild die Spli
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-mapper-color.resources/spline-bridge-mapper-color-02.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="spline-bridge-mapper-color.resources/spline-bridge-mapper-color-03.jpg" alt="SplineBridgeMapperColor-Variant1-After">
+      <img src="../../../../../../assets/SplineBridgeMapperColor-Variant1-After.jpg" alt="SplineBridgeMapperColor-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -105,7 +105,7 @@ Ordnet ein Farbbild einer Liste von Eingabe-Splines zu, sodass das Bild die Spli
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-04.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](../../../../../../assets/SplineBridgeMapperColor-Demo.gif "Knotenbeispiel 2")
 
 </td>
 </tr>
@@ -115,12 +115,12 @@ Ordnet ein Farbbild einer Liste von Eingabe-Splines zu, sodass das Bild die Spli
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-05.jpg "Knotenbeispiel 1")
+![Knotenbeispiel 1](../../../../../../assets/SplineBridgeMapperColor-Variant1-After1.jpg "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-06.jpg "Knotenbeispiel 2")
+![Knotenbeispiel 2](../../../../../../assets/SplineBridgeMapperColor-Graph.jpg "Knotenbeispiel 2")
 
 </td>
 </tr>

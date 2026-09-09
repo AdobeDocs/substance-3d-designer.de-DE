@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline-Render
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](spline-render.resources/spline-render-01.png "Knotensymbol")
+![Knotensymbol](../../../../../../assets/spline-render-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -98,11 +98,11 @@ Zeichnet Zeichenfolgen von Segmenten entlang der Eingabe <b>Splines</b> über de
 <table>
   <tr>
     <td>
-      <img src="spline-render.resources/spline-render-02.jpg" alt="SplineRender-Variant2-Before">
+      <img src="../../../../../../assets/SplineRender-Variant2-Before.jpg" alt="SplineRender-Variant2-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="spline-render.resources/spline-render-03.jpg" alt="SplineRender-Variant2-After">
+      <img src="../../../../../../assets/SplineRender-Variant2-After.jpg" alt="SplineRender-Variant2-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -114,11 +114,11 @@ Zeichnet Zeichenfolgen von Segmenten entlang der Eingabe <b>Splines</b> über de
 <table>
   <tr>
     <td>
-      <img src="spline-render.resources/spline-render-04.jpg" alt="SplineRender-Variant1-Before">
+      <img src="../../../../../../assets/SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="spline-render.resources/spline-render-05.jpg" alt="SplineRender-Variant1-After">
+      <img src="../../../../../../assets/SplineRender-Variant1-After.jpg" alt="SplineRender-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -135,11 +135,11 @@ Zeichnet Zeichenfolgen von Segmenten entlang der Eingabe <b>Splines</b> über de
 <table>
   <tr>
     <td>
-      <img src="spline-render.resources/spline-render-04.jpg" alt="SplineRender-Variant1-Before">
+      <img src="../../../../../../assets/SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="spline-render.resources/spline-render-06.jpg" alt="SplineRender-Variant3">
+      <img src="../../../../../../assets/SplineRender-Variant3.jpg" alt="SplineRender-Variant3">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -148,7 +148,7 @@ Zeichnet Zeichenfolgen von Segmenten entlang der Eingabe <b>Splines</b> über de
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](spline-render.resources/spline-render-07.gif "Knotenbeispiel 1")
+![Knotenbeispiel 1](../../../../../../assets/SplineRender-Demo.gif "Knotenbeispiel 1")
 
 </td>
 </tr>

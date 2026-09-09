@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-color.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Spline Mapper Color", um Farbparameter entlang von Spline-Pfaden mit anpassbaren Texturen zuzuordnen.
+description: Verwenden Sie den Knoten "Spline Mapper Color", um Farbstrukturen entlang von Spline-Pfaden mit anpassbaren Parametern zuzuordnen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Point List
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline-Zuordnungsfarbe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](spline-mapper-color.resources/spline-mapper-color-01.png "Knotensymbol")
+![Knotensymbol](../../../../../../assets/spline-mapper-color-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -59,9 +59,9 @@ Der Knoten gibt das zugeordnete Bild als Farbbild sowie weitere Informationen wi
 |:---|:---|
 | <b>Spline-Kabel</b> <i>Farbe</i> | Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Eingabesplines:<br><b>R</b> - X-Position<br><b>G</b> - Y-Position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br> - Sign: Spline ist geschlossen (negativ) oder offen (positiv);<br> - Absolute Wert: Thickness + 1. |
 | <b>Spline-Daten</b> <i>Farbe</i> | Zusätzliche Daten der Eingabe-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.<br><b>R</b> - Tangenten X<br><b>G</b> - Tangenten Y<br><b>B</b> - Nicht verwendet<br><b>A</b> - Nicht verwendet |
-| <b>Spline-Betrag</b> <i>Ganzzahl</i> | Die Anzahl der Eingabe-Splines. |
+| <b>Spline-Betrag</b> <i>Integer</i> | Die Anzahl der Eingabe-Splines. |
 | <b>Farbzuordnung</b> <i>Farbe</i> | Das Eingabefarbbild, das entlang der Eingabesplines zugeordnet werden soll. |
-| <b>Höhen-Map</b> <i>Graustufen</i> | Die Graustufen-Höhen-Map für die Eingabe, die entlang der Eingabe-Splines zugeordnet werden soll. |
+| <b>Height-Map</b> <i>Graustufen</i> | Die Graustufen-Höhen-Map für die Eingabe, die entlang der Eingabe-Splines zugeordnet werden soll. |
 | <b>Twist Curve</b> <i>Graustufen</i> | Das Bild, das eine Kurve anhand der Werte der ersten Pixelzeile beschreibt.<br>Wenn der Parameter <b>Form</b> auf <i>Halbzylinder</i> oder <i>Zylinder</i> festgelegt ist, wird diese Eingabe verwendet, um die Verdrillung der UVs um die Form herum zu steuern. Die Auswirkungen werden mithilfe des Parameters <b>UVs-Kurvenmultiplikator verdrehen</b> gesteuert.<br>Die Kurve stellt ein Profil für den Umfang der Drehung entlang der Spline bereit, wobei das erste Pixel in der Zeile die Drehung am Anfang der Spline und das letzte die Drehung am Ende ist. Der Graustufenwert stellt eine Anzahl von Windungen dar.<br>Sie können einen Knoten vom Typ [Kurve](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md) verwenden, um die Kurve zu erstellen. |
 
 <a name="outputs"></a>
@@ -112,11 +112,11 @@ Der Knoten gibt das zugeordnete Bild als Farbbild sowie weitere Informationen wi
 <table>
   <tr>
     <td>
-      <img src="spline-mapper-color.resources/spline-mapper-color-02.jpg" alt="SplineMapperColor-Variant1-Before">
+      <img src="../../../../../../assets/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="spline-mapper-color.resources/spline-mapper-color-03.jpg" alt="SplineMapperColor-Variant1-After">
+      <img src="../../../../../../assets/SplineMapperColor-Variant1-After.jpg" alt="SplineMapperColor-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -125,7 +125,7 @@ Der Knoten gibt das zugeordnete Bild als Farbbild sowie weitere Informationen wi
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](spline-mapper-color.resources/spline-mapper-color-04.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](../../../../../../assets/SplineMapperColor-Demo.gif "Knotenbeispiel 2")
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ Der Knoten gibt das zugeordnete Bild als Farbbild sowie weitere Informationen wi
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 3](spline-mapper-color.resources/spline-mapper-color-05.jpg "Knotenbeispiel 3")
+![Knotenbeispiel 3](../../../../../../assets/SplineMapperColor-Variant1-After1.jpg "Knotenbeispiel 3")
 
 </td>
 <td style="border: 0;" valign="top">

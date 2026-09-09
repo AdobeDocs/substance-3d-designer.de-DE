@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline Bridge-Zuordnung - Graustufen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-01.png "Knotensymbol")
+![Knotensymbol](../../../../../../assets/spline-bridge-mapper-grayscale-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -91,11 +91,11 @@ Ordnet ein Graustufenbild einer Liste von Eingabe-Splines zu, sodass das Bild di
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-02.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-03.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
+      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-After.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -104,7 +104,7 @@ Ordnet ein Graustufenbild einer Liste von Eingabe-Splines zu, sodass das Bild di
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-04.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](../../../../../../assets/SplineBridgeMapper-Demo.gif "Knotenbeispiel 2")
 
 </td>
 </tr>
@@ -114,12 +114,12 @@ Ordnet ein Graustufenbild einer Liste von Eingabe-Splines zu, sodass das Bild di
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-05.jpg "Knotenbeispiel 1")
+![Knotenbeispiel 1](../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-After1.jpg "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-06.jpg "Knotenbeispiel 2")
+![Knotenbeispiel 2](../../../../../../assets/SplineBridgeMapperGrayscale-Graph.jpg "Knotenbeispiel 2")
 
 </td>
 </tr>
