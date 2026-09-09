@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-square-transform.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-square-transform.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Nicht quadratisch Transformieren , um Transformationen auf nicht quadratische Texturen mit unabhängiger X- und Y-Skalierung anzuwenden.
 helpx_creative_field: ""

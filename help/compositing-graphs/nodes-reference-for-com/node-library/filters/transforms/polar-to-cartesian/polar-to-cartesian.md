@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/polar-to-cartesian.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/polar-to-cartesian.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Polar in Kartesische Produkt", um Texturen von Polarkoordinaten in Kartesische Produkt-Koordinaten zu konvertieren.
 helpx_creative_field: ""
