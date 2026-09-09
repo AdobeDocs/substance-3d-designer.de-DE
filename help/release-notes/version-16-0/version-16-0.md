@@ -78,7 +78,7 @@ Dadurch werden Streuungen ermöglicht, die dynamischer, vielfältiger und glaubw
 [Shape Splater v2 Mapper](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.md) Knoten ermöglichen die Projektion von Texturen auf die gestreuten 3D-Formen, mit Unterstützung für *triplanare Projektion* und *Material-IDs* für die Zuordnung mehrerer Texturen. Die Ergebnisse können global oder pro Form angepasst werden, um Textur-Offsets und Farbvariationen zu erreichen.\
 Auch hier können erweiterte Benutzer *benutzerdefinierte Texturzuordnungen* einrichten, die durch ein Funktionsdiagramm definiert sind.
 
-[Der Formspritzer v2 zum Maskieren von ](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-to-mask/shape-splatter-v2-to-mask.md) erstellt Masken für eine bestimmte Auswahl von Formen und/oder Material-IDs, wodurch eine granularere Verwendung von Formen im Graphen nachgelagert ermöglicht wird.
+[Der Formspritzer v2 zum Maskieren von &#x200B;](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-to-mask/shape-splatter-v2-to-mask.md) erstellt Masken für eine bestimmte Auswahl von Formen und/oder Material-IDs, wodurch eine granularere Verwendung von Formen im Graphen nachgelagert ermöglicht wird.
 
 <table style="margin-top: 32px; margin-bottom: 32px; border: none">
     <tr style="border: 0">

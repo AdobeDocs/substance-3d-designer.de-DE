@@ -111,7 +111,7 @@ Diese Version 12.4 bietet auch die volle Unterstützung von Substance-Modellgraf
 * [3D-Ansicht] Drahtgitter-Anzeigeeigenschaft wird nicht gespeichert
 * [Inhalt] Die Parameter für die radiale Weichzeichnungsfarbe haben keine Auswirkungen auf den Alphakanal
 * [Lokalisierung] Zusätzliche Schieberegler und Schaltflächen werden in den OpenGL-Eigenschaften der Umgebung angezeigt.
-* [MDL][Substance-Modell] Absturz beim Löschen exponierter Knoten
+* [MDL]&#x200B;[Substance-Modell] Absturz beim Löschen exponierter Knoten
 * [Voreinstellungen] Die Datei Default\_config wird nie neu erstellt, wenn sie gelöscht wird
 * [Substance-Modell] Parameter für die Neuanordnung von Abstürzen, der nicht auf Instanzebene angezeigt wird
 * [API] SDProperty.getDefaultValue() gibt fast immer None zurück.

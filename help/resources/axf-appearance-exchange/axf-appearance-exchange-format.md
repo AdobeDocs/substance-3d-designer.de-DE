@@ -110,7 +110,7 @@ Im Fall von [Substance-Graphen](../../compositing-graphs/substance-compositing-g
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF: Paketergebnis des Importprozesses ](../../assets/axf_package.png "AxF: Paketergebnis des Importprozesses ")
+![AxF: Paketergebnis des Importprozesses &#x200B;](../../assets/axf_package.png "AxF: Paketergebnis des Importprozesses ")
 
 </td>
 </tr>
