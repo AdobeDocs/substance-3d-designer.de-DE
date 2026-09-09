@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Querschnitt", um Querschnittmasken auf der Grundlage von Height-Maps zum Schneiden und Slicing von Effekten zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Querschnitt
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 07f136ebd89fbe737b6c042f1275bd348b2be514
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![&#x200B; Knotensymbol &quot;Querschnitt&quot; &#x200B;](../../../../../../assets/cross-section-2.png " Knotensymbol &quot;Querschnitt&quot; "){width="200px"}
+![ Knotensymbol &quot;Querschnitt&quot; ](cross-section.resources/cross-section-2.png " Knotensymbol &quot;Querschnitt&quot; "){width="200px"}
 
 <b>In:</b> Filters > Effects
 
@@ -69,10 +69,10 @@ Du kannst auch 2D-Formen und Silhouetten erstellen, die sich sonst kaum realisie
 
 ## Beispiele
 
-![Querschnitt: Beispiel 1](../../../../../../assets/cross-section-example-01.gif "Querschnitt: Beispiel 1")
+![Querschnitt: Beispiel 1](cross-section.resources/cross-section-example-01.gif "Querschnitt: Beispiel 1")
 
-![Querschnitt: Beispiel 2](../../../../../../assets/cross-section-example-02.gif "Querschnitt: Beispiel 2")
+![Querschnitt: Beispiel 2](cross-section.resources/cross-section-example-02.gif "Querschnitt: Beispiel 2")
 
-![Querschnitt: Beispiel 3](../../../../../../assets/cross-section-example-03.png "Querschnitt: Beispiel 3")
+![Querschnitt: Beispiel 3](cross-section.resources/cross-section-example-03.png "Querschnitt: Beispiel 3")
 
-![Querschnitt: Beispiel 4](../../../../../../assets/cross-section-example-04.png "Querschnitt: Beispiel 4")
+![Querschnitt: Beispiel 4](cross-section.resources/cross-section-example-04.png "Querschnitt: Beispiel 4")

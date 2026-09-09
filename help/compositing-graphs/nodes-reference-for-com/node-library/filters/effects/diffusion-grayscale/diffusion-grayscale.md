@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-grayscale.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Diffusion Graustufen", um Graustufen-Diffusionen anzuwenden, um sanfte Farbübergänge und Füllmethoden zu erstellen.
+description: Verwenden Sie den Knoten "Diffusionsgrau", um Graustufen-Diffusionseffekte anzuwenden, um glatte Farbübergänge und Füllmethoden zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Diffusion Grayscale
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Diffusion Graustufen
+title: Diffusions-Graustufen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 07f136ebd89fbe737b6c042f1275bd348b2be514
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 3%
@@ -18,13 +18,13 @@ ht-degree: 3%
 ---
 
 
-# Diffusion Graustufen
+# Diffusions-Graustufen
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/diffusion-grayscale-icon.png){width="200px"}
+![](diffusion-grayscale.resources/diffusion-grayscale-icon.png){width="200px"}
 
 <b>In:</b> Filters > Effects
 
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## Beschreibung
 
-Wenden Sie einen Maskierungsprozess auf die Werte in der Bildeingabe &quot;**Diffusion**&quot; entsprechend der bereitgestellten Bildeingabe &quot;**Maske**&quot; an, um glatte Abstufungen zwischen den Werten zu erstellen.
+Wenden Sie einen Diffusionsprozess auf die Werte in der Bildeingabe **Quelle** entsprechend der bereitgestellten Bildeingabe **Maske** an, um glatte Abstufungen zwischen den Werten zu erstellen.
 
 Nur Werte aus Pixeln, die der Maske entsprechen, werden gestreut. andere Pixel nicht am Ergebnis beteiligt sind.
 
@@ -48,8 +48,8 @@ Nur Werte aus Pixeln, die der Maske entsprechen, werden gestreut. andere Pixel n
 |  |  |
 |:---|:---|
 | <b>Quelle</b> <i>Graustufen</i> | Das zu streuende Bild. |
-| <b>Maske</b> <i>Graustufen</i> | Diffusion: Weiße Pixel werden in <i>Quelle</i> aufgenommen und in schwarzen Pixeln verteilt. Das Bild sollte schwarzweiß sein. Wenn die Maske Farbverläufe enthält, ist der Cutoff-Wert 0,5. |
-| <b>Intensität</b> <i>Graustufen</i> | Legt lokal fest, wie stark der Diffusion-Prozess angewendet wird. Diese Zuordnung sollte <i>kontrastiert</i> sein, um einen spürbaren Effekt zu erzielen. |
+| <b>Maske</b> <i>Graustufen</i> | Diffusionsmaske: Weiße Pixel werden in <i>Quelle</i> aufgenommen und in schwarzen Pixeln verteilt. Das Bild sollte schwarzweiß sein. Wenn die Maske Farbverläufe enthält, ist der Cutoff-Wert 0,5. |
+| <b>Intensität</b> <i>Graustufen</i> | Legt lokal fest, wie stark der Diffusionsprozess angewendet wird. Diese Zuordnung sollte <i>kontrastiert</i> sein, um einen spürbaren Effekt zu erzielen. |
 
 <a name="parameters"></a>
 
@@ -66,24 +66,24 @@ Nur Werte aus Pixeln, die der Maske entsprechen, werden gestreut. andere Pixel n
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-grayscale-01-before.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-01-before.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-grayscale-01a-after.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-01a-after.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-grayscale-01b-after.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-01b-after.jpg" />
         </td>
     </tr>
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-grayscale-02-before.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-02-before.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-grayscale-02-after.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-02-after.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-grayscale-02-render.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-02-render.jpg" />
         </td>
     </tr>
 </table>

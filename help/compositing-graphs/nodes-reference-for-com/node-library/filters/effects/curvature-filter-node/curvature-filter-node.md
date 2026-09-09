@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-filter-node.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Krümmung-Filterknoten, um Krümmungs-Map aus Höhen-Map für die Erkennung konvexer und konkaver Flächen zu erzeugen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Krümmung (Filterknoten)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 07f136ebd89fbe737b6c042f1275bd348b2be514
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/curvature-1.png){width="128px"}
+![](curvature-filter-node.resources/curvature-1.png){width="128px"}
 
 <b>In:</b> Filters > Effects
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## Beschreibung
 
-Führt eine einfache, harte Konvertierung der Krümmung in einem Durchgang zur Eingabe von [Normalmap](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) durch. Die resultierende Karte enthält weiße Farbtöne für konvexe Bereiche und schwarze Farbtöne für konkave Bereiche. Krümmung erzeugt immer pixelgenaue Linien und gestochen scharfe Übergänge.
+Führt eine einfache, harte Konversion der Einmalpasskrümmung zur Eingabe von [Normalmap](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) durch. Die resultierende Karte enthält weiße Farbtöne für konvexe Bereiche und schwarze Farbtöne für konkave Bereiche. Krümmung erzeugt immer pixelgenaue Linien und gestochen scharfe Übergänge.
 
 Dieser Knoten ist nützlich, um bestimmte Kanten schnell hervorzuheben oder abzudunkeln. Sie ist im Vergleich zu [Krümmung Smooth](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) (das qualitativ hochwertigere Ergebnisse liefert) und [Krümmung Sobel](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md) (das mehr Optionen bietet) begrenzt.
 
@@ -55,7 +55,7 @@ Dieser Knoten ist nützlich, um bestimmte Kanten schnell hervorzuheben oder abzu
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/curvature-ex.png" />
+            <img src="curvature-filter-node.resources/curvature-ex.png" />
         </td>
     </tr>
 </table>

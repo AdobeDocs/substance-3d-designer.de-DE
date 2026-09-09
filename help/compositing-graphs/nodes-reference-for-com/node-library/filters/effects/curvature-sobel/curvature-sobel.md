@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-sobel.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-sobel.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Krümmung Sobel, um Maskenkanten mit Sobel-Operatoren zum Erstellen von randbasierten Krümmungen zu erkennen.
+description: Verwenden Sie den Knoten "Sobel-Krümmung", um Krümmungskanten mithilfe von Sobel-Operatoren zum Erstellen von kantenbasierten Masken zu erkennen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Curvature Sobel
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Krümmung Sobel
+title: Krümmungssobel
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 07f136ebd89fbe737b6c042f1275bd348b2be514
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 4%
@@ -18,13 +18,13 @@ ht-degree: 4%
 ---
 
 
-# Krümmung Sobel
+# Krümmungssobel
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/curvature-sobel.png){width="128px"}
+![](curvature-sobel.resources/curvature-sobel.png){width="128px"}
 
 <b>In:</b> Filters > Effects
 
@@ -33,9 +33,9 @@ ht-degree: 4%
 
 ## Beschreibung
 
-Führt eine einfache, harte Konvertierung der Krümmung in einem Durchgang zur Eingabe von [Normalmap](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) durch. Die resultierende Karte enthält weiße Farbtöne für konvexe Bereiche und schwarze Farbtöne für konkave Bereiche. Mit &quot;Krümmung&quot; werden immer dickere Linien und gestochen scharfe Übergänge erzeugt.
+Führt eine einfache, harte Konversion der Einmalpasskrümmung zur Eingabe von [Normalmap](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) durch. Die resultierende Karte enthält weiße Farbtöne für konvexe Bereiche und schwarze Farbtöne für konkave Bereiche. Der Kurvenzeichner erzeugt immer dickere Linien und scharfe Übergänge.
 
-Dieser Knoten ist nützlich, um bestimmte Kanten schnell hervorzuheben oder abzudunkeln. Sie unterscheidet sich leicht von [Krümmung](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md), da sie bessere Qualitätsergebnisse liefert, aber immer noch scharf und hart ist.
+Dieser Knoten ist nützlich, um bestimmte Kanten schnell hervorzuheben oder abzudunkeln. Sie unterscheidet sich leicht von [Krümmung](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md), da sie qualitativ bessere Ergebnisse liefert, aber immer noch scharf und hart ist.
 
 </td>
 </tr>
@@ -55,7 +55,7 @@ Dieser Knoten ist nützlich, um bestimmte Kanten schnell hervorzuheben oder abzu
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/curv-sobel-ex.png" />
+            <img src="curvature-sobel.resources/curv-sobel-ex.png" />
         </td>
     </tr>
 </table>
