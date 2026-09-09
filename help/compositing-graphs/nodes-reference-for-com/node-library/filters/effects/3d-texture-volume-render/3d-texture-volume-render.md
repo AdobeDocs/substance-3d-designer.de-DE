@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D Textur Volume Render
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtexturevolumerender.png){width="200px"}
+![](3d-texture-volume-render.resources/3dtexturevolumerender.png){width="200px"}
 
 <b>In:</b> Filter > Effekt
 
@@ -63,13 +63,13 @@ Das Volume wird innerhalb der Grenzen eines *Einheitscube* dargestellt. Die Bele
 |:---|:---|
 | <b>Ausgabeauflösung</b> <i>Integer2</i> | Die Auflösung des Ausgabebilds in <b>X</b> und <b>Y</b>, ausgedrückt als <i>Potenz von zwei</i>. |
 | <b>Position der Kamera</b> <i>Float2</i> | Die Position der Kamera um die Form.<br>Wenn der Knoten ausgewählt ist, können Sie das Positions-Gizmo in der <b>2D-Ansicht</b> bis <i>Umlaufbahn</i> der Kamera verwenden. |
-| <b>Lichtposition</b> <i>Float2</i> | Die Position des <i>Richtungslichts</i> um die Form.<br>Wenn der Knoten ausgewählt ist, können Sie das Positions-Gizmo in der <b>2D-Ansicht</b> bis <i>Bahn</i> der Lichtquelle verwenden. |
-| <b>Kameras-Entfernung</b> <i>Gleitend</i> | Der Abstand zwischen Kamera und Form. |
-| <b>Kamera FOV</b> <i>Gleitend</i> | Das Sichtfeld der Kamera in <i>Grad</i>. |
-| <b>Absorption</b> <i>Gleitend</i> | Legt fest, wie viel Licht absorbiert wird, wenn es <i> durch </i> die Lautstärke hindurchtritt. |
-| <b>Feder</b> <i>Gleitend</i> | Multipliziert den von der <b>Dichte</b>-Eingabe angegebenen Wert mit dem <i>inneren</i>-Abstandsfeldwert.<br>Dadurch wird die Breite des <i>Überblendungsverlaufs</i> von der äußeren Begrenzung des Volumes nach innen angepasst. |
-| <b>Lichtfarbmodus</b> <i>Integer</i> | Legt die Methode zum Erfassen der Farbe des Richtungslichts fest:<br>- <i>Temperatur (Kelvin)</i>: Die Farbe ergibt sich aus der Lichttemperatur, bei der ein <i>niedrigerer</i> Wert zu einer <i>wärmeren</i> Farbe<br>- <i>RGB Color</i> führt: Definieren der Farbe mithilfe von RGB-Werten |
-| <b>Lichttemperatur (Kelvin)</b> <i>Gleitend</i> | Die Temperatur des Richtungslichts, die sich auf die <i>Farbe</i> auswirkt. Ein <i>niedrigerer</i>-Wert führt zu einer <i>wärmeren</i> Farbe.<br>Nützliche Werte:<br>1800 K - Kerzenlicht<br>2800 K - Glühbirne<br>5500 K - Tageslicht<br>6200 K - Naturweiß<br>7000 K - Bewölkter Himmel<br><i>Hinweis</i>: Dieser Parameter ist nur verfügbar, wenn der Parameter <b>Lichtfarbmodus</b> auf <i>Temperatur (Kelvin)</i> festgelegt ist. |
+| <b>Lichtposition</b> <i>Fließkommazahl2</i> | Die Position des <i>Richtungslichts</i> um die Form.<br>Wenn der Knoten ausgewählt ist, können Sie das Positions-Gizmo in der <b>2D-Ansicht</b> bis <i>Bahn</i> der Lichtquelle verwenden. |
+| <b>Kameras-Entfernung</b> <i>Fließkommazahl</i> | Der Abstand zwischen der Kamera und der Form. |
+| <b>Kamera FOV</b> <i>Fließkommazahl</i> | Das Sichtfeld der Kamera in <i>Grad</i>. |
+| <b>Absorption</b> <i>Fließkommazahl</i> | Legt fest, wie viel Licht absorbiert wird, wenn es <i> durch </i> die Lautstärke hindurchtritt. |
+| <b>Feder</b> <i>Fließkommazahl</i> | Multipliziert den von der <b>Dichte</b>-Eingabe angegebenen Wert mit dem <i>inneren</i>-Abstandsfeldwert.<br>Dadurch wird die Breite des <i>Überblendungsverlaufs</i> von der äußeren Begrenzung des Volumes nach innen angepasst. |
+| <b>Lichtfarbmodus</b> <i>Ganzzahl</i> | Legt die Methode zum Erfassen der Farbe des Richtungslichts fest:<br>- <i>Temperatur (Kelvin)</i>: Die Farbe ergibt sich aus der Lichttemperatur, bei der ein <i>niedrigerer</i> Wert zu einer <i>wärmeren</i> Farbe<br>- <i>RGB Color</i> führt: Definieren der Farbe mithilfe von RGB-Werten |
+| <b>Lichttemperatur (Kelvin)</b> <i>Fließkommazahl</i> | Die Temperatur des Richtungslichts, die sich auf die <i>Farbe</i> auswirkt. Ein <i>niedrigerer</i>-Wert führt zu einer <i>wärmeren</i> Farbe.<br>Nützliche Werte:<br>1800 K - Kerzenlicht<br>2800 K - Glühbirne<br>5500 K - Tageslicht<br>6200 K - Naturweiß<br>7000 K - Bewölkter Himmel<br><i>Hinweis</i>: Dieser Parameter ist nur verfügbar, wenn der Parameter <b>Lichtfarbmodus</b> auf <i>Temperatur (Kelvin)</i> festgelegt ist. |
 | <b>Helle Farbe</b> <i>Float3</i> | Die Farbe des Richtungslichts.<br><i>Hinweis</i>: Dieser Parameter ist nur verfügbar, wenn der Parameter <b>Lichtfarbmodus</b> auf <i>RGB-Farbe</i> festgelegt ist. |
 | <b>Lichtintensität</b> <i>Gleitend</i> | Die Intensität des gerichteten Lichts. |
 | <b>Umgebungsfarbe</b> <i>Float3</i> | Die Farbe des Umgebungslichtes. |
@@ -87,22 +87,22 @@ Das Volume wird innerhalb der Grenzen eines *Einheitscube* dargestellt. Die Bele
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-variant2.jpg" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-variant5.jpg" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant5.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-variant3.jpg" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-variant.jpg" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-variant4.jpg" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant4.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-node.png" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-node.png" />
         </td>
     </tr>
 </table>

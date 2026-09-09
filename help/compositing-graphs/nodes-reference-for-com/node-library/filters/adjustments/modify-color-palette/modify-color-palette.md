@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Farbpalette ändern
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 7f15827b198bfbc133601581dc54ed894e98d89d
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Symbol &quot;Farbe quantisieren&quot;](../../../../../../assets/ModifyColorPalette.png "Symbol &quot;Farbe quantisieren&quot;"){width="200px"}
+![Symbol &quot;Farbe quantisieren&quot;](modify-color-palette.resources/ModifyColorPalette.png "Symbol &quot;Farbe quantisieren&quot;"){width="200px"}
 
 <b>In:</b> Filters > Adjustments
 
@@ -82,18 +82,18 @@ Dieser Knoten kann in Kombination mit den folgenden Knoten verwendet werden: [Fa
 
 ## Beispiele
 
-![Farbpalette ändern: Beispiel 1](../../../../../../assets/modify_color_palette_example_1.png "Farbpalette ändern: Beispiel 1"){zoomable="yes"}
+![Farbpalette ändern: Beispiel 1](modify-color-palette.resources/modify_color_palette_example_1.png "Farbpalette ändern: Beispiel 1"){zoomable="yes"}
 
-![Farbpalette ändern: Beispiel 2](../../../../../../assets/modify_color_palette_example_3.png "Farbpalette ändern: Beispiel 2"){zoomable="yes"}
+![Farbpalette ändern: Beispiel 2](modify-color-palette.resources/modify_color_palette_example_3.png "Farbpalette ändern: Beispiel 2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/modify_color_example_2_before.jpg" alt="modify_color_example_2_before">
+      <img src="modify-color-palette.resources/modify_color_example_2_before.jpg" alt="modify_color_example_2_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/modify_color_example_2_after.jpg" alt="modify_color_example_2_after">
+      <img src="modify-color-palette.resources/modify_color_example_2_after.jpg" alt="modify_color_example_2_after">
       <br><i>Nach</i>
     </td>
   </tr>

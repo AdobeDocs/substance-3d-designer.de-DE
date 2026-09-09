@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Exportieren von Szenen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Bei anderen Formaten hängen der Inhalt der Szene und ihre interne Struktur von 
 >
 > Alle von Designer zur Szene hinzugefügten Elemente werden in die exportierte Szene aufgenommen: die Standardkamera, die Standardumgebung, alle Materialien kopiert alle zusätzlichen Lichter.
 
-![Szenenexportaktionen](exporting-scenes.resources/exporting-scenes-01.png "Szenenexportaktionen"){zoomable="yes"}
+![Szenenexportaktionen](../../assets/exportActions.png "Szenenexportaktionen"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -65,7 +65,7 @@ Das bedeutet, dass Änderungen an der ursprünglichen Szene die exportierte Szen
 </td>
 <td style="border: 0;" valign="top">
 
-![Exportierte Szenendateien - Reduziert](exporting-scenes.resources/exporting-scenes-02.png "Exportierte Szenendateien - Reduziert"){zoomable="yes"}
+![Exportierte Szenendateien - Reduziert](../../assets/exportFlattened.png "Exportierte Szenendateien - Reduziert"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Das bedeutet, dass Änderungen an der ursprünglichen Szene in die exportierte S
 </td>
 <td style="border: 0;" valign="top">
 
-![Exportierte Szenendateien - Ebenen](exporting-scenes.resources/exporting-scenes-03.png "Exportierte Szenendateien - Ebenen"){zoomable="yes"}
+![Exportierte Szenendateien - Ebenen](../../assets/exportLayered.png "Exportierte Szenendateien - Ebenen"){zoomable="yes"}
 
 </td>
 </tr>

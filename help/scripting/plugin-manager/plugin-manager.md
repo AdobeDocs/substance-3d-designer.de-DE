@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Plugin-Manager
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 Das Dialogfeld &quot;<b>Plug-In-Manager</b>&quot; ist über das Menü &quot;<b>Tools</b>&quot; in der Hauptmenüleiste verfügbar. Sie können sehen, welche Plug-ins *aktiv* sind, sowie *Plug-ins laden und entladen*.
 
-![Plug-in-Manager](plugin-manager.resources/plugin-manager-01.png "Plug-in-Manager")
+![Plug-in-Manager](../../assets/pluginmgr.png "Plug-in-Manager")
 
 Es ist auch möglich, *Plug-ins manuell* zu laden, indem Sie die Schaltfläche <b>Durchsuchen</b> verwenden und eine Python-Datei auswählen.
 

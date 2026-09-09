@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 13.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 *Freigabedatum: 12. Dezember 2023*
 
-![Substance 3D Designer 13.1-Banner](version-13-1.resources/version-13-1-01.png "Substance 3D Designer 13.1-Banner")
+![Substance 3D Designer 13.1-Banner](../../assets/24-library-hero-1920x620.png "Substance 3D Designer 13.1-Banner")
 
 ## Verbesserungen an Rahmen
 
@@ -34,19 +34,19 @@ Rahmen sind ein unverzichtbares Werkzeug, um das Diagramm gut organisiert und le
 
 Wenn das Diagramm wächst, muss der Inhalt der Rahmen möglicherweise neu angeordnet werden. Die Knoten können sich verschieben, um Platz für Ergänzungen zu schaffen, oder die Inhalte müssen möglicherweise weiter voneinander entfernt werden, um die Lesbarkeit zu verbessern. Um diese Anpassungen zu erleichtern, ist es jetzt möglich, einen Frame automatisch zu erweitern, wenn eingeschlossene Objekte verschoben werden: Halten Sie <b>Umschalt</b> an einem beliebigen Punkt gedrückt, während Sie ein Objekt verschieben, damit die Frameränder automatisch angepasst werden, damit das Objekt innerhalb seiner Grenzen bleibt.
 
-![autoexpand](version-13-1.resources/version-13-1-02.gif)
+![autoexpand](../../assets/autoexpand.gif)
 
 ### Größe an Inhalt anpassen
 
 Wenn du in deinem Diagramm Anpassungen vornimmst, wird ein Frame möglicherweise nicht mehr elegant an seinen Inhalt angepasst. Mit diesem neuen Befehl können Sie die Position und die Größe des Frames automatisch anpassen, sodass er sich an die Spanne seines Inhalts anpasst. Der Abstand beträgt dabei eine Zelle mit mittlerem Raster. Wenn der Rahmen eine Beschreibung hat, wird er so angepasst, dass nach Möglichkeit ein leerer Bereich neben der Beschreibung verwendet wird.
 
-![fitsize](version-13-1.resources/version-13-1-03.gif)
+![fitsize](../../assets/fitsize.gif)
 
 ### Verbesserte Beschreibungen
 
 Dank des HTML-Codes können Sie jetzt formatierten Text in der Beschreibung eines Rahmens haben. Dies gilt auch für Kommentare.
 
-![richtext](version-13-1.resources/version-13-1-04.png)
+![richtext](../../assets/description-3.png)
 
 ### <b>...und vieles mehr!</b>
 
@@ -55,8 +55,8 @@ Viele Dinge wurden überdacht, z. B. die Toleranz von Zuordnungsregeln, Interakt
 ## Verbesserung der Lebensqualität
 
 * Verbesserungen des <b>Knotenmenüs: </b> Um Zeit zu sparen, während Sie nach dem Knoten suchen, den Sie benötigen, haben wir das Knotenmenü ein wenig verbessert. Die Suche verzeiht jetzt mehr und gibt Ihnen ein Ergebnis, auch wenn es keine perfekte Übereinstimmung gibt. Darüber hinaus können Sie jetzt mit dem Pfeil nach oben direkt auf das letzte Element in der Liste zugreifen.
-* <b>Knotenplatzierung: </b>Wenn du ein perfektes Layout für dein Diagramm haben möchtest, werden dir diese beiden kleinen Änderungen gefallen! Wenn Sie Knoten von einem Diagramm in ein anderes kopieren/einfügen, werden die eingefügten Knoten jetzt am Hauptraster ausgerichtet. Wenn Sie einen Knoten auf einem langen Link hinzufügen, wird dieser in der Mitte des sichtbaren Teils des Links platziert, damit er in jeder Situation sichtbar ist.
-* <b>2D-Anzeigeoptionen: </b>Wenn Sie die [2D-Ansicht](../../interface/2d-view/2d-view.md) intensiv nutzen, sparen Sie Zeit, da Optionen wie &quot;Schachbrett anzeigen&quot;, &quot;Ansichtsgröße beibehalten&quot;, &quot;Physische Größe verwenden&quot; und &quot;Anzeigeunterteilung&quot; jetzt gespeichert werden. Sie müssen sie also nicht erneut festlegen, wenn Sie eine neue 2D-Ansicht erstellen oder Designer neu starten.
+* <b>Knotenplatzierung: </b>Wenn Sie ein perfektes Layout für Ihren Graf haben möchten, werden Ihnen diese beiden kleinen Änderungen gefallen! Beim Kopieren/Einfügen von Graf von einem Knoten in einen anderen werden die eingefügten Raster jetzt am Hauptknoten ausgerichtet. Wenn Sie einen Knoten auf einem langen Link hinzufügen, wird dieser in der Mitte des sichtbaren Teils des Links platziert, damit er in jeder Situation sichtbar ist.
+* <b>2D-Ansicht-Optionen: </b>Wenn Sie die [2D-Ansicht](../../interface/2d-view/2d-view.md) intensiv nutzen, sparen Sie Zeit, da Optionen wie &quot;Schachbrett anzeigen&quot;, &quot;Ansichtsgröße beibehalten&quot;, &quot;Physische Größe verwenden&quot; und &quot;Kachelung anzeigen&quot; jetzt gespeichert werden. Sie müssen sie also nicht erneut festlegen, wenn Sie eine neue 2D-Ansicht erstellen oder Designer neu starten.
 
 ## AxF-Export
 
@@ -64,27 +64,27 @@ Viele Dinge wurden überdacht, z. B. die Toleranz von Zuordnungsregeln, Interakt
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![AxF-Dateisymbol](version-13-1.resources/version-13-1-05.png "AxF-Dateisymbol")
+![AxF-Datei-Symbol](../../assets/axf-file-icon.png "AxF-Datei-Symbol")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-AxF ist ein Format von [X-Rite](https://www.xrite.com/axf). Sie bietet eine Möglichkeit, komplexe Materialeigenschaften mithilfe von numerischen Daten im gesamten digitalen Design-Workflow zu erfassen, zu speichern, zu bearbeiten und zu kommunizieren. In früheren Versionen von Designer konnten Sie AxF-Dateien [importieren](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) und dann die Unterteilung verbessern oder prozedurale Effekte hinzufügen. Dann mussten Sie jedoch Änderungen als neue .sbsar-Datei exportieren.
+AxF ist ein Format von [X-Rite](https://www.xrite.com/axf). Sie bietet eine Möglichkeit, komplexe Material-Merkmale mithilfe von numerischen Daten im gesamten digitalen Design-Workflow zu erfassen, zu speichern, zu bearbeiten und zu kommunizieren. In früheren Versionen von Designer konnten Sie [AxF-Dateien importieren](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) und dann die Kachelung verbessern oder prozedurale Effekte hinzufügen. Dann waren Sie jedoch gezwungen, Änderungen als neue .sbsar-Datei zu exportieren.
 
-In dieser neuen Version wird die Möglichkeit eingeführt, AxF-Materialien an Ort und Stelle zu bearbeiten, und dann [Ihre Änderungen &#x200B;](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) als neue Ebene in die importierte AxF-Datei zu exportieren.
+In dieser neuen Version wird die Möglichkeit eingeführt, AxF-Material an Ort und Stelle zu bearbeiten, und dann [Ihre Änderungen](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) als neue Ebene in die importierte AxF-Datei zu exportieren.
 
 </td>
 </tr>
 </table>
 
-![Export AxF](version-13-1.resources/version-13-1-06.gif)
+![Export AxF](../../assets/exportaxf.gif)
 
 ## API
 
 Und schließlich verbessert diese Version 13.1 die Python-API weiter, indem sie zwei weitere Möglichkeiten hinzufügt:
 
-* <b>-Eigenschaften &quot;Sichtbar, wenn&quot;: </b>Sie können diese Eigenschaft jetzt für Graphparameter, Eingaben und Ausgaben festlegen.
-* <b>Reihenfolge der Diagramme Eingabe/Ausgabe:</b> verwenden sdsbscompgraph::reorderGraphInput und sdsbscompgraph::reorderGraphOutput, um die Parameter nach Bedarf zu organisieren.
+* <b>-Eigenschaften &quot;Sichtbar, wenn&quot;: </b>Sie können diese Eigenschaft jetzt für Parameter, Eingaben und Ausgaben des Grafen festlegen.
+* <b>Reihenfolge der Parametereingaben/-ausgänge:</b> Verwenden Sie sdsbscompgraph::reorderGraphInput und sdsbscompgraph::reorderGraphOutput, um die Graf nach Bedarf zu organisieren.
 
 >[!NOTE]
 >
@@ -98,9 +98,9 @@ Und schließlich verbessert diese Version 13.1 die Python-API weiter, indem sie 
 
 ### Hinzugefügt
 
-* [Frames] Automatisch erweitern
-* [Frames] Ändern Sie Regeln, um festzulegen, wann ein Objekt zu einem Frame gehört.
-* [Frames] Deaktivieren der Textskalierung für die Rahmenbeschreibung
+* [Rahmen] Automatisch erweitern
+* [Rahmen] Regeln ändern, um zu definieren, wann ein Objekt zu einem Rahmen gehört
+* [Rahmen] Deaktivieren der Textskalierung für die Beschreibung von Rahmen
 * [Frames] Größe an Inhalt anpassen
 * [Frames] Neuer Standard-, Hover- und ausgewählter Status
 * [Frames] Ausrichten an großem Raster

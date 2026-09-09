@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Arbeiten mit 3D-Szenen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Arbeiten mit 3D-Szenen
 
-![Arbeiten mit 3D-Szenen](working-with-3d-scenes.resources/working-with-3d-scenes-01.png "Arbeiten mit 3D-Szenen"){zoomable="yes"}
+![Arbeiten mit 3D-Szenen](../assets/workingWith3DScenes.png "Arbeiten mit 3D-Szenen"){zoomable="yes"}
 
 Mit Designer können Sie [3D-Szenen](../glossary/glossary.md) laden, um Materialien im Kontext zu bearbeiten. Eine Liste der unterstützten Dateiformate für 3D-Szenen finden Sie hier, einschließlich einer Liste der unterstützten Funktionen für jedes Format. <b>&lt;Link erforderlich></b>
 
@@ -64,7 +64,7 @@ Sie können mit den folgenden Inhalten der Szene interagieren:
 * <b>Lichter:</b> Alle Lichter in der Szene können im [Szenenbrowser](../interface/3d-view/scene-browser/scene-browser.md) deaktiviert werden.
 * <b>Kameras:</b> jede in der Szene erkannte Kamera wird der von Designer hinzugefügten Kamera als Vorgabe hinzugefügt.
 
-![Inhalt einer 3D-Szene](working-with-3d-scenes.resources/working-with-3d-scenes-02.png "Inhalt einer 3D-Szene"){zoomable="yes"}
+![Inhalt einer 3D-Szene](../assets/loaded3DScene.png "Inhalt einer 3D-Szene"){zoomable="yes"}
 
 Designer verwendet eine USD Beschreibung für seine 3D-Szenen. Das Layout kann im Szene-Browser navigiert werden, wobei jeder [USD prim](https://openusd.org/release/glossary.html#usdglossary-prim)-Typ über ein eigenes Symbol verfügt (Geometrie, Material, Shader, Kamera, transformieren, ...).
 
@@ -85,14 +85,14 @@ Beachten Sie, dass Sie die Szene nur mit den Methoden 1 und 4 erneut laden könn
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![3D-Szene wird geladen - Aus einer Datenressource](working-with-3d-scenes.resources/working-with-3d-scenes-03.gif "3D-Szene wird geladen - Aus einer 3D-Szene-Ressource"){zoomable="yes"}
+![3D-Szene wird geladen - Aus einer Datenressource](../assets/load3DScene-3DSceneResource.gif "3D-Szene wird geladen - Aus einer 3D-Szene-Ressource"){zoomable="yes"}
 
 Laden einer 3D-Szene-Ressource
 
 </td>
 <td style="border: 0;" valign="top">
 
-![3D-Szene wird geladen - aus der Bibliothek](working-with-3d-scenes.resources/working-with-3d-scenes-04.gif "3D-Szene wird geladen - aus der Bibliothek"){zoomable="yes"}
+![3D-Szene wird geladen - aus der Bibliothek](../assets/load3DScene-Library.gif "3D-Szene wird geladen - aus der Bibliothek"){zoomable="yes"}
 
 3D-Szenen aus der Bibliothek laden
 
@@ -104,14 +104,14 @@ Laden einer 3D-Szene-Ressource
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![3D-Szene wird geladen - Aus einer Datendatei](working-with-3d-scenes.resources/working-with-3d-scenes-05.gif "3D-Szene wird geladen - Aus einer 3D-Szene"){zoomable="yes"}
+![3D-Szene wird geladen - Aus einer Datendatei](../assets/load3DScene-3DSceneFile.gif "3D-Szene wird geladen - Aus einer 3D-Szene"){zoomable="yes"}
 
 Laden einer 3D-Szene
 
 </td>
 <td style="border: 0;" valign="top">
 
-![3D-Szene wird geladen - Aus einer Szene-Statusdatei](working-with-3d-scenes.resources/working-with-3d-scenes-06.gif "3D-Szene wird geladen - Aus einer Szene-Statusdatei"){zoomable="yes"}
+![3D-Szene wird geladen - Aus einer Szene-Statusdatei](../assets/load3DScene-sceneStateFile.gif "3D-Szene wird geladen - Aus einer Szene-Statusdatei"){zoomable="yes"}
 
 Laden einer Szene-Statusdatei
 
@@ -138,7 +138,7 @@ Alle von Designer erstellten Elemente werden im Szene-Browser mit <b>fetten Beze
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Szene-Browser - Von Designer erstellte Elemente](working-with-3d-scenes.resources/working-with-3d-scenes-07.png "Szene-Browser - Von Designer erstellte Elemente"){zoomable="yes"}
+![Szene-Browser - Von Designer erstellte Elemente](../assets/sceneBrowser-createdByDesigner.png "Szene-Browser - Von Designer erstellte Elemente"){zoomable="yes"}
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ Alle von Designer erstellten Elemente werden im Szene-Browser mit <b>fetten Beze
 
 Nachdem Sie Materialien, Kamera, Lichter usw. in der 3D-Ansicht eingerichtet haben, kann dieser Status in einer Szenenstatusdatei (.sbsscn) gespeichert werden, die später geladen werden kann, um diesen Status wiederherzustellen. Unter Umständen möchten Sie beispielsweise einige Szenen für die Vorschau verschiedener Materialarten oder für eine bestimmte Lichtumgebung einrichten.
 
-![Szenenstatusdatei laden](working-with-3d-scenes.resources/working-with-3d-scenes-08.gif "Szenenstatusdatei laden"){zoomable="yes"}
+![Szenenstatusdatei laden](../assets/loadSceneStateFile.gif "Szenenstatusdatei laden"){zoomable="yes"}
 
 Ein gespeicherter Szenenzustand kann auch als Standardzustand für die 3D-Ansicht verwendet werden, sodass jedes Mal, wenn eine neue 3D-Ansicht erstellt wird, dieser Zustand verwendet wird. Dies ist nützlich, wenn Sie Material in Ihren Materialien standardmäßig im Sphere 2-Tiles-Gitter mit einem Kachelwert von 2 und einer bestimmten Umgebungskarte in der Vorschau anzeigen möchten.
 

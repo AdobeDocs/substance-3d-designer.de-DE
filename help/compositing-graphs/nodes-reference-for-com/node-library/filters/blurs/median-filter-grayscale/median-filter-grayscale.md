@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Graustufen des Medianfilters
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
+source-git-commit: 5efb14d81ad72b1982785319e446d7eb318c9a03
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Graustufen des Medianfilters: Symbol &#x200B;](../../../../../../assets/MedianFilter_Icon_Grayscale.png "Graustufen des Medianfilters: Symbol ")
+![Graustufen des Medianfilters: Symbol &#x200B;](median-filter-grayscale.resources/MedianFilter_Icon_Grayscale.png "Graustufen des Medianfilters: Symbol ")
 
 <b>In:</b> Filters > Blurs
 
@@ -75,11 +75,11 @@ Für jedes Pixel berechnet der Knoten einen Graustufenwert entsprechend dem Medi
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
+      <img src="median-filter-grayscale.resources/MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
+      <img src="median-filter-grayscale.resources/MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -88,11 +88,11 @@ Für jedes Pixel berechnet der Knoten einen Graustufenwert entsprechend dem Medi
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant4A.png" alt="MedianFilter_Variant4A">
+      <img src="median-filter-grayscale.resources/MedianFilter_Variant4A.png" alt="MedianFilter_Variant4A">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant4B.png" alt="MedianFilter_Variant4B">
+      <img src="median-filter-grayscale.resources/MedianFilter_Variant4B.png" alt="MedianFilter_Variant4B">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -101,11 +101,11 @@ Für jedes Pixel berechnet der Knoten einen Graustufenwert entsprechend dem Medi
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant1A.png" alt="MedianFilter_Variant1A">
+      <img src="median-filter-grayscale.resources/MedianFilter_Variant1A.png" alt="MedianFilter_Variant1A">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant1B.png" alt="MedianFilter_Variant1B">
+      <img src="median-filter-grayscale.resources/MedianFilter_Variant1B.png" alt="MedianFilter_Variant1B">
       <br><i>Nach</i>
     </td>
   </tr>

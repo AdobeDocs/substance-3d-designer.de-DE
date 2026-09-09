@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mittlere Filterfarbe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
+source-git-commit: fca95f162552b0e651c7b590588b69c2c5f5a0c4
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Mittlere Filterfarbe: Symbol &#x200B;](../../../../../../assets/MedianFilter_Icon_Color.png "Mittlere Filterfarbe: Symbol ")
+![Mittlere Filterfarbe: Symbol &#x200B;](median-filter-color.resources/MedianFilter_Icon_Color.png "Mittlere Filterfarbe: Symbol ")
 
 <b>In:</b> Filters > Blurs
 
@@ -76,11 +76,11 @@ Für jedes Pixel berechnet der Knoten einen Farbwert entsprechend dem Mittelwert
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
+      <img src="median-filter-color.resources/MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
+      <img src="median-filter-color.resources/MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -89,11 +89,11 @@ Für jedes Pixel berechnet der Knoten einen Farbwert entsprechend dem Mittelwert
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant3A.png" alt="MedianFilter_Variant3A">
+      <img src="median-filter-color.resources/MedianFilter_Variant3A.png" alt="MedianFilter_Variant3A">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant3B.png" alt="MedianFilter_Variant3B">
+      <img src="median-filter-color.resources/MedianFilter_Variant3B.png" alt="MedianFilter_Variant3B">
       <br><i>Nach</i>
     </td>
   </tr>

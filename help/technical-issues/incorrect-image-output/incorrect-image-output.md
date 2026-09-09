@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Falsche Bildausgabe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Auf dieser Seite werden technische Probleme in Substance 3D Designer aufgelistet
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(Fehler)](incorrect-image-output.resources/error.svg) Problem**
+**![(Fehler)](../../assets/error.svg) Problem**
 
 Farbverläufe in der Bildausgabe werden gestuft anstelle von &quot;Glatt&quot; dargestellt. Der Schritt wird dadurch verursacht, dass der vom Bild verwendete Wertebereich *zu eng ist*.\
 Das bedeutet, dass nicht genügend Werte für einen fließenden Übergang von einem Schritt eines Verlaufs zum nächsten vorhanden sind.
@@ -43,13 +43,13 @@ Wenn Sie nicht speziell mit HDR-Bildern arbeiten müssen, geben die meisten Ihre
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](incorrect-image-output.resources/incorrect-image-output-01.png){width="256px"}![](incorrect-image-output.resources/incorrect-image-output-02.png){width="256px"}![](incorrect-image-output.resources/incorrect-image-output-03.png){width="256px"}
+![](../../assets/demo-stepping-8-bit.png){width="256px"}![](../../assets/demo-stepping-8-bit-2.png){width="256px"}![](../../assets/demo-stepping-8-bit-3.png){width="256px"}
 
 </td>
 </tr>
 </table>
 
-**![(tick)](incorrect-image-output.resources/check.svg) Empfohlene Schritte**
+**![(tick)](../../assets/check.svg) Empfohlene Schritte**
 
 Überprüfen Sie das **Ausgabeformat** (d. h. die Bittiefe) des Knotens und aller Knoten im Upstream, und stellen Sie sicher, dass dieser Knoten *mit einer Integer-Genauigkeit von mindestens 16 Bit verwendet*.
 
@@ -73,7 +73,7 @@ Beispiel:
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-<b>![(Fehler)](incorrect-image-output.resources/error.svg) Problem</b>
+<b>![(Fehler)](../../assets/error.svg) Problem </b>
 
 Die Qualität der von einem Substance 3D-Archiv (SBSAR) ausgegebenen Bilder ist deutlich niedriger als der Graf der Substance 3D-Datei, aus der sie veröffentlicht wird (siehe Abbildung rechts).\
 Die Ausgabe erscheint in niedriger Auflösung.
@@ -81,15 +81,15 @@ Die Ausgabe erscheint in niedriger Auflösung.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](incorrect-image-output.resources/incorrect-image-output-04.jpg){width="256px"}
+![](../../assets/issues-sbsar-bitmap-relative-to.jpg){width="256px"}
 
 </td>
 </tr>
 </table>
 
-<b>![(tick)](incorrect-image-output.resources/check.svg) Empfohlene Schritte</b>
+<b>![(tick)](../../assets/check.svg) Empfohlene Schritte</b>
 
-Stellen Sie sicher, dass die [Ausgabegröße](../../compositing-graphs/output-size/output-size.md)-Eigenschaft aller [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)-Knoten auf die *Absolute* [Vererbung-Methode](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) festgelegt ist.
+Stellen Sie sicher, dass die Eigenschaft [Ausgabegröße](../../compositing-graphs/output-size/output-size.md) aller [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)-Knoten auf die *Absolute* [Vererbungsmethode](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) festgelegt ist.
 
 Ist dies nicht der Fall, wird die referenzierte [Bitmapressource](../../resources/bitmap-resource/bitmap-resource.md) mit der Standardauflösung 256\*256 im veröffentlichten Substance 3D-Archiv gespeichert, was sich* auf die Qualität* einer oder mehrerer Ausgaben auswirkt.
 
@@ -99,20 +99,20 @@ Ist dies nicht der Fall, wird die referenzierte [Bitmapressource](../../resource
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(Fehler)](incorrect-image-output.resources/error.svg) Problem**
+**![(Fehler)](../../assets/error.svg) Problem**
 
 Formen werden nach Verwendung einiger Knoten leicht unscharf dargestellt, z. B. [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) oder [Überblendung](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md).
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](incorrect-image-output.resources/incorrect-image-output-05.jpg){width="256px"}
+![](../../assets/issues-bilinear.jpg){width="256px"}
 
 </td>
 </tr>
 </table>
 
-**![(tick)](incorrect-image-output.resources/check.svg) Empfohlene Schritte**
+**![(tick)](../../assets/check.svg) Empfohlene Schritte**
 
 Wenn Sie Pixel in einem Bild neu anordnen, z. B. wenn Sie die Größe einer Form ändern oder die Auflösung eines Bildes ändern, gibt es zwei Möglichkeiten zu bestimmen, wie Pixel aus der Quelle *dem Ziel zugeordnet werden sollen*:
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Werkzeuge zur Vektorbearbeitung.
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1850'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Bearbeitungen können *einzeln rückgängig gemacht werden*, und alle anderen Fu
 </td>
 <td style="border: 0;" valign="top">
 
-![](vector-editing-tools.resources/vector-editing-tools-01.png){width="512px"}
+![](../../../assets/2dview-vectorediting-main.png){width="512px"}
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ Bearbeitungen können *einzeln rückgängig gemacht werden*, und alle anderen Fu
 >
 > Sie können *nur* auf *8-Bit* [Vektorgrafikressourcen](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) malen, die [neu oder importiert](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources) sind.
 
-![Dialogfeld &quot;Neue SVG-Ressource&quot;](vector-editing-tools.resources/vector-editing-tools-02.png "Dialogfeld &quot;Neue SVG-Ressource&quot;"){width="512px"}
+![Dialogfeld &quot;Neue SVG-Ressource&quot;](../../../assets/2dview-new-vector-image.png "Dialogfeld &quot;Neue SVG-Ressource&quot;"){width="512px"}
 
 ## Aktivieren der Vektorbearbeitungswerkzeuge
 
@@ -87,7 +87,7 @@ Stellen Sie für optimale Kompatibilität und Zuverlässigkeit in Designer und d
 **Adobe Illustrator**-Benutzer können auf das angehängte Image für die empfohlenen SVG *Exporteinstellungen verweisen.*
 
 +++Exportoptionen für Adobe Illustrator
-![Illustrator-Exportoptionen für SVG](vector-editing-tools.resources/vector-editing-tools-03.png "Illustrator-Exportoptionen für SVG")
+![Illustrator-Exportoptionen für SVG](../../../assets/demo-svg.png "Illustrator-Exportoptionen für SVG")
 
 
 
@@ -109,7 +109,7 @@ Wenn die Vektorbearbeitungswerkzeuge aktiviert sind, werden zwei Symbolleisten a
 Tastaturbefehle ermöglichen einen schnellen Zugriff auf Werkzeuge und sind unterhalb zwischen Klammern nach dem Werkzeug-/Funktionsnamen gekennzeichnet:
 
 +++Farbauswahl
-Mit der ![](vector-editing-tools.resources/vector-editing-tools-04.png)![](vector-editing-tools.resources/vector-editing-tools-05.png) **Farbauswahl** *Miniaturansichten* können Sie eine *Flächenfarbe* und eine *Konturfarbe* für Vektorformen definieren. Sie können den **Farbeditor** für jede dieser Farben wie folgt öffnen:
+Mit der ![](../../../assets/2dview-paintingtools-icon-colors-primary.png)![](../../../assets/2dview-paintingtools-icon-colors-secondary.png) **Farbauswahl** *Miniaturansichten* können Sie eine *Flächenfarbe* und eine *Konturfarbe* für Vektorformen definieren. Sie können den **Farbeditor** für jede dieser Farben wie folgt öffnen:
 
 * **Füllfarbe:** Klicken Sie auf die Miniaturansicht der *Füllfarbe* (oben), oder doppelklicken Sie auf LMB auf der Arbeitsfläche.
 
@@ -122,11 +122,11 @@ Wenn die aktuelle *Konturfarbe* *Schwarz* ist - d. h. Luminanz 0 oder RGB (0, 0,
 +++
 
 +++Transformation
-![Transformationstool](vector-editing-tools.resources/vector-editing-tools-06.png "Transformationstool"){width="512px"}
+![Transformationstool](../../../assets/2dview-vectorediting-transformation.png "Transformationstool"){width="512px"}
 
 
 
-Das ![](vector-editing-tools.resources/vector-editing-tools-07.png)-Werkzeug <b>Transformation</b> (<b>V</b>) kann Formen auswählen, die dann in einem Transformations-Gizmo enthalten sind. Mit diesem Gizmo können Sie die folgenden Aktionen ausführen:
+Das ![](../../../assets/2dview-vectorediting-icon-transformation.png)-Werkzeug <b>Transformation</b> (<b>V</b>) kann Formen auswählen, die dann in einem Transformations-Gizmo enthalten sind. Mit diesem Gizmo können Sie die folgenden Aktionen ausführen:
 
 <b>Verschieben</b>: Klicken Sie auf das LMB *innerhalb des Gizmos* und halten Sie es gedrückt.
 
@@ -137,11 +137,11 @@ Das ![](vector-editing-tools.resources/vector-editing-tools-07.png)-Werkzeug <b>
 +++
 
 +++Knoten
-![Knotenwerkzeug](vector-editing-tools.resources/vector-editing-tools-08.png "Knotenwerkzeug"){width="512px"}
+![Knotenwerkzeug](../../../assets/2dview-vectorediting-node.png "Knotenwerkzeug"){width="512px"}
 
 
 
-Mit dem ![](vector-editing-tools.resources/vector-editing-tools-09.png) <b>Knoten</b>-Werkzeug (<b>A</b>) können Sie einzelne Scheitelpunkte (d. h. Knoten) der ausgewählten Form auswählen und ihre Position und Handles bearbeiten sowie Scheitelpunkte hinzufügen und entfernen. Nachdem eine Form ausgewählt wurde, können die folgenden Aktionen ausgeführt werden:
+Mit dem ![](../../../assets/2dview-vectorediting-icon-node.png) <b>Knoten</b>-Werkzeug (<b>A</b>) können Sie einzelne Scheitelpunkte (d. h. Knoten) der ausgewählten Form auswählen und ihre Position und Handles bearbeiten sowie Scheitelpunkte hinzufügen und entfernen. Nachdem eine Form ausgewählt wurde, können die folgenden Aktionen ausgeführt werden:
 
 <b>Scheitelpunkt hinzufügen:</b> Strg+LMB auf der Formenkontur
 
@@ -160,11 +160,11 @@ Mit dem ![](vector-editing-tools.resources/vector-editing-tools-09.png) <b>Knote
 +++
 
 +++Form
-![Formwerkzeug](vector-editing-tools.resources/vector-editing-tools-01.png "Formwerkzeug"){width="512px"}
+![Formwerkzeug](../../../assets/2dview-vectorediting-main.png "Formwerkzeug"){width="512px"}
 
 
 
-Das ![](vector-editing-tools.resources/vector-editing-tools-10.png)-Werkzeug <b>Formen</b> (<b>M</b>) bietet einen Satz von primitiven Formen unter Verwendung der aktuellen *Füllfarbe*, die aus erstellt und bearbeitet werden kann:
+Das ![](../../../assets/2dview-vectorediting-icons-shape.png)-Werkzeug <b>Formen</b> (<b>M</b>) bietet einen Satz von primitiven Formen unter Verwendung der aktuellen *Füllfarbe*, die aus erstellt und bearbeitet werden kann:
 
 * <b>Rechteck;</b>
 
@@ -179,11 +179,11 @@ Um eine Grundform zu zeichnen, halten Sie <b>LMB</b> an einer beliebigen Stelle 
 +++
 
 +++Füllhalter
-![Zeichenstift-Werkzeug](vector-editing-tools.resources/vector-editing-tools-11.png "Zeichenstift-Werkzeug"){width="512px"}
+![Zeichenstift-Werkzeug](../../../assets/2dview-vectorediting-pen.png "Zeichenstift-Werkzeug"){width="512px"}
 
 
 
-Mit dem ![](vector-editing-tools.resources/vector-editing-tools-12.png) <b>Zeichenstift</b>-Werkzeug (<b>P</b>) können Sie eine neue benutzerdefinierte Form mit der aktuellen *Füllfarbe* zeichnen. Es stehen zwei Modi zur Verfügung:
+Mit dem ![](../../../assets/2dview-vectorediting-icon-pen.png) <b>Zeichenstift</b>-Werkzeug (<b>P</b>) können Sie eine neue benutzerdefinierte Form mit der aktuellen *Füllfarbe* zeichnen. Es stehen zwei Modi zur Verfügung:
 
 Im Modus <b>Pfad </b> wird die Form *um jeweils einen Scheitelpunkt* gezeichnet. Die folgenden Steuerelemente sind verfügbar:
 
@@ -208,17 +208,17 @@ Scheitelpunkte werden *automatisch* entlang der Kontur platziert, sodass der res
 +++
 
 +++Extrudieren
-![Extrudieren-Werkzeug](vector-editing-tools.resources/vector-editing-tools-13.png "Extrudieren-Werkzeug"){width="512px"}
+![Extrudieren-Werkzeug](../../../assets/2dview-vectorediting-extrude.png "Extrudieren-Werkzeug"){width="512px"}
 
 
 
-Das ![](vector-editing-tools.resources/vector-editing-tools-14.png) **Extrudieren**-Werkzeug (E) *fügt eine Form mit einem* festgelegten Durchmesser *zusammen, die entlang eines Pfades mit dem ausgewählten* Zeichnungsmodus *gezeichnet wird, und wendet das Ergebnis auf der Arbeitsfläche nach dem in der Optionssymbolleiste festgelegten* Zusammenführungsmodus *an.*
+Das ![](../../../assets/2dview-vectorediting-icon-extrude.png) **Extrudieren**-Werkzeug (E) *fügt eine Form mit einem* festgelegten Durchmesser *zusammen, die entlang eines Pfades mit dem ausgewählten* Zeichnungsmodus *gezeichnet wird, und wendet das Ergebnis auf der Arbeitsfläche nach dem in der Optionssymbolleiste festgelegten* Zusammenführungsmodus *an.*
 
 Die folgenden *Zeichenmodi* sind verfügbar:
 
-![](vector-editing-tools.resources/vector-editing-tools-15.png) **Freiform**: zieht die Form *direkt, indem der Zeichenstift* bei gedrückter LMB-Taste über die Arbeitsfläche gezogen wird. Die Form wird am Ende der Kontur zusammengesetzt.
+![](../../../assets/2dview-vectorediting-icon-extrude-freeformpng.png) **Freiform**: zieht die Form *direkt, indem der Zeichenstift* bei gedrückter LMB-Taste über die Arbeitsfläche gezogen wird. Die Form wird am Ende der Kontur zusammengesetzt.
 
-![](vector-editing-tools.resources/vector-editing-tools-16.png) **Polygon**: zeichnet die Form *ein Gesicht nach dem anderen*, indem Sie auf LMB klicken, um einen Winkel hinzuzufügen. Die Form wird hinzugefügt, wenn Sie die Eingabetaste drücken.
+![](../../../assets/2dview-vectorediting-icon-extrude-polygonal.png) **Polygon**: zeichnet die Form *ein Gesicht nach dem anderen*, indem Sie auf LMB klicken, um einen Winkel hinzuzufügen. Die Form wird hinzugefügt, wenn Sie die Eingabetaste drücken.
 
 Die gezeichnete Form kann mit folgenden Parametern gesteuert werden:
 
@@ -228,19 +228,19 @@ Die gezeichnete Form kann mit folgenden Parametern gesteuert werden:
 
 Wenn die Zeichnung abgeschlossen ist, wird die Form hinzugefügt und mit der aktuell ausgewählten Form zusammengeführt. Verwenden Sie hierfür einen der folgenden verfügbaren *Zusammenführungsmodi*:
 
-![](vector-editing-tools.resources/vector-editing-tools-17.png) **Keine Zusammenführung**: Die Form wird *auf* der ausgewählten Form als *separates Objekt* gezeichnet.
+![](../../../assets/2dview-vectorediting-icon-extrude-nomerge.png) **Keine Zusammenführung**: Die Form wird *auf* der ausgewählten Form als *separates Objekt* gezeichnet.
 
-![](vector-editing-tools.resources/vector-editing-tools-18.png) **Union**: Die Form wurde *der ausgewählten Form hinzugefügt*.
+![](../../../assets/2dview-vectorediting-icon-extrude-union.png) **Union**: Die Form wurde *der ausgewählten Form hinzugefügt*.
 
-![](vector-editing-tools.resources/vector-editing-tools-19.png) **Subtraktion**: Die Form ist *Ausschnitt* der ausgewählten Form.
+![](../../../assets/2dview-vectorediting-icon-extrude-subtract.png) **Subtraktion**: Die Form ist *Ausschnitt* der ausgewählten Form.
 
-![](vector-editing-tools.resources/vector-editing-tools-20.png) **Schnittmenge**: Nur die *überlappenden* Teile der neuen und der ausgewählten Form bleiben erhalten.
+![](../../../assets/2dview-vectorediting-icon-extrude-intersection.png) **Schnittmenge**: Nur die *überlappenden* Teile der neuen und der ausgewählten Form bleiben erhalten.
 
 +++
 
 ## Formvorgänge
 
-![Formvorgänge](vector-editing-tools.resources/vector-editing-tools-21.png "Formvorgänge"){width="512px"}
+![Formvorgänge](../../../assets/2dview-vectorediting-shape-operations.png "Formvorgänge"){width="512px"}
 
 Zusätzlich zu den oben aufgeführten Tools können eine Reihe von Vorgängen für *ausgewählte Formen* mithilfe des Kontextmenüs durchgeführt werden, das beim Klicken auf RMB verfügbar ist. Diese Vorgänge verfügen fast alle über einen Tastaturbefehl (in Klammern unten) und sind in die folgenden Kategorien unterteilt:
 

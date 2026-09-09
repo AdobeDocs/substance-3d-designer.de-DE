@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Weiche Abschrägung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Anisotropes Kuwahara-Graustufen-Symbol](../../../../../../assets/bevel_smooth.png "Anisotropes Kuwahara-Graustufen-Symbol"){width="200px"}
+![Anisotropes Kuwahara-Graustufen-Symbol](bevel-smooth.resources/bevel_smooth.png "Anisotropes Kuwahara-Graustufen-Symbol"){width="200px"}
 
 <b>In:</b> Filters > Effects
 
@@ -77,9 +77,9 @@ Der Abstand des Verlaufs kann mithilfe eines Abstands-Map dynamisch entlang des 
 | <b>Maximale Entfernung</b> *Gleitend* | Der Dilatationsabstand im normierten Bildraum, wobei 1 die Länge der kürzeren Seite des Eingangsbildes ist. |
 | <b>Smoothness maskieren</b> *Gleitend* | Die Intensität der auf die Maske angewendeten Glättung.   Der Wert gibt den Radius der Weichzeichnung an und 1 Einheit entspricht 1/256 des Bildes. |
 | <b>Maskenoffset</b> *Gleitend* | Verschiebt die Maskenränder nach innen oder außen. |
-| <b>Maskenschwellenwert</b> *Gleitend* | Der Wert, der zum Erkennen der Ränder der Maske im Bild &quot;Maskeneingabe&quot; verwendet wird.   Werte über diesem Schwellenwert sind *innerhalb* der Maskenformen, während die folgenden Werte *außerhalb* sind. |
-| <b>Skalierung</b> *Float2* | Passt den horizontalen (X) und vertikalen (Y) Abstand der Erweiterung an.   Diese Werte sind Multiplikatoren für den Parameterwert &quot;Maximale Entfernung&quot;. |
-| <b>Abstands-Map-Multiplikator</b> *Integer* | Passt die Auswirkung des Abstands-Map auf die &quot;Maximale Entfernung&quot; an. |
+| <b>Maskenschwellenwert</b> *Fließkommazahl* | Der Wert, der zum Erkennen der Ränder der Maske im Bild &quot;Maskeneingabe&quot; verwendet wird.   Werte über diesem Schwellenwert sind *innerhalb* der Maskenformen, während die folgenden Werte *außerhalb* sind. |
+| <b>Skalierung</b> *Fließkommazahl2* | Passt den horizontalen (X) und vertikalen (Y) Abstand der Ausdehnung an.   Diese Werte sind Multiplikatoren für den Parameterwert &quot;Maximale Entfernung&quot;. |
+| <b>Abstands-Map-Multiplikator</b> *Ganzzahl* | Passt die Auswirkung des Abstands-Map auf die &quot;Maximale Entfernung&quot; an. |
 
 ## Beispiele
 
@@ -87,12 +87,12 @@ Der Abstand des Verlaufs kann mithilfe eines Abstands-Map dynamisch entlang des 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Weiche Abschrägung: Beispiel 1](../../../../../../assets/bevel_smooth_example_1.gif "Weiche Abschrägungen: Beispiel 1"){width="1024px" zoomable="yes"}
+![Weiche Abschrägung: Beispiel 1](bevel-smooth.resources/bevel_smooth_example_1.gif "Weiche Abschrägungen: Beispiel 1"){width="1024px" zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Weiche Abschrägung: Beispiel 8](../../../../../../assets/bevel_smooth_example_8.jpg "Weiche Abschrägungen: Beispiel 8"){width="1024px" zoomable="yes"}
+![Weiche Abschrägung: Beispiel 8](bevel-smooth.resources/bevel_smooth_example_8.jpg "Weiche Abschrägungen: Beispiel 8"){width="1024px" zoomable="yes"}
 
 </td>
 </tr>
@@ -105,11 +105,11 @@ Der Abstand des Verlaufs kann mithilfe eines Abstands-Map dynamisch entlang des 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_4_before.jpg" alt="bevel_smooth_example_4_before">
+      <img src="bevel-smooth.resources/bevel_smooth_example_4_before.jpg" alt="bevel_smooth_example_4_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_4_after.jpg" alt="bevel_smooth_example_4_after">
+      <img src="bevel-smooth.resources/bevel_smooth_example_4_after.jpg" alt="bevel_smooth_example_4_after">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -121,11 +121,11 @@ Der Abstand des Verlaufs kann mithilfe eines Abstands-Map dynamisch entlang des 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_2_before.jpg" alt="bevel_smooth_example_2_before">
+      <img src="bevel-smooth.resources/bevel_smooth_example_2_before.jpg" alt="bevel_smooth_example_2_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_2_after.jpg" alt="bevel_smooth_example_2_after">
+      <img src="bevel-smooth.resources/bevel_smooth_example_2_after.jpg" alt="bevel_smooth_example_2_after">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -142,11 +142,11 @@ Der Abstand des Verlaufs kann mithilfe eines Abstands-Map dynamisch entlang des 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_3_before.jpg" alt="bevel_smooth_example_3_before">
+      <img src="bevel-smooth.resources/bevel_smooth_example_3_before.jpg" alt="bevel_smooth_example_3_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_3_after.jpg" alt="bevel_smooth_example_3_after">
+      <img src="bevel-smooth.resources/bevel_smooth_example_3_after.jpg" alt="bevel_smooth_example_3_after">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -158,11 +158,11 @@ Der Abstand des Verlaufs kann mithilfe eines Abstands-Map dynamisch entlang des 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_5_before.jpg" alt="bevel_smooth_example_5_before">
+      <img src="bevel-smooth.resources/bevel_smooth_example_5_before.jpg" alt="bevel_smooth_example_5_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_5_after.jpg" alt="bevel_smooth_example_5_after">
+      <img src="bevel-smooth.resources/bevel_smooth_example_5_after.jpg" alt="bevel_smooth_example_5_after">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -175,11 +175,11 @@ Der Abstand des Verlaufs kann mithilfe eines Abstands-Map dynamisch entlang des 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_7_before.jpg" alt="bevel_smooth_example_7_before">
+      <img src="bevel-smooth.resources/bevel_smooth_example_7_before.jpg" alt="bevel_smooth_example_7_before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_7_after.jpg" alt="bevel_smooth_example_7_after">
+      <img src="bevel-smooth.resources/bevel_smooth_example_7_after.jpg" alt="bevel_smooth_example_7_after">
       <br><i>Nach</i>
     </td>
   </tr>
