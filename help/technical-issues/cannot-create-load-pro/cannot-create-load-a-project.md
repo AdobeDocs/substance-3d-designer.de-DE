@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
 breadcrumb-title: ''
 description: Beheben Sie Probleme beim Erstellen oder Laden von Projekten in Substance 3D Designer und suchen Sie nach Lösungen.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Projekt kann nicht erstellt und geladen werden
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ Auf dieser Seite werden häufige Ursachen für das Fehlschlagen beim Erstellen o
 
 ## Anwendung ist zu alt zum Öffnen einer URL
 
-**![(Fehler)](cannot-create-load-a-project.resources/error.svg) Problem**
+**![(Fehler)](../../assets/error.svg) Problem**
 
 Die **Substance 3D-Datei (SBS)** wird von einer Substance 3D Designer-Version geladen, die das Format *nicht unterstützt*. Die Substance 3D-Datei wurde wahrscheinlich *in einer neueren Version* der Software gespeichert, die ein aktualisiertes Format für diese Dateien verwendet.
 
-**![(tick)](cannot-create-load-a-project.resources/check.svg) Empfohlene Schritte**
+**![(tick)](../../assets/check.svg) Empfohlene Schritte**
 
 Mit der Weiterentwicklung von Substance 3D Designer gilt dasselbe für das Substance 3D-Dateiformat (SBS). Oft muss eine neue Version der Software *Ihre Dateien* aktualisieren, damit sie die neuesten Funktionen unterstützen können.
 
@@ -38,12 +38,12 @@ Sie werden *aufgefordert*, diese Aktualisierung durchzuführen, wenn *die Datei 
 >
 > Wenn die Datei &quot;*&quot; nach &quot;*&quot; gespeichert wurde, wurde die Aktualisierung angewendet, und auch die Formatversion ändert sich. Zu diesem Zeitpunkt kann &quot;*&quot; nicht mehr in vorherigen Substance 3D Designer-Versionen &quot;*&quot; geladen werden.
 > 
-> Diese Einschränkung gilt auch für die [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html).
+> Diese Einschränkung gilt auch für den [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html).
 
 Überprüfen Sie zunächst, ob Sie die neueste Version von Substance 3D Designer verwenden, die Ihre aktuelle Lizenz zulässt. Hier finden Sie die Punkte, an denen Sie auf die Updates für jede Edition zugreifen können:
 
 * <b>Adobe Substance 3D-Abonnement:</b> Wechseln Sie zum Abschnitt Updates der Registerkarte Apps in der Anwendung [Adobe Creative Cloud Desktop](https://creativecloud.adobe.com/en/apps/download/creative-cloud)
-* <b>[Substance3d.com](http://Substance3d.com)-Abonnement:</b>-Update, wenn Sie in Substance 3D Designer dazu aufgefordert werden, oder laden Sie das neueste Installationsprogramm im Abschnitt [Meine Lizenzen](https://store.substance3d.com/user) der [Substance3d.com](http://substance3d.com)-Website herunter.
+* <b>[Substance3d.com](http://Substance3d.com)-Abonnement:</b> Aktualisieren Sie, wenn Sie in Substance 3D Designer dazu aufgefordert werden, oder laden Sie das neueste Installationsprogramm im Abschnitt [Meine Lizenzen](https://store.substance3d.com/user) der [Substance3d.com](http://substance3d.com)-Website herunter.
 * <b>Steam:</b> Die Anwendung wird standardmäßig automatisch aktualisiert. Sie können die Aktualisierung manuell auslösen, indem Sie Substance 3D Designer starten oder den Bildschirm &quot;Downloads&quot; aufrufen
 
 >[!WARNING]
@@ -54,7 +54,7 @@ Sie werden *aufgefordert*, diese Aktualisierung durchzuführen, wenn *die Datei 
 
 ## Absturz beim Erstellen oder Laden eines Projekts
 
-<b>![(Fehler)](cannot-create-load-a-project.resources/error.svg) Problem</b>
+<b>![(Fehler)](../../assets/error.svg) Problem </b>
 
 Ein Absturz beim Erstellen oder Laden eines Projekts wird häufig durch einen Fehler bei der Initialisierung der [3D-Ansicht](../../interface/3d-view/3d-view.md) verursacht, der beim Einrichten des Arbeitsbereichs auftritt.
 
@@ -62,7 +62,7 @@ Wenn das System ein Laptop ist, erzwingt eine Drittanbieteranwendung möglicherw
 
 Ein Absturz kann auch auftreten, wenn die *Anzeigekonfiguration oder Skalierung* zwischen den Sitzungen geändert wurde, sodass der 3D-Ansicht-Renderframe an ungültigen Koordinaten erstellt wird.
 
-<b>![(tick)](cannot-create-load-a-project.resources/check.svg) Empfohlene Schritte</b>
+<b>![(tick)](../../assets/check.svg) Empfohlene Schritte</b>
 
 In Anbetracht der verschiedenen möglichen Ursachen für diesen Absturz empfehlen wir, die folgenden Schritte zur Fehlerbehebung in der angegebenen Reihenfolge auszuführen:
 
@@ -127,17 +127,17 @@ Trennen Sie den zweiten Monitor von Ihrem System, und verbinden Sie ihn wieder (
 
 Starten Sie Designer, aber erstellen oder öffnen Sie *kein* Projekt.
 
-* Öffnen Sie in der oberen Leiste das Menü <b>Windows</b> und wählen Sie die Option <b>Neue 3D-Ansicht</b> aus.
+* Öffnen Sie in der oberen Leiste das Menü <b>Windows</b> und wählen Sie die Option <b>Neue 3D-Ansichten</b> aus.
 
-Öffnen Sie in der oberen Leiste das Menü <b>Windows</b> und wählen Sie die Option <b>Neue 3D-Ansicht</b> aus.
+Öffnen Sie in der oberen Leiste das Menü <b>Windows</b> und wählen Sie die Option <b>Neue 3D-Ansichten</b> aus.
 
-* Überprüfen Sie, ob die <b>3D-Ansicht</b> korrekt initialisiert ist, und probieren Sie verschiedene Vorschaugitter im Menü <b>Szene</b> in der oberen Leiste des Bedienfelds aus.
+* Überprüfen Sie, ob die <b>3D-Ansicht</b> richtig initialisiert ist, und versuchen Sie es mit verschiedenen Vorschau-Meshs im Menü <b>Szene</b> in der oberen Leiste des Bedienfelds.
 
-Überprüfen Sie, ob die <b>3D-Ansicht</b> korrekt initialisiert ist, und probieren Sie verschiedene Vorschaugitter im Menü <b>Szene</b> in der oberen Leiste des Bedienfelds aus.
+Überprüfen Sie, ob die <b>3D-Ansicht</b> richtig initialisiert ist, und versuchen Sie es mit verschiedenen Vorschau-Meshs im Menü <b>Szene</b> in der oberen Leiste des Bedienfelds.
 
-* Erstellen oder Öffnen von Materialien
+* Material erstellen oder öffnen
 
-Erstellen oder Öffnen von Materialien
+Material erstellen oder öffnen
 
 +++
 

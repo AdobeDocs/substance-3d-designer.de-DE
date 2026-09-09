@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/version-13-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-0.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Designer 13.0, um mehr über die neuen Knoten, Substance Engine 9.0 und Portalknoten zu erfahren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 13.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 2%
@@ -20,13 +20,13 @@ ht-degree: 2%
 
 # Version 13.0
 
-Diese Version 13.0.0 von Substance 3D Designer bringt viel Liebe zu Material-Künstlern, mit einer großen Anzahl von neuen Knoten, das Substance Engine 9.0 Einführung von Loops zum ersten Mal und mit einer großartigen Ergänzung des Grafen: den Portalknoten an. Und um mehr Benutzern gefallen zu können, stellen wir einen brandneuen Startbildschirm vor und bieten zusätzliche Sprachen an.
+Diese Version 13.0.0 von Substance 3D Designer bringt viel Liebe zu Materialkünstlern mit einer riesigen Anzahl neuer Knoten, dem Substance Engine 9.0, das zum ersten Mal Schleifen einführt und eine großartige Ergänzung der Grafik darstellt: den Portalknoten an. Und um mehr Benutzern gefallen zu können, stellen wir einen brandneuen Startbildschirm vor und bieten zusätzliche Sprachen an.
 
-Wie in der vorherigen Version erwähnt, unterstützt diese Version keine Substance-Modellgrafiken mehr: Das bedeutet, dass Sie solche Graf nicht mehr in Designer öffnen, bearbeiten oder exportieren können. Alle Gründe, warum wir diese Entscheidung getroffen haben, finden Sie in diesem [Beitrag](https://community.adobe.com/t5/substance-3d-designer-discussions/substance-model-graphs-end-of-life/td-p/13693731) in unserem Community-Forum.
+Wie bereits in der Vorgängerversion erwähnt, unterstützt diese Version keine Substance-Modellgrafiken mehr: Das bedeutet, dass Sie solche Diagramme nicht mehr in Designer öffnen, bearbeiten oder exportieren können. Alle Gründe, warum wir diese Entscheidung getroffen haben, finden Sie in diesem [Beitrag](https://community.adobe.com/t5/substance-3d-designer-discussions/substance-model-graphs-end-of-life/td-p/13693731) in unserem Community-Forum.
 
 *Freigabedatum: 6. Juni 2023*
 
-![Material mit Pfaden](version-13-0.resources/version-13-0-01.png "Material mit Pfaden")
+![Material mit Pfaden](../../assets/Paths2.png "Material mit Pfaden")
 
 *Bildmaterial von [Celine Dameron](https://www.artstation.com/cline)*
 
@@ -39,7 +39,7 @@ Diese Version 13.0 bringt eine Menge neuer Inhalte. Sie finden hauptsächlich zw
 
 All diese Nodes bieten eine Menge Möglichkeiten und sie werden sicherlich eine Menge kreativer Anwendungen haben. Lesen Sie den Abschnitt über [das Arbeiten mit Pfaden und Spline-Werkzeugen](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md), um sich einen Überblick über die wichtigen Konzepte zu verschaffen, die Sie verstehen müssen, um sich mit diesem Toolset vertraut zu machen.
 
-![Material mit Splines](version-13-0.resources/version-13-0-02.png "Material mit Splines")
+![Material mit Splines](../../assets/Splines.png "Material mit Splines")
 
 *Bildmaterial von [Louise Melin](https://www.artstation.com/troglodette)*
 
@@ -61,22 +61,22 @@ Sie können auch <b>Brücken </b> zwischen Splines erstellen, um einen vollstän
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Spline Cubic](version-13-0.resources/version-13-0-03.gif "Spline Cubic")
+![Spline Cubic](../../assets/SplineCubic-Demo.gif "Spline Cubic")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline Poly Quadratic](version-13-0.resources/version-13-0-04.gif "Spline Poly Quadratic")
+![Spline Poly Quadratic](../../assets/SplinePolyQuadratic-Demo.gif "Spline Poly Quadratic")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline Circle](version-13-0.resources/version-13-0-05.gif "Spline Circle")
+![Spline Circle](../../assets/SplineCircle-Demo.gif "Spline Circle")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline Bridge-Liste](version-13-0.resources/version-13-0-06.gif "Spline Bridge-Liste")
+![Spline Bridge-Liste](../../assets/SplineBridge-List_Demo.gif "Spline Bridge-Liste")
 
 </td>
 </tr>
@@ -94,17 +94,17 @@ Wir bieten auch Tools an, mit denen Sie Ihre Splines nachbearbeiten und optimier
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![2D-Spline-Transformation](version-13-0.resources/version-13-0-07.gif "2D-Spline-Transformation")
+![2D-Spline-Transformation](../../assets/Spline2DTransform-Demo1.gif "2D-Spline-Transformation")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline-Verkrümmung](version-13-0.resources/version-13-0-08.gif "Spline-Verkrümmung")
+![Spline-Verkrümmung](../../assets/SplineWarp-Demo.gif "Spline-Verkrümmung")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline-Beispiel-Thickness](version-13-0.resources/version-13-0-09.gif "Spline-Beispiel-Thickness")
+![Spline-Beispiel-Thickness](../../assets/SplineSampleThickness-Demo.gif "Spline-Beispiel-Thickness")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -125,22 +125,22 @@ Dank [Spline Fill](../../compositing-graphs/nodes-reference-for-com/node-library
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Streuung auf Spline-Graustufen](version-13-0.resources/version-13-0-10.gif "Streuung auf Spline-Graustufen")
+![Streuung auf Spline-Graustufen](../../assets/ScatterOnSplineGrayscale-Demo.gif "Streuung auf Spline-Graustufen")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline-Füllung](version-13-0.resources/version-13-0-11.gif "Spline-Füllung")
+![Spline-Füllung](../../assets/SplineFill-Demo.gif "Spline-Füllung")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline-Zuordnungsfarbe](version-13-0.resources/version-13-0-12.gif "Spline-Zuordnungsfarbe")
+![Spline-Zuordnungsfarbe](../../assets/SplineMapperColor-Demo.gif "Spline-Zuordnungsfarbe")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline-Flusszuordnung](version-13-0.resources/version-13-0-13.gif "Spline-Flusszuordnung")
+![Spline-Flusszuordnung](../../assets/SplineFlowMapper-Demo.gif "Spline-Flusszuordnung")
 
 </td>
 </tr>
@@ -156,12 +156,12 @@ Sie können diese Pfade dann mit den Knoten [Pfad 2D Transformieren](../../compo
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Zu Pfaden maskieren](version-13-0.resources/version-13-0-14.gif "Zu Pfaden maskieren")
+![Zu Pfaden maskieren](../../assets/MaskToPaths-Demo2.gif "Zu Pfaden maskieren")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Maske zu Pfaden 2](version-13-0.resources/version-13-0-15.gif "Maske zu Pfaden 2")
+![Maske zu Pfaden 2](../../assets/MaskToPaths-Demo1.gif "Maske zu Pfaden 2")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -205,7 +205,7 @@ Dank dieser Funktion können Sie die Lesbarkeit von Grafen verbessern, indem Sie
 
 Diese neue Funktion wird in diesem dedizierten [Tutorial](https://www.adobe.com/go/designer-tutorial-portals) ausführlich erläutert.
 
-![Portal-Knoten](version-13-0.resources/version-13-0-16.gif "Portal-Knoten")
+![Portal-Knoten](../../assets/PortalNodeFinal.gif "Portal-Knoten")
 
 ## Startbildschirm
 
@@ -216,9 +216,9 @@ Wenn Sie Designer starten, wissen Sie, dass Sie Zugriff auf einen brandneuen [St
 * Eine Trainingsseite, auf der Sie einen Link zu Lernressourcen finden, z. B. Tutorials zur Einführung in neue Funktionen oder kurze Tipps;
 * Direkte Links zum Bildschirm &quot;Neue Funktionen&quot;, zum Bildschirm &quot;Info&quot;, zur Substance 3D-Website, zum Support-Community-Forum usw.
 
-![Startbildschirm - Startseite](version-13-0.resources/version-13-0-17.png "Startbildschirm - Startseite")
+![Startbildschirm - Startseite](../../assets/HomeScreen.png "Startbildschirm - Startseite")
 
-![Startbildschirm - Training](version-13-0.resources/version-13-0-18.png "Startbildschirm - Training")
+![Startbildschirm - Training](../../assets/LearnPage.png "Startbildschirm - Training")
 
 ## Neue Sprachen
 

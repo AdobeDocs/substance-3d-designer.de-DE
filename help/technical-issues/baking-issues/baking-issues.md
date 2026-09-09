@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/technical-issues/baking-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/baking-issues.html"
 breadcrumb-title: ''
 description: Hier finden Sie Schritte zur Fehlerbehebung für technische Probleme im Zusammenhang mit dem Backen von Texturen in Substance 3D Designer.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Backprobleme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ Auf dieser Seite werden technische Probleme im Zusammenhang mit [Backtexturen](.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>![(Fehler)](baking-issues.resources/error.svg) Problem</b>
+<b>![(Fehler)](../../assets/error.svg) Problem </b>
 
 Wenn die Option &quot;Abgleich&quot; auf &quot;Nach Gitternamen&quot; festgelegt ist, wird die Zuordnung anscheinend nicht oder nicht konsistent auf alle Szenenobjekte angewendet.
 
-<b>![(tick)](baking-issues.resources/check.svg) Empfohlene Schritte</b>
+<b>![(tick)](../../assets/check.svg) Empfohlene Schritte</b>
 
 In Designer 14.1 und niedriger wurden Objekte mit niedrigem Poly- und hohem Poly-Wert mit dem Namen ihrer *übergeordneten* Objekte abgeglichen - in den meisten Fällen ihrer übergeordneten Transformation.
 
@@ -45,7 +45,7 @@ Seit Designer 15.0 wird der Name der *Geometrie*-Objekte direkt verwendet.
 </td>
 <td style="border: 0;" valign="top">
 
-![Geometry-Objekt und übergeordnetes Objekt im Szenenbaum](baking-issues.resources/baking-issues-01.png "Geometry-Objekt und übergeordnetes Objekt im Szenenbaum"){zoomable="yes"}
+![Geometry-Objekt und übergeordnetes Objekt im Szenenbaum](../../assets/sceneTree_objectsName.png "Geometry-Objekt und übergeordnetes Objekt im Szenenbaum"){zoomable="yes"}
 
 </td>
 </tr>
