@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/replace-color.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/replace-color.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Farbe ersetzen", um bestimmte Farben in Texturen durch neue Farben für Farbkorrekturen und Anpassungen zu ersetzen.
 helpx_creative_field: ""
