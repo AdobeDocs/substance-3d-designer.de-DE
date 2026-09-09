@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/3d-texture-offset.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/3d-texture-offset.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Versatzknoten für 3D-Texturen, um Texturen im 3D-Raum zu versetzen und so Parallaxeffekte und Oberflächenvariationen zu erzeugen.
 helpx_creative_field: ""
