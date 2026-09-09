@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-grayscale.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Graustufen quantisieren", um die Anzahl der Graustufen für Posterisierungseffekte zu reduzieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Graustufen quantisieren
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: fca95f162552b0e651c7b590588b69c2c5f5a0c4
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Symbol &quot;Graustufen quantisieren&quot;](../../../../../../assets/quantize-grayscale.png "Symbol &quot;Graustufen quantisieren&quot;"){width="200px"}
+![Symbol &quot;Graustufen quantisieren&quot;](quantize-grayscale.resources/quantize-grayscale.png "Symbol &quot;Graustufen quantisieren&quot;"){width="200px"}
 
 <b>In:</b> Filters > Adjustments
 
@@ -52,6 +52,6 @@ Erzeugt einen einzelnen Spline-Effekt in Form eines Kreises.
 
 ## Beispiele
 
-![Beispiel 1](../../../../../../assets/quantizegrayscale.gif "Beispiel 1")
+![Beispiel 1](quantize-grayscale.resources/quantizegrayscale.gif "Beispiel 1")
 
-![Beispiel 2](../../../../../../assets/quantizegrayscale.png "Beispiel 2")
+![Beispiel 2](quantize-grayscale.resources/quantizegrayscale.png "Beispiel 2")

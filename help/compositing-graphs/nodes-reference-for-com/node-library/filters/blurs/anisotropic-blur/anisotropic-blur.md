@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/anisotropic-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/anisotropic-blur.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Anisotropischer Weichzeichner", um Richtungseffekte zum Erstellen von Bewegungsunschärfe- und Streueffekten anzuwenden.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Anisotropischer Weichzeichner
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
+source-git-commit: fca95f162552b0e651c7b590588b69c2c5f5a0c4
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 8%
@@ -24,9 +24,9 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/anisotropic-blur-grayscale.png){width="128px"}
+![](anisotropic-blur.resources/anisotropic-blur-grayscale.png){width="128px"}
 
-![](../../../../../../assets/anisotropic-blur.png){width="128px"}
+![](anisotropic-blur.resources/anisotropic-blur.png){width="128px"}
 
 <b>In:</b> Filters > Blurs
 
@@ -59,7 +59,7 @@ Wichtig: Achten Sie darauf, die passende Version für Ihre Eingabe zu verwenden!
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/aniso-blur-example.gif" />
+            <img src="anisotropic-blur.resources/aniso-blur-example.gif" />
         </td>
     </tr>
 </table>

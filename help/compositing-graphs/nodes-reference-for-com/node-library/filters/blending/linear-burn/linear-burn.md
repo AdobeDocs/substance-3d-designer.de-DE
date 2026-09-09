@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/linear-burn.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/linear-burn.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Linear nachbelichten", um Texturen mithilfe des Modus "Linear nachbelichten" zu überblenden und so Abdunkel- und Kontrasteffekte zu erzeugen.
+description: Verwenden Sie den Linear nachbelichten-Knoten, um Texturen mithilfe des linearen Brennmodus zu überblenden, um Dunkel- und Kontrasteffekte zu erzeugen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Linear Burn
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Linear nachbelichten
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
+source-git-commit: fca95f162552b0e651c7b590588b69c2c5f5a0c4
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 10%
@@ -24,7 +24,7 @@ ht-degree: 10%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/linear-burn.png){width="128px"}
+![](linear-burn.resources/linear-burn.png){width="128px"}
 
 <b>In:</b> Filters > Blending
 
@@ -33,7 +33,7 @@ ht-degree: 10%
 
 ## Beschreibung
 
-Führt eine lineare Überblendung durch. Die mathematische Formel lautet Vordergrund + Hintergrund - 1.
+Führt eine Linear nachbelichten-Überblendung durch. Die mathematische Formel lautet Vordergrund + Hintergrund - 1.
 
 </td>
 </tr>
@@ -56,4 +56,4 @@ Führt eine lineare Überblendung durch. Die mathematische Formel lautet Vorderg
 |  |  |
 |:---|:---|
 | <b>Deckkraft</b> <i>0.0 - 1.0</i> | Füllmethode Deckkraft zwischen Vorder- und Hintergrund. |
-| <b>Alpha-Überblendung</b> <i>False/True</i> | Blendet die Alphakanäle für Vorder- und Hintergrund ein bzw. aus. Wenn der Wert auf &quot;Falsch&quot; gesetzt ist, wird der Alphakanal des Vordergrunds ignoriert. |
+| <b>Alpha-Überblendung</b> <i>False/True</i> | Schaltet die Füllmethode für den Vorder- und Hintergrund-Alphakanal um. Wenn der Wert auf &quot;Falsch&quot; gesetzt ist, wird der Alphakanal des Vordergrunds ignoriert. |
