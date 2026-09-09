@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-render.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Histogramm rendern , um Histogrammdaten als Textur für die Analyse und das Debuggen zu visualisieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rendern von Histogrammen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 25c39c29f26db98b103665dba13e7619ed624d0b
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Anisotropes Kuwahara-Graustufen-Symbol](../../../../../../assets/histogram_render.png "Anisotropes Kuwahara-Graustufen-Symbol"){width="200px"}
+![Anisotropes Kuwahara-Graustufen-Symbol](histogram-render.resources/histogram_render.png "Anisotropes Kuwahara-Graustufen-Symbol"){width="200px"}
 
 <b>In:</b> Filters > Adjustments
 
@@ -69,6 +69,6 @@ Zeichnet das Histogramm für ein Graustufenbild.
 
 ## Beispiele
 
-![Histogramm-Rendering: Beispiel 1](../../../../../../assets/histogram_render_example_1.png "Histogramm-Rendering: Beispiel 1"){zoomable="yes"}
+![Histogramm-Rendering: Beispiel 1](histogram-render.resources/histogram_render_example_1.png "Histogramm-Rendering: Beispiel 1"){zoomable="yes"}
 
-![Histogramm-Rendering: Beispiel 2](../../../../../../assets/histogram_render_example_2.png "Histogramm-Rendering: Beispiel 2"){zoomable="yes"}
+![Histogramm-Rendering: Beispiel 2](histogram-render.resources/histogram_render_example_2.png "Histogramm-Rendering: Beispiel 2"){zoomable="yes"}

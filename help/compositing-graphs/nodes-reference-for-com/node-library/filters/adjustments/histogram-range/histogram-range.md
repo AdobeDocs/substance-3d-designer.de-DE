@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-range.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-range.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Histogrammbereich", um Texturwerte auf der Grundlage von Histogrammbereichen für Farbkorrekturen und Anpassungen neu zuzuordnen.
+description: Verwenden Sie den Knoten "Histogrammbereich", um Texturen auf der Grundlage von Histogrammbereichen für Farbkorrekturen und Korrekturen neu zuzuordnen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Range
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Histogrammbereich
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 25c39c29f26db98b103665dba13e7619ed624d0b
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-range-1.png){width="128px"}
+![](histogram-range.resources/histogram-range-1.png){width="128px"}
 
 <b>In:</b> Filters > Adjustments
 
@@ -56,7 +56,7 @@ Weitere, nützlichere Möglichkeiten zum Neuzuordnen des Bereichs finden Sie unt
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/histogram-range.gif" />
+            <img src="histogram-range.resources/histogram-range.gif" />
         </td>
     </tr>
 </table>
