@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Verformen -Knoten, um Verzerrung-Effekte auf Texturen zum Erstellen von Verformen- und Versatz-Effekten anzuwenden.
 helpx_creative_field: ""
