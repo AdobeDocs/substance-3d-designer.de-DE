@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/non-uniform-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/non-uniform-blur.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Uneinheitlicher Weichzeichner", um einen Weichzeichner mit unterschiedlichen Intensitäten in X- und Y-Richtungen anzuwenden und so anisotrope Effekte zu erzielen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Uneinheitlicher Weichzeichner
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
+source-git-commit: 5efb14d81ad72b1982785319e446d7eb318c9a03
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 9%
@@ -24,9 +24,9 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/non-uniform-blur-grayscale.png){width="128px"}
+![](non-uniform-blur.resources/non-uniform-blur-grayscale.png){width="128px"}
 
-![](../../../../../../assets/non-uniform-blur.png){width="128px"}
+![](non-uniform-blur.resources/non-uniform-blur.png){width="128px"}
 
 <b>In:</b> Filters > Blurs
 
@@ -67,7 +67,7 @@ Führt einen Weichzeichner mit hoher Qualität durch, bei dem die Intensität du
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            Das Beispiel <img src="../../../../../../assets/nonuniform-example.gif" /><br><i>Unten wird von einer Verlaufsrampe (bei 90 Grad) im Steckplatz "Weichzeichnermatrix" gesteuert.</i>
+            Das Beispiel <img src="non-uniform-blur.resources/nonuniform-example.gif" /><br><i>Unten wird von einer Verlaufsrampe (bei 90 Grad) im Steckplatz "Weichzeichnermatrix" gesteuert.</i>
         </td>
     </tr>
 </table>
