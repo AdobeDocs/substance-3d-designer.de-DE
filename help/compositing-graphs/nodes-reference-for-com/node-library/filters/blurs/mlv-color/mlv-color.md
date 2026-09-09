@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![MLV-Farbe: Symbol ](mlv-color.resources/MLV_Color_Icon.png "MLV-Farbe: Symbol ")
+![MLV-Farbe: Symbol &#x200B;](mlv-color.resources/MLV_Color_Icon.png "MLV-Farbe: Symbol ")
 
 <b>In:</b> Filters > Blurs
 
