@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-range.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-range.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Histogrammbereich", um Texturen auf der Grundlage von Histogrammbereichen für Farbkorrekturen und Korrekturen neu zuzuordnen.
 helpx_creative_field: ""
