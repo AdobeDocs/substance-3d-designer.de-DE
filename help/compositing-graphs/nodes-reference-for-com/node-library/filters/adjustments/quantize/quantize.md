@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Farbe quantisieren", um die Anzahl der Farben in Texturen für die Erstellung posterisierter und stilisierter Effekte zu reduzieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Farbe quantisieren (einfach)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 7f15827b198bfbc133601581dc54ed894e98d89d
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Symbol &quot;Farbe quantisieren&quot;](../../../../../../assets/quantize.png "Symbol &quot;Farbe quantisieren&quot;"){width="200px"}
+![Symbol &quot;Farbe quantisieren&quot;](quantize.resources/quantize.png "Symbol &quot;Farbe quantisieren&quot;"){width="200px"}
 
 <b>In:</b> Filters > Adjustments
 
