@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click/bitmap-to-material-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click/bitmap-to-material-light.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Bitmap zu Materiallicht", um Bitmapbilder schnell in Materialien mit optimierter Beleuchtung für schnelle Workflows zu konvertieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bitmap in Materiallicht
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/b2m-light.png)
+![](bitmap-to-material-light.resources/b2m-light.png)
 
 <b>In:</b> Materialfilter > 1-Click
 
@@ -71,15 +71,15 @@ Obwohl nicht garantiert, dass perfekte, PBR-korrekte Materialien entstehen, ist 
 | <b>Specular level in </b> <i>0.0 - 1.0</i> | Legt die Eingangspegel für die Interpretation des Specular fest. |
 | <b>Specular level versendet</b> <i>0.0 - 1.0</i> | Ändert die Ausgangspegel des Speculars. |
 | <b>Metallic Specular-Einfluss</b> <i>0.0 - 1.0</i> | Bestimmt den Einfluss des optionalen Metallic Eingangs auf die Specular-Map. |
-| <b>Glossarität</b> |  |
+| <b>Glanz</b> |  |
 | <b>Glanz-Stufen in </b> <i>0.0 - 1.0</i> | Legt die Eingangspegel für die Interpretation des Glanzes fest. |
 | <b>Glanz-Levels ausgehend</b> <i>0.0 - 1.0</i> | Ändert die Glanz-Ausgangspegel. |
 | <b>Metallic Glanz </b> <i>0.0 - 1.0</i> | Bestimmt den Einfluss der optionalen Metallic Eingabe auf die Glanz-Map. |
-| <b>Raueit</b> |  |
+| <b>Rauheit</b> |  |
 | <b>Rauheiten in </b> <i>0.0 - 1.0</i> | Legt die Eingangspegel für die Interpretation der Rauheit fest. |
 | <b>Rauheit wird ausgeglichen</b> <i>0.0 - 1.0</i> | Ändert die Ausgabepegel der Rauheit. |
 | <b>Einfluss auf die Metallische Rauheit</b> <i>0.0 - 1.0</i> | Bestimmt den Einfluss der optionalen Metallic Eingabe auf die Glanz-Map. |
-| <b>Umgebungs-Verdeckung</b> |  |
+| <b>Ambient occlusion</b> |  |
 | <b>Ambient occlusion in Diffuse</b> <i>0.0 - 1.0</i> | Überblendungen in generiertem AO in der Diffuse. |
 | <b>Ambient occlusion Spread</b> <i>0.0 - 1.0</i> | Legt fest, wie weit generiertes AO sich ausbreitet. |
 | <b>Ambient occlusion Lichtdistanz</b> <i>0.0 - 1.0</i> | Legt die AO-Interpretation der &quot;Tiefe&quot; fest. Hat weniger Einfluss, wenn es eine große Verteilung gibt. |

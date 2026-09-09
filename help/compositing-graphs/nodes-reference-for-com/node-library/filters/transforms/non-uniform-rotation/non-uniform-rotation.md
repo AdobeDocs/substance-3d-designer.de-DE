@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-uniform-rotation.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-uniform-rotation.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Uneinheitliche Drehung", um uneinheitliche Drehtransformationen anzuwenden, um Spiral- und Wirbeleffekte zu erzeugen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ungleichmäßige Drehung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 1%
@@ -28,12 +28,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/nonuniformrotationgrayscale.png){width="200px"}
+![](non-uniform-rotation.resources/nonuniformrotationgrayscale.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/nonuniformrotationcolor.png){width="200px"}
+![](non-uniform-rotation.resources/nonuniformrotationcolor.png){width="200px"}
 
 </td>
 </tr>
@@ -71,8 +71,8 @@ Positive Werte in der **Rotation Map**-Eingabe führen zu einer *Drehung im Uhrz
 
 |  |  |
 |:---|:---|
-| <b>Drehwinkelmultiplikator</b> <i>Fließkommazahl</i> | Passt die Intensität der **Rotation Map**-Eingabe an. |
-| <b>Versatz des Drehwinkels</b> <i>Fließkommazahl</i> | Wendet die angegebene zusätzliche Drehung an. |
+| <b>Drehwinkelmultiplikator</b> <i>Gleitend</i> | Passt die Intensität der **Rotation Map**-Eingabe an. |
+| <b>Versatz des Drehwinkels</b> <i>Gleitend</i> | Wendet die angegebene zusätzliche Drehung an. |
 | <b>Pivot-Positionen-Map verwenden</b> <i>Boolescher Wert</i> | Verwenden Sie eine *Bitmapeingabe*, um die Position des Drehzapfens anzugeben. Die Position **X/Y** ist den Kanälen **R/G** der Eingabe **Positionszuordnung** zugeordnet. |
 | <b>Pivot-Position</b> <i>Float2</i> | Die Position des Drehpunkts, um den das Bild gedreht wird. |
 | <b>Hintergrundfarbe</b> <i>Gleitend/Gleitend4</i> | Hintergrundfarbe, die *außerhalb der Bildbegrenzungen* anzeigt, falls die Unterteilung nicht auf **H und V Unterteilung** festgelegt ist. |
@@ -83,13 +83,13 @@ Positive Werte in der **Rotation Map**-Eingabe führen zu einer *Drehung im Uhrz
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/nonuniformrotation-demo-02-resized.gif" />
+            <img src="non-uniform-rotation.resources/nonuniformrotation-demo-02-resized.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/nonuniformrotation-variant-png.jpg" />
+            <img src="non-uniform-rotation.resources/nonuniformrotation-variant-png.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/nonuniformrotation-node.png" />
+            <img src="non-uniform-rotation.resources/nonuniformrotation-node.png" />
         </td>
     </tr>
 </table>

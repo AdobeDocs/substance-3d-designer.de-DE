@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/mirror-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/mirror-filter-node.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Filterknoten Spiegeln , um Texturen horizontal oder vertikal zu spiegeln, um symmetrische Muster und Effekte zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spiegeln (Filterknoten)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mirror-2.png){width="128px"}
+![](mirror-filter-node.resources/mirror-2.png){width="128px"}
 
-![](../../../../../../assets/mirror-grayscale.png){width="128px"}
+![](mirror-filter-node.resources/mirror-grayscale.png){width="128px"}
 
 <b>In:</b> Filter > Transformieren
 
@@ -59,7 +59,7 @@ Spiegelt das Eingabebild über eine ausgewählte Achse von einer ausgewählten S
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/mirror-example.png" />
+            <img src="mirror-filter-node.resources/mirror-example.png" />
         </td>
     </tr>
 </table>
