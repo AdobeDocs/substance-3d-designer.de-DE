@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/metal-weathering.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/metal-weathering.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Metal Weathering", um metallischen Werkstoffen auf Basis der Gittergeometrie realistische Rost- und Korrosionseffekte hinzuzufügen.
 helpx_creative_field: ""
