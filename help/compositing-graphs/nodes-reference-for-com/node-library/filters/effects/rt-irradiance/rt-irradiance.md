@@ -10,7 +10,7 @@ helpx_tags: ""
 title: RT-Bestrahlung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 2ea5b90ca7a4cbcd0b0049b156e8ded334aa0ceb
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rt-irradiance.png){width="128px"}
+![](rt-irradiance.resources/rt-irradiance.png){width="128px"}
 
 <b>In:</b> Filters > Effects
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## Beschreibung
 
-Generiert eine Raytraced-Bestrahlung auf einem Höhen-Map-Eingang, der von einer Umgebungs-Map und einer emissive-Map generiert wird. Kann verwendet werden, um das Licht in eine Textur innerhalb eines Grafen &quot;Baking führen&quot;. Wird für gefälschte globale Beleuchtung und Leuchten verwendet.Dieser Node sollte aufgrund der Berechnung nicht in Kombination mit dem CPU (SSE)-Engine verwendet werden. Gibt zwei Zuordnungen zurück: eine Bestrahlungsausgabe, bei der die Bestrahlungsstärke auf die Material-Eingänge angewendet wird, eine Roh-Bestrahlungskarte, die nur die berechneten Bestrahlungswerte enthält.
+Generiert eine Raytraced-Bestrahlung auf einem Höhen-Map-Eingang, der von einer Umgebungs-Map und einer emissive-Map generiert wird. Kann verwendet werden, um das Licht in eine Textur innerhalb eines Grafen &quot;Baking führen&quot;. Wird für gefälschte globale Beleuchtung und Leuchten verwendet.Dieser Knoten sollte aufgrund der Berechnungszeit nicht in Kombination mit der CPU-Engine (SSE) verwendet werden. Gibt zwei Zuordnungen zurück: eine Bestrahlungsausgabe, bei der die Bestrahlungsstärke auf die Material-Eingänge angewendet wird, eine Roh-Bestrahlungskarte, die nur die berechneten Bestrahlungswerte enthält.
 
 </td>
 </tr>
@@ -46,7 +46,7 @@ Generiert eine Raytraced-Bestrahlung auf einem Höhen-Map-Eingang, der von einer
 |  |  |
 |:---|:---|
 | <b>Height</b> <i>Graustufeneingabe</i> | Height ist die einzige erforderliche Eingabe aus dem Steckplatz des Materials. Ohne sie funktioniert der Knoten nicht gut. |
-| <b>Emissive</b> <i>Farbeingabe</i> | Emissive sollte in einem Format vorliegen, bei dem reines Schwarz kein Licht aussendet, jeder andere Farbwert Licht aussendet. Alpha wird ignoriert. Eine Verbindung mit diesem Steckplatz oder dem Umgebungssteckplatz ist erforderlich, um ein Ergebnis zu sehen. |
+| <b>Ausstrahlend</b> <i>Farbeingabe</i> | Emissive sollte in einem Format vorliegen, bei dem reines Schwarz kein Licht aussendet, jeder andere Farbwert Licht aussendet. Alpha wird ignoriert. Eine Verbindung mit diesem Steckplatz oder dem Umgebungssteckplatz ist erforderlich, um ein Ergebnis zu sehen. |
 | <b>Umgebung</b> <i>Farbeingabe</i> | HDR. Lichtumgebung, mit der die Bestrahlung berechnet wird. Eine Verbindung zu diesem Steckplatz oder dem Emissive-Steckplatz ist erforderlich, um ein Ergebnis zu sehen. |
 
 <a name="parameters"></a>
@@ -70,13 +70,13 @@ Generiert eine Raytraced-Bestrahlung auf einem Höhen-Map-Eingang, der von einer
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/rt-irr-03-1.jpg" />
+            <img src="rt-irradiance.resources/rt-irr-03-1.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/rt-irr-01-1.jpg" />
+            <img src="rt-irradiance.resources/rt-irr-01-1.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/rt-irr-02-1.jpg" />
+            <img src="rt-irradiance.resources/rt-irr-02-1.jpg" />
         </td>
     </tr>
 </table>

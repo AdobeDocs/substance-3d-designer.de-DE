@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Non Uniform Directional Warp
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 2ea5b90ca7a4cbcd0b0049b156e8ded334aa0ceb
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/non-uniform-directional-warp-color.png)![](../../../../../../assets/non-uniform-directional-warp-grayscale.png)
+![](non-uniform-directional-warp.resources/non-uniform-directional-warp-color.png)![](non-uniform-directional-warp.resources/non-uniform-directional-warp-grayscale.png)
 
 <b>In:</b> Filters > Effects
 
@@ -33,9 +33,9 @@ ht-degree: 5%
 
 ## Beschreibung
 
-Nicht-gleichförmige Richtungsverkrümmung ist eine erweiterte Version von [Richtungsverkrümmung](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md), mit der Intensität und Richtung der Verkrümmung durch eine Bildeingabe gesteuert werden können. Sie bietet viel mehr Kontrolle und kann sehr nützliche und interessante Verzerrungen erstellen, genau wie [Steigung-Weichzeichner](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md).
+Die ungleichmäßige Richtungsverkrümmung ist eine erweiterte Version von [Richtungsverzerrung](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md), die es ermöglicht, die Intensität und die Richtung der Verkrümmung durch eine Bildeingabe zu steuern. Sie bietet viel mehr Kontrolle und kann sehr nützliche und interessante Verzerrungen erstellen, genau wie [Steigung-Weichzeichner](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md).
 
-Sie unterscheidet sich von [Multidirektionaler Warp](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/multi-directional-warp/multi-directional-warp.md) dadurch, dass sie die Steuerung des Winkels über eine benutzerdefinierte Map-Eingabe ermöglicht, während Multidirektionaler Warp nur die Steuerung der Richtung über Parameter zulässt. Dies bedeutet, dass Sie erweiterte abschließende und gekrümmte Effekte erstellen können, die andernfalls nicht möglich sind.
+Sie unterscheidet sich von [Multi Richtungsverzerrung](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/multi-directional-warp/multi-directional-warp.md) dadurch, dass sie die Kontrolle über den Winkel durch eine benutzerdefinierte Map-Eingabe ermöglicht, während &quot;Multi Richtungsverzerrung&quot; nur die Steuerung über Parameter zulässt. Dies bedeutet, dass Sie erweiterte abschließende und gekrümmte Effekte erstellen können, die andernfalls nicht möglich sind.
 
 </td>
 </tr>
@@ -59,7 +59,7 @@ Sie unterscheidet sich von [Multidirektionaler Warp](../../../../../../compositi
 |:---|:---|
 | <b>Intensität</b> <i>0.0 - 20.0</i> | Legt die Intensität des Verkrümmungseffekts fest, d. h. wie weit Pixel entfernt werden sollen. |
 | <b>Verkrümmungswinkel</b> <i>0.0 - 1.0</i> | Legt den Winkel oder die Richtung fest, in der der Effekt &quot;Verformen&quot; angewendet werden soll. |
-| <b>Multiplikator für Verkrümmungswinkel-Eingabe</b> <i>0.0 - 1.0</i> | Legt den Effekt der Zuordnungseingabe fest. Die Karte &quot;Verkrümmungswinkel-Eingabe&quot; wird dann verwendet, um von 0 bis zum Wert dieses Parameters zu interpolieren. |
+| <b>Multiplikator für Verkrümmungswinkel-Eingabe</b> <i>0.0 - 1.0</i> | Legt den Effekt der Eingabe-Map &quot;Verkrümmungswinkel&quot; fest. Die Eingabe-Map &quot;Verkrümmungswinkel&quot; dient dann zur Interpolation von 0 bis zum Wert dieses Parameters. |
 | <b>Pfadmodus</b> <i>Min., Max., Durchschnitt</i> | Legt fest, wie die Spuren überblendet werden. |
 | <b>Länge des Pfades</b> <i>0.0 - 1.0</i> | Legt die Länge der Spuren fest. |
 | <b>Trail Verblassen</b> <i>0.0 - 1.0</i> | Legt fest, wie stark jeder Trail ausgeblendet werden soll |

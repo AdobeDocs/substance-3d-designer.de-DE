@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/mosaic.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Mosaik , um Mosaikkacheleffekte zu erstellen, indem Sie Texturen in verpixelte Blöcke und Muster unterteilen.
+description: Verwenden Sie den Knoten Mosaik, um Mosaikkacheleffekte zu erstellen, indem Sie Texturen in verpixelte Blöcke und Muster unterteilen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Mosaic
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mosaik
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 2ea5b90ca7a4cbcd0b0049b156e8ded334aa0ceb
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 7%
@@ -24,9 +24,9 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mosaic-1.png){width="128px"}
+![](mosaic.resources/mosaic-1.png){width="128px"}
 
-![](../../../../../../assets/mosaic-grayscale.png){width="128px"}
+![](mosaic.resources/mosaic-grayscale.png){width="128px"}
 
 <b>In:</b> Filters > Effects
 
@@ -66,7 +66,7 @@ Dies ist nützlich, um Graustufenzuordnungen wie Höhenkarte mehr Definition hin
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/mosaci-ex.png" />
+            <img src="mosaic.resources/mosaci-ex.png" />
         </td>
     </tr>
 </table>
