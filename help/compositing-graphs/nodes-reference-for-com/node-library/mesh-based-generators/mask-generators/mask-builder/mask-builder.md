@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/mask-builder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/mask-builder.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Maskenbildner", um mehrere Maskeneingaben zu kombinieren und komplexe Maskenmuster für Material-Effekte zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Maskenbildner
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 78cf3f307bd33c6d8b399043ff1c5e5d1764b606
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 10%
@@ -24,7 +24,7 @@ ht-degree: 10%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mask-builder.png){width="128px"}
+![](mask-builder.resources/mask-builder.png){width="128px"}
 
 <b>In:</b> Mesh-basierte Generatoren > Maskengenerator
 
@@ -33,7 +33,7 @@ ht-degree: 10%
 
 ## Beschreibung
 
-Generiert eine Schwarzweißmaske auf der Grundlage von durch Baking erzeugte Map und Benutzereinstellungen. Das ist so ziemlich die Designer-Version von Painters Mask Builder.
+Erzeugt eine Schwarz-weiße Maske basierend auf durch Baking erzeugte Map und Benutzereinstellungen. Das ist so ziemlich die Designer-Version von Painters Mask Builder.
 
 Es ist ein kompliziertes Tool, das als allumfassender Maskenbildner gedacht ist, der auf durch Baking erzeugte Map, Benutzerparametern und Schmutz-Mustern und -Maps basiert. Es ist vor allem als ein sehr fortgeschrittener, voller Kontrolle Knoten in Falten Dirt und Kantenverschleiß zu mischen. Dieser Knoten ist leistungsstark genug, um jeden anderen Maskengenerator nachzuahmen.
 
@@ -49,9 +49,9 @@ Es sind keine expliziten Baking führte erforderlich, aber je mehr Sie angeben, 
 
 |  |  |
 |:---|:---|
-| <b>Umgebungs-Verdeckung</b> <i>Graustufen-Eingabe</i> |  |
+| <b>Ambient occlusion</b> <i>Graustufen-Eingabe</i> |  |
 | <b>Krümmung</b> <i>Graustufen-Eingabe</i> |  |
-| <b>Normaler Weltraum</b> <i>Farbeingabe</i> |  |
+| <b>Welt-Raum-Normale</b> <i>Farbeingabe</i> |  |
 | <b>Schmutz-Eingabe</b> <i>Graustufen-Eingabe</i> |  |
 | <b>Schmutz-Eingang 2</b> <i>Graustufen-Eingabe</i> |  |
 | <b>Streuung-Eingabe</b> <i>Graustufen-Eingabe</i> | Benutzerdefinierter Streuung-Stempel, der erforderlich ist, um die Parameter für die Streuung zu verwenden. |

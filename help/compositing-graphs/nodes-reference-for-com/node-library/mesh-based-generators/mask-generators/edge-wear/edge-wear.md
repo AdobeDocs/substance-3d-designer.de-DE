@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-wear.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-wear.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Edge Wear-Knoten, um Verschleißmasken an Kanten des Meshs zu generieren, um realistische Beschädigungen an Kanten und Verwitterung zu erzeugen.
+description: Verwenden Sie den Knoten Edge Wear , um Verschleißmasken an Netzkanten zu generieren, um realistische Kantenschäden und Wettereffekte zu erzeugen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Wear
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Edge Wear
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 78cf3f307bd33c6d8b399043ff1c5e5d1764b606
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-wear.png){width="128px"}
+![](edge-wear.resources/edge-wear.png){width="128px"}
 
 <b>In:</b> Mesh-basierte Generatoren > Maskengenerator
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## Beschreibung
 
-Erzeugt eine Schwarz-weiße Maske basierend auf durch Baking erzeugte Map und Benutzereinstellungen. Ähnlich wie [Intelligente Masken](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
+Generiert eine Schwarzweißmaske auf der Grundlage von durch Baking erzeugte Map und Benutzereinstellungen. Ähnlich wie [Smart Masks](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
 Dieser Knoten stellt den Verschleiß von Objektkanten dar. Es verfügt über einige Parameter, ist aber nicht am einfachsten zu verwenden: Wir empfehlen Ihnen, herumzuspielen und ein Gefühl für die Dinge zu bekommen. Der Knoten ist recht leistungsstark, obwohl keine benutzerdefinierte Überschreibungsmaske ausgeführt werden kann.
 
@@ -67,7 +67,7 @@ Dieser Knoten stellt den Verschleiß von Objektkanten dar. Es verfügt über ein
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/edge-wear-ex.gif" />
+            <img src="edge-wear.resources/edge-wear-ex.gif" />
         </td>
     </tr>
 </table>
