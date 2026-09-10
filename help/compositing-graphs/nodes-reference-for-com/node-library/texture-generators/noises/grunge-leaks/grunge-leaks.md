@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaks.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaks.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Schmutz-Lecks", um Leckmuster zum Erzeugen von Wasserflecken und Witterungseffekten auf Flächen zu erzeugen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Schmutz Leaks
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 1668632724231982c98a508ae7f87642c5888648
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeleaks.jpg){width="200px"}
+![](grunge-leaks.resources/grungeleaks.jpg){width="200px"}
 
 <b>In:</b> Texturgeneratoren > Rauschen
 
@@ -52,18 +52,18 @@ Der Knoten **Schmutz Leaks** generiert eine Schmutz-Map, die so ähnlich ist, al
 | <b>Erweitert</b> |  |
 | <b>Tropflänge</b> <i>Gleitend</i> | Passt die Länge der Tropfstreifen an. |
 | <b>Formkontrast</b> <i>Gleitend</i> | Verschiebt zwischen hellen und dunklen Formen und kontrastiert über die Tropfen hinweg. |
-| <b>Tropfknackigkeit</b> <i>Fließkommazahl</i> | Passt die Schärfe und die Krümmung der Tropfen an. |
-| <b>Intensität schärfen</b> <i>Fließkommazahl</i> | Passen Sie die Unebenheit des Bildes insgesamt an. |
+| <b>Tropfknackigkeit</b> <i>Gleitend</i> | Passt die Schärfe und die Krümmung der Tropfen an. |
+| <b>Intensität schärfen</b> <i>Gleitend</i> | Passen Sie die Unebenheit des Bildes insgesamt an. |
 
 ## Beispiele
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungeleaks-variant2.jpg" />
+            <img src="grunge-leaks.resources/grungeleaks-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungeleaks-variant.jpg" />
+            <img src="grunge-leaks.resources/grungeleaks-variant.jpg" />
         </td>
     </tr>
 </table>
