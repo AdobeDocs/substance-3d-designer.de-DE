@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-gradient.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-gradient.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Dirt-Verlaufsknoten, um Verlaufsbasierte Dirt-Muster zu generieren, um gerichtete Verwitterungs- und Akkumulationseffekte zu erzeugen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dirt-Verlauf
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Dirt-Farbverlauf - Symbol](../../../../../../assets/dirt_gradient.png "Dirt-Farbverlauf - Symbol"){width="200px"}
+![Dirt-Farbverlauf - Symbol](dirt-gradient.resources/dirt_gradient.png "Dirt-Farbverlauf - Symbol"){width="200px"}
 
 <b>In:</b> Texturgeneratoren > Rauschen
 
@@ -67,12 +67,12 @@ Siehe auch: [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-co
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt-Farbverlauf - Beispiel 1](../../../../../../assets/dirt_gradient_1.png "Dirt-Farbverlauf - Beispiel 1"){zoomable="yes"}
+![Dirt-Farbverlauf - Beispiel 1](dirt-gradient.resources/dirt_gradient_1.png "Dirt-Farbverlauf - Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt-Farbverlauf - Beispiel 2](../../../../../../assets/noise_dirt_gradient_v2_speed0.6_aniso0.gif "Dirt-Farbverlauf - Beispiel 2"){zoomable="yes"}
+![Dirt-Farbverlauf - Beispiel 2](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso0.gif "Dirt-Farbverlauf - Beispiel 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ Siehe auch: [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-co
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt-Farbverlauf - Beispiel 3](../../../../../../assets/noise_dirt_gradient_v2_speed0.6_aniso1.gif "Dirt-Farbverlauf - Beispiel 3"){zoomable="yes"}
+![Dirt-Farbverlauf - Beispiel 3](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso1.gif "Dirt-Farbverlauf - Beispiel 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt-Farbverlauf - Beispiel 4](../../../../../../assets/noise_dirt_gradient_v2_speed0.3_aniso0.6.gif "Dirt-Farbverlauf - Beispiel 4"){zoomable="yes"}
+![Dirt-Farbverlauf - Beispiel 4](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.3_aniso0.6.gif "Dirt-Farbverlauf - Beispiel 4"){zoomable="yes"}
 
 </td>
 </tr>
