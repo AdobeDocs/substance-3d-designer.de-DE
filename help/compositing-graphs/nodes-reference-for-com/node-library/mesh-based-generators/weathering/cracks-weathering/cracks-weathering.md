@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/cracks-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/cracks-weathering.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Risse-Verwitterung -Knoten, um Rissmuster auf der Grundlage von Gitterkrümmung und Spannungspunkten zu Materialien hinzuzufügen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Risse, die wettern
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6eb38d6ccaadda1d070e4e0b67311312adb7d082
+source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/cracks-weathering.png){width="128px"}
+![](cracks-weathering.resources/cracks-weathering.png){width="128px"}
 
 <b>In:</b> Mesh-basierte Generatoren > Verwitterung
 
@@ -71,7 +71,7 @@ Vergewissern Sie sich, dass Sie die [Verknüpfungserstellungsmodi](../../../../.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/cracks-ex.gif" />
+            <img src="cracks-weathering.resources/cracks-ex.gif" />
         </td>
     </tr>
 </table>

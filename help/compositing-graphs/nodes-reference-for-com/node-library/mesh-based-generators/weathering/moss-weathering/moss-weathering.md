@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/moss-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/moss-weathering.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Moss-Verwitterung-Knoten, um Mooswachstumsmuster zu Materialien hinzuzufügen, die auf der Krümmung und Position des Meshs basieren.
 helpx_creative_field: ""
@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Moos-Verwitterung
+title: Moosverwitterung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6eb38d6ccaadda1d070e4e0b67311312adb7d082
+source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 7%
@@ -18,13 +18,13 @@ ht-degree: 7%
 ---
 
 
-# Moos-Verwitterung
+# Moosverwitterung
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/moss-weathering.png){width="128px"}
+![](moss-weathering.resources/moss-weathering.png){width="128px"}
 
 <b>In:</b> Mesh-basierte Generatoren > Verwitterung
 
@@ -33,11 +33,11 @@ ht-degree: 7%
 
 ## Beschreibung
 
-Dies ist ein Effekt mit vollem Material, der auf mehreren Kanälen gleichzeitig funktioniert. Es erzeugt einen überwucherten Mooseffekt mit einer einzigen Steuerung für die Propagierung.
+Dies ist ein Vollmaterial-Effekt, der auf mehreren Kanälen gleichzeitig funktioniert. Es erzeugt einen überwucherten Mooseffekt mit einer einzigen Steuerung für die Propagierung.
 
 Dieser Effekt eignet sich am besten für eine Baking geführt Welt-Raum-Positions-Map und eine zusätzliche Höhen-Map. Dies ist zwar keine exakte Anforderung, verleiht dem Effekt aber eine glaubwürdigere Platzierung.
 
-Vergewissern Sie sich, dass Sie die [Link Creation Modes](https://support.allegorithmic.com/documentation/display/SD5/Link+Creation+Modes) richtig verstehen, wenn Sie mit vollständigen Materialien arbeiten.
+Vergewissern Sie sich, dass Sie die [Verknüpfungserstellungsmodi](https://support.allegorithmic.com/documentation/display/SD5/Link+Creation+Modes) richtig verstehen, wenn Sie mit vollständigen Materialien arbeiten.
 
 </td>
 </tr>
@@ -59,7 +59,7 @@ Vergewissern Sie sich, dass Sie die [Link Creation Modes](https://support.allego
 
 |  |  |
 |:---|:---|
-| <b>Kanäle</b> | Schalten Sie die Material-Kanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanz-Maps anstelle von &quot;Metallic/Rauheit&quot; verwenden. |
+| <b>Kanäle</b> | Schalten Sie die Materialkanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanzkarten anstelle von &quot;Metallisch/Raueit&quot; verwenden. |
 | <b>Erweitert</b> |  |
 | <b>Normales Format</b> <i>DirectX, OpenGL</i> | Wechselt zwischen verschiedenen Normalmap-Formaten (invertiert den grünen Kanal). |
 | <b>Maske</b> <i>False/True</i> | Schaltet die Verwendung der Maskenkarte ein oder aus. |
@@ -80,7 +80,7 @@ Vergewissern Sie sich, dass Sie die [Link Creation Modes](https://support.allego
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/moss-ex.gif" />
+            <img src="moss-weathering.resources/moss-ex.gif" />
         </td>
     </tr>
 </table>
