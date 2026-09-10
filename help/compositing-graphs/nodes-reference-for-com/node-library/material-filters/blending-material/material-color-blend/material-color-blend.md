@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-color-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-color-blend.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Material-Überblendung , um Farbkanäle zwischen Materialien zu mischen und so zusammengesetzte Material-Effekte zu erzeugen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Material Color Überblendung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-color-blend.png){width="128px"}
+![](material-color-blend.resources/material-color-blend.png){width="128px"}
 
 <b>In:</b> Materialfilter > Mischen
 
@@ -57,7 +57,7 @@ Dieser Knoten ist besonders hilfreich, wenn Sie einen einfachen Farbhinweis in D
 |  |  |
 |:---|:---|
 | <b>Kanäle</b> | Schalten Sie Material-Kanäle in dieser Gruppe ein und aus, wenn Sie Specular-/Glanz-Maps anstelle von z. B. Metallic/Rauheit verwenden. |
-| <b>Diffus</b> |  |
+| <b>Diffuse</b> |  |
 | <b>Farbe</b> <i>(Farbwert)</i> | Der Farbwert, der über dem Diffuse-Kanal überblendet werden soll. |
 | <b>Deckkraft</b> <i>0.0 - 1.0</i> | Füllmethode Deckkraft zwischen Vorder- und Hintergrund. |
 | <b>Füllmethode</b> <i>Normal, Hinzufügen, Subtrahieren, Multiplizieren, Hinzufügen/Sub, Max, Min, Switch</i> | Überblendung-Modus für den Betrieb. |
@@ -75,8 +75,8 @@ Dieser Knoten ist besonders hilfreich, wenn Sie einen einfachen Farbhinweis in D
 | <b>Metallisch</b> | Mischt eine Volltonfarbe über diesem Kanal mit Optionen wie in der Gruppe &quot;Diffus&quot;. |
 | <b>Specular level</b> | Mischt eine Volltonfarbe über diesem Kanal mit Optionen wie in der Gruppe &quot;Diffus&quot;. |
 | <b>Umgebungs-Verdeckung</b> | Mischt eine Volltonfarbe über diesem Kanal mit Optionen wie in der Gruppe &quot;Diffus&quot;. |
-| <b>Height</b> | Über diesem Kanal wird eine Volltonfarbe mit Optionen wie in der Gruppe &quot;Diffuse&quot; Überblendung. |
-| <b>Deckkraft</b> | Über diesem Kanal wird eine Volltonfarbe mit Optionen wie in der Gruppe &quot;Diffuse&quot; Überblendung. |
+| <b>Height</b> | Mischt eine Volltonfarbe über diesem Kanal mit Optionen wie in der Gruppe &quot;Diffus&quot;. |
+| <b>Deckkraft</b> | Mischt eine Volltonfarbe über diesem Kanal mit Optionen wie in der Gruppe &quot;Diffus&quot;. |
 | <b>Farb-ID-Maske</b> <i>False/True</i> | Verwenden Sie Farb-ID-Maske anstelle einer Graustufenmaske. Beachten Sie, dass dies nur für eine Farbe gilt!<br><br>Aktiviert alle folgenden Optionen. |
 | <b>Farbe</b> <i>(Farbwert)</i> | Welche Farbe ausgewählt und in Weiß konvertiert werden soll. |
 | <b>Unschärfe</b> <i>0.01 - 1.0</i> | Der Grad, in dem die von Ihnen ausgewählte Farbe in die Nachbarfarben übergeht. |

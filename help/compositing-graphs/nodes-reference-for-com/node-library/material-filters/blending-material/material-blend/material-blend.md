@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-blend.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Material-Überblendung , um ganze Material mithilfe von Masken zu verblenden, um Composite-Material-Effekte zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Material Überblendung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-blend.png){width="128px"}
+![](material-blend.resources/material-blend.png){width="128px"}
 
 <b>In:</b> Materialfilter > Mischen
 
@@ -68,16 +68,16 @@ Dieser Knoten ist nützlich, wenn Sie zwei Material überblenden möchten und ei
 | <b>Specular</b> |  |
 | <b>Deckkraft</b> <i>0.0 - 1.0</i> | Füllmethode zwischen Vorder- und Hintergrund |
 | <b>Füllmethode</b> <i>Normal, Hinzufügen, Subtrahieren, Multiplizieren, Hinzufügen/Sub, Max, Min, Switch</i> |  |
-| <b>Ausstrahlend</b> |  |
+| <b>Emissive</b> |  |
 | <b>Deckkraft</b> <i>0.0 - 1.0</i> | Füllmethode zwischen Vorder- und Hintergrund |
 | <b>Füllmethode</b> <i>Normal, Hinzufügen, Subtrahieren, Multiplizieren, Hinzufügen/Sub, Max, Min, Switch</i> |  |
-| <b>Glossarität</b> |  |
+| <b>Glanz</b> |  |
 | <b>Deckkraft</b> <i>0.0 - 1.0</i> | Füllmethode zwischen Vorder- und Hintergrund |
 | <b>Füllmethode</b> <i>Normal, Hinzufügen, Subtrahieren, Multiplizieren, Hinzufügen/Sub, Max, Min, Switch</i> |  |
-| <b>Raueit</b> |  |
+| <b>Rauheit</b> |  |
 | <b>Deckkraft</b> <i>0.0 - 1.0</i> | Füllmethode zwischen Vorder- und Hintergrund |
 | <b>Füllmethode</b> <i>Normal, Hinzufügen, Subtrahieren, Multiplizieren, Hinzufügen/Sub, Max, Min, Switch</i> |  |
-| <b>Metallisch</b> |  |
+| <b>Metallic</b> |  |
 | <b>Deckkraft</b> <i>0.0 - 1.0</i> | Füllmethode zwischen Vorder- und Hintergrund |
 | <b>Füllmethode</b> <i>Normal, Hinzufügen, Subtrahieren, Multiplizieren, Hinzufügen/Sub, Max, Min, Switch</i> |  |
 | <b>Specular level</b> |  |

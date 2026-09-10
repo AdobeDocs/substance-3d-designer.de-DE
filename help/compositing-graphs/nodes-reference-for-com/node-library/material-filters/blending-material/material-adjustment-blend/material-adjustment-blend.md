@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-adjustment-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-adjustment-blend.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Materialkorrektur-Überblendung , um Materialkorrekturen zwischen Materialien zu überblenden und Composite-Effekte zu optimieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Materialanpassungsüberblendung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-adjustment-blend.png){width="128px"}
+![](material-adjustment-blend.resources/material-adjustment-blend.png){width="128px"}
 
 <b>In:</b> Materialfilter > Mischen
 
@@ -63,11 +63,11 @@ Dies ist nützlich, wenn Sie einige Kanäle eines Materials anpassen möchten (z
 | <b>Intensität</b> <i>0.0 - 1.0</i> | Tönt die normale Intensität ab |
 | <b>Specular</b> | Führt Korrekturvorgänge für den Specular-Kanal in Bereichen durch, die durch die Maske definiert sind. |
 | <b>Ausstrahlend</b> | Führt Anpassungsvorgänge auf dem Emissionskanal in Bereichen durch, die durch die Maske definiert werden. |
-| <b>Glossarität</b> | Führt Korrekturvorgänge für den Maskenkanal in den von der Glanz definierten Bereichen durch. |
-| <b>Raueit</b> | Führt Korrekturvorgänge für den Maskenkanal in den von der Rauheit definierten Bereichen durch. |
-| <b>Metallisch</b> | Führt Korrekturvorgänge im Metallic Kanal in Bereichen durch, die durch die Maske definiert sind. |
+| <b>Glanz</b> | Führt Korrekturvorgänge für den Maskenkanal in den von der Glanz definierten Bereichen durch. |
+| <b>Rauheit</b> | Führt Korrekturvorgänge für den Maskenkanal in den von der Rauheit definierten Bereichen durch. |
+| <b>Metallic</b> | Führt Korrekturvorgänge im Metallic Kanal in Bereichen durch, die durch die Maske definiert sind. |
 | <b>Specular level</b> | Führt Korrekturoperationen auf dem Specular level-Kanal in Bereichen durch, die durch die Maske definiert werden. |
-| <b>Umgebungs-Verdeckung</b> | Führt Korrekturoperationen auf dem Ambient occlusion-Kanal in Bereichen durch, die durch die Maske definiert werden. |
+| <b>Ambient occlusion</b> | Führt Korrekturoperationen auf dem Ambient occlusion-Kanal in Bereichen durch, die durch die Maske definiert werden. |
 | <b>Height</b> | Führt Korrekturvorgänge für den Height-Kanal in den von der Maske definierten Bereichen durch. |
 | <b>Deckkraft</b> | Führt Korrekturvorgänge für den Kanal &quot;Deckkraft&quot; in den von der Maske definierten Bereichen durch. |
 | <b>Farb-ID-Maske</b> <i>False/True</i> | Farb-ID-Maske anstelle der Graustufenmaske verwenden. |

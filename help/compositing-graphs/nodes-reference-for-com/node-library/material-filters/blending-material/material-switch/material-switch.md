@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-switch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-switch.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Material wechseln", um zwischen mehreren Materialien zu wechseln, die auf Eingabemasken oder Bedingungen basieren.
+description: Verwenden Sie den Knoten "Materialwechsel", um zwischen mehreren Materialien basierend auf Eingabemasken oder Bedingungen zu wechseln.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Switch
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Material Switch
+title: Materialschalter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 2%
@@ -18,13 +18,13 @@ ht-degree: 2%
 ---
 
 
-# Material Switch
+# Materialschalter
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-switch.png){width="128px"}
+![](material-switch.resources/material-switch.png){width="128px"}
 
 <b>In:</b> Materialfilter > Mischen
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## Beschreibung
 
-Dieser Knoten ist die Vollversion des [Switches](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md) mit mehreren Kanälen im Material. Es nimmt zwei Material als Eingabe und gibt nur eines davon basierend auf dem Parameter switch zurück.
+Dieser Knoten ist die Multichannel-Vollversion von [Switch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md). Es nimmt zwei Materialien als Eingabe und gibt nur eines davon basierend auf dem Parameter switch zurück.
 
 </td>
 </tr>
@@ -45,5 +45,5 @@ Dieser Knoten ist die Vollversion des [Switches](../../../../../../compositing-g
 
 |  |  |
 |:---|:---|
-| <b>Kanäle</b> | Schalten Sie die Material-Kanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanz-Maps anstelle von &quot;Metallic/Rauheit&quot; verwenden. |
+| <b>Kanäle</b> | Schalten Sie die Materialkanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanzkarten anstelle von &quot;Metallisch/Raueit&quot; verwenden. |
 | <b>Switch</b> <i>False/True</i> | Wechseln Sie, um entweder Material 1 oder 2 zurückzugeben. |
