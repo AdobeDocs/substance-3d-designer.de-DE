@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-splashes-dusty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-splashes-dusty.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Schmutz Splashes Dusty", um staubige Splashmuster zum Hinzufügen von Details zu verwitterten Texturen zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Schmutz Splashes Dusty
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungesplashesdusty.jpg){width="200px"}
+![](grunge-splashes-dusty.resources/grungesplashesdusty.jpg){width="200px"}
 
 <b>In:</b> Textur Generators > Rauschen
 
@@ -52,18 +52,18 @@ Der Knoten &quot;**Schmutz Splashes Dusty**&quot; generiert eine Schmutz-Map, di
 | <b>Erweitert</b> |  |
 | <b>Anzahl der Splashes</b> <i>Gleitend</i> | Passt die Stärke der Farbspritzer auf der Oberfläche an. |
 | <b>Splashes-Verzerrung</b> <i>Gleitend</i> | Passt die Intensität der Verformung an, die auf die Spritzer angewendet wird. |
-| <b>Splash/Dirt-Verhältnis</b> <i>Fließkommazahl</i> | Passt das *Verhältnis* von Dirt und Spritzer auf der Oberfläche an. |
-| <b>Dirt Spread</b> <i>Fließkommazahl</i> | Passt den Zeichenabstand des Dirts an. |
+| <b>Splash/Dirt-Verhältnis</b> <i>Gleitend</i> | Passt das *Verhältnis* von Dirt und Spritzer auf der Oberfläche an. |
+| <b>Dirt Spread</b> <i>Gleitend</i> | Passt den Zeichenabstand des Dirts an. |
 
 ## Beispiele
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungesplashesdusty-variant2.jpg" />
+            <img src="grunge-splashes-dusty.resources/grungesplashesdusty-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungesplashesdusty-variant.jpg" />
+            <img src="grunge-splashes-dusty.resources/grungesplashesdusty-variant.jpg" />
         </td>
     </tr>
 </table>
