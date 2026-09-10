@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise-fractal.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise-fractal.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten 3D Perlin Noise Fractal , um fraktale Perlin-Rauschmuster im 3D-Raum für die Erstellung detaillierter volumetrischer Texturen zu generieren.
 helpx_creative_field: ""
