@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-color.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "UV-Mapper-Farbe", um Farbstrukturen entlang von Splines für die prozedurale Texturgenerierung zuzuordnen.
+description: Verwenden Sie den Knoten "UV Mapper Color", um Texturen entlang von Splines zuzuordnen, um prozedurale Texturen zu erzeugen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > UV Mapper Color
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: UV-Mapper-Farbe
+title: UV Mapper Color
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: e23f692fa31d1e7b9eeac692bb41186441fdda53
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 2%
@@ -18,13 +18,13 @@ ht-degree: 2%
 ---
 
 
-# UV-Mapper-Farbe
+# UV Mapper Color
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/uv-mapper-color-icon.png "Knotensymbol")
+![Knotensymbol](uv-mapper-color.resources/uv-mapper-color-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -66,7 +66,7 @@ Ordnet das Eingabefarbbild anhand der Koordinaten zu, die in der UV-Eingabe ange
 
 |  |  |
 |:---|:---|
-| <b>Hintergrundfarbe</b> <i>Float4</i> | Die Hintergrundfarbe des Ausgabebilds.<br>Der Hintergrund ist in den Bereichen des Bildes sichtbar, in denen keine UVs definiert sind (d. h. der Wert ist (0, 0, 0, 0)). |
+| <b>Hintergrundfarbe</b> <i>Fließkommazahl4</i> | Die Hintergrundfarbe des Ausgabebilds.<br>Der Hintergrund ist in den Bereichen des Bildes sichtbar, in denen keine UVs definiert sind (d. h. der Wert ist (0, 0, 0, 0)). |
 
 ## Beispiele
 
@@ -77,11 +77,11 @@ Ordnet das Eingabefarbbild anhand der Koordinaten zu, die in der UV-Eingabe ange
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
+      <img src="uv-mapper-color.resources/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant1-After.jpg" alt="UVMapper-Variant1-After">
+      <img src="uv-mapper-color.resources/UVMapper-Variant1-After.jpg" alt="UVMapper-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -93,11 +93,11 @@ Ordnet das Eingabefarbbild anhand der Koordinaten zu, die in der UV-Eingabe ange
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
+      <img src="uv-mapper-color.resources/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapperColor-Variant2-After.jpg" alt="UVMapperColor-Variant2-After">
+      <img src="uv-mapper-color.resources/UVMapperColor-Variant2-After.jpg" alt="UVMapperColor-Variant2-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -107,4 +107,4 @@ Ordnet das Eingabefarbbild anhand der Koordinaten zu, die in der UV-Eingabe ange
 </tr>
 </table>
 
-![Knoten im Diagramm](../../../../../../assets/UVMapperColor-Graph.jpg "Knoten im Diagramm")
+![Knoten im Diagramm](uv-mapper-color.resources/UVMapperColor-Graph.jpg "Knoten im Diagramm")
