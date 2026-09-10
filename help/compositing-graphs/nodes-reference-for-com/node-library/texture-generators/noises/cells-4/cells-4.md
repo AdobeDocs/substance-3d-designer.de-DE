@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-4.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Zellen 4, um fortgeschrittene Zellmuster zu erzeugen, um organische und biologische Textureffekte zu erzeugen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ZELLEN 4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 77626800e9c3434a519ca045aad1e185d9dc1476
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Zellen 4 - Symbol](../../../../../../assets/cells_4.png "Zellen 4 - Symbol"){width="200px"}
+![Zellen 4 - Symbol](cells-4.resources/cells_4.png "Zellen 4 - Symbol"){width="200px"}
 
 <b>In:</b> Texturgeneratoren > Rauschen
 
@@ -78,12 +78,12 @@ Siehe auch: [Zellen 1](../../../../../../compositing-graphs/nodes-reference-for-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Zellen 4 - Beispiel 1](../../../../../../assets/cells_4_1.png "Zellen 4 - Beispiel 1"){zoomable="yes"}
+![Zellen 4 - Beispiel 1](cells-4.resources/cells_4_1.png "Zellen 4 - Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Zellen 4 - Beispiel 2](../../../../../../assets/noise_cells_4_v2_speed0.3_aniso0.6.gif "Zellen 4 - Beispiel 2"){zoomable="yes"}
+![Zellen 4 - Beispiel 2](cells-4.resources/noise_cells_4_v2_speed0.3_aniso0.6.gif "Zellen 4 - Beispiel 2"){zoomable="yes"}
 
 </td>
 </tr>
