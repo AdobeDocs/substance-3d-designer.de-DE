@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dirt.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dirt.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Dirt-Knoten, um Dirt-Akkumulationsmasken basierend auf Gitterkrümmung, -position und -Verdeckung zu generieren.
+description: Verwenden Sie den Dirt, um Dirt-Akkumulierungsmasken basierend auf Krümmung, Position und Verdeckung des Meshs zu generieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Dirt
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Verschmutzung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dirt.png){width="128px"}
+![](dirt.resources/dirt.png){width="128px"}
 
 <b>In:</b> Mesh-basierte Generatoren > Maskengenerator
 
@@ -33,9 +33,9 @@ ht-degree: 7%
 
 ## Beschreibung
 
-Generiert eine Schwarzweißmaske auf der Grundlage von durch Baking erzeugte Map und Benutzereinstellungen. Ähnlich wie [Smart Masks](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
+Erzeugt eine Schwarz-weiße Maske basierend auf durch Baking erzeugte Map und Benutzereinstellungen. Ähnlich wie [Intelligente Masken](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Diese Maske stellt Dirt in verdeckten und abgesenkten Kanten und Ecken dar, die auf dem gebackenen AO und der Krümmung basieren.
+Diese Maske stellt Dirt in verdeckten und abgesenkten Kanten und Ecken dar, basierend auf Baking geführt AO und Krümmung.
 
 </td>
 </tr>
@@ -48,10 +48,10 @@ Diese Maske stellt Dirt in verdeckten und abgesenkten Kanten und Ecken dar, die 
 |  |  |
 |:---|:---|
 | <b>Krümmung</b> <i>Graustufen-Eingabe</i> | Durch Baking erzeugte Map für interne Effekte und Maskierung. Erforderlich! |
-| <b>Umgebungs-Verdeckung</b> <i>Graustufen-Eingabe</i> | Durch Baking erzeugte Map für interne Effekte und Maskierung. Erforderlich! |
+| <b>Ambient occlusion</b> <i>Graustufen-Eingabe</i> | Durch Baking erzeugte Map für interne Effekte und Maskierung. Erforderlich! |
 | <b>Schmutz-Eingang</b> <i>Graustufen-Eingabe</i> | Benutzerdefinierte Schmutz-Map-Eingabe, optional, aktiviert durch Parameter. |
 | <b>Maske (optional)</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. |
-| <b>Normaler Weltraum</b> <i>Farbeingabe</i> | Nur für Triplanar verwendet. |
+| <b>Welt-Raum-Normale</b> <i>Farbeingabe</i> | Nur für Triplanar verwendet. |
 | <b>Position</b> <i>Farbeingabe</i> | Nur für Triplanar verwendet. |
 
 <a name="parameters"></a>
@@ -74,7 +74,7 @@ Diese Maske stellt Dirt in verdeckten und abgesenkten Kanten und Ecken dar, die 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/dirt-ex.gif" />
+            <img src="dirt.resources/dirt-ex.gif" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/cloth-wear.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/cloth-wear.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Stoffverschleiß", um auf der Grundlage der Krümmung des Meshs und der Kontaktflächen Verschleißmasken auf den Oberflächen der Stoffgewebe zu erzeugen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tuchbekleidung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/cloth-wear.png){width="128px"}
+![](cloth-wear.resources/cloth-wear.png){width="128px"}
 
 <b>In:</b> Mesh-basierte Generatoren > Maskengenerator
 
@@ -65,7 +65,7 @@ Die Maske zeigt die Ränder von Materialien an. Es verwendet eine Stoffdetail-H�
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/cloth-wear-ex.gif" />
+            <img src="cloth-wear.resources/cloth-wear-ex.gif" />
         </td>
     </tr>
 </table>

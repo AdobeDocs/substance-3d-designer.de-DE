@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-crop.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-crop.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Multi Crop", um mehrere Texturkanäle gleichzeitig zuzuschneiden und so gescannte Materialien effizient zu verarbeiten.
+description: Verwenden Sie den Knoten "Multi Crop", um mehrere Textur-Kanäle gleichzeitig zuzuschneiden und so gescannte Materialien effizient zu verarbeiten.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi Crop
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mehrfachzuschnitt
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/crop-multi.png){width="128px"}
+![](multi-crop.resources/crop-multi.png){width="128px"}
 
-![](../../../../../../assets/crop-multi-grayscale.png){width="128px"}
+![](multi-crop.resources/crop-multi-grayscale.png){width="128px"}
 
 <b>In:</b> Materialfilter > Scanverarbeitung
 
@@ -55,5 +55,5 @@ Dies ist die Multikanal-Version von &quot;Zuschneiden&quot;. Es schneidet einen 
 | <b>Eingabegröße</b> <i>0 - 8192</i> | Auflösung und Proportionen von Eingabebilds. Sehr wichtig für nicht quadratische Bilder. |
 | <b>Hintergrund</b> <i>(Farbwert) / (Graustufenwert)</i> | Einheitlicher Hintergrundwert für Bereiche, die nicht von der Freistellung abgedeckt sind. |
 | <b>Transformieren</b> <i>(Transformationsmatrix)</i> | Dreht und skaliert das Ergebnis. Das Ergebnis kann durch direkte Interaktion mit der Arbeitsfläche geändert werden. |
-| <b>Offset</b> <i>0.0 - 1.0</i> | Verschiebt oder verschiebt das Ergebnis. Das Ergebnis kann durch direkte Interaktion mit der Arbeitsfläche geändert werden. |
+| <b>Offset</b> <i>0.0 - 1.0</i> | Verschiebt oder Kamera bewegt das Ergebnis. Das Ergebnis kann durch direkte Interaktion mit der Arbeitsfläche geändert werden. |
 | <b>Ist normal (nur für Farbversion)</b> <i>False/True</i> | Gibt an, ob die Eingabe als Normalmap behandelt werden soll. |

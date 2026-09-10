@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-scatter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-scatter.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Atlas Scatter", um Texturen über einen Atlas in Streuung zu setzen, um Kachelmuster aus gescannten Materialien zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Atlas Scatter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '1223'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/atlas-scatter.png){width="200px"}
+![](atlas-scatter.resources/atlas-scatter.png){width="200px"}
 
 <b>In:</b> Materialfilter > Scanverarbeitung
 
@@ -80,14 +80,14 @@ Extrahieren von Elementen aus einem Atlas und Streuung auf einem Hintergrund. At
 | <b>Drehung</b> <i>0.0 - 1.0</i> | Ermöglicht die Steuerung der lokalen Drehung für alle Formen. |
 | <b>Drehung zufällig</b> <i>0.0 - 1.0</i> | Ein Multiplikator für einen zufälligen Betrag an Drehung, der pro Form angewendet wird. |
 | <b>Drehung aus Bg-Steigung</b> <i>0.0 - 1.0</i> | Ändert die Drehung der Form in Abhängigkeit von der Steigung des Heights im Hintergrund. Wird gewöhnlich in Kombination mit dem Parameter &quot;Größenverhältnis von Bg-Steigung&quot; verwendet |
-| <b>Rotation Map-Multiplikator</b> <i>0.0 - 1.0</i> | Multipliziert die Formdrehung in Funktion des Graustufenwerts für das Eingabebild. |
+| <b>Rotation Map-Multiplikator</b> <i>0.0 - 1.0</i> | Multipliziert die Formdrehung in Abhängigkeit des Graustufenwerts des Eingabebilds. |
 | <b>Vektorzuordnungsvervielfacher</b> <i>0.0 - 1.0</i> | Legt die Formdrehung in Abhängigkeit von der Vektorbildeingabe fest. |
 | <b>Height</b> |  |
 | <b>Automatische Anpassung der Skalierung des Heights</b> <i>False/True</i> | Passt das Height automatisch an die Musterskala an, damit das Height der Form proportional zum Hintergrund-Height bleibt. |
-| <b>Füllmethode</b> <i>Height-Überblendung, Alpha-Test</i> | Legt die Methode zum Auflösen von Formenüberlappungen fest. |
+| <b>Überblendung-Modus</b> <i>Height-Überblendung, Alpha-Test</i> | Legt die Methode zum Auflösen von Formenüberlappungen fest. |
 | <b>Height-Offset</b> <i>-1.0 - 1.0</i> | Wendet einen globalen Versatz auf das Formen-Height an |
 | <b>Height-Offset zufällig</b> <i>0.0 - 1.0</i> | Ein Multiplikator für einen zufälligen Height-Versatz, der pro Form angewendet wird |
-| <b>Height-Versatzzuordnungs-Multiplikator</b> <i>0.0 - 1.0</i> | Multipliziert den Offset des Formenbilds in Abhängigkeit vom Graustufenwert des Heights. |
+| <b>Height-Versatzzuordnungs-Multiplikator</b> <i>0.0 - 1.0</i> | Multipliziert den Versatz des Heights in der Form in Abhängigkeit vom Graustufenwert des Eingabebilds. |
 | <b>Height-Skalierung</b> <i>0.0 - 1.0</i> | Ermöglicht die Steuerung der globalen Height-Skalierung für die verstreuten Formen |
 | <b>Zufällige Skalierung des Heights</b> <i>0.0 - 1.0</i> | Ein Multiplikator für eine zufällige Height-Skalierung, die pro Form angewendet wird |
 | <b>Height-Skalierungszuordnungsvervielfacher</b> <i>0.0 - 1.0</i> | Multipliziert den Maßstab des Heights in Abhängigkeit vom Graustufenwert des Eingabebilds. |
@@ -119,7 +119,7 @@ Extrahieren von Elementen aus einem Atlas und Streuung auf einem Hintergrund. At
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/atlas-scatter-11.png" />
+            <img src="atlas-scatter.resources/atlas-scatter-11.png" />
         </td>
     </tr>
 </table>

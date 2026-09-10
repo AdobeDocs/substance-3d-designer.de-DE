@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-splitter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-splitter.html"
 breadcrumb-title: ''
 description: Über den Knoten "Atlas Splitter" kannst du Texturatlanten in Texturen aufteilen, die als Ausgangspunkt für die Bearbeitung gescannter Materialien dienen sollen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Atlas Splitter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/atlas-splitter.png "Knotensymbol")
+![Knotensymbol](atlas-splitter.resources/atlas-splitter.png "Knotensymbol")
 
 <b>In:</b> Materialfilter/Scanverarbeitung
 

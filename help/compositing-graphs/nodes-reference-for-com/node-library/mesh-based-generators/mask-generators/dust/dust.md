@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dust.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dust.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Dust", um Dust-Akkumulierungsmasken auf der Grundlage der Geometrie des Meshs zu generieren, um realistische Dust- und Rastereffekte zu erzeugen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dust
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dust.png){width="128px"}
+![](dust.resources/dust.png){width="128px"}
 
 <b>In:</b> Mesh-basierte Generatoren > Maskengenerator
 
@@ -69,7 +69,7 @@ Diese Maske stellt die Dust dar, die sich in verdeckten, abgesenkten Bereichen a
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/dust-ex.gif" />
+            <img src="dust.resources/dust-ex.gif" />
         </td>
     </tr>
 </table>

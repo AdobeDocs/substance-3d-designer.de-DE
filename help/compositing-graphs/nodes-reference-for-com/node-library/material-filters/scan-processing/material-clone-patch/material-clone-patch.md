@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/material-clone-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/material-clone-patch.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Material Klon Patch-Knoten, um Bereiche der Textur zu klonen und auszubessern, um Artefakte in gescannten Materialien zu reparieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Material Klon Patch
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/clone-patch-material.png){width="128px"}
+![](material-clone-patch.resources/clone-patch-material.png){width="128px"}
 
 <b>In:</b> Materialfilter > Scanverarbeitung
 
