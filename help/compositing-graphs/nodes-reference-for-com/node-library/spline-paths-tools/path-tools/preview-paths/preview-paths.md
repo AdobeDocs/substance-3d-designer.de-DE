@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vorschau von Pfaden
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/preview-paths-icon.png "Knotensymbol")
+![Knotensymbol](preview-paths.resources/preview-paths-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Path Tools
 
@@ -56,9 +56,9 @@ Sie erhalten ein ähnliches Ergebnis wie die <b>Vorschau</b>-Ausgabe der [Maske 
 
 |  |  |
 |:---|:---|
-| <b>Ecken anzeigen</b> <i>Boolescher Wert</i> | Zeigt auf jedem Scheitelpunkt ein Quadrat an, das als Ecke markiert ist (additive Überblendung). |
-| <b>Scheitelpunkt anzeigen</b> <i>Boolescher Wert</i> | Zeigt auf jedem Scheitelpunkt eine Kreisform an (additive Füllmethode). Ecken werden weiterhin als Quadrate angezeigt. |
-| <b>Segments-Thickness (px)</b> <i>Gleitend</i> | Passt die Thickness gerenderter Segmente in Pixel an. |
+| <b>Ecken anzeigen</b> <i>Boolesche Wert</i> | Zeigt auf jedem Scheitelpunkt ein Quadrat an, das als Ecke markiert ist (additive Überblendung). |
+| <b>Scheitelpunkt anzeigen</b> <i>Boolesche Wert</i> | Zeigt auf jedem Scheitelpunkt eine Kreisform an (additive Füllmethode). Ecken werden weiterhin als Quadrate angezeigt. |
+| <b>Segments-Thickness (px)</b> <i>Fließkommazahl</i> | Passt die Thickness gerenderter Segmente in Pixel an. |
 
 ## Beispiele
 
@@ -66,12 +66,12 @@ Sie erhalten ein ähnliches Ergebnis wie die <b>Vorschau</b>-Ausgabe der [Maske 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](../../../../../../assets/PathsToSpline-Variant2-Before_1.jpg "Knotenbeispiel 1")
+![Knotenbeispiel 1](preview-paths.resources/PathsToSpline-Variant2-Before_1.jpg "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](../../../../../../assets/PathsToSpline-Variant1-Before_1.jpg "Knotenbeispiel 2")
+![Knotenbeispiel 2](preview-paths.resources/PathsToSpline-Variant1-Before_1.jpg "Knotenbeispiel 2")
 
 </td>
 </tr>

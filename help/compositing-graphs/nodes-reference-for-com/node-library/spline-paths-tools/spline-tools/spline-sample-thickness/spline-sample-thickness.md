@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline-Beispiel-Thickness
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: e23f692fa31d1e7b9eeac692bb41186441fdda53
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/spline-sample-thickness-icon.png "Knotensymbol")
+![Knotensymbol](spline-sample-thickness.resources/spline-sample-thickness-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -88,11 +88,11 @@ Der Effekt der zugeordneten Height-Map kann angepasst werden, indem die Füllmet
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleThickness-Variant1-Before.jpg" alt="SplineSampleThickness-Variant1-Before">
+      <img src="spline-sample-thickness.resources/SplineSampleThickness-Variant1-Before.jpg" alt="SplineSampleThickness-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleThickness-Variant1-After.jpg" alt="SplineSampleThickness-Variant1-After">
+      <img src="spline-sample-thickness.resources/SplineSampleThickness-Variant1-After.jpg" alt="SplineSampleThickness-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -104,11 +104,11 @@ Der Effekt der zugeordneten Height-Map kann angepasst werden, indem die Füllmet
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleThickness-Variant2-Before.jpg" alt="SplineSampleThickness-Variant2-Before">
+      <img src="spline-sample-thickness.resources/SplineSampleThickness-Variant2-Before.jpg" alt="SplineSampleThickness-Variant2-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleThickness-Variant2-After.jpg" alt="SplineSampleThickness-Variant2-After">
+      <img src="spline-sample-thickness.resources/SplineSampleThickness-Variant2-After.jpg" alt="SplineSampleThickness-Variant2-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -122,12 +122,12 @@ Der Effekt der zugeordneten Height-Map kann angepasst werden, indem die Füllmet
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](../../../../../../assets/SplineSampleThickness-Variant1-After1.jpg "Knotenbeispiel 1")
+![Knotenbeispiel 1](spline-sample-thickness.resources/SplineSampleThickness-Variant1-After1.jpg "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](../../../../../../assets/SplineSampleThickness-Demo.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](spline-sample-thickness.resources/SplineSampleThickness-Demo.gif "Knotenbeispiel 2")
 
 </td>
 </tr>

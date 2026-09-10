@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 3D-Projektion
+title: 3D Planare Projektion
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: fbf066c7185f74dcbf35156afc3873d192f77abc
+source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 7%
@@ -18,13 +18,13 @@ ht-degree: 7%
 ---
 
 
-# 3D-Projektion
+# 3D Planare Projektion
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3d-planar-gray.png)![](../../../../../../assets/3d-planar.png)
+![](3d-planar-projection.resources/3d-planar-gray.png)![](3d-planar-projection.resources/3d-planar.png)
 
 <b>In:</b> Mesh-basierte Generatoren > Dienstprogramme
 
@@ -46,7 +46,7 @@ Führt eine planare Projektion auf der Grundlage Baking geführt Mesh-Daten durc
 |  |  |
 |:---|:---|
 | <b>Positionszuordnung</b> <i>Farbeingabe</i> | Baking geführt Positionszuordnung |
-| <b>Normaler Weltraum</b> <i>Farbeingabe</i> | Baking geführt Welt-Raum-Normale Map |
+| <b>Welt-Raum-Normale</b> <i>Farbeingabe</i> | Baking geführt Welt-Raum-Normale Map |
 | <b>Vorhergesagte Textur</b> <i>Farbeingabe</i> | Eingabe der Textur für das Projekt auf dem Ziel. |
 
 <a name="parameters"></a>
@@ -74,7 +74,7 @@ Führt eine planare Projektion auf der Grundlage Baking geführt Mesh-Daten durc
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3d-planar-projection-ex.gif" />
+            <img src="3d-planar-projection.resources/3d-planar-projection-ex.gif" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline-Zusammenführungsliste
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 4ae20991693573dd44016a411c233b071fa96df6
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/spline-merge-list-icon.png "Knotensymbol")
+![Knotensymbol](spline-merge-list.resources/spline-merge-list-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -82,11 +82,11 @@ Fügt alle Splines in der Eingabeliste zu einem einzigen Spline zusammen.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineMergeList-Variant2-Before.jpg" alt="SplineMergeList-Variant2-Before">
+      <img src="spline-merge-list.resources/SplineMergeList-Variant2-Before.jpg" alt="SplineMergeList-Variant2-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineMergeList-Variant2-After.jpg" alt="SplineMergeList-Variant2-After">
+      <img src="spline-merge-list.resources/SplineMergeList-Variant2-After.jpg" alt="SplineMergeList-Variant2-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -98,11 +98,11 @@ Fügt alle Splines in der Eingabeliste zu einem einzigen Spline zusammen.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineMergeList-Variant1-Before.jpg" alt="SplineMergeList-Variant1-Before">
+      <img src="spline-merge-list.resources/SplineMergeList-Variant1-Before.jpg" alt="SplineMergeList-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineMergeList-Variant1-After.jpg" alt="SplineMergeList-Variant1-After">
+      <img src="spline-merge-list.resources/SplineMergeList-Variant1-After.jpg" alt="SplineMergeList-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -112,4 +112,4 @@ Fügt alle Splines in der Eingabeliste zu einem einzigen Spline zusammen.
 </tr>
 </table>
 
-![Knotendemo](../../../../../../assets/SplineMergeList-Demo.gif "Knotendemo")
+![Knotendemo](spline-merge-list.resources/SplineMergeList-Demo.gif "Knotendemo")

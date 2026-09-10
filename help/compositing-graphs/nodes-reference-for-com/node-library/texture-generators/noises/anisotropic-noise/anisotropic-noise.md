@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Anisotropes Rauschen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Anisotropes Rauschen - Symbol](../../../../../../assets/anisotropic_noise_v2.png "Anisotropes Rauschen - Symbol"){width="200px"}
+![Anisotropes Rauschen - Symbol](anisotropic-noise.resources/anisotropic_noise_v2.png "Anisotropes Rauschen - Symbol"){width="200px"}
 
 <b>In:</b> Texturgeneratoren > Rauschen
 
@@ -71,12 +71,12 @@ Die Anzahl der Streifen ist einstellbar, ebenso wie die Smoothness ihrer √úberg√
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Anisotropes Rauschen - Beispiel 1](../../../../../../assets/anisotropic_noise_v2_1.png "Anisotropes Rauschen - Beispiel 1"){zoomable="yes"}
+![Anisotropes Rauschen - Beispiel 1](anisotropic-noise.resources/anisotropic_noise_v2_1.png "Anisotropes Rauschen - Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Anisotropes Rauschen - Beispiel 2](../../../../../../assets/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "Anisotropes Rauschen - Beispiel 2"){zoomable="yes"}
+![Anisotropes Rauschen - Beispiel 2](anisotropic-noise.resources/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "Anisotropes Rauschen - Beispiel 2"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Punktliste
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/point-list-icon.png "Knotensymbol")
+![Knotensymbol](point-list.resources/point-list-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -93,12 +93,12 @@ Wenn eine vorhandene Punktliste an die <b>Point</b>-Eingaben übergeben wird, wi
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](../../../../../../assets/PointList-Variant1.jpg "Knotenbeispiel 1")
+![Knotenbeispiel 1](point-list.resources/PointList-Variant1.jpg "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](../../../../../../assets/PointList-Demo1.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](point-list.resources/PointList-Demo1.gif "Knotenbeispiel 2")
 
 </td>
 </tr>

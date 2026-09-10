@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline Mapper Graustufen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 4ae20991693573dd44016a411c233b071fa96df6
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/spline-mapper-grayscale-icon.png "Knotensymbol")
+![Knotensymbol](spline-mapper-grayscale.resources/spline-mapper-grayscale-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -82,14 +82,14 @@ Der Knoten gibt das zugeordnete Bild als Graustufenbild sowie weitere Informatio
 |  |  |
 |:---|:---|
 | <b>Segmentierungsbetrag</b> <i>Integer</i> | Splines werden in Segmente vereinfacht, bevor Bildkoordinaten sie durchlaufen.<br>Eine höhere Anzahl von Segmenten führt zu einer glatteren Zuordnung entlang Kurven. |
-| <b>UVs automatisch skalieren</b> <i>Boolesche Wert</i> | Passt die Skalierung der Koordinaten automatisch an, um ein quadratisches Bild beizubehalten, wenn es den Splines zugeordnet wird. |
-| <b>UV-Skalierung</b> <i>Fließkommazahl2</i> | Passt die Skalierung der zugeordneten Koordinaten in X (horizontal) und Y (vertikal) an.<br>Höhere Werte führen zu einem dichter gekachelten Bild. |
-| <b>Modus</b> <i>Ganzzahl</i> | Die Methode zum Auswählen der Splines, entlang denen das Bild zugeordnet werden soll: <br>- <i>Spline-Liste zeichnen</i>: Alle Splines in der Eingabeliste werden verwendet;<br>- <i>Einzelne Spline zeichnen</i>: Nur der Spline mit dem angegebenen Index wird verwendet;<br>- <i>Spline-Bereich zeichnen</i>: Es werden nur die Splines verwendet, deren Index im angegebenen Bereich enthalten ist. |
-| <b>Spline-Index zeichnen</b> <i>Ganzzahl</i> | (Verfügbar, wenn &quot;Modus&quot; auf &quot;Einzelne Spline zeichnen&quot; eingestellt ist) Der Index der Spline, entlang der das Bild zugeordnet werden soll. |
-| <b>Spline-Bereich zeichnen</b> <i>Ganzzahl2</i> | (Verfügbar, wenn &quot;Modus&quot; auf &quot;Spline-Bereich zeichnen&quot; eingestellt ist) Der Indexbereich für die Splines, entlang denen das Bild zugeordnet werden soll. |
-| <b>Start</b> <i>Fließkommazahl</i> | Versetzt den Anfang des Abschnitts des Spline-Effekts, der zugeordnet werden soll.<br>Der Wert stellt die normalisierte Länge des Splines dar. |
-| <b>Ende</b> <i>Fließkommazahl</i> | Versetzt das Ende des Abschnitts des Spline-Effekts, der zugeordnet werden soll.<br>Der Wert stellt die normalisierte Länge des Splines dar. |
-| <b>Thickness-Modus</b> <i>Ganzzahl</i> | Die Methode zum Festlegen der Thickness des zugeordneten Bildes: <br>- <i>Manuell</i>: Legen Sie die Thickness explizit mit einem beliebigen Wert fest;<br>- <i>Von Spline</i>: Verwenden Sie die Thickness des Splines. |
+| <b>UVs automatisch skalieren</b> <i>Boolescher Wert</i> | Passt die Skalierung der Koordinaten automatisch an, um ein quadratisches Bild beizubehalten, wenn es den Splines zugeordnet wird. |
+| <b>UV-Skalierung</b> <i>Float2</i> | Passt die Skalierung der zugeordneten Koordinaten in X (horizontal) und Y (vertikal) an.<br>Höhere Werte führen zu einem dichter gekachelten Bild. |
+| <b>Modus</b> <i>Integer</i> | Die Methode zum Auswählen der Splines, entlang denen das Bild zugeordnet werden soll: <br>- <i>Spline-Liste zeichnen</i>: Alle Splines in der Eingabeliste werden verwendet;<br>- <i>Einzelne Spline zeichnen</i>: Nur der Spline mit dem angegebenen Index wird verwendet;<br>- <i>Spline-Bereich zeichnen</i>: Es werden nur die Splines verwendet, deren Index im angegebenen Bereich enthalten ist. |
+| <b>Spline-Index zeichnen</b> <i>Integer</i> | (Verfügbar, wenn &quot;Modus&quot; auf &quot;Einzelne Spline zeichnen&quot; eingestellt ist) Der Index der Spline, entlang der das Bild zugeordnet werden soll. |
+| <b>Spline-Bereich zeichnen</b> <i>Integer2</i> | (Verfügbar, wenn &quot;Modus&quot; auf &quot;Spline-Bereich zeichnen&quot; eingestellt ist) Der Indexbereich für die Splines, entlang denen das Bild zugeordnet werden soll. |
+| <b>Start</b> <i>Gleitend</i> | Versetzt den Anfang des Abschnitts des Spline-Effekts, der zugeordnet werden soll.<br>Der Wert stellt die normalisierte Länge des Splines dar. |
+| <b>Ende</b> <i>Gleitend</i> | Versetzt das Ende des Abschnitts des Spline-Effekts, der zugeordnet werden soll.<br>Der Wert stellt die normalisierte Länge des Splines dar. |
+| <b>Thickness-Modus</b> <i>Integer</i> | Die Methode zum Festlegen der Thickness des zugeordneten Bildes: <br>- <i>Manuell</i>: Legen Sie die Thickness explizit mit einem beliebigen Wert fest;<br>- <i>Von Spline</i>: Verwenden Sie die Thickness des Splines. |
 | <b>Thickness</b> <i>Gleitend</i> | (Verfügbar, wenn &quot;Thickness-Modus&quot; auf &quot;Manuell&quot; eingestellt ist) Der willkürliche Wert für die Thickness des zugeordneten Bildes entlang der Splines. |
 | <b>Thicknessen-Multiplikator</b> <i>Gleitend</i> | (Verfügbar, wenn &quot;Thickness-Modus&quot; auf &quot;Von Spline&quot; eingestellt ist) Ein globaler Multiplikator für die Thickness des zugeordneten Bildes entlang der Splines, wenn diese Thickness von der der Splines gesteuert wird. |
 | <b>Form</b> <i>Integer</i> | Die primitive Form, die zum Zuordnen von Bildkoordinaten entlang der Splines verwendet wird:<br>- <i>Ebene</i>: Koordinaten werden einer flachen Ebene zugeordnet;<br>- <i>Halbzylinder</i>: Koordinaten werden einem Halbzylinder zugeordnet, dessen Achse des Grundkreises der Spline-Richtung folgt;<br>- <i>Zylinder</i>: Koordinaten werden einem Zylinder zugeordnet, dessen Grundkreisrichtung der Achse der Spline folgt. |
@@ -111,11 +111,11 @@ Der Knoten gibt das zugeordnete Bild als Graustufenbild sowie weitere Informatio
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
+      <img src="spline-mapper-grayscale.resources/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineMapperGrayscale-Variant1-After.jpg" alt="SplineMapperGrayscale-Variant1-After">
+      <img src="spline-mapper-grayscale.resources/SplineMapperGrayscale-Variant1-After.jpg" alt="SplineMapperGrayscale-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -124,7 +124,7 @@ Der Knoten gibt das zugeordnete Bild als Graustufenbild sowie weitere Informatio
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](../../../../../../assets/SplineMapperGrayscale-Demo.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](spline-mapper-grayscale.resources/SplineMapperGrayscale-Demo.gif "Knotenbeispiel 2")
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ Der Knoten gibt das zugeordnete Bild als Graustufenbild sowie weitere Informatio
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 3](../../../../../../assets/SplineMapperGrayscale-Variant1-After1.jpg "Knotenbeispiel 3")
+![Knotenbeispiel 3](spline-mapper-grayscale.resources/SplineMapperGrayscale-Variant1-After1.jpg "Knotenbeispiel 3")
 
 </td>
 <td style="border: 0;" valign="top">

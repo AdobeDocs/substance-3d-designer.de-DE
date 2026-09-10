@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-normal.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Mehrwinkel zu Normal", um Normalen-Map aus eingescannten Bildern mit mehreren Winkeln zu generieren, um präzise Oberflächendetails zu erhalten.
+description: Verwenden Sie den Knoten "Mehrere Winkel zu Normal", um aus gescannten Bildern mit mehreren Winkeln Normalzuordnungen für präzise Oberflächendetails zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi-Angle to Normal
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mehrere Winkel zu Normal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-angle-to-normal.png){width="128px"}
+![](multi-angle-to-normal.resources/multi-angle-to-normal.png){width="128px"}
 
 <b>In:</b> Materialfilter > Scanverarbeitung
 
@@ -39,7 +39,7 @@ Es ist komplizierter als [Mehrwinkel zu Albedo](../../../../../../compositing-gr
 
 >[!NOTE]
 >
-> Weitere Informationen zur Albedo dieses Knotens finden Sie unter [Mehrwinkel zu Albedo](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md). Wenn Sie Ihre Eingaben vorverarbeiten möchten, können [Multi-Color Equalizer](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-color-equalizer/multi-color-equalizer.md), [Multi-Zuschnitt](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-crop/multi-crop.md) und [Multi-Klon-Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md) von Nutzen sein, da sie mit diesen Knoten kombiniert werden sollen.
+> Weitere Informationen zur Albedo dieses Knotens finden Sie unter [Mehrwinkel zu Albedo](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md). Wenn Sie Ihre Eingaben vorverarbeiten möchten, können [Multi-Color Equalizer](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-color-equalizer/multi-color-equalizer.md), [Multi-Zuschnitt](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-crop/multi-crop.md) und [Multi-Clone-Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md) von Nutzen sein, da sie mit diesen Knoten kombiniert werden sollen.
 
 </td>
 </tr>

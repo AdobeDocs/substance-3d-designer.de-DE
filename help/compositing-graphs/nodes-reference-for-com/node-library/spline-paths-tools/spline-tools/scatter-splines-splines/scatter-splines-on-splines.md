@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Streuung Splines on Splines
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
 workflow-type: tm+mt
 source-wordcount: '2832'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Streuung-Splines auf Splines: Symbol &#x200B;](../../../../../../assets/scatter-splines-on-splines-icon.png "Streuung-Splines auf Splines: Symbol ")
+![Streuung-Splines auf Splines: Symbol &#x200B;](scatter-splines-on-splines.resources/scatter-splines-on-splines-icon.png "Streuung-Splines auf Splines: Symbol ")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -54,7 +54,7 @@ Klicken Sie auf das Bild auf der rechten Seite, um auf unser <b>Tutorial </b> zu
 </td>
 <td style="border: 0;" valign="top">
 
-[![Video-Spline-Knoten](../../../../../../assets/video_spline.png)](https://youtu.be/aUUWV1dYQdI)
+[![Video-Spline-Knoten](scatter-splines-on-splines.resources/video_spline.png)](https://youtu.be/aUUWV1dYQdI)
 
 </td>
 </tr>
@@ -67,9 +67,9 @@ Klicken Sie auf das Bild auf der rechten Seite, um auf unser <b>Tutorial </b> zu
 |  |  |
 |:---|:---|
 | <b>Vorschau</b> *Graustufen* | Die Vorschau der Eingabe-Splines als Graustufenbild. |
-| <b>Spline-Kabel</b> *Farbe* | Die Koordinaten der Punkte der übergeordneten Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind:  <b>R</b> - X-Position <b>G</b> - Y-Position <b>B</b> - Height <b>A</b> - Packed data:          - Signieren: Spline ist geschlossen (negativ) oder offen (positiv) - Absolute Wert: THICKNESS + 1 |
+| <b>Spline-Kabel</b> *Farbe* | Die Koordinaten der Punkte der übergeordneten Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind:  <b>R</b> - X-Position <b>G</b> - Y-Position <b>B</b> - Height <b>A</b> - Packed data:          - Signieren: Spline ist geschlossen (negativ) oder offen (positiv) - Absoluter Wert: THICKNESS + 1 |
 | <b>Spline-Daten</b> *Farbe* | Zusätzliche Daten der übergeordneten Splines, die in den RGBA-Kanälen eines Farbbilds codiert sind:  <b>R</b> - Tangenten X <b>G</b> - Tangenten Y <b>B</b> - Tangenten Z <b>A</b> - Nicht verwendet |
-| <b>Spline-Betrag</b> *Ganzzahl* | Die Anzahl der übergeordneten Splines. |
+| <b>Spline-Betrag</b> *Integer* | Die Anzahl der übergeordneten Splines. |
 | <b>Benutzerdefinierte Spline-Codes</b> *Farbe* | Die Koordinaten der Punkte der benutzerdefinierten Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind:  <b>R</b> - X-Position <b>G</b> - Y-Position <b>B</b> - Height <b>A</b> - Packed data:          - Signieren: Spline ist geschlossen (negativ) oder offen (positiv) - Absoluter Wert: THICKNESS + 1 |
 | <b>Benutzerdefinierte Spline-Daten</b> *Farbe* | Zusätzliche Daten zu den benutzerdefinierten Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind:  <b>R</b> - Tangenten X <b>G</b> - Tangenten Y <b>B</b> - Tangenten Z <b>A</b> - Nicht verwendet |
 | <b>Benutzerdefinierter Spline-Betrag</b> *Integer* | Die Anzahl der benutzerdefinierten Splines. |
@@ -162,12 +162,12 @@ Klicken Sie auf das Bild auf der rechten Seite, um auf unser <b>Tutorial </b> zu
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Streuung-Splines auf Splines: Beispiel 1](../../../../../../assets/scatter-splines-on-splines-example-1.png "Streuung-Splines auf Splines: Beispiel 1"){zoomable="yes"}
+![Streuung-Splines auf Splines: Beispiel 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-1.png "Streuung-Splines auf Splines: Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Streuung-Splines auf Splines: Beispiel 1](../../../../../../assets/scatter-splines-on-splines-example-2.png "Streuung-Splines auf Splines: Beispiel 1"){zoomable="yes"}
+![Streuung-Splines auf Splines: Beispiel 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-2.png "Streuung-Splines auf Splines: Beispiel 1"){zoomable="yes"}
 
 </td>
 </tr>
@@ -177,12 +177,12 @@ Klicken Sie auf das Bild auf der rechten Seite, um auf unser <b>Tutorial </b> zu
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Streuung-Splines auf Splines: Beispiel 3](../../../../../../assets/scatter-splines-on-splines-example-4.png "Streuung-Splines auf Splines: Beispiel 3"){zoomable="yes"}
+![Streuung-Splines auf Splines: Beispiel 3](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-4.png "Streuung-Splines auf Splines: Beispiel 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Streuung-Splines auf Splines: Beispiel 4](../../../../../../assets/scatter-splines-on-splines-example-3.png "Streuung-Splines auf Splines: Beispiel 4"){zoomable="yes"}
+![Streuung-Splines auf Splines: Beispiel 4](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-3.png "Streuung-Splines auf Splines: Beispiel 4"){zoomable="yes"}
 
 </td>
 </tr>
@@ -194,15 +194,15 @@ Klicken Sie auf das Bild auf der rechten Seite, um auf unser <b>Tutorial </b> zu
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Streuung-Splines auf Splines: 1](../../../../../../assets/scatter-splines-on-splines-demo-1.png "Streuung-Splines auf Splines rendern: 1"){zoomable="yes"} rendern
+![Streuung-Splines auf Splines: 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-demo-1.png "Streuung-Splines auf Splines rendern: 1"){zoomable="yes"} rendern
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Streuung-Splines auf Splines: 2](../../../../../../assets/scatter-splines-on-splines-demo-3.png "Streuung-Splines auf Splines rendern: 2"){zoomable="yes"} rendern
+![Streuung-Splines auf Splines: 2](scatter-splines-on-splines.resources/scatter-splines-on-splines-demo-3.png "Streuung-Splines auf Splines rendern: 2"){zoomable="yes"} rendern
 
 </td>
 </tr>
 </table>
 
-![Streuung-Splines auf Splines: 3](../../../../../../assets/scatter-splines-on-splines-demo-2.png "Streuung-Splines auf Splines rendern: 3"){zoomable="yes"} rendern
+![Streuung-Splines auf Splines: 3](scatter-splines-on-splines.resources/scatter-splines-on-splines-demo-2.png "Streuung-Splines auf Splines rendern: 3"){zoomable="yes"} rendern

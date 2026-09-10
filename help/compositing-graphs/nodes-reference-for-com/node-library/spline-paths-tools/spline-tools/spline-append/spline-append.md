@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline Append
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/spline-append-icon.png "Knotensymbol")
+![Knotensymbol](spline-append.resources/spline-append-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -54,7 +54,7 @@ Die Reihenfolge der Listen bleibt erhalten, d. h. das Anhängen einer Liste D-E-
 | <b>Vorschau #1</b> <i>Graustufen</i> | Die Vorschau des ersten Satzes von Eingabe-Splines als Graustufenbild. |
 | <b>Spline-#1</b> <i>Farbe</i> | Die Koordinaten des ersten Satzes von Eingangs-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.<br><b>R</b> - X-Position<br><b>G</b> - Y-Position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>- Sign: Spline ist geschlossen (negativ) oder offen (positiv);<br>- Absolute Wert: Thickness + 1. |
 | <b>Spline #1 Data</b> <i>Farbe</i> | Zusätzliche Daten des ersten Satzes von Eingangs-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.<br><b>R</b> - Tangenten X<br><b>G</b> - Tangenten Y<br><b>B</b> - Nicht verwendet<br><b>A</b> - Nicht verwendet |
-| <b>Spline-#1</b> <i>Integer</i> | Die Anzahl der Eingabe-Splines im ersten Satz. |
+| <b>Spline-#1</b> <i>Ganzzahl</i> | Die Anzahl der Eingabe-Splines im ersten Satz. |
 | <b>Vorschau #2</b> <i>Graustufen</i> | Die Vorschau des zweiten Satzes von Eingabe-Splines als Graustufenbild. |
 | <b>Spline-#2</b> <i>Farbe</i> | Die Koordinaten des zweiten Satzes von Eingangs-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.<br><b>R</b> - X-Position<br><b>G</b> - Y-Position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>- Sign: Spline ist geschlossen (negativ) oder offen (positiv);<br>- Absolute Wert: Thickness + 1. |
 | <b>Spline #2 Data</b> <i>Farbe</i> | Zusätzliche Daten des zweiten Satzes von Eingangs-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.<br><b>R</b> - Tangenten X<br><b>G</b> - Tangenten Y<br><b>B</b> - Nicht verwendet<br><b>A</b> - Nicht verwendet |
@@ -91,15 +91,15 @@ Die Reihenfolge der Listen bleibt erhalten, d. h. das Anhängen einer Liste D-E-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](../../../../../../assets/SplineAppend-Demo.jpg "Knotenbeispiel 1")
+![Knotenbeispiel 1](spline-append.resources/SplineAppend-Demo.jpg "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](../../../../../../assets/SplineAppend-Graph.jpg "Knotenbeispiel 2")
+![Knotenbeispiel 2](spline-append.resources/SplineAppend-Graph.jpg "Knotenbeispiel 2")
 
 </td>
 </tr>
 </table>
 
-![Knotendemo](../../../../../../assets/SplineAppend-Demo2.gif "Knotendemo")
+![Knotendemo](spline-append.resources/SplineAppend-Demo2.gif "Knotendemo")

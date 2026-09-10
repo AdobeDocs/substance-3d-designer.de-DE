@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pfade Scheitelpunktprozessor Einfach
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/paths-vertex-processor-simple-icon.png "Knotensymbol")
+![Knotensymbol](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Path Tools
 
@@ -87,7 +87,7 @@ Sie können auch auf die Variablen *Scheitelpunkt.corner* (bool) und *path.id* (
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](../../../../../../assets/PathsVertexProcessor-Demo2.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](paths-vertex-processor-simple.resources/PathsVertexProcessor-Demo2.gif "Knotenbeispiel 2")
 
 </td>
 <td style="border: 0;" valign="top">

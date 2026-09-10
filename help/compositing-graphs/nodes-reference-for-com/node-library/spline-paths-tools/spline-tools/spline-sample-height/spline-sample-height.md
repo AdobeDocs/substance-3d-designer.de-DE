@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline-Beispiel-Height
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 4ae20991693573dd44016a411c233b071fa96df6
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/spline-sample-height-icon.png "Knotensymbol")
+![Knotensymbol](spline-sample-height.resources/spline-sample-height-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -88,11 +88,11 @@ Der Effekt der zugeordneten Height-Map kann angepasst werden, indem die Füllmet
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
+      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After.jpg" alt="SplineSampleHeight-Variant1-After">
+      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-After.jpg" alt="SplineSampleHeight-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -104,11 +104,11 @@ Der Effekt der zugeordneten Height-Map kann angepasst werden, indem die Füllmet
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
+      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After3.jpg" alt="SplineSampleHeight-Variant1-After3">
+      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-After3.jpg" alt="SplineSampleHeight-Variant1-After3">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -122,12 +122,12 @@ Der Effekt der zugeordneten Height-Map kann angepasst werden, indem die Füllmet
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](../../../../../../assets/SplineSampleHeight-Variant1-After4.jpg "Knotenbeispiel 1")
+![Knotenbeispiel 1](spline-sample-height.resources/SplineSampleHeight-Variant1-After4.jpg "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](../../../../../../assets/SplineSampleHeight-Demo.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](spline-sample-height.resources/SplineSampleHeight-Demo.gif "Knotenbeispiel 2")
 
 </td>
 </tr>

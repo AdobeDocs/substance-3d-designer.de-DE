@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spezifikationen zum Pfadformat
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Alle Daten in einem Pixel im oberen Teil sind semantisch eng mit dem entsprechen
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Pfade Polygon-codierte Daten](../../../../../../assets/PathsPolygon_Data.jpg "Pfade Polygon-codierte Daten")
+![Pfade Polygon-codierte Daten](paths-format-specifications.resources/PathsPolygon_Data.jpg "Pfade Polygon-codierte Daten")
 
 </td>
 </tr>
@@ -133,11 +133,11 @@ Das Flag header: 1/16 = 0,0625.
 +++Unten
 <b>XY</b>
 
-Anfangsscheitelpunktadresse (oder erste Scheitelpunktadresse)
+Startadresse (oder erste Adresse) des Scheitelpunkts.
 
 <b>ZW</b>
 
-Endpunktadresse (oder letzte Scheitelpunktadresse).
+Adresse des letzten (oder letzten) Scheitelpunkts.
 
 +++
 
@@ -145,22 +145,22 @@ Endpunktadresse (oder letzte Scheitelpunktadresse).
 >
 > Sie können `path\_addr` aus N mithilfe der Funktion `Utils/pixel\_index\_to\_position` in den Pfaden\_tools.sbs berechnen: 2`path\_addr = pixel\_index\_to\_position(N+1)`
 
-### Vertices-Informationen
+### Informationen zu Scheitelpunkten
 
-Scheitelpunkte befinden sich an beliebiger Stelle im Bild nach den Kopfzeilen (Dokument- oder Pfadkopfzeilen). Eckpunkte können verschiedene &quot;Typen&quot; (Start, Mid oder End) sein und werden explizit mit 2 Adresszeigern (&quot;Links&quot;) miteinander verknüpft.
+Scheitelpunkt können an beliebiger Stelle im Bild nach den Kopfzeilen (Dokument- oder Pfadkopfzeilen) gefunden werden. Scheitelpunkt können verschiedene &quot;Typen&quot; haben (Start, Mid oder End) und sie werden explizit mit 2 Adresszeigern (&quot;Links&quot;) miteinander verknüpft.
 
-<b>Start</b>- und <b>End</b>-Scheitelpunkte sind in dieser Hinsicht besonders: Um die Darstellung geschlossener Pfade oder eines beliebigen Netzes von miteinander verknüpften Pfaden zu ermöglichen, wird einer der Links tatsächlich verwendet, um eine kreisförmige, nach vorne verknüpfte Liste aller anderen Start- oder Endscheitelpunkte zu bilden, die denselben Scheitelpunkt darstellen. Solche Scheitelpunkte, die zueinander passen, werden als &quot;Geschwister&quot; bezeichnet. [Illustration begrüßt]
+<b>Start</b>- und <b>End</b>-Scheitelpunkt sind in dieser Hinsicht besonders: Um die Darstellung von geschlossenen Pfaden oder eines beliebigen Netzwerks von miteinander verknüpften Pfaden zu ermöglichen, wird einer der Links tatsächlich verwendet, um eine kreisförmige, vorwärts verknüpfte Liste aller anderen Start- oder End-Scheitelpunkte zu bilden, die denselben Scheitelpunkt darstellen. Solche Scheitelpunkte, die zueinander passen, werden als &quot;Geschwister&quot; bezeichnet. [Illustration begrüßt]
 
-Formell ist jeder Scheitelpunkt an der Adresse `*vert\_addr*` wie folgt definiert:
+Formal ist jeder Scheitelpunkt an der Adresse &quot;`*vert\_addr*`&quot; folgendermaßen definiert:
 
 +++Oben
 <b>XY</b>
 
-Die Scheitelpunktposition. Koordinaten können beliebige Gleitkommawerte sein, die nicht NaN oder ±inf sind. Es gibt keine Vorstellung von Fliesen auf dieser Ebene (es kann von der Implementierung jedes Filters gehandhabt werden oder nicht), also sollen Pfade auf der euklidischen Ebene definiert werden.
+Die Position des Scheitelpunkts. Koordinaten können beliebige Gleitkommawerte sein, die nicht NaN oder ±inf sind. Es gibt keine Vorstellung von Kachelung auf dieser Ebene (sie kann durch die Implementierung jedes Filters gehandhabt werden oder nicht), also sollen Pfade auf der euklidischen Ebene definiert werden.
 
 <b>Z</b>
 
-Der Scheitelpunkt-Pfadindex. Ein Scheitelpunkt kann nur zu einem Pfad gehören. (Wie bereits erwähnt, können Start- und End-Scheitelpunkte gleichrangig sein.) Der Pfadindex kann verwendet werden, um den Pfad-Header abzurufen (siehe Abschnitt Path Headers oben). Stellen Sie daher sicher, dass er synchron bleibt.
+Der Pfadindex des Scheitelpunkts. Ein Scheitelpunkt kann nur zu einem Pfad gehören. (Wie bereits erwähnt, können die Scheitelpunkte &quot;Anfang&quot; und &quot;Ende&quot; jedoch gleichrangige Elemente enthalten.) Der Pfadindex kann verwendet werden, um den Pfad-Header abzurufen (siehe Abschnitt Path Headers oben). Stellen Sie daher sicher, dass er synchron bleibt.
 
 <b>W</b>
 
@@ -249,44 +249,44 @@ Kurzhand für `is\_start\_vertex || is\_mid\_vertex`. Nützlicher für die [Fx-M
 +++
 
 +++is_corner
-Überprüfen Sie das Eckflag des Scheitelpunkts (es ist nicht erforderlich, zuerst `is\_vertex` zu überprüfen: wenn die Antwort wahr ist, sind Sie sicher an einem Scheitelpunkt). Bitte erinnern Sie daran, dass dieses Flag noch nicht von offiziellen Knoten unterstützt wird.
+Überprüfen Sie das Eckflag des Scheitelpunkts (es ist nicht erforderlich, zuerst `is\_vertex` zu überprüfen: wenn die Antwort wahr ist, sind Sie auf einem Scheitelpunkt (sicher). Bitte erinnern Sie daran, dass dieses Flag noch nicht von offiziellen Knoten unterstützt wird.
 
 +++
 
 +++has_trivial_links
-Wenn es sich um einen Scheitelpunkt handelt, wird angegeben, ob Sie die Position des vorherigen und nächsten Scheitelpunkts mühelos ableiten können, ohne den unteren Teil mit einem Sampling zu versehen. (Hinweis: Ein Nicht-Vertex gibt immer false zurück.)
+Wenn das ein Scheitelpunkt ist, sagt aus, ob Sie die Position des vorherigen und nächsten Scheitelpunkts leicht ableiten können, ohne den unteren Teil zu testen. (Hinweis: Ein Nicht-Scheitelpunkt gibt immer &quot;false&quot; zurück.)
 
 Wahrscheinlich möchten Sie dies nicht direkt verwenden, sondern eine der `sample\_next\*`- oder `sample\_prev\*`-Funktionen verwenden, die sich darum kümmern.
 
 +++
 
 +++sample_next, sample_prev
-Gibt den nächsten (bzw. vorherigen) Scheitelpunkt des obersten Teils des Abtastwerts &quot;`*sampled*`&quot; und seine Position &quot;`*sampled\_position*`&quot; zurück und legt eine Float2-Variable &quot;`*next\_sampled\_pos*`&quot; auf die Position (im obersten Teil) dieses Nachbarn fest (d. h. &lt;Rückgabewert> = SampleColor(next\_sampling\_pos, image0). `*input0PixSize*` muss der Pixelgröße des Pfades entsprechen (top[(0,0)].YZ).
+Gibt den nächsten (bzw. vorherigen) Scheitelpunkt-Top-Part-Sampling-Wert für den obersten Teil des Sampling-Werts `*sampled*` und dessen Position `*sampled\_position*` zurück und setzt eine Fließkommazahl2-Variable `*next\_sampled\_pos*` auf die Position (im obersten Teil) dieses Nachbarn (d. h. &lt;Rückgabewert> = SampleColor(next\_sampling\_pos, image0). `*input0PixSize*` muss der Pixelgröße des Pfades entsprechen (top[(0,0)].YZ).
 
-Wenn das aktuelle Pixel (`*sampled*`) ein <b>Start</b>-Scheitelpunkt ist, gibt *sample\_prev* das nächste gleichgeordnete Element dieses Scheitelpunkts zurück. ebenfalls, wenn es sich um einen <b>End</b>-Scheitelpunkt handelt, gibt *sample\_next* das nächste gleichgeordnete Element dieses Scheitelpunkts zurück (d. h. möglicherweise nicht das, was Sie möchten). Siehe `*sample\_next\_advanced*` und `*sample\_prev\_advanced*` unten, um dieses Problem zu lösen.
+Wenn das aktuelle Pixel (`*sampled*`) ein <b>Start</b>-Scheitelpunkt ist, gibt *sample\_prev* das nächste gleichgeordnete Element dieses Scheitelpunkts zurück. entsprechend, wenn es sich um einen <b>End</b>-Scheitelpunkt handelt, gibt *sample\_next* das nächste gleichgeordnete Element dieses Scheitelpunkts zurück (d. h. vielleicht nicht das, was Sie möchten). Siehe `*sample\_next\_advanced*` und `*sample\_prev\_advanced*` unten, um dieses Problem zu lösen.
 
 Bitte beachten Sie, dass aus Gründen der Einfachheit davon ausgegangen wird, dass <b>Pfade-Informationen in input0!</b> gespeichert sind. Außerdem müssen Sie im Gegensatz zu den Dokumentstatus der Funktion `*next\_sampled\_pos*` nicht vorab deklarieren. `*[out]next\_sampled\_pos*` ist ein Dummy-Parameter, der Sie daran erinnert, dass dieser zweite &quot;Rückgabewert&quot; vorhanden ist.
 
-Sie können `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) im Parameter &quot;Iterationen&quot; des 3. Iterate-Knotens nach einem Beispiel für dessen Verwendung durchsuchen.
+Sie können `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) im Parameter &quot;Iterationen&quot; des dritten Iterateknotens nach einem Beispiel für dessen Verwendung durchsuchen.
 
-![Minimaler Anwendungsfall von sample_next](../../../../../../assets/paths-spec_fxmap-sample-next_02.png "Minimaler Anwendungsfall von sample_next")
+![Minimaler Anwendungsfall von sample_next](paths-format-specifications.resources/paths-spec_fxmap-sample-next_02.png "Minimaler Anwendungsfall von sample_next")
 
 
 
-![Anwendungsfall von sample_next in Vorschaupfaden (path_trace)](../../../../../../assets/paths-spec_fxmap-sample-next_01.png "Anwendungsfall von sample_next in Vorschaupfaden (path_trace)")
+![Anwendungsfall von sample_next in Vorschaupfaden (path_trace)](paths-format-specifications.resources/paths-spec_fxmap-sample-next_01.png "Anwendungsfall von sample_next in Vorschaupfaden (path_trace)")
 
 
 
 +++
 
 +++sample_next_advanced, sample_prev_advanced
-Dies soll auf geschlossenen Wegen arbeiten. Bei offenen Pfaden ist der Scheitelpunkt &quot;Anfang&quot; oder &quot;Ende&quot; nicht gleichrangig. In diesem Fall geben beide Funktionen den gleichen Wert zurück und nur einen Nachbarn. Bei Start- oder End-Scheitelpunkten mit mehr als einem gleichrangigen Element (als Netzwerk verbundene Pfade) würde dies den benachbarten Scheitelpunkt des nächsten gleichrangigen Elements in der verknüpften Liste zurückgeben.
+Dies soll auf geschlossenen Wegen arbeiten. Bei offenen Pfaden ist der Scheitelpunkt &quot;Anfang&quot; oder &quot;Ende&quot; nicht gleichrangig. In diesem Fall geben beide Funktionen den gleichen Wert zurück und nur den benachbarten Wert. Bei Start- oder End-Scheitelpunkten mit mehr als einem gleichrangigen Element (als Netzwerk verbundene Pfade) würde dies den benachbarten Scheitelpunkt des nächsten gleichrangigen Elements in der verknüpften Liste zurückgeben.
 
 +++
 
 ### Write-Funktionen
 
-Im Ordner &quot;`Write`&quot; finden Sie kleine Helfer, die einen Float4 erstellen, der von einer [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)</b> geschrieben werden kann.<b>
+Im Ordner &quot;`Write`&quot; finden Sie kleine Helfer, die eine Fließkommazahl4 erstellen, die <b> von einer [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)</b> geschrieben werden kann.
 
 Tatsächlich multipliziert die [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) RGB vor dem Zeichnen mit Alpha, sodass die tatsächlichen Werte nicht vormultipliziert werden, um dies zu kompensieren. Wenn Sie diese Funktion z. B. in einem [Pixelprozessor](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) verwenden möchten, empfehlen wir Ihnen, die Vormultiplikation erneut anzuwenden oder eine benutzerdefinierte Version zu schreiben (besser für Ihren Anwendungsfall optimiert und einfacher zu verwenden).
 

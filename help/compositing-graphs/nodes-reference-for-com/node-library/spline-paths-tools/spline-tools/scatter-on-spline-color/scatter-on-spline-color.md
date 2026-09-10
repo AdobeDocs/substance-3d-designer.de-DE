@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Streuung auf Spline-Farbe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
 workflow-type: tm+mt
 source-wordcount: '3092'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/scatter-on-spline-color-icon.png "Knotensymbol")
+![Knotensymbol](scatter-on-spline-color.resources/scatter-on-spline-color-icon.png "Knotensymbol")
 
 In: Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -59,7 +59,7 @@ Einige Aspekte der Streuung können mithilfe von Bildern von anderen Knoten im D
 | <b>Spline-Betrag</b> <i>Integer</i> | Die Anzahl der Eingabe-Splines. |
 | <b>Mustereingabe #</b> <i>Graustufen</i> | Die Muster, die entlang der Splines gestreut werden sollen. |
 | <b>Zuordnungsskalierung</b> <i>Graustufen</i> | Die Karte, die den Maßstab der gestreuten Muster steuert. Der Effekt dieser Karte wird durch den Parameter &quot;Eingangsmultiplikator für skalierte Karte&quot; gesteuert und mit den anderen Parametern in der Gruppe &quot;Größe&quot; kombiniert. |
-| <b>Height-Map</b> <i>Graustufen</i> | Die Karte, die das Height der Streumuster steuert. Die Wirkung dieser Map wird durch den Parameter &quot;Height Input Multiplier&quot; gesteuert und mit den anderen &quot;Color&quot;-Parametern in der Gruppe &quot;Color&quot; kombiniert. |
+| <b>Höhen-Map</b> <i>Graustufen</i> | Die Karte, die das Height der Streumuster steuert. Die Wirkung dieser Map wird durch den Parameter &quot;Height Input Multiplier&quot; gesteuert und mit den anderen &quot;Color&quot;-Parametern in der Gruppe &quot;Color&quot; kombiniert. |
 | <b>Maskenzuordnung</b> <i>Graustufen</i> | Die Karte, die die Maskierung der verstreuten Muster steuert. Der Effekt dieser Karte wird durch den Parameter &quot;Schwellenwert der Maskenzuordnung&quot; gesteuert und mit den anderen Parametern &quot;Maske&quot; in der Gruppe &quot;Farbe&quot; kombiniert. |
 
 <a name="outputs"></a>
@@ -76,10 +76,10 @@ Einige Aspekte der Streuung können mithilfe von Bildern von anderen Knoten im D
 
 |  |  |
 |:---|:---|
-| <b>Spline-Eingabe</b> <i>Integer</i> | Die Methode zur Auswahl der Splines, die für Streuungsmuster verwendet werden sollen:<br>** Alle Splines *: Alle Splines in der Eingabeliste verwenden;<br>* *Einzelne Spline*: Verwenden Sie nur den angegebenen Spline aus der Eingabeliste;<br>* *Spline Range*: Verwenden Sie nur die Splines im angegebenen Bereich aus der Eingabeliste. |
+| <b>Spline-Eingabe</b> <i>Ganzzahl</i> | Die Methode zur Auswahl der Splines, die für Streuungsmuster verwendet werden sollen:<br>** Alle Splines *: Alle Splines in der Eingabeliste verwenden;<br>* *Einzelne Spline*: Verwenden Sie nur den angegebenen Spline aus der Eingabeliste;<br>* *Spline Range*: Verwenden Sie nur die Splines im angegebenen Bereich aus der Eingabeliste. |
 | <b>Spline-Index</b> <i>Ganzzahl</i> (verfügbar, wenn &quot;Spline-Eingabe&quot; auf &quot;Einzelne Spline&quot; festgelegt ist) | Der Listenindex des Splines, der für Streuungsmuster verwendet werden soll. |
 | <b>Spline-Bereich</b> <i>Ganzzahl2</i> (verfügbar, wenn &quot;Spline-Eingabe&quot; auf &quot;Spline-Bereich&quot; festgelegt ist) | Der Bereich der Listenindizes, einschließlich der Splines, die für Streuungsmuster verwendet werden sollen. |
-| <b>Streuung-Modus</b> <i>Integer</i> | Die Methode zum Streuen der Muster entlang der Splines, die sich auf die Anzahl der Muster auf jedem Spline auswirkt:<br>* Shape Amount: Die angegebene Anzahl von gleichmäßig verteilten Mustern ist gestreut.<br>* Form-Abstand: Die Anzahl der Muster wird automatisch an den angegebenen gleichmäßigen Abstand angepasst.<br>In beiden Fällen fallen das erste und das letzte Muster genau auf den Anfang bzw. das Ende jedes Splines. |
+| <b>Streuung-Modus</b> <i>Ganzzahl</i> | Die Methode zum Streuen der Muster entlang der Splines, die sich auf die Anzahl der Muster auf jedem Spline auswirkt:<br>* Shape Amount: Die angegebene Anzahl von gleichmäßig verteilten Mustern ist gestreut.<br>* Form-Abstand: Die Anzahl der Muster wird automatisch an den angegebenen gleichmäßigen Abstand angepasst.<br>In beiden Fällen fallen das erste und das letzte Muster genau auf den Anfang bzw. das Ende jedes Splines. |
 | <b>Betrag der Form</b> <i>Ganzzahl</i> (verfügbar, wenn &quot;Streuung-Modus&quot; auf &quot;Shape-Stärke&quot; festgelegt ist) | Die Anzahl der gleichmäßig beabstandeten Muster, die entlang jeder Spline verstreut sind. |
 | <b>Formverteilung entlang Spline</b> <i>Ganzzahl</i> (verfügbar, wenn &quot;Streuung-Modus&quot; auf &quot;Shape-Stärke&quot; festgelegt ist) | Die Methode zum Verteilen der Muster entlang eines Splines:<br>** Von Quelle *: Der Abstand der Muster wird durch die Tangenten des Spline-Punkts beeinflusst, bei denen Formen weiter auseinander liegen in der Nähe von Punkten mit langen Tangenten;<br>* *Uniform*: Die Muster werden entlang der Spline gleichmäßig verteilt, unabhängig von ihren Tangenten und ihrer Flugbahn. |
 | <b>Formabstand</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Streuung-Modus&quot; auf &quot;Form-Abstand&quot; festgelegt ist) | Der minimale Abstand entlang einer Spline, um den Muster beabstandet sein sollten, während das erste und das letzte Muster noch am Anfang bzw. Ende jeder Spline landen. |
@@ -112,10 +112,10 @@ Einige Aspekte der Streuung können mithilfe von Bildern von anderen Knoten im D
 | <b>Größe zufällig</b> <i>Float2</i> | Wendet einen Zufallsmultiplikator bis zum angegebenen Wert an, um die Größe der Muster in X und Y zu verringern. |
 | <b>Skalierung der Thickness</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Größenmodus&quot; auf &quot;Thickness aus Spline verwenden&quot; festgelegt ist) | Ein zusätzlicher Multiplikator für die Skalierung der Muster, wenn er von der Spline-Thickness gesteuert wird. |
 | <b>Skalierung</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Größenmodus&quot; auf &quot;Normal&quot; festgelegt ist) | Eine globale Steuerung für die Größe aller Muster, wobei 1 die gesamte Bildspanne ist.<br>Die Skalierung wird relativ zum Pivot eines Musters angewendet. Die Pivot-Position kann mit dem Parameter &quot;Form Pivot&quot; versetzt werden. |
-| <b>Zufällige Skalierung</b> <i>Gleitend</i> | Wendet einen Zufallsmultiplikator bis zum angegebenen Wert an, um die Größe der Muster zu verringern. |
-| <b>Zuordnungseingabemultiplikator skalieren</b> <i>Gleitend</i> | Steuert die Intensität des Scale Map-Eingangs. Diese Karte dient als Multiplikator für die aktuelle Größe der Muster.<br>Der Effekt dieser Karte wird mit den anderen Parametern in der Gruppe &quot;Größe&quot; kombiniert. |
-| <b>Sampling-Eingabemodus für Skalierung</b> <i>Textur-Speicherplatz</i> | Die Methode zum Zuordnen der Werte in der Skalierungszuordnung zu den Splines:<br>*- Texturen-Leerzeichen*: Die Werte werden auf die Splines angewendet, wenn sie in einer Textur unter Verwendung der UV-Koordinaten der Textur platziert würden. Dadurch wird der Wert effektiv auf die Splines &quot;in place&quot;;<br>*- Horizontal entlang Spline* angewendet: Die Werte werden direkt auf die Koordinaten der codierten Splines angewendet (siehe Spline-Koordinateneingabe), wobei jede Zeile auf einen anderen Spline von oben nach unten angewendet wird;<br>*- Hor. entlang der Spline (Rand). Versatz X)*: Die Werte werden direkt auf die Koordinaten der codierten Splines angewendet (siehe Spline-Coords-Eingabe), mit einem zufälligen horizontalen Versatz in der Skalierungszuordnung für jeden Spline (d. h. jede Zeile in Spline-Coords);<br>*- Hor. entlang der Spline (Rand). Offset Y)*: Die Werte werden direkt auf die Koordinaten der codierten Spline-Linien angewendet (siehe Spline-Koordinateneingabe), wobei für jeden Spline (d. h. jede Zeile in Spline-Koordinaten) ein zufälliger vertikaler Versatz in der Skalierungszuordnung angezeigt wird. |
-| <b>Dämpfung starten/beenden</b> <i>Float2</i> | Klammert beim Skalieren der Muster den Abstand zwischen dem Mittelpunkt des Spline-Effekts und seinem Anfang und Ende aus.<br>Dies bedeutet, dass die Größe für Muster, die sich näher an den Extremitäten eines Splines befinden, verringert wird. |
+| <b>Zufällige Skalierung</b> <i>Fließkommazahl</i> | Wendet einen Zufallsmultiplikator bis zum angegebenen Wert an, um die Größe der Muster zu verringern. |
+| <b>Zuordnungseingabemultiplikator skalieren</b> <i>Fließkommazahl</i> | Steuert die Intensität des Scale Map-Eingangs. Diese Karte dient als Multiplikator für die aktuelle Größe der Muster.<br>Der Effekt dieser Karte wird mit den anderen Parametern in der Gruppe &quot;Größe&quot; kombiniert. |
+| <b>Sampling-Eingabemodus für Skalierung</b> <i>Textur-Speicherplatz</i> | Die Methode zum Zuordnen der Werte in der Skalierungszuordnung zu den Splines:<br>*- Texturen-Leerzeichen*: Die Werte werden auf die Splines angewendet, wo sie sich befinden würden, wenn sie in einer Textur unter Verwendung der UV-Koordinaten der Textur platziert würden. Dadurch wird der Wert effektiv auf die Splines &quot;in place&quot;;<br>*- Horizontal entlang Spline* angewendet: Die Werte werden direkt auf die Koordinaten der codierten Splines angewendet (siehe Spline-Koordinateneingabe), wobei jede Zeile auf einen anderen Spline von oben nach unten angewendet wird;<br>*- Hor. entlang der Spline (Rand). Versatz X)*: Die Werte werden direkt auf die Koordinaten der codierten Splines angewendet (siehe Spline-Coords-Eingabe), mit einem zufälligen horizontalen Versatz in der Skalierungszuordnung für jeden Spline (d. h. jede Zeile in Spline-Coords);<br>*- Hor. entlang der Spline (Rand). Offset Y)*: Die Werte werden direkt auf die Koordinaten der codierten Spline-Linien angewendet (siehe Spline-Koordinateneingabe), wobei für jeden Spline (d. h. jede Zeile in Spline-Koordinaten) ein zufälliger vertikaler Versatz in der Skalierungszuordnung angezeigt wird. |
+| <b>Dämpfung starten/beenden</b> <i>Fließkommazahl2</i> | Klammert beim Skalieren der Muster den Abstand zwischen dem Mittelpunkt des Spline-Effekts und seinem Anfang und Ende aus.<br>Dies bedeutet, dass die Größe für Muster, die sich näher an den Extremitäten eines Splines befinden, verringert wird. |
 | <b>Position</b> |  |
 | <b>Lokaler Offset</b> <i>Float2</i> | Wendet einen Versatz auf die Positionen der Muster entlang der Tangente des Splines (parallel) und der Normale (senkrecht) an. |
 | <b>Lokaler Versatz zufällig</b> <i>Float2</i> | Wendet einen zusätzlichen zufälligen Versatz auf die Positionen der Muster entlang der Spline-Tangente (parallel) und -Normale (senkrecht) an. |
@@ -167,11 +167,11 @@ Einige Aspekte der Streuung können mithilfe von Bildern von anderen Knoten im D
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
+      <img src="scatter-on-spline-color.resources/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineColor-Variant1-After.jpg" alt="ScatterOnSplineColor-Variant1-After">
+      <img src="scatter-on-spline-color.resources/ScatterOnSplineColor-Variant1-After.jpg" alt="ScatterOnSplineColor-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -183,11 +183,11 @@ Einige Aspekte der Streuung können mithilfe von Bildern von anderen Knoten im D
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
+      <img src="scatter-on-spline-color.resources/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineColor-Variant2-After.jpg" alt="ScatterOnSplineColor-Variant2-After">
+      <img src="scatter-on-spline-color.resources/ScatterOnSplineColor-Variant2-After.jpg" alt="ScatterOnSplineColor-Variant2-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -201,12 +201,12 @@ Einige Aspekte der Streuung können mithilfe von Bildern von anderen Knoten im D
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](../../../../../../assets/ScatterOnSplineGrayscale-Demo.gif "Knotenbeispiel 1")
+![Knotenbeispiel 1](scatter-on-spline-color.resources/ScatterOnSplineGrayscale-Demo.gif "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](../../../../../../assets/ScatterOnSplineColor-Demo.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](scatter-on-spline-color.resources/ScatterOnSplineColor-Demo.gif "Knotenbeispiel 2")
 
 </td>
 </tr>

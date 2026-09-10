@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline Bridge (2 Splines)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/spline-bridge-2splines-icon.png "Knotensymbol")
+![Knotensymbol](spline-bridge-2-splines.resources/spline-bridge-2splines-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -71,7 +71,7 @@ Generiert Splines von <b>Spline #1</b> bis <b>Spline #2</b> entlang dieser Splin
 | <b>Vorschau</b> <i>Graustufen</i> | Die Vorschau der Ausgabe-Splines als Graustufenbild. |
 | <b>Spline-Kabel</b> <i>Farbe</i> | Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Ausgabesplines.<br><b>R</b> - X-Position<br><b>G</b> - Y-Position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>- Sign: Spline ist geschlossen (negativ) oder offen (positiv);<br>- Absolute Wert: Thickness + 1. |
 | <b>Spline-Daten</b> <i>Farbe</i> | Zusätzliche Daten der in den RGBA-Kanälen eines Farbbilds codierten Ausgabe-Splines.<br><b>R</b> - Tangenten X<br><b>G</b> - Tangenten Y<br><b>B</b> - Nicht verwendet<br><b>A</b> - Nicht verwendet |
-| <b>Spline-Betrag</b> <i>Integer</i> | Die Anzahl der Ausgabe-Splines. |
+| <b>Spline-Betrag</b> <i>Ganzzahl</i> | Die Anzahl der Ausgabe-Splines. |
 
 <a name="parameters"></a>
 
@@ -79,24 +79,24 @@ Generiert Splines von <b>Spline #1</b> bis <b>Spline #2</b> entlang dieser Splin
 
 |  |  |
 |:---|:---|
-| <b>Splines-Betrag für Bridge</b> <i>Integer</i> | Die Anzahl der Splines, die entlang der Spline-#1 zu Spline-#2 generiert werden. |
-| <b>Bridge-Splines-Typ</b> <i>Integer</i> | Der generierte Spline-Typ:<br><br>- Linear: eine gerade Spline von Anfang bis Ende;<br>- Kubische Bézier: eine gekrümmte Spline von Anfang bis Ende, wobei die Kurve durch die Länge und den Winkel der Start- und Endpunkte gesteuert wird. |
-| <b>Spline starten #1</b> <i>Gleitend</i> | Verschiebt die Position entlang der Spline-#1 von der Stelle, an der Splines generiert werden. Der Wert ist die normalisierte Länge der Spline-#1.<br>Ein höherer Wert führt dazu, dass die gleiche Anzahl von Splines enger zusammengepackt wird. |
-| <b>Spline starten #2</b> <i>Gleitend</i> | Verschiebt die Position entlang der Spline-#2 von der Stelle, an der Splines generiert werden. Der Wert ist die normalisierte Länge der Spline-#2.<br>Ein höherer Wert führt dazu, dass die gleiche Anzahl von Splines enger zusammengepackt wird. |
+| <b>Splines-Betrag für Bridge</b> <i>Ganzzahl</i> | Die Anzahl der Splines, die entlang der Spline-#1 zu Spline-#2 generiert werden. |
+| <b>Bridge-Splines-Typ</b> <i>Ganzzahl</i> | Der generierte Spline-Typ:<br><br>- Linear: eine gerade Spline von Anfang bis Ende;<br>- Kubische Bézier: eine gekrümmte Spline von Anfang bis Ende, wobei die Kurve durch die Länge und den Winkel der Start- und Endpunkte gesteuert wird. |
+| <b>Spline starten #1</b> <i>Fließkommazahl</i> | Verschiebt die Position entlang der Spline-#1 von der Stelle, an der Splines generiert werden. Der Wert ist die normalisierte Länge der Spline-#1.<br>Ein höherer Wert führt dazu, dass die gleiche Anzahl von Splines enger zusammengepackt wird. |
+| <b>Spline starten #2</b> <i>Fließkommazahl</i> | Verschiebt die Position entlang der Spline-#2 von der Stelle, an der Splines generiert werden. Der Wert ist die normalisierte Länge der Spline-#2.<br>Ein höherer Wert führt dazu, dass die gleiche Anzahl von Splines enger zusammengepackt wird. |
 | <b>Spline-#1 beenden</b> <i>Gleitend</i> | Verschiebt die Position entlang der Spline-#1 bis zu der Stelle, an der Splines generiert werden. Der Wert ist die normalisierte Länge der Spline-#1.<br>Ein niedrigerer Wert führt dazu, dass die gleiche Anzahl von Splines enger zusammengepackt wird. |
 | <b>Spline-#1 beenden</b> <i>Gleitend</i> | Verschiebt die Position entlang der Spline-#2 bis zu der Stelle, an der Splines generiert werden. Der Wert ist die normalisierte Länge der Spline-#2.<br>Ein niedrigerer Wert führt dazu, dass die gleiche Anzahl von Splines enger zusammengepackt wird. |
 | <b>Spline-Versatz #1</b> <i>Gleitend</i> | Wendet einen Versatz auf den Anfangspunkt aller Splines entlang der Spline-#1 an. Der Wert ist die normalisierte Länge der Spline-#1.<br>Splines, die den Anfang oder das Ende der Spline-Kurve erreichen, werden dort belassen. |
 | <b>Spline-Versatz #2</b> <i>Gleitend</i> | Wendet einen Versatz auf den Anfangspunkt aller Splines entlang der Spline-#2 an. Der Wert ist die normalisierte Länge der Spline-#2.<br>Splines, die den Anfang oder das Ende der Spline-Kurve erreichen, werden dort belassen. |
 | <b>Zufallsstart versetzen</b> <i>Gleitend</i> | Wendet einen zufälligen Versatz auf den Anfangspunkt jedes Spline entlang der Spline-#1 an. Der Wert ist der normalisierte Abstand zwischen den Splines in der Spline-#1.<br>Wenn dieser Wert auf 0 belassen wird, sind die Splines in gleichmäßigen Abständen zwischen dem Spline-#1 &quot;Anfang&quot; und dem Spline-#1 &quot;Ende&quot; angeordnet. |
 | <b>Versatz zufälliges Ende</b> <i>Gleitend</i> | Wendet einen zufälligen Versatz auf den Endpunkt jedes Spline entlang der Spline-#2 an. Der Wert ist der normalisierte Abstand zwischen den Splines in der Spline-#2.<br>Wenn dieser Wert auf 0 belassen wird, sind die Splines in gleichmäßigen Abständen zwischen dem Spline-#2 &quot;Anfang&quot; und dem Spline-#2 &quot;Ende&quot; angeordnet. |
-| <b>Tangentiallängenanfang</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Bridge Splines Type&quot; auf &quot;Cubic Bézier&quot; festgelegt ist) | Die Länge der Out-Tangente für den Startpunkt auf der Spline-#1 aller generierten Splines. |
-| <b>Tangentiallängenende</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Bridge Splines Type&quot; auf &quot;Cubic Bézier&quot; festgelegt ist) | Die Länge der In-Tangente für den Endpunkt auf der Spline-#2 aller generierten Splines. |
-| <b>Tangentialdrehungsbeginn</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Bridge Splines Type&quot; auf &quot;Cubic Bézier&quot; festgelegt ist) | Die Drehung der Out-Tangente für den Startpunkt auf der Spline-#1 aller generierten Splines.<br>Der Wert ist eine Anzahl von Umdrehungen. |
-| <b>Tangentialdrehungsende</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Bridge Splines Type&quot; auf &quot;Cubic Bézier&quot; festgelegt ist) | Die Drehung der In-Tangente für den Endpunkt auf der Spline-#2 aller generierten Splines.<br>Der Wert ist eine Anzahl von Umdrehungen. |
+| <b>Tangente Length Start</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Bridge Splines Type&quot; auf &quot;Cubic Bézier&quot; festgelegt ist) | Die Länge der Out-Tangente für den Startpunkt auf der Spline-#1 aller generierten Splines. |
+| <b>Ende der Tangente</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Bridge Splines Type&quot; auf &quot;Cubic Bézier&quot; festgelegt ist) | Die Länge der In-Tangente für den Endpunkt auf der Spline-#2 aller generierten Splines. |
+| <b>Drehung der Tangente </b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Bridge Splines Type&quot; auf &quot;Cubic Bézier&quot; festgelegt ist) | Die Drehung der Out-Tangente für den Startpunkt auf der Spline-#1 aller generierten Splines.<br>Der Wert ist eine Anzahl von Umdrehungen. |
+| <b>Tangente Drehende</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Bridge Splines Type&quot; auf &quot;Cubic Bézier&quot; festgelegt ist) | Die Drehung der In-Tangente für den Endpunkt auf der Spline-#2 aller generierten Splines.<br>Der Wert ist eine Anzahl von Umdrehungen. |
 | <b>Vorschau</b> |  |
-| <b>Segmentierungsbetrag</b> <i>Integer</i> | Passt die Anzahl der Segmente an, die zum Zeichnen der Spline-Visualisierung in der Vorschauausgabe verwendet werden. Je höher der Wert, desto glatter die Linie. |
-| <b>Richtungshelfer anzeigen</b> <i>Boolescher Wert</i> | Zeigt einen Punkt am Anfang des Splines und eine Pfeilspitze an seinem Ende in der Vorschauausgabe an. |
-| <b>Umschlag der Thickness anzeigen</b> <i>Boolescher Wert</i> | Zeigt an den Kanten der Spline-Thickness zusätzliche Linien an. |
+| <b>Segmentierungsbetrag</b> <i>Ganzzahl</i> | Passt die Anzahl der Segmente an, die zum Zeichnen der Spline-Visualisierung in der Vorschauausgabe verwendet werden. Je höher der Wert, desto glatter die Linie. |
+| <b>Richtungs-Helfer anzeigen</b> <i>Boolesche Wert</i> | Zeigt einen Punkt am Anfang des Splines und eine Pfeilspitze an seinem Ende in der Vorschauausgabe an. |
+| <b>Umschlag der Thickness anzeigen</b> <i>Boolesche Wert</i> | Zeigt an den Kanten der Spline-Thickness zusätzliche Linien an. |
 | <b>Thickness (px)</b> <i>Fließkommazahl</i> | Passt die Thickness der Spline-Visualisierung in Pixel in der Vorschau an. |
 
 ## Beispiele
@@ -108,11 +108,11 @@ Generiert Splines von <b>Spline #1</b> bis <b>Spline #2</b> entlang dieser Splin
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineBridge-2Splines_Variant1-Before.jpg" alt="SplineBridge-2Splines_Variant1-Before">
+      <img src="spline-bridge-2-splines.resources/SplineBridge-2Splines_Variant1-Before.jpg" alt="SplineBridge-2Splines_Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineBridge-2Splines_Variant1-After.jpg" alt="SplineBridge-2Splines_Variant1-After">
+      <img src="spline-bridge-2-splines.resources/SplineBridge-2Splines_Variant1-After.jpg" alt="SplineBridge-2Splines_Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -121,7 +121,7 @@ Generiert Splines von <b>Spline #1</b> bis <b>Spline #2</b> entlang dieser Splin
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](../../../../../../assets/SplineBridge-2Splines_Demo.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](spline-bridge-2-splines.resources/SplineBridge-2Splines_Demo.gif "Knotenbeispiel 2")
 
 </td>
 </tr>
