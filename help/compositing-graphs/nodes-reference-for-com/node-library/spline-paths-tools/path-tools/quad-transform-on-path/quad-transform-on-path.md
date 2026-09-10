@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/quad-transform-on-path.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/quad-transform-on-path.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Quad-Transformation auf Pfad", um Elemente entlang von Pfadkurven quadratisch zu transformieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Quad-Transformation auf Pfad
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/quad-transform-on-paths-icon.png "Knotensymbol")
+![Knotensymbol](quad-transform-on-path.resources/quad-transform-on-paths-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Path Tools
 
@@ -75,11 +75,11 @@ Deformieren Sie einen Pfad mit 4 Griffen.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PfadePolygon_Variant1">
+      <img src="quad-transform-on-path.resources/PathsPolygon_Variant1.jpg" alt="PfadePolygon_Variant1">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/QuadTransformOnPaths-Variant1-After.jpg" alt="QuadTransformOnPaths-Variant1-After">
+      <img src="quad-transform-on-path.resources/QuadTransformOnPaths-Variant1-After.jpg" alt="QuadTransformOnPaths-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -91,11 +91,11 @@ Deformieren Sie einen Pfad mit 4 Griffen.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PfadePolygon_Variant1">
+      <img src="quad-transform-on-path.resources/PathsPolygon_Variant1.jpg" alt="PfadePolygon_Variant1">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/QuadTransformOnPaths-Variant2-After.jpg" alt="QuadTransformOnPaths-Variant2-After">
+      <img src="quad-transform-on-path.resources/QuadTransformOnPaths-Variant2-After.jpg" alt="QuadTransformOnPaths-Variant2-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -109,12 +109,12 @@ Deformieren Sie einen Pfad mit 4 Griffen.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](../../../../../../assets/QuadTransformOnPaths-Demo2.gif "Knotenbeispiel 1")
+![Knotenbeispiel 1](quad-transform-on-path.resources/QuadTransformOnPaths-Demo2.gif "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](../../../../../../assets/QuadTransformOnPaths-Demo1.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](quad-transform-on-path.resources/QuadTransformOnPaths-Demo1.gif "Knotenbeispiel 2")
 
 </td>
 </tr>
