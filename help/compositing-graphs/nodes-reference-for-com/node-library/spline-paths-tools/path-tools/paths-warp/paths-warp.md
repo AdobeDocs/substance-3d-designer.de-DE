@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-warp.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Pfadverkrümmung", um Texturen entlang Pfadkurven zu verkrümmen, um gekrümmte und organische Muster zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pfadverkrümmung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/paths-warp-icon.png "Knotensymbol")
+![Knotensymbol](paths-warp.resources/paths-warp-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Path Tools
 
@@ -74,11 +74,11 @@ Verformen Sie die Eingabepfade entsprechend der <b>Verlaufseingabe</b>. (Derselb
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-warp.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsWarp-Variant1-After.jpg" alt="PathsWarp-Variant1-After">
+      <img src="paths-warp.resources/PathsWarp-Variant1-After.jpg" alt="PathsWarp-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -90,11 +90,11 @@ Verformen Sie die Eingabepfade entsprechend der <b>Verlaufseingabe</b>. (Derselb
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-warp.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsWarp-Variant2-After.jpg" alt="PathsWarp-Variant2-After">
+      <img src="paths-warp.resources/PathsWarp-Variant2-After.jpg" alt="PathsWarp-Variant2-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -108,7 +108,7 @@ Verformen Sie die Eingabepfade entsprechend der <b>Verlaufseingabe</b>. (Derselb
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](../../../../../../assets/PathsWarp-Demo1.gif "Knotenbeispiel 1")
+![Knotenbeispiel 1](paths-warp.resources/PathsWarp-Demo1.gif "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Pfade, Scheitelpunkt-Prozessor", um Pfadscheitelpunkte mit erweiterten Optionen zu transformieren und zu bearbeiten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pfade-Scheitelpunktprozessor
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/paths-vertex-processor-icon.png "Knotensymbol")
+![Knotensymbol](paths-vertex-processor.resources/paths-vertex-processor-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Path Tools
 
@@ -92,7 +92,7 @@ Sie können auch auf die Variablen *prev[2].pos* (Fließkommazahl2), *next[2].po
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](../../../../../../assets/PathsVertexProcessor-Demo2.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](paths-vertex-processor.resources/PathsVertexProcessor-Demo2.gif "Knotenbeispiel 2")
 
 </td>
 <td style="border: 0;" valign="top">
