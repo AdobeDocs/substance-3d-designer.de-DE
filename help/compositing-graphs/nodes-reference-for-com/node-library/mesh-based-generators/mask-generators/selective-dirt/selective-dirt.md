@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/selective-dirt.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/selective-dirt.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Selektiver Dirt", um für eine realistische Verwitterung Akkumulationsmasken für selektiven Dirt auf der Grundlage der Geometrie des Meshs zu generieren.
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 8%
 
 Generiert eine Schwarzweißmaske auf der Grundlage von durch Baking erzeugte Map und Benutzereinstellungen. Ähnlich wie [Smart Masks](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Diese [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html)-Maske stellt einen einfachen Dirt-Effekt auf konvexe Kanten dar.
+Diese [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html)-Maske stellt einen einfachen Dirt-Effekt auf konvexe Kanten dar.
 
 </td>
 </tr>
