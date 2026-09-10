@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-color.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Spline Mapper Color", um Farbstrukturen entlang von Spline-Pfaden mit anpassbaren Parametern zuzuordnen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline-Zuordnungsfarbe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 4ae20991693573dd44016a411c233b071fa96df6
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/spline-mapper-color-icon.png "Knotensymbol")
+![Knotensymbol](spline-mapper-color.resources/spline-mapper-color-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -112,11 +112,11 @@ Der Knoten gibt das zugeordnete Bild als Farbbild sowie weitere Informationen wi
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
+      <img src="spline-mapper-color.resources/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineMapperColor-Variant1-After.jpg" alt="SplineMapperColor-Variant1-After">
+      <img src="spline-mapper-color.resources/SplineMapperColor-Variant1-After.jpg" alt="SplineMapperColor-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -125,7 +125,7 @@ Der Knoten gibt das zugeordnete Bild als Farbbild sowie weitere Informationen wi
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](../../../../../../assets/SplineMapperColor-Demo.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](spline-mapper-color.resources/SplineMapperColor-Demo.gif "Knotenbeispiel 2")
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ Der Knoten gibt das zugeordnete Bild als Farbbild sowie weitere Informationen wi
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 3](../../../../../../assets/SplineMapperColor-Variant1-After1.jpg "Knotenbeispiel 3")
+![Knotenbeispiel 3](spline-mapper-color.resources/SplineMapperColor-Variant1-After1.jpg "Knotenbeispiel 3")
 
 </td>
 <td style="border: 0;" valign="top">

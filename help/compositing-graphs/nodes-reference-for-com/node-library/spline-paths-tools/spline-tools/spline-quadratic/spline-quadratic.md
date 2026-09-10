@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-quadratic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-quadratic.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Spline Quadratic , um glatte quadratische Splines mit drei Kontrollpunkten zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline (quadratisch)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 4ae20991693573dd44016a411c233b071fa96df6
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Spline (quadratisch): Symbol &#x200B;](../../../../../../assets/spline-quadratic-icon.png "Spline (Quadratisch): Symbol ")
+![Spline (quadratisch): Symbol ](spline-quadratic.resources/spline-quadratic-icon.png "Spline (Quadratisch): Symbol ")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -103,12 +103,12 @@ Die Spannweite des durch die Spline gebildeten Bogens ist *einstellbar*, sodass 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Spline (quadratisch): Beispiel 1](../../../../../../assets/spline-quadratic-example-1.png "Spline (quadratisch): Beispiel 1"){zoomable="yes"}
+![Spline (quadratisch): Beispiel 1](spline-quadratic.resources/spline-quadratic-example-1.png "Spline (quadratisch): Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline (quadratisch): Beispiel 2](../../../../../../assets/spline-quadratic-example-2.png "Spline (quadratisch): Beispiel 2"){zoomable="yes"}
+![Spline (quadratisch): Beispiel 2](spline-quadratic.resources/spline-quadratic-example-2.png "Spline (quadratisch): Beispiel 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ Die Spannweite des durch die Spline gebildeten Bogens ist *einstellbar*, sodass 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Spline (quadratisch): Demo](../../../../../../assets/spline-quadratic-demo.gif "Spline (quadratisch): Demo "){zoomable="yes"}
+![Spline (quadratisch): Demo](spline-quadratic.resources/spline-quadratic-demo.gif "Spline (quadratisch): Demo "){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
