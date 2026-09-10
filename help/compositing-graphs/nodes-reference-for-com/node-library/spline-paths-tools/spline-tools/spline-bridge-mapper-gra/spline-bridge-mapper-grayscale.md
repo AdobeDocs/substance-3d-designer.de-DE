@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-grayscale.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Spline Bridge Mapper Graustufen , um Texturen mit Graustufenzuordnung zwischen zwei Splines zu überbrücken.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline Bridge-Zuordnung - Graustufen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knotensymbol](../../../../../../assets/spline-bridge-mapper-grayscale-icon.png "Knotensymbol")
+![Knotensymbol](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-icon.png "Knotensymbol")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 
@@ -91,11 +91,11 @@ Ordnet ein Graustufenbild einer Liste von Eingabe-Splines zu, sodass das Bild di
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-After.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
+      <img src="spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Variant1-After.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -104,7 +104,7 @@ Ordnet ein Graustufenbild einer Liste von Eingabe-Splines zu, sodass das Bild di
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](../../../../../../assets/SplineBridgeMapper-Demo.gif "Knotenbeispiel 2")
+![Knotenbeispiel 2](spline-bridge-mapper-grayscale.resources/SplineBridgeMapper-Demo.gif "Knotenbeispiel 2")
 
 </td>
 </tr>
@@ -114,12 +114,12 @@ Ordnet ein Graustufenbild einer Liste von Eingabe-Splines zu, sodass das Bild di
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 1](../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-After1.jpg "Knotenbeispiel 1")
+![Knotenbeispiel 1](spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Variant1-After1.jpg "Knotenbeispiel 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel 2](../../../../../../assets/SplineBridgeMapperGrayscale-Graph.jpg "Knotenbeispiel 2")
+![Knotenbeispiel 2](spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Graph.jpg "Knotenbeispiel 2")
 
 </td>
 </tr>
