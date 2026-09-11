@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Iray
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 45cd3aec3baf2c35bae9e48540f6e7fb3a665541
 workflow-type: tm+mt
 source-wordcount: '2151'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Iray
 
-Auf dieser Seite wird der Iray-Renderer angezeigt, der im 3D-Ansichtsfenster von [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) verfügbar ist und interaktive Pfadverfolgung für fotorealistisches Rendering mit CPU- und/oder GPU-Beschleunigung (nur Nvidia-GPUs) bietet.
+Auf dieser Seite wird der Iray-Renderer angezeigt, der im 3D-Ansichtsfenster von [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) verfügbar ist und interaktive Pfadverfolgung für fotorealistisches Rendering mit CPU- und/oder GPU-Beschleunigung (nur Nvidia-GPUs) bietet.
 
 >[!WARNING]
 > 
@@ -39,7 +39,7 @@ Auf dieser Seite wird der Iray-Renderer angezeigt, der im 3D-Ansichtsfenster von
 </td>
 <td style="border: 0;" valign="top">
 
-[![NVIDIA Iray-Logo](../../../assets/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
+[![NVIDIA Iray-Logo](iray.resources/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
 
 </td>
 </tr>
@@ -62,7 +62,7 @@ Weitere Informationen zum Anpassen dieser Bedingungen finden Sie im Abschnitt <b
 </td>
 <td style="border: 0;" valign="top">
 
-![Material der mittelalterlichen Burgmauer in Iray](../../../assets/iray-overview.png "Material der mittelalterlichen Burgmauer in Iray")
+![Mittelalterliches Schlosswandmaterial in Iray](iray.resources/iray-overview.png "Mittelalterliches Schlosswandmaterial in Iray")
 
 *Material: [Mittelalterliche Burgmauer](https://oggyart.artstation.com/projects/Xnzx0a)* *von [Mark Foreman](https://www.artstation.com/oggyart)* *in unseren [Substance 3D-Medien](https://substance3d.adobe.com/assets)* *Bibliotheken* verfügbar
 
@@ -72,7 +72,7 @@ Weitere Informationen zum Anpassen dieser Bedingungen finden Sie im Abschnitt <b
 
 >[!WARNING]
 >
-> Nur die *eine* Iray-Renderinginstanz kann jederzeit ausgeführt werden.\
+> Nur *eine* Iray-Renderinginstanz kann jederzeit ausgeführt werden.\
 > Wenn also ein 3D-Ansichtsfenster diesen Renderer verwendet, ist das Menü **Renderer** in anderen 3D-Ansichtsfenstern *deaktiviert* und dieser standardmäßig auf den **OpenGL**-Renderer eingestellt.
 
 ## 3D-Anzeigeoptionen
@@ -81,39 +81,39 @@ Weitere Informationen zum Anpassen dieser Bedingungen finden Sie im Abschnitt <b
 
 ### Szene
 
-Wählen Sie im Menü <b>Szene</b> die Option <b>Bearbeiten</b> aus, um Iray-spezifische Eigenschaften der Szene im Bereich <b>Eigenschaften</b> zu finden.
+Wählen Sie im Menü <b>Szene</b> die Option <b>Bearbeiten</b> aus, um für Iran spezifische Szeneneigenschaften im Bedienfeld <b>Eigenschaften</b> zu suchen.
 
-* <b>Ist aktiviert:</b> Wenn auf *False* festgelegt, wird das Objekt ausgeblendet und *trägt* nicht mehr zur Szene bei.
+* <b>Ist aktiviert:</b> Wenn auf *Falsch* festgelegt, wird das Objekt ausgeblendet und *trägt* nicht mehr zur Szene bei.
 
 Komponente anzeigen
 
-* <b>Ist sichtbar</b>: Bei der Einstellung *Falsch* ist das Objekt ausgeblendet, aber *trägt noch* zur Szene bei - d. h. reflektierendes Licht, absorbierendes Licht und projizierende Schatten.
+* <b>Ist sichtbar</b>: Wenn auf *Falsch* gesetzt, ist das Objekt ausgeblendet, aber *trägt noch* zur Szene bei - d. h. reflektierendes Licht, absorbierendes Licht und projizierende Schatten.
 
 Mesh-Anzeigekomponente
 
 * Unterteilung
-  * <b>Methode</b>: Verfahren zur verfahrenstechnischen Unterteilung des Meshs in eine feinere Geometrie
+  * <b>Methode</b>: Verfahren zur verfahrenstechnischen Unterteilung des Gitters in feinere Geometrie
     * *Keine*: Keine Unterteilung erfolgt
-    * *Parametrisch*: Unterteilt den Mesh in `4^x` Dreiecke, wobei `x` der von diesem Parameter angegebene Wert ist
-    * *Länge*: Unterteilt den Mesh, bis alle Kanten eine Länge (im Objektraum) aufweisen, die unter dem Wert liegt, der mit dem Parameter &quot;Mindestlänge&quot; festgelegt wurde
-  * <b>Mindestlänge</b>: Unterteilt den Mesh, bis alle Kanten eine Länge unterhalb dieses angegebenen Werts im Objektraum haben (gilt nur für die *Length*-Methode)
-  * <b>Zahl</b>: Die Anzahl der Unterteilungsmethoden, die auf den Mesh angewendet werden sollen (gilt nur für die *Parametric*-Iteration).
+    * *Parametrisch*: Unterteilt das Gitter in `4^x` Dreiecke, wobei `x` der durch diesen Parameter angegebene Wert ist
+    * *Länge*: Unterteilt das Gitter, bis alle Kanten eine Länge (im Objektraum) unterhalb des Werts haben, der durch den Parameter Mindestlänge festgelegt wird
+  * <b>Mindestlänge</b>: Unterteilt das Gitter, bis alle Kanten eine Länge unter diesem angegebenen Wert im Objektbereich haben (gilt nur für die *Length*-Methode)
+  * <b>Zahl</b>: Die Anzahl der Unterteilungsiterationen, die auf das Gitter angewendet werden sollen (gilt nur für die *Parametric*-Methode).
 
 >[!WARNING]
 >
-> Durch das Unterteilen des Meshs *wird seine Verarbeitungszeit exponentiell erhöht* vor und während des Renderns. Wir empfehlen, *konservativ* mit den eingegebenen Werten zu sein.\
+> Durch das Unterteilen des Gitters &quot;*&quot; wird seine Verarbeitungszeit exponentiell erhöht*, und zwar vor und während des Renderns. Wir empfehlen, *konservativ* mit den eingegebenen Werten zu sein.\
 > Achten Sie darauf, *hohe* **Anzahl**-Werte für die Parametric-Methode und *niedrige* **Mindestlänge**-Werte für die Length-Methode zu verwenden.
 
-![Optionen für Szenen](../../../assets/iray-scene-subdivision.gif "Optionen für Szenen")
+![Szenenoptionen](iray.resources/iray-scene-subdivision.gif "Szenenoptionen")
 
 <a name="materials"></a>
 
 ### Materialien
 
-Da Iray auf dem [MDL-Bibliotheksmodell](https://www.nvidia.com/en-us/design-visualization/technologies/material-definition-language/) basiert, das von NVIDIA entwickelt wurde, werden verfügbare Material für Szene-Material durch die MDL-Schattierung ersetzt, die von Designer geladen wurde. Diese Bibliothek wird aus den folgenden Quellen erstellt:
+Da Iray sich auf das von NVIDIA entwickelte [MDL-Bibliotheksmodell](https://www.nvidia.com/en-us/design-visualization/technologies/material-definition-language/) stützt, werden verfügbare Schattierungen für Szenenmaterialien durch die MDL-Bibliothek ersetzt, die von Designer geladen wurde. Diese Bibliothek wird aus den folgenden Quellen erstellt:
 
 * Die in der Installation von Designer enthaltenen MDL-Dateien
-* Die MDL-Dateien wurden in den [&#x200B; Verzeichnissen gefunden, die vom Benutzer &#x200B;](../../../interface/preferences-window/project-settings/project-settings.md) in den geladenen [Projektdateien](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) aufgeführt sind.
+* Die MDL-Dateien wurden in den [ Verzeichnissen gefunden, die vom Benutzer ](../../../interface/preferences-window/project-settings/project-settings.md) in den geladenen [Projektdateien](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) aufgeführt sind.
 * Die [NVIDIA vMaterials](https://developer.nvidia.com/vmaterials)-Bibliothek, wenn sie installiert ist
 
 >[!NOTE]
@@ -124,20 +124,20 @@ Da Iray auf dem [MDL-Bibliotheksmodell](https://www.nvidia.com/en-us/design-visu
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Die kumulative Liste der geladenen MDL-Materials ist im Menü <b>Materials</b> unter einem der aufgelisteten Untermenüs der Materials verfügbar, wie in der Abbildung rechts gezeigt.
+Die kumulative Liste der geladenen MDL-Materialien ist im Menü <b>Materialien</b> unter einem der Untermenüs der aufgeführten Materialien verfügbar, wie in der Abbildung rechts gezeigt.
 
-Wenn ein [MDL-Diagramm](../../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md) in Designer geladen wird, kann es außerdem auf jedes beliebige Material in der Szene angewendet werden. An dieser Stelle wird sie der Liste der verfügbaren MDL-Material hinzugefügt.
+Wenn ein [MDL-Diagramm](../../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md) in Designer geladen wird, kann es auf jedes Material in der Szene angewendet werden. Zu diesem Zeitpunkt wird er in die Liste der verfügbaren MDL-Materialien aufgenommen.
 
 Weitere wichtige Optionen in diesem Menü sind:
 
-* Wählen Sie die Option <b>Bearbeiten</b>, um auf die *gelegt Eingaben der MDL* im Bereich <b>Eigenschaften</b> zuzugreifen, und passen Sie das Material nach Bedarf an.
+* Wählen Sie die Option <b>Bearbeiten</b> aus, um auf die *zur Verfügung gestellten MDL-Eingaben* im Bedienfeld <b>Eigenschaften</b> zuzugreifen, und passen Sie das Material nach Bedarf an.
 * <b>Laden...Mit der Option </b> können Sie *eine MDL-Datei manuell laden*, die der kumulativen Liste hinzugefügt und in der Szene angewendet werden soll.
-* Die Exportvorgabe <b>...Die Option </b> öffnet das Dialogfeld <b>MDL-Material-Vorgabe exportieren</b>, in dem Sie eine voreingestellte MDL-3D-Ansicht mit den aktuellen Einstellungen exportieren können, die in der Datendatei angewendet werden.
+* Die Exportvorgabe <b>...Die Option </b> öffnet das Dialogfeld <b>MDL-Materialvorgabe exportieren</b>, in dem Sie eine voreingestellte MDL-Datei mit den aktuellen Einstellungen exportieren können, die in der 3D-Ansicht angewendet wurden.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Menü &quot;Materialien&quot;](../../../assets/iray-mdl-list.png "Menü &quot;Materialien&quot;")
+![Menü &quot;Materialien&quot;](iray.resources/iray-mdl-list.png "Menü &quot;Materialien&quot;")
 
 </td>
 </tr>
@@ -145,20 +145,20 @@ Weitere wichtige Optionen in diesem Menü sind:
 
 >[!NOTE]
 >
-> Beim Laden eines **MDL-Diagramms** wird der 3D-Ansichts-Renderer *automatisch auf **Iray*** umgeschaltet, um es zu laden und anzuwenden.
+> Beim Laden eines **MDL-Diagramms** wird der 3D-Ansicht-Renderer *automatisch auf **Iray*** umgeschaltet, um ihn zu laden und anzuwenden.
 
 <a name="camera"></a>
 
 ### Kamera
 
-Der Hauptunterschied zwischen OpenGL und Iray in Bezug auf die Kamera besteht darin, wie *die Tiefe des Felds* verwaltet wird. Da Iray ein physikalisch präziser Renderer ist, erfolgt die Tiefe des Felds &quot;natürlich&quot; in Abhängigkeit von der *Blende* der Kamera.
+Der Hauptunterschied zwischen OpenGL und Iray in Bezug auf die Kameraeinstellungen besteht darin, wie *die Tiefe von Feld* verwaltet wird. Da Iray ein physikalisch präziser Renderer ist, erfolgt die Tiefe des Schirms &quot;natürlich&quot;, je nach *Blende* der Kamera.
 
-Die folgenden Parameter sind in den Eigenschaften der Kamera verfügbar, wenn der Iray-Renderer ausgewählt ist:
+Die folgenden Parameter sind in den Kameraeigenschaften verfügbar, wenn der Iray-Renderer ausgewählt ist:
 
-* <b>Fokusentfernung</b>: der Abstand zur Kamera des Fokuspunkts, d. h. die Stelle, an der das Bild am schärfsten ist
-* <b>Durchmesser der Blende</b>: der Wert, der die Blende der Kamera bestimmt. Je niedriger der Wert, desto schärfer sind die Bildelemente vor und nach dem Fokuspunkt - einfacher ausgedrückt steuert dieser Wert die Stärke der Tiefe des Feldeffekts
+* <b>Fokusentfernung</b>: der Abstand des Fokuspunkts von der Kamera, d. h. die Stelle, an der das Bild am schärfsten ist
+* <b>Blendendurchmesser</b>: den Wert, der die Blendenöffnung der Kamera steuert. Je niedriger der Wert, desto schärfer sind die Bildelemente vor und nach dem Fokuspunkt - einfacher ausgedrückt steuert dieser Wert die Stärke der Tiefe des Feldeffekts
 
-![Kamera-Einstellungen](../../../assets/camera-dof.png "Kamera-Einstellungen")
+![Kameraeinstellungen](iray.resources/camera-dof.png "Kameraeinstellungen")
 
 <a name="environment"></a>
 
@@ -170,7 +170,7 @@ Die folgenden Eigenschaften sind verfügbar:
 
 Kuppel
 
-* <b>Kuppel Typ </b>: legt die Objekte fest, die die Szene einschließen, auf die die Textur der Umgebung projiziert wird.
+* <b>Domtyp</b>: legt die Objekte fest, die die Szene einschließen, auf die die Umgebungsstruktur projiziert wird
   * *Unendliche Kugel*: unendliche kugelförmige Umgebung
   * *Boden*: unendliche kugelförmige Umgebung, aber mit einer strukturierten Grundebene
   * *Sphäre*: kugelförmige Kuppel von endlicher Größe mit benutzerdefiniertem Radius
@@ -205,11 +205,11 @@ Die Auswirkungen einiger dieser Einstellungen werden im Folgenden veranschaulich
 <table>
   <tr>
     <td>
-      <img src="../../../assets/iray-environment-hidden.png" alt="Iray - Umwelt ausgeblendet">
+      <img src="iray.resources/iray-environment-hidden.png" alt="Iray - Umwelt ausgeblendet">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../assets/iray-env-visible.png" alt="Iray - Umwelt sichtbar">
+      <img src="iray.resources/iray-env-visible.png" alt="Iray - Umwelt sichtbar">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -217,9 +217,9 @@ Die Auswirkungen einiger dieser Einstellungen werden im Folgenden veranschaulich
 
 
 
-![Iray - Umgebung ausgeblendet](../../../assets/iray-environment-hidden.png "Iray - Umgebung ausgeblendet")
+![Iray - Umgebung ausgeblendet](iray.resources/iray-environment-hidden.png "Iray - Umgebung ausgeblendet")
 
-![Iray - Umgebung sichtbar](../../../assets/iray-env-visible.png "Iray - Umgebung sichtbar")
+![Iray - Umgebung sichtbar](iray.resources/iray-env-visible.png "Iray - Umgebung sichtbar")
 
 +++
 
@@ -229,11 +229,11 @@ Die Auswirkungen einiger dieser Einstellungen werden im Folgenden veranschaulich
 <table>
   <tr>
     <td>
-      <img src="../../../assets/iray-env-infinite-sphere.png" alt="Iray - Nur unendliche Kugel">
+      <img src="iray.resources/iray-env-infinite-sphere.png" alt="Iray - Nur unendliche Kugel">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../assets/iray-env-sphere-ground.png" alt="Iray - Unendliche Kugel mit Boden">
+      <img src="iray.resources/iray-env-sphere-ground.png" alt="Iray - Unendliche Kugel mit Boden">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -241,35 +241,35 @@ Die Auswirkungen einiger dieser Einstellungen werden im Folgenden veranschaulich
 
 
 
-![Iray - Nur unendliche Kugel](../../../assets/iray-env-infinite-sphere.png "Iray - Nur unendliche Kugel")
+![Iray - Nur unendliche Kugel](iray.resources/iray-env-infinite-sphere.png "Iray - Nur unendliche Kugel")
 
-![Iray - Ebene für unendliche Kugel mit Boden](../../../assets/iray-env-sphere-ground.png "Iray - Ebene für unendliche Kugel mit Boden")
+![Iray - Ebene für unendliche Kugel mit Boden](iray.resources/iray-env-sphere-ground.png "Iray - Ebene für unendliche Kugel mit Boden")
 
 +++
 
 +++Umgebung drehen
-![Umgebung drehen](../../../assets/iray-env-rotation.gif "Umgebung drehen")
+![Umgebung drehen](iray.resources/iray-env-rotation.gif "Umgebung drehen")
 
 
 
 +++
 
 +++Boden-Ebene anpassen
-![Boden-Spiegelung](../../../assets/iray-env-ground-options.gif "Boden-Spiegelung")
+![Boden-Spiegelung](iray.resources/iray-env-ground-options.gif "Boden-Spiegelung")
 
 
 
 +++
 
 +++Anpassen der unendlichen Kugel
-![Umgebungsskala (Kugel)](../../../assets/iray-env-sphere-radius.gif "Umgebungsskala (Kugel)")
+![Umgebungsskala (Kugel)](iray.resources/iray-env-sphere-radius.gif "Umgebungsskala (Kugel)")
 
 
 
 +++
 
 +++Schachtelungsrahmen anpassen
-![Umgebungsskala (Cube)](../../../assets/iray-env-box-dimensions.gif "Umgebungsskala (Cube)")
+![Umgebungsskala (Cube)](iray.resources/iray-env-box-dimensions.gif "Umgebungsskala (Cube)")
 
 
 
@@ -287,7 +287,7 @@ Diese Optionen zeigen eine *Textüberlagerung* auf dem gerenderten Bild mit nüt
 * <b>Auflösung</b>: Effektive Rendering-Auflösung. Wenn die Option &quot;Fensterauflösung verwenden&quot; in den Bildeigenschaften auf &quot;Falsch&quot; gesetzt ist, wird das Kamera-Seitenverhältnis automatisch an das Auflösungsverhältnis angepasst
 * <b>Szene-Statistiken</b>: Eine Liste von Statistiken, die sich auf die gerenderte Szene beziehen, einschließlich der Anzahl der Dreiecke und der Anzahl der Materialien neben anderen Daten.
 
-![Anzeigeoptionen](../../../assets/iray-display-data.png "Anzeigeoptionen"){width="512px"}
+![Anzeigeoptionen](iray.resources/iray-display-data.png "Anzeigeoptionen"){width="512px"}
 
 <a name="renderer"></a>
 
@@ -316,11 +316,11 @@ Die Auswirkungen einiger dieser Einstellungen werden in den folgenden Bildvergle
 <table>
   <tr>
     <td>
-      <img src="../../../assets/iray-renderer-none.png" alt="Iray - Basis-Rendering">
+      <img src="iray.resources/iray-renderer-none.png" alt="Iray - Basis-Rendering">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../assets/iray-renderer-caustics.png" alt="Iray - Kaustik-Sampler aktiviert">
+      <img src="iray.resources/iray-renderer-caustics.png" alt="Iray - Kaustik-Sampler aktiviert">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -328,9 +328,9 @@ Die Auswirkungen einiger dieser Einstellungen werden in den folgenden Bildvergle
 
 
 
-![Iray - Basisrendering](../../../assets/iray-renderer-none.png "Iray - Basisrendering")
+![Iray - Basisrendering](iray.resources/iray-renderer-none.png "Iray - Basisrendering")
 
-![Iray - Kaustischer Sampler aktiviert](../../../assets/iray-renderer-caustics.png "Iray - Kaustischer Sampler aktiviert")
+![Iray - Kaustischer Sampler aktiviert](iray.resources/iray-renderer-caustics.png "Iray - Kaustischer Sampler aktiviert")
 
 +++
 
@@ -340,11 +340,11 @@ Die Auswirkungen einiger dieser Einstellungen werden in den folgenden Bildvergle
 <table>
   <tr>
     <td>
-      <img src="../../../assets/iray-renderer-caustics.png" alt="Iray - Firefly-Filter deaktiviert">
+      <img src="iray.resources/iray-renderer-caustics.png" alt="Iray - Firefly-Filter deaktiviert">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../assets/iray-renderer-caustics-fireflies.png" alt="Iray - Firefly-Filter aktiviert">
+      <img src="iray.resources/iray-renderer-caustics-fireflies.png" alt="Iray - Firefly-Filter aktiviert">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -352,9 +352,9 @@ Die Auswirkungen einiger dieser Einstellungen werden in den folgenden Bildvergle
 
 
 
-![Iray - Firefly-Filter deaktiviert](../../../assets/iray-renderer-caustics.png "Iray - Firefly-Filter deaktiviert")
+![Iray - Firefly-Filter deaktiviert](iray.resources/iray-renderer-caustics.png "Iray - Firefly-Filter deaktiviert")
 
-![Iray - Firefly-Filter aktiviert](../../../assets/iray-renderer-caustics-fireflies.png "Iray - Firefly-Filter aktiviert")
+![Iray - Firefly-Filter aktiviert](iray.resources/iray-renderer-caustics-fireflies.png "Iray - Firefly-Filter aktiviert")
 
 +++
 
@@ -364,11 +364,11 @@ Die Auswirkungen einiger dieser Einstellungen werden in den folgenden Bildvergle
 <table>
   <tr>
     <td>
-      <img src="../../../assets/iray-renderer-caustics-fireflies.png" alt="Iray - Post-Denoiser deaktiviert">
+      <img src="iray.resources/iray-renderer-caustics-fireflies.png" alt="Iray - Post-Denoiser deaktiviert">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../assets/iray-renderer-caustics-fireflies-denoiser-180.png" alt="Iray - Post-Denoiser aktiviert">
+      <img src="iray.resources/iray-renderer-caustics-fireflies-denoiser-180.png" alt="Iray - Post-Denoiser aktiviert">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -376,9 +376,9 @@ Die Auswirkungen einiger dieser Einstellungen werden in den folgenden Bildvergle
 
 
 
-![Iray - Post-Denoiser deaktiviert](../../../assets/iray-renderer-caustics-fireflies.png "Iray - Post-Denoiser deaktiviert")
+![Iray - Post-Denoiser deaktiviert](iray.resources/iray-renderer-caustics-fireflies.png "Iray - Post-Denoiser deaktiviert")
 
-![Iray - Post-Denoiser aktiviert](../../../assets/iray-renderer-caustics-fireflies-denoiser-180.png "Iray - Post-Denoiser aktiviert")
+![Iray - Post-Denoiser aktiviert](iray.resources/iray-renderer-caustics-fireflies-denoiser-180.png "Iray - Post-Denoiser aktiviert")
 
 +++
 
@@ -401,7 +401,7 @@ Wenn eine unterstützte GPU erkannt wird, wird sie in diesem Abschnitt aufgefüh
 
 >[!WARNING]
 >
-> Die GPU-Hardwarebeschleunigung verwendet die [NVIDIA CUDA](https://developer.nvidia.com/cuda-zone)-Technologie. Stellen Sie sicher, dass Ihr *-Grafiktreiber auf dem neuesten Stand ist*, um die beste Kompatibilität und Zuverlässigkeit zu erzielen. Suchen Sie hier den neuesten Treiber für Ihre NVIDIA-GPU [&#128279;](https://www.nvidia.com/Download/index.aspx?lang=en-us).\
+> Die GPU-Hardwarebeschleunigung verwendet die [NVIDIA CUDA](https://developer.nvidia.com/cuda-zone)-Technologie. Stellen Sie sicher, dass Ihr *-Grafiktreiber auf dem neuesten Stand ist*, um die beste Kompatibilität und Zuverlässigkeit zu erzielen. Suchen Sie hier den neuesten Treiber für Ihre NVIDIA-GPU [](https://www.nvidia.com/Download/index.aspx?lang=en-us).\
 > Für Konfigurationen mit mehreren GPUs wird empfohlen, SLI *zu deaktivieren* und nur eine GPU auszuwählen, um die beste Zuverlässigkeit zu erzielen.
 
-![Iray-Voreinstellungen](../../../assets/iray-preferences-hardware.png "Iray-Voreinstellungen")
+![Iray-Voreinstellungen](iray.resources/iray-preferences-hardware.png "Iray-Voreinstellungen")
