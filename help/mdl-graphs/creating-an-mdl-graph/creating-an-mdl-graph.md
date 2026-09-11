@@ -30,7 +30,7 @@ Auf dieser Seite wird das Erstellen eines MDL-Diagramms zum Erstellen von MDL-Ma
 
 Sie können ein MDL-Diagramm mit einer der folgenden Methoden erstellen:
 
-* Wählen Sie in der *Hauptmenüleiste die Option **Datei > Neu > MDL-Diagramm**aus.*
+* Wählen Sie in der *Hauptmenüleiste die Option **Datei > Neu > MDL-Diagramm**&#x200B;aus.*
 * Klicken Sie auf die Schaltfläche ![](creating-an-mdl-graph.resources/mdl-new-graph-icon.png) **MDL-Diagramm hinzufügen** in der *Hauptsymbolleiste*.
 * Klicken Sie mit der rechten Maustaste auf ein *bestehendes Paket* im Bereich **Explorer** und wählen Sie die Option **Neu > MDL-Diagramm** aus
 
