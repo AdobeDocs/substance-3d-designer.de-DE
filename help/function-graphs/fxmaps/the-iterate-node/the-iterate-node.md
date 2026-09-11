@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/fxmaps/the-iterate-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/the-iterate-node.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Iterieren in FXMaps, um sich wiederholende Muster und prozedurale Varianten Ihrer Materialien zu erstellen.
+description: Verwenden Sie den Knoten Iterieren in FXMaps, um sich wiederholende Muster und prozedurale Variationen in Ihren Materialien zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > FXMaps > The Iterate Node
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Der Knoten "Iterieren"
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Mit dem Knoten &quot;Iterieren&quot; können Sie die Bilder eines Quadrant-Knote
 
 Der Knoten &quot;Iterieren&quot; hat keine anderen Eigenschaften als &quot;Wie Wiederholungen möchten Sie?&quot;. -Parameter. Das Ergebnis ist, dass die neuen Bilder standardmäßig einfach überlagert und mit den Bildern vermischt werden, die vom Quadrant-Knoten erzeugt werden.
 
-Der Knoten Iterieren wiederholt das empfangene Eingabebild. Die Anzahl der Wiederholungen wird durch die Eigenschaft &quot;Iterationen&quot; definiert:
+Der Knoten Iterieren wiederholt das empfangene Eingabebild. Die Anzahl der Wiederholungen wird durch die Eigenschaft Iterationen definiert:
 
 Der Schlüssel zur Verwendung des Iterate-Knotens besteht darin, dass alle dynamischen Funktionen, die mit jedem wiederholten Bild verknüpft sind, ebenfalls verarbeitet werden. Das bedeutet, dass jede Wiederholung ihre eigenen einzigartigen Einstellungen haben kann. Sie können die Funktionsweise des Knotens &quot;Iterieren&quot; mithilfe der Eigenschaft &quot;Zufallsverteilung&quot; ändern. Sie können auch auf die Systemvariable *$number* in Ihren dynamischen Funktionen zugreifen, um zu bestimmen, welche Wiederholung gerade gerendert wird, und das Ergebnis der Funktion entsprechend ändern.
 
@@ -32,10 +32,10 @@ Beispiel: Wenn Sie auf jedes Bild in einem Quadrantenknoten eine zufällige Dreh
 
 Alle im Quadrant-Knoten verfügbaren dynamischen Merkmale gelten auch für wiederholte Bilder, die vom Iterate-Knoten erzeugt werden. Der Knoten dupliziert den Quadrant-Knoten auf derselben Ebene, statt eine weitere Tiefe hinzuzufügen.
 
-## Die Pass-Through-Verbindung
+## Der Pass-Through-Connector
 
-Jeder Iterate-Knoten hat zwei Verbindungen entlang seiner Basis. Die linke Verbindung ist eine Pass-Through-Verbindung. Das Bild, das er erhält, wird direkt an die Ausgabebilder des Knotens übergeben, wo es mit allen wiederholten Verbindungen überblendet wird:
+Jeder Iterate-Knoten verfügt über zwei Connectors entlang seiner Basis. Der linke Anschluss ist ein Pass-Through-Anschluss. Das Bild, das er erhält, wird direkt an den Ausgangsanschluss des Knotens weitergeleitet, wo es mit allen wiederholten Bildern überblendet wird:
 
 Beachten Sie, dass das Pass-Through-Bild immer unberührt bleibt, unabhängig von der Einstellung des Parameters &quot;Iteration&quot;.
 
-![](../../../assets/iterate.jpg)
+![](the-iterate-node.resources/iterate.jpg)

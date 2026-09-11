@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/visible-if-control-visibility-of-inputs-outputs-and-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/visible-if-control-visibility-of-inputs-outputs-and-parameters.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie die Sichtbarkeit von Parametern in Substance 3D Designer mithilfe von "visible if"-Expressions auf der Grundlage von Bedingungen steuern.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sichtbar, wenn Expressions
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Mit dem Ausdruck &quot;Sichtbar, wenn&quot; können Sie <b>die Sichtbarkeit </b> von Eingängen, Ausgaben und Parametern in Grafen steuern.
 
-Wenn [&#x200B; Parameter &#x200B;](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) legt, können Sie Verbindungen oder Knotenparameter aufgrund des Status anderer Parameter ein- oder ausblenden. Beispiel: Ein Schieberegler wird nur angezeigt, wenn eine boolesche Parameterschaltfläche auf &quot;`true`&quot; festgelegt ist, da er sonst keine Auswirkungen hätte und Benutzer möglicherweise verwirrt werden.
+Wenn [ Parameter ](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) legt, können Sie Verbindungen oder Knotenparameter aufgrund des Status anderer Parameter ein- oder ausblenden. Beispiel: Ein Schieberegler wird nur angezeigt, wenn eine boolesche Parameterschaltfläche auf &quot;`true`&quot; festgelegt ist, da er sonst keine Auswirkungen hätte und Benutzer möglicherweise verwirrt werden.
 
 Um dies zu erreichen, können Sie einen *logischen Ausdruck* in die <b>Visible if</b>-Eigenschaft von eingeben:
 
@@ -30,7 +30,7 @@ Um dies zu erreichen, können Sie einen *logischen Ausdruck* in die <b>Visible i
 * [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)-Knoten eines Grafen;
 * Knoten &quot;[Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)&quot; eines Grafen.
 
-![Sichtbarkeit des Eingabeparameters umschalten](../../assets/visible-if-example.gif "Sichtbarkeit des Eingabeparameters umschalten"){width="512px"}
+![Sichtbarkeit des Eingabeparameters umschalten](visible-if-control-visibility-of-inputs-outputs-and-parameters.resources/visible-if-example.gif "Sichtbarkeit des Eingabeparameters umschalten"){width="512px"}
 
 Wenn die Auswertung des logischen Ausdrucks &quot;`true`&quot; ergibt, wird der Parameter, die Eingabe oder die Ausgabe in allen [Instanzknoten](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) angezeigt, die den aktuellen Graf darstellen. Andernfalls ist sie *ausgeblendet*.
 
@@ -69,7 +69,7 @@ input["identifier"]
 
 Die Felder &quot;Sichtbar wenn&quot; akzeptieren die folgenden Parameter:
 
-* Boolesche Wert, Fließkommazahl und Ganzzahl.
+* Boolesche, Float- und Integer-Eingaben.
 * `true` und `false` Werte (Groß- und Kleinschreibung beachten, keine Großbuchstaben!)
 * `.x` : auf den Unterparameter zugreifen
 * `&&`<b> </b> und
@@ -82,9 +82,9 @@ Die Felder &quot;Sichtbar wenn&quot; akzeptieren die folgenden Parameter:
 
 Ein &quot;Sichtbar, wenn Ausdruck als Bedingung für eine &quot;IF&quot;-Anweisung verwendet wird, d. h., er muss immer `true` oder `false` ergeben.
 
-* Boolesche Wert-Werte können direkt als Bedingung ausgewertet werden. Eine einfache Schaltfläche mit einem booleschen Wert erfordert nicht mehr als diesen Wert. Siehe nachstehende Beispiele, erster Fall;
+* Boolesche Werte können direkt als Bedingung ausgewertet werden. Eine einfache Schaltfläche mit einem booleschen Wert erfordert nicht mehr als diesen Wert. Siehe nachstehende Beispiele, erster Fall;
 * Für nicht boolesche Parameter ist im Allgemeinen ein *Vergleichsvorgang* erforderlich. Vergleichsoperatoren finden Sie oben, Beispiele unten.
-* Einige nicht-boolesche Werte können *wahrheitsgetreu* oder *falsch* sein, was bedeutet, dass sie als `true` von `false` ausgewertet werden können - z. B. Ein Ganzzahl-Wert von `0` wird als false ausgewertet.
+* Einige nicht-boolesche Werte können *wahrheitsgetreu* oder *falsch* sein, was bedeutet, dass sie als `true` von `false` ausgewertet werden können - z. B. Ein ganzzahliger Wert von `0` wird als false ausgewertet.
 
 ## Beispiele
 
