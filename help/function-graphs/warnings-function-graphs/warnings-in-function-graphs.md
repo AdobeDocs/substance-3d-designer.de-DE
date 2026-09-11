@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
 breadcrumb-title: ''
 description: Verstehen Sie Warnungen in Funktionsdiagrammen von Substance 3D Designer und erfahren Sie, wie Sie häufige Probleme beheben.
 helpx_creative_field: ""

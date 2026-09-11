@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/the-function-graph.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/the-function-graph.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über das Substance von Funktionsdiagrammen in Designer zum Erstellen benutzerdefinierter Funktionen und wiederverwendbarer Knotennetzwerke.
 helpx_creative_field: ""
