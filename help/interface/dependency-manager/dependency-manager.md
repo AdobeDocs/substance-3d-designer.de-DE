@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/dependency-manager.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/dependency-manager.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Abhängigkeitsmanager in Substance 3D Designer, um Ressourcenabhängigkeiten in Ihren Projekten anzuzeigen und zu verwalten.
 helpx_creative_field: ""
