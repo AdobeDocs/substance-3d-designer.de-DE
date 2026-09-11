@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-mapper.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-mapper.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Formenzuordnungs-Knoten, um Formen mit anpassbaren Transformationen und Positionierungen Texturen zuzuordnen.
 helpx_creative_field: ""
