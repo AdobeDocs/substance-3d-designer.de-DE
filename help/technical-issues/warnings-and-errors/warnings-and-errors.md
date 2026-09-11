@@ -89,7 +89,7 @@ Sie befolgen die folgenden Regeln:
 
 * Wenn das Element unter einem anderen Element verschachtelt ist (z. B. einer Abschnittsüberschrift), werden Warnungen zu diesem Element angezeigt, wenn es ausgeblendet wird.
 * Warnungslisten sind *kumulativ*, da sie die Summe der Warnungen eines Elements *und* aller angezeigten Warnungen seiner untergeordneten Elemente sind.
-* Wenn der [Funktions-Graf ](../../function-graphs/function-graphs.md), der auf einen [Eingabeparameter ](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) angewendet wird, eine oder mehrere Warnungen enthält, wird für das Parameterelement eine *einzelne* `The [x] parameter's function has some warnings` Warnung ausgegeben.
+* Wenn der [Funktions-Graf &#x200B;](../../function-graphs/function-graphs.md), der auf einen [Eingabeparameter &#x200B;](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) angewendet wird, eine oder mehrere Warnungen enthält, wird für das Parameterelement eine *einzelne* `The [x] parameter's function has some warnings` Warnung ausgegeben.
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">

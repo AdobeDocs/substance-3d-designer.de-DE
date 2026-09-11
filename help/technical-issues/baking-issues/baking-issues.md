@@ -45,7 +45,7 @@ Seit Designer 15.0 wird der Name der *Geometrie*-Objekte direkt verwendet.
 </td>
 <td style="border: 0;" valign="top">
 
-![Geometry-Objekt und übergeordnetes Objekt in der Szene ](baking-issues.resources/sceneTree_objectsName.png "Geometry-Objekt und übergeordnetes Objekt in der Szene "){zoomable="yes"}
+![Geometry-Objekt und übergeordnetes Objekt in der Szene &#x200B;](baking-issues.resources/sceneTree_objectsName.png "Geometry-Objekt und übergeordnetes Objekt in der Szene "){zoomable="yes"}
 
 </td>
 </tr>

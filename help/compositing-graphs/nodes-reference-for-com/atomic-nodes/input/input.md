@@ -34,7 +34,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![Atomknoten: Eingabewert ](input.resources/comp_inputnumeric_1.png "Atomischer Knoten: Eingabewert "){width="200px"}
+![Atomknoten: Eingabewert &#x200B;](input.resources/comp_inputnumeric_1.png "Atomischer Knoten: Eingabewert "){width="200px"}
 
 </td>
 </tr>
@@ -73,7 +73,7 @@ Wenn Sie das Diagramm mit den Ausgaben eines anderen Diagramms anzeigen möchten
 <tr style="border: 0;">
 <td style="border: 0; vertical-align: top">
 
-Wenn mehrere Eingaben vorhanden sind, müssen Sie darauf achten, wie das Diagramm die Basisparameter](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) von diesen Eingaben [erbt.\
+Wenn mehrere Eingaben vorhanden sind, müssen Sie darauf achten, wie das Diagramm die Basisparameter[&#128279;](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) von diesen Eingaben erbt.\
 Zu den Basisparametern gehören u. a. die <b>Ausgabegröße</b>, das <b>Ausgabeformat</b> und der <b>Anordnungsmodus</b>.
 
 Eine Eingabe kann als [Primäre Eingabe](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) definiert werden. Diese Eingabe steuert dann die Attribute aller Eingaben, deren Vererbungsmethode auf *Relativ zu übergeordnetem* festgelegt ist. Dies ist die Vererbungsmethode *, die standardmäßig* auf Eingabeknoten festgelegt ist.
@@ -81,7 +81,7 @@ Eine Eingabe kann als [Primäre Eingabe](../../../../compositing-graphs/inherita
 </td>
 <td width="25%" style="border: 0;" valign="top">
 
-![Primäre Eingabe in Substance-Graf ](input.resources/node-primary-input.png)
+![Primäre Eingabe in Substance-Graf &#x200B;](input.resources/node-primary-input.png)
 
 </td>
 </tr>
