@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDL-Grafiken
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden MDL-Diagramme in Substance 3D Designer angezeigt, mit denen Sie MDL-Materialien erstellen und in Echtzeit eine Vorschau ihres Verhaltens anzeigen können.
 
-![Malachite-MDL-Material](../assets/mdl-malachite-example.jpg "Malachite-MDL-Material")
+![Malachite-MDL-Material](mdl-graphs.resources/mdl-malachite-example.jpg "Malachite-MDL-Material")
 
 *Malachite mit Chrysocolla, MDL-Material von [Mark Foreman](https://www.artstation.com/oggyart)* *verfügbar auf unserer [Legacy-Substance share](https://share-legacy.substance3d.com/libraries/4043)* *Plattform*
 
@@ -62,7 +62,7 @@ Bist du bereit reinzuspringen? Beginnen Sie mit MDL-Diagrammen im Abschnitt MDL-
 >
 > Weitere Informationen über die technische Implementierung der Materialdefinitionssprache finden Sie in der [NVIDIA MDL-Dokumentation](https://raytracing-docs.nvidia.com/mdl/index.html), die Links zur MDL-Spezifikation und zum [MDL-Handbuch](http://mdlhandbook.com/) enthält, die alle von NVIDIA erstellt und gepflegt werden.
 
-![MDL-Diagrammeigenschaften](../assets/mdl-main.png "MDL-Diagrammeigenschaften")
+![MDL-Diagrammeigenschaften](mdl-graphs.resources/mdl-main.png "MDL-Diagrammeigenschaften")
 
 *MDL-Diagramm-Eigenschaften im Eigenschaftenfenster*
 
