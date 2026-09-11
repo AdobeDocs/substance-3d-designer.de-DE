@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/getting-started/activation-and-licenses.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/activation-and-licenses.html"
 breadcrumb-title: ''
 description: Hier erfahren Sie, wie Sie Substance 3D Designer aktivieren und Lizenzen für den Zugriff auf alle Funktionen verwalten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Aktivierung und Lizenzen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Der Aktivierungsprozess hängt davon ab, wo Sie Designer erworben haben oder Zug
 
 | Edition | Aktivierungsprozess |
 | --- | --- |
-| Creative Cloud Desktop | Weitere Informationen finden Sie auf der entsprechenden Seite in der [HilfeX-Dokumentation](https://helpx.adobe.com/de/support/substance-3d-designer.html). Falls Probleme auftreten, kann die [Creative Cloud-Dokumentation](https://helpx.adobe.com/de/creative-cloud/user-guide.html) zusätzliche Antworten liefern. |
+| Creative Cloud Desktop | Weitere Informationen finden Sie auf der entsprechenden Seite in der [HilfeX-Dokumentation](https://helpx.adobe.com/support/substance-3d-designer.html). Falls Probleme auftreten, kann die [Creative Cloud-Dokumentation](https://helpx.adobe.com/creative-cloud/user-guide.html) zusätzliche Antworten liefern. |
 | dämpfen | Starten Sie das Produkt direkt aus Ihrer Steam-Bibliothek. |
 | Substance (eigenständig) | Weitere Informationen finden Sie im unten beschriebenen Aktivierungsprozess. |
 
@@ -42,7 +42,7 @@ Es stehen drei Optionen zur Auswahl:
 >
 > Um die Lizenzdatei mit dem Aktivierungsassistenten zu installieren, müssen Sie Designer als Administrator ausführen und das Antivirenprogramm vorübergehend deaktivieren.
 
-![Aktivierungsassistent](../../assets/activation-wizard.png "Aktivierungsassistent")
+![Aktivierungsassistent](activation-and-licenses.resources/activation-wizard.png "Aktivierungsassistent")
 
 ### Manuelle Aktivierung
 

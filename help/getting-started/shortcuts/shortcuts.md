@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
 breadcrumb-title: ''
 description: Lernen Sie Tastaturbefehle in Substance 3D Designer kennen, mit denen Sie Ihren Arbeitsablauf beschleunigen und die Produktivität verbessern können.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Kürzel
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 18%
@@ -32,11 +32,11 @@ Auf dieser Seite finden Sie eine Übersicht aller Tastaturbefehle für Substance
 
 **Windows**
 
-![Tastaturbefehle unter Windows](../../assets/keyboard_shortcuts_win.png "Tastaturbefehle unter Windows"){zoomable="yes"}
+![Tastaturbefehle unter Windows](shortcuts.resources/keyboard_shortcuts_win.png "Tastaturbefehle unter Windows"){zoomable="yes"}
 
 **macOS**
 
-![Tastaturbefehle auf macOS](../../assets/keyboard_shortcuts_mac.png "Tastaturbefehle auf macOS"){zoomable="yes"}
+![Tastaturbefehle auf macOS](shortcuts.resources/keyboard_shortcuts_mac.png "Tastaturbefehle auf macOS"){zoomable="yes"}
 
 ## Shortcuts-Listen
 
@@ -66,7 +66,7 @@ Auf dieser Seite finden Sie eine Übersicht aller Tastaturbefehle für Substance
 | Einfügen | Strg + V | ⌘ + V |
 | Kontextmenü | RMB | RMB |
 | Knotenmenü | Leertaste | Leertaste |
-| [Navigationspins](../../interface/the-graph-view/graph-items/graph-items.md) durchlaufen | F2 | F2 |
+| [Navigations-Nadeln durchlaufen](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
 
 <b>Verbindungserstellungsmodi</b>
 
@@ -80,7 +80,7 @@ Auf dieser Seite finden Sie eine Übersicht aller Tastaturbefehle für Substance
 | Material | 2 | 2 |
 | Material komprimieren | 3 | 3 |
 
-<b>Wenn ein Objekt im Diagramm ausgewählt wird</b>
+<b>Wenn ein Objekt im Graf ausgewählt wird</b>
 
 | Aktion | Windows | macOS |
 | --- | --- | --- |
