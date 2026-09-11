@@ -272,7 +272,7 @@ Das Menü <b>Szene</b> behandelt die angezeigte Geometrie (3D-Ressource) und die
 
 <b>Statusdatei laden..: </b>Lädt eine extern gespeicherte [Szene-Statusdatei](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn). Ersetzt den 3D-Mesh nicht, lädt nur Einstellungen für 3D-Renderer, Kamera und Lichter.
 
-<b>Statusdatei mit Mesh laden...:</b> Lädt eine extern gespeicherte [Szenen-Statusdatei ](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn). Lädt die Einstellungen für den 3D-Renderer, die Kamera, die Lichter sowie die Referenzinformationen in der 3D-Szene. .
+<b>Statusdatei mit Mesh laden...:</b> Lädt eine extern gespeicherte [Szenen-Statusdatei &#x200B;](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn). Lädt die Einstellungen für den 3D-Renderer, die Kamera, die Lichter sowie die Referenzinformationen in der 3D-Szene. .
 
 <b>Statusdatei speichern..: </b>Speichern Sie den aktuellen Status der 3D-Ansicht in einer [Szene-Statusdatei](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn).
 
@@ -301,7 +301,7 @@ Das Menü &quot;Materials&quot; enthält eine Liste aller Materials, die einem M
 
 <b>Bearbeiten</b> - Einstellungen des aktuellen Materials im Eigenschaftenfenster bearbeiten.
 
-<b>Shaders-Liste</b> - Alle [Shaders](../../glossary/glossary.md), die für den aktuellen [3D-Renderer ](../../interface/3d-view/3d-renderers/3d-renderers.md) verfügbar sind.
+<b>Shaders-Liste</b> - Alle [Shaders](../../glossary/glossary.md), die für den aktuellen [3D-Renderer &#x200B;](../../interface/3d-view/3d-renderers/3d-renderers.md) verfügbar sind.
 
 <b>Definition laden..: </b>(Nur OpenGL-Renderer) Ermöglicht das Laden eigener benutzerdefinierter [GLSLFX-Shader.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) Der Shader wird der obigen Liste hinzugefügt.
 
@@ -313,7 +313,7 @@ Das Menü &quot;Materials&quot; enthält eine Liste aller Materials, die einem M
 
 <b>Material auf Szene zurücksetzen: </b>*(nur Rasterbildner/GPU-Pathtracer-Renderer)* Setzt alle Eigenschaften für [überschriebene Materialien](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) auf ihre Originalwerte aus der Szene zurück, einschließlich der Originalwerte (falls vorhanden) der Texturen.
 
-<b>Hinzufügen: </b>Fügt der Liste ein neues Material hinzu. Er ist standardmäßig nicht verwendet und kann [ mit einem Szene-Material ](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) über den [Szene-Browser ](../../interface/3d-view/scene-browser/scene-browser.md) verbunden sein.
+<b>Hinzufügen: </b>Fügt der Liste ein neues Material hinzu. Er ist standardmäßig nicht verwendet und kann [&#x200B; mit einem Szene-Material &#x200B;](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) über den [Szene-Browser &#x200B;](../../interface/3d-view/scene-browser/scene-browser.md) verbunden sein.
 
 +++
 
@@ -431,7 +431,7 @@ Zeigt eine Hierarchie aller Elemente in einer 3D-Szene an.
 
 >[!INFO]
 >
->Der Szenenbrowser und seine Features werden ausführlich in [der dedizierten Seite ](../../interface/3d-view/scene-browser/scene-browser.md) behandelt.
+>Der Szenenbrowser und seine Features werden ausführlich in [der dedizierten Seite &#x200B;](../../interface/3d-view/scene-browser/scene-browser.md) behandelt.
 
 
 <img src="3d-view.resources/3d-view-scene-toolbar-select.png" width="24" /> <b>Auswählen</b>

@@ -130,18 +130,18 @@ In dieser Version wurden neue Diffusion-Nodes und Verbesserungen für den PBR-Re
 * [Substance-Modelle] Verbessern der Anzeige von Basis
 * [Substance-Modelle] Behalten Sie die Hierarchie der Objekte beim Exportieren eines Substance-Modelldiagramms nach .fbx bei
 * [Substance-Modelle] Unterstützung mehrerer Materialien beim FBX/OBJ-Export aus dem Substance-Modelldiagramm
-* [Substance-Modelle][Inhalt] Partikelknoten
-* [Substance-Modelle][Inhalt] Knoten &quot;Generative Transformation&quot;
-* [Substance-Modelle][Inhalt] Organic Pattern node
-* [Substance-Modelle][Inhalt] Knoten &quot;Partikel aus Instanzen&quot;
-* [Substance-Modelle][Inhalt] Particle Pruning node
-* [Substance-Modelle][Inhalt] Drehknoten
-* [Substance-Modelle][Inhalt] Shell-Knoten
-* [Substance-Modelle][Content] Projektionsknoten
-* [Substance-Modelle][Inhalt] Knoten &quot;Kurven zuschneiden&quot;
-* [Substance-Modelle][Inhalt] Kurve aktualisieren Sampler-Knoten
-* [Substance-Modelle][Inhalt] Mesh Sampler-Knoten aktualisieren
-* [Substance-Modelle][Inhalt] Jitter-Knoten aktualisieren
+* [Substance-Modelle]&#x200B;[Inhalt] Partikelknoten
+* [Substance-Modelle]&#x200B;[Inhalt] Knoten &quot;Generative Transformation&quot;
+* [Substance-Modelle]&#x200B;[Inhalt] Organic Pattern node
+* [Substance-Modelle]&#x200B;[Inhalt] Knoten &quot;Partikel aus Instanzen&quot;
+* [Substance-Modelle]&#x200B;[Inhalt] Particle Pruning node
+* [Substance-Modelle]&#x200B;[Inhalt] Drehknoten
+* [Substance-Modelle]&#x200B;[Inhalt] Shell-Knoten
+* [Substance-Modelle]&#x200B;[Content] Projektionsknoten
+* [Substance-Modelle]&#x200B;[Inhalt] Knoten &quot;Kurven zuschneiden&quot;
+* [Substance-Modelle]&#x200B;[Inhalt] Kurve aktualisieren Sampler-Knoten
+* [Substance-Modelle]&#x200B;[Inhalt] Mesh Sampler-Knoten aktualisieren
+* [Substance-Modelle]&#x200B;[Inhalt] Jitter-Knoten aktualisieren
 * Schaltfläche [UX] zum Maximieren der aktuellen Ansicht
 * [UX] Neues Diagrammfenster aktualisieren
 * [UX] Option &quot;Player herunterladen&quot; im Menü &quot;Extras&quot; hinzufügen und mit &quot;Player suchen&quot; aggregieren
@@ -179,7 +179,7 @@ In dieser Version wurden neue Diffusion-Nodes und Verbesserungen für den PBR-Re
 * [UI] Die Tabulatortaste muss zweimal gedrückt werden, um zwischen Werten zu navigieren
 * [UI] Das Zoomen mit der Maus wird zwischen der 3D-Ansicht und anderen Viewports umgekehrt
 * [UI] Das Laden eines bereits geöffneten SBS mithilfe der Liste &quot;Zuletzt verwendete Dateien&quot; löst fälschlicherweise die Aufforderung &quot;Paket nicht gefunden&quot; aus.
-* [UI][macOS] Falsches Standard-UI-Layout nach dem Starten der Anwendung
+* [UI]&#x200B;[macOS] Falsches Standard-UI-Layout nach dem Starten der Anwendung
 * [UI] Pakete können nicht im Stammverzeichnis eines Laufwerks gespeichert werden (nur Windows)
 * [Diagramm] Die Option &quot;In 2D-Ansicht automatisch anzeigen&quot; ist in einem bestimmten Fall inkonsistent
 * [Graph] Option &quot;Open Reference&quot; ist für SBSAR-Instanzknoten verfügbar

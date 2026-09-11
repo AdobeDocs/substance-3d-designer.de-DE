@@ -465,15 +465,15 @@ Globaler Zufall
 
 Normalverteilung
 
-Zufällige Uniform [-1, 1[
+Zufällige Uniform &lbrack;-1, 1&lbrack;
 
-Zufällige Uniform [a, b[
+Zufällige Uniform &lbrack;a, b&lbrack;
 
-Gleichmäßiger zufälliger Float2 [a, b[
+Gleichmäßiger zufälliger Float2 &lbrack;a, b&lbrack;
 
-Gleichmäßiger zufälliger Float3 [a, b[
+Gleichmäßiger zufälliger Float3 &lbrack;a, b&lbrack;
 
-Zufallsgleichmäßiges Float4 [a, b[
+Zufallsgleichmäßiges Float4 &lbrack;a, b&lbrack;
 
 </td>
 </tr>

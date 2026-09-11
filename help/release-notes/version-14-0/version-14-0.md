@@ -198,7 +198,7 @@ Beachten Sie, dass diese Aktualisierungen zwei wichtige Folgen haben:
 * [Inhalt] Veralteter Knoten &quot;Negate Float1&quot; im Substance-Funktionsdiagramm
 * [Inhalt] Benennen Sie &quot;Farbe quantisieren&quot; in &quot;Farbe quantisieren (einfach)&quot; um.
 * [2D-Ansicht] Anzeigen von Werten im Informationenbedienfeld für Pixel außerhalb des Bereichs 0-1
-* [Engine][Text] Neues Kerning für einige Schriftarten
+* [Engine]&#x200B;[Text] Neues Kerning für einige Schriftarten
 * [Graph] Verbessern der Invalidierungszeit bei der Bearbeitung von Deep Untergraphen bei Verwendung der In-Context-Edition
 * [Linker] Bitmaps in SBSASM nicht duplizieren
 * [Parameter] Fügen Sie ein neues Funktions-Widget für alle Eingabeparametertypen hinzu.

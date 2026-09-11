@@ -90,7 +90,7 @@ Dies ist nützlich, wenn Sie die Pfade beispielsweise von einem [Pixelprozessor]
 
 Die Adresse des letzten in diesem Dokument definierten Scheitelpunkts. Dies ist nützlich, um neue Daten anzufügen.
 
-Es kann also tatsächlich eine beliebige Adresse sein, die größer ist (in Scannline-Reihenfolge) als die Adresse des letzten Scheitelpunkts. Es muss im Bereich ]0, 1[×]0,.5[ liegen
+Es kann also tatsächlich eine beliebige Adresse sein, die größer ist (in Scannline-Reihenfolge) als die Adresse des letzten Scheitelpunkts. Es muss im Bereich &rbrack;0, 1[×]0,.5&lbrack; liegen
 
 <b>ZW</b>
 

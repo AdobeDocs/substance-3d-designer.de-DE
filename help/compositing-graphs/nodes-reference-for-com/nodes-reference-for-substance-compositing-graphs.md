@@ -25,7 +25,7 @@ Da Substance 3D Designer eine knotenbasierte Texturierungssoftware ist, stehen I
 Was wir &quot;Knoten&quot; innerhalb von SD nennen, kann in 2 Netzgruppen unterteilt werden:
 
 * [Die atomaren Knoten](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md), die Hauptbausteine eines beliebigen Diagramms.
-* [Die Diagramminstanzen ](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), zusammengesetzte Knoten, von denen eine große Auswahl an vordefinierten Inhalten in der [Knotenbibliothek verfügbar ist](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
+* [Die Diagramminstanzen &#x200B;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), zusammengesetzte Knoten, von denen eine große Auswahl an vordefinierten Inhalten in der [Knotenbibliothek verfügbar ist](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
 
 ## In diesem Abschnitt:
 

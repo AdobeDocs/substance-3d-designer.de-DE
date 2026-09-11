@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Mit dem Ausdruck &quot;Sichtbar, wenn&quot; können Sie <b>die Sichtbarkeit </b> von Eingängen, Ausgaben und Parametern in Grafen steuern.
 
-Wenn [ Parameter ](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) legt, können Sie Verbindungen oder Knotenparameter aufgrund des Status anderer Parameter ein- oder ausblenden. Beispiel: Ein Schieberegler wird nur angezeigt, wenn eine boolesche Parameterschaltfläche auf &quot;`true`&quot; festgelegt ist, da er sonst keine Auswirkungen hätte und Benutzer möglicherweise verwirrt werden.
+Wenn [&#x200B; Parameter &#x200B;](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) legt, können Sie Verbindungen oder Knotenparameter aufgrund des Status anderer Parameter ein- oder ausblenden. Beispiel: Ein Schieberegler wird nur angezeigt, wenn eine boolesche Parameterschaltfläche auf &quot;`true`&quot; festgelegt ist, da er sonst keine Auswirkungen hätte und Benutzer möglicherweise verwirrt werden.
 
 Um dies zu erreichen, können Sie einen *logischen Ausdruck* in die <b>Visible if</b>-Eigenschaft von eingeben:
 

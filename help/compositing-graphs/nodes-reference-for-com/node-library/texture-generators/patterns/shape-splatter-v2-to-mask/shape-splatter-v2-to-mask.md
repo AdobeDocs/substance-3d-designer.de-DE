@@ -40,7 +40,7 @@ Berechnet eine Maske aus einer Auswahl von Formen, die vom [Shape-Splatter v2](.
 
 >[!TIP]
 > 
-> Das [**-Material &quot;Rusty bolts&quot;**, Beispiel ](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md#material-sample), ist verfügbar, um mit Shape-Splatter v2-Knoten zu beginnen.
+> Das [**-Material &quot;Rusty bolts&quot;**, Beispiel &#x200B;](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md#material-sample), ist verfügbar, um mit Shape-Splatter v2-Knoten zu beginnen.
 > 
 > Weitere Informationen zu Konzepten und Workflows mit SDF-Funktionen finden Sie auf der entsprechenden Seite: [Arbeiten mit SDF-Funktionen](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md)
 

@@ -35,7 +35,7 @@ Designer verwendet standardmäßig das [OpenPBR](https://academysoftwarefoundati
 Die standardmäßigen [Graphvorlagen](../../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md#graph-templates) und die [Materialproben](../../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md#material-samples), die in Designer enthalten sind, basieren alle auf dem OpenPBR-Modell.
 
 Die Eigenschaften dieses Shader folgen dem [OpenPBR-Parameterverweis](https://academysoftwarefoundation.github.io/OpenPBR/#parameterreference) und sind *für den Rasterbildner freigegeben*.
-GPU-Pathtracer- und OpenGL [3D-Renderer ](../3d-renderers/3d-renderers.md).
+GPU-Pathtracer- und OpenGL [3D-Renderer &#x200B;](../3d-renderers/3d-renderers.md).
 
 +++ UVs
 
@@ -211,6 +211,6 @@ Das Modell ist hier [dokumentiert](https://experienceleague.adobe.com/en/docs/su
 Der Zweck des UsdPreviewSurface-Modells ist die Vorschau von Materialien mit einem grundlegenden Funktionssatz, der die Kompatibilität fördert.
 über Renderer hinweg, die USD und/oder Hydra enthalten.
 
-In Designer wird dieses Materialmodell nur von den Rasterbildern und dem GPU-Pathtracer [3D-Renderer ](../3d-renderers/3d-renderers.md) unterstützt.
+In Designer wird dieses Materialmodell nur von den Rasterbildern und dem GPU-Pathtracer [3D-Renderer &#x200B;](../3d-renderers/3d-renderers.md) unterstützt.
 
 Das Modell ist hier [dokumentiert](https://openusd.org/dev/spec_usdpreviewsurface.html).

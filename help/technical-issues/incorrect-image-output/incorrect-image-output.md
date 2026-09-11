@@ -53,7 +53,7 @@ Wenn Sie nicht unbedingt mit HDR.images arbeiten müssen, geben die meisten Ihre
 
 Überprüfen Sie das **Ausgabeformat** (d. h. die Bittiefe) des Knotens und aller Upstream-Knoten. Stellen Sie sicher, dass für diesen Knoten *mindestens die Genauigkeit der 16-Bit-Ganzzahl* verwendet wird.
 
-Der Ausgabeformatparameter ist häufig auf die *Relativ zur*-Methode [Vererbung ](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) festgelegt, die die niedrige Genauigkeit auf den gesamten Graf übertragen kann. Im Idealfall finden Sie die Ursache des Problems, indem Sie im Graf stromaufwärts gehen.
+Der Ausgabeformatparameter ist häufig auf die *Relativ zur*-Methode [Vererbung &#x200B;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) festgelegt, die die niedrige Genauigkeit auf den gesamten Graf übertragen kann. Im Idealfall finden Sie die Ursache des Problems, indem Sie im Graf stromaufwärts gehen.
 
 Sie können die Genauigkeit der Ausgabe eines Knotens schnell identifizieren, indem Sie sich die Textinformationen ansehen, die unter dem Knoten angezeigt werden:
 

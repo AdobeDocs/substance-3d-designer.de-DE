@@ -29,7 +29,7 @@ ht-degree: 1%
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-Generiert ein Bild, bei dem der Wert jedes Pixels das Ergebnis des angegebenen [Substance-Funktions-Grafen ](../../../../function-graphs/the-function-graph/the-function-graph.md) ist.
+Generiert ein Bild, bei dem der Wert jedes Pixels das Ergebnis des angegebenen [Substance-Funktions-Grafen &#x200B;](../../../../function-graphs/the-function-graph/the-function-graph.md) ist.
 
 Mit dem Pixelprozessor können Sie eine benutzerdefinierte Funktion für jeden Pixel ausführen, der als Ausgabe zurückgegeben wird, und zwar an einer optionalen Eingabe.
 
@@ -95,7 +95,7 @@ Für alle, die es gewohnt sind, [Shader](../../../../glossary/glossary.md)-Funkt
 |  |  |
 | --- | --- |
 | <b>Farbmodus</b> *Boolesche Wert* | Schaltet zwischen einem Graustufen- und einem Farbausgabebild um. |
-| <b>Pro Pixelfunktion</b> *Fließkommazahl/Fließkommazahl4* | [Graf der Substance-Funktion ](../../../../function-graphs/the-function-graph/the-function-graph.md) pro Pixel im Ausgabebild ausgewertet.   Verwenden Sie den Knoten [Get Fließkommazahl2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md), der auf die Variable <b>$pos</b> festgelegt ist, um auf die [normalisierte](../../../../glossary/glossary.md) Position des aktuellen Pixels zuzugreifen. |
+| <b>Pro Pixelfunktion</b> *Fließkommazahl/Fließkommazahl4* | [Graf der Substance-Funktion &#x200B;](../../../../function-graphs/the-function-graph/the-function-graph.md) pro Pixel im Ausgabebild ausgewertet.   Verwenden Sie den Knoten [Get Fließkommazahl2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md), der auf die Variable <b>$pos</b> festgelegt ist, um auf die [normalisierte](../../../../glossary/glossary.md) Position des aktuellen Pixels zuzugreifen. |
 
 ## Eingabe-Verbindungen
 

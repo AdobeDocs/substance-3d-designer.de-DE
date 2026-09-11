@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Im Szenen-Browser der 3D-Ansicht sind alle Elemente der Szene und ihre Hierarchie aufgelistet.
 
-Es bietet Steuerelemente zum Auswählen von Objekten, zum Umschalten ihrer Sichtbarkeit sowie zum Auswählen, welches Material [ ein Szene-Material überschreiben soll](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md).
+Es bietet Steuerelemente zum Auswählen von Objekten, zum Umschalten ihrer Sichtbarkeit sowie zum Auswählen, welches Material [&#x200B; ein Szene-Material überschreiben soll](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md).
 
 Da Designer [USD](https://openusd.org/release/index.html) für die Beschreibung und Verwaltung seiner Szenen verwendet, befinden sich die Terminologie und Konzepte in dieser Szene.
 
@@ -87,7 +87,7 @@ Designer fügt jeder geladenen Szene einige Objekte hinzu. Von Designer hinzugef
 
 Bei Verwendung des Editors ... in den Menüs &quot;Lights&quot;, &quot;Kamera&quot; und &quot;Environment&quot; festgelegt sind, handelt es sich um die Objekte, die bearbeitet werden, unabhängig davon, ob andere Lights, Kameras oder Umgebungen in der Szene vorhanden sind.
 
-Diese Objekte sind in der Szene enthalten, wenn [ ](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) exportiert hat.
+Diese Objekte sind in der Szene enthalten, wenn [&#x200B; &#x200B;](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) exportiert hat.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">

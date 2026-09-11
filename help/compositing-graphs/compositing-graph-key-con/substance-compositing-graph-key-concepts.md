@@ -56,7 +56,7 @@ Im Folgenden finden Sie einige Dinge, die Sie über Eingaben wissen sollten:
 
 Wenn Bilder und Werte von Knoten an andere übergeben werden, werden einige *Attribute* dieser Bilder - d. h. ihre <b>Basisparameter</b> - ebenfalls *im Diagramm weitergegeben*, z. B. Auflösung, Präzision (d. h. Bittiefe), Unterteilung und Zufallswert.
 
-Diese Weitergabe wird durch die [Vererbung-Methoden ](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) definiert, die jeder Knoten für diese Attribute anwendet. Knoten können *Attribute* von anderen Knoten oder dem Diagramm erben, in dem sie vorhanden sind.\
+Diese Weitergabe wird durch die [Vererbung-Methoden &#x200B;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) definiert, die jeder Knoten für diese Attribute anwendet. Knoten können *Attribute* von anderen Knoten oder dem Diagramm erben, in dem sie vorhanden sind.\
 Die Vererbung kann wie folgt erfolgen:
 
 * *Relativ zu übergeordnetem Element*

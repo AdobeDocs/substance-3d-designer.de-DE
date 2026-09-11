@@ -182,7 +182,7 @@ Die QuickInfo von Instanzknoten enthält die Kennung ihres referenzierten Diagra
 
 ### Verfügbare Parameter und Variablen
 
-Der Bezeichner von [verfügbar gemachten Parametern ](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) oder eine andere Variable kann direkt durchsucht werden.
+Der Bezeichner von [verfügbar gemachten Parametern &#x200B;](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) oder eine andere Variable kann direkt durchsucht werden.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">

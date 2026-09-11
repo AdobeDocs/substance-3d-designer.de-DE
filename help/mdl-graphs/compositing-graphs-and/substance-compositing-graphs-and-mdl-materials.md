@@ -52,7 +52,7 @@ Substance-Diagramminstanzen können direkt in MDL-platziert werden, indem sie au
 
 
 
-*[Substance-Graph ](../../compositing-graphs/substance-compositing-graphs.md)-Instanz aus [Substance 3D-Datei ](../../getting-started/overview/overview.md) (SBS) im MDL-Graph*
+*[Substance-Graph &#x200B;](../../compositing-graphs/substance-compositing-graphs.md)-Instanz aus [Substance 3D-Datei &#x200B;](../../getting-started/overview/overview.md) (SBS) im MDL-Graph*
 
 +++
 

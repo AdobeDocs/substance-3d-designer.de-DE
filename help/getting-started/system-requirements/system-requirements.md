@@ -70,7 +70,7 @@ Im Folgenden finden Sie eine Liste der mit der Anwendung kompatiblen GPU:
 >
 > **TDR (nur Windows)**
 > 
-> Für eine optimale Gesamtstabilität bei der Durchführung umfangreicher Berechnungen an der GPU - z. B. beim Rendern komplexer Graf, beim Rendern in der 3D-Ansicht, beim Exportieren einer Szene aus der 3D-Ansicht usw. - wird dringend empfohlen, sicherzustellen, dass die <b>Timeout Detection and Recovery (TDR)</b>-Werte mit den Empfehlungen in [dieser ](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) unserer Dokumentation übereinstimmen.
+> Für eine optimale Gesamtstabilität bei der Durchführung umfangreicher Berechnungen an der GPU - z. B. beim Rendern komplexer Graf, beim Rendern in der 3D-Ansicht, beim Exportieren einer Szene aus der 3D-Ansicht usw. - wird dringend empfohlen, sicherzustellen, dass die <b>Timeout Detection and Recovery (TDR)</b>-Werte mit den Empfehlungen in [dieser &#x200B;](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) unserer Dokumentation übereinstimmen.
 
 ## Nicht unterstützte Konfigurationen
 

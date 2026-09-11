@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Mittlere Filterfarbe: Symbol ](median-filter-color.resources/MedianFilter_Icon_Color.png "Mittlere Filterfarbe: Symbol ")
+![Mittlere Filterfarbe: Symbol &#x200B;](median-filter-color.resources/MedianFilter_Icon_Color.png "Mittlere Filterfarbe: Symbol ")
 
 <b>In:</b> Filters > Blurs
 

@@ -146,7 +146,7 @@ Das [Knotenfinder](../../interface/the-graph-view/node-finder/node-finder.md)-To
 * [Funktionsknoten] Lange Werte werden in Fließkommazahl-Graf überlappend angezeigt.
 * [Fx-Map] Absturz bei der Anzeige von Quadrant-Knoteneigenschaften
 * [Graf] [UDIM] Mit einer Bildlaufleiste in der UDIM-Liste werden 1.1 1.2 Einträge angezeigt.
-* [Graf][Shortcuts] Der mit einem Tastaturbefehl erstellte Knoten wird nach der Knotenduplizierung nicht auf dem bestehenden Link platziert.
+* [Graf]&#x200B;[Shortcuts] Der mit einem Tastaturbefehl erstellte Knoten wird nach der Knotenduplizierung nicht auf dem bestehenden Link platziert.
 * [Eigenschaften] Falsche Parameteranzeige, wenn der Wert ungültig ist
 * [Publish] Gegenseitige Abhängigkeiten führen beim Veröffentlichen eines Pakets zu einer Endlosschleife.
 * [Publish] Unbeaufsichtigter Fehler bei Verwendung der Aktion &quot;Publish&quot; für ein Paket mit entladener Abhängigkeit

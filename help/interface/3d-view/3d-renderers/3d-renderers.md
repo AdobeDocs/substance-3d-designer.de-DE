@@ -290,7 +290,7 @@ Unlit Debug Shader zur Visualisierung von Texturmaps ohne Beleuchtung. Verwendet
 
 +++
 
-Designer bietet außerdem die Möglichkeit, eigene Shader für den OpenGL-Renderer [ mithilfe von GLSLFX-Dateien zu konfigurieren](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md).
+Designer bietet außerdem die Möglichkeit, eigene Shader für den OpenGL-Renderer [&#x200B; mithilfe von GLSLFX-Dateien zu konfigurieren](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md).
 
 >[!IMPORTANT]
 > 

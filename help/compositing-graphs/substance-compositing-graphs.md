@@ -33,7 +33,7 @@ ht-degree: 1%
 
 Die Ergebnisse können in Form eines einfachen Schwarzweißmusters, eines Filters, der nur auf anderen Bildern ausgeführt wird und keinen Inhalt für sich selbst erzeugt, oder sogar eines vollwertigen prozeduralen Materials mit mehreren Kanälen vorliegen.
 
-Substance-Graf sind [ der am weitesten unterstützte Graf](../getting-started/overview/overview.md)-Typ und können exportiert und in einer Vielzahl von verschiedenen Workflows verwendet werden.
+Substance-Graf sind [&#x200B; der am weitesten unterstützte Graf](../getting-started/overview/overview.md)-Typ und können exportiert und in einer Vielzahl von verschiedenen Workflows verwendet werden.
 
 </td>
 </tr>

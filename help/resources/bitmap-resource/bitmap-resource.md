@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Bitmaps
 
-Eine Bitmapressource ist eine Ressource in einem Substance-Paket. Er unterscheidet sich vom [-atomaren Bitmapknoten. Der atomare Bitmap-Knoten &quot;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)&quot; ist eine bestimmte Darstellung dieser Bitmap in [einem Substance-Graf ](../../compositing-graphs/substance-compositing-graphs.md).
+Eine Bitmapressource ist eine Ressource in einem Substance-Paket. Er unterscheidet sich vom [-atomaren Bitmapknoten. Der atomare Bitmap-Knoten &quot;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)&quot; ist eine bestimmte Darstellung dieser Bitmap in [einem Substance-Graf &#x200B;](../../compositing-graphs/substance-compositing-graphs.md).
 
 Bitmaps gehören zu den häufigsten Ressourcen ohne Graf in Substance 3D Designer. Ihre Verwendung fällt in der Regel in eine der folgenden Kategorien:
 
@@ -34,7 +34,7 @@ Bitmaps sind in der Regel die größte Ressource, mit der sich Designer beschäf
 
 ### In Substance 3D-Dateien (SBS)
 
-Wie Bitmaps in SBS gespeichert werden, hängt davon ab, ob Sie sie verknüpfen oder importieren. Stellen Sie sicher, dass Sie mit dem Konzept vertraut sind.](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) [Importierte Bitmaps können mit den [Bitmap-Malwerkzeugen](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md) bearbeitet werden.
+Wie Bitmaps in SBS gespeichert werden, hängt davon ab, ob Sie sie verknüpfen oder importieren. Stellen Sie sicher, dass Sie mit dem Konzept vertraut sind.[&#128279;](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) Importierte Bitmaps können mit den [Bitmap-Malwerkzeugen](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md) bearbeitet werden.
 
 Im Gegensatz zu Ressourcen für das SVG (Vektorgrafiken) werden Bitmaps immer extern gespeichert, selbst wenn sie als neue Ressource erstellt oder importiert werden. Bei neuen Substance-Paketen werden sie im Speicher gespeichert, bis die .SBS-Datei auf der Festplatte gespeichert wird. Nach dem Speichern auf dem Datenträger werden Bitmaps in einem Ordner &quot;*/resources*&quot; neben der SBS gespeichert.
 

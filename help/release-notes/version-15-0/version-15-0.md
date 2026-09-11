@@ -62,9 +62,9 @@ Wenn Sie an Ihren Materialien arbeiten, möchten Sie möglicherweise eine [Vorsc
 Nach dem Import können Sie an Ihrer Szene arbeiten, indem Sie einen Mesh auswählen (mit einem Klick bei gedrückter UMSCHALTTASTE oder dank des Szene-Browsers) und [alle Material überschreiben](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md). Sie können dann:
 
 * Erstellen oder laden Sie einen Graf und wenden Sie ihn auf ein Szene-Material an.
-* Nehmen Sie Anpassungen an einem bestehenden Material vor, indem [die Texturen ](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md) in einen neuen Graf extrahiert werden.
+* Nehmen Sie Anpassungen an einem bestehenden Material vor, indem [die Texturen &#x200B;](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md) in einen neuen Graf extrahiert werden.
 
-Nachdem Sie Ihre 3D-Szene bearbeitet haben, können Sie [die Datei ](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) als neue Datei oder als neue Ebene der Originaldatei exportieren, um Datenverluste (nur bei USD) zu vermeiden.
+Nachdem Sie Ihre 3D-Szene bearbeitet haben, können Sie [die Datei &#x200B;](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) als neue Datei oder als neue Ebene der Originaldatei exportieren, um Datenverluste (nur bei USD) zu vermeiden.
 
 Nicht zuletzt werden jetzt weitere 3D-Formate sowohl für den Import als auch den Export unterstützt: USD (+ usda, usdc, usdz), STL, PLY und GLTF, zusätzlich zu den bereits verfügbaren Formaten FBX und OBJ.
 

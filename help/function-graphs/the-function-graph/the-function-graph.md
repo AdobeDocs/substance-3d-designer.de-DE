@@ -53,7 +53,7 @@ Die verfügbaren Knoten im Funktionsdiagramm von Substance unterscheiden sich vo
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Substance-Funktionsdiagrammknotenliste ](../../assets/image2015-12-18-13-46-55.png "Substance-Funktionsdiagrammknotenliste ")
+![Substance-Funktionsdiagrammknotenliste &#x200B;](../../assets/image2015-12-18-13-46-55.png "Substance-Funktionsdiagrammknotenliste ")
 
 </td>
 </tr>

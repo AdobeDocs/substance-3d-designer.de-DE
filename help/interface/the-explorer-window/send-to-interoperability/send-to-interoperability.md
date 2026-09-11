@@ -44,7 +44,7 @@ Der Arbeitsablauf ist in der Regel wie folgt:
 
 Substance-Graf können viele Funktionen haben. Sie müssen im Voraus festlegen, wie ein Graf genau funktioniert, um sicherzustellen, dass er ordnungsgemäß übertragen werden kann.
 
-Im Abschnitt <b>Attribute </b> der Eigenschaften eines [Substance-Grafen ](../../../compositing-graphs/graph-parameters/graph-parameters.md) gibt es eine <b>Type</b>-Option mit einem Dropdown-Menü, das die folgenden Optionen enthält:
+Im Abschnitt <b>Attribute </b> der Eigenschaften eines [Substance-Grafen &#x200B;](../../../compositing-graphs/graph-parameters/graph-parameters.md) gibt es eine <b>Type</b>-Option mit einem Dropdown-Menü, das die folgenden Optionen enthält:
 
 </td>
 <td style="border: 0;" valign="top">

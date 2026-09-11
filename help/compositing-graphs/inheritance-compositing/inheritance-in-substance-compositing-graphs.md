@@ -47,7 +47,7 @@ Keine Vererbung, der Wert ist *willkürlich und lokal* für den Parameter defini
 </td>
 <td style="border: 0;" valign="top">
 
-![Symbol für die Vererbung &quot;Relativ zur Eingabe&quot; ](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-relative-to-input.png "Symbol für die Vererbung &quot;Relativ zur Eingabe&quot; "){width="128px"}
+![Symbol für die Vererbung &quot;Relativ zur Eingabe&quot; &#x200B;](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-relative-to-input.png "Symbol für die Vererbung &quot;Relativ zur Eingabe&quot; "){width="128px"}
 
 <b>Relativ zur Eingabe </b>
 
@@ -146,7 +146,7 @@ Wenn ein Graf über mehrere Eingänge verfügt, kann jede Eingabe je nach Vererb
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Symbol für die Vererbung &quot;Relativ zur Eingabe&quot; ](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-relative-to-input.png "Symbol für die Vererbung &quot;Relativ zur Eingabe&quot; "){width="128px"}
+![Symbol für die Vererbung &quot;Relativ zur Eingabe&quot; &#x200B;](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-relative-to-input.png "Symbol für die Vererbung &quot;Relativ zur Eingabe&quot; "){width="128px"}
 
 <b>Relativ zur Eingabe </b>
 

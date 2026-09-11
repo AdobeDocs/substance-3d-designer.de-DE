@@ -20,7 +20,7 @@ ht-degree: 3%
 
 # Integrierte Variablen
 
-Sie können integrierte Variablen in [Substance-Funktionsvariablen ](../../../function-graphs/function-graphs.md) verwenden, um auf bestimmte Graf zuzugreifen. Sie beginnen immer mit einem `$`-Symbol (Dollar).
+Sie können integrierte Variablen in [Substance-Funktionsvariablen &#x200B;](../../../function-graphs/function-graphs.md) verwenden, um auf bestimmte Graf zuzugreifen. Sie beginnen immer mit einem `$`-Symbol (Dollar).
 
 Einige Variablen sind nur in bestimmten Kontexten verfügbar.
 
@@ -30,8 +30,8 @@ Systemvariablen
 
 | Name | Typ | Zweck |
 | --- | --- | --- |
-| $size | Float2 | Gibt die Größe des aktuellen Knotens in Pixel zurück.   Wenn der Parameter &quot;[Ausgabegröße](../../../compositing-graphs/output-size/output-size.md)&quot; auf &quot;*Relativ zu&quot; festgelegt ist...* [Vererbung-Methode ](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) gibt den *geerbten Wert* zurück. |
-| $sizelog2 | Float2 | Wie oben, gibt aber die Größe als Power-of-2-Werte zurück (z. B.: Für Bild 2048\*2048 gibt `$sizelog2` 11) zurück.   Wenn der Parameter &quot;[Ausgabegröße](../../../compositing-graphs/output-size/output-size.md)&quot; auf &quot;*Relativ zu&quot; festgelegt ist...* [Vererbung-Methode ](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) gibt den *geerbten Wert* zurück. |
+| $size | Float2 | Gibt die Größe des aktuellen Knotens in Pixel zurück.   Wenn der Parameter &quot;[Ausgabegröße](../../../compositing-graphs/output-size/output-size.md)&quot; auf &quot;*Relativ zu&quot; festgelegt ist...* [Vererbung-Methode &#x200B;](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) gibt den *geerbten Wert* zurück. |
+| $sizelog2 | Float2 | Wie oben, gibt aber die Größe als Power-of-2-Werte zurück (z. B.: Für Bild 2048\*2048 gibt `$sizelog2` 11) zurück.   Wenn der Parameter &quot;[Ausgabegröße](../../../compositing-graphs/output-size/output-size.md)&quot; auf &quot;*Relativ zu&quot; festgelegt ist...* [Vererbung-Methode &#x200B;](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) gibt den *geerbten Wert* zurück. |
 | $pixelratio | Ganzzahl | Gibt einen Wert für die Ganzzahl zurück, der dem aktuellen Pixelverhältnis des Knotens entspricht (geerbt oder absolut):   0: Dehn 1: Quadrat |
 | $Kachelung | Ganzzahl | Gibt einen Wert für die Ganzzahl zurück, der dem aktuellen Knoten-Kachelung-Modus (geerbt oder absolut) entspricht:   0: Keine Kachelung 1: Horizontale Kachelung 2 Kachelung 3: H- und V-Kachelung |
 | $physicalsize | Float3 | Gibt den Eigenschaftswert [Graf](../../../compositing-graphs/graph-parameters/graph-parameters.md) <b>Physische Größe</b> zurück. |
