@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Schmutz Spots Dirty
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungespotsdirty.jpg){width="200px"}
+![](grunge-spots-dirty.resources/grungespotsdirty.jpg){width="200px"}
 
 <b>In:</b> Textur Generators > Rauschen
 
@@ -45,23 +45,23 @@ Der **Schmutz Spots Dirty**-Knoten generiert eine Schmutz-Map, die mit Spots des
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Gleitend</i> | Passt die Balance zwischen dunklen und hellen Werten an. |
-| <b>Kontrast</b> <i>Gleitend</i> | Passt den Kontrast des Bildes an. |
-| <b>Umkehren</b> <i>Boolescher Wert</i> | Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird. |
-| <b>Quadratische Ausbreitung</b> <i>Boolescher Wert</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+| <b>Saldo</b> <i>Fließkommazahl</i> | Passt die Balance zwischen dunklen und hellen Werten an. |
+| <b>Kontrast</b> <i>Fließkommazahl</i> | Passt den Kontrast des Bildes an. |
+| <b>Umkehren</b> <i>Boolesche Wert</i> | Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird. |
+| <b>Quadratische Ausbreitung</b> <i>Boolesche Wert</i> | Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
 | <b>Erweitert</b> |  |
-| <b>Deckung</b> <i>Gleitend</i> | Passt die Abdeckung des Dirts an. |
-| <b>Skalierung</b> <i>Integer</i> | Passt die Skalierung der Flecken des Dirts an. Ein *höherer* Wert führt zu *feineren* Punkten. |
+| <b>Deckung</b> <i>Fließkommazahl</i> | Passt die Abdeckung des Dirts an. |
+| <b>Skalierung</b> <i>Ganzzahl</i> | Passt die Skalierung der Flecken des Dirts an. Ein *höherer* Wert führt zu *feineren* Punkten. |
 
 ## Beispiele
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungespotsdirty-variant2.jpg" />
+            <img src="grunge-spots-dirty.resources/grungespotsdirty-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungespotsdirty-variant.jpg" />
+            <img src="grunge-spots-dirty.resources/grungespotsdirty-variant.jpg" />
         </td>
     </tr>
 </table>

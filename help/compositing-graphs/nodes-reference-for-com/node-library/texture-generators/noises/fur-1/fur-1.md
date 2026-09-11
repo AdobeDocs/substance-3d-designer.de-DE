@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fur 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fur-1.png){width="128px"}
+![](fur-1.resources/fur-1.png){width="128px"}
 
 <b>In:</b> Textur Generators > Rauschen
 
@@ -46,15 +46,15 @@ Dadurch wird eine Rauschen mit geradem Fell erzeugt.
 |  |  |
 |:---|:---|
 | <b>Skalierung</b> <i>1 - 8</i> | Legt die globale Skalierung für den Effekt fest. |
-| <b>Störung</b> <i>0.0 - 1.0</i> | Phasenverschiebt das Rauschen, um kleine Schwankungen einzuführen. |
-| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+| <b>Störung</b> <i>0.0 - 1.0</i> | Verschiebt den Rauschen phasenverschoben, um eine kleine Variation einzuführen. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
 
 ## Beispiele
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/fur-1-ex.gif" />
+            <img src="fur-1.resources/fur-1-ex.gif" />
         </td>
     </tr>
 </table>
