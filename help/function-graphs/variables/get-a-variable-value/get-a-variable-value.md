@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/variables/get-a-variable-value.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/get-a-variable-value.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Variablenwerte in Substance 3D Designer-Funktionsdiagrammen mithilfe des Knotens "Variable abrufen" abrufen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Abrufen eines Variablenwerts
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -24,11 +24,11 @@ Um eine Variable in einer Funktion zu verwenden, müssen Sie sie &quot;aufrufen&
 
 Dazu müssen Sie einen *Get*-Knoten verwenden:
 
-![](../../../assets/image2015-12-21-7-29-51.png)
+![](get-a-variable-value.resources/image2015-12-21-7-29-51.png)
 
 Es gibt verschiedene Arten von Get-Knoten: Wählen Sie das richtige für den Werttyp, den Sie importieren möchten:
 
-![](../../../assets/image2015-12-21-7-31-4.png)
+![](get-a-variable-value.resources/image2015-12-21-7-31-4.png)
 
 ## Zuweisen einer Variablen zu einem Get-Knoten
 
@@ -38,7 +38,7 @@ Um eine Variable zu verknüpfen, gehen Sie zu den Parametern und wählen Sie ein
 
 Der Variablenname wird im Knoten angezeigt:
 
-![](../../../assets/assign-getfloat.gif)
+![](get-a-variable-value.resources/assign-getfloat.gif)
 
 Beachten Sie, dass nur die Variablen in der Liste angezeigt werden, die vom gleichen Typ des Get-Knotens stammen.
 
