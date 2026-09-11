@@ -57,7 +57,7 @@ Im MDL-Diagramm wird ein Graf auf Knotenebene gelegt, sodass er als MDL-Material
 
 Für Knoten, die gelegt werden können, steht im Kontextmenü die Option <b>Leg</b> zur Verfügung. In den meisten Fällen handelt es sich dabei um Knoten, die einen Wert oder Daten generieren, wie z. B. eine Fließkommazahl-, Farb- oder Textur-Koordinate.
 
-![ Option &quot;Leg&quot; im Kontextmenü eines Knotens ](exposing-parameters-in-mdl-graphs.resources/mdl-expose-float-menu-hl.png "&amp;quot;Leg&amp;quot; Option im Kontextmenü eines Knotens ")
+![&#x200B; Option &quot;Leg&quot; im Kontextmenü eines Knotens &#x200B;](exposing-parameters-in-mdl-graphs.resources/mdl-expose-float-menu-hl.png "&quot;Leg&quot; Option im Kontextmenü eines Knotens ")
 
 *-Option &quot;Leg&quot; im Kontextmenü eines Knotens*
 
