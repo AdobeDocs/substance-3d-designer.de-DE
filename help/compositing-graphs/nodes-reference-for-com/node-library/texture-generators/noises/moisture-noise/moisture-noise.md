@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/moisture-noise.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/moisture-noise.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Node "Feuchtigkeit-Rauschen", um Feuchtigkeits- und Kondensationsmuster zu erzeugen, um Effekte auf der nassen Oberfläche zu erzeugen.
 helpx_creative_field: ""
