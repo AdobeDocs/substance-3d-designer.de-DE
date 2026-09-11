@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/2d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view.html"
 breadcrumb-title: ''
-description: Verwenden Sie die 2D-Ansichten in Substance 3D Designer, um Textur-Ausgaben Ihrer Material-Graf in der Vorschau anzuzeigen und zu überprüfen.
+description: Verwenden Sie die 2D-Ansicht in Substance 3D Designer, um Texturausgaben aus Ihren Materialdiagrammen in der Vorschau anzuzeigen und zu überprüfen.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 2D view
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 2D-Ansicht
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 5191cabf7958a17076d2ce129eb46265f1345336
 workflow-type: tm+mt
 source-wordcount: '2354'
 ht-degree: 0%
@@ -20,41 +20,41 @@ ht-degree: 0%
 
 # 2D-Ansicht
 
-Auf dieser Seite werden die Benutzeroberfläche und Funktionen des Bereichs &quot;**2D-Ansicht**&quot; in Substance 3D Designer beschrieben.
+Auf dieser Seite werden die Benutzeroberfläche und Funktionen des Bedienfelds &quot;**2D View**&quot; in Substance 3D Designer beschrieben.
 
-![2D-Ansicht](../../assets/2d-view-main.png "2D-Ansicht")
+![2D-Ansicht](2d-view.resources/2d-view-main.png "2D-Ansicht")
 
 ## Überblick
 
 Die [2D-Ansicht](https://substance3d.adobe.com/) ist eines der Hauptfenster der Benutzeroberfläche von Designer. Seine Hauptziele sind folgende:
 
-* *Wert* oder *Bild* wird von einem angegebenen *Knoten* ausgegeben, oder eine angegebene *Knoten-Verbindung wird durchlaufen*
+* *Wert* oder *Bild* wird von einem angegebenen *Knoten* ausgegeben, oder der angegebene *Knotenkonnektor* wird durchlaufen.
 * Anzeigen von [Bitmaps](../../resources/bitmap-resource/bitmap-resource.md) und [Vektorgrafiken](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) [Ressourcen](../../resources/resources.md)
 * Anzeigen von *zusätzlichen Informationen* über den Inhalt, den es derzeit enthält, wie Farbkanäle oder exakte Farbwerte
 * Parameter &quot;*gizmos*&quot; werden gesteuert.
 
-Wenn ein angezeigtes Bild oder ein Wert geändert wird, wird die 2D-Ansicht *automatisch aktualisiert*, um mit dem aktuellen Status der Daten synchron zu bleiben.\
-*Es können jederzeit mehrere* 2D-Ansichten-Bedienfelder aktiviert sein, von denen jedes unterschiedliche Bilder oder Werte anzeigen kann. Mit der Funktion ![](../../assets/2d-view-icon-pin.png) <b>Nadel</b> des Bedienfelds der Benutzeroberfläche können Sie steuern, wann ein neuer Bereich verwendet werden soll.
+Wenn ein angezeigtes Bild oder ein angezeigter Wert geändert wird, wird die 2D-Ansicht *automatisch aktualisiert*, um mit dem aktuellen Status der Daten synchron zu bleiben.\
+*Mehrere* 2D-Ansichtsfenster können jederzeit aktiv sein und jeweils unterschiedliche Bilder oder Werte anzeigen. Mit der Funktion <b>Pin</b> von ![](2d-view.resources/2d-view-icon-pin.png) im Bedienfeld der Benutzeroberfläche können Sie steuern, wann ein neuer Bereich verwendet werden soll.
 
 ### Anzeigen von Inhalten in der 2D-Ansicht
 
 >[!WARNING]
 >
-> Alle Erwähnungen von Aktionen in *Nodes* in diesem Abschnitt gelten nur für [Substance-Graf](../../compositing-graphs/substance-compositing-graphs.md).
+> Alle Erwähnungen von Aktionen in *Knoten* in diesem Abschnitt gelten nur für [Substance-Diagramme](../../compositing-graphs/substance-compositing-graphs.md).
 
-Die einfachste Möglichkeit, Bilder in der 2D-Ansicht anzuzeigen, besteht darin, auf *LMB* zu doppelklicken...
+Die einfachste Möglichkeit, ein Bild in der 2D-Ansicht anzuzeigen, besteht darin, auf *LMB* zu doppelklicken...
 
-* ...auf einer [Bitmap](../../resources/bitmap-resource/bitmap-resource.md)- oder [Vektorgrafiken](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)-Ressource im [Explorer](../../interface/the-explorer-window/the-explorer-window.md)
-* ...auf einer Knoten- oder Knotenknoten-Verbindung in der [Graphansicht](../../interface/the-graph-view/the-graph-view.md)
+* ...auf einer [Bitmap](../../resources/bitmap-resource/bitmap-resource.md)- oder [Vektorgrafik](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)-Ressource in [Explorer](../../interface/the-explorer-window/the-explorer-window.md)
+* ...auf einem Knoten oder Knotenkonnektor in der [Diagrammansicht](../../interface/the-graph-view/the-graph-view.md)
 
-Bilder können auch *gezogen und* direkt in den Viewport abgelegt werden, indem *LMB* auf einer [Ressource](../../resources/resources.md) im Bereich [Explorer](../../interface/the-explorer-window/the-explorer-window.md) oder *RMB* auf einem Knoten in der Graphansicht gehalten wird.
+Bilder können auch *gezogen und* direkt in den Viewport abgelegt werden, indem *LMB* auf einer [Ressource](../../resources/resources.md) im Bereich [Explorer](../../interface/the-explorer-window/the-explorer-window.md) oder *RMB* auf einem Knoten in der Diagrammansicht gehalten wird.
 
-In der Graphansicht können Sie mithilfe der Kontextmenüoption &quot;<b>Ausgabe in 2D-Ansicht anzeigen</b>&quot; ein Bild an die 2D-Ansicht senden, auf die Sie durch Klicken auf &quot;*RMB*&quot; zugreifen können...
+In der Diagrammansicht können Sie ein Bild an die 2D-Ansicht senden, indem Sie die Kontextmenüoption <b>Ausgabe in 2D-Ansicht</b> verwenden, auf die Sie durch Klicken auf *RMB*... zugreifen können.
 
 * ...auf einem *Knoten*, um *die Ausgabe dieses Knotens anzuzeigen*. Wenn der Knoten mehr als eine Ausgabe hat, wählen Sie die gewünschte Ausgabe im Untermenü
-* ...auf *Leerraum* in der Graphansicht, um *die Ausgabe dieses Grafen anzuzeigen*. Wenn der Graf mehr als eine Ausgabe hat, wählen Sie die gewünschte Ausgabe im Untermenü
+* ...auf *leerem Platz* in der Diagrammansicht, um die Ausgabe *dieses Diagramms anzuzeigen.* Wenn der Graph mehr als eine Ausgabe hat, wählen Sie die gewünschte Ausgabe im Untermenü
 
-Beim Laden eines Grafen wird seine *erste Ausgabe* standardmäßig automatisch in der 2D-Ansicht angezeigt. Sie können dieses Verhalten in den [Voreinstellungen](../../interface/preferences-window/preferences-window.md) deaktivieren. Gehen Sie zu <b>Bearbeiten > Voreinstellungen > Graph > Substance Compositing Graph</b> und *deaktivieren* Sie die <b>Ausgabe in 2D-Ansicht anzeigen, wenn Sie eine Option Graph</b> öffnen.
+Beim Laden eines Diagramms wird seine *erste Ausgabe* standardmäßig automatisch in der 2D-Ansicht angezeigt. Sie können dieses Verhalten in den [Voreinstellungen](../../interface/preferences-window/preferences-window.md) deaktivieren. Gehen Sie zu <b>Bearbeiten > Voreinstellungen > Graph > Substance Compositing Graph</b> und *deaktivieren* Sie die <b>Ausgabe in 2D-Ansicht anzeigen, wenn Sie eine Option Graph</b> öffnen.
 
 ## Viewport
 
@@ -66,14 +66,14 @@ Der Viewport ist der *Anzeigebereich* der <b>2D-Ansicht</b> und ermöglicht es I
 
 * <b>Bewegen:</b> Strg+RMB / MMB
 * <b>Zoom:</b> Alt+RMB / MouseWheel / Tool &quot;Skalierung anzeigen&quot;:\
-  ![](../../assets/2d-view-icon-zoom.png)
-* <b>Anpassen an Ansichtsport:</b> F / Schaltfläche &quot;An Ansicht anpassen&quot; ![](../../assets/2d-view-icon-fit-to-view.png)
-* <b>Anpassen an die 1:1-Skalierung:</b> Z / Schaltfläche &quot;An Skalierung anpassen&quot; ![](../../assets/2d-view-icon-fit-to-scale.png)
+  ![](2d-view.resources/2d-view-icon-zoom.png)
+* <b>Anpassen an Ansichtsport:</b> F / Schaltfläche &quot;An Ansicht anpassen&quot; ![](2d-view.resources/2d-view-icon-fit-to-view.png)
+* <b>Anpassen an die 1:1-Skalierung:</b> Z / Schaltfläche &quot;An Skalierung anpassen&quot; ![](2d-view.resources/2d-view-icon-fit-to-scale.png)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![2D-Ansichtsport-Navigation anzeigen](../../assets/2d-view-viewport-navigation.gif "2D-Ansichtsport-Navigation anzeigen")
+![2D-Ansichtsport-Navigation anzeigen](2d-view.resources/2d-view-viewport-navigation.gif "2D-Ansichtsport-Navigation anzeigen")
 
 </td>
 </tr>
@@ -107,45 +107,45 @@ Die systemeigenen *Auflösungen*, *Farbformate* und *Bittiefen* werden im untere
 
 Zusätzlich zur Navigation bietet der Viewport folgende Funktionen:
 
-* Gekachelte Anzeige: *wiederholt das Bild* im Viewport in einem gekachelten Muster. So kannst du überprüfen, wie sich ein Muster oder eine Struktur wiederholt. Sie wird über die **Leertaste** oder ![](../../assets/2d-view-icon-tiling.png) **Kachelanzeige** aktiviert.
-* Anzeige der Physische Größe: Zeigt das Bild mit einem *Verhältnis* an, das der [Physische Größe](../../compositing-graphs/graph-parameters/graph-parameters.md)-Eigenschaft des Diagramms entspricht. Es wird mit der Schaltfläche ![](../../assets/2d-view-icon-physical-size.png) **Physische Größe** aktiviert.
-* Ansichtsgröße beibehalten: Diese Option *sperrt die Anzeigeskala*, sodass sie in verschiedenen Bildern konsistent bleibt. Sie ist standardmäßig *aktiviert* und kann mit der Schaltfläche ![](../../assets/2d-view-icon-lock-scale.png) **Ansichtsgröße beibehalten** deaktiviert werden.
+* Gekachelte Anzeige: *wiederholt das Bild* im Viewport in einem gekachelten Muster. So kannst du überprüfen, wie sich ein Muster oder eine Struktur wiederholt. Sie wird über die **Leertaste** oder ![](2d-view.resources/2d-view-icon-tiling.png) **Kachelanzeige** aktiviert.
+* Anzeige der Physische Größe: Zeigt das Bild mit einem *Verhältnis* an, das der [Physische Größe](../../compositing-graphs/graph-parameters/graph-parameters.md)-Eigenschaft des Diagramms entspricht. Es wird mit der Schaltfläche ![](2d-view.resources/2d-view-icon-physical-size.png) **Physische Größe** aktiviert.
+* Ansichtsgröße beibehalten: Diese Option *sperrt die Anzeigeskala*, sodass sie in verschiedenen Bildern konsistent bleibt. Sie ist standardmäßig *aktiviert* und kann mit der Schaltfläche ![](2d-view.resources/2d-view-icon-lock-scale.png) **Ansichtsgröße beibehalten** deaktiviert werden.
 
 ## Haupt-Werkzeugleiste
 
-Mit der Hauptsymbolleiste des <b>2D-Ansicht</b>-Bedienfelds können Sie mehr mit den angezeigten Bildern machen und bieten die folgenden Funktionen:
+Mit der Hauptsymbolleiste des Bedienfelds <b>2D-Ansicht</b> können Sie mehr mit den angezeigten Bildern machen und bietet die folgenden Funktionen:
 
 +++Hintergrundbild
-![Hintergrundbild 2D-Ansicht](../../assets/2d-view-background.png "Hintergrundbild 2D-Ansicht"){width="360px"}
+![2D Hintergrundbild anzeigen](2d-view.resources/2d-view-background.png "2D Hintergrundbild anzeigen"){width="360px"}
 
 
 
-Sie können *ein anderes Bild* über das aktuell angezeigte Bild legen. Drücken Sie die Schaltfläche ![](../../assets/2d-view-icon-background.png) <b>Hintergrundbild</b>, und Sie werden aufgefordert, eine Bilddatei auszuwählen, die als Überlagerung verwendet werden soll.
+Sie können *ein anderes Bild* über das aktuell angezeigte Bild legen. Drücken Sie die Schaltfläche ![](2d-view.resources/2d-view-icon-background.png) <b>Hintergrundbild</b>, und Sie werden aufgefordert, eine Bilddatei auszuwählen, die als Überlagerung verwendet werden soll.
 
 Sobald die Datei ausgewählt ist, wird eine neue Symbolleiste mit den folgenden Steuerelementen für die Bildüberlagerung angezeigt:
 
-<b>![](../../assets/2d-view-icon-background-close.png) Schließen:</b> *Schließen* Sie die Symbolleiste für Überlagerungssteuerelemente, und *deaktivieren* Sie die Überlagerung des Hintergrundbilds.
+<b>![](2d-view.resources/2d-view-icon-background-close.png) Schließen:</b> *Schließen* Sie die Symbolleiste für Überlagerungssteuerelemente, und *deaktivieren* Sie die Überlagerung des Hintergrundbilds.
 
-<b>![](../../assets/2d-view-icon-background-loadpng.png) Bild laden:</b> Wählen Sie *eine andere Bilddatei* aus, die als Überlagerung verwendet werden soll.
+<b>![](2d-view.resources/2d-view-icon-background-loadpng.png) Bild laden:</b> Wählen Sie *eine andere Bilddatei* aus, die als Überlagerung verwendet werden soll.
 
-<b>![](../../assets/2d-view-icon-background-0.png) Quellbild:</b> legt das Überlagerungsbild auf *0%* Deckkraft fest.
+<b>![](2d-view.resources/2d-view-icon-background-0.png) Quellbild:</b> legt das Überlagerungsbild auf *0%* Deckkraft fest.
 
-<b>![](../../assets/2d-view-icon-background-100.png) Hintergrundbild:</b> legt das Überlagerungsbild auf *100%* Deckkraft fest.
+<b>![](2d-view.resources/2d-view-icon-background-100.png) Hintergrundbild:</b> legt das Überlagerungsbild auf *100%* Deckkraft fest.
 
-<b>![](../../assets/2d-view-icon-background-50.png) Zurücksetzen:</b> setzt das Überlagerungsbild auf *50%* Deckkraft.
+<b>![](2d-view.resources/2d-view-icon-background-50.png) Zurücksetzen:</b> setzt das Überlagerungsbild auf *50%* Deckkraft.
 
 Ein Regler gibt Ihnen *manuelle Kontrolle* über die Deckkraft des Überlagerungsbildes.
 
 +++
 
 +++Bild exportieren
-![2D-Ansicht-Exportbild](../../assets/2d-view-export-bitmap.png "2D-Ansicht-Exportbild"){width="360px"}
+![2D-Exportbild anzeigen](2d-view.resources/2d-view-export-bitmap.png "2D-Exportbild anzeigen"){width="360px"}
 
 
 
-Das derzeit angezeigte Bild kann *in eine Bilddatei* exportiert werden. Drücken Sie ![](../../assets/2d-view-icon-export.png) <b>Bild speichern...</b>-Schaltfläche. Sie werden aufgefordert, ein *Verzeichnis*, *Name* und *Dateiformat* für die exportierte Datei auszuwählen.
+Das derzeit angezeigte Bild kann *in eine Bilddatei* exportiert werden. Drücken Sie ![](2d-view.resources/2d-view-icon-export.png) <b>Bild speichern...</b>-Schaltfläche. Sie werden aufgefordert, ein *Verzeichnis*, *Name* und *Dateiformat* für die exportierte Datei auszuwählen.
 
-Während das Bild als *native Auflösung* exportiert wird, die im unteren linken Bereich des Viewports angezeigt wird, hängen die *Bittiefe* und das *Farbformat* vom ausgewählten Bildformat ** ab. 32-Bit-Gleitkomma-Präzisionsbilder können beispielsweise nur in ihrem gesamten Datenbereich mit Bildformaten exportiert werden, die diese Präzision unterstützen, wie TIFF, EXR und HDR. Wenn das Bildformat die Daten nicht unterstützt, werden im exportierten Bild wahrscheinlich Klemmen und/oder Farbbänder auftreten.\
+Während das Bild als *native Auflösung* exportiert wird, die im unteren linken Bereich des Ansichtsfensters angezeigt wird, hängen die *Bittiefe* und das *Farbformat* vom ausgewählten Bildformat ** ab. So können 32-Bit-Gleitkomma-Präzisionsbilder nur in ihrem gesamten Datenbereich mit Bildformaten exportiert werden, die diese Präzision unterstützen, wie TIFF, EXR und HDR. Wenn das Bildformat die Daten nicht unterstützt, werden im exportierten Bild wahrscheinlich Klemmen und/oder Farbbänder auftreten.\
 Achten Sie im Allgemeinen darauf, welche Präzision und Funktionen die Bildformate bieten, die Sie verwenden möchten - Gleitkommaunterstützung, ICC-Profile usw.
 
 Wenn entweder <b>OCIO</b> oder <b>Adobe ACE</b> Der [Farbmanagementmodus](../../color-management/color-management.md) wird derzeit verwendet, und es ist eine zusätzliche Option verfügbar, um den *Farbraum* des exportierten Bildes auszuwählen.
@@ -153,37 +153,37 @@ Wenn entweder <b>OCIO</b> oder <b>Adobe ACE</b> Der [Farbmanagementmodus](../../
 +++
 
 +++In Zwischenablage kopieren
-![2D-Ansicht in Zwischenablage kopieren](../../assets/2d-view-copy-clipboard.gif "2D-Ansicht in Zwischenablage kopieren"){width="360px"}
+![2D-Ansicht in Zwischenablage kopieren](2d-view.resources/2d-view-copy-clipboard.gif "2D-Ansicht in Zwischenablage kopieren"){width="360px"}
 
 
 
-Das derzeit angezeigte Bild kann *in die Zwischenablage kopiert werden*. Drücken Sie die Schaltfläche ![](../../assets/2d-view-icon-copy.png) <b>Bild in Zwischenablage kopieren</b>, und das Bild kann in die Software eines Drittanbieters, z. B. Adobe Photoshop, eingefügt werden.
+Das derzeit angezeigte Bild kann *in die Zwischenablage kopiert werden*. Drücken Sie die Schaltfläche ![](2d-view.resources/2d-view-icon-copy.png) <b>Bild in Zwischenablage kopieren</b>, und das Bild kann in die Software eines Drittanbieters, z. B. Adobe Photoshop, eingefügt werden.
 
 Das Bild wird als *8-Bit*-Präzisionsbild mit der *nativen Auflösung* kopiert, die im unteren linken Bereich des Ansichtsports angezeigt wird.
 
 +++
 
 +++Diagrammausgaben wechseln
-![Schaltdiagrammausgaben der 2D-Ansicht](../../assets/2d-view-switch-graph-outputs.gif "Schaltdiagrammausgaben der 2D-Ansicht"){width="360px"}
+![Schaltdiagrammausgaben der 2D-Ansicht](2d-view.resources/2d-view-switch-graph-outputs.gif "Schaltdiagrammausgaben der 2D-Ansicht"){width="360px"}
 
 
 
-Wenn das aktuell angezeigte Bild eine *Diagrammausgabe* ist, können Sie mit der Schaltfläche ![](../../assets/2d-view-icon-view-outputs.png) <b>Ausgabe auswählen</b> schnell zu einer beliebigen *anderen Diagrammausgabe wechseln.*
+Wenn das aktuell angezeigte Bild eine *Diagrammausgabe* ist, können Sie mit der Schaltfläche ![](2d-view.resources/2d-view-icon-view-outputs.png) <b>Ausgabe auswählen</b> schnell zu einer beliebigen *anderen Diagrammausgabe wechseln.*
 
 Dieses Feature ist *nicht* für andere Knoten verfügbar, einschließlich Knoten mit mehr als einer Ausgabe.
 
 +++
 
 +++UV-Overlay
-![UV-Überlagerung in 2D-Ansicht](../../assets/2d-view-uv.png "UV-Überlagerung in 2D-Ansicht"){width="357px"}
+![UV-Überlagerung in 2D-Ansicht](2d-view.resources/2d-view-uv.png "UV-Überlagerung in 2D-Ansicht"){width="357px"}
 
 
 
-Wenn die Option &quot;<b>UVs in 2D-Ansicht anzeigen</b>&quot; im Menü &quot;<b>Szene anzeigen</b>&quot; des [3D-Ansicht &#x200B;](../../interface/3d-view/3d-view.md)-Docks aktiviert ist, ist die UV-Überlagerungsfunktion in der 2D-Ansicht verfügbar.
+Wenn die Option &quot;<b>UVs in 2D-Ansicht anzeigen</b>&quot; im Menü &quot;<b>Szene anzeigen</b>&quot; des [3D-Ansicht ](../../interface/3d-view/3d-view.md)-Docks aktiviert ist, ist die UV-Überlagerungsfunktion in der 2D-Ansicht verfügbar.
 
-Sie können sie mit der Schaltfläche <b>UV</b> aktivieren. 2![](../../assets/2d-view-icon-uv.png)
+Sie können sie mit der Schaltfläche <b>UV</b> aktivieren. 2![](2d-view.resources/2d-view-icon-uv.png)
 
-Dadurch werden die UVs des Meshs [, der derzeit in der 3D-Ansicht &#x200B;](../../interface/3d-view/3d-view.md) ausgewählt ist, als farbiges Drahtgitter angezeigt.
+Dadurch werden die UVs des Meshs [, der derzeit in der 3D-Ansicht ](../../interface/3d-view/3d-view.md) ausgewählt ist, als farbiges Drahtgitter angezeigt.
 
 Wenn in der Gitterdatei Informationen zur Materialfarbe verfügbar sind, wird die Materialfarbe als Farbe der UV-Überlagerung verwendet.
 
@@ -192,11 +192,11 @@ Wenn das Gitter über <b>mehrere UV-Sätze</b> verfügt, können die gewünschte
 +++
 
 +++Bildinformationen
-![2D Bildinformationen anzeigen](../../assets/2d-view-information.png "2D Bildinformationen anzeigen"){width="360px"}
+![2D Bildinformationen anzeigen](2d-view.resources/2d-view-information.png "2D Bildinformationen anzeigen"){width="360px"}
 
 
 
-Sie können die *genauen Pixelwerte* *und die Koordinaten* in einem Bild mit dem Bedienfeld <b>Informationen</b> anzeigen, das über die Schaltfläche ![](../../assets/2d-view-icon-information.png) <b>Bildinformationen</b> aktiviert wird. Das ist sehr hilfreich, wenn du zum Beispiel HDR-Bilder inspizierst oder sicherstellst, dass das Wechseln zwischen Pixeln dem gewünschten Fortschritt folgt.
+Sie können die *genauen Pixelwerte* *und die Koordinaten* in einem Bild mit dem Bedienfeld <b>Informationen</b> anzeigen, das über die Schaltfläche ![](2d-view.resources/2d-view-icon-information.png) <b>Bildinformationen</b> aktiviert wird. Das ist sehr hilfreich, wenn du zum Beispiel HDR-Bilder inspizierst oder sicherstellst, dass das Wechseln zwischen Pixeln dem gewünschten Fortschritt folgt.
 
 Die Farben werden durch <b>RGBA</b> und <b>HSV</b> Werte dargestellt und in Abhängigkeit von der *Genauigkeit* des Bildes wie folgt angezeigt:
 
@@ -213,11 +213,11 @@ Pixelkoordinaten werden durch <b>X</b>- und <b>Y</b>-Werte dargestellt.
 +++
 
 +++Histogramm
-![2D-Ansichtshistogramm](../../assets/2d-view-histogram.png "2D-Ansichtshistogramm"){width="360px"}
+![2D-Ansichtshistogramm](2d-view.resources/2d-view-histogram.png "2D-Ansichtshistogramm"){width="360px"}
 
 
 
-Sie können das *Histogramm* des Bildes mit dem <b>Histogramm</b>-Bedienfeld anzeigen, das mit der Schaltfläche ![](../../assets/2d-view-icon-histogram.png) <b>Histogramm anzeigen</b> aktiviert ist.
+Sie können das *Histogramm* des Bildes mit dem <b>Histogramm</b>-Bedienfeld anzeigen, das mit der Schaltfläche ![](2d-view.resources/2d-view-icon-histogram.png) <b>Histogramm anzeigen</b> aktiviert ist.
 
 Die folgenden *Histogrammmodi* sind verfügbar:
 
@@ -265,19 +265,19 @@ Einige Teile des Histogramms können sehr niedrige Pixelzählwerte aufweisen und
 
 ## Symbolleiste anzeigen
 
-Mit der **Anzeige**-Symbolleiste, die sich standardmäßig am *unteren* des **2D-Ansicht**-Bereichs befindet, können Sie steuern, wie das Bild im Viewport angezeigt wird.
+Mit der Symbolleiste **Anzeige**, die sich standardmäßig am *unteren* des Bereichs **2D-Ansicht** befindet, können Sie steuern, wie das Bild im Ansichtsfenster angezeigt wird.
 
-Der Abschnitt *am weitesten links* enthält Steuerelemente für *Farbe* und *Transparenz*, während der Abschnitt *am weitesten rechts* die *Viewport*-Steuerelemente enthält, die im Abschnitt &quot;Viewport&quot; dieser Seite beschrieben sind.
+Der Abschnitt *am weitesten links* enthält Steuerelemente für *Farbe* und *Transparenz*, während der Abschnitt *am weitesten rechts* die *Ansichtsport*-Steuerelemente enthält, die im Ansichtsport-Abschnitt dieser Seite detailliert beschrieben sind.
 
 >[!NOTE]
 >
-> Die Symbolleiste kann *um den Bereich **2D-Ansicht**&#x200B;mit dem am weitesten links befindlichen* Handle *, dargestellt durch drei parallele Zeilen, neu positioniert* werden.
+> Die Symbolleiste kann *neu positioniert* werden, und zwar um das Bedienfeld **2D-Ansicht**, wobei das linke *Handle* verwendet wird, das durch drei parallele Linien dargestellt wird.
 
-![Farbkanäle für 2D-Ansicht](../../assets/2d-view-color-channel.png "Farbkanäle für 2D-Ansicht"){width="360px"}
+![2D-Farbkanäle anzeigen](2d-view.resources/2d-view-color-channel.png "2D-Farbkanäle anzeigen"){width="360px"}
 
 ### Farbkanäle
 
-Sie können eine Ein Kanal des Bilds mit der Schaltfläche ![](../../assets/2d-view-icon-channels.png) <b>Farbkanäle</b> anzeigen. Dadurch wird ein Kombinationsfeld geöffnet, in dem Sie auswählen können, welcher der Kanäle <b>Red</b>, <b>Green</b>, <b>Blue</b> und <b>Alpha</b> angezeigt werden soll. Das normale Erscheinungsbild des Bildes mit allen Kanälen wird wiederhergestellt, indem die Option <b>RGB</b> ausgewählt wird.
+Sie können einen einzelnen Kanal des Bildes mithilfe der Schaltfläche ![](2d-view.resources/2d-view-icon-channels.png) <b>Farbkanäle</b> anzeigen. Dadurch wird ein Kombinationsfeld geöffnet, in dem Sie auswählen können, welcher der Kanäle <b>Red</b>, <b>Green</b>, <b>Blue</b> und <b>Alpha</b> angezeigt werden soll. Das normale Erscheinungsbild des Bildes mit allen Kanälen wird wiederhergestellt, indem die Option <b>RGB</b> ausgewählt wird.
 
 Die folgenden *Tastaturbefehle* können verwendet werden, um schnell zu anderen Farbkanälen zu wechseln:
 
@@ -293,29 +293,29 @@ Das *Symbol* der <b>Farbkanäle</b>-Schaltfläche *ändert sich* in Abhängigkei
 >
 > Tastaturbefehle können nur verwendet werden, wenn das Bedienfeld &quot;2D-Ansicht&quot; den Fokus hat. Sie können mindestens einmal auf dieses Bedienfeld klicken, um sicherzustellen, dass dies der Fall ist.
 > 
-> Da der Fokus auf das Fenster gesetzt werden muss, stören *diese Verknüpfungen* nicht bei *benutzerdefinierten Verknüpfungen*, die Sie möglicherweise für das Erstellen von Graf im Knoten festgelegt haben. Weitere Informationen zu dieser Funktion [finden Sie hier](../../interface/preferences-window/preferences-window.md).
+> Da der Fokus auf das Fenster gesetzt werden muss, stören *diese Tastaturbefehle* nicht in *benutzerdefinierte Tastaturbefehle*, die Sie möglicherweise für das Erstellen von Knoten im Diagramm festgelegt haben. Weitere Informationen zu dieser Funktion [finden Sie hier](../../interface/preferences-window/preferences-window.md).
 
-![2D-Ansicht-Transparenz-Umschalter](../../assets/2d-view-transparency.png "2D-Ansicht-Transparenz-Umschalter"){width="360px"}
+![Wechsel der Transparenz für 2D-Ansicht](2d-view.resources/2d-view-transparency.png "Wechsel der Transparenz für 2D-Ansicht"){width="360px"}
 
 ### Transparenz-Schalter
 
-Die Transparenzanzeige kann mit der Schaltfläche ![](../../assets/2d-view-icon-transparency-off.png)/![](../../assets/2d-view-icon-transparency-on.png) <b>Schachbrett anzeigen</b> ein- und ausgeschaltet werden. Wenn diese Option aktiviert ist, wird die Transparenz mit einem Schachbrettmuster angezeigt.
+Die Transparenzanzeige kann mit der Schaltfläche ![](2d-view.resources/2d-view-icon-transparency-off.png)/![](2d-view.resources/2d-view-icon-transparency-on.png) <b>Schachbrett anzeigen</b> ein- und ausgeschaltet werden. Wenn diese Option aktiviert ist, wird die Transparenz mit einem Schachbrettmuster angezeigt.
 
-Es gibt zwei Hauptmöglichkeiten, Transparenz zu interpretieren, die mit der Schaltfläche ![](../../assets/2d-view-icon-transparency-straight.png)/![](../../assets/3d-view-icon-transparency-premultiplied.png) <b>Transparenzmodus</b> ausgewählt werden können:
+Es gibt zwei Hauptmöglichkeiten, Transparenz zu interpretieren, die mit der Schaltfläche ![](2d-view.resources/2d-view-icon-transparency-straight.png)/![](2d-view.resources/3d-view-icon-transparency-premultiplied.png) <b>Transparenzmodus</b> ausgewählt werden können:
 
-<b>![](../../assets/2d-view-icon-transparency-straight.png) Straight:</b> Transparenzinformationen werden nur im Alphakanal gespeichert und wirken sich nicht auf andere Bildaspekte aus.
+<b>![](2d-view.resources/2d-view-icon-transparency-straight.png) Gerade:</b> Transparenzinformationen werden nur im Alphakanal gespeichert und wirken sich nicht auf andere Bildaspekte aus.
 
-<b>![](../../assets/3d-view-icon-transparency-premultiplied.png) Vormultipliziert:</b> Transparenzinformationen werden im Alphakanal gespeichert und wirken sich auch auf die RGB-Kanäle aus, da sie effektiv mit dem Alphakanal multipliziert werden.
+<b>![](2d-view.resources/3d-view-icon-transparency-premultiplied.png) Vormultipliziert:</b> Transparenzinformationen werden im Alphakanal gespeichert und wirken sich auch auf die RGB aus, da sie effektiv mit dem Alphakanal multipliziert werden.
 
-Um *richtige 2D-Ansichten* anzuzeigen, sollte der entsprechende Transparenzmodus im Bereich <b>Farbdaten</b> ausgewählt werden, damit er mit der Transparenzmethode übereinstimmt, die angewendet wurde, als das Bild *erstellt* wurde.
+Um *korrekte Farben* anzuzeigen, sollte der entsprechende Transparenzmodus im Bedienfeld <b>2D-Ansicht</b> ausgewählt werden, damit er mit der Transparenzmethode übereinstimmt, die angewendet wurde, als das Bild *erstellt* wurde.
 
-![2D-Ansicht-Farbraum](../../assets/2d-view-viewport-color-space.png "2D-Ansicht-Farbraum"){width="360px"}
+![2D-Farbraum anzeigen](2d-view.resources/2d-view-viewport-color-space.png "2D-Farbraum anzeigen"){width="360px"}
 
 ### Farbraum
 
 Für die genaueste Farbdarstellung werden Bilder standardmäßig in einem *Farbraum* angezeigt, der dem vom *Monitor* verwendeten Farbraum entspricht.
 
-Die verfügbaren Steuerelemente und die Auswirkungen der Schaltfläche ![](../../assets/2d-view-icon-color-space.png)/![](../../assets/2d-view-icon-color-space-linear.png) <b>Farbraum</b> hängen vom [Farbmanagementmodus](../../color-management/color-management.md) ab, der in den [Projekteinstellungen](../../interface/preferences-window/project-settings/project-settings.md) festgelegt wurde. Weitere Informationen zu diesen Steuerelementen finden Sie im Abschnitt &quot;Farbmanagement&quot; auf dieser Seite.
+Die verfügbaren Steuerelemente und die Auswirkungen der Schaltfläche ![](2d-view.resources/2d-view-icon-color-space.png)/![](2d-view.resources/2d-view-icon-color-space-linear.png) <b>Farbraum</b> hängen vom [Farbmanagementmodus](../../color-management/color-management.md) ab, der in den [Projekteinstellungen](../../interface/preferences-window/project-settings/project-settings.md) festgelegt wurde. Weitere Informationen zu diesen Steuerelementen finden Sie im Abschnitt &quot;Farbmanagement&quot; auf dieser Seite.
 
 <table>
 <tr style="border: 0;">
@@ -335,7 +335,7 @@ Die <b>Bitmap-Malwerkzeuge</b> sind für [Bitmap-Ressourcen](../../resources/bit
 </td>
 <td style="border: 0;" valign="top">
 
-![2D-Tools für das Malen von Bitmaps anzeigen](../../assets/2dview-paintingtools-main.png "2D-Tools für das Malen von Bitmaps anzeigen")
+![2D-Tools für das Malen von Bitmaps anzeigen](2d-view.resources/2dview-paintingtools-main.png "2D-Tools für das Malen von Bitmaps anzeigen")
 
 </td>
 </tr>
@@ -360,7 +360,7 @@ Der <b>Vektorgrafik-Editor</b> ist für *importierte* [SVG-Ressourcen](../../res
 </td>
 <td style="border: 0;" valign="top">
 
-![2D-Vektorgrafik-Editor anzeigen](../../assets/2dview-vectorediting-main.png "2D-Vektorgrafik-Editor anzeigen")
+![2D-Vektorgrafik-Editor anzeigen](2d-view.resources/2dview-vectorediting-main.png "2D-Vektorgrafik-Editor anzeigen")
 
 </td>
 </tr>
@@ -370,7 +370,7 @@ Der <b>Vektorgrafik-Editor</b> ist für *importierte* [SVG-Ressourcen](../../res
 >
 > Weitere Informationen finden Sie auf der Seite [Werkzeuge zur Vektorbearbeitung](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) (veraltet) der Dokumentation.
 
-![2D-Farbmanagement anzeigen](../../assets/2d-view-color-management-ocio.png "2D-Farbmanagement anzeigen"){width="360px"}
+![2D-Farbmanagement anzeigen](2d-view.resources/2d-view-color-management-ocio.png "2D-Farbmanagement anzeigen"){width="360px"}
 
 ## Farbmanagement
 
@@ -378,9 +378,9 @@ Die <b>2D-Ansicht</b> bietet einfache *Farbmanagement*-Steuerelemente, mit denen
 
 Diese Steuerelemente passen sich wie folgt an den aktuellen [Farbmanagementmodus](../../color-management/color-management.md) an, der in den [Projekteinstellungen](../../interface/preferences-window/project-settings/project-settings.md) festgelegt ist:
 
-* <b>Veraltet:</b> Sie können das Bild in den ![](../../assets/2d-view-icon-color-space.png) sRGB- oder ![](../../assets/2d-view-icon-color-space-linear.png) linearen sRGB-Farbräumen disp.lay;
-* <b>Adobe ACE:</b> Sie können ![](../../assets/2d-view-icon-color-space.png) *das*-Farbmanagement aktivieren und den am besten geeigneten Farbraum für den *aktuellen Monitor* festlegen, der von der Adobe ACE-Engine erkannt wurde, oder ![](../../assets/2d-view-icon-color-space-linear.png) *das*-Farbmanagement deaktivieren und das Bild mit den Raw-Farbwerten anzeigen;
-* <b>OCIO:</b> Sie können ![](../../assets/2d-view-icon-color-space.png) *das*-Farbmanagement aktivieren und den am besten geeigneten Farbraum für den *aktuellen Monitor* festlegen, der vom OCIO-Modul erkannt wurde. Verwenden Sie das Kombinationsfeld, und wählen Sie einen der *Anzeigefarbräume* aus, die in der [OCIO-Konfigurationsdatei](../../color-management/color-management.md), die aktuell verwendet wird, verfügbar sind, oder ![](../../assets/2d-view-icon-color-space-linear.png) *deaktivieren*-Farbmanagement, und zeigen Sie das Bild mithilfe der Raw-Farbwerte an.
+* <b>Veraltet:</b> Sie können das Bild in den ![](2d-view.resources/2d-view-icon-color-space.png) sRGB- oder ![](2d-view.resources/2d-view-icon-color-space-linear.png) linearen sRGB-Farbräumen disp.lay;
+* <b>Adobe ACE:</b> Sie können ![](2d-view.resources/2d-view-icon-color-space.png) *das*-Farbmanagement aktivieren und den am besten geeigneten Farbraum für den *aktuellen Monitor* festlegen, der von der Adobe ACE-Engine erkannt wurde, oder ![](2d-view.resources/2d-view-icon-color-space-linear.png) *das*-Farbmanagement deaktivieren und das Bild mit den Raw-Farbwerten anzeigen;
+* <b>OCIO:</b> Sie können ![](2d-view.resources/2d-view-icon-color-space.png) *das*-Farbmanagement aktivieren und den am besten geeigneten Farbraum für den *aktuellen Monitor* festlegen, der vom OCIO-Modul erkannt wurde. Verwenden Sie das Kombinationsfeld, und wählen Sie einen der *Anzeigefarbräume* aus, die in der [OCIO-Konfigurationsdatei](../../color-management/color-management.md), die aktuell verwendet wird, verfügbar sind, oder ![](2d-view.resources/2d-view-icon-color-space-linear.png) *deaktivieren*-Farbmanagement, und zeigen Sie das Bild mithilfe der Raw-Farbwerte an.
 
 >[!WARNING]
 >
