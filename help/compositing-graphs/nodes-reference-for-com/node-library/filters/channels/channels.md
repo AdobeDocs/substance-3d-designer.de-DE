@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels.html"
 breadcrumb-title: ''
-description: Zugriff auf Kanalfilterknoten in Substance 3D Designer zum Bearbeiten und Kombinieren von RGBA-Kanaldaten.
+description: Greifen Sie in Substance 3D Designer auf Channel-Filterknoten zu, um RGBA-Kanaldaten zu bearbeiten und zu kombinieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels
 helpx_experience_level: ""

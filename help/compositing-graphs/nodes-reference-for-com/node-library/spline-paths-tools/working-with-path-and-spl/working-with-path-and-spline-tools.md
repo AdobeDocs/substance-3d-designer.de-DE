@@ -79,10 +79,10 @@ Beispielsweise können Sie mithilfe von Spline-Generierungsknoten wie [Spline (C
 
 Pfad und Spline-Werkzeuge erfordern umfangreiche Berechnungen, sodass Sie einige Einstellungen beachten sollten, um die beste Performance und Reaktionsfähigkeit bei der Arbeit mit den Tools sicherzustellen:
 
-1. Das Toolset verwendet <b>Substance Engine</b>-Funktionen, die auf der GPU viel schneller ausgeführt werden, umfassend. Verwenden Sie daher bitte die GPU-Version der Engine für Ihr System: <b>Direct3D</b> (Windows) oder <b>OpenGL</b> (macOS).\
-   Sie können das Modul wechseln, indem Sie die Taste <b>F9</b> drücken, oder indem Sie zu <b>Tools > Modul wechseln gehen...</b> in der Hauptmenüleiste.
-1. Anschließend wird dringend empfohlen, die <b>kontextbezogene Bearbeitung</b> im Abschnitt <b>Graph</b> der [Voreinstellungen](../../../../../interface/preferences-window/preferences-window.md) zu deaktivieren (navigieren Sie zu <b>Bearbeiten > Voreinstellungen...</b> in der Hauptmenüleiste, um auf dieses Fenster zuzugreifen).\
-   Bei der kontextbezogenen Bearbeitung können Sie Instanzknoten im Kontext des Hostdiagramms öffnen, was zwar sehr praktisch ist, aber den Nebeneffekt hat, dass die Berechnungen, die vom Bildcache der Toolset benötigt werden, exponentiell ansteigen.
+1. Das Toolset verwendet <b>Substance Engine</b>-Funktionen, die auf der GPU viel schneller ausgeführt werden, umfassend. Verwenden Sie daher bitte die GPU-Version des Engine für Ihr System: <b>Direct3D</b> (Windows) oder <b>OpenGL</b> (macOS).\
+   Sie können das Engine wechseln, indem Sie die Taste <b>F9</b> drücken, oder indem Sie zu <b>Extras > Engine wechseln gehen...</b> in der Hauptmenüleiste.
+1. Anschließend wird dringend empfohlen, die <b>Kontextabhängige Bearbeitung</b> im Abschnitt <b>Graf</b> der [Voreinstellungen](../../../../../interface/preferences-window/preferences-window.md) zu deaktivieren (navigieren Sie zu <b>Bearbeiten > Voreinstellungen...).</b> in der Hauptmenüleiste, um auf dieses Fenster zuzugreifen).\
+   Bei der kontextbezogenen Bearbeitung können Sie Instanzknoten im Kontext des Host-Grafen öffnen, was zwar sehr praktisch ist, aber den Nebeneffekt hat, dass die Berechnungen, die für den Bildcache der Toolset erforderlich sind, exponentiell erhöht werden.
 
 Wenn Sie eine dieser beiden Einstellungen in den empfohlenen Zustand ändern, sollten Sie eine deutliche Leistungsverbesserung bemerken.
 
@@ -94,18 +94,18 @@ Wenn Sie eine dieser beiden Einstellungen in den empfohlenen Zustand ändern, so
 
 Das [Pfade-Polygon](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md) generiert einen Pfad in Form eines Polygons mit dem angegebenen Radius und der angegebenen Seitenanzahl.
 
-Alternativ können Pfade aus einem Graustufenbild mithilfe des Knotens [Mask to Paths](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) extrahiert werden.\
-Dies ist derzeit die einzige Möglichkeit, komplexe Formen zu erstellen. Sie können die gesamte Bibliothek von [Substance-Diagrammknoten](../../../../../compositing-graphs/nodes-reference-for-com/nodes-reference-for-substance-compositing-graphs.md) nutzen, um die Formen zu erstellen, die schließlich in Pfade konvertiert werden.
+Alternativ können Pfade aus einem Graustufenbild mithilfe des Knotens &quot;[Mask to Paths](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)&quot; extrahiert werden.\
+Dies ist derzeit die einzige Möglichkeit, komplexe Formen zu erstellen. Sie können die gesamte Library von [Substance Graf Nodes](../../../../../compositing-graphs/nodes-reference-for-com/nodes-reference-for-substance-compositing-graphs.md) nutzen, um die Formen zu erstellen, die schließlich in Pfade konvertiert werden.
 
 ![Knoten zur Pfaderzeugung](working-with-path-and-spline-tools.resources/Paths_Generation.jpg "Knoten zur Pfaderzeugung"){width="600px"}
 
 ### Bearbeiten von Pfaden
 
-Mit [Pfad 2D transformieren](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md), [Pfade verformen](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) und [Quad transformieren auf Pfad](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md) können Sie die Form von Pfaden bearbeiten.
+Mit [Pfad 2D Transformieren](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md), [Pfadverkrümmung](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) und [Quad Transformieren auf Pfad](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md) können Sie die Form von Pfaden bearbeiten.
 
 Sie können unerwünschte Pfade auch entfernen, indem Sie Pfade nach Index oder Länge mithilfe des Knotens [Paths Select](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-select/paths-select.md) auswählen.
 
-Eine komplexere Verarbeitung kann an jedem Punkt eines Pfads mithilfe des Knotens [Paths Vertex Processor](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) erfolgen. Eine [einfachere Version](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md) ist für leichtere Anpassungen vorhanden.
+Eine komplexere Verarbeitung kann an jedem Punkt eines Pfades mithilfe des Scheitelpunkts [Paths Prozessor](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) erfolgen. Eine [einfachere Version](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md) ist für leichtere Anpassungen vorhanden.
 
 <table>
 <tr style="border: 0;">
@@ -243,7 +243,7 @@ Knoten, die Splines in einem Bild zeichnen, verfügen über den Parameter &quot;
 
 ### Erstellen von Bildern aus Splines
 
-Wenn Sie mit dem Authoring und Bearbeiten von Splines fertig sind, können Sie sie verwenden, um Bilder zu erstellen, die die restlichen Substance-Diagrammknoten nutzen können.
+Wenn Sie mit dem Erstellen und Bearbeiten von Splines fertig sind, können Sie sie verwenden, um Bilder zu erstellen, die die restlichen Substance-Graf-Knoten nutzen können.
 
 Es gibt drei Möglichkeiten, Splines zum Generieren von Grafiken zu verwenden:
 

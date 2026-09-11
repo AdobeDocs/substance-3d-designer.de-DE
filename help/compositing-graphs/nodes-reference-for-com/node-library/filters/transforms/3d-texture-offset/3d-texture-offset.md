@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/3d-texture-offset.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Versatzknoten für 3D-Texturen, um Texturen im 3D-Raum zu versetzen und so Parallaxeffekte und Oberflächenvariationen zu erzeugen.
+description: Verwenden Sie den Knoten 3D-Texturversatz , um Texturen im 3D-Raum zu versetzen und Parallaxeffekte und Oberflächenvariationen zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > 3D Texture Offset
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 3D-Textur-Versatz
+title: 3D-Texturversatz
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: f792519db40504d7bb888acf0dc418c6ebfd688a
@@ -18,7 +18,7 @@ ht-degree: 3%
 ---
 
 
-# 3D-Textur-Versatz
+# 3D-Texturversatz
 
 <table>
 <tr style="border: 0;">
@@ -46,7 +46,7 @@ ht-degree: 3%
 
 ## Beschreibung
 
-Der Knoten **3D Textur Offset** wendet eine *Offset-Transformation* in den Achsen **X**, **Y** und **Z** auf ein Objekt an, das von der *3D Textur* beschrieben wird, die mit dem **Eingang** verbunden ist.
+Der Knoten **3D Texture Offset** wendet eine *Offset-Transformation* in den Achsen **X**, **Y** und **Z** auf ein Objekt an, das durch die *3D Textur* beschrieben wird, die mit dem **Eingang** verbunden ist.
 
 </td>
 </tr>
@@ -66,7 +66,7 @@ Der Knoten **3D Textur Offset** wendet eine *Offset-Transformation* in den Achse
 
 |  |  |
 |:---|:---|
-| <b>Offset</b> <i>Fließkommazahl3</i> | Der Versatzbetrag in <i>Welt-Raum</i>, der auf das Objekt angewendet wurde, das von der <i>3D-Textur</i> beschrieben wird, die mit dem <b>Eingang</b> verbunden ist. |
+| <b>Offset</b> <i>Float3</i> | Die Menge des Offsets im <i>Welt-Raum</i>, der auf das Objekt angewendet wird, das durch die <i>3D-Textur</i> beschrieben wird, die mit dem <b>Eingang</b> verbunden ist. |
 
 ## Beispiele
 

@@ -59,7 +59,7 @@ Transformieren eine [Flood Fill](../../../../../../compositing-graphs/nodes-refe
 | <b>Winkelabweichung</b> <i>0.0 - 1.0</i> | Der Winkel für jede Kachel wird einzeln zufällig angepasst. Dies ist der nützlichste und mächtigste Parameter! |
 | <b>Multiplizieren mit der Größe des Begrenzungsrahmens</b> <i>0.0 - 1.0</i> | Skaliert den gesamten linearen Effekt anhand der Größe des individuellen Begrenzungsrahmens der Kachel. Das bedeutet, dass kleinere Kacheln am Ende dunkler sind als größere. |
 | <b>Winkel-Bildeingabemultiplikator</b> <i>0.0 - 1.0</i> | Festlegen des Einflusses der optionalen Winkel-Eingabe-Map auf die generierten Verlaufsrichtungen |
-| <b>Steigung-Bildeingabemultiplikator</b> <i>0.0 - 1.0</i> | Legen Sie den Einfluss der optionalen Steigung-Eingabemap auf die generierte Steigung des Verlaufs fest. |
+| <b>Steigung-Bildeingabemultiplikator</b> <i>0.0 - 1.0</i> | Legen Sie den Einfluss des optionalen Steigung-Eingabe-Map auf die generierte Stärke der Verlaufs-Steigung fest. |
 | <b>Multiplizieren mit der Intensität der Steigung</b> <i>0.0 - 1.0</i> |  |
 | <b>Einfache Steigung </b> <i>(Graustufenwert)</i> | Ermöglicht die Festlegung eines Volltonwerts für flache Steigungen. |
 

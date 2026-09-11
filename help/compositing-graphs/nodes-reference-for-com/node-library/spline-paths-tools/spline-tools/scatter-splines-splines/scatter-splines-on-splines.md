@@ -70,9 +70,9 @@ Klicken Sie auf das Bild auf der rechten Seite, um auf unser <b>Tutorial </b> zu
 | <b>Spline-Kabel</b> *Farbe* | Die Koordinaten der Punkte der übergeordneten Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind:  <b>R</b> - X-Position <b>G</b> - Y-Position <b>B</b> - Height <b>A</b> - Packed data:          - Signieren: Spline ist geschlossen (negativ) oder offen (positiv) - Absoluter Wert: THICKNESS + 1 |
 | <b>Spline-Daten</b> *Farbe* | Zusätzliche Daten der übergeordneten Splines, die in den RGBA-Kanälen eines Farbbilds codiert sind:  <b>R</b> - Tangenten X <b>G</b> - Tangenten Y <b>B</b> - Tangenten Z <b>A</b> - Nicht verwendet |
 | <b>Spline-Betrag</b> *Integer* | Die Anzahl der übergeordneten Splines. |
-| <b>Benutzerdefinierte Spline-Codes</b> *Farbe* | Die Koordinaten der Punkte der benutzerdefinierten Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind:  <b>R</b> - X-Position <b>G</b> - Y-Position <b>B</b> - Height <b>A</b> - Packed data:          - Signieren: Spline ist geschlossen (negativ) oder offen (positiv) - Absoluter Wert: THICKNESS + 1 |
+| <b>Benutzerdefinierte Spline-Codes</b> *Farbe* | Die Koordinaten der Punkte der benutzerdefinierten Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind:  <b>R</b> - X-Position <b>G</b> - Y-Position <b>B</b> - Height <b>A</b> - Packed data:          - Signieren: Spline ist geschlossen (negativ) oder offen (positiv) - Absolute Wert: THICKNESS + 1 |
 | <b>Benutzerdefinierte Spline-Daten</b> *Farbe* | Zusätzliche Daten zu den benutzerdefinierten Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind:  <b>R</b> - Tangenten X <b>G</b> - Tangenten Y <b>B</b> - Tangenten Z <b>A</b> - Nicht verwendet |
-| <b>Benutzerdefinierter Spline-Betrag</b> *Integer* | Die Anzahl der benutzerdefinierten Splines. |
+| <b>Benutzerdefinierter Spline-Betrag</b> *Ganzzahl* | Die Anzahl der benutzerdefinierten Splines. |
 | <b>Zuordnungsskalierung</b> *Graustufen* | Die Graustufen-Map, die die Skalierung der gestreuten Splines steuert.  Der Effekt dieser Karte wird durch den <b>Scale Map Input Multiplier</b>-Parameter gesteuert und mit den anderen Parametern in der <b>Size</b>-Gruppe kombiniert. |
 | <b>Rotation Map</b> *Graustufen* | Die Graustufenkarte, die die Drehung der gestreuten Splines steuert.  Die Wirkung dieser Map wird durch den <b>Rotation Map-Eingabemultiplikator</b>-Parameter gesteuert und mit den anderen Parametern in der <b>Drehung</b>-Gruppe kombiniert. |
 
@@ -83,7 +83,7 @@ Klicken Sie auf das Bild auf der rechten Seite, um auf unser <b>Tutorial </b> zu
 |  |  |
 |:---|:---|
 | <b>Vorschau</b> *Graustufen* | Die Vorschau der verstreuten Splines als Graustufenbild. |
-| <b>Spline-Kabel</b> *Farbe* | Die Koordinaten der Punkte der gestreuten Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind:  <b>R</b> - X-Position <b>G</b> - Y-Position <b>B</b> - Height <b>A</b> - Packed data:          - Signieren: Spline ist geschlossen (negativ) oder offen (positiv) - Absoluter Wert: THICKNESS + 1 |
+| <b>Spline-Kabel</b> *Farbe* | Die Koordinaten der Punkte der gestreuten Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind:  <b>R</b> - X-Position <b>G</b> - Y-Position <b>B</b> - Height <b>A</b> - Packed data:          - Signieren: Spline ist geschlossen (negativ) oder offen (positiv) - Absolute Wert: THICKNESS + 1 |
 | <b>Spline-Daten</b> *Farbe* | Zusätzliche Daten zu den gestreuten Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind:  <b>R</b> - Tangenten X <b>G</b> - Tangenten Y <b>B</b> - Nicht verwendet <b>A</b> - Nicht verwendet |
 | <b>Spline-Betrag</b> *Integer* | Die Anzahl der verstreuten Splines. |
 

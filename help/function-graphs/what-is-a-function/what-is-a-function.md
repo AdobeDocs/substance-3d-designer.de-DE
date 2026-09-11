@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 'Was ist eine Funktion? '
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Mit Funktionen in Substance 3D Designer können Sie Ergebnisse mit der Logik gen
 
 Aber anstatt Codezeilen zu verwenden, verwenden Funktionen in Designer denselben knotenartigen Ansatz. Auf den ersten Blick sieht ein Graf wie ein normaler Graf aus.
 
-![](../../assets/image2015-12-17-18-19-37.png)
+![](what-is-a-function.resources/image2015-12-17-18-19-37.png)
 
 Funktionen können in zwei Hauptfällen auftreten:
 
@@ -35,16 +35,16 @@ Funktionen können in zwei Hauptfällen auftreten:
 
 In Substance 3D Designer kann jeder Parameter über eine Funktion gesteuert werden.
 
-![](../../assets/image2015-12-17-21-3-46.png)
+![](what-is-a-function.resources/image2015-12-17-21-3-46.png)
 
 Daher können Sie sich Regeln und Abhängigkeiten zwischen Teilen Ihres Grafen vorstellen, um einzigartige Ergebnisse zu erzielen.
 
 So können Sie beispielsweise festlegen, dass die Deckkraft eines Überblendungsknotens die Hälfte der Intensität eines Verkrümmungsknotens beträgt:
 
-![](../../assets/warpblend.gif)
+![](what-is-a-function.resources/warpblend.gif)
 
 Tatsächlich haben Sie möglicherweise bereits Funktionen erstellt, ohne sich dessen bewusst zu sein:
 
 Wenn Sie einen Parameter gelegt haben, haben Sie automatisch eine Funktion und eine Variable erstellt: Die Funktion enthält einen get float -Knoten, der den Wert der neu erstellten Variablen abfängt:
 
-![](../../assets/expose.gif)
+![](what-is-a-function.resources/expose.gif)

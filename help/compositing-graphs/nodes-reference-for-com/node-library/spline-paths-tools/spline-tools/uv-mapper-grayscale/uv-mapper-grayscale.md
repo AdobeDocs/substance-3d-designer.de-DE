@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Graustufen für UV Mapper
+title: UV Mapper Graustufen
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: e23f692fa31d1e7b9eeac692bb41186441fdda53
@@ -18,7 +18,7 @@ ht-degree: 2%
 ---
 
 
-# Graustufen für UV Mapper
+# UV Mapper Graustufen
 
 <table>
 <tr style="border: 0;">

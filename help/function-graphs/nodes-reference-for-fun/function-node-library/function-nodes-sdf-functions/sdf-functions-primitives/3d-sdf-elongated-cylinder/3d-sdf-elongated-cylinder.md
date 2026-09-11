@@ -43,6 +43,6 @@ Eine SDF-Funktion für einen länglichen Zylinder mit einstellbarer Länge, Radi
 | <b>Height</b> *Gleitend* | Das Z-Up-Height der Anfangs- und Endzylinder von ihrer Basis.<br><br><i>Standard: 0,5</i> |
 | <b>Radius</b> *Gleitend* | Der Radius des Anfangs- und des Endzylinders.<br><br><i>Standard: 0,5</i> |
 | <b>Rundung</b> *Gleitend* | Der Radius der abgerundeten Bögen, die auf die Kanten des langgestreckten Zylinders angewendet werden.<br><br><i>Hinweis:</i> harte Kanten können an den Schnittpunkten der abgerundeten Radien auftreten.<br><br><i>Standard: 0</i> |
-| <b>Mittenposition</b> *Float3* | Die Weltraumposition des Drehpunkts des länglichen Zylinders.<br><br><i>Standard: (0, 0, 0)</i> |
+| <b>Mittenposition</b> *Float3* | Die Position des Welt-Raums des Drehpunkts des langgestreckten Zylinders.<br><br><i>Standard: (0, 0, 0)</i> |
 | <b>Verlängerungsdistanz</b> *Gleitend* | Die Strecke, auf der der Startzylinder verlängert wird.<br>D.h. der Abstand zwischen den Mittelpunkten des Anfangs- und des Endzylinders.<br><br><i>Standard: 0,5</i> |
-| <b>P</b> *Float3* | Die veränderte Weltraumposition. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die nicht transformierte Weltraumposition.</i> |
+| <b>P</b> *Float3* | Die transformieren Position des Welt-Raums. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die Position des nicht transformierten Welt-Raums.</i> |

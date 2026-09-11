@@ -103,13 +103,13 @@ Die Malwerkzeuge und -optionen sind in *Symbolleisten* im Bedienfeld [2D-Ansicht
 
 Wenn die Vektorbearbeitungswerkzeuge aktiviert sind, werden zwei Symbolleisten angezeigt:
 
-* **Werkzeugauswahl** **Symbolleiste**: &quot;*&quot; ermöglicht die Auswahl eines Tools* sowie der *Füll-/Konturfarben* und wird standardmäßig auf der *linken* Seite des Bedienfelds &quot;2D-Ansicht&quot; platziert.
-* **Symbolleiste für Werkzeugoptionen**: ermöglicht Ihnen das Festlegen der *Optionen* für das *aktuell ausgewählte Tool* und wird standardmäßig auf der *Oberseite* des Bedienfelds &quot;2D-Ansicht&quot; platziert.
+* **Werkzeugauswahl** **Symbolleiste**: &quot;*&quot; ermöglicht die Auswahl eines Tools* sowie der *Füll-/Konturfarben* und wird standardmäßig auf der *linken* Seite des Bedienfelds &quot;2D-Ansichten&quot; platziert.
+* **Symbolleiste für Werkzeugoptionen**: können Sie die *Optionen* für das *aktuell ausgewählte Tool* festlegen. Es wird standardmäßig auf der *Oberseite* des Bedienfelds &quot;2D-Ansichten&quot; platziert.
 
 Tastaturbefehle ermöglichen einen schnellen Zugriff auf Werkzeuge und sind unterhalb zwischen Klammern nach dem Werkzeug-/Funktionsnamen gekennzeichnet:
 
 +++Farbauswahl
-Mit der ![](../../../assets/2dview-paintingtools-icon-colors-primary.png)![](../../../assets/2dview-paintingtools-icon-colors-secondary.png) **Farbauswahl** *Miniaturansichten* können Sie eine *Flächenfarbe* und eine *Konturfarbe* für Vektorformen definieren. Sie können den **Farbeditor** für jede dieser Farben wie folgt öffnen:
+Mit ![](../../../assets/2dview-paintingtools-icon-colors-primary.png)![](../../../assets/2dview-paintingtools-icon-colors-secondary.png) **Farbauswahl** *Miniaturansichten* können Sie eine *Füllfarbe* und eine *Konturfarbe* für Vektorformen definieren. Sie können den **Farbeditor** für jede dieser Farben wie folgt öffnen:
 
 * **Füllfarbe:** Klicken Sie auf die Miniaturansicht der *Füllfarbe* (oben), oder doppelklicken Sie auf LMB auf der Arbeitsfläche.
 
@@ -141,21 +141,21 @@ Das ![](../../../assets/2dview-vectorediting-icon-transformation.png)-Werkzeug <
 
 
 
-Mit dem ![](../../../assets/2dview-vectorediting-icon-node.png) <b>Knoten</b>-Werkzeug (<b>A</b>) können Sie einzelne Scheitelpunkte (d. h. Knoten) der ausgewählten Form auswählen und ihre Position und Handles bearbeiten sowie Scheitelpunkte hinzufügen und entfernen. Nachdem eine Form ausgewählt wurde, können die folgenden Aktionen ausgeführt werden:
+Mit dem ![](../../../assets/2dview-vectorediting-icon-node.png) <b>Node</b>-Tool (<b>A</b>) können Sie einzelne Scheitelpunkt (d. h. Knoten) der ausgewählten Form auswählen und ihre Position und Handles bearbeiten sowie Scheitelpunkt hinzufügen und entfernen. Nachdem eine Form ausgewählt wurde, können die folgenden Aktionen ausgeführt werden:
 
 <b>Scheitelpunkt hinzufügen:</b> Strg+LMB auf der Formenkontur
 
-<b>Eckpunkt entfernen</b>: Strg+LMB am Scheitelpunkt
+<b>Scheitelpunkt entfernen</b>: Strg+LMB auf dem Scheitelpunkt
 
-<b>Scheitelpunkt verschieben</b>: LMB am Scheitelpunkt halten
+<b>Scheitelpunkt verschieben</b>: LMB auf dem Scheitelpunkt halten
 
-<b>Eckpunkthandles verschieben</b>: LMB am Handle halten
+<b>Verschieben von Scheitelpunkt-Handles</b>: LMB am Handle halten
 
 <b>Scheitelpunkt-Handle unabhängig bewegen</b>: Halten Sie Alt+LMB am Griff. Beachten Sie, dass Handles nach diesem Punkt *nicht verknüpft* sind, bis sie *zurückgesetzt* sind.
 
-<b>Handles zurücksetzen</b>: Klicken Sie auf dem Scheitelpunkt auf Alt+LMB. Die Handles werden auf die *Scheitelpunktposition* zurückgesetzt.
+<b>Handles zurücksetzen</b>: Klicken Sie auf Alt+LMB auf dem Scheitelpunkt. Die Handles werden auf die *Scheitelpunkt-Position* zurückgesetzt.
 
-<b>Zurücksetzscheitelpunkthandles verschieben</b>: Halten Sie Alt+LMB auf dem Scheitelpunkt. *Verknüpfte* Handles werden angezeigt.
+<b>Handles zum Zurücksetzen des Scheitelpunkts verschieben</b>: Halten Sie Alt+LMB auf dem Scheitelpunkt gedrückt. *Verknüpfte* Handles werden angezeigt.
 
 +++
 
@@ -170,7 +170,7 @@ Das ![](../../../assets/2dview-vectorediting-icons-shape.png)-Werkzeug <b>Formen
 
 * <b>Ellipse;</b>
 
-* <b>Abgerundetes Rechteck:</b> Die abgerundeten Winkel haben einen gesperrten Radius;
+* <b>Abgerundetes Rechteck:</b> Die abgerundeten Winkel haben einen gesperrten Radius.
 
 * <b>Polygon:</b> Erstellt ein Oktogon.
 
@@ -179,25 +179,25 @@ Um eine Grundform zu zeichnen, halten Sie <b>LMB</b> an einer beliebigen Stelle 
 +++
 
 +++Füllhalter
-![Zeichenstift-Werkzeug](../../../assets/2dview-vectorediting-pen.png "Zeichenstift-Werkzeug"){width="512px"}
+![Stift-Tool](../../../assets/2dview-vectorediting-pen.png "Stift-Tool"){width="512px"}
 
 
 
-Mit dem ![](../../../assets/2dview-vectorediting-icon-pen.png) <b>Zeichenstift</b>-Werkzeug (<b>P</b>) können Sie eine neue benutzerdefinierte Form mit der aktuellen *Füllfarbe* zeichnen. Es stehen zwei Modi zur Verfügung:
+Mit dem ![](../../../assets/2dview-vectorediting-icon-pen.png) <b>Stift</b>-Werkzeug (<b>P</b>) können Sie eine neue benutzerdefinierte Form zeichnen, indem Sie die aktuelle *Füllfarbe* verwenden. Es stehen zwei Modi zur Verfügung:
 
-Im Modus <b>Pfad </b> wird die Form *um jeweils einen Scheitelpunkt* gezeichnet. Die folgenden Steuerelemente sind verfügbar:
+Im Modus &quot;<b>Pfad </b>&quot; wird die Form *jeweils um einen Scheitelpunkt* gezeichnet. Die folgenden Steuerelemente sind verfügbar:
 
-<b> geraden in/geraden aus </b> Eckpunkt hinzufügen: Klicken Sie auf LMB
+<b> geraden/geraden </b> Scheitelpunkt hinzufügen: Klicken Sie auf LMB
 
-<b>Kurve ein/aus</b> Scheitelpunkt (*ausgerichtet* Tangenten) hinzufügen: LMB gedrückt halten und ziehen
+<b>Kurve ein/aus</b> Scheitelpunkt hinzufügen (*ausgerichtet* Tangenten): LMB gedrückt halten und ziehen
 
-<b>Kurve ein/aus </b>Scheitelpunkt (*nicht ausgerichtet* Tangenten) hinzufügen\*: LMB halten und ziehen, dann Alt+LMB halten
+<b>Kurve in/Kurve aus </b>Scheitelpunkt hinzufügen (*nicht ausgerichtet* Tangenten)\*: LMB halten und ziehen, dann Alt+LMB halten
 
-<b>Kurve ein/gerade aus</b> Scheitelpunkt\*hinzufügen: Wie Scheitelpunkt der Kurve/Kurve (nicht ausgerichtete Tangenten), aber die Out-Linie muss* auf dem neuen Scheitelpunkt platziert werden*
+<b>Kurve ein/gerade aus</b> Scheitelpunkt\*hinzufügen: wie der Scheitelpunkt &quot;Einkurven/Auskurven&quot; (nicht ausgerichtete Tangenten), aber die Auslinie muss* auf dem neuen Scheitelpunkt platziert werden*
 
-<b>gerade in/curve out</b> Scheitelpunkt\* hinzufügen: Alt+LMB gedrückt halten und ziehen
+<b>gerader Ein-/Kurvenausgang hinzufügen</b> Scheitelpunkt\*: Alt+LMB gedrückt halten und ziehen
 
-<b>Form </b> auf *nächstem* Scheitelpunkt schließen: Strg gedrückt halten
+<b>Form </b> schließen auf *Scheitelpunkt*: Strg gedrückt halten
 
 <b>Form </b> auf *aktuellem* Scheitelpunkt schließen: Drücken Sie die Eingabetaste oder klicken Sie auf LMB am *ersten Scheitelpunkt* der aktuellen Form.
 

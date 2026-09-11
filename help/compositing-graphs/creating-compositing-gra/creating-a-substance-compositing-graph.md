@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
 breadcrumb-title: ''
-description: Erfahre, wie du in Substance 3D Designer Compositing-Substance erstellst, um Workflows für prozedurale Texturen zu erstellen.
+description: Erfahre, wie du in Substance 3D Designer Grafen für Compositing auf dem Substance erstellst, um Workflows für prozedurale Texturen zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Creating a Substance graph
 helpx_experience_level: ""
@@ -20,25 +20,25 @@ ht-degree: 1%
 
 # Erstellen von Substance-Graphen
 
-Das Erstellen von Texturen in Designer beginnt mit dem Erstellen eines Substance-Diagramms, entweder aus einer vordefinierten Vorlage oder aus einem leeren Diagramm.
+Authoring-Texturen in Designer beginnen mit dem Erstellen eines Substance-Grafen, entweder aus einer vordefinierten Vorlage oder aus einem leeren Graf.
 
 <a name="create-graph"></a>
 
-## Erstellen eines Diagramms
+## Erstellen eines Grafen
 
-Sie können eine der folgenden Methoden verwenden, um das Erstellen eines neuen [Substance-Diagramms](../../compositing-graphs/substance-compositing-graphs.md) zu starten:
+Sie können eine der folgenden Methoden verwenden, um den Vorgang zum Erstellen eines neuen [Substance-Grafen &#x200B;](../../compositing-graphs/substance-compositing-graphs.md) zu starten:
 
 * &#x200B;
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  Klicken Sie auf dem Startbildschirm auf die Schaltfläche <b>Neues Diagramm</b>.
+  Klicken Sie auf dem Startbildschirm auf die Schaltfläche <b>Neuer Graf</b>.
 
   </td>
   <td style="border: 0;" valign="top">
 
-  ![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Vom Startbildschirm erstellen](creating-a-substance-compositing-graph.resources/newGraphDialog-create-homeScreen.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Vom Startbildschirm erstellen"){zoomable="yes"}
+  ![Dialogfeld &quot;Neuer Substance-Graf&quot; - Dialogfeld &quot;Aus Startbildschirm erstellen&quot;](creating-a-substance-compositing-graph.resources/newGraphDialog-create-homeScreen.png "Dialogfeld &quot;Neuer Substance-Graf&quot; - Dialogfeld &quot;Aus Startbildschirm erstellen&quot;"){zoomable="yes"}
 
   </td>
   </tr>
@@ -49,28 +49,12 @@ Sie können eine der folgenden Methoden verwenden, um das Erstellen eines neuen 
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  Klicken Sie in einem beliebigen *vorhandenen*-Paketelement im [Explorer](../../interface/the-explorer-window/the-explorer-window.md) auf <b>RMB</b> und navigieren Sie im Kontextmenü zu <b>Neu > Substance-Diagramm</b>.
+  Klicken Sie bei einem beliebigen *vorhandenen*-Paketelement im [Explorer](../../interface/the-explorer-window/the-explorer-window.md) auf <b>RMB</b> und navigieren Sie im Kontextmenü zu <b>Neu > Substance Graf</b>.
 
   </td>
   <td style="border: 0;" valign="top">
 
-  ![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Aus Explorer erstellen](creating-a-substance-compositing-graph.resources/newGraphDialog-create-explorer.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Aus Explorer erstellen"){zoomable="yes"}
-
-  </td>
-  </tr>
-  </table>
-
-* &#x200B;
-  <table>
-  <tr style="border: 0;">
-  <td style="border: 0;" valign="top">
-
-  Klicken Sie in der Hauptsymbolleiste auf die Schaltfläche ![](creating-a-substance-compositing-graph.resources/image2021-6-22-20-36-44.png) <b>Neues Substance-Diagramm</b>.
-
-  </td>
-  <td style="border: 0;" valign="top">
-
-  ![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Aus Hauptsymbolleiste erstellen](creating-a-substance-compositing-graph.resources/newGraphDialog-create-mainToolbar.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Aus Hauptsymbolleiste erstellen"){zoomable="yes"}
+  ![Dialogfeld &quot;Neuer Substance-Graf&quot; - Dialogfeld &quot;Aus Explorer erstellen&quot;](creating-a-substance-compositing-graph.resources/newGraphDialog-create-explorer.png "Dialogfeld &quot;Neuer Substance-Graf&quot; - Dialogfeld &quot;Aus Explorer erstellen&quot;"){zoomable="yes"}
 
   </td>
   </tr>
@@ -81,7 +65,23 @@ Sie können eine der folgenden Methoden verwenden, um das Erstellen eines neuen 
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  Wechseln Sie im Hauptmenü zu <b>Datei > Neu > Substance-Diagramm...1</b>
+  Klicken Sie in der Hauptsymbolleiste auf die Schaltfläche ![](creating-a-substance-compositing-graph.resources/image2021-6-22-20-36-44.png) <b>Neuer Substance-Graf</b>.
+
+  </td>
+  <td style="border: 0;" valign="top">
+
+  ![Dialogfeld &quot;Neuer Substance-Graf&quot; - Aus Hauptsymbolleiste erstellen](creating-a-substance-compositing-graph.resources/newGraphDialog-create-mainToolbar.png "Dialogfeld &quot;Neuer Substance-Graf&quot; - Aus Hauptsymbolleiste erstellen"){zoomable="yes"}
+
+  </td>
+  </tr>
+  </table>
+
+* &#x200B;
+  <table>
+  <tr style="border: 0;">
+  <td style="border: 0;" valign="top">
+
+  Wechseln Sie im Hauptmenü zu <b>Datei > Neu > Substance-Graf...1</b>
 
   </td>
   <td style="border: 0;" valign="top">
@@ -94,35 +94,35 @@ Sie können eine der folgenden Methoden verwenden, um das Erstellen eines neuen 
 
 * Drücken Sie den Tastaturbefehl <b>Strg+N</b> (Windows) bzw. <b>Befehl+N</b> (macOS).
 
-Unabhängig von der gewählten Methode wird das Dialogfeld &quot;<b>Neues Substance-Diagramm</b>&quot; angezeigt.
+Unabhängig von der gewählten Methode wird das Dialogfeld &quot;<b>Neuer Substance-Graf</b>&quot; angezeigt.
 
 <a name="graph-templates"></a>
 
-## Diagrammvorlagen
+## Vorlagen für Graf
 
-Unabhängig von der Methode zum Erstellen eines neuen Substance-Diagramms wird Ihnen immer das Dialogfeld <b>Neues Substance-Diagramm</b> angezeigt, mit dem Sie das neue Diagramm konfigurieren können.
+Unabhängig von der Methode zum Erstellen eines neuen Substance-Grafen wird Ihnen immer das Dialogfeld <b>Neuer Substance-Graf</b> angezeigt, mit dem Sie den neuen Graf konfigurieren können.
 
-![Dialogfeld &quot;Neues Substance-Diagramm&quot; - Materialien](creating-a-substance-compositing-graph.resources/newGraphDialog-materials.png "Dialogfeld &quot;Neues Substance-Diagramm&quot; - Materialien"){zoomable="yes"}
+![Dialogfeld &quot;Neuer Substance-Graf&quot; - Materialien](creating-a-substance-compositing-graph.resources/newGraphDialog-materials.png "Dialogfeld &quot;Neuer Substance-Graf&quot; - Materialien"){zoomable="yes"}
 
 ### Vorlagen
 
-Designer enthält Diagrammvorlagen mit vorkonfigurierten Knoten, damit Sie schneller durchstarten können. Sie können [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)-Knoten enthalten, einfache Knoten, um Werte an diese Ausgaben zu übergeben - z. B. [Einheitliche Farbe](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md) sowie [Eingabe](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) Knoten.
+Designer umfasst Knotenvorlagen mit vorkonfigurierten Graf, um den Einstieg zu beschleunigen. Sie können [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)-Knoten enthalten, einfache Knoten, um Werte an diese Ausgaben zu übergeben - z. B. [Einheitliche Farbe](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md) sowie [Eingabe](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)-Knoten.
 
-Doppelklicken Sie auf eine Vorlage in der Liste, oder wählen Sie sie aus, und klicken Sie auf die Schaltfläche <b>Erstellen</b>, um mithilfe dieser Vorlage ein neues Substance-Diagramm zu erstellen. Standardmäßig wird das neue Diagramm in einem neuen, nicht gespeicherten Paket platziert.
+Doppelklicken Sie auf eine Vorlage in der Liste, oder wählen Sie sie aus, und klicken Sie auf die Schaltfläche <b>Erstellen</b>, um mithilfe dieser Vorlage einen neuen Substance-Graf zu erstellen. Standardmäßig wird der neue Graf in einem neuen, nicht gespeicherten Paket abgelegt.
 
 >[!TIP]
 >
 > Beginne ganz von vorne
 > 
-> Wählen Sie die Vorlage <b>Leer</b> in der Kategorie &quot;Leer&quot; aus, um mit einem vollständig leeren Diagramm zu beginnen.
+> Wählen Sie die Vorlage <b>Leer</b> in der Kategorie &quot;Leer&quot; aus, um mit einem vollständig leeren Graf zu beginnen.
 
 >[!NOTE]
 >
 > Vorlagen wechseln
 > 
-> Wenn Sie die falsche Vorlage auswählen, können Sie *nicht* zu einer anderen Vorlage wechseln, nachdem Sie das Diagramm erstellt haben.
+> Wenn Sie die falsche Vorlage auswählen, kann *nicht* zu einer anderen Vorlage wechseln, nachdem Sie den Graf erstellt haben.
 > 
-> Um Ihr vorhandenes Diagramm auf eine andere Vorlage zu portieren, können Sie ein neues Diagramm mit der entsprechenden Vorlage erstellen und das Diagramm kopieren und in die neue Vorlage einfügen. Erneutes Verbinden von Knoten, insbesondere Ausgabeknoten.
+> Um Ihren bestehenden Graf in eine andere Vorlage zu importieren, können Sie mithilfe der entsprechenden Vorlage einen neuen Graf erstellen und Ihren Graf kopieren und in die neue einfügen. Erneutes Verbinden von Knoten, insbesondere Ausgabeknoten.
 
 <table>
 <tr style="border: 0;">

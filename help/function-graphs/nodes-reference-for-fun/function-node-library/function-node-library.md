@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
 breadcrumb-title: ''
-description: Greifen Sie auf vorgefertigte Substance-Funktionsdiagramme als Instanzknoten zu, um den Workflow zu beschleunigen und die Funktionen zu verbessern.
+description: Greifen Sie auf vorgefertigte Substance-Funktions-Grafen als Instanzknoten zu, um Arbeitsabläufe zu beschleunigen und Funktionen zu verbessern.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Function node library
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Funktionsknotenbibliothek
+title: Funktionsknoten Library
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
@@ -18,7 +18,7 @@ ht-degree: 6%
 ---
 
 
-# Funktionsknotenbibliothek
+# Funktionsknoten Library
 
 Zusätzlich zu [Atomknoten](../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/atomic-function-nodes.md) bietet Designer auch vorgefertigte Substance-Funktionsdiagramme als Instanzknoten an. Sie bieten viele Werkzeuge, um den Arbeitsablauf zu beschleunigen und mehr Funktionen für die Arbeit mit Vektoren oder Farben, die Neuzuordnung von Werten, die Durchführung erweiterter Algebra, ...
 
@@ -72,7 +72,7 @@ Mit diesen Knoten können Sie SDF-Funktionen erstellen, die zum Generieren von 3
 
 [Pyramide](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-pyramid/3d-sdf-pyramid.md)
 
-[Pyramidenquadrat](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-pyramid-square/3d-sdf-pyramid-square.md)
+[Pyramide Square](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-pyramid-square/3d-sdf-pyramid-square.md)
 
 [Stein](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-rock/3d-sdf-rock.md)
 
@@ -194,7 +194,7 @@ Ungleich float4
 
 [a, b] bis [0, 1]
 
-Boolescher Wert in float1
+Boolesche Wert zu float1
 
 Grad zu Radianten
 
@@ -333,9 +333,9 @@ HCL zu RGB
 
 HSI auf RGB
 
-HSL-Offset
+HSL
 
-HSL auf RGB
+HSL RGB
 
 HSV auf RGB
 
@@ -360,19 +360,19 @@ RGB hue 2 polar
 
 RGB-Farbton sechseckig
 
-RGB Helligkeitsmittel
+RGB Helligkeit Durchschnitt
 
-RGB-Helligkeit Bi-Hexcone
+RGB Helligkeit bihexcone
 
-RGB-Helligkeitshexkon
+RGB Helligkeit Hexcone
 
-RGB Luminanzluma Rec.601
+RGB Helligkeit Luma Rec.601
 
 RGB Luminanzluma Rec.709
 
 RGB-Sättigung HSI
 
-HSL-Sättigung für RGB
+RGB-HSL
 
 HSV-Sättigung für RGB
 
@@ -387,13 +387,13 @@ RGB auf HSL
 
 RGB auf HSV
 
-sRGB zu linear (Luminanz)
+sRGB auf linear (Luminanz)
 
 sRGB auf linear
 
 Temperatur bis RGB
 
-ACES-Tonemapper
+ACE
 
 Agx Tonemapper (ca.)
 
@@ -411,7 +411,7 @@ Hejl Tonemapper
 
 ## Transformation
 
-Kartesisch-Polar
+Kartesische Produkt zu Polar
 
 Richtungs-Versatz
 
@@ -577,7 +577,7 @@ Switch Float4 8 Eingänge
 </td>
 <td style="border: 0;" valign="top">
 
-Ganzzahl-2-Eingänge wechseln
+Ganzzahl 2 Eingänge umschalten
 
 Ganzzahl 4 Eingänge umschalten
 
@@ -595,7 +595,7 @@ Ganzzahl3 4 Eingänge umschalten
 
 Ganzzahl3 8 Eingänge umschalten
 
-Schalter Integer4 2 Eingänge
+Ganzzahl4 2 Eingänge wechseln
 
 Ganzzahl4 4 Eingänge umschalten
 

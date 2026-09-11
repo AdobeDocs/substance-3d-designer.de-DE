@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pin
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 01adf91721f742481a84e22a1fa0c22e5e0de887
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Symbol für Navigationsstift](../../../../assets/graphatomic-pin_1.png "Symbol für Navigationsstift")
+![Symbol für Navigationsstift](navigation-pin.resources/graphatomic-pin_1.png "Symbol für Navigationsstift")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,4 +78,4 @@ Bei jedem Diagrammtyp werden beim Drücken von <b>F2</b> alle Pins in diesem Dia
 
 Die Pins werden im Viewport auf der aktuellen Zoomstufe eingerahmt.
 
-![Pins: Springen zu Pins](../../../../assets/graph-pin_jumping.gif "Pins: Springen zu Pins")
+![Pins: Springen zu Pins](navigation-pin.resources/graph-pin_jumping.gif "Pins: Springen zu Pins")

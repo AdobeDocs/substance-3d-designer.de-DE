@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-albedo-safe-color.html"
 breadcrumb-title: ''
-description: Stellen Sie mithilfe des Knotens "PBR Albedo Safe Color" sicher, dass die Farbbereiche der Albedo für PBR-Materialien physikalisch plausibel sind.
+description: Verwenden Sie den Knoten "PBR Albedo Safe Color", um sicherzustellen, dass die Farbbereiche der Albedo innerhalb physikalisch plausibler Bereiche für PBR-Material liegen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR Albedo Safe Color
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## Beschreibung
 
-Dies ist ein Hilfsknoten, der Korrekturen vornimmt, wenn die Werte &quot;Grundfarbe&quot; oder &quot;Diffus&quot; außerhalb eines akzeptablen, PBR-korrekten Bereichs liegen. Bei der Einstellung &quot;Metallisch&quot; versucht der Knoten auch, Grundfarbwerte basierend auf der Metallic-Intensität zu korrigieren.
+Dies ist ein Hilfsknoten, der Korrekturen vornimmt, wenn die Werte für Grundfarbe oder Diffuse außerhalb eines zulässigen, PBR-korrekten Bereichs liegen. Wenn der Knoten auf &quot;Metallic&quot; festgelegt ist, versucht er auch, die Grundfarbwerte auf der Grundlage der Metallic Intensität zu korrigieren.
 
 Sehen Sie sich auch [PBR BaseColor / Metallic Validate](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-basecolor-metallic/pbr-basecolor-metallic-validate.md) an, um visuelles Feedback dazu zu erhalten, welche Bereiche möglicherweise falsch sind.
 

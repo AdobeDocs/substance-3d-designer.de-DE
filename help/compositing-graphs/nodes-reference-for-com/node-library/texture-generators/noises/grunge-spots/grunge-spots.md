@@ -45,14 +45,14 @@ Der Knoten &quot;**Schmutz Spots**&quot; generiert eine Schmutz-Map, die feinen 
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Gleitend</i> | Passt die Balance zwischen dunklen und hellen Werten an. |
-| <b>Kontrast</b> <i>Gleitend</i> | Passt den Kontrast des Bildes an. |
-| <b>Umkehren</b> <i>Boolescher Wert</i> | Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird. |
-| <b>Quadratische Ausbreitung</b> <i>Boolescher Wert</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+| <b>Saldo</b> <i>Fließkommazahl</i> | Passt die Balance zwischen dunklen und hellen Werten an. |
+| <b>Kontrast</b> <i>Fließkommazahl</i> | Passt den Kontrast des Bildes an. |
+| <b>Umkehren</b> <i>Boolesche Wert</i> | Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird. |
+| <b>Quadratische Ausbreitung</b> <i>Boolesche Wert</i> | Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
 | <b>Erweitert</b> |  |
-| <b>Details</b> <i>Gleitend</i> | Legt fest, wie viele Flecken *verformt* und in feinere Flecken aufgeteilt werden. |
-| <b>Deckung</b> <i>Gleitend</i> | Passt die Abdeckung der Flecken im Bild an. |
-| <b>Deckungskontrast</b> <i>Gleitend</i> | Passt den Kontrast der *Maske* an, die verwendet wird, um die Abdeckung der Flecken im Bild zu steuern. |
+| <b>Details</b> <i>Fließkommazahl</i> | Legt fest, wie viele Flecken *verformt* und in feinere Flecken aufgeteilt werden. |
+| <b>Deckung</b> <i>Fließkommazahl</i> | Passt die Abdeckung der Flecken im Bild an. |
+| <b>Deckungskontrast</b> <i>Fließkommazahl</i> | Passt den Kontrast der *Maske* an, die verwendet wird, um die Abdeckung der Flecken im Bild zu steuern. |
 
 ## Beispiele
 

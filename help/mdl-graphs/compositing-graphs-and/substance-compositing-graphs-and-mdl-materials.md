@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance-Grafiken und MDL-Materialien
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Wenn Sie die Option <b>View ausgaben in 3D View</b> für ein Substance-Diagramm 
 
 Einzelne Texturen aus einem Substance-Graphen können mit einem beliebigen MDL-Materialparameter verbunden werden, der die Texturabtastung unterstützt, unabhängig von der Kennung, indem RMB auf dem Substance-Graphknoten gedrückt und in die 3D-Ansicht gezogen wird. Es wird eine Liste der verfügbaren Samplerverwendungen angezeigt, und Sie können die Zielverwendung für die ausgewählte Textur auswählen.
 
-![Verfügbare MDL-Diagrammeingaben](../../assets/mdl-graph-inputs-samplers.png "Verfügbare MDL-Diagrammeingaben")
+![Verfügbare MDL-Diagrammeingaben](substance-compositing-graphs-and-mdl-materials.resources/mdl-graph-inputs-samplers.png "Verfügbare MDL-Diagrammeingaben")
 
 *Die von einem Substance-Diagramm ausgegebenen Texturen sind mit den exponierten Parametern eines MDL-Diagramms in der 3D-Ansicht verbunden*
 
@@ -48,7 +48,7 @@ Einzelne Texturen aus einem Substance-Graphen können mit einem beliebigen MDL-M
 Substance-Diagramminstanzen können direkt in MDL-platziert werden, indem sie aus dem Bedienfeld <b>Explorer</b> in das MDL-Diagramm gezogen werden. In MDL-Substance können Diagramme aus <b>Substance 3D-Dateien</b> (SBS) und <b>Substance 3D-Asset-Dateien</b> (SBSAR) verwendet werden.
 
 +++Substance aus Substance 3D-Datei (SBS)
-![Substance-Diagramm aus SBS-Datei im MDL-Diagramm](../../assets/mdl-sbs-instance-hl.png "Substance-Diagramm aus SBS-Datei im MDL-Diagramm")
+![Substance-Diagramm aus SBS-Datei im MDL-Diagramm](substance-compositing-graphs-and-mdl-materials.resources/mdl-sbs-instance-hl.png "Substance-Diagramm aus SBS-Datei im MDL-Diagramm")
 
 
 
@@ -57,7 +57,7 @@ Substance-Diagramminstanzen können direkt in MDL-platziert werden, indem sie au
 +++
 
 +++Substance-Diagramm aus Substance 3D-Element (SBSAR)
-![Substance-Diagramm aus SBSAR-Datei im MDL-Diagramm](../../assets/mdl-sbsar-instance-hl.png "Substance-Diagramm aus SBSAR-Datei im MDL-Diagramm")
+![Substance-Diagramm aus SBSAR-Datei im MDL-Diagramm](substance-compositing-graphs-and-mdl-materials.resources/mdl-sbsar-instance-hl.png "Substance-Diagramm aus SBSAR-Datei im MDL-Diagramm")
 
 
 
@@ -65,33 +65,33 @@ Substance-Diagramminstanzen können direkt in MDL-platziert werden, indem sie au
 
 +++
 
-Wenn eine Substance-Grapheninstanz erstellt wird, wird sie als *Knoten* mit den folgenden Funktionen angezeigt:
+Wenn eine Substance-Grapheninstanz erstellt wird, wird sie als *Knoten* mit den folgenden Features angezeigt:
 
-* Eine *-typisierte Ausgabe*-Verbindung für jede Ausgabe des Grafen. Die Ausgabedaten werden wie folgt eingegeben:
+* Ein *-typisierter Ausgabe-*-Connector für jedes der Diagrammausgaben. Die Ausgabedaten werden wie folgt eingegeben:
   * RGBA-Bitmaps: Farbe (variierend)
-  * Graustufen-Bitmaps: Fließkommazahl (variierend)
+  * Graustufen-Bitmaps: Float (variierend)
   * Werte: Mit Werttyp abgleichen (variierend)
-* Eine *Eingabe* vom Typ &quot;UV-Koordinaten&quot;, um die UV-Koordinaten anzugeben, die zum Zuordnen der vom Substance-Graf ausgegebenen Texturen verwendet werden sollen. Wenn keine Verbindung besteht, ist der Standardwert ein klassischer linearer Verlauf von 0-1 in X und Y im UV-Raum.
-* Der Graf ist *mit* gekennzeichnet, und zwar nach der Substance-Knotenbeschriftung - oder der Identifizierung, wenn keine Beschriftung definiert ist - und der ersten Bitmapausgabe als Miniaturansicht.
+* Eine *Eingabe* vom Typ &quot;UV-Koordinaten&quot;, um die UV-Koordinaten anzugeben, die zum Zuordnen der Texturen verwendet werden sollen, die vom Substance-Diagramm ausgegeben werden. Wenn keine Verbindung besteht, ist der Standardwert ein klassischer linearer Verlauf von 0-1 in X und Y im UV-Raum.
+* Der Knoten ist *mit* gekennzeichnet, und zwar nach der Substance-Diagrammbeschriftung - oder der Kennung, wenn keine Beschriftung definiert ist - und der ersten Bitmapausgabe als Miniaturansicht.
 
-Mit den Knoteneigenschaften können Sie *alle dynamischen Eigenschaften* des Substance-Grafen ändern:
+Mit den Knoteneigenschaften können Sie *alle dynamischen Eigenschaften* des Substance-Diagramms ändern:
 
 * Ausgabegröße
 * Zufalls-Startwert
 * Eingabeparameter
 * …
 
-Mit den Knoteneigenschaften können Sie auch Parameter festlegen, die festlegen, wie Texturen im MDL-Material *zugeordnet* werden:
+Mit den Knoteneigenschaften können Sie auch Parameter festlegen, die angeben, wie Texturen im MDL-Material *zugeordnet* werden:
 
 * Kacheln
 * Physische Größe verwenden
 * Normalformat
 * Tangentialraum
 
-Der Ausgang des Substance-Grapheninstanz-Knotens kann mit jedem Knoteneingang des passenden Typs im MDL-Diagramm verbunden sein.
+Der Ausgang des Substance-Graph-Instanzknotens kann mit jedem Knoteneingang des entsprechenden Typs im MDL-Graph verbunden sein.
 
-Beachten Sie, dass das Ändern eines Parameters im Abschnitt <b>SBSBasisparameter</b> das Neuberechnen einer oder mehrerer Substance-Graphausgaben beinhaltet, die das <b>Substance-Engine</b> verwenden und einen *Performance-Overhead* zusätzlich zu den MDL-Diagramm-Berechnungen umfassen. Erwarten Sie einen Leistungseinfluss, wenn *Sie einen Substance-Graf* ändern, der in einem MDL-Diagramm instanziiert wird, das in der 3D-Ansicht angewendet wird.
+Beachten Sie, dass das Ändern eines beliebigen Parameters im Abschnitt <b>SBS Base Parameters</b> das erneute Berechnen eines oder mehrerer Substance-Diagrammausgaben beinhaltet, die das <b>Substance-Modul</b> verwenden und einen *Performance-Overhead* zusätzlich zu den MDL-Diagrammberechnungen beinhalten. Erwarten Sie einen Leistungseinfluss, wenn *ein Substance-Diagramm* geändert wird, das in einem MDL-Diagramm instanziiert wird, das in der 3D-angewendet wurde.
 
 >[!WARNING]
 >
-> Wenn Sie einen Substance-Graf in einem MDL-Diagramm verwenden, müssen beim Exportieren des MDL-Diagramms die Substance-Graphausgaben in Bitmaps Baking geführt werden, die als Texturen exportiert werden, die mit der exportierten MDL-Datei gebündelt sind. Dies bedeutet, dass der Substance-Graf in der exportierten MDL-Datei *verloren* ist.
+> Wenn Sie ein Substance-Diagramm in einem MDL-Diagramm verwenden, müssen beim Exportieren des MDL-Diagramms die Substance-Diagrammausgaben in Bitmaps gesichert werden, die als Texturen exportiert werden, die mit der exportierten MDL--Datei gebündelt sind. Dies bedeutet, dass der Substance-Graph in der exportierten MDL-Datei *verloren* ist.

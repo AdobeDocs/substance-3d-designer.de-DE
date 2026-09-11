@@ -176,11 +176,11 @@ Sie können das *Farbmanagement* aktivieren/deaktivieren und den *Anzeigemodus* 
 ### Library HDRI-Umgebungen
 
 Die mit Designer ausgelieferten HDRI-Umgebungen befinden sich im <b>linearen sRGB</b>-Farbraum.\
-Wenn Sie eine OpenColorIO-Konfiguration verwenden, bei der der lineare Farbraum der Szene *nicht* Linear sRGB ist, z. B. die Konfiguration [ACES](https://acescentral.com/t/getting-started-with-aces/1372), zeigt die Umgebung *falsche Farben* an.
+Wenn Sie eine OpenColorIO verwenden, bei der der lineare Farbraum der Szene *nicht* lineares sRGB ist, z. B. die Konfiguration [ACE](https://acescentral.com/t/getting-started-with-aces/1372), zeigt die Umgebung *falsche Farben* an.
 
-In diesem Fall sollte der Farbraum für Bibliotheks-HDRI-Umgebungen in den Umgebungseigenschaften, die im Menü des Bedienfelds &quot;3D-Ansicht&quot; <b>Umgebung</b> verfügbar sind, auf *manuell* festgelegt werden.
+In diesem Fall sollte der Farbraum für Bibliotheks-HDRI-Umgebungen in den Umgebungseigenschaften, die im Menü des Bedienfelds &quot;3D-Ansichten&quot; <b>Umgebung</b> verfügbar sind, *manuell* festgelegt werden.
 
-![Farbraumeinstellung der 3D-Ansichtsumgebung](color-management.resources/2019-3-0-clr-mgt-hdri-env.png "Farbraumeinstellung der 3D-Ansichtsumgebung"){width="512px"}
+![Farbraumeinstellung der 3D-Ansicht-Umgebung](color-management.resources/2019-3-0-clr-mgt-hdri-env.png "Farbraumeinstellung der 3D-Ansicht-Umgebung"){width="512px"}
 
 ## Farbkonvertierungsknoten
 
@@ -209,7 +209,7 @@ Die [Library](../interface/the-library/the-library.md) enthält die folgenden Kn
 </tr>
 </table>
 
-Diese sind nützlich, wenn Sie mit Diagrammen arbeiten, die *ohne* Farbmanagement erstellt wurden, oder mit Materialien aus der [Substance 3D Assets](https://substance3d.adobe.com/assets)-Bibliothek.
+Diese sind nützlich, wenn Sie mit Grafen arbeiten, die *ohne* Farbmanagement oder Materialien aus der [Substance 3D Assets](https://substance3d.adobe.com/assets)-Bibliothek erstellt haben.
 
 ![Farbkonvertierungsknoten in Bibliothek](color-management.resources/2019-3-0-clr-mgt-nodes.png "Farbkonvertierungsknoten in Bibliothek"){width="512px"}
 
@@ -217,5 +217,5 @@ Diese sind nützlich, wenn Sie mit Diagrammen arbeiten, die *ohne* Farbmanagemen
 
 Die aktuelle Implementierung des Farbmanagements in Substance 3D Designer hat die folgenden Einschränkungen:
 
-* Das Farbmanagement wird derzeit *nicht* in der [Python-API &#x200B;](../scripting/scripting.md) angezeigt.
+* Das Farbmanagement ist derzeit *nicht* in der [Python-API](../scripting/scripting.md) gelegt.
 * [OpenColorIO](https://opencolorio.org/) *Looks* werden *nicht* unterstützt.

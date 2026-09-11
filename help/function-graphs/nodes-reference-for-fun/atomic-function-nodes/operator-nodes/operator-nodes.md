@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/operator-nodes.html"
 breadcrumb-title: ''
-description: Greifen Sie in Substance 3D Designer-Funktionsdiagrammen auf Operatorknoten zu, um mathematische und logische Operationen auszuführen.
+description: Greifen Sie in Substance 3D Designer auf Operatorknoten zu, um mathematische und logische Grafen auszuführen.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Operator
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Benutzerin oder Benutzer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f28a2ba2531cfc4456744ff151432ed8308275ec
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 2%
@@ -20,9 +20,9 @@ ht-degree: 2%
 
 # Operatorknoten
 
-Mit Operatorknoten können Sie klassische mathematische Operationen an Eingabeknoten durchführen:
+Mit Operatorknoten können Sie klassische mathematische Operationen auf Eingabeknoten durchführen:
 
-![](../../../../assets/image2015-12-23-10-55-31.png)
+![](operator-nodes.resources/image2015-12-23-10-55-31.png)
 
 >[!NOTE]
 >

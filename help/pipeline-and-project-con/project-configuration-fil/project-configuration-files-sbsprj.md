@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Projektkonfigurationsdateien - SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Sie sind insofern besonders, als Sie mehrere Projektkonfigurationsdateien verwen
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![SBSPRJ-Dateisymbol](../../assets/sbsprj.png "SBSPRJ-Dateisymbol")
+![SBSPRJ-Dateisymbol](project-configuration-files-sbsprj.resources/sbsprj.png "SBSPRJ-Dateisymbol")
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ Unter Windows ist [Notepad++](https://notepad-plus-plus.org) eine gute kostenlos
 
 Sobald Sie die SBSPRJ-Datei in einem Editor geöffnet haben, sollten Sie ein relativ einfaches strukturiertes Layout sehen, mit Abschnitten, die den Registerkarten in der Benutzeroberfläche entsprechen. Nicht jede Einstellung wird hier dokumentiert, da es ziemlich selbsterklärend ist.
 
-![XML-Bearbeitung](../../assets/project-xml.png "XML-Bearbeitung")
+![XML-Bearbeitung](project-configuration-files-sbsprj.resources/project-xml.png "XML-Bearbeitung")
 
 ## Relative Pfade und Aliasse
 

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools.html"
 breadcrumb-title: ''
-description: Greifen Sie auf alle Spline-Werkzeugknoten zum Erstellen, Bearbeiten und Rendern von Splines in Ihren Substance-Graphen zu.
+description: Greifen Sie auf alle Spline-Toolknoten zum Erstellen, Bearbeiten und Rendern von Splines in Ihren Substance-Grafen zu.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools
 helpx_experience_level: ""
@@ -46,7 +46,7 @@ Sehen Sie sich dieses Tutorial an, um gleich loszulegen:
 
 [Streuung Splines on Splines](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-splines-splines/scatter-splines-on-splines.md)
 
-[2D-Transformation Spline](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md)
+[2D-Spline-Transformieren](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md)
 
 [Spline (Kubisch)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-cubic/spline-cubic.md)
 
@@ -87,9 +87,9 @@ Sehen Sie sich dieses Tutorial an, um gleich loszulegen:
 
 [Spline-Verkrümmung](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md)
 
-[UV-Mapper-Farbe](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md)
+[UV Mapper Color](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md)
 
-[Graustufen für UV Mapper](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-grayscale/uv-mapper-grayscale.md)
+[UV Mapper Graustufen](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-grayscale/uv-mapper-grayscale.md)
 
 </td>
 </tr>

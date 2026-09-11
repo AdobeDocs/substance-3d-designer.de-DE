@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Das Funktionsdiagramm von Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Auf den ersten Blick ähnelt das Substance-Funktionsdiagramm einem Substance-Diagramm und der Arbeitsablauf ist fast der gleiche.
 
-![Substance-Funktionsgraph](../../assets/image2015-12-18-11-29-28.png "Substance-Funktionsgraph")
+![Substance-Funktionsgraph](the-function-graph.resources/image2015-12-18-11-29-28.png "Substance-Funktionsgraph")
 
 ## Navigation ist ähnlich
 
@@ -53,7 +53,7 @@ Die verfügbaren Knoten im Funktionsdiagramm von Substance unterscheiden sich vo
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Substance-Funktionsdiagrammknotenliste &#x200B;](../../assets/image2015-12-18-13-46-55.png "Substance-Funktionsdiagrammknotenliste ")
+![Substance-Funktionsdiagrammknotenliste &#x200B;](the-function-graph.resources/image2015-12-18-13-46-55.png "Substance-Funktionsdiagrammknotenliste ")
 
 </td>
 </tr>
@@ -72,7 +72,7 @@ Beachten Sie außerdem, dass es keinen bestimmten Ausgabeknoten gibt, an den Sie
 </td>
 <td style="border: 0;" valign="top">
 
-Ausgabeknoten des ![Substance-Funktionsdiagramms](../../assets/image2015-12-18-13-49-43.png "Ausgabeknoten des Substance-Funktionsdiagramms")
+Ausgabeknoten des ![Substance-Funktionsdiagramms](the-function-graph.resources/image2015-12-18-13-49-43.png "Ausgabeknoten des Substance-Funktionsdiagramms")
 
 </td>
 </tr>
@@ -82,7 +82,7 @@ Ausgabeknoten des ![Substance-Funktionsdiagramms](../../assets/image2015-12-18-1
 
 Klicken Sie zum Definieren der Ausgabe einfach mit der rechten Maustaste auf den Knoten, der die erwartete Ausgabe generiert, und klicken Sie auf *Als Ausgabeknoten festlegen:*
 
-![Ausgabeknoten definieren](../../assets/setoutputnode.gif "Ausgabeknoten definieren")
+![Ausgabeknoten definieren](the-function-graph.resources/setoutputnode.gif "Ausgabeknoten definieren")
 
 >[!WARNING]
 >
@@ -99,7 +99,7 @@ Wie beim Substance von Graphen können Sie Funktionen importieren, die in einem 
 </td>
 <td style="border: 0;" valign="top">
 
-![Öffnen des referenzierten Substance-Funktionsdiagramms](../../assets/image2017-6-27-10-44-55.png "Öffnen des referenzierten Substance-Funktionsdiagramms")
+![Öffnen des referenzierten Substance-Funktionsdiagramms](the-function-graph.resources/image2017-6-27-10-44-55.png "Öffnen des referenzierten Substance-Funktionsdiagramms")
 
 </td>
 </tr>
@@ -107,4 +107,4 @@ Wie beim Substance von Graphen können Sie Funktionen importieren, die in einem 
 
 Wenn Sie ein SBS mit mehreren Funktionen haben, können Sie es direkt in ein Substance-Funktionsdiagramm ziehen und ablegen und in der angezeigten Liste die Funktion auswählen, die Sie importieren möchten:
 
-![Substance-Funktionsdiagramm aus Paket ablegen](../../assets/sbsdrag.gif "Substance-Funktionsdiagramm aus Paket ablegen")
+![Substance-Funktionsdiagramm aus Paket ablegen](the-function-graph.resources/sbsdrag.gif "Substance-Funktionsdiagramm aus Paket ablegen")

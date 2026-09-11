@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Version 12.3
 
-<b>Substance 3D Designer 12.3</b> hebt die Substance-Modelldiagramme mit der <b>Unterstützung von Untergraphen</b> (oder Diagramminstanzen) sowie der <b> auf ein neues Level. &#39;Sichtbar, wenn&#39; </b>Steuerung für exponierte Parameter und einige <b> neue Knoten</b>, die der Kurven-Edition zugeordnet sind. In dieser Version werden auch zwei neue Bedienfelder (<b>Willkommen </b> und <b>Neue Funktionen</b>) eingeführt, um das Onboarding von Benutzern zu verbessern, sowie einige andere kleinere Funktionen oder Fehlerbehebungen, die unten beschrieben werden.
+<b>Substance 3D Designer 12.3</b> hebt Substance-Modellgrafiken mit der <b>Unterstützung von Untergraphen</b> (oder Grapheninstanzen) sowie der <b> auf ein neues Level. &#39;Sichtbar, wenn&#39; </b>Steuerung für freigelegte Parameter und einige <b> neue Knoten</b>, die der Kurven-Edition zugeordnet sind. In dieser Version werden auch zwei neue Bedienfelder (<b>Willkommen </b> und <b>Neue Funktionen</b>) eingeführt, um das Onboarding von Benutzern zu verbessern, sowie einige andere kleinere Funktionen oder Fehlerbehebungen, die unten beschrieben werden.
 
 Freigabedatum: *6. Oktober 2022*
 
@@ -28,43 +28,43 @@ Freigabedatum: *6. Oktober 2022*
 
 ## Wichtigste Funktionen
 
-### Unterstützung von Diagramminstanzen in Substance-Modelldiagrammen
+### Unterstützung von Grapheninstanzen in Substance-Modelldiagrammen
 
-Wenn Sie es gewohnt sind, Graphen zu erstellen, möchten Sie in der Lage sein, Untergraph (oder Graphinstanzen) zu erstellen, um Ihre Arbeit wiederzuverwenden, Graphen weniger überladen und effizienter zu gestalten.\
-Dies ist jetzt auch für Substance-Modellgrafiken möglich: Ziehe den Untergraph einfach aus dem Explorer in das Hauptdiagramm, um ihn als Instanzknoten zu verwenden.
+Wenn Sie es gewohnt sind, Graf zu erstellen, möchten Sie in der Lage sein, Untergraph (oder Grapheninstanzen) zu erstellen, um Ihre Arbeit wiederzuverwenden, Graf übersichtlicher zu gestalten und effizienter zu arbeiten.\
+Dies ist jetzt auch für Substance-Modelldiagramme möglich: Ziehe deinen Untergraph einfach per Drag &amp; Drop vom Explorer auf deinen Haupt-Graf, um ihn als Instanzknoten zu verwenden.
 
 ![](../../assets/subgraph.gif){width="600px"}
 
-Wir haben auch das Konzept der Ausgabeknoten für Substance-Modellgrafiken eingeführt, wie z. B. Ausgabeszene. Sie haben jetzt die Möglichkeit, einen oder mehrere Ausgänge in Ihrem Diagramm zu haben.\
-Jede Ausgabe entspricht einem Ausgabepin, wenn Ihr Diagramm in einem anderen Diagramm instanziiert wird.
+Wir haben auch das Konzept von Ausgabeknoten für Substance-Modellgrafiken eingeführt, z. B. &quot;Ausgabe-Szene&quot;. Sie haben jetzt die Möglichkeit, einen oder mehrere Ausgänge in Ihrem Graf zu haben.\
+Jede Ausgabe entspricht einer Ausgabe-Nadel, wenn Ihr Graf in einem anderen Graf instanziieren wird.
 
 ![](../../assets/image2022-10-4-15-31-27.png){width="600px"}
 
-Wenn Sie mit der rechten Maustaste auf einen Instanzknoten klicken, können Sie natürlich auf den zugehörigen referenzierten Untergraph zugreifen, um diesen anzuzeigen oder zu bearbeiten.
+Wenn Sie mit der rechten Maustaste auf einen Instanzknoten klicken, können Sie natürlich auf den referenzierten Untergraph zugreifen, um ihn anzuzeigen oder zu bearbeiten.
 
 ![](../../assets/image2022-10-4-16-28-36.png){width="600px"}
 
-Mithilfe von Untergraphen und angezeigten Parametern können Sie komplexe Elemente erstellen und unendliche Variationen anwenden, wie in der Abbildung unten gezeigt.
+Dank Untergraphen und freigelegten Parametern können Sie komplexe Elemente erstellen und unendliche Variationen anwenden, wie in der Abbildung unten gezeigt.
 
 ![](../../assets/seasons.gif){width="600px"}
 
-### Weitere Verbesserungen für Substance-Modellgrafiken
+### Weitere Verbesserungen an Diagrammen für Substance-Modelle
 
-* <b>Sichtbar, wenn für verfügbar gemachte Parameter</b>\
-  Beim Anzeigen von Parametern können Sie die Parameter basierend auf dem Status anderer Parameter ein- oder ausblenden. Ein Schieberegler wird beispielsweise nur angezeigt, wenn eine Schaltfläche aktiviert ist.\
-  Mit <b>Visible If</b> können Sie Bedingungen zur Parametersichtbarkeit hinzufügen, wobei eine klare und funktionale Benutzeroberfläche erhalten bleibt. Dieser Mechanismus, der bereits für Substance-Graphen verfügbar ist, wird nun auf Substance-Modellgraphen erweitert, wobei natürlich die gleiche Syntax verwendet wird. <b>\
+* <b>Sichtbar, wenn für freigelegte Parameter</b>\
+  Beim leg von Parametern können Sie diese abhängig vom Status anderer Parameter ein- oder ausblenden. Ein Schieberegler wird beispielsweise nur angezeigt, wenn eine Schaltfläche aktiviert ist.\
+  Mit <b>Visible If</b> können Sie Bedingungen zur Parametersichtbarkeit hinzufügen, wobei eine klare und funktionale Benutzeroberfläche erhalten bleibt. Dieser Mechanismus, der bereits für Substance-Graf verfügbar ist, wurde nun auf Substance-Modellgrafiken erweitert, wobei natürlich dieselbe Syntax verwendet wird. <b>\
   </b>
 
   ![](../../assets/visibleif.gif){width="600px"}
 
 * <b>Neue Knoten für die Kurven-Edition\
-  </b>Diese Version enthält einige neue Knoten für die Kurven-Edition: <b>Kurve umkehren</b> tauscht die beiden Enden einer Kurve aus, <b>Kurve unterteilen</b> fügt weitere Scheitelpunkte auf Segmenten nach zwei Methoden hinzu, <b>Kurve glätten </b> alle Winkel auf einer 2D-Kurve glättet und <b>Kurve verschieben</b> bläst eine 2D-Kurve auf oder entleert sie, wie unten dargestellt.<b>
+  </b>Diese Version enthält einige neue Knoten für die Kurven-Edition: <b>Kurve umkehren</b> tauscht die beiden Enden einer Kurve aus, <b>Gradationskurve unterteilen</b> fügt weitere Scheitelpunkt zu Segmenten hinzu, und zwar nach zwei Methoden: <b>Gradationskurve </b> glättet alle Winkel auf einer 2D-Kurve und <b>Kurve verschieben</b> bläst eine 2D-Kurve auf oder entleert sie, wie unten dargestellt.<b>
 
   </b>
 
   ![](../../assets/curve-offset-4.gif){width="600px"}
-* <b>Neues Diagrammfenster </b>\
-  Das Fenster &quot;<b>Neues Substance-Modelldiagramm</b>&quot; ist jetzt auch für Substance-Modelldiagramme verfügbar. Sie können Ihre eigenen Vorlagen hinzufügen oder eine Standardvorlage auswählen, dann geben Sie direkt den Namen Ihres Diagramms ein und wählen das Paket aus, dem das Diagramm hinzugefügt werden soll.
+* <b>Neues Graf-Fenster </b>\
+  Das Fenster &quot;<b>Neues Substance-Modelldiagramm</b>&quot; ist jetzt auch für Substance-Modelldiagramme verfügbar. Sie können eigene Vorlagen hinzufügen oder eine Standardvorlage auswählen, dann direkt den Namen Ihres Grafen eingeben und das Paket auswählen, dem der Graf hinzugefügt wird.
 
   ![](../../assets/image2022-10-5-15-25-42.png){width="600px"}
 
@@ -82,8 +82,8 @@ Diese beiden Bereiche sind auch über das Menü &quot;Hilfe&quot; zugänglich.
 
 ### Sonstiges
 
-* <b>Zwei Schaltflächen-Widget für verfügbar gemachte boolesche Parameter</b>\
-  Sie haben jetzt eine neue Möglichkeit, boolesche Parameter in einem Substance-Diagramm darzustellen. Zusätzlich zur Schaltfläche &quot;Wechseln&quot; können Sie <b>Schaltflächen nebeneinander</b> mit benutzerdefinierten Texten verwenden, um die beiden verschiedenen Modi, die durch den booleschen Parameter gesteuert werden, besser sichtbar zu machen.
+* <b>Zwei Schaltflächen-Widget für gelegt boolesche Parameter</b>\
+  Sie haben jetzt eine neue Möglichkeit, boolesche Parameter in einem Substance-Graf legen. Zusätzlich zur Schaltfläche &quot;Wechseln&quot; können Sie <b>Schaltflächen nebeneinander</b> mit benutzerdefinierten Texten verwenden, um die beiden verschiedenen Modi, die durch den booleschen Parameter gesteuert werden, besser sichtbar zu machen.
 * <b>Skalierungsprobleme für HD-Bildschirme lösen </b>\
   In früheren Versionen konnte Designer den im Betriebssystem festgelegten Skalierungsfaktor nicht korrekt verarbeiten. Wie Sie in der Abbildung unten sehen können, ist alles perfekt verwaltet auf einem 4K-Display mit 125 % Skalierung mit allen Schriften und Tasten in einer kohärenten Größe angezeigt.\
   Beachten Sie, dass die Option &quot;High DPI deaktivieren&quot; in den Voreinstellungen in dieser neuen Version auf *False* zurückgesetzt wurde, da diese Option nicht mehr erforderlich ist, um über eine verwendbare Schnittstelle zu verfügen.
@@ -103,38 +103,38 @@ Diese beiden Bereiche sind auch über das Menü &quot;Hilfe&quot; zugänglich.
 
 * [Allgemein] Onboarding-Bereich zur Aufnahme neuer Benutzer
 * [Allgemein] Neues Fenster zur Verbesserung der Auffindbarkeit neuer Funktionen
-* [Substance-Modell] Unterstützung von Unterdiagrammen und Instanzen
-* [Substance-Modell] Unterstützung von &quot;Sichtbar wenn&quot; für exponierte Parameter
+* [Substance-Modell] Unterstützung von untergeordneten Grafen und Instanzen
+* [Substance-Modell] Unterstützung für freigelegte Parameter sichtbar, wenn
 * [Substance-Modell] Hinzufügen von Unterstützung für Ausgabeknoten
 * [Substance-Modell] Kurvenversatzknoten
 * [Substance-Modell] Kurvenwiederherstellungsknoten
 * [Substance-Modell] Kurvenglättungsknoten
 * [Substance-Modell] Unterteilungsknoten für Kurven
 * [Substance-Modell] Graft-Knoten
-* [Substance-Modell] Knoten &quot;Filterszene&quot; aktualisieren
-* [Substance-Modell] Erkennen von nicht atomaren Knoten im Knotenmenü
-* [Substance-Modell] Fügen Sie die Aktion &quot;Open Reference&quot; im Kontextmenü eines Instanzknotens hinzu.
+* [Substance-Modell] Knoten &quot;Szene filtern&quot; aktualisieren
+* [Substance-Modell] Nicht-elementare Knoten im Knotenmenü sichtbar machen
+* [Substance-Modell] Fügen Sie die Aktion &quot;Verweis öffnen&quot; im Kontextmenü eines Instanzknotens hinzu
 * [Substance-Modell] Hinzufügen einer &quot;View in 3DView&quot;-Aktion im Kontextmenü von Knoten, die an 3DView gesendet werden können
-* [Substance-Modell] Zeigt automatisch die Eigenschaften eines Knotens an, nachdem er verfügbar gemacht wurde.
+* [Substance-Modell] Zeigt automatisch die Eigenschaften eines Knotens an, nachdem er gelegt wurde
 * [Substance-Modell] Fenster &quot;Neues Substance-Modelldiagramm&quot; mit Vorlagenliste erstellen
-* [UI] Verbessern der Konsistenz von Bildspeicheroptionen in der 2D- und 3D-Ansicht
+* [UI] Verbessern der Konsistenz von Bildspeicheroptionen in 2D-Ansicht und 3D-Ansicht
 * [UI] Benennen Sie &quot;Link > 3D-Mesh&quot; im Kontextmenü des Explorers in &quot;Link > 3D-Szene&quot; um.
 * [UI] Layout zurücksetzen wird jetzt auf alle schwebenden Fenster angewendet
-* [UI] Verwenden Sie die Beschriftung &quot;Ausgaben in 3D-Ansicht anzeigen&quot; in Kontextmenüs für Diagramme
-* [Library] Unterstützung von nicht-atomaren Substance-Modellgrafiken
-* [SBSAR] Beschreibung der Support Graph-Ausgaben im SBSAR
-* [Shader] Setzen Sie den Standardwert für den Tesselierungsfaktor für alle Shader auf 1.
-* [UI] Anzeige des Widgets &quot;2 Schaltflächen&quot; für boolesche Parameter
+* [UI] Verwenden Sie die Beschriftung &quot;Ausgaben in 3D-Ansicht anzeigen&quot; in Kontextmenüs für Graf
+* [Library] Unterstützung von nicht atomaren Substance-Modelldiagrammen
+* [SBSAR] Beschreibung der Support-Graphausgaben im SBSAR
+* [Shader] Stellen Sie den Standardwert für den Tessellation-Faktor für alle Shader auf 1 ein.
+* [UI] Leg des Widgets &quot;2 Schaltflächen&quot; für boolesche Parameter
 * [Engine] Update auf Version 8.6.4
 * [Steam] Optimierter Build für Apple Silicon Chipsatz (Apple M1 / M2)
 
 **Fest:**
 
 * [UI] Beheben von Skalierungsproblemen für Bildschirme mit hoher DPI
-* [UI] &#39;$(udim)&#39;-Vorlage fehlt in der Liste im Backing-Fenster
-* [UI] Absturz bei Anzeige des Knotenmenüs am rechten Rand des Bildschirms (nur macOS)
+* [UI] &#39;$(udim)&#39;-Vorlage fehlt in der Liste im Baking-Fenster
+* [UI] Absturz bei der Anzeige des Knotenmenüs am rechten Rand des Bildschirms (nur macOS)
 * [UI] Erweiterungsschaltfläche im Menü &quot;3D-Ansicht&quot; ist nicht sichtbar
-* [UI] Erweiterungsmenü der Diagrammsymbolleiste ist unvollständig
+* [UI] Erweiterungsmenü der Graf-Symbolleiste ist unvollständig
 * [UI] Falscher Parameter-Widget-Wert nach Rückgängigmachen der Aktivierung des harten Bereichs
 * [3D-Ansicht] Die nicht standardmäßige Shader-Einstellung geht auf dem Iran von einer Sitzung zu einer anderen verloren
 * [Bäcker] Absturz beim Laden des Backfensters mit einer Szene ohne Gitter

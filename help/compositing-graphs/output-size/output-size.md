@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ausgabegröße
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 5%
@@ -28,7 +28,7 @@ Es ist der erste der <b>Basisparameter</b> eines Diagramms und zusammen mit dem 
 
 >[!NOTE]
 >
-> Verwenden Sie die Sperrschaltfläche &quot;![](../../assets/props-output-size-lock.jpg)&quot;, damit der Wert für das Height &quot;*&quot; mit dem Wert für die Breite übereinstimmt*.
+> Verwenden Sie die Sperrschaltfläche &quot;![](output-size.resources/props-output-size-lock.jpg)&quot;, damit der Wert für das Height &quot;*&quot; mit dem Wert für die Breite übereinstimmt*.
 
 <table>
 <tr style="border: 0;">
@@ -98,16 +98,16 @@ In den meisten Fällen ist die standardmäßige [-Vererbungsmethode &#x200B;](..
 
 Zeigen Sie die Eigenschaften eines Knotens oder Diagramms an, indem Sie auf dieses Element klicken. Suchen Sie dann im Bereich [Eigenschaften](../../interface/properties/properties.md) die Eigenschaft <b>Ausgabegröße</b> im Abschnitt <b>Basisparameter</b>. Wählen Sie im Dropdown-Menü Vererbungsmethode die gewünschte Vererbungsmethode aus.
 
-![Vererbungsmethode für Ausgabegröße](../../assets/change-mode.gif "Vererbungsmethode für Ausgabegröße"){width="512px"}
+![Vererbungsmethode für Ausgabegröße](output-size.resources/change-mode.gif "Vererbungsmethode für Ausgabegröße"){width="512px"}
 
 ## Beispielprobleme
 
 Wenn Sie ein neuer [Adobe Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html)-Benutzer sind, treten möglicherweise einige häufige Probleme auf. Im Folgenden finden Sie einige Beispiele sowie Lösungen.
 
 +++Problem 1
-**![(Fehler)](../../assets/error.svg) Problem**
+**![(Fehler)](output-size.resources/error.svg) Problem**
 
-![Beispielproblem 1](../../assets/problem2-bad.png "Beispielproblem 1")
+![Beispielproblem 1](output-size.resources/problem2-bad.png "Beispielproblem 1")
 
 
 
@@ -115,9 +115,9 @@ Die Einstellung **Übergeordnete Größe** ist *ausgegraut*, und das Diagramm ve
 
 In den Eigenschaften des Diagramms wurde die Vererbungsmethode der Eigenschaft &quot;Ausgabegröße&quot; auf *Absolut* festgelegt, wodurch die Vererbung zu Gunsten eines beliebigen Werts beendet wird.
 
-**![(tick)](../../assets/check.svg) Lösung**
+**![(tick)](output-size.resources/check.svg) Lösung**
 
-![Beispielproblem 1 Lösung](../../assets/problem2-good.png "Beispielproblem 1 Lösung")
+![Beispielproblem 1 Lösung](output-size.resources/problem2-good.png "Beispielproblem 1 Lösung")
 
 
 
@@ -126,9 +126,9 @@ Legen Sie die Vererbungsmethode für die Ausgabegröße des Diagramms auf *Relat
 +++
 
 +++Problem 2
-**![(Fehler)](../../assets/error.svg) Problem**
+**![(Fehler)](output-size.resources/error.svg) Problem**
 
-![Beispielproblem 2](../../assets/problem1-bad.png "Beispielproblem 2")
+![Beispielproblem 2](output-size.resources/problem1-bad.png "Beispielproblem 2")
 
 
 
@@ -136,9 +136,9 @@ Oben sehen Sie einen Fall, in dem die Ausgabe eines Diagramms zu einer anderen A
 
 Das Problem stammt vom Knoten [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md). Standardmäßig wird die *Absolute*-Vererbungsmethode verwendet und 512\*512 als Auflösung basierend auf der [Bitmapressource](../../resources/bitmap-resource/bitmap-resource.md) ausgewählt. Der mit ihm verbundene Knoten ist auf &quot;*Relativ zur Eingabe &quot;*&quot; festgelegt und erbt daher seine Ausgabegröße vom Bitmapknoten.
 
-**![(tick)](../../assets/check.svg) Lösung**
+**![(tick)](output-size.resources/check.svg) Lösung**
 
-![Beispielproblem 2 Lösung](../../assets/problem1-good.png "Beispielproblem 2 Lösung")
+![Beispielproblem 2 Lösung](output-size.resources/problem1-good.png "Beispielproblem 2 Lösung")
 
 
 
@@ -147,9 +147,9 @@ Legen Sie die Vererbungsmethode der Ausgabegröße des Bitmapknotens auf *Relati
 +++
 
 +++Problem 3
-**![(Fehler)](../../assets/error.svg) Problem**
+**![(Fehler)](output-size.resources/error.svg) Problem**
 
-![Beispielproblem 3](../../assets/problem3-bad.png "Beispielproblem 3")
+![Beispielproblem 3](output-size.resources/problem3-bad.png "Beispielproblem 3")
 
 
 
@@ -157,9 +157,9 @@ Oben sehen Sie ein Problem, bei dem die Auflösung in der Mitte der Kette viel h
 
 Das Problem wird durch einen relativen Modifizierer von 3 auf dem Knoten [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) verursacht, wodurch die Ausgabe achtmal größer wird.
 
-**![(tick)](../../assets/check.svg) Lösung**
+**![(tick)](output-size.resources/check.svg) Lösung**
 
-![Beispielproblem 3 Lösung](../../assets/problem3-good.png "Beispielproblem 3 Lösung")
+![Beispielproblem 3 Lösung](output-size.resources/problem3-good.png "Beispielproblem 3 Lösung")
 
 
 

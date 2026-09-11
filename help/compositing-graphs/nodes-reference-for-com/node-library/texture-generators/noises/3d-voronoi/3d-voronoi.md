@@ -43,7 +43,7 @@ Dieser Knoten kann mit [Cube 3D GBuffers](../../../../../../compositing-graphs/n
 
 >[!WARNING]
 >
-> Dieses Geräusch soll nur mit dem <i>GPU-Modul verwendet werden</i> (d. h. <b>Direct3D</b> oder <b>OpenGL</b>). Wechseln Sie zu <b>Extras > Modul wechseln...</b> oder drücken Sie die Taste <b>F9</b>, um das gewünschte Modul auszuwählen.
+> Diese Rauschen ist nur für das <i>GPU-Engine </i> (d. h. <b>Direct3D</b> oder <b>OpenGL</b>) vorgesehen. Wechseln Sie zu <b>Extras > Engine wechseln...</b> oder drücken Sie die Taste <b>F9</b>, um das gewünschte Engine auszuwählen.
 
 <a name="parameters"></a>
 
@@ -51,11 +51,11 @@ Dieser Knoten kann mit [Cube 3D GBuffers](../../../../../../compositing-graphs/n
 
 |  |  |
 |:---|:---|
-| <b>Umkehren</b> <i>Boolescher Wert</i> | Kehrt das Ausgabebild um. |
-| <b>Skalierung</b> <i>Gleitend</i> | Steuert die Skalierung der 3D-Voronoi-Rauschen.<br><br><i>Hinweis</i>: Wenn <b>Kacheln</b> auf <i>einer Achse</i> aktiviert ist, ist die Skalenanpassung <i>gestuft</i>. Dies wird erwartet. |
-| <b>Größe</b> <i>Float3</i> | Steuert die Größe der 3D-Voronoi-Rauschen in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b>. Nicht einheitliche Werte führen zu einem <i>dehnend oder auslöschenden </i>-Effekt.<br><br><i>Hinweis</i>: Wenn <b>Kachelung</b> für <i>eine beliebige Achse</i> aktiviert ist, ist die Größenanpassung <i>schrittweise</i>. Dies wird erwartet. |
-| <b>Offset</b> <i>Float3</i> | Wendet einen Offset auf die <i>Position</i> der 3D-Voronoi-Rauschen in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b> an. |
-| <b>Störung</b> <i>Float3</i> | Die Intensität des <i>zufälligen Versatzes</i>, der auf jeden Punkt des Rauschens in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b> angewendet wird. |
+| <b>Umkehren</b> <i>Boolesche Wert</i> | Kehrt das Ausgabebild um. |
+| <b>Skalierung</b> <i>Fließkommazahl</i> | Steuert die Skalierung der 3D-Voronoi-Rauschen.<br><br><i>Hinweis</i>: Wenn <b>Kachelung</b> für <i>eine beliebige Achse</i> aktiviert ist, ist die Skalierungsanpassung <i>schrittweise</i>. Dies wird erwartet. |
+| <b>Größe</b> <i>Fließkommazahl3</i> | Steuert die Größe der 3D-Voronoi-Rauschen in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b>. Nicht einheitliche Werte führen zu einem <i>dehnend oder auslöschenden </i>-Effekt.<br><br><i>Hinweis</i>: Wenn <b>Kachelung</b> für <i>eine beliebige Achse</i> aktiviert ist, ist die Größenanpassung <i>schrittweise</i>. Dies wird erwartet. |
+| <b>Offset</b> <i>Fließkommazahl3</i> | Wendet einen Offset auf die <i>Position</i> der 3D-Voronoi-Rauschen in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b> an. |
+| <b>Störung</b> <i>Fließkommazahl3</i> | Die Intensität des <i>zufälligen Versatzes</i>, der auf jeden Punkt des Rauschens in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b> angewendet wird. |
 | <b>Intensität der Verzerrung</b> <i>Gleitend</i> | Steuert die Intensität eines <i>Verkrümmungseffekts</i>, der auf das 3D-Voronoi-Rauschen angewendet wird. |
 | <b>Verzerrungen-Skalierungsmultiplikator</b> <i>Gleitend</i> | Steuert die Skalierung des <i>sich verformenden Musters</i>, das im Verkrümmungseffekt verwendet wird, der durch die <b>Intensität der Verzerrung</b> gesteuert wird. |
 | <b>Abgerundete Kurve</b> <i>Gleitend</i> | Rundet die <i>Steigung</i> um jeden Punkt der Rauschen, um sie <i>konvex</i> zu machen.<br><br><i>Hinweis</i>: Dieser Parameter ist nicht verfügbar, wenn der <b>Style</b>-Parameter auf <i>Edge</i> festgelegt ist. |

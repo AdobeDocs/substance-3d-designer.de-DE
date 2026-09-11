@@ -102,7 +102,7 @@ Dies bedeutet, dass ein Graustufen-Konvertierungsknoten im Allgemeinen nur für 
 | --- | --- |
 | <b>Eingabe</b> *Farbe* PRIMÄR | Das zu verarbeitende Farbbild. |
 
-## Ausgabe-Verbindungen
+## Ausgangsanschlüsse
 
 |  |  |
 | --- | --- |

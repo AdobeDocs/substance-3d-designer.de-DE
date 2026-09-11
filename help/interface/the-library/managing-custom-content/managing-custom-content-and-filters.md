@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Verwalten benutzerdefinierter Inhalte und Filter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Benutzerdefinierte Kategorien und Filter können *projektspezifisch* sein und in
 
 Das bedeutet, dass Sie mit einer oder mehreren Projektdateien die Ordner festlegen können, welche Inhalte der <b>Bibliothek</b> hinzugefügt werden sollen, sowie die Kategorien und Filter, die diese Inhalte sortieren und organisieren.
 
-![Benutzerdefinierter Inhalt in Bibliothek](../../../assets/library-filters.png "Benutzerdefinierter Inhalt in Bibliothek")
+![Benutzerdefinierter Inhalt in Bibliothek](managing-custom-content-and-filters.resources/library-filters.png "Benutzerdefinierter Inhalt in Bibliothek")
 
 ## Diagrammattribute
 
@@ -57,11 +57,11 @@ Filter sind einfache boolesche (True/False) Suchparameter, die dazu führen, das
 
 Kategorien (d. h. Ordner) und Filter werden mithilfe der folgenden Schaltflächen erstellt und bearbeitet:
 
-<b>![](../../../assets/library-icon-new-folder.png) Ordner hinzufügen: </b> Erstellt einen erweiterbaren Ordner in der Bibliotheksansicht. *kann keine Unterordner erstellen*.
+<b>![](managing-custom-content-and-filters.resources/library-icon-new-folder.png) Ordner hinzufügen: </b> Erstellt einen erweiterbaren Ordner in der Bibliotheksansicht. *kann keine Unterordner erstellen*.
 
-<b>![](../../../assets/library-icon-new-filter.png) Filter hinzufügen: </b> Fügt einen neuen Filter im ausgewählten Ordner hinzu. *kann* den vorhandenen Standardordnern keine Filter hinzufügen.
+<b>![](managing-custom-content-and-filters.resources/library-icon-new-filter.png) Filter hinzufügen: </b> Fügt einen neuen Filter im ausgewählten Ordner hinzu. *kann* den vorhandenen Standardordnern keine Filter hinzufügen.
 
-<b>![](../../../assets/library-icon-edit.png) Element bearbeiten: </b> Bearbeitet den aktuell ausgewählten Ordner oder Filter. *kann keine der Eigenschaften der Standardordner und -filter* bearbeiten.
+<b>![](managing-custom-content-and-filters.resources/library-icon-edit.png) Element bearbeiten: </b> Bearbeitet den aktuell ausgewählten Ordner oder Filter. *kann keine der Eigenschaften der Standardordner und -filter* bearbeiten.
 
 Um *einen Ordner oder Filter zu entfernen*, *klicken Sie mit der rechten Maustaste* darauf und wählen Sie im Kontextmenü die Option <b>Entfernen</b>.
 
@@ -76,11 +76,11 @@ Um *einen Ordner oder Filter zu entfernen*, *klicken Sie mit der rechten Maustas
 >
 > Es ist *sehr* wichtig, diese korrekt einzurichten, um sicherzustellen, dass Sie das *richtige Projekt bearbeiten*!
 
-![Edition für benutzerdefinierte Filter](../../../assets/library-filters-edit.png "Edition für benutzerdefinierte Filter")
+![Edition für benutzerdefinierte Filter](managing-custom-content-and-filters.resources/library-filters-edit.png "Edition für benutzerdefinierte Filter")
 
-Für **Filter** müssen in der Regel *Bedingungen* eingerichtet sein, um ihren Filterzweck zu erreichen. Diese Bedingungen werden anhand der folgenden Kriterien konfiguriert:
+**Filter** müssen in der Regel *Bedingungen* einrichten, um ihren Zweck für die Filterung zu erreichen. Diese Bedingungen werden anhand der folgenden Kriterien konfiguriert:
 
-* **Ressourcentyp**: legt einen bestimmten [Ressourcentyp](../../../resources/resources.md) fest, z. B. [Diagramme](../../../compositing-graphs/substance-compositing-graphs.md)
+* **Ressourcentyp**: legt einen bestimmten [Ressourcentyp](../../../resources/resources.md) fest, z. B. [Graf](../../../compositing-graphs/substance-compositing-graphs.md)
 * **Attribut**, auf das die Bedingung angewendet werden soll - siehe Liste oben
 * **Bedingungslogik**: lässt den Filter Ergebnisse mit positiven, negativen, partiellen und ganzen Übereinstimmungen einschließen
 * **Bedingungsschlüsselwort:** die Zeichenfolge, mit der die **Attribute**- und **Bedingungslogik**-Kriterien getestet werden. Wenn dieses Feld leer bleibt, werden alle Ressourcen einbezogen, die diesen beiden Kriterien entsprechen.

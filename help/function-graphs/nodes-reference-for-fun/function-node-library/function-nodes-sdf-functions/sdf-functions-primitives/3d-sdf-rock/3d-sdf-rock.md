@@ -40,10 +40,10 @@ Eine SDF-Funktion für eine parametrische und randomisierbare Gesteinsform, die 
 
 |  |  |
 | :--- | :--- |
-| <b>Max. facets</b> *Integer* | Die maximale Anzahl der Facetten des Felsens (bis zu 32).<br><br><i>Standard: 8</i> |
+| <b>Max. facets</b> *Ganzzahl* | Die maximale Anzahl der Facetten des Felsens (bis zu 32).<br><br><i>Standard: 8</i> |
 | <b>Smoothness</b> *Gleitend* | Der Radius der abgerundeten Bögen, die auf die Felskanten angewendet werden.<br><br><i>Standard: 0</i> |
-| <b>Zufälligkeit</b> *Gleitend* | Zittert die Ausrichtung der Gesichter und den Abstand zur Mitte.<br>Daher führen größere Werte zu einem kleineren Felsen.<br><br><i>Standard: 0</i> |
-| <b>Seed</b> *Gleitend* | Seed für den Parameter <b>Zufälligkeit</b>.<br><br><i>Standard: 0</i> |
-| <b>Skalierung</b> *Gleitend* | Globale Skalierung der Gesteinsform.<br>Angewendet nach <b>Zufälligkeit</b> und vor <b>Smoothness</b>.<br><br><i>Standard: 0,5</i> |
-| <b>Mittenposition</b> *Float3* | Die Weltraumposition des Drehpunkts des Felsens.<br><br><i>Standard: (0, 0, 0.5)</i> |
-| <b>P</b> *Float3* | Die veränderte Weltraumposition. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><i>Standard: Die nicht transformierte Weltraumposition.</i> |
+| <b>Zufälligkeit</b> *Gleitend* | Jitter die Ausrichtung der Fläche und den Abstand zum Mittelpunkt.<br>Daher führen größere Werte zu einem kleineren Felsen.<br><br><i>Standard: 0</i> |
+| <b>Seed</b> *Fließkommazahl* | Seed für den Parameter <b>Zufälligkeit</b>.<br><br><i>Standard: 0</i> |
+| <b>Skalierung</b> *Fließkommazahl* | Globale Skalierung der Gesteinsform.<br>Angewendet nach <b>Zufälligkeit</b> und vor <b>Smoothness</b>.<br><br><i>Standard: 0,5</i> |
+| <b>Mittenposition</b> *Float3* | Die Position des Welt-Raums des Drehpunkts des Felsens.<br><br><i>Standard: (0, 0, 0.5)</i> |
+| <b>P</b> *Float3* | Die transformieren Position des Welt-Raums. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><i>Standard: Die nicht transformierte Weltraumposition.</i> |

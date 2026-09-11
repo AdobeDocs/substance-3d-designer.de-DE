@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/uber-emboss.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Uber-Relief, um erweiterte Reliefeffekte mit anpassbaren Steuerelementen für Tiefe, Winkel und Beleuchtung zu erstellen.
+description: Verwenden Sie den Knoten Uber Relief, um erweiterte Relief-Effekte mit anpassbaren Steuerelementen für Tiefe, Winkel und Beleuchtung zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Uber Emboss
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Uber Relief
+title: Uber-Relief
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 67f8f59bf50387b87e9009b042f269208c665c65
@@ -18,7 +18,7 @@ ht-degree: 9%
 ---
 
 
-# Uber Relief
+# Uber-Relief
 
 <table>
 <tr style="border: 0;">
@@ -33,9 +33,9 @@ ht-degree: 9%
 
 ## Beschreibung
 
-Erweiterte, funktionsreiche Version von [Relief](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md). Führt einen aufwändigen gefälschten 2D-Beleuchtungseffekt auf der Grundlage einer Höhenkarte durch.
+Erweiterte, funktionsreiche Version von [Relief](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md) Führt einen aufwändigen gefälschten 2D-Beleuchtungseffekt auf der Grundlage einer Höhenkarte durch.
 
-Nützlich, wenn du bei bestimmten Texturierungs-Stilen eine Beleuchtung einbauen möchtest, die du nicht brauchst, aber viel Kontrolle erfordert.
+Nützlich, wenn du eine Baking geführt Beleuchtung für bestimmte Texturierungs-Stile erstellen möchtest, bei denen viel Kontrolle erforderlich ist.
 
 </td>
 </tr>

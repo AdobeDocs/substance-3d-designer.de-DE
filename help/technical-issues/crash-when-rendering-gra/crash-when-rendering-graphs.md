@@ -20,7 +20,7 @@ ht-degree: 3%
 
 # Absturz beim Rendern von Graphen
 
-Auf dieser Seite werden Absturz aufgelistet, die während des Graf-Rendering-Prozesses in Substance 3D Designer auftreten, und es werden für jeden dieser Fehler entsprechende Schritte zur Fehlerbehebung angezeigt.
+Auf dieser Seite werden Abstürze aufgelistet, die während des Renderings von Diagrammen in Substance 3D Designer auftreten, und es werden Schritte zur Fehlerbehebung für die einzelnen Diagramme angeboten.
 
 ## TDR (nur Windows)
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
 breadcrumb-title: ''
 description: Mit dem Knoten "Pfadevorschau" können Sie Pfaddaten in den 2D-Ansichten für das Debuggen und die Überprüfung anzeigen.
 helpx_creative_field: ""
@@ -56,9 +56,9 @@ Sie erhalten ein ähnliches Ergebnis wie die <b>Vorschau</b>-Ausgabe der [Maske 
 
 |  |  |
 |:---|:---|
-| <b>Ecken anzeigen</b> <i>Boolesche Wert</i> | Zeigt auf jedem Scheitelpunkt ein Quadrat an, das als Ecke markiert ist (additive Überblendung). |
-| <b>Scheitelpunkt anzeigen</b> <i>Boolesche Wert</i> | Zeigt auf jedem Scheitelpunkt eine Kreisform an (additive Füllmethode). Ecken werden weiterhin als Quadrate angezeigt. |
-| <b>Segments-Thickness (px)</b> <i>Fließkommazahl</i> | Passt die Thickness gerenderter Segmente in Pixel an. |
+| <b>Ecken anzeigen</b> <i>Boolescher Wert</i> | Zeigt auf jedem Scheitelpunkt ein Quadrat an, das als Ecke markiert ist (additive Überblendung). |
+| <b>Scheitelpunkt anzeigen</b> <i>Boolescher Wert</i> | Zeigt auf jedem Scheitelpunkt eine Kreisform an (additive Füllmethode). Ecken werden weiterhin als Quadrate angezeigt. |
+| <b>Segments-Thickness (px)</b> <i>Gleitend</i> | Passt die Thickness gerenderter Segmente in Pixel an. |
 
 ## Beispiele
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Haupt-Werkzeugleiste
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -29,7 +29,7 @@ Auf dieser Seite werden die Hauptsymbolleiste und das Menü von [Substance 3D De
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![Hauptsymbolleiste](../../assets/mainmenu.png "Hauptsymbolleiste")
+![Hauptsymbolleiste](the-main-toolbar.resources/mainmenu.png "Hauptsymbolleiste")
 
 </td>
 </tr>
@@ -37,15 +37,15 @@ Auf dieser Seite werden die Hauptsymbolleiste und das Menü von [Substance 3D De
 
 ## Schaltflächen für den Schnellzugriff
 
-![](../../assets/newsubstance.png) <b>Neuer Substance-Graf...:</b> (Strg+N)Zeigt das Fenster [Neuer Graf](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) an und erstellt dann ein neues Paket mit einem [Substance-Graf](../../compositing-graphs/substance-compositing-graphs.md).
+![](the-main-toolbar.resources/newsubstance.png) <b>Neuer Substance-Graf...:</b> (Strg+N)Zeigt das Fenster [Neuer Graf](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) an und erstellt dann ein neues Paket mit einem [Substance-Graf](../../compositing-graphs/substance-compositing-graphs.md).
 
-![](../../assets/open.png) <b>Öffnen...:</b> (Strg+O) Öffnen Sie ein vorhandenes [Substance-Paket (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
+![](the-main-toolbar.resources/open.png) <b>Öffnen...:</b> (Strg+O) Öffnen Sie ein vorhandenes [Substance-Paket (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
 
-![](../../assets/saveall.png) <b>Alle speichern:</b> (Strg+⇧+S) Speichert alle Pakete, die im [Explorer](../../interface/the-explorer-window/the-explorer-window.md) aufgelistet sind.
+![](the-main-toolbar.resources/saveall.png) <b>Alle speichern:</b> (Strg+⇧+S) Speichert alle Pakete, die im [Explorer](../../interface/the-explorer-window/the-explorer-window.md) aufgelistet sind.
 
-![](../../assets/undo.png) <b>Rückgängig:</b> (Strg+Z) Macht den letzten Vorgang rückgängig.
+![](the-main-toolbar.resources/undo.png) <b>Rückgängig:</b> (Strg+Z) Macht den letzten Vorgang rückgängig.
 
-![](../../assets/redo.png) <b>Wiederholen:</b> (Strg+Y) Wiederholen Sie den letzten rückgängig gemachten Vorgang.
+![](the-main-toolbar.resources/redo.png) <b>Wiederholen:</b> (Strg+Y) Wiederholen Sie den letzten rückgängig gemachten Vorgang.
 
 ## Datei
 

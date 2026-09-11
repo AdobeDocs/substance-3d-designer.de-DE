@@ -73,8 +73,8 @@ Wendet eine globale Transformation auf alle Eingabe-Splines an, einschließlich 
 | <b>Vorschau</b> |  |
 | <b>Richtungshelfer anzeigen</b> <i>Boolescher Wert</i> | Zeigt einen Punkt am Anfang des Splines und eine Pfeilspitze an seinem Ende in der Vorschauausgabe an. |
 | <b>Umschlag der Thickness anzeigen</b> <i>Boolescher Wert</i> | Zeigt an den Kanten der Spline-Thickness zusätzliche Linien an. |
-| <b>Segmentierungsbetrag</b> <i>Integer</i> | Passt die Anzahl der Segmente an, die zum Zeichnen der Spline-Visualisierung in der Vorschauausgabe verwendet werden. Je höher der Wert, desto glatter die Linie. |
-| <b>Thickness (px)</b> <i>Gleitend</i> | Passt die Thickness der Spline-Visualisierung in Pixel in der Vorschau an. |
+| <b>Segmentierungsbetrag</b> <i>Ganzzahl</i> | Passt die Anzahl der Segmente an, die zum Zeichnen der Spline-Visualisierung in der Vorschauausgabe verwendet werden. Je höher der Wert, desto glatter die Linie. |
+| <b>Thickness (px)</b> <i>Fließkommazahl</i> | Passt die Thickness der Spline-Visualisierung in Pixel in der Vorschau an. |
 
 ## Beispiele
 

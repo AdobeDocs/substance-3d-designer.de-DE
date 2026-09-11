@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ziegel-Generator
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: 827e738d5db4d64bf366d332a62a7bbd2fa840fc
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/brick-generator.png){width="128px"}
+![](brick-generator.resources/brick-generator.png){width="128px"}
 
 <b>In:</b> Texturgeneratoren > Muster
 
@@ -55,17 +55,17 @@ Weitere Optionen finden Sie unter [Tile Generator](../../../../../../compositing
 | <b>Height</b> <i>-1.0 - 1.0</i> | Ändert Height profile. Ermöglicht die Einführung von Variation der Luminanz und aller Arten der Randomisierung. |
 | <b>Steigung</b> <i>-1.0 - 1.0</i> | Führt eine Steigung pro Ziegel ein, als würden bestimmte Ziegel schräg liegen. |
 | <b>Offset</b> <i>0.0 - 1.0</i> | Versetzt Ziegel zeilenbasiert, wirkt sich auf den Abstand pro Zeile aus. |
-| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
 
 ## Beispiele
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/brick-generator-ex-01.gif" />
+            <img src="brick-generator.resources/brick-generator-ex-01.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/brick-generator-ex-02.gif" />
+            <img src="brick-generator.resources/brick-generator-ex-02.gif" />
         </td>
     </tr>
 </table>

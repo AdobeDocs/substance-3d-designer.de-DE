@@ -20,10 +20,10 @@ ht-degree: 5%
 
 # Scan-Verarbeitung
 
-Diese Kategorie erfüllt Ihre Anforderungen an die Verarbeitung von Fotos und Scans zu vollständigen, kachelbaren PBR-Materialien. Es enthält eine große Auswahl an Werkzeugen mit Funktionen zum Entfernen von Beleuchtung, Ausschneiden von Rahmen und Verbesserung der Kachelung.
+Diese Kategorie erfüllt Ihre Anforderungen an die Verarbeitung von Fotos und Scans in PBR-Materialien mit voller Kachelung. Es enthält eine große Auswahl an Werkzeugen mit Funktionen zum Entfernen von Beleuchtung, Ausschneiden von Rändern und Verbessern der Kachelung.
 
 Die folgenden Knoten sind gute Einführungen:
 
-* [Klonausbesserung](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)
+* [Klon-Patch](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)
 * [Mehrfachzuschnitt](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-crop/multi-crop.md)
 * [Smart Auto Tile](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/smart-auto-tile/smart-auto-tile.md)

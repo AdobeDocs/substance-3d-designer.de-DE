@@ -33,7 +33,7 @@ Diese Version 16.0 bietet einen kreativeren Arbeitsablauf für Musterstreuung un
 ### Neue Möglichkeiten zum Streuen von Formen
 
 Die neuen [Shape-Splatter v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md)-Knoten ermöglichen komplexe Streuungsverhalten, die bisher mit **weiteren Formverteilungsmethoden** (Poisson-Festplatte, Uniform), die standardmäßig *kollisionslos* sind, und steuern die *saubere Sammlung* von Formen in bestimmten Bereichen mit einer **Dichte-Map**.\
-Erweiterte Benutzer können *benutzerdefinierte Distributionen* einrichten, die durch ein Funktionsdiagramm definiert sind.
+Erweiterte Benutzer können *benutzerdefinierte Distributionen* einrichten, die durch einen Funktions-Graf definiert sind.
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
@@ -53,7 +53,7 @@ Erweiterte Benutzer können *benutzerdefinierte Distributionen* einrichten, die 
 
 Verstreute Formen sind jetzt **3D-Objekte**, die auf allen XYZ-Achsen verschoben, gedreht und skaliert werden können.
 
-Verwenden Sie **einfache Grundformen** wie Würfel, Kugeln und Zylinder oder **komplexe benutzerdefinierte Formen**, die durch *Extrudieren einer Height-Map* oder Erstellen von *3D-SDF-Formen* gebildet werden. (Mehr dazu weiter unten)
+Verwenden Sie **einfache Grundformen** wie Würfel, Kugeln und Zylinder oder **komplexe benutzerdefinierte Formen**, die durch *Extrudieren einer Höhen-Map* oder Erstellen von *3D-SDF-Formen* gebildet werden. (Mehr dazu weiter unten)
 
 Dadurch werden Streuungen ermöglicht, die dynamischer, vielfältiger und glaubwürdiger sind. Und jetzt ist es möglich, 3D-Formen für Variationen wiederzuverwenden, indem Sie sie spiegeln. (Wir sehen dich, Umweltkünstler!)
 
@@ -254,25 +254,25 @@ Wenn die Szene mehrere Material enthält, wählen Sie das Objekt der Szene aus, 
 <table style="border: none; margin-top: 32px; margin-bottom: 32px">
     <tr style="vertical-align: top; border: 0">
         <td style="border: 0">
-            <p>Für einen einfacheren Zugriff auf konstante Werte in Substance-Graphen wurden <a href="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md">neue Knoten</a> hinzugefügt, um einen einfachen Wert für jeden Typ zu generieren.</p><p>Sie finden alle im Abschnitt <b>Werte &gt; Konstanten</b> der Bibliothek.</p>
+            <p>Für einen leichteren Zugriff auf konstante Werte in Substance-Graf wurden <a href="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md">neue Knoten</a> hinzugefügt, um einen einfachen Wert für jeden Typ zu generieren.</p><p>Sie finden alle im Abschnitt <b>Werte &gt; Konstanten</b> der Bibliothek.</p>
         </td>
         <td style="width: 60%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.resources/constants-float-01.png" alt="Konstanter &apos;Float&apos;-Knoten" />
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.resources/constants-float-01.png" alt="Konstanter Knoten &apos;Fließkommazahl&apos;" />
         </td>
     </tr>
 </table>
 
-### MDL-Grafiken und Ende der Lebensdauer Irays
+### Ende der Lebensdauer von MDL-Diagrammen und Irays
 
-Wie Sie in der Version 15.1 benachrichtigt wurden, werden der MDL-Diagrammfunktionssatz und der Iray-Renderer jetzt aus Designer entfernt.\
+Wie Sie in Version 15.1 benachrichtigt wurden, werden die MDL-Diagramm-Funktionen und der Iray-Renderer jetzt aus Designer entfernt.\
 Unser hauseigener GPU-Pathtracer ist der Renderer der Wahl für hochwertiges fotorealistisches Rendering in Designer.
 
-Designer entfernt sich von MDL zugunsten von MaterialX als bevorzugte Schattierung für austauschbare, weit unterstützte Materialdefinitionen.\
-MaterialX hat in der Computer-Grafikbranche schnell an Bedeutung gewonnen und kann von USD-Dateien mitgenommen werden, um eine vollständige Portierbarkeit von Szenen über DCCs und Renderer hinweg zu gewährleisten.
+Designer entfernt sich von MDL zugunsten von MaterialX als bevorzugte Schattierung für austauschbare, weit unterstützte Material-Definitionen.\
+MaterialX hat in der Computergrafikbranche schnell an Bedeutung gewonnen und kann von USD-Dateien mitgenommen werden, um eine vollständige Szene-Übertragbarkeit über DCCs und Renderer hinweg zu ermöglichen.
 
 >[!NOTE]
 > 
->Die Dokumentation für MDL-Diagramme und den Iray-Renderer ist auf der [dedizierten Seite zum Ende der Lebensdauer](../../technical-issues/mdl-graph-iray-eol/mdl-graph-iray-eol.md) verfügbar.
+>Die Dokumentation für MDL-Diagramms und den Iray-Renderer ist auf der [dedizierten Seite zum Ende der Lebensdauer](../../technical-issues/mdl-graph-iray-eol/mdl-graph-iray-eol.md) verfügbar.
 
 ### VFX-Plattform-Upgrades und macOS-Minimalversion
 

@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## Beschreibung
 
-Extrahiert den Chrominanzwert aus der Eingabe. Das Ergebnis hat Luminanz verloren.
+Extrahiert den Chrominanzwert aus der Eingabe. Dadurch wird die Luminanz entfernt.
 
 </td>
 </tr>

@@ -1,16 +1,16 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/moisture-noise.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Feuchtigkeitsrauschen", um Feuchtigkeits- und Kondensationsmuster zu erzeugen, um nasse Oberflächeneffekte zu erzeugen.
+description: Verwenden Sie den Node "Feuchtigkeit-Rauschen", um Feuchtigkeits- und Kondensationsmuster zu erzeugen, um Effekte auf der nassen Oberfläche zu erzeugen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Moisture noise 1
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Feuchtigkeitsrauschen 1
+title: Feuchtigkeit Rauschen 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -18,26 +18,26 @@ ht-degree: 1%
 ---
 
 
-# Feuchtigkeitsrauschen 1
+# Feuchtigkeit Rauschen 1
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Feuchtigkeitsrauschen 1 - Symbol](../../../../../../assets/moisture_noise_1.png "Feuchtigkeitsrauschen 1 - Symbol"){width="200px"}
+![Rauschen mit Feuchtigkeit 1 - Symbol](moisture-noise.resources/moisture_noise_1.png "Rauschen mit Feuchtigkeit 1 - Symbol"){width="200px"}
 
-<b>In:</b> Texturgeneratoren > Rauschen
+<b>In:</b> Texturen-Generatoren > Rauschen
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Eine Variation der reichen und schwammigen <b>Feuchtigkeit</b>-Geräusche.
+Eine Variante der reichen und schwammigen <b>Feuchtigkeit</b> Rauschen.
 
-Platten unterschiedlicher Härte und Größe, die verstreut sind und von der unten stehenden Farbe ausgehend von einem grauen Grund hinzugefügt oder subtrahiert werden.
+Festplatten unterschiedlicher Härte und Größe, die verstreut sind und von der unten stehenden Farbe subtrahiert oder addiert werden (ausgehend von einem grauen Grund).
 
-Siehe auch: [Feuchtigkeitsrauschen 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise-2/moisture-noise-2.md)
+Siehe auch: [Feuchtigkeits-Rauschen 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise-2/moisture-noise-2.md)
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ Siehe auch: [Feuchtigkeitsrauschen 2](../../../../../../compositing-graphs/nodes
 
 |  |  |
 |:---|:---|
-| <b>Ausgabe</b> <i>Graustufen</i> | Das erzeugte Rauschen als Graustufen-Bitmap. |
+| <b>Ausgabe</b> <i>Graustufen</i> | Die generierte Rauschen als Graustufen-Bitmap. |
 
 <a name="parameters"></a>
 
@@ -57,10 +57,10 @@ Siehe auch: [Feuchtigkeitsrauschen 2](../../../../../../compositing-graphs/nodes
 
 |  |  |
 |:---|:---|
-| <b>Skalierung</b> <i>Integer</i> | Die Unterteilung des Rasters, das zum Erzeugen der Rauschkacheln verwendet wird.    Ein höherer Wert führt dazu, dass mehr Kacheln gezeichnet werden und das Rauschen dichter ist. |
-| <b>Störung</b> <i>Gleitend</i> | Versetzt die Bestandteile des Rauschens.    So kannst du das Rauschen animieren. |
-| <b>Störungsgeschwindigkeit</b> <i>Gleitend</i> | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.    Mit dieser Option können Sie die Geschwindigkeit des Versatzes bei der Animation des Rauschens steuern. |
-| <b>Anisotropie der Störung</b> <i>Gleitend</i> | Steuert die Richtungsspanne des Versatzes, der vom <b>Disorder</b>-Parameter angewendet wird, wobei ein höherer Wert zu einer engeren, definierteren Richtung führt.    Die Anisotropie wird durch den Parameter <b>Disorder Direction Angle</b> gesteuert. |
+| <b>Skalierung</b> <i>Ganzzahl</i> | Die Unterteilung des Rasters, der zum Generieren der Rauschen-Kacheln verwendet wird.    Ein höherer Wert führt dazu, dass mehr Kacheln gezeichnet werden und das Rauschen dichter ist. |
+| <b>Störung</b> <i>Fließkommazahl</i> | Versetzt die Bestandteile der Rauschen.    So animierst du die Rauschen. |
+| <b>Störungsgeschwindigkeit</b> <i>Fließkommazahl</i> | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.    Dies kann verwendet werden, um die Geschwindigkeit des Versatzes bei der Animation des Rauschen zu steuern. |
+| <b>Anisotropie der Störung</b> <i>Fließkommazahl</i> | Steuert die Richtungsspanne des Versatzes, der vom <b>Disorder</b>-Parameter angewendet wird, wobei ein höherer Wert zu einer engeren, definierteren Richtung führt.    Die Anisotropie wird durch den Parameter <b>Disorder Direction Angle</b> gesteuert. |
 | <b>Disorder anisotropy angle</b> <i>Gleitend</i> | Steuert die Richtung des Versatzes, der vom <b>Disorder</b>-Parameter angewendet wird, wenn der <b>Disorder Anisotropie</b>-Parameter nicht Null ist. |
 | <b>Mustergröße</b> <i>Float2</i> | Ein Multiplikator für die Größe eines gestreuten Musters., wobei 1,0 seine ursprüngliche Größe ist. |
 | <b>Musterwinkel</b> <i>Gleitend</i> | Der Winkel, der verwendet wird, um die Richtung des gestreuten Musters festzulegen, in der Anzahl der Windungen und ausgehend von der horizontalen rechten Seite. |
@@ -75,12 +75,12 @@ Siehe auch: [Feuchtigkeitsrauschen 2](../../../../../../compositing-graphs/nodes
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Feuchtigkeitsrauschen 1 - Beispiel 1](../../../../../../assets/moisture_noise_1_1.png "Feuchtigkeitsrauschen 1 - Beispiel 1"){zoomable="yes"}
+![Feuchtigkeitsrauschen 1 - Beispiel 1](moisture-noise.resources/moisture_noise_1_1.png "Feuchtigkeitsrauschen 1 - Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Feuchtigkeitsrauschen 1 - Beispiel 2](../../../../../../assets/noise_moisture_noise_1_v2_speed0.6_aniso0.gif "Feuchtigkeitsrauschen 1 - Beispiel 2"){zoomable="yes"}
+![Feuchtigkeitsrauschen 1 - Beispiel 2](moisture-noise.resources/noise_moisture_noise_1_v2_speed0.6_aniso0.gif "Feuchtigkeitsrauschen 1 - Beispiel 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -90,12 +90,12 @@ Siehe auch: [Feuchtigkeitsrauschen 2](../../../../../../compositing-graphs/nodes
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Feuchtigkeitsrauschen 1 - Beispiel 3](../../../../../../assets/noise_moisture_noise_1_v2_speed0.6_aniso1.gif "Feuchtigkeitsrauschen 1 - Beispiel 3"){zoomable="yes"}
+![Feuchtigkeitsrauschen 1 - Beispiel 3](moisture-noise.resources/noise_moisture_noise_1_v2_speed0.6_aniso1.gif "Feuchtigkeitsrauschen 1 - Beispiel 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Feuchtigkeitsrauschen 1 - Beispiel 4](../../../../../../assets/noise_moisture_noise_1_v2_speed0.3_aniso0.6.gif "Feuchtigkeitsrauschen 1 - Beispiel 4"){zoomable="yes"}
+![Feuchtigkeitsrauschen 1 - Beispiel 4](moisture-noise.resources/noise_moisture_noise_1_v2_speed0.3_aniso0.6.gif "Feuchtigkeitsrauschen 1 - Beispiel 4"){zoomable="yes"}
 
 </td>
 </tr>

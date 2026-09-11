@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/3d-view/glslfx-shaders.html"
 breadcrumb-title: ''
-description: Verwenden Sie die GLSLFX-Shader in der Substance 3D Designer-3D-Ansicht, um das Rendern von Material anzupassen und Vorschaueffekte anzupassen.
+description: Verwenden Sie GLSLFX in der Substance 3D Designer-3D-Ansicht, um das Rendern von Materialien anzupassen und Vorschaueffekte anzupassen.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D View > GLSLFX Shaders
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: GLSLFX Shader
+title: GLSLFX Shaders
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
@@ -18,14 +18,14 @@ ht-degree: 1%
 ---
 
 
-# GLSLFX Shader
+# GLSLFX Shaders
 
-GLSLFX-Dateien stellen die Brücke zwischen der Anwendung und den glsl shader-Dateien dar.\
-Es ermöglicht die Verwendung eines beliebigen glsl-Shaders, ohne den Code ändern zu müssen.
+GLSLFX bilden die Brücke zwischen der Anwendung und den GLS-Shader-Dateien.\
+Es ermöglicht die Verwendung eines beliebigen glsl-Shader, ohne den Code ändern zu müssen.
 
 ## Dateiformat
 
-Das GLSLFX-Dateiformat ist eine XML-Datei. Kommentare werden unterstützt.
+GLSLFX ist eine XML-Datei. Kommentare werden unterstützt.
 
 ### Kopf- und Stammknoten
 
@@ -97,19 +97,19 @@ XML-Elementdefinition:
 
 <b>Attribute:</b>
 
-* Typ: Der GLSL-Shader-Typ.
+* Typ: Typ des GLSL-Shaders;
 
-* Dateiname: Der Pfad der GLS-Shader-Datei. Kann absolut oder relativ zur GLSLFX-Datei sein;
+* Dateiname: Der Pfad der GLS-Shader-Datei. Kann absolut oder relativ zur GLSLFX Datei sein;
 
 * primitiveType: Die Methode zum Rendern der Grundform.
 
 
 | &#39;type&#39;-Wert | Beschreibung |
 | --- | --- |
-| Scheitelpunkt | Vertex-Shader |
-| Geometrie | Geometry Shader |
-| tess\_control | Tesselierungssteuerungs-Shader |
-| tess\_eval | Tesselierung Evaluation Shader |
+| Scheitelpunkt | Scheitelpunkt Shader |
+| Geometrie | Geometry-Shader |
+| tess\_control | Tessellation Control Shader |
+| tess\_eval | Shader zur Bewertung der Tessellation |
 | Fragment | Fragment-Shader |
 
 
@@ -118,7 +118,7 @@ XML-Elementdefinition:
 | --- | --- |
 | Punkt | Als Punkte rendern |
 | Linienführung | Als Zeilenschleife rendern |
-| Patch[1.N] | Als Patches mit [1.N] Scheitelpunkten rendern |
+| Patch[1.N] | Als Patches mit [1..N] Scheitelpunkten rendern |
 
 
 +++
@@ -133,10 +133,10 @@ Erlauben Sie, einen Teil des OpenGL-Status einzurichten.
 <b>Attribute:</b>
 
 * Name: Der Name der festzulegenden Eigenschaft. Der Name basiert auf der OpenGL-Funktion oder dem glEnum-Namen:
-  * Enumerationssyntax: Ohne das Präfix &quot;GL\_&quot;, in Kleinbuchstaben. Beispiele: glEnable(GL\_BLEND\_ENABLE) => &quot;&quot;, glDisable(GL\_CULL\_FACE) => &quot;&quot;&quot;
+  * Enumerationssyntax: Ohne das Präfix &quot;GL\_&quot;, in Kleinbuchstaben. Beispiele: glEnable(GL\_ÜBERBLENDUNG\_ENABLE) => &quot;&quot;, glDisable(GL\_CULL\_FLÄCHE) => &quot;&quot;&quot;
   * Funktionssyntax: ohne das Präfix &quot;gl&quot;, in Kleinbuchstaben und mit allen Wörtern, die durch das Zeichen &quot;\_&quot; getrennt sind. Beispiel: glBlendFunc(GL\_SRC\_ALPHA, GL\_ONE\_MINUS\_SRC\_ALPHA) => &quot;&quot;
 
-* Enumerationssyntax: Ohne das Präfix &quot;GL\_&quot;, in Kleinbuchstaben. Beispiele: glEnable(GL\_BLEND\_ENABLE) => &quot;&quot;, glDisable(GL\_CULL\_FACE) => &quot;&quot;&quot;
+* Enumerationssyntax: Ohne das Präfix &quot;GL\_&quot;, in Kleinbuchstaben. Beispiele: glEnable(GL\_ÜBERBLENDUNG\_ENABLE) => &quot;&quot;, glDisable(GL\_CULL\_FLÄCHE) => &quot;&quot;&quot;
 
 * Funktionssyntax: ohne das Präfix &quot;gl&quot;, in Kleinbuchstaben und mit allen Wörtern, die durch das Zeichen &quot;\_&quot; getrennt sind. Beispiel: glBlendFunc(GL\_SRC\_ALPHA, GL\_ONE\_MINUS\_SRC\_ALPHA) => &quot;&quot;
 
@@ -168,10 +168,10 @@ Erlauben Sie, einen Teil des OpenGL-Status einzurichten.
 |  | one\_minus\_src1\_color | für OpenGL-Enumeration GL\_ONE\_MINUS\_SRC1\_COLOR |
 |  | src1\_alpha | für OpenGL enum GL\_SRC1\_ALPHA |
 |  | one\_minus\_src1\_alpha | für OpenGL-Enumeration GL\_ONE\_MINUS\_SRC1\_ALPHA |
-| cull\_face\_enabled | boolesch | Aktivieren/Deaktivieren der Gesichtskeulung |
+| cull\_Fläche\_enabled | boolesch | Aktivieren/Deaktivieren der Fläche-Keulung |
 |  | true |  |
 |  | false |  |
-| cull\_face\_mode | String | Legen Sie den Gesichtsauswaschmodus fest. |
+| cull\_Fläche\_mode | String | Festlegen des Füllmodus für die Fläche |
 |  | Front | für OpenGL enum GL\_FRONT |
 |  | Rückseite | für OpenGL enum GL\_BACK |
 |  | front\_and\_back | für OpenGL-Enumeration GL\_FRONT\_AND\_BACK |
@@ -190,7 +190,7 @@ Erlauben Sie, einen Teil des OpenGL-Status einzurichten.
 
 #### Uniformen
 
-Erlaubt das Überschreiben einiger Uniformen, die global oder in der übergeordneten Technik definiert sind. Dies ermöglicht es, das Shader-Verhalten für diese Technik oder diesen Render-Pass zu ändern.
+Erlaubt das Überschreiben einiger Uniformen, die global oder in der übergeordneten Technik definiert sind. Dies ermöglicht es, das Shader-Verhalten für diese Technik oder diesen Renderdurchgang zu ändern.
 
 Weitere Informationen zu ihrer Definition finden Sie im Abschnitt <b>Uniforms</b> weiter unten.
 
@@ -288,9 +288,9 @@ Attribute:
 | --- | --- |
 | Position | Scheitelpunktposition (float3) |
 | normal | Scheitelpunkt Normal (float3) |
-| texcoord[0..N] | Scheitelpunkt-Textur-Koordinatenpuffer N (float2) |
-| Tangente[0..N] | Scheitelpunkt-Tangentenpuffer N (float4) |
-| binormal[0..N] | Scheitelpunkt-Binormalpuffer N (float4) |
+| texcoord[0..N] | Scheitelpunkt Textur Koordinate Puffer N (float2) |
+| Tangente[0..N] | Scheitelpunkt Tangente Puffer N (float4) |
+| binormal[0..N] | Scheitelpunkt binormal Puffer N (float4) |
 
 Beispiel:
 
@@ -324,7 +324,7 @@ Beispiel:
 ## Sampler
 
 Dadurch kann die Verwendung der einzelnen Sampler definiert werden.\
-Es wird von der Anwendung verwendet, um zu wissen, welche Textur in den angegebenen Samplern eingestellt werden soll.
+Sie wird von der Anwendung verwendet, um zu wissen, welche Textur in den angegebenen Samplern eingestellt werden soll.
 
 <b>XML-Elementdefinition:</b>
 
@@ -333,34 +333,34 @@ Name: &quot;Probenehmer&quot;
 Attribute:
 
 * &#39;name&#39;: Der Name der Samplervariable in der Shader-Datei.
-* &#39;Nutzung&#39;: Die Verwendung des Samplers. Es entspricht der Verwendung, die im Ausgabeknoten des Diagramms angegeben ist.
+* &#39;Nutzung&#39;: Die Verwendung des Samplers. Sie entspricht der im Ausgabeknoten des Grafen angegebenen Verwendung.
 
 | Wert &quot;usage&quot; | Beschreibung |
 | --- | --- |
-| diffus | Diffuse Karte |
+| diffus | Diffuse |
 | Deckkraft | Deckkraftmap |
-| Ausstrahlend | Emissionskarten |
-| Ambientokklusion | Umgebungskarte Verdeckung |
+| Ausstrahlend | Emissive Map |
+| Ambientokklusion | Ambient occlusion Map |
 | umgebend | Umgebungskarte |
 | maskieren | Maskenübersicht |
-| detailnormal | Detail Normalmap |
+| detailnormal | Detail-Normalen-Map |
 | normal | Normalen-Map |
 | Stoß | Bumpmap |
-| Höhe | Height Map |
+| Höhe | Höhen-Map |
 | Versatz | Versatz Map |
 | Spiegelebene | Specular level Map |
 | Glanzfarbe | Specular-Farbkarte |
 | Glanz | Specular Map |
-| Glanzintensität | Glossiness Map |
-| Rauheit | Rauigkeitskarte |
+| Glanzintensität | Glanz Map |
+| Rauheit | Rauheit Map |
 | Anisotropiegrad | Anisotropiestufe |
 | Anisotropiewinkel | Anisothropiekarte |
-| durchscheinend | Transmissive Karte |
+| transmissive | Transmissive Map |
 | Nachdenken | Reflexionskarte |
 | Brechung | Refraktionskarte |
-| Umgebung | Umgebungskarte (Cubemap) |
+| Umgebung | Umgebungs-Map (Cubemap) |
 | Panorama | Die Panoramakarte (Längen-/Breitenkarte) |
-| Bluenoisemask | Eine 256 x 256-Dithering-Textur |
+| Bluenoisemask | Eine 256 x 256 Dithering-Textur |
 
 * Es werden mehrere Verwendungen unterstützt.
   * Beispiel:
@@ -393,7 +393,7 @@ Umbruchmodus:
 
 Texturfilter
 
-<table data-preserve-html="true"><tbody><tr><th>Name</th><th>Wert</th></tr><tr><td rowspan="6">texture_min_filter, texture_mag_filter<br/><br/><br/></td><td>nächste</td></tr><tr><td>linear</td></tr><tr><td colspan="1">nearest_mipmap_nearest</td></tr><tr><td colspan="1">linear_mipmap_nearest</td></tr><tr><td colspan="1">nearest_mipmap_linear</td></tr><tr><td colspan="1">linear_mipmap_linear</td></tr></tbody></table>
+<table data-preserve-html="true"><tbody><tr><th>Name</th><th>Wert</th></tr><tr><td rowspan="6">texture_min_filter, texture_mag_filter<br/><br/><br/></td><td>nächste</td></tr><tr><td>linear</td></tr><tr><td colspan="1">nearest_mipmap_nearest</td></tr><tr><td colspan="1">linear_mipmap_nearest</td></tr><tr><td colspan="1">nearest_Mipmap_linear</td></tr><tr><td colspan="1">linear_mipmap_linear</td></tr></tbody></table>
 
 Beispiel:
 
@@ -444,15 +444,15 @@ Attribute:
 | --- | --- |
 | Welt | World Matrix (float16) |
 | worldinversetranspose | World Inverse Transpose Matrix (float16) |
-| WeltbildProjektion | World View Projection Matrix (float16) |
+| WeltbildProjektion | World View Projektion Matrix (float16) |
 | Ansichtsverse | World Inverse Matrix (float16) |
 | Weltsicht | World View Matrix (float16) |
 | Modellansicht | Modellansichtsmatrix (float16) |
-| projection | Projektionsmatrix (float16) |
-| umgebend | Umgebungsfarbe der Szene (float3) |
+| projection | Projektion Matrix (float16) |
+| umgebend | Szene Umgebungsfarbe (float3) |
 | lightposition[0..N] | Position des N-ten Lichts der Szene (float3) |
-| lightcolor[0..N] | Farbe des N-ten Lichts der Szene (float3) |
-| Lichtintensität[0..N] | Intensität des N-ten Lichts der Szene (float) |
+| lightcolor[0..N] | Die Farbe des N-ten Lichts der Szene (float3) |
+| Lichtintensität[0..N] | Intensität des N-ten Lichts der Szene (Schwimmer) |
 | GlobalTime | Aktuelle Zeit in Sekunden (Gleitkomma) |
 | Beschluss | Viewport-Auflösung (int2) |
 | Maus | Mausposition (int2) |
@@ -461,11 +461,11 @@ Attribute:
 | panoramamipmapheight | Anzahl der Mipmap-Stufen in der Panoramakarte (float) |
 | Panoramarotation | Winkel Drehwinkel der Panoramakarte (float) |
 | Panoramaintensität | Intensität der Panoramakarte (float) |
-| ComputerBinormalinfragmentshader | Wird das binormale Fragment pro Fragment berechnet? (wenn nicht dann pro Scheitelpunkt) (bool) |
+| ComputerBinormalinfragmentshader | Wird die binormal pro Fragment berechnet? (wenn nicht dann pro Scheitelpunkt) (bool) |
 | isdirectxnormal | Ist die Normalen-Map-Format DirectX ? bool) |
 | uvwscale | Skalierungswerte von u, v, w (float3) |
 | renderuvtil | Nur 1 UV-Kachel rendern ? bool) |
-| uvtilecoords | Zu rendernde UV-Kachelkoordinate (int2) |
+| uvtilecoords | UV tile-Koordinate zum Rendern (int2) |
 
 &quot;semantisch&quot;: Die Semantik der Uniform. (Alle Matrizen sind float16).
 
@@ -569,9 +569,9 @@ Attribute:
 * &#39;guiMin&#39;: Der Mindestwert des Widgets
 * &#39;guiMax&#39;: Der Höchstwert des Widgets
 
-## Beispiel: Tesselierung/Parallaxe
+## Beispiel: Tessellation/Parallaxe
 
-### Parallax Scheitelpunkt-Schattierungs-Datei
+### Parallax Scheitelpunkt Shader File
 
 In .\tessellation\_parallax\parallax\vs.glsl
 
@@ -582,12 +582,12 @@ Inhalt:
 Attribut vec4 iVS\_Position;\
 Attribut vec4 iVS\_Normal;\
 Attribut vec2 iVS\_UV;\
-Attribut vec4 iVS\_Tangent;\
+-Attribut vec4 iVS\_Tangente;\
 Attribut vec4 iVS\_Binormal;
 
 variierendes vec3 iFS\_Normal;\
 variierendes vec2 iFS\_UV;\
-variierendes vec3 iFS\_Tangent;\
+variierendes vec3 iFS\_Tangente;\
 variierendes vec3 iFS\_Binormal;\
 variierendes vec3 iFS\_PointWS;
 
@@ -599,7 +599,7 @@ void main()\
 gl\_Position = worldViewProjMatrix \&#42; iVS\_Position;\
 iFS\_Normal = iVS\_Normal.xyz;\
 iFS\_UV = iVS\_UV;\
-iFS\_Tangent = iVS\_Tangent.xyz;\
+iFS\_Tangente = iVS\_Tangente.xyz;\
 iFS\_Binormal = iVS\_Binormal.xyz;\
 iFS\_PointWS = (worldMatrix \&#42; iVS\_Position).xyz;\
 &rbrace;
@@ -649,12 +649,12 @@ layout(vertices = 3) out;
 
 in vec4 oVS\_Normal[];\
 in vec2 oVS\_UV[];\
-in vec4 oVS\_Tangent[];\
+in vec4 oVS\_Tangente[];\
 in vec4 oVS\_Binormal[];
 
 out vec4 oTCS\_Normal[];\
 out vec2 oTCS\_UV[];\
-out vec4 oTCS\_Tangent[];\
+out vec4 oTCS\_Tangente[];\
 out vec4 oTCS\_Binormal[];
 
 uniform float tesselationFactor;
@@ -730,7 +730,7 @@ newPos += newNormal \&#42; heightTextSample \&#42; heightMapScale;
 vec4 obj\_pos = vec4(newPos, 1);\
 gl\_Position = worldViewProjMatrix \&#42; obj\_pos;
 
-iFS\_UV = newUV \&#42; Tiling;\
+iFS\_UV = newUV \&#42; Kachelung;\
 iFS\_Tangent = newTangent;\
 iFS\_Binormal = newBinormal;\
 iFS\_Normal = newNormal;\
@@ -933,26 +933,26 @@ FallofRefl=1.0;
 vec3 Ambiant\_final = diffuseColor.rgb\&#42;AmbiColor;
 
 // ------------------------------------------\
-vec3 emissive = texture2D(emissiveMap,uv).xyz;
+vec3 emissive = Textur2D(emissiveMap,uv).xyz;
 
 vec3 finalcolor = Ambiant\_final\
 &#x200B;+ specularColor\&#42;specContrib\
 &#x200B;+ diffuseColor.rgb\&#42;diffContrib\
 &#x200B;+ (reflColor\&#42;specularColor\&#42;FallofRefl)\
-&#x200B;+ emissiv;
+&#x200B;+ emissive;
 
 // Final Color\
-vec4 finalColor4 = vec4(finalcolor, texture2D(opacityMap,uv));
+vec4 finalColor4 = vec4(finalColor, Textur2D(opacityMap,uv));
 
 gl\_FragColor = finalColor4;\
 &rbrace;
 
-### GLSLFX Datei
+### GLSLFX
 
 Die glslfx-Datei definiert zwei Techniken zum Rendern der Geometrie:
 
-* Man verwendet die Hardware-Tesselierungstechnik
-* Die andere basiert auf einem Parallaxeffekt, der als Fallback verwendet wird, wenn die Benutzer-Hardware die Tessellation nicht unterstützt.
+* Man verwendet die Hardware-Tessellation-Technik
+* Der andere basiert auf einem Parallaxeffekt, der als Fallback verwendet wird, wenn die Benutzerhardware die Tessellation nicht unterstützt.
 
 In .\tessellation\_parallax\fs.glsl
 

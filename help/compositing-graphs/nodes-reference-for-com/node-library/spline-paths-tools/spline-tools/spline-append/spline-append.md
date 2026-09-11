@@ -54,7 +54,7 @@ Die Reihenfolge der Listen bleibt erhalten, d. h. das Anhängen einer Liste D-E-
 | <b>Vorschau #1</b> <i>Graustufen</i> | Die Vorschau des ersten Satzes von Eingabe-Splines als Graustufenbild. |
 | <b>Spline-#1</b> <i>Farbe</i> | Die Koordinaten des ersten Satzes von Eingangs-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.<br><b>R</b> - X-Position<br><b>G</b> - Y-Position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>- Sign: Spline ist geschlossen (negativ) oder offen (positiv);<br>- Absolute Wert: Thickness + 1. |
 | <b>Spline #1 Data</b> <i>Farbe</i> | Zusätzliche Daten des ersten Satzes von Eingangs-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.<br><b>R</b> - Tangenten X<br><b>G</b> - Tangenten Y<br><b>B</b> - Nicht verwendet<br><b>A</b> - Nicht verwendet |
-| <b>Spline-#1</b> <i>Ganzzahl</i> | Die Anzahl der Eingabe-Splines im ersten Satz. |
+| <b>Spline-#1</b> <i>Integer</i> | Die Anzahl der Eingabe-Splines im ersten Satz. |
 | <b>Vorschau #2</b> <i>Graustufen</i> | Die Vorschau des zweiten Satzes von Eingabe-Splines als Graustufenbild. |
 | <b>Spline-#2</b> <i>Farbe</i> | Die Koordinaten des zweiten Satzes von Eingangs-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.<br><b>R</b> - X-Position<br><b>G</b> - Y-Position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>- Sign: Spline ist geschlossen (negativ) oder offen (positiv);<br>- Absolute Wert: Thickness + 1. |
 | <b>Spline #2 Data</b> <i>Farbe</i> | Zusätzliche Daten des zweiten Satzes von Eingangs-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.<br><b>R</b> - Tangenten X<br><b>G</b> - Tangenten Y<br><b>B</b> - Nicht verwendet<br><b>A</b> - Nicht verwendet |

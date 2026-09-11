@@ -25,7 +25,7 @@ Mit der [SDNode](../../scripting/scripting-api-reference/scripting-api-reference
 Zu den verfügbaren Knoteninformationen gehören:
 
 * Definition
-* Kennzeichen
+* Identifizierung
 * Position
 * Begrenzungsrahmen
 * Eigenschaften (als Liste)
@@ -136,7 +136,7 @@ def printSelectedNodesInfo(nodes):
 ```
 
 
-### Zugriff auf Kennungen und Typen von Knoteneingaben
+### Zugriff auf Knoteneingaben - Identifizierungen und Typen
 
 ```
 import sd 

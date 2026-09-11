@@ -44,26 +44,26 @@ Die folgenden 3D-Szenendateiformate werden unterstützt:
 
 3D-Szenen können *nur* verknüpft werden, d. h. sie bleiben an ihrem Speicherort auf dem Datenträger und werden nur in der Anwendung referenziert.
 
-Wenn ein Paket mit einer 3D-Szene-Ressource als [Substance 3D](https://www.adobe.com/de/products/substance3d/3d-augmented-reality.html)-Asset (SBSAR) veröffentlicht wird, ist der Mesh *nicht eingebettet*, aber verworfen.
+Wenn ein Paket mit einer 3D-Szenenressource als [Substance 3D](https://www.adobe.com/de/products/substance3d/3d-augmented-reality.html)-Asset (SBSAR) veröffentlicht wird, ist das Gitter *nicht eingebettet*, aber verworfen.
 
-## Baking führend Mesh-Map
+## Backen von Gitterkarten
 
-Das Verknüpfen einer 3D-Szene mit Ihrem Paket ist die einzige Möglichkeit, [Mesh-Map](../../bakers/bakers.md) aus dieser Szenen-Geometrie Baking führen. Sie können die folgenden Schritte ausführen, um zu beginnen:
+Das Verknüpfen einer 3D-Szene mit Ihrem Paket ist die einzige Möglichkeit, [Gitterzuordnungen](../../bakers/bakers.md) aus dieser Szenengeometrie zu backen. Sie können die folgenden Schritte ausführen, um zu beginnen:
 
-* Klicken Sie auf *RMB* in einem Paket, und wählen Sie im Kontextmenü die Option <b>Link > 3D-Mesh</b> aus.
-* Wählen Sie eine beliebige unterstützte 3D-Szene
-* Wenn die Dialogaufforderung <b>Als Udim-Mesh verknüpfen</b> angezeigt wird, klicken Sie auf *Nein*, es sei denn, Sie möchten UV-Kacheln Baking führen.
-* Wenn die Ressource in [Explorer](../../interface/the-explorer-window/the-explorer-window.md) geladen ist, klicken Sie auf *RMB* und wählen Sie im Kontextmenü die Option <b>Baking-Modellinformationen</b> aus.
-* Das Dialogfeld &quot;[Modellinformationen für Baking](../../bakers/bakers.md)&quot; wird angezeigt, in dem Sie alle Baking geführt Mesh-Map einrichten und ausführen können.
+* Klicken Sie auf *RMB* in einem Paket und wählen Sie im Kontextmenü die Option <b>Link > 3D-Mesh</b> aus.
+* Wählen Sie eine unterstützte 3D-Szenendatei
+* Wenn die Dialogaufforderung <b>Als Udim-Gitter verknüpfen</b> angezeigt wird, klicken Sie auf *Nein*, es sei denn, Sie möchten UV-Kacheln backen.
+* Wenn die Ressource in [Explorer](../../interface/the-explorer-window/the-explorer-window.md) geladen ist, klicken Sie auf *RMB*, und wählen Sie im Kontextmenü die Option <b>Modellinformationen für Backen</b> aus.
+* Das Dialogfeld &quot;[Modellinformationen backen](../../bakers/bakers.md)&quot; wird angezeigt, in dem Sie alle Gitterzuordnungs-Backs einrichten und ausführen können.
 
-![Mesh-Map Baking geführt](../../assets/bake-model-information.gif "Mesh-Map Baking geführt"){width="512px"}
+![Gitterzuordnungen sichern](../../assets/bake-model-information.gif "Gitterzuordnungen sichern"){width="512px"}
 
-## UDIM/UV-tile-Verwendung
+## UDIM/UV-Kachelverwendung
 
-Wenn eine Mesh-Ressource verknüpft ist und die Anwendung feststellt, dass UVs außerhalb des 0-1-Bereichs vorhanden sind, werden Sie gefragt, ob dieser Mesh als UDIM-Mesh (auch als UV-Kacheln bezeichnet) behandelt werden soll. Diese Einstellung kann später geändert werden. Wenn Sie nicht sicher sind, dass Sie UV-Tiles verwenden, muss die Antwort <b>Nein</b> lauten.
+Wenn eine Gitterressource verknüpft ist und die Anwendung erkennt, dass sie UVs außerhalb des 0-1-Bereichs enthält, werden Sie gefragt, ob dieses Gitter als UDIM-Gitter (auch als UV-Kacheln bezeichnet) behandelt werden soll. Diese Einstellung kann anschließend geändert werden. Sofern Sie nicht sicher sind, dass Sie UV-Kacheln verwenden, sollte sie als <b>Nein</b> beantwortet werden.
 
-Wenn das Verhalten &quot;UV-Tile&quot; aktiviert ist, verhält sich das Baking anders und Baking führe die Texturen für jeden erkannten UV-Tile.
+Wenn das Verhalten &quot;UV-Kachel&quot; aktiv ist, verhält sich das Backen anders und backt Texturen für jede erfasste UV-Kachel.
 
 ## Ressource/Szene im Vergleich zum Status
 
-Die Anwendung unterteilt die Elemente, die Sie in der 3D-Ansicht sehen, in zwei verschiedene Dateien. Das eigentliche 3D-Modell bzw. der eigentliche 3D-Mesh ist eine Ressource, die im Explorer angezeigt wird. Die Einrichtung von Lichtern, Kameras und anderen Einstellungen wird als &quot;<b>Status</b>&quot; bezeichnet. Status können in externen .sbsscn-Dateien gespeichert und später erneut geladen werden. .sbsscn-Dateien sind keine Ressourcen, sondern zusätzliche Konfigurationsdateien, die nur über das Menü &quot;[&quot; im Menü &quot;Szene&quot; in der 3D-Ansicht &quot;](../../interface/3d-view/3d-view.md)&quot; geladen werden können.
+Die Anwendung unterteilt die Elemente, die Sie in der 3D-Ansicht sehen, in zwei verschiedene Dateien. Das eigentliche 3D-Modell oder -Mesh ist eine Ressource, die im Explorer angezeigt wird. Das Setup von Lichtern, Kameras und anderen Einstellungen wird als &quot;<b>Status</b>&quot; bezeichnet. Status können in externen .sbsscn-Dateien gespeichert und später erneut geladen werden. .sbsscn-Dateien sind keine Ressourcen, sondern zusätzliche Konfigurationsdateien, die nur über [das Szenenmenü in der 3D-Ansicht geladen werden können.](../../interface/3d-view/3d-view.md)

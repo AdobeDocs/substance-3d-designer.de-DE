@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-split.html"
 breadcrumb-title: ''
-description: Verwende den Knoten "RGBA Split", um eine Textur für die individuelle Verarbeitung in die Kanäle Rot, Grün, Blau und Alpha aufzuteilen.
+description: Verwenden Sie den RGBA-Teilungsknoten, um eine Textur in die Alphakanal Rot, Grün, Blau und Blau aufzuteilen, damit sie individuell verarbeitet werden kann.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > RGBA Split
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 1%
 
 ## Beschreibung
 
-Teilt ein Eingabebild in die entsprechenden Kanäle für Rot, Grün, Blau und Alpha auf. Sie &quot;entpackt&quot; ein Bild effektiv.
+Teilt ein Eingabebild in die entsprechenden Alphakanal Rot, Grün, Blau und Blau auf. Sie &quot;entpackt&quot; ein Bild effektiv.
 
-Hilfreich für die separate Analyse und Verwendung verpackter Kanäle. Wenn Sie eine Positionskarte oder eine Weltraum-Normalmap für Substance Painter-Effekte verwenden, können Sie beispielsweise die X-, Y- oder Z-Komponente herausfiltern.
+Hilfreich für die separate Analyse und Verwendung verpackter Kanäle. Wenn Sie eine Baking geführt Positionsmap oder eine Baking geführt Welt-Raum-Normalmap für Substance Painter-Effekte verwenden, können Sie beispielsweise die X-, Y- oder Z-Komponente herausfiltern.
 
 </td>
 </tr>

@@ -85,18 +85,18 @@ Wenn ein Graf, der Text verwendet, in sbsar veröffentlicht wird, wird die Schri
 | <b>Schrift</b> *Zeichenfolge* | Die Schriftenressource, die zum Rendern des Textes verwendet wird. |
 | <b>Schriftgröße</b> *Gleitend* | Die Schriftgröße für den Text in Punkt. |
 | <b>Ausrichtung</b> *Integer* | Legt die Textausrichtung als links, zentriert (Standard) oder rechts fest. |
-| <b>Transformation</b> *Float4* | Die 2x2-Transformationsmatrix, die auf den gerenderten Text angewendet wird. |
-| <b>Position</b> *Float2* | Die Position des Textes im Ausgabebild. |
-| <b>Hintergrund</b> *Gleitend/Gleitend4* | Die Hintergrundfarbe des Ausgabebilds. |
-| <b>Schriftfarbe</b> *Gleitend/Gleitend4* | Die Farbe des Textes. |
+| <b>Transformation</b> *Fließkommazahl4* | Die 2x2-Transformationsmatrix, die auf den gerenderten Text angewendet wird. |
+| <b>Position</b> *Fließkommazahl2* | Die Position des Textes im Ausgabebild. |
+| <b>Hintergrund</b> *Fließkommazahl/Fließkommazahl4* | Die Hintergrundfarbe des Ausgabebilds. |
+| <b>Schriftfarbe</b> *Fließkommazahl/Fließkommazahl4* | Die Farbe des Textes. |
 
-## Eingangsanschlüsse
+## Eingabe-Verbindungen
 
 |  |  |
 | --- | --- |
 | <b>Hintergrund</b> *Graustufen/Farbe* PRIMÄR | Die Hintergrundfarbe des Ausgabebilds. |
 
-## Ausgangsanschlüsse
+## Ausgabe-Verbindungen
 
 |  |  |
 | --- | --- |

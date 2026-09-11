@@ -56,16 +56,16 @@ Dieser Knoten kann mit [Cube 3D GBuffers](../../../../../../compositing-graphs/n
 | <b>Größe</b> <i>Float3</i> | Steuert die Größe des fraktalen 3D-Perlin-Rauschens in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b>. Nicht einheitliche Werte führen zu einem <i>Dehnungs- oder Squashing</i>-Effekt. |
 | <b>Offset</b> <i>Float3</i> | Wendet einen Offset auf die <i>Position</i> des fraktalen 3D-Perlin-Rauschens in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b> an. |
 | <b>Intensität der Verzerrung</b> <i>Gleitend</i> | Steuert die Intensität eines <i>Verkrümmungseffekts</i>, der auf das fraktale 3D-Perlin-Rauschen angewendet wird. |
-| <b>Verzerrungen-Skalierungsmultiplikator</b> <i>Gleitend</i> | Steuert die Skalierung des <i>sich verformenden Musters</i>, das im Verkrümmungseffekt verwendet wird, der durch die <b>Intensität der Verzerrung</b> gesteuert wird. |
-| <b>Min. Stufe</b> <i>Integer</i> | Die minimale <i>Wiederholungsstufe</i>, die im fraktalen Muster verwendet wird. Ein größerer Mindest-/Höchstbereich führt zu einem <i>reicheren Muster</i> mit Variationen in mehr Frequenzbereichen. |
-| <b>Max. Stufe</b> <i>Integer</i> | Die maximale <i>Wiederholungsstufe </i>, die im fraktalen Muster verwendet wird. Ein größerer Mindest-/Höchstbereich führt zu einem <i>reicheren Muster</i> mit Variationen in mehr Frequenzbereichen. |
-| <b>Raueit</b> <i>Gleitend</i> | Steuert die <i>Balance</i> zwischen niedrigen und hohen <i>Wiederholungsstufen</i> im fraktalen Muster.<br><br><i>Hinweis</i>: Ein Wert von <b>0</b> führt zu einer Ausgabe, die <i> nicht in Zeile </i> enthält, auf die andere niedrige Werte folgen. Dies wird erwartet. |
-| <b>Lakunarität</b> <i>Gleitend</i> | Steuert, wie das angewendete fraktale Muster &quot;<i>&quot; Leerzeichen &quot;</i>&quot; ausfüllt. Ein <i>höherer</i> Wert führt zu <i>weniger Lücken</i> im Muster und einem <i>dichteren</i> Rauschen. |
-| <b>Globale Deckkraft</b> <i>Gleitend</i> | Steuert den <i>Bereich</i> der fraktalen 3D-Perlin-Rauschen-Werte <i> um </i> den <b>Grundlinienwert</b>. |
-| <b>Grundlinie</b> <i>Gleitend</i> | Wendet einen <i>offset</i> auf den Basiswert <i>Luminanz</i> für die Werteverteilung der 3D-Perlin-Rauschen an. |
-| <b>Kontrast</b> <i>Gleitend</i> | Passt den Kontrast der 3D-Perlin-Rauschen an. |
-| <b>Absolut</b> <i>Boolescher Wert</i> | Verwendet absolute Werte auf der 3D-Perlin-Rauschen. Dadurch wird <i>die Wertverteilung für die Werte <i> unter 0,5</i> effektiv umgekehrt</i>. |
-| <b>Kachelung aktivieren</b> <i>Boolescher Wert</i> | Passt die 3D-Perlin-Rauschen so an, dass sich das resultierende Muster <i>in X-, Y- und Z-Achse wiederholt</i>. |
+| <b>Verzerrungen-Skalierungsmultiplikator</b> <i>Fließkommazahl</i> | Steuert die Skalierung des <i>sich verformenden Musters</i>, das im Verkrümmungseffekt verwendet wird, der durch die <b>Intensität der Verzerrung</b> gesteuert wird. |
+| <b>Min. Stufe</b> <i>Ganzzahl</i> | Die minimale <i>Wiederholungsstufe</i>, die im fraktalen Muster verwendet wird. Ein größerer Mindest-/Höchstbereich führt zu einem <i>reicheren Muster</i> mit Variationen in mehr Frequenzbereichen. |
+| <b>Max. Stufe</b> <i>Ganzzahl</i> | Die maximale <i>Wiederholungsstufe </i>, die im fraktalen Muster verwendet wird. Ein größerer Mindest-/Höchstbereich führt zu einem <i>reicheren Muster</i> mit Variationen in mehr Frequenzbereichen. |
+| <b>Rauheit</b> <i>Fließkommazahl</i> | Steuert die <i>Balance</i> zwischen niedrigen und hohen <i>Wiederholungsstufen</i> im fraktalen Muster.<br><br><i>Hinweis</i>: Ein Wert von <b>0</b> führt zu einer Ausgabe, die <i> nicht in Zeile </i> enthält, auf die andere niedrige Werte folgen. Dies wird erwartet. |
+| <b>Lakunarität</b> <i>Fließkommazahl</i> | Steuert, wie das angewendete fraktale Muster &quot;<i>&quot; Leerzeichen &quot;</i>&quot; ausfüllt. Ein <i>höherer</i>-Wert führt zu <i>weniger Lücken</i> im Muster und einer <i>dichteren</i>-Rauschen. |
+| <b>Globale Deckkraft</b> <i>Fließkommazahl</i> | Steuert den <i>Bereich</i> der fraktalen 3D-Perlin-Rauschen-Werte <i> um </i> den <b>Grundlinienwert</b>. |
+| <b>Grundlinie</b> <i>Fließkommazahl</i> | Wendet einen <i>offset</i> auf den Basiswert <i>Luminanz</i> für die Werteverteilung der 3D-Perlin-Rauschen an. |
+| <b>Kontrast</b> <i>Fließkommazahl</i> | Passt den Kontrast der 3D-Perlin-Rauschen an. |
+| <b>Absolut</b> <i>Boolesche Wert</i> | Verwendet absolute Werte auf der 3D-Perlin-Rauschen. Dadurch wird <i>die Wertverteilung für die Werte <i> unter 0,5</i> effektiv umgekehrt</i>. |
+| <b>Kachelung aktivieren</b> <i>Boolesche Wert</i> | Passt die 3D-Perlin-Rauschen so an, dass sich das resultierende Muster <i>in X-, Y- und Z-Achse wiederholt</i>. |
 
 ## Beispiele
 

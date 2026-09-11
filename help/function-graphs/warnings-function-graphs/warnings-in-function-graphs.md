@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Warnungen in Funktionsdiagrammen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Auf dieser Seite werden Warnungen und Fehlermeldungen aufgelistet, die von [Funk
 Warnungen werden in der QuickInfo des Warnsymbols für die Diagrammressource im Bereich [Explorer](../../interface/the-explorer-window/the-explorer-window.md) sowie in der unteren linken Ecke der [Diagrammansicht](../../interface/the-graph-view/the-graph-view.md) angezeigt, wenn das Diagramm geladen ist.\
 Wenn die Funktion *auf einen Parameter* in einem [Substance-Graphen &#x200B;](../../compositing-graphs/substance-compositing-graphs.md) angewendet wird, wird jede Warnung dazu führen, dass die Warnung &quot;*Die Funktion des [x]-Parameters weist einige Fehler auf*&quot; für diesen Parameter ausgelöst wird.
 
-## ![(Fehler)](../../assets/error.svg) Kein Ausgabeknoten definiert
+## ![(Fehler)](warnings-in-function-graphs.resources/error.svg) Kein Ausgabeknoten definiert
 
 Für die Funktion ist kein Ausgabeknoten definiert.
 
@@ -33,7 +33,7 @@ Für die Funktion ist kein Ausgabeknoten definiert.
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(tick)](../../assets/check.svg) Lösung**
+**![(tick)](warnings-in-function-graphs.resources/check.svg) Lösung**
 
 Wählen Sie einen beliebigen Knoten im Diagramm aus, der einen Wert ausgibt, dessen Typ dem erwarteten Typ für diese Funktion entspricht (falls vorhanden), klicken Sie dann auf RMB und wählen Sie im Kontextmenü die Option **Als Ausgabeknoten festlegen**.\
 Der Ausgabeknoten eines Funktionsdiagramms hat die Farbe *Orange*.
@@ -45,13 +45,13 @@ Der Ausgabeknoten eines Funktionsdiagramms hat die Farbe *Orange*.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-output.gif)
+![](warnings-in-function-graphs.resources/warnings-func-output.gif)
 
 </td>
 </tr>
 </table>
 
-### ![(Fehler)](../../assets/error.svg) Der aktuelle Ausgabeknoten gibt einen Wert vom Typ *x* zurück.
+### ![(Fehler)](warnings-in-function-graphs.resources/error.svg) Der aktuelle Ausgabeknoten gibt einen Wert vom Typ *x* zurück.
 
 Der Ausgabeknoten der Funktion gibt einen Wert zurück, dessen Typ nicht mit dem erwarteten Ausgabewerttyp für diese Funktion übereinstimmt.
 
@@ -59,7 +59,7 @@ Der Ausgabeknoten der Funktion gibt einen Wert zurück, dessen Typ nicht mit dem
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(tick)](../../assets/check.svg) Lösung**
+**![(tick)](warnings-in-function-graphs.resources/check.svg) Lösung**
 
 Wählen Sie einen beliebigen Knoten im Diagramm aus, der einen Wert ausgibt, dessen Typ dem erwarteten Typ für diese Funktion entspricht. Klicken Sie dann auf RMB, und wählen Sie im Kontextmenü die Option **Als Ausgabeknoten festlegen**.\
 Der Ausgabeknoten eines Funktionsdiagramms hat die Farbe *Orange*.
@@ -71,13 +71,13 @@ Der Ausgabeknoten eines Funktionsdiagramms hat die Farbe *Orange*.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-output-type.gif)
+![](warnings-in-function-graphs.resources/warnings-func-output-type.gif)
 
 </td>
 </tr>
 </table>
 
-### ![(Fehler)](../../assets/error.svg) Einige Get-Knoten haben keinen Variablennamen.
+### ![(Fehler)](warnings-in-function-graphs.resources/error.svg) Einige Get-Knoten haben keinen Variablennamen.
 
 Ein oder mehrere [Get](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)-Knoten verfügen über ihre <b>Get...</b>-Eigenschaft leer gelassen, verweisen daher auf keine Variable.
 
@@ -85,7 +85,7 @@ Ein oder mehrere [Get](../../function-graphs/nodes-reference-for-fun/atomic-func
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(tick)](../../assets/check.svg) Lösung**
+**![(tick)](warnings-in-function-graphs.resources/check.svg) Lösung**
 
 Geben Sie eine Zeichenfolge, die dem Namen einer im Funktionsumfang *verfügbaren Variable* entspricht, in die **Get...**-Eigenschaft von Get-Knoten, die diese Warnung auslösen.
 
@@ -96,13 +96,13 @@ Geben Sie eine Zeichenfolge, die dem Namen einer im Funktionsumfang *verfügbare
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-empty-get.gif)
+![](warnings-in-function-graphs.resources/warnings-func-empty-get.gif)
 
 </td>
 </tr>
 </table>
 
-### ![(Fehler)](../../assets/error.svg) Einige Set-Knoten haben keinen Variablennamen.
+### ![(Fehler)](warnings-in-function-graphs.resources/error.svg) Einige Set-Knoten haben keinen Variablennamen.
 
 Bei mindestens einem [Set](../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md)-Knoten bleibt die **Set**-Eigenschaft leer, sodass auf keine Variable verwiesen wird.
 
@@ -110,7 +110,7 @@ Bei mindestens einem [Set](../../function-graphs/fxmaps/using-functions-in-fxmap
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(tick)](../../assets/check.svg) Lösung**
+**![(tick)](warnings-in-function-graphs.resources/check.svg) Lösung**
 
 Geben Sie eine beliebige Zeichenfolge in die **Set**-Eigenschaft von Set-Knoten ein, die diese Warnung auslösen.
 
@@ -125,7 +125,7 @@ Geben Sie eine beliebige Zeichenfolge in die **Set**-Eigenschaft von Set-Knoten 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-empty-set.gif)
+![](warnings-in-function-graphs.resources/warnings-func-empty-set.gif)
 
 </td>
 </tr>

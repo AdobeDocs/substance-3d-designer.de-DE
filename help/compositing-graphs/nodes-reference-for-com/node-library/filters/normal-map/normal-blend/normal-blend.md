@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-blend.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Normale Überblendung , um Normalmaps miteinander zu überblenden und so glatte Übergänge zwischen Oberflächendetails zu erstellen.
+description: Verwenden Sie den Knoten Normale Überblendung , um Normalen-Map übereinander zu legen und so nahtlose Übergänge zwischen Oberflächendetails zu erzeugen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Blend
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 3%
 
 ## Beschreibung
 
-Mit &quot;Normale Überblendung&quot; können Sie zwei Normalmaps mit einer optionalen Maske überblenden, während Sie gleichzeitig sicherstellen, dass alle Werte normalisiert bleiben. Er unterscheidet sich nicht sehr von einem [atomaren Mischknoten](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md), hat aber interne Berechnungen für Normalmaps hinzugefügt.
+Mit der Option &quot;Normale Überblendung&quot; können Sie zwei Normalmaps mit einer optionalen Maske überblenden, während Sie gleichzeitig sicherstellen, dass alle Werte normalisiert bleiben. Er unterscheidet sich nicht sehr von einem [Atomknoten für Überblendungen](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md), hat aber interne Berechnungen für Normalmaps hinzugefügt.
 
-&quot;Normale Überblendung&quot; ist nicht zum Kombinieren (Überlagern) von Normalmaps gedacht, wobei die obere Karte der unteren Karte Details hinzufügt. Verwenden Sie stattdessen [Normale Kombination](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md).
+Normale Überblendung ist nicht für die Kombination (Überlagerung) von Normalmaps gedacht, wobei die oberste Karte der untersten Karte weitere Details hinzufügt. Verwenden Sie stattdessen [Normale Kombination](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md).
 
 </td>
 </tr>

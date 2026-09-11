@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/directional-distance.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Richtungsabstand-Knoten, um Abstandsfelder in bestimmten Richtungen für prozedurale Effekte zu berechnen.
+description: Verwenden Sie den Knoten "Richtungsabstand", um Abstandsfelder in bestimmten Richtungen für prozedurale Effekte zu berechnen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Directional distance
 helpx_experience_level: ""
@@ -45,7 +45,7 @@ Der Abstand des Verlaufs kann mithilfe eines Abstands-Map dynamisch entlang des 
 
 >[!TIP]
 >
-> Der Knoten [Weiche Abschrägung](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md) bietet ähnliche Funktionen, wobei die Ausdehnung in alle Richtungen ausgeführt wird.
+> Der Knoten &quot;[Weiche Abschrägung](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md)&quot; bietet ähnliche Funktionen, bei denen die Erweiterung in alle Richtungen ausgeführt wird.
 
 <a name="inputs"></a>
 
@@ -54,7 +54,7 @@ Der Abstand des Verlaufs kann mithilfe eines Abstands-Map dynamisch entlang des 
 |  |  |
 |:---|:---|
 | <b>Eingabe</b> <i>Graustufen</i> PRIMÄR | Das Bild, aus dem die Maske entnommen werden soll.   Alle Werte über 0,5 sind in dieser Maske weiß. |
-| <b>Abstands-Map</b> <i>Graustufen</i> | Eine optionale Eingabe, die verwendet wird, wenn der Wert des Parameters &quot;Abstands-Map-Multiplikator&quot; größer als 0 ist.   Mit diesem Regler wird der Abstand zwischen Abschrägung und Ausdehnung an den Rändern der Maske angepasst. Bei einem dunkleren Wert verringert sich der Abstand. |
+| <b>Abstands-Map</b> <i>Graustufen</i> | Eine optionale Eingabe, die verwendet wird, wenn der Wert des Parameters &quot;Abstands-Map-Multiplikator&quot; größer als 0 ist.   Er wird verwendet, um den Abschrägungs-/Dilatationsabstand entlang der Ränder der Maske einzustellen, wobei ein dunklerer Wert zu einem kürzeren Abstand führt. |
 | <b>Winkelzuordnung</b> <i>Graustufen</i> | Eine optionale Eingabe, die verwendet wird, wenn der Wert des Parameters &quot;Winkelzuordnungsvervielfacher&quot; größer als 0 ist.   Er wird verwendet, um die Richtung des Abstandsverlaufs anzupassen, indem sein Wert dem Richtungswinkel in der Anzahl der Windungen hinzugefügt wird.   Mit dem Parameter &quot;Winkel-Map-Versatz&quot; können Sie die Werte neu zuordnen, indem Sie angeben, welcher Wert 0 ist. |
 
 <a name="outputs"></a>

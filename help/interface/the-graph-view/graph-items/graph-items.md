@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Graphenelemente
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4b938349fed501f5f6b3e3a70a1006519749e4e1
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 7%
@@ -26,14 +26,14 @@ Graf-Elemente sind spezielle Objekte, mit denen Sie Ihre Grafen organisieren, ih
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Punktknotensymbol](../../../assets/graphatomic-dot.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
+[![Punktknotensymbol](graph-items.resources/graphatomic-dot.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
 
 ## Knoten &quot;Punkt&quot; (auch Portal)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Rahmen-Symbol](../../../assets/graphatomic-frame.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
+[![Rahmen-Symbol](graph-items.resources/graphatomic-frame.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
 
 ## Rahmen
 
@@ -60,14 +60,14 @@ Gruppiert Knoten mit Beschriftung und Farbcodierung, und verschiebt sie dann gan
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Kommentarsymbol](../../../assets/graphatomic-comment.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
+[![Kommentarsymbol](graph-items.resources/graphatomic-comment.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
 
 ## Kommentar
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Symbol für die Nadel der Navigation](../../../assets/graphatomic-pin.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
+[![Symbol für die Nadel der Navigation](graph-items.resources/graphatomic-pin.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
 
 ## Pin
 

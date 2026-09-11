@@ -52,7 +52,7 @@ Der **Schmutz Galvanic Small**-Schmutz erzeugt eine Stahlkarte, die dem Muster a
 | <b>Erweitert</b> |  |
 | <b>Frische</b> <i>Fließkommazahl</i> | Stellt die Genauigkeit und Schärfe der verzinkten Formen ein. |
 | <b>Dirt</b> <i>Fließkommazahl</i> | Passt die Deckkraft der Dirt-Überlagerung an. |
-| <b>Micro-Verzerrung</b> <i>Gleitend</i> | Passt die Intensität des Effekts &quot;Hochfrequenzverkrümmung&quot; an. |
+| <b>Micro-Verzerrung</b> <i>Fließkommazahl</i> | Passt die Intensität des Effekts &quot;Hochfrequenzverkrümmung&quot; an. |
 
 ## Beispiele
 

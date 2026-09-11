@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/multi-directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/multi-directional-warp.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Multidirektionale Verkrümmung", um Verkrümmungseffekte in mehrere Verzerrungen anzuwenden und so komplexe Richtungsmuster zu erstellen.
 helpx_creative_field: ""
@@ -59,4 +59,4 @@ Er unterscheidet sich hauptsächlich von [Non Uniform Directional Warp](../../..
 | <b>Intensität</b> <i>0.0 - 20.0</i> | Legt die Intensität des Verkrümmungseffekts fest, d. h. wie weit Pixel entfernt werden sollen. |
 | <b>Verkrümmungswinkel</b> <i>0.0 - 1.0</i> | Legt den Winkel oder die Richtung fest, in der der Effekt &quot;Verformen&quot; angewendet werden soll. |
 | <b>Modus</b> <i>Durchschnitt, Max, Min, Kette</i> | Legt den Mischmodus für aufeinander folgende Durchgänge fest. Wirkt sich nur aus, wenn die Richtung 2 oder 4 ist! |
-| <b>Richtungen</b> <i>1, 2, 4</i> | Legt fest, wie viele Achsen die Verkrümmung durchführt. 1 bedeutet, dass es sich in Winkelrichtung bewegt, und das Gegenteil davon, 2 bedeutet die Achse des Winkels plus die senkrechte Achse, 4 bedeutet die vorherigen Achsen plus 45 Grad Einschnitte. |
+| <b>Richtungen</b> <i>1, 2, 4</i> | Legt fest, wie viele Achsen die Verkrümmung durchführt. 1 bedeutet, dass es sich in Richtung des Winkels bewegt, und das Gegenteil dieser Richtung, 2 bedeutet die Achse des Winkels plus die senkrechte Achse, 4 bedeutet die vorhergehenden Achsen plus 45 Grad Einschnitte. |

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Knoten "Punkt" (auch Portal)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4b938349fed501f5f6b3e3a70a1006519749e4e1
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Punktknotensymbol](../../../../assets/graphatomic-dot_1.png "Punktknotensymbol")
+![Punktknotensymbol](dot-node.resources/graphatomic-dot_1.png "Punktknotensymbol")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ Punktknoten können in einem beliebigen Graf hinzugefügt werden, und zwar auf e
 +++In Link einfügen
 Halten Sie die <b>Alt</b>-Taste gedrückt, während Sie mit dem Mauszeiger auf eine Verbindung zeigen, um die Vorschau des Punktknotens anzuzeigen, und klicken Sie dann auf &quot;LMB&quot;, um einen Punktknoten für die Verbindung an diesem Speicherort hinzuzufügen.
 
-![Einfügen eines Punktknotens](../../../../assets/dot-node-insert-optim.gif "Einfügen eines Punktknotens"){width="512px"}
+![Einfügen eines Punktknotens](dot-node.resources/dot-node-insert-optim.gif "Einfügen eines Punktknotens"){width="512px"}
 
 
 
@@ -55,7 +55,7 @@ Drücken Sie die Taste <b>Alt</b>, während Sie eine neue Verbindung von einer K
 
 Sie können mit dem Ziehen der neuen Verbindung fortfahren und den Vorgang wiederholen, um die Verbindung nach Ihren Wünschen zu routen.
 
-![Punkt: Erstellen aus Verbindung](../../../../assets/graph-dot_create-from-connector.gif "Punkt: Erstellen aus der Verbindung ")
+![Punkt: Erstellen aus Verbindung](dot-node.resources/graph-dot_create-from-connector.gif "Punkt: Erstellen aus der Verbindung ")
 
 
 
@@ -64,7 +64,7 @@ Sie können mit dem Ziehen der neuen Verbindung fortfahren und den Vorgang wiede
 +++Knotenmenü
 Drücken Sie die <b>Leertaste</b>, um das <b>Knotenmenü</b> anzuzeigen, und wählen Sie dann das Element &quot;Punkt&quot; aus oder geben Sie im Suchfeld &quot;Punkt&quot; ein, um das Element anzuzeigen und schneller zu finden.
 
-![Punktknoten im Knotenmenü](../../../../assets/dot-node-insert-menu.png "Punktknoten im Knotenmenü")
+![Punktknoten im Knotenmenü](dot-node.resources/dot-node-insert-menu.png "Punktknoten im Knotenmenü")
 
 
 
@@ -85,7 +85,7 @@ Drücken Sie ALT und verschieben Sie einen Punkt-Knoten über Verknüpfungen, um
 </td>
 <td style="border: 0;" valign="top">
 
-![Verknüpfungen zusammenführen](../../../../assets/dot-node-congrenate-links-optim.gif "Verknüpfungen zusammenführen"){width="512px"}
+![Verknüpfungen zusammenführen](dot-node.resources/dot-node-congrenate-links-optim.gif "Verknüpfungen zusammenführen"){width="512px"}
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Drücken Sie ALT und verschieben Sie einen Punkt-Knoten über Verknüpfungen, um
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Punktknoten als Portal - Symbol](../../../../assets/DotNode_Portal-1.png "Punktknoten als Portal - Symbol")
+![Punktknoten als Portal - Symbol](dot-node.resources/DotNode_Portal-1.png "Punktknoten als Portal - Symbol")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -108,7 +108,7 @@ Punktknoten können als <b>Portale</b> verwendet werden, um Daten über eine gro
 </tr>
 </table>
 
-![Punktknoten als Portal](../../../../assets/DotNode_Portal.gif "Punktknoten als Portal")
+![Punktknoten als Portal](dot-node.resources/DotNode_Portal.gif "Punktknoten als Portal")
 
 ### Erstellen von Portalen
 

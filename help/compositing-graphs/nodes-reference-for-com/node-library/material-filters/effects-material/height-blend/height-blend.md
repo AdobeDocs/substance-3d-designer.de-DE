@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/height-blend.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Height-Überblendung", um Texturen auf der Grundlage von Height-Maps zu überblenden und realistische Materialübergänge zu erstellen.
+description: Verwenden Sie den Knoten Height Überblendung , um Texturen auf der Grundlage von Höhen-Map zu mischen, um realistische Material-Übergänge zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Height Blend
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Height-Überblendung
+title: Height Überblendung
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
@@ -18,7 +18,7 @@ ht-degree: 5%
 ---
 
 
-# Height-Überblendung
+# Height Überblendung
 
 <table>
 <tr style="border: 0;">
@@ -33,9 +33,9 @@ ht-degree: 5%
 
 ## Beschreibung
 
-Kombiniert zwei Höhenkarten basierend auf ihren Height-Informationen. Generiert eine überblendete Höhenkarte, aber auch eine Schwarzweiß-Maske, die an anderer Stelle verwendet werden kann.
+Kombiniert zwei Höhenkarten basierend auf ihren Height-Informationen. Generiert eine gemischte Höhenkarte, aber auch eine Schwarz-Weiße Maske, die an anderer Stelle verwendet werden kann.
 
-Dies ist nützlich, wenn Sie zwei hochwertige Höhenkarten kombinieren müssen, aber nicht unbedingt ein vollständiges Height, wie es für [Materialmaterialüberblendung](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/material-height-blend/material-height-blend.md) erforderlich ist.
+Dies ist hilfreich, wenn Sie zwei hochwertige Heightmaps kombinieren müssen, aber nicht unbedingt ein vollständiges Material, wie es für die [Material Height-Überblendung](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/material-height-blend/material-height-blend.md) erforderlich ist.
 
 </td>
 </tr>

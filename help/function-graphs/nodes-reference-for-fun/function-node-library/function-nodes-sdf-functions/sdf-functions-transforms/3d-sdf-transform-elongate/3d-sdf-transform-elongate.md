@@ -1,6 +1,6 @@
 ---
 title: länglich
-description: Designer > Substance-Kompositionsgrafiken > Knotenreferenz für Substance-Kompositionsgrafiken > Knotenbibliothek > SDF-Funktion > Transformieren > Elongate
+description: Designer > Substance-Compositing-Graf > Knotenreferenz für Substance-Compositing-Graf > Knotenbibliothek > SDF-Funktion > Transformieren > Elongate
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '132'
@@ -40,7 +40,7 @@ Längen Sie eine SDF-Form von einer einstellbaren Position aus.<br>Hiermit wird 
 
 |  |  |
 | :--- | :--- |
-| <b>SDF</b> *Gleitend* | Die Eingabe-SDF-Form. |
-| <b>Verlängerung</b> *Float3* | Die Dehnungslänge auf der X-, Y-, Z-Achse. |
-| <b>Mittenposition</b> *Float3* | Die Weltraum-Position, von der die Form verlängert wird.<br>D.h. die Position der Scheibe wird verlängert. |
-| <b>P</b> *Float3* | Die veränderte Weltraumposition. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die nicht transformierte Weltraumposition.</i> |
+| <b>SDF</b> *Fließkommazahl* | Die Eingabe-SDF-Form. |
+| <b>Verlängerung</b> *Fließkommazahl3* | Die Dehnungslänge auf der X-, Y-, Z-Achse. |
+| <b>Mittenposition</b> *Fließkommazahl3* | Die Position des Welt-Raums, von der aus die Form verlängert wird.<br>D.h. die Position der Scheibe wird verlängert. |
+| <b>P</b> *Fließkommazahl3* | Die transformieren Position des Welt-Raums. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die Position des nicht transformierten Welt-Raums.</i> |

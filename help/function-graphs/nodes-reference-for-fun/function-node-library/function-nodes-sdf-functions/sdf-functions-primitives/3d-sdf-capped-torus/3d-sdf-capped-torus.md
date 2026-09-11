@@ -1,6 +1,6 @@
 ---
 title: Torus capped
-description: Designer > Substance-Compositing-Graphen > Knotenreferenz für Substance-Compositing-Graphen > Knotenbibliothek > SDF-Funktion > Primitiv > Begrenzter Torus
+description: Designer > Substance-Compositing-Graf > Knotenreferenz für Substance-Compositing-Graf > Knotenbibliothek > SDF-Funktion > Primitiv > Begrenzter Torus
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '234'
@@ -45,5 +45,5 @@ Eine SDF-Funktion für einen gedeckten Torus, bei der das Überstreichen des kle
 | <b>Winkel</b> *Gleitend* | Der zentrale Winkel, der abwechselnd den Trimmbogen des Hauptkreises definiert, entlang dem der Nebenkreis nicht gefegt wird.<br><br><i>Standard: 0,75</i> |
 | <b>Winkelversatz</b> *Gleitend* | Der Versatz entlang des Hauptradius des Trimmbogens, entlang dem der Nebenkreis nicht überstrichen wird.<br><br><i>Standard: 0</i> |
 | <b>Symmetrisch</b> *Boolescher Wert* | Steuert, ob der Trimmbogen in eine oder zwei Richtungen gezeichnet werden soll.<br><br><i>Standard: Wahr</i> |
-| <b>Mittenposition</b> *Float3* | Die Weltraumposition des Drehpunkts des gedeckelten Torus.<br><br><i>Standard: (0, 0, 0.5)</i> |
-| <b>P</b> *Float3* | Die veränderte Weltraumposition. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die nicht transformierte Weltraumposition.</i> |
+| <b>Mittenposition</b> *Float3* | Die Position des Welt-Raums des Drehpunkts des gedeckelten Torus.<br><br><i>Standard: (0, 0, 0.5)</i> |
+| <b>P</b> *Float3* | Die transformieren Position des Welt-Raums. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die nicht transformierte Weltraumposition.</i> |

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D-Ansicht
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: c7bf2522b15bef308d1471ca234c6619091f95fc
 workflow-type: tm+mt
 source-wordcount: '3514'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Weitere Informationen: [3D-Renderer](3d-renderers/3d-renderers.md)
 
 Im folgenden Abschnitt wird erläutert, wie Sie allgemeine Aktionen kurz durchführen, zusammen mit einem animierten GIF, um den Prozess zu veranschaulichen.
 
-![Viewport-Navigation](../../assets/3d-navigate.gif "Viewport-Navigation")
+![Viewport-Navigation](3d-view.resources/3d-navigate.gif "Viewport-Navigation")
 
 ### Navigation
 
@@ -74,21 +74,21 @@ Verwenden eines Trackpads (nur macOS)
 
 ### Auswählen und Fokussieren
 
-Sie können mit Gittern direkt im Viewport interagieren:
+Sie können mit Meshs direkt im Viewport interagieren:
 
-<b>Halten Sie ⇧ gedrückt und klicken Sie auf LMB in einem Gitter, um ein Gitter auszuwählen.</b> Ausgewählte Gitter haben einen blauen Umriss.
+<b>Halten Sie ⇧ gedrückt und klicken Sie auf LMB auf einem Mesh, um einen Mesh auszuwählen.</b> Ausgewählte Mesh werden blau umrandet.
 
-<b>Drücken Sie F, um sich auf ein ausgewähltes Gitter zu konzentrieren</b>. Durch Fokussieren eines Gitters bewegt sich die Kamera, um es einzurahmen und um es herum zu kreisen.
+<b>Drücken Sie F, um sich auf einen ausgewählten Mesh zu konzentrieren</b>. Wenn Sie einen Mesh fokussieren, wird die Kamera in den Rahmen verschoben und umkreisen sie.
 
-<b>Klicken Sie auf RMB, während ein Gitter ausgewählt ist</b>, um auf seine [Materialaktionen](#material-actions) in einem Kontextmenü zuzugreifen.
+<b>Klicken Sie auf RMB, während ein Mesh ausgewählt ist</b>, um auf seine [Material-Aktionen](#material-actions) in einem Kontextmenü zuzugreifen.
 
-<b>Drücken Sie die Esc-Taste, um die Auswahl aufzuheben.</b> Der Cursor muss sich nicht im Gitter befinden.
+<b>Drücken Sie die Esc-Taste, um die Auswahl aufzuheben.</b> Der Cursor muss sich nicht auf dem Mesh befinden.
 
-![3D-Ansicht - Fokus und Auswahl aufheben](../../assets/sceneBrowser-focus.gif "3D-Ansicht - Fokus und Auswahl aufheben"){zoomable="yes"}
+![3D-Ansicht - Fokus und Auswahl aufheben](3d-view.resources/sceneBrowser-focus.gif "3D-Ansicht - Fokus und Auswahl aufheben"){zoomable="yes"}
 
 *Auswählen, Fokussieren, Auswahl aufheben*
 
-![3D-Ansicht - Kontextmenü](../../assets/sceneBrowser-contextualMenu.gif "3D-Ansicht - Kontextmenü"){zoomable="yes"}
+![3D-Ansicht - Kontextmenü](3d-view.resources/sceneBrowser-contextualMenu.gif "3D-Ansicht - Kontextmenü"){zoomable="yes"}
 
 *Auswählen, Kontextmenü*
 
@@ -114,13 +114,13 @@ Um Ihre eigene, benutzerdefinierte HDR-Lichtumgebung zu verwenden, importieren S
 
 Wechseln Sie zu <b>Licht > Eigenschaften bearbeiten</b>, um Punktlichter in Ihrer Szene umzuschalten.
 
-Punktlicht 1 kann durch Halten von LMB oder RMB und Ziehen im Darstellungsfenster im Beleuchtungsmodus um den Ursprung der Szene bewegt werden. <img src="../../assets/image2020-9-17-10-30-37.png" width="24" />
+Punktlicht 1 kann durch Halten von LMB oder RMB und Ziehen im Darstellungsfenster im Beleuchtungsmodus um den Ursprung der Szene bewegt werden. <img src="3d-view.resources/image2020-9-17-10-30-37.png" width="24" />
 
-Im Kameramodus <img src="../../assets/image2020-9-17-10-31-32.png" width="24" />, Sie können auch vorübergehend in den Beleuchtungsmodus wechseln, indem Sie Strg+⇧ in Kombination mit den Maustasten gedrückt halten.
+Im Kameramodus <img src="3d-view.resources/image2020-9-17-10-31-32.png" width="24" />, Sie können auch vorübergehend in den Beleuchtungsmodus wechseln, indem Sie Strg+⇧ in Kombination mit den Maustasten gedrückt halten.
 
 ## Daten in der 3D-Ansicht anzeigen
 
-![Anzeigen der Substance-Diagrammausgaben](../../assets/3d-material.gif "Anzeigen der Substance-Diagrammausgaben")
+![Anzeigen der Substance-Diagrammausgaben](3d-view.resources/3d-material.gif "Anzeigen der Substance-Diagrammausgaben")
 
 ### Substance-Graphen
 
@@ -140,7 +140,7 @@ Wenn *einen Graf* lädt, werden seine Ausgaben standardmäßig automatisch in de
 > 
 > Wenn Sie benutzerdefinierte Gitter mit mehr als einem einzelnen Material verwenden, werden Sie aufgefordert, den Materialschlitz auszuwählen, dem das Material zugewiesen werden soll. Klicken Sie bei einer der oben genannten Methoden auf einen Steckplatz, um Ihre Auswahl zu bestätigen. Weitere Informationen zu Materialien und deren Zuordnung finden Sie im Abschnitt unten.
 
-![Anzeigen von Knoten- und Diagrammausgaben in 3D-Ansicht](../../assets/3d-channel.gif "Anzeigen von Knoten- und Diagrammausgaben in 3D-Ansicht")
+![Anzeigen von Knoten- und Diagrammausgaben in 3D-Ansicht](3d-view.resources/3d-channel.gif "Anzeigen von Knoten- und Diagrammausgaben in 3D-Ansicht")
 
 ### Einzelne Knoten-/Diagrammausgabe
 
@@ -152,7 +152,7 @@ Sie können auch *RMB* verwenden, um einen beliebigen Knoten per Drag &amp; Drop
 
 Sie können jede einzelne Diagrammausgabe anzeigen, indem Sie die Diagrammressource im [Explorer](../the-explorer-window/the-explorer-window.md)-Dock erweitern und diese Ausgabe mit *LMB* in die 3D-Ansicht ziehen. Ihnen wird eine Liste mit verfügbaren Kanälen angezeigt, denen der Knoten zugewiesen werden kann. Klicken Sie zum Bestätigen auf eine beliebige Option.
 
-![Anzeigen von benutzerdefinierten 3D-Meshes](../../assets/3d-mesh.gif "Anzeigen von benutzerdefinierten 3D-Meshes")
+![Anzeigen von benutzerdefinierten 3D-Meshes](3d-view.resources/3d-mesh.gif "Anzeigen von benutzerdefinierten 3D-Meshes")
 
 ## (benutzerdefinierte) 3D-Szenen anzeigen
 
@@ -161,7 +161,7 @@ Wählen Sie eines der Standardgitter über das Dropdownmenü <b>Szene</b> in der
 
 Wechseln Sie für benutzerdefinierte 3D-Szenen zum Abschnitt [Arbeiten mit 3D-Szenen](../../working-with-3d-scenes/working-with-3d-scenes.md).
 
-![Materialeigenschaften ändern](../../assets/3d-materials.gif "Materialeigenschaften ändern")
+![Materialeigenschaften ändern](3d-view.resources/3d-materials.gif "Materialeigenschaften ändern")
 
 ## Shader-Eigenschaften ändern
 
@@ -184,7 +184,7 @@ Mit den Aktionen &#39;Material zurücksetzen&#39; oder &#39;Auf Szenenzustand zu
 > * <b>Rasterizer/GPU-Pathtracer:</b> In den Renderereinstellungen (Renderer > Einstellungen bearbeiten) befindet sich und wirkt sich auf die *gesamte Szene aus*.
 > * <b>OpenGL:</b> befindet sich in den Materialeigenschaften und wirkt sich auf das Material aus.
 
-![Exportieren der Szene](../../assets/3d-view-export-scene.gif "Exportieren der Szene")
+![Exportieren der Szene](3d-view.resources/3d-view-export-scene.gif "Exportieren der Szene")
 
 ## Szene exportieren
 
@@ -230,7 +230,7 @@ Die Menüleiste enthält 7 Menüs mit Optionen für die 3D-Ansicht. unten finden
 +++Szene
 Das Menü <b>Szene</b> behandelt die angezeigte Geometrie (3D-Ressource) und die Zustände der 3D-Ansicht. 3D-Ressourcen geben nur das Gitter frei, Szenenzustände sind Lichter, Kamera und zugehörige Einstellungen und können das Gitter auch daneben enthalten.
 
-![Gitter des Szenenmenüs](../../assets/3d-view-meshes.png "Gitter des Szenenmenüs")
+![Gitter des Szenenmenüs](3d-view.resources/3d-view-meshes.png "Gitter des Szenenmenüs")
 
 
 
@@ -526,25 +526,25 @@ Schaltet die Anzeige der 3D-Achse im Viewport um.
 
 <br>
 
-![](../../assets/3d-view-display-backface-culling.jpg) <b>Rückseitenkeulung</b>
+![](3d-view.resources/3d-view-display-backface-culling.jpg) <b>Rückseitenkeulung</b>
 
 Wenn Sie diese Option deaktivieren, wird eine Gitterfläche von *beiden Seiten* angezeigt. Die Option funktioniert in Kombination mit Drahtgitter.
 
 <br>
 
-![](../../assets/3d-view-display-bounding-box.jpg) <b>Begrenzungsrahmen</b>
+![](3d-view.resources/3d-view-display-bounding-box.jpg) <b>Begrenzungsrahmen</b>
 
 Schaltet die Anzeige des Begrenzungsrahmens des Gitters um.
 
 <br>
 
-![](../../assets/3d-view-display-vertex-tangent-space.jpg) <b>Tangentialraum Scheitelpunkt</b>
+![](3d-view.resources/3d-view-display-vertex-tangent-space.jpg) <b>Tangentialraum Scheitelpunkt</b>
 
 Zeigt die Tangenten-, binormalen und normalen Vektoren für alle Scheitelpunkte als farbige Gizmos an.
 
 <br>
 
-![](../../assets/3d-view-display-wireframe.jpg) <b>Drahtgitter</b>
+![](3d-view.resources/3d-view-display-wireframe.jpg) <b>Drahtgitter</b>
 
 Schaltet die Anzeige des Gitters als Drahtgitter um.
 
@@ -574,7 +574,7 @@ Mit der Symbolleiste <b>Anzeigen</b>, die sich standardmäßig am *unteren* des 
 
 ### Farbkanäle
 
-Sie können einen einzelnen Kanal des Bildes mithilfe der Schaltfläche ![](../../assets/2d-view-icon-channels.png) <b>Farbkanäle</b> anzeigen. Dadurch wird ein Kombinationsfeld geöffnet, in dem Sie auswählen können, welcher der Kanäle <b>Red</b>, <b>Green</b> und <b>Blue</b> angezeigt werden soll. Das normale Erscheinungsbild des Bildes mit allen Kanälen wird wiederhergestellt, indem die Option <b>RGB</b> ausgewählt wird.
+Sie können einen einzelnen Kanal des Bildes mithilfe der Schaltfläche ![](3d-view.resources/2d-view-icon-channels.png) <b>Farbkanäle</b> anzeigen. Dadurch wird ein Kombinationsfeld geöffnet, in dem Sie auswählen können, welcher der Kanäle <b>Red</b>, <b>Green</b> und <b>Blue</b> angezeigt werden soll. Das normale Erscheinungsbild des Bildes mit allen Kanälen wird wiederhergestellt, indem die Option <b>RGB</b> ausgewählt wird.
 
 Das *Symbol* der <b>Farbkanäle</b>-Schaltfläche *ändert sich* in Abhängigkeit von den derzeit angezeigten Kanälen.
 

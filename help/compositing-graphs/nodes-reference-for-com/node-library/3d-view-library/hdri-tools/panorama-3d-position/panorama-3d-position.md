@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## Beschreibung
 
-Hilfsknoten, der eine Weltraumpositionskarte für ein spiralförmig projiziertes Panoramabild rendert. Kann verwendet werden, um Ihre eigenen sphärischen Transformationen und Lookups zu machen.
+Helfer-Knoten, der eine Weltraum-Positionskarte für ein spiralförmig projiziertes Panoramabild rendert. Kann verwendet werden, um Ihre eigenen sphärischen Transformationen und Lookups zu machen.
 
 </td>
 </tr>

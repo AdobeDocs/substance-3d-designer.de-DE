@@ -208,23 +208,23 @@ Wenn Sie z. B. das Fehlen einer Variablen erkennen, können Sie einen Fallback-W
 * [Inhalt] Zu Pfaden maskieren: Fehler bei nicht quadratischen Verhältnissen
 * [Inhalt] PBR-Rendering-/Symbolrenderer: Falsche Specular-Lappenfunktion
 * [Inhalt] Pfade zum Spline: Legen Sie die Ausgabegröße standardmäßig auf &quot;Relativ zum übergeordneten Element&quot; fest.
-* [Inhalt] Punktliste: Punkte sind nicht in der richtigen Reihenfolge, wenn die Textur der Daten nicht quadratisch ist
+* [Inhalt] Punktliste: Punkte sind nicht in der richtigen Reihenfolge, wenn die Datentextur nicht quadratisch ist
 * [Inhalt] Spline-Mapper: 1px Leitungsstörung in zufälligen Fällen
-* [Inhalt] Spline-Mapper: gedehnt UVs in einigen Fällen, wenn die Thickness 0 ist
-* [Graf] Absturz beim Löschen der Ausgabe eines Funktions-Untergraphen
-* [Graf] Der Farbtyp des Eingabeknotens kann in schreibgeschützten Paketen geändert werden.
-* [Graf] Die primäre Eingabe kann in schreibgeschützten Paketen geändert werden.
+* [Inhalt] Spline-Mapper: gedehnte UVs in einigen Fällen, wenn die Thickness 0 beträgt
+* [Graph] Absturz beim Löschen der Ausgabe eines Funktions-Untergraphen
+* [Graph] Der Farbtyp des Eingabeknotens kann in schreibgeschützten Paketen geändert werden
+* [Graph] Primäre Eingabe kann in schreibgeschützten Paketen geändert werden
 * [Eigenschaften] Die Farbe des Farbvorschau-Widgets stimmt nicht mit dem sRGB-Schaltflächenstatus überein
-* [Szene] Eine OBJ Datei, die größer als 2 GB ist, kann nicht geladen werden.
+* [Szene] Kann keine OBJ-Datei laden, die größer als 2 GB ist
 * [UI] Die Dockingstatus von Console und Dependency Manager werden nach einem Neustart nicht wiederhergestellt
 
 ### BEKANNTE FRAGEN
 
-* [Baker] Absturz beim Baking mit bestimmten NVIDIA-Treibern
+* [Baker] Abstürze beim Backen mit einigen bestimmten NVIDIA-Treibern
 * [3D-Ansicht] OpenGL: Einige importierte Szenen werden möglicherweise nicht gerendert.
-* [3D-Ansicht] Pathtracer: langsame Leistung beim Aktualisieren von Texturen mit aktivierter Tesselierung/aktiviertem Versatz
-* [3D-Ansicht] Einige Color-Material-Eigenschaften werden beim Überschreiben nicht ordnungsgemäß farbverwaltet.
-* [3D-Ansicht] Szenen mit animierten Grundformen werden nicht ordnungsgemäß unterstützt.
-* [3D-Ansicht] Mesh mit mehreren UDims werden noch nicht unterstützt.
-* [3D-Ansicht] Mesh mit mehreren UVs wird nicht ja unterstützt und kann zu ungültigem Material-Rendering führen
+* [3D-Ansicht] Pathtracer: langsame Bewegungen beim Aktualisieren von Texturen mit aktivierter Tesselierung/Versatz
+* [3D-Ansicht] Einige Farbmaterialeigenschaften werden beim Überschreiben nicht korrekt farbverwaltet
+* [3D-Ansicht] Szenen mit animierten Grundelementen werden nicht ordnungsgemäß unterstützt.
+* [3D-Ansicht] Gitter mit mehreren UDims werden noch nicht unterstützt.
+* [3D-Ansicht] Gitter mit mehreren UVs werden nicht ja unterstützt und können zu ungültiger Materialdarstellung führen
 * [3D-Ansicht] Pathtracer wird auf AMD-Grafikkarten nicht unterstützt

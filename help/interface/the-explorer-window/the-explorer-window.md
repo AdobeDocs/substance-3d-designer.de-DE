@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Explorer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 16eb8a173e984f842c820f3b8f0c3e140040bdfa
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 2%
@@ -35,7 +35,7 @@ Im Explorer können Sie Ihre Projekte starten und beenden, da Sie damit jede Art
 </td>
 <td style="border: 0;" valign="top">
 
-![Explorer-Dock](../../assets/explorer-3.jpg "Explorer-Dock")
+![Explorer-Dock](the-explorer-window.resources/explorer-3.jpg "Explorer-Dock")
 
 </td>
 </tr>
@@ -56,16 +56,16 @@ Im Explorer-Dock können Sie einige wichtige Aktionen ausführen:
 
 Mit dieser Symbolleiste können Sie schnell Funktionen im Zusammenhang mit Ihrem gesamten Arbeitsablauf ausführen. Alle Schaltflächen sind *kontextabhängig*, d. h. sie aktivieren und ändern ihr Verhalten entsprechend Ihrer aktuellen Auswahl im Explorer.
 
-![](../../assets/save.png) <b>Speichern</b> ausgewähltes Paket.
+![](the-explorer-window.resources/save.png) <b>Speichern</b> ausgewähltes Paket.
 
-![](../../assets/sendto-icon.jpg) <b>Publish oder [senden](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b> ausgewählte Elemente:
+![](the-explorer-window.resources/sendto-icon.jpg) <b>Publish oder [senden](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b> ausgewählte Elemente:
 
 * [Publish beliebiges ausgewähltes Paket zu einem Substance 3D-Asset (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md);
 * Senden Sie das ausgewählte Paket an [Substance 3D Sampler](https://www.adobe.com/de/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/de/products/substance3d-painter.html) oder [Substance 3D Stager](https://www.adobe.com/de/products/substance3d-stager.html).
 
-![](../../assets/republish.png) <b>Publish oder senden Sie wie zuvor:</b> Publish oder senden Sie die ausgewählten Elemente mit den gleichen Einstellungen wie zuvor. Diese Option ist nur für ein Paket verfügbar, das bereits *mindestens einmal* in der *aktuellen*-Sitzung veröffentlicht wurde.
+![](the-explorer-window.resources/republish.png) <b>Publish oder senden Sie wie zuvor:</b> Publish oder senden Sie die ausgewählten Elemente mit den gleichen Einstellungen wie zuvor. Diese Option ist nur für ein Paket verfügbar, das bereits *mindestens einmal* in der *aktuellen*-Sitzung veröffentlicht wurde.
 
-![](../../assets/graph-cleaner.jpg) <b>Nicht verwendete Knoten entfernen</b> in ausgewählten Diagrammen. Das Tool befolgt die folgenden Regeln:
+![](the-explorer-window.resources/graph-cleaner.jpg) <b>Nicht verwendete Knoten entfernen</b> in ausgewählten Diagrammen. Das Tool befolgt die folgenden Regeln:
 
 * Das Tool ist nur verfügbar, wenn die ausgewählten Elemente vom *gleichen Typ sind*: nur Diagramme, Ordner oder Pakete;
 * Wenn die Auswahl Ordner oder Pakete enthält, bereinigt das Tool alle darin enthaltenen Diagramme *rekursiv*;
@@ -77,14 +77,14 @@ Erfahren Sie mehr über das Tool im Abschnitt &quot;Nicht verwendete Knoten entf
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dropdown-Menü &quot;Publish/Senden&quot;](../../assets/explorer-sendto-displayed.jpg "Dropdown-Menü &quot;Publish/Senden&quot;")
+![Dropdown-Menü &quot;Publish/Senden&quot;](the-explorer-window.resources/explorer-sendto-displayed.jpg "Dropdown-Menü &quot;Publish/Senden&quot;")
 
 *Publish/Send*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dropdown-Menü für nicht verwendete Knoten entfernen](../../assets/explorer-graph-cleaner.jpg "Dropdown-Menü für nicht verwendete Knoten entfernen")
+![Dropdown-Menü für nicht verwendete Knoten entfernen](the-explorer-window.resources/explorer-graph-cleaner.jpg "Dropdown-Menü für nicht verwendete Knoten entfernen")
 
 *Nicht verwendete Knoten entfernen*
 
@@ -200,9 +200,9 @@ Mit <b>Einfügen</b> werden kopierte Diagramme und/oder Ressourcen *in* das ausg
 
 Die Symbolleiste am unteren Rand des Explorer-Docks enthält Informationen zu einem Paket oder einer Paketressource:
 
-<b>![](../../assets/explorer-dependencies.jpg) Abhängigkeiten:</b> Wenn ein Paket ausgewählt ist, werden seine Paketabhängigkeiten in einem dedizierten Bereich aufgelistet.
+<b>![](the-explorer-window.resources/explorer-dependencies.jpg) Abhängigkeiten:</b> Wenn ein Paket ausgewählt ist, werden seine Paketabhängigkeiten in einem dedizierten Bereich aufgelistet.
 
-<b>![](../../assets/explorer-information.jpg)-Informationen: </b> Stellt Metadaten bereit, die sich auf das derzeit ausgewählte Paket oder die derzeit ausgewählte Ressource beziehen:
+<b>![](the-explorer-window.resources/explorer-information.jpg)-Informationen: </b> Stellt Metadaten bereit, die sich auf das derzeit ausgewählte Paket oder die derzeit ausgewählte Ressource beziehen:
 
 * Paket: den vollständigen Dateipfad des Pakets
 * [Bitmapressource](../../resources/bitmap-resource/bitmap-resource.md): den vollständigen Dateipfad der Ressource, ihr [ICC-Profil](../../color-management/color-management.md), die Bildgröße und die [Importmethode](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) (d. h. *Verknüpft* oder *Importiert*)
@@ -211,14 +211,14 @@ Die Symbolleiste am unteren Rand des Explorer-Docks enthält Informationen zu ei
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Abhängigkeitsbereich](../../assets/explorer-dependencies-displayed.jpg "Abhängigkeitsbereich")
+![Abhängigkeitsbereich](the-explorer-window.resources/explorer-dependencies-displayed.jpg "Abhängigkeitsbereich")
 
 *Abhängigkeiten*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Informationsbereich](../../assets/explorer-information-displayed.jpg "Informationsbereich")
+![Informationsbereich](the-explorer-window.resources/explorer-information-displayed.jpg "Informationsbereich")
 
 *Informationen*
 

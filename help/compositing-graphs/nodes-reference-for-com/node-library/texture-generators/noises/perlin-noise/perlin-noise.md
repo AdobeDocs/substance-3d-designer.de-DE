@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Perlin Rauschen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Perlin Rauschen - Symbol](../../../../../../assets/perlin_noise.png "Perlin Rauschen - Symbol"){width="200px"}
+![Perlin Rauschen - Symbol](perlin-noise.resources/perlin_noise.png "Perlin Rauschen - Symbol"){width="200px"}
 
 <b>In:</b> Texturen-Generatoren > Rauschen
 
@@ -65,12 +65,12 @@ Generiert eine Perlin-Rauschen, eine weit verbreitete, gleichmäßige Verteilung
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Perlin-Rauschen - Beispiel 1](../../../../../../assets/perlin_noise_1.png "Perlin-Rauschen - Beispiel 1"){zoomable="yes"}
+![Perlin-Rauschen - Beispiel 1](perlin-noise.resources/perlin_noise_1.png "Perlin-Rauschen - Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Perlin-Rauschen - Beispiel 2](../../../../../../assets/noise_perlin_noise_v2_speed0.6_aniso0.gif "Perlin-Rauschen - Beispiel 2"){zoomable="yes"}
+![Perlin-Rauschen - Beispiel 2](perlin-noise.resources/noise_perlin_noise_v2_speed0.6_aniso0.gif "Perlin-Rauschen - Beispiel 2"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Verlauf Linear 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: 827e738d5db4d64bf366d332a62a7bbd2fa840fc
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-linear-1.png){width="128px"}
+![](gradient-linear-1.resources/gradient-linear-1.png){width="128px"}
 
-<b>In:</b> Texturen > Muster generieren
+<b>In:</b> Texturgeneratoren > Muster
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -47,7 +47,7 @@ Trotz seiner Einfachheit ist dies ein äußerst nützliches Muster, das als Baus
 
 |  |  |
 |:---|:---|
-| <b>Kachelung</b> <i>1 - 16</i> | Legt fest, wie oft das Ergebnis gekachelt werden soll. |
+| <b>Kacheln</b> <i>1 - 16</i> | Legt fest, wie oft das Ergebnis gekachelt werden soll. |
 | <b>Drehung</b> <i>0°, 90°, 180°, 270°</i> | Dreht sich um einen vordefinierten Winkel. Ändert die Richtung des Verlaufs. |
 
 ## Beispiele
@@ -55,7 +55,7 @@ Trotz seiner Einfachheit ist dies ein äußerst nützliches Muster, das als Baus
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/gradient-linear-1-ex.gif" />
+            <img src="gradient-linear-1.resources/gradient-linear-1-ex.gif" />
         </td>
     </tr>
 </table>

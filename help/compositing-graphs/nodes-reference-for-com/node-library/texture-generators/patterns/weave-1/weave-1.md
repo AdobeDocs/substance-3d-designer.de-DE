@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Weben 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: b63bc7a45aa6eadef1b72eb05d4a6aded05866a8
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 7%
@@ -24,9 +24,9 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/weave-1.png){width="128px"}
+![](weave-1.resources/weave-1.png){width="128px"}
 
-<b>In:</b> Texturgeneratoren > Muster
+<b>In:</b> Texturen > Muster generieren
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,16 +45,16 @@ Erzeugt ein einfaches Webmuster.
 
 |  |  |
 |:---|:---|
-| <b>Kacheln</b> <i>1 - 16</i> | Legt fest, wie oft das Ergebnis gekachelt werden soll. |
+| <b>Kachelung</b> <i>1 - 16</i> | Legt fest, wie oft das Ergebnis gekachelt werden soll. |
 | <b>Um 45 Grad drehen</b> <i>False/True</i> |  |
-| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
 
 ## Beispiele
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/weave-1-ex.gif" />
+            <img src="weave-1.resources/weave-1-ex.gif" />
         </td>
     </tr>
 </table>

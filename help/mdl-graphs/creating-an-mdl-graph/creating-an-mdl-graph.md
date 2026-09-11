@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Erstellen eines MDL-Diagramms
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Auf dieser Seite wird das Erstellen eines MDL-Diagramms zum Erstellen von MDL-Materialien in Substance 3D Designer beschrieben.
 
-![Pfade zur Erstellung von MDL-Diagrammen](../../assets/mdl-new-graph-hl.png "Pfade zur Erstellung von MDL-Diagrammen")
+![Pfade zur Erstellung von MDL-Diagrammen](creating-an-mdl-graph.resources/mdl-new-graph-hl.png "Pfade zur Erstellung von MDL-Diagrammen")
 
 *Pfade zum Erstellen eines neuen MDL-Diagramms in der Designer-Oberfläche*
 
@@ -31,12 +31,12 @@ Auf dieser Seite wird das Erstellen eines MDL-Diagramms zum Erstellen von MDL-Ma
 Sie können ein MDL-Diagramm mit einer der folgenden Methoden erstellen:
 
 * Wählen Sie in der *Hauptmenüleiste die Option **Datei > Neu > MDL-Diagramm**&#x200B;aus.*
-* Klicken Sie auf die Schaltfläche ![](../../assets/mdl-new-graph-icon.png) **MDL-Diagramm hinzufügen** in der *Hauptsymbolleiste*.
+* Klicken Sie auf die Schaltfläche ![](creating-an-mdl-graph.resources/mdl-new-graph-icon.png) **MDL-Diagramm hinzufügen** in der *Hauptsymbolleiste*.
 * Klicken Sie mit der rechten Maustaste auf ein *bestehendes Paket* im Bereich **Explorer** und wählen Sie die Option **Neu > MDL-Diagramm** aus
 
 Das Dialogfeld &quot;**Neues MDL-Diagramm**&quot; wird angezeigt (siehe unten).
 
-![Dialogfeld &quot;Neues MDL-Diagramm&quot;](../../assets/mdl-templates.png "Dialogfeld &quot;Neues MDL-Diagramm&quot;")
+![Dialogfeld &quot;Neues MDL-Diagramm&quot;](creating-an-mdl-graph.resources/mdl-templates.png "Dialogfeld &quot;Neues MDL-Diagramm&quot;")
 
 *Dialogfeld &quot;Neues MDL-Diagramm&quot;*
 
@@ -59,10 +59,10 @@ Mit der Option <b>Projekt</b> können Sie die Vorlagenliste nach Projektdatei fi
 
 Die Vorlagenliste kann in verschiedenen Modi mit den *Schaltflächen* neben dem Kombinationsfeld **Projekt** angezeigt werden:
 
-* **![](../../assets/mdl-template-recent-icon.png)Anzeige zuletzt verwendet**: filtert die Liste, um die zuletzt verwendeten Vorlagen in der Reihenfolge von *zuletzt bis zuletzt* anzuzeigen, wobei das oberste Element das zuletzt verwendete ist
-* **![](../../assets/mdl-template-graphs-icon.png)Graf anzeigen**: Vorlagen werden nur nach ihrer *Bezeichnung* in der Reihenfolge der [Substance 3D](https://www.adobe.com/de/products/substance3d/3d-augmented-reality.html)-Dateien im Vorlagenverzeichnis angezeigt
-* **![](../../assets/mdl-template-packages-icon.png)Substance 3D-Dateien anzeigen**: Vorlagen werden anhand ihrer Bezeichnung als *untergeordnete Elemente der Substance 3D-Datei, zu der sie gehören, angezeigt*. Die Reihenfolge der Dateien im Vorlagenverzeichnis ist dabei identisch.
-* **![](../../assets/mdl-template-directory-icon.png)Verzeichnisse anzeigen**: Vorlagen werden anhand ihrer Bezeichnung als *untergeordnete Elemente des Verzeichnisses angezeigt, zu dem sie gehören*, in der Reihenfolge der Dateien im Vorlagenverzeichnis.
+* **![](creating-an-mdl-graph.resources/mdl-template-recent-icon.png)Anzeige zuletzt verwendet**: filtert die Liste, um die zuletzt verwendeten Vorlagen in der Reihenfolge von *zuletzt bis zuletzt* anzuzeigen, wobei das oberste Element das zuletzt verwendete ist
+* **![](creating-an-mdl-graph.resources/mdl-template-graphs-icon.png)Graf anzeigen**: Vorlagen werden nur nach ihrer *Bezeichnung* in der Reihenfolge der [Substance 3D](https://www.adobe.com/de/products/substance3d/3d-augmented-reality.html)-Dateien im Vorlagenverzeichnis angezeigt
+* **![](creating-an-mdl-graph.resources/mdl-template-packages-icon.png)Substance 3D-Dateien anzeigen**: Vorlagen werden anhand ihrer Bezeichnung als *untergeordnete Elemente der Substance 3D-Datei, zu der sie gehören, angezeigt*. Die Reihenfolge der Dateien im Vorlagenverzeichnis ist dabei identisch.
+* **![](creating-an-mdl-graph.resources/mdl-template-directory-icon.png)Verzeichnisse anzeigen**: Vorlagen werden anhand ihrer Bezeichnung als *untergeordnete Elemente des Verzeichnisses angezeigt, zu dem sie gehören*, in der Reihenfolge der Dateien im Vorlagenverzeichnis.
 
 ### Eigenschaften
 

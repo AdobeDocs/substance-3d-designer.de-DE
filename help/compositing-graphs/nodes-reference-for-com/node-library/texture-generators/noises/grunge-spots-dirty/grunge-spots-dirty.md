@@ -45,13 +45,13 @@ Der **Schmutz Spots Dirty**-Knoten generiert eine Schmutz-Map, die mit Spots des
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Fließkommazahl</i> | Passt die Balance zwischen dunklen und hellen Werten an. |
-| <b>Kontrast</b> <i>Fließkommazahl</i> | Passt den Kontrast des Bildes an. |
-| <b>Umkehren</b> <i>Boolesche Wert</i> | Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird. |
-| <b>Quadratische Ausbreitung</b> <i>Boolesche Wert</i> | Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
+| <b>Saldo</b> <i>Gleitend</i> | Passt die Balance zwischen dunklen und hellen Werten an. |
+| <b>Kontrast</b> <i>Gleitend</i> | Passt den Kontrast des Bildes an. |
+| <b>Umkehren</b> <i>Boolescher Wert</i> | Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird. |
+| <b>Quadratische Ausbreitung</b> <i>Boolescher Wert</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
 | <b>Erweitert</b> |  |
-| <b>Deckung</b> <i>Fließkommazahl</i> | Passt die Abdeckung des Dirts an. |
-| <b>Skalierung</b> <i>Ganzzahl</i> | Passt die Skalierung der Flecken des Dirts an. Ein *höherer* Wert führt zu *feineren* Punkten. |
+| <b>Deckung</b> <i>Gleitend</i> | Passt die Abdeckung des Dirts an. |
+| <b>Skalierung</b> <i>Integer</i> | Passt die Skalierung der Flecken des Dirts an. Ein *höherer* Wert führt zu *feineren* Punkten. |
 
 ## Beispiele
 

@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Füllmethoden
 
-Der Knoten &quot;[Überblendung](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)&quot; bietet die folgenden Füllmethoden:
+Der Knoten &quot;[Blend](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)&quot; bietet die folgenden Füllmethoden:
 
 ## Kopieren
 
@@ -28,9 +28,9 @@ Der Mischmodus &quot;*Kopieren*&quot; platziert den Vordergrund einfach über de
 
 ![Füllmethode: Kopieren](blending-modes-description.resources/image2015-8-20-9-38-0.png "Füllmethode: Kopieren"){zoomable="yes"}
 
-Bei Farbbildern wird der Alphakanal standardmäßig in der Deckkraft berücksichtigt.
+Bei Farbbildern wird der Alphakanal standardmäßig bei der Deckkraft berücksichtigt.
 
-Dies kann mit dem Parameter &#39;Alpha-Überblendung&#39; geändert werden.
+Dies kann mit dem Parameter &quot;Alpha-Überblendung&quot; geändert werden.
 
 ![Füllmethode: Kopieren (2)](blending-modes-description.resources/image2015-8-20-14-15-29.png "Füllmethode: Kopieren (2)"){zoomable="yes"}
 
@@ -38,7 +38,7 @@ Dies kann mit dem Parameter &#39;Alpha-Überblendung&#39; geändert werden.
 
 Der Mischmodus &quot;*Hinzufügen*&quot; fügt den Vordergrundeingabewert zu jedem entsprechenden Pixel im Hintergrund hinzu.
 
-![Füllmethode: Hinzufügen (Linear abwedeln)](blending-modes-description.resources/image2015-8-20-9-38-19.png "Füllmethode: Hinzufügen (Linear abwedeln)"){zoomable="yes"}
+![Füllmethode: Hinzufügen (Linear abwedeln)](blending-modes-description.resources/image2015-8-20-9-38-19.png "Füllmethode: Hinzufügen (Linearer Abwedler)"){zoomable="yes"}
 
 ## Subtrahieren
 

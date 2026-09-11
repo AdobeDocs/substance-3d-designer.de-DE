@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Normal](normal.resources/comp_normal_1.png "Elementare Knoten: Normal"){width="200px"}
+![Elementare Knoten: Normal](normal.resources/comp_normal_1.png "Elementare Knoten: Normal"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -63,7 +63,7 @@ Es ist ein sehr nützlicher Knoten, der häufig verwendet wird, um Höhen-Map-Ei
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-## Ausgangsanschlüsse
+## Ausgabe-Verbindungen
 
 </td>
 <td style="border: 0;" valign="top">
@@ -78,17 +78,17 @@ Es ist ein sehr nützlicher Knoten, der häufig verwendet wird, um Höhen-Map-Ei
 
 |  |  |
 | --- | --- |
-| <b>Intensität</b> *Gleitend* | Ändert die Intensität des Höhen-Map.   Legt fest, wie intensiv die Eingabe-Höhen-Map für die Konvertierung in Normale interpretiert wird. Je nach Eingabe-Map haben Werte über 100 wenig mehr Wirkung. |
-| <b>Normales Format</b> *Boolescher Wert* | Kehrt die Y-Koordinaten des Höhen-Map (OpenGL) um.   Legt fest, wie der grüne Kanal (Y) codiert wird. Grundsätzlich ein Schalter &quot;Grün/Y spiegeln&quot;. |
-| <b>Inhalt des Alphakanals</b> *Boolescher Wert* | Füllen Sie den Alphakanal des Normalen-Map mit der Eingabe-Textur.   Alpha mit Eingabe füllen/Alpha auf 1 erzwingen:  Dadurch kann der Alphakanal auf &quot;solid&quot; gesetzt werden, anstatt den Eingang als zusätzliches Alpha zu verwenden. |
+| <b>Intensität</b> *Fließkommazahl* | Ändert die Intensität des Höhen-Map.   Legt fest, wie intensiv die Eingabe-Höhen-Map für die Konvertierung in Normale interpretiert wird. Je nach Eingabe-Map haben Werte über 100 wenig mehr Wirkung. |
+| <b>Normales Format</b> *Boolesche Wert* | Kehrt die Y-Koordinaten des Höhen-Map (OpenGL) um.   Legt fest, wie der grüne Kanal (Y) codiert wird. Grundsätzlich ein Schalter &quot;Grün/Y spiegeln&quot;. |
+| <b>Inhalt des Alphakanals</b> *Boolesche Wert* | Füllen Sie den Alphakanal des Normalen-Map mit der Eingabe-Textur.   Alpha mit Eingabe füllen/Alpha auf 1 erzwingen:  Dadurch kann der Alphakanal auf &quot;solid&quot; gesetzt werden, anstatt den Eingang als zusätzliches Alpha zu verwenden. |
 
-## Eingangsanschlüsse
+## Eingabe-Verbindungen
 
 |  |  |
 | --- | --- |
 | <b>Eingabe</b> *Graustufen* PRIMÄR | Eingabebild wird als Höhen-Map interpretiert. |
 
-## Ausgangsanschlüsse
+## Ausgabe-Verbindungen
 
 |  |  |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-base.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Fraktalsumme-Basis, um fraktale Rauschen-Basismuster zum Erstellen komplexer organischer Texturen zu generieren.
+description: Verwenden Sie den Knoten "Fraktalsumme Basis", um fraktale Grundrauschmuster zum Erstellen komplexer organischer Texturen zu generieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fractal sum base
 helpx_experience_level: ""
@@ -26,16 +26,16 @@ ht-degree: 1%
 
 ![Fraktalsumme Basis - Symbol](fractal-sum-base.resources/fractal_sum_base.png "Fraktalsumme Basis - Symbol"){width="200px"}
 
-<b>In:</b> Texturen-Generatoren > Rauschen
+<b>In:</b> Texturgeneratoren > Rauschen
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Eine anpassbare fraktale Rauschen mit einem anpassbaren Bereich und einer Oktavenbalance.
+Ein anpassbares fraktales Rauschen mit einem einstellbaren Bereich und einer Balance von Oktaven.
 
-Die <b>Fraktalsumme</b>-Rauschen-Familie basiert alle auf diesem Knoten.
+Die Rauschfamilie <b>Fraktalsumme</b> basiert alle auf diesem Knoten.
 
 Siehe auch: [Fraktalsumme 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-1/fractal-sum-1.md), [Fraktalsumme 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-2/fractal-sum-2.md), [Fraktalsumme 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-3/fractal-sum-3.md), [Fraktalsumme 4](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-4/fractal-sum-4.md)
 
@@ -49,7 +49,7 @@ Siehe auch: [Fraktalsumme 1](../../../../../../compositing-graphs/nodes-referenc
 
 |  |  |
 |:---|:---|
-| <b>Ausgabe</b> <i>Graustufen</i> | Die generierte Rauschen als Graustufen-Bitmap. |
+| <b>Ausgabe</b> <i>Graustufen</i> | Das erzeugte Rauschen als Graustufen-Bitmap. |
 
 <a name="parameters"></a>
 
@@ -57,9 +57,9 @@ Siehe auch: [Fraktalsumme 1](../../../../../../compositing-graphs/nodes-referenc
 
 |  |  |
 |:---|:---|
-| <b>Rauheit</b> <i>Fließkommazahl</i> | Der Rest der Rauschen Oktaven.    Ein höherer Wert macht die Oktaven mit höherer Frequenz sichtbarer. |
-| <b>Min. Ebene </b> <i>Ganzzahl</i> | Die Mindestoktave, die auf der Rauschen verwendet wird.    Ein höherer Wert führt zu einer höheren Rauschen-Frequenz. |
-| <b>Max. Ebene </b> <i>Ganzzahl</i> | Die maximale Oktave, die auf der Rauschen verwendet wird.    Ein höherer Wert führt zu einer höheren Rauschen-Frequenz. |
+| <b>Raueit</b> <i>Gleitend</i> | Die Balance der Rauschoktaven.    Ein höherer Wert macht die Oktaven mit höherer Frequenz sichtbarer. |
+| <b>Min. Ebene </b> <i>Integer</i> | Die minimale Oktave, die im Rauschen verwendet wird.    Ein höherer Wert führt zu einer höheren Rauschfrequenz. |
+| <b>Max. Ebene </b> <i>Integer</i> | Die maximale Oktave, die im Rauschen verwendet wird.    Ein höherer Wert führt zu einer höheren Rauschfrequenz. |
 | <b>Störung</b> <i>Fließkommazahl</i> | Versetzt die Bestandteile der Rauschen.    So animierst du die Rauschen. |
 | <b>Störungsgeschwindigkeit</b> <i>Fließkommazahl</i> | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.    Dies kann verwendet werden, um die Geschwindigkeit des Versatzes bei der Animation des Rauschen zu steuern. |
 | <b>Kontrast</b> <i>Fließkommazahl</i> | Der Kontrast des Endergebnisses. |

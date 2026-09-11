@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Reaction Diffusion Fast", um organische Muster mithilfe schneller Algorithmen zur Diffusion der Reaktion für prozedurale Texturen zu generieren.
+description: Verwenden Sie den Knoten "Reaktionsdiffusionsgeschwindigkeit", um organische Muster mithilfe von schnellen Reaktionsdiffusionsalgorithmen für prozedurale Texturen zu generieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Reaction Diffusion Fast
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Reaktionsschnelle Diffusion
+title: Reaktionsdiffusionsgeschwindigkeit
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 2ea5b90ca7a4cbcd0b0049b156e8ded334aa0ceb
@@ -18,13 +18,13 @@ ht-degree: 3%
 ---
 
 
-# Reaktionsschnelle Diffusion
+# Reaktionsdiffusionsgeschwindigkeit
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Symbol für den Reaktionsreaktionsknotenknoten](reaction-diffusion-fast.resources/reaction-diffusion.png "Symbol für den Reaktionsreaktionsknotenknoten") für die Diffusion von Diffusionen
+![Symbol für Reaktions-Diffusionsknoten](reaction-diffusion-fast.resources/reaction-diffusion.png "Symbol für Reaktions-Diffusionsknoten")
 
 <b>In:</b> Filters > Effects
 
@@ -33,9 +33,9 @@ ht-degree: 3%
 
 ## Beschreibung
 
-Dieser Knoten führt einen Effekt der Diffusion einer Reaktion auf ein Eingabe-Graustufenbild aus.
+Dieser Knoten führt einen Reaktions-Diffusionseffekt auf ein Graustufenbild durch.
 
-Reaktions-Diffusion ist ein Prozess, bei dem sich Materie ausbreitet (diffus) und mit anderer Materie interagiert (reagiert). Es ist ein mathematisches Modell, das simuliert, was in der Natur passiert, wenn bestimmte Muster auf Tierhaut gebildet werden, zum Beispiel.
+Die Reaktions-Diffusion ist ein Prozess, bei dem sich Materie ausbreitet (diffundiert) und mit anderer Materie interagiert (reagiert). Es ist ein mathematisches Modell, das simuliert, was in der Natur passiert, wenn bestimmte Muster auf Tierhaut gebildet werden, zum Beispiel.
 
 Dieser Knoten ist für die Leistung optimiert und bietet ein gewisses Maß an Präzision für die Geschwindigkeit.
 
@@ -65,8 +65,8 @@ Dieser Knoten ist für die Leistung optimiert und bietet ein gewisses Maß an Pr
 
 |  |  |
 |:---|:---|
-| <b>Radius</b> *Fließkommazahl* | Wie weit sollte sich der Effekt ausbreiten? |
-| <b>Kontrast</b> *Fließkommazahl* | Passt den Kontrast der Eingabe an und dient als eine Art Schwellenwert. |
+| <b>Radius</b> *Gleitend* | Wie weit sollte sich der Effekt ausbreiten? |
+| <b>Kontrast</b> *Gleitend* | Passt den Kontrast der Eingabe an und dient als eine Art Schwellenwert. |
 
 ## Beispiele
 

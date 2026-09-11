@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden technische Probleme im Zusammenhang mit der [Python-API](../../scripting/scripting.md) von Substance 3D Designer sowie in Python implementierte Funktionen aufgelistet und Schritte zur Fehlerbehebung für die einzelnen Funktionen angeboten.
 
-Zu den in Python implementierten Funktionen gehören die [Publish](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)/[Senden an](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)-Aktionen in der Symbolleiste von [Explorer](../../interface/the-explorer-window/the-explorer-window.md) sowie das Tool zum Entfernen nicht verwendeter Graf in Knoten.
+Zu den in Python implementierten Funktionen gehören die [Publish](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)/[Senden an](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)-Aktionen in der Symbolleiste von [Explorer](../../interface/the-explorer-window/the-explorer-window.md) sowie das Tool zum Entfernen nicht verwendeter Knoten in Diagrammen.
 
 ## Das Modul &quot;QtForPython&quot; kann nicht geladen werden
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D-Renderer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: c7bf2522b15bef308d1471ca234c6619091f95fc
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 7%
@@ -38,11 +38,11 @@ Die 3D-Ansicht bietet vier Renderer:
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Rasterizer</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
+      <img src="3d-renderers.resources/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
       <br><i>GPU-Pathtracer</i>
     </td>
   </tr>
@@ -59,11 +59,11 @@ Dank der Abhängigkeit von USD kann das Adobe-Plugin [USDFileFormat](https://git
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Rasterizer</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
+      <img src="3d-renderers.resources/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -73,7 +73,7 @@ Dank der Abhängigkeit von USD kann das Adobe-Plugin [USDFileFormat](https://git
 
 >[!TIP]
 >
-> Sie können den standardmäßig verwendeten Renderer auswählen, wenn Sie eine neue 3D-Ansicht im Abschnitt &quot;[&quot;3D view&quot; der Projekteinstellungen &quot;](../../../interface/preferences-window/project-settings/project-settings.md)&quot; starten.
+> Sie können den standardmäßig verwendeten Renderer auswählen, wenn Sie eine neue 3D-Ansicht im Abschnitt &quot;[&quot;3D-Ansicht&quot; der Projekteinstellungen &quot;](../../../interface/preferences-window/project-settings/project-settings.md)&quot; starten.
 
 <a name="rasterizer"></a>
 
@@ -83,17 +83,17 @@ Dank der Abhängigkeit von USD kann das Adobe-Plugin [USDFileFormat](https://git
 
 |                                                                 |                                                                                                                                                                                                                                                                             |
 |-----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Beispiele** Fließkommazahl | Gibt die Anzahl der Pixel-Samples an, die berechnet werden müssen, bevor das Bild als konvergiert gilt. |
-| **Fließkommazahl der Ambient occlusion-Deckkraft** | Gibt den Wert der Deckkraft für die Umgebungsverdeckung an. |
-| **Versatz aktivieren** Boolesche Wert | Gibt an, ob Versatz aktiviert werden soll. |
-| **Versatz-Schwellenwert** Fließkommazahl | Legt einen Schwellenwert zum Aktivieren/Deaktivieren der GPU-Tesselierung fest. |
-| **Rückseiten-Ausblendung aktivieren** Boolesche Wert | Ein True-Wert ermöglicht die Keulung von dreieckigen Meshs mit Normalen, die von der Kamera weg Fläche werden. Mit dem Wert false wird die Rückseiten-Ausblendung deaktiviert. |
-| **Diagnosemodus** Ganzzahl | Gibt den Diagnosemodus vor, der gerendert werden soll. |
-| **Rasterizer-Schattenmodus** Ganzzahl | Gibt die Technik zum Rendern von Schatten an:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Keine Schatten:</i> Es werden keine Schatten gerendert.</li> <li data-preserve-html="true"><i>Voxel marschierte:</i> März-Schattenstrahlen in eine voxelisierte Szene.</li> </ul> |
-| **Anzahl der Rasterizer-Schattenbeispiele** Ganzzahl | Legt fest, wie viele Schattenstrahlen pro Pixel verfolgt werden. |
-| **Rasterizer-Schattendeckkraft** Fließkommazahl | Legt die Deckkraft der Schatten fest, von 0,0 (keine Schatten) bis 1,0 (volle Schatten). |
-| **Rasterizer Order Independent Transparency aktiviert** Boolesche Wert | Berücksichtigt beim Rendern nicht die Reihenfolge der transparenten Flächen. Dadurch wird eine gewisse Genauigkeit für ein schnelleres Rendern transparenter Oberflächen eingebüßt. |
-| **Rastern SSS aktivieren** Boolesche Wert | Schaltet den Effekt Volumenstreuung um. |
+| **Beispiele** Gleitkomma | Gibt die Anzahl der Pixel-Samples an, die berechnet werden müssen, bevor das Bild als konvergiert gilt. |
+| **Deckkraft der Verdeckung** Gleitend | Gibt den Wert der Deckkraft für die Umgebungsverdeckung an. |
+| **Versatz aktivieren** Boolescher Wert | Gibt an, ob Versatz aktiviert werden soll. |
+| **Schwellenwert für Versatz** Gleitkommawert | Legt einen Schwellenwert zum Aktivieren/Deaktivieren der GPU-Tesselierung fest. |
+| **Rückseitenauslesung aktivieren** Boolescher Wert | Ein echter Wert ermöglicht das Keulen von Dreiecksgittern, deren Normale von der Kamera abgewandt sind. Ein falscher Wert deaktiviert die Rückseitenauslesung. |
+| **Diagnosemodus** Ganze Zahl | Gibt den Diagnosemodus vor, der gerendert werden soll. |
+| **Rasterizer-Schattenmodus** Ganze Zahl | Gibt die Technik zum Rendern von Schatten an:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Keine Schatten:</i> Es werden keine Schatten gerendert.</li> <li data-preserve-html="true"><i>Voxel marschierte:</i> März-Schattenstrahlen in eine voxelisierte Szene.</li> </ul> |
+| **Rasterizer-Schattenbeispielanzahl** Ganze Zahl | Legt fest, wie viele Schattenstrahlen pro Pixel verfolgt werden. |
+| **Rasterizer-Schattendeckkraft** Gleitend | Legt die Deckkraft der Schatten fest, von 0,0 (keine Schatten) bis 1,0 (volle Schatten). |
+| **Für die Rasterizer-Reihenfolge unabhängige Transparenz aktiviert** Boolescher Wert | Berücksichtigt beim Rendern nicht die Reihenfolge der transparenten Flächen. Dadurch wird eine gewisse Genauigkeit für ein schnelleres Rendern transparenter Oberflächen eingebüßt. |
+| **SSS für Rasterzeichen aktivieren** Boolescher Wert | Schaltet den Effekt Volumenstreuung um. |
 | **Rasterizer SSS-Beispielanzahl** Ganzzahl | Gibt an, wie viele Samples pro Pixel für die Rendering-Volumenstreuung aufgenommen werden. |
 | **Rasterakkumulations-Antialiasing aktivieren** Boolesche Wert | Schaltet das Akkumulations-Antialiasing um, das die Smoothness oder Kanten im gerenderten Bild verbessert, indem Renderings durcheinander gerendert und die lokale Durchschnittsfarbe jedes Pixels kumulativ berechnet wird. D.h. es sammelt Werte, aus denen ein Mittelwert berechnet wird. |
 | **Rasterizer voxel Raster Resolution** Ganzzahl | Legt die Auflösung des Voxel-Rasters fest, der beim Marschieren des Voxels durch den Raster verwendet wird.   Höhere Werte führen zu präziseren Schatten auf Kosten der Leistung. |
@@ -111,7 +111,7 @@ Dank der Abhängigkeit von USD kann das Adobe-Plugin [USDFileFormat](https://git
 
 +++
 
-![Rasterizer - Beispiel 1](../../../assets/3dRendererRasterizer.jpg "Rasterizer - Beispiel 1"){zoomable="yes"}
+![Rasterizer - Beispiel 1](3d-renderers.resources/3dRendererRasterizer.jpg "Rasterizer - Beispiel 1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -121,12 +121,12 @@ Dank der Abhängigkeit von USD kann das Adobe-Plugin [USDFileFormat](https://git
 
 |                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |-----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Beispiele** Fließkommazahl | Gibt die Anzahl der Pixel-Samples an, die berechnet werden müssen, bevor das Bild als konvergiert gilt. |
-| **Versatz aktivieren** Boolesche Wert | Gibt an, ob Versatz aktiviert werden soll. |
-| **Versatz-Schwellenwert** Fließkommazahl | Legt einen Schwellenwert zum Aktivieren/Deaktivieren der GPU-Tesselierung fest. |
-| **Rückseiten-Ausblendung aktivieren** Boolesche Wert | Ein True-Wert ermöglicht die Keulung von dreieckigen Meshs mit Normalen, die von der Kamera weg Fläche werden. Mit dem Wert false wird die Rückseiten-Ausblendung deaktiviert. |
+| **Beispiele** Gleitkomma | Gibt die Anzahl der Pixel-Samples an, die berechnet werden müssen, bevor das Bild als konvergiert gilt. |
+| **Versatz aktivieren** Boolescher Wert | Gibt an, ob Versatz aktiviert werden soll. |
+| **Schwellenwert für Versatz** Gleitkommawert | Legt einen Schwellenwert zum Aktivieren/Deaktivieren der GPU-Tesselierung fest. |
+| **Rückseitenauslesung aktivieren** Boolescher Wert | Ein echter Wert ermöglicht das Keulen von Dreiecksgittern, deren Normale von der Kamera abgewandt sind. Ein falscher Wert deaktiviert die Rückseitenauslesung. |
 | **Ganzzahl für Pixelzyklustyp** | Gibt die Technik an, die zum Verringern der Rechenauflösung für interaktives Rendering verwendet werden soll:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Kein Durchlauf:</i> Deaktiviert den Pixeldurchlauf und berechnet jedes vollständige Pixelmuster.</li> <li data-preserve-html="true"><i>Optimales Gerät:</i> Wählt die ideale Auflösung für den Pixelzyklus basierend auf dem Gerät aus, das zum Rendern verwendet wird.</li> <li data-preserve-html="true"><i>4x4:</i> Samples 1/16 der Pixel pro Zyklusdurchgang.</li> <li data-preserve-html="true"><i>8x8:</i> Samples 1/64 der Pixel pro Zyklusdurchgang.</li><li data-preserve-html="true"><i>Blue Rauschen:</i> Samples adaptiv eine Anzahl von Rahmen und teilen sie auf eine objektive Pixelrate.</li> </ul> |
-| **Diagnosemodus** Ganzzahl | Gibt den Diagnosemodus vor, der gerendert werden soll. |
+| **Diagnosemodus** Ganze Zahl | Gibt den Diagnosemodus vor, der gerendert werden soll. |
 | **Hintergrund durch Übertragung anzeigen** Boolesche Wert | Ein echter Wert ermöglicht es, das Hintergrundbild durch transmissive oder refraktive Objekte zu sehen.   Wenn dieser Wert falsch ist, zeigen transmissive-Objekte das gebrochene Bild der Umgebung der Szene. |
 
 +++
@@ -145,7 +145,7 @@ Dank der Abhängigkeit von USD kann das Adobe-Plugin [USDFileFormat](https://git
 
 +++
 
-![GPU-Pathtracer - Beispiel 1](../../../assets/3dRendererPathtracer.jpg "GPU-Pathtracer - Beispiel 1"){zoomable="yes"}
+![GPU-Pathtracer - Beispiel 1](3d-renderers.resources/3dRendererPathtracer.jpg "GPU-Pathtracer - Beispiel 1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -296,4 +296,4 @@ Designer bietet außerdem die Möglichkeit, eigene Shader für den OpenGL-Render
 > 
 > Dieser Renderer ist **veraltet**: Es wird keine neuen Funktionen erhalten und in einer zukünftigen Version von Designer ausgemustert.
 
-![OpenGL - Beispiel 1](../../../assets/3dRendererOpenGL.jpg "OpenGL - Beispiel 1"){zoomable="yes"}
+![OpenGL - Beispiel 1](3d-renderers.resources/3dRendererOpenGL.jpg "OpenGL - Beispiel 1"){zoomable="yes"}

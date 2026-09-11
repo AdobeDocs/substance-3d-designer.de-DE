@@ -122,7 +122,7 @@ Verwenden Sie stattdessen Downscale-Transformationen.
 +++
 
 +++Arbeiten Sie so viel wie möglich in Graustufen
-Wechseln Sie am Ende des Diagramms in den Farbmodus.
+Wechseln Sie am Ende des Grafen in den Farbmodus.
 
 +++
 
@@ -134,14 +134,14 @@ Wechseln Sie am Ende des Diagramms in den Farbmodus.
 ### GRÖSSENOPTIMIERUNGEN FÜR EINGEBETTETE BITMAPS
 
 Bei [Bitmaps](../../resources/bitmap-resource/bitmap-resource.md) ist die [Ausgabegröße](../../compositing-graphs/output-size/output-size.md) standardmäßig auf [&#39;Absolut&#39;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) festgelegt. Das bedeutet: Wenn die Bitmap über die Knotenkette mit einer Ausgabe verbunden ist, erzwingt sie, dass die endgültige Ausgabe die Größe der eingebetteten Bitmap hat.\
-Für einen Knoten, der nach der Bitmap eingefügt wird, wird die Ausgabegröße auf &quot;[&#39;Relativ zur Eingabe&#39;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)&quot; festgelegt. Dies bedeutet, dass der Knoten auch die Größe der Bitmap besitzt und diese Größe in der Knotenkette bis zu den Ausgaben hinunter trägt. Um dies zu korrigieren, müssen Sie den Knoten nach der Bitmap so festlegen, dass seine Ausgabegröße auf [&#39;Relativ zu übergeordnetem&#39;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) festgelegt wird.
+Für einen Knoten, der nach der Bitmap eingefügt wird, wird die Ausgabegröße auf &quot;[&#39;Relativ zur Eingabe&#39;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)&quot; festgelegt. Dies bedeutet, dass der Knoten auch die Größe der Bitmap besitzt und diese Größe in der Knotenkette bis zu den Ausgaben hinunter trägt. Um dies zu korrigieren, müssen Sie den Knoten nach der Bitmap so festlegen, dass seine Ausgabegröße auf [&#x200B; &#39;Relativ zum übergeordneten Element&#39;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) festgelegt wird.
 
-Wenn das Diagramm auf eine dynamische Auflösung eingestellt ist, können Sie die Ausgabegröße für die eingebettete Bitmap in &quot;Relativ zu übergeordnetem Element&quot; ändern.\
-Auf diese Weise ändert sich die Bitmapgröße basierend auf dem übergeordneten Diagramm. Sie werden nicht in eine Situation kommen, in der das Diagramm eine höhere Auflösung in der Bitmap verarbeitet, als dies erforderlich ist.
+Wenn für den Graf eine dynamische Auflösung festgelegt ist, können Sie die Ausgabegröße für die eingebettete Bitmap so ändern, dass sie Relativ zum übergeordneten Element ist.\
+Auf diese Weise ändert sich die Bitmapgröße je nach übergeordnetem Graf. Es kann also nicht vorkommen, dass der Graf eine höhere Bitmapauflösung verarbeitet, als erforderlich ist.
 
 >[!WARNING]
 >
-> Durch Festlegen eines Knotens vom Typ [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) auf &quot;Relativ zum übergeordneten Knoten&quot; und [Veröffentlichen](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) des Diagramms in einem Substance 3D-Asset (SBSAR) wird die Bitmap mit einer Auflösung von **256x256** anstelle ihrer Originalgröße gespeichert. Es wird empfohlen, stattdessen die [Vererbungsmethode](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) der Bitmapknoten &quot;[Ausgabegröße](../../compositing-graphs/output-size/output-size.md)&quot; als &quot;Absolut&quot; zu behalten und einen [Transformations 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)-Knoten auf &quot;Relativ zum übergeordneten Knoten&quot; direkt nach dem Bitmapknoten festzulegen.
+> Durch Festlegen eines [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)-Knotens auf &quot;Relativ zum übergeordneten Element&quot; und [Veröffentlichen](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) des Grafen in einem Substance 3D-Asset (SBSAR) wird die Bitmap mit einer Auflösung von **256x256** anstelle ihrer Originalgröße gespeichert. Es wird empfohlen, die [Vererbung-Methode](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) der Bitmapknoten &quot;[Ausgabegröße](../../compositing-graphs/output-size/output-size.md)&quot; als &quot;Absolut&quot; zu behalten und einen [Transformations-2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)-Knoten auf &quot;Relativ zum übergeordneten Element&quot; direkt nach dem Bitmapknoten festzulegen.
 
 ![Eingebettete Bitmapoptimierung 1](performance-optimization-guidelines.resources/input-1.jpg "Eingebettete Bitmapoptimierung 1")
 

@@ -70,13 +70,13 @@ Wenn Sie im Eigenschaftenfenster auf eine Nadel klicken, um einen Verlauf zu bea
 
 ### Nachgelagerte Knoten auswählen
 
-Neuer Eintrag im [Knoten-Kontextmenü](../../interface/the-graph-view/the-graph-view.md), um alle Knoten auszuwählen, die direkt oder indirekt mit der Ausgabe der ausgewählten Knoten verbunden sind. Sie wählen also alle Knoten aus, die von Ihrem Knoten betroffen sind. Nützlich, um einen Teil Ihres Grafen zu löschen oder das Graf-Layout zu überarbeiten.
+Neuer Eintrag im [Knoten-Kontextmenü](../../interface/the-graph-view/the-graph-view.md), um alle Knoten auszuwählen, die direkt oder indirekt mit der Ausgabe der ausgewählten Knoten verbunden sind. Sie wählen also alle Knoten aus, die von Ihrem Knoten betroffen sind. Nützlich, um einen Teil Ihres Diagramms zu löschen oder das Diagrammlayout neu zu bearbeiten.
 
 ![](../../assets/final-downstream.gif){width="640px"}
 
 ## Python-API-Updates
 
-Diese Version 12.4 bietet auch die volle Unterstützung von Substance-Modellgrafiken über die Python-API. Das bedeutet, dass Sie jetzt über alle erforderlichen Werkzeuge verfügen, um Substance-Modellgrafiken zu erstellen, zu bearbeiten oder zu bewerten. Ausführliche Informationen finden Sie in der Dokumentation, die Sie über das Hilfemenü der Software finden.
+Diese Version 12.4 bietet auch die vollständige Unterstützung von Substance-Modellgrafiken über die Python-API. Das bedeutet, dass Sie jetzt über alle erforderlichen Tools verfügen, um Substance-Modellgrafiken zu erstellen, zu bearbeiten oder zu bewerten. Ausführliche Informationen finden Sie in der Dokumentation, die Sie über das Hilfemenü der Software finden.
 
 ## Versionshinweise
 
@@ -86,22 +86,22 @@ Diese Version 12.4 bietet auch die volle Unterstützung von Substance-Modellgraf
 
 <b>Hinzugefügt:</b>
 
-* [3D-Ansichten] Fügen Sie Schaltflächen für den Schnellzugriff hinzu, um Anzeigeoptionen festzulegen (Drahtgitter, Umgebungs-Map, Szene usw.)
-* [Farbmanagement] Verbessern der Qualität Baking geführt 3D-LUTs im ACE
-* [Dokumentation] Beispielprojekte für Substance-Graf
-* [Dokumentation] Beispielprojekt für Funktions-Graf
-* [Explorer] Verschieben von Graf und Ressourcen von einem übergeordneten Element zu einem anderen zulassen, ohne Widgets zu schließen oder zu ungültig zu machen
-* [Verlaufseditor] Wählen Sie die angeklickte Nadel aus, wenn Sie den Verlaufseditor anzeigen
-* [Graf] Option zum Hinzufügen einer Option zum Auswählen aller untergeordneten Knoten im Kontextmenü eines Knotens
-* [Graf] Bereinigen Sie das Graf-Tool, um nicht verwendete Graf in allen Knotentypen und Eigenschaften-Grafen zu erkennen und zu entfernen
-* [Graf] Transformieren der Bildeingabe in Farb-/Graustufendarstellung
-* [Parameter] Sperre für Ganzzahl2-Widgets hinzufügen
+* [3D-Ansicht] Fügen Sie Schaltflächen für den Schnellzugriff hinzu, um Anzeigeoptionen (Drahtgitter, Umgebungskarte, Szenenstatistiken usw.) festzulegen.
+* [Farbmanagement] Verbessern der Qualität von gebackenen 3D-LUTs im ACE-Modus
+* [Dokumentation] Beispielprojekte für Substance-Graphen
+* [Dokumentation] Beispielprojekt für Funktionsdiagramme
+* [Explorer] Verschieben von Diagrammen und Ressourcen von einem übergeordneten Element in ein anderes zulassen, ohne Widgets zu schließen oder zu ungültig zu machen
+* [Verlaufseditor] Wählen Sie bei der Anzeige des Verlaufseditors den angeklickten Pin aus.
+* [Graph] Option hinzufügen im Kontextmenü eines Knotens, um alle untergeordneten Knoten auszuwählen
+* [Graph] Bereinigen Sie das Graph-Werkzeug, um nicht verwendete Knoten in allen Graphentypen und Eigenschaftendiagrammen zu erkennen und zu entfernen.
+* [Graph] Transformieren der Bildeingabe in Farbe/Graustufen
+* [Parameter] Eine Sperre für Ganzzahl2-Widgets hinzufügen
 * [Parameter] Einfache Formeln können als Parameter eingegeben werden
 * [Substance-Modell] Umschalten zwischen Werten und Symbolen für Wertknoten
 * Schaltfläche [UI] zum Generieren eines zufälligen Werts, wenn ein zufälliger Seed erforderlich ist
-* [UI] Markieren Sie in der 3D-Ansicht das derzeit im Szenen-Browser ausgewählte Element.
+* [UI] Markieren Sie in der 3D-Ansicht das derzeit im Szenenbrowser ausgewählte Element.
 * [UX] Zurücksetzen von Schiebereglerbereichen, wenn ihr Wert zurückgesetzt wird
-* [API] Hinzufügen von Aktionen zu Graphansicht-Symbolleisten zulassen
+* [API] Hinzufügen von Aktionen zu Symbolleisten der Diagrammansicht zulassen
 * [API] Erstellen, Bearbeiten und Bewerten eines Substance-Modelldiagramms über die API zulassen
 
 <b>Fest:</b>

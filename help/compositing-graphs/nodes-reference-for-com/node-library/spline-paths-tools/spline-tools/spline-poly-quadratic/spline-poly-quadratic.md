@@ -103,8 +103,8 @@ Die Bahn der Spline kann von ihren Zwischenpunkten weg geglättet werden, indem 
 | <b>Labelgröße für Punkte</b> <i>Gleitend</i> | (Diese Option ist verfügbar, wenn &quot;Punktebeschriftung anzeigen&quot; auf &quot;Wahr&quot; gesetzt ist.) Die Beschriftungsgröße für jeden Punkt im Breitenbereich, wobei 0,1 ein Zehntel der Textur der Textur ist. |
 | <b>Punkte anzeigen</b> <i>Boolescher Wert</i> | Zeigt die Steuerpunkte für den Spline an. |
 | <b>Punktgröße</b> <i>Gleitend</i> | (Verfügbar, wenn &quot;Punkte anzeigen&quot; auf &quot;Wahr&quot; gesetzt ist) Der Radius der Punkte im Breitenbereich, wobei 0,1 ein Zehntel der Textur der Textur ist. |
-| <b>Segmentierungsbetrag</b> <i>Integer</i> | Passt die Anzahl der Segmente an, die zum Zeichnen der Spline-Visualisierung in der Vorschauausgabe verwendet werden.<br>Ein höherer Wert führt zu einer glatteren Linie. |
-| <b>Thickness (px)</b> <i>Gleitend</i> | Passt die Thickness der Spline-Visualisierung in Pixel in der Vorschau an. |
+| <b>Segmentierungsbetrag</b> <i>Ganzzahl</i> | Passt die Anzahl der Segmente an, die zum Zeichnen der Spline-Visualisierung in der Vorschauausgabe verwendet werden.<br>Ein höherer Wert führt zu einer glatteren Linie. |
+| <b>Thickness (px)</b> <i>Fließkommazahl</i> | Passt die Thickness der Spline-Visualisierung in Pixel in der Vorschau an. |
 
 ## Beispiele
 

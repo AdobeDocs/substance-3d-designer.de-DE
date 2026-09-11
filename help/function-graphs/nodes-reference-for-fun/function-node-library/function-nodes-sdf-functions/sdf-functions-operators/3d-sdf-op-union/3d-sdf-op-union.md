@@ -1,6 +1,6 @@
 ---
 title: Union
-description: Designer > Substance Compositing-Graphen > Knotenreferenz für Substance-Compositing-Graphen > Knotenbibliothek > SDF-Funktion > Operator > Union
+description: Designer > Substance-Compositing-Graf > Knotenreferenz für Substance-Compositing-Graf > Knotenbibliothek > SDF-Funktion > Operator > Union
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '67'
@@ -40,5 +40,5 @@ Gibt die hinzugefügten Volumes zweier SDF-Formen zurück.
 
 |  |  |
 | :--- | :--- |
-| <b>SDF 1</b> *Gleitend* | Die erste SDF-Form. |
-| <b>SDF 2</b> *Gleitend* | Die zweite SDF-Form. |
+| <b>SDF 1</b> *Fließkommazahl* | Die erste SDF-Form. |
+| <b>SDF 2</b> *Fließkommazahl* | Die zweite SDF-Form. |

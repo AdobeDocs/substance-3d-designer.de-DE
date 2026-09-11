@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Die <b> SDColorManagementEngine </b>-Klasse, auf die von der <b>SDApplication</b>-Klasse zugegriffen werden kann, enthält Informationen zu den *aktuellen Farbmanagementeinstellungen*.
 
-## Zugreifen auf die Farbmanagement-Engine und Abfragen
+## Zugreifen auf und Abfragen des Farbmanagement-Engine
 
 ```
 import sd 

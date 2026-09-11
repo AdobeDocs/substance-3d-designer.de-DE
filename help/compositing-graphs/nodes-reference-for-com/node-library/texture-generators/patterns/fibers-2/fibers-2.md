@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fasern 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: 827e738d5db4d64bf366d332a62a7bbd2fa840fc
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 6%
@@ -24,9 +24,9 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fibers-2.png){width="128px"}
+![](fibers-2.resources/fibers-2.png){width="128px"}
 
-<b>In:</b> Texturen > Muster generieren
+<b>In:</b> Texturgeneratoren > Muster
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,15 +45,15 @@ Einfaches Stoffmuster. Kann für Mesh, Tuch oder andere organische Height- und D
 
 |  |  |
 |:---|:---|
-| <b>Kachelung</b> <i>1 - 16</i> | Legt fest, wie oft das Ergebnis gekachelt werden soll. |
-| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
+| <b>Kacheln</b> <i>1 - 16</i> | Legt fest, wie oft das Ergebnis gekachelt werden soll. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
 
 ## Beispiele
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/fibers-2-ex.gif" />
+            <img src="fibers-2.resources/fibers-2-ex.gif" />
         </td>
     </tr>
 </table>

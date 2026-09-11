@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Benutzereinstellungen - Automatisieren der Einrichtung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%
@@ -28,12 +28,12 @@ Die Datei &quot;user\_preferences.xml&quot; enthält alle benutzerspezifischen E
 
 Die einzige relevante Einstellung, die geändert werden muss, ist die [Konfigurationsdatei](../../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md), die eine Liste von Projekten enthält. Dies kann auf verschiedene Weise geschehen, wie unten aufgeführt.
 
-Alternativ können Sie das Ändern der Benutzereinstellungen vollständig umgehen und die SBSCFG-Datei sitzungsbasiert überschreiben, indem Sie ein Befehlszeilenargument für den Designer-Tastaturbefehl verwenden (siehe unten).
+Alternativ können Sie das Ändern der Benutzereinstellungen vollständig umgehen und die SBSCFG-Datei sitzungsbasiert überschreiben, indem Sie ein Befehlszeilenargument auf dem Designer-Tastaturbefehl verwenden (siehe unten).
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![XML-Dateisymbol](../../assets/xml-5.png "XML-Dateisymbol")
+![XML-Dateisymbol](user-preferences-automating-setup.resources/xml-5.png "XML-Dateisymbol")
 
 </td>
 </tr>
@@ -54,7 +54,7 @@ Es gibt zwei verschiedene Möglichkeiten, Designer so zu konfigurieren, dass ein
 
 Wenn kein automatisches Setup vorhanden ist, oder zu Testzwecken, können Sie manuell zu <b>Bearbeiten > Voreinstellungen... wechseln.</b> und klicken Sie dann links auf den Abschnitt &quot;<b>Projekte</b>&quot;.
 
-![Projekteinstellungen](../../assets/preferences-ui.png "Projekteinstellungen")
+![Projekteinstellungen](user-preferences-automating-setup.resources/preferences-ui.png "Projekteinstellungen")
 
 Mit der rot markierten Schaltfläche kann der Benutzer eine andere [SBSCFG-Datei](../../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md) auswählen.
 
@@ -210,4 +210,4 @@ Es wird zwar nicht empfohlen, in einer Produktionsumgebung eine manuelle Methode
 
    *&quot;C:\Program Files\Adobe\Adobe Substance 3D Designer\Adobe Substance 3D Designer.exe&quot; —config-file &quot;C:\Dev\Substance\custom\_configuration.sbscfg&quot;*
 
-![Konfigurationsdateieingabe in ausführbare Dateieigenschaften](../../assets/shortcutargument.jpg "Konfigurationsdateieingabe in ausführbare Dateieigenschaften")
+![Konfigurationsdateieingabe in ausführbare Dateieigenschaften](user-preferences-automating-setup.resources/shortcutargument.jpg "Konfigurationsdateieingabe in ausführbare Dateieigenschaften")

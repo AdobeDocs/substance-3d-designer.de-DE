@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Waveform 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Wellenform 1 - Symbol](../../../../../../assets/waveform_01_v2.png "Wellenform 1 - Symbol"){width="200px"}
+![Wellenform 1 - Symbol](waveform-1.resources/waveform_01_v2.png "Wellenform 1 - Symbol"){width="200px"}
 
 <b>In:</b> Texturen-Generatoren > Rauschen
 
@@ -63,9 +63,9 @@ Horizontale Anordnung von vom Benutzer ausgewählten Mustern, die in einer Form 
 | <b>Rauschen</b> <i>Gleitend</i> | Wendet Rauschen auf die Wellenform an, die zufällig von ihrer vertikalen Spanne subtrahiert. |
 | <b>Position</b> <i>Integer</i> | Die Position der Wellenform im Bild:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Zentriert:</i> Der Ursprung befindet sich in der vertikalen Mitte des Bildes</li> <li data-preserve-html="true"><i>Unten:</i> Der Ursprung befindet sich am unteren Rand des Bildes.</li> </ul> |
 | <b>Muster</b> <i>Integer</i> | Das Muster, das bei jedem Sample der Wellenform platziert wird. |
-| <b>Mustervariation</b> <i>Gleitend</i> | Für einige Muster ist eine zusätzliche Anpassung verfügbar. |
-| <b>Störung</b> <i>Gleitend</i> | Verschiebt die Werte der Wellenform.    Mit dieser Option kannst du den Clip animieren. |
-| <b>Störungsgeschwindigkeit</b> <i>Gleitend</i> | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.    Mit dieser Option können Sie die Geschwindigkeit des Versatzes bei der Animation der Wellenform steuern. |
+| <b>Mustervariation</b> <i>Fließkommazahl</i> | Für einige Muster ist eine zusätzliche Anpassung verfügbar. |
+| <b>Störung</b> <i>Fließkommazahl</i> | Verschiebt die Werte der Wellenform.    Mit dieser Option kannst du den Clip animieren. |
+| <b>Störungsgeschwindigkeit</b> <i>Fließkommazahl</i> | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.    Mit dieser Option können Sie die Geschwindigkeit des Versatzes bei der Animation der Wellenform steuern. |
 
 ## Beispiele
 
@@ -73,7 +73,7 @@ Horizontale Anordnung von vom Benutzer ausgewählten Mustern, die in einer Form 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Wellenform 1 - Beispiel 1](../../../../../../assets/waveform_01_v2_speed0.1_aniso0.gif "Wellenform 1 - Beispiel 1"){zoomable="yes"}
+![Wellenform 1 - Beispiel 1](waveform-1.resources/waveform_01_v2_speed0.1_aniso0.gif "Wellenform 1 - Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

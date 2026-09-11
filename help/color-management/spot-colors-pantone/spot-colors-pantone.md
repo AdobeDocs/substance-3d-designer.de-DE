@@ -31,8 +31,8 @@ Da Volltonfarben für die präzise Farbwiedergabe und den Farbabgleich vorgesehe
 Kurz gesagt, umfasst die Einrichtung des Farbmanagements für Volltonfarben Folgendes:
 
 * Kalibrieren Sie Ihren Monitor, indem Sie das richtige ICC-Profil generieren oder abrufen.
-* Aktivieren Sie das Farbmanagement mit Adobe Color Engine (ACE) in den Voreinstellungen von Designer.
-* Richte 2D und 3D-Ansicht so ein, dass das richtige Monitorprofil verwendet wird.
+* Aktivieren Sie in den Voreinstellungen von Designer das Farbmanagement mit Adobe Color Engine (ACE).
+* Legen Sie die 2D- und 3D-Ansicht fest, um das richtige Profil von Ihrem Monitor zu verwenden.
 * Starten Sie neu, damit die Änderungen wirksam werden.
 * Überprüfen der Farbübereinstimmung zwischen Designer und einer anderen Adobe-Anwendung wie Adobe Illustrator oder Photoshop Die Farbe &quot;<b>Pantone Rhodamine Red C</b>&quot; aus dem ersten Pantone-Buch &quot;Solid Coated&quot; ist ein guter Testfall, da sie erheblich variieren kann, wenn das Farbmanagement nicht korrekt ist.
 
@@ -40,13 +40,13 @@ Kurz gesagt, umfasst die Einrichtung des Farbmanagements für Volltonfarben Folg
 >
 > **Miniaturansichtsfarben**
 > 
-> Knotenminiaturen sind standardmäßig *nicht farbverwaltet*, daher wird die Farbanzeige in der 2D-Ansicht nur mit dem richtigen Profil angezeigt. Das Miniatur-Farbmanagement kann in den Voreinstellungen des Farbmanagements Ihres Projekts aktiviert werden, hat aber geringe Leistungskosten.
+> Knoten-Miniaturansichten sind standardmäßig *nicht farbverwaltet*. Stellen Sie daher sicher, dass die Farbanzeige in der 2D-Ansicht nur mit dem richtigen Profil angezeigt wird. Das Miniatur-Farbmanagement kann in den Voreinstellungen des Farbmanagements Ihres Projekts aktiviert werden, hat aber geringe Leistungskosten.
 
 ## Verwenden von Volltonfarben
 
 ### Wechseln von RGB zu Volltonfarbe
 
-Auch wenn Sie das Farbmanagement einrichten, verwenden die Farbwähler standardmäßig weiterhin RGB- oder HSV-Farbwähler. Sie müssen sie manuell in Volltonfarben ändern. Diese Einstellung wird pro Parameter abgespeichert und wird sogar beim leg eines Parameters übernommen.
+Auch wenn Sie das Farbmanagement einrichten, verwenden die Farbwähler standardmäßig weiterhin RGB- oder HSV-Farbwähler. Sie müssen sie manuell in Volltonfarben ändern. Diese Einstellung wird pro Parameter gespeichert und wird sogar bei der Belichtung eines Parameters übernommen.
 
 1. Klicken Sie auf die Schaltfläche ![](spot-colors-pantone.resources/image2021-1-25-9-40-40.png) <b>Farbwählertyp</b> neben dem RGB-Farbfeld.
 1. Wählen Sie anstelle von <b>RGB von Farben</b> ein <b>Farbbuch</b> aus der Dropdown-Liste aus.

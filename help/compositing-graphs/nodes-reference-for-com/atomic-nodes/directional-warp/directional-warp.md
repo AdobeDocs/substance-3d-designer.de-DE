@@ -90,7 +90,7 @@ Der Verformen-Knoten ist ein recht einfacher, aber nützlicher Knoten, der als g
 | <b>Eingabe</b> *Graustufen/Farbe* PRIMÄR | Das Graustufen- oder Farbeingabebild, auf das der Verkrümmungseffekt angewendet werden soll. |
 | <b>Intensitätseingabe</b> *Graustufen* | Das Graustufenbild, das den Grad der Verformung definiert, der auf das <b>Eingabe</b>-Bild angewendet werden soll. |
 
-## Ausgabe-Verbindungen
+## Ausgangsanschlüsse
 
 |  |  |
 | --- | --- |
@@ -102,17 +102,17 @@ Der Verformen-Knoten ist ein recht einfacher, aber nützlicher Knoten, der als g
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Richtungsverzerrung - Beispiel 1](directional-warp.resources/dir-warp.gif "Richtungsverzerrung - Beispiel 1"){zoomable="yes"}
+![Richtungsverkrümmung - Beispiel 1](directional-warp.resources/dir-warp.gif "Richtungsverkrümmung - Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Richtungsverzerrung - Beispiel 2](directional-warp.resources/dir-warp02.gif "Richtungsverzerrung - Beispiel 2"){zoomable="yes"}
+![Richtungsverkrümmung - Beispiel 2](directional-warp.resources/dir-warp02.gif "Richtungsverkrümmung - Beispiel 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Richtungsverzerrung - Beispiel 3](directional-warp.resources/dir-warp03.gif "Richtungsverzerrung - Beispiel 3"){zoomable="yes"}
+![Richtungsverkrümmung - Beispiel 3](directional-warp.resources/dir-warp03.gif "Richtungsverkrümmung - Beispiel 3"){zoomable="yes"}
 
 </td>
 </tr>

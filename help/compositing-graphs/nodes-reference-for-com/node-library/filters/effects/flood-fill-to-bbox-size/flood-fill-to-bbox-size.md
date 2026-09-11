@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-bbox-size.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Flood Fill zu Box-Größe", um Bereiche mit Werten für die Größe des Begrenzungsrahmens für prozedurale Skalierungseffekte zu füllen.
+description: Verwenden Sie den Knoten "Flood Fill zu Box-Größe", um Bereiche mit Werten für die Begrenzungsrahmengröße zu füllen, um prozedurale Skalierungseffekte zu erzielen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to BBox Size
 helpx_experience_level: ""
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 Generiert eine Graustufenzuordnung aus einer [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)-Basis, wobei die Werte mit der individuellen Größe jeder Kachel verknüpft sind.
 
-Die Werte sind relativ zur Gesamtgröße der Arbeitsfläche (eine vollständig weiße Kachel würde bedeuten, dass sie die gesamte Arbeitsfläche dehnt), daher ist der Kontrast oft gering.
+Die Werte beziehen sich auf die Gesamtgröße der Arbeitsfläche (eine vollständig weiße Kachel dehne die gesamte Arbeitsfläche), daher ist der Kontrast oft gering.
 
 </td>
 </tr>

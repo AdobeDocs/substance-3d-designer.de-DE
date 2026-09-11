@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Spline Mapper Grayscale, um Graustufen-Texturen entlang von Spline-Pfaden mit anpassbaren Parametern zuzuordnen.
+description: Verwenden Sie den Knoten "Spline Mapper Grayscale", um Graustufen-Texturen entlang von Spline-Pfaden mit anpassbaren Parametern zuzuordnen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Mapper Grayscale
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## Beschreibung
 
-Ordnet ein Graustufenbild einer Grundform zu, die entlang der Eingabesplines gestreckt ist.
+Ordnet ein Eingabe-Graustufenbild einer primitiven Form zu, die entlang der Eingabe-Splines gedehnt ist.
 
 Die Grundform kann eine Ebene, ein Halbzylinder oder ein Zylinder sein. Die Zylinder können entlang der Spline verdreht werden, um das abgebildete Bild entsprechend zu verformen.
 
@@ -59,9 +59,9 @@ Der Knoten gibt das zugeordnete Bild als Graustufenbild sowie weitere Informatio
 |:---|:---|
 | <b>Spline-Kabel</b> <i>Farbe</i> | Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Eingabesplines:<br><b>R</b> - X-Position<br><b>G</b> - Y-Position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br> - Sign: Spline ist geschlossen (negativ) oder offen (positiv);<br> - Absolute Wert: Thickness + 1. |
 | <b>Spline-Daten</b> <i>Farbe</i> | Zusätzliche Daten der Eingabe-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.<br><b>R</b> - Tangenten X<br><b>G</b> - Tangenten Y<br><b>B</b> - Nicht verwendet<br><b>A</b> - Nicht verwendet |
-| <b>Spline-Betrag</b> <i>Integer</i> | Die Anzahl der Eingabe-Splines. |
+| <b>Spline-Betrag</b> <i>Ganzzahl</i> | Die Anzahl der Eingabe-Splines. |
 | <b>Farbzuordnung</b> <i>Graustufen</i> | Das Eingabe-Graustufenbild, das entlang der Eingabe-Splines zugeordnet werden soll. |
-| <b>Height-Map</b> <i>Graustufen</i> | Die Graustufen-Höhen-Map für die Eingabe, die entlang der Eingabe-Splines zugeordnet werden soll. |
+| <b>Höhen-Map</b> <i>Graustufen</i> | Die Graustufen-Höhen-Map für die Eingabe, die entlang der Eingabe-Splines zugeordnet werden soll. |
 | <b>Twist Curve</b> <i>Graustufen</i> | Das Bild, das eine Kurve anhand der Werte der ersten Pixelzeile beschreibt.<br>Wenn der Parameter <b>Form</b> auf <i>Halbzylinder</i> oder <i>Zylinder</i> festgelegt ist, wird diese Eingabe verwendet, um die Verdrillung der UVs um die Form herum zu steuern. Die Auswirkungen werden mithilfe des Parameters <b>UVs-Kurvenmultiplikator verdrehen</b> gesteuert.<br>Die Kurve stellt ein Profil für den Umfang der Drehung entlang der Spline bereit, wobei das erste Pixel in der Zeile die Drehung am Anfang der Spline und das letzte die Drehung am Ende ist. Der Graustufenwert stellt eine Anzahl von Windungen dar.<br>Sie können einen Knoten vom Typ [Kurve](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md) verwenden, um die Kurve zu erstellen. |
 
 <a name="outputs"></a>
@@ -81,7 +81,7 @@ Der Knoten gibt das zugeordnete Bild als Graustufenbild sowie weitere Informatio
 
 |  |  |
 |:---|:---|
-| <b>Segmentierungsbetrag</b> <i>Integer</i> | Splines werden in Segmente vereinfacht, bevor Bildkoordinaten sie durchlaufen.<br>Eine höhere Anzahl von Segmenten führt zu einer glatteren Zuordnung entlang Kurven. |
+| <b>Segmentierungsbetrag</b> <i>Ganzzahl</i> | Splines werden in Segmente vereinfacht, bevor Bildkoordinaten sie durchlaufen.<br>Eine höhere Anzahl von Segmenten führt zu einer glatteren Zuordnung entlang Kurven. |
 | <b>UVs automatisch skalieren</b> <i>Boolescher Wert</i> | Passt die Skalierung der Koordinaten automatisch an, um ein quadratisches Bild beizubehalten, wenn es den Splines zugeordnet wird. |
 | <b>UV-Skalierung</b> <i>Float2</i> | Passt die Skalierung der zugeordneten Koordinaten in X (horizontal) und Y (vertikal) an.<br>Höhere Werte führen zu einem dichter gekachelten Bild. |
 | <b>Modus</b> <i>Integer</i> | Die Methode zum Auswählen der Splines, entlang denen das Bild zugeordnet werden soll: <br>- <i>Spline-Liste zeichnen</i>: Alle Splines in der Eingabeliste werden verwendet;<br>- <i>Einzelne Spline zeichnen</i>: Nur der Spline mit dem angegebenen Index wird verwendet;<br>- <i>Spline-Bereich zeichnen</i>: Es werden nur die Splines verwendet, deren Index im angegebenen Bereich enthalten ist. |
@@ -97,10 +97,10 @@ Der Knoten gibt das zugeordnete Bild als Graustufenbild sowie weitere Informatio
 | <b>Versatz des Heights des Zylinders</b> <i>Gleitend</i> | (Verfügbar, wenn &quot;Form&quot; auf &quot;Halbzylinder&quot; oder &quot;Zylinder&quot; eingestellt ist) Versetzt den Mittelpunkt des Zylinder- oder Halbzylinder-Formenprofils von der Oberfläche des Splines auf einen Durchmesser unter der Oberfläche. |
 | <b>UVs-Intensität verdrehen</b> <i>Gleitend</i> | (Verfügbar, wenn &quot;Form&quot; auf &quot;Halbzylinder&quot; oder &quot;Zylinder&quot; eingestellt ist) Die Verdrehung der Bildkoordinaten um den Zylinder in der Anzahl der Windungen.<br>Beim Drehen wird der Zylinder nur am Ende der Spline gedreht. Die Drehung wird dann entlang der Spline interpoliert. |
 | <b>UVs-Kurvenmultiplikator verdrehen</b> <i>Gleitend</i> | (Verfügbar, wenn &quot;Form&quot; auf &quot;Halbzylinder&quot; oder &quot;Zylinder&quot; eingestellt ist) Ein Multiplikator für die Intensität des Eingangswerts der Twist Curve für die Drehung des Zylinders.<br>Die Kurve stellt ein Profil für den Umfang der Drehung entlang der Spline bereit, wobei das erste Pixel in der Zeile die Drehung am Anfang der Spline und das letzte die Drehung am Ende ist. Der Graustufenwert stellt eine Anzahl von Windungen dar. |
-| <b>UVs-Kurvenversatz verdrehen</b> <i>Gleitend</i> | (Verfügbar, wenn &quot;Form&quot; auf &quot;Halbzylinder&quot; oder &quot;Zylinder&quot; eingestellt ist) Wendet einen globalen Versatz auf die von der Twist Curve bereitgestellten Drehungswerte in Drehungen an. |
-| <b>Spline-Height-Multiplikator</b> <i>Gleitend</i> | Passt die Intensität des Beitrags des Spline-Heights zur Height-Ausgabe an.<br> Height-Anpassungen sind kumulativ. |
-| <b>Eingabe-Height-Multiplikator</b> <i>Gleitend</i> | Passt die Intensität des Höhen-Map-Eingangs an der Height-Ausgabe an.<br> Height-Anpassungen sind kumulativ. |
-| <b>Nicht-quadratische Korrektur</b> <i>Boolescher Wert</i> | Passen Sie die Punktpositionen und die Thickness an, um die Spline-Form in nicht quadratischen Auflösungen beizubehalten.<br>Dies wirkt sich auch auf die einheitliche Verteilung aus. |
+| <b>UVs-Kurvenversatz verdrehen</b> <i>Fließkommazahl</i> | (Verfügbar, wenn &quot;Form&quot; auf &quot;Halbzylinder&quot; oder &quot;Zylinder&quot; eingestellt ist) Wendet einen globalen Versatz auf die von der Twist Curve bereitgestellten Drehungswerte in Drehungen an. |
+| <b>Spline-Height-Multiplikator</b> <i>Fließkommazahl</i> | Passt die Intensität des Beitrags des Spline-Heights zur Height-Ausgabe an.<br> Height-Anpassungen sind kumulativ. |
+| <b>Eingabe-Height-Multiplikator</b> <i>Fließkommazahl</i> | Passt die Intensität des Höhen-Map-Eingangs an der Height-Ausgabe an.<br> Height-Anpassungen sind kumulativ. |
+| <b>Nicht-quadratische Korrektur</b> <i>Boolesche Wert</i> | Passen Sie die Punktpositionen und die Thickness an, um die Spline-Form in nicht quadratischen Auflösungen beizubehalten.<br>Dies wirkt sich auch auf die einheitliche Verteilung aus. |
 
 ## Beispiele
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Erstellen einer Variablen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -58,10 +58,10 @@ Wenn Sie dies getan haben, steht die Variable im anderen Funktionsknoten desselb
 
 >[!WARNING]
 >
-> Wenn ein Knoten vom Substance-Engine verarbeitet wird, werden seine Parameter (und die Funktionen, die sie steuern könnten) von oben nach unten gelesen. Daher kann auf einen Set-Knoten nur über die Parameter zugegriffen werden, die sich darunter im Knotenparameterstapel befinden.
+> Wenn ein Knoten vom Substance-Engine verarbeitet wird, werden seine Parameter (und die Funktionen, die sie steuern könnten) von oben nach unten gelesen. Daher kann auf einen Set-Knoten nur über die Parameter zugegriffen werden, die sich darunter im Stapel &quot;Node-Parameter&quot; befinden.
 
 >[!NOTE]
 >
 > Wenn Sie mehrere Variablen erstellen müssen, wiederholen Sie einfach den Erstellungsvorgang für *Set*- und *Sequence*-Knoten und legen Sie den letzten Sequenzknoten als Ausgabeknoten fest:
 > 
-> ![](../../../assets/image2015-12-18-18-43-8.png)
+> ![](create-a-variable.resources/image2015-12-18-18-43-8.png)

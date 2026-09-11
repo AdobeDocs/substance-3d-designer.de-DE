@@ -41,8 +41,8 @@ Spiegelt und dupliziert eine SDF-Form beliebig oft in einem regelmäßigen Absta
 |  |  |
 | :--- | :--- |
 | <b>SDF</b> *Gleitend* | Die Eingabe-SDF-Form. |
-| <b>Betrag +</b> *Integer3* | Die Anzahl der Duplikate entlang der positiven X-, Y-, Z-Achse.<br><br><i>Standard: (2, 0, 0)</i> |
+| <b>Betrag +</b> *Integer3* | Die Anzahl der Duplikate entlang der positiven X-, Y-, Z-Achsen.<br><br><i>Standard: (2, 0, 0)</i> |
 | <b>Betrag -</b> *Integer3* | Die Anzahl der Duplikate entlang der negativen X-, Y-, Z-Achsen.<br><br><i>Standard: (2, 0, 0)</i> |
-| <b>Abstand</b> *Float3* | Der Abstand zwischen den einzelnen Duplikaten.<br><br>Der Abstand wird durch einen kubischen Helfer dargestellt, dessen Größe der Abstand zwischen den Duplikaten in X-, Y- und Z-Richtung ist. Der Abstand beginnt an der <b>Ursprungsposition</b> und wird symmetrisch von dieser erhöht.<br><br><i>Standard: (2, 2, 2)</i> |
-| <b>Ursprungsposition</b> *Float3* | Definiert die Mitte der SDF-Form, die dupliziert wird.<br><br>Die Ausgangsposition wird durch die Mittelposition des kubischen Helfers angezeigt.<br><br><i>Standard: (0, 0, 0)</i> |
-| <b>P</b> *Float3* | Die veränderte Weltraumposition. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die nicht transformierte Weltraumposition.</i> |
+| <b>Abstand</b> *Float3* | Der Abstand zwischen den einzelnen Duplikaten.<br><br>Der Abstand wird durch einen kubischen Helfer dargestellt, dessen Größe der Abstand zwischen den Duplikaten in X-, Y- und Z-Richtung ist. Der Abstand beginnt an der <b>Ursprungsposition</b> und wird symmetrisch von dieser ausgehend erhöht.<br><br><i>Standard: (2, 2, 2)</i> |
+| <b>Ursprungsposition</b> *Float3* | Definiert die Mitte der SDF-Form, die dupliziert wird.<br><br>Die Ursprungsposition wird durch die Mittelposition des kubischen Helfers angezeigt.<br><br><i>Standard: (0, 0, 0)</i> |
+| <b>P</b> *Float3* | Die transformieren Position des Welt-Raums. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die nicht transformierte Weltraumposition.</i> |

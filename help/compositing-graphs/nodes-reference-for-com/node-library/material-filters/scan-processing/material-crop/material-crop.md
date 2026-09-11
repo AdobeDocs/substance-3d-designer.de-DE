@@ -53,4 +53,4 @@ Dieser Knoten ist die Vollversion des mehrkanaligen Materials von [Crop](../../.
 | <b>Eingabegröße</b> <i>0 - 8192</i> | Eingabebilds Auflösung und Proportionen. Sehr wichtig für nicht quadratische Bilder. |
 | <b>Hintergrund</b> <i>(Farbwert) / (Graustufenwert)</i> | Einheitlicher Hintergrundwert für Bereiche, die nicht von der Freistellung abgedeckt sind. |
 | <b>Transformieren</b> <i>(Transformationsmatrix)</i> | Dreht und skaliert das Ergebnis. Das Ergebnis kann durch direkte Interaktion mit der Arbeitsfläche geändert werden. |
-| <b>Offset</b> <i>0.0 - 1.0</i> | Verschiebt oder Kamera bewegt das Ergebnis. Das Ergebnis kann durch direkte Interaktion mit der Arbeitsfläche geändert werden. |
+| <b>Offset</b> <i>0.0 - 1.0</i> | Verschiebt oder verschiebt das Ergebnis. Das Ergebnis kann durch direkte Interaktion mit der Arbeitsfläche geändert werden. |

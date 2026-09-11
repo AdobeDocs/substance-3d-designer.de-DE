@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random.html"
 breadcrumb-title: ''
-description: Verwenden Sie zufällige Funktionsknoten, um zufällige Werte innerhalb bestimmter Grenzen mit verschiedenen Algorithmen zu generieren.
+description: Verwenden Sie Zufallsalgorithmen, um Zufallswerte innerhalb bestimmter Funktionsknoten mit verschiedenen Algorithmen zu generieren.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Atomic function nodes > Random
 helpx_experience_level: ""

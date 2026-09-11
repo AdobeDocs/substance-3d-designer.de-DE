@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools.html"
 breadcrumb-title: ''
-description: Greifen Sie auf Spline- und Pfadwerkzeugknoten zu, um prozedurale Muster, Kurven und organische Formen in Substance-Graphen zu erstellen.
+description: Greifen Sie auf Spline- und Pfadwerkzeugknoten zu, um prozedurale Muster, Kurven und organische Formen in Substance-Grafen zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Spline- und Pfadwerkzeuge
 
-Spline &amp; Path Tools sind eine Knotensammlung zum Arbeiten mit Pfaden und Splines in Substance-Graphen:
+Spline &amp; Path Tools sind eine Knotensammlung zum Arbeiten mit Pfaden und Splines in Substance-Grafen:
 
 <b>Pfade</b> sind eine Reihe von Punkten, die in gerade Linien verbunden sind.
 

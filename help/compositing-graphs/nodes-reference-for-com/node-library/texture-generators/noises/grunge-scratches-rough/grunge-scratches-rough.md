@@ -52,15 +52,15 @@ Der Knoten **Schmutz Scratches Rough** generiert eine Schmutz-Map, die einer gro
 | <b>Erweitert</b> |  |
 | <b>Kratzmenge</b> <i>Gleitend</i> | Stellt die Anzahl der Kratzer auf der Oberfläche ein. |
 | <b>Scratch-Kachelung</b> <i>Integer</i> | Passt die Kachelung an, die auf die Kratzer angewendet wird. |
-| <b>Scratch Blur</b> <i>Fließkommazahl</i> | Passt die Unschärfe der Kratzer an. |
-| <b>Arbeitsbreite</b> <i>Fließkommazahl</i> | Passt die Breite der Kratzer an. |
-| <b>Kratzlänge</b> <i>Fließkommazahl</i> | Passt die Länge der Kratzer an. |
-| <b>Maskieren von Kratzern</b> <i>Fließkommazahl</i> | Passt die Intensität der Maskierung an, die auf Teile der Kratzer angewendet wird. |
-| <b>Schmutzigkeit bei Kratzern</b> <i>Fließkommazahl</i> | Stellt die Schmutzigkeit der Kratzer ein, wodurch Schärfe und Kontinuität unterbrochen werden. |
-| <b>Doppelter Kratzer</b> <i>Fließkommazahl</i> | Passt die Deckkraft eines zweiten Kratzers, der mit einem leichten Verkrümmungseffekt neben jedem Kratzer angewendet wird, an. |
-| <b>Intensität der Kratzpunkte</b> <i>Fließkommazahl</i> | Passt die Intensität der beschädigten Punkte an, die neben den Kratzern angewendet werden. |
-| <b>Scratch Spots-Kachelung</b> <i>Ganzzahl</i> | Stellt die Kachelung der beschädigten Punkte ein. |
-| <b>Intensität der Dust</b> <i>Fließkommazahl</i> | Passt die Intensität der Überlagerung der Dust an. |
+| <b>Scratch Blur</b> <i>Gleitend</i> | Passt die Unschärfe der Kratzer an. |
+| <b>Arbeitsbreite</b> <i>Gleitend</i> | Passt die Breite der Kratzer an. |
+| <b>Kratzlänge</b> <i>Gleitend</i> | Passt die Länge der Kratzer an. |
+| <b>Maskieren von Kratzern</b> <i>Gleitend</i> | Passt die Intensität der Maskierung an, die auf Teile der Kratzer angewendet wird. |
+| <b>Schmutzigkeit bei Kratzern</b> <i>Gleitend</i> | Stellt die Schmutzigkeit der Kratzer ein, wodurch Schärfe und Kontinuität unterbrochen werden. |
+| <b>Doppelter Kratzer</b> <i>Gleitend</i> | Passt die Deckkraft eines zweiten Kratzers, der mit einem leichten Verkrümmungseffekt neben jedem Kratzer angewendet wird, an. |
+| <b>Intensität der Kratzpunkte</b> <i>Gleitend</i> | Passt die Intensität der beschädigten Punkte an, die neben den Kratzern angewendet werden. |
+| <b>Scratch Spots-Kachelung</b> <i>Integer</i> | Stellt die Kachelung der beschädigten Punkte ein. |
+| <b>Intensität der Dust</b> <i>Gleitend</i> | Passt die Intensität der Überlagerung der Dust an. |
 | <b>Dust Kachelung</b> <i>Integer</i> | Passt die Kachelung der Überlagerung der Dust an. |
 | <b>Intensität schärfen</b> <i>Gleitend</i> | Passt die Intensität des globalen Scharfzeichnungseffekts an. |
 

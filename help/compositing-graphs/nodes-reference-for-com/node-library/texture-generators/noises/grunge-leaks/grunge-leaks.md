@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaks.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaks.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Schmutz-Lecks", um Leckmuster zum Erzeugen von Wasserflecken und Witterungseffekten auf Flächen zu erzeugen.
 helpx_creative_field: ""

@@ -101,13 +101,13 @@ Es gibt im Wesentlichen zwei Möglichkeiten, dieses Problem zu beheben:
 
 ## ![(Fehler)](../../assets/error.svg) Farbraum nicht gefunden
 
-Eine [Bitmapressource](../../resources/bitmap-resource/bitmap-resource.md) verweist auf einen Farbraum, der in der aktuellen [Farbmanagement](../../color-management/color-management.md)-Umgebung nicht gefunden werden kann. Dies kann ein ICC-Profil oder ein Farbraum in einer OCIO sein.
+Eine [Bitmapressource](../../resources/bitmap-resource/bitmap-resource.md) verweist auf einen Farbraum, der in der aktuellen [Farbmanagement](../../color-management/color-management.md)-Umgebung nicht gefunden werden kann. Dies kann ein ICC-Profil oder ein Farbraum in einer OCIO-Konfiguration sein.
 
 <b>![(tick)](../../assets/check.svg) Lösung</b>
 
 Die Liste der Optionen für das Farbraumattribut wird automatisch mit dem verfügbaren gültigen Farbraum ausgefüllt. Ändern Sie den Farbraumwert für diese Ressource in einen beliebigen anderen Eintrag in der Liste.
 
-Alternativ können Sie diesen Farbraum der aktuellen [Farbmanagement](../../color-management/color-management.md)-Umgebung hinzufügen und Designer neu starten. Dies kann ein ICC-Profil oder ein Farbraum in einer OCIO sein.
+Alternativ können Sie diesen Farbraum der aktuellen [Farbmanagement](../../color-management/color-management.md)-Umgebung hinzufügen und Designer neu starten. Dies kann ein ICC-Profil oder ein Farbraum in einer OCIO-Konfiguration sein.
 
 >[!NOTE]
 >
@@ -117,26 +117,26 @@ Alternativ können Sie diesen Farbraum der aktuellen [Farbmanagement](../../colo
 
 ## ![(Fehler)](../../assets/error.svg) Referenzressource nicht gefunden
 
-Der Graf, der der UV-Kachel einer [3D-Szene-Ressource](../3d-scene-resource/3d-scene-resource.md) zugewiesen ist, wurde nicht an dem in der Warnung angegebenen Speicherort gefunden.
+Das Diagramm, das der UV-Kachel einer [3D-Szenenressource &#x200B;](../3d-scene-resource/3d-scene-resource.md) zugewiesen ist, kann nicht an dem in der Warnung angegebenen Speicherort gefunden werden.
 
 <b>![(tick)](../../assets/check.svg) Lösung</b>
 
 Es gibt im Wesentlichen zwei Möglichkeiten, dieses Problem zu beheben:
 
-1. <b>Graf wiederherstellen</b>
+1. <b>Diagramm wiederherstellen</b>
 
-   Überprüfen Sie den Inhalt des Pakets im Bereich &quot;[Explorer](../../interface/the-explorer-window/the-explorer-window.md)&quot; auf den in der Liste &quot;<b>UV-Kacheln</b>&quot; angegebenen Graf. Wenn sie nicht vorhanden ist, stellen Sie sie wieder her oder erstellen Sie sie neu.
+   Überprüfen Sie den Inhalt des Pakets im Bedienfeld &quot;[Explorer](../../interface/the-explorer-window/the-explorer-window.md)&quot; auf das in der Liste &quot;<b>UV-Kacheln</b>&quot; angegebene Diagramm. Wenn sie nicht vorhanden ist, stellen Sie sie wieder her oder erstellen Sie sie neu.
 
    ![&#x200B; &quot;Referenzressource nicht gefunden&quot; Lösung 1](../../assets/warnings-dep-udim-graph-2.gif " &quot;Referenzressource nicht gefunden&quot; Lösung 1")
-1. <b>Einen anderen Graf auswählen</b>
+1. <b>Einen anderen Graphen auswählen</b>
 
-   Weisen Sie der Kachel &quot;UV&quot; einen anderen Graf im Paket zu.
+   Weisen Sie der UV-Kachel ein anderes Diagramm in der Verpackung zu.
 
    ![&quot;Referenzressource nicht gefunden&quot;Lösung 1](../../assets/warnings-dep-udim-graph.gif "&quot;Referenzressource nicht gefunden&quot;Lösung 2")
 
-## ![(Fehler)](../../assets/error.svg) UV-Kacheln werden mehrmals zugewiesen.
+## ![(Fehler)](../../assets/error.svg) UV-Kacheln werden mehrmals zugewiesen
 
-Eine UV-Kachel für eine [3D-Szene-Ressource](../3d-scene-resource/3d-scene-resource.md) ist mehr als einmal einem [Substance-Graf](../../compositing-graphs/substance-compositing-graphs.md) zugeordnet.
+Eine UV-Kachel für eine [3D-Szenenressource](../3d-scene-resource/3d-scene-resource.md) ist mehr als einmal einem [Substance-Diagramm](../../compositing-graphs/substance-compositing-graphs.md) zugeordnet.
 
 <b>![(tick)](../../assets/check.svg) Lösung</b>
 

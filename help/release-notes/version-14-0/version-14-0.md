@@ -230,31 +230,31 @@ Beachten Sie, dass diese Aktualisierungen zwei wichtige Folgen haben:
 ### Fehlerbehebungen
 
 * [Bäcker] Absturz beim Umbrechen einer Szene, deren Dateiname geändert wurde
-* [Baker] Absturz beim Speichern der Voreinstellung &quot;Baker&quot; in JSON-Datei
-* [Inhalt] &quot;Streuung auf Spline&quot;: Alphaparameter für Eingabebild gelegt
+* [Bäcker] Absturz beim Speichern der Bäcker-Voreinstellung in der JSON-Datei
+* [Inhalt] &quot;Streuung auf Spline&quot;: Alpha-Parameter für Eingabebild verfügbar machen
 * [Inhalt] &quot;Sampler Color anordnen&quot;: Expression &quot;missing visibleif&quot;
 * [Inhalt] Anisotropes Rauschen: Negativer Wert für X/Y-Betrag führt zu falschem Ergebnis
-* [Inhalt] Anisotropes Rauschen: Problem mit der Kachelung bei Verwendung des ungeraden Werts als X-Wert und ohne Smoothness
+* [Inhalt] Anisotropes Rauschen: Problem beim Anordnen, wenn ein ungerader Wert als X-Wert und keine Smoothness verwendet wird
 * [Inhalt] Funktion &quot;Normale Verteilung&quot;: falsch platzierte max() kann zu NaN führen
 * [Inhalt] RTAO, Bent Normal und RT Shadows funktionieren auf einigen Plattformen nicht ordnungsgemäß.
-* [Inhalt] Überblendung der Formaufteilung: OpenGL-Normalen-Map werden nicht korrekt überblendet
+* [Inhalt] Farbe für Form-Farbspritzer: OpenGL-Normalmaps werden nicht korrekt überblendet
 * [Inhalt] Unzulässiger Speicherplatz nach dem Präfix &quot;Multi&quot; in den Knotenbeschriftungen
-* [Abhängigkeiten] Absturz beim Verschieben von Graf innerhalb oder zwischen Paketen
+* [Abhängigkeiten] Absturz beim Verschieben des Diagramms innerhalb oder zwischen Paketen
 * [Engine] Genauigkeitsfehler in Verkrümmungsknoten, die sich auf die Steigung-Weichzeichnerknoten auswirken
 * [Engine] SBSAR-Ebene in SD kann SBSAR mit SBSASM-Inhalt > 2 GB nicht lesen
-* [Funktion Graf] Falsches Ergebnis für 0^n
-* [Graf] Option &quot;Knotengröße anzeigen&quot; ist falsch beschriftet
-* [Graf] Absturz beim Kopieren eines übergeordneten Kommentars in einen anderen Graf
-* [Graf] Einfrieren beim Alt-Ziehen eines Punktknotens
-* [Graf] Bei der Knotensuche können in einigen Fällen offensichtliche Übereinstimmungen fehlen.
-* [Graf] Leistungsproblem beim Bearbeiten eines mehrmals instanziierten Funktions-Grafen mit geöffnetem Supergraph
-* [Graf] Zu viele Ungültigkeiten beim Erstellen einer Ausgabe
+* [Funktionsdiagramm] Falsches Ergebnis für 0^n
+* [Graph] Option &#39;Display node size&#39; ist falsch beschriftet
+* [Graph] Absturz beim Kopieren eines übergeordneten Kommentars in ein anderes Diagramm
+* [Graph] Einfrieren beim Alt-Ziehen eines Punktknotens
+* [Graph] Knotensuche kann offensichtliche Übereinstimmungen in einigen Fällen verpassen
+* [Graph] Leistungsproblem beim Bearbeiten eines Funktionsdiagramms, das mehrmals mit geöffnetem Supergraph installiert wurde
+* [Graph] Zu viele Ungültigkeiten beim Erstellen einer Ausgabe
 * [Sicherheit] ICO analysiert Schreibfehler außerhalb des gültigen Bereichs
 * [Sicherheit] Nicht verwendete Bildformate verwerfen
 * [Parameter] Der Bitmap-PKG-Ressourcenpfad sollte nicht bearbeitbar sein.
-* [Parameter] Probleme beheben, die damit zusammenhängen, dass der Parameter eines Wertprozessors gelegt/als Stapel gelegt wird
-* [Parameter] Zeichenfolgenparameter werden ignoriert, wenn ein Stapel gelegt wird.
-* [Eigenschaften] Leistungsproblem beim Bearbeiten eines mehrmals instanziierten Funktions-Grafen mit geöffneten Eigenschaften
+* [Parameter] Beheben von Problemen im Zusammenhang mit der Belichtung/Batch-Belichtung des Parameters eines Wertprozessors
+* [Parameter] Zeichenfolgenparameter werden ignoriert, wenn Batch-Daten angezeigt werden.
+* [Eigenschaften] Leistungsproblem beim Bearbeiten eines Funktionsdiagramms, das mehrmals mit geöffneten Eigenschaften instanziiert wurde
 * [SVG] Bearbeitungen an Formen werden nicht auf gerasterte Bilder angewendet
 * [UI] Beheben einiger Fehler/Inkonsistenzen mit scrollbaren Widgets (nur Windows)
 * [UI] Inkonsistente Reihenfolge der 3D-Szenendateiformate in Import-/Exportlisten

@@ -70,7 +70,7 @@ Im Folgenden finden Sie eine Liste der mit der Anwendung kompatiblen GPU:
 >
 > **TDR (nur Windows)**
 > 
-> Für die beste Gesamtstabilität bei der Durchführung umfangreicher Berechnungen auf der GPU - z. B. Rendern komplexer Diagramme, Rendern in der 3D-Ansicht, Exportieren einer Szene aus der 3D-Ansicht usw. - wird dringend empfohlen, sicherzustellen, dass die <b>Timeout Detection and Recovery (TDR)</b>-Werte mit den Empfehlungen in [dieser Seite](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) unserer Dokumentation übereinstimmen.
+> Für eine optimale Gesamtstabilität bei der Durchführung umfangreicher Berechnungen an der GPU - z. B. beim Rendern komplexer Graf, beim Rendern in der 3D-Ansicht, beim Exportieren einer Szene aus der 3D-Ansicht usw. - wird dringend empfohlen, sicherzustellen, dass die <b>Timeout Detection and Recovery (TDR)</b>-Werte mit den Empfehlungen in [dieser &#x200B;](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) unserer Dokumentation übereinstimmen.
 
 ## Nicht unterstützte Konfigurationen
 
@@ -93,7 +93,7 @@ Im Folgenden finden Sie eine Liste der mit der Anwendung kompatiblen GPU:
 
 * Integrierte GPUs werden auf x86-64-CPUs (Intel, AMD) nicht unterstützt.
 * Die Verwendung von Designer in Kombination mit Software von Drittanbietern, die Designer-Aufrufe an die Grafiktreiber abfängt, wird nicht unterstützt. Diese Software umfasst:
-  * Nachbearbeitungs-Injectors wie Schattierer, die Farbkorrektur anwenden, Kameraeffekte, ...
+  * Nachbearbeitungs-Injectors wie z. B. Reshader, die Farbabstufung anwenden, Kamera-Effekte, ...
   * On-Screen-Overlays, z. B. benutzerdefinierte Fadenkreuze, GPU-Leistungsmetriken, Skins für Video-Streaming ...
 
 ## Mindestversionen von GPU-Treibern
@@ -111,7 +111,7 @@ Informationen zum Herunterladen neuer Treiber finden Sie unter: [GPU hat veralte
 >
 > Unter **Mac OS** wird der GPU-Treiber vom Betriebssystem selbst bereitgestellt. Aktualisieren Sie auf die neueste Version Ihres Betriebssystems, um auf den neuesten Treiber zuzugreifen.
 
-## GPU-Raytracing zum Backen
+## GPU-Raytracing zum Baking
 
 Um GPU-Raytracing über Optix oder DXR zu aktivieren, müssen die oben empfohlenen Treiber installiert sein.
 

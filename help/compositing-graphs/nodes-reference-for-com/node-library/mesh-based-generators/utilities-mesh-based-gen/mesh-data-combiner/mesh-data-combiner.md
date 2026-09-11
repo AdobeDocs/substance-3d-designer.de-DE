@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Gitterdaten-Kombinator
+title: Mesh-Datenkombinierer
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
@@ -18,7 +18,7 @@ ht-degree: 1%
 ---
 
 
-# Gitterdaten-Kombinator
+# Mesh-Datenkombinierer
 
 <table>
 <tr style="border: 0;">
@@ -49,7 +49,7 @@ Schaltet um, welche Zuordnungseingaben aktiviert und in das gepackte Ergebnis au
 
 |  |  |
 |:---|:---|
-| <b>Umgebungs-Verdeckung</b> <i>False/True</i> |  |
+| <b>Ambient occlusion</b> <i>False/True</i> |  |
 | <b>UV-Masken</b> <i>False/True</i> |  |
 | <b>Krümmung</b> <i>False/True</i> |  |
 | <b>Height</b> <i>False/True</i> |  |

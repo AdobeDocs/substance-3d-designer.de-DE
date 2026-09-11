@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Voreinstellungen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Voreinstellungsfenster
 
-![Fenster für Voreinstellungen](../../assets/image2021-6-22-20-56-1.png "Fenster für Voreinstellungen")
+![Fenster für Voreinstellungen](preferences-window.resources/image2021-6-22-20-56-1.png "Fenster für Voreinstellungen")
 
 Auf dieser Seite werden das Fenster &quot;<b>Voreinstellungen</b>&quot; und alle zugehörigen Einstellungen angezeigt.
 
@@ -157,14 +157,14 @@ Weitere Informationen finden Sie auf der Seite [Projekteinstellungen](../../inte
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Kontextabhängige Bearbeitung deaktiviert](../../assets/substance3ddesigner_incontext_no.gif "Kontextabhängige Bearbeitung deaktiviert")
+![Kontextabhängige Bearbeitung deaktiviert](preferences-window.resources/substance3ddesigner_incontext_no.gif "Kontextabhängige Bearbeitung deaktiviert")
 
 *Verweis öffnen*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Kontextabhängige Bearbeitung aktiviert](../../assets/substance3ddesigner_incontext_yes.gif "Kontextabhängige Bearbeitung aktiviert")
+![Kontextabhängige Bearbeitung aktiviert](preferences-window.resources/substance3ddesigner_incontext_yes.gif "Kontextabhängige Bearbeitung aktiviert")
 
 *Verweis im Kontext öffnen*
 
@@ -191,7 +191,7 @@ Weitere Informationen finden Sie auf der Seite [Projekteinstellungen](../../inte
 
 |  |  |
 | --- | --- |
-| <b>GPU-Raytracing</b>  *Standard: Aktiviert* | Wenn diese Option aktiviert ist, wird Raytracing für [kompatible Bäcker](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/features/gpu-raytracing) auf der GPU durchgeführt.   Je nach NVIDIA-GPU-Architektur sind die folgenden GPU-Raytracing-Backends die Standardeinstellungen:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Touring und neuer</li> <li data-preserve-html="true"><i>Optix</i>: Pascal und Maxwell</li> </ul>  **Hinweis:** Weitere Informationen zu GPU-betriebenen Bäckereien finden Sie im Abschnitt [GPU-Raytracing](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/features/gpu-raytracing) der Dokumentation [Substance Bakers](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/home).  **Tipp:** Sie können die folgenden *Befehlszeilenargumente* verwenden, wenn Sie die Anwendung starten, um *die Verwendung eines anderen GPU-Raytracing-Backends zu erzwingen*: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : Erzwingen der Verwendung von Optix auf Nvidia Turing oder neueren GPUs</li> <li data-preserve-html="true"><code>—force-dxr</code> : die Verwendung von DXR auf Nvidia Pascal-GPUs erzwingen</li> </ul> |
+| <b>GPU-Raytracing</b>  *Standard: Aktiviert* | Wenn diese Option aktiviert ist, wird Raytracing für [kompatible Bäcker](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/features/gpu-raytracing) auf der GPU durchgeführt.   Je nach NVIDIA-GPU-Architektur sind die folgenden GPU-Raytracing-Backends die Standardeinstellungen:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Touring und neuer</li> <li data-preserve-html="true"><i>Optix</i>: Pascal und Maxwell</li> </ul>  **Hinweis:** Weitere Informationen zu GPU-betriebenen Bäckereien finden Sie im Abschnitt [GPU-Raytracing](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/features/gpu-raytracing) der Dokumentation [Substance Bakers](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/home).  **Tipp:** Sie können die folgenden *Befehlszeilenargumente* verwenden, wenn Sie die Anwendung starten, um *die Verwendung eines anderen GPU-Raytracing-Backends zu erzwingen*: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : Erzwingen der Verwendung von Optix auf Nvidia Turing oder neueren GPUs</li> <li data-preserve-html="true"><code>—force-dxr</code> : erzwingen der Verwendung von DXR auf Nvidia Pascal-GPUs</li> </ul> |
 
 ## Bibliothek
 
@@ -201,18 +201,18 @@ Weitere Informationen finden Sie auf der Seite [Projekteinstellungen](../../inte
 
 ## Kürzel
 
-Sie können benutzerdefinierte Tastaturbefehle zum Erstellen von Knoten in Graf zuweisen.
+Sie können benutzerdefinierte Tastaturbefehle zum Erstellen von Knoten in Diagrammen zuweisen.
 
-Kurzbefehle können für Graf aller Knotenarten zugewiesen werden: [Substance-Graf](../../compositing-graphs/substance-compositing-graphs.md), [Substance-Graf](../../function-graphs/function-graphs.md) und [FX-Map-Graf](../../function-graphs/fxmaps/fxmaps.md).
+Verknüpfungen können für Knoten in allen Diagrammtypen zugewiesen werden: [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md), [Substance function graphs](../../function-graphs/function-graphs.md) und [FX-Map graphs](../../function-graphs/fxmaps/fxmaps.md).
 
-Jedem Knoten kann ein Tastaturbefehl zugewiesen werden, sogar benutzerdefinierte Bibliotheksknoten. Ein und derselbe Tastaturbefehl kann unterschiedlichen Grafen zugeordnet werden. Standardmäßig sind keine Tastaturbefehle zugewiesen, Sie können dies nach Ihren Wünschen anpassen.
+Jedem Knoten kann eine Verknüpfung zugewiesen werden, sogar benutzerdefinierte Bibliotheksknoten. Dieselbe Tastenkombination kann in verschiedenen Diagrammtypen zugewiesen werden. Standardmäßig sind keine Tastaturbefehle zugewiesen, Sie können dies nach Ihren Wünschen anpassen.
 
-Bei einem Konflikt mit einem anderen Node Tastaturbefehl oder einem eingebauten Programm Tastaturbefehl wird der Eintrag hervorgehoben und eine Warnmeldung angezeigt. Der Tastaturbefehl hat *keine Auswirkungen*, bis der Konflikt gelöst ist.
+Bei einem Konflikt mit einem anderen Knoten-Tastaturbefehl oder einem integrierten Programmbefehl wird der Eintrag hervorgehoben und eine Warnung wird angezeigt. Der Tastaturbefehl hat *keine Auswirkungen*, bis der Konflikt gelöst ist.
 
 >[!IMPORTANT]
 >
 > Von Python-Plug-ins überschriebene Tastaturbefehle
 > 
-> Wenn ein Python-Plug-in einen Tastatur-Tastaturbefehl definiert, der einem Knoten zugewiesen ist, überschreibt das Plug-in diesen Tastaturbefehl. Das bedeutet, dass die Taste die Plug-in-Aktion auslöst, anstatt einen Knoten zu erstellen.
+> Wenn ein Python-Plug-in einen Tastaturbefehl definiert, der einem Knoten zugewiesen ist, überschreibt das Plug-in diesen Tastaturbefehl. Das bedeutet, dass die Taste die Plug-in-Aktion auslöst, anstatt einen Knoten zu erstellen.
 > 
 > Dies ist bereits bei den Tasten H, S und V der Fall, die von den [Knotenausrichtungstools](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md) verwendet werden.

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sichtbar, wenn Expressions
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%
@@ -20,19 +20,19 @@ ht-degree: 1%
 
 # Sichtbar, wenn Expressions
 
-Mit dem Ausdruck &quot;Sichtbar, wenn&quot; können Sie <b>die Sichtbarkeit </b> von Eingängen, Ausgaben und Parametern in Diagrammen steuern.
+Mit dem Ausdruck &quot;Sichtbar, wenn&quot; können Sie <b>die Sichtbarkeit </b> von Eingängen, Ausgaben und Parametern in Grafen steuern.
 
-Wenn [Parameter &#x200B;](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) verfügbar gemacht werden, sollten Sie Parameter oder Knotenkonnektoren basierend auf dem Status anderer Parameter ein- oder ausblenden. Beispiel: Ein Schieberegler wird nur angezeigt, wenn eine boolesche Parameterschaltfläche auf &quot;`true`&quot; festgelegt ist, da er sonst keine Auswirkungen hätte und Benutzer möglicherweise verwirrt werden.
+Wenn [&#x200B; Parameter &#x200B;](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) legt, können Sie Verbindungen oder Knotenparameter aufgrund des Status anderer Parameter ein- oder ausblenden. Beispiel: Ein Schieberegler wird nur angezeigt, wenn eine boolesche Parameterschaltfläche auf &quot;`true`&quot; festgelegt ist, da er sonst keine Auswirkungen hätte und Benutzer möglicherweise verwirrt werden.
 
 Um dies zu erreichen, können Sie einen *logischen Ausdruck* in die <b>Visible if</b>-Eigenschaft von eingeben:
 
-* [-Eingabeparameter eines Diagramms](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md);
-* Knoten [Eingabe](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) eines Diagramms;
-* Knoten &quot;[Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)&quot; eines Diagramms.
+* [Eingabeparameter](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) eines Grafen;
+* [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)-Knoten eines Grafen;
+* Knoten &quot;[Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)&quot; eines Grafen.
 
-![Sichtbarkeit von Eingabeparametern umschalten](../../assets/visible-if-example.gif "Sichtbarkeit von Eingabeparametern umschalten"){width="512px"}
+![Sichtbarkeit des Eingabeparameters umschalten](visible-if-control-visibility-of-inputs-outputs-and-parameters.resources/visible-if-example.gif "Sichtbarkeit des Eingabeparameters umschalten"){width="512px"}
 
-Wenn die Auswertung des logischen Ausdrucks &quot;`true`&quot; ergibt, wird der Parameter, die Eingabe oder die Ausgabe in allen [Instanzknoten](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) angezeigt, die das aktuelle Diagramm darstellen. Andernfalls ist sie *ausgeblendet*.
+Wenn die Auswertung des logischen Ausdrucks &quot;`true`&quot; ergibt, wird der Parameter, die Eingabe oder die Ausgabe in allen [Instanzknoten](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) angezeigt, die den aktuellen Graf darstellen. Andernfalls ist sie *ausgeblendet*.
 
 Komplexe Bedingungen sind möglich, sofern der logische Ausdruck, der diese Bedingungen angibt, gültig ist.
 
@@ -40,8 +40,8 @@ Komplexe Bedingungen sind möglich, sofern der logische Ausdruck, der diese Bedi
 >
 > Caveats
 > 
-> * Dieses Feature *only* wirkt sich darauf aus, ob ein Parameter oder ein Connector in der Benutzeroberfläche angezeigt wird, und hat *keine Auswirkungen* auf die Berechnungen und das Ergebnis eines Diagramms.
-> * Wenn eine Funktion für einen Parameter verfügbar gemacht oder angewendet wird, der in &#39;Visible if&#39;-Anweisungen verwendet wird, werden diese Anweisungen *ignoriert* und standardmäßig auf &#39;true&#39; festgelegt.
+> * Dieses Feature *only* wirkt sich darauf aus, ob ein Parameter oder eine Verbindung in der Benutzeroberfläche angezeigt wird, und hat *keine Auswirkungen* auf die Berechnungen und das Ergebnis eines Grafen.
+> * Wenn eine Funktion auf einen Parameter gelegt oder angewendet wird, der in &#39;Visible if&#39;-Anweisungen verwendet wird, werden diese Anweisungen *ignoriert* und standardmäßig auf &#39;true&#39; festgelegt.
 
 >[!IMPORTANT]
 >
@@ -62,7 +62,7 @@ input["identifier"]
 
 >[!WARNING]
 >
-> Der **Bezeichner** muss der *genaue* Name der **Bezeichner**-Eigenschaft eines vorhandenen Eingabeparameters sein, und er muss *Groß- und Kleinschreibung beachten* eingegeben werden. *kann nicht* auf einen Parameter über dessen Bezeichnung verweisen.\
+> Die **Identifizierung** muss der *genaue* Name der **Identifizierung**-Eigenschaft eines bestehenden Eingabeparameters sein, und es muss *Groß- und Kleinschreibung beachten* eingegeben werden. *kann nicht* auf einen Parameter über dessen Bezeichnung verweisen.\
 >  Wenn kein referenzierter Parameter vorhanden ist oder der logische Ausdruck ungültig ist, wird eine *Warnung* in der **Visible if**-Eigenschaft angezeigt.
 
 ### VERFÜGBARE OPERATOREN

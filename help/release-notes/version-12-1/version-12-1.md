@@ -75,17 +75,17 @@ In den unten verlinkten Knotenseiten finden Sie Beispiele für die Ausgabebreite
 
 ### Verbesserung der Interoperabilität
 
-* **Support für USD** Zusätzlich zum
+* **USD Support** Zusätzlich zur
 
   und
 
-  -Dateiformate konvertieren, können Sie jetzt USD-Dateien (
+  -Dateiformate konvertieren, können Sie jetzt USD Dateien (
 
   ,
 
   ,
 
-  ), um sie als Ressourcen für Ihre Substance-Modellgrafiken, zum Backen oder in der 3D-Ansicht zu verwenden, um Ihr Substance-Material zu präsentieren. Sie können dieses Format auch verwenden, um das Modelldiagramm Ihres Substance oder den Inhalt der 3D-Ansicht zu exportieren.
+  ), um sie als Ressourcen für Ihre Substance-Modellgrafiken zu verwenden, zum Baking oder in der 3D-Ansicht, um Ihr Substance-Material zu präsentieren. Sie können dieses Format auch verwenden, um Ihr Substance-Modelldiagramm oder den Inhalt der 3D-Ansicht zu exportieren.
 * <b>An Stager senden\
   </b>Sie können Ihr Substance-Material jetzt mit einem Klick an Stager senden, wie dies bereits mit Sampler und Painter möglich war. Dank dieser Funktion müssen Sie nicht mehr als SBSAR veröffentlichen und einzelne Dateien laden (Stager-Version 1.2.0 mit dem neuen Material-Manager erforderlich).
 
@@ -93,11 +93,11 @@ In den unten verlinkten Knotenseiten finden Sie Beispiele für die Ausgabebreite
 
 ### Sonstiges
 
-* Wenn Sie an Stoffen arbeiten, können Sie jetzt ein dediziertes Gitter in der 3D-Ansicht anzeigen, um besser zu sehen, wie Ihr Material auf einer drapierten Form gerendert wird. Öffnen Sie das Menü <b>Szene</b> im Bedienfeld &quot;3D-Ansicht&quot;, und wählen Sie die Option <b>Tuch</b> aus, um dieses Modell anzuzeigen.
+* Wenn Sie an Stoffen arbeiten, können Sie jetzt einen speziellen Mesh in der 3D-Ansicht anzeigen, um besser sehen zu können, wie Ihr Material auf einer drapierten Form gerendert wird. Öffnen Sie das Menü &quot;<b>Szene</b>&quot; im Bedienfeld &quot;3D-Ansicht&quot;, und wählen Sie die Option &quot;<b>Cloth</b>&quot; aus, um dieses Modell anzuzeigen.
 
   ![](../../assets/fabric-rendering.png){width="640px"}
 
-* Wir haben auch einige neue Szenenverwaltungsknoten für Substance-Modellgrafiken hinzugefügt. Mit diesen Knoten können Sie Ihre Szenenelemente umbenennen, überordnen, fusionieren oder erweitern, um Ihre Szenenhierarchie zu organisieren. Es gibt auch einen neuen Knoten, um den Drehpunkt für ein oder mehrere Elemente einer Szene festzulegen.
+* Wir haben außerdem einige neue Knoten für das Szenen-Management für Substance-Modellgrafiken hinzugefügt. Mithilfe dieser Knoten können Sie die Szene umbenennen, überordnen, fusionieren oder erweitern, um die Hierarchie der Szene zu organisieren. Es gibt auch einen neuen Knoten, der den Drehpunkt für ein oder mehrere Elemente einer Szene festlegt.
 
 * Bei der Arbeit an Projekten in Designer können Warnungen und Fehlermeldungen auftreten, die Sie über ein Problem im Projekt informieren. In dieser Version <b>verbessern wir das Fehlermanagementsystem</b>, um alle Fehler und Warnungen im Explorer anzuzeigen: Alles ist an einer Stelle aufgelistet, sodass es einfacher ist, zu überprüfen, ob Ihr Projekt Probleme enthält.
 
@@ -111,12 +111,12 @@ In den unten verlinkten Knotenseiten finden Sie Beispiele für die Ausgabebreite
 
 <b>Hinzugefügt:</b>
 
-* [Main] Neuer Inhalt für Materialdiagramme
+* [Main] Neue Inhalte für Material-Graf
 * [Main] Materialien an Stager senden
-* [Main] Unterstützung von USD-Dateien
+* [Main] Unterstützung von USD
 * [Main] Verbessern der Fehlerberichterstattung in der Benutzeroberfläche
-* [Main] Szenenmanagement-Knoten für Modellgrafiken
-* [Inhalt] Weitere Optionen zu 3D-Perlin-Rauschen hinzufügen (Kacheln, Absolut...)
+* [Main] Szenen-Management-Knoten für Modelldiagramme
+* [Inhalt] Weitere Optionen zu 3D-Perlin-Rauschen hinzufügen (Kachelung, Absolut...)
 * [Inhalt] Neuer Fraktalknoten &quot;3D-Ridge Noise&quot;
 * [Inhalt] Neuer Knoten &quot;3D-Texturversatz&quot;
 * [Inhalt] Neuer Knoten 3D-Texturposition
@@ -146,29 +146,29 @@ In den unten verlinkten Knotenseiten finden Sie Beispiele für die Ausgabebreite
 * [Drittanbieter] Upgrade von OpenSSL auf 1.1.1m
 * [UI] Verbessern des Verhaltens des Knotenmenüs bei Fehlklick
 * [UI] Öffnen Sie Untergraph auf derselben Registerkarte, auch wenn sie angeheftet sind
-* [UI] Schaltfläche &quot;Pin entfernen&quot; in der Titelleiste des Explorer-Bedienfelds
+* [UI] Schaltfläche &quot;Nadel entfernen&quot; in der Titelleiste des Bedienfelds &quot;Explorer&quot;
 * [UI] Speichern Sie die Option &quot;Nicht mehr anzeigen&quot; auf dem Begrüßungsbildschirm in allen Versionen
-* [3D-Ansicht] Die Rastereinheit im Viewport anzeigen, wenn der &quot;Achsen&quot;-Helfer aktiviert ist
+* [3D-Ansicht] Zeigt den Raster im Viewport an, wenn der Helfer &quot;Achse&quot; aktiviert ist.
 * [Automatisierung] Bereitstellen des Absbaker-Befehlszeilentools mit Designer
 * [Farbmanagement] Implementieren eines neuen GPU-Backends für Adobe ACE
 * [Cooker] Fügen Sie eine Option hinzu, um ein Paket ohne Zeitstempel zu kochen
-* [Graph] Hinzufügen von Abzeichen im FxMap-Diagramm
+* [Graf] Hinzufügen von Abzeichen im FxMap-Graf
 * [Library] Neuen Filter für Easings-Funktionen hinzufügen
-* [Player] USD-Unterstützung
+* [Player] USD
 * [Eigenschaften] Hinzufügen eines Warnfehlers für den Parameter &quot;PKG-Ressourcenpfad&quot; eines Bitmap-Knotens, wenn die Ressource nicht gefunden wird
 * [Substance Engine] Upgrade auf 8.4.1
-* [Yebis] Warnen Sie den Benutzer, dass Yebis-Post-Effekte in der nächsten Version entfernt werden
+* [Yebis] Warnen Sie den Benutzer, dass Yebis-Post-Effekte in der nächsten Version entfernt werden.
 * [Dokumentation] Neue Seite &quot;Warnungen und Fehler&quot;
-* [Dokumentation] Neue Seite mit Beschreibungen der Vererbung in Substance-Graphen
+* [Dokumentation] Neue Seite mit Beschreibungen der Vererbung in Substance-Grafen
 * [Dokumentation] Abschnitt &quot;Iray&quot; aktualisieren
 * [Dokumentation] Abschnitt &quot;MDL-Diagramme&quot; aktualisieren
 
 <b>Fest:</b>
 
-* [UI] Beschneidungsprobleme in den QuickInfos für Vorlagen im neuen Diagrammfenster
+* [UI] Beschneidungsprobleme in den QuickInfos für Vorlagen im neuen Graf-Fenster
 * [UI] Schwer lesbarer weißer Text in Knoten bei Verwendung des Dunkelmodus in macOS
 * [UI] Layoutproblem in einigen Dialogfeldern
-* [UI] Beim Erstellen eines Substance-Funktionsdiagramms im Explorer wird eine Warnmeldung angezeigt, die abgeschnitten ist.
+* [UI] Beim Erstellen eines Substance-Funktions-Grafen im Explorer wird eine Warnmeldung angezeigt, die abgeschnitten ist.
 * [UX] Der Farbwähler bewegt sich bei jeder neuen Öffnung nach unten
 * [UX] Das Fenster des Verlaufseditors bewegt sich bei jedem Start nach oben
 * [UX] Diagrammeigenschaften werden für geladene Pakete nicht automatisch angezeigt

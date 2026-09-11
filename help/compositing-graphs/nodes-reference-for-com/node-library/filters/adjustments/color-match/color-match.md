@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/color-match.html"
 breadcrumb-title: ''
-description: Mit dem Knoten "Farbabgleich" können Sie die Farben zwischen den Texturen abgleichen, um konsistente Farbpaletten zu erstellen und Texturen zu harmonisieren.
+description: Mit dem Knoten "Farbabgleich" können Sie die Farben zwischen Texturen abgleichen, um konsistente Farbpaletten zu erstellen und Texturen zu harmonisieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Color Match
 helpx_experience_level: ""
@@ -62,7 +62,7 @@ Einfachere Versionen finden Sie unter [Farbbereich ersetzen](../../../../../../c
 | <b>Zielfarbmodus</b> <i>Parameter, Bildeingabe</i> | Legt fest, ob die Quellfarbe durch Mittelwertbildung des Eingabebilds, Parametereinstellung oder Verwendung eines Eingangssteckplatzes definiert wird. |
 | <b>Zielfarbe</b> <i>(Farbwert)</i> | Wenn der Zielfarbmodus auf *Parameter* festgelegt ist, bestimmt dieser Parameter die Zielfarbe. |
 | <b>Benutzerdefinierte Farbvariation</b> <i>False/True</i> | Aktiviert eine zusätzliche Farbvariation. |
-| <b>Farbvariation</b> | Legt Farbton-, Chrominanz- oder Luminanz-Variationen auf das Ergebnis fest, sofern diese Option aktiviert ist. |
+| <b>Farbvariation</b> | Legt Farbton-, Chrominanz- oder Luminanzvarianten auf das Ergebnis fest, wenn diese Option aktiviert ist. |
 | <b>Maske verwenden</b> <i>False/True</i> | Schaltet die Verwendung von &quot;Maskeneingabe&quot; oder &quot;Ausgabe&quot; je nach dem unten stehenden Maskenmodus um. |
 | <b>Maskenmodus</b> <i>Parameter, Eingabe</i> | Im Parametermodus wird eine Maske ausgegeben, in der detailliert angegeben ist, wie die Farbe geändert wurde. Im Eingabemodus kann eine Maske die Stärke des Effekts &quot;Farbabgleich&quot; steuern. |
 | <b>Maske</b> | Gibt eine Maske aus, die anzeigt, wo genau der Effekt &quot;Farbabgleich&quot; angewendet wurde, mit zusätzlichen Steuerelementen zum Glätten und Weichzeichnen der resultierenden Maske. |

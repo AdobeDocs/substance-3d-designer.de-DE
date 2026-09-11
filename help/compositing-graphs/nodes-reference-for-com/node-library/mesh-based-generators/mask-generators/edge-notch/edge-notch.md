@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-notch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-notch.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Kantenkerbe", um Kerbmuster an Netzkanten zu generieren, um realistische Kantenbeschädigungen und Einrückungseffekte zu erzeugen.
+description: Verwenden Sie den Knoten "Kantenkerbe", um Kerbmuster an Kanten von Meshs zu generieren, um realistische Kantenbeschädigungen und Einrückungseffekte zu erzeugen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Notch
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 5%
 
 ## Beschreibung
 
-Generiert eine Schwarzweißmaske auf der Grundlage von durch Baking erzeugte Map und Benutzereinstellungen. Ähnlich wie [Smart Masks](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
+Erzeugt eine Schwarz-weiße Maske basierend auf durch Baking erzeugte Map und Benutzereinstellungen. Ähnlich wie [Intelligente Masken](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Diese Maske stellt eine einfache Maske für erhöhte Kanten dar, die durch ein hochfrequentes Rauschen unterbrochen wird. Weitere Optionen finden Sie unter [Edge Dirt](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-dirt/edge-dirt.md) oder [Edge Damages](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-damages/edge-damages.md).
+Diese Maske stellt eine einfache Maske für erhöhte Kanten dar, die durch einen Hochfrequenz-Rauschen unterbrochen wird. Weitere Optionen finden Sie unter [Edge Dirt](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-dirt/edge-dirt.md) oder [Edge Damages](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-damages/edge-damages.md).
 
 </td>
 </tr>

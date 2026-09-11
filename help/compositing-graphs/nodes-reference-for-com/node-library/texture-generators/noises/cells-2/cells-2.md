@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-2.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Zellen 2, um Zellmuster zu erzeugen, die eine organische und biologische Textur erzeugen.
+description: Verwenden Sie den Knoten Zellen 2, um Zellmuster zu erzeugen, die organische und biologische Textureffekte erzeugen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Cells 2
 helpx_experience_level: ""
@@ -26,14 +26,14 @@ ht-degree: 1%
 
 ![Zellen 2 - Symbol](cells-2.resources/cells_2.png "Zellen 2 - Symbol"){width="200px"}
 
-<b>In:</b> Texturen-Generatoren > Rauschen
+<b>In:</b> Texturgeneratoren > Rauschen
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Eine Variation der <b>Zellen</b> ummauerten Rauschen.
+Eine Variation der <b>Zellen</b> von Walled Noise.
 
 Binärmaske der Zellen mit einer einstellbaren Thickness.
 
@@ -49,7 +49,7 @@ Siehe auch: [Zellen 1](../../../../../../compositing-graphs/nodes-reference-for-
 
 |  |  |
 |:---|:---|
-| <b>Ausgabe</b> <i>Graustufen</i> | Die generierte Rauschen als Graustufen-Bitmap. |
+| <b>Ausgabe</b> <i>Graustufen</i> | Das erzeugte Rauschen als Graustufen-Bitmap. |
 
 <a name="parameters"></a>
 
@@ -57,12 +57,12 @@ Siehe auch: [Zellen 1](../../../../../../compositing-graphs/nodes-reference-for-
 
 |  |  |
 |:---|:---|
-| <b>Skalierung</b> <i>Ganzzahl</i> | Die Unterteilung des Rasters, der zum Generieren der Rauschen-Kacheln verwendet wird.    Ein höherer Wert führt dazu, dass mehr Kacheln gezeichnet werden und das Rauschen dichter ist. |
-| <b>Kantenbreite</b> <i>Fließkommazahl</i> | Passt die Thickness der Zellenwände im Verhältnis zum Raster an. (d. h. nicht auflösungsabhängig) |
-| <b>Umkehren</b> <i>Boolesche Wert</i> | Schaltet Schwarz und Weiß im Ausgabebild um. |
-| <b>Störung</b> <i>Fließkommazahl</i> | Versetzt die Bestandteile der Rauschen.    So animierst du die Rauschen. |
-| <b>Störungsgeschwindigkeit</b> <i>Fließkommazahl</i> | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.    Dies kann verwendet werden, um die Geschwindigkeit des Versatzes bei der Animation des Rauschen zu steuern. |
-| <b>Nicht quadratische Erweiterung</b> <i>Boolesche Wert</i> | Behält bei nicht quadratischen Bildern das erzeugte Kachelquadrat bei und erweitert die Rauschen-Generation auf die Grenzen des Bildes. |
+| <b>Skalierung</b> <i>Integer</i> | Die Unterteilung des Rasters, das zum Erzeugen der Rauschkacheln verwendet wird.    Ein höherer Wert führt dazu, dass mehr Kacheln gezeichnet werden und das Rauschen dichter ist. |
+| <b>Kantenbreite</b> <i>Gleitend</i> | Passt die Thickness der Zellenwände im Verhältnis zum Raster an. (d. h. nicht auflösungsabhängig) |
+| <b>Umkehren</b> <i>Boolescher Wert</i> | Schaltet Schwarz und Weiß im Ausgabebild um. |
+| <b>Störung</b> <i>Gleitend</i> | Versetzt die Bestandteile des Rauschens.    So kannst du das Rauschen animieren. |
+| <b>Störungsgeschwindigkeit</b> <i>Gleitend</i> | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.    Mit dieser Option können Sie die Geschwindigkeit des Versatzes bei der Animation des Rauschens steuern. |
+| <b>Nicht quadratische Erweiterung</b> <i>Boolescher Wert</i> | Bei nicht quadratischen Bildern bleibt das erzeugte Kachelquadrat erhalten und erweitert die Rauscherzeugung auf die Grenzen des Bildes. |
 
 ## Beispiele
 

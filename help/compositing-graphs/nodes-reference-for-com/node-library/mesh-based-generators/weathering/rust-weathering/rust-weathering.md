@@ -74,7 +74,7 @@ ht-degree: 14%
 | <b>Intensität der Rauheit</b> <i>0.0 - 1.0</i> | Die Stärke der Raueit. |
 | <b>Metallic Intensität</b> <i>0.0 - 1.0</i> | Mischfestigkeit des Metallic. |
 | <b>Ambient occlusion-Intensität</b> <i>0.0 - 1.0</i> | Mischfestigkeit der Ambient-Verdeckung. |
-| <b>Height-Intensität</b> <i>0.0 - 1.0</i> | Die Stärke des Heights beim Mischen. |
+| <b>Height-Intensität</b> <i>0.0 - 1.0</i> | Die Stärke des Heights. |
 
 ## Beispiele
 

@@ -215,7 +215,7 @@ Zeichnen Sie ein Auswahlfeld.
 
 <b>Umschalt + Ziehen</b>
 
-Beschränken Sie die Bewegung auf die X- oder Y-Achse.
+Beschränken Sie die Verschiebung auf der X- oder Y-Achse.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -253,13 +253,13 @@ Die Schaltfläche &quot;![](curve.resources/image2017-2-20-19-12-45.png)&quot; s
 
 ![](curve.resources/viewzoom.gif)
 
-## Eingangsanschlüsse
+## Eingabe-Verbindungen
 
 |  |  |
 | --- | --- |
 | <b>Eingabe</b> *Graustufen/Farbe* PRIMÄR | Das zu verarbeitende Bild. |
 
-## Ausgangsanschlüsse
+## Ausgabe-Verbindungen
 
 |  |  |
 | --- | --- |

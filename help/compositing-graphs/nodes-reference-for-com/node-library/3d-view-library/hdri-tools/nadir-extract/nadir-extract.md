@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/nadir-extract.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Nadir Extract-Knoten, um den Nadirbereich aus HDRI-Panoramen zu extrahieren, um untere Bereiche von Umgebungskarten zu verarbeiten.
+description: Verwenden Sie den Nadir Extract -Knoten, um den Nadirbereich aus HDRI-Panoramen zu extrahieren, um untere Bereiche von Umgebungs-Map zu verarbeiten.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Nadir Extract
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 ## Beschreibung
 
-Extrahiert den zentralen Massepunkt (Nadir) eines kugelförmigen, zugeordneten Eingabebildes. Kann verwendet werden, um den Tiefpunkt eines Bildes auf das andere zu übertragen und die Kamera oder das Stativ zu maskieren.
+Extrahiert den mittleren Boden (Nadir) eines kugelförmigen Eingabebilds. Kann verwendet werden, um den Tiefpunkt eines Bildes auf das andere zu übertragen und die Kamera oder das Stativ zu maskieren.
 
 </td>
 </tr>
@@ -45,6 +45,6 @@ Extrahiert den zentralen Massepunkt (Nadir) eines kugelförmigen, zugeordneten E
 
 |  |  |
 |:---|:---|
-| <b>Skalierung</b> <i>0.0 - 10.0</i> | Den &quot;Zoomfaktor&quot; für den Basispunkt festlegen |
-| <b>Drehung</b> <i>0.0 - 1.0</i> | Dreht sich um die zentrale Achse. |
+| <b>Skalierung</b> <i>0.0 - 10.0</i> | Stellen Sie den &quot;Zoomfaktor&quot; für den Boden ein |
+| <b>Drehung</b> <i>0.0 - 1.0</i> | Dreht sich um die mittlere Achse. |
 | <b>Gamma für Ausgabe</b> <i>sRGB, linear</i> | Gamma ausgeben. |

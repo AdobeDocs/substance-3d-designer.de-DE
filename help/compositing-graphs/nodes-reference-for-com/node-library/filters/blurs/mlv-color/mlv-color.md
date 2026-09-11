@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-color.html"
 breadcrumb-title: ''
-description: Verwenden Sie den MLV-Farbunschärfefilter, um Bewegungsunschärfeeffekte auf Farbstrukturen anzuwenden und dynamische visuelle Looks zu erzeugen.
+description: Verwenden Sie den MLV-Farbunschärfefilter, um Farbeffekte auf Farb-Texturen anzuwenden und so eine Bewegungsunschärfe zu erzeugen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > MLV color
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## Beschreibung
 
-MLV steht für <b>&#39;Mittel der geringsten Abweichung&#39;</b>. Dieser Filter optimiert Kanten und glättet Bildrauschen.
+MLV steht für <b>&#39;Mittel der geringsten Abweichung&#39;</b>. Dieser Filter verbessert die Kanten und glättet das Rauschen in einem Bild.
 
 Der Filter findet strukturierende Bereiche in einem Bild und verwendet sie sowohl zum Scharfzeichnen als auch zum Reduzieren. Dies kann in manchen Fällen zu Stufen entlang von Gradienten führen, die breiter als die Strukturierungsbereiche sind.
 
@@ -67,9 +67,9 @@ Der Filter findet strukturierende Bereiche in einem Bild und verwendet sie sowoh
 
 |  |  |
 |:---|:---|
-| <b>Intensität</b> *Gleitend* | Die Stärke der Filterung, die auf das Bild angewendet wurde.<br><br>Höhere Werte führen zu einer stärkeren Glättung von Details und zum Rauschen in flachere Bereiche. |
-| <b>Smoothness</b> *Gleitend* | Die Intensität der auf die Strukturierungsflächen aufgebrachten Glättung, die zu runderen Flächen führt und die bei höheren Filterungen auftreten kann, vermindert. |
-| <b>Kriterium</b> *Integer* | Das Kriterium zur Auswahl der Werte, die die Strukturierungsbereiche im Bild definieren.<br><br>Mit anderen Worten, wie Pixel *gruppiert* werden sollten in Bereiche, die geglättet werden sollen.<br><br>*- Varianz:* Wählen Sie Werte mit der niedrigsten Streuung um den Mittelwert aus, was zu Clustern von Pixeln führt, die einander ähnlich sind <br>*- Variationskoeffizient:* Wählen Sie Werte aus, während Sie den Mittelwert berücksichtigen, was umgekehrt zu weniger Variationen in helleren Bereichen führt |
+| <b>Intensität</b> *Fließkommazahl* | Die Stärke der Filterung, die auf das Bild angewendet wurde.<br><br>Höhere Werte führen zu einer stärkeren Glättung von Details und zum Rauschen in flachere Bereiche. |
+| <b>Smoothness</b> *Fließkommazahl* | Die Intensität der auf die Strukturierungsflächen aufgebrachten Glättung, die zu runderen Flächen führt und die bei höheren Filterungen auftreten kann, vermindert. |
+| <b>Kriterium</b> *Ganzzahl* | Das Kriterium zur Auswahl der Werte, die die Strukturierungsbereiche im Bild definieren.<br><br>Mit anderen Worten, wie Pixel *gruppiert* werden sollten in Bereiche, die geglättet werden sollen.<br><br>*- Varianz:* Wählen Sie Werte mit der niedrigsten Streuung um den Mittelwert aus, was zu Clustern von Pixeln führt, die einander ähnlich sind <br>*- Variationskoeffizient:* Wählen Sie Werte aus, während Sie den Mittelwert berücksichtigen, was umgekehrt zu weniger Variationen in helleren Bereichen führt |
 | <b>Gaußsch</b> *Boolescher Wert* | Verwenden Sie eine Gaußsche Verteilung zum Gruppieren von Pixeln in strukturierende Bereiche.<br><br>Wenn &quot;True&quot; festgelegt ist, führt dies zu glatteren Bereichen und einem reduzierten Abflachungseffekt. |
 | <b>Alpha betreffen</b> *Boolescher Wert* | Wenn &quot;True&quot; festgelegt ist, wird die Filterung auch auf den Alphakanal des Bildes angewendet.<br><br>Wenn &quot;False&quot; festgelegt ist, wird der Alphakanal vollständig ignoriert und bleibt in der Ausgabe unverändert. |
 | <b>Iterationen</b> *Integer* | Gibt an, wie oft der Filter ausgeführt wird, wobei jede Iteration auf das Ergebnis der vorherigen angewendet wird.<br><br>Mehr Iterationen führen zu flacheren und schärferen Strukturierungsbereichen. |

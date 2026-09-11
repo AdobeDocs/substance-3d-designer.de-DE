@@ -55,8 +55,8 @@ Viele Dinge wurden überdacht, z. B. die Toleranz von Zuordnungsregeln, Interakt
 ## Verbesserung der Lebensqualität
 
 * Verbesserungen des <b>Knotenmenüs: </b> Um Zeit zu sparen, während Sie nach dem Knoten suchen, den Sie benötigen, haben wir das Knotenmenü ein wenig verbessert. Die Suche verzeiht jetzt mehr und gibt Ihnen ein Ergebnis, auch wenn es keine perfekte Übereinstimmung gibt. Darüber hinaus können Sie jetzt mit dem Pfeil nach oben direkt auf das letzte Element in der Liste zugreifen.
-* <b>Knotenplatzierung: </b>Wenn Sie ein perfektes Layout für Ihren Graf haben möchten, werden Ihnen diese beiden kleinen Änderungen gefallen! Beim Kopieren/Einfügen von Graf von einem Knoten in einen anderen werden die eingefügten Raster jetzt am Hauptknoten ausgerichtet. Wenn Sie einen Knoten auf einem langen Link hinzufügen, wird dieser in der Mitte des sichtbaren Teils des Links platziert, damit er in jeder Situation sichtbar ist.
-* <b>2D-Ansicht-Optionen: </b>Wenn Sie die [2D-Ansicht](../../interface/2d-view/2d-view.md) intensiv nutzen, sparen Sie Zeit, da Optionen wie &quot;Schachbrett anzeigen&quot;, &quot;Ansichtsgröße beibehalten&quot;, &quot;Physische Größe verwenden&quot; und &quot;Kachelung anzeigen&quot; jetzt gespeichert werden. Sie müssen sie also nicht erneut festlegen, wenn Sie eine neue 2D-Ansicht erstellen oder Designer neu starten.
+* <b>Knotenplatzierung: </b>Wenn du ein perfektes Layout für dein Diagramm haben möchtest, werden dir diese beiden kleinen Änderungen gefallen! Wenn Sie Knoten von einem Diagramm in ein anderes kopieren/einfügen, werden die eingefügten Knoten jetzt am Hauptraster ausgerichtet. Wenn Sie einen Knoten auf einem langen Link hinzufügen, wird dieser in der Mitte des sichtbaren Teils des Links platziert, damit er in jeder Situation sichtbar ist.
+* <b>2D-Anzeigeoptionen: </b>Wenn Sie die [2D-Ansicht](../../interface/2d-view/2d-view.md) intensiv nutzen, sparen Sie Zeit, da Optionen wie &quot;Schachbrett anzeigen&quot;, &quot;Ansichtsgröße beibehalten&quot;, &quot;Physische Größe verwenden&quot; und &quot;Anzeigeunterteilung&quot; jetzt gespeichert werden. Sie müssen sie also nicht erneut festlegen, wenn Sie eine neue 2D-Ansicht erstellen oder Designer neu starten.
 
 ## AxF-Export
 
@@ -64,14 +64,14 @@ Viele Dinge wurden überdacht, z. B. die Toleranz von Zuordnungsregeln, Interakt
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![AxF-Datei-Symbol](../../assets/axf-file-icon.png "AxF-Datei-Symbol")
+![AxF-Dateisymbol](../../assets/axf-file-icon.png "AxF-Dateisymbol")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-AxF ist ein Format von [X-Rite](https://www.xrite.com/axf). Sie bietet eine Möglichkeit, komplexe Material-Merkmale mithilfe von numerischen Daten im gesamten digitalen Design-Workflow zu erfassen, zu speichern, zu bearbeiten und zu kommunizieren. In früheren Versionen von Designer konnten Sie [AxF-Dateien importieren](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) und dann die Kachelung verbessern oder prozedurale Effekte hinzufügen. Dann waren Sie jedoch gezwungen, Änderungen als neue .sbsar-Datei zu exportieren.
+AxF ist ein Format von [X-Rite](https://www.xrite.com/axf). Sie bietet eine Möglichkeit, komplexe Materialeigenschaften mithilfe von numerischen Daten im gesamten digitalen Design-Workflow zu erfassen, zu speichern, zu bearbeiten und zu kommunizieren. In früheren Versionen von Designer konnten Sie AxF-Dateien [importieren](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) und dann die Unterteilung verbessern oder prozedurale Effekte hinzufügen. Dann mussten Sie jedoch Änderungen als neue .sbsar-Datei exportieren.
 
-In dieser neuen Version wird die Möglichkeit eingeführt, AxF-Material an Ort und Stelle zu bearbeiten, und dann [Ihre Änderungen](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) als neue Ebene in die importierte AxF-Datei zu exportieren.
+In dieser neuen Version wird die Möglichkeit eingeführt, AxF-Materialien an Ort und Stelle zu bearbeiten, und dann [Ihre Änderungen &#x200B;](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) als neue Ebene in die importierte AxF-Datei zu exportieren.
 
 </td>
 </tr>
@@ -83,8 +83,8 @@ In dieser neuen Version wird die Möglichkeit eingeführt, AxF-Material an Ort u
 
 Und schließlich verbessert diese Version 13.1 die Python-API weiter, indem sie zwei weitere Möglichkeiten hinzufügt:
 
-* <b>-Eigenschaften &quot;Sichtbar, wenn&quot;: </b>Sie können diese Eigenschaft jetzt für Parameter, Eingaben und Ausgaben des Grafen festlegen.
-* <b>Reihenfolge der Parametereingaben/-ausgänge:</b> Verwenden Sie sdsbscompgraph::reorderGraphInput und sdsbscompgraph::reorderGraphOutput, um die Graf nach Bedarf zu organisieren.
+* <b>-Eigenschaften &quot;Sichtbar, wenn&quot;: </b>Sie können diese Eigenschaft jetzt für Graphparameter, Eingaben und Ausgaben festlegen.
+* <b>Reihenfolge der Diagramme Eingabe/Ausgabe:</b> verwenden sdsbscompgraph::reorderGraphInput und sdsbscompgraph::reorderGraphOutput, um die Parameter nach Bedarf zu organisieren.
 
 >[!NOTE]
 >
@@ -98,9 +98,9 @@ Und schließlich verbessert diese Version 13.1 die Python-API weiter, indem sie 
 
 ### Hinzugefügt
 
-* [Rahmen] Automatisch erweitern
-* [Rahmen] Regeln ändern, um zu definieren, wann ein Objekt zu einem Rahmen gehört
-* [Rahmen] Deaktivieren der Textskalierung für die Beschreibung von Rahmen
+* [Frames] Automatisch erweitern
+* [Frames] Ändern Sie Regeln, um festzulegen, wann ein Objekt zu einem Frame gehört.
+* [Frames] Deaktivieren der Textskalierung für die Rahmenbeschreibung
 * [Frames] Größe an Inhalt anpassen
 * [Frames] Neuer Standard-, Hover- und ausgewählter Status
 * [Frames] Ausrichten an großem Raster
@@ -130,38 +130,38 @@ Und schließlich verbessert diese Version 13.1 die Python-API weiter, indem sie 
 
 ### Fehlerbehebungen
 
-* [3D-Ansicht] Einer Eingabe vom Typ texture\_2d eines MDL-Materials kann keine Textur zugewiesen werden.
-* [AxF] Diagrammbezeichner in der Vorlagenliste können leer sein.
-* [AxF] Das Vorlagenfeld für Substance-Graphen ist standardmäßig leer.
+* [3D-Ansicht] Einer Eingabe vom Typ Textur\_2d eines MDL-Materials kann keine Textur zugewiesen werden.
+* [AxF] Graf-Identifizierungen in der Vorlagenliste können leer sein.
+* [AxF] Das Vorlagenfeld für Substance-Graf ist standardmäßig leer.
 * [Inhalt] Atlas Scatter: Fehlverhalten in bestimmten Fällen
 * [Inhalt] Flood Fill Mapper: leere Ausgabe, wenn alle Formen die gleiche Box-Größe haben
 * [Content] FloodFill zur Positionierung: Ungenauigkeiten in einigen Situationen
-* [Inhalt] Falsche &quot;Specular&quot;-Ausgabe im Knoten &quot;BaseColor/Metallic/Roughness-Konverter&quot;
+* [Inhalt] Falsche &quot;Specular&quot;-Ausgabe im Knoten &quot;BaseColor/Metallic/Rauheit-Konverter&quot;
 * [Inhalt] &quot;Auf Pfad maskieren&quot; funktioniert nicht in nicht quadratischen vertikalen Bereichen
 * [Inhalt] Fehlende Beschreibung für Eingabewert, Graustufeneingabe, Eingabefarbe und Ausgabeknoten
 * [Inhalt] Fehlende Beschreibung für Set- und Sequenzknoten
 * [Inhalt] Formaufteilung: Ungenauigkeitsartefakte in der Ausgabe von &quot;Splatter data 2&quot;
-* [Engine] Booleans in Value-Prozessoren werden immer als &quot;False&quot; ausgewertet (nur Apple Silicon)
+* [Engine] Booleans in Wertprozessoren werden immer als &quot;False&quot; ausgewertet (nur Apple Silicon)
 * [Explorer] Die Reihenfolge der Symbolleistenschaltflächen ist zwischen den Betriebssystemen inkonsistent.
-* [Frames] Ergreifen Sie keine Knoten, wenn Sie einen Frame mit dem STRG-Modifizierer verschieben
-* [Verlaufsumsetzung] Alle zurücksetzen sollte auch das Verlaufs-Widget zurücksetzen
+* [Rahmen] Knoten nicht erfassen, wenn ein Rahmen mit dem STRG-Modifizierer verschoben wird
+* [Verlaufs-Map] Alle Optionen zurücksetzen sollte auch das Verlauf-Widget zurücksetzen
 * [GraphRender] Einige Knoten werden beim Anpassen im Vorschaumodus schwarz gerendert
-* [Graph] Die Vorschau für &quot;Eingabewert&quot; bleibt auf &quot;Falsch&quot; hängen, wenn der boolesche Standardwert angepasst wird (nur Apple Silicon)
-* [Diagramm] Punktknoten in der Nähe der Rahmenkante werden nicht vom Frame verschoben
+* [Graf] Die Vorschau für &quot;Eingabewert&quot; bleibt auf &quot;Falsch&quot; hängen, wenn der boolesche Standardwert angepasst wird (nur Apple Silicon)
+* [Graf] Punktknoten in der Nähe des Rahmens werden vom Rahmen nicht verschoben
 * [Interoperabilität] Symbol &quot;Erneut senden&quot; wird nach dem Senden an Substance 3D Stager nicht aktualisiert
-* [MDL] Die Raueit kann in Knoten, in denen dieser Parameter verfügbar ist, nicht geändert werden.
-* [MDL] Ungültige Verbindungen in der Vorlage &quot;AxF zu metallischer Raueit&quot;
+* [MDL] Die Rauheit kann in Knoten, in denen dieser Parameter verfügbar ist, nicht geändert werden.
+* [MDL] Ungültige Verbindungen in der Vorlage &quot;AxF zu Metallische Rauheit&quot;
 * [UI] Fenster &quot;Ausgaben exportieren&quot; kann minimiert werden (nur Windows)
 * [UI] Bilder werden im Bildschirm &quot;Info&quot; verpixelt angezeigt, wenn die Anzeigeskalierung verwendet wird
-* [UI] Knotenausrichtungswerkzeuge in der Diagrammsymbolleiste erstellen mehrere Rückgängig-Schritte
+* [UI] Knotenausrichtungswerkzeuge in der Graf-Symbolleiste erstellen mehrere Rückgängig-Schritte
 
 ### BEKANNTE FRAGEN
 
-* [AxF OpenGL Shader] Falscher Ward für anisotrope Verteilung
-* [AxF OpenGL Shader] Falsche Standardrauhigkeit
+* [AxF OpenGL Shader] Falsche Karte für anisotrope Verteilung
+* [AxF OpenGL Shader] Falsche Standard-Rauheit
 * [AxF OpenGL Shader] Falsche Schattierung-Basisrotation
-* [AxF OpenGL Shader] Falscher Strahl unter Halbkugelerkennung
-* [AxF OpenGL Shader] Erkennung falscher Beiträge
+* [AxF OpenGL-Shader] Falscher Strahl unterhalb der Hemisphärenerkennung
+* [AxF OpenGL Shader] Erkennung von falschen Beiträgen
 * [AxF] Die Zuordnungswerte für &quot;Specular-Farbe&quot; sind beim Export falsch
 * [AxF] Vorschau und Texturen werden im Dialogfeld &quot;AxF importieren&quot; nicht korrekt angezeigt
 * [AxF] Eigenschaft &quot;cc no refraktion&quot; wird in der AxF-Vorlage nicht korrekt in AxF injiziert

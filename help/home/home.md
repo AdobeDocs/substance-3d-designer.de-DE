@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/home.html"
 breadcrumb-title: ''
-description: Lerne, wie du mit Substance 3D Designer prozedurale Materialien, Texturen und 3D-Elemente mit knotenbasierten Workflows erstellen kannst.
+description: Erfahre, wie du mit Substance 3D Designer prozedurale Materialien, Texturen und 3D-Elemente mit knotenbasierten Workflows erstellen kannst.
 helpx_creative_field: ""
 helpx_description: Designer > User guide
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 3D Designer-Benutzerhandbuch
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 89%
@@ -20,7 +20,7 @@ ht-degree: 89%
 
 # Substance 3D Designer-Benutzerhandbuch
 
-![Substance 3D Designer-Hauptfenster](../assets/sdsummerinterface.jpg "Substance 3D Designer-Hauptfenster")
+![Substance 3D Designer-Hauptfenster](home.resources/sdsummerinterface.jpg "Substance 3D Designer-Hauptfenster")
 
 [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) ist eine Software zum Erstellen von Materialien für Grafikanwendungen. Sie können einen Node-Graf verwenden, um Texturen aus prozeduralen Mustern und Rauschen zu generieren und Bitmaps zu bearbeiten.
 
@@ -53,7 +53,7 @@ Solltest du Fragen haben, die in diesem Handbuch nicht beantwortet werden, kanns
 * [Explorer](../interface/the-explorer-window/the-explorer-window.md): Auf dieser Seite erfährst du alles über das Explorer-Bedienfeld in Adobe Substance 3D Designer. In diesem Bedienfeld kannst du Pakete und die zugehörigen Ressourcen verwalten.
 * [Graphansicht](../interface/the-graph-view/the-graph-view.md): Auf dieser Seite kannst du die Graphansicht in Substance 3D Designer näher kennenlernen.
 * [Bibliothek](../interface/the-library/the-library.md): Auf dieser Seite erfährst du mehr über das Bedienfeld „Bibliothek“ von Substance 3D Designer, inklusive über das Layout und die Tools zum Suchen und Filtern von Inhalten.
-* [Eigenschaften](../interface/properties/properties.md): Auf dieser Seite erfährst du mehr über das Bedienfeld „Eigenschaften“ von Substance 3D Designer, inklusive über das Layout und die Rollouts, Kategorien und Parameter, die du darin finden kannst. Hierbei geht es hauptsächlich um die Eigenschaften von Substance-Graphen. Substance-Funktionsgraphen und FX-Map-Graphen haben einfachere Layouts.
+* [Eigenschaften](../interface/properties/properties.md): Auf dieser Seite erfährst du mehr über das Bedienfeld „Eigenschaften“ von Substance 3D Designer, inklusive über das Layout und die Rollouts, Kategorien und Parameter, die du darin finden kannst. Hierbei geht es hauptsächlich um die Eigenschaften von Substance-Graphen. Substance-Grafen und FX-Map-Grafen haben einfachere Layouts.
 * [2D-Ansicht](../interface/2d-view/2d-view.md): Auf dieser Seite werden die Benutzeroberfläche und die Funktionen der 2D-Ansicht in Substance 3D Designer beschrieben.
 * [3D-Ansicht](../interface/3d-view/3d-view.md): In der 3D-Ansicht kannst du deine Materialien auf benutzerdefinierten Meshes mit vollständigem PBR-Rendering anzeigen lassen.
 * [Abhängigkeitsmanager](../interface/dependency-manager/dependency-manager.md)

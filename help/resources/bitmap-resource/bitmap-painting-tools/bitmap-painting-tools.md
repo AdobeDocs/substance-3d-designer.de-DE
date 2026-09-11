@@ -207,7 +207,7 @@ Die vom Pinsel angewendete Farbe wird durch die *ausgewählte Primärfarbe* defi
 
 <b>Sättigungsjitter</b>: lässt Sie *randomisieren* die Farbsättigung *offset* pro Stempel, ausgedrückt als *Prozentsatz* des gesamten Sättigungsbereichs
 
-<b>Helligkeitsjitter</b>: lässt Sie *randomisieren* die Farbhelligkeit *offset* pro Stempel, ausgedrückt als *Prozentsatz* der gesamten Helligkeitsspanne
+<b>Helligkeits-Jitter</b>: lässt Sie *randomisieren* die Farbhelligkeit *offset* pro Stempel, ausgedrückt als *Prozentsatz* der gesamten Helligkeitsspanne
 
 +++
 

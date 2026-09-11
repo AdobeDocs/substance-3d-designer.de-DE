@@ -110,19 +110,19 @@ Das [Knotenfinder](../../interface/the-graph-view/node-finder/node-finder.md)-To
 * [Inhalt] Spline-Werkzeuge: Neuer Spline-Knoten (quadratisch)
 * Triangle Grid [Inhalt]: Dreiecksänderungsverfahren und Verwendung von Schleifen
 * [Inhalt] Knoten &quot;Neue Streuung-Splines auf Splines&quot;
-* [Cooker] Stellen Sie den Basisparameter &quot;Pixelverhältnis&quot; als statische Variable &quot;$pixelratio&quot; bereit.
-* [CrashReport] Neues Absturzbericht-Fenster integrieren
-* [Engine] Fügen Sie die Vulkan/Metal-Version der Blend Engine hinzu.
-* [Diagramm] Materialmodus: Verbindung ohne Verwendung zulassen, wenn ein einzelner Link ausgewählt ist
-* [Diagramm] Materialverknüpfung: Standardverbindungen zulassen, wenn die Verbindung nicht mehrdeutig ist
-* [Graph] Knotenausrichtungswerkzeuge: horizontale/vertikale Verteilungen hinzufügen, linke/rechte/obere/untere Ausrichtung festlegen und gestapelte Knoten unterstützen
+* [Cooker] Leg des Basisparameters &quot;Pixelverhältnis&quot; als statische Variable &quot;$pixelratio&quot;
+* [CrashReport] Neues Berichtsfenster für Absturz integrieren
+* [Engine] Fügen Sie die Vulkan/Metal-Version des Blend-Engine hinzu.
+* [Graf] Materialmodi: Verbindung ohne Verwendung zulassen, wenn ein einzelner Link ausgewählt ist
+* [Graf] Material-Link: Standardverbindungen zulassen, wenn die Verbindung nicht mehrdeutig ist
+* [Graf] Knotenausrichtungswerkzeuge: horizontale/vertikale Verteilungen hinzufügen, linke/rechte/obere/untere Ausrichtung festlegen und gestapelte Knoten unterstützen
 * [Bibliothek] Textfarbe in Kontextmenüs korrigieren
 * [Parameter] Kopieren von Parametern von einem Knoten in einen anderen
 * [Eigenschaften] Alle zurücksetzen: Entfernen Sie das Bestätigungs-Popup-Fenster.
 * [Ressourcen] Legen Sie im Dialogfeld &quot;Bitmap verknüpfen&quot; das Format auf &quot;Alle Formate&quot; fest.
 * [Suche] Hinzufügen einer Möglichkeit zum Aktivieren/Deaktivieren eines rekursiven Modus
 * [Suche] Fügen Sie eine Möglichkeit hinzu, die Fuzzy-Suche zu aktivieren/deaktivieren
-* [Suche] Bei Aktivierung von Node Finder über den Tastaturbefehl immer den Fokus auf das Suchbegrifffeld anzeigen und festlegen
+* [Suche] Bei der Aktivierung von Node Finder über den Tastatur-Tastaturbefehl immer den Fokus auf das Suchbegrifffeld anzeigen und festlegen
 * [Suche] Filteroption erneut bearbeiten
 * [Tastaturbefehle] Zuweisung der Tasten &quot;V&quot;, &quot;H&quot; und &quot;S&quot; zulassen
 * [Drittanbieter] Upgrade auf Qt 6.5.7
@@ -140,13 +140,13 @@ Das [Knotenfinder](../../interface/the-graph-view/node-finder/node-finder.md)-To
 * [Inhalt] Spline Bridge-Liste: Falsches Ergebnis bei Verwendung von Start-/End-Versätzen
 * [Inhalt] Spline-Auswahl: Der Ausgangs-Spline-Betrag kann größer sein als der Eingangs-Spline-Betrag.
 * [Inhalt] Spline-Warp erzeugt ein schwarzes Ergebnis mit SSE-Engine
-* Triangle Grid [Inhalt]: Muster ist nicht richtig gekachelt
-* Triangle Grid [Inhalt]: Kachelung ist in einem bestimmten Fall fehlerhaft
-* [Daten] Absturz beim Ändern der Diagrammeingabe-ID in einem bestimmten Fall
-* [Funktionsdiagramm] Lange Werte werden überlappend auf &#39;Float&#39;-Knoten angezeigt
-* [Fx-Map] Absturz beim Anzeigen von Quadrant-Knoteneigenschaften
-* [Graph] [UDIM] Mit einer Bildlaufleiste in der UDIM-Liste werden 1.1 1.2 Einträge generiert.
-* [Graph]&#x200B;[Shortcuts] Knoten, der mit einem Shortcut erstellt wurde, wird nach dem Duplizieren des Knotens nicht auf dem vorhandenen Link platziert.
+* Triangle Grid [Inhalt]: Kachelung ist nicht korrekt
+* Triangle Grid [Inhalt]: Kachelung in einem bestimmten Fall unterbrochen
+* [Daten] Absturz beim Ändern der Identifizierung der Graf-Eingabe in einem bestimmten Fall
+* [Funktionsknoten] Lange Werte werden in Fließkommazahl-Graf überlappend angezeigt.
+* [Fx-Map] Absturz bei der Anzeige von Quadrant-Knoteneigenschaften
+* [Graf] [UDIM] Mit einer Bildlaufleiste in der UDIM-Liste werden 1.1 1.2 Einträge angezeigt.
+* [Graf]&#x200B;[Shortcuts] Der mit einem Tastaturbefehl erstellte Knoten wird nach der Knotenduplizierung nicht auf dem bestehenden Link platziert.
 * [Eigenschaften] Falsche Parameteranzeige, wenn der Wert ungültig ist
 * [Publish] Gegenseitige Abhängigkeiten führen beim Veröffentlichen eines Pakets zu einer Endlosschleife.
 * [Publish] Unbeaufsichtigter Fehler bei Verwendung der Aktion &quot;Publish&quot; für ein Paket mit entladener Abhängigkeit

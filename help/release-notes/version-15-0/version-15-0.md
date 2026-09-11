@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/version-15-0.html"
 breadcrumb-title: ''
-description: Lesen Sie die Versionshinweise für Substance 3D Designer 15.0, um mehr über den neuen 3D-Renderer und die native Unterstützung in USD zu erfahren.
+description: Lesen Sie die Versionshinweise für Substance 3D Designer 15.0, um mehr über den neuen 3D-Renderer und die Unterstützung für native USD zu erfahren.
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > Version 15.0
 helpx_experience_level: ""
@@ -30,47 +30,47 @@ Dieses Update enthält einen brandneuen 3D-Renderer mit Raster- und Pathtracer-M
 
 ### Neuer Raster- und Pathtracer
 
-Diese neue Version bietet Ihnen Zugriff auf einen erweiterten [3D-Renderer](../../interface/3d-view/3d-renderers/3d-renderers.md) mit einem Rastermodus (für eine Echtzeitvorschau während der Arbeit an Ihrem Material) und einem Pfadverfolgungsmodus (ein Raytracing-Modus, um ein perfektes und genaues Rendering zu erhalten). Dieser neue Renderer verbessert die Funktionalität mit Funktionen wie Schatten im Rastermodus, verbessert die Qualität und Leistung und wurde zur Unterstützung zukünftiger Technologien wie [MaterialX](https://materialx.org/) entwickelt. Es ergänzt die bestehenden OpenGL- und Iray-Renderer in Designer und stimmt mit den in Substance 3D Viewer und Substance 3D Sampler verfügbaren Renderern überein, um ein einheitliches Erlebnis im gesamten Ökosystem zu gewährleisten.
+Diese neue Version bietet Ihnen Zugriff auf einen erweiterten [3D-Renderer](../../interface/3d-view/3d-renderers/3d-renderers.md), der einen Rastermodus (für eine Echtzeitvorschau während der Arbeit an Ihrem Material) und einen Pfadverfolgungsmodus (einen Raytracing-Modus, um ein perfektes und präzises Rendering zu erhalten) aufweist. Dieser neue Renderer verbessert die Funktionalität mit Funktionen wie Schatten im Rastermodus, verbessert die Qualität und Leistung und wurde zur Unterstützung zukünftiger Technologien wie [MaterialX](https://materialx.org/) entwickelt. Es ergänzt die bestehenden OpenGL- und Iray-Renderer in Designer und stimmt mit den in Substance 3D Viewer und Substance 3D Sampler verfügbaren Renderern überein, um ein einheitliches Erlebnis im gesamten Ökosystem zu gewährleisten.
 
-![Schatten und Lichtdurchlässigkeit im Rastern](../../assets/feature_1b.png)
+![Schatten und translucency im Rasterprogramm](../../assets/feature_1b.png)
 
 Die [3d-Ansichtssymbolleiste](../../interface/3d-view/3d-view.md) wurde aktualisiert, um einen schnellen Zugriff auf einige der neuen Funktionen zu ermöglichen, die in diesem Renderer verfügbar sind:
 
-* <b>Auswahlwerkzeug:</b>, um ein Teilnetz in der Szene auszuwählen. Sobald ein Teilgitter ausgewählt ist, können Sie sich darauf konzentrieren (F) oder auf seine Materialeigenschaften zugreifen (Rechtsklick).
+* <b>Auswahlwerkzeug:</b> zum Auswählen eines Teilnetzes in der Szene. Sobald ein Teilgitter ausgewählt ist, können Sie sich darauf konzentrieren (F) oder auf seine Material-Eigenschaften zugreifen (Rechtsklick).
 * <b>Aktivieren Sie den Pathtracer:</b>, um schnell zwischen dem Pathtracer- und dem Rastermodus zu wechseln.
-* <b>Aktivieren Sie Schatten:</b>, um Schatten in der Szene zu aktivieren. Dies ist hilfreich, um zu sehen, wie sich Ihre Materialien gemäß dem Licht verhalten.
-* <b>Aktivieren Sie die Grundebene:</b>, um die Grundebene in der Szene zu aktivieren oder nicht.
+* <b>Aktivieren Sie Shadows:</b>, um Shadows in der Szene zu aktivieren. Dies ist hilfreich, um zu sehen, wie sich Ihre Materialien entsprechend der Lichtverhältnisse verhalten.
+* <b>Aktivieren Sie die Boden-Ebene:</b>, um die Boden-Ebene in der Szene zu aktivieren oder nicht.
 
-Darüber hinaus wurde der Hotkey zum Drehen der Umgebungsbeleuchtung entsprechend den anderen Substance-Apps geändert, sodass jetzt *<b>Rechtsklick bei gedrückter Umschalttaste</b>* statt *<b>Rechtsklick bei gedrückter Strg-Umschalttaste</b>* verwendet wird.
+Darüber hinaus wurde der Hotkey zum Drehen des Umgebungslichts entsprechend den anderen Substance-Apps geändert. Daher lautet er jetzt *<b>Umschalt+Rechtsklick</b>* anstelle von *<b>Strg-Umschalt+Rechtsklick</b>*.
 
 ### Post-Effekte
 
 [Post-Effekte sind zurück](../../interface/3d-view/camera/post-effects/post-effects.md)! Sie sind jetzt über das Menü &quot;Kamera&quot; verfügbar und werden jetzt intern entwickelt.
 
-* <b>Blüte:</b> simulieren Blendeffekte um helle Flecken wie Lichter und Reflexionen, sodass emittierende Oberflächen besser sichtbar sind.
-* <b>Farbtonzuordnung: </b>den Farbbereich mit Profilen, um einen HDR-Effekt (High Dynamic Range) zu erhalten.
-* <b>Die Tiefe des Halbbildes:</b> simuliert die Fokuseigenschaften eines Kameraobjektivs (nur Rasterobjektiv).
+* <b>Blüte:</b> simulieren Blendeffekt um helle Flecken wie Lichter und Reflexionen, sodass emissive-Oberflächen besser sichtbar sind.
+* <b>Farbtonzuordnung: </b>den Farbbereich mit Profilen, um einen Effekt mit hohem Dynamikbereich (HDR.) zu erhalten.
+* <b>Die Tiefe des Halbbildes:</b> simuliert die Fokuseigenschaften einer Kamera-Linse (nur Rastereffekt).
 
 ![Post FX in Designer 15.0](../../assets/postfx.gif)
 
 ## Asset-Edition im Kontext.
 
-Wenn Sie an Ihren Materialien arbeiten, können Sie eine [Vorschau im Kontext einer bestimmten 3D-Szene anzeigen](../../working-with-3d-scenes/working-with-3d-scenes.md). Aus diesem Grund haben wir die Möglichkeit hinzugefügt, eine vollständige Szene mit all ihren Texturen, Kameras und Lichtern zu importieren und zu rendern. Und Kirsche oben, wenn diese Szene MaterialX-Shader referenziert, werden sie korrekt mit dem Rasterprogramm gerendert!
+Wenn Sie an Ihren Materialien arbeiten, möchten Sie möglicherweise eine [Vorschau im Kontext einer bestimmten 3D-Szene anzeigen](../../working-with-3d-scenes/working-with-3d-scenes.md). Deshalb haben wir die Möglichkeit hinzugefügt, eine vollständige Szene mit all ihren Texturen, Kameras und Lichtern zu importieren und zu rendern. Und Kirsche oben, wenn diese Szene MaterialX-Shader referenziert, werden sie korrekt mit dem Rasterprogramm gerendert!
 
-![USD-Szene geladen und in Designer gerendert](../../assets/feature_2.png)
+![USD Szene geladen und in Designer gerendert](../../assets/feature_2.png)
 
-Nach dem Import können Sie an Ihrer Szene arbeiten, indem Sie ein Gitter auswählen (mit einem Klick bei gedrückter UMSCHALTTASTE oder dank des Szenenbrowsers) und [alle Materialien überschreiben](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md). Sie können dann:
+Nach dem Import können Sie an Ihrer Szene arbeiten, indem Sie einen Mesh auswählen (mit einem Klick bei gedrückter UMSCHALTTASTE oder dank des Szene-Browsers) und [alle Material überschreiben](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md). Sie können dann:
 
-* Erstelle oder lade ein Diagramm, und wende es auf ein Szenenmaterial an.
-* Nehmen Sie Anpassungen an einem vorhandenen Material vor, indem Sie [seine Texturen &#x200B;](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md) in ein neues Diagramm extrahieren.
+* Erstellen oder laden Sie einen Graf und wenden Sie ihn auf ein Szene-Material an.
+* Nehmen Sie Anpassungen an einem bestehenden Material vor, indem [die Texturen &#x200B;](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md) in einen neuen Graf extrahiert werden.
 
-Nachdem Sie Ihre 3D-Szene bearbeitet haben, können Sie [die Szene &#x200B;](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) als neue Datei oder als neue Ebene der Originaldatei exportieren, um Datenverluste zu vermeiden (nur bei USD-Format).
+Nachdem Sie Ihre 3D-Szene bearbeitet haben, können Sie [die Datei &#x200B;](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) als neue Datei oder als neue Ebene der Originaldatei exportieren, um Datenverluste (nur bei USD) zu vermeiden.
 
 Nicht zuletzt werden jetzt weitere 3D-Formate sowohl für den Import als auch den Export unterstützt: USD (+ usda, usdc, usdz), STL, PLY und GLTF, zusätzlich zu den bereits verfügbaren Formaten FBX und OBJ.
 
 ## Formatierte QuickInfos
 
-Es wurden umfangreiche QuickInfos eingeführt, um den Zweck jedes Knotens besser zu demonstrieren. Diese QuickInfos, die derzeit nur für [atomare Knoten](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) verfügbar sind, enthalten Visuals, um die Wirkung des Knotens zu demonstrieren und einen direkten Link zur Dokumentation mit detaillierten Informationen bereitzustellen, einschließlich der Liste der Parameter, Tipps und Tricks.
+Es wurden umfangreiche QuickInfos eingeführt, um den Zweck jedes Knotens besser zu demonstrieren. Diese QuickInfos, die derzeit nur für [elementare Knoten](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) verfügbar sind, enthalten Visuals, um die Wirkung des Knotens zu veranschaulichen, und stellen einen Direktlink zur Dokumentation bereit, in der detaillierte Informationen, einschließlich der Liste der Parameter, Tipps und Tricks, enthalten sind.
 
 <table>
 <tr style="border: 0;">
@@ -94,15 +94,15 @@ Es wurden umfangreiche QuickInfos eingeführt, um den Zweck jedes Knotens besser
 
 ## Verbessern der nicht quadratischen Unterstützung
 
-Wenn du mit nicht quadratischen Texturen arbeiten musst, ist diese neue Option ideal für dich. In den [Materialeigenschaften](../../interface/3d-view/material-properties/material-properties.md) in der 3D-Ansicht können Sie in den UVs-Optionen zum Steuern der Kachelung jetzt einen anderen Wert für beide Achsen festlegen.
+Wenn Sie mit nicht quadratischen Texturen arbeiten müssen, ist diese neue Option ideal für Sie. In den [Material-Eigenschaften](../../interface/3d-view/material-properties/material-properties.md) in der 3D-Ansicht können Sie in den UVs-Optionen zum Steuern der Kachelung jetzt einen anderen Wert für beide Achsen festlegen.
 
 ![unterschiedliche U V-Skalierung](../../assets/nonsquare.png){zoomable="yes"}
 
 ## Baker
 
-Während die Backing-Oberfläche nur geringfügige Aktualisierungen erlebt hat (weitere Informationen finden Sie in der detaillierten Liste unten), wurde die Baker-Bibliothek vollständig neu erstellt, um GPU-basierte Backups zu verwenden, was zu einer viel besseren Leistung führte. Zusammen mit den oben genannten neuen unterstützten Dateiformaten stellt dieses Update eine wesentliche Verbesserung für Benutzer dar, die Backing-Workflows verwenden.
+Während für die Benutzeroberfläche des Bakings nur geringfügige Aktualisierungen vorgenommen wurden (weitere Informationen finden Sie in der detaillierten Liste unten), wurde die Leistungsbibliothek für die Verwendung von GPU-basierten Bakern vollständig neu erstellt, was zu einer deutlich besseren Baker-Leistung führte. Zusammen mit den oben genannten neuen unterstützten Dateiformaten stellt dieses Update eine wesentliche Verbesserung für Benutzer dar, die sich mit dem Baking von Arbeitsabläufen beschäftigen.
 
-Hinweis: Wenn Sie sbsbaker.exe zur Automatisierung Ihres Prozesses verwendet haben, wurde das Tool in substance3d\_baker.exe umbenannt (verwenden Sie substance3d-baker —help, um weitere Informationen zu erhalten).
+Hinweis: Wenn Sie sbsbaker.exe zur Automatisierung Ihres Prozesses verwendet haben, wurde das Tool in substance3d\_Baker.exe umbenannt (verwenden Sie substance3d-Baker —help, um weitere Informationen zu erhalten).
 
 ## Aktualisierungen der VFX-Plattformanforderungen
 
@@ -161,74 +161,74 @@ Die [VFX Reference Platform](https://vfxplatform.com/) veröffentlicht jedes Jah
 * [Bäcker] Ermöglicht die Umbenennung eines Bäckers, ohne die Verknüpfungen zu trennen
 * [Bäcker] Ändern der Standardgröße des mittleren Bereichs
 * [Bäcker] Eingabetextur für UDIM-Workflow
-* [Bäcker] 2D-Ansichtszuordnungen in der Reihenfolge der Baker-Renderlisten anpassen
-* [Bäcker] Das Backfenster modal gestalten
-* [Bäcker] Verwalten von Tonzuordnungsparametern
-* [Bäcker] Auswahl des Tangentenraum-Zusatzmoduls entfernen
-* [Bäcker] Speicherstatus &quot;aktiviert&quot; oder &quot;deaktiviert&quot; für Bäcker beim Speichern einer Vorgabe
-* [Bäcker] Material standardmäßig im Widget &quot;Auswählen&quot; auswählen
-* [Bäcker] Legen Sie die Standardausrichtung der Textur &quot;Normale Ausgabe&quot; relativ zu den Voreinstellungen fest
-* [Bäcker] Legen Sie UV-Kacheln standardmäßig auf Alle fest
-* [Bäcker] WordSpaceDirection add option FromTexture/FromValue
-* [Bäcker] Welt zu Tangente: Standardeingabe auf &quot;Von Textur&quot; setzen
+* [Baker] 2D-Ansichten-Maps-Listenreihenfolge mit Bakern-Renderlistenreihenfolge abgleichen
+* [Baker] Das Baking führend Fenster modal gestalten
+* [Baker] Verwalten von Tonzuordnungsparametern
+* [Baker] Tangentialraum-Plug-in-Auswahl entfernen
+* [Baker] Speicherstatus &quot;aktiviert&quot; oder &quot;deaktiviert&quot; für Baker beim Speichern einer Vorgabe
+* [Baker] Material standardmäßig im Widget &quot;Auswählen&quot; auswählen
+* [Baker] Legen Sie die Standardausrichtung der Textur &quot;Normale Ausgabe&quot; relativ zur Voreinstellung fest.
+* [Baker] Stellen Sie die UV-Kacheln standardmäßig auf Alle ein.
+* [Baker] WordSpaceDirection add option FromTexture/FromValue
+* [Baker] Welt in Tangente: die Standardeingabe auf &quot;von Textur&quot; setzen
 * [SBSBaker] Erstellen einer Option zur Steuerung der Backend-Reihenfolge
 * [SBSBaker] Verbessern der Verwendung des StringList-Arguments
-* [SBSBaker] Umbenennen von &quot;match\_source\_instance&quot; in &quot;match\_mesh\_name&quot;
+* [SBSBaker] Umbenennen von &quot;match\_source\_instance&quot; in &quot;match\_Mesh\_name&quot;
 * [SBSBaker] Umbenennen von &quot;Submesh&quot; in &quot;GeomSubset&quot;
-* [SBSBaker] Umbenennen in substance3d\_baker
-* [Inhalt] Hinzufügen der Form &quot;Hemisphere&quot; zu Generatorknoten, die Quadrantenformen freigeben
+* [SBSBaker] Umbenennen in substance3d\_Baker
+* [Inhalt] Hinzufügen der Form &quot;Hemisphere&quot; zu Generatorknoten, die Quadrantenformen legt
 * [Interop] Unterstützung des GLTF-Dateiformats
 * [Interop] Unterstützung des PLY-Dateiformats
 * [Interop] Unterstützung des STL-Dateiformats
-* [Library] Vereinheitlichte QuickInfos für atomare Knoten
+* [Library] Vereinheitlichte QuickInfos für elementare Knoten
 * [Mac] Unterstützung für MacIntel-Plattform beenden
-* [Knoten] Richtungstipps für atomare Knoten hinzufügen
+* [Nodes] Hinzufügen von Richtungs-Tooltips für elementare Knoten
 * [Parameter] Schließen Sie den Abschnitt &quot;Attribute&quot; standardmäßig.
 * [Parameter] Der Benutzer kann Standardwerte für Basisparameter für neue Instanzen angeben.
-* [Voreinstellungen] Bäcker: Fügen Sie eine boolesche Option hinzu, um den Tangentenraum pro Fragment zu berechnen.
-* [Voreinstellungen] Entfernen Sie die Tangentenraum-Plugins
+* [Voreinstellungen] Baker: Fügen Sie eine boolesche Option hinzu, um den Tangente-Speicherplatz pro Fragment zu berechnen.
+* [Voreinstellungen] Entfernen Sie die Plug-ins für den Tangente-Speicherplatz
 * [Voreinstellungen] Speichern Sie die Voreinstellungen pro Nebenversion von SD (XX.X).
 * [VFX] Update Boost auf 1.85.0
 * [VFX] Aktualisieren der MacOS-Mindestversion auf 12.0
-* [VFX] OpenColorIO auf 2.4.2 aktualisieren
-* [VFX] OpenColorIO auf 2.4.x aktualisieren
+* [VFX] Update OpenColorIO auf 2.4.2
+* [VFX] Update OpenColorIO auf 2.4.x
 * [VFX] Update OpenExr auf 3.3.x
 * [VFX] Update Qt auf 6.5.8
 
 ### Fehlerbehebungen
 
-* [3D-Ansicht] Texturen in exportierter USD-Szene werden nicht korrekt angewendet
-* [3D-Ansicht] [UDIM] UDIM-Diagrammausgaben können in der 3D-Ansicht nicht angezeigt werden, wenn die automatische Anzeige beim Öffnen des Diagramms in den Diagrammvoreinstellungen deaktiviert ist
-* [Bäcker] &#39;Glätten.&#39; und &quot;Durchschn. Zellen von Normalen für nicht anwendbare Bäcker sind leer und bearbeitbar
-* [Bakers] Die Aktion &quot;Aktualisieren&quot; verwendet Raytracing-Backend, wenn sie in den Einstellungen deaktiviert ist
-* [Bäcker] Bäcker wurden nach einem Fehler während des Prozesses &quot;Alle durch Baking erzeugte Map aktualisieren&quot; als ausgelastet gesperrt.
-* [Bäcker] Absturz bei mehr als 180 UDIMs beim Backen der OpenGL-Positions-Map auf einem bestimmten Gitter
-* [Baker] Absturz beim mehrmaligen Öffnen des Dialogfelds &quot;Modellinformationen backen&quot; in einer Zeile (nur macOS)
-* [Bäcker] Beim Export von JSON-Vorgaben wird der Wert &quot;udim&quot; durch &quot;1001&quot; ersetzt, wenn er auf &quot;Alle&quot; festgelegt wurde
-* [Bäcker] Speicher wird unter Linux nicht korrekt erkannt
-* [Bäcker] Fehlende Map-Eingabeabhängigkeit löst keine Warnung und/oder Blockrendering aus
-* [Bäcker] Keine Fehlerbezeichnung, wenn der Ausgabename leer ist
-* [Bäcker] Das Umschalten von High-Poly-Mesh aus einer Datei hat keine Auswirkungen
-* [Bäcker] Zielbaker ist standardmäßig nicht ausgewählt, wenn die Aktion &quot;Erneut erstellen&quot; verwendet wird
-* [Motor] Abstand: sichtbarer &quot;Schnitt&quot; in einigen Situationen
-* [Engine] FX-Map: Negative Farben werden nicht unterstützt, wenn die Bittiefe 8 Bit beträgt (nur GPU-Engines)
+* [3D-Ansicht] Texturen in exportierten USD Szenen werden nicht korrekt angewendet
+* [3D-Ansicht] [UDIM] UDIM-Graphausgaben können nicht in 3D-Ansicht angezeigt werden, wenn die automatische Anzeige beim Öffnen des Grafen in den Graf-Einstellungen deaktiviert ist
+* [Baker] &#39;Glätten.&#39; und &quot;Durchschn. Die Zellen von Normalen für nicht zutreffende Baker sind leer und bearbeitbar.
+* [Baker] Die Aktion &quot;Aktualisieren&quot; verwendet ein Raytracing-Backend, wenn sie in den Einstellungen deaktiviert ist
+* [Baker] Baker wurden nach einem Fehler während des Vorgangs &quot;Alle durch Baking erzeugte Map aktualisieren&quot; als ausgelastet blockiert.
+* [Baker] Absturz bei mehr als 180 UDIM beim Baking der OpenGL-Positionszuordnung auf einem bestimmten Mesh
+* [Baker] Absturz beim mehrmaligen Öffnen des Dialogfelds &quot;Baking-Modellinformationen&quot; in einer Zeile (nur macOS)
+* [Baker] Beim Export von JSON-Vorgaben wird der Wert &quot;udim&quot; durch &quot;1001&quot; ersetzt, wenn er auf &quot;Alle&quot; festgelegt wurde
+* [Baker] Speicher wird unter Linux nicht korrekt erkannt
+* [Baker] Fehlende Zuordnungseingabeabhängigkeit löst keine Warnung und/oder Blockrendering aus
+* [Baker] Keine Fehlerbezeichnung, wenn der Ausgabename leer ist
+* [Baker] Der Wechsel von der High-Poly-Mesh-Datei hat keine Auswirkungen
+* [Baker] Ziel-Baker ist standardmäßig nicht ausgewählt, wenn die Aktion &quot;Rebake&quot; verwendet wird
+* [Engine] Entfernung: sichtbarer &quot;Schnitt&quot; in einigen Situationen
+* [Engine] Fx-Map: Negative Farben werden nicht unterstützt, wenn die Bittiefe 8 Bit beträgt (nur GPU-Engine)
 * [Lokalisierung] Die Zeicheneingabe wechselt im Knotenmenü von Japanisch zu Lateinisch zurück
 * [Sicherheit] Sicherheitslücke, die beim Analysieren von USDC-Dateien außerhalb des gültigen Bereichs auftritt
 * [Sicherheit] Out-of-Bound WRITE Vulnerability II, beim Analysieren von NEF-Dateien
 * [Sicherheit] Sicherheitslücke beim Lesen außerhalb des gültigen Bereichs III beim Analysieren von DNG-Dateien
 * [Voreinstellungen] UX-Probleme in den Projekteinstellungen für schreibgeschützte Projekte
-* [Ressourcen] Mehrere UV-Sets werden beim Öffnen von FBX-Dateien nicht angezeigt
+* [Ressourcen] Beim Öffnen von FBX werden nicht mehrere UV-Satz angezeigt
 * [UI] Überlappende Beschriftungen in der Statuszeile
 * [UI] QuickInfos zum Dropdown-Menü &quot;Link-Erstellungsmodus&quot; werden nicht angezeigt.
 
 ### BEKANNTE FRAGEN
 
-* [Baker] Abstürze beim Backen mit einigen bestimmten NVidia-Treibern
+* [Baker] Absturz beim Baking mit bestimmten NVidia-Treibern
 * [3D-Ansicht] OpenGL: Einige importierte Szenen werden möglicherweise nicht gerendert.
-* [3D-Ansicht] Rastereffekt: Schattenartefakte bei Verwendung von Versatz in einer flachen Szene
-* [3D-Ansicht] Pathtracer: langsame Bewegungen beim Aktualisieren von Texturen mit aktivierter Tesselierung/Versatz
-* [3D-Ansicht] Einige Farbmaterialeigenschaften werden beim Überschreiben nicht korrekt farbverwaltet
-* [3D-Ansicht] Szenen mit animierten Grundelementen werden nicht ordnungsgemäß unterstützt.
-* [3D-Ansicht] Gitter mit mehreren UDims werden noch nicht unterstützt.
-* [3D-Ansicht] Gitter mit mehreren UVs werden nicht ja unterstützt und können zu ungültiger Materialdarstellung führen
+* [3D-Ansicht] Rasterizer: Schattenartefakte bei Verwendung von Versatz auf einer flachen Szene
+* [3D-Ansicht] Pathtracer: langsame Leistung beim Aktualisieren von Texturen mit aktivierter Tesselierung/aktiviertem Versatz
+* [3D-Ansicht] Einige Color-Material-Eigenschaften werden beim Überschreiben nicht ordnungsgemäß farbverwaltet.
+* [3D-Ansicht] Szenen mit animierten Grundformen werden nicht ordnungsgemäß unterstützt.
+* [3D-Ansicht] Mesh mit mehreren UDims werden noch nicht unterstützt.
+* [3D-Ansicht] Mesh mit mehreren UVs wird nicht ja unterstützt und kann zu ungültigem Material-Rendering führen
 * [3D-Ansicht] Pathtracer wird auf AMD-Grafikkarten nicht unterstützt

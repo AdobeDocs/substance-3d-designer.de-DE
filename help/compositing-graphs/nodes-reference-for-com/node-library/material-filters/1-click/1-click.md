@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click.html"
 breadcrumb-title: ''
-description: Bietet in Substance 3D Designer mit nur einem Klick Zugriff auf Materialkonvertierungsknoten, über die Bitmaps schnell in Materialien umgewandelt werden.
+description: Greifen Sie in Substance 3D Designer auf Konvertierungsknoten für Materialien mit einem Klick zu, um Bitmaps schnell in Materialien transformieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > 1-Click
 helpx_experience_level: ""
@@ -20,4 +20,4 @@ ht-degree: 10%
 
 # 1-Click
 
-Diese Kategorie enthält nur [Bitmap zu Materiallicht](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/1-click/bitmap-to-material-light/bitmap-to-material-light.md). Es ist für die einfache Materialerstellung mit einem Klick vorgesehen.
+Diese Kategorie enthält nur [Bitmap zu Material Light](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/1-click/bitmap-to-material-light/bitmap-to-material-light.md). Es ist für die Erstellung von Materialien mit nur einem Klick und sehr einfach vorgesehen.

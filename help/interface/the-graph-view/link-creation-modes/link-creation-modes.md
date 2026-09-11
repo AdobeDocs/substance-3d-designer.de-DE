@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Verknüpfungserstellungsmodi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 01adf91721f742481a84e22a1fa0c22e5e0de887
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -26,22 +26,22 @@ In [Substance-Grafen](../../../compositing-graphs/substance-compositing-graphs.m
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Link-Erstellungsmodus: Standard](../../../assets/link-creation-mode-standard.gif "Link-Erstellungsmodus: standard"){zoomable="yes"}
+![Link-Erstellungsmodus: Standard](link-creation-modes.resources/link-creation-mode-standard.gif "Link-Erstellungsmodus: standard"){zoomable="yes"}
 
 *Zum Vergrößern klicken*
 
-<b>![](../../../assets/image2020-10-6-19-40-25.png) Standard</b> (1)
+<b>![](link-creation-modes.resources/image2020-10-6-19-40-25.png) Standard</b> (1)
 
 Es werden keine Bedingungen erzwungen.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Link-Erstellungsmodus: Material](../../../assets/link-creation-mode-material.gif "Link-Erstellungsmodus: Material"){zoomable="yes"}
+![Link-Erstellungsmodus: Material](link-creation-modes.resources/link-creation-mode-material.gif "Link-Erstellungsmodus: Material"){zoomable="yes"}
 
 *Zum Vergrößern klicken*
 
-![](../../../assets/image2020-10-6-17-11-20.png) <b>Material</b> (2)
+![](link-creation-modes.resources/image2020-10-6-17-11-20.png) <b>Material</b> (2)
 
 Ein- und Ausgänge werden je nach Nutzung abgeglichen.
 
@@ -50,11 +50,11 @@ Wenn nur eine der beiden eine Verwendung hat, wird die Verbindung wie im Standar
 </td>
 <td style="border: 0;" valign="top">
 
-![Link-Erstellungsmodus: Kompaktes Material](../../../assets/link-creation-mode-compact-material.gif "Link-Erstellungsmodus: Kompaktes Material"){zoomable="yes"}
+![Link-Erstellungsmodus: Kompaktes Material](link-creation-modes.resources/link-creation-mode-compact-material.gif "Link-Erstellungsmodus: Kompaktes Material"){zoomable="yes"}
 
 *Zum Vergrößern klicken*
 
-![](../../../assets/image2020-10-6-19-40-46.png) <b>Kompaktes Material</b> (3)
+![](link-creation-modes.resources/image2020-10-6-19-40-46.png) <b>Kompaktes Material</b> (3)
 
 Wie Material.
 
@@ -64,13 +64,13 @@ Eingänge und Ausgänge, die zu derselben *Gruppe* gehören, werden ausgeblendet
 </tr>
 </table>
 
-Sie können jederzeit in der Symbolleiste des Grafen zwischen den Modi wechseln, indem Sie auf die Schaltfläche ![](../../../assets/link-creation-mode.png) <b>Link-Erstellungsmodus</b> oder mit den oben aufgeführten Tastaturbefehlen klicken.
+Sie können jederzeit in der Symbolleiste des Grafen zwischen den Modi wechseln, indem Sie auf die Schaltfläche ![](link-creation-modes.resources/link-creation-mode.png) <b>Link-Erstellungsmodus</b> oder mit den oben aufgeführten Tastaturbefehlen klicken.
 
 In den Modi <b>Material</b> und <b>Kompaktes Material</b> sind Verbindungen zwischen Eingängen und Ausgängen mit *nicht übereinstimmenden Verwendungen* nicht zulässig.
 
 ## Die Modi
 
-|  | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-25.png"/></div> Standard | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-17-11-20.png"/></div> Kompakt | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-46.png"/></div> Kompaktes Material |
+|  | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/image2020-10-6-19-40-25.png"/></div> Standard | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/image2020-10-6-17-11-20.png"/></div> Kompakt | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/image2020-10-6-19-40-46.png"/></div> Kompaktes Material |
 | --- | --- | --- | --- |
 | <b>Eingaben</b> | Alle Eingaben sind sichtbar | Alle Eingaben sind sichtbar | Nur 1 Eingabe pro Gruppe |
 | <b>Ausgaben</b> | Alle Ausgaben sind sichtbar | Alle Ausgaben sind sichtbar | Nur 1 Ausgabe pro Gruppe |
@@ -92,7 +92,7 @@ Gruppierte Ein- und Ausgänge eines Grafen werden visuell als *gekennzeichnet, d
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Kapsel der Gruppe auf Knoten &#x200B;](../../../assets/link-creation-mode-group-node.png "Kapsel der Gruppe auf Knoten "){zoomable="yes"}
+![Kapsel der Gruppe auf Knoten &#x200B;](link-creation-modes.resources/link-creation-mode-group-node.png "Kapsel der Gruppe auf Knoten "){zoomable="yes"}
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ Gruppierte Ein- und Ausgänge eines Grafen werden visuell als *gekennzeichnet, d
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![Gruppenattribut](../../../assets/link-creation-mode-group.png "Gruppenattribut"){zoomable="yes"}
+![Gruppenattribut](link-creation-modes.resources/link-creation-mode-group.png "Gruppenattribut"){zoomable="yes"}
 
 *Zum Vergrößern klicken*
 
@@ -133,7 +133,7 @@ Sobald die Links gruppiert sind, müssen die einzelnen Eingaben mit den Ausgaben
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![Verwendungsattribut](../../../assets/link-creation-mode-usage.png "Verwendungsattribut"){zoomable="yes"}
+![Verwendungsattribut](link-creation-modes.resources/link-creation-mode-usage.png "Verwendungsattribut"){zoomable="yes"}
 
 *Zum Vergrößern klicken*
 

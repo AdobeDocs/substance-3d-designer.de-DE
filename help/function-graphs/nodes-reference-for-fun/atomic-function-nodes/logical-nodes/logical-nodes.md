@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Logisch
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f28a2ba2531cfc4456744ff151432ed8308275ec
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 Logische Knoten werden verwendet, um dem Graf mehrere Bedingungen hinzuzufügen:
 
-![](../../../../assets/image2015-12-23-11-23-21.png)
+![](logical-nodes.resources/image2015-12-23-11-23-21.png)
 
 ## Der Knoten &quot;*and*&quot;
 
-![](../../../../assets/image2015-12-23-11-30-9.png)
+![](logical-nodes.resources/image2015-12-23-11-30-9.png)
 
 Der Und-Knoten nimmt zwei Boolesche Wert-Knoten als Eingabe an:
 
@@ -35,7 +35,7 @@ Der Und-Knoten nimmt zwei Boolesche Wert-Knoten als Eingabe an:
 
 ## Der Knoten *Or*
 
-![](../../../../assets/image2015-12-23-11-30-44.png)
+![](logical-nodes.resources/image2015-12-23-11-30-44.png)
 
 Der Knoten Or nimmt zwei Boolesche Wert-Knoten als Eingabe an:
 
@@ -44,7 +44,7 @@ Der Knoten Or nimmt zwei Boolesche Wert-Knoten als Eingabe an:
 
 ## Der Knoten *Not*
 
-![](../../../../assets/image2015-12-23-11-31-46.png)
+![](logical-nodes.resources/image2015-12-23-11-31-46.png)
 
 Der Node Not nimmt einen Boolesche Wert als Eingabe an: wird der Eingabewert überprüft und das Gegenteil zurückgegeben:
 

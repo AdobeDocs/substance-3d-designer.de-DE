@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
 breadcrumb-title: ''
-description: Verwenden Sie den PBR-Rendering-Knoten, um physikalisch basierte Materialien mit realistischer Beleuchtung für die Vorschau des Materialaussehens zu rendern.
+description: Verwenden Sie den PBR-Rendering-Knoten, um physikalisch basierte Materialien mit realistischer Beleuchtung für die Vorschau des Erscheinungsbilds des Materials zu rendern.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR Render
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 6%
 
 ## Beschreibung
 
-Rendert ein PBR-Material auf eine Kugel, eine Ebene oder einen Zylinder mithilfe von Image Based Lighting (IBL). Dies ist eine Render-Engine innerhalb eines Knotens, die sehr nützlich sein kann, um Miniaturen, Vorschauen oder 2D-Assets zu generieren. Es handelt sich nicht um ein Rendering wie die 3D-Ansicht, sondern um eine tatsächliche Textur, die in Ihrem Diagramm generiert wird.
+Rendert ein PBR-Material auf eine Kugel, eine Ebene oder einen Zylinder mithilfe von Image Based Lighting (IBL). Dies ist ein Render-Engine innerhalb eines Knotens, das sehr nützlich sein kann, um Miniaturen, Vorschauen oder 2D-Assets zu generieren. Es handelt sich nicht um ein Rendering wie die 3D-Ansicht, sondern um eine eigentliche Textur, die in Ihrem Graf generiert wird.
 
-Dieser Knoten erfordert, dass mindestens ein vollständiges PBR-Material angeschlossen wird. Idealerweise verwenden Sie die Link Creation Modes, um das Material mit dem PBR-Rendering zu verbinden. Darüber hinaus benötigen Sie eine kugelförmig ausgewickelte HDRI-Umgebung für den Render, aus dem die Beleuchtung berechnet werden soll. Testmaterialien finden Sie unter PBR-Materialien. Umgebungszuordnungen finden Sie unter [3D-Ansicht in der Bibliothek.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/3d-view-library.md)
+Für diesen Knoten muss mindestens ein vollständiges PBR-Material angeschlossen sein. Idealerweise nutzen Sie Link Creation Modes, um das Material mit dem PBR-Rendering zu verbinden. Darüber hinaus benötigen Sie eine kugelförmig entpackt HDRI-Umgebung für den Render, aus dem die Beleuchtung berechnet werden soll. Material zum Testen finden Sie unter PBR-Material, Umgebungs-Map unter [3D-Ansichten in der Bibliothek.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/3d-view-library.md)
 
 </td>
 </tr>
@@ -43,9 +43,9 @@ Dieser Knoten erfordert, dass mindestens ein vollständiges PBR-Material angesch
 
 >[!WARNING]
 >
-> **CPU-Modul (SSE2)**
+> **CPU (SSE2)-Engine**
 > 
-> Der PBR-Rendering Node ist sehr schwer und funktioniert nicht gut mit der SSE2 CPU Engine. Wechseln Sie durch Drücken von F9 zu einer anderen Engine, wenn der Knoten extrem schlecht funktioniert.
+> Der PBR-Rendering Node ist sehr schwer und funktioniert nicht gut mit dem SSE2 CPU Engine. Wechseln Sie durch Drücken von F9 zu einem anderen Engine, wenn der Knoten eine extrem schlechte Leistung aufweist.
 
 <a name="inputs"></a>
 
@@ -55,9 +55,9 @@ Dieser Knoten erfordert, dass mindestens ein vollständiges PBR-Material angesch
 |:---|:---|
 | <b>Material-Kanaleingänge</b> | Mehrere Material-Eingaben werden zum Rendern des Materials in der Geometrie verwendet: <br><br>- Grundfarbe<br>- Normal<br>- Emissive<br>- Rauheit<br>- Metallic<br>- Specular level<br>- Height<br>- Ambient occlusion<br>- Deckkraftmaske<br>- Anisotropy level<br>- Anisotropy angle<br>- Translucency<br>- Streuungsentfernungsskala |
 | <b>Linsen-Dirt-Map</b> <i>Graustufen-Eingabe</i> | Benutzerdefinierte Karte für Dirt auf dem Objektiv, die angezeigt wird, wenn Blendenflecke sichtbar sind. |
-| <b>Linsen-Blende-Map</b> <i>Graustufen-Eingabe</i> | Kann verwendet werden, um Bokeh zu überschreiben, eine unscharfe Form. Je kontrastreicher, desto sichtbarer. Denke daran, dass nur ein Kreis innerhalb der Textur aufgenommen wird, sodass jede Form in einen Kreis passen muss. |
+| <b>Linsen-Blende-Map</b> <i>Graustufen-Eingabe</i> | Kann verwendet werden, um Bokeh zu überschreiben, eine unscharfe Form. Je kontrastreicher, desto sichtbarer. Achte darauf, dass nur ein Kreis innerhalb der Textur aufgenommen wird, sodass jede Form in einen Kreis passen muss. |
 | <b>Hintergrundeingabe</b> <i>Farbeingabe</i> | Benutzerdefinierte Zuordnung wird als Hintergrund verwendet, wenn der Parameter <b>Hintergrundmodus</b> auf <i>Hintergrundeingabe</i> festgelegt ist |
-| <b>Umgebungszuordnung</b> <i>Farbeingabe</i> | Umgebungskarte, die zur Berechnung der Beleuchtung verwendet wird. Muss sphärisch abgebildet und in HDR vorliegen. |
+| <b>Umgebungs-Map</b> <i>Farbeingabe</i> | Umgebungskarte, die zur Berechnung der Beleuchtung verwendet wird. Muss sphärisch und in HDR abgebildet sein. |
 
 <a name="outputs"></a>
 
@@ -68,7 +68,7 @@ Dieser Knoten erfordert, dass mindestens ein vollständiges PBR-Material angesch
 | <b>Schönheit</b> | Das endgültige Rendering |
 | <b>Rohbestrahlung</b> | Die Bestrahlungsdaten des endgültigen Renderings<br><br><i>Alpha:</i> Deckkraftkarte |
 | <b>Raw-Specular</b> | Die Specular-Daten des endgültigen Renderings<br><br><i>Alpha:</i> Specular-Schattenkarte |
-| <b>Normaler Weltraum</b> | Die Welt-Raum-Normale-Daten des endgültigen Renderings<br><br><i>Alpha:</i> Welt-Raum-Höhen-Map |
+| <b>Normaler Welt-Raum</b> | Die Welt-Raum-Normale-Daten des endgültigen Renderings<br><br><i>Alpha:</i> Welt-Raum-Höhen-Map |
 | <b>Normaler Tangentialraum</b> | Der Tangente-Speicherplatz normalisiert die Daten des endgültigen Renderings.<br><br><i>Alpha:</i> Tangente-Speicherplatz-Höhen-Map |
 | <b>UVs</b> | Die UV-Daten des endgültigen Renderings<br><br><i>Alpha:</i> Deckkraftzuordnung |
 
@@ -91,23 +91,23 @@ Dieser Knoten erfordert, dass mindestens ein vollständiges PBR-Material angesch
 | <b>Zylinderlänge</b> <i>0.0 - 1.0</i> | Stellen Sie die Länge für den Zylinder ein. |
 | <b>Drehung</b> <i>0.0 - 1.0</i> | Dreht die Form, ohne die Beleuchtung zu drehen. |
 | <b>Drehrichtung</b> <i>0.0 - 1.0</i> | Stellt die Drehachse in 2D ein. |
-| <b>Drehung um Richtung</b> <i>0.0 - 1.0</i> | Dreht die Form auf der Drehachse. |
+| <b>Drehung um Richtung</b> <i>0.0 - 1.0</i> | Dreht die Form auf der Drehungs-Achse. |
 | <b>Formenposition</b> <i>-1.0 - 1.0</i> | Verschiebt Formen. |
-| <b>UV Kachelung</b> <i>1.0 - 6.0</i> | Legt die Menge der UV-Kachelung fest. |
-| <b>Sphere-UV-Skalierung</b> <i>0.0 - 4.0</i> | Legt die Skalierung der UVs auf der Kugel fest. |
-| <b>Ebene UV-Skalierung</b> <i>1.0 - 4.0</i> | Legt die Skalierung der UVs auf der Ebene fest. |
-| <b>UV-Skalierung des Zylinders</b> <i>1.0 - 6.0</i> | Legt die Skalierung der UVs auf dem Zylinder fest. |
-| <b>UV-Versatz</b> <i>0.0 - 1.0</i> | Versetzt UVs |
-| <b>UVs neigen</b> <i>False/True</i> | Neigt UVs um 45 Grad für die Kugel. |
+| <b>UV Kachelung</b> <i>1.0 - 6.0</i> | Legt den Grad der UV-Kachelung fest. |
+| <b>Sphere-UV-Skalierung</b> <i>0.0 - 4.0</i> | Legt die Skalierung der UV&#39;s auf der Kugel fest. |
+| <b>Ebene UV-Skalierung</b> <i>1.0 - 4.0</i> | Legt die Skalierung der UV&#39;s auf der Ebene fest. |
+| <b>UV-Skalierung des Zylinders</b> <i>1.0 - 6.0</i> | Legt die Skalierung der UV&#39;s auf dem Zylinder fest. |
+| <b>UV-Versatz</b> <i>0.0 - 1.0</i> | Versetzt UV |
+| <b>UVs neigen</b> <i>False/True</i> | Neigt die UV um 45 Grad für die Kugel. |
 | <b>Kamera</b> |  |
-| <b>Belichtung</b> <i>-4.0 - 4.0</i> | Legt die Kamerabelichtung fest. |
+| <b>Belichtung</b> <i>-4.0 - 4.0</i> | Die Belichtung der Kamera einstellen. |
 | <b>Farbtonzuordnung</b> <i>Linear, ACE, Film-Hejl</i> | Legen Sie fest, welche Farbtonzuordnungslösung für das endgültige Bild verwendet werden soll. |
-| <b>Kamera-Modus</b> <i>Perspektive, Orthografisch</i> | Wechseln der Kamera zwischen zwei Projektionsmodi. |
-| <b>Sichtfeld</b> <i>0.01 - 100.0</i> | Legt den FOV-Winkel der Kamera fest. |
+| <b>Kamera-Modus</b> <i>Perspektive, Orthografisch</i> | Wechseln der Kamera zwischen zwei Modi für die Projektion. |
+| <b>Sichtfeld</b> <i>0.01 - 100.0</i> | Winkel der Kamera FOV einstellen. |
 | <b>Entfernung</b> <i>0.0 - 4.0</i> | Legen Sie den Abstand der Kamera vom Objektzentrum fest. |
 | <b>Vignettenintensität</b> <i>0.0 - 1.0</i> | Legen Sie die Intensität des Vignetteneffekts fest. |
 | <b>Vignettenradius</b> <i>0.0 - 1.0</i> | Legen Sie den Radius des Vignetteneffekts fest. |
-| <b>Bildschirmposition</b> | Verschiebt die Kamera um das Objekt, kann aber auch durch ein Gizmo in der 2D-Ansicht geändert werden. |
+| <b>Bildschirmposition</b> | Verschiebt die Kamera um das Objekt, was ebenfalls durch ein Gizmo in der 2D-Ansicht geändert werden kann. |
 | <b>Tiefe von Feld</b> |  |
 | <b>Blenden-Radius</b> <i>0.0 - 0.1</i> | Legt den Radius der Blende fest. Höhere Werte bedeuten, dass Bereiche außerhalb des Fokus unschärfer werden (Bokeh). |
 | <b>Blende Blades</b> <i>3 - 9</i> | Legt die Form der Bokeh-Weichzeichnung fest. |
@@ -128,11 +128,11 @@ Dieser Knoten erfordert, dass mindestens ein vollständiges PBR-Material angesch
 | <b>Intensität des Dirts der Linse</b> <i>0.0 - 1.0</i> | Legt den Effekt der Objektiv-Dirt-Map auf die Blendenflecke fest. |
 | <b>Rendereinstellungen</b> |  |
 | <b>Qualität der Diffusen</b> <i>16 Samples, 32 Samples, 64 Samples, 128 Samples</i> | Wechseln Sie zwischen den Qualitätsstufen für die diffuse Karte. |
-| <b>Diffuse Emissive Multiplier</b> <i>0.0 - 1.0</i> | Steuert, wie stark die emittierenden Teile zur Bestrahlung beitragen. |
+| <b>Diffuse Emissive Multiplier</b> <i>0.0 - 1.0</i> | Steuert, wie stark die emissive-Teile zur Bestrahlung beitragen. |
 | <b>Diffuse der Schattenintensität</b> <i>0.0 - 1.0</i> | Steuert die Intensität der diffusen Schatten. |
-| <b>Specular Dithering</b> <i>0.0 - 1.0</i> | Stellen Sie die Dithering-Rate für den Specular ein. |
+| <b>Specular Dithering</b> <i>0.0 - 1.0</i> | Legen Sie die Höhe des Ditherings für den Specular fest. |
 | <b>Specular-Schattenmultiplikator</b> <i>0.0 - 1.0</i> | Steuert die Schattenintensität in den Specular-Reflexionen. |
-| <b>Deckkraftmodus</b> <i>Dithering-Alpha-Test, Simple Alpha Überblendung</i> | Steuert die Methode zum Anwenden von Transparenz. Der Modus <i>Einfache Alpha-Überblendung</i> wird am besten auf einheitlichen Hintergründen angezeigt. |
+| <b>Deckkraftmodus</b> <i>Dithering-Alpha-Test, Simple Alpha Überblendung</i> | Steuert die Methode zum Anwenden von Transparenz. Der <i>Simple Alpha Überblendung</i>-Modus wird am besten auf einheitlichen Hintergründen angezeigt. |
 | <b>Ambient occlusion-Intensität</b> <i>0.0 - 1.0</i> | Legt die Intensität der ambient occlusion fest. |
 | <b>Material-Anpassungen</b> |  |
 | <b>Normale neu berechnen</b> <i>False/True</i> | Die Normale werden von der Höhen-Map entsprechend der Intensität des Versatzes neu berechnet. |
@@ -144,7 +144,7 @@ Dieser Knoten erfordert, dass mindestens ein vollständiges PBR-Material angesch
 | <b>Hüllengewicht löschen</b> <i>0.0 - 1.0</i> | Legt die Intensität oder Stärke der Klarlackschicht fest. |
 | <b>Coat specular level löschen</b> <i>0.0 - 1.0</i> | Legt die Rauheit der Klarlack-Ebene fest. |
 | <b>Normal von Basisebene erben</b> <i>False/True</i> | Einstellen, ob Klarlack Normale aus dem Basismaterial ignoriert oder verwendet. |
-| <b>Ausstrahlend</b> |  |
+| <b>Emissive</b> |  |
 | <b>Emissive Lighting aktivieren</b> <i>Wahr/Falsch</i> | Schaltet den diffusen Beitrag der emissive-Beleuchtung um. |
 | <b>Emissive-Intensität</b> <i>0.0 - 10.0</i> | Legt den globalen Multiplikator für die emissive-Map fest. |
 | <b>Volumenstreuung</b> |  |

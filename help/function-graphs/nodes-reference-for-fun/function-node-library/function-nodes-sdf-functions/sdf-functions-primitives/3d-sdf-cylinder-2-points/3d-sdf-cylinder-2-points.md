@@ -1,6 +1,6 @@
 ---
 title: Zylinder 2 Punkte
-description: Designer > Substance-Compositing-Graphen > Knotenreferenz für Substance-Compositing-Graphen > Knotenbibliothek > SDF-Funktion > Primitiv > Zylinder 2 Punkte
+description: Designer > Substance-Compositing-Graf > Knotenreferenz für Substance-Compositing-Graf > Knotenbibliothek > SDF-Funktion > Primitiv > Zylinder 2 Punkte
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '133'
@@ -43,4 +43,4 @@ Eine SDF-Funktion für einen Zylinder mit einstellbarem Radius, der durch die La
 | <b>Start</b> *Float3* | Die Position der Startdiskette des Zylinders.<br><br><i>Standard: (0, 0, 0)</i> |
 | <b>Ende</b> *Float3* | Die Position der Endscheibe des Zylinders.<br><br><i>Standard: (0, 0, 1)</i> |
 | <b>Radius</b> *Gleitend* | Der Radius des Zylinders.<br><br><i>Standard: 0,25</i> |
-| <b>P</b> *Float3* | Die veränderte Weltraumposition. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die nicht transformierte Weltraumposition.</i> |
+| <b>P</b> *Float3* | Die transformieren Position des Welt-Raums. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die nicht transformierte Weltraumposition.</i> |

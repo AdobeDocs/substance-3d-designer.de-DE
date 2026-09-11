@@ -85,17 +85,17 @@ Dieses Bedienfeld steuert, wo sich die Baking geführt Textur befindet.
 
 | *Parameter* | *Beschreibung* |
 | --- | --- |
-| **Methode** | Steuert, wie die Baking geführt Texturen mit dem Substance-Paket gespeichert werden.Mögliche Werte:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Eingebettet</strong> : Die Baking geführt Texturen werden in einem Unterordner neben dem Substance-Paket mit einem bestimmten Namen gespeichert.</li><li data-preserve-html="true"><strong>Verknüpft</strong> (Standard) : Die gebackene Textur wird in dem definierten Ordner gespeichert und dann in das Substance-Paket aufgenommen.</li></ul> |
-| **Ordner** | Speicherort der Texturen, die als Stapel vorliegen. Klicken Sie auf drei Punkte, um ein Dateidialogfeld zu öffnen, und wählen Sie den Exportordner aus. Rechts wird ein Häkchen angezeigt, das angibt, ob der Ordner tatsächlich existiert oder nicht. |
-| **Name** | Namenskonvention der gebackenen Texturen. Klicken Sie auf die Schaltfläche mit den drei Punkten, um eine Dropdown-Liste zu öffnen und andere Platzhalter einzufügen (Backname, benutzerdefiniert, Material, Gitter). |
+| **Methode** | Steuert, wie die Baking geführt Texturen mit dem Substance-Paket gespeichert werden.Mögliche Werte:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Eingebettet</strong> : Die Baking geführt Texturen werden in einem Unterordner neben dem Substance-Paket mit einem bestimmten Namen gespeichert.</li><li data-preserve-html="true"><strong>Verknüpft</strong> (Standard) : Die Baking geführt Texturen werden in dem definierten Ordner abgelegt und dann in das Substance-Paket aufgenommen.</li></ul> |
+| **Ordner** | Speicherort der Baking geführt Texturen beim Speichern. Klicken Sie auf drei Punkte, um ein Dateidialogfeld zu öffnen, und wählen Sie den Exportordner aus. Rechts wird ein Häkchen angezeigt, das angibt, ob der Ordner tatsächlich existiert oder nicht. |
+| **Name** | Namenskonvention der Baking geführt Texturen. Klicken Sie auf die Schaltfläche mit den drei Punkten, um eine Dropdown-Liste zu öffnen und andere Platzhalter einzufügen (Backname, benutzerdefiniert, Material, Mesh). |
 | **Beispiel** | Simulieren Sie einen Dateinamen, um die Namenskonvention zu testen. |
-| **Ressource in einen netzspezifischen Ordner platzieren** | Wenn diese Option aktiviert ist, werden die Texturen in einem Ordner gespeichert, der als Gitterdatei bezeichnet wird. |
+| **Ressource in einen Ordner platzieren, der für einen bestimmten Mesh bestimmt ist** | Wenn diese Option aktiviert ist, werden die Baking geführt Texturen in einem Ordner gespeichert, der als Meshdatei bezeichnet wird. |
 
-### HD-Meshes
+### High-Definition-Meshs
 
-Dieses Bedienfeld steuert die Liste der Gitter mit hohem Poly-Wert und die zugehörigen Einstellungen. Weitere Informationen finden Sie in den [allgemeinen Parametern](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/bakers-settings/common-parameters).
+Dieses Bedienfeld steuert die Liste der Mesh mit hohen Poly-Raten und die zugehörigen Einstellungen. Weitere Informationen finden Sie in den [allgemeinen Parametern](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/bakers-settings/common-parameters).
 
-![High-Definition-Meshes](bakers.resources/sd-high.png "High-Definition-Meshes")
+![High-Definition-Mesh](bakers.resources/sd-high.png "High-Definition-Mesh")
 
 ### Standardwerte
 
@@ -103,16 +103,16 @@ Weitere Informationen finden Sie in den [allgemeinen Parametern](https://experie
 
 ![Standardwerte](bakers.resources/sd-default-values.png "Standardwerte")
 
-### Renderliste und Einstellungen für Bäcker
+### Baker rendern Liste und Einstellungen
 
-In der Renderliste &quot;**Bäcker&quot; &quot;**&quot; können Sie auswählen, welche gebackene Textur Sie generieren möchten. Standardmäßig ist die Liste leer.
+In der Renderliste &quot;**Baker&quot; &quot;**&quot; können Sie auswählen, welche Baking geführt Textur generiert werden soll. Standardmäßig ist die Liste leer.
 
-* **Neuen Bäcker hinzufügen:** Klicken Sie auf die Schaltfläche &quot;Bäcker hinzufügen&quot;.
-* **Einen Bäcker entfernen:** Wählen Sie den Bäcker in der Liste aus und klicken Sie dann auf die Schaltfläche &quot;Bäcker löschen&quot;.
-* **Einen Bäcker nach oben verschieben:** Wählen Sie den Bäcker in der Liste aus und klicken Sie dann auf die Schaltfläche &quot;Nach oben ziehen&quot;.
-* **Einen Bäcker nach unten bewegen:** Wählen Sie den Bäcker in der Liste aus und klicken Sie dann auf die Schaltfläche &quot;Nach unten schieben&quot;.
+* **Neuen Baker hinzufügen:** Klicken Sie auf die Schaltfläche &quot;Baker hinzufügen&quot;.
+* **Entfernen eines Bakers:** Wählen Sie den Baker in der Liste aus, und klicken Sie dann auf die Schaltfläche &quot;Baker löschen&quot;.
+* **Verschieben eines Bakers nach oben:** Wählen Sie den Baker in der Liste aus und klicken Sie dann auf die Schaltfläche &quot;Nach oben ziehen&quot;.
+* **Einen Baker nach unten bewegen:** Wählen Sie den Baker in der Liste aus, und klicken Sie dann auf die Schaltfläche &quot;Nach unten schieben&quot;.
 
-Jeder Bäcker in der erbt standardmäßig die Standardwerte (siehe oben). Die Größe (Auflösung) kann beispielsweise überschrieben werden, indem man auf die Zelle in der Zeile des Bakers klickt. Dies gilt auch für die anderen Einstellungen in der Zeile.
+Jeder Baker in der erbt standardmäßig die Standardwerte (siehe oben). Die Größe (Auflösung) kann beispielsweise überschrieben werden, indem man auf die Zelle in der Zeile des Bakers klickt. Dies gilt auch für die anderen Einstellungen in der Zeile.
 
 Wenn Sie auf einen Baker in der Liste klicken, wird die Parameteransicht des Bakers mit ihren spezifischen Parametern aktualisiert.
 

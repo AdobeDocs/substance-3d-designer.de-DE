@@ -1,6 +1,6 @@
 ---
 title: Kegel
-description: Designer > Substance-Compositing-Graphen > Knotenreferenz für Substance-Compositing-Graphen > Knotenbibliothek > SDF-Funktion > Primitiv > Konus
+description: Designer > Substance-Compositing-Graf > Knotenreferenz für Substance-Compositing-Graf > Knotenbibliothek > SDF-Funktion > Primitiv > Kegel
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '123'
@@ -15,7 +15,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Konus-Symbol](./3d-sdf-cone.png "Konus")
+![Kegel-Symbol](./3d-sdf-cone.png "Kegel")
 
 <b>In:</b> SDF-Funktion > Primitiv
 
@@ -40,7 +40,7 @@ Eine SDF-Funktion für einen Konus mit einstellbarem Height, Radius und Lage.
 
 |  |  |
 | :--- | :--- |
-| <b>Radius</b> *Gleitend* | Der Radius der Kegelbasis.<br><br><i>Standard: 0,5</i> |
-| <b>Height</b> *Gleitend* | Das Z-Up-Height des Scheitelpunkts des Kegels von seiner Basis.<br><br><i>Standard: 1</i> |
-| <b>Mittenposition</b> *Float3* | Die Weltraumposition des Drehpunkts des Kegels.<br><br><i>Standard: (0, 0, 0)</i> |
-| <b>P</b> *Float3* | Die veränderte Weltraumposition. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die nicht transformierte Weltraumposition.</i> |
+| <b>Radius</b> *Fließkommazahl* | Der Radius der Kegelbasis.<br><br><i>Standard: 0,5</i> |
+| <b>Height</b> *Fließkommazahl* | Das Z-Up-Height des Scheitelpunkts des Kegels von seiner Basis.<br><br><i>Standard: 1</i> |
+| <b>Mittenposition</b> *Fließkommazahl3* | Die Position des Welt-Raums des Drehpunkts des Kegels.<br><br><i>Standard: (0, 0, 0)</i> |
+| <b>P</b> *Fließkommazahl3* | Die transformieren Position des Welt-Raums. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die Position des nicht transformierten Welt-Raums.</i> |

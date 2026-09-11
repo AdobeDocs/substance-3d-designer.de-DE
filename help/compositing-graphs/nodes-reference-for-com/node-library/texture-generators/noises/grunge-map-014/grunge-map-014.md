@@ -33,7 +33,7 @@ ht-degree: 8%
 
 ## Beschreibung
 
-Dadurch wird eine komplexe, kombinierte Noisemap erzeugt. Es kann als detailliertes prozedurale sehr nützlich sein, aber beachten Sie, dass diese sehr leistungsintensiv und damit langsamer zu generieren sind.
+Dadurch wird eine komplexe, kombinierte Noisemap erzeugt. Es kann als detailliertes Verfahren sehr nützlich sein, aber beachten Sie, dass diese sehr leistungsintensiv sind und daher langsamer zu generieren sind.
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ Dadurch wird eine komplexe, kombinierte Noisemap erzeugt. Es kann als detaillier
 | <b>Kontrast</b> <i>0.0 - 1.0</i> |  |
 | <b>Umkehren</b> <i>False/True</i> |  |
 | <b>Pinselmuster</b> <i>0.0 - 1.0</i> | Fügt eine Maske um die Kanten hinzu, wenn sie als Alpha-Pinsel verwendet wird. |
-| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
 
 ## Beispiele
 

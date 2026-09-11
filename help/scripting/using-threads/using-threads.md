@@ -24,7 +24,7 @@ Es ist möglich, dass Plug-Ins <b>Threads</b> mithilfe des Python-Threadingmodul
 
 Dies kann nützlich sein, um Hintergrundverarbeitung oder E/A-Vorgänge auszuführen, während Designer ausgeführt wird.
 
-Es ist wichtig zu beachten, dass die meisten Klassen und Methoden in der Python-API von Designer *nur* über den <b>Hauptanwendungsthread</b> aufgerufen werden können. Wenn Sie also Änderungen an einem Diagramm vornehmen möchten, das derzeit in Designer geöffnet ist, müssen Sie diese über den Hauptanwendungsthread vornehmen.
+Es ist wichtig zu beachten, dass die meisten Klassen und Methoden in der Python-API von Designer *nur* über den <b>Hauptanwendungsthread</b> aufgerufen werden können. Wenn Sie also Änderungen an Graf vornehmen möchten, der derzeit in Designer geöffnet ist, müssen Sie diese über den Hauptanwendungs-Thread vornehmen.
 
 Eine mögliche Lösung ist die Verwendung von <b>QThread</b> und <b>Verbindungen in der Warteschlange</b>, wie im folgenden Beispiel:
 

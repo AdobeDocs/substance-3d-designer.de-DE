@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/caustics.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/caustics.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Kaustik", um kaustische Lichtmuster zum Erzeugen von Unterwasser- und refraktiven Lichteffekten zu erzeugen.
 helpx_creative_field: ""
@@ -51,11 +51,11 @@ Erzeugt projizierte Kaustik basierend auf einem Höhen-Map und einer Lichtrichtu
 | <b>Position des Surface-Heights</b> <i>0.0 - 1.0</i> | Abstand der brechenden Fläche von der Projektion einstellen. |
 | <b>Surface IOR</b> <i>1.0 - 2.0</i> | Legen Sie den Brechungsindex fest, um in der Farbversion mehr Streuung zu erhalten. |
 | <b>Fotonengröße</b> <i>1.0 - 50.0</i> | Die Fotonengröße beeinflusst die Knautschigkeit des Effekts. |
-| <b>Dispersion</b> <i>0.0 - 0.01 (nur Farbversion)</i> | Nur die Farb-Streuung. Nicht sichtbar, wenn der IOR niedrig ist. |
+| <b>Streuung</b> <i>0.0 - 0.01 (nur Farbversion)</i> | Nur die Farb-Streuung. Nicht sichtbar, wenn der IOR niedrig ist. |
 | <b>Jittering</b> <i>0.0 - 1.0</i> | Unregelmäßiges Jittern zu den Geworfen Foton-Partikeln hinzufügen. |
 | <b>Lichtposition</b> | Verschiebt die Lichtposition. Auch durch ein Gizmo in der 2D-Ansicht. |
 | <b>Hintergrundfarbe</b> <i>(Farbwert) (nur Farbversion)</i> | Ändern Sie die Hintergrundfarbe. Beschränkt auf Schwarz in der Graustufenversion. |
-| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Aktivieren Sie die Kompensation von Quetschen und Dehnen mit nicht quadratischen Verhältnissen. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Aktivieren Sie die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
 
 ## Beispiele
 

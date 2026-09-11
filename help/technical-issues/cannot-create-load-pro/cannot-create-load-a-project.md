@@ -38,7 +38,7 @@ Sie werden *aufgefordert*, diese Aktualisierung durchzuführen, wenn *die Datei 
 >
 > Wenn die Datei &quot;*&quot; nach &quot;*&quot; gespeichert wurde, wurde die Aktualisierung angewendet, und auch die Formatversion ändert sich. Zu diesem Zeitpunkt kann &quot;*&quot; nicht mehr in vorherigen Substance 3D Designer-Versionen &quot;*&quot; geladen werden.
 > 
-> Diese Einschränkung gilt auch für den [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html).
+> Diese Einschränkung gilt auch für die [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html).
 
 Überprüfen Sie zunächst, ob Sie die neueste Version von Substance 3D Designer verwenden, die Ihre aktuelle Lizenz zulässt. Hier finden Sie die Punkte, an denen Sie auf die Updates für jede Edition zugreifen können:
 

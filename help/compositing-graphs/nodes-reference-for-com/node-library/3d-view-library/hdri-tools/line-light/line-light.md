@@ -63,9 +63,9 @@ Die Positionierungsmodi für diesen Knoten sind etwas komplexer als andere HDRI-
 | <b>Vektor nach oben</b> <i>Z nach oben, J nach oben</i> | Nur mit dem Modus &quot;Weltposition&quot; bestimmen Sie die Ausrichtung des Koordinatensystems. |
 | <b>Punkt 1 UV-Position</b> | Nur mit Boden / Decke und Abstand zum Ursprung. Legt die erste Punktposition im UV-Raum fest. |
 | <b>Point 2 UV-Position</b> | Nur mit Boden / Decke und Abstand zum Ursprung. Legt die zweite Punktposition im UV-Raum fest. |
-| <b>Weltrangliste für Punkt 1</b> <i>-2.0 - 2.0</i> | Nur im Modus &quot;Weltpositionen&quot;. Legt den ersten Punkt im Welt-Raum fest. Keine 2D-Ansichtsinteraktion unterstützt. |
-| <b>Weltrangliste für Punkt 2</b> <i>-2.0 - 2.0</i> | Nur im Modus &quot;Weltpositionen&quot;. Legt den zweiten Punkt im Welt-Raum fest. Keine 2D-Ansichtsinteraktion unterstützt. |
-| <b>Absolutes Height der Zeile</b> <i>0.0 - 1.0</i> | Nur bei der Positionsart &quot;Boden/Decke&quot; wird das absolute Height von der Decke eingestellt. Verwenden Sie &quot;Bodenraster anzeigen&quot;, um die Position besser zu schätzen. |
+| <b>Weltrangliste für Punkt 1</b> <i>-2.0 - 2.0</i> | Nur im Modus &quot;Weltpositionen&quot;. Legt den ersten Punkt im Welt-Raum fest. Keine 2D-Ansicht-Interaktion unterstützt. |
+| <b>Weltrangliste für Punkt 2</b> <i>-2.0 - 2.0</i> | Nur im Modus &quot;Weltpositionen&quot;. Legt den zweiten Punkt im Welt-Raum fest. Keine 2D-Ansicht-Interaktion unterstützt. |
+| <b>Absolutes Height der Zeile</b> <i>0.0 - 1.0</i> | Nur mit Boden / Deckenpositionsmodus, setzt absolutes Height von der Decke. Verwenden Sie Boden-Raster anzeigen , um die Position besser zu schätzen. |
 | <b>Abstand zum Ursprung</b> <i>0.0 - 1.0</i> | Nur mit Abstand zum Ursprung-Positionsmodus. Legt für beide Punkte den Abstand vom Mittelpunkt des Panoramas fest. |
 | <b>Formfarbmodus</b> <i>RGB, Temperatur (Kelvin), Bildeingabe</i> | Wählen Sie die Methode aus, die zum Festlegen der Formfarbe verwendet werden soll. Image Input ermöglicht die Verwendung des zweiten Eingangssteckplatzes. |
 | <b>Farbe</b> <i>(Farbwert)</i> | Nur bei RGB als Formfarbmodus. Wählt Farbe für die Form. |

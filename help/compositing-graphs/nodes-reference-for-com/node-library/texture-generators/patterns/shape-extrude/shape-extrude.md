@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Form > Extrudieren
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 5%
@@ -24,9 +24,9 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-extrude.png){width="128px"}
+![](shape-extrude.resources/shape-extrude.png){width="128px"}
 
-<b>In:</b> Texturen > Muster generieren
+<b>In:</b> Texturgeneratoren > Muster
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -74,7 +74,7 @@ Ein erweiterter Knoten, mit dem 2D-, binäre &quot;Shape&quot;-Eingaben in 3D-ge
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/shape-extrude-1.png" />
+            <img src="shape-extrude.resources/shape-extrude-1.png" />
         </td>
     </tr>
 </table>

@@ -1,6 +1,6 @@
 ---
 title: Drehung (ungenau)
-description: Designer > Substance-Compositing-Graphen > Knotenreferenz für Substance-Compositing-Graphen > Knotenbibliothek > SDF-Funktion > Transformieren > Drehung (ungenau)
+description: Designer > Substance-Compositing-Graf > Knotenreferenz für Substance-Compositing-Graf > Knotenbibliothek > SDF-Funktion > Transformieren > Twist (ungenau)
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '173'
@@ -43,5 +43,5 @@ Drehen Sie eine SDF-Form um ihre lokale Z-Achse zwischen einem Start- und einem 
 | <b>SDF</b> *Gleitend* | Die Eingabe-SDF-Form. |
 | <b>Winkel</b> *Gleitend* | Der Winkel der Drehung am Ende der Drehung in Windungen. |
 | <b>Start</b> *Gleitend* | Die Weltposition auf der Z-Achse, an der die Drehung beginnt. Das gesamte darunter liegende Volumen ist nicht verdreht. |
-| <b>Ende</b> *Gleitend* | Die Weltposition auf der Z-Achse, an der die Drehung endet. Das gesamte oben genannte Volumen wird gleichmäßig um den angegebenen Winkel gedreht. |
-| <b>P</b> *Float3* | Die veränderte Weltraumposition. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die nicht transformierte Weltraumposition.</i> |
+| <b>Ende</b> *Gleitend* | Die Weltposition auf der Z-Achse, wo die Verdrillung endet. Das gesamte oben genannte Volumen wird gleichmäßig um den angegebenen Winkel gedreht. |
+| <b>P</b> *Float3* | Die transformieren Position des Welt-Raums. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die nicht transformierte Weltraumposition.</i> |

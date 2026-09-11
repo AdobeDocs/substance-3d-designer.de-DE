@@ -45,7 +45,7 @@ Der Abstand des Verlaufs kann mithilfe eines Abstands-Map dynamisch entlang des 
 
 >[!TIP]
 >
-> Der [Richtungsabstand](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)-Knoten bietet ähnliche Funktionen, bei denen die Erweiterung in einer bestimmten Richtung ausgeführt wird.
+> Der Knoten &quot;[Richtungsabstand](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)&quot; bietet ähnliche Funktionen, bei denen die Ausdehnung in einer bestimmten Richtung ausgeführt wird.
 
 <a name="inputs"></a>
 
@@ -54,8 +54,8 @@ Der Abstand des Verlaufs kann mithilfe eines Abstands-Map dynamisch entlang des 
 |  |  |
 |:---|:---|
 | <b>Maskeneingabe</b> <i>Graustufen</i> PRIMÄR | Das Bild, aus dem die Maske entnommen werden soll.   Alle Werte über dem Wert &quot;Maskenschwellenwert&quot; sind in dieser Maske weiß. |
-| <b>Quelleingabe</b> <i>Graustufen</i> | Eine optionale Eingabe, die nur verwendet wird, wenn der Parameter &quot;Ausgabemodus&quot; auf &quot;Dilation&quot; festgelegt ist.   In diesem Fall wird dieses Bild auf die weißen Bereiche der Maske gelegt und die Graustufenwerte an den Rändern werden erweitert. |
-| <b>Abstands-Map</b> <i>Graustufen</i> | Eine optionale Eingabe, die verwendet wird, wenn der Wert des Parameters &quot;Abstands-Map-Multiplikator&quot; größer als 0 ist.   Er wird verwendet, um den Abschrägungs-/Dilatationsabstand entlang der Ränder der Maske einzustellen, wobei ein dunklerer Wert zu einem kürzeren Abstand führt. |
+| <b>Quelleingabe</b> <i>Graustufen</i> | Eine optionale Eingabe, die nur verwendet wird, wenn der Parameter &quot;Ausgabemodus&quot; auf &quot;Ausdehnung&quot; festgelegt ist.   In diesem Fall wird dieses Bild auf die weißen Bereiche der Maske gelegt und die Graustufenwerte an den Rändern werden erweitert. |
+| <b>Abstands-Map</b> <i>Graustufen</i> | Eine optionale Eingabe, die verwendet wird, wenn der Wert des Parameters &quot;Abstands-Map-Multiplikator&quot; größer als 0 ist.   Mit diesem Regler wird der Abstand zwischen Abschrägung und Ausdehnung an den Rändern der Maske angepasst. Bei einem dunkleren Wert verringert sich der Abstand. |
 
 <a name="outputs"></a>
 
@@ -77,9 +77,9 @@ Der Abstand des Verlaufs kann mithilfe eines Abstands-Map dynamisch entlang des 
 | <b>Maximale Entfernung</b> *Gleitend* | Der Dilatationsabstand im normierten Bildraum, wobei 1 die Länge der kürzeren Seite des Eingangsbildes ist. |
 | <b>Smoothness maskieren</b> *Gleitend* | Die Intensität der auf die Maske angewendeten Glättung.   Der Wert gibt den Radius der Weichzeichnung an und 1 Einheit entspricht 1/256 des Bildes. |
 | <b>Maskenoffset</b> *Gleitend* | Verschiebt die Maskenränder nach innen oder außen. |
-| <b>Maskenschwellenwert</b> *Fließkommazahl* | Der Wert, der zum Erkennen der Ränder der Maske im Bild &quot;Maskeneingabe&quot; verwendet wird.   Werte über diesem Schwellenwert sind *innerhalb* der Maskenformen, während die folgenden Werte *außerhalb* sind. |
-| <b>Skalierung</b> *Fließkommazahl2* | Passt den horizontalen (X) und vertikalen (Y) Abstand der Ausdehnung an.   Diese Werte sind Multiplikatoren für den Parameterwert &quot;Maximale Entfernung&quot;. |
-| <b>Abstands-Map-Multiplikator</b> *Ganzzahl* | Passt die Auswirkung des Abstands-Map auf die &quot;Maximale Entfernung&quot; an. |
+| <b>Maskenschwellenwert</b> *Gleitend* | Der Wert, der zum Erkennen der Ränder der Maske im Bild &quot;Maskeneingabe&quot; verwendet wird.   Werte über diesem Schwellenwert sind *innerhalb* der Maskenformen, während die folgenden Werte *außerhalb* sind. |
+| <b>Skalierung</b> *Float2* | Passt den horizontalen (X) und vertikalen (Y) Abstand der Erweiterung an.   Diese Werte sind Multiplikatoren für den Parameterwert &quot;Maximale Entfernung&quot;. |
+| <b>Abstands-Map-Multiplikator</b> *Integer* | Passt die Auswirkung des Abstands-Map auf die &quot;Maximale Entfernung&quot; an. |
 
 ## Beispiele
 

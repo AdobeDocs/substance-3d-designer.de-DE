@@ -55,7 +55,7 @@ Das ist sehr nützlich, wenn Sie ein Detail aus allen Kanälen eines Materials e
 
 |  |  |
 |:---|:---|
-| <b>Kanäle</b> | Schalten Sie die Materialkanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanzkarten anstelle von &quot;Metallisch/Raueit&quot; verwenden. |
+| <b>Kanäle</b> | Schalten Sie die Material-Kanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanz-Maps anstelle von &quot;Metallic/Rauheit&quot; verwenden. |
 | <b>Form</b> <i>Quadrat, Datenträger</i> | Legt die Stempelform fest. Wird nur als Basis verwendet. |
 | <b>Edge</b> |  |
 | <b>Schwellenwert (für mehrere Kanäle)</b> <i>0.0 - 1.0</i> | Legt fest, wie weit der angeglichene Bereich reichen soll. Dieser Effekt wächst stufenweise entlang der Formen im Zielbereich, sodass er bei einheitlichen Hintergründen sehr wenig Wirkung hat. Achten Sie darauf, dies zu sehr zwischen den Kanälen zu ändern, da dies zu visuellen Diskrepanzen führen könnte! |

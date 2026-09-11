@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## Beschreibung
 
-Entzerrt das Histogramm für ein Graustufenbild und passt die Graustufenwerte effektiv an, um eine gleichmäßige Verteilung anzustreben.
+Entzerrt das Histogramm für ein Graustufenbild und passt die Graustufenwerte effektiv an, um eine gleichmäßige Verteilung zu erreichen.
 
 </td>
 </tr>
@@ -61,8 +61,8 @@ Entzerrt das Histogramm für ein Graustufenbild und passt die Graustufenwerte ef
 
 |  |  |
 |:---|:---|
-| <b>Histogrammauflösung</b> *Ganzzahl* | Die Breite des Histogramms. Ein höherer Wert ermöglicht eine feinere Wertverteilung.   Verfügbare Auflösungen sind in Pixeln:  256, 512, 1024, 2048, 4096 |
-| <b>Glättung des Histogramms</b> *Fließkommazahl* | Das Histogramm kann geglättet werden, indem die Graustufenwerte im Bild neu verteilt werden, um die *Differenz* zwischen jedem Wert zu entzerren.   Dieser Parameter passt die Intensität der Glättung an. |
+| <b>Histogrammauflösung</b> *Integer* | Die Breite des Histogramms. Ein höherer Wert ermöglicht eine feinere Wertverteilung.   Verfügbare Auflösungen sind in Pixeln:  256, 512, 1024, 2048, 4096 |
+| <b>Glättung des Histogramms</b> *Gleitend* | Das Histogramm kann geglättet werden, indem die Graustufenwerte im Bild neu verteilt werden, um die *Differenz* zwischen jedem Wert zu entzerren.   Dieser Parameter passt die Intensität der Glättung an. |
 
 ## Beispiele
 

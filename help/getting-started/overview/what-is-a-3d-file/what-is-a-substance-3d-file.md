@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Was ist eine Substance 3D-Datei?
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Was ist eine Substance 3D-Datei?
 
-![Material der parametrischen Ziegel-Wand](../../../assets/MaterialsOverview.gif "Material der parametrischen Ziegel-Wand")
+![Material der parametrischen Ziegel-Wand](what-is-a-substance-3d-file.resources/MaterialsOverview.gif "Material der parametrischen Ziegel-Wand")
 
 *Beispiel eines Materials aus Ziegel von Käy Vriend.\
 Die Parameter können geändert werden, um die Darstellung des Materials dynamisch zu steuern.*

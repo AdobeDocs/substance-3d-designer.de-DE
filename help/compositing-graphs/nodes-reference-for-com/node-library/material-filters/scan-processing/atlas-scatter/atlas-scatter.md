@@ -55,7 +55,7 @@ Extrahieren von Elementen aus einem Atlas und Streuung auf einem Hintergrund. At
 | <b>Muster</b> |  |
 | <b>Musterbereich</b> <i>0 - 10</i> | Definiert den Bereich der zu streuenden Muster. Wenn auf 0 gesetzt, werden alle Muster verwendet. |
 | <b>Musterverteilungsmodus</b> <i>Zufällig, Musterindex, Zeilenindex, Spaltenindex</i> | Definiert die Reihenfolge, in der Atlaselemente verwendet werden. |
-| <b>Zuordnungsmultiplikator für Musterverteilung</b> <i>0.0 - 1.0</i> | Wählen Sie ein Formmuster in Abhängigkeit des Graustufenwerts des Eingabebilds aus. |
+| <b>Zuordnungsmultiplikator für Musterverteilung</b> <i>0.0 - 1.0</i> | Wählen Sie ein Formmuster in Abhängigkeit vom Graustufenwert des Eingabebilds aus. |
 | <b>Musterrotation</b> <i>0, 90, 180, 270</i> | Wendet eine feste Drehung auf jedes Atlaselement an, und zwar um den ausgewählten Wert in Grad. |
 | <b>Musterrotation zufällig</b> <i>0.0 - 1.0</i> | Wendet eine zufällige Drehung auf den festgelegten Abschnitt der Atlaselemente an. |
 | <b>Genauigkeit bei der Erkennung von Atlasformen</b> <i>Einfache oder kleine Formen, komplexe oder große Formen, kein Fehlermodus</i> | Legt die Genauigkeit fest, mit der Formen erkannt werden. Je genauer sie sind, desto stärker wirken sie sich auf die Leistung aus. |
@@ -65,12 +65,12 @@ Extrahieren von Elementen aus einem Atlas und Streuung auf einem Hintergrund. At
 | <b>Skalierung</b> <i>0.0 - 5.0</i> | Legt den relativen Maßstab von gestreuten Formen fest. |
 | <b>Zufällige Skalierung</b> <i>0.0 - 1.0</i> | Definiert den Multiplikator für die Anwendung der zufälligen Skalierung auf jede gestreute Form. |
 | <b>Keine Überlappung skalieren</b> <i>0.0 - 1.0</i> | Reduziert die Formskalierung, sodass sie sich nicht überlappen. |
-| <b>Zuordnungsmultiplikator skalieren</b> <i>0.0 - 1.0</i> | Multipliziert den Formmaßstab in Funktion des Graustufenwerts für das Eingabebild. |
+| <b>Zuordnungsmultiplikator skalieren</b> <i>0.0 - 1.0</i> | Multipliziert die Formskala mit dem Graustufenwert des Eingabebilds. |
 | <b>Größe</b> <i>0.0 - 1.0</i> | Legt den relativen Maßstab der gestreuten Formen nach Länge (X) und Breite (Y) fest. |
 | <b>Größenverhältnis von Bg-Steigung</b> <i>0.0 - 1.0</i> | Ändert das Größenverhältnis der Form in Abhängigkeit von der Steigung des Heights im Hintergrund. |
-| <b>Seitenverhältnis beibehalten</b> <i>0.0 - 1.0</i> | Legt fest, um welchen Betrag die ursprünglichen Proportionen der gestreuten Formen beibehalten werden sollen, anstatt das Rasterzellenverhältnis zu verwenden, d. h. das Verhältnis der Werte für &quot;x-Betrag&quot; und &quot;y-Betrag&quot;. |
+| <b>Seitenverhältnis beibehalten</b> <i>0.0 - 1.0</i> | Legt fest, um welchen Wert die ursprünglichen Proportionen der gestreuten Formen beibehalten werden sollen, anstatt das Zellverhältnis des Rasters zu verwenden, d. h. das Verhältnis der Werte für &quot;x-Stärke&quot; und &quot;y-Stärke&quot;. |
 | <b>Position</b> |  |
-| <b>Position zufällig</b> <i>0.0 - 2.0</i> | Ein Multiplikator zum Verschieben jeder Form in einer zufälligen Richtung von ihrem Startpunkt im Raster. |
+| <b>Position zufällig</b> <i>0.0 - 2.0</i> | Ein Multiplikator, um jede Form in einer zufälligen Richtung von ihrem Raster-Startpunkt zu bewegen. |
 | <b>Zufallsverteilung</b> <i>Gaußsch, einheitlich</i> | Wechselt für die zufällige Position von einer Gaußschen Verteilung zu einer gleichmäßigen Verteilung. Die Gaußsche Verteilung wird ein organischeres Ergebnis erzeugen als die Uniform-Verteilung. |
 | <b>Vektorzuordnungsvervielfacher</b> <i>0.0 - 1.0</i> | Steuert den Einfluss der Vektormap-Eingabe auf das Verschieben der Formen in die Richtung des Vektors, der durch die roten (X) und grünen (Y) Kanäle der Karte angegeben wird. |
 | <b>Horizontaler Versatz</b> <i>-2.0 - 2.0</i> | Ein Multiplikator für den Positionsversatz entlang der X-Achse. |
@@ -80,14 +80,14 @@ Extrahieren von Elementen aus einem Atlas und Streuung auf einem Hintergrund. At
 | <b>Drehung</b> <i>0.0 - 1.0</i> | Ermöglicht die Steuerung der lokalen Drehung für alle Formen. |
 | <b>Drehung zufällig</b> <i>0.0 - 1.0</i> | Ein Multiplikator für einen zufälligen Betrag an Drehung, der pro Form angewendet wird. |
 | <b>Drehung aus Bg-Steigung</b> <i>0.0 - 1.0</i> | Ändert die Drehung der Form in Abhängigkeit von der Steigung des Heights im Hintergrund. Wird gewöhnlich in Kombination mit dem Parameter &quot;Größenverhältnis von Bg-Steigung&quot; verwendet |
-| <b>Rotation Map-Multiplikator</b> <i>0.0 - 1.0</i> | Multipliziert die Formdrehung in Abhängigkeit des Graustufenwerts des Eingabebilds. |
+| <b>Rotation Map-Multiplikator</b> <i>0.0 - 1.0</i> | Multipliziert die Formdrehung in Funktion des Graustufenwerts für das Eingabebild. |
 | <b>Vektorzuordnungsvervielfacher</b> <i>0.0 - 1.0</i> | Legt die Formdrehung in Abhängigkeit von der Vektorbildeingabe fest. |
 | <b>Height</b> |  |
 | <b>Automatische Anpassung der Skalierung des Heights</b> <i>False/True</i> | Passt das Height automatisch an die Musterskala an, damit das Height der Form proportional zum Hintergrund-Height bleibt. |
-| <b>Überblendung-Modus</b> <i>Height-Überblendung, Alpha-Test</i> | Legt die Methode zum Auflösen von Formenüberlappungen fest. |
+| <b>Füllmethode</b> <i>Height-Überblendung, Alpha-Test</i> | Legt die Methode zum Auflösen von Formenüberlappungen fest. |
 | <b>Height-Offset</b> <i>-1.0 - 1.0</i> | Wendet einen globalen Versatz auf das Formen-Height an |
 | <b>Height-Offset zufällig</b> <i>0.0 - 1.0</i> | Ein Multiplikator für einen zufälligen Height-Versatz, der pro Form angewendet wird |
-| <b>Height-Versatzzuordnungs-Multiplikator</b> <i>0.0 - 1.0</i> | Multipliziert den Versatz des Heights in der Form in Abhängigkeit vom Graustufenwert des Eingabebilds. |
+| <b>Height-Versatzzuordnungs-Multiplikator</b> <i>0.0 - 1.0</i> | Multipliziert den Offset des Formenbilds in Abhängigkeit vom Graustufenwert des Heights. |
 | <b>Height-Skalierung</b> <i>0.0 - 1.0</i> | Ermöglicht die Steuerung der globalen Height-Skalierung für die verstreuten Formen |
 | <b>Zufällige Skalierung des Heights</b> <i>0.0 - 1.0</i> | Ein Multiplikator für eine zufällige Height-Skalierung, die pro Form angewendet wird |
 | <b>Height-Skalierungszuordnungsvervielfacher</b> <i>0.0 - 1.0</i> | Multipliziert den Maßstab des Heights in Abhängigkeit vom Graustufenwert des Eingabebilds. |

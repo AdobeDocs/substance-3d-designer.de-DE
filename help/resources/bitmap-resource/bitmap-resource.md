@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/resources/bitmap-resource.html"
 breadcrumb-title: ''
-description: Erfahre, wie du in Substance 3D Designer Bitmap-Ressourcen importieren, erstellen und verwenden kannst, um auf Texturen basierende Materialien zu erstellen.
+description: Erfahre, wie du in Substance 3D Designer Bitmap-Ressourcen importieren, erstellen und verwenden kannst, um Materialien auf Basis von Texturen zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Resources > Bitmap resource
 helpx_experience_level: ""
@@ -20,12 +20,12 @@ ht-degree: 2%
 
 # Bitmaps
 
-Eine Bitmapressource ist eine Ressource in einem Substance-Paket. Er unterscheidet sich vom [-atomaren Bitmapknoten. Der atomare Bitmapknoten &quot;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)&quot; ist eine bestimmte Darstellung dieser Bitmap in [einem Substance-Diagramm &#x200B;](../../compositing-graphs/substance-compositing-graphs.md).
+Eine Bitmapressource ist eine Ressource in einem Substance-Paket. Er unterscheidet sich vom [-atomaren Bitmapknoten. Der atomare Bitmap-Knoten &quot;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)&quot; ist eine bestimmte Darstellung dieser Bitmap in [einem Substance-Graf &#x200B;](../../compositing-graphs/substance-compositing-graphs.md).
 
-Bitmaps gehören zu den häufigsten Ressourcen außerhalb des Diagrammbereichs in Substance 3D Designer. Ihre Verwendung fällt in der Regel in eine der folgenden Kategorien:
+Bitmaps gehören zu den häufigsten Ressourcen ohne Graf in Substance 3D Designer. Ihre Verwendung fällt in der Regel in eine der folgenden Kategorien:
 
-* Eine durch Baking erzeugte Map, entweder [, intern durch Designer](../../bakers/bakers.md) oder extern durch eine andere Anwendung.
-* Eine Hilfsstruktur, wie ein Muster, eine Schmutz-Map oder ein Decal.
+* Eine durch Baking erzeugte Map, entweder [intern von Designer](../../bakers/bakers.md) oder extern von einer anderen Anwendung Baking geführt.
+* Eine Helfer-Textur, wie ein Muster, ein Schmutz-Plan oder ein Aufkleber.
 * Eine einfache Graustufenmaske zum Mischen, die entweder intern mit [dem Bitmapknoten](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) oder mit einer externen Anwendung erstellt wurde.
 
 ## Bitmapspeicher
@@ -36,17 +36,17 @@ Bitmaps sind in der Regel die größte Ressource, mit der sich Designer beschäf
 
 Wie Bitmaps in SBS gespeichert werden, hängt davon ab, ob Sie sie verknüpfen oder importieren. Stellen Sie sicher, dass Sie mit dem Konzept vertraut sind.[&#128279;](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) Importierte Bitmaps können mit den [Bitmap-Malwerkzeugen](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md) bearbeitet werden.
 
-Im Gegensatz zu Ressourcen für das SVG (Vektorgrafiken) werden Bitmaps immer extern gespeichert, selbst wenn sie als neue Ressource erstellt oder importiert werden. Bei neuen Substance-Paketen werden sie im Speicher gespeichert, bis die .SBS-Datei auf der Festplatte gespeichert wird. Nach dem Speichern auf dem Datenträger werden Bitmaps in einem Ordner &quot;*/resources*&quot; neben der SBS-Datei gespeichert.
+Im Gegensatz zu Ressourcen für das SVG (Vektorgrafiken) werden Bitmaps immer extern gespeichert, selbst wenn sie als neue Ressource erstellt oder importiert werden. Bei neuen Substance-Paketen werden sie im Speicher gespeichert, bis die .SBS-Datei auf der Festplatte gespeichert wird. Nach dem Speichern auf dem Datenträger werden Bitmaps in einem Ordner &quot;*/resources*&quot; neben der SBS gespeichert.
 
 ### In Substance 3D Assets (SBSAR)
 
-In [SBSAR-Dateien](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) sind Bitmaps eingebettet, was bedeutet, dass sie sich stark auf die endgültige SBSAR-Dateigröße auswirken. Weitere Informationen zu den Auswirkungen auf die Dateigröße finden Sie auf dieser Seite. Wenn SBSAR-Dateien veröffentlicht werden, werden nur Bitmaps eingebettet, die zur Berechnung der Ausgabe eines Diagramms verwendet werden. Nicht verwendete Bitmaps werden optimiert und aus dem endgültigen SBSAR-Paket ausgeschlossen, ohne dass sich dies auf die Dateigröße auswirkt.
+In [SBSAR-Dateien](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) sind Bitmaps eingebettet, was bedeutet, dass sie sich stark auf die endgültige SBSAR-Dateigröße auswirken. Weitere Informationen zu den Auswirkungen auf die Dateigröße finden Sie auf dieser Seite. Wenn SBSAR-Dateien veröffentlicht werden, werden nur Bitmaps eingebettet, die zur Berechnung der Ausgabe eines Grafen verwendet werden. Nicht verwendete Bitmaps werden optimiert und aus dem endgültigen SBSAR-Paket ausgeschlossen, ohne dass sich dies auf die Dateigröße auswirkt.
 
 ## Dateityp, Farbmodus und Auflösung
 
 Substance 3D Designer kann Daten aus Bitmaps problemlos bearbeiten und neu anordnen. Beachten Sie jedoch Folgendes:
 
-* Stellen Sie Ihre Auflösungen auf 2-kompatibel ein, d. h. befolgen Sie die standardmäßige Echtzeit-Texturgröße wie <b>256, 512, 1024, 2048,</b> usw. Designer skaliert Texturen außerhalb dieses Bereichs auf die nächste passende Auflösung. Beachten Sie, dass sie nicht quadratisch sein müssen.
+* Stellen Sie die Auflösungen auf &quot;Leistung 2&quot; konform, d. h., folgen Sie der standardmäßigen Echtzeit-Textur wie <b>256, 512, 1024, 2048,</b> usw. Designer skaliert Texturen außerhalb dieses Bereichs auf die nächste passende Auflösung. Beachten Sie, dass sie nicht quadratisch sein müssen.
 * Viele Dateitypen werden unterstützt, aber wählen Sie einen aus, der am besten für Ihre Anwendung geeignet ist. <b>Verlustfreie Komprimierung oder sogar unkomprimierte </b>-Dateitypen wie PNG oder TGA bieten eine bessere Qualität als JPG oder DDS.
 * Stellen Sie sicher, dass <b> Ihren Farbmodus richtig einrichtet</b>, je nachdem, ob Sie Farbe, Graustufen oder einen Alphakanal benötigen.
 
@@ -58,7 +58,7 @@ Bitmap-Ressourcen in einem Paket verfügen über eine Reihe von Attributen, die 
 | --- | --- |
 | Kennung | Wird zum Verweisen auf die Bitmapressource in einem Paket verwendet, muss eindeutig sein. |
 | Dateipfad | Der Pfad der Bitmap, auf die die Ressource verweist, auf dem Datenträger. |
-| Beschreibung | Die Beschreibung, die in den Tooltips [Explorer](../../interface/the-explorer-window/the-explorer-window.md) und [Bibliothek](../../interface/the-library/the-library.md) für diese Ressource angezeigt wird. |
+| Beschreibung | Die Beschreibung, die in den Tooltips [Explorer](../../interface/the-explorer-window/the-explorer-window.md) und [Library](../../interface/the-library/the-library.md) für diese Ressource angezeigt wird. |
 | Kategorie | Wird zum [Sortieren und Kuratieren der Ressource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in der [Bibliothek](../../interface/the-library/the-library.md) verwendet. |
 | Label | Wird zum [Sortieren und Kuratieren der Ressource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in der [Bibliothek](../../interface/the-library/the-library.md) verwendet. |
 | Autor | Wird zum [Sortieren und Kuratieren der Ressource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in der [Bibliothek](../../interface/the-library/the-library.md) verwendet. |

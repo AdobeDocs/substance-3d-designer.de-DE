@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/fabric-weathering.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Weiche Struktur", um Verschleiß- und Alterungseffekte auf Basis von Gittergeometrie und Krümmung zu Gewebematerialien hinzuzufügen.
+description: Verwenden Sie den Knoten "Fabric-Verwitterung", um Abnutzungs- und Alterungseffekte auf Basis der Geometrie und Krümmung des Meshs zu Fabric-Materialien hinzuzufügen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Fabric Weathering
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Gewebeverwitterung
+title: Fabric-Verwitterung
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
@@ -18,7 +18,7 @@ ht-degree: 8%
 ---
 
 
-# Gewebeverwitterung
+# Fabric-Verwitterung
 
 <table>
 <tr style="border: 0;">
@@ -33,7 +33,7 @@ ht-degree: 8%
 
 ## Beschreibung
 
-Dies ist ein Vollmaterial-Effekt, der auf mehreren Kanälen gleichzeitig funktioniert. Es fügt einen zufälligen Stoff-Verschleißeffekt hinzu, mit Kontrolle für Alter und Schmutzigkeit.<br>Dieser Effekt funktioniert nur dann sehr gut, wenn Sie die richtigen Baking geführt AO- und Welt-Raum-Normalmaps angeschlossen haben, da diese benötigt werden, um alles entsprechend zu berechnen und zu generieren.
+Dies ist ein Effekt mit vollem Material, der auf mehreren Kanälen gleichzeitig funktioniert. Es fügt einen zufälligen Stoff-Verschleißeffekt hinzu, mit Kontrolle für Alter und Schmutzigkeit.<br>Dieser Effekt funktioniert nur dann sehr gut, wenn Sie die richtigen Baking geführt AO- und Welt-Raum-Normalmaps angeschlossen haben, da diese benötigt werden, um alles entsprechend zu berechnen und zu generieren.
 
 Vergewissern Sie sich, dass Sie die [Link Creation Modes](../../../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) vollständig verstehen, wenn Sie mit vollständigen Materialien arbeiten.
 
@@ -47,7 +47,7 @@ Vergewissern Sie sich, dass Sie die [Link Creation Modes](../../../../../../inte
 
 |  |  |
 |:---|:---|
-| <b>Umgebungs-Verdeckung</b> <i>Graustufen-Eingabe</i> | Durch Baking erzeugte Map für interne Effekte und Maskierung. |
+| <b>Ambient occlusion</b> <i>Graustufen-Eingabe</i> | Durch Baking erzeugte Map für interne Effekte und Maskierung. |
 | <b>Normaler Weltraum</b> <i>Farbeingabe</i> |  |
 | <b>Maske</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. Mit dem Parameter &quot;Maske&quot; umschaltbar. |
 
@@ -57,7 +57,7 @@ Vergewissern Sie sich, dass Sie die [Link Creation Modes](../../../../../../inte
 
 |  |  |
 |:---|:---|
-| <b>Kanäle</b> | Schalten Sie die Materialkanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanzkarten anstelle von &quot;Metallisch/Raueit&quot; verwenden. |
+| <b>Kanäle</b> | Schalten Sie die Material-Kanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanz-Maps anstelle von &quot;Metallic/Rauheit&quot; verwenden. |
 | <b>Erweitert</b> |  |
 | <b>Normales Format</b> <i>DirectX, OpenGL</i> | Wechselt zwischen verschiedenen Normalmap-Formaten (invertiert den grünen Kanal). |
 | <b>Maske</b> <i>False/True</i> | Schaltet die Verwendung der Maskenkarte ein oder aus. |

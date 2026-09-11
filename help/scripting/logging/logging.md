@@ -22,7 +22,7 @@ ht-degree: 4%
 
 Wir empfehlen, das Standard-Protokollierungsmodul von Python für die Protokollierung zu verwenden.
 
-Das <b>sd</b>-Modul enthält Hilfsklassen zum Umleiten der Protokollierung an die Designer-Konsole.
+Das <b>sd</b>-Modul enthält Helfer-Klassen, um die Protokollierung an die Designer-Konsole umzuleiten.
 
 ## An der Designer-Konsolenleiste anmelden
 

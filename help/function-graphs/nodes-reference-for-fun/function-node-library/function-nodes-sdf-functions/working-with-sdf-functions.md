@@ -58,7 +58,7 @@ Dies bedeutet, dass diese Knoten im Kontext von Knoten verwendet werden müssen,
 
 Die Knoten enthalten [Shape-Splatter v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) und [3D-Viewer](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md).
 
-### Das Funktionsdiagramm von Substance
+### Der Substance-Funktions-Graf
 
 SDF-Funktion-Nodes sind für die Verwendung in speziellen Substance-Funktionsgraphen vorgesehen und sind daher nur in diesem Diagrammtyp verfügbar.
 Knotenparameter, die als Funktion ausgedrückt werden sollen, verwenden einen &#39;Edit function&#39;-Button.

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
 breadcrumb-title: ''
-description: Lernen Sie die wichtigsten Konzepte des Substance von Compositing-Graphen kennen, einschließlich Knoten, Verbindungen und Workflow-Grundlagen.
+description: Lernen Sie die wichtigsten Konzepte von Substance-Compositing-Grafen kennen, einschließlich Knoten, Verbindungen und Workflow-Grundlagen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Substance graph key concepts
 helpx_experience_level: ""
@@ -20,21 +20,21 @@ ht-degree: 1%
 
 # Grundlagen zu Substance-Graphen
 
-Auf dieser Seite werden die wichtigen Konzepte zum Arbeiten mit Substance-Graphen in Substance 3D Designer aufgeführt.
+Auf dieser Seite werden die wichtigen Konzepte zum Arbeiten mit Substance-Grafen in Substance 3D Designer aufgeführt.
 
-## Unterdiagramme/Veröffentlichen
+## Sub-Graf/Publishing
 
-[Das Veröffentlichen eines Diagramms](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) oder das Erstellen eines Unterdiagramms sind zwei sehr ähnliche, abstrakte Konzepte. Es bedeutet, dass jedes Diagramm oder Netzwerk von Knoten zusammen &quot;gepackt&quot; und in eine wiederverwendbare, eigenständige Ressource umgewandelt werden kann. Das Erstellen von [Unterdiagrammen](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) erfolgt meist innerhalb der Anwendung, um bestimmte Inhalte in einem effizienten, intelligenten Workflow wiederverwendbar zu machen, da dadurch ein Satz von Knoten nicht immer wieder dupliziert wird. Beim Veröffentlichen ist ein zusätzlicher Schritt zum Exportieren in das Substance 3D-Asset-Format (SBSAR) erforderlich, damit das Knotennetzwerkdiagramm außerhalb der Anwendung verwendet werden kann, z. B. wenn Sie Material für Unreal Engine erstellen.
+[Das Veröffentlichen eines Diagramms](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) oder das Erstellen eines Unterdiagramms sind zwei sehr ähnliche, abstrakte Konzepte. Das bedeutet, dass jeder Graf oder jedes Knotennetzwerk gemeinsam &quot;verpackt&quot; und in eine wiederverwendbare, eigenständige Ressource umgewandelt werden kann. Das Erstellen von [Sub-Graf](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) erfolgt meist innerhalb der Anwendung, um bestimmte Inhalte in einem effizienten, intelligenten Workflow wiederverwendbar zu machen, da dadurch ein wiederholtes Duplizieren einer Knotengruppe vermieden wird. Das Veröffentlichen erfordert einen zusätzlichen Exportschritt im Substance 3D-Asset-Format (SBSAR), damit der Graf des Knotennetzwerks außerhalb der Anwendung verwendet werden kann, z. B. wenn Sie ein Material für Unreal Engine erstellen.
 
-Eingaben, Ausgaben und exponierte Parameter sind für dieses Konzept äußerst wichtig, da sie die einzige Möglichkeit darstellen, um mit dem Graphen zu interagieren, sobald es als Untergraph oder als veröffentlichtes Substance 3D-Element verwendet wird. Die Gründe dafür sind folgende:
+Eingänge, Ausgänge und Freigelegte Parameter sind für dieses Konzept extrem wichtig, da sie die einzigen Möglichkeiten darstellen, um mit dem Graf noch zu interagieren, wenn er als Sub-Graf oder als veröffentlichtes Substance 3D-Element verwendet wird. Die Gründe dafür sind folgende:
 
-* Keine Ausgaben würden bedeuten, dass Ihr Diagramm <b> nichts generiert,</b> überhaupt keine Daten.
-* Keine verfügbar gemachten Parameter bedeuten, dass Ihr Diagramm <b> in keiner Weise angepasst werden kann</b>. Sie können keine Einstellungen vornehmen, wie z. B. die Intensität eines Effekts, die Deckkraft eines Bildes, das überblendet wird, die Farbe eines bestimmten Bereichs usw.
-* &quot;Keine Eingaben&quot; bedeutet, dass Sie in einigen Fällen das Ergebnis eines Diagramms nicht mit <b> Ihren eigenen Bilddaten anpassen könnten</b>, z. B. mit Gittermasken, um Effekte aus einem Graphen zu generieren, mit einem Eingabebild, um eine Weichzeichnung auszuführen, oder mit einer benutzerdefinierten Maske, um bestimmte Bereiche eines Bildes zu isolieren.
+* Keine Ausgaben würden bedeuten, dass der Graf <b> nichts generiert,</b> überhaupt keine Daten.
+* Keine freigelegte Parameter bedeutet, dass Ihr Graf <b> in keiner Weise angepasst werden kann</b>. Sie können keine Einstellungen vornehmen, wie z. B. die Intensität eines Effekts, die Deckkraft eines Bildes, das überblendet wird, die Farbe eines bestimmten Bereichs usw.
+* &quot;Keine Eingaben&quot; bedeutet, dass Sie in einigen Fällen das Ergebnis eines Grafen nicht mit <b> Ihren eigenen Bilddaten anpassen könnten</b>, z. B. mit Baking geführt Mesh-Map, um Effekte zu erzeugen, mit einem Eingabebild, um einen Weichzeichner auszuführen, oder mit einer benutzerdefinierten Maske, um bestimmte Bildbereiche zu isolieren.
 
 ## Ein- und Ausgänge
 
-Eine [Ausgabe](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) ist ein Knoten, der ein einzelnes 2D-Ergebnis generiert. Es ist ein Endpunkt, ein Endpunkt für Ihr Diagramm, ein fertiges Ergebnis. Nur Daten, die mit einer Ausgabe verbunden sind, können außerhalb von Designer exportiert oder sogar in anderen Diagrammen verwendet werden.
+Eine [Ausgabe](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) ist ein Knoten, der ein einzelnes 2D-Ergebnis generiert. Es ist ein Endpunkt, ein Endpunkt für Ihren Graf, ein fertiges Ergebnis. Nur Daten, die mit einer Ausgabe verbunden sind, können außerhalb von Designer exportiert oder sogar in anderen Grafen verwendet werden.
 
 Im Folgenden finden Sie einige Dinge, die Sie über Ausgaben wissen sollten:
 
@@ -43,7 +43,7 @@ Im Folgenden finden Sie einige Dinge, die Sie über Ausgaben wissen sollten:
 * Die Ausgaben können und sollten <b>eindeutig benannt</b> sein, um sie zu identifizieren. Dies ist beim Exportieren hilfreich.
 * Jeder Connector auf der rechten Seite eines Knotens ist tatsächlich ein Output (siehe &quot;Sub-Graphen für weitere Informationen)
 
-Eine [Eingabe](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) ähnelt einer Ausgabe. Es handelt sich um einen leeren, offenen Steckplatz, mit dem Sie oder ein anderer Benutzer Ihre eigenen Daten verbinden können. Es ermöglicht die Erstellung eines Graphen, der in externen, benutzerdefinierten Bilddaten enthalten ist, z. B. ein Filter, der ein Eingabebild ändert (z. B. eine Weichzeichnungs- oder eine Kontrastkorrektur).
+Eine [Eingabe](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) ähnelt einer Ausgabe. Es handelt sich um einen leeren, offenen Steckplatz, mit dem Sie oder ein anderer Benutzer Ihre eigenen Daten verbinden können. Es ermöglicht die Erstellung von Graf, der in externen, benutzerdefinierten Bilddaten enthalten ist, z. B. ein Filter, der ein Eingabebild verändert (z. B. eine Weichzeichnungs- oder eine Kontrastkorrektur).
 
 Im Folgenden finden Sie einige Dinge, die Sie über Eingaben wissen sollten:
 
@@ -56,8 +56,8 @@ Im Folgenden finden Sie einige Dinge, die Sie über Eingaben wissen sollten:
 
 Wenn Bilder und Werte von Knoten an andere übergeben werden, werden einige *Attribute* dieser Bilder - d. h. ihre <b>Basisparameter</b> - ebenfalls *im Diagramm weitergegeben*, z. B. Auflösung, Präzision (d. h. Bittiefe), Unterteilung und Zufallswert.
 
-Diese Weitergabe wird durch die [Vererbungsmethoden](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) definiert, die jeder Knoten für diese Attribute anwendet. Knoten können *Attribute* von anderen Knoten oder dem Diagramm erben, in dem sie vorhanden sind.\
-Die Vererbungsmethoden können wie folgt lauten:
+Diese Weitergabe wird durch die [Vererbung-Methoden &#x200B;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) definiert, die jeder Knoten für diese Attribute anwendet. Knoten können *Attribute* von anderen Knoten oder dem Diagramm erben, in dem sie vorhanden sind.\
+Die Vererbung kann wie folgt erfolgen:
 
 * *Relativ zu übergeordnetem Element*
 * *Relativ zur Eingabe*
@@ -67,7 +67,7 @@ Die Vererbung kann abstrakt und schwierig zu verwalten sein. Daher wird dringend
 
 ## Parameter offenlegen
 
-Das Verfügbarmachen von Parametern kann sehr ausführlich sein. Es kann aber auch so zusammengefasst werden, dass bestimmte Eigenschaften von Knoten in Ihrem Diagramm ausgewählt und ein dediziertes UI-Steuerelement für sie erstellt werden, das einfach verfügbar ist, wenn das Diagramm als Unterdiagramm verwendet oder als Archiv veröffentlicht wurde. Da Sie Knoten nicht mehr schnell oder einfach auswählen und ihre Eigenschaften optimieren können, besteht das Ziel darin, ein weiteres primäres Steuerungsfenster zu erstellen, in dem alle für dieses spezifische Diagramm relevanten Eigenschaften gruppiert werden.
+Das Verfügbarmachen von Parametern kann sehr ausführlich sein. Es kann aber auch so zusammengefasst werden, dass bestimmte Eigenschaften von Knoten in Ihrem Diagramm ausgewählt und ein dediziertes UI-Steuerelement für sie erstellt werden, das einfach verfügbar ist, wenn das Diagramm als Unterdiagramm verwendet oder als Archiv veröffentlicht wurde. Da Sie Knoten nicht mehr schnell oder einfach auswählen und ihre Eigenschaften optimieren können, besteht das Ziel darin, ein weiteres primäres Steuerungsfenster zu erstellen, in dem alle Eigenschaften gruppiert werden, die für diesen bestimmten Graf relevant sind.
 
 Hier sind einige Dinge, die Sie über exponierte Parameter wissen sollten:
 

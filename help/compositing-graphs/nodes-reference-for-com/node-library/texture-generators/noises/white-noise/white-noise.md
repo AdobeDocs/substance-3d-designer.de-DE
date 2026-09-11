@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Weißes Rauschen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Weiße Rauschen - Symbol](../../../../../../assets/white_noise_v2.png "Weiße Rauschen - Symbol"){width="200px"}
+![Weiße Rauschen - Symbol](white-noise.resources/white_noise_v2.png "Weiße Rauschen - Symbol"){width="200px"}
 
 <b>In:</b> Texturgeneratoren > Rauschen
 
@@ -63,12 +63,12 @@ Erzeugt eine weiße Rauschen mit einer von drei Methoden, die auf verschiedene H
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![White Rauschen - Beispiel 1](../../../../../../assets/white_noise_v2_1.png "White Rauschen - Beispiel 1"){zoomable="yes"}
+![White Rauschen - Beispiel 1](white-noise.resources/white_noise_v2_1.png "White Rauschen - Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![White Rauschen - Beispiel 2](../../../../../../assets/white_noise_v2_speed0.6_aniso0.gif "White Rauschen - Beispiel 2"){zoomable="yes"}
+![White Rauschen - Beispiel 2](white-noise.resources/white_noise_v2_speed0.6_aniso0.gif "White Rauschen - Beispiel 2"){zoomable="yes"}
 
 </td>
 </tr>

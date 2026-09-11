@@ -50,7 +50,7 @@ Dieser Knoten kann in Kombination mit den folgenden Knoten verwendet werden: [Fa
 |  |  |
 |:---|:---|
 | <b>Palette</b> <i>Farbe</i> PRIMÄR | Eine geordnete Liste von RGB-Farben, die als Pixelzeile codiert sind. Die Palette kann maximal 256 Farben enthalten.   Diese Eingabe ist optional. Wenn sie verwendet wird, werden die vom Knoten eingerichteten Farben an diese Palette angehängt.   Die Palette kann mit dem Knoten [Farbpalette anzeigen](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) angezeigt werden. |
-| <b>Farbmenge der Palette</b> <i>Integer</i> | Die Menge der in der Palette gespeicherten Farben.   Wenn diese Zahl nicht mit der tatsächlichen Farbmenge in der Bildeingabe der Palette übereinstimmt, ist die Visualisierung möglicherweise unvollständig oder weist mehr leere Steckplätze auf als unbedingt erforderlich. |
+| <b>Farbmenge der Palette</b> <i>Ganzzahl</i> | Die Menge der in der Palette gespeicherten Farben.   Wenn diese Zahl nicht mit der tatsächlichen Farbmenge in der Bildeingabe der Palette übereinstimmt, ist die Visualisierung möglicherweise unvollständig oder weist mehr leere Steckplätze auf als unbedingt erforderlich. |
 
 <a name="outputs"></a>
 
@@ -59,7 +59,7 @@ Dieser Knoten kann in Kombination mit den folgenden Knoten verwendet werden: [Fa
 |  |  |
 |:---|:---|
 | <b>Palette</b> <i>Farbe</i> | Die aktualisierte Palette, an die die angegebenen Farben angehängt wurden. |
-| <b>Farbmenge der Palette</b> <i>Integer</i> | Die aktualisierte Anzahl von Farben, die in der Palette gespeichert sind, wobei die angegebene Anzahl von Farben hinzugefügt wird. |
+| <b>Farbmenge der Palette</b> <i>Ganzzahl</i> | Die aktualisierte Anzahl von Farben, die in der Palette gespeichert sind, wobei die angegebene Anzahl von Farben hinzugefügt wird. |
 
 <a name="parameters"></a>
 

@@ -1,6 +1,6 @@
 ---
 title: Verschiebung
-description: Designer > Substance von Compositing-Graphen > Knotenreferenz für Substance-Compositing-Graphen > Knotenbibliothek > SDF-Funktion > Transformieren > Offset
+description: Designer > Substance-Compositing-Graf > Knotenreferenz für Substance-Compositing-Graf > Knotenbibliothek > SDF-Funktion > Transformieren > Offset
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '84'
@@ -34,6 +34,6 @@ Versatz einer SDF-Form entlang eines Vektors.
 
 |  |  |
 | :--- | :--- |
-| <b>SDF</b> *Gleitend* | Die Eingabe-SDF-Form. |
-| <b>Offset</b> *Float3* | Der Abstand der SDF-Form wird in X-, Y-, Z-Richtungen versetzt.<br><br><i>Standard: (0, 0, 0)</i> |
-| <b>P</b> *Float3* | Die veränderte Weltraumposition. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die nicht transformierte Weltraumposition.</i> |
+| <b>SDF</b> *Fließkommazahl* | Die Eingabe-SDF-Form. |
+| <b>Offset</b> *Fließkommazahl3* | Der Abstand der SDF-Form wird in X-, Y-, Z-Richtungen versetzt.<br><br><i>Standard: (0, 0, 0)</i> |
+| <b>P</b> *Fließkommazahl3* | Die transformieren Position des Welt-Raums. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die Position des nicht transformierten Welt-Raums.</i> |

@@ -40,8 +40,8 @@ Diese Farbe kann dann für alle verstreuten SDF-Formen in der *SDF color*-Ausgab
 
 |                            |                                  |
 |----------------------------|----------------------------------|
-| <b>SDF-Szene</b> *Gleitend* | Die Eingabe-SDF-Szene. |
-| <b>Grundfarbe</b> *Float3* | Der festzulegende RGB-Grundfarbwert. |
+| <b>SDF-Szene</b> *Fließkommazahl* | Die Eingabe-SDF-Szene. |
+| <b>Grundfarbe</b> *Fließkommazahl3* | Der festzulegende Wert für die RGB-Grundfarbe. |
 
 
 

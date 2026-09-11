@@ -178,19 +178,19 @@ Im Folgenden finden Sie unsere Videotutorials zu den neuen Funktionen:
 * [Python-API] Hinzufügen einiger Farbkonvertierungsmethoden zu SDColorManagementEngine
 * [Python API] Löschen von Kommentarobjekten (Grafen, Nadeln, Rahmen, ...)
 * [Python API] Gelegt Physische Größe-Eigenschaft für Grapheninstanz-Knoten
-* [Python API] Verfügbarmachen und Speichern einer Kopie als
+* [Python-API] Gelegt Speichern einer Kopie als
 * [Python-API] SDPackageMgr.savePackage-Methode reparieren
-* [Python API] Liste der ausgewählten Diagrammobjekte abrufen
-* [Python-API] Einführung neuer Methodennamen für die Arbeit mit Diagrammauswahlen
-* [Python-API] Plug-ins können dem zuerst erstellten Explorer-Bedienfeld keine Aktionen hinzufügen
+* [Python-API] Liste der ausgewählten Graf-Objekte abrufen
+* [Python-API] Einführung neuer Methodennamen für die Arbeit mit der Auswahl von Grafen
+* [Python-API] Plug-ins können dem zuerst erstellten Bedienfeld &quot;Explorer&quot; keine Aktionen hinzufügen
 
 **Fest:**
 
-* [Parameter] Negative Werte bei Dropdown-Integer1-Parametern führen zu inkongruentem Verhalten in der Instanz
+* [Parameter] Negative Werte bei Dropdown-Parametern von Ganzzahl1 führen zu inkongruentem Verhalten in der Instanz.
 * [Parameter] Problem beim Erhöhen eines Werts auf einem Winkel-Widget
-* [Graph] Timing-Probleme bei der Anzeige der Ausgabe in der 2D- oder 3D-Ansicht.
-* [Internationalisierung] Einige bestimmte Zeichen werden in Leerzeichen in Dateikennungen geändert.
-* [Voreinstellungen] Die Dateibezeichnung &quot;Benutzerprojekt&quot; wird nicht aus dem Japanischen zurückübersetzt
+* [Graf] Zeitprobleme bei der Anzeige der Ausgabe in der 2D- oder 3D-Ansicht.
+* [Internationalisierung] Einige bestimmte Zeichen werden in Identifizierungen in Leerzeichen konvertiert.
+* [Voreinstellungen] Die Dateibezeichnung &quot;Benutzerprojekt&quot; wird nicht aus dem Japanischen Kamera bewogen
 * [Python-API] RecursionError beim Ausführen der SDUIMgr.getCurrentGraphSelectedNodes()-Methode
 * [Python-API] SDApplication.getPath(SDApplicationPath.InstallationDir) gibt nichts zurück.
 * [Python-API] SDSBSARExporter sendet keine Benachrichtigungen zum Speichern von Dateien

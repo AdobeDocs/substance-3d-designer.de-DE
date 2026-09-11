@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/fxmaps/how-it-works.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie FXMaps in Substance 3D Designer funktionieren, um Funktionsdiagramme auf Texturen anzuwenden und prozedurale Effekte zu erzielen.
+description: Erfahren Sie, wie FXMaps in Substance 3D Designer funktionieren, um Funktionseffekte auf Texturen anzuwenden und prozedurale Graf zu erzielen.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > FXMaps > How it works
 helpx_experience_level: ""
@@ -20,11 +20,11 @@ ht-degree: 2%
 
 # So geht‘s
 
-Um diese leistungsstarke Funktion zu beherrschen, ist es wichtig zu wissen, wie ein FX-Map-Diagramm funktioniert.
+Um diese leistungsstarke Funktion zu beherrschen, ist es wichtig zu wissen, wie ein FX-Map-Graf funktioniert.
 
-Ein FX-Map-Diagramm kann einen oder mehrere der drei FX-Map-Knotentypen enthalten: Quadrant, Iterate und Switch. Der Knoten, den Sie am häufigsten verwenden werden, ist der Quadrant, mit dem Knoten &quot;Iterieren&quot; (Iterate), eine knappe Sekunde.
+Ein FX-Map-Graf kann einen oder mehrere der drei FX-Map-Knotentypen enthalten: Quadrant, Iterate und Switch. Der Knoten, den Sie am häufigsten verwenden werden, ist der Quadrant, mit dem Knoten &quot;Iterieren&quot; (Iterate), eine knappe Sekunde.
 
-Der Knoten &quot;Parametersatz&quot; ist der Hauptbeweger von FX-Maps. Es erstellt das Kernbereich-Quad-Tree-Diagramm, auf das sich FX-Maps verlassen, aber es wird nicht als eins angezeigt. Visuell ist das Quad-Tree-Diagramm in Form einer Markov-Kette dargestellt.
+Der Knoten &quot;Parametersatz&quot; ist der Hauptbeweger von FX-Maps. Es erstellt den Kernbereich, auf den sich der Quad-Tree-Graf &quot;FX-Maps&quot; stützt, wird jedoch nicht als ein solches angezeigt. Visuell ist der Quad-Tree-Graf in Form einer Markov-Kette dargestellt.
 
 Beim Rendern der FX-Map wird das vereinfachte FX-Map-Diagramm so &quot;ausgepackt&quot;, dass es wie das große baumartige Diagramm aussieht. Die Maschine &quot;geht&quot; den gesamten Quad-Baum, arbeitet von oben nach unten, dann von links nach rechts.
 

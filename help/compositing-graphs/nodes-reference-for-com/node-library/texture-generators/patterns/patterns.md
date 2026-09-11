@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Muster sind künstliche Grafiken, die künstlich oder künstlich wirken. Meist befolgen sie Regeln für ihre Platzierung, aber zufällige Schwankungen können die meiste Zeit eingeführt werden.
 
-Sie sind nützlich, wenn Sie ein regelmäßiges Muster als Grundlage wünschen, wie z. B. Ziegel, Kacheln, gewebte Muster usw.
+Sie sind nützlich, wenn Sie ein regelmäßiges Muster als Grundlage verwenden möchten, z. B. Ziegel, Kacheln, Webmuster usw.
 
 Fast alle Muster sind perfekt kachelbar und auflösungsunabhängig, d. h., Sie können sie ohne Qualitätsverlust neu skalieren.
 

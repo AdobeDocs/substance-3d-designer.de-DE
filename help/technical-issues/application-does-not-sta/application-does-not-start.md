@@ -88,7 +88,7 @@ Wenn ein Upgrade auf Windows 10 nicht möglich ist, *aktualisieren Sie* Ihre Ins
 
 <b>![(Fehler)](../../assets/error.svg) Problem</b>
 
-Absturz beim Schließen des Startbildschirms und Anzeigen des Hauptfensters.
+Absturz beim Schließen des Startbildschirms und beim Anzeigen des Hauptfensters.
 
 <b>![(tick)](../../assets/check.svg) Empfohlene Schritte</b>
 
@@ -125,7 +125,7 @@ Die Steam-Edition von Designer kann nicht gestartet werden und gibt keine Fehler
 
 Sie können Fehlermeldungen erhalten, indem Sie stattdessen die Steam-Anwendung protokollieren.
 
-Wie empfohlen [hier](https://github.com/ValveSoftware/steam-for-linux/issues/7114#issuecomment-629634260), schließen Sie Steam vollständig und führen Sie dann den folgenden Befehl von einem Terminal aus (oder erstellen Sie eine Verknüpfung für diesen Befehl):
+Schließen Sie Steam wie empfohlen [hier](https://github.com/ValveSoftware/steam-for-linux/issues/7114#issuecomment-629634260) vollständig, und führen Sie dann den folgenden Befehl von einem Terminal aus (oder erstellen Sie einen Tastaturbefehl für diesen Befehl):
 
 ```
 steam 2>&1 | tee /path/to/logfile

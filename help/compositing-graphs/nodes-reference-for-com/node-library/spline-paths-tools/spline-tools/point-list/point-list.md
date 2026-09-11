@@ -84,8 +84,8 @@ Wenn eine vorhandene Punktliste an die <b>Point</b>-Eingaben übergeben wird, wi
 | <b>Vorschau</b> |  |
 | <b>Beschriftungen anzeigen</b> <i>Boolescher Wert</i> | Zeigt für jeden Punkt den Namen des Punkts daneben in der Vorschau an. |
 | <b>Labelgröße</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Beschriftungen anzeigen&quot; auf &quot;Wahr&quot; festgelegt ist) | Die Größe des Labels für jeden Punkt im Texturraum, wobei 0,1 ein Zehntel der Texturbreite ist. |
-| <b>Punkte anzeigen</b> <i>Boolescher Wert</i> | Zeigt die Punkte in der Vorschau an. |
-| <b>Punktgröße</b> <i>Float</i> (verfügbar, wenn &quot;Punkte anzeigen&quot; auf &quot;Wahr&quot; festgelegt ist) | Der Radius der Punkte im Texturraum, wobei 0,1 ein Zehntel der Texturbreite beträgt. |
+| <b>Punkte anzeigen</b> <i>Boolesche Wert</i> | Zeigt die Punkte in der Vorschau an. |
+| <b>Punktgröße</b> <i>Fließkommazahl</i> (verfügbar, wenn &quot;Punkte anzeigen&quot; auf &quot;Wahr&quot; festgelegt ist) | Der Radius der Punkte im Breitenraum, wobei 0,1 ein Zehntel der Textur der Textur ist. |
 
 ## Beispiele
 

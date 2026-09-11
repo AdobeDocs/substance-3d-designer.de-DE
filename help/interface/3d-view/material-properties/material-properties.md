@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/3d-view/material-properties.html"
 breadcrumb-title: ''
-description: Konfigurieren Sie Materialeigenschaften in der 3D-Ansicht, um eine Vorschau anzuzeigen und anzupassen, wie Ihre Substance-Materialien auf 3D-Objekten angezeigt werden.
+description: Konfigurieren Sie die Material-Eigenschaften in der 3D-Ansicht, um eine Vorschau anzuzeigen und anzupassen, wie Ihre Substance-Materials auf 3D-Objekten angezeigt werden.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D View > Material properties
 helpx_experience_level: ""
@@ -34,15 +34,15 @@ Designer verwendet standardmäßig das [OpenPBR](https://academysoftwarefoundati
 
 Die standardmäßigen [Graphvorlagen](../../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md#graph-templates) und die [Materialproben](../../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md#material-samples), die in Designer enthalten sind, basieren alle auf dem OpenPBR-Modell.
 
-Die Eigenschaften dieses Shaders folgen dem [OpenPBR-Parameterverweis](https://academysoftwarefoundation.github.io/OpenPBR/#parameterreference) und sind *für den Rasterbildner freigegeben*.
+Die Eigenschaften dieses Shader folgen dem [OpenPBR-Parameterverweis](https://academysoftwarefoundation.github.io/OpenPBR/#parameterreference) und sind *für den Rasterbildner freigegeben*.
 GPU-Pathtracer- und OpenGL [3D-Renderer &#x200B;](../3d-renderers/3d-renderers.md).
 
 +++ UVs
 
 | Parameter | Typ | Standard | Beschreibung |
 |---------------------------------|---------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Kacheln | Float | 1.0 | Die Anzahl der Texturwiederholungen in einer UV-Zelle, wobei ein höherer Wert <br/> zu mehr Texturwiederholungen führt. |
-| Physische Größe aus Graphen aktivieren | Boolescher Wert | Falsch | Passen Sie die Kachelung automatisch entsprechend der [Physische Größe](../../../compositing-graphs/graph-parameters/graph-parameters.md)<br/> des Diagramms an, um das Material in der entsprechenden Skala darzustellen. |
+| Kacheln | Float | 1.0 | Die Anzahl der Zellwiederholungen in einer UV-Textur, wobei ein höherer Wert <br/> zu mehr Zellwiederholungen in der Textur führt. |
+| Physische Größe aus Graphen aktivieren | Boolescher Wert | Falsch | Passen Sie die Kachelung automatisch entsprechend der [Physische Größe](../../../compositing-graphs/graph-parameters/graph-parameters.md)<br/> des Grafen an, um das Material in der entsprechenden Skala darzustellen. |
 | UV-Skala | Float2 | 1.0, 1.0 | Passt die Skalierung der Unterteilung um einen separaten Faktor für U und V an, wobei ein <br/>höherer Wert zu mehr Texturwiederholungen führt. |
 
 +++
@@ -52,9 +52,9 @@ GPU-Pathtracer- und OpenGL [3D-Renderer &#x200B;](../3d-renderers/3d-renderers.m
 | Parameter | Typ | Standard | Beschreibung |
 |-------------------|--------------|---------------|-------------------------------------------------------------------------------------------------------|
 | Stärke | Float | 1.0 | Multiplikator für die Intensität der Reflexion von der diffusen und metallischen Basis. |
-| Color | Float3 (RGB) | 0.8, 0.8, 0.8 | Farbe der Reflexion von der diffusen und metallischen Basis. |
-| Metallisch | Float | 0.0 | Legt fest, wie metallisch das Basismaterial erscheint. (Wählt die Basis vom reinen Dielektrikum zum reinen Metall) |
-| Diffuse Rauheit | Float | 0.0 | Raueit der diffusen Reflexion. Höhere Werte führen dazu, dass die Oberfläche flacher erscheint. |
+| Color | Fließkommazahl3 (RGB) | 0.8, 0.8, 0.8 | Farbe der Reflexion von der diffusen und metallischen Basis. |
+| Metallisch | Float | 0.0 | Legt fest, wie metallic das Basismaterial angezeigt wird. (Wählt die Basis vom reinen Dielektrikum zum reinen Metall) |
+| Diffuse Rauheit | Float | 0.0 | Rauheit der diffusen Reflexion. Höhere Werte führen dazu, dass die Oberfläche flacher erscheint. |
 
 +++
 
@@ -63,9 +63,9 @@ GPU-Pathtracer- und OpenGL [3D-Renderer &#x200B;](../3d-renderers/3d-renderers.m
 | Parameter | Typ | Standard | Beschreibung |
 |------------|--------------|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Stärke | Float | 1.0 | Multipliziert die Glanzlichtreflexion. |
-| Color | Float3 (RGB) | 1.0, 1.0, 1.0 | Die Farbe der Specular-Reflexion. (Steuert den physischen Kantenfarbton für Metalle,<br/>, und einen nicht physischen Gesamtfarbton für Dielektrika.) |
-| Rauheit | Float | 0.3 | Die Raueit der Specular-Reflexion. Niedrigere Zahlen erzeugen schärfere<br/> Reflexionen, höhere Zahlen erzeugen unschärfere Reflexionen. |
-| Anisotropie | Float | 0.0 | Die Richtungsvorspannung der Rauhigkeit der metallischen/dielektrischen Basis, die <br/> in zunehmend gestreckten Glanzlichtern entlang der Tangentenrichtung resultiert. |
+| Color | Fließkommazahl3 (RGB) | 1.0, 1.0, 1.0 | Die Farbe der Specular-Reflexion. (Steuert den physischen Kantenfarbton für Metalle,<br/>, und einen nicht physischen Gesamtfarbton für Dielektrika.) |
+| Rauheit | Float | 0.3 | Die Rauheit der Specular-Reflexion. Niedrigere Zahlen erzeugen schärfere<br/> Reflexionen, höhere Zahlen erzeugen unschärfere Reflexionen. |
+| Anisotropie | Float | 0.0 | Die Richtungsvorspannung der Rauheit der metallischen/dielektrischen Unterlage, die zu zunehmend gedehnt Glanzlichtern entlang der Tangente führt.<br/> |
 | IOR | Float | 1.5 | Brechungsindex der dielektrischen Basis. |
 
 +++
@@ -75,9 +75,9 @@ GPU-Pathtracer- und OpenGL [3D-Renderer &#x200B;](../3d-renderers/3d-renderers.m
 | Parameter | Typ | Standard | Beschreibung |
 |------------------|--------------|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Stärke | Float | 0.0 | Mischungsgewicht zwischen der transparenten und der opaken dielektrischen Basis.<br/>Je größer der Wert ist, desto transparenter ist das Material. |
-| Color | Float3 (RGB) | 1.0, 1.0, 1.0 | Steuert die Farbe der durchsichtigen Basis aufgrund der volumetrischen <br/>Absorption des Biergesetzes unter der Oberfläche. |
+| Color | Fließkommazahl3 (RGB) | 1.0, 1.0, 1.0 | Steuert die Farbe der durchsichtigen Basis aufgrund der volumetrischen <br/>Absorption des Biergesetzes unter der Oberfläche. |
 | Tiefe | Float | 0.0 | Gibt die Entfernung an, die das Licht innerhalb der transparenten Basis zurücklegt, bevor es nach Biergesetz genau zu `transmission_color` wird.<br/> |
-| Streuung | Float3 (RGB) | 0.0, 0.0, 0.0 | Steuert die Farbe des in der transparenten Basis volumetrisch gestreuten Lichts. |
+| Streuung | Fließkommazahl3 (RGB) | 0.0, 0.0, 0.0 | Steuert die Farbe des in der transparenten Basis volumetrisch gestreuten Lichts. |
 | Anisotropie | Float | 0.0 | Der Betrag der Richtungsvorspannung (Anisotropie) der volumetrischen Streuung <br/> in der durchsichtigen Grundfläche. |
 | Streuungsskala | Float | 0.0 | Skaliert linear die Stärke der Streuung. |
 | Abbe-Nummer | Float | 20.0 | Physikalische Abbe-Nummer des dielektrischen Mediums, die beschreibt, wie viel<br/>der dielektrische Brechungsindex über Wellenlängen variiert. |
@@ -88,11 +88,11 @@ GPU-Pathtracer- und OpenGL [3D-Renderer &#x200B;](../3d-renderers/3d-renderers.m
 
 | Parameter | Typ | Standard | Beschreibung |
 |--------------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Stärke | Float | 0.0 | Mischungsgewicht, das die undurchsichtige dielektrische Basis zwischen <br/>diffuser Reflexion und Untergrundstreuung wählt. |
-| Color | Float3 (RGB) | 0.8, 0.8, 0.8 | Die beobachtete Reflexionsfarbe des Volumenstreuungs-Mediums. |
+| Stärke | Float | 0.0 | Mischungsgewicht, das die undurchsichtige dielektrische Basis zwischen <br/>diffuser Reflexion und Volumenstreuung wählt. |
+| Color | Fließkommazahl3 (RGB) | 0.8, 0.8, 0.8 | Die beobachtete Reflexionsfarbe des Volumenstreuungs-Mediums. |
 | Radius | Float | 1.0 | Längenskala der Volumenstreuung des Mittelwertes des freien Pfads. |
-| Radiusskala | Float3 (RGB) | 1.0, 0.5, 0.25 | RGB-Multiplikator auf subsurface_radius, wobei die Streuung pro Kanal <br/>mittlere freie Pfade ergibt. |
-| Anisotropie | Float | 0.0 | Steuert die Phasenfunktion der Volumenstreuung, bei der Null-<br/>Streuungen gleichmäßig leuchten, positive Werte vorwärts und negative<br/>Werte rückwärts Streuungen. |
+| Radiusskala | Fließkommazahl3 (RGB) | 1.0, 0.5, 0.25 | RGB-Multiplikator auf subsurface_radius, wobei die Streuung pro Kanal <br/>mittlere freie Pfade ergibt. |
+| Anisotropie | Float | 0.0 | Steuert die Phasenfunktion der Volumenstreuung, bei der Null-<br/>-Streuungen gleichmäßig leuchten, positive Werte vorwärts und negative<br/>-Werte rückwärts Streuung werden. |
 
 +++
 
@@ -100,10 +100,10 @@ GPU-Pathtracer- und OpenGL [3D-Renderer &#x200B;](../3d-renderers/3d-renderers.m
 
 | Parameter | Typ | Standard | Beschreibung |
 |------------|--------------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Stärke | Float | 0.0 | Das Präsenzgewicht einer reflektierenden Klarlackschicht auf dem Material.<br/>Verwenden Sie diese Option für Materialien wie Autolack oder eine Ölschicht. |
-| Color | Float3 (RGB) | 1.0, 1.0, 1.0 | Die Farbe der Transparenzschicht bedingt durch die Absorption in der Beschichtung. |
-| Rauheit | Float | 0.0 | Die Raueit der Klarlack-Reflexionen.<br/>Je niedriger der Wert, desto schärfer die Spiegelung. |
-| Anisotropie | Float | 0.0 | Die Richtungsvorspannung der Rauhigkeit der Klarlackschicht,<br/>, was zu zunehmend gedehnten Glanzlichtern entlang der Manteltangentenrichtung führt. |
+| Stärke | Float | 0.0 | Das Anwesenheitsgewicht einer reflektierenden Klarlackschicht auf dem Material.<br/>Verwenden Sie diese Option für Material wie Malen oder eine Ölschicht. |
+| Color | Fließkommazahl3 (RGB) | 1.0, 1.0, 1.0 | Die Farbe der Transparenzschicht bedingt durch die Absorption in der Beschichtung. |
+| Rauheit | Float | 0.0 | Die Rauheit der Klarlack-Reflexionen.<br/>Je niedriger der Wert, desto schärfer die Spiegelung. |
+| Anisotropie | Float | 0.0 | Die Richtungsabweichung der Rauheit der Klarlackschicht,<br/>, was zu zunehmend gedehnt Glanzlichtern entlang der Tangente der Beschichtung führt. |
 | IOR | Float | 1.6 | Der Brechungsindex der Transparenzschicht. |
 | Abdunkeln | Float | 1.0 | Moduliert den physikalischen Effekt der Schichtabdunkelung. |
 
@@ -114,7 +114,7 @@ GPU-Pathtracer- und OpenGL [3D-Renderer &#x200B;](../3d-renderers/3d-renderers.m
 | Parameter | Typ | Standard | Beschreibung |
 |-----------|--------------|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | Stärke | Float | 1.0 | Das Anwesenheitsgewicht einer Fuzz-Schicht, die zur Näherung von Mikrofasern verwendet werden kann,<br/>für Gewebe wie Samt und Satin sowie für Körner aus Dust. |
-| Color | Float3 (RGB) | 1.0, 1.0, 1.0 | Die Farbe der Fuzz-Ebene. |
+| Color | Fließkommazahl3 (RGB) | 1.0, 1.0, 1.0 | Die Farbe der Fuzz-Ebene. |
 | Rauheit | Float | 0.5 | Die Rauheit der Fuzz-Ebene. |
 
 +++
@@ -124,7 +124,7 @@ GPU-Pathtracer- und OpenGL [3D-Renderer &#x200B;](../3d-renderers/3d-renderers.m
 | Parameter | Typ | Standard | Beschreibung |
 |-----------|--------------|---------------|------------------------------------------------------|
 | Luminanz | Float | 0.0 | Die Stärke des ausgestrahlten Lichts, als Luminanz in Nits. |
-| Color | Float3 (RGB) | 1.0, 0.0, 0.0 | Die Farbe des ausgestrahlten Lichts. |
+| Color | Fließkommazahl3 (RGB) | 1.0, 0.0, 0.0 | Die Farbe des ausgestrahlten Lichts. |
 
 +++
 
@@ -132,7 +132,7 @@ GPU-Pathtracer- und OpenGL [3D-Renderer &#x200B;](../3d-renderers/3d-renderers.m
 
 | Parameter | Typ | Standard | Beschreibung |
 |-----------|-------|---------|-------------------------------------------------------------------------------------------------------|
-| Stärke | Float | 0.0 | Deckungsgewicht der Dünnschicht.<br/>Verwendung für Materialien wie mehrfarbige Autolacke oder Seifenblasen. |
+| Stärke | Float | 0.0 | Deckungsgewicht der Dünnschicht.<br/>Für Material wie mehrfarbiges Malen oder Seifenblasen verwenden. |
 | Stärke | Float | 0.5 | Die Thickness der Dünnfilmschicht auf der Unterlage. (in Mikrometern) |
 | IOR | Float | 1.4 | Der Brechungsindex des Dünnfilms. |
 
@@ -144,21 +144,21 @@ GPU-Pathtracer- und OpenGL [3D-Renderer &#x200B;](../3d-renderers/3d-renderers.m
 |-------------------|--------------|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Deckkraft | Float | 1.0 | Die Deckkraft des gesamten Materials. |
 | Dünnwandig | Boolescher Wert | Falsch | Wenn dieser Wert wahr ist, ist die Oberfläche doppelseitig und stellt eine unendlich dünne Schale dar.<br/>Geeignet für extrem geometrisch dünne Objekte wie Blätter oder Papier. |
-| Normale | Float3 (RGB) | 0.5, 0.5, 1.0 | Eingabe der geometrischen Normale für die Fläche. |
-| Tangent | Float3 (RGB) | 1.0, 0.5, 0.0 | Eingabe der geometrischen Tangente. |
-| Beschichtungs-Normale | Float3 (RGB) | 0.5, 0.5, 1.0 | Eingabe der Normalen für die Beschichtungsebene. |
-| Beschichtungs-Tangente | Float3 (RGB) | 1.0, 0.5, 0.0 | Eingabe der geometrischen Tangente für die Beschichtungsebene. |
+| Normale | Fließkommazahl3 (RGB) | 0.5, 0.5, 1.0 | Eingabe der geometrischen Normale für die Fläche. |
+| Tangent | Fließkommazahl3 (RGB) | 1.0, 0.5, 0.0 | Eingabe der geometrischen Tangente. |
+| Beschichtungs-Normale | Fließkommazahl3 (RGB) | 0.5, 0.5, 1.0 | Eingabe der Normalen für die Beschichtungsebene. |
+| Beschichtungs-Tangente | Fließkommazahl3 (RGB) | 1.0, 0.5, 0.0 | Eingabe der geometrischen Tangente für die Beschichtungsebene. |
 | Höhe | Float | 0.5 | Versatz (bzw. Bump) in der Normalenrichtung.<br/>Wenn das Height der Ebene des Heights entspricht, ist kein Versatz vorhanden.<br/>Versatz ist eine skalare Änderung der Oberflächenposition in Richtung einer ungestörten, <br/>vermischten Normalfläche.<br/>In Fällen, in denen der tesselierte Versatz nicht möglich oder erwünscht ist, kann das <br/>Height als Bumpmap implementiert werden. |
 | Höhenebene | Float | 0.5 | Wert des Heights, das keinem Versatz entspricht (Nullwert).<br/>Der Height-Pegel verschiebt (aber skaliert oder spiegelt nicht) den Versatz relativ<br/> zur Oberfläche des unversetzten Objekts.<br/>Wenn die Ebene des Heights 0 ist, ist der gesamte Versatz höher.<br/>Wenn die Ebene des Heights 1 ist, befindet sich der gesamte Versatz unter der Fläche, aber es bleibt <br/>die gleiche Skalierung und Richtung. |
-| Höhenskala | Float | 1.0 | Skalierung von Versatz oder Beule in Szenenraumeinheiten.<br/>Die Größe und die Richtung der Skalierung sind unabhängig vom Wert des Heights. |
-| Umgebungsverdeckung | Float | 1.0 | Umgebungskarte zur Verdeckung von verdeckten Bereichen.<br/>Weiß (1.0) bedeutet vollständig beleuchtet, Schwarz (0.0) bedeutet vollständig verdeckt. |
+| Höhenskala | Float | 1.0 | Skalierung von Versatz oder Bump in Szenen.<br/>Die Größe und die Richtung der Skalierung sind unabhängig vom Wert des Heights. |
+| Umgebungsverdeckung | Float | 1.0 | Ambient occlusion-Karte zum Abdunkeln verdeckter Bereiche.<br/>Weiß (1.0) bedeutet vollständig beleuchtet, Schwarz (0.0) bedeutet vollständig verdeckt. |
 
 +++
 
-### Kompatibilität mit vorhandenen Diagrammen
+### Kompatibilität mit bestehenden Grafen
 
-Einige OpenPBR-Materialeigenschaften haben andere Verwendungskennungen als andere in Designer enthaltene Modelle.
-Designer gleicht automatisch einige Kennungen ab, um die Kompatibilität mit OpenPBR als Standardmodell sicherzustellen.
+Für einige Modelle in Designer gelten andere Identifizierungen als für andere Material.
+Designer gleicht automatisch einige Identifizierungen ab, um die Kompatibilität mit OpenPBR als Standardmodell sicherzustellen.
 
 +++ Zuordnungen zwischen Legacy- und OpenPBR-Nutzung
 
@@ -171,7 +171,7 @@ Designer gleicht automatisch einige Kennungen ab, um die Kompatibilität mit Ope
 | IOR | specularIOR |
 | absorptionColor | transmissionColor |
 | absorptionDistance | transmissionDepth |
-| Lichtdurchlässigkeit | subsurfaceWeight |
+| translucency | subsurfaceWeight |
 | scatteringColor | subsurfaceColor |
 | scatteringDistance | subsurfaceRadius |
 | scatteringDistanceScale | subsurfaceRadiusScale |
@@ -196,7 +196,7 @@ Weitere Informationen über OpenPBR finden Sie in den folgenden Ressourcen:
 
 ## Adobe-Standardmaterial
 
-Das Adobe-Standardmaterialmodell (ASM) wurde in Designer 11.2 eingeführt und ist der Standardshader von Designer
+Das Adobe Standard Material (ASM)-Modell wurde in Designer 11.2 eingeführt und war Designers Standard-Shader.
 bis Version 15.1.
 
 Während Designer als neues Standardmodell in die OpenPBR gewechselt ist, ist ASM weiterhin enthalten und die Eigenschaften werden ebenfalls gemeinsam genutzt

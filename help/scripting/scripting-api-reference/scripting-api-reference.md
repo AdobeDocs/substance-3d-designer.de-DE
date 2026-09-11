@@ -42,7 +42,7 @@ Sie können <b>Rückrufe</b> bei der Anwendung registrieren, die aufgerufen wird
 
 ## Package Manager (SDPackageMgr)
 
-Dieses Objekt verwaltet alle <b>Pakete</b> der Anwendung. Pakete werden in der Komponente &quot;<b>*Explorer*</b>&quot; angezeigt.
+Dieses Objekt verwaltet alle <b>Pakete</b> der Anwendung. Die Pakete werden in der Komponente &quot;<b>*Explorer*</b>&quot; angezeigt.
 
 Damit haben Sie folgende Möglichkeiten:
 
@@ -68,7 +68,7 @@ Eine Ressource (*SDResource*) ist ein Objekt, auf das von einer anderen Ressourc
 Es sind mehrere Ressourcen <b>Typen</b> vorhanden:
 
 * Ordner (*SDResourceFolder*);
-* Diagramme (*SDGraph*);
+* Graf (*SDGraph*);
 * Bitmaps (*SDResourceBitmap*);
 * SVG Images (*SDResourceSVG*);
 * Schriftarten (*SDResourceFont*);
@@ -87,25 +87,25 @@ Eine Ressource kann mehrere <b>Eigenschaften</b> (*SDProperty*) aufweisen.
 
 Mit dem UI-Manager kann <b>Benutzeroberflächenelemente</b> im Hauptfenster des Substance Designers erstellen, z. B. <b>Menüs</b>, <b>Docks</b>, und die Registrierung von <b>Rückrufen</b> kann aufgerufen werden, wenn Ereignisse im Zusammenhang mit der Benutzeroberfläche eintreten.
 
-Darüber hinaus hat der UI-Manager Zugriff auf das <b>aktuelle aktive Diagramm</b> und die <b>Auswahl</b> des aktiven Diagramms.
+Außerdem hat der UI-Manager Zugriff auf den <b>aktuellen aktiven Graf</b> und die <b>Auswahl</b> des aktiven Grafen.
 
-## Diagramme (SDGraph)
+## Graf (SDGraph)
 
-Ein Diagramm (*SDGraph*) ist ein Objekt, das Folgendes enthält:
+Ein Graf (*SDGraph*) ist ein Objekt, das Folgendes enthält:
 
 * <b>Knoten </b>(*SDNode*);
-* <b>Graphenobjekte</b> (*SDGraphObjects*);
+* <b>Graf-Objekte</b> (*SDGraphObjects*);
 * <b>Eigenschaften </b>(*SDProperty*).
 
-Es gibt vier verschiedene Diagrammtypen:
+Es gibt vier verschiedene Graf-Typen:
 
-* Substance-Diagramm (*SDSBSCompGraph*)
-* Substance-Funktionsdiagramm (*SDSBSFunctionGraph*)
-* Substance FXMap-Diagramm (*SDSBSFxMapGraph*)
+* Substance-Graf (*SDSBSCompGraph*)
+* Substance function Graf (*SDSBSFunctionGraph*)
+* Substance FXMap Graf (*SDSBSFxMapGraph*)
 
-Ein Diagramm kann einen oder mehrere <b>Ausgabeknoten</b> enthalten. Die Ausgabeknoten stellen die <b>Ergebnisse</b> des Diagramms dar.
+Ein Graf kann einen oder mehrere <b>Ausgabeknoten</b> haben. Die Ausgabeknoten stellen die <b>Ergebnisse</b> des Diagramms dar.
 
-Alle verfügbaren Knoten für ein Diagramm können <b>abgerufen</b> mit der Methode &quot;*getNodeDefinitions()*&quot; sein.
+Alle für einen Graf verfügbaren Knoten können <b>abgerufen</b> mit der *getNodeDefinitions()*-Methode sein.
 
 Ein neuer Knoten kann <b>erstellt</b> mit der Methode &#39;*newNode()*&#39; sein.
 
@@ -128,26 +128,26 @@ Es gibt mehrere <b>Typen</b> von Knoten:
 * *<b>SDSBSFunctionNode</b>*: Ein Knoten des Substance-Funktionsgraphen (*SDSBSFunctionGraph*);
 * *<b>SDSBSFxMapNode</b>*: Ein Knoten des Substance FXMap Graph (*SDSBSFxMapGraph*);
 
-## Graph-Objekte (SDGraphObjects)
+## Graf-Objekte (SDGraphObjects)
 
-Ein Diagrammobjekt (*SDGraphObject*) ist ein Objekt, das <b>dem Diagramm zusätzliche Informationen</b> hinzufügt, das jedoch <b>*nicht* während des Diagrammauswertungsprozesses berücksichtigt</b> wird.
+Ein Graf-Objekt (*SDGraphObject*) ist ein Objekt, das <b>dem Graf zusätzliche Informationen</b> hinzufügt, das jedoch <b>*nicht* während des Graf-Evaluierungsprozesses berücksichtigt</b> wird.
 
-Es gibt <b>3 Typen</b> von Diagrammobjekten:
+Es gibt <b>3 Typen</b> von Graf-Objekten:
 
-* <b>Pin</b> (*SDGraphObjectPin*)
+* <b>Nadel</b> (*SDGraphObjectPin*)
 * <b>Kommentar</b> (*SDGraphObjectComment*)
-* <b>Frame</b> (*SDGraphObjectFrame*)
+* <b>Rahmen</b> (*SDGraphObjectFrame*)
 
 Weitere Informationen zum Erstellen von <b>sNew()</b>-Objekten finden Sie in der statischen Methode &#39;*sNew()*&#39; für diese Objekte.
 
 ## Eigenschaften (SDProperty)
 
-Eine Eigenschaft (*SDProperty*) ist ein Objekt, das <b>eine Eigenschaft von <b>einem anderen Objekt</b> (ein Diagramm, ein Knoten, eine Ressource usw.) beschreibt</b>.
+Eine Eigenschaft (*SDProperty*) ist ein Objekt, das <b>eine Eigenschaft von <b>einem anderen Objekt</b> (Graf, Knoten, Ressource usw.) beschreibt</b>.
 
 Sie gehört zu einer bestimmten <b>Kategorie</b> (*SDPropertyCategory*):
 
 * <b>Eingabe</b>: klassifiziert die Eingabeeigenschaften eines Objekts, die in der Regel <b> Auswirkungen auf den vom aktuellen Objekt ausgeführten Vorgang </b> haben;
-  * Beispiel: Die *color*-Eigenschaft eines Uniform Color-Knotens in einem Substance-Diagramm ist eine Eingabeeigenschaft.
+  * Beispiel: Die *color*-Eigenschaft eines Einheitliche Farbe-Knotens in einem Substance-Graf ist eine Eingabeeigenschaft.
 * <b>Ausgabe</b>: klassifiziert die Ausgabeeigenschaften eines Objekts. Es wird verwendet, um ein <b>Ergebnis</b> eines Objekts zu identifizieren.
 * <b>Anmerkung</b>: klassifiziert Eigenschaften, die <b>*sich nicht* auf den von einem Objekt ausgeführten Vorgang </b> auswirken;
   * Beispiel: Die *Bezeichnung* eines Diagramms ist eine Anmerkungseigenschaft, da sie sich nicht auf die Diagrammberechnung auswirkt.
@@ -170,17 +170,17 @@ Beispiele:
 
 * Eigenschaften des Knotens &quot;*sbs::compositing::input*&quot;:
 
-<table data-preserve-html="true"><colgroup><col style="width: 276.0px;"/><col style="width: 129.0px;"/><col style="width: 283.0px;"/></colgroup><tbody><tr><th colspan="3" style="text-align: center;">sbs::compositing::input</th></tr><tr><td style="text-align: left;"><strong>Eingabe</strong></td><td style="text-align: left;"><strong>Anmerkung</strong></td><td style="text-align: left;"><strong>Ausgabe</strong></td></tr><tr><td>$outputsize</td><td>Etikett</td><td><p>unique_filter_output (CONNECTABLE)</p></td></tr><tr><td>$format</td><td>Beschreibung</td><td><br/></td></tr><tr><td>$pixelsize</td><td>Kennzeichen</td><td><br/></td></tr><tr><td>$pixelratio</td><td>userdata</td><td><br/></td></tr><tr><td>$tiling</td><td>Gruppe</td><td><br/></td></tr><tr><td>$randomseed</td><td>visibleF</td><td><br/></td></tr><tr><td><p>bitmapresourcepath</p></td><td>Verwendungen</td><td><br/></td></tr></tbody></table>
+<table data-preserve-html="true"><colgroup><col style="width: 276.0px;"/><col style="width: 129.0px;"/><col style="width: 283.0px;"/></colgroup><tbody><tr><th colspan="3" style="text-align: center;">sbs::compositing::input</th></tr><tr><td style="text-align: left;"><strong>Eingabe</strong></td><td style="text-align: left;"><strong>Anmerkung</strong></td><td style="text-align: left;"><strong>Ausgabe</strong></td></tr><tr><td>$outputsize</td><td>Etikett</td><td><p>unique_filter_output (CONNECTABLE)</p></td></tr><tr><td>$format</td><td>Beschreibung</td><td><br/></td></tr><tr><td>$pixelsize</td><td>Kennzeichen</td><td><br/></td></tr><tr><td>$pixelratio</td><td>userdata</td><td><br/></td></tr><tr><td>$Kachelung</td><td>Gruppe</td><td><br/></td></tr><tr><td>$randomseed</td><td>visibleF</td><td><br/></td></tr><tr><td><p>bitmapresourcepath</p></td><td>Verwendungen</td><td><br/></td></tr></tbody></table>
 
 * Eigenschaften des Knotens &quot;*sbs::compositing::blend*&quot;:
 
-<table data-preserve-html="true"><colgroup><col style="width: 278.0px;"/><col style="width: 129.0px;"/><col style="width: 283.0px;"/></colgroup><tbody><tr><th colspan="3" style="text-align: center;">sbs::compositing::blend</th></tr><tr><td style="text-align: left;"><strong>Eingabe</strong></td><td style="text-align: left;"><strong>Anmerkung</strong></td><td style="text-align: left;"><strong>Ausgabe</strong></td></tr><tr><td>$outputsize</td><td><br/></td><td>unique_filter_output (CONNECTABLE)</td></tr><tr><td>$format</td><td><br/></td><td><br/></td></tr><tr><td>$pixelsize</td><td><br/></td><td><br/></td></tr><tr><td>$pixelratio</td><td><br/></td><td><br/></td></tr><tr><td>$tiling</td><td><br/></td><td><br/></td></tr><tr><td>$randomseed</td><td><br/></td><td><br/></td></tr><tr><td>source.connector (CONNECTABLE)</td><td><br/></td><td><br/></td></tr><tr><td><p>destination.connector (CONNECTABLE)</p></td><td><br/></td><td><br/></td></tr><tr><td>opacity.connector (CONNECTABLE)</td><td><br/></td><td><br/></td></tr><tr><td>Deckkraft</td><td><br/></td><td><br/></td></tr><tr><td colspan="1">Füllmethode</td><td colspan="1"><br/></td><td colspan="1"><br/></td></tr><tr><td colspan="1">Farbmischung</td><td colspan="1"><br/></td><td colspan="1"><br/></td></tr><tr><td colspan="1">Maskenrechteck</td><td colspan="1"><br/></td><td colspan="1"><br/></td></tr></tbody></table>
+<table data-preserve-html="true"><colgroup><col style="width: 278.0px;"/><col style="width: 129.0px;"/><col style="width: 283.0px;"/></colgroup><tbody><tr><th colspan="3" style="text-align: center;">sbs::compositing::blend</th></tr><tr><td style="text-align: left;"><strong>Eingabe</strong></td><td style="text-align: left;"><strong>Anmerkung</strong></td><td style="text-align: left;"><strong>Ausgabe</strong></td></tr><tr><td>$outputsize</td><td><br/></td><td>unique_filter_output (CONNECTABLE)</td></tr><tr><td>$format</td><td><br/></td><td><br/></td></tr><tr><td>$pixelsize</td><td><br/></td><td><br/></td></tr><tr><td>$pixelratio</td><td><br/></td><td><br/></td></tr><tr><td>$Kachelung</td><td><br/></td><td><br/></td></tr><tr><td>$randomseed</td><td><br/></td><td><br/></td></tr><tr><td>source.Verbindung (CONNECTABLE)</td><td><br/></td><td><br/></td></tr><tr><td><p>destination.Verbindung (CONNECTABLE)</p></td><td><br/></td><td><br/></td></tr><tr><td>opacity.connector (CONNECTABLE)</td><td><br/></td><td><br/></td></tr><tr><td>Deckkraft</td><td><br/></td><td><br/></td></tr><tr><td colspan="1">Füllmethode</td><td colspan="1"><br/></td><td colspan="1"><br/></td></tr><tr><td colspan="1">Farbmischung</td><td colspan="1"><br/></td><td colspan="1"><br/></td></tr><tr><td colspan="1">Maskenrechteck</td><td colspan="1"><br/></td><td colspan="1"><br/></td></tr></tbody></table>
 
 ## Typ (SDType)
 
 Ein Typ (*SDType*) enthält Informationen mit dem Wert <b>type</b>, z. B.:
 
-* <b>ID</b>: die Kennung des Typs;
+* <b>ID</b>: die Identifizierung des Typs;
 * <b>Modifizierer</b>: Der Typmodifizierer, der einer der *SDTypeModifier&#39;* <b>enum</b>-Werte sein kann:
   * *Auto*;
   * *Einheitlich*: Der Wert wird *einmal* pro Vorgang ausgewertet.
@@ -230,7 +230,7 @@ Es ermöglicht das einfache Abrufen aller Informationen über die Knoten, die er
 
 Es enthält:
 
-* eine <b>ID</b> (*ID*), die im Kontext des Modulmanagers (*SDModuleMgr*) eindeutig ist;
+* eine <b>Identifizierung</b> (*ID*), die im Kontext des Modulmanagers (*SDModuleMgr*) eindeutig ist;
 * eine Liste von <b>Definitionen</b> (*SDDefinition*);
 * eine Liste von <b>Typen</b> (*SDType*).
 
@@ -240,7 +240,7 @@ Ein Definitionsobjekt (*SDDefinition*) enthält Informationen zur Definition ein
 
 Es enthält:
 
-* <b>ID</b>: die Kennung der Definition;
+* <b>ID</b>: die Identifizierung der Begriffsbestimmung;
 * <b>Bezeichnung</b>: Bezeichnung der Definition;
 * <b>Beschreibung</b>: Beschreibung der Definition;
 * <b>Eigenschaften</b>: Die Eigenschaften aller verfügbaren Eigenschaften *Kategorien* (*SDPropertyCategory*).

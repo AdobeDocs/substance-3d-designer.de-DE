@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/cracks-weathering.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Risse-Verwitterung -Knoten, um Rissmuster auf der Grundlage von Gitterkrümmung und Spannungspunkten zu Materialien hinzuzufügen.
+description: Verwenden Sie den Knoten Risse Verwitterung , um Rissmuster zu Materialien hinzuzufügen, die auf der Krümmung des Meshs und den Belastungspunkten basieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Cracks Weathering
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Risse, die wettern
+title: Risse Verwitterung
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
@@ -18,7 +18,7 @@ ht-degree: 3%
 ---
 
 
-# Risse, die wettern
+# Risse Verwitterung
 
 <table>
 <tr style="border: 0;">
@@ -33,9 +33,9 @@ ht-degree: 3%
 
 ## Beschreibung
 
-Dies ist ein Vollmaterial-Effekt, der auf mehreren Kanälen gleichzeitig funktioniert. Es fügt ein zufälliges Rissmuster hinzu, mit Kontrolle über Ausbreitung und Tiefe.
+Dies ist ein Effekt mit vollem Material, der auf mehreren Kanälen gleichzeitig funktioniert. Es fügt ein zufälliges Rissmuster hinzu, mit Kontrolle über Ausbreitung und Tiefe.
 
-Vergewissern Sie sich, dass Sie die [Verknüpfungserstellungsmodi](../../../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) richtig verstehen, wenn Sie mit vollständigen Materialien arbeiten.
+Vergewissern Sie sich, dass Sie die [Link Creation Modes](../../../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) richtig verstehen, wenn Sie mit vollständigen Materialien arbeiten.
 
 </td>
 </tr>
@@ -57,7 +57,7 @@ Vergewissern Sie sich, dass Sie die [Verknüpfungserstellungsmodi](../../../../.
 
 |  |  |
 |:---|:---|
-| <b>Kanäle</b> | Schalten Sie die Materialkanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanzkarten anstelle von &quot;Metallisch/Raueit&quot; verwenden. |
+| <b>Kanäle</b> | Schalten Sie die Material-Kanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanz-Maps anstelle von &quot;Metallic/Rauheit&quot; verwenden. |
 | <b>Erweitert</b> |  |
 | <b>Normales Format</b> <i>DirectX, OpenGL</i> | Wechselt zwischen verschiedenen Normalmap-Formaten (invertiert den grünen Kanal). |
 | <b>Maske</b> <i>False/True</i> | Schaltet die Verwendung der Maskenkarte ein oder aus. |

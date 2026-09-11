@@ -64,7 +64,7 @@ Die konkaven und konvexen Bereiche werden ebenfalls in ihre eigenen Ausgänge au
 |:---|:---|
 | <b>Krümmung</b> <i>Graustufen</i> | Die Krümmungs-Map wurde von der Eingabe-Normalen-Map berechnet.   Flache Bereiche sind zu 50 % grau. Konvexe Bereiche sind heller, konkave Bereiche sind dunkler. |
 | <b>Konvexität</b> <i>Graustufen</i> | Die Konvexitätskarte wurde aus der Eingabe-Normalen-Map berechnet.   Je konvexer ein Bereich ist, desto heller ist er auf der Karte.  Flache oder konkave Bereiche sind schwarz. |
-| <b>Konkavität</b> <i>Graustufen</i> | Die Konkavitäts-Map wurde aus der Eingabe-Normalmap berechnet.   Je konkaver ein Gebiet ist, desto heller ist es auf der Karte.  Flache oder konvexe Bereiche sind schwarz. |
+| <b>Konkavität</b> <i>Graustufen</i> | Die Konkavitätskarte wurde aus der Eingabe-Normalen-Map berechnet.   Je konkaver ein Gebiet ist, desto heller ist es auf der Karte.  Flache oder konvexe Bereiche sind schwarz. |
 
 <a name="parameters"></a>
 
@@ -72,18 +72,18 @@ Die konkaven und konvexen Bereiche werden ebenfalls in ihre eigenen Ausgänge au
 
 |  |  |
 |:---|:---|
-| <b>Normales Format</b> *Integer* | Das Format der Eingabe-Normalmap. Kehrt den grünen Kanal effektiv um.<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX:</b> Die Y-Achse zeigt nach oben</li> <li data-preserve-html="true"><b style="">OpenGL:</b> Die Y-Achse zeigt nach unten</li> </ul> |
+| <b>Normales Format</b> *Ganzzahl* | Das Format der Normalen-Map. Kehrt den grünen Kanal effektiv um.<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX:</b> Die Y-Achse zeigt nach oben</li> <li data-preserve-html="true"><b style="">OpenGL:</b> Die Y-Achse zeigt nach unten</li> </ul> |
 
 ## Beispiele
 
 <table>
   <tr>
     <td>
-      <img src="curvature-smooth.resources/curvature_smooth_example_1_before.jpg" alt="curvature_smooth_example_1_before">
+      <img src="curvature-smooth.resources/curvature_smooth_example_1_before.jpg" alt="Krümmung_glattes_Beispiel_1_vorher">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="curvature-smooth.resources/curvature_smooth_example_1_after.jpg" alt="curvature_smooth_example_1_after">
+      <img src="curvature-smooth.resources/curvature_smooth_example_1_after.jpg" alt="Krümmung_glatt_Beispiel_1_nach">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -93,12 +93,12 @@ Die konkaven und konvexen Bereiche werden ebenfalls in ihre eigenen Ausgänge au
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Glatte Krümmung: Beispiel 2](curvature-smooth.resources/curvature_smooth_example_2.jpg "Kurvenglättung: Beispiel 2"){zoomable="yes"}
+![Krümmung glatt: Beispiel 2](curvature-smooth.resources/curvature_smooth_example_2.jpg "Krümmung glatt: Beispiel 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Glatte Krümmung: Beispiel 3](curvature-smooth.resources/curvature_smooth_example_3.jpg "Kurvenglättung: Beispiel 3"){zoomable="yes"}
+![Krümmung glatt: Beispiel 3](curvature-smooth.resources/curvature_smooth_example_3.jpg "Krümmung glatt: Beispiel 3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -107,11 +107,11 @@ Die konkaven und konvexen Bereiche werden ebenfalls in ihre eigenen Ausgänge au
 <table>
   <tr>
     <td>
-      <img src="curvature-smooth.resources/curvature_smooth_example_4_before.jpg" alt="curvature_smooth_example_4_before">
+      <img src="curvature-smooth.resources/curvature_smooth_example_4_before.jpg" alt="Krümmung_glattes_Beispiel_4_vorher">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="curvature-smooth.resources/curvature_smooth_example_4_after.jpg" alt="curvature_smooth_example_4_after">
+      <img src="curvature-smooth.resources/curvature_smooth_example_4_after.jpg" alt="Krümmung_glattes_Beispiel_4_nach">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -121,12 +121,12 @@ Die konkaven und konvexen Bereiche werden ebenfalls in ihre eigenen Ausgänge au
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Glatte Krümmung: Beispiel 4](curvature-smooth.resources/curvature_smooth_example_5.jpg "Kurvenglättung: Beispiel 4"){zoomable="yes"}
+![Krümmung glatt: Beispiel 4](curvature-smooth.resources/curvature_smooth_example_5.jpg "Krümmung glatt: Beispiel 4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Glatte Krümmung: Beispiel 5](curvature-smooth.resources/curvature_smooth_example_6.jpg "Kurvenglättung: Beispiel 5"){zoomable="yes"}
+![Krümmung glatt: Beispiel 5](curvature-smooth.resources/curvature_smooth_example_6.jpg "Krümmung glatt: Beispiel 5"){zoomable="yes"}
 
 </td>
 </tr>

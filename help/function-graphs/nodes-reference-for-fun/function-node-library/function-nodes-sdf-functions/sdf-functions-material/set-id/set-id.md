@@ -15,7 +15,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Symbol für Materialkennung festlegen](set-id.png "Materialkennung festlegen")
+![Symbol für die Material-ID festlegen](set-id.png "Material-ID festlegen")
 
 <b>In:</b> 3D-Funktion > Material
 
@@ -41,7 +41,7 @@ Dieser Wert kann dann für alle verstreuten SDF-Formen in der *Splatter UVW*-Aus
 |                          |                        |
 |--------------------------|------------------------|
 | <b>SDF-Szene</b> *Gleitend* | Die Eingabe-SDF-Szene. |
-| <b>ID</b> *Integer* | Die festzulegende Ganzzahl-ID. |
+| <b>ID</b> *Integer* | Die festzulegende Ganzzahlen-ID. |
 
 
 

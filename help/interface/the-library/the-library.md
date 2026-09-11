@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bibliothek
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden das Bedienfeld &quot;**Library**&quot; von Substance 3D Designer, sein Layout sowie die Tools, die es für die Suche und Filterung von Inhalten bietet, angezeigt.
 
-![Bibliothek](../../assets/library-main.png "Bibliothek")
+![Bibliothek](the-library.resources/library-main.png "Bibliothek")
 
 ## Überblick
 
@@ -103,7 +103,7 @@ Sie können *mehrere* Elemente im Abschnitt <b>Inhalt</b> auswählen, indem Sie 
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![Knoten aus der Bibliothek löschen](../../assets/library-create-node.gif "Knoten aus der Bibliothek löschen")
+![Knoten aus der Bibliothek löschen](the-library.resources/library-create-node.gif "Knoten aus der Bibliothek löschen")
 
 </td>
 </tr>
@@ -112,14 +112,14 @@ Sie können *mehrere* Elemente im Abschnitt <b>Inhalt</b> auswählen, indem Sie 
 ### Element anhand des Namens suchen
 
 Mit der Leiste <b>Suche</b>, die sich oben links im Abschnitt <b>Inhalt</b> befindet, können Sie *beliebige Elemente nach Namen* durchsuchen. Wenn Sie auf diese Weise nach Inhalten suchen, wird die aktuelle Auswahl im Abschnitt <b>Kategorien</b> ignoriert, und der *gesamte Inhalt* in der <b>Bibliothek</b> wird durchsucht.\
-Sie können die Suchergebnisse nach *Diagrammtyp* filtern, indem Sie ![](../../assets/library-icon-search-filter.png) <b>Filtern nach...Symbol </b> neben der Leiste <b>Suche</b>.
+Sie können die Suchergebnisse nach *Diagrammtyp* filtern, indem Sie ![](the-library.resources/library-icon-search-filter.png) <b>Filtern nach...Symbol </b> neben der Leiste <b>Suche</b>.
 
 >[!NOTE]
 >
 > Die Suchleiste berücksichtigt den Namen des gesuchten Assets, aber auch *Tags*, die das Asset enthalten kann, oder die *Kategorie*, zu der es gehört.\
 > Wenn Sie beispielsweise &quot;*Normal*&quot; eingeben, werden alle Assets aufgelistet, die zum Generieren oder Ändern einer normalen Map verwendet werden können. Dies ist ein guter Weg, um neue Knoten zu entdecken, und damit neue Möglichkeiten!
 
-![Asset-Suche in Bibliothek](../../assets/library-search-2.png "Asset-Suche in Bibliothek")
+![Asset-Suche in Bibliothek](the-library.resources/library-search-2.png "Asset-Suche in Bibliothek")
 
 <table>
 <tr style="border: 0;">
@@ -127,12 +127,12 @@ Sie können die Suchergebnisse nach *Diagrammtyp* filtern, indem Sie ![](../../a
 
 ### Visualisieren von Bibliothekselementen
 
-Mithilfe der Dropdown-Schaltfläche ![](../../assets/library-icon-view-mode.png) <b>Anzeigemodus</b> können Sie die Anzeigegröße für Inhaltselemente auswählen.
+Mithilfe der Dropdown-Schaltfläche ![](the-library.resources/library-icon-view-mode.png) <b>Anzeigemodus</b> können Sie die Anzeigegröße für Inhaltselemente auswählen.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Bibliothekselementansichtsmodus](../../assets/library-display-modes.png "Bibliothekselementansichtsmodus")
+![Bibliothekselementansichtsmodus](the-library.resources/library-display-modes.png "Bibliothekselementansichtsmodus")
 
 </td>
 </tr>
@@ -142,12 +142,12 @@ Mithilfe der Dropdown-Schaltfläche ![](../../assets/library-icon-view-mode.png)
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Mit der Schaltfläche ![](../../assets/library-icon-toggle-label.png) **Beschriftungen umschalten** können Sie die Beschriftungen der Knoten ein- oder ausblenden.
+Mit der Schaltfläche ![](the-library.resources/library-icon-toggle-label.png) **Beschriftungen umschalten** können Sie die Beschriftungen der Knoten ein- oder ausblenden.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Label toggle](../../assets/library-toggle-label.png "Label toggle")
+![Label toggle](the-library.resources/library-toggle-label.png "Label toggle")
 
 </td>
 </tr>
@@ -163,7 +163,7 @@ Wenn Sie den Cursor auf einem Inhaltselement platzieren, wird nach kurzer Zeit e
 </td>
 <td style="border: 0;" valign="top">
 
-![QuickInfo für Asset-Informationen](../../assets/library-item-tooltip.png "QuickInfo für Asset-Informationen")
+![QuickInfo für Asset-Informationen](the-library.resources/library-item-tooltip.png "QuickInfo für Asset-Informationen")
 
 </td>
 </tr>
@@ -180,13 +180,13 @@ Wenn Sie den Cursor auf einem Inhaltselement platzieren, wird nach kurzer Zeit e
 
 ### Favoriten
 
-Mit der Schaltfläche ![](../../assets/library-icon-favoritepng.png) <b>Zu Favoriten hinzufügen</b> können Sie ein beliebiges Element im Abschnitt <b>Inhalt</b> zu Ihrer Liste <b>Favoriten</b> hinzufügen. Mit der Schaltfläche können Sie außerdem *Inhalte* aus dieser Liste entfernen, wenn sie bereits hinzugefügt wurden.\
+Mit der Schaltfläche ![](the-library.resources/library-icon-favoritepng.png) <b>Zu Favoriten hinzufügen</b> können Sie ein beliebiges Element im Abschnitt <b>Inhalt</b> zu Ihrer Liste <b>Favoriten</b> hinzufügen. Mit der Schaltfläche können Sie außerdem *Inhalte* aus dieser Liste entfernen, wenn sie bereits hinzugefügt wurden.\
 Wenn Inhalt zu dieser Liste hinzugefügt wird, ist er in der Kategorie <b>Favoriten</b> der <b>Bibliothek</b> verfügbar und wird bei der Suche nach einem Knoten im Diagramm an der *Spitze* der <b>Knoten</b>-Menüliste angezeigt, sofern die Suchbegriffe mit diesem Knoten übereinstimmen.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Favoriten in Bibliothek](../../assets/library-favourites.png "Favoriten in Bibliothek")
+![Favoriten in Bibliothek](the-library.resources/library-favourites.png "Favoriten in Bibliothek")
 
 </td>
 </tr>

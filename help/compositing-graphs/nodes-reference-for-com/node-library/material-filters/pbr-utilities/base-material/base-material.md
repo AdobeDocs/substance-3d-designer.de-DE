@@ -58,7 +58,7 @@ Dieser Knoten ist sehr nützlich, wenn Sie vollständige Requisiten texturieren 
 | <b>PBR-Workflow</b> <i>Metall - Rauheit, Specular - Glanz</i> | Legt das verwendete PBR-Modell fest. |
 | <b>Materialvorgabe</b> <i>Benutzerdefiniert, Dielektrisch, Gold, Silber, Aluminium, Eisen, Kupfer, Titan, Nickel, Kobalt, Platin</i> | Schneller Tastaturbefehl zur Herstellung bestimmter Metalle. Deaktiviert irrelevante Optionen. |
 | <b>Grundfarbe</b> <i>(Farbwert)</i> | Für die Grundfarbe verwendete Volltonfarbe. |
-| <b>Metallisch</b> <i>(Graustufenwert)</i> | Solider Wert für Metallic. |
+| <b>Metallic</b> <i>(Graustufenwert)</i> | Solider Wert für Metallic. |
 | <b>Diffuse </b> <i>(Farbwert)</i> | Volltonfarbe für Diffuse. |
 | <b>Specular</b> <i>(Farbwert)</i> | Für Specular verwendete Volltonfarbe. |
 | <b>Specular-Vorgaben</b> <i>Kunststoff, Holz, Stein, Ziegel, Sand, Beton, Gewebe, rostetes Metall, Wasser, Eis, Glas</i> | Optionale Schnellvorgaben zum Festlegen von PBR-korrekten Specular-Werten. |

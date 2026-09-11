@@ -1,6 +1,6 @@
 ---
 title: Helix (ca.)
-description: Designer > Substance-Compositing-Graphen > Knotenreferenz für Substance-Compositing-Graphen > Knotenbibliothek > SDF-Funktion > Primitiv > Helix (ca.)
+description: Designer > Substance-Compositing-Grafen > Knotenreferenz für Substance-Compositing-Grafen > Knotenbibliothek > SDF-Funktion > Primitiv > Helix (ca.)
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '210'
@@ -40,9 +40,9 @@ Eine SDF-Funktion für die Näherung einer Helix, bei der es sich um eine Form h
 
 |  |  |
 | :--- | :--- |
-| <b>Hauptradius</b> *Gleitend* | Der Abstand der Wickelkurve von der Achse.<br><br><i>Standard: 0.4</i> |
+| <b>Hauptradius</b> *Gleitend* | Die Entfernung der Wickelkurve von der Achse.<br><br><i>Standard: 0.4</i> |
 | <b>Geringfügiger Radius</b> *Gleitend* | Der Radius des Kreises, der entlang der Kurve gezogen wird, um die Oberfläche der Helix zu bilden.<br><br><i>Standard: 0.1</i> |
 | <b>Height</b> *Gleitend* | Das Z-Up-Height der Helix.<br><br><i>Standard: 0,5</i> |
 | <b>Wicklungen</b> *Gleitend* | Die Anzahl der vollen Windungen der Kurve um die Achse in 0,5.<br>Schritten, d. h. wie oft die Helix innerhalb eines Heights von 0,5.<br><br><i>Standard: 4</i> |
-| <b>Mittenposition</b> *Float3* | Die Weltraumposition des Drehpunkts der Helix.<br><br><i>Standard: (0, 0, 0)</i> |
-| <b>P</b> *Float3* | Die veränderte Weltraumposition. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die nicht transformierte Weltraumposition.</i> |
+| <b>Mittenposition</b> *Float3* | Die Position des Welt-Raums des Drehpunkts der Helix.<br><br><i>Standard: (0, 0, 0)</i> |
+| <b>P</b> *Float3* | Die transformieren Position des Welt-Raums. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die nicht transformierte Weltraumposition.</i> |

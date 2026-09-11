@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## Beschreibung
 
-Führt eine einfache, harte Konversion der Einmalpasskrümmung zur Eingabe von [Normalmap](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) durch. Die resultierende Karte enthält weiße Farbtöne für konvexe Bereiche und schwarze Farbtöne für konkave Bereiche. Krümmung erzeugt immer pixelgenaue Linien und gestochen scharfe Übergänge.
+Führt eine einfache, harte Konvertierung der Krümmung in einem Durchgang zur Eingabe von [Normalmap](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) durch. Die resultierende Karte enthält weiße Farbtöne für konvexe Bereiche und schwarze Farbtöne für konkave Bereiche. Krümmung erzeugt immer pixelgenaue Linien und gestochen scharfe Übergänge.
 
 Dieser Knoten ist nützlich, um bestimmte Kanten schnell hervorzuheben oder abzudunkeln. Sie ist im Vergleich zu [Krümmung Smooth](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) (das qualitativ hochwertigere Ergebnisse liefert) und [Krümmung Sobel](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md) (das mehr Optionen bietet) begrenzt.
 
