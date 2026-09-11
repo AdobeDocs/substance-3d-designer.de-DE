@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
 breadcrumb-title: ''
 description: Überschreiben Sie vorhandene Materialien in 3D-Szenen, um sie zum Testen und in der Vorschau durch Ihre eigenen Substance-Materialien zu ersetzen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Außerkraftsetzte Szenenmaterialien
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Wenn Sie mit 3D-Szenen mit vorhandenen Materialien arbeiten, müssen Sie diese M
 
 Ihr Material kann von Grund auf neu erstellt werden oder eine angepasste Version des Materials einer Szene, die [in ein Substance-Diagramm extrahiert wurde](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md).
 
-![Überschreiben von Szenenmaterial, Anpassen und Zurücksetzen auf den Szenenstatus](../../assets/tweakOverriddenMaterial.gif "Überschreiben von Szenenmaterial, Anpassen und Zurücksetzen auf den Szenenstatus"){zoomable="yes"}
+![Überschreiben von Szenenmaterial, Anpassen und Zurücksetzen auf den Szenenstatus](overriding-scene-materials.resources/tweakOverriddenMaterial.gif "Überschreiben von Szenenmaterial, Anpassen und Zurücksetzen auf den Szenenstatus"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -59,14 +59,14 @@ Die Aktion &quot;Material überschreiben&quot; kann an zwei Stellen gefunden wer
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Material überschreiben - Aktion im Viewport &quot;3D-Ansicht&quot;](../../assets/overrideMaterialActionViewport.png "Material überschreiben - Aktion im Viewport &quot;3D-Ansicht&quot;"){zoomable="yes"}
+![Material überschreiben - Aktion im Viewport &quot;3D-Ansicht&quot;](overriding-scene-materials.resources/overrideMaterialActionViewport.png "Material überschreiben - Aktion im Viewport &quot;3D-Ansicht&quot;"){zoomable="yes"}
 
 *Aktion im Ansichtsport der 3D-Ansicht*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Material überschreiben - Aktion im Menü &quot;Materialien&quot;](../../assets/overrideMaterialActionMaterials.png "Material überschreiben - Aktion im Menü &quot;Materialien&quot;"){zoomable="yes"}
+![Material überschreiben - Aktion im Menü &quot;Materialien&quot;](overriding-scene-materials.resources/overrideMaterialActionMaterials.png "Material überschreiben - Aktion im Menü &quot;Materialien&quot;"){zoomable="yes"}
 
 *Aktion im Materialmenü*
 
@@ -119,21 +119,21 @@ Die Aktion kann an drei Stellen durchgeführt werden:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Material auf Szene zurücksetzen - Aktion im Viewport &quot;3D-Ansicht&quot;](../../assets/resetMaterialToSceneStateActionViewport.png "Material auf Szene zurücksetzen - Aktion im Viewport &quot;3D-Ansicht&quot;"){zoomable="yes"}
+![Material auf Szene zurücksetzen - Aktion im Viewport &quot;3D-Ansicht&quot;](overriding-scene-materials.resources/resetMaterialToSceneStateActionViewport.png "Material auf Szene zurücksetzen - Aktion im Viewport &quot;3D-Ansicht&quot;"){zoomable="yes"}
 
 *Aktion im Ansichtsport der 3D-Ansicht*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Material auf Aktionsstatus zurücksetzen - Szene im Menü &quot;Materialien&quot;](../../assets/resetMaterialToSceneStateActionMaterials.png "Material auf Aktionsstatus zurücksetzen - Aktion im Menü &quot;Materialien&quot;"){zoomable="yes"}
+![Material auf Aktionsstatus zurücksetzen - Szene im Menü &quot;Materialien&quot;](overriding-scene-materials.resources/resetMaterialToSceneStateActionMaterials.png "Material auf Aktionsstatus zurücksetzen - Aktion im Menü &quot;Materialien&quot;"){zoomable="yes"}
 
 *Aktion im Materialmenü*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Material auf Aktionsstatus zurücksetzen - Szene im Dock &quot;Eigenschaften&quot;](../../assets/resetMaterialToSceneStateActionProps.png "Material auf Aktionsstatus zurücksetzen - Aktion im Dock &quot;Eigenschaften&quot;"){zoomable="yes"}
+![Material auf Aktionsstatus zurücksetzen - Szene im Dock &quot;Eigenschaften&quot;](overriding-scene-materials.resources/resetMaterialToSceneStateActionProps.png "Material auf Aktionsstatus zurücksetzen - Aktion im Dock &quot;Eigenschaften&quot;"){zoomable="yes"}
 
 *Aktion in den Eigenschaften des Materials*
 
@@ -152,7 +152,7 @@ Die Aktion ist auch in den Elementeigenschaften *pro Eigenschaft* verfügbar, fa
 </td>
 <td style="border: 0;" valign="top">
 
-![Auf Aktionsstatus zurücksetzen - Szene in den Material-Eigenschaften](../../assets/resetPropertyToSceneStateAction.png "Auf Aktionsstatus zurücksetzen - Szene in den Material-Eigenschaften"){zoomable="yes"}
+![Auf Aktionsstatus zurücksetzen - Szene in den Material-Eigenschaften](overriding-scene-materials.resources/resetPropertyToSceneStateAction.png "Auf Aktionsstatus zurücksetzen - Szene in den Material-Eigenschaften"){zoomable="yes"}
 
 </td>
 </tr>
@@ -166,10 +166,10 @@ Auf der anderen Seite verfügt Designer über eine *eigene* separate Liste von M
 
 Dies ist ein *anderer* Datensatz, der nur in Designer erstellt und verwaltet wird. Diese Material sind dann *mit den Kopien* verbunden, die die ursprünglichen Material der Szene überschreiben.
 
-![Überschreiben von Materialien - Datenschema](../../assets/overridingMaterialsSchematic.png "Überschreiben von Materialien - Datenschema"){zoomable="yes"}
+![Überschreiben von Materialien - Datenschema](overriding-scene-materials.resources/overridingMaterialsSchematic.png "Überschreiben von Materialien - Datenschema"){zoomable="yes"}
 
 Sie können jedes der im Menü &quot;Materialien&quot; aufgelisteten Materialien mit den von Designer in der Szene erstellten Kopien verbinden: Klicken Sie im Szene-Browser auf RMB und wählen Sie das Untermenü &quot;Material verbinden&quot;.
 
 Das Untermenü listet alle Material in der Szene sowie alle Material auf, die Sie möglicherweise manuell über das Menü &quot;Material&quot; erstellt haben.
 
-![Material verbinden](../../assets/connectMaterials.gif "Material verbinden"){zoomable="yes"}
+![Material verbinden](overriding-scene-materials.resources/connectMaterials.gif "Material verbinden"){zoomable="yes"}

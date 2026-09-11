@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über die Oberfläche des Substance 3D Designer-Arbeitsbereichs, einschließlich Ansichten, Bedienfeldern und Anpassungsoptionen.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Arbeitsbereich
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
@@ -93,7 +93,7 @@ Mit der Hauptsymbolleiste können Sie auf zusätzliche Menüs zugreifen, z. B. a
 
 ## Diagrammansicht
 
-[Das Graphansicht-Dock &#x200B;](../interface/the-graph-view/the-graph-view.md) ist das wichtigste Fenster in Substance 3D Designer. Es zeigt die Knotennetzwerke eines beliebigen Grafen an, der in Designer verfügbar ist ([Substance-Graf](../compositing-graphs/substance-compositing-graphs.md), [Substance-Funktions-Graf](../function-graphs/function-graphs.md), [FX-Map-Graf](../function-graphs/fxmaps/fxmaps.md)), und ermöglicht das Erstellen und Bearbeiten dieser .
+[Das Graphansicht-Dock ](../interface/the-graph-view/the-graph-view.md) ist das wichtigste Fenster in Substance 3D Designer. Es zeigt die Knotennetzwerke eines beliebigen Grafen an, der in Designer verfügbar ist ([Substance-Graf](../compositing-graphs/substance-compositing-graphs.md), [Substance-Funktions-Graf](../function-graphs/function-graphs.md), [FX-Map-Graf](../function-graphs/fxmaps/fxmaps.md)), und ermöglicht das Erstellen und Bearbeiten dieser .
 
 ![Diagrammansicht](interface.resources/graph-6.png "Diagrammansicht")
 
@@ -105,7 +105,7 @@ Das [Eigenschaften-Dock](properties/properties.md) ist das technisch ausgereifte
 
 ## 2D-Ansicht
 
-[Die 2D-Ansicht &#x200B;](../interface/2d-view/2d-view.md) ist das einfachste Vorschauwerkzeug. Es arbeitet eng mit der Grafik zusammen: Wenn Sie auf einen Knoten in der Diagrammansicht doppelklicken, wird das visuelle Ergebnis in der 2D-Ansicht angezeigt.
+[Die 2D-Ansicht ](../interface/2d-view/2d-view.md) ist das einfachste Vorschauwerkzeug. Es arbeitet eng mit der Grafik zusammen: Wenn Sie auf einen Knoten in der Diagrammansicht doppelklicken, wird das visuelle Ergebnis in der 2D-Ansicht angezeigt.
 
 ![2D-Ansicht](interface.resources/2d-view-1.jpg "2D-Ansicht")
 
@@ -117,6 +117,6 @@ Das [Eigenschaften-Dock](properties/properties.md) ist das technisch ausgereifte
 
 ## Bibliothek
 
-[Das Bibliotheks-Dock &#x200B;](../interface/the-library/the-library.md) bietet standardmäßig Zugriff auf alle Inhalte, die in der Designer-Bibliothek enthalten sind, sowie auf Ihre [benutzerdefinierten Inhalte](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md). Um den Unterschied zwischen den Atomknoten und den Instanzknoten in der Bibliothek besser zu verstehen, lesen Sie unbedingt die Übersicht über die [Knoten](https://helpx.adobe.com/substance-designer/using/nodes-overview.html).
+[Das Bibliotheks-Dock ](../interface/the-library/the-library.md) bietet standardmäßig Zugriff auf alle Inhalte, die in der Designer-Bibliothek enthalten sind, sowie auf Ihre [benutzerdefinierten Inhalte](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md).
 
 ![Bibliothek](interface.resources/library-3.jpg "Bibliothek")

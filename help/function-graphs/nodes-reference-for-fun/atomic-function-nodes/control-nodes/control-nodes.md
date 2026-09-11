@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
 breadcrumb-title: ''
 description: Greifen Sie in Substance 3D Designer-Funktionsdiagrammen auf Steuerungsknoten zu, um den Ablauf und die Ausführungslogik zu steuern.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Steuerung
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 65827855542d37bf8c090d4d3072684848b73515
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '508'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Auf dieser Seite werden Knoten von [Funktionsdiagrammen](../../../../function-gr
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Wenn...Anderer Knoten](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/IfElse_Node.jpg "If...Else-Knoten")
+![If...Else node](../../../../assets/IfElse_Node.jpg "If...Else node")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,7 +55,7 @@ Die Bedingung, die die Ausgabe des Knotens steuert.
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Sequenzknoten](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/Sequence_Node.jpg "Sequenzknoten")
+![Sequenzknoten](../../../../assets/Sequence_Node.jpg "Sequenzknoten")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -85,7 +85,7 @@ Der Teil des Grafen, der zuletzt berechnet werden soll
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Knoten &quot;Ganze Schleife&quot;](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/WhileLoop-Node.jpg "Ganzer Loop-Knoten")
+![Knoten &quot;Ganze Schleife&quot;](../../../../assets/WhileLoop-Node.jpg "Knoten &quot;Ganze Schleife&quot;")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -109,12 +109,12 @@ Dies bedeutet, dass Sie jede Iteration zu einem Indexwert hinzufügen und seinen
 >
 > Mit <b>Exit Cond.</b> verbundene Knoten und <b>Schleifenbody</b>-Verzweigungen können nicht mit anderen Verzweigungen des Grafen verbunden werden.
 
-+++Eingabe-Verbindungen
++++Eingangsanschlüsse
 <b>Init.</b> *Variablentyp*\
 Der Teil des Grafen, der vor der ersten Iteration berechnet wird, d. h. der Beginn der Schleife.
 
-<b>Abschlusskennung </b> *Boolesche Wert*\
-Die Bedingung, die &quot;true&quot; sein muss, damit die Schleife beendet wird. Er wird auf jeder Iteration neu berechnet.\
+<b>Abschlusskennung </b> *Boolescher Wert*\
+Die Bedingung, die &quot;true&quot; sein muss, damit die Schleife beendet wird. Er wird bei jeder Iteration neu berechnet.\
 *Hinweis:* Die maximale Anzahl von Iterationen ist weiterhin auf den Parameter <b>Max. Iterationen</b> beschränkt.
 
 <b>Schleifentext</b> *Variablentyp*\
