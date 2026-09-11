@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie SetSequence-Knoten in FXMaps verwenden, um sequenzielle Muster und prozedurale Varianten zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Verwenden der SetSequence-Knoten
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4e61f5588fb279e139240ac5939d6b7e58e1027a
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 0%
@@ -28,12 +28,12 @@ Auf dieser Seite werden die Knoten &quot;**Set**&quot; und &quot;**Sequence**&qu
 
 ## Überblick
 
-Bei der Arbeit mit Funktionen in <b>FX-Maps</b> befinden Sie sich gelegentlich in Situationen, in denen Sie einen Wert aus dem *[Substance-Funktionsparameter](../../../../function-graphs/the-function-graph/the-function-graph.md)* eines Grafen ausgeben möchten, sodass Sie ihn *in einem anderen Parameter verwenden können.* Standardmäßig gibt ein Substance-Funktions-Graf jedoch nur den Wert *one* aus: der, der den zugehörigen Parameter steuert.
+Bei der Arbeit mit Funktionen in <b>FX-Maps</b> befinden Sie sich gelegentlich in Situationen, in denen Sie einen Wert aus dem *[Substance-Funktionsdiagramm eines Parameters](../../../../function-graphs/the-function-graph/the-function-graph.md)* ausgeben möchten, sodass Sie ihn *in einem anderen Funktionsdiagramm verwenden können.* Standardmäßig gibt ein Substance-Funktionsdiagramm jedoch nur den Wert *one* aus: der, der den zugehörigen Parameter steuert.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Set- und Sequenzknoten](../../../../assets/image2017-3-17-15-5-5.png "Set- und Sequenzknoten")
+![Set- und Sequenzknoten](using-the-set-sequence-nodes.resources/image2017-3-17-15-5-5.png "Set- und Sequenzknoten")
 
 </td>
 </tr>
@@ -44,7 +44,7 @@ In diesem Fall können Sie die Kombination aus <b>Set</b> und <b>Sequence</b>-Kn
 Dieser Vorgang umfasst zwei Schritte:
 
 1. Mit dem Knoten <b>Set</b> können Sie eine neue Variable erstellen, sodass Sie sie an einer anderen Stelle aufrufen und ihr einen Wert zuweisen können.
-1. Der Knoten <b>Sequenz</b> wird verwendet, um die Logik in Schritt 1 vollständig auszuführen, *bevor ein weiterer Zweig* des Grafen ausgeführt wird - z. B. die Logik, die tatsächlich an der Ausgabe des erwarteten Werts für den aktuellen Graf beteiligt ist.
+1. Der Knoten <b>Sequenz</b> wird verwendet, um die Logik in Schritt 1 vollständig auszuführen, *bevor ein weiterer Zweig* des Diagramms ausgeführt wird - z. B. die Logik, die tatsächlich an der Ausgabe des erwarteten Werts für das aktuelle Diagramm beteiligt ist.
 
 <table>
 <tr style="border: 0;">
@@ -56,12 +56,12 @@ Mit dem Knoten <b>Set</b> können Sie eine neue Variable festlegen und ihr den T
 
 Der *Name* der Variable wird vom Benutzer in die Eigenschaften des Knotens eingegeben.
 
-Standardmäßig ist die von diesem Graf festgelegte Variable *only*, auf die im Rahmen des *übergeordneten* dieses Funktionsknotens zugegriffen werden kann, z. B. der Substance, der den von der definierten Parameter hostet.
+Standardmäßig ist die von diesem Knoten festgelegte Variable *only*, auf die im Rahmen des *übergeordneten* dieses Funktionsdiagramms zugegriffen werden kann, z. B. der Substance, der den von der Funktion definierten Parameter hostet.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Knoten festlegen](../../../../assets/image2017-3-17-15-12-52.png "Knoten festlegen")
+![Knoten festlegen](using-the-set-sequence-nodes.resources/image2017-3-17-15-12-52.png "Knoten festlegen")
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ In diesem Beispiel wurde der Variablenname auf &quot;**`myVariable`**&quot; fest
 </td>
 <td style="border: 0;" valign="top">
 
-![Knotenbeispiel festlegen](../../../../assets/image2018-8-30-17-45-35.png "Knotenbeispiel festlegen")
+![Knotenbeispiel festlegen](using-the-set-sequence-nodes.resources/image2018-8-30-17-45-35.png "Knotenbeispiel festlegen")
 
 </td>
 </tr>
@@ -88,14 +88,14 @@ In diesem Beispiel wurde der Variablenname auf &quot;**`myVariable`**&quot; fest
 
 ## Der Sequenzknoten
 
-Der Knoten <b>Sequenz</b> gibt Ihnen die Kontrolle über den *Ausführungsfluss* der Substance-Funktionsknoten, indem Sie sicherstellen, dass die *erste Verzweigung vollständig vor der zweiten Verzweigung ausgeführt wird*.
+Der Knoten <b>Sequenz</b> gibt Ihnen die Kontrolle über den *Ausführungsfluss* der Substance-Funktionsdiagramme, indem Sie sicherstellen, dass die *erste Verzweigung vollständig vor der zweiten Verzweigung ausgeführt wird*.
 
 Die Ausgabe der *zweiten Verzweigung* wird dann an die Ausgabe des Knotens übergeben.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Sequenzknoten](../../../../assets/image2017-3-17-15-17-38.png "Sequenzknoten")
+![Sequenzknoten](using-the-set-sequence-nodes.resources/image2017-3-17-15-17-38.png "Sequenzknoten")
 
 </td>
 </tr>
@@ -105,14 +105,14 @@ Die Ausgabe der *zweiten Verzweigung* wird dann an die Ausgabe des Knotens über
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-In diesem Beispiel wird der Knoten <b>Sequenz</b> als Ausgabe des Grafen festgelegt. Die Ausgabe der Funktion ist somit der vom Knoten <b>Fließkommazahl</b> ausgegebene Wert <b>0.5</b>.
+In diesem Beispiel wird der Knoten <b>Sequenz</b> als Ausgabe des Diagramms festgelegt. Die Ausgabe der Funktion ist somit der vom Knoten <b>Float</b> ausgegebene Wert <b>0.5</b>.
 
 Zuvor wird jedoch die Variable &quot;`<b>myVariable</b>`&quot; mit dem Gleitkommawert &quot;<b>1.0</b>&quot; festgelegt. Diese Variable kann dann *an einer anderen Stelle* im Kontext des Knotens verwendet werden.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Beispiel für Sequenzknoten](../../../../assets/image2018-8-30-17-49-41.png "Beispiel für Sequenzknoten")
+![Beispiel für Sequenzknoten](using-the-set-sequence-nodes.resources/image2018-8-30-17-49-41.png "Beispiel für Sequenzknoten")
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ Zuvor wird jedoch die Variable &quot;`<b>myVariable</b>`&quot; mit dem Gleitkomm
 
 Sie können beispielsweise *zuerst eine Variable festlegen*, *ihren Wert zu einem späteren Zeitpunkt aktualisieren* und dann *ihren endgültigen Wert lesen*, während Sie sicherstellen, dass diese Aktionen *in einer bestimmten Reihenfolge ausgeführt werden*.
 
-![Sequenzknoten verkettet](../../../../assets/image2018-8-30-17-52-27.png "Sequenzknoten verkettet")
+![Sequenzknoten verkettet](using-the-set-sequence-nodes.resources/image2018-8-30-17-52-27.png "Sequenzknoten verkettet")
 
 ## Variable Sichtbarkeit
 
@@ -148,7 +148,7 @@ Wir werden die gesamte Berechnung in der Parameterfunktion <b>Farbe/Luminanz</b>
 </td>
 <td style="border: 0;" valign="top">
 
-![Quadranteneigenschaften](../../../../assets/image2018-8-30-18-1-6.png "Quadranteneigenschaften")
+![Quadranteneigenschaften](using-the-set-sequence-nodes.resources/image2018-8-30-18-1-6.png "Quadranteneigenschaften")
 
 </td>
 </tr>
@@ -167,13 +167,13 @@ Beachten Sie, dass die **Position**-Eigenschaft bereits durch einen Zufallswert 
 </td>
 <td style="border: 0;" valign="top">
 
-![Funktion für Farbe/Luminanz des Quadranten](../../../../assets/image2018-8-30-18-4-46.png "Funktion für Farbe/Luminanz des Quadranten")
+![Funktion für Farbe/Luminanz des Quadranten](using-the-set-sequence-nodes.resources/image2018-8-30-18-4-46.png "Funktion für Farbe/Luminanz des Quadranten")
 
 </td>
 </tr>
 </table>
 
-![Verstreute Muster](../../../../assets/image2018-8-30-18-5-30.png "Verstreute Muster")
+![Verstreute Muster](using-the-set-sequence-nodes.resources/image2018-8-30-18-5-30.png "Verstreute Muster")
 
 <table>
 <tr style="border: 0;">
@@ -184,7 +184,7 @@ Nachdem die Variable &quot;`myRotation`&quot; vorhanden ist und einen Wert aufwe
 </td>
 <td style="border: 0;" valign="top">
 
-![Menü für die Parameterfunktion der Musterrotation](../../../../assets/image2018-8-30-18-7-57.png "Menü für die Parameterfunktion der Musterrotation")
+![Menü für die Parameterfunktion der Musterrotation](using-the-set-sequence-nodes.resources/image2018-8-30-18-7-57.png "Menü für die Parameterfunktion der Musterrotation")
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ In der Funktion wird der Wert des `myRotation`-Parameters mithilfe eines **Get F
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Gleitende Ausgabe der Musterrotation abrufen](../../../../assets/image2018-8-30-18-10-58.png "Gleitende Ausgabe der Musterrotation abrufen")
+![Gleitende Ausgabe der Musterrotation abrufen](using-the-set-sequence-nodes.resources/image2018-8-30-18-10-58.png "Gleitende Ausgabe der Musterrotation abrufen")
 
 </td>
 </tr>
@@ -207,4 +207,4 @@ In der Funktion wird der Wert des `myRotation`-Parameters mithilfe eines **Get F
 
 Die Luminanz steuert jetzt auch die Drehung.
 
-![Gedrehte Muster](../../../../assets/image2018-8-30-18-12-25.png "Gedrehte Muster")
+![Gedrehte Muster](using-the-set-sequence-nodes.resources/image2018-8-30-18-12-25.png "Gedrehte Muster")

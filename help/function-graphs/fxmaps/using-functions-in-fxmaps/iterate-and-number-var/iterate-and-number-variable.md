@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-variable.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-variable.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie in FXMaps Iterate- und Nummernvariablen verwenden, um Schleifenmuster und prozedurale Varianten zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Variable "Iterate" und "Number"
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4e61f5588fb279e139240ac5939d6b7e58e1027a
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 # Variable &quot;Iterate&quot; und &quot;$number&quot;
 
-![](../../../../assets/iterate-1.jpg)
+![](iterate-and-number-variable.resources/iterate-1.jpg)
 
-Der Knoten &quot;Iterieren&quot; rendert die Knoten, die mit der rechten Ausgabe verbunden sind, so lange, wie dies durch den Wert &quot;Iterationen&quot; angegeben wird.
+Der Knoten &quot;Iterieren&quot; rendert die Knoten, die mit der rechten Ausgabe verbunden sind, so lange, wie der Wert &quot;Iterationen&quot; dies vorgibt.
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../assets/1-iteration.png"/></div> | 1 Iteration: das Gaußsche Muster wird einmal gerendert |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="iterate-and-number-variable.resources/1-iteration.png"/></div> | 1 Wiederholung: das Gaußsche Muster wird einmal gerendert |
 | --- | --- |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="../../../../assets/10-iterations.png"/></div> | 10 Iterationen: Das Gaußsche Muster wird 10-mal am selben Ort gerendert. |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="iterate-and-number-variable.resources/10-iterations.png"/></div> | 10 Wiederholungen: Das Gaußsche Muster wird 10-mal am selben Ort gerendert. |
 
 Wenn Sie einen Iterate-Knoten verwenden, können Sie die Variable $number verwenden, um den aktuellen Wert der Iteration abzurufen. $number ist ein Gleitkommawert und beginnt bei 0.
 
@@ -34,12 +34,12 @@ Wenn Sie einen Iterate-Knoten verwenden, können Sie die Variable $number verwen
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/position-function.jpg){width="300px"}
+![](iterate-and-number-variable.resources/position-function.jpg){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/10-iterations-position-function.png){width="300px"}
+![](iterate-and-number-variable.resources/10-iterations-position-function.png){width="300px"}
 
 </td>
 </tr>
