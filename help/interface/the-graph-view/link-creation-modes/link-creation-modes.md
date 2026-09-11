@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über die Verbindungserstellungsmodi in der Substance 3D Designer-Graphansicht zum effizienten Verbinden von Knoten.
 helpx_creative_field: ""
@@ -92,7 +92,7 @@ Gruppierte Ein- und Ausgänge eines Grafen werden visuell als *gekennzeichnet, d
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Kapsel der Gruppe auf Knoten &#x200B;](../../../assets/link-creation-mode-group-node.png "Kapsel der Gruppe auf Knoten "){zoomable="yes"}
+![Kapsel der Gruppe auf Knoten ](../../../assets/link-creation-mode-group-node.png "Kapsel der Gruppe auf Knoten "){zoomable="yes"}
 
 </td>
 </tr>

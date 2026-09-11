@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan-non-uniform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan-non-uniform.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Histogramm Scan Non-Uniform (Histogramm scannen ohne Uniform), um ein ungleichmäßiges Histogramm zur erweiterten Farbkorrektur zu scannen.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/sample-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/sample-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Entdecke Graf für Substance-Compositing in Designer, um erweiterte Techniken und Best Practices kennenzulernen.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 ## Überblick
 
-Auf dieser Seite werden die [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html)-Beispieldateien aufgelistet, die heruntergeladen werden können. Diese Projekte enthalten Grafen mit Anmerkungen, die grundlegende Tools und Konzepte von [Substance-Grafen](../../compositing-graphs/substance-compositing-graphs.md) darstellen.
+Auf dieser Seite werden die [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html)-Beispieldateien aufgelistet, die heruntergeladen werden können. Diese Projekte enthalten Grafen mit Anmerkungen, die grundlegende Tools und Konzepte von [Substance-Grafen](../../compositing-graphs/substance-compositing-graphs.md) darstellen.
 
 <table>
 <tr style="border: 0;">
@@ -37,7 +37,7 @@ Dieses Projekt enthält eine einfache Filtereinrichtung, die als Graf in anderen
 </td>
 <td style="border: 0;" valign="top">
 
-![&#x200B; Beispiel für &quot;Filter&quot; &#x200B;](../../assets/demo-filter.png " Beispiel für &quot;Filter&quot; "){zoomable="yes"}
+![ Beispiel für &quot;Filter&quot; ](../../assets/demo-filter.png " Beispiel für &quot;Filter&quot; "){zoomable="yes"}
 
 </td>
 </tr>
@@ -58,7 +58,7 @@ Informationen zur Vererbung finden Sie in [dieser Seite](../../compositing-graph
 </td>
 <td style="border: 0;" valign="top">
 
-![&#x200B; Beispiel &quot;Vererbung&quot; &#x200B;](../../assets/demo-inheritance.png " Beispiel &quot;Vererbung&quot; "){zoomable="yes"}
+![ Beispiel &quot;Vererbung&quot; ](../../assets/demo-inheritance.png " Beispiel &quot;Vererbung&quot; "){zoomable="yes"}
 
 </td>
 </tr>
@@ -79,7 +79,7 @@ Dieses Projekt veranschaulicht zwei einfache Anwendungsfälle für den Pixelproz
 </td>
 <td style="border: 0;" valign="top">
 
-![&#x200B; Beispiel für &quot;Pixelprozessor&quot; &#x200B;](../../assets/demo-pixel-processor.png " Beispiel für &quot;Pixelprozessor&quot; "){zoomable="yes"}
+![ Beispiel für &quot;Pixelprozessor&quot; ](../../assets/demo-pixel-processor.png " Beispiel für &quot;Pixelprozessor&quot; "){zoomable="yes"}
 
 </td>
 </tr>

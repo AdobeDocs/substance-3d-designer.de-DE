@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-irradiance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-irradiance.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten RT-Bestrahlungsstärke, um Informationen zur Bestrahlungsstärke in Echtzeit aus der Geometrie für realistische Beleuchtungsberechnungen zu berechnen.
 helpx_creative_field: ""

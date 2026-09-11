@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/metal-edge-wear.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/metal-edge-wear.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Edge Wear "Metall", um auf Grundlage der Krümmung und der Position des Gitters Verschleißmasken an den Kanten des Metalls zu erzeugen.
 helpx_creative_field: ""
@@ -68,7 +68,7 @@ Diese Maske repräsentiert den Kantenverschleiß an einem Metallobjekt, wobei Kr
 | <b>Ambient occlusion-Maskierung</b> <i>0.0 - 1.0</i> | Legt die Stärke des Effekts fest, den AO auf den endgültigen Effekt ausübt, wobei dunkle Bereiche ausgeblendet werden. |
 | <b>Krümmung Weight</b> <i>0.0 - 1.0</i> | Legt den Umfang des Effekts fest, den die konvexen Kanten der Krümmung auf den endgültigen Effekt haben. |
 | <b>Benutzerdefinierten Schmutz verwenden</b> <i>False/True</i> | Aktiviert einen benutzerdefinierten Schmutz-Map-Eingangssteckplatz. |
-| <b>Triplanar verwenden</b> <i>False/True</i> | Aktivieren Sie die [Planare &#x200B;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md)-Projektion, um Nähte auszublenden. |
+| <b>Triplanar verwenden</b> <i>False/True</i> | Aktivieren Sie die [Planare ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md)-Projektion, um Nähte auszublenden. |
 | <b>Triplanarer Mischkontrast</b> <i>0.0 - 1.0</i> | Legt den Mischkontrast für die Triplanare Projektion fest. |
 
 ## Beispiele

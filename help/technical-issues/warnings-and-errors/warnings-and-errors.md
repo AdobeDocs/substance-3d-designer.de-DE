@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/technical-issues/warnings-and-errors.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/warnings-and-errors.html"
 breadcrumb-title: ''
 description: Finden Sie Lösungen für häufig auftretende Warnungen und Fehler in Substance 3D Designer, um Probleme schnell zu beheben.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 # Warnungen und Fehler
 
-Auf dieser Seite werden die Berichterstellung für Warnungen und Fehlermeldungen erläutert, die in [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) angezeigt werden können, sowie Links zur Fehlerbehebung für Warnungen anhand ihrer Quelle.
+Auf dieser Seite werden die Berichterstellung für Warnungen und Fehlermeldungen erläutert, die in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) angezeigt werden können, sowie Links zur Fehlerbehebung für Warnungen anhand ihrer Quelle.
 
 ## Überblick
 
@@ -89,7 +89,7 @@ Sie befolgen die folgenden Regeln:
 
 * Wenn das Element unter einem anderen Element verschachtelt ist (z. B. einer Abschnittsüberschrift), werden Warnungen zu diesem Element angezeigt, wenn es ausgeblendet wird.
 * Warnungslisten sind *kumulativ*, da sie die Summe der Warnungen eines Elements *und* aller angezeigten Warnungen seiner untergeordneten Elemente sind.
-* Wenn das [Funktionsdiagramm &#x200B;](../../function-graphs/function-graphs.md), das auf einen [Eingabeparameter &#x200B;](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) angewendet wurde, eine oder mehrere Warnungen enthält, enthält das Parameterelement eine *einzelne* `The [x] parameter's function has some warnings` Warnung.
+* Wenn der [Funktions-Graf ](../../function-graphs/function-graphs.md), der auf einen [Eingabeparameter ](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) angewendet wird, eine oder mehrere Warnungen enthält, wird für das Parameterelement eine *einzelne* `The [x] parameter's function has some warnings` Warnung ausgegeben.
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
@@ -110,7 +110,7 @@ Im Bedienfeld **Konsole** werden sowohl Warnungen als auch Fehler gemeldet. Sie 
 
 >[!NOTE]
 >
-> Da der gesamte Text in der Konsole *auswählbar* ist, können Sie dieses Fenster verwenden, um *Warnungen und Fehlermeldungen einfach zu kopieren* und in das Tool **Lokale Suche** dieser Dokumentation oder in eine beliebige Internet-Suchmaschine einzufügen. Dies beschleunigt die Suche nach Anleitungen zur Fehlerbehebung.
+> Da der gesamte Text in der Konsole *auswählbar* ist, können Sie dieses Fenster verwenden, um *Warnungen und Fehlermeldungen einfach zu kopieren* und in das **Tool für die lokale Suche** dieser Dokumentation oder in ein beliebiges Engine für die Internetsuche einzufügen. Dies beschleunigt die Suche nach Anleitungen zur Fehlerbehebung.
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
@@ -144,7 +144,7 @@ Im Folgenden finden Sie eine Liste der Warnungen und Fehler, die in Designer auf
 </td>
 <td style="border: 0;" valign="top">
 
-### Warnungen in Funktionsdiagrammen
+### Warnungen in Funktions-Grafen
 
 * Kein Ausgabeknoten definiert
 * Der aktuelle Ausgabeknoten gibt einen Wert vom Typ x zurück.
@@ -163,5 +163,5 @@ Im Folgenden finden Sie eine Liste der Warnungen und Fehler, die in Designer auf
 * Verknüpfte Datei wurde nicht gefunden
 * Farbraum nicht gefunden
 * Referenzressource nicht gefunden
-* UV-Kacheln werden mehrfach zugewiesen
+* UV-Kacheln werden mehrmals zugeordnet
 * Ungültige UV-Kacheln

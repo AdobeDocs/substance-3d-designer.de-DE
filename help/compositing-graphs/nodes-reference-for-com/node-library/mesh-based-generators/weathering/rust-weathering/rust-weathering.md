@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rust-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rust-weathering.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Rost Weathering-Knoten, um Netzmuster auf der Grundlage von Netzgeometrie zu generieren, um realistische Rost-Korrosionseffekte zu erzeugen.
 helpx_creative_field: ""
@@ -74,7 +74,7 @@ ht-degree: 14%
 | <b>Intensität der Rauheit</b> <i>0.0 - 1.0</i> | Die Stärke der Raueit. |
 | <b>Metallic Intensität</b> <i>0.0 - 1.0</i> | Mischfestigkeit des Metallic. |
 | <b>Ambient occlusion-Intensität</b> <i>0.0 - 1.0</i> | Mischfestigkeit der Ambient-Verdeckung. |
-| <b>Height-Intensität</b> <i>0.0 - 1.0</i> | Die Stärke des Heights beim Mischen. |
+| <b>Height-Intensität</b> <i>0.0 - 1.0</i> | Die Stärke des Heights. |
 
 ## Beispiele
 

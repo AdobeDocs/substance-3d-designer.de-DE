@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random.html"
 breadcrumb-title: ''
-description: Verwenden Sie zufällige Funktionsknoten, um zufällige Werte innerhalb bestimmter Grenzen mit verschiedenen Algorithmen zu generieren.
+description: Verwenden Sie Zufallsalgorithmen, um Zufallswerte innerhalb bestimmter Funktionsknoten mit verschiedenen Algorithmen zu generieren.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Atomic function nodes > Random
 helpx_experience_level: ""
@@ -32,15 +32,15 @@ Normalverteilung
 
 Zufallsdiskret [a, b]
 
-Zufällige Uniform &lbrack;-1, 1&lbrack;
+Zufällige Uniform [-1, 1[
 
-Zufällige Uniform &lbrack;a, b&lbrack;
+Zufällige Uniform [a, b[
 
-Gleichmäßiger zufälliger Float2 &lbrack;a, b&lbrack;
+Gleichmäßiger zufälliger Float2 [a, b[
 
-Gleichmäßiger zufälliger Float3 &lbrack;a, b&lbrack;
+Gleichmäßiger zufälliger Float3 [a, b[
 
-Zufallsgleichmäßiges Float4 &lbrack;a, b&lbrack;
+Zufallsgleichmäßiges Float4 [a, b[
 
 </td>
 <td style="border: 0;" valign="top">

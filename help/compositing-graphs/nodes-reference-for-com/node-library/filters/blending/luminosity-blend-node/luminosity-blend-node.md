@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/luminosity-blend-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/luminosity-blend-node.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Luminanzüberblendung , um Texturen basierend auf Luminanzwerten zu überblenden, um helligkeitsbasierte zusammengesetzte Effekte zu erstellen.
 helpx_creative_field: ""

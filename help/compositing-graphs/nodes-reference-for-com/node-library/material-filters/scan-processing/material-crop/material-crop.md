@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/material-crop.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/material-crop.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Material-Freistellung , um Bereiche der Textur aus gescannten Materialien zuzuschneiden und so bestimmte Interessensbereiche zu isolieren.
 helpx_creative_field: ""
@@ -37,7 +37,7 @@ Dieser Knoten ist die Vollversion des mehrkanaligen Materials von [Crop](../../.
 
 >[!NOTE]
 >
-> [Weitere Informationen finden Sie im Original &#x200B;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md) [Zuschneiden](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md) [.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)
+> [Weitere Informationen finden Sie im Original ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)[Zuschneiden](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)[.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)
 
 </td>
 </tr>
@@ -53,4 +53,4 @@ Dieser Knoten ist die Vollversion des mehrkanaligen Materials von [Crop](../../.
 | <b>Eingabegröße</b> <i>0 - 8192</i> | Eingabebilds Auflösung und Proportionen. Sehr wichtig für nicht quadratische Bilder. |
 | <b>Hintergrund</b> <i>(Farbwert) / (Graustufenwert)</i> | Einheitlicher Hintergrundwert für Bereiche, die nicht von der Freistellung abgedeckt sind. |
 | <b>Transformieren</b> <i>(Transformationsmatrix)</i> | Dreht und skaliert das Ergebnis. Das Ergebnis kann durch direkte Interaktion mit der Arbeitsfläche geändert werden. |
-| <b>Offset</b> <i>0.0 - 1.0</i> | Verschiebt oder Kamera bewegt das Ergebnis. Das Ergebnis kann durch direkte Interaktion mit der Arbeitsfläche geändert werden. |
+| <b>Offset</b> <i>0.0 - 1.0</i> | Verschiebt oder verschiebt das Ergebnis. Das Ergebnis kann durch direkte Interaktion mit der Arbeitsfläche geändert werden. |

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-color.html"
 breadcrumb-title: ''
-description: Verwenden Sie Farbfunktionsknoten, um Farbkonvertierungen und Tonzuordnungsoperationen in Funktionsdiagrammen durchzuführen.
+description: Verwenden Sie Color-Funktionsknoten, um Farbkonvertierungen und Tonzuordnungsvorgänge in Funktions-Grafen auszuführen.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Atomic function nodes > Color
 helpx_experience_level: ""
@@ -34,9 +34,9 @@ HCL zu RGB
 
 HSI auf RGB
 
-HSL-Offset
+HSL
 
-HSL auf RGB
+HSL RGB
 
 HSV auf RGB
 
@@ -61,19 +61,19 @@ RGB hue 2 polar
 
 RGB-Farbton sechseckig
 
-RGB Helligkeitsmittel
+RGB Helligkeit Durchschnitt
 
-RGB-Helligkeit Bi-Hexcone
+RGB Helligkeit bihexcone
 
-RGB-Helligkeitshexkon
+RGB Helligkeit Hexcone
 
-RGB Luminanzluma Rec. 601
+RGB Helligkeit Luma Rec. 601
 
-RGB Luminanzluma Rec. 709
+RGB Helligkeit Luma Rec. 709
 
 RGB-Sättigung HSI
 
-HSL-Sättigung für RGB
+RGB-HSL
 
 HSV-Sättigung für RGB
 
@@ -88,13 +88,13 @@ RGB auf HSL
 
 RGB auf HSV
 
-sRGB zu linear (Luminanz)
+sRGB auf linear (Luminanz)
 
 sRGB auf linear
 
 Temperatur auf sRGB
 
-ACES-Tonemapper
+ACE
 
 AgX-Tonabnehmer
 

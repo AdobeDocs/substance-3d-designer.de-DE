@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-albedo.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-albedo.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Mehrere Winkel zu Albedo", um Albedo-Maps aus gescannten Bildern mit mehreren Winkeln zu extrahieren, um saubere Materialfarben zu erhalten.
+description: Verwenden Sie den Knoten "Mehrere Winkel zu Albedo", um Albedo-Maps aus gescannten Bildern mit mehreren Winkeln zu extrahieren, um klare Material-Farben zu erhalten.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi-Angle to Albedo
 helpx_experience_level: ""
@@ -35,13 +35,13 @@ ht-degree: 2%
 
 Dieser Knoten versucht, Informationen über die gesamte Beleuchtung aus einem Satz von Eingabebildern/Scans zu entfernen, die unter verschiedenen Beleuchtungswinkeln aufgenommen wurden. Es kombiniert alle Samples zu einem einzigen Bild, das so lichtneutral und damit PBR-korrekt wie möglich sein sollte.
 
-Behalte im Hinterkopf: Je mehr Samples du hast und je größer der Unterschied im Beleuchtungswinkel ist, desto größer ist der Erfolg, den du erzielst. Ab vier Proben sollte es möglich sein, je nach Eingabebildern nahezu perfekte Ergebnisse zu erzielen. Eingabebilder sollten mit einem Stativ aufgenommen werden und minimale oder idealerweise sogar keine Unterschiede aufweisen, außer bei Beleuchtung aus einem anderen Winkel!
+Behalte im Hinterkopf: Je mehr Samples du hast und je größer der Unterschied im Beleuchtungswinkel ist, desto größer ist der Erfolg, den du erzielst. Ab vier Stichproben sollte es möglich sein, je nach Ihren Eingabebildern nahezu perfekte Ergebnisse zu erzielen. Eingabebilds sollten mit einem Stativ aufgenommen werden und möglichst wenig oder im Idealfall sogar keine Unterschiede aufweisen, außer wenn sie aus einem anderen Blickwinkel aufgenommen werden!
 
 >[!NOTE]
 >
-> Weitere Informationen zur Normalmap-Version dieses Knotens finden Sie unter [Mehrwinkel zu Normal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md). Wenn Sie Ihre Eingaben vorverarbeiten möchten, können [Multi Color Equalizer](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-color-equalizer/multi-color-equalizer.md), [Multi Crop](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-crop/multi-crop.md) und [Multi Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md) hilfreich sein, da sie mit diesen Knoten kombiniert werden sollen.
+> Weitere Informationen zur Normalmap-Version dieses Knotens finden Sie unter [Mehrwinkel zu Normal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md). Wenn Sie Ihre Eingaben vorverarbeiten möchten, können [Multi-Color Equalizer](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-color-equalizer/multi-color-equalizer.md), [Multi-Zuschnitt](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-crop/multi-crop.md) und [Multi-Klon-Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md) hilfreich sein, da sie mit diesen Knoten kombiniert werden sollen.
 > 
-> [Der Blogpost &quot;Ihr Smartphone ist ein Materialscanner&quot; veranschaulicht diesen Prozess etwas besser.](https://www.allegorithmic.com/blog/your-smartphone-material-scanner)
+> [Der Blogpost &quot;Ihr Smartphone ist ein Material-Scanner&quot; veranschaulicht diesen Vorgang etwas besser.](https://www.allegorithmic.com/blog/your-smartphone-material-scanner)
 
 </td>
 </tr>

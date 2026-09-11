@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities.html"
 breadcrumb-title: ''
-description: Greifen Sie in Substance 3D Designer auf PBR-Dienstprogrammknoten zu, um mit physikalisch basierten Rendering-Materialeigenschaften und -Konvertierungen zu arbeiten.
+description: Greifen Sie in Substance 3D Designer auf PBR-Dienstprogrammknoten zu, um mit physikalisch basierten Rendering-Material-Eigenschaften und -Konvertierungen zu arbeiten.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 7%
 
 # PBR-Dienstprogramme
 
-Diese Kategorie enthält Hilfsknoten für die Arbeit mit PBR-Materialien. Es ist für die Verwendung sowohl mit Specular-Glossiness als auch mit Metallic-Roughness PBR-Workflows vorgesehen. Alle Knoten sind für Multi-Channel-Materialien vorgesehen, und Kanäle können (deaktiviert) werden, um einen oder beide Workflows zu unterstützen.
+Diese Kategorie enthält Helfer für die Arbeit mit PBR-Materialien. Es ist für die Verwendung sowohl mit Specular-Glossiness als auch mit Metallic-Roughness PBR-Workflows vorgesehen. Alle Nodes sind für Multi-Channel-Material gedacht, und Channels können (deaktiviert) werden, um einen oder beide Workflows zu unterstützen.
 
 Die folgenden Knoten sind besonders nützlich:
 

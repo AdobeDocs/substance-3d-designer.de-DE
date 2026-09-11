@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
 breadcrumb-title: ''
 description: Lerne, wie du in Substance 3D Designer Compositing-Graphen Parameter definierst, mit denen sich Materialien anpassen und wiederverwenden lassen.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 Das Freigeben von Parametern ist eines der leistungsfähigsten Tools und der Schlüssel zum Öffnen Ihrer Diagramme für andere Anwendungen wie Substance 3D Painter, Substance 3D Sampler und Substance Integrationen für Maya und 3DS Max.
 
-Auf dieser Seite werden alle erforderlichen Konzepte für den Einstieg in die Bereitstellung erläutert. Es wird [&#x200B; empfohlen, zuerst zu erfahren, was eine Diagramminstanz ist](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), bevor Sie mit dieser Seite fortfahren. Es ist auch gut, den Unterschied zwischen Publish und &quot;Exportieren&quot; sowie die betroffenen Dateitypen zu erfassen[.](../../../getting-started/overview/overview.md)
+Auf dieser Seite werden alle erforderlichen Konzepte für den Einstieg in die Bereitstellung erläutert. Es wird [ empfohlen, zuerst zu erfahren, was eine Diagramminstanz ist](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), bevor Sie mit dieser Seite fortfahren. Es ist auch gut, den Unterschied zwischen Publish und &quot;Exportieren&quot; sowie die betroffenen Dateitypen zu erfassen[.](../../../getting-started/overview/overview.md)
 
 ![Verfügbarmachen von Parametern vereinfacht](exposing-a-parameter.resources/parameters-5.png "Verfügbarmachen von Parametern vereinfacht")
 
@@ -53,39 +53,39 @@ Parameter können in vielen verschiedenen Formen vorliegen: Regler, Zifferblätt
 
 +++
 
-+++Muss ich Mathematik verstehen, um legen? Sollte ich die Graf der Substance-Funktion verstehen?
-***Mathematisches Wissen ist nicht erforderlich, um die Legend Parameter richtig zu nutzen, und auch die Funktionsverwendung ist nicht erforderlich.***  Als Startbenutzer können Sie mathematische Vorgänge in [Function Grafen](../../../function-graphs/function-graphs.md) fast vollständig vermeiden. Es wird nur dringend empfohlen, [angemessene Basiskenntnisse über die verschiedenen Datentypen wie Ganzzahl, Fließkommazahl und Boolesche Wert bereitzustellen.](../../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)
++++Muss ich Mathe für die Belichtung kennen? Soll ich Substance-Funktionsdiagramme verstehen?
+***Mathematisches Wissen ist nicht erforderlich, um die Verfügbarkeitsparameter richtig zu nutzen, und auch die Verwendung von Funktionen ist nicht erforderlich.***  Als Anfänger können Sie mathematische Operationen in [Funktionsdiagrammen](../../../function-graphs/function-graphs.md) fast vollständig vermeiden. Es wird nur dringend empfohlen, [die verschiedenen Datentypen wie Integer, Float und Boolean zu kennen.](../../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)
 
 +++
 
-## Leg
+## Belichtung.
 
-Derzeit gibt es zwei Hauptmethoden, um Parameter legen. Die eine Methode ist besser geeignet, um schnell einen einzigen Parameter legen, die zweite Methode ist besser geeignet, um mehrere Parameter in einem Sweep legen.
+Derzeit gibt es zwei Hauptmethoden zum Anzeigen von Parametern. Die eine Methode eignet sich besser für die schnelle Belichtung eines einzelnen Parameters, die zweite Methode eignet sich besser für die Belichtung mehrerer Parameter in einem Sweep.
 
-![Exemplarische Vorgehensweise für eine gelegt Methode](exposing-a-parameter.resources/single-expose2.gif "Exemplarische Vorgehensweise für eine gelegt Methode"){width="512px"}
+![Exemplarische Vorgehensweise für Methoden zur einmaligen Verfügbarmachung](exposing-a-parameter.resources/single-expose2.gif "Exemplarische Vorgehensweise für Methoden zur einmaligen Verfügbarmachung"){width="512px"}
 
-### EINZELNER LEG
+### EINZELBELICHTUNGSMETHODE
 
-1. Suchen Sie den zu legend Parameter im Bereich [Eigenschaften](../../../interface/properties/properties.md) auf der Registerkarte Spezifische Parameter.
+1. Suchen Sie den Parameter, der im Bereich [Eigenschaften](../../../interface/properties/properties.md) auf der Registerkarte Spezifische Parameter angezeigt werden soll.
 1. Klicken Sie auf die Schaltfläche mit den Dropdownoptionen ![](exposing-a-parameter.resources/image2020-9-17-15-35-59.png).
-1. Wählen Sie ![](exposing-a-parameter.resources/image2020-9-17-15-37-7.png) <b>Als neue Graf-Eingabe Gelegt</b> aus der Dropdown-Liste, die erste Option.
-1. Das Dialogfeld &quot;<b>Parameter Gelegt</b>&quot; wird angezeigt. Legen Sie alle Parametereigenschaften nach Wunsch fest.
+1. Wählen Sie ![](exposing-a-parameter.resources/image2020-9-17-15-37-7.png) <b>Als neue Diagrammeingabe verfügbar machen</b> aus der Dropdown-Liste, die erste Option.
+1. Das Dialogfeld &quot;<b>Parameter verfügbar machen</b>&quot; wird angezeigt. Legen Sie alle Parametereigenschaften wie gewünscht fest.
 
-   Es wird empfohlen, mindestens die <b>Identifizierung</b> und <b>Bezeichnung</b> zu ändern.
+   Es wird empfohlen, mindestens die <b>ID</b> und <b>Bezeichnung</b> zu ändern.
 1. Drücken Sie <b>OK</b>, um den Vorgang zu bestätigen.
 1. Der Name des Parameters wird *blau*, und der Name ![](exposing-a-parameter.resources/image2020-9-17-15-35-46.png)\
-   Die Schaltfläche <b> Parameterfunktion bearbeiten</b> wird neben den Dropdown-Optionen angezeigt, um zu bestätigen, dass der Parameter gelegt wird.
+   Neben den Dropdownoptionen wird die Schaltfläche <b> Parameterfunktion bearbeiten</b> angezeigt, um zu bestätigen, dass der Parameter angezeigt wird.
 
 >[!NOTE]
 >
 > Die meisten Zahlenfelder unterstützen *einfache mathematische Formeln* als Eingabe, z. B. `17+3.5`, `7/3`, `(4+2)*3`. Drücken Sie *Eingabe*, um die Formel zu validieren, und das Ergebnis wird in das Feld eingegeben. Wenn die Formel ungültig ist, wird das Feld auf den vorherigen Wert zurückgesetzt.\
 > Einige numerische Felder in anderen Teilen der Anwendung, z. B. im Dock [Eigenschaften](../../../interface/properties/properties.md), unterstützen diese Funktion ebenfalls.
 
-![Schritt-für-Schritt-leg-Methodenexemplar](exposing-a-parameter.resources/batch-expose-2.gif "Schritt-für-Schritt-leg-Methodenexemplar"){width="512px"}
+![Schritt-für-Schritt-Anleitung zur Methode zur Batch-Bereitstellung](exposing-a-parameter.resources/batch-expose-2.gif "Schritt-für-Schritt-Anleitung zur Methode zur Batch-Bereitstellung"){width="512px"}
 
-### Gelegt Stapelverarbeitung
+### Stapelbelichtungsmethode
 
-Wenn ein Parameter gelegt wird, ist diese Methode etwas langsamer als die vorherige. Wenn mehrere Parameter verfügbar gemacht werden, ist dies viel schneller.
+Wenn ein Parameter angezeigt wird, ist diese Methode etwas langsamer als die vorherige. Wenn mehrere Parameter verfügbar gemacht werden, ist dies viel schneller.
 
 1. Suchen Sie statt eines einzelnen Parameters die Schaltfläche ![](exposing-a-parameter.resources/image2020-9-17-15-39-7.png) <b>Mehrfachbelichtung</b> oben rechts auf der Registerkarte <b>Spezifische Parameter</b>.
 1. Wählen Sie <b>Stapelbereitstellungsparameter aus...</b> aus dem Dropdownmenü
@@ -181,7 +181,7 @@ Normalerweise werden alle im <b>Vorschaumodus</b> vorgenommenen Änderungen *ver
 
 >[!IMPORTANT]
 >
-> Der Vorschaumodus ist deaktiviert, wenn die [-kontextbezogene Bearbeitung &#x200B;](../../../interface/preferences-window/preferences-window.md) verwendet wird.
+> Der Vorschaumodus ist deaktiviert, wenn die [-kontextbezogene Bearbeitung ](../../../interface/preferences-window/preferences-window.md) verwendet wird.
 
 >[!WARNING]
 >
@@ -211,13 +211,13 @@ Mit dem Knotensuche-Tool &quot;![](exposing-a-parameter.resources/image2019-9-19
 
 Wenn ein Knoten ein tatsächliches Problem aufweist, zeigt er oben links ein Warnungskennzeichen ![](exposing-a-parameter.resources/image2019-9-19-14-23-54.png) an. Wenn Sie den Mauszeiger über das Abzeichen bewegen, wird eine QuickInfo mit weiteren Informationen angezeigt.
 
-Um ein Problem zurückzusetzen und zu entfernen, klicken Sie für den Parameter, den Sie reparieren oder zurücksetzen möchten, auf die Dropdown-Schaltfläche &quot;![](exposing-a-parameter.resources/image2020-9-17-15-35-59.png)&quot; neben der Schaltfläche &quot;Funktion bearbeiten&quot; und wählen Sie &quot;![](exposing-a-parameter.resources/image2020-9-17-16-56-18.png) <b>Zurücksetzen&quot;. </b>Hiermit wird ein Parameter auf seinen vorherigen, nicht exponierten Zustand zurückgesetzt. Der blaue Name wird wieder grau, um dies widerzuspiegeln.
+Um ein Problem zurückzusetzen und zu entfernen, klicken Sie für den Parameter, den Sie reparieren oder zurücksetzen möchten, auf die Dropdown-Schaltfläche &quot;![](exposing-a-parameter.resources/image2020-9-17-15-35-59.png)&quot; neben der Schaltfläche &quot;Funktion bearbeiten&quot; und wählen Sie &quot;![](exposing-a-parameter.resources/image2020-9-17-16-56-18.png) <b>Zurücksetzen&quot;. </b>Hiermit wird ein Parameter auf seinen vorherigen, nicht gelegt Zustand zurückgesetzt. Der blaue Name wird wieder grau, um dies widerzuspiegeln.
 
 ![Nicht verwendete Eingabeparameter löschen](exposing-a-parameter.resources/clean-inputs-2.gif "Nicht verwendete Eingabeparameter löschen"){width="512px"}
 
 ### BEREINIGEN NICHT VERWENDETER EINGABEPARAMETER
 
-Wenn Sie den Überblick über Ihre Eingabeparameter verloren haben und nicht mehr wissen, welche Parameter verwendet werden, können Sie sie mit einem kleinen Werkzeug bereinigen. Klicken Sie auf die Menüschaltfläche &quot;Eingabeparameter&quot; ![](exposing-a-parameter.resources/image2020-9-17-15-39-7.png), und wählen Sie <b>Eingaben bereinigen.</b>
+Wenn du den Überblick über deine Eingabeparameter verloren hast und nicht mehr weißt, welche davon verwendet werden, kannst du sie mit einem kleinen Tool bereinigen. Klicken Sie auf die Menüschaltfläche &quot;![](exposing-a-parameter.resources/image2020-9-17-15-39-7.png)&quot; des Eingabeparameters und wählen Sie &quot;<b>Eingaben bereinigen&quot; aus.</b>
 
 Ein neues Dialogfeld mit allen nicht verwendeten Parametern wird angezeigt. Aktivieren bzw. deaktivieren Sie die Parameter, die Sie entfernen bzw. beibehalten möchten, und klicken Sie auf &quot;OK&quot;. Wenn kein Dialogfeld angezeigt wird, sind derzeit keine nicht verwendeten Parameter zum Bereinigen vorhanden.
 
@@ -228,4 +228,4 @@ Ein neues Dialogfeld mit allen nicht verwendeten Parametern wird angezeigt. Akti
 Um einen verwendeten Parameter tatsächlich zu entfernen, sind zwei unterschiedliche Schritte erforderlich.
 
 1. Klicken Sie auf dem Knoten mit dem offengelegten Parameter auf den Dropdown-Pfeil rechts neben der blau eingefärbten Schaltfläche „Funktion“: ![](exposing-a-parameter.resources/image2019-9-19-14-55-55.png). Wählen Sie dann &quot;Auf Standardwert zurücksetzen&quot;. Dadurch wird die Verwendung des Parameters auf diesem einen Knoten entfernt. für jeden anderen Knoten, der denselben Parameter verwendet, zu wiederholen. &quot;Auf Standardwert zurücksetzen&quot; setzt auch den Bereich des Parameter-Widgets auf den *weichen Bereich* zurück.
-1. Klicken Sie in der Liste &quot;Eingabeparameter&quot; des Diagramms auf das X rechts neben dem Parametereintrag. Dadurch wird der Parameter vollständig gelöscht. Wenn Knoten versuchen, diesen Parameter zu verwenden, wird ein Warnschild angezeigt (siehe oben).
+1. Klicken Sie in der Liste &quot;Eingabeparameter&quot; des Grafen auf das X rechts neben dem Parametereintrag. Dadurch wird der Parameter vollständig gelöscht. Wenn Knoten versuchen, diesen Parameter zu verwenden, wird ein Warnschild angezeigt (siehe oben).

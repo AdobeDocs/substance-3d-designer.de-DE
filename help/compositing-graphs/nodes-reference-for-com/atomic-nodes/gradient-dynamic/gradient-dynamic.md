@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Verlauf (Dynamisch), um dynamische Farbverläufe zu erstellen, die über Eingabeparameter und Werte gesteuert werden können.
+description: Verwenden Sie den Verlaufsknoten (Dynamisch), um dynamische Verläufe zu erstellen, die durch Eingabeparameter und Werte gesteuert werden können.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient (Dynamic)
 helpx_experience_level: ""
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Dynamischer Verlauf](gradient-dynamic.resources/comp_dyngradient_1.png "Atomic Node: Dynamischer Farbverlauf"){width="200px"}
+![Elementare Knoten: Dynamischer Verlauf](gradient-dynamic.resources/comp_dyngradient_1.png "Elementare Knoten: Dynamischer Farbverlauf"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,11 +37,11 @@ Sie dient als geringfügige Alternative zum Verlaufsknoten. Im Gegensatz zum Ver
 </tr>
 </table>
 
-Dadurch lässt sich hauptsächlich das Problem vermeiden, dass Parameter nicht verfügbar gemacht werden können, da die Parameter für Farbe außerhalb des Knotens verschoben werden. Das macht es &quot;dynamisch&quot;.
+Dadurch kann vor allem das Problem vermieden werden, dass Parameter nicht gelegt werden können, da die Farbparameter außerhalb des Knotens verschoben werden. Das macht es &quot;dynamisch&quot;.
 
 Der Knoten &quot;Verlauf (Dynamisch)&quot; ist zwar nicht schwer zu verwenden, aber die Anwendungsfälle sind etwas komplexer: Die meisten Standardnutzungen können vom regulären Verlaufsknoten abgedeckt werden.
 
-Dieser Knoten kommt zum Einsatz, wenn du zu eingeschränkt durch das Schlüsselsystem des Verlaufseditors bist und möchtest, dass Farben und Rampenpositionen von anderen Eingaben, Parametern und Teilen deines Diagramms gesteuert werden.
+Dieser Knoten kommt zum Einsatz, wenn Sie durch das Schlüsselsystem des Verlaufseditors zu eingeschränkt sind und möchten, dass Farben und Rampenpositionen von anderen Eingaben, Parametern und Teilen Ihres Grafen gesteuert werden.
 
 Alternativ kann der Schieberegler für die Verlaufseingabeposition verwendet werden, um zwischen mehreren Verläufen zu wechseln, die in einem einzelnen Rampeneingang gespeichert sind.
 
@@ -74,12 +74,12 @@ Alternativ kann der Schieberegler für die Verlaufseingabeposition verwendet wer
 </td>
 <td style="border: 0;" valign="top">
 
-### Eingangsanschlüsse
+### Eingabe-Verbindungen
 
 </td>
 <td style="border: 0;" valign="top">
 
-### Ausgangsanschlüsse
+### Ausgabe-Verbindungen
 
 </td>
 <td style="border: 0;" valign="top">
@@ -94,18 +94,18 @@ Alternativ kann der Schieberegler für die Verlaufseingabeposition verwendet wer
 
 |  |  |
 | --- | --- |
-| <b>Verlaufsadressierung</b> *Boolescher Wert* | Legt fest, ob sich der Verlauf wiederholt (Musterelemente) oder geklemmt wird.   Dieser Parameter bestimmt, wie HDR-Pixel außerhalb des [0, 1]-Bereichs der Graustufeneingabe behandelt werden: eingeklemmt oder gefaltet bis [0, 1]. |
-| <b>Verlaufsausrichtung</b> *Integer* | Legt die Achse fest, entlang der die &quot;Verlaufseingabe&quot; abgetastet werden soll:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Horizontal:</i> Aufnehmen einer Pixelzeile auf der X-Achse.</li> <li data-preserve-html="true"><i>Vertikal:</i> Nehmen Sie eine Pixelspalte auf der Y-Achse auf.</li> </ul> |
-| <b>Verlaufseingabeposition</b> *Gleitend* | Die normierte Position der Zeile oder Spalte mit Pixeln, die in der &quot;Verlaufseingabe&quot; abgetastet werden soll. |
+| <b>Verlaufsadressierung</b> *Boolesche Wert* | Legt fest, ob sich der Verlauf wiederholt (Musterelemente) oder geklemmt wird.   Dieser Parameter bestimmt, wie HDR außerhalb des Bereichs [0, 1] behandelt werden. Pixel der Graustufeneingabe werden verarbeitet: eingeklemmt oder gefaltet bis [0, 1]. |
+| <b>Verlaufsausrichtung</b> *Ganzzahl* | Legt die Achse fest, entlang der die &quot;Verlaufseingabe&quot; gesampelt werden soll:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Horizontal:</i> Aufnehmen einer Pixelzeile auf der X-Achse.</li> <li data-preserve-html="true"><i>Vertikal:</i> Nehmen Sie eine Pixelspalte auf der Y-Achse auf.</li> </ul> |
+| <b>Verlaufseingabeposition</b> *Fließkommazahl* | Die normierte Position der Zeile oder Spalte mit Pixeln, die in der &quot;Verlaufseingabe&quot; abgetastet werden soll. |
 
-## Eingangsanschlüsse
+## Eingabe-Verbindungen
 
 |  |  |
 | --- | --- |
 | <b>Graustufeneingabe</b> *Graustufen* PRIMÄR | Das neu zuzuordnende Graustufenbild. |
 | <b>Verlaufseingabe</b> *Farbe/Graustufen* | Der Verlauf wird aus diesem Bild aufgenommen. |
 
-## Ausgangsanschlüsse
+## Ausgabe-Verbindungen
 
 |  |  |
 | --- | --- |

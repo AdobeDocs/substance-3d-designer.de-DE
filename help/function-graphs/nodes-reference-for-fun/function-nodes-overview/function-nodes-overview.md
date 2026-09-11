@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-nodes-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-nodes-overview.html"
 breadcrumb-title: ''
-description: Erfahren Sie mehr über die in den Funktionsdiagrammen von Substance 3D Designer verfügbaren Funktionsknoten zum Erstellen benutzerdefinierter Funktionen.
+description: Erfahren Sie mehr über die in Substance 3D Designer-Grafen verfügbaren Funktionsknoten zum Erstellen benutzerdefinierter Funktionen.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Function Nodes Overview
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Funktionsknoten - Übersicht
+title: Übersicht über Funktionsknoten
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
@@ -18,15 +18,15 @@ ht-degree: 1%
 ---
 
 
-# Funktionsknoten - Übersicht
+# Übersicht über Funktionsknoten
 
 Diese Seite bietet einen vollständigen Überblick über alle Funktionsknoten und erläutert die Farbcodierung für Funktionsdatentypen. Sie können sich durch die einzelnen Seiten mit weiteren Erläuterungen klicken.
 
-Sie können auf diese Funktionsknoten zugreifen, indem Sie mit der rechten Maustaste in den Diagrammeditor klicken und &quot;Element&quot; auswählen, die Leertaste oder die Tabulatortaste in einer Funktion drücken oder den Abschnitt &quot;Funktionen&quot; der Bibliothek öffnen.
+Sie können auf diese Funktionsknoten zugreifen, indem Sie mit der rechten Maustaste in den Funktionseditor des Grafen klicken und &quot;Element&quot; auswählen, die Leertaste oder die Tabulatortaste drücken oder den Bereich &quot;Funktionen&quot; der Bibliothek öffnen.
 
 ## Farbcodierung
 
-Funktionsknoten und ihre Verknüpfungsdrähte sind nach folgendem Schema farbcodiert:
+Funktionsknoten und ihre Verbindungsdrähte sind nach folgendem Schema farbcodiert:
 
 <table>
 <tr style="border: 0;">

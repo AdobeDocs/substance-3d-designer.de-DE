@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "3D-Ridge-Noise Fractal", um gekräuselte fraktale Rauschmuster im 3D-Raum zu generieren, um bergartige Texturen zu erstellen.
+description: Verwenden Sie den 3D-Knoten "Gekrümmte Rauschen Fractal", um Gekrümmte fraktale Rauschen-Muster im 3D-Raum zu generieren, um bergähnliche Texturen zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Ridged Noise Fractal
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 3D-Fraktal mit verkipptem Rauschen
+title: 3D Ridge Rauschen Fraktal
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# 3D-Fraktal mit verkipptem Rauschen
+# 3D Ridge Rauschen Fraktal
 
 <table>
 <tr style="border: 0;">
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## Beschreibung
 
-Der Knoten <b>3D Ridge Noise Fractal</b> generiert ein <i>fraktales</i> Ridge-Rauschen im 3D-Raum basierend auf der <b>Positionszuordnung</b>-Eingabe.
+Der Knoten <b>3D Ridge Rauschen Fraktal</b> generiert eine <i>fraktal</i> Ridge-Rauschen im 3D-Raum basierend auf der <b>Positionszuordnung</b>-Eingabe.
 
 Dieser Knoten kann mit [Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) als Eingabe anstelle einer tatsächlichen durch Baking erzeugte Map (wie im folgenden Beispielbild) getestet werden.
 
@@ -43,7 +43,7 @@ Dieser Knoten kann mit [Cube 3D GBuffers](../../../../../../compositing-graphs/n
 
 >[!WARNING]
 >
-> Dieses Geräusch soll nur mit dem <i>GPU-Modul verwendet werden</i> (d. h. <b>Direct3D</b> oder <b>OpenGL</b>). Wechseln Sie zu <b>Extras > Modul wechseln...</b> oder drücken Sie die Taste <b>F9</b>, um das gewünschte Modul auszuwählen.
+> Diese Rauschen ist nur für das <i>GPU-Engine </i> (d. h. <b>Direct3D</b> oder <b>OpenGL</b>) vorgesehen. Wechseln Sie zu <b>Extras > Engine wechseln...</b> oder drücken Sie die Taste <b>F9</b>, um das gewünschte Engine auszuwählen.
 
 <a name="parameters"></a>
 
@@ -51,11 +51,11 @@ Dieser Knoten kann mit [Cube 3D GBuffers](../../../../../../compositing-graphs/n
 
 |  |  |
 |:---|:---|
-| <b>Umkehren</b> <i>Boolescher Wert</i> | Kehrt das Ausgabebild um. |
-| <b>Skalierung</b> <i>Gleitend</i> | Steuert die Skalierung des fraktalen 3D-Rauschens mit Ridge. |
-| <b>Größe</b> <i>Float3</i> | Steuert die Größe des fraktalen 3D-Ridge-Rauschens in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b>. Nicht einheitliche Werte führen zu einem <i>Dehnungs- oder Squashing</i>-Effekt. |
-| <b>Offset</b> <i>Float3</i> | Wendet einen Offset auf die <i>Position</i> des fraktalen 3D-Rauschens mit Ridge in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b> an. |
-| <b>Intensität der Verzerrung</b> <i>Gleitend</i> | Steuert die Intensität eines <i>Verkrümmungseffekts</i>, der auf das fraktale 3D-Rauschen mit Ridge angewendet wird. |
+| <b>Umkehren</b> <i>Boolesche Wert</i> | Kehrt das Ausgabebild um. |
+| <b>Skalierung</b> <i>Fließkommazahl</i> | Steuert die Skalierung der fraktalen 3D-Rauschen mit Ridge. |
+| <b>Größe</b> <i>Fließkommazahl3</i> | Steuert die Größe der fraktalen 3D-Ridge-Rauschen in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b>. Nicht einheitliche Werte führen zu einem <i> dehnend oder zerdrückenden </i>-Effekt. |
+| <b>Offset</b> <i>Fließkommazahl3</i> | Wendet einen Offset auf die <i>Position</i> der fraktalen 3D-Ridge-Rauschen in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b> an. |
+| <b>Intensität der Verzerrung</b> <i>Fließkommazahl</i> | Steuert die Intensität eines <i>Verkrümmungseffekts</i>, der auf die fraktale 3D-Rauschen mit Ridge angewendet wird. |
 | <b>Verzerrungen-Skalierungsmultiplikator</b> <i>Gleitend</i> | Steuert die Skalierung des <i>sich verformenden Musters</i>, das im Verkrümmungseffekt verwendet wird, der durch die <b>Intensität der Verzerrung</b> gesteuert wird. |
 | <b>Min. Stufe</b> <i>Integer</i> | Die minimale <i>Wiederholungsstufe</i>, die im fraktalen Muster verwendet wird. Ein größerer Mindest-/Höchstbereich führt zu einem <i>reicheren Muster</i> mit Variationen in mehr Frequenzbereichen. |
 | <b>Max. Stufe</b> <i>Integer</i> | Die maximale <i>Wiederholungsstufe </i>, die im fraktalen Muster verwendet wird. Ein größerer Mindest-/Höchstbereich führt zu einem <i>reicheren Muster</i> mit Variationen in mehr Frequenzbereichen. |

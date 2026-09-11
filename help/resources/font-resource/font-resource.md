@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/resources/font-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/font-resource.html"
 breadcrumb-title: ''
-description: Importiere und verwende Schriftenressourcen in Substance 3D Designer, um Text und Typografie zu deinen Materialien hinzuzufügen.
+description: Importieren und verwenden Sie Schriftartenressourcen in Substance 3D Designer, um Ihren Materials Text und Typografie hinzuzufügen.
 helpx_creative_field: ""
 helpx_description: Designer > Resources > Font resource
 helpx_experience_level: ""
@@ -26,13 +26,13 @@ Schriftartenressourcen sollen zusammen mit dem [atomaren Textknoten](../../compo
 >
 > **Schriftarten in SBSAR**
 > 
-> Schriften werden immer in eine SBSAR eingebettet, unabhängig davon, ob sie von einer verknüpften Ressource stammen oder eine vom System installierte Schrift verwenden. Der Vorteil dieser Methode ist, dass es nicht notwendig ist, zu installieren, und beim Exportieren einer SBS-Datei mit Abhängigkeiten können Sie sicher sein, dass die Schriftdateien mitkommen.
+> Schriften werden immer in eine SBSAR eingebettet, unabhängig davon, ob sie von einer verknüpften Ressource stammen oder eine vom System installierte Schrift verwenden. Der Vorteil dieser Methode besteht darin, dass keine Installation erforderlich ist und Sie beim Exportieren einer SBS-Datei mit Abhängigkeiten sicher sein können, dass die Schriftdateien vorhanden sind.
 
 ## Verwenden von Ressourcen für benutzerdefinierte Schriften
 
 * Klicken Sie mit der rechten Maustaste auf ein Paket und wählen Sie <b>Link > Font</b>
 * Wählen Sie eine OTF- oder TTF-Datei aus.
-* Platzieren Sie einen [Textknoten](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) in Ihrem [Diagramm](../../compositing-graphs/substance-compositing-graphs.md).
+* Platzieren Sie einen [Textknoten](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) in Ihrem [Graf](../../compositing-graphs/substance-compositing-graphs.md).
 * Unter der Eigenschaft <b>Schriftart </b> befinden sich alle Schriftartenressourcen ganz oben in der Liste.
 
 Beachten Sie, dass die Schriftartenliste bei geöffneten Eigenschaften nicht automatisch aktualisiert wird. Sie müssen zu einem anderen Eigenschaftenfenster und zurück zu einem Knoten &quot;Text&quot; wechseln, um neu verknüpfte Schriftarten anzuzeigen.

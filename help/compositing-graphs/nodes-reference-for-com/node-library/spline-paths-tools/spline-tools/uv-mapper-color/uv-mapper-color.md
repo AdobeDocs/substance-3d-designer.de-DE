@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-color.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "UV Mapper Color", um Texturen entlang von Splines zuzuordnen, um prozedurale Texturen zu erzeugen.
+description: Verwenden Sie den Knoten "UV-Mapper-Farbe", um Farbstrukturen entlang von Splines für die prozedurale Texturgenerierung zuzuordnen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > UV Mapper Color
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: UV Mapper Color
+title: UV-Mapper-Farbe
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: e23f692fa31d1e7b9eeac692bb41186441fdda53
@@ -18,7 +18,7 @@ ht-degree: 2%
 ---
 
 
-# UV Mapper Color
+# UV-Mapper-Farbe
 
 <table>
 <tr style="border: 0;">
@@ -66,7 +66,7 @@ Ordnet das Eingabefarbbild anhand der Koordinaten zu, die in der UV-Eingabe ange
 
 |  |  |
 |:---|:---|
-| <b>Hintergrundfarbe</b> <i>Fließkommazahl4</i> | Die Hintergrundfarbe des Ausgabebilds.<br>Der Hintergrund ist in den Bereichen des Bildes sichtbar, in denen keine UVs definiert sind (d. h. der Wert ist (0, 0, 0, 0)). |
+| <b>Hintergrundfarbe</b> <i>Float4</i> | Die Hintergrundfarbe des Ausgabebilds.<br>Der Hintergrund ist in den Bereichen des Bildes sichtbar, in denen keine UVs definiert sind (d. h. der Wert ist (0, 0, 0, 0)). |
 
 ## Beispiele
 

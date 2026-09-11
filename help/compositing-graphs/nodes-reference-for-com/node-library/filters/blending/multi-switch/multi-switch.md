@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/multi-switch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/multi-switch.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Mehrere Switches", um zwischen mehreren Eingabe-Texturen zu wechseln, die auf einem Selektor für die Auswahl einer bedingten Textur basieren.
 helpx_creative_field: ""

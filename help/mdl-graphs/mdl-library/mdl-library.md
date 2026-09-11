@@ -69,8 +69,8 @@ Alle in der Library verfügbaren MDL-Module können in der [3D-Ansicht](../../in
 * Integrierte Inhalte.
 * Benutzerdefinierter Inhalt
 * NVIDIA [vMaterials](https://developer.nvidia.com/vmaterials)
-* [MDL-Diagramme geladen](../../mdl-graphs/mdl-graphs.md)
+* [MDL-Diagramms](../../mdl-graphs/mdl-graphs.md) geladen
 
-![MDL-Materialien in der 3D-Ansicht](../../assets/mdl-apply-in-3dview-material-list.png "MDL-Materialien in der 3D-Ansicht")
+![MDL-Materials in 3D-Ansicht](../../assets/mdl-apply-in-3dview-material-list.png "MDL-Materials in 3D-Ansicht")
 
-*MDL-Materialien in der 3D-Ansicht*
+*MDL-Materials in der 3D-Ansicht*

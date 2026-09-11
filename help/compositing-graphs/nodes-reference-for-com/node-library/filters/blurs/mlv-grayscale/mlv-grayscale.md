@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
 breadcrumb-title: ''
 description: Verwenden Sie den MLV-Graustufen-Weichzeichnungsfilter, um Bewegungsunschärfe-Effekte auf Graustufen-Texturen für dynamische Looks anzuwenden.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![MLV-Graustufen: Symbol &#x200B;](mlv-grayscale.resources/MLV_Grayscale_Icon.png "MLV-Graustufen: Symbol ")
+![MLV-Graustufen: Symbol ](mlv-grayscale.resources/MLV_Grayscale_Icon.png "MLV-Graustufen: Symbol ")
 
 <b>In:</b> Filters > Blurs
 
@@ -70,8 +70,8 @@ Der Filter findet strukturierende Bereiche in einem Bild und verwendet sie sowoh
 | <b>Intensität</b> *Fließkommazahl* | Die Stärke der Filterung, die auf das Bild angewendet wurde.<br><br>Höhere Werte führen zu einer stärkeren Glättung von Details und zum Rauschen in flachere Bereiche. |
 | <b>Smoothness</b> *Fließkommazahl* | Die Intensität der auf die Strukturierungsflächen aufgebrachten Glättung, die zu runderen Flächen führt und die bei höheren Filterungen auftreten kann, vermindert. |
 | <b>Kriterium</b> *Ganzzahl* | Das Kriterium zur Auswahl der Werte, die die Strukturierungsbereiche im Bild definieren.<br><br>Mit anderen Worten, wie Pixel *gruppiert* werden sollten in Bereiche, die geglättet werden sollen.<br><br>*- Varianz:* Wählen Sie Werte mit der niedrigsten Streuung um den Mittelwert aus, was zu Clustern von Pixeln führt, die einander ähnlich sind <br>*- Variationskoeffizient:* Wählen Sie Werte aus, während Sie den Mittelwert berücksichtigen, was umgekehrt zu weniger Variationen in helleren Bereichen führt |
-| <b>Gaußsch</b> *Boolescher Wert* | Verwenden Sie eine Gaußsche Verteilung zum Gruppieren von Pixeln in strukturierende Bereiche.<br><br>Wenn &quot;True&quot; festgelegt ist, führt dies zu glatteren Bereichen und einem reduzierten Abflachungseffekt. |
-| <b>Iterationen</b> *Integer* | Gibt an, wie oft der Filter ausgeführt wird, wobei jede Iteration auf das Ergebnis der vorherigen angewendet wird.<br><br>Mehr Iterationen führen zu flacheren und schärferen Strukturierungsbereichen. |
+| <b>Gaußsch</b> *Boolesche Wert* | Verwenden Sie eine Gaußsche Verteilung zum Gruppieren von Pixeln in strukturierende Bereiche.<br><br>Wenn &quot;True&quot; festgelegt ist, führt dies zu glatteren Bereichen und einem reduzierten Abflachungseffekt. |
+| <b>Iterationen</b> *Ganzzahl* | Gibt an, wie oft der Filter ausgeführt wird, wobei jede Iteration auf das Ergebnis der vorherigen angewendet wird.<br><br>Mehr Iterationen führen zu flacheren und schärferen Strukturierungsbereichen. |
 
 ## Beispiele
 

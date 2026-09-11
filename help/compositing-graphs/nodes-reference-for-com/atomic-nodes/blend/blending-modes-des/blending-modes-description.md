@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend/blending-modes-description.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend/blending-modes-description.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über die in Substance 3D Designer verfügbaren Füllmethoden zum Kombinieren von Texturen mit verschiedenen Compositing-Effekten.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Füllmethoden
 
-Der Knoten &quot;[Überblendung](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)&quot; bietet die folgenden Füllmethoden:
+Der Knoten &quot;[Blend](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)&quot; bietet die folgenden Füllmethoden:
 
 ## Kopieren
 
@@ -28,9 +28,9 @@ Der Mischmodus &quot;*Kopieren*&quot; platziert den Vordergrund einfach über de
 
 ![Füllmethode: Kopieren](blending-modes-description.resources/image2015-8-20-9-38-0.png "Füllmethode: Kopieren"){zoomable="yes"}
 
-Bei Farbbildern wird der Alphakanal standardmäßig in der Deckkraft berücksichtigt.
+Bei Farbbildern wird der Alphakanal standardmäßig bei der Deckkraft berücksichtigt.
 
-Dies kann mit dem Parameter &#39;Alpha-Überblendung&#39; geändert werden.
+Dies kann mit dem Parameter &quot;Alpha-Überblendung&quot; geändert werden.
 
 ![Füllmethode: Kopieren (2)](blending-modes-description.resources/image2015-8-20-14-15-29.png "Füllmethode: Kopieren (2)"){zoomable="yes"}
 
@@ -38,7 +38,7 @@ Dies kann mit dem Parameter &#39;Alpha-Überblendung&#39; geändert werden.
 
 Der Mischmodus &quot;*Hinzufügen*&quot; fügt den Vordergrundeingabewert zu jedem entsprechenden Pixel im Hintergrund hinzu.
 
-![Füllmethode: Hinzufügen (Linear abwedeln)](blending-modes-description.resources/image2015-8-20-9-38-19.png "Füllmethode: Hinzufügen (Linear abwedeln)"){zoomable="yes"}
+![Füllmethode: Hinzufügen (Linear abwedeln)](blending-modes-description.resources/image2015-8-20-9-38-19.png "Füllmethode: Hinzufügen (Linearer Abwedler)"){zoomable="yes"}
 
 ## Subtrahieren
 
@@ -100,7 +100,7 @@ Der Mischmodus &quot;*Divide*&quot; teilt den Wert der Hintergrundeingabepixel d
 
 Der Mischmodus &quot;*Overlay*&quot; kombiniert die Füllmethoden &quot;Multiplizieren&quot; und &quot;Negativ multiplizieren&quot;:
 
-* &#x200B;
+* 
   * Wenn der Wert des Pixels der unteren Ebene unter 0,5 liegt, wird eine Füllmethode vom Typ *Multiplizieren* angewendet.
   * Wenn der Wert der unteren Pixelebene über 0,5 liegt, wird eine Überblendung vom Typ *Bildschirm* angewendet.
 

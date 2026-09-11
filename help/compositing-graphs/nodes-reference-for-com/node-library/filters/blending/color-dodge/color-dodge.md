@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-dodge.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-dodge.html"
 breadcrumb-title: ''
 description: Mit dem Mischknoten "Farbig abwedeln" kannst du Strukturen aufhellen, indem du den Kontrast verringerst und so Glanz- und Lichteffekte erzeugst.
 helpx_creative_field: ""

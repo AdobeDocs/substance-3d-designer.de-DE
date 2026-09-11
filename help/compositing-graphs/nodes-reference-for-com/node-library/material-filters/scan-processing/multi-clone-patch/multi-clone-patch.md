@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-clone-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-clone-patch.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Multi Clone Patch", um mehrere Texturkanäle zu klonen und auszubessern und so gescannte Materialartefakte zu reparieren.
+description: Verwenden Sie den Multi-Klon-Patch-Knoten, um mehrere Textur-Kanäle zu klonen und auszubessern und so Artefakte gescannter Material zu reparieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi Clone Patch
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Patch für mehrere Klone
+title: Patch für mehrere Klon
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
@@ -18,7 +18,7 @@ ht-degree: 5%
 ---
 
 
-# Patch für mehrere Klone
+# Patch für mehrere Klon
 
 <table>
 <tr style="border: 0;">
@@ -35,11 +35,11 @@ ht-degree: 5%
 
 ## Beschreibung
 
-Dieser Knoten ist die Multieingabeversion von [Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md). Es verbindet bis zu acht Eingänge miteinander und führt für alle die exakt gleiche Kopierpatchoperation durch. Es ist hauptsächlich für die Verwendung mit Mehrfachwinkelfotos vorgesehen, die dann mit [Mehrfachwinkel zu Albedo](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md) oder [Mehrfachwinkel zu Normal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md) kombiniert werden.
+Dieser Knoten ist die Multieingabeversion von [Klon-Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md). Es verbindet bis zu acht Eingänge miteinander und führt für alle den gleichen Klon-Patch-Vorgang aus. Es ist hauptsächlich für die Verwendung mit Mehrfachwinkelfotos vorgesehen, die dann mit [Mehrfachwinkel zu Albedo](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md) oder [Mehrfachwinkel zu Normal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md) kombiniert werden.
 
 >[!NOTE]
 >
-> Weitere Informationen finden Sie unter [Klonpatch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md). Weitere Informationen finden Sie unter [Materialklonpatch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-clone-patch/material-clone-patch.md) für die Materialversion.
+> Weitere Informationen finden Sie unter [Klon-Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md). Weitere Informationen finden Sie unter [Material-Klon-Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-clone-patch/material-clone-patch.md) für die Material-Version.
 
 </td>
 </tr>

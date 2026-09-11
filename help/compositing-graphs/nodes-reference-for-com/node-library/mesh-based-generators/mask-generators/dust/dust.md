@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dust.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dust.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Dust", um Dust-Akkumulierungsmasken auf der Grundlage der Geometrie des Meshs zu generieren, um realistische Dust- und Rastereffekte zu erzeugen.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## Beschreibung
 
-Generiert eine Schwarzweißmaske auf der Grundlage von durch Baking erzeugte Map und Benutzereinstellungen. Ähnlich wie [Smart Masks](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
+Erzeugt eine Schwarz-weiße Maske basierend auf durch Baking erzeugte Map und Benutzereinstellungen. Ähnlich wie [Intelligente Masken](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
 Diese Maske stellt die Dust dar, die sich in verdeckten, abgesenkten Bereichen angesammelt hat, sowie nur in Bereichen, die nach oben Fläche sind. Erfordert ordnungsgemäß Baking geführt AO und Welt-Raum-Normale.
 
@@ -47,8 +47,8 @@ Diese Maske stellt die Dust dar, die sich in verdeckten, abgesenkten Bereichen a
 
 |  |  |
 |:---|:---|
-| <b>Umgebungs-Verdeckung</b> <i>Graustufen-Eingabe</i> | Durch Baking erzeugte Map für die Platzierung der Dust. Erforderlich! |
-| <b>Normaler Weltraum</b> <i>Farbeingabe</i> | Durch Baking erzeugte Map für die Platzierung der Dust. Erforderlich! |
+| <b>Ambient occlusion</b> <i>Graustufen-Eingabe</i> | Durch Baking erzeugte Map für die Platzierung der Dust. Erforderlich! |
+| <b>Welt-Raum-Normale</b> <i>Farbeingabe</i> | Durch Baking erzeugte Map für die Platzierung der Dust. Erforderlich! |
 | <b>Rauschen</b> <i>Graustufen-Eingabe</i> | Benutzerdefinierte Dust-Map (optional) wird nur angezeigt, wenn &quot;Rauschen überschreiben&quot; auf &quot;True&quot; festgelegt ist. |
 | <b>Maske (optional)</b> <i>Graustufen-Eingabe</i> | Maskenschlitz zum Maskieren der Knoteneffekte. |
 

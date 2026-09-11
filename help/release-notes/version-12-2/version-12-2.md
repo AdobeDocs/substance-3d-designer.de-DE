@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/version-12-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-2.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Designer 12.2, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
@@ -115,8 +115,8 @@ Die Version 12.2 von Designer ist die erste mit der vollen nativen Unterstützun
 * [UI] Die Standardgröße des Hauptfensters ist sehr klein
 * [UI] Symbolleisten sind nicht von der Option &quot;Layout zurücksetzen&quot; betroffen
 * [UI] Sichtbares Transparenzraster auf dem Schriftenressourcensymbol im Explorer
-* [Cooker] Substance-Graphen, die im MDL-Graph instanziiert werden, werden immer vollständig wiederhergestellt.
-* [Graph] Absturz beim Einfügen eines Knotens, der aus einem Diagramm mit leerem Bezeichner kopiert wurde
+* [Cooker] In MDL-Diagramm instanziierte Substance-Graf werden immer vollständig wiederhergestellt.
+* [Graf] Absturz beim Einfügen eines von einem Graf mit leerer Identifizierung kopierten Knotens
 * [MDL] Absturz beim Schließen eines bestimmten MDL-Diagramms
 * [Leistung] Anwendung reagiert nicht, wenn sehr große Pakete geladen werden
-* [Ressourcen] 3D-Szenenressource kann in einem bestimmten Fall importiert werden
+* [Ressourcen] 3D-Szene-Ressource kann in einem bestimmten Fall importiert werden.

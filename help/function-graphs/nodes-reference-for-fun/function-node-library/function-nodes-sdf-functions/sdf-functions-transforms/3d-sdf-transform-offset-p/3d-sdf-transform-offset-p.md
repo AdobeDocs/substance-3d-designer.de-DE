@@ -1,6 +1,6 @@
 ---
 title: Versatz P
-description: Designer > Substance von Compositing-Graphen > Knotenreferenz für Substance-Compositing-Graphen > Knotenbibliothek > SDF-Funktion > Transformieren > Offset P
+description: Designer > Substance-Compositing-Graf > Knotenreferenz für Substance-Compositing-Graf > Knotenbibliothek > SDF-Funktion > Transformieren > Offset P
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '142'
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## Beschreibung
 
-Verschiebt den Weltraum entlang eines Vektors.<br>Die transformierte Ausgangsposition kann mit dem <b>P</b>-Eingang der meisten SDF-Funktionen verbunden werden, um sie in diesem transformierten Weltraum zu definieren.<br><br><i>Tipp:</i> P-Transformationen können verkettet werden, aber beachten Sie, dass die Ergebnisse von der Reihenfolge der Vorgänge abhängen.
+Verschiebt den Welt-Raum entlang eines Vektors.<br>Die transformieren Ausgangsposition kann mit dem <b>P</b>-Eingang der meisten SDF-Funktionen verbunden werden, um sie in diesem transformieren Welt-Raum zu definieren.<br><br><i>Tipp:</i> P transformieren verkettet werden, aber beachten Sie, dass die Ergebnisse von der Reihenfolge der Vorgänge abhängen.
 
 </td>
 </tr>
@@ -40,5 +40,5 @@ Verschiebt den Weltraum entlang eines Vektors.<br>Die transformierte Ausgangspos
 
 |  |  |
 | :--- | :--- |
-| <b>Offset</b> *Float3* | Der Abstand zwischen dem Weltraum und der X-, Y- und Z-Richtung. |
-| <b>P</b> *Float3* | Die veränderte Weltraumposition. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die nicht transformierte Weltraumposition.</i> |
+| <b>Offset</b> *Fließkommazahl3* | Die Entfernung, um die der Welt-Raum in X-, Y- und Z-Richtung versetzt ist. |
+| <b>P</b> *Fließkommazahl3* | Die transformieren Position des Welt-Raums. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die Position des nicht transformierten Welt-Raums.</i> |

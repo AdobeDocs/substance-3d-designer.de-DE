@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/technical-issues/incorrect-image-output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/incorrect-image-output.html"
 breadcrumb-title: ''
-description: Beheben Sie Fehler bei der Bildausgabe in Substance 3D Designer und erfahren Sie, wie Sie Rendering-Probleme beheben können.
+description: Beheben Sie fehlerhafte Bildausgang-Probleme in Substance 3D Designer und erfahren Sie, wie Sie Rendering-Probleme beheben können.
 helpx_creative_field: ""
 helpx_description: Designer > Technical issues > Incorrect image output
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Falsche Bildausgabe
 
-Auf dieser Seite werden technische Probleme in Substance 3D Designer aufgelistet, die zu einer fehlerhaften Bildausgabe führen, und für jeden Fehler werden entsprechende Schritte zur Fehlerbehebung angezeigt.
+Auf dieser Seite werden technische Probleme in Substance 3D Designer aufgelistet, die zu einem Bildausgang führen, der falsch oder unerwartet ist, und für jeden dieser Fehler werden Fehlerbehebungsschritte angeboten.
 
 ## Sichtbares Stepping/Banding
 
@@ -30,15 +30,15 @@ Auf dieser Seite werden technische Probleme in Substance 3D Designer aufgelistet
 
 **![(Fehler)](../../assets/error.svg) Problem**
 
-Farbverläufe in der Bildausgabe werden gestuft anstelle von &quot;Glatt&quot; dargestellt. Der Schritt wird dadurch verursacht, dass der vom Bild verwendete Wertebereich *zu eng ist*.\
+Farbverläufe im Bildausgang werden gestuft anstatt geglättet dargestellt. Der Schritt wird dadurch verursacht, dass der vom Bild verwendete Wertebereich *zu eng ist*.\
 Das bedeutet, dass nicht genügend Werte für einen fließenden Übergang von einem Schritt eines Verlaufs zum nächsten vorhanden sind.
 
-Luminanz-/RGBA-Werte können mit Ganzzahlen oder Gleitkommawerten codiert werden, was sich auf ihre *Genauigkeit* auswirkt:
+Luminanz-/RGBA-Werte können mithilfe von Ganzzahl oder Fließkommawerten codiert werden, was sich auf ihre *Genauigkeit* auswirkt:
 
-* **Integer** bietet 8-Bit-Genauigkeit (0-255, also 256 mögliche Werte) und 16-Bit-Genauigkeit (0-65535 so 65536 mögliche Werte), um einen Wert im Bereich von 0-1 zu speichern.
-* **Gleitkomma** bietet eine Präzision von 16 Bit (HDR 16F) und 32 Bit (HDR 32F), wobei Werte außerhalb des Bereichs von 0 bis 1 gespeichert werden können, einschließlich negativer Werte. So kannst du mit High Dynamic Range-Bildern (HDR) arbeiten, bei denen der Luminanzwert weit über 1,0 liegen kann.
+* **Ganzzahl** bietet 8-Bit-Genauigkeit (0-255, also 256 mögliche Werte) und 16-Bit-Genauigkeit (0-65535 so 65536 mögliche Werte), um einen Wert im Bereich von 0-1 zu speichern.
+* **Gleitkomma** bietet eine Genauigkeit von 16 Bit (HDR. 16F) und 32 Bit (HDR. 32F), wobei Werte außerhalb des 0-1-Bereichs gespeichert werden können, einschließlich negativer Werte. So können Sie mit High Dynamic Range-Bildern (HDR.) arbeiten, bei denen der Wert der Luminanz weit über 1,0 liegen kann.
 
-Wenn Sie nicht speziell mit HDR-Bildern arbeiten müssen, geben die meisten Ihrer Knoten wahrscheinlich Werte im Bereich von 0-1 aus, die mit Ganzzahlen codiert sind. Wenn das Ausgabeformat des Bildes 8 Bit ist, kann das Bild nur 256 Werte verwenden, was häufig zu sichtbaren Schritten bei Farbverläufen führt. Dies kann sich besonders auf die Ausgabe von Normal-Knoten auswirken.
+Wenn Sie nicht unbedingt mit HDR.images arbeiten müssen, geben die meisten Ihrer Knoten wahrscheinlich Werte im Bereich von 0-1 aus, die mit Ganzzahlen codiert sind. Wenn das Ausgabeformat des Bildes 8 Bit ist, kann das Bild nur 256 Werte verwenden, was häufig zu sichtbaren Schritten bei Farbverläufen führt. Dies kann sich besonders auf die Ausgabe von Normal-Knoten auswirken.
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
@@ -51,20 +51,20 @@ Wenn Sie nicht speziell mit HDR-Bildern arbeiten müssen, geben die meisten Ihre
 
 **![(tick)](../../assets/check.svg) Empfohlene Schritte**
 
-Überprüfen Sie das **Ausgabeformat** (d. h. die Bittiefe) des Knotens und aller Knoten im Upstream, und stellen Sie sicher, dass dieser Knoten *mit einer Integer-Genauigkeit von mindestens 16 Bit verwendet*.
+Überprüfen Sie das **Ausgabeformat** (d. h. die Bittiefe) des Knotens und aller Upstream-Knoten. Stellen Sie sicher, dass für diesen Knoten *mindestens die Genauigkeit der 16-Bit-Ganzzahl* verwendet wird.
 
-Der Ausgabeformatparameter ist häufig auf die *Relativ zur Eingabe* [Vererbungsmethode](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) festgelegt, die die niedrige Genauigkeit im gesamten Diagramm propagieren kann. Im Idealfall finden Sie die Ursache des Problems, indem Sie im Diagramm stromaufwärts gehen.
+Der Ausgabeformatparameter ist häufig auf die *Relativ zur*-Methode [Vererbung ](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) festgelegt, die die niedrige Genauigkeit auf den gesamten Graf übertragen kann. Im Idealfall finden Sie die Ursache des Problems, indem Sie im Graf stromaufwärts gehen.
 
 Sie können die Genauigkeit der Ausgabe eines Knotens schnell identifizieren, indem Sie sich die Textinformationen ansehen, die unter dem Knoten angezeigt werden:
 
 * **L/C** bezieht sich auf das Bild, das Graustufen (d. h. Luminanz) oder Farbe ist
-* **8/16** bedeutet Ganzzahlcodierung
+* **8/16** bedeutet Ganzzahl-Codierung
 * **16F/32F** bedeutet Gleitkommakodierung
 
 Beispiel:
 
-* L8: 8-Bit-Ganzzahl in Graustufen
-* C16: 16-Bit-Ganzzahl für Farbe
+* L8: Graustufen-8-Bit-Ganzzahl
+* C16: 16-Bit-Farb-Ganzzahl
 * C32F: Farbe 32-Bit-Gleitkomma (HDR.)
 
 ## Qualitätsverlust in der veröffentlichten SBSAR

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/3d-view/switching-your-shaders-to-opengl-core-profile.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/switching-your-shaders-to-opengl-core-profile.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Shader in der Substance 3D Designer 3D-Ansicht auf das OpenGL-Kernprofil umstellen, um Kompatibilität und Leistung zu gewährleisten.
 helpx_creative_field: ""
@@ -33,9 +33,9 @@ Ersetzen Sie zunächst Ihre vorherige `#version`-Direktive durch `#version 330` 
 
 ### Ersetzen Sie &quot;Attribut&quot; und &quot;abweichend&quot; durch &quot;ein&quot; oder &quot;aus&quot;.
 
-Jetzt werden `attribute` und `varying` Variablen explizit als `in` oder `out` deklariert, abhängig von der Shader-Phase:
+Jetzt werden `attribute` und `varying` Variablen je nach Shader-Phase explizit als `in` oder `out` deklariert:
 
-Im Vertexshader werden `attribute`s der Scheitelpunkte als `in` deklariert, während `varying`s, die an den Fragmentshader übergeben werden sollen, als `out` deklariert werden.\
+Im Shader des Scheitelpunkts werden `attribute`s der Scheitelpunkt als `in` deklariert, während `varying`s, die an den Shader des Fragments übergeben werden sollen, als `out` deklariert werden.\
 Beispiel:
 
 ```
@@ -78,7 +78,7 @@ out vec2 fragmentUV;
 ```
 
 
-Genauso wird im Fragment-Shader das Variieren berücksichtigt. Sie sollten auch eine out-Variable deklarieren, die gl\_FracColor ersetzt (die nicht mehr integriert ist):
+Ebenfalls im Fragment Shader wird variierend. Sie sollten auch eine out-Variable deklarieren, die gl\_FracColor ersetzt (die nicht mehr integriert ist):
 
 ```
 ## version 120
@@ -128,9 +128,9 @@ outColor = vec4(myColor.rgb, 1.0);
 ```
 
 
-### Neue Textursuchfunktionen verwenden
+### Neue Textur-Suchfunktionen verwenden
 
-Mit der neuen Version von Schattierung wurde die Texture-Lookup-API vereinfacht und erweitert.
+Mit der neuen Version von Schattierung wurde die Textur Lookup API vereinfacht und erweitert.
 
 Die Funktionen `texture1D()`, `texture2D()`, `texture3D()` und `textureCube()` werden alle zu Überladungen von `texture()`.\
 Ebenso wird `texture2DLod()` zu `textureLod()`, `texture2DGrad()` zu `textureGrad()` usw.

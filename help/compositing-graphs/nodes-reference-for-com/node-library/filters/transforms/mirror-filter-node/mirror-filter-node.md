@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/mirror-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/mirror-filter-node.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Filterknoten Spiegeln , um Texturen horizontal oder vertikal zu spiegeln, um symmetrische Muster und Effekte zu erstellen.
+description: Mit dem Filterknoten "Spiegeln" können Sie Texturen horizontal oder vertikal spiegeln, um symmetrische Muster und Effekte zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Mirror (Filter Node)
 helpx_experience_level: ""
@@ -35,7 +35,7 @@ ht-degree: 4%
 
 ## Beschreibung
 
-Spiegelt das Eingabebild über eine ausgewählte Achse von einer ausgewählten Seite. Sehr nützliche, schnelle Möglichkeit, symmetrische Effekte zu erhalten.
+Spiegelt das Eingabebild über einer ausgewählten Achse. Sehr nützliche, schnelle Möglichkeit, symmetrische Effekte zu erhalten.
 
 </td>
 </tr>

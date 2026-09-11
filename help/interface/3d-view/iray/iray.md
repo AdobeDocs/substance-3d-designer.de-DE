@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/iray.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Iray-Renderer in der Substance 3D Designer-3D-Ansicht für die physikalisch basierte Material-Vorschau und realistische Beleuchtung.
+description: Verwenden Sie den Renderer "Iray" in der Substance 3D Designer-3D-Ansicht für die physikalisch basierte Materialvorschau und realistische Beleuchtung.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D View > Iray
 helpx_experience_level: ""
@@ -20,13 +20,13 @@ ht-degree: 1%
 
 # Iray
 
-Auf dieser Seite wird der Iray-Renderer angezeigt, der im 3D-Ansichtsfenster von [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) verfügbar ist und interaktive Pfadverfolgung für fotorealistisches Rendering mit CPU- und/oder GPU-Beschleunigung (nur Nvidia-GPUs) bietet.
+Auf dieser Seite wird der Iray-Renderer angezeigt, der im 3D-Ansichtsfenster von [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) verfügbar ist und interaktive Pfadverfolgung für fotorealistisches Rendering mit CPU- und/oder GPU-Beschleunigung (nur Nvidia-GPUs) bietet.
 
 >[!WARNING]
 > 
 > Der Iray-Renderer und alle zugehörigen Funktionen wurden in Version 16.0.0 aus Designer entfernt.
 > 
-> Weitere Informationen: [Lebensende von MDL-Diagrammen und Irays](../../../technical-issues/mdl-graph-iray-eol/mdl-graph-iray-eol.md)
+> Weitere Informationen: [MDL-Diagramm und Ende des Lebenszyklus von Iray](../../../technical-issues/mdl-graph-iray-eol/mdl-graph-iray-eol.md)
 
 <table>
 <tr style="border: 0;">
@@ -47,7 +47,7 @@ Auf dieser Seite wird der Iray-Renderer angezeigt, der im 3D-Ansichtsfenster von
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Da die 3D-Ansicht den *progressiven Renderer* von Iray verwendet, wird ein Bild erzeugt, sobald für jedes Pixel mindestens ein Sample ausgeführt wurde. Das Image wird *automatisch aktualisiert*, wenn Iterationen zum Aufnehmen ausgeführt werden, was dazu führt, dass ein anfängliches grobes Image auf jeder Iteration *sauberer wird*.
+Da die 3D-Ansicht Irays *progressiven Renderer* verwendet, wird ein Bild erzeugt, sobald mindestens ein Sample für jedes Pixel ausgeführt wurde. Das Bild wird *automatisch aktualisiert*, wenn Sampling-Iterationen ausgeführt werden, was dazu führt, dass ein anfängliches grobes Bild bei jeder Iteration *sauberer wird*.
 
 Der Renderer ist im Bedienfeld [3D-Ansicht](../../../interface/3d-view/3d-view.md) verfügbar: Öffnen Sie das Menü <b>Renderer</b> und wählen Sie die Option <b>Iray</b> aus, um den in diesem 3D-Ansichtsfenster verwendeten Renderer in Iray zu ändern.\
 Durch das Wechseln zum Iray-Renderer &quot;*&quot; werden die verfügbaren Optionen &quot;*&quot; in einigen der 3D-Ansichtsmenüs geändert. Diese Änderungen werden im Abschnitt <b>3D-Ansicht</b> unten erläutert.
@@ -113,7 +113,7 @@ Mesh-Anzeigekomponente
 Da Iray auf dem [MDL-Bibliotheksmodell](https://www.nvidia.com/en-us/design-visualization/technologies/material-definition-language/) basiert, das von NVIDIA entwickelt wurde, werden verfügbare Material für Szene-Material durch die MDL-Schattierung ersetzt, die von Designer geladen wurde. Diese Bibliothek wird aus den folgenden Quellen erstellt:
 
 * Die in der Installation von Designer enthaltenen MDL-Dateien
-* Die MDL-Dateien wurden in den [&#x200B; Verzeichnissen gefunden, die vom Benutzer &#x200B;](../../../interface/preferences-window/project-settings/project-settings.md) in den geladenen [Projektdateien](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) aufgeführt sind.
+* Die MDL-Dateien wurden in den [ Verzeichnissen gefunden, die vom Benutzer ](../../../interface/preferences-window/project-settings/project-settings.md) in den geladenen [Projektdateien](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) aufgeführt sind.
 * Die [NVIDIA vMaterials](https://developer.nvidia.com/vmaterials)-Bibliothek, wenn sie installiert ist
 
 >[!NOTE]
@@ -172,30 +172,30 @@ Kuppel
 
 * <b>Kuppel Typ </b>: legt die Objekte fest, die die Szene einschließen, auf die die Textur der Umgebung projiziert wird.
   * *Unendliche Kugel*: unendliche kugelförmige Umgebung
-  * *Boden*: unendliche kugelförmige Umgebung, aber mit einer strukturierten Boden-Ebene
-  * *Sphäre*: kugelförmige Kuppel mit endlicher Größe und benutzerdefiniertem Radius
-  * *Kugel mit Boden*: kugelförmige Kuppel mit endlicher Größe mit benutzerdefiniertem Radius, bei der der untere Teil der Umgebung auf die Ebene projiziert wird, die den oberen und unteren Teil der Kugel trennt
-  * *Box mit Boden*: kastenförmige Kuppel mit endlicher Größe, angepasster Breite, individuellem Height und individueller Länge, wobei der untere Teil der Umgebung auf die Ebene projiziert wird, die den oberen und unteren Teil der Kiste trennt
+  * *Boden*: unendliche kugelförmige Umgebung, aber mit einer strukturierten Grundebene
+  * *Sphäre*: kugelförmige Kuppel von endlicher Größe mit benutzerdefiniertem Radius
+  * *Kugel mit Boden*: Kuppelförmige Kuppel von endlicher Größe mit benutzerdefiniertem Radius, wobei der untere Teil der Umgebung auf die Ebene projiziert wird, die den oberen und unteren Teil der Kugel trennt
+  * *Box mit Boden*: endliche, kastenförmige Kuppel mit angepasster Breite, Height und Länge, wobei der untere Teil der Umgebung auf die Ebene projiziert wird, die den oberen und unteren Teil der Kiste trennt
 * <b>Drehwinkel</b>: steuert den Drehwinkel der Kuppel um die *Y-Achse*
-* <b>Radius</b>: den Kugelradius (gilt nur für die Kuppeln *Sphere* und *Kugel mit Boden*)
-* <b>Breite</b>: die Breite des Felds (gilt nur für die *Box mit dem Kuppel-Typ Boden*)
-* <b>Height</b>: das Height des Felds (gilt nur für die *Box mit dem Kuppel-Typ Boden*)
-* <b>Länge</b>: die Länge des Felds (gilt nur für die *Box mit dem Typ Boden* Kuppel)
-* <b>Visualisieren</b>: aktiviert eine Falschfarbenüberlagerung der Umgebungsgeometrie mit begrenzter Größe. Dies kann verwendet werden, um die Geometrie an der Projektion der aufgenommenen Umgebungs-Map auszurichten (gilt nur für die Kuppeln *Sphere*, *Kugel mit Boden* und *Box mit Boden*).
+* <b>Radius</b>: den Radius der Kugel (gilt nur für die Kuppeltypen *Kugel* und *Kugel mit Boden*)
+* <b>Breite</b>: die Breite des Felds (gilt nur für die *Box mit dem Kuppeltyp Boden*)
+* <b>Height</b>: das Height des Felds (gilt nur für die *Box mit dem Dome-Typ Masse*)
+* <b>Länge</b>: die Länge des Felds (gilt nur für die *Box mit dem Kuppeltyp Boden*)
+* <b>Visualisieren</b>: aktiviert eine Falschfarbenüberlagerung der Umgebungsgeometrie mit begrenzter Größe. Dies kann verwendet werden, um die Geometrie an der Projektion der erfassten Umgebungszuordnung auszurichten (gilt nur für die Dome-Typen *Sphere*, *Sphere with Ground* und *Box with Ground*).
 
 >[!NOTE]
 >
-> Bei Kuppeln mit begrenzter Größe sollte die gesamte Szene *in der Kuppel* eingeschlossen sein.
+> Bei Kuppeln mit begrenzter Größe sollte die gesamte Szenengeometrie *in der Kuppel* eingeschlossen sein.
 
-Kuppel Boden\
-Die folgenden Parameter gelten für die Kuppeln *Boden*, *Kugel mit Boden* und *Box mit Boden*:
+Kuppelboden\
+Die folgenden Parameter gelten für die Dome-Typen *Boden*, *Kugel mit Boden* und *Box mit Boden*:
 
-* **Boden**: aktiviert die Ebene des Bodens
-* **Position**: die Ursprungsposition der endlichen Kuppel (gilt auch für den Typ der *Sphere*-Kuppel)
-* **Reflexionsgrad**: die Deckkraft und den Farbton des Bodens, wobei Schwarz bedeutet, dass die Spiegelung nicht sichtbar ist.
-* **Glanz**: der Glanz der Reflexion des Bodens
-* **Schattenintensität**: die Deckkraft des auf dem Boden Geworfen Schattens
-* **Texturen-Skalierung**: steuert die Größe der Projektion der Umgebungs-Textur auf dem Boden (gilt auch für den Typ der *Sphere*-Kuppel).
+* **Boden**: aktiviert die Grundebene
+* **Position**: die Position des Ursprungs der endlichen Kuppel (gilt auch für den Kuppeltyp *Kuppel*)
+* **Reflexionsgrad**: Deckkraft und Farbton der Bodenreflexion, wobei Schwarz bedeutet, dass die Reflexion nicht sichtbar ist
+* **Glossarität**: Glanz der Bodenreflexion
+* **Schattenintensität**: die Deckkraft des Schattens, der auf den Boden geworfen wird
+* **Texturskala**: steuert die Größe der Umgebungstexturprojektion auf dem Boden (gilt auch für den Dome-Typ *Sphere*).
 
 Die Auswirkungen einiger dieser Einstellungen werden im Folgenden veranschaulicht:
 
@@ -205,11 +205,11 @@ Die Auswirkungen einiger dieser Einstellungen werden im Folgenden veranschaulich
 <table>
   <tr>
     <td>
-      <img src="../../../assets/iray-environment-hidden.png" alt="Iray - Umgebung ausgeblendet">
+      <img src="../../../assets/iray-environment-hidden.png" alt="Iray - Umwelt ausgeblendet">
       <br><i>Vorher</i>
     </td>
     <td>
-      <img src="../../../assets/iray-env-visible.png" alt="Iray - Umgebung sichtbar">
+      <img src="../../../assets/iray-env-visible.png" alt="Iray - Umwelt sichtbar">
       <br><i>Nach</i>
     </td>
   </tr>
@@ -401,7 +401,7 @@ Wenn eine unterstützte GPU erkannt wird, wird sie in diesem Abschnitt aufgefüh
 
 >[!WARNING]
 >
-> Die GPU-Hardwarebeschleunigung verwendet die [NVIDIA CUDA](https://developer.nvidia.com/cuda-zone)-Technologie. Stellen Sie sicher, dass Ihr *-Grafiktreiber auf dem neuesten Stand ist*, um die beste Kompatibilität und Zuverlässigkeit zu erzielen. Suchen Sie hier den neuesten Treiber für Ihre NVIDIA-GPU [&#128279;](https://www.nvidia.com/Download/index.aspx?lang=en-us).\
+> Die GPU-Hardwarebeschleunigung verwendet die [NVIDIA CUDA](https://developer.nvidia.com/cuda-zone)-Technologie. Stellen Sie sicher, dass Ihr *-Grafiktreiber auf dem neuesten Stand ist*, um die beste Kompatibilität und Zuverlässigkeit zu erzielen. Suchen Sie hier den neuesten Treiber für Ihre NVIDIA-GPU [](https://www.nvidia.com/Download/index.aspx?lang=en-us).\
 > Für Konfigurationen mit mehreren GPUs wird empfohlen, SLI *zu deaktivieren* und nur eine GPU auszuwählen, um die beste Zuverlässigkeit zu erzielen.
 
 ![Iray-Voreinstellungen](../../../assets/iray-preferences-hardware.png "Iray-Voreinstellungen")

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-2.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Fur 2 -Knoten, um Fell-Texturen mit erweiterten Steuerelementen für die Simulation von Haaren und faserigen Materialien zu erstellen.
+description: Verwenden Sie den Fur 2 -Knoten, um Pelzstrukturen mit erweiterten Steuerelementen für die Simulation von Haaren und Fasermaterialien zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fur 2
 helpx_experience_level: ""
@@ -26,14 +26,14 @@ ht-degree: 9%
 
 ![](fur-2.resources/fur-2.png){width="128px"}
 
-<b>In:</b> Texturen-Generatoren > Rauschen
+<b>In:</b> Texturgeneratoren > Rauschen
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Dadurch entsteht ein welliger, pelzartiger Rauschen.
+Dadurch entsteht eine wellenförmige Art von pelzartigem Rauschen.
 
 </td>
 </tr>
@@ -48,7 +48,7 @@ Dadurch entsteht ein welliger, pelzartiger Rauschen.
 | <b>Skalierung</b> <i>1 - 8</i> | Legt die globale Skalierung für den Effekt fest. |
 | <b>Waves Scale</b> <i>0.0 - 1.0</i> | Ändert die Größe der Wellen. Größer bedeutet weniger Wiederholungen. |
 | <b>Wellenrotation</b> <i>0.0 - 1.0</i> | Verdreht die Wellen mehr. Dieser Wert sollte wahrscheinlich niedrig gehalten werden, da die Ergebnisse extrem sein können. |
-| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
 
 ## Beispiele
 

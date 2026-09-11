@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ''
 description: Verwenden Sie die 3D-Ansicht in Substance 3D Designer, um eine Materialvorschau auf 3D-Objekten anzuzeigen und die Lichtverhältnisse zu testen.
 helpx_creative_field: ""
@@ -165,24 +165,24 @@ Wechseln Sie für benutzerdefinierte 3D-Szenen zum Abschnitt [Arbeiten mit 3D-Sz
 
 ## Shader-Eigenschaften ändern
 
-In Designer sind standardmäßig einige verschiedene [Shader](../../glossary/glossary.md) verfügbar, und jeder Shader verfügt über Optionen, die über bloße Texturkanäle hinausgehen. Sie können einzeln konfiguriert werden.
+In Designer sind standardmäßig einige verschiedene [Shader](../../glossary/glossary.md) verfügbar, und jeder Shader verfügt über Optionen, die über die reinen Textur-Kanäle hinausgehen. Sie können einzeln konfiguriert werden.
 
 Beachten Sie, dass sich die Shader in den [3D-Renderern von Designer](../../interface/3d-view/3d-renderers/3d-renderers.md) unterscheiden, und beim Wechseln der Renderer werden nur die mit einer Bezeichnung &quot;Allgemein&quot; markierten Einstellungen übernommen.
 
-Um den aktuellen Shader zu ändern, gehen Sie zu <b>. Das Menü &#39;</b>Materialien&#39; öffnet dann das Untermenü für das Material, das Sie bearbeiten möchten.
+Um den aktuellen Shader zu ändern, gehen Sie zu <b>. Das Menü &#39;</b>Materials&#39; öffnet dann das Untermenü für das Material, das Sie bearbeiten möchten.
 
-Um beispielsweise die Eigenschaft &quot;Materialskalierung&quot; für das Height &quot;Standard&quot; in der Szene &quot;Ebene (hochauflösend)&quot; anzupassen, gehen Sie zu &quot;Materialien&quot; > &quot;Standard&quot; > &quot;Eigenschaften bearbeiten&quot;. Suchen Sie dann die Eigenschaft &quot;Height scale&quot; im Eigenschaften-Dock.
+Um beispielsweise die Eigenschaft &quot;Height-Skalierung&quot; für das Material &quot;Standard&quot; in der Szene &quot;Ebene (hochauflösend)&quot; anzupassen, gehen Sie zu &quot;Material&quot; > &quot;Standard&quot; > &quot;Eigenschaften bearbeiten&quot;. Suchen Sie dann die Eigenschaft &quot;Height scale&quot; im Eigenschaften-Dock.
 
-Mit den Aktionen &#39;Material zurücksetzen&#39; oder &#39;Auf Szenenzustand zurücksetzen&#39; im Untermenü können Schattierungen zurückgesetzt werden. Wenn Sie Substance-Diagrammausgaben in der 3D-Ansicht angezeigt haben, müssen Sie sie erneut anwenden.
+Schattierungen können mit den Aktionen &#39;Material zurücksetzen&#39; oder &#39;Auf Szene zurücksetzen&#39; im Untermenü zurückgesetzt werden. Wenn Sie Substance-Graphausgaben in der 3D-Ansicht angezeigt haben, müssen Sie sie erneut anwenden.
 
 >[!NOTE]
 >
-> Informationen zur Tesselierung
+> Tessellation
 > 
-> Die Eigenschaft &quot;Tesselierungsfaktor&quot; variiert je nach ausgewähltem 3D-Renderer:
+> Die Eigenschaft &quot;Tessellation&quot; variiert je nach ausgewähltem 3D-Renderer:
 > 
-> * <b>Rasterizer/GPU-Pathtracer:</b> In den Renderereinstellungen (Renderer > Einstellungen bearbeiten) befindet sich und wirkt sich auf die *gesamte Szene aus*.
-> * <b>OpenGL:</b> befindet sich in den Materialeigenschaften und wirkt sich auf das Material aus.
+> * <b>Rasterizer/GPU-Pathtracer:</b> In den Renderereinstellungen (&quot;Renderer&quot; > &quot;Einstellungen bearbeiten&quot;) befindet sich und wirkt sich auf die *gesamte Szene aus*.
+> * <b>OpenGL:</b> befindet sich in den Material-Eigenschaften und wirkt sich auf das Material aus.
 
 ![Exportieren der Szene](../../assets/3d-view-export-scene.gif "Exportieren der Szene")
 
@@ -190,16 +190,16 @@ Mit den Aktionen &#39;Material zurücksetzen&#39; oder &#39;Auf Szenenzustand zu
 
 Erfahren Sie mehr über das Exportieren von 3D-Szenen in [dieser Seite](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md).
 
-### Tesselliertes Gitter exportieren (nur OpenGL-Renderer)
+### Tessellierten Mesh exportieren (nur OpenGL-Renderer)
 
-Sie können das Gitter aus der <b>3D-Ansicht</b> in eine Datei im Format <b>OBJ</b>, <b>FBX</b> oder <b>PLY</b> exportieren. Wenn der Versatz *tesselation* aktiviert ist, wird die Unterteilung der Geometrie im exportierten Gitter beibehalten.
+Sie können den Mesh aus <b>3D-Ansichten</b> in eine Datei in den Formaten <b>OBJ</b>, <b>FBX</b> oder <b>PLY</b> exportieren. Wenn der Versatz *Tessellation* aktiviert ist, wird die Unterteilung der Geometrie in den exportierten Mesh Baking geführt.
 
-Die Scheitelpunktnormalen des ursprünglichen Gitters stimmen jedoch möglicherweise nicht mit seiner neuen verschobenen Form überein, was bedeutet, dass das verschobene Gitter möglicherweise nicht korrekt gerendert wird. Sie haben zwei Möglichkeiten, dies zu verwalten:
+Die Scheitelpunkt-Normalen des Original-Meshs stimmen jedoch möglicherweise nicht mit seiner neuen verschobenen Form überein, was bedeutet, dass der verschobene Mesh möglicherweise nicht korrekt gerendert wird. Sie haben zwei Möglichkeiten, dies zu verwalten:
 
-* Verwenden Sie das Gitter &quot;*Normal Map*&quot;, das die richtigen Normalen bereitstellt.
-* *Die Gitternormalen* beim Export mithilfe der Gitternormalzuordnung erneut berechnen, was bedeutet, dass diese Normalen im exportierten Gitter gesichert sind und die Normalzuordnung nicht mehr erforderlich ist
+* Verwenden Sie den Mesh *Normalen-Map*, der die richtigen Normalen bereitstellt.
+* *Berechnen Sie die Normalen des Meshs* beim Exportieren mithilfe der Mesh-Normal-Map erneut. Das bedeutet, dass diese Normalen in den exportierten Mesh Baking geführt werden und die Normalen-Map nicht mehr erforderlich ist.
 
-Gehen Sie zum Exportieren des 3D-Ansichtsgitters zu <b>Szene > Tesseliertes Gitter exportieren...</b>, legen Sie Ihre Auswahl bezüglich der Neuberechnung von Normalen fest, und wählen Sie dann einen Speicherort, einen Namen und ein Dateiformat für das exportierte Gitter aus.
+Um den 3D-Ansicht-Mesh zu exportieren, gehen Sie zu <b>Szene > Tessellierten Mesh exportieren...</b>, legen Sie Ihre Auswahl bezüglich der Neuberechnung von Normalen fest, und wählen Sie dann einen Speicherort, einen Namen und ein Dateiformat für den exportierten Mesh aus.
 
 >[!NOTE]
 >
@@ -209,34 +209,34 @@ Gehen Sie zum Exportieren des 3D-Ansichtsgitters zu <b>Szene > Tesseliertes Gitt
 >
 > Einige Vorbehalte
 > 
-> Wenn das ursprüngliche Gitter über mehrere Materialien und/oder UV-Sätze verfügt, werden diese *zu einem* zusammengefügt.
+> Wenn der ursprüngliche Mesh über mehrere Material und/oder UV-Satz verfügt, werden diese *in ein* zusammengeführt.
 > 
-> Die Dauer des Exportvorgangs und die resultierende Dateigröße hängen von der Anzahl der Gitterdreiecke und dem *Tesselierungsfaktor* ab. Je nach dem integrierten Speicherpool der GPU können hohe Werte des Tesselierungsfaktors zu Instabilität führen.
+> Die Dauer des Exportvorgangs und die resultierende Dateigröße hängen von der Anzahl der Mesh-Dreiecke und dem *Tessellationen-Faktor* ab. Je nach integriertem Speicherpool der GPU können hohe Tessellation-Faktorwerte zu Instabilität führen.
 > 
-> Allerdings sollte die Scheitelpunktzahl des tessellierten Gitters im *selben Bereich* liegen wie die Pixelanzahl der *Height*-Map.
+> Allerdings sollte die Pixelanzahl des tessellierten Meshs im *selben Bereich* liegen wie die Pixelanzahl der *Height*-Scheitelpunkt.
 > 
-> Wenn Sie die Tesselierung &quot;<b>Phong</b>&quot; verwenden, können Sie ein etwas glatteres Gitter erzielen, das dichter als das Height-Map ist. Sie sollten jedoch darauf achten, dass das Gitter zuerst mit den erforderlichen Height-Map-Details exportiert wird, und das exportierte Gitter bei Bedarf in einer anderen Software verfeinern.
+> Ein Mesh mit höherer Dichte als der Höhen-Map kann bei Verwendung der <b>Phong</b>-Tessellation einen etwas glatteren Mesh bewirken. Sie sollten jedoch darauf achten, dass der Mesh zuerst mit den erforderlichen Höhen-Map-Details exportiert wird und dann bei Bedarf den exportierten Mesh in einer anderen Software verfeinert wird.
 
 >[!WARNING]
 >
 > **TDR (nur Windows)**
 > 
-> Für diese Funktion muss die <b>Zeitüberschreitungserkennung und -wiederherstellung (TDR)</b> mit den empfohlenen Werten in [dieser Seite](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) unserer Dokumentation übereinstimmen, wie in den [technischen Anforderungen](../../getting-started/system-requirements/system-requirements.md) von Designer angegeben.
+> Für diese Funktion muss die <b>Zeitüberschreitungserkennung und -wiederherstellung (TDR)</b> mit den empfohlenen Werten in [dieser Seite](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) unserer Dokumentation übereinstimmen, wie in den [technischen Anforderungen](../../getting-started/system-requirements/system-requirements.md) von Designer angegeben.
 
 ## Menüleiste
 
 Die Menüleiste enthält 7 Menüs mit Optionen für die 3D-Ansicht. unten finden Sie eine Übersicht aller verfügbaren Optionen.
 
 +++Szene
-Das Menü <b>Szene</b> behandelt die angezeigte Geometrie (3D-Ressource) und die Zustände der 3D-Ansicht. 3D-Ressourcen geben nur das Gitter frei, Szenenzustände sind Lichter, Kamera und zugehörige Einstellungen und können das Gitter auch daneben enthalten.
+Das Menü <b>Szene</b> behandelt die angezeigte Geometrie (3D-Ressource) und die Zustände der 3D-Ansicht. 3D-Ressourcen geben nur den Mesh frei, die Szenen sind Lichter, Kamera und zugehörige Einstellungen und können den Mesh auch zusammen mit anderen Elementen enthalten.
 
-![Gitter des Szenenmenüs](../../assets/3d-view-meshes.png "Gitter des Szenenmenüs")
+![Mesh im Menü &quot;Szene&quot;](../../assets/3d-view-meshes.png "Mesh im Menü &quot;Szene&quot;")
 
 
 
-<b>Bearbeiten: </b>Lädt Szenenoptionen im Bereich [Eigenschaften](../../interface/properties/properties.md). Ermöglicht Ihnen das Umschalten der Sichtbarkeit des 3D-Meshs.
+<b>Bearbeiten: </b>Lädt Szene-Optionen im Bereich [Eigenschaften](../../interface/properties/properties.md). Ermöglicht es Ihnen, die Sichtbarkeit des 3D-Mesh zu wechseln.
 
-<b>Standard-Primitive:</b> Zeigt eines der folgenden einfachen 3D-Gitter in der 3D-Ansicht an.
+<b>Standardprimitive:</b> Zeigt einen der folgenden einfachen 3D-Mesh in der 3D-Ansicht an.
 
 * Würfel
 
@@ -252,7 +252,7 @@ Das Menü <b>Szene</b> behandelt die angezeigte Geometrie (3D-Ressource) und die
 
 * Kugel
 
-<b>Erweiterte Grundelemente:</b> Zeigt eines der folgenden 3D-Gitter in der 3D-Ansicht an.
+<b>Erweiterte Grundelemente:</b> Zeigt einen der folgenden 3D-Mesh in der 3D-Ansicht an.
 
 * Tuch
 
@@ -266,46 +266,46 @@ Das Menü <b>Szene</b> behandelt die angezeigte Geometrie (3D-Ressource) und die
 
 * Torus
 
-<b>UVs in 2D-Ansicht anzeigen:</b> Aktiviert die Anzeige der UVs für das aktuell ausgewählte Gitter als Overlay in der [2D-Ansicht](../2d-view/2d-view.md).
+<b>UV in 2D-Ansicht anzeigen:</b> Aktiviert die Anzeige der UVs für den aktuell ausgewählten Mesh als Überlagerung in der [2D-Ansicht](../2d-view/2d-view.md).
 
-<b>3D-Ressource aus aktueller Szene erstellen...:</b> Erstellt eine neue [3D-Szenenressource](../../resources/3d-scene-resource/3d-scene-resource.md) in einem Paket aus der aktuellen Szene.
+<b>3D-Ressource aus aktueller Szene erstellen...:</b> Erstellt eine neue [3D-Szene-Ressource](../../resources/3d-scene-resource/3d-scene-resource.md) in einem Paket aus der aktuellen Szene.
 
-<b>Statusdatei laden..: </b>Lädt eine extern gespeicherte [Szenenstatusdatei](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn). Ersetzt das 3D-Gitter nicht, lädt nur Einstellungen für 3D-Renderer, Kamera und Lichter.
+<b>Statusdatei laden..: </b>Lädt eine extern gespeicherte [Szene-Statusdatei](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn). Ersetzt den 3D-Mesh nicht, lädt nur Einstellungen für 3D-Renderer, Kamera und Lichter.
 
-<b>Statusdatei mit Gitter laden...:</b> Lädt eine extern gespeicherte [Szenenstatusdatei](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn). Lädt Einstellungen für 3D-Renderer, Kamera, Lichter sowie die Referenzbilder der 3D-Szene. .
+<b>Statusdatei mit Mesh laden...:</b> Lädt eine extern gespeicherte [Szenen-Statusdatei ](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn). Lädt die Einstellungen für den 3D-Renderer, die Kamera, die Lichter sowie die Referenzinformationen in der 3D-Szene. .
 
-<b>Statusdatei speichern..: </b>Speichern Sie den aktuellen Status der 3D-Ansicht in einer [Szenenstatusdatei](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn).
+<b>Statusdatei speichern..: </b>Speichern Sie den aktuellen Status der 3D-Ansicht in einer [Szene-Statusdatei](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn).
 
-<b>Aktuellen Status als Standard speichern: </b>Legen Sie den aktuellen Status der 3D-Ansicht als [Szenenstatusdatei](../../working-with-3d-scenes/working-with-3d-scenes.md) fest, die standardmäßig beim Erstellen neuer 3D-Ansichten verwendet werden soll. Diese Datei wird bei jedem Zurücksetzen oder Initialisieren der 3D-Ansicht geladen und kann in den [Projekteinstellungen](../../interface/preferences-window/project-settings/project-settings.md) festgelegt werden.
+<b>Aktuellen Status als Standard speichern: </b>Legen Sie den aktuellen Status der 3D-Ansicht als [Szene-Statusdatei](../../working-with-3d-scenes/working-with-3d-scenes.md) fest, die standardmäßig beim Erstellen neuer 3D- verwendet werden soll. Diese Datei wird bei jedem Zurücksetzen oder Initialisieren der 3D-Ansicht geladen und kann in den [Projekteinstellungen](../../interface/preferences-window/project-settings/project-settings.md) festgelegt werden.
 
-<b>Szene exportieren:</b> *(Nur Rasterbildausgabe/GPU-Pathtracer-Renderer)* Exportiert die aktuelle Szene als [reduzierte Szene](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md), in der nur die Ergebnisszene geschrieben wird und alle Verweise auf die Originalszene verloren gehen. Der Inhalt der exportierten Szene hängt von den Funktionen ab, die vom ausgewählten Exportformat unterstützt werden.\
+<b>Szene exportieren:</b> *(Nur Rasterizer/GPU-Pathtracer-Renderer)* Exportiert die aktuelle Szene als [abgeflachte Szene](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md), in der nur die Ergebnis-Szene geschrieben wird und alle Verweise auf die Original-Szene verloren gehen. Der Inhalt der exportierten Szene hängt von den Funktionen ab, die vom ausgewählten Exportformat unterstützt werden.\
 Verfügbare Formate: STL, FBX, GLB, GLTF, PLY, USDC, USD, USDA, USDZ, OBJ.
 
-<b>Szene mit Ebenen exportieren:</b> *(Nur Rasterbilder/GPU-Pathtracer-Renderer)*Exportiert die aktuelle Szene als [Szene mit Ebenen](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md), in der alle Änderungen an der Originalszene in separaten Dateien in einem nicht-destruktiven Arbeitsablauf gespeichert werden. Dies ist nur für USD-Dateiformate verfügbar.\
+<b>Szene mit Ebenen exportieren:</b> *(Nur Rasterbildausgabe/GPU-Pathtracer-Renderer)*Exportiert die aktuelle Szene als [Szene mit Ebenen](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md), wobei alle Änderungen an der Originaldatei in separaten Szenen in einem nicht destruktiven Arbeitsablauf gespeichert werden. Dies ist nur für USD Dateiformate verfügbar.\
 Verfügbare Formate sind: USDC, USD, USDA.
 
-<b>Tesselierte Geometrie exportieren:</b> *(Nur OpenGL-Renderer)* Exportiert die aktuelle Szene mit einer Tesselierung als Raw-Geometrie (siehe Abschnitt &quot;Szene exportieren&quot;).
+<b>Tesselierte Geometrie exportieren:</b> *(Nur OpenGL-Renderer)* Exportiert die aktuelle Szene mit der Tessellation als Rohgeometrie (siehe Abschnitt &quot;Szene exportieren&quot;).
 
 <b>Szene zurücksetzen: </b>Setzt die 3D-Ansicht auf die Standardeinstellungen zurück.
 
-Einige Software-Updates können die Art und Weise ändern, wie Szenenstatusdateien gespeichert/geladen werden.
+Einige Software-Updates können die Art und Weise ändern, wie Szene-Statusdateien gespeichert/geladen werden.
 
-Wenn die Szene *nicht korrekt* aus der Datei wiederhergestellt wurde, wird empfohlen, den gewünschten Status der Szene manuell festzulegen und die Szenenstatusdatei *erneut zu exportieren*.
+Wenn die Szene *nicht korrekt aus der Szene wiederhergestellt wurde*, wird empfohlen, den gewünschten Status der Szene manuell festzulegen und die Dateistatusdatei *erneut zu exportieren*.
 
 +++
 
 +++Materialien
-Das Menü <b>Materialien</b> ändert sich basierend auf dem geladenen 3D-Gitter und dem verwendeten Renderer.
+Das Menü &quot;<b>Materials</b>&quot; ändert sich basierend auf dem geladenen 3D-Mesh und dem verwendeten Renderer.
 
-Das Menü &quot;Materialien&quot; enthält eine Liste aller Materialien, die einem Gitter in der Szene zugewiesen sind. Jedes Material, das im Menü &quot;Materialien&quot; aufgeführt ist, enthält ein Untermenü mit Materialaktionen:
+Das Menü &quot;Materials&quot; enthält eine Liste aller Materials, die einem Mesh in der Szene zugewiesen sind. Jedes Material, das im Menü &quot;Materialien&quot; aufgelistet ist, verfügt über ein Untermenü mit Material-Aktionen:
 
-<b>Bearbeiten</b> - Bearbeiten Sie die Einstellungen des aktuellen Materials im Eigenschaftenfenster.
+<b>Bearbeiten</b> - Einstellungen des aktuellen Materials im Eigenschaftenfenster bearbeiten.
 
-<b>Shaders-Liste</b> - Alle [Shaders](../../glossary/glossary.md), die für den aktuellen [3D-Renderer &#x200B;](../../interface/3d-view/3d-renderers/3d-renderers.md) verfügbar sind.
+<b>Shaders-Liste</b> - Alle [Shaders](../../glossary/glossary.md), die für den aktuellen [3D-Renderer ](../../interface/3d-view/3d-renderers/3d-renderers.md) verfügbar sind.
 
-<b>Definition laden..: </b>(Nur OpenGL-Renderer) Ermöglicht das Laden eines eigenen benutzerdefinierten [GLSLFX-Shaders.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) Der Shader wird der obigen Liste hinzugefügt.
+<b>Definition laden..: </b>(Nur OpenGL-Renderer) Ermöglicht das Laden eigener benutzerdefinierter [GLSLFX-Shader.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) Der Shader wird der obigen Liste hinzugefügt.
 
-<b>Allgemeine Parameter zurücksetzen:</b> Setzt alle Parameter zurück, die für alle Shader gelten. Wenn Sie beispielsweise zwischen Rasterprogramm/GPU-Pathtracer und OpenGL-Renderer wechseln, werden mehrere Parameterwerte im [Adobe-Standardmaterial](https://experienceleague.adobe.com/de/docs/substance-3d/general-knowledge/asm/adobe-standard-material) übertragen.
+<b>Allgemeine Parameter zurücksetzen:</b> Setzt alle Parameter zurück, die für alle Shader gelten. Wenn Sie beispielsweise zwischen Rasterprogramm/GPU-Pathtracer und OpenGL-Renderer wechseln, werden mehrere Parameterwerte im [Adobe Standard Material](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) übertragen.
 
 <b>Umbenennen:</b> Ändern Sie die Beschriftung für dieses Material.
 
@@ -313,7 +313,7 @@ Das Menü &quot;Materialien&quot; enthält eine Liste aller Materialien, die ein
 
 <b>Material auf Szene zurücksetzen: </b>*(nur Rasterbildner/GPU-Pathtracer-Renderer)* Setzt alle Eigenschaften für [überschriebene Materialien](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) auf ihre Originalwerte aus der Szene zurück, einschließlich der Originalwerte (falls vorhanden) der Texturen.
 
-<b>Hinzufügen: </b>Fügt der Liste ein neues Material hinzu. Er ist standardmäßig nicht verwendet und kann [&#x200B; mit einem Szene-Material &#x200B;](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) über den [Szene-Browser &#x200B;](../../interface/3d-view/scene-browser/scene-browser.md) verbunden sein.
+<b>Hinzufügen: </b>Fügt der Liste ein neues Material hinzu. Er ist standardmäßig nicht verwendet und kann [ mit einem Szene-Material ](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) über den [Szene-Browser ](../../interface/3d-view/scene-browser/scene-browser.md) verbunden sein.
 
 +++
 
@@ -431,7 +431,7 @@ Zeigt eine Hierarchie aller Elemente in einer 3D-Szene an.
 
 >[!INFO]
 >
->Der Szenenbrowser und seine Features werden ausführlich in [der dedizierten Seite &#x200B;](../../interface/3d-view/scene-browser/scene-browser.md) behandelt.
+>Der Szenenbrowser und seine Features werden ausführlich in [der dedizierten Seite ](../../interface/3d-view/scene-browser/scene-browser.md) behandelt.
 
 
 <img src="3d-view.resources/3d-view-scene-toolbar-select.png" width="24" /> <b>Auswählen</b>

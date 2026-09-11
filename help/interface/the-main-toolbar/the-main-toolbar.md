@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-main-toolbar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-main-toolbar.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über die Hauptsymbolleiste in Substance 3D Designer, um auf allgemeine Werkzeuge und Befehle für Ihren Arbeitsablauf zuzugreifen.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-Auf dieser Seite werden die Hauptsymbolleiste und das Menü von [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) beschrieben, die oben links im Hauptfenster angezeigt werden.Es besteht aus zwei Teilen: die Dropdown-Hauptmenüs und Schaltflächen mit Schnellzugriff. Auf alle Schaltflächenfunktionen für den Schnellzugriff kann auch über die Menüs <b>Datei</b> und <b>Bearbeiten</b> zugegriffen werden.
+Auf dieser Seite werden die Hauptsymbolleiste und das Menü von [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) beschrieben, die oben links im Hauptfenster angezeigt werden.Es besteht aus zwei Teilen: die Dropdown-Hauptmenüs und Schaltflächen mit Schnellzugriff. Auf alle Schaltflächenfunktionen für den Schnellzugriff kann auch über die Menüs <b>Datei</b> und <b>Bearbeiten</b> zugegriffen werden.
 
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
@@ -52,7 +52,7 @@ Auf dieser Seite werden die Hauptsymbolleiste und das Menü von [Substance 3D De
 <b>Neu:</b> öffnet ein Untermenü zum Erstellen eines Grafen oder Pakets:
 
 * <b>Neuer Substance-Graf..:</b>(Strg+N) Zeigt das Fenster [Neuer Graf](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) an, in dem Sie einen neuen [Substance-Graf](../../compositing-graphs/substance-compositing-graphs.md) einrichten können;
-* <b>Neuer Substance-Funktions-Graf:</b> Erstellt ein neues Paket mit einem [Substance-Funktions-Graf &#x200B;](../../function-graphs/function-graphs.md);
+* <b>Neuer Substance-Funktions-Graf:</b> Erstellt ein neues Paket mit einem [Substance-Funktions-Graf ](../../function-graphs/function-graphs.md);
 * <b>Leer:</b> Erstellt ein leeres Paket.
 
 <b>Öffnen...:</b> (Strg+O) Öffnen Sie ein vorhandenes [Substance-Paket (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
@@ -85,11 +85,11 @@ Auf dieser Seite werden die Hauptsymbolleiste und das Menü von [Substance 3D De
 
 <b>Rendern abbrechen:</b> (Esc) Stoppt den aktuellen Vorgang für das Substance Engine. Kann verwendet werden, um einen unerwünschten, schweren Vorgang abzubrechen.
 
-<b>Modul anhalten:</b> (⇧+Esc): Das Rendermodul wird angehalten. Dies kann die Bearbeitung komplexer [Substance-Graphen](../../compositing-graphs/substance-compositing-graphs.md) beschleunigen.
+<b>Engine anhalten:</b> (⇧+Esc) Das Render-Engine wird angehalten. Dies kann die Bearbeitung komplexer [Substance-Graf](../../compositing-graphs/substance-compositing-graphs.md) beschleunigen.
 
-<b>Modul wechseln..: </b>(F9) Bietet verschiedene Rendering-Engines, einschließlich GPU-Engines (&quot;DirectX&quot; unter Windows, &quot;OpenGL&quot; unter macOS) sowie die CPU-Engine (&quot;NEON&quot; unter Apple Silicon, &quot;SSE&quot; unter allen anderen).
+<b>Engine wechseln..: </b>(F9) Bietet verschiedene Render-Engine, einschließlich GPU-Engine (&quot;DirectX&quot; unter Windows, &quot;OpenGL&quot; unter macOS) sowie das CPU-Engine (&quot;NEON&quot; unter Apple Silicon, &quot;SSE&quot; unter allen anderen).
 
-<b>Substance Player:</b> Verwalten der Integration von Designer mit Substance Player:
+<b>Substance Player:</b> Verwalten der Integration von Designer mit dem Substance Player:
 
 * <b>Player suchen...:</b> Designer mitteilen, wo Player installiert ist;
 * <b>Player herunterladen...:</b> Öffnet die [Landingpage](https://helpx.adobe.com/substance-3d-player/home.html) der Substance Player-Dokumentation, auf der der Player heruntergeladen werden kann.
@@ -100,7 +100,7 @@ Auf dieser Seite werden die Hauptsymbolleiste und das Menü von [Substance 3D De
 
 <b>Neuer Explorer:</b> Öffnet ein neues Explorer-Dock. Es können mehrere Explorer-Docks geöffnet sein.
 
-<b>Neue 3D-Ansicht:</b> Öffnet ein neues 3D-Ansicht-Dock. Sie können mehrere 3D-Ansicht-Docks geöffnet haben.
+<b>Neue 3D-Ansicht:</b> Öffnet ein neues 3D-Ansicht-Dock. Es können mehrere 3D-Ansicht-Docks geöffnet sein.
 
 <b>Neue Bibliotheksansicht:</b> Öffnet ein neues Bibliotheksdock. Sie können mehrere Bibliotheks-Docks geöffnet haben.
 
@@ -112,13 +112,13 @@ Auf dieser Seite werden die Hauptsymbolleiste und das Menü von [Substance 3D De
 
 <b>Explorer:</b> Den [Explorer anzeigen/ausblenden](../the-explorer-window/the-explorer-window.md).
 
-<b>Diagramm:</b> Zeigen/Ausblenden des [Diagrammfensters](../../interface/the-graph-view/the-graph-view.md)(s) an.
+<b>Graf:</b> Das [Graf-Fenster anzeigen/ausblenden](../../interface/the-graph-view/the-graph-view.md)(s).
 
 <b>Parameter:</b> Die [Eigenschaften](../properties/properties.md) ein-/ausblenden.
 
 <b>Konsole:</b> Das Konsolenfenster ein-/ausblenden.
 
-<b>3D-Ansicht:</b> [3D-Ansicht(en) anzeigen/ausblenden](../../interface/3d-view/3d-view.md).
+<b>3D-Ansichten:</b> [3D-Ansichten](../../interface/3d-view/3d-view.md) ein-/ausblenden.
 
 <b>Abhängigkeitsmanager:</b> Den [Abhängigkeitsmanager anzeigen/ausblenden](../../interface/dependency-manager/dependency-manager.md).
 
@@ -165,7 +165,7 @@ Auf dieser Seite werden die Hauptsymbolleiste und das Menü von [Substance 3D De
 
 <b>Neue Funktionen...:</b> Zeigt einen Bildschirm an, in dem die Funktionen hervorgehoben werden, die der neuesten Version von Designer hinzugefügt wurden
 
-<b>Begrüßungsbildschirm...\*:</b> Zeigt einen Bildschirm an, der neue Benutzer durch den Zweck von Designer und seine Position im [Substance 3D-Ökosystem führt](https://helpx.adobe.com/de/substance-3d.html)
+<b>Begrüßungsbildschirm...\*:</b> Zeigt einen Bildschirm an, der neue Benutzer durch den Zweck von Designer und seine Position im [Substance 3D-Ökosystem führt](https://helpx.adobe.com/substance-3d.html)
 
 <b>Partner:</b> Ermöglicht Ihnen den Zugriff auf die Haftungsausschlüsse und Hinweise für Integrationen von Drittanbietern von unseren Partnern in Designer.
 

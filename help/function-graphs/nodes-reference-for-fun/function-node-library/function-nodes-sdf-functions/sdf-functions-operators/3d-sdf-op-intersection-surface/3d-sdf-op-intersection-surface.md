@@ -1,6 +1,6 @@
 ---
 title: Schnittfläche
-description: Designer > Substance von Compositing-Graphen > Knotenreferenz für Substance-Compositing-Graphen > Knotenbibliothek > SDF-Funktion > Operator > Schnittfläche
+description: Designer > Substance-Compositing-Grafen > Knotenreferenz für Substance-Compositing-Grafen > Knotenbibliothek > SDF-Funktion > Operator > Schnittfläche
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '104'
@@ -40,6 +40,6 @@ Gibt die Fläche des Bereichs einer SDF-Grundform zurück, der von einer anderen
 
 |  |  |
 | :--- | :--- |
-| <b>Basis-SDF</b> *Gleitend* | Die SDF-Form, auf der die resultierende Oberfläche basiert. |
-| <b>Schnittmenge mit SDF</b> bilden *Gleitend* | Die SDF-Form, die die Basis-SDF-Form schneidet. |
-| <b>Thickness</b> *Gleitend* | Die Thickness der resultierenden Fläche.<br><br><i>Standard: 0,02</i> |
+| <b>Basis-SDF</b> *Fließkommazahl* | Die SDF-Form, auf der die resultierende Oberfläche basiert. |
+| <b>Schnittmenge mit SDF</b> bilden *Fließkommazahl* | Die SDF-Form, die die Basis-SDF-Form schneidet. |
+| <b>Thickness</b> *Fließkommazahl* | Die Thickness der resultierenden Fläche.<br><br><i>Standard: 0,02</i> |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-list.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Spline Bridge-Liste , um Texturen zwischen mehreren Splines in einer Liste für komplexe Muster zu überbrücken.
 helpx_creative_field: ""
@@ -67,7 +67,7 @@ Die generierten Splines können linear (gerade) oder quadratisch (gekrümmt) sei
 | <b>Vorschau</b> <i>Graustufen</i> | Die Vorschau der Ausgabe-Splines als Graustufenbild. |
 | <b>Spline-Kabel</b> <i>Farbe</i> | Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Ausgabesplines.<br><b>R</b> - X-Position<br><b>G</b> - Y-Position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>- Sign: Spline ist geschlossen (negativ) oder offen (positiv);<br>- Absolute Wert: Thickness + 1. |
 | <b>Spline-Daten</b> <i>Farbe</i> | Zusätzliche Daten der in den RGBA-Kanälen eines Farbbilds codierten Ausgabe-Splines.<br><b>R</b> - Tangenten X<br><b>G</b> - Tangenten Y<br><b>B</b> - Nicht verwendet<br><b>A</b> - Nicht verwendet |
-| <b>Spline-Betrag</b> <i>Ganzzahl</i> | Die Anzahl der Ausgabe-Splines. |
+| <b>Spline-Betrag</b> <i>Integer</i> | Die Anzahl der Ausgabe-Splines. |
 
 <a name="parameters"></a>
 
@@ -75,11 +75,11 @@ Die generierten Splines können linear (gerade) oder quadratisch (gekrümmt) sei
 
 |  |  |
 |:---|:---|
-| <b>Spline-Betrag für Bridge</b> <i>Ganzzahl</i> | Die Anzahl der Splines, die über die Eingabe-Splines generiert wurden. |
-| <b>Bridge-Splines-Typ</b> <i>Ganzzahl</i> | Der generierte Spline-Typ:<br><br>- Linear: eine scharfe Spline, die mittlere Splines mit geraden Trajektorien von Anfang bis Ende verbindet;<br>- Quadratische Bézier: eine gekrümmte Spline, die zwischengeschaltete Splines mit glatten Trajektorien von Anfang bis Ende verbindet.<br><br>Hinweis: Für die Berechnung eines quadratischen Bézier-Splines sind mindestens 3 Splines für den Eingang erforderlich. |
-| <b>Eingabe-Splines sind geschlossen</b> <i>Boolesche Wert</i> | Steuert, ob der erste und der letzte Punkt der Eingabe-Splines als ein einzelner Punkt verarbeitet werden sollen. Dadurch wird verhindert, dass der erste und der letzte Spline-Verlauf dupliziert werden. |
-| <b>Richtung spiegeln</b> <i>Boolesche Wert</i> | Kehrt die Richtung des Spline um. |
-| <b>Bridge-Spline schließen</b> <i>Boolesche Wert</i> | Erweitert die durchlaufenden Splines, um zum ersten Spline in der Eingabeliste zurückzukehren. |
+| <b>Spline-Betrag für Bridge</b> <i>Integer</i> | Die Anzahl der Splines, die über die Eingabe-Splines generiert wurden. |
+| <b>Bridge-Splines-Typ</b> <i>Integer</i> | Der generierte Spline-Typ:<br><br>- Linear: eine scharfe Spline, die mittlere Splines mit geraden Trajektorien von Anfang bis Ende verbindet;<br>- Quadratische Bézier: eine gekrümmte Spline, die zwischengeschaltete Splines mit glatten Trajektorien von Anfang bis Ende verbindet.<br><br>Hinweis: Für die Berechnung eines quadratischen Bézier-Splines sind mindestens 3 Splines für den Eingang erforderlich. |
+| <b>Eingabe-Splines sind geschlossen</b> <i>Boolescher Wert</i> | Steuert, ob der erste und der letzte Punkt der Eingabe-Splines als ein einzelner Punkt verarbeitet werden sollen. Dadurch wird verhindert, dass der erste und der letzte Spline-Verlauf dupliziert werden. |
+| <b>Richtung spiegeln</b> <i>Boolescher Wert</i> | Kehrt die Richtung des Spline um. |
+| <b>Bridge-Spline schließen</b> <i>Boolescher Wert</i> | Erweitert die durchlaufenden Splines, um zum ersten Spline in der Eingabeliste zurückzukehren. |
 | <b>Spline-Versatz der ersten Brücke</b> <i>Float2</i> | Wendet einen Versatz auf den Anfang aller durchlaufenen Splines an. Der Wert ist die normalisierte Länge der Eingabe-Splines.<br>Generierte Splines, die den Anfangs- oder Endpunkt der durchlaufenen Splines erfüllen, werden dort belassen. |
 | <b>Letzter Spline-Versatz für Bridge</b> <i>Float2</i> | Wendet einen Versatz auf das Ende aller durchlaufenen Splines an. Der Wert ist die normalisierte Länge der Eingabe-Splines.<br>Generierte Splines, die den Anfangs- oder Endpunkt der durchlaufenen Splines erfüllen, werden dort belassen. |
 | <b>Bereich für zufällige Verschiebung</b> <i>Integer</i> | Der maximale Abstand, der für den zufälligen Versatz verwendet wird, der auf Splines angewendet wird.<br><br>- <i>Übergeordneter Spline:</i> Die gesamte Länge der übergeordneten Splines wird verwendet. Kann Überschneidungen verursachen.<br>- <i>Intervall:</i> Das Intervall zwischen den Brückenzwickeln wird verwendet. Dadurch werden Überschneidungen vermieden. Dieser Abstand nimmt mit zunehmender Anzahl der Brückenverzahnungen ab. |

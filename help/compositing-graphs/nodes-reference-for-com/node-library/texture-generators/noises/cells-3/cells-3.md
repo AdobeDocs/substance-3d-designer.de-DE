@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-3.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Zellen 3, um Zellmuster zwischen den Zellen zu erzeugen, um organische und biologische Texturen zu erzeugen.
+description: Verwenden Sie den Knoten Zellen 3, um Zellmuster zu erzeugen, die organische und biologische Textureffekte erzeugen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Cells 3
 helpx_experience_level: ""
@@ -26,14 +26,14 @@ ht-degree: 1%
 
 ![Zellen 3 - Symbol](cells-3.resources/cells_3.png "Zellen 3 - Symbol"){width="200px"}
 
-<b>In:</b> Texturen-Generatoren > Rauschen
+<b>In:</b> Texturgeneratoren > Rauschen
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Eine Variation der <b>Zellen</b> ummauerten Rauschen.
+Eine Variation der <b>Zellen</b> von Walled Noise.
 
 Der Schnittpunkt von Scheiben erzeugt Zellen mit dünnen Wänden von unebener Weichheit.
 
@@ -49,7 +49,7 @@ Siehe auch: [Zellen 1](../../../../../../compositing-graphs/nodes-reference-for-
 
 |  |  |
 |:---|:---|
-| <b>Ausgabe</b> <i>Graustufen</i> | Die generierte Rauschen als Graustufen-Bitmap. |
+| <b>Ausgabe</b> <i>Graustufen</i> | Das erzeugte Rauschen als Graustufen-Bitmap. |
 
 <a name="parameters"></a>
 
@@ -57,10 +57,10 @@ Siehe auch: [Zellen 1](../../../../../../compositing-graphs/nodes-reference-for-
 
 |  |  |
 |:---|:---|
-| <b>Skalierung</b> <i>Ganzzahl</i> | Die Unterteilung des Rasters, der zum Generieren der Rauschen-Kacheln verwendet wird.    Ein höherer Wert führt dazu, dass mehr Kacheln gezeichnet werden und das Rauschen dichter ist. |
-| <b>Härte</b> <i>Fließkommazahl</i> | Die Definition der Zellwände, bei denen ein höherer Wert zu definierten, scharfen Wänden führt. |
-| <b>Umkehren</b> <i>Boolesche Wert</i> | Kehrt die Graustufenwerte des Bildausgangs um. |
-| <b>Störung</b> <i>Fließkommazahl</i> | Versetzt die Bestandteile der Rauschen.    So animierst du die Rauschen. |
+| <b>Skalierung</b> <i>Integer</i> | Die Unterteilung des Rasters, das zum Erzeugen der Rauschkacheln verwendet wird.    Ein höherer Wert führt dazu, dass mehr Kacheln gezeichnet werden und das Rauschen dichter ist. |
+| <b>Härte</b> <i>Gleitend</i> | Die Definition der Zellwände, bei denen ein höherer Wert zu definierten, scharfen Wänden führt. |
+| <b>Umkehren</b> <i>Boolescher Wert</i> | Kehrt die Graustufenwerte der Bildausgabe um. |
+| <b>Störung</b> <i>Gleitend</i> | Versetzt die Bestandteile des Rauschens.    So kannst du das Rauschen animieren. |
 | <b>Störungsgeschwindigkeit</b> <i>Gleitend</i> | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.    Mit dieser Option können Sie die Geschwindigkeit des Versatzes bei der Animation des Rauschens steuern. |
 | <b>Anisotropie der Störung</b> <i>Gleitend</i> | Steuert die Richtungsspanne des Versatzes, der vom <b>Disorder</b>-Parameter angewendet wird, wobei ein höherer Wert zu einer engeren, definierteren Richtung führt.    Die Anisotropie wird durch den Parameter <b>Disorder Direction Angle</b> gesteuert. |
 | <b>Disorder anisotropy angle</b> <i>Gleitend</i> | Steuert die Richtung des Versatzes, der vom <b>Disorder</b>-Parameter angewendet wird, wenn der Parameter &quot;Disorder Anisotropie&quot; nicht Null ist. |

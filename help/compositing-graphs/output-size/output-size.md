@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ''
 description: Konfigurieren Sie die Einstellungen der Ausgabegröße für Substance-Kompositionsdiagramme, um die Strukturauflösung und -qualität zu steuern.
 helpx_creative_field: ""
@@ -90,7 +90,7 @@ Beachten Sie, dass die Größe über 8196 *begrenzt* ist. Diese Obergrenze wird 
 
 ## Ändern der Vererbungsmethode
 
-In den meisten Fällen ist die standardmäßige [-Vererbungsmethode &#x200B;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) für die Eigenschaft &quot;Ausgabegröße&quot; je nach Element die folgende:
+In den meisten Fällen ist die standardmäßige [-Vererbungsmethode ](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) für die Eigenschaft &quot;Ausgabegröße&quot; je nach Element die folgende:
 
 * Diagramm: *Relativ zu übergeordnetem Element*
 * Knoten: *Relativ zur Eingabe*: Die von der [primären Eingabe](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) des Knotens geerbten Werte werden in diesem Fall verwendet.
@@ -102,7 +102,7 @@ Zeigen Sie die Eigenschaften eines Knotens oder Diagramms an, indem Sie auf dies
 
 ## Beispielprobleme
 
-Wenn Sie ein neuer [Adobe Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html)-Benutzer sind, treten möglicherweise einige häufige Probleme auf. Im Folgenden finden Sie einige Beispiele sowie Lösungen.
+Wenn Sie ein neuer [Adobe Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html)-Benutzer sind, treten möglicherweise einige häufige Probleme auf. Im Folgenden finden Sie einige Beispiele sowie Lösungen.
 
 +++Problem 1
 **![(Fehler)](../../assets/error.svg) Problem**

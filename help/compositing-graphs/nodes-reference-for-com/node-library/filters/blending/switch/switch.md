@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/switch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/switch.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Wechseln", um zwischen zwei Eingabetexturen zu wechseln, die auf einer Maske für die Auswahl einer bedingten Textur basieren.
+description: Verwenden Sie den Knoten "Umschalten", um zwischen zwei Eingabemasken zu wechseln, die auf einer Textur für die Auswahl einer bedingten Textur basieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Switch
 helpx_experience_level: ""
@@ -37,7 +37,7 @@ ht-degree: 3%
 
 Einfacher 2-Positions-Schaltknoten. Gibt je nach Einstellung des Switch-Parameters entweder Input 1 oder Input 2 zurück. Ergebnis ist unverändert. Eine erweiterte Version finden Sie unter [Multi Switch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md).
 
-Sehr nützlich zum Anzeigen einer booleschen (True/False) Auswahl in einem Diagramm, bei der Sie nur eine einzelne Schaltfläche und keine komplexe Dropdown-Liste für eine ganze Auswahl von Optionen benötigen.
+Sehr praktisch, um eine boolesche Auswahl (True/False) in einem Graf legen, bei der Sie nur eine einzige Schaltfläche und keine komplexe Dropdown-Liste für eine ganze Auswahl von Optionen benötigen.
 
 Wichtig: Achten Sie darauf, die passende Version für Ihre Eingabe zu verwenden! Verwenden Sie &quot;Schalter&quot; für Farbeingaben, &quot;Graustufen wechseln&quot; für Graustufeneingaben.
 

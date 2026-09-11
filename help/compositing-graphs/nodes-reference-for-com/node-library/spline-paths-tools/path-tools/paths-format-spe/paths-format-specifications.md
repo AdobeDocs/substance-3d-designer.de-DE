@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über die Pfadformatspezifikationen und die Datenstruktur, die von Pfad- und Spline-Knoten verwendet werden.
 helpx_creative_field: ""
@@ -90,11 +90,11 @@ Dies ist nützlich, wenn Sie die Pfade beispielsweise von einem [Pixelprozessor]
 
 Die Adresse des letzten in diesem Dokument definierten Scheitelpunkts. Dies ist nützlich, um neue Daten anzufügen.
 
-Es kann also tatsächlich eine beliebige Adresse sein, die größer ist (in Scannline-Reihenfolge) als die Adresse des letzten Scheitelpunktes. Es muss im Bereich &rbrack;0, 1[×]0,.5&lbrack; liegen
+Es kann also tatsächlich eine beliebige Adresse sein, die größer ist (in Scannline-Reihenfolge) als die Adresse des letzten Scheitelpunkts. Es muss im Bereich ]0, 1[×]0,.5[ liegen
 
 <b>ZW</b>
 
-Nicht verwendet, sollte Float2(0, 1) sein
+Nicht verwendet, Fließkommazahl2(0, 1)
 
 +++
 
@@ -111,9 +111,9 @@ Der Pfad-Header des N-ten Pfads wird an der Adresse `path\_addr` definiert und w
 +++Oben
 <b>X</b>
 
-Anzahl der Scheitelpunkte in diesem Pfad. Muss im Bereich [0, 16777216] liegen.
+Anzahl der Scheitelpunkt in diesem Pfad. Muss im Bereich [0, 16777216] liegen.
 
-Wenn die Anfangs- und Endscheitelpunkte eines geschlossenen Pfads sich an derselben Position befinden, werden sie weiterhin für 2 Scheitelpunkte gezählt.\
+Wenn sich der Anfangs- und der Endpunkt eines geschlossenen Scheitelpunkts an derselben Position befinden, werden sie immer noch für 2 Scheitelpunkt gezählt.\
 Ein Pfad mit 0 Scheitelpunkten ist ohnehin ein gültiger Pfad.
 
 <b>J</b>
@@ -164,21 +164,21 @@ Der Pfadindex des Scheitelpunkts. Ein Scheitelpunkt kann nur zu einem Pfad gehö
 
 <b>W</b>
 
-Scheitelpunkttyp. Es wird zwischen dem Vorzeichen des Werts und seinem absoluten Wert aufgeteilt:
+Scheitelpunkt. Es wird zwischen dem Vorzeichen des Werts und seinem absolute Wert aufgeteilt:
 
-Auf der Vorzeichenseite würde ein Wert von 0 bedeuten, dass es hier keinen Scheitelpunkt gibt (alle anderen Komponenten sollten ebenfalls 0 sein). Ein negativer Wert bedeutet, dass der Scheitelpunkt als &quot;Ecke&quot; gekennzeichnet ist. ein positives Zeichen, dass der Scheitelpunkt &quot;glatt&quot; ist. &quot;Ecke vs. glatter Scheitelpunkt&quot; ist ein reines, isoliertes Attribut und hat keine Auswirkungen oder Bedeutung auf den Rest der Pfade-Codierung.
+Auf der Vorzeichenseite würde ein Wert von 0 bedeuten, dass es hier keinen Scheitelpunkt gibt (alle anderen Komponenten sollten ebenfalls 0 sein). Ein negativer Wert bedeutet, dass der Scheitelpunkt als &quot;Ecke&quot; gekennzeichnet ist. eine positive, dass der Scheitelpunkt &quot;glatt&quot; ist. Der Scheitelpunkt &quot;Ecken&quot; vs. &quot;Glätten&quot; ist ein reines, isoliertes Attribut, das keine Auswirkungen oder Auswirkungen auf den Rest der Pfade-Codierung hat.
 
-Auf der Absolutwertkomponente werden die Art des Pixels (Anfang, Mitte oder Ende) und ein weiteres Flag (trivial\_link) codiert:
+Auf dem absolute Wert-Teil sind die Pixelart (Anfang, Mitte oder Ende) und ein weiteres Flag (trivial\_link) kodiert:
 
-* *0.125*: Endscheitelpunkt (letzter Scheitelpunkt der Form; immer nicht triviale Links, siehe unten)
+* *0.125*: End-Scheitelpunkt (letzter Scheitelpunkt der Form; immer nicht triviale Links, siehe unten)
 
-* *0.25*: Anfangsscheitelpunkt (der erste Scheitelpunkt der Form; immer nicht triviale Links, siehe unten)
+* *0.25*: Start-Scheitelpunkt (der erste Scheitelpunkt der Form; immer nicht triviale Links, siehe unten)
 
-* *0.5*: Mittlerer Scheitelpunkt mit nicht trivialen Verknüpfungen
+* *0.5*: Mittlerer Scheitelpunkt mit nicht trivialen Links
 
-* *1*: Mittlerer Scheitelpunkt mit trivialen Verknüpfungen
+* *1*: Mittlerer Scheitelpunkt mit trivialen Links
 
-&quot;Triviale Links&quot; bezieht sich auf die Tatsache, dass der vorherige und der nächste Scheitelpunkt (in der Liste der Scheitelpunkte des aktuellen Pfads) im Pixel links (vert\_addr-(0,pixel\_size)) bzw. rechts (vert\_addr+(0,pixel\_size)) gespeichert werden, während &quot;nicht triviale Links&quot; bedeutet, dass mindestens einer dieser Scheitelpunkte an einem anderen Ort gespeichert wird.
+&quot;Triviale Links&quot; bezieht sich darauf, dass der vorherige und der nächste Scheitelpunkt (in der Liste der Scheitelpunkt des aktuellen Pfads) in dem Pixel links (vert\_addr-(0,pixel\_size)) bzw. rechts (vert\_addr+(0,pixel\_size)) gespeichert sind, während &quot;nicht triviale Links&quot; bedeutet, dass mindestens einer dieser Links an einer anderen Stelle gespeichert ist.
 
 +++
 
@@ -187,12 +187,12 @@ Unabhängig von der &quot;Trivialität&quot; der Links werden vertrauenswürdige
 
 <b>XY</b>
 
-Die Adresse des vorherigen Scheitelpunkts dieses Pfads. Bei &quot;Start&quot;-Scheitelpunkten verweist dies auf den nächsten gleichgeordneten Scheitelpunkt.\
+Die Adresse des vorherigen Scheitelpunkts dieses Pfads. Bei Start-Scheitelpunkten zeigt dies auf den nächsten gleichgeordneten Scheitelpunkt.\
 wenn |top[vert\_addr].W| = 1, dann bottom[vert\_addr].XY = vert\_addr - (0,pixel\_size)
 
 <b>ZW</b>
 
-Die Adresse des nächsten Scheitelpunktes dieses Pfades. Bei Endscheitelpunkten verweist dieser Punkt auf den nächsten gleichgeordneten Scheitelpunkt.\
+Die Adresse des nächsten Scheitelpunkts dieses Pfades. Bei End-Scheitelpunkten zeigt dies auf den nächsten gleichgeordneten Scheitelpunkt.\
 wenn |top[vert\_addr].W| = 1, dann bottom[vert\_addr].ZW = vert\_addr + (0,pixel\_size)
 
 +++
@@ -201,7 +201,7 @@ wenn |top[vert\_addr].W| = 1, dann bottom[vert\_addr].ZW = vert\_addr + (0,pixel
 
 Wenn Sie eigene Knoten zur Pfadverarbeitung erstellen möchten, stehen Ihnen verschiedene Tools zur Verfügung.
 
-Die Grundlagen werden von den Knoten [Paths Vertex Processor](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) und [Paths Vertex Processor Simple](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md) bereitgestellt, die im Grunde wie ein [Pixelprozessor](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) verwendet werden können.
+Die Grundlagen werden von den Scheitelpunkt [Paths Processor](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) und [Paths Scheitelpunkt Processor Simple](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md) bereitgestellt, die im Grunde wie ein [Pixelprozessor](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) verwendet werden können.
 
 Wenn Sie Features benötigen, die über die Möglichkeiten der Knoten des Pfade-Scheitelpunkts hinausgehen (mehr Eingabetexturen oder mehr vorherige oder nächste Scheitelpunkte), kann das Kopieren der Implementierung dieses Diagramms ein guter Ausgangspunkt sein (vorausgesetzt, Sie ersetzen den Knoten <b>Get(&quot;%perVertex&quot;)</b> durch Ihre benutzerdefinierte Verarbeitung).
 

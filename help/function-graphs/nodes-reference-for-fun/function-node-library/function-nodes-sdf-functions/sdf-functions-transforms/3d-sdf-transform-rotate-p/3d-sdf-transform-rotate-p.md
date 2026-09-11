@@ -1,6 +1,6 @@
 ---
 title: P drehen
-description: Designer > Substance von Compositing-Graphen > Knotenreferenz für Substance-Compositing-Graphen > Knotenbibliothek > SDF-Funktion > Transformieren > P drehen
+description: Designer > Substance-Compositing-Graf > Knotenreferenz für Substance-Compositing-Graf > Knotenbibliothek > SDF-Funktion > Transformieren > P drehen
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '302'
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## Beschreibung
 
-Drehen Sie den Weltraum um eine Achse in einem einstellbaren Winkel.<br>Die transformierte Ausgangsweltposition kann mit dem <b>P</b>-Eingang der meisten SDF-Funktionen verbunden werden, um sie in diesem transformierten Weltraum zu definieren.<br><br>Verwenden Sie den <b>Transformations-Pivot</b>-Helfer des <b>3D-Viewers</b>, um die ausgeführte Drehung anzuzeigen.<br><br><i>Tipp:</i> P-Transformationen können verkettet werden, aber beachten Sie, dass die Ergebnisse von der Reihenfolge der Vorgänge abhängen.
+Drehen Sie den Welt-Raum um eine Achse in einem einstellbaren Winkel.<br>Die transformieren Ausgangsposition kann mit dem <b>P</b>-Eingang der meisten SDF-Funktionen verbunden werden, um sie in diesem transformieren Welt-Raum zu definieren.<br><br>Verwenden Sie den <b>Transformieren-Pivot</b>-Helfer des <b>3D-Viewers</b>, um die ausgeführte Drehung anzuzeigen.<br><br><i>Tipp:</i> P transformieren, kann verkettet werden, aber beachten Sie, dass die Ergebnisse von der Reihenfolge der Vorgänge abhängen.
 
 </td>
 </tr>
@@ -40,7 +40,7 @@ Drehen Sie den Weltraum um eine Achse in einem einstellbaren Winkel.<br>Die tran
 
 |  |  |
 | :--- | :--- |
-| <b>Winkel</b> *Gleitend* | Der Winkel, in dem sich der Weltraum dreht.<br><br>Der Winkel wird durch einen Kreis im <b>Transformations-Pivot</b>-Helfer des <b>3D-Viewers angezeigt</b>. Richten Sie die Kamera so aus, dass der Pfeil der <b>Achse</b> als Mittelpunkt dieses Kreises angezeigt wird, damit der Winkel Ihrer Drehung als Bruchteil einer Drehung deutlich erkennbar ist. |
-| <b>Achse</b> *Float3* | Der normalisierte Vektor, der die Achse definiert, um die der Weltraum gedreht wird.<br>Z. (0, 1, 0) den Weltraum um die Y-Achse des Drehpunkts drehen.<br><br>Die Achse wird durch einen Pfeil im <b>Transformations-Pivot</b>-Helfer des <b>3D-Viewers</b> angezeigt. Die Farbe des Pfeils wird den XYZ-Komponenten dieses Vektors zugeordnet.<br><br><i>Standard: (0, 1, 0)</i> |
-| <b>Pivot-Position</b> *Float3* | Die Weltraumposition des Drehpunkts, der den Ursprung der Drehung definiert.<br><br>Der Drehpunkt wird durch den Anfang des Pfeils im <b>Transformations-Drehpunkt</b>-Helfer des <b>3D-Viewers</b> angezeigt. |
-| <b>P</b> *Float3* | Die veränderte Weltraumposition. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die nicht transformierte Weltraumposition.</i> |
+| <b>Winkel</b> *Fließkommazahl* | Der Drehwinkel des Welt-Raums.<br><br>Der Winkel wird durch einen Kreis im <b>Transformieren-Pivot</b>-Helfer des <b>3D-Viewers</b> angezeigt. Richten Sie die Kamera so aus, dass der Pfeil <b>Achse</b> als Mittelpunkt dieses Kreises angezeigt wird, um den Drehwinkel deutlich als Bruchteil einer Drehung zu sehen. |
+| <b>Achse</b> *Fließkommazahl3* | Der normalisierte Vektor, der die Achse definiert, um die der Welt-Raum gedreht wird.<br>Z. (0, 1, 0) dreht den Welt-Raum um die Y-Achse des Drehpunkts.<br><br>Die Achse wird durch einen Pfeil im Helfer <b>Transformieren Pivot</b> des <b>3D-Viewers</b> dargestellt. Die Farbe des Pfeils wird den XYZ-Komponenten dieses Vektors zugeordnet.<br><br><i>Standard: (0, 1, 0)</i> |
+| <b>Pivot-Position</b> *Fließkommazahl3* | Die Drehpunktposition des Drehpunkts, die den Welt-Raum der Drehung definiert.<br><br>Der Drehpunkt wird am Anfang des Pfeils im Helfer <b>Transformieren Pivot</b> des <b>3D-Viewers</b> angezeigt. |
+| <b>P</b> *Float3* | Die transformieren Position des Welt-Raums. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die nicht transformierte Weltraumposition.</i> |

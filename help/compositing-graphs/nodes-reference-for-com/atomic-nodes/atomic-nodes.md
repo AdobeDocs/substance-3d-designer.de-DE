@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
 breadcrumb-title: ''
 description: Greifen Sie in Substance 3D Designer auf Atomknoten zu, um grundlegende Vorgänge wie Eingaben, Ausgaben, Füllmethoden und Farbanpassungen auszuführen.
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ Alle anderen Substance-Diagrammknoten in der [Library](../../../interface/the-li
 </td>
 <td style="border: 0;" valign="top">
 
-[![Atomknoten: Überblendung &#x200B;](atomic-nodes.resources/comp_blend.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)
+[![Atomknoten: Überblendung ](atomic-nodes.resources/comp_blend.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)
 
 [Überblenden](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)
 
@@ -58,7 +58,7 @@ Alle anderen Substance-Diagrammknoten in der [Library](../../../interface/the-li
 
 [![Atomknoten: Richtungsunschärfe](atomic-nodes.resources/comp_dirmotionblur.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
 
-[Richtungsunschärfe](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md) [&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
+[Richtungsunschärfe](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)[](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
 
 </td>
 </tr>
@@ -129,16 +129,16 @@ Alle anderen Substance-Diagrammknoten in der [Library](../../../interface/the-li
 </td>
 <td style="border: 0;" valign="top">
 
-[![Atomknoten: Eingabefarbe &#x200B;](atomic-nodes.resources/comp_inputcolor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[![Atomknoten: Eingabefarbe ](atomic-nodes.resources/comp_inputcolor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
 [Eingabefarbe](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Atomknoten: Graustufen &#x200B;](atomic-nodes.resources/comp_inputgrayscale.png) eingeben](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[![Atomknoten: Graustufen ](atomic-nodes.resources/comp_inputgrayscale.png) eingeben](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
-[Graustufen eingeben](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) [&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Graustufen eingeben](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)[](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ Alle anderen Substance-Diagrammknoten in der [Library](../../../interface/the-li
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Atomknoten: Eingabewert &#x200B;](atomic-nodes.resources/comp_inputnumeric.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[![Atomknoten: Eingabewert ](atomic-nodes.resources/comp_inputnumeric.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
 [Eingabewert](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
@@ -169,14 +169,14 @@ Alle anderen Substance-Diagrammknoten in der [Library](../../../interface/the-li
 </td>
 <td style="border: 0;" valign="top">
 
-[![Atomknoten: Ausgabe &#x200B;](atomic-nodes.resources/comp_output.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
+[![Atomknoten: Ausgabe ](atomic-nodes.resources/comp_output.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 
 [Ausgabe](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Atomknoten: Pixelprozessor &#x200B;](atomic-nodes.resources/comp_pixelprocessor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)
+[![Atomknoten: Pixelprozessor ](atomic-nodes.resources/comp_pixelprocessor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)
 
 [Pixelprozessor](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)
 
@@ -235,7 +235,7 @@ Alle anderen Substance-Diagrammknoten in der [Library](../../../interface/the-li
 </td>
 <td style="border: 0;" valign="top">
 
-[![Atomknoten: Wertprozessor &#x200B;](atomic-nodes.resources/comp_valueprocessor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
+[![Atomknoten: Wertprozessor ](atomic-nodes.resources/comp_valueprocessor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
 
 [Wertprozessor](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
 

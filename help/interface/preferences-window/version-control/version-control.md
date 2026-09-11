@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/preferences-window/version-control.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/version-control.html"
 breadcrumb-title: ''
 description: Konfigurieren Sie die Versionskontrolle in den Substance 3D Designer-Voreinstellungen, um sie mit Git und anderen Systemen zu integrieren.
 helpx_creative_field: ""
@@ -54,10 +54,10 @@ cVerbose = False
 
 Die Versionskontrolle wird in den [Projekteinstellungen](../../../interface/preferences-window/project-settings/project-settings.md) konfiguriert, die in den [Voreinstellungen](../../../interface/preferences-window/preferences-window.md) von Designer verfügbar sind.
 
-Registerkarte ![&#x200B; &quot;Versionskontrolle&quot; in den Projekteinstellungen &#x200B;](../../../assets/p4v-project-settings.jpg " Registerkarte &quot;Versionskontrolle&quot; in den Projekteinstellungen "){zoomable="yes"}
+Registerkarte ![ &quot;Versionskontrolle&quot; in den Projekteinstellungen ](../../../assets/p4v-project-settings.jpg " Registerkarte &quot;Versionskontrolle&quot; in den Projekteinstellungen "){zoomable="yes"}
 
 1. Gehen Sie zu &quot;Bearbeiten > Voreinstellungen&quot;.
-1. Wechseln Sie zu &quot;Projekte&quot;, wählen Sie die Zielprojektdatei &quot;[&quot; aus &#x200B;](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) und wechseln Sie zur Registerkarte &quot;Versionskontrolle&quot;.
+1. Wechseln Sie zu &quot;Projekte&quot;, wählen Sie die Zielprojektdatei &quot;[&quot; aus ](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) und wechseln Sie zur Registerkarte &quot;Versionskontrolle&quot;.
 1. Aktivieren Sie &quot;Versionskontrolle aktiviert&quot;.
 1. Füllen Sie diese Informationen im Abschnitt &quot;Arbeitsbereich&quot; aus:
 
@@ -109,7 +109,7 @@ Da alle Versionskontrollwerkzeuge unterschiedlich sind und viele Funktionen enth
 
 1. Neues Paket erstellen
 1. Speichern Sie das Paket im Verzeichnis &quot;Workspace-Pfad&quot;
-1. Klicken Sie auf RMB im Paket: Sie haben jetzt Zugriff auf das Untermenü &quot;Versionskontrolle&quot;
+1. Klicken Sie auf RMB im Paket: Sie haben jetzt Zugriff auf das Untermenü &quot;Versionskontrolle&quot;.
 1. Je nach Status der Paketdatei im Arbeitsbereich stehen mehrere Aktionen zur Verfügung:
 
    * <b>Hinzufügen:</b> Markieren Sie die Dateien als &quot;ToAdd&quot;.
@@ -123,12 +123,12 @@ Da alle Versionskontrollwerkzeuge unterschiedlich sind und viele Funktionen enth
    <tr style="border: 0;">
    <td style="border: 0;" valign="top">
 
-   ![&#x200B; Dialogfeld &quot;Senden&quot;](../../../assets/p4v-submit.jpg " Dialogfeld &quot;Senden&quot;"){zoomable="yes"}
+   ![ Dialogfeld &quot;Senden&quot;](../../../assets/p4v-submit.jpg " Dialogfeld &quot;Senden&quot;"){zoomable="yes"}
 
    </td>
    <td style="border: 0;" valign="top">
 
-   ![&#x200B; Dialogfeld &quot;Zurücksetzen&quot; &#x200B;](../../../assets/p4v-revert.jpg " Dialogfeld &quot;Zurücksetzen&quot; "){zoomable="yes"}
+   ![ Dialogfeld &quot;Zurücksetzen&quot; ](../../../assets/p4v-revert.jpg " Dialogfeld &quot;Zurücksetzen&quot; "){zoomable="yes"}
 
    </td>
    </tr>
@@ -138,7 +138,7 @@ Da alle Versionskontrollwerkzeuge unterschiedlich sind und viele Funktionen enth
 >
 > Alle Aktionen unterstützen Mehrfachauswahl.
 > 
-> Bei P4- und anderen Versionskontrolle-Tools, die schreibgeschützte Dateiberechtigungen verwenden, um Änderungen einzuschränken, muss der Anwender das Paket zunächst auschecken, bevor er es ändert.
+> Bei P4- und anderen Versionskontrolltools, die schreibgeschützte Dateiberechtigungen verwenden, um Änderungen einzuschränken, muss der Benutzer das Paket zuerst auschecken, bevor er es ändert.
 > 
 > Schreibgeschützte Paketdateien können in SD nicht geändert werden.
 

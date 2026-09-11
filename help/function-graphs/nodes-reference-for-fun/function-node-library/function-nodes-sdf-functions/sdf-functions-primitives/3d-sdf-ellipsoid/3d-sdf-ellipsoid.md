@@ -1,6 +1,6 @@
 ---
 title: Ellipsoid
-description: Designer > Substance-Compositing-Graphen > Knotenreferenz für Substance-Compositing-Graphen > Knotenbibliothek > SDF-Funktion > Primitiv > Ellipsoid
+description: Designer > Substance-Compositing-Graf > Knotenreferenz für Substance-Compositing-Graf > Knotenbibliothek > SDF-Funktion > Primitiv > Ellipsoid
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '118'
@@ -41,5 +41,5 @@ Eine SDF-Funktion für ein Ellipsoid, das eine abgerundete Form mit einstellbare
 |  |  |
 | :--- | :--- |
 | <b>Radius</b> *Float3* | Der Radius des Ellipsoids in X, Y und Z.<br><br><i>Standard: (0,35, 0,35, 0,5)</i> |
-| <b>Mittenposition</b> *Float3* | Die Weltraumposition des Drehpunkts des Ellipsoids.<br><br><i>Standard: (0, 0, 0)</i> |
-| <b>P</b> *Float3* | Die veränderte Weltraumposition. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die nicht transformierte Weltraumposition.</i> |
+| <b>Mittenposition</b> *Float3* | Die Position des Welt-Raums des Drehpunkts des Ellipsoids.<br><br><i>Standard: (0, 0, 0)</i> |
+| <b>P</b> *Float3* | Die transformieren Position des Welt-Raums. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die nicht transformierte Weltraumposition.</i> |

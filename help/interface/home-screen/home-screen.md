@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/home-screen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/home-screen.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Startbildschirm in Substance 3D Designer, um auf aktuelle Projekte, Vorlagen und Lernressourcen zuzugreifen.
 helpx_creative_field: ""
@@ -76,13 +76,13 @@ Die Schaltfläche ![](../../assets/home-screen-whats-new-icon.jpg) <b>Neue Funkt
 
 ## Projekt starten
 
-Auf der linken Seite des Bildschirms finden Sie eine Liste mit Tastaturbefehlen zum Erstellen eines neuen Grafen in einem neuen Paket:
+Auf der linken Seite des Bildschirms finden Sie eine Liste mit Tastaturbefehlen zum Erstellen eines neuen Diagramms in einem neuen Paket:
 
-* <b>Neuer Substance-Graf:</b> Öffnet das Fenster [Neuer Substance-Graf](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md);
+* <b>Neues Substance-Diagramm:</b> Öffnet das Fenster [Neues Substance-Diagramm](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md);
 * <b>Paket öffnen:</b> Ermöglicht das Laden eines vorhandenen Pakets;
 * <b>Import AxF:</b> Startet einen [AxF-Importarbeitsablauf](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md).
 
-![Substance 3D Designer-Bildschirm &#x200B;](../../assets/home-screen-about.jpg "Substance 3D Designer-Bildschirm "){width="256px"}
+![Substance 3D Designer-Bildschirm ](../../assets/home-screen-about.jpg "Substance 3D Designer-Bildschirm "){width="256px"}
 
 ## Verknüpfungen
 
@@ -90,6 +90,6 @@ Unten links auf dem Bildschirm werden nützliche Links wie folgt aufgeführt:
 
 * <b>Info zu Designer:</b> Zeigt den Bildschirm &quot;Info zu Designer&quot; an (siehe oben);
 * <b>Onlinedokumentation:</b> Öffnet eine Webseite zu [dieser Dokumentation](../../home/home.md);
-* <b>Website:</b> Öffnet eine Webseite zur Substance 3D Designer [Produktseite](https://www.adobe.com/de/products/substance3d-designer.html);
+* <b>Website:</b> Öffnet eine Webseite zur Substance 3D Designer [Produktseite](https://www.adobe.com/products/substance3d-designer.html);
 * <b>Foren:</b> Öffnet eine Webseite für die [Support Community](https://community.adobe.com/t5/substance-3d-designer/ct-p/ct-substance-3d-designer?page=1&sort=latest_replies&filter=all&lang=all&tabid=discussions) von Substance 3D Designer.
 * <b>Community-Assets:</b> Öffnet eine Webseite zu Substance 3D [Community-Assets](https://substance3d.adobe.com/community-assets/).

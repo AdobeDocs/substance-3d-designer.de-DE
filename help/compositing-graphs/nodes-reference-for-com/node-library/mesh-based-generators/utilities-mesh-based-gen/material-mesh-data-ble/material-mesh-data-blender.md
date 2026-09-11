@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Material Mesh Data Blender", um Material-Mesh-Daten zu überblenden und so glatte Übergänge zwischen verschiedenen Materialzonen zu erstellen.
 helpx_creative_field: ""
@@ -72,9 +72,9 @@ Es ist hilfreich, wenn Sie z. B. Kantenhervorhebung basierend auf Krümmung oder
 | <b>Diffusen Cartoon-Konturen</b> <i>0.0 - 1.0</i> | Steuert den Look der cartoonartigen Beleuchtungsberechnungen. |
 | <b>Grundfarbe AO</b> <i>0.0 - 1.0</i> | Die Menge der Umgebungsfarbe, die in die Grundfarbe übergegangen werden soll. |
 | <b>Grundfarbe Scharfe Kanten</b> <i>0.0 - 1.0</i> | Stärke der Krümmungszuordnung, die in die Grundfarbe übergegangen werden soll. |
-| <b>Grundfarbe aus Scheitelpunkt-Farbe</b> <i>0.0 - 1.0</i> | Stärke der Scheitelpunktfarbe, die mit der Grundfarbe überblendet werden soll |
-| <b>Normalintensität des Materials</b> <i>0.0 - 1.0</i> | Füllkraft der eingebrannten (Tangenten-)Normalmap. |
-| <b>SpecularAO</b> <i>0.0 - 1.0</i> | Mischungsstärke des AO im Specular. |
+| <b>Grundfarbe aus Scheitelpunkt-Farbe</b> <i>0.0 - 1.0</i> | Stärke des Scheitelpunkt-Farb-Bakings, das mit der Grundfarbe überblendet wird |
+| <b>Normalintensität des Materials</b> <i>0.0 - 1.0</i> | Stärke der Baking geführt Normalmap (Tangente). |
+| <b>SpecularAO</b> <i>0.0 - 1.0</i> | Stärke der AO im Specular. |
 | <b>Specular Hell scharfe Kanten</b> <i>0.0 - 1.0</i> | Die Stärke der Krümmung im Specular vermischen. |
 | <b>Specular-Zeichentrickkonturen</b> <i>0.0 - 1.0</i> | Stärke eines Comic-Specular-Kanteneffekts beim Mischen auf Basis der Krümmung |
 | <b>Glanz dunkelscharfe Kanten</b> <i>0.0 - 1.0</i> | Stärke der Krümmung im Glanz. |

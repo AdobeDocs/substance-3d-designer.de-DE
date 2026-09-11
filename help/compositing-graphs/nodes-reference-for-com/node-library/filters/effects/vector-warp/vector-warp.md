@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/vector-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/vector-warp.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Vektorverkrümmung", um Texturen mithilfe von Vektorfeldern zu verkrümmen und so flüssige und organische Verzerrungen zu erzeugen.
 helpx_creative_field: ""
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 Die Vektorverkrümmung ist ein Effekt mit erweiterten Verzerrungen, ähnlich wie [Verkrümmung](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) und [Richtungsverkrümmung](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md), mit dem Hauptunterschied, dass sie von einer (Farb-)Vektorbitmap und nicht von einer Graustufenmap gesteuert wird. Das bedeutet, dass es leistungsfähiger und vielseitiger ist als seine atomaren Knotencousins.
 
-Die Vektorkarte ähnelt einer Normalmap, muss jedoch nicht normalisiert werden und es werden nur die Kanäle R und Grün (X und Y) verwendet. Blau- und Alpha-Kanäle können schwarz bleiben, wenn du willst. Das Erstellen einer guten Vektorkarte kann die größte Herausforderung bei der Verwendung dieses Knotens sein; Sie können entweder [Graustufenzuordnungen in Normal](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) konvertieren oder die Karte durch Kombinieren von Kanälen mit [RGBA-Zusammenfügung erstellen.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md) Alternativ ist auch so etwas wie eine [&quot;Flow Map&quot;](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/painting/advanced-channel-painting/flow-map-painting) verwendbar.
+Die Vektorkarte ähnelt einer Normalmap, muss jedoch nicht normalisiert werden und es werden nur die Kanäle R und Grün (X und Y) verwendet. Blau- und Alpha-Kanäle können schwarz bleiben, wenn du willst. Das Erstellen einer guten Vektorkarte kann die größte Herausforderung bei der Verwendung dieses Knotens sein; Sie können entweder [Graustufenzuordnungen in Normal](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) konvertieren oder die Karte durch Kombinieren von Kanälen mit [RGBA-Zusammenfügung erstellen.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md) Alternativ ist auch so etwas wie eine [&quot;Flow Map&quot;](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/advanced-channel-painting/flow-map-painting) verwendbar.
 
 Dieser Knoten kann nützlich sein, wenn Sie sehr spezifische Verzerrungen mit unterschiedlichen Richtungen durchführen möchten, bei denen Standardverkrümmungsknoten ihn nicht schneiden.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/modify-color-palette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/modify-color-palette.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Farbpalette ändern, um Farbpaletten, die aus Texturen extrahiert wurden, anzupassen und zu transformieren.
 helpx_creative_field: ""
@@ -77,8 +77,8 @@ Dieser Knoten kann in Kombination mit den folgenden Knoten verwendet werden: [Fa
 | <b>Entfernungsfarbraum</b> *Integer* | Die Farben sind in einem *Würfel* angeordnet, wobei Breite, Height und Tiefe ein Farbverlauf sind, bei dem eine Farbkomponente von 0 auf 1 zunimmt (z. B. Rot, Grün und Blau in RGB).   Mit diesem Parameter können Sie den Farbraum auswählen, der zum Verteilen von Farben im Würfel verwendet wird, wodurch benachbarte Farben geändert werden.   Sie können den Farbraum auswählen, der zu Ihrem Anwendungsfall passt:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Labor (Color):</b> Ein standardisierter wahrnehmbarer Farbraum, der Farben so verteilt, dass Farben, die sich &quot;ähnlich&quot; fühlen, sich tatsächlich im Würfel befinden. Dies ist für Bilder geeignet, die auf Displays visualisiert werden können.</li> <li data-preserve-html="true"><b>RGB (Daten):</b> Die Farbe wird in Rot, Grün und Blau unterteilt und direkt entlang dieser Achse verteilt, wobei die menschliche Wahrnehmung ignoriert wird. Dies eignet sich für Bilder mit Rohdaten, z. B. Normalen-Map.</li> </ul> |
 | <b>Modus</b> *Integer* | Die Methode zum Ändern der Zielfarbe:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Farbe überschreiben:</b> Ersetzen der Farbe durch eine andere</li> <li data-preserve-html="true"><b>HSL:</b> passen Sie die Farbe mithilfe von Farbton-, Sättigungs- und Helligkeiten-Offsets an</li> </ul> |
 | <b>Deckkraft</b> *Gleitend* | Steuert die Interpolation zwischen der ursprünglichen und der geänderten Farbe. Dabei bedeutet &quot;1&quot;, dass die geänderte Farbe die ursprüngliche Farbe vollständig ersetzt. |
-| <b>Farbe überschreiben</b> *Float3* *Verfügbar, wenn &quot;Modus&quot; auf &quot;Farbe überschreiben&quot; festgelegt ist* | Legt die Farbe fest, die die ursprüngliche Farbe ersetzen soll. |
-| <b>HSL</b> *Float3* *Verfügbar, wenn &quot;Modus&quot; auf &quot;HSL&quot; festgelegt ist* | Steuert die Versätze für Farbton, Sättigung und Helligkeit, die auf die ursprüngliche Farbe angewendet werden. |
+| <b>Farbe überschreiben</b> *Fließkommazahl3* *Verfügbar, wenn &quot;Modus&quot; auf &quot;Farbe überschreiben&quot; festgelegt ist* | Legt die Farbe fest, die die ursprüngliche Farbe ersetzen soll. |
+| <b>HSL</b> *Fließkommazahl3* *Verfügbar, wenn &#39;Mode&#39; auf &#39;HSL&#39; festgelegt ist* | Steuert die Abstände für Farbton, Sättigung und Helligkeit, die auf die Originalfarbe angewendet werden. |
 
 ## Beispiele
 

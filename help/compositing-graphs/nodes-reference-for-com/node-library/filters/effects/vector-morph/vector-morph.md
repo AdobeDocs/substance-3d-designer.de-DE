@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/vector-morph.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/vector-morph.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Vektormorph", um Texturen zwischen zwei Eingängen zu morphen, indem Sie Vektorfelder für glatte Übergänge verwenden.
+description: Verwenden Sie den Knoten "Vektormorph", um Texturen zwischen zwei Eingängen mithilfe von Vektorfeldern für glatte Übergänge zu morphen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Vector Morph
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## Beschreibung
 
-Verzerrt ein Eingabebild durch eine Vektorgrafik. Der Effekt ähnelt der UV-Verzerrung mit einer Normalmap oder der Verwendung einer &quot;Flow Map&quot; in Videospielschattierungen. Eingabepixel werden durch die Vektoren verschoben, die in den roten und grünen Werten der Vektorgrafik definiert sind.
+Verzerrt ein Eingabebild durch eine Vektorkarte. Der Effekt ähnelt der UV-Verzerrung mit einer Normalmap oder der Verwendung einer &quot;Flow Map&quot; in Videospiel-Shadern. Eingabepixel werden durch die Vektoren verschoben, die in den roten und grünen Werten der Vektorgrafik definiert sind.
 
 Dieser Knoten selbst ist nicht der am schwierigsten zu verwendende, aber das Erstellen einer geeigneten Vektorkarte ist vorsichtig. Es wird empfohlen, die höchstmöglichen Bit-Tiefen zu verwenden, um beim Morphing Präzision zu gewährleisten.
 

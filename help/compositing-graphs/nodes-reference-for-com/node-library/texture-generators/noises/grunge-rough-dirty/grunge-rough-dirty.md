@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rough-dirty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rough-dirty.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Schmutz Rough Dirty-Knoten, um raue und schmutzige Schmutz-Texturen zum Hinzufügen von verwitterten Oberflächendetails zu generieren.
 helpx_creative_field: ""
@@ -45,15 +45,15 @@ Der Knoten &quot;**Schmutz Rough Dirty**&quot; generiert eine Schmutz-Map, die e
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Gleitend</i> | Passt die Balance zwischen dunklen und hellen Werten an. |
-| <b>Kontrast</b> <i>Gleitend</i> | Passt den Kontrast des Bildes an. |
-| <b>Umkehren</b> <i>Boolescher Wert</i> | Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird. |
-| <b>Quadratische Ausbreitung</b> <i>Boolescher Wert</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+| <b>Saldo</b> <i>Fließkommazahl</i> | Passt die Balance zwischen dunklen und hellen Werten an. |
+| <b>Kontrast</b> <i>Fließkommazahl</i> | Passt den Kontrast des Bildes an. |
+| <b>Umkehren</b> <i>Boolesche Wert</i> | Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird. |
+| <b>Quadratische Ausbreitung</b> <i>Boolesche Wert</i> | Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
 | <b>Erweitert</b> |  |
-| <b>Schmutz-Hauptintensität</b> <i>Gleitend</i> | Stellt die Intensität der Schmutz-Textur ein, die zum Aufbrechen der Oberfläche verwendet wird. |
-| <b>Scratches umkehren</b> <i>Boolescher Wert</i> | Kehrt die Luminanz der Kratzer auf der Oberfläche um. |
-| <b>Intensität der Scratches</b> <i>Gleitend</i> | Passt die Intensität der Kratzer auf der Oberfläche an. |
-| <b>Körnungsintensität</b> <i>Gleitend</i> | Passt die Intensität des globalen Körnungseffekts an. |
+| <b>Schmutz-Hauptintensität</b> <i>Fließkommazahl</i> | Stellt die Intensität der Schmutz-Textur ein, die zum Aufbrechen der Oberfläche verwendet wird. |
+| <b>Scratches umkehren</b> <i>Boolesche Wert</i> | Kehrt die Luminanz der Kratzer auf der Oberfläche um. |
+| <b>Intensität der Scratches</b> <i>Fließkommazahl</i> | Passt die Intensität der Kratzer auf der Oberfläche an. |
+| <b>Körnungsintensität</b> <i>Fließkommazahl</i> | Passt die Intensität des globalen Körnungseffekts an. |
 
 ## Beispiele
 

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
 breadcrumb-title: ''
-description: Greifen Sie in Substance 3D Designer-Funktionsknoten zu, um Flow- und Ausführungslogik zu steuern. Graf
+description: Greifen Sie in Substance 3D Designer-Funktionsdiagrammen auf Steuerungsknoten zu, um den Ablauf und die Ausführungslogik zu steuern.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Control
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Steuerungsknoten
 
-Auf dieser Seite werden Graf von [Function Knoten](../../../../function-graphs/the-function-graph/the-function-graph.md) beschrieben, die den *Ausführungsfluss* steuern.
+Auf dieser Seite werden Knoten von [Funktionsdiagrammen](../../../../function-graphs/the-function-graph/the-function-graph.md) beschrieben, deren Zweck darin besteht, den *Ausführungsfluss* zu steuern.
 
 <table>
 <tr style="border: 0;">
@@ -41,8 +41,8 @@ Auf dieser Seite werden Graf von [Function Knoten](../../../../function-graphs/t
 
 Sie verwenden diesen Knoten in Verbindung mit den [logischen Knoten](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) und den [Vergleichsknoten](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/comparison-nodes/comparison-nodes.md), die Sie beim Erstellen der zu überprüfenden Bedingung unterstützen.
 
-+++Eingabe-Verbindungen
-<b>Bedingung</b> *Boolesche Wert*\
++++Eingangsanschlüsse
+<b>Bedingung</b> *Boolescher Wert*\
 Die Bedingung, die die Ausgabe des Knotens steuert.
 
 <b>If</b> *Variablentyp* Der vom Knoten ausgegebene Wert, wenn <b>Bedingung</b> *Wahr* ist.
@@ -62,7 +62,7 @@ Die Bedingung, die die Ausgabe des Knotens steuert.
 
 ## Abfolge
 
-Stellt sicher, dass ein Teil des Grafen vor einem anderen berechnet wird.
+Stellt sicher, dass ein Teil des Diagramms vor einem anderen berechnet wird.
 
 </td>
 </tr>
@@ -72,7 +72,7 @@ Dies ist entscheidend für die Steuerung des Status von Variablen, wenn sie erst
 
 Weitere Informationen zum Sequenzknoten finden Sie auf der Seite [Verwenden der Set-/Sequenzknoten](../../../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md) dieser Dokumentation.
 
-+++Eingabe-Verbindungen
++++Eingangsanschlüsse
 <b>In</b> *Variablentyp*\
 Der Teil des Grafen, der zuerst berechnet werden soll
 
@@ -109,12 +109,12 @@ Dies bedeutet, dass Sie jede Iteration zu einem Indexwert hinzufügen und seinen
 >
 > Mit <b>Exit Cond.</b> verbundene Knoten und <b>Schleifenbody</b>-Verzweigungen können nicht mit anderen Verzweigungen des Grafen verbunden werden.
 
-+++Eingangsanschlüsse
++++Eingabe-Verbindungen
 <b>Init.</b> *Variablentyp*\
 Der Teil des Grafen, der vor der ersten Iteration berechnet wird, d. h. der Beginn der Schleife.
 
-<b>Abschlusskennung </b> *Boolescher Wert*\
-Die Bedingung, die &quot;true&quot; sein muss, damit die Schleife beendet wird. Er wird bei jeder Iteration neu berechnet.\
+<b>Abschlusskennung </b> *Boolesche Wert*\
+Die Bedingung, die &quot;true&quot; sein muss, damit die Schleife beendet wird. Er wird auf jeder Iteration neu berechnet.\
 *Hinweis:* Die maximale Anzahl von Iterationen ist weiterhin auf den Parameter <b>Max. Iterationen</b> beschränkt.
 
 <b>Schleifentext</b> *Variablentyp*\

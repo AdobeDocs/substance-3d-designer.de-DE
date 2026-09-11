@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-concrete.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-concrete.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Schmutz Concrete-Knoten, um betonähnliche Schmutz-Muster für die Erstellung von Texturen aus verwittertem Mauerwerk zu erzeugen.
 helpx_creative_field: ""
@@ -52,10 +52,10 @@ Der Knoten **Schmutz Concrete** generiert eine Schmutz-Map, die dem Höhen-Map e
 | <b>Erweitert</b> |  |
 | <b>Basisrauschen</b> <i>Gleitend</i> | Passt das Rauschen der Basis-Textur an. |
 | <b>Dirt prüft Deckkraft</b> <i>Gleitend</i> | Passt die Deckkraft der Flecken des Dirts an. |
-| <b>Dirt umkehren</b> <i>Boolescher Wert</i> | Kehrt die Auswirkung der Flecken des Dirts um. |
-| <b>Deckkraft der Scratches</b> <i>Gleitend</i> | Passt die Deckkraft der Kratzer an. |
-| <b>Scharfzeichnen</b> <i>Gleitend</i> | Passt die Intensität des Scharfzeichnungseffekts an, der auf das Bild angewendet wird. |
-| <b>Große Variationsintensität</b> <i>Gleitend</i> | Passt die großen (niedrigen) Variationen an, die auf die Basis-Textur angewendet werden. |
+| <b>Dirt umkehren</b> <i>Boolesche Wert</i> | Kehrt die Auswirkung der Flecken des Dirts um. |
+| <b>Deckkraft der Scratches</b> <i>Fließkommazahl</i> | Passt die Deckkraft der Kratzer an. |
+| <b>Scharfzeichnen</b> <i>Fließkommazahl</i> | Passt die Intensität des Scharfzeichnungseffekts an, der auf das Bild angewendet wird. |
+| <b>Große Variationsintensität</b> <i>Fließkommazahl</i> | Passt die großen (niedrigen) Variationen an, die auf die Basis-Textur angewendet werden. |
 
 ## Beispiele
 

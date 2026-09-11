@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/old-versions.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/old-versions.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise zu älteren Versionen von Substance 3D Designer , um ältere Funktionen und Änderungen zu überprüfen.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Kurve , um die Texturwerte mithilfe anpassbarer Kurven für eine präzise Farb- und Helligkeitssteuerung anzupassen.
 helpx_creative_field: ""
@@ -215,7 +215,7 @@ Zeichnen Sie ein Auswahlfeld.
 
 <b>Umschalt + Ziehen</b>
 
-Beschränken Sie die Bewegung auf die X- oder Y-Achse.
+Beschränken Sie die Verschiebung auf der X- oder Y-Achse.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -253,13 +253,13 @@ Die Schaltfläche &quot;![](curve.resources/image2017-2-20-19-12-45.png)&quot; s
 
 ![](curve.resources/viewzoom.gif)
 
-## Eingangsanschlüsse
+## Eingabe-Verbindungen
 
 |  |  |
 | --- | --- |
 | <b>Eingabe</b> *Graustufen/Farbe* PRIMÄR | Das zu verarbeitende Bild. |
 
-## Ausgangsanschlüsse
+## Ausgabe-Verbindungen
 
 |  |  |
 | --- | --- |

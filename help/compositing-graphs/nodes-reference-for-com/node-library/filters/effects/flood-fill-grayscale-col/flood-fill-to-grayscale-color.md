@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-grayscale-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-grayscale-color.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Flood Fill in Graustufenfarbe", um verknüpfte Bereiche mit Graustufenfarben zu füllen, um monochrome Muster zu erstellen.
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 4%
 
 ## Beschreibung
 
-Verwendet Flood Fill-Daten, um Graustufen- oder Farbwertfelder zu generieren. Im Gegensatz zu [Flood Fill zu zufälligem Graustufen](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-gra/flood-fill-to-random-grayscale.md) ermöglichen diese beiden Knoten mehr Kontrolle über das Festlegen der exakten Variation und Farbtöne sowie eine zusätzliche Eingabezuordnung, um den Basiswert zu bestimmen, der auf Zellbasis zufällig zugewiesen werden soll.
+Verwendet Flood Fill-Daten, um Graustufen- oder Farbwertfelder zu generieren. Im Gegensatz zu [Flood Fill zu zufälligem Graustufen](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-gra/flood-fill-to-random-grayscale.md) ermöglichen diese beiden Knoten mehr Kontrolle über das Festlegen der exakten Variation und Farbtöne, mit einer zusätzlichen Eingabe-Map, um den Basiswert zu bestimmen, der pro Zelle zufällig zugewiesen werden soll.
 
 Es ist ein leistungsstarkes System, um jeder Zelle einen eindeutigen Wert oder eine Farbe zu geben, aber dennoch die Kontrolle zu behalten und sie auf einer vorbestimmten Eingabe zu basieren.
 

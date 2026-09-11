@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie die Größe von Substance-Diagrammdateien reduzieren können, um die Performance und die Speicheranforderungen zu optimieren.
+description: Erfahren Sie, wie Sie die Dateigröße von Substance-Grafen reduzieren können, um Performance- und Speicheranforderungen zu optimieren.
 helpx_creative_field: ""
 helpx_description: Designer > Best Practices > Filesize Reduction Guidelines
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 In einigen Fällen kann die Gesamtdateigröße von [Substance 3D Assets (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) ein wichtiger Faktor sein. Auf dieser Seite werden einige wichtige Bereiche und Einstellungen beschrieben, die Sie beim Verringern der Dateigröße berücksichtigen sollten.
 
-Die Dateigröße wird hauptsächlich durch [eingebettete Bitmaps bestimmt.](../../resources/bitmap-resource/bitmap-resource.md) Es handelt sich um Dateien, die verknüpft, eingebettet oder gebacken und der [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html)-Datei (SBS) als Ressource hinzugefügt werden. Nur Bitmaps, die in einem Diagramm verwendet werden, d. h. entweder direkt oder über die Knotenkette mit einer Ausgabe verbunden sind, werden im Substance 3D-Element veröffentlicht. In einer Substance 3D-Datei haben Bitmaps keine Auswirkungen auf die Dateigröße, da alle Bitmapressourcen immer noch außerhalb der Datei gespeichert werden.
+Die Dateigröße wird hauptsächlich durch [eingebettete Bitmaps bestimmt.](../../resources/bitmap-resource/bitmap-resource.md) Es handelt sich um Dateien, die verknüpft, eingebettet oder Baking geführt und der Datei &quot;[Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html)&quot; (SBS) als Ressource hinzugefügt wurden. Nur Bitmaps, die in einem Graf verwendet werden, d. h. entweder direkt oder über die Knotenkette mit einer Ausgabe verbunden sind, werden im Substance 3D-Element veröffentlicht. In einer Substance 3D-Datei haben Bitmaps keine Auswirkungen auf die Dateigröße, da alle Bitmapressourcen immer noch außerhalb der Datei gespeichert werden.
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ Das Dateiformat Ihrer Bilder macht einen Unterschied, kann aber in manchen Fäll
 
 +++
 
-+++Verwendung im Diagramm
++++Verwendung in der Graf
 Welcher Modus für den Bitmap-Knoten festgelegt wird, hat ebenfalls Auswirkungen darauf, wie Designer die Datei komprimiert. Wenn Sie eine Graustufenmodusdatei als Farbbitmap im Diagramm verwenden, werden größere Dateien erzeugt. Achten Sie darauf, diese richtig einzustellen!
 
 *Gefunden in:[Eigenschaften des Bitmapknotens.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)*
@@ -85,7 +85,7 @@ Beim Veröffentlichen in SBSAR haben Sie die Wahl zwischen &quot;Auto&quot;, &qu
 
 Die folgende Tabelle zeigt den Einfluss aller Einstellungen aufeinander. Die verwendete Bitmap ist ein Bild mit einer Auflösung von 4096 x 4096 Pixel, das aus Photoshop als 24-Bit-TGA oder JPG mit Qualität 8 exportiert wird. TGAs wurden auch als Graustufen- und RGBA-Modus exportiert.
 
-Der Graph platziert nur einen einzelnen Bitmap-Knoten, der mit einem einzelnen Ausgang verbunden ist. Der Bitmapmodus wird entsprechend dem Quelldateimodus festgelegt.
+Der Graf platziert lediglich einen einzelnen Bitmapknoten, der mit einem einzelnen Ausgang verbunden ist. Der Bitmapmodus wird entsprechend dem Quelldateimodus festgelegt.
 
 Die Tabelle auf der rechten Seite ist zwar nicht ganz eindeutig, aber beim Vergleich von visuellen Ergebnissen und Dateigrößen kann Folgendes gelernt werden:
 
@@ -98,7 +98,7 @@ Die Tabelle auf der rechten Seite ist zwar nicht ganz eindeutig, aber beim Vergl
 >
 > **JPEG-Bitmapformat**
 > 
-> Es ist wichtig zu beachten, dass spezielle Maps, die eine hohe Genauigkeit erfordern, wie Normal Maps, Vector Maps und andere, wahrscheinlich nicht auf JPEG-Komprimierung eingestellt sein sollten, da dies zu viel sichtbareren Artefakten führen wird!
+> Es ist wichtig zu beachten, dass Spezialkarten, die eine hohe Genauigkeit erfordern, wie Normalen-Map, Vektorkarten und andere, wahrscheinlich nicht auf JPEG-Komprimierung eingestellt werden sollten, da dies zu viel sichtbareren Artefakten führen wird!
 
 | Quellbild | Farb-TGA | JPG | Graustufen-TGA | JPG |
 | --- | --- | --- | --- | --- |

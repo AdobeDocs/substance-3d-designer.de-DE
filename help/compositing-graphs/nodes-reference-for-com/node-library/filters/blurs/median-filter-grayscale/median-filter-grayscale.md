@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-grayscale.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Medianfilter - Graustufen , um Rauschen zu reduzieren und Kanten in Graustufenstrukturen zu erhalten.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Graustufen des Medianfilters: Symbol &#x200B;](median-filter-grayscale.resources/MedianFilter_Icon_Grayscale.png "Graustufen des Medianfilters: Symbol ")
+![Graustufen des Medianfilters: Symbol ](median-filter-grayscale.resources/MedianFilter_Icon_Grayscale.png "Graustufen des Medianfilters: Symbol ")
 
 <b>In:</b> Filters > Blurs
 

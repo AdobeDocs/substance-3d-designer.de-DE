@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/best-practices/graph-creation-etiquette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/graph-creation-etiquette.html"
 breadcrumb-title: ''
 description: Informieren Sie sich über Best Practices und Etikette für die Erstellung von Substance-Grafen, um saubere, verwaltbare und effiziente Workflows zu gewährleisten.
 helpx_creative_field: ""
@@ -112,5 +112,5 @@ Die Steuerung der Auflösung eines [Substance-Graphen](../../compositing-graphs/
 [Um dieses Thema vollständig zu verstehen, stellen Sie sicher, dass Sie über absolute und relative Ausgabegrößen Bescheid wissen.](../../compositing-graphs/output-size/output-size.md)
 
 * Ein Diagramm sollte in fast allen Fällen auf die Auflösung &quot;Relativ zu übergeordnetem Element&quot; eingestellt werden, es sei denn, es gibt eine sehr spezifische Ausnahme, in der es nicht erforderlich ist (sehr selten).
-* Knoten sollten im Allgemeinen keine Überschreibungseinstellungen für die Ausgabegröße haben. Die Auflösung lässt sich in den meisten Fällen am besten über die Eigenschaften &quot;Übergeordnet&quot; oder &quot;Diagramm&quot; steuern.
-* Bei Bitmaps sollte besonders darauf geachtet werden, dass sich die Standardeinstellung &quot;Absolute Ausgabegröße&quot; nicht über den gesamten Graphen erstreckt. Diese Einstellung sollte auf &quot;Relativ zu übergeordnetem&quot; Wert überschrieben werden. Dies ist eine der wenigen Ausnahmen von der oben genannten Regel.
+* Knoten sollten im Allgemeinen keine Überschreibungseinstellungen für die Ausgabegröße haben. Die Auflösung lässt sich in den meisten Fällen am besten über die Eigenschaften &quot;Übergeordnet&quot; oder &quot;Graf&quot; steuern.
+* Bei Bitmaps sollte besonders darauf geachtet werden, dass die Standardeinstellung &quot;Absolute Ausgabegröße&quot; nicht über den gesamten Graf verteilt wird. Diese Einstellung sollte auf &quot;Relativ zum übergeordneten Element&quot; überschrieben werden. Dies ist eine der wenigen Ausnahmen von der oben genannten Regel.

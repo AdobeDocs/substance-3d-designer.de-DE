@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/3d-view/camera/post-effects.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/camera/post-effects.html"
 breadcrumb-title: ''
 description: Wenden Sie Nachbearbeitungseffekte auf die Kamera der 3D-Ansicht an, um eine verbesserte Materialvorschau und Visualisierung zu ermöglichen.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 # Post-Effekte
 
-![Effekte nach &#x200B;](../../../../assets/postEffects.png "Effekte nach "){zoomable="yes"}
+![Effekte nach ](../../../../assets/postEffects.png "Effekte nach "){zoomable="yes"}
 
 In den Kameraeigenschaften können Sie Nachbearbeitungseffekte aktivieren, um das Rendering zu verbessern, oder bestimmte Materialeigenschaften überprüfen.
 

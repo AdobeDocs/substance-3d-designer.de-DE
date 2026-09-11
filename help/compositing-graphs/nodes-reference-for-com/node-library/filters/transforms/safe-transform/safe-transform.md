@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/safe-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/safe-transform.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Sicherer Transformieren", um Transformationen anzuwenden und dabei die Grenzen der Textur beizubehalten und Artefakte zu vermeiden.
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Tresor Transformieren
+title: Sicheres Transformieren
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
@@ -18,7 +18,7 @@ ht-degree: 5%
 ---
 
 
-# Tresor Transformieren
+# Sicheres Transformieren
 
 <table>
 <tr style="border: 0;">
@@ -51,7 +51,7 @@ Diese Option ist nützlich, um Rauschen transformieren, wenn maximale Kontrolle 
 |:---|:---|
 | <b>Kachel</b> <i>1 - 16</i> | Verkleinert die Eingabe um die Kachelung. |
 | <b>Offset-Modus</b> <i>Manuell, Zufällig</i> | Wechselt zu einem zufälligen Versatz anstelle eines manuell definierten. |
-| <b>Offset</b> <i>0.0 - 1.0</i> | Verschiebt oder Kamera bewegt das Ergebnis. Stellt sicher, dass die Pixel einrasten und nicht interpoliert sind. |
+| <b>Offset</b> <i>0.0 - 1.0</i> | Verschiebt oder verschiebt das Ergebnis. Stellt sicher, dass die Pixel einrasten und nicht interpoliert sind. |
 | <b>Drehung</b> <i>0.0 - 1.0</i> | Dreht die Eingabe um einen Winkel. |
 | <b>Sichere Drehung in Kacheln</b> <i>False/True</i> | Legt das Drehverhalten fest. Es gibt an, ob Werte einrasten werden sollen, bei denen keine Pixelfehler verschwinden. |
 | <b>Symmetrie</b> <i>keine, X, Y, X+Y</i> |  |

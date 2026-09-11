@@ -1,6 +1,6 @@
 ---
 title: Pyramide
-description: Designer > Substance-Kompositionsgrafiken > Knotenreferenz für Substance-Kompositionsgrafiken > Knotenbibliothek > SDF-Funktion > Primitiv > Pyramide
+description: Designer > Substance-Compositing-Graf > Knotenreferenz für Substance-Compositing-Graf > Knotenbibliothek > SDF-Funktion > Primitiv > Pyramide
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '129'
@@ -15,7 +15,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Pyramidensymbol](./3d-sdf-pyramid.png "Pyramide")
+![Pyramide-Symbol](./3d-sdf-pyramid.png "Pyramide")
 
 <b>In:</b> SDF-Funktion > Primitiv
 
@@ -42,5 +42,5 @@ Eine SDF-Funktion für eine Pyramide mit verstellbarem Height, Basisgröße und 
 | :--- | :--- |
 | <b>Height</b> *Gleitend* | Das Z-Up-Height des Scheitelpunkts der Pyramide von ihrer Basis.<br><br><i>Standard: 1</i> |
 | <b>Basisgröße</b> *Float2* | Die Größe der Pyramidenbasis in X und Y.<br><br><i>Standard: (1, 1)</i> |
-| <b>Basisposition</b> *Float3* | Die Weltraumposition der Pyramidenbasis.<br><br><i>Standard: (0, 0, 0)</i> |
-| <b>P</b> *Float3* | Die veränderte Weltraumposition. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die nicht transformierte Weltraumposition.</i> |
+| <b>Basisposition</b> *Float3* | Die Position des Welt-Raums der Pyramidenbasis.<br><br><i>Standard: (0, 0, 0)</i> |
+| <b>P</b> *Float3* | Die transformieren Position des Welt-Raums. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die nicht transformierte Weltraumposition.</i> |

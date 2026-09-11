@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/scripting/adding-actions-to-the-explorer-toolbar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/adding-actions-to-the-explorer-toolbar.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie der Explorer-Symbolleiste in Substance 3D Designer mithilfe von Python-Skripten benutzerdefinierte Aktionen hinzufügen.
+description: Erfahren Sie, wie Sie der Symbolleiste "Explorer" in Substance 3D Designer mithilfe von Python-Skripten benutzerdefinierte Aktionen hinzufügen.
 helpx_creative_field: ""
 helpx_description: Designer > Scripting > Adding actions to the Explorer toolbar
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Hinzufügen von Aktionen zur Explorer-Symbolleiste
+title: Hinzufügen von Aktionen zur Symbolleiste "Explorer"
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
@@ -18,9 +18,9 @@ ht-degree: 0%
 ---
 
 
-# Hinzufügen von Aktionen zur Explorer-Symbolleiste
+# Hinzufügen von Aktionen zur Symbolleiste &quot;Explorer&quot;
 
-Plug-Ins können *benutzerdefinierte Aktionen* zur <b>Explorer</b>-Symbolleiste hinzufügen, indem sie die in der <b>SDUIMgr</b>-Klasse verfügbaren Rückrufe und Methoden verwenden.
+Plug-Ins können *benutzerdefinierte Aktionen* zur Symbolleiste <b>Explorer</b> hinzufügen, indem sie die in der Klasse <b>SDUIMgr</b> verfügbaren Rückrufe und Methoden verwenden.
 
 ## Beispiel-Plug-in für Explorer-Symbolleistenaktionen
 

@@ -58,13 +58,13 @@ Dies bedeutet, dass diese Knoten im Kontext von Knoten verwendet werden müssen,
 
 Die Knoten enthalten [Shape-Splatter v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) und [3D-Viewer](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md).
 
-### Das Funktionsdiagramm von Substance
+### Der Substance-Funktions-Graf
 
 SDF-Funktion-Nodes sind für die Verwendung in speziellen Substance-Funktionsgraphen vorgesehen und sind daher nur in diesem Diagrammtyp verfügbar.
 Knotenparameter, die als Funktion ausgedrückt werden sollen, verwenden einen &#39;Edit function&#39;-Button.
 
 Was Sie über Substance-Funktionsdiagramme wissen müssen:
-* Ähnlich wie Substance-Graphen sind Knoten-Connectors *spezialisiert*, d. h., sie können nur mit anderen Connectors von *gleicher Farbe* [verbunden werden, die ihren Typ &#x200B;](../../function-nodes-overview/function-nodes-overview.md#color-coding) darstellen.
+* Ähnlich wie Substance-Graphen sind Knoten-Connectors *spezialisiert*, d. h., sie können nur mit anderen Connectors von *gleicher Farbe* [verbunden werden, die ihren Typ ](../../function-nodes-overview/function-nodes-overview.md#color-coding) darstellen.
 * Knoten haben keine Parameter, sie können nur Eingaben haben. (Mit einigen wenigen Ausnahmen)
 * Das Diagramm hat einen einzelnen Ausgabeknoten. Klicken Sie mit der rechten Maustaste auf einen Knoten, und wählen Sie `Set as output` aus, um ihn als Ausgabeknoten festzulegen.
 * Ähnlich wie Substance-Graphen gibt es *atomic* Nodes - die Basisbausteine - und *instance* Nodes, die andere Substance-Funktionsgraphen darstellen.
@@ -272,7 +272,7 @@ Sie können dann die Funktion, die Sie vom 3D-Anzeigeknoten kopiert haben, in di
 Stellen Sie sicher, dass Sie den Parameter **SDF-Begrenzungsrahmengröße** an den [Begrenzungsrahmen](#the-bounding-frame) anpassen, den Sie im 3D-Anzeigeknoten verwendet haben, und stellen Sie sicher, dass die Form ordnungsgemäß gezeichnet wird.
 
 ![Arbeiten mit sdf-shape-splatter-v2.png](working-with-sdf-functions.resources/working-with-sdf-shape-splatter-v2.png)\
-*Form platzieren v2 mit einem **Formentyp**, der auf `SDF function` festgelegt ist. Beachten Sie, dass die Größe des **SDF-Begrenzungsrahmens**&#x200B;an die Form angepasst wurde.*
+*Form platzieren v2 mit einem **Formentyp**, der auf `SDF function` festgelegt ist. Beachten Sie, dass die Größe des **SDF-Begrenzungsrahmens**an die Form angepasst wurde.*
 
 >[!TIP]
 > 
@@ -297,7 +297,7 @@ Setzen Sie im 3D-Anzeigeknoten den Parameter **Ausgabe** auf `Material ID`, um d
 
 Material IDs können von Shape splatter v2 Companion Nodes genutzt werden:
 * [Shape Splatter v2 Mapper](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.md) Knoten können diese Material-IDs verwenden, um verschiedene Muster zuzuweisen.
-* [Formspritzer v2 auf Maske &#x200B;](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-to-mask/shape-splatter-v2-to-mask.md) kann Teile von Formen gemäß ihrer Material-ID maskieren.
+* [Formspritzer v2 auf Maske ](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-to-mask/shape-splatter-v2-to-mask.md) kann Teile von Formen gemäß ihrer Material-ID maskieren.
 
 <table style="border: none; margin-top: 32px">
     <tr style="border: 0">

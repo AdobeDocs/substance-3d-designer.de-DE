@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Mesh Data Combiner-Knoten, um mehrere Mesh-Dateneingaben für eine erweiterte Mesh-basierte Textur zu kombinieren.
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Gitterdaten-Kombinator
+title: Mesh-Datenkombinierer
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
@@ -18,7 +18,7 @@ ht-degree: 1%
 ---
 
 
-# Gitterdaten-Kombinator
+# Mesh-Datenkombinierer
 
 <table>
 <tr style="border: 0;">
@@ -49,7 +49,7 @@ Schaltet um, welche Zuordnungseingaben aktiviert und in das gepackte Ergebnis au
 
 |  |  |
 |:---|:---|
-| <b>Umgebungs-Verdeckung</b> <i>False/True</i> |  |
+| <b>Ambient occlusion</b> <i>False/True</i> |  |
 | <b>UV-Masken</b> <i>False/True</i> |  |
 | <b>Krümmung</b> <i>False/True</i> |  |
 | <b>Height</b> <i>False/True</i> |  |

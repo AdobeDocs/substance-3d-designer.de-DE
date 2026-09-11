@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools.html"
 breadcrumb-title: ''
 description: Greifen Sie auf alle Pfad-Tool-Knoten zum Erstellen, Bearbeiten und Konvertieren von Pfaden in Ihren Substance-Graphen zu.
 helpx_creative_field: ""

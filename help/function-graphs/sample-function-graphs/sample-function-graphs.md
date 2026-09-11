@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/sample-function-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/sample-function-graphs.html"
 breadcrumb-title: ''
 description: Entdecke Funktionsdiagramme in Substance 3D Designer, um erweiterte Techniken und Best Practices zu lernen.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 ## Überblick
 
-Auf dieser Seite werden die [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html)-Beispieldateien aufgelistet, die heruntergeladen werden können. Diese Projekte enthalten mit Anmerkungen versehene Diagramme, die grundlegende Werkzeuge und Konzepte von [Funktionsdiagrammen](../../function-graphs/function-graphs.md) darstellen.
+Auf dieser Seite werden die [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html)-Beispieldateien aufgelistet, die heruntergeladen werden können. Diese Projekte enthalten mit Anmerkungen versehene Diagramme, die grundlegende Werkzeuge und Konzepte von [Funktionsdiagrammen](../../function-graphs/function-graphs.md) darstellen.
 
 <table>
 <tr style="border: 0;">

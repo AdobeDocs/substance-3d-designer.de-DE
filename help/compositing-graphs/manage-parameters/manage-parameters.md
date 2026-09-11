@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie Parameter in Substance-Kompositionsdiagrammen verwalten und organisieren können, um den Arbeitsablauf besser zu organisieren.
+description: Erfahren Sie, wie Sie Parameter in Substance-Compositing-Grafen verwalten und organisieren können, um den Arbeitsablauf besser zu organisieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Manage parameters
 helpx_experience_level: ""
@@ -24,9 +24,9 @@ Wenn Sie Parameter nicht nur direkt anpassen, sondern auch steuern müssen, biet
 
 * [Kopieren Sie die Werte aller Parameter eines Knotens und fügen Sie sie ein.](#copy-paste-parameters)
 * Speichern Sie die Werte oder alle Parameter eines Knotens in einer [Vorgabedatei](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md), um sie später wiederzuverwenden.
-* [Stellen Sie die Parameter &#x200B;](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) von Knoten bereit, damit sie zugänglich sind, und verknüpfen Sie sie miteinander.
-* [Parameter &#x200B;](../../compositing-graphs/visible-control-vis/visible-if-control-visibility-of-inputs-outputs-and-parameters.md) gemäß den Werten anderer Parameter ein- oder ausblenden
-* Verwenden Sie ein [Substance-Funktionsdiagramm &#x200B;](../../function-graphs/function-graphs.md), um den Wert eines Parameters zu berechnen.
+* [Die Knotenparameter ](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) werden Gelegt, um sie verfügbar zu machen, und sie werden miteinander verknüpft.
+* [Parameter ](../../compositing-graphs/visible-control-vis/visible-if-control-visibility-of-inputs-outputs-and-parameters.md) gemäß den Werten anderer Parameter ein- oder ausblenden
+* Verwenden Sie eine [Substance-Funktion Graf](../../function-graphs/function-graphs.md), um den Wert eines Parameters zu berechnen.
 
 ## Parameteraktionen
 
@@ -40,7 +40,7 @@ Die Tools, die zur Verwaltung von Parametern verfügbar sind, sind an folgenden 
 
 Wenn die Eigenschaften eines Knotens im Eigenschaften-Dock angezeigt werden, können die Knotenparameter global mithilfe des Menüs &quot;<b>Parameter verwalten</b>&quot; im folgenden Abschnittsheader verwaltet werden:
 
-* Für [atomare Knoten](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md): Spezifische Parameter
+* Für [elementare Knoten](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md): Spezifische Parameter
 * Für [Instanzknoten](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md): Instanzparameter
 
 </td>
@@ -54,7 +54,7 @@ Wenn die Eigenschaften eines Knotens im Eigenschaften-Dock angezeigt werden, kö
 
 Die Aktionen in diesem Menü wirken sich auf *alle* der in diesem Abschnitt aufgeführten Parameter aus:
 
-* <b>Verfügbarkeitsparameter:</b> Öffnet das Dialogfeld &quot;Stapelverfügbarkeitsparameter&quot;. Für jeden angezeigten Parameter erstellt die Aktion eine neue Diagrammeingabe und legt automatisch eine Funktion fest, die diese Diagrammeingabe verwendet. Weitere Informationen zum Verfügbarmachen von Parametern in [dieser dedizierten Seite &#x200B;](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
+* <b>Parameter Gelegt:</b> Öffnet das Dialogfeld &quot;gelegt Stapelparameter&quot;. Für jeden freigelegte Parameter wird eine neue Graf-Eingabe erstellt und automatisch eine Funktion mit dieser Graf-Eingabe festgelegt. Weitere Informationen zum leg von Parametern in [dieser dedizierten Seite ](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 * <b>Parameter kopieren:</b> Siehe [Parameter kopieren und einfügen](#copy-paste-parameters) Abschnitt unten.
 * <b>Parameter einfügen:</b> Siehe [Parameter kopieren und einfügen](../../compositing-graphs/manage-parameters/manage-parameters.md) Abschnitt unten.
 * <b>Parameter als Vorgabedatei speichern:</b> Weitere Informationen zu Parametervorgaben in [dieser dedizierten Seite](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md).
@@ -63,7 +63,7 @@ Die Aktionen in diesem Menü wirken sich auf *alle* der in diesem Abschnitt aufg
 
 >[!NOTE]
 >
-> Einige Aktionen sind für einige Atomknoten nicht verfügbar. Siehe [Einschränkungen für atomare Knoten](#atomic-nodes-limitations) weiter unten.
+> Einige Aktionen sind für einige elementare Knoten nicht verfügbar. Siehe [Elementare Knoten-Einschränkungen](#atomic-nodes-limitations) weiter unten.
 
 ### Einzelne Parameteraktionen
 
@@ -82,9 +82,9 @@ Wenn Sie einen *single*-Parameter verwalten möchten, verwenden Sie das Menü &q
 </tr>
 </table>
 
-Sie können einen [Substance-Funktionsdiagramm &#x200B;](../../function-graphs/the-function-graph/the-function-graph.md) auf diesen Parameter auf drei Arten anwenden:
+Sie können einen [Substance-Funktionsparameter ](../../function-graphs/the-function-graph/the-function-graph.md) auf drei Arten auf diesen Graf anwenden:
 
-* <b>Als neue Diagrammeingabe verfügbar machen:</b> Erstellt eine neue Diagrammeingabe und legt automatisch eine Funktion fest, die diese Diagrammeingabe verwendet. Weitere Informationen zum Verfügbarmachen von Parametern in [dieser dedizierten Seite &#x200B;](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
+* <b>Als neue Funktionseingabe Gelegt:</b> Erstellt eine neue Funktionseingabe und legt anhand dieser Funktionseingabe automatisch eine Graf Graf Graf fest. Weitere Informationen zum leg von Parametern in [dieser dedizierten Seite ](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 * <b>Leere Funktion:</b> Erstellen Sie eine neue Funktion.
 * <b>Konstantenwert:</b> Bearbeiten Sie eine Funktion, die von einem [Knoten mit konstanten Werten](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) ausgeht, der auf den aktuellen Wert des Parameters festgelegt ist.
 * <b>Zurücksetzen:</b> Setzt den Parameter auf den Standardwert und den Bereich zurück. Wenn eine Funktion auf den Parameter angewendet wurde, wird sie verworfen.
@@ -103,12 +103,12 @@ Einige Parameteraktionen aus dem oben aufgeführten *globalen*-Menü sind im Kno
 
 Beachten Sie, dass die Aktionen zum Kopieren/Einfügen in diesem Menü nicht verfügbar sind. Sie finden sie in den Knoteneigenschaften, wie oben erläutert.
 
-Für dieses Menü gelten die unten aufgeführten Einschränkungen für atomare Knoten.
+Für dieses Menü gelten die unten aufgeführten Einschränkungen für elementare Knoten.
 
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-Menü &quot;Parameter verwalten&quot; von ![&#x200B; im Knotenkontextmenü &#x200B;](manage-parameters.resources/manage-parameters-node-menu.png " im Knotenkontextmenü "){zoomable="yes"} im Menü &quot;Parameter verwalten&quot;
+Menü &quot;Parameter verwalten&quot; von ![ im Knotenkontextmenü ](manage-parameters.resources/manage-parameters-node-menu.png " im Knotenkontextmenü "){zoomable="yes"} im Menü &quot;Parameter verwalten&quot;
 
 </td>
 </tr>
@@ -120,9 +120,9 @@ Menü &quot;Parameter verwalten&quot; von ![&#x200B; im Knotenkontextmenü &#x20
 
 ## Parameter kopieren und einfügen
 
-Es ist möglich, alle Parameterwerte für einen Quellknoten zu kopieren und in einen Zielknoten einzufügen. Die Parameter des Quell- und Zielknotens sind <b> zugeordnet, basierend auf ihren Bezeichnern und Typen </b>.
+Es ist möglich, alle Parameterwerte für einen Quellknoten zu kopieren und in einen Zielknoten einzufügen. Die Parameter des Quell- und Zielknotens sind <b> zugeordnet, und zwar auf der Grundlage ihrer Identifizierungen und Typen </b>.
 
-Beispielsweise kann ein Parameter &quot;Scale&quot;, der als Bezeichner &quot;scale&quot; und als Typ &quot;Float&quot; dient, kopiert und in einen anderen Parameter &quot;Shape Scale&quot; eingefügt werden, wenn sein Bezeichner ebenfalls &quot;scale&quot; lautet und sein Typ ebenfalls &quot;Float&quot; lautet.
+Beispielsweise kann der Parameter &quot;Skalierung&quot;, dessen Identifizierung &quot;Skalierung&quot; und dessen Typ &quot;Fließkommazahl&quot; ist, kopiert und in den anderen Parameter &quot;Formskalierung&quot; eingefügt werden, wenn seine Identifizierung ebenfalls &quot;Skalierung&quot; und sein Typ ebenfalls &quot;Fließkommazahl&quot; ist.
 
 Diese Funktion funktioniert genauso wie die Verwendung einer [Parametervoreinstellungsdatei](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md). Die in die Zwischenablage kopierten Daten sind mit den in SBSPRS-Vorgabedateien gespeicherten Daten identisch und können in jeden Texteditor eingefügt werden, der überprüft und bearbeitet werden soll.
 
@@ -135,16 +135,16 @@ Diese Funktion funktioniert genauso wie die Verwendung einer [Parametervoreinste
 </tr>
 </table>
 
-## Atomare Knotenbeschränkungen
+## Einschränkungen für elementare Knoten
 
-Einige Features sind für einige [atomare Knoten](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) aufgrund ihrer spezifischen Implementierung und Steuerelemente nicht verfügbar.
+Einige Features sind für einige [elementare Knoten](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) aufgrund ihrer spezifischen Implementierung und Steuerelemente nicht verfügbar.
 
 Diese Aktionen...
 
 * [Kopieren/Einfügen von Parametern](#copy-paste-parameters)
 * [Vorgabedatei speichern/anwenden](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)
 
-...sind für diese atomaren Knoten nicht verfügbar:
+...sind für diese elementare Knoten nicht verfügbar:
 
 <table>
 <tr style="border: 0;">

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-hbao-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-hbao-filter-node.html"
 breadcrumb-title: ''
 description: Verwenden Sie den HBAO-Filterknoten für die Umgebungsalgorithmen, um mithilfe horizontaler Verdeckungen Umgebungsalgorithmen für eine realistische Schattierung zu generieren. Verdeckung
 helpx_creative_field: ""

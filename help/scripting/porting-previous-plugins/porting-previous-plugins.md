@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/scripting/porting-previous-plugins.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/porting-previous-plugins.html"
 breadcrumb-title: ''
 description: Hier erfahren Sie, wie Sie Plug-ins aus früheren Versionen von Substance Designer an die aktuelle Python-API portieren.
 helpx_creative_field: ""
@@ -40,6 +40,6 @@ Kleine Codebeispiele finden Sie im Abschnitt [Erstellen von Benutzeroberflächen
 ## Ersetzen von Benutzern des Standortkontexts
 
 Die *SDLocationContext*-Klasse wurde *aus der Python-API entfernt*.\
-Plug-Ins können das <b>[UI Manager](../scripting-api-reference/scripting-api-reference.md#ui-manager-sduimgr)-Objekt</b> verwenden, um auf das derzeit aktive Diagramm und die Auswahl zuzugreifen.
+Plug-Ins können das <b>[UI-Manager](../scripting-api-reference/scripting-api-reference.md#ui-manager-sduimgr)-Objekt</b> verwenden, um auf den aktuell aktiven Graf und die Auswahl zuzugreifen.
 
-Einige Beispiele finden Sie im Abschnitt [Zugriff auf Diagramme und Auswahlen](../../scripting/accessing-graphs-and-sel/accessing-graphs-and-selections.md).
+Einige Beispiele finden Sie im Abschnitt [Zugriff auf Graf und Auswahlen](../../scripting/accessing-graphs-and-sel/accessing-graphs-and-selections.md).

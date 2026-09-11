@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/resources/vector-graphics-svg-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource.html"
 breadcrumb-title: ''
-description: Importiere und verwende SVG-Vektorgrafiken als Ressourcen in Substance 3D Designer für die prozedurale Materialerstellung.
+description: Importieren und verwenden Sie SVG-Vektorgrafiken als Ressourcen in Substance 3D Designer für die Erstellung prozeduraler Materials.
 helpx_creative_field: ""
 helpx_description: Designer > Resources > Vector graphics (SVG) resource
 helpx_experience_level: ""
@@ -20,9 +20,9 @@ ht-degree: 2%
 
 # Vektorgrafiken (SVG)
 
-Substance 3D Designer unterstützt über das Scalable Vector-Grafikformat nur eine äußerst begrenzte Form von Vektorgrafiken. SVG-Dateien können auf unterschiedliche Weise als Ressourcen eingefügt und als Ressourcen für Ihre Grafiken verwendet werden.
+Substance 3D Designer unterstützt über das Format &quot;Skalierbare Vektorgrafiken&quot; nur eine begrenzte Form von Vektorgrafiken. SVG-Dateien können auf unterschiedliche Weise als Ressourcen eingefügt und für Ihre Graf verwendet werden.
 
-SVG-Dateien [&#x200B; können über den atomaren SVG-Knoten erstellt oder bearbeitet werden.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) Sie können auch von [dem UV-to-SVG-Bäcker erstellt werden.](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
+SVG-Dateien [ können über den atomaren SVG-Knoten erstellt oder bearbeitet werden.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) Sie können auch von [dem UV-SVG-Baker erstellt werden.](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ SVG-Dateien [&#x200B; können über den atomaren SVG-Knoten erstellt oder bearbe
 
 ## SVG-Speicher
 
-Der SVG-Speicher hängt davon ab, ob sie verknüpft oder importiert sind. Importierte SVG-Dateien sind in die SBS-Datei eingebettet, sodass [keine externen Dateien wie Bitmaps](../../resources/bitmap-resource/bitmap-resource.md) erforderlich sind, und können mit den [Vektorbearbeitungswerkzeugen](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) bearbeitet werden.
+Der SVG-Speicher hängt davon ab, ob sie verknüpft oder importiert sind. Importierte SVG-Dateien sind in die SBS eingebettet, sodass [keine externen Dateien wie Bitmaps](../../resources/bitmap-resource/bitmap-resource.md) erforderlich sind, und können mit den [Vektorbearbeitungswerkzeugen](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) bearbeitet werden.
 
 ## SVG-Attribute
 
@@ -40,14 +40,14 @@ SVG-Ressourcen in einem Paket verfügen über eine Reihe von Attributen, die Sie
 | --- | --- |
 | Kennung | Wird zum Verweisen auf die SVG-Ressource in einem Paket verwendet und muss eindeutig sein. |
 | Dateipfad | Der Pfad der SVG-Datei auf der Festplatte, auf die die Ressource verweist. |
-| Beschreibung | Die Beschreibung, die in den Tooltips [Explorer](../../interface/the-explorer-window/the-explorer-window.md) und [Bibliothek](../../interface/the-library/the-library.md) für diese Ressource angezeigt wird. |
+| Beschreibung | Die Beschreibung, die in den Tooltips [Explorer](../../interface/the-explorer-window/the-explorer-window.md) und [Library](../../interface/the-library/the-library.md) für diese Ressource angezeigt wird. |
 | Kategorie | Wird zum [Sortieren und Kuratieren der Ressource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in der [Bibliothek](../../interface/the-library/the-library.md) verwendet. |
 | Label | Wird zum [Sortieren und Kuratieren der Ressource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in der [Bibliothek](../../interface/the-library/the-library.md) verwendet. |
 | Autor | Wird zum [Sortieren und Kuratieren der Ressource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in der [Bibliothek](../../interface/the-library/the-library.md) verwendet. |
 | Autoren-URL | Wird zum [Sortieren und Kuratieren der Ressource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in der [Bibliothek](../../interface/the-library/the-library.md) verwendet. |
 | Tags | Wird zum [Sortieren und Kuratieren der Ressource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in der [Bibliothek](../../interface/the-library/the-library.md) verwendet. |
 | Benutzerdaten | Optionale zusätzliche Daten, nicht für Vektorgrafiken verwendet. |
-| In Bibliothek anzeigen | Bestimmt, ob die SVG-Ressource in [&#x200B; der Bibliotheksansicht ausgeblendet werden soll.](../../interface/the-library/the-library.md) |
+| In Bibliothek anzeigen | Bestimmt, ob die SVG-Ressource in [ der Bibliotheksansicht ausgeblendet werden soll.](../../interface/the-library/the-library.md) |
 | Vektorgrafikqualität | Beeinträchtigt die Rendering-Qualität. Der Bereich ist nicht linear und die beste Qualität wird bei 0,5 erreicht. |
 
 ## SVG-Authoring
@@ -70,7 +70,7 @@ Die Exportoptionen unterscheiden sich leicht von der jeweiligen Anwendung:
 
 ### Adobe Illustrator
 
-[Illustrator](https://www.adobe.com/de/products/illustrator.html) bietet die größte Kontrolle über Ihre SVG-Exporte, wenn Sie auf die folgenden Optionen achten.
+[Illustrator](https://www.adobe.com/products/illustrator.html) bietet die größte Kontrolle über Ihre SVG-Exporte, wenn Sie auf die folgenden Optionen achten.
 
 * Nur <b>Speichern unter</b>, *nicht* Exportieren als! verwenden
 * <b>SVG Profile</b> spielt keine große Rolle, obwohl das Winzige Profil (meistens) standardmäßig auf Einstellungen zurückgesetzt wird, die definitiv korrekt sind.

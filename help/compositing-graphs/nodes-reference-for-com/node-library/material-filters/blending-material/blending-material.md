@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material.html"
 breadcrumb-title: ''
-description: Greifen Sie in Substance 3D Designer auf Materialmischungsknoten zu, um Materialien zu kombinieren und zu mischen, um Verbundmaterialeffekte zu erstellen.
+description: Greifen Sie in Substance 3D Designer auf Material-Überblendungsknoten zu, um Materialien zu kombinieren und zu überblenden, um Composite-Material-Effekte zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material)
 helpx_experience_level: ""
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 # Füllmethode (Material)
 
-Die Kategorie &quot;Mischen&quot; ist eine der wichtigsten Kategorien von Multi-Channel-Materialien. Es enthält Knoten zum Kombinieren, Schalten und Mischen von Materialien, die aus mehreren gleichzeitigen Ausgängen bestehen.
+Die Kategorie &quot;Füllmethode&quot; ist eine der wichtigsten Kategorien von Materialien mit mehreren Kanälen. Es enthält Knoten zum Kombinieren, Schalten und Mischen von Materialien, die aus mehreren gleichzeitigen Ausgängen bestehen.
 
 Diese Knoten können enorme Arbeitskosten einsparen, aber stellen Sie sicher, dass Sie [Link Creation Modes](../../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) vollständig verstehen, um sie richtig zu nutzen.
 
 Die folgenden Knoten sind gut geeignet:
 
-* [Multi-Material-Mischung](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md)
-* [Materialanpassungsüberblendung](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-adjustment-blend/material-adjustment-blend.md)
+* [Multi-Material-Überblendung](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md)
+* [Überblendung der Material-Anpassung](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-adjustment-blend/material-adjustment-blend.md)

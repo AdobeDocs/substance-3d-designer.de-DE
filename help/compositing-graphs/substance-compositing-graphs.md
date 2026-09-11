@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über die Substance von Compositing-Grafen in Substance 3D Designer zum Erstellen prozeduraler Texturen und Material-Workflows.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 Die Ergebnisse können in Form eines einfachen Schwarzweißmusters, eines Filters, der nur auf anderen Bildern ausgeführt wird und keinen Inhalt für sich selbst erzeugt, oder sogar eines vollwertigen prozeduralen Materials mit mehreren Kanälen vorliegen.
 
-Substance-Graf sind [&#x200B; der am weitesten unterstützte Graf](../getting-started/overview/overview.md)-Typ und können exportiert und in einer Vielzahl von verschiedenen Workflows verwendet werden.
+Substance-Graf sind [ der am weitesten unterstützte Graf](../getting-started/overview/overview.md)-Typ und können exportiert und in einer Vielzahl von verschiedenen Workflows verwendet werden.
 
 </td>
 </tr>

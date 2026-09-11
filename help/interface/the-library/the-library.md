@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-library.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library.html"
 breadcrumb-title: ''
 description: Über die Substance 3D Designer-Bibliothek können Sie auf Knotenvorgaben, Material und benutzerdefinierte Inhalte zugreifen und diese verwalten.
 helpx_creative_field: ""

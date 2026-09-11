@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/grayscale-conversion-advanced.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/grayscale-conversion-advanced.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Graustufen-Konvertierung Erweitert , um Farben mit erweiterter Kontrolle über die Konvertierungsmethoden in Graustufen zu konvertieren.
+description: Verwenden Sie den Knoten Graustufenkonvertierung Erweitert , um Farben mit erweiterter Kontrolle über die Konvertierungsmethoden in Graustufen zu konvertieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Grayscale Conversion Advanced
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Erweiterte Graustufen-Konvertierung
+title: Graustufenkonvertierung Advanced
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 49bf753c2fa3d673b519b3ed87cc8bc82616bee6
@@ -18,7 +18,7 @@ ht-degree: 3%
 ---
 
 
-# Erweiterte Graustufen-Konvertierung
+# Graustufenkonvertierung Advanced
 
 <table>
 <tr style="border: 0;">

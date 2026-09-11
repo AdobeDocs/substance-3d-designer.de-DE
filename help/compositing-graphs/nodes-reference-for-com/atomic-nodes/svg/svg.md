@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
 breadcrumb-title: ''
 description: Verwenden Sie den SVG -Knoten, um SVG-Vektorgrafiken als Texturen zu importieren und zu rendern, um skalierbare Grafikelemente zu erstellen.
 helpx_creative_field: ""

@@ -1,6 +1,6 @@
 ---
-title: Unendliche Grundebene
-description: Designer > Substance-Compositing-Graphen > Knotenreferenz für Substance-Compositing-Graphen > Knotenbibliothek > SDF-Funktion > Primitiv > Unendliche Grundebene
+title: Unendlicher Boden
+description: Designer > Substance-Compositing-Graf > Knotenreferenz für Substance-Compositing-Graf > Knotenbibliothek > SDF-Funktion > Primitiv > Ebene des unendlichen Bodens
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '102'
@@ -9,13 +9,13 @@ ht-degree: 1%
 ---
 
 
-# Unendliche Grundebene
+# Unendlicher Boden
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Symbol für unendliche Grundebene](./3d-sdf-ground-plane.png "Symbol für unendliche Grundebene")
+![Icon für unendliche Boden](./3d-sdf-ground-plane.png "Ebene für unendlichen Boden")
 
 <b>In:</b> SDF-Funktion > Primitiv
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## Beschreibung
 
-Eine SDF-Funktion für eine unendliche Grundebene, mit verstellbarem Height.
+Eine SDF-Funktion für einen unendlichen Boden, mit verstellbarem Height.
 
 </td>
 </tr>
@@ -41,4 +41,4 @@ Eine SDF-Funktion für eine unendliche Grundebene, mit verstellbarem Height.
 |  |  |
 | :--- | :--- |
 | <b>Height</b> *Gleitend* | Das Z-Up-Height der Ebene.<br><br><i>Standard: 0</i> |
-| <b>P</b> *Float3* | Die veränderte Weltraumposition. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die nicht transformierte Weltraumposition.</i> |
+| <b>P</b> *Float3* | Die transformieren Position des Welt-Raums. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die nicht transformierte Weltraumposition.</i> |

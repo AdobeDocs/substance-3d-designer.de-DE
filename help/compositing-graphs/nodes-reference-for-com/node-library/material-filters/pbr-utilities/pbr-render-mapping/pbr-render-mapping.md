@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render-mapping.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render-mapping.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "PBR-Rendering Mapping", um Material-Ausgaben in verschiedene PBR-Rendering-Zuordnungsformate zu konvertieren.
 helpx_creative_field: ""
@@ -47,7 +47,7 @@ Für die beiden Datentypen gibt es Farb- und Graustufenversionen: Farbe für Dif
 
 |  |  |
 |:---|:---|
-| <b>Struktur</b> <i>Farb-/Graustufeneingabe</i> | Textur, die der Form zugeordnet werden soll. |
+| <b>Textur</b> <i>Farb-/Graustufeneingabe</i> | Textur, die der Form zugeordnet werden soll. |
 | <b>UVs</b> <i>Farbeingabe</i> | Obligatorische UV-Dateneingabe von einem [PBR-Rendering-Knoten.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md) |
 
 <a name="parameters"></a>

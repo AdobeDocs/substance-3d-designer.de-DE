@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-color-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-color-blend.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Material-Überblendung , um Farbkanäle zwischen Materialien zu mischen und so zusammengesetzte Material-Effekte zu erzeugen.
 helpx_creative_field: ""
@@ -61,22 +61,22 @@ Dieser Knoten ist besonders hilfreich, wenn Sie einen einfachen Farbhinweis in D
 | <b>Farbe</b> <i>(Farbwert)</i> | Der Farbwert, der über dem Diffuse-Kanal überblendet werden soll. |
 | <b>Deckkraft</b> <i>0.0 - 1.0</i> | Füllmethode Deckkraft zwischen Vorder- und Hintergrund. |
 | <b>Füllmethode</b> <i>Normal, Hinzufügen, Subtrahieren, Multiplizieren, Hinzufügen/Sub, Max, Min, Switch</i> | Überblendung-Modus für den Betrieb. |
-| <b>Grundfarbe</b> | Mischt eine Volltonfarbe über diesem Kanal mit Optionen wie in der Gruppe &quot;Diffus&quot;. |
+| <b>Grundfarbe</b> | Über diesem Kanal wird eine Volltonfarbe mit Optionen wie in der Gruppe &quot;Diffuse&quot; Überblendung. |
 | <b>Normal</b> |  |
 | <b>Quelle</b> <i>Height, Maske</i> |  |
 | <b>Füllmethode</b> <i>Zusammenführen, Überblendung</i> |  |
 | <b>Height-Intensität</b> <i>0.0 - 1.0</i> |  |
 | <b>Deckkraft des Heights</b> <i>0.0 - 1.0</i> |  |
 | <b>Format</b> <i>DirectX, OpenGL</i> |  |
-| <b>Specular</b> | Mischt eine Volltonfarbe über diesem Kanal mit Optionen wie in der Gruppe &quot;Diffus&quot;. |
-| <b>Ausstrahlend</b> | Mischt eine Volltonfarbe über diesem Kanal mit Optionen wie in der Gruppe &quot;Diffus&quot;. |
-| <b>Glossarität</b> | Mischt eine Volltonfarbe über diesem Kanal mit Optionen wie in der Gruppe &quot;Diffus&quot;. |
-| <b>Raueit</b> | Mischt eine Volltonfarbe über diesem Kanal mit Optionen wie in der Gruppe &quot;Diffus&quot;. |
-| <b>Metallisch</b> | Mischt eine Volltonfarbe über diesem Kanal mit Optionen wie in der Gruppe &quot;Diffus&quot;. |
-| <b>Specular level</b> | Mischt eine Volltonfarbe über diesem Kanal mit Optionen wie in der Gruppe &quot;Diffus&quot;. |
-| <b>Umgebungs-Verdeckung</b> | Mischt eine Volltonfarbe über diesem Kanal mit Optionen wie in der Gruppe &quot;Diffus&quot;. |
-| <b>Height</b> | Mischt eine Volltonfarbe über diesem Kanal mit Optionen wie in der Gruppe &quot;Diffus&quot;. |
-| <b>Deckkraft</b> | Mischt eine Volltonfarbe über diesem Kanal mit Optionen wie in der Gruppe &quot;Diffus&quot;. |
+| <b>Specular</b> | Über diesem Kanal wird eine Volltonfarbe mit Optionen wie in der Gruppe &quot;Diffuse&quot; Überblendung. |
+| <b>Emissive</b> | Über diesem Kanal wird eine Volltonfarbe mit Optionen wie in der Gruppe &quot;Diffuse&quot; Überblendung. |
+| <b>Glanz</b> | Über diesem Kanal wird eine Volltonfarbe mit Optionen wie in der Gruppe &quot;Diffuse&quot; Überblendung. |
+| <b>Rauheit</b> | Über diesem Kanal wird eine Volltonfarbe mit Optionen wie in der Gruppe &quot;Diffuse&quot; Überblendung. |
+| <b>Metallic</b> | Über diesem Kanal wird eine Volltonfarbe mit Optionen wie in der Gruppe &quot;Diffuse&quot; Überblendung. |
+| <b>Specular level</b> | Über diesem Kanal wird eine Volltonfarbe mit Optionen wie in der Gruppe &quot;Diffuse&quot; Überblendung. |
+| <b>Ambient occlusion</b> | Über diesem Kanal wird eine Volltonfarbe mit Optionen wie in der Gruppe &quot;Diffuse&quot; Überblendung. |
+| <b>Height</b> | Über diesem Kanal wird eine Volltonfarbe mit Optionen wie in der Gruppe &quot;Diffuse&quot; Überblendung. |
+| <b>Deckkraft</b> | Über diesem Kanal wird eine Volltonfarbe mit Optionen wie in der Gruppe &quot;Diffuse&quot; Überblendung. |
 | <b>Farb-ID-Maske</b> <i>False/True</i> | Verwenden Sie Farb-ID-Maske anstelle einer Graustufenmaske. Beachten Sie, dass dies nur für eine Farbe gilt!<br><br>Aktiviert alle folgenden Optionen. |
 | <b>Farbe</b> <i>(Farbwert)</i> | Welche Farbe ausgewählt und in Weiß konvertiert werden soll. |
 | <b>Unschärfe</b> <i>0.01 - 1.0</i> | Der Grad, in dem die von Ihnen ausgewählte Farbe in die Nachbarfarben übergeht. |

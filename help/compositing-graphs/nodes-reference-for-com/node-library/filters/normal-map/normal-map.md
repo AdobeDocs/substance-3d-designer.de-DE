@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map.html"
 breadcrumb-title: ''
-description: Greifen Sie in Substance 3D Designer auf normale Map-Filterknoten zu, um normale Map-Texturen zu verarbeiten und zu bearbeiten.
+description: Greifen Sie in Substance 3D Designer auf Normalen-Map-Filterknoten zu, um Normalen-Map-Texturen zu verarbeiten und zu bearbeiten.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map
 helpx_experience_level: ""
@@ -20,9 +20,9 @@ ht-degree: 5%
 
 # Normalen-Map
 
-Diese Kategorie enthält nur Knoten für die Verarbeitung und Arbeit mit Normalmaps. Sie sind ein absolutes Muss, wenn Sie möchten, dass Ihre Normalmap-Verarbeitung mathematisch korrekt ist, um Probleme mit dem Tangent-Raum zu vermeiden.
+Diese Kategorie enthält nur Knoten für die Verarbeitung und Arbeit mit Normalmaps. Sie sind ein absolutes Muss, wenn Sie möchten, dass Ihre Normalmap-Verarbeitung mathematisch korrekt ist, um Probleme mit dem Tangente-Raum zu vermeiden.
 
-Verwenden Sie die <b>Navigationsliste auf der linken Seite</b>, um alle Knoten unter &quot;Normale Karte&quot; zu durchsuchen.
+Verwenden Sie die <b>Navigationsliste auf der linken Seite</b>, um alle Knoten unter Normalen-Map zu durchsuchen.
 
 Einige sehr nützliche Knoten in dieser Kategorie sind:
 

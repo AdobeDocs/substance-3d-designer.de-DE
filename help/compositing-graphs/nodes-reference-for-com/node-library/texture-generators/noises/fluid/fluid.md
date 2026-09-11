@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fluid.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fluid.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Fluid, um flüssigkeitsähnliche Rauschmuster zu erzeugen, um Textureffekte auf der Flüssigkeits- und Wasseroberfläche zu erzeugen.
+description: Verwenden Sie den Knoten Fluid, um flüssigkeitsähnliche Rauschen-Muster zu erzeugen, um Texturen an Flüssigkeiten und Wasseroberflächen zu erzeugen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fluid
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 9%
 
 ## Beschreibung
 
-Dies ist ein interessanter Knoten, der ein fließendes oder fallendes Fluidmuster erzeugt. Es ist einer der komplexeren Geräusche, mit ein paar Parametern.
+Dies ist ein interessanter Knoten, der ein fließendes oder fallendes Fluidmuster erzeugt. Es ist eine der komplizierteren Rauschen, mit einigen Parametern.
 
-Dieses Rauschen füllt eine bestimmte Nische: Es kann nützlich sein, um Regen, Lecks oder jede Art von Flüssigkeit unter Schwerkraftwirkung zu erzeugen.
+Dieser Rauschen füllt eine bestimmte Nische: Es kann nützlich sein, um Regen, Lecks oder jede Art von Flüssigkeit unter Schwerkraftwirkung zu erzeugen.
 
 </td>
 </tr>
@@ -48,10 +48,10 @@ Dieses Rauschen füllt eine bestimmte Nische: Es kann nützlich sein, um Regen, 
 |  |  |
 |:---|:---|
 | <b>Skalierung</b> <i>1 - 8</i> | Legt die globale Skalierung für den Effekt fest. |
-| <b>Störung</b> <i>0.0 - 1.0</i> | Phasenverschiebt das Rauschen, um kleine Schwankungen einzuführen. |
+| <b>Störung</b> <i>0.0 - 1.0</i> | Verschiebt den Rauschen phasenverschoben, um eine kleine Variation einzuführen. |
 | <b>Verkrümmungsintensität</b> <i>0.0 - 1.0</i> |  |
 | <b>Mustergröße</b> <i>0.0 - 1.0</i> |  |
-| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
 
 ## Beispiele
 

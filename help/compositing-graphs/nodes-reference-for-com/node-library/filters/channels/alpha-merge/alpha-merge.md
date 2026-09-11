@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/alpha-merge.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/alpha-merge.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Alpha-Zusammenfügung , um RGB-Texturen mit Alphakanälen zu kombinieren, um RGBA-Texturen zu erstellen.
+description: Verwenden Sie den Knoten Alpha Merge, um RGB-Texturen mit Alphakanälen zum Erstellen von RGBA-Texturen zu kombinieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > Alpha Merge
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## Beschreibung
 
-Fügt einen Alphakanal zu einer Eingabe ohne Alphakanal hinzu. Nicht zu verwechseln mit [RGBA Merge](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md), dieser Knoten ist viel einfacher und fügt nur Alpha hinzu!
+Fügt einen Alphakanal ohne Alphakanal zu einer Eingabe hinzu. Nicht zu verwechseln mit [RGBA Merge](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md), dieser Knoten ist viel einfacher und fügt nur Alpha hinzu!
 
 Einfacher, aber praktischer Knoten, wenn Sie etwas maskieren möchten oder wenn Ihr Ergebnis einen Alpha-Wert erfordert.
 
@@ -48,4 +48,4 @@ Einfacher, aber praktischer Knoten, wenn Sie etwas maskieren möchten oder wenn 
 |  |  |
 |:---|:---|
 | <b>RGB</b> <i>Farbeingabe</i> | Farbbild ohne Alpha |
-| <b>A</b> <i>Graustufen-Eingabe</i> | Ein Graustufenbild, das als Alpha des Ergebnisses verwendet wird. |
+| <b>A</b> <i>Graustufen-Eingabe</i> | Graustufenbild, das als Alpha des Ergebnisses verwendet werden soll. |

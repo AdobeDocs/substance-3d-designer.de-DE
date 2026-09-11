@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/scripting/logging.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/logging.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie die Protokollierung in Substance 3D Designer Python-Plug-ins zum Debuggen und Überwachen implementieren.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 Wir empfehlen, das Standard-Protokollierungsmodul von Python für die Protokollierung zu verwenden.
 
-Das <b>sd</b>-Modul enthält Hilfsklassen zum Umleiten der Protokollierung an die Designer-Konsole.
+Das <b>sd</b>-Modul enthält Helfer-Klassen, um die Protokollierung an die Designer-Konsole umzuleiten.
 
 ## An der Designer-Konsolenleiste anmelden
 

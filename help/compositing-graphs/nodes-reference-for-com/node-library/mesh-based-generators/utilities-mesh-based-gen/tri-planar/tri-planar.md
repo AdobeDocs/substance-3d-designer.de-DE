@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/tri-planar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/tri-planar.html"
 breadcrumb-title: ''
-description: Mit dem Knoten "Dreidimensional planar" können Sie Texturen aus drei orthogonalen Ebenen projizieren, um eine nahtlose Texturzuordnung auf komplexe Geometrie zu ermöglichen.
+description: Verwenden Sie den Knoten Tri Planar , um Texturen aus drei orthogonalen Ebenen zu projizieren, um eine nahtlose Geometriezuordnung auf komplexe Texturen zu ermöglichen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > Tri Planar
 helpx_experience_level: ""
@@ -35,11 +35,11 @@ ht-degree: 6%
 
 ## Beschreibung
 
-Dieser erweiterte Knoten führt eine dreiplanare Projektionszuordnung in 2D durch, basierend auf den Daten &quot;Backed Position&quot; und &quot;World Space Normal&quot;. Das bedeutet, dass UV-Koordinaten im Wesentlichen vollständig in eine (meist) nahtlose Abbildung auf Basis des Gitters selbst konvertiert werden.
+Dieser erweiterte Knoten führt die Positionszuordnung in 2D auf der Grundlage der Baking geführt Triplanare Projektion- und Welt-Raum-Normale-Daten durch. Dies bedeutet, dass es UV-Koordinaten im Wesentlichen vollständig in eine (meist) Naht-freie Abbildung auf Basis des Meshs selbst konvertiert.
 
-Dies ist eine gute Möglichkeit, Nähte zu vermeiden, ohne jedes Mal nachbacken zu müssen (es ist möglich, etwas Ähnliches mit dem Bäcker zu erreichen). Der Nachteil ist, dass dieser Knoten ziemlich schwer und damit nicht schnell ist.
+Dies ist eine gute Möglichkeit, Nähte zu vermeiden, ohne jedes Mal nachbacken zu müssen (es ist möglich, etwas Ähnliches mit dem Baker zu erreichen). Der Nachteil ist, dass dieser Knoten ziemlich schwer und damit nicht schnell ist.
 
-Denken Sie daran, dass Ihre Backen sehr präzise sein sollten: 8-Bit-Backen führen nicht zu sehr schönen Ergebnissen.
+Beachten Sie, dass Ihre Baking führte sehr präzise sein sollten: 8-Bit-Baking führte werden nicht zu sehr schönen Ergebnissen führen.
 
 </td>
 </tr>
@@ -51,11 +51,11 @@ Denken Sie daran, dass Ihre Backen sehr präzise sein sollten: 8-Bit-Backen füh
 
 |  |  |
 |:---|:---|
-| <b>Position</b> <i>Farbeingabe</i> | Backed-Positions-Map. Idealerweise 16-Bit oder höher. |
-| <b>Normaler Weltraum</b> <i>Farbeingabe</i> | Baked World Space Normal Karte, Idealerweise 16-Bit oder höhere Präzision. |
-| <b>Eingabe X</b> <i>Farbeingabe (Graustufeneingabe)</i> | Eingabe-Map für die Neuzuordnung von UV zu Welt-Raum per Triplanare Projektion. Wird für alle Achsen verwendet, wenn &quot;Bildeingaben&quot; auf 1 gesetzt ist, für die X-Achse, wenn auf 3 gesetzt. |
-| <b>Eingabe Y</b> <i>Farbeingabe (Graustufeneingabe)</i> | Nur, wenn &quot;Bildeingaben&quot; auf 3 eingestellt ist. Eingabe-Map, um von UV zum Weltraum auf der Y-Achse neu zuzuordnen. |
-| <b>Eingabe Z</b> <i>Farbeingabe (Graustufeneingabe)</i> | Nur, wenn &quot;Bildeingaben&quot; auf 3 eingestellt ist. Eingabe-Map, um von UV zum Weltraum auf der Z-Achse neu zuzuordnen. |
+| <b>Position</b> <i>Farbeingabe</i> | Baking geführt Positionszuordnung. Idealerweise 16-Bit oder höher. |
+| <b>Welt-Raum-Normale</b> <i>Farbeingabe</i> | Baking geführt Welt-Raum-Normale-Map mit einer Präzision von 16 Bit oder höher. |
+| <b>Eingabe X</b> <i>Farbeingabe (Graustufeneingabe)</i> | Eingabe-Map für die Neuzuordnung von UV zu Welt-Raum per Triplanare Projektion. Wird für alle Achsen verwendet, wenn &quot;Bildeingaben&quot; auf 1 gesetzt ist, für X-Achse, wenn auf 3 gesetzt. |
+| <b>Eingabe Y</b> <i>Farbeingabe (Graustufeneingabe)</i> | Nur, wenn &quot;Bildeingaben&quot; auf 3 eingestellt ist. Eingabe-Map zum Neuzuordnen von UV zu Welt-Raum auf der Y-Achse. |
+| <b>Eingabe Z</b> <i>Farbeingabe (Graustufeneingabe)</i> | Nur, wenn &quot;Bildeingaben&quot; auf 3 eingestellt ist. Eingabe-Map für die Neuzuordnung von UV zu Welt-Raum auf der Z-Achse. |
 
 <a name="parameters"></a>
 
@@ -64,10 +64,10 @@ Denken Sie daran, dass Ihre Backen sehr präzise sein sollten: 8-Bit-Backen füh
 |  |  |
 |:---|:---|
 | <b>Projektion</b> <i>Alle Achsen, nur X, nur Y, nur Z</i> | Legt fest, mit welchen Achsen gemischt werden soll. |
-| <b>Image-Eingaben</b> <i>1 Eingabe, 3 Eingaben</i> | Legen Sie fest, ob eine Karte für alle Achsen oder eine bestimmte Karte pro Achse verwendet werden soll. |
+| <b>Image-Eingaben</b> <i>1 Eingabe, 3 Eingaben</i> | Legen Sie fest, ob eine Map für alle Achsen oder eine bestimmte Map pro Achse verwendet werden soll. |
 | <b>Füllmethode</b> <i>linear, erweitert</i> | Höhere Präzision und Genauigkeit. |
 | <b>Füllkontrast</b> <i>0.001 - 1.0</i> | Überblendungskontrast, Überblendung zwischen glatten oder harten Übergängen. |
-| <b>Normalisierungsfaktor</b> <i>0.0 - 1.0</i> | Verbessert die Projektionsüberblendung, indem der Kontrastverlust im Überblendungsbereich wiederhergestellt wird. |
+| <b>Normalisierungsfaktor</b> <i>0.0 - 1.0</i> | Verbessert die Projektion-Füllmethode, indem der Kontrastverlust im Füllbereich wiederhergestellt wird. |
 | <b>Textur Kachelung</b> <i>0.0 - 10.0</i> | Anzahl der Male, die die Eingabe-Texturen kacheln sollen. |
 | <b>Globale Drehung</b> <i>0.0 - 1.0</i> | Globale Drehung für alle Achsen. |
 | <b>Gespiegelte Projektion korrigieren</b> <i>False/True</i> | Legen Sie fest, wie gespiegelte Projektionen behandelt werden. |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/version-14-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-0.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Designer 14.0, um mehr über neue Knoten, die Diagrammnavigation und Leistungsverbesserungen zu erfahren.
 helpx_creative_field: ""
@@ -38,7 +38,7 @@ Diese Version 14.0 bringt viele neue Inhalte mit den unten aufgeführten neuen K
 
 * <b>Kuwahara-Filter</b>: Wenn du noch mehr mit der Stilisierung erreichen willst, kannst du mithilfe der [Anisotropischen Kuwahara-Farbe](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md) / [Graustufen](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md)-Filter einige malerische Effekte erzeugen. Im Detail wendet es eine anisotrope Richtungsunschärfe an, die den Details des Bildes entspricht. Das Ergebnis ist ein Bild, das so aussieht, als würde es in Richtung der darin enthaltenen Formen fließen.
 
-Diese Knoten (Quantize color und Anisotropic Kuwahara) werden in [diesem Tutorial](https://www.adobe.com/go/designer-tutorial-quantize_de) erläutert. Es zeigt, wie man damit Materialien stilisiert und Farben effizienter und intuitiver handhabt!
+Diese Knoten (Quantize color und Anisotropic Kuwahara) werden in [diesem Tutorial](https://www.adobe.com/go/designer-tutorial-quantize) erläutert. Es zeigt, wie man damit Materialien stilisiert und Farben effizienter und intuitiver handhabt!
 
 Weitere leistungsstarke Knoten nehmen an der Party teil:
 
@@ -198,7 +198,7 @@ Beachten Sie, dass diese Aktualisierungen zwei wichtige Folgen haben:
 * [Inhalt] Veralteter Knoten &quot;Negate Float1&quot; im Substance-Funktionsdiagramm
 * [Inhalt] Benennen Sie &quot;Farbe quantisieren&quot; in &quot;Farbe quantisieren (einfach)&quot; um.
 * [2D-Ansicht] Anzeigen von Werten im Informationenbedienfeld für Pixel außerhalb des Bereichs 0-1
-* [Engine]&#x200B;[Text] Neues Kerning für einige Schriftarten
+* [Engine][Text] Neues Kerning für einige Schriftarten
 * [Graph] Verbessern der Invalidierungszeit bei der Bearbeitung von Deep Untergraphen bei Verwendung der In-Context-Edition
 * [Linker] Bitmaps in SBSASM nicht duplizieren
 * [Parameter] Fügen Sie ein neues Funktions-Widget für alle Eingabeparametertypen hinzu.
@@ -230,31 +230,31 @@ Beachten Sie, dass diese Aktualisierungen zwei wichtige Folgen haben:
 ### Fehlerbehebungen
 
 * [Bäcker] Absturz beim Umbrechen einer Szene, deren Dateiname geändert wurde
-* [Baker] Absturz beim Speichern der Voreinstellung &quot;Baker&quot; in JSON-Datei
-* [Inhalt] &quot;Streuung auf Spline&quot;: Alphaparameter für Eingabebild gelegt
+* [Bäcker] Absturz beim Speichern der Bäcker-Voreinstellung in der JSON-Datei
+* [Inhalt] &quot;Streuung auf Spline&quot;: Alpha-Parameter für Eingabebild verfügbar machen
 * [Inhalt] &quot;Sampler Color anordnen&quot;: Expression &quot;missing visibleif&quot;
 * [Inhalt] Anisotropes Rauschen: Negativer Wert für X/Y-Betrag führt zu falschem Ergebnis
-* [Inhalt] Anisotropes Rauschen: Problem mit der Kachelung bei Verwendung des ungeraden Werts als X-Wert und ohne Smoothness
+* [Inhalt] Anisotropes Rauschen: Problem beim Anordnen, wenn ein ungerader Wert als X-Wert und keine Smoothness verwendet wird
 * [Inhalt] Funktion &quot;Normale Verteilung&quot;: falsch platzierte max() kann zu NaN führen
 * [Inhalt] RTAO, Bent Normal und RT Shadows funktionieren auf einigen Plattformen nicht ordnungsgemäß.
-* [Inhalt] Überblendung der Formaufteilung: OpenGL-Normalen-Map werden nicht korrekt überblendet
+* [Inhalt] Farbe für Form-Farbspritzer: OpenGL-Normalmaps werden nicht korrekt überblendet
 * [Inhalt] Unzulässiger Speicherplatz nach dem Präfix &quot;Multi&quot; in den Knotenbeschriftungen
-* [Abhängigkeiten] Absturz beim Verschieben von Graf innerhalb oder zwischen Paketen
+* [Abhängigkeiten] Absturz beim Verschieben des Diagramms innerhalb oder zwischen Paketen
 * [Engine] Genauigkeitsfehler in Verkrümmungsknoten, die sich auf die Steigung-Weichzeichnerknoten auswirken
 * [Engine] SBSAR-Ebene in SD kann SBSAR mit SBSASM-Inhalt > 2 GB nicht lesen
-* [Funktion Graf] Falsches Ergebnis für 0^n
-* [Graf] Option &quot;Knotengröße anzeigen&quot; ist falsch beschriftet
-* [Graf] Absturz beim Kopieren eines übergeordneten Kommentars in einen anderen Graf
-* [Graf] Einfrieren beim Alt-Ziehen eines Punktknotens
-* [Graf] Bei der Knotensuche können in einigen Fällen offensichtliche Übereinstimmungen fehlen.
-* [Graf] Leistungsproblem beim Bearbeiten eines mehrmals instanziierten Funktions-Grafen mit geöffnetem Supergraph
-* [Graf] Zu viele Ungültigkeiten beim Erstellen einer Ausgabe
+* [Funktionsdiagramm] Falsches Ergebnis für 0^n
+* [Graph] Option &#39;Display node size&#39; ist falsch beschriftet
+* [Graph] Absturz beim Kopieren eines übergeordneten Kommentars in ein anderes Diagramm
+* [Graph] Einfrieren beim Alt-Ziehen eines Punktknotens
+* [Graph] Knotensuche kann offensichtliche Übereinstimmungen in einigen Fällen verpassen
+* [Graph] Leistungsproblem beim Bearbeiten eines Funktionsdiagramms, das mehrmals mit geöffnetem Supergraph installiert wurde
+* [Graph] Zu viele Ungültigkeiten beim Erstellen einer Ausgabe
 * [Sicherheit] ICO analysiert Schreibfehler außerhalb des gültigen Bereichs
 * [Sicherheit] Nicht verwendete Bildformate verwerfen
 * [Parameter] Der Bitmap-PKG-Ressourcenpfad sollte nicht bearbeitbar sein.
-* [Parameter] Probleme beheben, die damit zusammenhängen, dass der Parameter eines Wertprozessors gelegt/als Stapel gelegt wird
-* [Parameter] Zeichenfolgenparameter werden ignoriert, wenn ein Stapel gelegt wird.
-* [Eigenschaften] Leistungsproblem beim Bearbeiten eines mehrmals instanziierten Funktions-Grafen mit geöffneten Eigenschaften
+* [Parameter] Beheben von Problemen im Zusammenhang mit der Belichtung/Batch-Belichtung des Parameters eines Wertprozessors
+* [Parameter] Zeichenfolgenparameter werden ignoriert, wenn Batch-Daten angezeigt werden.
+* [Eigenschaften] Leistungsproblem beim Bearbeiten eines Funktionsdiagramms, das mehrmals mit geöffneten Eigenschaften instanziiert wurde
 * [SVG] Bearbeitungen an Formen werden nicht auf gerasterte Bilder angewendet
 * [UI] Beheben einiger Fehler/Inkonsistenzen mit scrollbaren Widgets (nur Windows)
 * [UI] Inkonsistente Reihenfolge der 3D-Szenendateiformate in Import-/Exportlisten

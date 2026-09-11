@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über Warnungen in Substance-Compositing-Grafen und lernen Sie, wie Sie häufige Probleme und Fehler beheben.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Auf dieser Seite werden Warnungen und Fehlermeldungen aufgelistet, die von [Substance-Grafen](../../compositing-graphs/substance-compositing-graphs.md) in Substance 3D Designer ausgelöst werden können, und es werden allgemeine Schritte zur Fehlerbehebung für jeden dieser Fehler angezeigt.
 
-Warnungen werden in der QuickInfo des Warnsymbols für die Diagrammressource im Bereich [Explorer](../../interface/the-explorer-window/the-explorer-window.md) sowie in der unteren linken Ecke der [Diagrammansicht](../../interface/the-graph-view/the-graph-view.md) angezeigt, wenn das Diagramm geladen ist.
+In der QuickInfo des Warnsymbols für die Graf-Ressource im Bedienfeld &quot;[Explorer](../../interface/the-explorer-window/the-explorer-window.md)&quot; sowie in der unteren linken Ecke der [Graphansicht](../../interface/the-graph-view/the-graph-view.md), wenn der Graf geladen ist, werden Warnungen angezeigt.
 
 ## ![(Fehler)](../../assets/error.svg) Kein Ausgabeknoten definiert
 
@@ -40,7 +40,7 @@ Fügen Sie dem Graf einen oder mehrere [Ausgabeknoten](../../compositing-graphs/
 
 ### ![(Fehler)](../../assets/error.svg) Die Funktion des *[x]*-Parameters enthält einige Warnungen.
 
-Der [Funktions-Graf &#x200B;](../../function-graphs/function-graphs.md), der auf den angegebenen Parameter des angegebenen Knotens angewendet wird, weist mindestens eine Warnung auf.\
+Der [Funktions-Graf ](../../function-graphs/function-graphs.md), der auf den angegebenen Parameter des angegebenen Knotens angewendet wird, weist mindestens eine Warnung auf.\
 Der Knotenparameter wird in eckigen Klammern nach der Knotenbezeichnung angegeben und folgt der Vorlage Node[Parameter].
 
 E.g. Einheitliche Farbe[Ausgabefarbe], Pixelprozessor[pro Pixelfunktion]
@@ -57,7 +57,7 @@ Suchen Sie den Knoten, der die Warnung ausgibt, nach seiner Bezeichnung und dem 
 
 Die Ressource, auf die von einem Knoten verwiesen wird, enthält eine oder mehrere Warnungen. Im Folgenden finden Sie einige Knoten, die auf eine Ressource verweisen:
 
-* Ein [Grapheninstanz](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)-Knoten verweist auf ein Diagramm.
+* Ein [Grapheninstanz](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)-Knoten verweist auf einen Graf
 * Ein [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)-Knoten verweist auf eine [Bitmap-Ressource](../../resources/bitmap-resource/bitmap-resource.md).
 * Ein [SVG](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)-Knoten verweist auf eine [SVG-Ressource](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md).
 * Ein [Text](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)-Knoten verweist auf eine [Font-Ressource](../../resources/font-resource/font-resource.md).
@@ -73,7 +73,7 @@ Suchen Sie im Bereich [Explorer](../../interface/the-explorer-window/the-explore
 
 ### ![(Fehler)](../../assets/error.svg) Referenzressource nicht gefunden
 
-Die Ressource, auf die von einem Knoten verwiesen wird, wurde nicht in dem Pfad gefunden, der in der Datei &quot;[Substance 3D](https://www.adobe.com/de/products/substance3d/3d-augmented-reality.html)&quot; (SBS) gespeichert ist. Im Folgenden finden Sie einige Knoten, die auf eine Ressource verweisen:
+Die Ressource, auf die von einem Knoten verwiesen wird, wurde nicht in dem Pfad gefunden, der in der Datei &quot;[Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)&quot; (SBS) gespeichert ist. Im Folgenden finden Sie einige Knoten, die auf eine Ressource verweisen:
 
 * Ein [Grapheninstanz](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)-Knoten verweist auf ein Diagramm.
 * Ein [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)-Knoten verweist auf eine [Bitmap-Ressource](../../resources/bitmap-resource/bitmap-resource.md).

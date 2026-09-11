@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/bent-normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/bent-normal.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Abgewinkelte Normale, um abgewinkelte Normalmaps zu erzeugen, die die Umgebungsbeleuchtung und die indirekte Verdeckung berücksichtigen.
 helpx_creative_field: ""
@@ -54,8 +54,8 @@ Dieser Knoten sollte aufgrund der Berechnungszeit nicht in Kombination mit der C
 | <b>Height-Skalierung</b> <i>Gleitend</i> | (Verfügbar, wenn &quot;Physische Größe verwenden&quot; auf &quot;Falsch&quot; gesetzt ist) Multiplikator für die Intensität des Höhen-Map-Eingangs. |
 | <b>Verteilung</b> <i>Integer</i> | Legt die Verteilungsmethode fest. Betrifft Falloff in Richtung Schattenbereiche. |
 | <b>Maximale Entfernung</b> <i>Gleitend</i> | Legt die maximale Entfernung fest, die Strahlen zurücklegen können. |
-| <b>Spread Angle</b> <i>Gleitend</i> | Legt den Ausbreitungswinkel für die Strahlen fest, auf die geschossen werden soll. Ein Wert von 1 ist eine ganze Hemisphäre. |
-| <b>Normales Format</b> <i>Integer</i> | Kehrt den grünen Kanal der Ausgabe um. |
+| <b>Spread Angle</b> <i>Fließkommazahl</i> | Legt den Ausbreitungswinkel für die Strahlen fest, auf die geschossen werden soll. Ein Wert von 1 ist eine ganze Hemisphäre. |
+| <b>Normales Format</b> <i>Ganzzahl</i> | Kehrt den grünen Kanal der Ausgabe um. |
 
 ## Beispiele
 

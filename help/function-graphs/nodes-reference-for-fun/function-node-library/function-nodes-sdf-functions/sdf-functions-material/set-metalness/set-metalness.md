@@ -40,7 +40,7 @@ Dieser Wert kann dann für alle verstreuten SDF-Formen in der *SDF-Metalness*-Au
 
 |                          |                             |
 |--------------------------|-----------------------------|
-| <b>SDF-Szene</b> *Gleitend* | Die Eingabe-SDF-Szene. |
+| <b>SDF-Szene</b> *Fließkommazahl* | Die Eingabe-SDF-Szene. |
 | <b>Metalität</b> *Gleitend* | Der festzulegende Metalitätswert. |
 
 

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/lighting-cancel-low-frequencies.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/lighting-cancel-low-frequencies.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Beleuchtung Niederfrequenzen abbrechen , um niederfrequente Lichtvarianten aus Texturen zu entfernen, um Materialien zu extrahieren.
+description: Verwenden Sie den Knoten Beleuchtung Niederfrequenzen abbrechen , um niederfrequente Beleuchtungsvarianten aus Texturen zur Material-Extraktion zu entfernen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Lighting Cancel Low Frequencies
 helpx_experience_level: ""
@@ -35,7 +35,7 @@ ht-degree: 8%
 
 Ähnlich wie &quot;Hochpass&quot;, jedoch ohne Sättigung des Endergebnisses.
 
-Eine erweiterte Version finden Sie auch unter [Luminanzhochpass](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md).
+Weitere Informationen finden Sie auch unter [Luminanz Highpass](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md).
 
 </td>
 </tr>

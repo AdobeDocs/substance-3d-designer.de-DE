@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/non-uniform-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/non-uniform-blur.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Uneinheitlicher Weichzeichner", um einen Weichzeichner mit unterschiedlichen Intensitäten in X- und Y-Richtungen anzuwenden und so anisotrope Effekte zu erzielen.
 helpx_creative_field: ""

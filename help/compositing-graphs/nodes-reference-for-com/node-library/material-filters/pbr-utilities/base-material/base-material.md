@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/base-material.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/base-material.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Basismaterial", um Basismaterial-Eigenschaften für das Erstellen physikalisch basierter Material von Grund auf neu zu erstellen.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 ## Beschreibung
 
-Der schnellste und einfachste Weg zum Erstellen eines Mehrkanal-Materials in [Adobe Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html). Dieser Knoten gibt ein gebündeltes vollständiges Material zurück, das auf einfachen Farbflächeneinstellungen und -werten basiert. Diese kann dann als Platzhalter verwendet oder in ein komplexes Material eingearbeitet werden.
+Der schnellste und einfachste Weg zum Erstellen eines Mehrkanal-Materials in [Adobe Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html). Dieser Knoten gibt ein gebündeltes vollständiges Material zurück, das auf einfachen Farbflächeneinstellungen und -werten basiert. Diese kann dann als Platzhalter verwendet oder in ein komplexes Material eingearbeitet werden.
 
 Dieser Knoten ist sehr nützlich, wenn Sie vollständige Requisiten texturieren und mehrere Materialien mischen möchten. Sie können sogar jedes einzelne Material von diesem Node aus starten, ohne jemals eine komplexe Material-Basis zu benötigen.
 
@@ -58,7 +58,7 @@ Dieser Knoten ist sehr nützlich, wenn Sie vollständige Requisiten texturieren 
 | <b>PBR-Workflow</b> <i>Metall - Rauheit, Specular - Glanz</i> | Legt das verwendete PBR-Modell fest. |
 | <b>Materialvorgabe</b> <i>Benutzerdefiniert, Dielektrisch, Gold, Silber, Aluminium, Eisen, Kupfer, Titan, Nickel, Kobalt, Platin</i> | Schneller Tastaturbefehl zur Herstellung bestimmter Metalle. Deaktiviert irrelevante Optionen. |
 | <b>Grundfarbe</b> <i>(Farbwert)</i> | Für die Grundfarbe verwendete Volltonfarbe. |
-| <b>Metallisch</b> <i>(Graustufenwert)</i> | Solider Wert für Metallic. |
+| <b>Metallic</b> <i>(Graustufenwert)</i> | Solider Wert für Metallic. |
 | <b>Diffuse </b> <i>(Farbwert)</i> | Volltonfarbe für Diffuse. |
 | <b>Specular</b> <i>(Farbwert)</i> | Für Specular verwendete Volltonfarbe. |
 | <b>Specular-Vorgaben</b> <i>Kunststoff, Holz, Stein, Ziegel, Sand, Beton, Gewebe, rostetes Metall, Wasser, Eis, Glas</i> | Optionale Schnellvorgaben zum Festlegen von PBR-korrekten Specular-Werten. |

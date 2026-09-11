@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/snow-cover.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/snow-cover.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Snow-Deckknoten, um Material Schneeakkumulationseffekte basierend auf Oberflächenwinkel und -position hinzuzufügen.
+description: Verwenden Sie den Snow-Abdeckungsknoten, um Materials Schneeakkumulationseffekte basierend auf Oberflächenwinkel und -position hinzuzufügen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Snow Cover
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 8%
 
 ## Beschreibung
 
-Mit dem All-in-One-Effekt wird Schnee auf einem ganzen Material aufgestaut. Verlässt sich stark auf eine gute, qualitativ hochwertige Heightmap, z. B. von einem Fotoscan. Das Ergebnis soll PBR-korrekt sein.
+All-in-One-Effekt, um Schneeaufstauung auf einem vollständigen Material hinzuzufügen. Verlässt sich stark auf eine gute, qualitativ hochwertige Heightmap, z. B. von einem Fotoscan. Das Ergebnis soll PBR-korrekt sein.
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ Mit dem All-in-One-Effekt wird Schnee auf einem ganzen Material aufgestaut. Verl
 
 |  |  |
 |:---|:---|
-| <b>Kanäle</b> | Schalten Sie die Materialkanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanzkarten anstelle von &quot;Metallisch/Raueit&quot; verwenden. |
+| <b>Kanäle</b> | Schalten Sie die Material-Kanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanz-Maps anstelle von &quot;Metallic/Rauheit&quot; verwenden. |
 | <b>Neuer Snow</b> <i>0.0 - 1.0</i> | Legt die Schneemenge in den erhöhten Bereichen fest. Das Ergebnis ist an den Parameter &quot;Geschmolzener Snow&quot; gebunden. |
 | <b>geschmolzener Snow</b> <i>0.0 - 1.0</i> | Legt die Menge des geschmolzenen Schnees in abgesenkten Ecken fest. |
 | <b>Buildup</b> <i>0.0 - 1.0</i> | Hauptsächlich beeinflusst Height-Ausgabe, bestimmt Height-Stau-Effekt. |

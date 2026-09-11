@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/variables/system-variables.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/system-variables.html"
 breadcrumb-title: ''
-description: Erfahren Sie mehr über integrierte Systemvariablen, die in Substance 3D Designer-Funktionsdiagrammen für erweiterte Arbeitsabläufe verfügbar sind.
+description: Erfahren Sie mehr über die integrierten Systemvariablen, die in den Substance 3D Designer-Funktions-Grafen für erweiterte Workflows verfügbar sind.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Variables > Built-in variables
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 # Integrierte Variablen
 
-Sie können integrierte Variablen in [Substance-Funktionsdiagrammen](../../../function-graphs/function-graphs.md) verwenden, um auf bestimmte Werte zuzugreifen. Sie beginnen immer mit einem `$`-Symbol (Dollar).
+Sie können integrierte Variablen in [Substance-Funktionsvariablen ](../../../function-graphs/function-graphs.md) verwenden, um auf bestimmte Graf zuzugreifen. Sie beginnen immer mit einem `$`-Symbol (Dollar).
 
 Einige Variablen sind nur in bestimmten Kontexten verfügbar.
 
@@ -30,11 +30,11 @@ Systemvariablen
 
 | Name | Typ | Zweck |
 | --- | --- | --- |
-| $size | Float2 | Gibt die Größe des aktuellen Knotens in Pixel zurück.   Wenn der Parameter &quot;[Ausgabegröße](../../../compositing-graphs/output-size/output-size.md)&quot; auf &quot;*Relativ zu&quot; festgelegt ist...* [Vererbungsmethode &#x200B;](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md), gibt den *geerbten Wert* zurück. |
-| $sizelog2 | Float2 | Wie oben, gibt aber die Größe als Power-of-2-Werte zurück (z. B.: Für Bild 2048\*2048 gibt `$sizelog2` 11) zurück.   Wenn der Parameter &quot;[Ausgabegröße](../../../compositing-graphs/output-size/output-size.md)&quot; auf &quot;*Relativ zu&quot; festgelegt ist...* [Vererbungsmethode &#x200B;](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md), gibt den *geerbten Wert* zurück. |
-| $pixelratio | Ganzzahl | Gibt einen ganzzahligen Wert zurück, der dem aktuellen Pixelverhältnis des Knotens entspricht (geerbt oder absolut):   0: Streckung 1: Quadrat |
-| $tiling | Ganzzahl | Gibt einen ganzzahligen Wert zurück, der dem aktuellen Kachelmodus des Knotens entspricht (geerbt oder absolut):   0: Keine Kachel 1: Horizontale Kachel 2: Vertikale Kachel 3: H und V Kacheln |
-| $physicalsize | Float3 | Gibt den Eigenschaftswert [graph&#39;s](../../../compositing-graphs/graph-parameters/graph-parameters.md) <b>Physische Größe</b> zurück. |
+| $size | Float2 | Gibt die Größe des aktuellen Knotens in Pixel zurück.   Wenn der Parameter &quot;[Ausgabegröße](../../../compositing-graphs/output-size/output-size.md)&quot; auf &quot;*Relativ zu&quot; festgelegt ist...* [Vererbung-Methode ](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) gibt den *geerbten Wert* zurück. |
+| $sizelog2 | Float2 | Wie oben, gibt aber die Größe als Power-of-2-Werte zurück (z. B.: Für Bild 2048\*2048 gibt `$sizelog2` 11) zurück.   Wenn der Parameter &quot;[Ausgabegröße](../../../compositing-graphs/output-size/output-size.md)&quot; auf &quot;*Relativ zu&quot; festgelegt ist...* [Vererbung-Methode ](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) gibt den *geerbten Wert* zurück. |
+| $pixelratio | Ganzzahl | Gibt einen Wert für die Ganzzahl zurück, der dem aktuellen Pixelverhältnis des Knotens entspricht (geerbt oder absolut):   0: Dehn 1: Quadrat |
+| $Kachelung | Ganzzahl | Gibt einen Wert für die Ganzzahl zurück, der dem aktuellen Knoten-Kachelung-Modus (geerbt oder absolut) entspricht:   0: Keine Kachelung 1: Horizontale Kachelung 2 Kachelung 3: H- und V-Kachelung |
+| $physicalsize | Float3 | Gibt den Eigenschaftswert [Graf](../../../compositing-graphs/graph-parameters/graph-parameters.md) <b>Physische Größe</b> zurück. |
 | $uvtile | Integer2 | Bei Verwendung von UDIM-Workflows gibt diese Variable den Index des aktuellen Audiomaterials in U und V zurück.   Beispiel: (2, 0) für Kachel 1003, (7, 11) für Kachel 1118, ... |
 
 <b>FX-Map</b>
@@ -62,5 +62,5 @@ Systemvariablen
 
 | Name | Typ | Zweck |
 | --- | --- | --- |
-| $time | Float | Diese Variable gibt die Zeit in Sekunden zurück, seit das Substance Engine gestartet wurde. Es kann in Graphen verwendet werden, deren Ergebnis sich entsprechend der verstrichenen Zeit ändern sollte.  **Hinweis:** Dieser Wert kann derzeit in Designer nicht geändert werden. Anwendungen, die das Substance Engine integrieren, können ihn jedoch nutzen, z. B. [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html) für Animationen oder [Substance 3D Painter](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/home) für [Dynamische Pinselstriche](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/painting/dynamic-strokes/creating-custom-dynamic-strokes). |
+| $time | Float | Diese Variable gibt die Zeit in Sekunden zurück, seit das Substance Engine gestartet wurde. Es kann in Grafen verwendet werden, deren Ergebnis sich entsprechend der verstrichenen Zeit ändern sollte.  **Hinweis:** Dieser Wert kann derzeit in Designer nicht geändert werden. Anwendungen, die das Substance Engine integrieren, können ihn jedoch nutzen, z. B. [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html) für Animationen oder [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) für [Dynamische Pinselstriche](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/dynamic-strokes/creating-custom-dynamic-strokes). |
 | $normalformat | Ganzzahl | Das Normalformat (d. h. DirectX oder OpenGL), das in der aktuellen Umgebung verwendet wird.  **Hinweis:** Diese Variable hat keine Auswirkungen auf Designer und kann von anderen Anwendungen verwendet werden, die das Substance Engine integrieren. |

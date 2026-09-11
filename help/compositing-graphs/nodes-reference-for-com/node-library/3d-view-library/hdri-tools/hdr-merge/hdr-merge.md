@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/hdr-merge.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/hdr-merge.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "HDR-Zusammenfügung", um mehrere HDR-Bilder zu einem einzigen Panorama zusammenzufügen und so zusammengesetzte Umgebungszuordnungen zu erstellen.
 helpx_creative_field: ""

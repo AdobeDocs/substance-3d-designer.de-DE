@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-2.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Crystal 2", um erweiterte Kristallmuster für die Erstellung von Effekten für kristalline und geometrische Texturen zu generieren.
 helpx_creative_field: ""
@@ -48,8 +48,8 @@ Das ist eine Nische-Rauschen: Das kann in seltenen Fällen nützlich sein, wenn 
 |  |  |
 |:---|:---|
 | <b>Skalierung</b> <i>1 - 16</i> | Legt die globale Skalierung für den Effekt fest. |
-| <b>Störung</b> <i>0.0 - 1.0</i> | Verschiebt den Rauschen phasenverschoben, um eine kleine Variation einzuführen. |
-| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
+| <b>Störung</b> <i>0.0 - 1.0</i> | Phasenverschiebt das Rauschen, um kleine Schwankungen einzuführen. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
 
 ## Beispiele
 

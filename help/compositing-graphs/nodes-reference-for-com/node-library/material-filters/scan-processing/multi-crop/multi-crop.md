@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-crop.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-crop.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Multi Crop", um mehrere Textur-Kanäle gleichzeitig zuzuschneiden und so gescannte Materialien effizient zu verarbeiten.
+description: Verwenden Sie den Knoten "Multi Crop", um mehrere Texturkanäle gleichzeitig zuzuschneiden und so gescannte Materialien effizient zu verarbeiten.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi Crop
 helpx_experience_level: ""
@@ -55,5 +55,5 @@ Dies ist die Multikanal-Version von &quot;Zuschneiden&quot;. Es schneidet einen 
 | <b>Eingabegröße</b> <i>0 - 8192</i> | Auflösung und Proportionen von Eingabebilds. Sehr wichtig für nicht quadratische Bilder. |
 | <b>Hintergrund</b> <i>(Farbwert) / (Graustufenwert)</i> | Einheitlicher Hintergrundwert für Bereiche, die nicht von der Freistellung abgedeckt sind. |
 | <b>Transformieren</b> <i>(Transformationsmatrix)</i> | Dreht und skaliert das Ergebnis. Das Ergebnis kann durch direkte Interaktion mit der Arbeitsfläche geändert werden. |
-| <b>Offset</b> <i>0.0 - 1.0</i> | Verschiebt oder Kamera bewegt das Ergebnis. Das Ergebnis kann durch direkte Interaktion mit der Arbeitsfläche geändert werden. |
+| <b>Offset</b> <i>0.0 - 1.0</i> | Verschiebt oder verschiebt das Ergebnis. Das Ergebnis kann durch direkte Interaktion mit der Arbeitsfläche geändert werden. |
 | <b>Ist normal (nur für Farbversion)</b> <i>False/True</i> | Gibt an, ob die Eingabe als Normalmap behandelt werden soll. |

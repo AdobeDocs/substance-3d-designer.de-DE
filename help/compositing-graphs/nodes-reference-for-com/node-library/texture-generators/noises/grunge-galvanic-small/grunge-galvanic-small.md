@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-small.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-small.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Schmutz Galvanic Small-Knoten, um galvanische Korrosionsmuster im kleinen Maßstab für metallische Verwitterung zu erzeugen.
 helpx_creative_field: ""
@@ -52,7 +52,7 @@ Der **Schmutz Galvanic Small**-Schmutz erzeugt eine Stahlkarte, die dem Muster a
 | <b>Erweitert</b> |  |
 | <b>Frische</b> <i>Fließkommazahl</i> | Stellt die Genauigkeit und Schärfe der verzinkten Formen ein. |
 | <b>Dirt</b> <i>Fließkommazahl</i> | Passt die Deckkraft der Dirt-Überlagerung an. |
-| <b>Micro-Verzerrung</b> <i>Gleitend</i> | Passt die Intensität des Effekts &quot;Hochfrequenzverkrümmung&quot; an. |
+| <b>Micro-Verzerrung</b> <i>Fließkommazahl</i> | Passt die Intensität des Effekts &quot;Hochfrequenzverkrümmung&quot; an. |
 
 ## Beispiele
 

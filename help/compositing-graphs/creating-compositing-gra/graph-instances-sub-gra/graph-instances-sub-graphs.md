@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
 breadcrumb-title: ''
 description: Verwendet Grapheninstanzen und Untergraphen, um wiederverwendbare Graf-Komponenten und modulare Material-Workflows zu erstellen.
 helpx_creative_field: ""
@@ -46,7 +46,7 @@ Beachten Sie, dass Sie, wenn die ausgewählten Graf mit anderen Knoten im Graf v
 
 Außerdem sollten die Originalknoten durch einen Instanzknoten ersetzt werden, der auf den neuen Graf verweist.
 
-Schließlich sollten Sie entscheiden, ob der Untergraph für Benutzer gelegt werden soll, wenn Sie Ihr Projekt in einer Sbsar-Datei veröffentlichen, die freigegeben werden kann. Siehe Parameter &quot;Gelegt in SBSAR&quot; in den Eigenschaften des [Grafen &#x200B;](../../../compositing-graphs/graph-parameters/graph-parameters.md).
+Schließlich sollten Sie entscheiden, ob der Untergraph für Benutzer gelegt werden soll, wenn Sie Ihr Projekt in einer Sbsar-Datei veröffentlichen, die freigegeben werden kann. Siehe Parameter &quot;Gelegt in SBSAR&quot; in den Eigenschaften des [Grafen ](../../../compositing-graphs/graph-parameters/graph-parameters.md).
 
 ### Ein Wort zur Vererbung
 

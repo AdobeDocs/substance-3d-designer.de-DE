@@ -69,11 +69,11 @@ Siehe auch [Rasteratlas grayscale](../grid-atlas-grayscale/grid-atlas-grayscale.
 
 |                                   |                                                                                                                                                                                                                                                                                                                                                                    |
 |:----------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>Rastergröße X</b> *Integer* | Die Größe des Rasters auf der X-Achse.<br>D.h. die Anzahl der Bilder, die auf der X-Achse gepackt werden. |
-| <b>Rastergröße Y</b> *Integer* | Die Größe des Rasters auf der Y-Achse.<br>D.h. die Anzahl der Bilder, die auf der Y-Achse gepackt werden. |
-| <b>Ausgabegrößenmodus</b> *Integer* | Die Methode zum Definieren der Größe des Ausgabebilds gemäß dem Basisparameter &quot;Ausgabegröße&quot; des Knotens:<br><br>- <b>Manuell:</b> Verwenden Sie die Größe wie vorhanden.<br>- <b>Automatisches Verhältnis:</b> Passen Sie das Bildverhältnis gemäß der Rastergröße an, um die Bildgröße zu minimieren. Bei nicht quadratischen Rastern mit 3 Zeilen oder Spalten, z. B. 3, 2, 4, 3 |
+| <b>Raster X</b> *Ganzzahl* | Die Größe des Rasters auf der X-Achse.<br>D.h. die Anzahl der Bilder, die auf der X-Achse verpackt werden. |
+| <b>Raster Größe Y</b> *Ganzzahl* | Die Größe des Rasters auf der Y-Achse.<br>D.h. die Anzahl der Bilder, die auf der Y-Achse verpackt werden. |
+| <b>Ausgabegrößenmodus</b> *Ganzzahl* | Die Methode zum Definieren der Größe des Ausgabebilds gemäß dem Basisparameter &quot;Ausgabegröße&quot; des Knotens:<br><br>- <b>Manuell:</b> Verwenden Sie das Verhältnis &quot;Size as is&quot;.<br>- <b>Automatisch:</b> Passen Sie das Bildverhältnis entsprechend der Bildgröße an, um die Bildgröße zu minimieren. Bei nicht quadratischen Rastern mit 3 Zeilen oder Spalten, z. 3, 2, 4, 3 |
 
 ## Beispiele
 
-<img src="./grid-atlas-color.resources/grid-atlas-color-graph.png" alt="Rasteratlas-Farbknoten im Kontext eines Graphen" style="width: 50%"><br>
-<i>Rasteratlas-Farbknoten im Kontext eines Diagramms</i>
+<img src="./grid-atlas-color.resources/grid-atlas-color-graph.png" alt="Rasteratlas-Farbknoten im Kontext eines Grafen" style="width: 50%"><br>
+<i>Rasteratlas-Farbknoten im Kontext eines Grafen</i>

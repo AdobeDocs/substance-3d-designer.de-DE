@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-variable.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-variable.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie in FXMaps Iterate- und Nummernvariablen verwenden, um Schleifenmuster und prozedurale Varianten zu erstellen.
 helpx_creative_field: ""
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 ![](../../../../assets/iterate-1.jpg)
 
-Der Knoten &quot;Iterieren&quot; rendert die Knoten, die mit der rechten Ausgabe verbunden sind, so lange, wie der Wert &quot;Iterationen&quot; dies vorgibt.
+Der Knoten &quot;Iterieren&quot; rendert die Knoten, die mit der rechten Ausgabe verbunden sind, so lange, wie dies durch den Wert &quot;Iterationen&quot; angegeben wird.
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../assets/1-iteration.png"/></div> | 1 Wiederholung: das Gaußsche Muster wird einmal gerendert |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../assets/1-iteration.png"/></div> | 1 Iteration: das Gaußsche Muster wird einmal gerendert |
 | --- | --- |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="../../../../assets/10-iterations.png"/></div> | 10 Wiederholungen: Das Gaußsche Muster wird 10-mal am selben Ort gerendert. |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="../../../../assets/10-iterations.png"/></div> | 10 Iterationen: Das Gaußsche Muster wird 10-mal am selben Ort gerendert. |
 
 Wenn Sie einen Iterate-Knoten verwenden, können Sie die Variable $number verwenden, um den aktuellen Wert der Iteration abzurufen. $number ist ein Gleitkommawert und beginnt bei 0.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-burn.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-burn.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Mischknoten "Farbig nachbelichten", um Texturen abzudunkeln, indem Sie den Kontrast erhöhen, um Schatten- und Nachbelichtungseffekte zu erzeugen.
 helpx_creative_field: ""

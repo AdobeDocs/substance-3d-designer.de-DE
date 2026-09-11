@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-select.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Kantenauswahl", um Masken für die Auswahl von Gitterkanten zu generieren, um kantenbasierte Verwitterungs- und Abnutzungseffekte zu erstellen.
+description: Verwenden Sie den Knoten "Kantenauswahl", um Masken für die Auswahl von Mesh-Kanten zu generieren, um kantenbasierte Verwitterung- und Abnutzungseffekte zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Select
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 7%
 
 ## Beschreibung
 
-Generiert eine Schwarzweißmaske auf der Grundlage von durch Baking erzeugte Map und Benutzereinstellungen. Ähnlich wie [Smart Masks](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
+Erzeugt eine Schwarz-weiße Maske basierend auf durch Baking erzeugte Map und Benutzereinstellungen. Ähnlich wie [Intelligente Masken](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Diese Maske ist die beste Methode, um jede Art von Kante basierend auf der Krümmung auszuwählen. Konvex, konkav auf jeder Ebene oder mit jedem Kontrast kann isoliert werden. Dies stellt eine hervorragende Verknüpfung bereit, um dies manuell über einen Knoten mit [Ebenen zu vermeiden](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md).
+Diese Maske ist die beste Methode, um eine Kante auf Basis der Krümmung auszuwählen. Konvex, konkav auf jeder Ebene oder mit jedem Kontrast kann isoliert werden, wodurch ein hervorragender Tastaturbefehl zur Verfügung steht, um dies manuell über einen [Levels-Knoten zu vermeiden](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md).
 
 </td>
 </tr>

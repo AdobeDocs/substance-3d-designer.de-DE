@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-quadratic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-quadratic.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Spline Quadratic , um glatte quadratische Splines mit drei Kontrollpunkten zu erstellen.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Spline (quadratisch): Symbol &#x200B;](spline-quadratic.resources/spline-quadratic-icon.png "Spline (Quadratisch): Symbol ")
+![Spline (quadratisch): Symbol ](spline-quadratic.resources/spline-quadratic-icon.png "Spline (Quadratisch): Symbol ")
 
 <b>In:</b> Spline &amp; Path Tools > Spline-Werkzeuge
 

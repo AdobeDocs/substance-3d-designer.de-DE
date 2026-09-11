@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/the-function-graph.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/the-function-graph.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über das Substance von Funktionsdiagrammen in Designer zum Erstellen benutzerdefinierter Funktionen und wiederverwendbarer Knotennetzwerke.
 helpx_creative_field: ""
@@ -53,7 +53,7 @@ Die verfügbaren Knoten im Funktionsdiagramm von Substance unterscheiden sich vo
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Substance-Funktionsdiagrammknotenliste &#x200B;](../../assets/image2015-12-18-13-46-55.png "Substance-Funktionsdiagrammknotenliste ")
+![Substance-Funktionsdiagrammknotenliste ](../../assets/image2015-12-18-13-46-55.png "Substance-Funktionsdiagrammknotenliste ")
 
 </td>
 </tr>

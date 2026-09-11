@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-render.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten Spline-Render, um Splines als Texturen mit anpassbaren Breiten-, Farb- und Füllmethoden zu rendern.
+description: Verwenden Sie den Spline-Renderknoten, um Splines als Texturen mit anpassbaren Breiten-, Farb- und Füllmethoden zu rendern.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Render
 helpx_experience_level: ""
@@ -48,7 +48,7 @@ Zeichnet Zeichenfolgen von Segmenten entlang der Eingabe <b>Splines</b> über de
 | <b>Hintergrund</b> <i>Graustufen</i> | Das Graustufenbild, über das Splines gezeichnet werden sollen. |
 | <b>Spline-Kabel</b> <i>Farbe</i> | Die Koordinaten der in den RGBA-Kanälen eines Farbbildes codierten Punkte der Eingabesplines:<br><b>R</b> - X-Position<br><b>G</b> - Y-Position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br> - Sign: Spline ist geschlossen (negativ) oder offen (positiv);<br> - Absolute Wert: Thickness + 1. |
 | <b>Spline-Daten</b> <i>Farbe</i> | Zusätzliche Daten der Eingabe-Splines, die in den RGBA-Kanälen eines Farbbildes codiert sind.<br><b>R</b> - Tangenten X<br><b>G</b> - Tangenten Y<br><b>B</b> - Nicht verwendet<br><b>A</b> - Nicht verwendet |
-| <b>Spline-Betrag</b> <i>Integer</i> | Die Anzahl der Eingabe-Splines. |
+| <b>Spline-Betrag</b> <i>Ganzzahl</i> | Die Anzahl der Eingabe-Splines. |
 
 <a name="outputs"></a>
 
@@ -64,7 +64,7 @@ Zeichnet Zeichenfolgen von Segmenten entlang der Eingabe <b>Splines</b> über de
 
 |  |  |
 |:---|:---|
-| <b>Modus</b> <i>Integer</i> | Die Methode zum Auswählen der zu zeichnenden Splines:<br>- <i>Spline-Liste zeichnen</i>: Alle Splines in der Eingabeliste zeichnen;<br>- <i>Einzelne Spline zeichnen</i>: Zeichnen Sie nur den angegebenen Spline aus der Eingabeliste;<br>- <i>Spline-Bereich zeichnen</i>: Zeichnen Sie nur die Splines im angegebenen Bereich aus der Eingabeliste. |
+| <b>Modus</b> <i>Ganzzahl</i> | Die Methode zum Auswählen der zu zeichnenden Splines:<br>- <i>Spline-Liste zeichnen</i>: Alle Splines in der Eingabeliste zeichnen;<br>- <i>Einzelne Spline zeichnen</i>: Zeichnen Sie nur den angegebenen Spline aus der Eingabeliste;<br>- <i>Spline-Bereich zeichnen</i>: Zeichnen Sie nur die Splines im angegebenen Bereich aus der Eingabeliste. |
 | <b>Spline-Index zeichnen</b> <i>Integer</i> | (Verfügbar, wenn &quot;Modus&quot; auf &quot;Einzelne Spline zeichnen&quot; eingestellt ist) Der Index des Splines, der gezeichnet werden soll. |
 | <b>Spline-Bereich zeichnen</b> <i>Integer2</i> | (Verfügbar, wenn &quot;Modus&quot; auf &quot;Spline-Bereich zeichnen&quot; eingestellt ist) Der Indexbereich für die Splines, die gezeichnet werden sollen. |
 | <b>Richtungshelfer anzeigen</b> <i>Boolescher Wert</i> | Zeichnet für jeden Spline-Effekt einen Punkt am Anfang und eine Pfeilspitze an ihrem Ende. |

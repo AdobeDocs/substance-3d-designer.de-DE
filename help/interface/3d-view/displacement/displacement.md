@@ -46,7 +46,7 @@ da es derzeit vom Graf angetrieben wird.
 
 >[!TIP]
 > 
->Verwenden Sie den Knoten [Height zu normalen weltweiten Einheiten &#x200B;](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/height-normal-world-units/height-to-normal-world-units.md), und der Parameter &#39;Height-Tiefe&#39; muss mit dem Wert &#39;Height-Skalierung&#39; übereinstimmen.
+>Verwenden Sie den Knoten [Height zu normalen weltweiten Einheiten ](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/height-normal-world-units/height-to-normal-world-units.md), und der Parameter &#39;Height-Tiefe&#39; muss mit dem Wert &#39;Height-Skalierung&#39; übereinstimmen.
 >, um die richtige Schattierung bei der Verwendung von Versatz sicherzustellen.
 
 ## Höhenebene

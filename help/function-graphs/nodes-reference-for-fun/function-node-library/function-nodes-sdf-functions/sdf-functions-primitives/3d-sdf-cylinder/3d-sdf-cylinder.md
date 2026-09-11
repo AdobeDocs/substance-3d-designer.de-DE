@@ -1,6 +1,6 @@
 ---
 title: Zylinder
-description: Designer > Substance-Compositing-Graphen > Knotenreferenz für Substance-Compositing-Graphen > Knotenbibliothek > SDF-Funktion > Primitiv > Zylinder
+description: Designer > Substance-Compositing-Graf > Knotenreferenz für Substance-Compositing-Graf > Knotenbibliothek > SDF-Funktion > Primitiv > Zylinder
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '177'
@@ -40,9 +40,9 @@ Eine SDF-Funktion für einen Zylinder mit verstellbarem Height, Radius und Rundu
 
 |  |  |
 | :--- | :--- |
-| <b>Height</b> *Gleitend* | Das Z-Up-Height des Zylinders von seiner Basis.<br><br><i>Standard: 1</i> |
-| <b>Radius</b> *Gleitend* | Der Radius des Zylinders.<br><br><i>Standard: 0,5</i> |
-| <b>Rundung</b> *Gleitend* | Der Radius der abgerundeten Bögen, die auf die Kanten des Zylinders angewendet werden.<br><br><i>Hinweis:</i> harte Kanten können an den Schnittpunkten der abgerundeten Radien auftreten.<br><br><i>Standard: 0</i> |
-| <b>Pivot-Position (lokal)</b> *Float3* | Die Weltraumposition des lokalen Drehpunkts des Zylinders, wobei (0, 0, 0) den Drehpunkt in der Mitte des Zylinders platziert.<br><br><i>Standard: (0, 0, -0,5)</i> |
-| <b>Mittenposition</b> *Float3* | Die Weltraumposition des Drehpunkts des Zylinders.<br><br><i>Standard: (0, 0, 0)</i> |
-| <b>P</b> *Float3* | Die veränderte Weltraumposition. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die nicht transformierte Weltraumposition.</i> |
+| <b>Height</b> *Fließkommazahl* | Das Z-Up-Height des Zylinders von seiner Basis.<br><br><i>Standard: 1</i> |
+| <b>Radius</b> *Fließkommazahl* | Der Radius des Zylinders.<br><br><i>Standard: 0,5</i> |
+| <b>Rundung</b> *Fließkommazahl* | Der Radius der abgerundeten Bögen, die auf die Kanten des Zylinders angewendet werden.<br><br><i>Hinweis:</i> harte Kanten können an den Schnittpunkten der abgerundeten Radien auftreten.<br><br><i>Standard: 0</i> |
+| <b>Pivot-Position (lokal)</b> *Fließkommazahl3* | Die Zylinderposition des lokalen Drehpunkts des Welt-Raums, wobei (0, 0, 0) den Drehpunkt in der Zylindermitte platziert.<br><br><i>Standard: (0, 0, -0,5)</i> |
+| <b>Mittenposition</b> *Fließkommazahl3* | Die Zylinderposition des Drehpunkts des Welt-Raums.<br><br><i>Standard: (0, 0, 0)</i> |
+| <b>P</b> *Fließkommazahl3* | Die transformieren Position des Welt-Raums. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die Position des nicht transformierten Welt-Raums.</i> |

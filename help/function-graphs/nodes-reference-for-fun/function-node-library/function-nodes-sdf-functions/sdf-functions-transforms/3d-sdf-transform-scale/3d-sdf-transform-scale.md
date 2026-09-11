@@ -43,4 +43,4 @@ Einheitliche Skalierung einer SDF-Form.
 | <b>SDF</b> *Gleitend* | Die Eingabe-SDF-Form. |
 | <b>Skalierung</b> *Gleitend* | Der einheitliche Skalierungsfaktor.<br><br><i>Standard: 1</i> |
 | <b>Pivot-Position</b> *Float3* | Die Weltraum-Position des lokalen Drehpunkts der SDF-Form, wobei (0, 0, 0) den Drehpunkt in der Mitte der SDF-Form platziert. <br>Definiert den Ursprung der Skalierung.<br><br><i>Standard: (0, 0, 0)</i> |
-| <b>P</b> *Float3* | Die veränderte Weltraumposition. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die nicht transformierte Weltraumposition.</i> |
+| <b>P</b> *Float3* | Die transformieren Position des Welt-Raums. Verwenden Sie diese Eingabe, um zusätzliche Transformationen mit den Knoten <b>Offset P</b> und <b>Rotate P</b> anzuwenden.<br><br><i>Standard: Die nicht transformierte Weltraumposition.</i> |

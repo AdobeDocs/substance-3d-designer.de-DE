@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-dirty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-dirty.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Schmutz-Scratches Dirty , um schmutzige Kratzmuster zum Erstellen von verwitterten und gealterten Material-Effekten hinzuzufügen.
 helpx_creative_field: ""
@@ -45,13 +45,13 @@ Der Knoten **Schmutz Scratches Dirty** generiert eine Schmutz-Map, die einer fei
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Fließkommazahl</i> | Passt die Balance zwischen dunklen und hellen Werten an. |
-| <b>Kontrast</b> <i>Fließkommazahl</i> | Passt den Kontrast des Bildes an. |
-| <b>Umkehren</b> <i>Boolesche Wert</i> | Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird. |
-| <b>Quadratische Ausbreitung</b> <i>Boolesche Wert</i> | Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
+| <b>Saldo</b> <i>Gleitend</i> | Passt die Balance zwischen dunklen und hellen Werten an. |
+| <b>Kontrast</b> <i>Gleitend</i> | Passt den Kontrast des Bildes an. |
+| <b>Umkehren</b> <i>Boolescher Wert</i> | Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird. |
+| <b>Quadratische Ausbreitung</b> <i>Boolescher Wert</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
 | <b>Erweitert</b> |  |
-| <b>Basis-Schmutz-Intensität</b> <i>Fließkommazahl</i> | Passt die Intensität der Schmutz-Map an, die auf die Grundfläche angewendet wird. |
-| <b>Intensität der Scratches</b> <i>Fließkommazahl</i> | Passt die Intensität der Kratzer auf der Grundfläche an. |
+| <b>Basis-Schmutz-Intensität</b> <i>Gleitend</i> | Passt die Intensität der Schmutz-Map an, die auf die Grundfläche angewendet wird. |
+| <b>Intensität der Scratches</b> <i>Gleitend</i> | Passt die Intensität der Kratzer auf der Grundfläche an. |
 
 ## Beispiele
 

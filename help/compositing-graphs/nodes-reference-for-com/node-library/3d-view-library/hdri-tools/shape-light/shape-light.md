@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/shape-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/shape-light.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Licht formen , um HDRI-Umgebungen benutzerdefinierte Lichtquellen für kreative Beleuchtungseffekte hinzuzufügen.
 helpx_creative_field: ""
@@ -63,7 +63,7 @@ Erzeugt eine sphärisch projizierte rechteckige Form. Die Formtransformation wir
 | <b>Formtemperatur</b> <i>800.0 - 20000.0</i> | Nur, wenn der Formfarbmodus auf &quot;Temperatur&quot; eingestellt ist. Legt den Kelvin-Wert für die Formfarbe fest. |
 | <b>Gamma für Shape-Image-Eingabe</b> <i>sRGB, linear</i> | Nur bei aktiviertem Formfarbmodus &quot;Bildeingabe&quot;. Legen Sie fest, wie die Formbildeingabe interpretiert wird. |
 | <b>Formexposition (EV)</b> <i>0.0 - 10.0</i> | Belichtungswert für generierte Form festlegen, optimal abgestimmt auf den Belichtungswert des Hintergrundbilds. |
-| <b>Shape-Härte</b> <i>0.0 - 1.0</i> | Legen Sie die Härte von Formkanten fest. |
+| <b>Shape-Härte</b> <i>0.0 - 1.0</i> | Härte von Formkanten festlegen. |
 | <b>Hotspot-Belichtung (EV)</b> <i>0.0 - 10.0</i> | Belichtung des zentralen Hotspots festlegen. Beachten Sie, dass dies im RGB-Modus nicht sehr sichtbar ist. |
 | <b>Hotspot-Größe</b> <i>0.0 - 1.0</i> | Größe des zentralen Hotspots. |
 | <b>Hotspot-Falloff</b> <i>0.0 - 1.0</i> | Abfall des zentralen Hotspots. |

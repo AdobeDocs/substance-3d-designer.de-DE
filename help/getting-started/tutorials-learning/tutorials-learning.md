@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/getting-started/tutorials-learning.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/tutorials-learning.html"
 breadcrumb-title: ''
 description: Greife auf Tutorials und Lernressourcen für Substance 3D Designer zu, um Techniken zur Erstellung prozeduraler Materialien zu beherrschen.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ Die Dokumentation ist in erster Linie als gründliche, technische Referenz gedac
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[Tutorial-Illustration ![&#x200B; &quot;Erste Schritte&quot; &#x200B;](../../assets/64d93414-7ea9-49d9-b962-a4e6f4a12765.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/first-steps-with-substance-3d-designer?locale=en)
+[Tutorial-Illustration ![ &quot;Erste Schritte&quot; ](../../assets/64d93414-7ea9-49d9-b962-a4e6f4a12765.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/first-steps-with-substance-3d-designer?locale=en)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -43,7 +43,7 @@ Einsteiger-Reihe mit dem Fokus auf die ersten Schritte mit Designer Stellt die B
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[Tutorial-Illustration ![&#x200B; &quot;Erstellen Ihres ersten Materials&quot; &#x200B;](../../assets/d18e3495-5683-4024-a8af-d255380c0739.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/getting-started-with-substance-3d-designer?locale=en)
+[Tutorial-Illustration ![ &quot;Erstellen Ihres ersten Materials&quot; ](../../assets/d18e3495-5683-4024-a8af-d255380c0739.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/getting-started-with-substance-3d-designer?locale=en)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -60,7 +60,7 @@ Eine große Starter-Videoreihe, die dich durch den gesamten Prozess der Erstellu
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[Tutorial-Illustration ![&#x200B; &quot;QuickInfos&quot;](../../assets/ds-learn-quicktips.jpg)](https://www.youtube.com/playlist?list=PLB0wXHrWAmCy457vxKM4rQuJ-nvYm9j4M)
+[Tutorial-Illustration ![ &quot;QuickInfos&quot;](../../assets/ds-learn-quicktips.jpg)](https://www.youtube.com/playlist?list=PLB0wXHrWAmCy457vxKM4rQuJ-nvYm9j4M)
 
 </td>
 <td style="border: 0;" valign="top">

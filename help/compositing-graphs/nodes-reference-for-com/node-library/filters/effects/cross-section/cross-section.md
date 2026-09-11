@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Querschnitt", um Querschnittmasken auf der Grundlage von Height-Maps zum Schneiden und Slicing von Effekten zu erstellen.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![&#x200B; Knotensymbol &quot;Querschnitt&quot; &#x200B;](cross-section.resources/cross-section-2.png " Knotensymbol &quot;Querschnitt&quot; "){width="200px"}
+![ Knotensymbol &quot;Querschnitt&quot; ](cross-section.resources/cross-section-2.png " Knotensymbol &quot;Querschnitt&quot; "){width="200px"}
 
 <b>In:</b> Filters > Effects
 

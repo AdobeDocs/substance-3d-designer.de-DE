@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-1.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Rauschen Upscale 1, um Texturen mithilfe von Rauschen-basierten Algorithmen hochzuskalieren, um beim Erhöhen der Auflösung der Textur Details beizubehalten.
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Rauschen Upscale 1
+title: Rauschen Hochskalieren 1
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
@@ -18,7 +18,7 @@ ht-degree: 6%
 ---
 
 
-# Rauschen Upscale 1
+# Rauschen Hochskalieren 1
 
 <table>
 <tr style="border: 0;">

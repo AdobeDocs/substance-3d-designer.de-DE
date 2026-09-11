@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: Rufen Sie das Fenster "Voreinstellungen" in Substance 3D Designer auf, um Anwendungseinstellungen und -verhalten anzupassen.
 helpx_creative_field: ""
@@ -55,21 +55,21 @@ Wir empfehlen, alle diese Einstellungen zu überprüfen, um einen besseren Einbl
 
 |  |  |
 | --- | --- |
-| <b>Zoom in Ansichten umkehren</b>  *Standard: Nicht aktiviert* | Wenn diese Option aktiviert ist, werden die Zoomsteuerungen in der [2D-Ansicht](../../interface/2d-view/2d-view.md), [3D-Ansicht](../../interface/3d-view/3d-view.md) und [Diagrammen](../../interface/the-graph-view/the-graph-view.md) invertiert. |
+| <b>Zoom in Ansichten umkehren</b>  *Standard: Nicht aktiviert* | Wenn diese Option aktiviert ist, werden die Zoomsteuerungen in den [2D-Ansichten](../../interface/2d-view/2d-view.md), [3D-Ansichten](../../interface/3d-view/3d-view.md) und [Grafen](../../interface/the-graph-view/the-graph-view.md) invertiert. |
 
 ### Pfade
 
 |  |  |
 | --- | --- |
-| <b>Pfad speichern/exportieren</b>  *Standard: Letzter Pfad* | Bestimmt, ob der vorgeschlagene Speicher-/Exportpfad der zuletzt ausgewählte Pfad oder der Pfad des [SBS-Pakets](../../getting-started/overview/overview.md) ist. Der zuletzt ausgewählte Pfad wird sitzungsübergreifend gespeichert. |
-| <b>Temporärer Ordner</b>  *Standard: Pfad abhängig vom Betriebssystem des Systems* | Wenn die Bilddaten eines Diagramms den zugewiesenen Speicherpool überschreiten (siehe unter <b>Speicher > Bildcache</b>), werden die überlaufenden Daten auf den Datenträger geschrieben. Mit dieser Einstellung können Sie den Speicherort definieren, an dem die überlaufenden Bild-Cache-Daten gespeichert werden.   Dieser Speicherort wird auch verwendet, um eine Kopie des aktuell geöffneten SBS-Pakets mit den neuesten Änderungen seit dem letzten manuellen Speichern zu speichern. |
+| <b>Pfad speichern/exportieren</b>  *Standard: Letzter Pfad* | Bestimmt, ob der vorgeschlagene Speicher-/Exportpfad der zuletzt ausgewählte Pfad oder der Pfad des [SBSPakets](../../getting-started/overview/overview.md) ist. Der zuletzt ausgewählte Pfad wird sitzungsübergreifend gespeichert. |
+| <b>Temporärer Ordner</b>  *Standard: Pfad abhängig vom Betriebssystem des Systems* | Wenn die Bilddaten eines Grafen den zugewiesenen Speicherpool überschreiten (siehe unter <b>Speicher > Bildcache</b>), werden die überlaufenden Daten auf den Datenträger geschrieben. Mit dieser Einstellung können Sie den Speicherort definieren, an dem die überlaufenden Bild-Cache-Daten gespeichert werden.   Dieser Speicherort wird auch verwendet, um eine Kopie des aktuell geöffneten SBS-Pakets mit den neuesten Änderungen seit dem letzten manuellen Speichern zu speichern. |
 
 ### Datenspeicher
 
 #### Bildcache
 
-Die Anwendung speichert im Cache ein *unkomprimiertes Bild mit voller Auflösung* für jeden gerenderten Knoten im aktuellen Diagramm.\
-Instanzknoten generieren diese Bilder für alle Knoten des Diagramms, auf das sie verweisen, und löschen sie, nachdem ihre [Ausgaben](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) berechnet wurden. Zu diesem Zeitpunkt werden nur die Ausgänge im Speicher gespeichert.
+Die Anwendung speichert ein *unkomprimiertes Bild mit voller Auflösung* für jeden gerenderten Knoten im aktuellen Graf im Cache.\
+Instanzknoten generieren diese Images für alle Nodes des Grafen, auf den sie verweisen, und löschen sie, nachdem ihre [Ausgaben](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) berechnet wurden. Zu diesem Zeitpunkt werden nur die Ausgänge im Speicher gespeichert.
 
 Sie können die maximale Cachegröße festlegen, die Miniaturansichten und Bildern im Systemspeicher zugewiesen wird, und die aktuelle Verwendung anzeigen. Wenn die Cachedaten den zugewiesenen Pool überlaufen, werden die überschüssigen Daten in den <b>Temporary Folder</b> geschrieben (siehe <b>Pfade > Temporary folder</b>).
 
@@ -77,8 +77,8 @@ Sie können die maximale Cachegröße festlegen, die Miniaturansichten und Bilde
 | --- | --- |
 | <b>Arbeitsspeicherbudget</b>  *Standard: Automatisch* | Diese Zuweisung wird automatisch auf ca. 75 % des gesamten Systemspeicherpools berechnet. Um diesen Wert manuell festzulegen, wählen Sie die Option &quot;*Custom*&quot; und legen Sie einen Wert im benachbarten Eingabefeld fest. |
 
-Beachten Sie, dass das Schreiben auf die Festplatte um *Größenordnungen langsamer ist* als das Schreiben in den Systemspeicher. Daher nimmt die Diagrammwiedergabezeit *exponentiell zu*, da überlaufende Daten in den temporären Ordner geschrieben werden müssen.\
-Um dies zu verhindern, empfehlen wir, die Vorschläge zum Verringern des Speicherbedarfs eines Diagramms im Abschnitt [Leistungsoptimierungsrichtlinien](../../best-practices/performance-optimization/performance-optimization-guidelines.md) der Dokumentation zu lesen.
+Beachten Sie, dass das Schreiben auf die Festplatte um *Größenordnungen langsamer ist* als das Schreiben in den Systemspeicher. Daher nimmt die Renderzeit des Grafen *exponentiell zu*, da überlaufende Daten in den temporären Ordner geschrieben werden müssen.\
+Um dies zu verhindern, empfehlen wir, die Vorschläge zum Verringern des Speicherplatzbedarfs eines Grafen im Abschnitt [Richtlinien zur Leistungsoptimierung](../../best-practices/performance-optimization/performance-optimization-guidelines.md) der Dokumentation zu lesen.
 
 #### Jobplaner
 
@@ -97,7 +97,7 @@ Mit dieser Einstellung können Sie den zugewiesenen Speicherpool für *alle glei
 
 ### Automatische Sicherungskopie
 
-Standardmäßig ist eine Funktion zum automatischen Speichern enthalten, die Kopien des aktuellen Status von offenen [SBS Paketen &#x200B;](https://docs.substance3d.com/display/DRAFTDESIGNER/.Overview+vDraftVersion) zu festgelegten Zeitpunkten erstellt. Automatisch gespeicherte Dateien werden in einem Ordner &quot;<b>.autosave</b>&quot; am SBS Speicherort des Pakets abgelegt.
+Standardmäßig ist eine Funktion zum automatischen Speichern enthalten, die Kopien des aktuellen Status von offenen [SBS Paketen ](https://docs.substance3d.com/display/DRAFTDESIGNER/.Overview+vDraftVersion) zu festgelegten Zeitpunkten erstellt. Automatisch gespeicherte Dateien werden in einem Ordner &quot;<b>.autosave</b>&quot; am SBS Speicherort des Pakets abgelegt.
 
 |  |  |
 | --- | --- |
@@ -111,7 +111,7 @@ Beachten Sie auch, dass automatische Speichervorgänge geöffnet werden sollten 
 
 |  |  |
 | --- | --- |
-| <b>Speichern Sie die SBS-Datei immer, wenn Sie sie in SBSAR veröffentlichen oder an eine andere Anwendung senden</b>  *Standard: Wahr* | Steuert das automatische Speichern des SBS, wenn [es &#x200B;](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) veröffentlicht oder an eine andere Anwendung gesendet wird. |
+| <b>Speichern Sie die SBS-Datei immer, wenn Sie sie in SBSAR veröffentlichen oder an eine andere Anwendung senden</b>  *Standard: Wahr* | Steuert das automatische Speichern des SBS, wenn [es ](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) veröffentlicht oder an eine andere Anwendung gesendet wird. |
 
 ### Cooker
 
@@ -191,7 +191,7 @@ Weitere Informationen finden Sie auf der Seite [Projekteinstellungen](../../inte
 
 |  |  |
 | --- | --- |
-| <b>GPU-Raytracing</b>  *Standard: Aktiviert* | Wenn diese Option aktiviert ist, wird Raytracing für [kompatible Bäcker](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/features/gpu-raytracing) auf der GPU durchgeführt.   Je nach NVIDIA-GPU-Architektur sind die folgenden GPU-Raytracing-Backends die Standardeinstellungen:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Touring und neuer</li> <li data-preserve-html="true"><i>Optix</i>: Pascal und Maxwell</li> </ul>  **Hinweis:** Weitere Informationen zu GPU-betriebenen Bäckereien finden Sie im Abschnitt [GPU-Raytracing](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/features/gpu-raytracing) der Dokumentation [Substance Bakers](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/home).  **Tipp:** Sie können die folgenden *Befehlszeilenargumente* verwenden, wenn Sie die Anwendung starten, um *die Verwendung eines anderen GPU-Raytracing-Backends zu erzwingen*: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : Erzwingen der Verwendung von Optix auf Nvidia Turing oder neueren GPUs</li> <li data-preserve-html="true"><code>—force-dxr</code> : die Verwendung von DXR auf Nvidia Pascal-GPUs erzwingen</li> </ul> |
+| <b>GPU-Raytracing</b>  *Standard: Aktiviert* | Wenn diese Option aktiviert ist, wird Raytracing für [kompatible Bäcker](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) auf der GPU durchgeführt.   Je nach NVIDIA-GPU-Architektur sind die folgenden GPU-Raytracing-Backends die Standardeinstellungen:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Touring und neuer</li> <li data-preserve-html="true"><i>Optix</i>: Pascal und Maxwell</li> </ul>  **Hinweis:** Weitere Informationen zu GPU-betriebenen Bäckereien finden Sie im Abschnitt [GPU-Raytracing](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) der Dokumentation [Substance Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).  **Tipp:** Sie können die folgenden *Befehlszeilenargumente* verwenden, wenn Sie die Anwendung starten, um *die Verwendung eines anderen GPU-Raytracing-Backends zu erzwingen*: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : Erzwingen der Verwendung von Optix auf Nvidia Turing oder neueren GPUs</li> <li data-preserve-html="true"><code>—force-dxr</code> : erzwingen der Verwendung von DXR auf Nvidia Pascal-GPUs</li> </ul> |
 
 ## Bibliothek
 
@@ -201,18 +201,18 @@ Weitere Informationen finden Sie auf der Seite [Projekteinstellungen](../../inte
 
 ## Kürzel
 
-Sie können benutzerdefinierte Tastaturbefehle zum Erstellen von Knoten in Graf zuweisen.
+Sie können benutzerdefinierte Tastaturbefehle zum Erstellen von Knoten in Diagrammen zuweisen.
 
-Kurzbefehle können für Graf aller Knotenarten zugewiesen werden: [Substance-Graf](../../compositing-graphs/substance-compositing-graphs.md), [Substance-Graf](../../function-graphs/function-graphs.md) und [FX-Map-Graf](../../function-graphs/fxmaps/fxmaps.md).
+Verknüpfungen können für Knoten in allen Diagrammtypen zugewiesen werden: [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md), [Substance function graphs](../../function-graphs/function-graphs.md) und [FX-Map graphs](../../function-graphs/fxmaps/fxmaps.md).
 
-Jedem Knoten kann ein Tastaturbefehl zugewiesen werden, sogar benutzerdefinierte Bibliotheksknoten. Ein und derselbe Tastaturbefehl kann unterschiedlichen Grafen zugeordnet werden. Standardmäßig sind keine Tastaturbefehle zugewiesen, Sie können dies nach Ihren Wünschen anpassen.
+Jedem Knoten kann eine Verknüpfung zugewiesen werden, sogar benutzerdefinierte Bibliotheksknoten. Dieselbe Tastenkombination kann in verschiedenen Diagrammtypen zugewiesen werden. Standardmäßig sind keine Tastaturbefehle zugewiesen, Sie können dies nach Ihren Wünschen anpassen.
 
-Bei einem Konflikt mit einem anderen Node Tastaturbefehl oder einem eingebauten Programm Tastaturbefehl wird der Eintrag hervorgehoben und eine Warnmeldung angezeigt. Der Tastaturbefehl hat *keine Auswirkungen*, bis der Konflikt gelöst ist.
+Bei einem Konflikt mit einem anderen Knoten-Tastaturbefehl oder einem integrierten Programmbefehl wird der Eintrag hervorgehoben und eine Warnung wird angezeigt. Der Tastaturbefehl hat *keine Auswirkungen*, bis der Konflikt gelöst ist.
 
 >[!IMPORTANT]
 >
 > Von Python-Plug-ins überschriebene Tastaturbefehle
 > 
-> Wenn ein Python-Plug-in einen Tastatur-Tastaturbefehl definiert, der einem Knoten zugewiesen ist, überschreibt das Plug-in diesen Tastaturbefehl. Das bedeutet, dass die Taste die Plug-in-Aktion auslöst, anstatt einen Knoten zu erstellen.
+> Wenn ein Python-Plug-in einen Tastaturbefehl definiert, der einem Knoten zugewiesen ist, überschreibt das Plug-in diesen Tastaturbefehl. Das bedeutet, dass die Taste die Plug-in-Aktion auslöst, anstatt einen Knoten zu erstellen.
 > 
 > Dies ist bereits bei den Tasten H, S und V der Fall, die von den [Knotenausrichtungstools](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md) verwendet werden.

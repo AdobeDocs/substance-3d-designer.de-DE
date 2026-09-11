@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms.html"
 breadcrumb-title: ''
-description: Greifen Sie in Substance 3D Designer auf Transformationsfilterknoten zu, um geometrische Transformationen auf Texturen und Muster anzuwenden.
+description: Greifen Sie in Substance 3D Designer auf transformieren Filterknoten zu, um geometrische Transformationen auf Texturen und Muster anzuwenden.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 Diese Kategorie enthält eine große Anzahl erweiterter Transformationsknoten für Einkanaleingaben.
 
-Verwenden Sie die <b>Navigationsliste auf der linken Seite</b>, um alle Knoten unter &quot;Transformationen&quot; zu durchsuchen.
+Verwenden Sie die <b>Navigationsliste auf der linken Seite</b>, um alle Knoten unter &quot;Transformieren&quot; zu durchsuchen.
 
 Die folgenden Knoten sind nützliche Beispiele für den Einstieg:
 

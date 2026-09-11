@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über die Oberfläche des Substance 3D Designer-Arbeitsbereichs, einschließlich Ansichten, Bedienfeldern und Anpassungsoptionen.
 helpx_creative_field: ""
@@ -34,19 +34,19 @@ Hier ist das Standarddock-Layout von Designer:
 
 <b>2</b> Explorer
 
-<b>3</b> Diagrammansicht
+<b>3</b> Graphansicht
 
 </td>
 <td style="border: 0;" valign="top">
 
 <b>4</b> Eigenschaften
 
-<b>5</b> 2D-Ansicht
+<b>5</b> 2D-Ansichten
 
 </td>
 <td style="border: 0;" valign="top">
 
-<b>6</b> 3D-Ansicht
+<b>6</b> 3D-Ansichten
 
 <b>7</b> Bibliothek
 
@@ -68,7 +68,7 @@ Hier ist das Standarddock-Layout von Designer:
 
 ## Hauptmenü und Symbolleiste
 
-Mit der Hauptsymbolleiste können Sie auf zusätzliche Menüs zugreifen, z. B. auf das Fenster [Voreinstellungen](../interface/preferences-window/preferences-window.md), und es gibt einige Schaltflächen, mit denen Sie schnell ein neues Substance-Diagramm und -Paket erstellen können.
+Mit der Hauptsymbolleiste können Sie auf zusätzliche Menüs zugreifen, z. B. auf das Fenster [Voreinstellungen](../interface/preferences-window/preferences-window.md), und es gibt einige Schaltflächen, mit denen Sie schnell einen neuen Substance-Graf und ein neues Paket erstellen können.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -87,15 +87,15 @@ Mit der Hauptsymbolleiste können Sie auf zusätzliche Menüs zugreifen, z. B. a
 
 ## Explorer
 
-[Das Explorer-Fenster &quot;](the-explorer-window/the-explorer-window.md)&quot; ist die Hauptinteraktion mit Dateien und Ressourcen jeder Art. Es bietet mehr Optionen als das Menü &quot;Datei&quot; auf der Hauptsymbolleiste. Hier können Sie jede Arbeitssitzung starten und beenden.
+[Das Explorer-Fenster &quot;](the-explorer-window/the-explorer-window.md)&quot; ist die Hauptinteraktionsmethode für alle Dateiformate und Ressourcen. Es bietet mehr Optionen als das Menü &quot;Datei&quot; auf der Hauptsymbolleiste. Hier können Sie jede Arbeitssitzung starten und beenden.
 
 ![Explorer](../assets/explorer-4.png "Explorer")
 
-## Diagrammansicht
+## Graphansicht
 
-[Das Graphansicht-Dock &#x200B;](../interface/the-graph-view/the-graph-view.md) ist das wichtigste Fenster in Substance 3D Designer. Es zeigt die Knotennetzwerke eines beliebigen Grafen an, der in Designer verfügbar ist ([Substance-Graf](../compositing-graphs/substance-compositing-graphs.md), [Substance-Funktions-Graf](../function-graphs/function-graphs.md), [FX-Map-Graf](../function-graphs/fxmaps/fxmaps.md)), und ermöglicht das Erstellen und Bearbeiten dieser .
+[Das Graphansicht-Dock ](../interface/the-graph-view/the-graph-view.md) ist das wichtigste Fenster in Substance 3D Designer. Es zeigt die Knotennetzwerke eines beliebigen Grafen an, der in Designer verfügbar ist ([Substance-Graf](../compositing-graphs/substance-compositing-graphs.md), [Substance-Funktions-Graf](../function-graphs/function-graphs.md), [FX-Map-Graf](../function-graphs/fxmaps/fxmaps.md)), und ermöglicht das Erstellen und Bearbeiten dieser .
 
-![Diagrammansicht](../assets/graph-6.png "Diagrammansicht")
+![Graphansicht](../assets/graph-6.png "Graphansicht")
 
 ## Eigenschaften
 
@@ -105,18 +105,18 @@ Das [Eigenschaften-Dock](properties/properties.md) ist das technisch ausgereifte
 
 ## 2D-Ansicht
 
-[Die 2D-Ansicht &#x200B;](../interface/2d-view/2d-view.md) ist das einfachste Vorschauwerkzeug. Es arbeitet eng mit der Grafik zusammen: Wenn Sie auf einen Knoten in der Diagrammansicht doppelklicken, wird das visuelle Ergebnis in der 2D-Ansicht angezeigt.
+[Die 2D-Ansicht ](../interface/2d-view/2d-view.md) ist das einfachste Vorschauwerkzeug. Sie arbeitet eng mit dem Graf zusammen: Wenn Sie auf einen beliebigen Knoten in der Graphansicht doppelklicken, wird das Ergebnis in der 2D-Ansicht angezeigt.
 
 ![2D-Ansicht](../assets/2d-view-1.jpg "2D-Ansicht")
 
 ## 3D-Ansicht
 
-[Die 3D-Ansicht](../interface/3d-view/3d-view.md) ist das interaktivste und fortschrittlichste Vorschaufenster. Im Gegensatz zur 2D-Ansicht werden verschiedene Ausgabemaps verwendet, um das gesamte Material zu rendern. Das bedeutet, dass alle dargestellten Kanäle angezeigt werden, z. B. &quot;Grundfarbe&quot;, &quot;Normal&quot; und &quot;Raueit&quot;.
+[Die 3D-Ansicht ](../interface/3d-view/3d-view.md) ist das interaktivste und fortschrittlichste Vorschaufenster. Im Gegensatz zur 2D-Ansicht verwendet es eine Reihe verschiedener Ausgabemaps, um ein vollständiges Material zu rendern. Das bedeutet, dass alle dargestellten Kanäle angezeigt werden, z. B. &quot;Grundfarbe&quot;, &quot;Normal&quot; und &quot;Rauheit&quot;.
 
 ![3D-Ansicht](../assets/3dview-3.jpg "3D-Ansicht")
 
 ## Bibliothek
 
-[Das Bibliotheks-Dock &#x200B;](../interface/the-library/the-library.md) bietet standardmäßig Zugriff auf alle Inhalte, die in der Designer-Bibliothek enthalten sind, sowie auf Ihre [benutzerdefinierten Inhalte](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md). Um den Unterschied zwischen den Atomknoten und den Instanzknoten in der Bibliothek besser zu verstehen, lesen Sie unbedingt die Übersicht über die [Knoten](https://helpx.adobe.com/substance-designer/using/nodes-overview.html).
+[Das Bibliotheks-Dock ](../interface/the-library/the-library.md) bietet standardmäßig Zugriff auf alle Inhalte, die in der Designer-Bibliothek enthalten sind, sowie auf Ihre [benutzerdefinierten Inhalte](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md). Um den Unterschied zwischen Elementare Knoten und Instanzknoten in der Bibliothek besser zu verstehen, lesen Sie unbedingt die Übersicht über [Knoten](https://helpx.adobe.com/substance-designer/using/nodes-overview.html).
 
 ![Bibliothek](../assets/library-3.jpg "Bibliothek")

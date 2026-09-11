@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rock-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rock-weathering.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Felsverwitterung", um Wettermuster auf Felsoberflächen basierend auf der Gittergeometrie für realistische Erosionseffekte zu generieren.
 helpx_creative_field: ""
@@ -72,14 +72,14 @@ ht-degree: 16%
 | <b>Steinsättigung verwendet</b> <i>0.0 - 1.0</i> |  |
 | <b>Rockhelligkeit verwendet</b> <i>0.0 - 1.0</i> |  |
 | <b>Überblenden</b> |  |
-| <b>Diffuse-Intensität</b> <i>0.0 - 1.0</i> | Mischungsstärke des Diffusors. |
-| <b>Intensität der Grundfarbe</b> <i>0.0 - 1.0</i> | Mischungsstärke der Grundfarbe. |
-| <b>Normalintensität</b> <i>0.0 - 64.0</i> | Die Füllkraft von &quot;Normal&quot;. |
-| <b>Specular-Intensität</b> <i>0.0 - 1.0</i> | Die Stärke des Speculars. |
-| <b>Glanz-Intensität</b> <i>0.0 - 1.0</i> | Die Stärke des Glanzes beim Mischen. |
-| <b>Intensität der Rauheit</b> <i>0.0 - 1.0</i> | Die Stärke der Raueit. |
-| <b>Ambient occlusion-Intensität</b> <i>0.0 - 1.0</i> | Mischfestigkeit der Ambient-Verdeckung. |
-| <b>Height-Intensität</b> <i>0.0 - 1.0</i> | Die Stärke des Heights beim Mischen. |
+| <b>Diffuse-Intensität</b> <i>0.0 - 1.0</i> | Die Stärke der Diffuse. |
+| <b>Intensität der Grundfarbe</b> <i>0.0 - 1.0</i> | Die Stärke der Grundfarbe. |
+| <b>Normalintensität</b> <i>0.0 - 64.0</i> | Die Stärke der Normalverteilung. |
+| <b>Specular-Intensität</b> <i>0.0 - 1.0</i> | Die Stärke des Speculars verschmelzen. |
+| <b>Glanz-Intensität</b> <i>0.0 - 1.0</i> | Die Stärke des Glanzes. |
+| <b>Intensität der Rauheit</b> <i>0.0 - 1.0</i> | Die Stärke der Rauheit. |
+| <b>Ambient occlusion-Intensität</b> <i>0.0 - 1.0</i> | Stärke der Ambient occlusion. |
+| <b>Height-Intensität</b> <i>0.0 - 1.0</i> | Die Stärke des Heights. |
 
 ## Beispiele
 

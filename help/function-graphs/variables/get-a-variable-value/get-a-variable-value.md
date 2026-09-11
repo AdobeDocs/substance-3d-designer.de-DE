@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/variables/get-a-variable-value.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/get-a-variable-value.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Variablenwerte in Substance 3D Designer-Funktionsdiagrammen mithilfe des Knotens "Variable abrufen" abrufen.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-worley-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-worley-noise.html"
 breadcrumb-title: ''
 description: Verwenden Sie den 3D Worley Rauschen-Knoten, um Worley Rauschen auf der Grundlage der 3D-Position zu generieren, um volumetrische Textur-Effekte zu erzeugen.
 helpx_creative_field: ""

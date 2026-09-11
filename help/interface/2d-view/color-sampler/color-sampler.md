@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/2d-view/color-sampler.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view/color-sampler.html"
 breadcrumb-title: ''
 description: Verwenden Sie das Sampler-Farbwerkzeug in der 2D-Ansicht, um Farben aus Texturen für eine präzise Farbübereinstimmung aufzunehmen.
 helpx_creative_field: ""
@@ -71,7 +71,7 @@ Die Informationen sind in drei Typen und zwei Formate unterteilt.
 * <b>Aufgenommene Farbe</b> in der HSV-Darstellung:\
   8-Bit-Ganzzahl/Gleitkomma
 * <b>Position</b> des Pixels in Pixel und normalisiertem Bildbereich:\
-  Ganzzahl/Gleitkomma
+  Ganzzahl / Gleitkomma
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -82,11 +82,11 @@ Die Informationen sind in drei Typen und zwei Formate unterteilt.
 </tr>
 </table>
 
-Der Wert hängt von der im Bild verwendeten Bittiefe ab. In einem Substance-Diagramm wird die Bittiefe durch das <b>Ausgabeformat</b> gesteuert. [Basisparameter](../../../compositing-graphs/graph-parameters/graph-parameters.md).
+Der Wert hängt von der im Bild verwendeten Bittiefe ab. In einem Substance-Graf wird die Bittiefe durch das <b>Ausgabeformat</b> gesteuert. [Basisparameter](../../../compositing-graphs/graph-parameters/graph-parameters.md).
 
 Die verfügbaren Bittiefen sind:
 
-* <b>Ganzzahl mit 8 Bit:</b> 256 Ganzzahlen von 0 bis 255.
-* <b>Ganzzahl mit 16 Bit:</b> 65.536 Ganzzahlwerte von 0 bis 65.535.
-* <b>Niedrige HDR-Präzision (16 Bit)</b>: Ein Gleitkommawert, der mit 16-Bit codiert ist.
-* <b>Hohe Präzision von HDR (32 Bit)</b>: Ein Gleitkommawert, der mit 32-Bit codiert ist. Dies ist die höchste in Designer verfügbare Präzision.
+* <b>8-Bit-Ganzzahl:</b> 256 Werte für die Ganzzahl von 0 bis 255.
+* <b>16-Bit-Ganzzahl:</b> 65.536 Ganzzahl-Werte von 0 bis 65.535.
+* <b>HDR. niedrige Genauigkeit (16 Bit)</b>: Ein Fließkommawert, der mit 16-Bit codiert ist.
+* <b>HDR. hohe Genauigkeit (32 Bit)</b>: Ein Fließkommawert, der mit 32-Bit codiert ist. Dies ist die höchste in Designer verfügbare Präzision.

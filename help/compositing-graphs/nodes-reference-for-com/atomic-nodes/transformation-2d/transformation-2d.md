@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "2D-Transformation", um 2D-Transformationen auf Texturen anzuwenden, einschließlich Translation, Drehung und Skalierung.
 helpx_creative_field: ""
@@ -65,7 +65,7 @@ Es kann jedoch für bestimmte Anwendungen nicht perfekt geeignet sein, sodass di
 >
 > Deaktivieren der Unterteilung
 > 
-> Legen Sie die [Vererbung-Methode](../../../../glossary/glossary.md) des [Basisparameters &#x200B;](../../../../glossary/glossary.md) für den &#39;Kachelung-Modus&#39; auf &#39;Absolut&#39; fest. Dann können Sie den Parameterwert auf &#39;Keine Kachelung&#39; festlegen:
+> Legen Sie die [Vererbung-Methode](../../../../glossary/glossary.md) des [Basisparameters ](../../../../glossary/glossary.md) für den &#39;Kachelung-Modus&#39; auf &#39;Absolut&#39; fest. Dann können Sie den Parameterwert auf &#39;Keine Kachelung&#39; festlegen:
 > 
 > ![](transformation-2d.resources/tilingmode.png)
 

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random/hash-functions.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random/hash-functions.html"
 breadcrumb-title: ''
-description: Verwenden Sie Hashfunktionen in Funktionsdiagrammen, um deterministische Zufallswerte basierend auf Eingangskoordinaten zu generieren.
+description: Verwenden Sie Hashfunktionen in Funktions-Grafen, um deterministische Zufallswerte auf der Grundlage von Eingangskoordinaten zu generieren.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Function node library > Random > Hash
 helpx_experience_level: ""
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Hashknoten: Symbol &#x200B;](../../../../../assets/hash-icon.png "Hashknoten: Symbol "){width="200px"}
+![Hashknoten: Symbol ](../../../../../assets/hash-icon.png "Hashknoten: Symbol "){width="200px"}
 
 <b>In:</b> Funktionen > Zufällig
 
@@ -70,7 +70,7 @@ Verfügbare Versionen mit Eingabe- und Ausgabetyp:
 </tr>
 </table>
 
-## Eingangsanschlüsse
+## Eingabe-Verbindungen
 
 |  |  |
 | --- | --- |

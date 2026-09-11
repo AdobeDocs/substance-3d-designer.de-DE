@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/polar-to-cartesian.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/polar-to-cartesian.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Polar in Kartesische Produkt", um Texturen von Polarkoordinaten in Kartesische Produkt-Koordinaten zu konvertieren.
+description: Verwenden Sie den Knoten "Polar" in "Kartesisch", um Texturen von Polarkoordinaten in kartesische Koordinaten zu konvertieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Polar to Cartesian
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Polar zu Kartesische Produkt
+title: polar-kartesisch
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
@@ -18,7 +18,7 @@ ht-degree: 4%
 ---
 
 
-# Polar zu Kartesische Produkt
+# polar-kartesisch
 
 <table>
 <tr style="border: 0;">
@@ -35,7 +35,7 @@ ht-degree: 4%
 
 ## Beschreibung
 
-Konvertiert eine Eingabe in Polarkoordinaten (Winkel &amp; Radius) in Kartesische Produkt-Koordinaten (X &amp; Y). Umgekehrt ist mit [Kartesische Produkt zu Polar](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/cartesian-to-polar/cartesian-to-polar.md) möglich.
+Konvertiert eine Eingabe in Polarkoordinaten (Winkel &amp; Radius) in kartesische Koordinaten (X &amp; Y). Umgekehrt ist mit [kartesisch zu polar](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/cartesian-to-polar/cartesian-to-polar.md) möglich.
 
 </td>
 </tr>

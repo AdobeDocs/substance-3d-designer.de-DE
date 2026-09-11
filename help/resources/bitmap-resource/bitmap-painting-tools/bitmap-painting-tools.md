@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
 breadcrumb-title: ''
 description: Mit den Bitmap-Malwerkzeugen in Substance 3D Designer können Sie direkt auf Bitmap-Ressourcen malen, um Strukturen zu bearbeiten.
 helpx_creative_field: ""
@@ -48,7 +48,7 @@ Bearbeitungen können *einzeln rückgängig gemacht werden*, und alle anderen Fu
 
 Die Malwerkzeuge werden automatisch im Bedienfeld [2D-Ansicht](../../../interface/2d-view/2d-view.md) aktiviert, wenn die folgenden Kriterien für eine Bitmap erfüllt sind:
 
-* Die Bitmap ist eine [neue oder importierte &#x200B;](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)-Ressource.
+* Die Bitmap ist eine [neue oder importierte ](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)-Ressource.
 * Die Bitmap weist die Präzision *8-Bit* auf.
 * Die Bitmap wird im Bereich [2D-Ansicht](../../../interface/2d-view/2d-view.md) angezeigt.
 
@@ -207,7 +207,7 @@ Die vom Pinsel angewendete Farbe wird durch die *ausgewählte Primärfarbe* defi
 
 <b>Sättigungsjitter</b>: lässt Sie *randomisieren* die Farbsättigung *offset* pro Stempel, ausgedrückt als *Prozentsatz* des gesamten Sättigungsbereichs
 
-<b>Helligkeitsjitter</b>: lässt Sie *randomisieren* die Farbhelligkeit *offset* pro Stempel, ausgedrückt als *Prozentsatz* der gesamten Helligkeitsspanne
+<b>Helligkeits-Jitter</b>: lässt Sie *randomisieren* die Farbhelligkeit *offset* pro Stempel, ausgedrückt als *Prozentsatz* der gesamten Helligkeitsspanne
 
 +++
 

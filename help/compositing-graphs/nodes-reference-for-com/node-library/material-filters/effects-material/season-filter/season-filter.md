@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/season-filter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/season-filter.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Saisonfilter", um saisonale Effekte auf Materialien anzuwenden, um Variationen für den Frühling, den Sommer, den Herbst und den Winter zu erstellen.
+description: Verwenden Sie den Filterknoten "Jahreszeit", um saisonale Effekte auf Materialien anzuwenden, um Frühlings-, Sommer-, Herbst- und Wintervariationen zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Season Filter
 helpx_experience_level: ""
@@ -37,7 +37,7 @@ Dieser Knoten fügt Effekte wie einen animierten Wasserstand, Schnee, Eis und/od
 
 Beachten Sie, dass es sich um einen älteren Filter handelt, der nicht vollständig auf PBR-Richtigkeit ausgelegt ist. Es wird hauptsächlich aus Legacy-/Kompatibilitätsgründen beibehalten, kann aber in einigen Fällen immer noch nützlich sein. Neuere PBR-richtige Versionen finden Sie in [Snow Cover](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/snow-cover/snow-cover.md) und [Wasserstand](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/water-level/water-level.md).
 
-Der Knoten benötigt einen richtigen Satz von Materialeingaben, hauptsächlich mit einer ausreichend detaillierten Höhen- oder Normalmap.
+Der Node benötigt einen richtigen Satz von Material-Eingängen, hauptsächlich mit einer ausreichend detaillierten Höhen- oder Normalmap.
 
 </td>
 </tr>
@@ -57,7 +57,7 @@ Der Knoten benötigt einen richtigen Satz von Materialeingaben, hauptsächlich m
 
 |  |  |
 |:---|:---|
-| <b>Kanäle</b> | Schalten Sie die Materialkanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanzkarten anstelle von &quot;Metallisch/Raueit&quot; verwenden. |
+| <b>Kanäle</b> | Schalten Sie die Material-Kanäle in dieser Gruppe ein und aus, z. B. wenn Sie Specular-/Glanz-Maps anstelle von &quot;Metallic/Rauheit&quot; verwenden. |
 | <b>Erweitert</b> |  |
 | <b>Normales Format</b> <i>DirectX, OpenGL</i> | Wechselt zwischen verschiedenen Normalmap-Formaten (invertiert den grünen Kanal). |
 | <b>Maske</b> <i>False/True</i> | Schaltet die Verwendung der Maskenkarte ein oder aus. |
@@ -87,4 +87,4 @@ Der Knoten benötigt einen richtigen Satz von Materialeingaben, hauptsächlich m
 | <b>Glanz-Intensität</b> <i>0.0 - 1.0</i> | Die Stärke des Glanzes beim Mischen. |
 | <b>Intensität der Rauheit</b> <i>0.0 - 1.0</i> | Die Stärke der Raueit. |
 | <b>Ambient occlusion-Intensität</b> <i>0.0 - 1.0</i> | Mischfestigkeit der Ambient-Verdeckung. |
-| <b>Height-Intensität</b> <i>0.0 - 1.0</i> | Die Stärke des Heights. |
+| <b>Height-Intensität</b> <i>0.0 - 1.0</i> | Die Stärke des Heights beim Mischen. |

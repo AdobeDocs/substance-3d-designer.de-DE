@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie SetSequence-Knoten in FXMaps verwenden, um sequenzielle Muster und prozedurale Varianten zu erstellen.
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ Auf dieser Seite werden die Knoten &quot;**Set**&quot; und &quot;**Sequence**&qu
 
 ## Überblick
 
-Bei der Arbeit mit Funktionen in <b>FX-Maps</b> befinden Sie sich gelegentlich in Situationen, in denen Sie einen Wert aus dem *[Substance-Funktionsdiagramm eines Parameters](../../../../function-graphs/the-function-graph/the-function-graph.md)* ausgeben möchten, sodass Sie ihn *in einem anderen Funktionsdiagramm verwenden können.* Standardmäßig gibt ein Substance-Funktionsdiagramm jedoch nur den Wert *one* aus: der, der den zugehörigen Parameter steuert.
+Bei der Arbeit mit Funktionen in <b>FX-Maps</b> befinden Sie sich gelegentlich in Situationen, in denen Sie einen Wert aus dem *[Substance-Funktionsparameter](../../../../function-graphs/the-function-graph/the-function-graph.md)* eines Grafen ausgeben möchten, sodass Sie ihn *in einem anderen Parameter verwenden können.* Standardmäßig gibt ein Substance-Funktions-Graf jedoch nur den Wert *one* aus: der, der den zugehörigen Parameter steuert.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ In diesem Fall können Sie die Kombination aus <b>Set</b> und <b>Sequence</b>-Kn
 Dieser Vorgang umfasst zwei Schritte:
 
 1. Mit dem Knoten <b>Set</b> können Sie eine neue Variable erstellen, sodass Sie sie an einer anderen Stelle aufrufen und ihr einen Wert zuweisen können.
-1. Der Knoten <b>Sequenz</b> wird verwendet, um die Logik in Schritt 1 vollständig auszuführen, *bevor ein weiterer Zweig* des Diagramms ausgeführt wird - z. B. die Logik, die tatsächlich an der Ausgabe des erwarteten Werts für das aktuelle Diagramm beteiligt ist.
+1. Der Knoten <b>Sequenz</b> wird verwendet, um die Logik in Schritt 1 vollständig auszuführen, *bevor ein weiterer Zweig* des Grafen ausgeführt wird - z. B. die Logik, die tatsächlich an der Ausgabe des erwarteten Werts für den aktuellen Graf beteiligt ist.
 
 <table>
 <tr style="border: 0;">
@@ -56,7 +56,7 @@ Mit dem Knoten <b>Set</b> können Sie eine neue Variable festlegen und ihr den T
 
 Der *Name* der Variable wird vom Benutzer in die Eigenschaften des Knotens eingegeben.
 
-Standardmäßig ist die von diesem Knoten festgelegte Variable *only*, auf die im Rahmen des *übergeordneten* dieses Funktionsdiagramms zugegriffen werden kann, z. B. der Substance, der den von der Funktion definierten Parameter hostet.
+Standardmäßig ist die von diesem Graf festgelegte Variable *only*, auf die im Rahmen des *übergeordneten* dieses Funktionsknotens zugegriffen werden kann, z. B. der Substance, der den von der definierten Parameter hostet.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
@@ -88,7 +88,7 @@ In diesem Beispiel wurde der Variablenname auf &quot;**`myVariable`**&quot; fest
 
 ## Der Sequenzknoten
 
-Der Knoten <b>Sequenz</b> gibt Ihnen die Kontrolle über den *Ausführungsfluss* der Substance-Funktionsdiagramme, indem Sie sicherstellen, dass die *erste Verzweigung vollständig vor der zweiten Verzweigung ausgeführt wird*.
+Der Knoten <b>Sequenz</b> gibt Ihnen die Kontrolle über den *Ausführungsfluss* der Substance-Funktionsknoten, indem Sie sicherstellen, dass die *erste Verzweigung vollständig vor der zweiten Verzweigung ausgeführt wird*.
 
 Die Ausgabe der *zweiten Verzweigung* wird dann an die Ausgabe des Knotens übergeben.
 
@@ -105,7 +105,7 @@ Die Ausgabe der *zweiten Verzweigung* wird dann an die Ausgabe des Knotens über
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-In diesem Beispiel wird der Knoten <b>Sequenz</b> als Ausgabe des Diagramms festgelegt. Die Ausgabe der Funktion ist somit der vom Knoten <b>Float</b> ausgegebene Wert <b>0.5</b>.
+In diesem Beispiel wird der Knoten <b>Sequenz</b> als Ausgabe des Grafen festgelegt. Die Ausgabe der Funktion ist somit der vom Knoten <b>Fließkommazahl</b> ausgegebene Wert <b>0.5</b>.
 
 Zuvor wird jedoch die Variable &quot;`<b>myVariable</b>`&quot; mit dem Gleitkommawert &quot;<b>1.0</b>&quot; festgelegt. Diese Variable kann dann *an einer anderen Stelle* im Kontext des Knotens verwendet werden.
 

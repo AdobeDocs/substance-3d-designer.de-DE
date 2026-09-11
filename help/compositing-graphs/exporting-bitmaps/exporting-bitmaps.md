@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
 breadcrumb-title: ''
 description: Lerne, wie du Texturen und Bitmaps aus Substance-Compositing-Graphen exportieren kannst, um sie in anderen Programmen und Workflows zu verwenden.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Exportieren von Bitmaps
 
-Auf dieser Seite wird erläutert, wie Substance 3D Designer in viele verschiedene Bitmap-Dateiformate exportieren kann und wie mehrere UV-Kacheln stapelweise exportiert werden.Wenn Sie [&#x200B; in PSD-Dateien &#x200B;](../exporting-psd-files/exporting-psd-files.md) exportieren möchten, gibt es eine separate dedizierte Seite dafür.
+Auf dieser Seite wird erläutert, wie Substance 3D Designer in viele verschiedene Bitmap-Dateiformate exportieren kann und wie mehrere UV-Kacheln stapelweise exportiert werden.Wenn Sie [ in PSD-Dateien ](../exporting-psd-files/exporting-psd-files.md) exportieren möchten, gibt es eine separate dedizierte Seite dafür.
 
 ![Exportieren vereinfacht](exporting-bitmaps.resources/exportflow.png "Exportieren vereinfacht")
 

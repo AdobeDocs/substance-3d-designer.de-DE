@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/blur-hq.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/blur-hq.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Weichzeichnen HQ , um hochwertige Unschärfe-Effekte auf Texturen anzuwenden und so sanfte, professionelle Weichzeichnungsergebnisse zu erzielen.
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 10%
 
 ## Beschreibung
 
-Führt einen Gaußschen Weichzeichner hoher Qualität auf das Ergebnis durch. Viel bessere Qualität als [die Standardunschärfe des atomaren Rahmens](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md) [.](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
+Führt einen Gaußschen Weichzeichner hoher Qualität auf das Ergebnis durch. Viel bessere Qualität als [die Standardunschärfe des atomaren Rahmens](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)[.](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
 
 Wichtig: Achten Sie darauf, die passende Version für Ihre Eingabe zu verwenden! Verwenden Sie &quot;Weichzeichner-HQ&quot; für Farbeingaben bzw. &quot;Weichzeichner-HQ-Graustufen&quot; für Graustufeneingaben.
 

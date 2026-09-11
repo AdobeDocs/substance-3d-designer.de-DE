@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/scripting.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie die Substance 3D Designer-Funktionalität mithilfe von Python-Skripten und der Plug-in-Entwicklung erweitern.
 helpx_creative_field: ""
@@ -31,12 +31,12 @@ Es ist möglich, die Anwendung durch das Schreiben von Plugins zu steuern. Plug-
 * [Plug-ins > Pakete](../scripting/plugins-packages/plugins-packages.md)
 * [Plugin-Manager](../scripting/plugin-manager/plugin-manager.md)
 * [Python-Editor](../scripting/python-editor/python-editor.md)
-* [Zugreifen auf Diagramme und Auswahlen](../scripting/accessing-graphs-and-sel/accessing-graphs-and-selections.md)
+* [Zugriff auf Grafen und Auswahlbereiche](../scripting/accessing-graphs-and-sel/accessing-graphs-and-selections.md)
 * [Knoten und Eigenschaften](../scripting/nodes-and-properties/nodes-and-properties.md)
 * [Rückgängig machen und Wiederholen](../scripting/undo-and-redo/undo-and-redo.md)
 * [Anwendungsrückrufe](../scripting/application-callbacks/application-callbacks.md)
 * [Erstellen von Benutzeroberflächenelementen](../scripting/creating-user-interface/creating-user-interface-elements.md)
-* [Hinzufügen von Aktionen zur Explorer-Symbolleiste](../scripting/adding-actions-the-exp/adding-actions-to-the-explorer-toolbar.md)
+* [Hinzufügen von Aktionen zur Symbolleiste &quot;Explorer&quot;](../scripting/adding-actions-the-exp/adding-actions-to-the-explorer-toolbar.md)
 * [Farbmanagement verwenden](../scripting/using-color-management/using-color-management.md)
 * [Verwenden von Volltonfarben](../scripting/using-spot-colors/using-spot-colors.md)
 * [Protokollieren](../scripting/logging/logging.md)

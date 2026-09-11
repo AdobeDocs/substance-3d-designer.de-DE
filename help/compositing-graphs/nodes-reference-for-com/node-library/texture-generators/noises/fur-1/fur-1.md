@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-1.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Fur 1 -Knoten, um einfache Fell-Texturen für die Erstellung von Materialien, Stoffen und faserigen Haareffekten zu generieren.
 helpx_creative_field: ""
@@ -46,8 +46,8 @@ Dadurch wird eine Rauschen mit geradem Fell erzeugt.
 |  |  |
 |:---|:---|
 | <b>Skalierung</b> <i>1 - 8</i> | Legt die globale Skalierung für den Effekt fest. |
-| <b>Störung</b> <i>0.0 - 1.0</i> | Verschiebt den Rauschen phasenverschoben, um eine kleine Variation einzuführen. |
-| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
+| <b>Störung</b> <i>0.0 - 1.0</i> | Phasenverschiebt das Rauschen, um kleine Schwankungen einzuführen. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
 
 ## Beispiele
 

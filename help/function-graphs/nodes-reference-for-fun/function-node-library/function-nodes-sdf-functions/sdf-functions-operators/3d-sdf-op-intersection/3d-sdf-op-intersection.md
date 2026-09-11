@@ -1,6 +1,6 @@
 ---
 title: Schnittmenge
-description: Designer > Substance von Kompositionsdiagrammen > Knotenreferenz für Substance-Kompositionsdiagramme > Knotenbibliothek > SDF-Funktion > Operator > Schnittmenge bilden
+description: Designer > Substance-Compositing-Graf > Knotenreferenz für Substance-Compositing-Graf > Knotenbibliothek > SDF-Funktion > Operator > Schnittmenge bilden
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '75'

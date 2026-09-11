@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/leather-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/leather-weathering.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Leder-Verwitterung", um Ledermaterialien auf der Grundlage einer Gitterkrümmung Verschleißmuster und Alterungseffekte hinzuzufügen.
 helpx_creative_field: ""

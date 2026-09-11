@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/slope-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/slope-blur.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Steigung-Weichzeichner , um zum Erstellen von Bewegungsunschärfen Richtungs-Unschärfe-Effekt anzuwenden, die auf Höhen-Map-Steigungen basieren.
 helpx_creative_field: ""

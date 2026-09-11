@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-graph-view/node-finder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Node Finder, um schnell nach Knoten in Ihren Substance-Graphen zu suchen und diese zu finden, um eine effiziente Navigation zu gewährleisten.
 helpx_creative_field: ""
@@ -182,7 +182,7 @@ Die QuickInfo von Instanzknoten enthält die Kennung ihres referenzierten Diagra
 
 ### Verfügbare Parameter und Variablen
 
-Der Bezeichner von [verfügbar gemachten Parametern &#x200B;](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) oder eine andere Variable kann direkt durchsucht werden.
+Der Bezeichner von [verfügbar gemachten Parametern ](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) oder eine andere Variable kann direkt durchsucht werden.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -198,15 +198,15 @@ Der Bezeichner von [verfügbar gemachten Parametern &#x200B;](../../../compositi
 +++Abfragevorschläge
 Das Abfragefeld kann erweitert werden, um eine Liste mit Vorschlägen anzuzeigen.
 
-Dazu gehören [integrierte Variablen](../../../function-graphs/variables/system-variables/system-variables.md), die für den aktuellen Graf-Typ verfügbar sind, sowie die Identifizierungen der freigelegte Parameter des Grafen.
+Dazu gehören [integrierte Variablen](../../../function-graphs/variables/system-variables/system-variables.md), die für den aktuellen Diagrammtyp verfügbar sind, sowie die Bezeichner der exponierten Parameter des Diagramms.
 
 ![Vorschläge für Knotenfinder-Abfrage](../../../assets/node-finder-available-query-suggestions.png "Vorschläge für Knotenfinder-Abfrage"){zoomable="yes"}
 
 
 
-Die Identifizierung der freigelegte Parameter kann auch direkt in die [Substance-Graf-Eigenschaften](../../../compositing-graphs/graph-parameters/graph-parameters.md) kopiert oder bearbeitet werden.
+Der Bezeichner der angezeigten Parameter kann auch direkt in die [Substance-Diagrammeigenschaften](../../../compositing-graphs/graph-parameters/graph-parameters.md) kopiert oder bearbeitet werden.
 
-![Knotenfinder: freigelegte Parameter](../../../assets/node-finder-compositing-exposed-parameter.png "Knotensuche: freigelegte Parameter"){zoomable="yes"}
+![Knotenfinder: verfügbar gemachte Parameter](../../../assets/node-finder-compositing-exposed-parameter.png "Knotenfinder: verfügbar gemachte Parameter"){zoomable="yes"}
 
 
 
@@ -215,9 +215,9 @@ Die Identifizierung der freigelegte Parameter kann auch direkt in die [Substance
 +++
 
 +++Suchen einer Variablen aus einer Konsolenwarnung/einem Konsolenfehler
-Wenn in einem Graf Fehler oder Warnungen ausgegeben werden, die von einer <b>Variablen</b>, die von einem Knoten verwendet wird, ausgelöst wurden, rufen Sie <b>Windows > Console</b> auf, um die vollständige Fehler-/Warnmeldung anzuzeigen, die die Variable enthält. Anschließend können Sie diese Variable kopieren und in das Abfragefeld &quot;Knotensuche&quot; einfügen, um den Knoten zu finden, der das Problem verursacht.
+Wenn ein Diagramm Fehler oder Warnungen enthält, die von einer <b>Variablen</b> ausgelöst wurden, die von einem Knoten verwendet wird, navigieren Sie zu <b>Windows > Console</b>, um die vollständige Fehler-/Warnmeldung anzuzeigen, die die Variable enthält. Anschließend können Sie diese Variable kopieren und in das Abfragefeld &quot;Knotensuche&quot; einfügen, um den Knoten zu finden, der das Problem verursacht.
 
-Variablen können auch mit einem beliebigen Texteditor direkt aus den XML-Daten in der SBS kopiert werden.
+Variablen können auch mit einem beliebigen Texteditor direkt aus den XML-Daten in der SBS-Datei kopiert werden.
 
 ![Knotenfinder: Suchvariable aus Konsolenwarnung/Fehler](../../../assets/node-finder-console-identifier.png "Knotenfinder: Suchvariable aus Konsolenwarnung/Konsolenfehler"){zoomable="yes"}
 
@@ -226,7 +226,7 @@ Variablen können auch mit einem beliebigen Texteditor direkt aus den XML-Daten 
 +++
 
 +++Knoten abrufen/festlegen
-Beim Durchsuchen einer Variable in einem Graf - einschließlich freigelegte Parameter - werden alle Knoten hervorgehoben, in denen ein [Get](../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)- oder [Set](../../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md)-Knoten diese Variable in einer der Parameterfunktionen des Knotens verwendet.
+Beim Durchsuchen einer Variablen in einem Diagramm - einschließlich der angezeigten Parameter - werden alle Knoten hervorgehoben, bei denen ein [Get](../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)- oder [Set](../../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md)-Knoten diese Variable in einer der Parameterfunktionen des Knotens verwendet.
 
 ![Knotenfinder: Die Suche nach einer Variablen entspricht Get-Knoten, die sie verwenden](../../../assets/node-finder-exposed-parameter-01.gif "Node Finder: Das Durchsuchen einer Variable entspricht Get-Knoten, die sie verwenden"){zoomable="yes"}
 
@@ -240,7 +240,7 @@ Beim Durchsuchen einer Variable in einem Graf - einschließlich freigelegte Para
 
 ### Knoten-UID
 
-Jeder Graf in einem Knoten verfügt über eine eindeutige Identifizierung-Nummer (UID), mit der nach diesem Knoten gesucht werden kann.
+Jeder Knoten in einem Diagramm hat eine eindeutige Identifizierungsnummer (UID), mit der nach diesem Knoten gesucht werden kann.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -267,9 +267,9 @@ uid=1234567890
 +++
 
 +++Durchsuchen einer Knoten-UID aus einer Konsolenwarnung/einem Konsolenfehler
-Wenn ein Graf Fehler oder Warnungen enthält, die von einem Knoten ausgelöst wurden, rufen Sie Windows > Console auf, um die vollständige Fehler-/Warnmeldung anzuzeigen, die die <b>UID</b> des Knotens enthält. Anschließend können Sie diese UID kopieren und in das Abfragefeld &quot;Knotensuche&quot; einfügen, um den Knoten zu finden, der das Problem verursacht.
+Wenn ein Diagramm Fehler oder Warnungen enthält, die von einem Knoten ausgelöst wurden, rufen Sie Windows > Konsole auf, um die vollständige Fehler-/Warnmeldung anzuzeigen, die die <b>UID</b> des Knotens enthält. Anschließend können Sie diese UID kopieren und in das Abfragefeld &quot;Knotensuche&quot; einfügen, um den Knoten zu finden, der das Problem verursacht.
 
-Knoten-UIDs können auch mit einem beliebigen Texteditor direkt aus den XML-Daten in der SBS-Datei kopiert werden.
+Knoten-UIDs können auch mit einem beliebigen Texteditor direkt aus den XML-Daten in der SBS kopiert werden.
 
 ![Knotenfinder: Knoten-UID wird über die Console gesucht](../../../assets/node-finder-console-uid.png "Knoten-Finder: Die Knoten-UID aus der Konsole wird gesucht"){zoomable="yes"}
 
@@ -306,18 +306,18 @@ Beide können gleichzeitig aktiviert werden.
 
 Aktivieren Sie diese Option, damit Suchvorgänge [Grapheninstanzen](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) durchlaufen, um Ergebnisse von [Untergraphen](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) einzuschließen.
 
-Diese Option kann bei der Fehlerbehebung in Diagrammen wesentlich sein, wenn Sie einen Knoten anhand seiner UID suchen müssen, die durch eine Warnung oder Fehlermeldung in der Konsole erworben wurde.
+Diese Option kann bei der Fehlerbehebung wesentlich sein, wenn Sie einen Graf anhand seiner UID suchen müssen, die aus einer Warnmeldung oder einer Fehlermeldung in der Konsole erworben wurde.
 
 ![Knotenfinder: rekursive Suche](../../../assets/node-finder-recursion-01.png "Knotensuche: rekursive Suche"){zoomable="yes"}
 
-*In der Abfrage auf der rechten Seite wird der unten stehende Instanzknoten hervorgehoben, da sein referenziertes Diagramm auf der linken Seite Übereinstimmungen mit dieser Abfrage aufweist*
+*Die Abfrage auf der rechten Seite hebt den Instanzknoten unten hervor, da der referenzierte Graf auf der linken Seite Übereinstimmungen mit dieser Abfrage aufweist*
 
 +++Beispiel 1
 ![Knotenfinder: rekursives Suchbeispiel 1](../../../assets/node-finder-recursion-01.gif "Knotenfinder: rekursives Suchbeispiel 1"){zoomable="yes"}
 
 
 
-Ein Instanzknoten verweist auf ein Diagramm, in dem mehrere Knoten mit der Abfrage übereinstimmen.
+Ein Instanzknoten verweist auf einen Graf, in dem mehrere Knoten mit der Abfrage übereinstimmen.
 
 +++
 
@@ -326,7 +326,7 @@ Ein Instanzknoten verweist auf ein Diagramm, in dem mehrere Knoten mit der Abfra
 
 
 
-Wenn Sie die Option &quot;Rekursive Suche&quot; aktivieren, wird der Instanzknoten hervorgehoben, der auf ein Diagramm verweist, in dem ein Pixelprozessorknoten eine Variable verwendet, die der Abfrage entspricht.
+Wenn Sie die Option &quot;Rekursive Suche&quot; aktivieren, wird der Instanzknoten hervorgehoben, der auf einen Graf verweist, in dem ein Pixelprozessor eine Variable verwendet, die mit der Abfrage übereinstimmt.
 
 +++
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
 breadcrumb-title: ''
 description: Fügen Sie Kommentare zu Substance 3D Designer Graf hinzu, um Ihren Workflow zu dokumentieren und Knotenverbindungen zu erläutern.
 helpx_creative_field: ""
@@ -64,7 +64,7 @@ Drücken Sie in der Graphansicht <b>RMB</b> für ein beliebiges Objekt oder in e
 
 +++
 
-+++Graf-Symbolleiste
++++Diagrammsymbolleiste
 Klicken Sie in der Symbolleiste &quot;Graphansicht&quot; auf die Schaltfläche &quot;Kommentar&quot; in der <b>Node-Palette</b>.
 
 +++
@@ -103,6 +103,6 @@ Der Text kann mit HTML-Tags formatiert werden. Diese Formatierung wird mithilfe 
 
 >[!TIP]
 >
-> Weitere Informationen zu dieser Funktion finden Sie im Abschnitt <b>Beschreibung</b> der Dokumentation [Rahmen](../../../../interface/the-graph-view/graph-items/frame/frame.md).
+> Weitere Informationen zu dieser Funktion finden Sie im Abschnitt <b>Beschreibung</b> der Dokumentation [Frames](../../../../interface/the-graph-view/graph-items/frame/frame.md).
 
 ![Kommentare: HTML-Markup](../../../../assets/graph-comment_html-markup.gif "Kommentare: HTML-Markup ")
