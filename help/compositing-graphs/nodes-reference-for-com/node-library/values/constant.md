@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Konstanten
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: b63bc7a45aa6eadef1b72eb05d4a6aded05866a8
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -37,20 +37,20 @@ Sie alle enthalten einen einfachen [Wertprozessor](../../atomic-nodes/value-proc
 
 Konstante Ganzzahlen generieren ganze Zahlen und haben eine Stufe von 1.
 
-[Sie können in &quot;Float&quot;,](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md) konvertiert werden. Dies wird empfohlen, wenn ein Vorgang ausgeführt wird, der komplexer ist als Additionen, Subtraktionen und einfache Vergleiche.
+[Sie können in eine Fließkommazahl konvertiert werden, ](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md). Dies wird empfohlen, wenn ein Vorgang ausgeführt wird, der komplexer ist als Additionen, Subtraktionen und einfache Vergleiche.
 
 <table>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Ganzzahltyp](../../../../assets/fn-constant-integer.png "Symbol für Ganzzahltyp")
+![Symbol für Ganzzahl](constant.resources/fn-constant-integer.png "Symbol für Ganzzahl")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Integer</b>
+<b>Ganzzahl</b>
 
-Eine Ganzzahl hat eine einzelne Komponente. Er ist nützlich als Index für Auswahlen, z. B.:
+Eine Ganzzahl besteht aus einer einzigen Komponente. Er ist nützlich als Index für Auswahlen, z. B.:
 
 * Auswahl einer Option, die dem Benutzer als Dropdown-Menü angezeigt wird (siehe &quot;Dropdown-Liste&quot; in [dieser Seite](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)).
 * Auswählen der Eingabe eines [Multiswitch](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md)-Knotens.<b></b>
@@ -67,14 +67,14 @@ Eine Ganzzahl hat eine einzelne Komponente. Er ist nützlich als Index für Ausw
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Integer2-Typ](../../../../assets/fn-constant-integer2.png "Symbol für Integer2-Typ")
+![Typsymbol für Ganzzahl2](constant.resources/fn-constant-integer2.png "Typsymbol für Ganzzahl2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Integer2</b>
+<b>Ganzzahl2</b>
 
-Ein Integer2-Knoten generiert einen statischen Ganzzahlvektor mit 2 Komponenten und (X, Y) Komponenten.
+Ein Ganzzahl2-Knoten generiert einen statischen 2-Komponenten-Komponentenvektor mit (X, Y) Ganzzahlen.
 
 Ein häufiger Anwendungsfall von Ganzzahl2 ist das Festlegen von X- und Y-Knotengrößen, wie im Raster [Tile Generator](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md).
 
@@ -86,14 +86,14 @@ Ein häufiger Anwendungsfall von Ganzzahl2 ist das Festlegen von X- und Y-Knoten
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Integer3-Typ](../../../../assets/fn-constant-integer3.png "Symbol für Integer3-Typ")
+![Typsymbol für Ganzzahl3](constant.resources/fn-constant-integer3.png "Typsymbol für Ganzzahl3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Integer3</b>
+<b>Ganzzahl3</b>
 
-Ein Integer3-Knoten generiert einen statischen ganzzahligen 3-Komponenten-Vektor mit (X, Y, Z) Komponenten.
+Ein Ganzzahl3-Knoten erzeugt einen statischen 3-Komponenten-Komponentenvektor mit (X, Y, Z) Ganzzahlen.
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Ein Integer3-Knoten generiert einen statischen ganzzahligen 3-Komponenten-Vektor
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Integer4-Typ](../../../../assets/fn-constant-integer4.png "Symbol für Integer4-Typ")
+![Symbol für Integer4-Typ](constant.resources/fn-constant-integer4.png "Symbol für Integer4-Typ")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -126,7 +126,7 @@ Konstante Gleitkommawerte erzeugen Bruchzahlen, d.h. sie unterstützen Werte nac
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Gleitkommatyp](../../../../assets/fn-constant-float.png "Symbol für Gleitkommatyp")
+![Symbol für Gleitkommatyp](constant.resources/fn-constant-float.png "Symbol für Gleitkommatyp")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -143,7 +143,7 @@ Ein Gleitkommawert hat eine einzelne Komponente und wird sehr häufig für jeden
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Float2-Typ](../../../../assets/fn-constant-float2.png "Symbol für Float2-Typ")
+![Symbol für Float2-Typ](constant.resources/fn-constant-float2.png "Symbol für Float2-Typ")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -162,7 +162,7 @@ Float2 wird häufig für [Sampling-Koordinaten](../../../../function-graphs/node
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Float3-Typ](../../../../assets/fn-constant-float3.png "Symbol für Float3-Typ")
+![Symbol für Float3-Typ](constant.resources/fn-constant-float3.png "Symbol für Float3-Typ")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -181,7 +181,7 @@ Float3 wird hauptsächlich bei der Arbeit mit 3D-Objekten und [3D-Skalierungskoo
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für Float4-Typ](../../../../assets/fn-constant-float4.png "Symbol für Float4-Typ")
+![Symbol für Float4-Typ](constant.resources/fn-constant-float4.png "Symbol für Float4-Typ")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -202,7 +202,7 @@ Ein Float4 erzeugt einen 4-Komponenten-Vektor (X, Y, Z, W).
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Symbol für booleschen Typ](../../../../assets/fn-constant-boolean.png "Symbol für booleschen Typ")
+![Symbol für booleschen Typ](constant.resources/fn-constant-boolean.png "Symbol für booleschen Typ")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

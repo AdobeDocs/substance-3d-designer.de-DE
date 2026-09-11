@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-sampler.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-sampler.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Sampler-Kachelknoten zum Aufnehmen und Anordnen von Kacheln aus Eingabetexturen, um Kachelmuster in Substance 3D Designer zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sampler anordnen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: b63bc7a45aa6eadef1b72eb05d4a6aded05866a8
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/tile-sampler.png){width="128px"}
+![](tile-sampler.resources/tile-sampler.png){width="128px"}
 
 <b>In:</b> Texturgeneratoren > Muster
 
@@ -122,7 +122,7 @@ Vergewissern Sie sich, dass Sie mit [Tile Generator](../../../../../../compositi
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilesampler-ex2.png" /><br><i>Beispiel zeigt, wie Parameter von Eingabe-Map gesteuert werden (Musterverteilung, Skalierung, Drehung).</i>
+            <img src="tile-sampler.resources/tilesampler-ex2.png" /><br><i>Beispiel zeigt, wie Parameter von Eingabe-Map gesteuert werden (Musterverteilung, Skalierung, Drehung).</i>
         </td>
     </tr>
 </table>
