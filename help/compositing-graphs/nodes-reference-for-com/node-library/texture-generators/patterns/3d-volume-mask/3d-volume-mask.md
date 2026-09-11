@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-volume-mask.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-volume-mask.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten 3D-Volumenmaske , um Volumenmasken basierend auf der 3D-Position für erweiterte Material-Effekte zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D-Volumenmaske
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dvolumemask.png){width="256px"}
+![](3d-volume-mask.resources/3dvolumemask.png){width="256px"}
 
 <b>In:</b> Generator > Pattern
 
@@ -67,16 +67,16 @@ Der Knoten **3D Volume Mask** generiert eine Darstellung einer *primitiven Form*
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvolumemask-variant.jpg" />
+            <img src="3d-volume-mask.resources/3dvolumemask-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvolumemask-variant2.jpg" />
+            <img src="3d-volume-mask.resources/3dvolumemask-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvolumemask-variant3.jpg" />
+            <img src="3d-volume-mask.resources/3dvolumemask-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvolumemask-variant4.jpg" />
+            <img src="3d-volume-mask.resources/3dvolumemask-variant4.jpg" />
         </td>
     </tr>
 </table>

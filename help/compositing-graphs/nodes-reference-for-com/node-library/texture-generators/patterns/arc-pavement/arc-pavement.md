@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/arc-pavement.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/arc-pavement.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Pflaster, um bogenförmige Pflastermuster zum Erstellen gekrümmter Texturen für Straßen und Pfade zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bogenpflaster
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 11%
@@ -24,9 +24,9 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/arcpavement-ex.png)
+![](arc-pavement.resources/arcpavement-ex.png)
 
-<b>In:</b> Texturen > Muster generieren
+<b>In:</b> Texturgeneratoren > Muster
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -60,14 +60,14 @@ Generiert ein Pariser Bogen-Straßenmuster. Dieser Effekt kann nicht mit dem Sta
 | <b>Globale Musterbreite zufällig</b> <i>0.0 - 1.0</i> | Randomisiert die Kachelbreite, ohne größere Lücken zwischen den Kacheln zu erstellen. |
 | <b>Pattern Height Verringern</b> <i>0.0 - 1.0</i> | Steuert das Ausstreichen des Heights an den Enden jedes Bogens. |
 | <b>Farbzufall</b> <i>0.0 - 1.0</i> | Randomisiert Kachelfarben. |
-| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
 
 ## Beispiele
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/arcpavement-ex.png" />
+            <img src="arc-pavement.resources/arcpavement-ex.png" />
         </td>
     </tr>
 </table>
