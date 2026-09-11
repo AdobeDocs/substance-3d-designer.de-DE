@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-bbox-size.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-bbox-size.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Flood Fill zu Box-Größe", um Bereiche mit Werten für die Begrenzungsrahmengröße zu füllen, um prozedurale Skalierungseffekte zu erzielen.
 helpx_creative_field: ""

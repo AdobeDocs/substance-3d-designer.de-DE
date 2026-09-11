@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/sample-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/sample-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Entdecke Graf für Substance-Compositing in Designer, um erweiterte Techniken und Best Practices kennenzulernen.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 ## Überblick
 
-Auf dieser Seite werden die [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html)-Beispieldateien aufgelistet, die heruntergeladen werden können. Diese Projekte enthalten Grafen mit Anmerkungen, die grundlegende Tools und Konzepte von [Substance-Grafen](../../compositing-graphs/substance-compositing-graphs.md) darstellen.
+Auf dieser Seite werden die [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html)-Beispieldateien aufgelistet, die heruntergeladen werden können. Diese Projekte enthalten Grafen mit Anmerkungen, die grundlegende Tools und Konzepte von [Substance-Grafen](../../compositing-graphs/substance-compositing-graphs.md) darstellen.
 
 <table>
 <tr style="border: 0;">

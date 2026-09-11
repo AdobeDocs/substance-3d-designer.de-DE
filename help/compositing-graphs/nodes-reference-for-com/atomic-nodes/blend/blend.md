@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Überblendung , um mithilfe verschiedener Füllmethoden zwei Texturen miteinander zu verblenden und so Kompositionseffekte zu erzeugen.
 helpx_creative_field: ""
@@ -31,13 +31,13 @@ ht-degree: 9%
 
 Kombiniert zwei Bilder mit einer angegebenen Füllmethode und einer optionalen Maske.
 
-Es ist der nützlichste Elementare Knoten aller Graf. Dieser Knoten wird von nahezu jedem Knoten verwendet, den Sie in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) erstellen.
+Es ist der nützlichste Elementare Knoten aller Graf. Dieser Knoten wird von nahezu jedem Knoten verwendet, den Sie in [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) erstellen.
 
 </td>
 </tr>
 </table>
 
-Die Funktionalität ähnelt der von zwei Ebenen übereinander in [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) oder [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), die durch den Mischmodus, den Sie auf der obersten Ebene festgelegt haben, miteinander vermischt werden.
+Die Funktionalität ähnelt der von zwei Ebenen übereinander in [Substance 3D Painter](https://www.adobe.com/de/products/substance3d-painter.html) oder [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), die durch den Mischmodus, den Sie auf der obersten Ebene festgelegt haben, miteinander vermischt werden.
 
 >[!TIP]
 >

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
 breadcrumb-title: ''
 description: Verwende Werkzeuge zur Vektorbearbeitung, um in Substance 3D Designer SVG-Grafiken für prozedurale Texturen zu erstellen und zu bearbeiten.
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ Auf dieser Seite werden die Bearbeitungswerkzeuge beschrieben, die im Bedienfeld
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Das Bedienfeld [2D View](https://docs.substance3d.com/display/SDDOC/2D+view) bietet einfache Vektorbearbeitungswerkzeuge, mit denen Sie Vektorgrafiken *manuell* direkt in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) erstellen oder bearbeiten können. Diese Tools sind besonders nützlich, um beispielsweise schnell *Masken* oder *Muster* zu erstellen.
+Das Bedienfeld [2D View](https://docs.substance3d.com/display/SDDOC/2D+view) bietet einfache Vektorbearbeitungswerkzeuge, mit denen Sie Vektorgrafiken *manuell* direkt in [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) erstellen oder bearbeiten können. Diese Tools sind besonders nützlich, um beispielsweise schnell *Masken* oder *Muster* zu erstellen.
 
 Die Werkzeuge unterstützen die Stifteingabe. Um die Vorteile von Stiftanzeigen zu nutzen, können Sie das Bedienfeld [2D-Ansicht](https://docs.substance3d.com/display/SDDOC/2D+view) [abdocken](https://docs.substance3d.com/display/SDDOC/Customizing+your+workspace) und es dann in eine beliebige Konfiguration platzieren und skalieren, die für das Malen angenehmer ist.
 

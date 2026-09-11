@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects.html"
 breadcrumb-title: ''
 description: Greifen Sie in Substance 3D Designer auf Effekt-Filterknoten zu, um Ihren Texturen Lichteffekte, Schatten und Verkrümmungen hinzuzufügen.
 helpx_creative_field: ""

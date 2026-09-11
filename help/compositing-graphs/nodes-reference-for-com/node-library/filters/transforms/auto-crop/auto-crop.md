@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/auto-crop.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/auto-crop.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Automatisches Freistellen , um Texturen automatisch zuzuschneiden, um leere Rahmen zu entfernen und die Texturabmessungen zu optimieren.
 helpx_creative_field: ""

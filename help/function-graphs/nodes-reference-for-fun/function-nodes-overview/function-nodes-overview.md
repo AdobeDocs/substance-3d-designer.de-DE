@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-nodes-overview.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-nodes-overview.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über die in Substance 3D Designer-Grafen verfügbaren Funktionsknoten zum Erstellen benutzerdefinierter Funktionen.
 helpx_creative_field: ""

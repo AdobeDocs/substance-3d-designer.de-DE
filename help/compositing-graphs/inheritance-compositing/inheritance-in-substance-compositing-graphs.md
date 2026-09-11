@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Erfahre, wie du in Substance-Compositing-Grafen mit Vererbung wiederverwendbare Graf-Hierarchien und -Varianten gestalten kannst.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Vererbung bei Substance-Graphen
 
-Auf dieser Seite wird beschrieben, wie die Vererbung in [Substance-Grafen](../../compositing-graphs/substance-compositing-graphs.md) innerhalb von [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) angewendet wird und welche Auswirkungen sie auf die Ausgabe des Grafen hat.
+Auf dieser Seite wird beschrieben, wie die Vererbung in [Substance-Grafen](../../compositing-graphs/substance-compositing-graphs.md) innerhalb von [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) angewendet wird und welche Auswirkungen sie auf die Ausgabe des Grafen hat.
 
 ![Methoden zur Vererbung](inheritance-in-substance-compositing-graphs.resources/inheritance-overview-1.jpg "Methoden zur Vererbung"){width="1400px"}
 

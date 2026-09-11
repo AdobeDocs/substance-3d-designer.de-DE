@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters.html"
 breadcrumb-title: ''
 description: Greifen Sie in Substance 3D Designer auf Material-Filterknoten zu, um Materialien für verschiedene Workflows zu verarbeiten, zu mischen und zu konvertieren.
 helpx_creative_field: ""

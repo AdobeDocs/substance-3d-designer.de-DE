@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Szene-Browser, um im Viewport zu 3D-Szenen, Materialien und Objekten zu navigieren und diese zu verwalten.
 helpx_creative_field: ""

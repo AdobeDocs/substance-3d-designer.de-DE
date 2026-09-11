@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing.html"
 breadcrumb-title: ''
 description: Greifen Sie in Substance 3D Designer auf Scan-Verarbeitungsknoten zu, um gescannte Materialien und Texturen zu bereinigen und zu verarbeiten.
 helpx_creative_field: ""

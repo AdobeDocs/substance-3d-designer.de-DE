@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering.html"
 breadcrumb-title: ''
 description: Nutze Verwitterung in Substance 3D Designer, um Trageffekte und Alterungseffekte auf Basis der Geometrie eines Meshs hinzuzufügen.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Verwitterung
 
-Verwitterung-Nodes gehen noch einen Schritt weiter: [Maskengenerator](../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md). die Verwitterung erfolgt über ein ganzes Material auf Basis von Parametern und durch Baking erzeugte Map. Das Konzept ist [Intelligenten Materials](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks) im Substance Painter sehr ähnlich.
+Verwitterung-Nodes gehen noch einen Schritt weiter: [Maskengenerator](../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md). die Verwitterung erfolgt über ein ganzes Material auf Basis von Parametern und durch Baking erzeugte Map. Das Konzept ist [Intelligenten Materials](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/features/smart-materials-and-masks) im Substance Painter sehr ähnlich.
 
 Sie benötigen eine oder mehrere durch Baking erzeugte Map, um ein vollständiges Ergebnis aus diesen Knoten zu erhalten.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fluid.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fluid.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Fluid, um flüssigkeitsähnliche Rauschen-Muster zu erzeugen, um Texturen an Flüssigkeiten und Wasseroberflächen zu erzeugen.
 helpx_creative_field: ""

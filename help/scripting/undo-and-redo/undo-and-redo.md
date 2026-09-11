@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/undo-and-redo.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/scripting/undo-and-redo.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Funktionen zum Rückgängigmachen und Wiederholen in Substance 3D Designer Python-Skripten für Benutzeraktionen implementieren.
 helpx_creative_field: ""

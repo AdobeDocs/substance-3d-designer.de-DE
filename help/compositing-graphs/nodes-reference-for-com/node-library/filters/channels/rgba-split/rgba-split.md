@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-split.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-split.html"
 breadcrumb-title: ''
 description: Verwenden Sie den RGBA-Teilungsknoten, um eine Textur in die Alphakanal Rot, Grün, Blau und Blau aufzuteilen, damit sie individuell verarbeitet werden kann.
 helpx_creative_field: ""

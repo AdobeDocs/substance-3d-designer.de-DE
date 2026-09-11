@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/color-to-mask.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/color-to-mask.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Farbe in Maske , um bestimmte Farben in Masken zu konvertieren, um selektive Verarbeitungs- und Maskierungseffekte zu erstellen.
 helpx_creative_field: ""

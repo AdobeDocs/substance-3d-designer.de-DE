@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-dirty.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-dirty.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Schmutz-Scratches Dirty , um schmutzige Kratzmuster zum Erstellen von verwitterten und gealterten Material-Effekten hinzuzufügen.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ''
 description: Verschaffen Sie sich einen Überblick über Substance 3D Designer und erfahren Sie mehr über die Funktionen zum Erstellen prozeduraler Materials und Texturen.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Überblick
 
-[Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) ist eine Anwendung zum Erstellen von 2D-Texturen, -Materialien und -Filtern in einer knotenbasierten Oberfläche mit Schwerpunkt auf prozeduraler Generierung, Parametrisierung und nicht-destruktiven Arbeitsabläufen. Es ist die Anwendung mit der längsten Laufzeit im Substance 3D-Ökosystem. Die damit erstellten Ressourcen sind so vielseitig und dynamisch wie möglich.
+[Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) ist eine Anwendung zum Erstellen von 2D-Texturen, -Materialien und -Filtern in einer knotenbasierten Oberfläche mit Schwerpunkt auf prozeduraler Generierung, Parametrisierung und nicht-destruktiven Arbeitsabläufen. Es ist die Anwendung mit der längsten Laufzeit im Substance 3D-Ökosystem. Die damit erstellten Ressourcen sind so vielseitig und dynamisch wie möglich.
 
 Im Folgenden wird der Vergleich mit anderen Anwendungen erläutert:
 
@@ -77,7 +77,7 @@ Substance-Dateien sind die **Hauptquelldateien** für Designer. Wenn Sie eine Su
 
 *(\*.SBSAR)*
 
-Substance-Archive sind <b> kompilierte, optimierte </b> Substance-Dateien. Sie sind viel schneller zu berechnen und können ohne Referenzprobleme leicht geteilt werden. Die Parameter können noch angepasst werden, aber die Bearbeitung des Diagramms ist <b>gesperrt</b>. Substance-Archive können in allen Substance 3D-Anwendungen und allen Anwendungen verwendet werden, die über eine [Substance 3D-Integration](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home) verfügen (einige mit einem externen Plug-in), z. B. Autodesk 3DS Max &amp; Maya, Unreal Engine oder Unity Engine.
+Substance-Archive sind <b> kompilierte, optimierte </b> Substance-Dateien. Sie sind viel schneller zu berechnen und können ohne Referenzprobleme leicht geteilt werden. Die Parameter können noch angepasst werden, aber die Bearbeitung des Diagramms ist <b>gesperrt</b>. Substance-Archive können in allen Substance 3D-Anwendungen und allen Anwendungen verwendet werden, die über eine [Substance 3D-Integration](https://experienceleague.adobe.com/de/docs/substance-3d/ecosystem/home) verfügen (einige mit einem externen Plug-in), z. B. Autodesk 3DS Max &amp; Maya, Unreal Engine oder Unity Engine.
 
 </td>
 <td style="border: 0;" valign="top">

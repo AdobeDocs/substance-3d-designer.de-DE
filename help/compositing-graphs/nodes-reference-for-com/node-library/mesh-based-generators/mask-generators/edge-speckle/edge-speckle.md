@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-speckle.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-speckle.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Edge Speckle -Knoten, um fleckige Verschleißmuster an Kanten von Meshs zu erzeugen, um realistische Kantenschädigungseffekte zu erzeugen.
 helpx_creative_field: ""

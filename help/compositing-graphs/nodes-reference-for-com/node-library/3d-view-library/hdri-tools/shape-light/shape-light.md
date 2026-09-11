@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/shape-light.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/shape-light.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Licht formen , um HDRI-Umgebungen benutzerdefinierte Lichtquellen für kreative Beleuchtungseffekte hinzuzufügen.
 helpx_creative_field: ""

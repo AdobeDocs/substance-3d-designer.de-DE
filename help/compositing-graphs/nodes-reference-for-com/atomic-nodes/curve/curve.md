@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Kurve , um die Texturwerte mithilfe anpassbarer Kurven für eine präzise Farb- und Helligkeitssteuerung anzupassen.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie die Dateigröße von Substance-Grafen reduzieren können, um Performance- und Speicheranforderungen zu optimieren.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 In einigen Fällen kann die Gesamtdateigröße von [Substance 3D Assets (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) ein wichtiger Faktor sein. Auf dieser Seite werden einige wichtige Bereiche und Einstellungen beschrieben, die Sie beim Verringern der Dateigröße berücksichtigen sollten.
 
-Die Dateigröße wird hauptsächlich durch [eingebettete Bitmaps bestimmt.](../../resources/bitmap-resource/bitmap-resource.md) Es handelt sich um Dateien, die verknüpft, eingebettet oder Baking geführt und der Datei &quot;[Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html)&quot; (SBS) als Ressource hinzugefügt wurden. Nur Bitmaps, die in einem Graf verwendet werden, d. h. entweder direkt oder über die Knotenkette mit einer Ausgabe verbunden sind, werden im Substance 3D-Element veröffentlicht. In einer Substance 3D-Datei haben Bitmaps keine Auswirkungen auf die Dateigröße, da alle Bitmapressourcen immer noch außerhalb der Datei gespeichert werden.
+Die Dateigröße wird hauptsächlich durch [eingebettete Bitmaps bestimmt.](../../resources/bitmap-resource/bitmap-resource.md) Es handelt sich um Dateien, die verknüpft, eingebettet oder Baking geführt und der Datei &quot;[Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html)&quot; (SBS) als Ressource hinzugefügt wurden. Nur Bitmaps, die in einem Graf verwendet werden, d. h. entweder direkt oder über die Knotenkette mit einer Ausgabe verbunden sind, werden im Substance 3D-Element veröffentlicht. In einer Substance 3D-Datei haben Bitmaps keine Auswirkungen auf die Dateigröße, da alle Bitmapressourcen immer noch außerhalb der Datei gespeichert werden.
 
 >[!IMPORTANT]
 >

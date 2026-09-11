@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators.html"
 breadcrumb-title: ''
 description: Greifen Sie in Substance 3D Designer auf Dienstprogrammknoten für netzbasierte Generatoren zu, um Netzdaten und -projektionen zu bearbeiten.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/min-max.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/min-max.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Min Max", um die Werte für die Textur zwischen dem Mindest- und dem Höchstwert für die Steuerung von Wertebereichen einzuklemmen.
 helpx_creative_field: ""

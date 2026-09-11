@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/apply-color-palette.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/apply-color-palette.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Farbpalette anwenden , um Texturen mithilfe einer Farbpalette für stilisierte Farbeffekte neu zuzuordnen.
 helpx_creative_field: ""

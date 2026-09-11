@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
 breadcrumb-title: ''
 description: Verwenden Sie Navigationspunkte in der Diagrammansicht, um schnell zwischen verschiedenen Positionen in Substance 3D Designer-Diagrammen zu wechseln.
 helpx_creative_field: ""

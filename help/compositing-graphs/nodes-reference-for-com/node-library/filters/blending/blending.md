@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending.html"
 breadcrumb-title: ''
 description: In Substance 3D Designer kannst du auf Filterknoten zugreifen, um Texturen mithilfe verschiedener Füllmethoden und -operationen zu kombinieren.
 helpx_creative_field: ""

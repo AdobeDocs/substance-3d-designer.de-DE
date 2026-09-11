@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
 breadcrumb-title: ''
 description: Verwenden Sie den 3D-Knoten "Gekrümmte Rauschen Fractal", um Gekrümmte fraktale Rauschen-Muster im 3D-Raum zu generieren, um bergähnliche Texturen zu erstellen.
 helpx_creative_field: ""

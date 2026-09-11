@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/system-variables.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/variables/system-variables.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über die integrierten Systemvariablen, die in den Substance 3D Designer-Funktions-Grafen für erweiterte Workflows verfügbar sind.
 helpx_creative_field: ""
@@ -62,5 +62,5 @@ Systemvariablen
 
 | Name | Typ | Zweck |
 | --- | --- | --- |
-| $time | Float | Diese Variable gibt die Zeit in Sekunden zurück, seit das Substance Engine gestartet wurde. Es kann in Grafen verwendet werden, deren Ergebnis sich entsprechend der verstrichenen Zeit ändern sollte.  **Hinweis:** Dieser Wert kann derzeit in Designer nicht geändert werden. Anwendungen, die das Substance Engine integrieren, können ihn jedoch nutzen, z. B. [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html) für Animationen oder [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) für [Dynamische Pinselstriche](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/dynamic-strokes/creating-custom-dynamic-strokes). |
+| $time | Float | Diese Variable gibt die Zeit in Sekunden zurück, seit das Substance Engine gestartet wurde. Es kann in Grafen verwendet werden, deren Ergebnis sich entsprechend der verstrichenen Zeit ändern sollte.  **Hinweis:** Dieser Wert kann derzeit in Designer nicht geändert werden. Anwendungen, die das Substance Engine integrieren, können ihn jedoch nutzen, z. B. [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html) für Animationen oder [Substance 3D Painter](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/home) für [Dynamische Pinselstriche](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/painting/dynamic-strokes/creating-custom-dynamic-strokes). |
 | $normalformat | Ganzzahl | Das Normalformat (d. h. DirectX oder OpenGL), das in der aktuellen Umgebung verwendet wird.  **Hinweis:** Diese Variable hat keine Auswirkungen auf Designer und kann von anderen Anwendungen verwendet werden, die das Substance Engine integrieren. |

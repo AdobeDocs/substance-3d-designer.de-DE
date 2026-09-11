@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-color.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-color.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Diffusion-Diffusion", um Farbeffekte anzuwenden und so sanfte Farbübergänge und -überblendungen zu erstellen.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## Beschreibung
 
-Wenden Sie einen Farbkorrekturprozess auf die Diffusionen in der Bildeingabe &quot;**Source**&quot; entsprechend der bereitgestellten Bildeingabe &quot;**Mask**&quot; an, um bei Verwendung von [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) glatte Farbabstufungen zwischen den Farben zu erstellen.
+Wenden Sie einen Farbkorrekturprozess auf die Diffusionen in der Bildeingabe &quot;**Source**&quot; entsprechend der bereitgestellten Bildeingabe &quot;**Mask**&quot; an, um bei Verwendung von [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) glatte Farbabstufungen zwischen den Farben zu erstellen.
 
 Nur Farben aus Pixeln, die der Maske entsprechen, werden gestreut. andere Pixel nicht am Ergebnis beteiligt sind.
 

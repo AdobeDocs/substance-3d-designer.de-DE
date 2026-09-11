@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-variable.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-variable.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie in FXMaps Iterate- und Nummernvariablen verwenden, um Schleifenmuster und prozedurale Varianten zu erstellen.
 helpx_creative_field: ""

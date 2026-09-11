@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/season-filter.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/season-filter.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Filterknoten "Jahreszeit", um saisonale Effekte auf Materialien anzuwenden, um Frühlings-, Sommer-, Herbst- und Wintervariationen zu erstellen.
 helpx_creative_field: ""

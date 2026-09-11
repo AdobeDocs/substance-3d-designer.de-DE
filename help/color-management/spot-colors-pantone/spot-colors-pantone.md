@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management/spot-colors-pantone.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/color-management/spot-colors-pantone.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Pantone-Volltonfarben in Substance 3D Designer verwenden, um die Farben in Druck- und Design-Arbeitsabläufen genau abzugleichen.
 helpx_creative_field: ""

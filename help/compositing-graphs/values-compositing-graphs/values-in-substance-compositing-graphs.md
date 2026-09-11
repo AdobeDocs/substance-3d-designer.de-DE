@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über Werttypen und Datenverarbeitung in Substance-Compositing-Grafen für eine effektive Erstellung von Materialien.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Werte in Substance-Graphen
 
-Seit der Einführung des [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html)-Engine v7 in Version 2019.1.0 ist es jetzt möglich, Werte im Substance-Graf zu verarbeiten, und [nicht nur in Funktionen](../../function-graphs/function-graphs.md). Wertedaten sind dieselben Daten, die in Funktionen verwendet werden ( Ganzzahlen, Fließkommazahlen und boolesche Werte usw.), wodurch sie sich deutlich von Farb- oder Bilddaten unterscheiden, die Pixelwerte für ein ganzes Graustufenbild darstellen. Wenn Values-Daten erwähnt werden, bedeutet dies insbesondere *Ganzzahl 1, Ganzzahl 2, Ganzzahl 3 und Ganzzahl 4, Fließkommazahl 1, Fließkommazahl 2, Fließkommazahl 3 und Fließkommazahl 4 und Boolesche Wert*. Jede hat eine eigene Farbkodierung und wird meist nicht miteinander vertauscht.
+Seit der Einführung des [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html)-Engine v7 in Version 2019.1.0 ist es jetzt möglich, Werte im Substance-Graf zu verarbeiten, und [nicht nur in Funktionen](../../function-graphs/function-graphs.md). Wertedaten sind dieselben Daten, die in Funktionen verwendet werden ( Ganzzahlen, Fließkommazahlen und boolesche Werte usw.), wodurch sie sich deutlich von Farb- oder Bilddaten unterscheiden, die Pixelwerte für ein ganzes Graustufenbild darstellen. Wenn Values-Daten erwähnt werden, bedeutet dies insbesondere *Ganzzahl 1, Ganzzahl 2, Ganzzahl 3 und Ganzzahl 4, Fließkommazahl 1, Fließkommazahl 2, Fließkommazahl 3 und Fließkommazahl 4 und Boolesche Wert*. Jede hat eine eigene Farbkodierung und wird meist nicht miteinander vertauscht.
 
 Dafür gibt es einige Anwendungsfälle, z. B.:
 

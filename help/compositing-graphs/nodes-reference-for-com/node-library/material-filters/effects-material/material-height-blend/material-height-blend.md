@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/material-height-blend.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/material-height-blend.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Material Height Überblendung , um mehrere Materialien auf der Grundlage von Höhen-Map zu überblenden, um Materialien mit mehreren Ebenen zu erstellen.
 helpx_creative_field: ""

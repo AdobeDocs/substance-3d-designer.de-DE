@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-srgb.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-srgb.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten In sRGB konvertieren , um Texturen für Anzeige- und Ausgabe-Workflows vom linearen in den sRGB-Farbraum zu konvertieren.
 helpx_creative_field: ""

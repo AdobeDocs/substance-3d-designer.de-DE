@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/2d-view.html"
 breadcrumb-title: ''
 description: Verwenden Sie die 2D-Ansichten in Substance 3D Designer, um Textur-Ausgaben Ihrer Material-Graf in der Vorschau anzuzeigen und zu überprüfen.
 helpx_creative_field: ""

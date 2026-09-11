@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-shadow.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-shadow.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten RT-Schatten, um Schatteninformationen aus der Geometrie in Echtzeit zu berechnen, um dynamische Beleuchtungseffekte zu erzeugen.
 helpx_creative_field: ""

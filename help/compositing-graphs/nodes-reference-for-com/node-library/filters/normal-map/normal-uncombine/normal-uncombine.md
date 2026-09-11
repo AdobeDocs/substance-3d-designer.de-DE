@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-uncombine.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-uncombine.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Normal nicht kombinieren, um kombinierte Normalen-Map-Daten in einzelne X-, Y- und Z-Komponenten aufzuteilen.
 helpx_creative_field: ""

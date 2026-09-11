@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-0.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/version-14-0.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Designer 14.0, um mehr über neue Knoten, die Diagrammnavigation und Leistungsverbesserungen zu erfahren.
 helpx_creative_field: ""
@@ -38,7 +38,7 @@ Diese Version 14.0 bringt viele neue Inhalte mit den unten aufgeführten neuen K
 
 * <b>Kuwahara-Filter</b>: Wenn du noch mehr mit der Stilisierung erreichen willst, kannst du mithilfe der [Anisotropischen Kuwahara-Farbe](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md) / [Graustufen](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md)-Filter einige malerische Effekte erzeugen. Im Detail wendet es eine anisotrope Richtungsunschärfe an, die den Details des Bildes entspricht. Das Ergebnis ist ein Bild, das so aussieht, als würde es in Richtung der darin enthaltenen Formen fließen.
 
-Diese Knoten (Quantize color und Anisotropic Kuwahara) werden in [diesem Tutorial](https://www.adobe.com/go/designer-tutorial-quantize) erläutert. Es zeigt, wie man damit Materialien stilisiert und Farben effizienter und intuitiver handhabt!
+Diese Knoten (Quantize color und Anisotropic Kuwahara) werden in [diesem Tutorial](https://www.adobe.com/go/designer-tutorial-quantize_de) erläutert. Es zeigt, wie man damit Materialien stilisiert und Farben effizienter und intuitiver handhabt!
 
 Weitere leistungsstarke Knoten nehmen an der Party teil:
 

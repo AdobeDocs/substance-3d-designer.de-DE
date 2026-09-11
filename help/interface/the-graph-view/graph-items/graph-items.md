@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/the-graph-view/graph-items.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über Graf-Elemente in Substance 3D Designer, einschließlich Rahmen, Kommentaren, Nadeln und Portalknoten zum Organisieren von Grafen.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-scratches.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-scratches.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Richtungsabhängige Scratches , um gerichtete Kratzmuster zu erstellen, um Materialien Abnutzungs- und Schadenseffekte hinzuzufügen.
 helpx_creative_field: ""

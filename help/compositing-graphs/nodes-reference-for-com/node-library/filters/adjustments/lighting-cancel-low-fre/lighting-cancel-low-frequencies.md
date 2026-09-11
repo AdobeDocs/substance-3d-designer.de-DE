@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/lighting-cancel-low-frequencies.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/lighting-cancel-low-frequencies.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Beleuchtung Niederfrequenzen abbrechen , um niederfrequente Beleuchtungsvarianten aus Texturen zur Material-Extraktion zu entfernen.
 helpx_creative_field: ""

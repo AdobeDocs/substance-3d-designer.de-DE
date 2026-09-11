@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random.html"
 breadcrumb-title: ''
 description: Verwenden Sie Zufallsalgorithmen, um Zufallswerte innerhalb bestimmter Funktionsknoten mit verschiedenen Algorithmen zu generieren.
 helpx_creative_field: ""

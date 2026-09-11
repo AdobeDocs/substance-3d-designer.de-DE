@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises.html"
 breadcrumb-title: ''
 description: Greifen Sie in Substance 3D Designer auf Rauschen-Generatorknoten zu, um prozedurale Rauschen-Muster für die Generierung und Variation von Texturen zu erstellen.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 Rauschen sehen biologisch und chaotisch aus und sehen prozedural aus. Die von den Rauschen generierten Ausgaben sehen ganz anders aus als die künstlich wirkenden Formen der [Musterkategorie.](../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/patterns.md)
 
-Sie würden Rauschen in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) als Ausgangspunkt oder Detailschicht für Dinge wie Körnung, Dirt, zufälliges Wachstum, für jede Art von Ebene mit subtiler Variation usw. verwenden.
+Sie würden Rauschen in [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) als Ausgangspunkt oder Detailschicht für Dinge wie Körnung, Dirt, zufälliges Wachstum, für jede Art von Ebene mit subtiler Variation usw. verwenden.
 
 Alle Rauschen sind vollständig auflösungsunabhängig, sodass du deine Ergebnisse vergrößern oder verkleinern kannst, ohne befürchten zu müssen, dass die Qualität jemals verloren geht.
 

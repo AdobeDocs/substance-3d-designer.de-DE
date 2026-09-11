@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/switch.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/switch.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Umschalten", um zwischen zwei Eingabemasken zu wechseln, die auf einer Textur für die Auswahl einer bedingten Textur basieren.
 helpx_creative_field: ""

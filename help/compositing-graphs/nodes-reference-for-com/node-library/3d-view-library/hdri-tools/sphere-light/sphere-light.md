@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/sphere-light.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/sphere-light.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Kugellicht", um HDRI-Umgebungen kugelförmige Lichtquellen hinzuzufügen, um eine verbesserte Beleuchtungssteuerung zu ermöglichen.
 helpx_creative_field: ""
