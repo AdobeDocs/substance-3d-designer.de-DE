@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie SBSPRJ-Projektkonfigurationsdateien in Substance 3D Designer verwenden, um Projekteinstellungen zu verwalten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Projektkonfigurationsdateien - SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Sie sind insofern besonders, als Sie mehrere Projektkonfigurationsdateien verwen
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![SBSPRJ-Dateisymbol](../../assets/sbsprj.png "SBSPRJ-Dateisymbol")
+![SBSPRJ-Dateisymbol](project-configuration-files-sbsprj.resources/sbsprj.png "SBSPRJ-Dateisymbol")
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ Dieses grundlegende Setup stellt sicher, dass die Standardbibliothek und andere 
 
 ## Erweitern oder Überschreiben
 
-Die meisten Einstellungen in einem aufeinander folgenden Projekt überschreiben <b>die Einstellungen aus dem vorherigen Projekt.</b> Zum Beispiel überschreibt eine andere Tangentialraum-Plug-in in einer benutzerdefinierten Projektdatei jedes TS-Plugin, das im Standard- oder Benutzerprojekt definiert ist. Dies bedeutet, dass es empfohlen wird, Einstellungen in untergeordneten Projekten nicht zu überschreiben oder zu ändern, sofern dies nicht explizit erforderlich ist.
+Die meisten Einstellungen in einem aufeinander folgenden Projekt überschreiben <b>die Einstellungen aus dem vorherigen Projekt.</b> Beispielsweise überschreibt ein anderes Tangent Space-Plug-in in einer benutzerdefinierten Projektdatei jedes im Standard- oder Benutzerprojekt definierte TS-Plug-in. Dies bedeutet, dass es empfohlen wird, Einstellungen in untergeordneten Projekten nicht zu überschreiben oder zu ändern, sofern dies nicht explizit erforderlich ist.
 
 Es gibt jedoch einige Einstellungen, die <b>nach den übergeordneten Einstellungen erweitert</b> werden, anstatt sie zu überschreiben. Diese Einstellungen sind vor allem die Bibliothekspfade und Filter. Daher fügen Sie der Bibliothek immer mehr Inhalt hinzu, anstatt ihn zu überschreiben. Darüber hinaus werden die Aliasse (Pfadschlüsselwörter für relative Dateipfade) erweitert und überschrieben, wenn ein Duplikat definiert ist. Dies ermöglicht eine hervorragende Kontrolle über die Pfade und Referenzen der Inhaltsdatei.
 
@@ -55,7 +55,7 @@ Es gibt jedoch einige Einstellungen, die <b>nach den übergeordneten Einstellung
 
 Projektdateien können die folgenden Einstellungen enthalten:
 
-<b>3D-Ansicht: </b>Standardstatusdefinitionen für Shader, HDR und Szene.
+<b>3D-Ansicht: </b>Standardschattierungs-, HDR- und Szenenstatusdefinitionen.
 
 <b>Aliase: </b>Stichwortaliasse für relative Pfade.
 
@@ -85,7 +85,7 @@ Unter Windows ist [Notepad++](https://notepad-plus-plus.org) eine gute kostenlos
 
 Sobald Sie die SBSPRJ-Datei in einem Editor geöffnet haben, sollten Sie ein relativ einfaches strukturiertes Layout sehen, mit Abschnitten, die den Registerkarten in der Benutzeroberfläche entsprechen. Nicht jede Einstellung wird hier dokumentiert, da es ziemlich selbsterklärend ist.
 
-![XML-Bearbeitung](../../assets/project-xml.png "XML-Bearbeitung")
+![XML-Bearbeitung](project-configuration-files-sbsprj.resources/project-xml.png "XML-Bearbeitung")
 
 ## Relative Pfade und Aliasse
 
@@ -93,7 +93,7 @@ Relative Pfade in Kombination mit Aliasen sind einer der komplizierteren, aber w
 
 Eines der Hauptprobleme bei Dateien, die auf andere Dateien in einem System auf dem PC mehrerer Benutzer verweisen, ist, dass absolute Dateipfade nicht funktionieren. Benutzer können ihre SVN-Repositorys an völlig anderen Speicherorten definieren (z. B. C:/John/Gamedev/SubstanceLibrary oder D:/Dev/SubstanceLibrary). Aliase und relative Pfade arbeiten beide zusammen, um dieses Problem zu lösen. Andernfalls können Sie die Datei einer anderen Person öffnen und es wird versucht, nach dem benutzerdefinierten Knoten zu suchen, der an dem bestimmten Speicherort verwendet wird, an dem der Benutzer die Datei lokal gespeichert hat, was Sie wahrscheinlich nicht genau auf die gleiche Weise definiert haben.
 
-Ein <b>Alias </b> ist ein Schlüsselwort, das (einen Teil) eines Pfads ersetzt. Es ähnelt einer Windows-Umgebungsvariable wie %TEMP%, bei der ein einzelnes Wort einen häufig verwendeten Pfad ersetzt, der dann zentral definiert wird. Der Vorteil ist, dass alle Pfade vereinfacht sind und Sie alle Referenzen auf einmal ändern können, wenn Sie diesen Pfad verlagert haben.
+Ein <b>Alias </b> ist ein Schlüsselwort, das (einen Teil) eines Pfads ersetzt. Es ähnelt einer Windows-Umgebungsvariable wie %TEMP%, bei der ein einzelnes Wort einen häufig verwendeten Pfad ersetzt, der dann zentral definiert wird. Der Vorteil ist, dass alle Pfade vereinfacht sind und Sie alle Referenzen auf einmal ändern können, wenn Sie diesen Pfad verschieben möchten.
 
 >[!NOTE]
 >
@@ -104,7 +104,7 @@ Ein <b>Alias </b> ist ein Schlüsselwort, das (einen Teil) eines Pfads ersetzt. 
 > | <b>sbs</b> | *C:\Program Files\Adobe\Adobe Substance 3D Designer\resources\packages* |
 > | <b>benutzerdefiniert</b> | *D:\Dev\CustomProject\Substance* |
 > 
-> Die Standardbibliothek befindet sich standardmäßig unter *C:\Program Files\Adobe\Adobe Substance 3D Designer\resources\packages*, und alle Graf, die Standardinhalte verwenden, verweisen auf dieses Verzeichnis. Anstatt auf den vollständigen Pfad zu verweisen, wird ein Alias &quot;<b>SBS</b>&quot; (ohne Anführungszeichen) definiert. Im Fall einer Standardbibliothek wird der genaue Wert für den SBS bei der Installation in dem Verzeichnis festgelegt, das der Benutzer für Designer auswählt.
+> Die Standardbibliothek befindet sich standardmäßig unter *C:\Program Files\Adobe\Adobe Substance 3D Designer\resources\packages*, und alle Diagramme, die Standardinhalte verwenden, verweisen auf dieses Verzeichnis. Anstatt auf den vollständigen Pfad zu verweisen, wird ein Alias &quot;<b>SBS</b>&quot; (ohne Anführungszeichen) definiert. Bei einer Standardbibliothek wird der genaue Wert für den SBS-Pfad bei der Installation in dem Verzeichnis festgelegt, das der Benutzer für Designer auswählt.
 > 
 > Intern wird eine Referenz wie folgt geändert, wenn sie einen Pfad mit einem Alias enthält:
 > 

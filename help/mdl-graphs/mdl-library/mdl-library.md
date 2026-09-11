@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDL-Bibliothek
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Wenn die Bibliothek [vMaterials](https://developer.nvidia.com/vmaterials) von NV
 </td>
 <td style="border: 0;" valign="top">
 
-![MDL-Ressourcen in Bibliothek](../../assets/mdl-library.png "MDL-Ressourcen in Bibliothek")
+![MDL-Ressourcen in Bibliothek](mdl-library.resources/mdl-library.png "MDL-Ressourcen in Bibliothek")
 
 *&quot;mdl&quot;-Abschnitt in der Bibliothek, die vMaterials-Bibliothek und der benutzerdefinierte Inhalt werden eingerahmt*
 
@@ -69,8 +69,8 @@ Alle in der Library verfügbaren MDL-Module können in der [3D-Ansicht](../../in
 * Integrierte Inhalte.
 * Benutzerdefinierter Inhalt
 * NVIDIA [vMaterials](https://developer.nvidia.com/vmaterials)
-* [MDL-Diagramms](../../mdl-graphs/mdl-graphs.md) geladen
+* [MDL-Diagramme geladen](../../mdl-graphs/mdl-graphs.md)
 
-![MDL-Materials in 3D-Ansicht](../../assets/mdl-apply-in-3dview-material-list.png "MDL-Materials in 3D-Ansicht")
+![MDL-Materialien in der 3D-Ansicht](mdl-library.resources/mdl-apply-in-3dview-material-list.png "MDL-Materialien in der 3D-Ansicht")
 
-*MDL-Materials in der 3D-Ansicht*
+*MDL-Materialien in der 3D-Ansicht*
