@@ -179,11 +179,11 @@ Dieses Feature ist *nicht* für andere Knoten verfügbar, einschließlich Knoten
 
 
 
-Wenn die Option &quot;<b>UVs in 2D-Ansicht anzeigen</b>&quot; im Menü &quot;<b>Szene anzeigen</b>&quot; des [3D-Ansicht ](../../interface/3d-view/3d-view.md)-Docks aktiviert ist, ist die UV-Überlagerungsfunktion in der 2D-Ansicht verfügbar.
+Wenn die Option &quot;<b>UVs in 2D-Ansicht anzeigen</b>&quot; im Menü &quot;<b>Szene anzeigen</b>&quot; des [3D-Ansicht &#x200B;](../../interface/3d-view/3d-view.md)-Docks aktiviert ist, ist die UV-Überlagerungsfunktion in der 2D-Ansicht verfügbar.
 
 Sie können sie mit der Schaltfläche <b>UV</b> aktivieren. 2![](2d-view.resources/2d-view-icon-uv.png)
 
-Dadurch werden die UVs des Meshs [, der derzeit in der 3D-Ansicht ](../../interface/3d-view/3d-view.md) ausgewählt ist, als farbiges Drahtgitter angezeigt.
+Dadurch werden die UVs des Meshs [, der derzeit in der 3D-Ansicht &#x200B;](../../interface/3d-view/3d-view.md) ausgewählt ist, als farbiges Drahtgitter angezeigt.
 
 Wenn in der Gitterdatei Informationen zur Materialfarbe verfügbar sind, wird die Materialfarbe als Farbe der UV-Überlagerung verwendet.
 
