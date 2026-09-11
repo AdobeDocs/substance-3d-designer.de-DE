@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: Wählen Sie in der 3D-Ansicht zwischen Renderern für Raster und Pathtracer für unterschiedliche Vorschauqualität und -leistung.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D-Renderer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: c7bf2522b15bef308d1471ca234c6619091f95fc
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 7%
@@ -38,11 +38,11 @@ Die 3D-Ansicht bietet vier Renderer:
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Rasterizer</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
+      <img src="3d-renderers.resources/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
       <br><i>GPU-Pathtracer</i>
     </td>
   </tr>
@@ -59,11 +59,11 @@ Dank der Abhängigkeit von USD kann das Adobe-Plugin [USDFileFormat](https://git
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Rasterizer</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
+      <img src="3d-renderers.resources/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -111,7 +111,7 @@ Dank der Abhängigkeit von USD kann das Adobe-Plugin [USDFileFormat](https://git
 
 +++
 
-![Rasterizer - Beispiel 1](../../../assets/3dRendererRasterizer.jpg "Rasterizer - Beispiel 1"){zoomable="yes"}
+![Rasterizer - Beispiel 1](3d-renderers.resources/3dRendererRasterizer.jpg "Rasterizer - Beispiel 1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -145,7 +145,7 @@ Dank der Abhängigkeit von USD kann das Adobe-Plugin [USDFileFormat](https://git
 
 +++
 
-![GPU-Pathtracer - Beispiel 1](../../../assets/3dRendererPathtracer.jpg "GPU-Pathtracer - Beispiel 1"){zoomable="yes"}
+![GPU-Pathtracer - Beispiel 1](3d-renderers.resources/3dRendererPathtracer.jpg "GPU-Pathtracer - Beispiel 1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -178,7 +178,7 @@ Zur Visualisierung des Heights stehen zwei Techniken zur Verfügung:
 
 <b>Tesselation + Versatz</b> - Unterteilt die Geometrie und verschiebt die Scheitelpunkte entlang ihrer Normalen.
 
-Das Adobe Standard Material ist in [diesem Abschnitt](https://experienceleague.adobe.com/de/docs/substance-3d/general-knowledge/asm/adobe-standard-material) unserer Dokumentation ausführlich dokumentiert.
+Das Adobe Standard Material ist in [diesem Abschnitt](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) unserer Dokumentation ausführlich dokumentiert.
 
 +++
 
@@ -290,10 +290,10 @@ Unlit Debug Shader zur Visualisierung von Texturmaps ohne Beleuchtung. Verwendet
 
 +++
 
-Designer bietet außerdem die Möglichkeit, eigene Shader für den OpenGL-Renderer [&#x200B; mithilfe von GLSLFX-Dateien zu konfigurieren](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md).
+Designer bietet außerdem die Möglichkeit, eigene Shader für den OpenGL-Renderer [ mithilfe von GLSLFX-Dateien zu konfigurieren](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md).
 
 >[!IMPORTANT]
 > 
 > Dieser Renderer ist **veraltet**: Es wird keine neuen Funktionen erhalten und in einer zukünftigen Version von Designer ausgemustert.
 
-![OpenGL - Beispiel 1](../../../assets/3dRendererOpenGL.jpg "OpenGL - Beispiel 1"){zoomable="yes"}
+![OpenGL - Beispiel 1](3d-renderers.resources/3dRendererOpenGL.jpg "OpenGL - Beispiel 1"){zoomable="yes"}
