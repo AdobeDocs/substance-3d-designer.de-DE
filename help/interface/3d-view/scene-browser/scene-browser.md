@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/3d-view/scene-browser.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ''
-description: Verwenden Sie den Szene-Browser, um im Viewport zu 3D-Szenen, Materialien und Objekten zu navigieren und diese zu verwalten.
+description: Verwenden Sie den Szenenbrowser, um im Viewport zu 3D-Szenenelementen, Materialien und Objekten zu navigieren und diese zu verwalten.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view > Scene browser
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Szenenbrowser
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 1%
@@ -20,15 +20,15 @@ ht-degree: 1%
 
 # Szenenbrowser
 
-Im Szenen-Browser der 3D-Ansicht sind alle Elemente der Szene und ihre Hierarchie aufgelistet.
+Der Szenenbrowser der 3D-Ansicht listet alle Elemente in der Szene und ihre Hierarchie auf.
 
-Es bietet Steuerelemente zum Auswählen von Objekten, zum Umschalten ihrer Sichtbarkeit sowie zum Auswählen, welches Material [&#x200B; ein Szene-Material überschreiben soll](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md).
+Es bietet Steuerelemente zum Auswählen von Objekten, zum Umschalten ihrer Sichtbarkeit sowie zum Auswählen, welches Material [ ein Szenenmaterial überschreiben soll](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md).
 
-Da Designer [USD](https://openusd.org/release/index.html) für die Beschreibung und Verwaltung seiner Szenen verwendet, befinden sich die Terminologie und Konzepte in dieser Szene.
+Da Designer [USD](https://openusd.org/release/index.html) für die Beschreibung und Verwaltung seiner Szenen verwendet, befinden sich die Terminologie und Konzepte in dieser Szenenstruktur.
 
-Sie wird angezeigt, indem Sie auf die dedizierte Umschaltfläche &quot;![](../../../assets/sceneBrowser-toggleButton.png)&quot; in der Symbolleiste &quot;[3D View Szene&quot; klicken.](../../../interface/3d-view/3d-view.md)
+Sie wird angezeigt, indem Sie auf die dedizierte Umschaltfläche &quot;![](scene-browser.resources/sceneBrowser-toggleButton.png)&quot; in der [3D-Ansichtsszene-Symbolleiste ](../../../interface/3d-view/3d-view.md) klicken.
 
-![Szenen-Browser - 3D-Szenen geladen](../../../assets/loaded3DScene.png "Szenen-Browser - 3D-Szenen geladen"){zoomable="yes"}
+![Szenenbrowser - Geladene 3D-Szene](scene-browser.resources/loaded3DScene.png "Szenenbrowser - Geladene 3D-Szene"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -44,7 +44,7 @@ Sie wird angezeigt, indem Sie auf die dedizierte Umschaltfläche &quot;![](../..
 </td>
 <td style="border: 0;" valign="top">
 
-### Verbundene Material
+### Verbundene Materialien
 
 </td>
 </tr>
@@ -56,14 +56,14 @@ Sie wird angezeigt, indem Sie auf die dedizierte Umschaltfläche &quot;![](../..
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-Der Szene-Browser zeigt eine Liste von Objekten an, die in einer hierarchischen Baumstruktur angeordnet sind.
+Der Szenenbrowser zeigt eine Liste von Objekten an, die in einer hierarchischen Baumstruktur angeordnet sind.
 
 Objekte werden anderen Objekten übergeordnet, bis zum Stamm der Szene. Ein übergeordnetes Objekt verfügt über eine Pfeilschaltfläche, mit der die Liste der ihm untergeordneten Objekte ein- oder ausgeblendet wird.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Szene-Browser - Szene-Struktur](../../../assets/sceneBrowser-sceneTree.png "Szene-Browser - Szene-Struktur"){zoomable="yes"}
+![Szenenbrowser - Szenenbaum](scene-browser.resources/sceneBrowser-sceneTree.png "Szenenbrowser - Szenenbaum"){zoomable="yes"}
 
 </td>
 </tr>
@@ -72,10 +72,10 @@ Objekte werden anderen Objekten übergeordnet, bis zum Stamm der Szene. Ein übe
 Lassen Sie den Cursor einige Sekunden auf einem Element in der Struktur, um eine QuickInfo mit den folgenden Informationen anzuzeigen:
 
 * <b>Pfad:</b> Der vollständige Pfad des Objekts in der Szene.
-* <b>TypeName:</b> Der USD des Objekts.
-* <b>Dokumentation:</b> Ausführliche Informationen zum Objekt als USD Szene.
+* <b>TypeName:</b> Der USD-Typ des Objekts.
+* <b>Dokumentation:</b> Ausführliche Informationen zum Objekt als USD-Szenenelement.
 
-Mesh verfügen über zusätzliche Informationen: Anzahl der Scheitelpunkt, Anzahl der Flächen und Anzahl der UV.
+Gitter verfügen über zusätzliche Informationen: Scheitelpunktzahl, Gesichtszahl und UV-Zahl.
 
 ### Von Designer hinzugefügte Objekte
 
@@ -85,14 +85,14 @@ Mesh verfügen über zusätzliche Informationen: Anzahl der Scheitelpunkt, Anzah
 
 Designer fügt jeder geladenen Szene einige Objekte hinzu. Von Designer hinzugefügte Objekte sind mit <b>bold</b> gekennzeichnet.
 
-Bei Verwendung des Editors ... in den Menüs &quot;Lights&quot;, &quot;Kamera&quot; und &quot;Environment&quot; festgelegt sind, handelt es sich um die Objekte, die bearbeitet werden, unabhängig davon, ob andere Lights, Kameras oder Umgebungen in der Szene vorhanden sind.
+Bei Verwendung des Editors ... in den Menüs &quot;Licht&quot;, &quot;Kamera&quot; und &quot;Umgebung&quot;. Dabei handelt es sich um die Objekte, die bearbeitet werden, unabhängig davon, ob andere Lichter, Kameras oder Umgebungen in der Szene vorhanden sind.
 
-Diese Objekte sind in der Szene enthalten, wenn [&#x200B; &#x200B;](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) exportiert hat.
+Diese Objekte sind in der Szene enthalten, wenn [ ](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) exportiert hat.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Szene-Browser: Von Designer hinzugefügte Objekte, fett aufgelistet](../../../assets/sceneBrowser-addedByDesigner.png "Szene-Browser: Von Designer hinzugefügte Objekte, fett markiert"){zoomable="yes"}
+![Szenenbrowser: Von Designer hinzugefügte Objekte in Fettschrift](scene-browser.resources/sceneBrowser-addedByDesigner.png "Szenenbrowser: Von Designer hinzugefügte Objekte in Fettschrift"){zoomable="yes"}
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ Jedes Objekt kann in der Szene aktiviert und deaktiviert werden. Wenn diese Opti
 
 Der Status eines übergeordneten Objekts wird auf seine untergeordneten Objekte übertragen. Wenn Sie also ein übergeordnetes Objekt deaktivieren, werden auch seine untergeordneten Objekte deaktiviert.
 
-Die Sichtbarkeit eines Objekts kann durch Klicken auf die Augenschaltfläche &quot;![](../../../assets/sceneBrowser-eyeButton.png)&quot; oder über das Kontextmenü umgeschaltet werden. Das Menü bietet einige weitere Aktionen zum Verwalten der Sichtbarkeit von Szenenobjekten:
+Die Sichtbarkeit eines Objekts kann durch Klicken auf die Augenschaltfläche &quot;![](scene-browser.resources/sceneBrowser-eyeButton.png)&quot; oder über das Kontextmenü umgeschaltet werden. Das Menü bietet einige weitere Aktionen zum Verwalten der Sichtbarkeit von Szenenobjekten:
 
 * <b>Ausblenden:</b> Deaktivieren Sie das ausgewählte Objekt.
 * <b>Anzeigen:</b> Aktivieren Sie das ausgewählte Objekt.
@@ -128,42 +128,42 @@ Einige Aktionen wirken sich insbesondere auf die Sichtbarkeit von Gittern aus:
 * <b>Alle untergeordneten Elemente erweitern:</b> Erweitern Sie alle untergeordneten Listen unter dem ausgewählten Objekt rekursiv.
 * <b>Alle untergeordneten Elemente reduzieren:</b> Reduzieren aller untergeordneten Listen unter dem ausgewählten Objekt, rekursiv.
 
-![Szenenbrowser - Objektsichtbarkeit umschalten](../../../assets/sceneBrowser-toggleVisibility.gif "Szenenbrowser - Objektsichtbarkeit umschalten"){zoomable="yes"}
+![Szenenbrowser - Objektsichtbarkeit umschalten](scene-browser.resources/sceneBrowser-toggleVisibility.gif "Szenenbrowser - Objektsichtbarkeit umschalten"){zoomable="yes"}
 
 ### Umgebungen
 
-Die Sichtbarkeit eines beliebigen Umgebungslichts (DomeLight) kann wie andere Objekte aktiviert und deaktiviert werden.
+Die Sichtbarkeit einer Umgebungsbeleuchtung (DomeLight) kann wie andere Objekte aktiviert und deaktiviert werden.
 
-Wenn ein Umgebungslicht deaktiviert ist, wird auch sein Lichtbeitrag zur Szene deaktiviert.
+Wenn eine Umgebungsbeleuchtung deaktiviert ist, wird auch ihr Lichtbeitrag zur Szene deaktiviert.
 
-Wenn mehr als ein Umgebungslicht aktiviert ist, werden seine Beleuchtungsbeiträge *kumulativ* hinzugefügt.
+Wenn mehr als eine Umgebungsbeleuchtung aktiviert ist, werden ihre Beleuchtungsbeiträge *kumulativ* hinzugefügt.
 
-![Szene-Browser - Umgebungssichtbarkeit umschalten](../../../assets/sceneBrowser-toggleEnvLights.gif "Szene-Browser - Umgebungssichtbarkeit umschalten"){zoomable="yes"}
+![Szenenbrowser - Umgebungssichtbarkeit umschalten](scene-browser.resources/sceneBrowser-toggleEnvLights.gif "Szenenbrowser - Umgebungssichtbarkeit umschalten"){zoomable="yes"}
 
 ### Lichter
 
-Dasselbe gilt für alle Lampen in der Szene: können einzeln aktiviert und deaktiviert werden.
+Dasselbe gilt für alle Lichter in der Szene: können einzeln aktiviert und deaktiviert werden.
 
-![Szene-Browser - Lichtsichtbarkeit umschalten](../../../assets/sceneBrowser-toggleLights.gif "Szene-Browser - Lichtsichtbarkeit umschalten"){zoomable="yes"}
+![Szenenbrowser - Umschalten der Lichtsichtbarkeit](scene-browser.resources/sceneBrowser-toggleLights.gif "Szenenbrowser - Umschalten der Lichtsichtbarkeit"){zoomable="yes"}
 
-## Verbundene Material
+## Verbundene Materialien
 
-Mit dem Szene-Browser können Sie auch alle außer Kraft gesetzten Material mit einem anderen Material verbinden, das von Designer im Menü [Materialien](../../../interface/3d-view/3d-view.md) der 3D-Ansicht aufgelistet wird.
+Mit dem Szenenbrowser können Sie auch überschriebenes Material mit einem anderen Material verbinden, das von Designer im Menü [Materialien](../../../interface/3d-view/3d-view.md) der 3D-Ansicht aufgelistet wird.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Bei den von Designer aufgelisteten Materialien handelt es sich um die Material-Objekte in der Szene, die auf mindestens einem Mesh verwendet werden.
+Bei den in Designer aufgelisteten Materialien handelt es sich um die Material-Objekte in der Szenenstruktur, die in mindestens einem Gitter verwendet werden.
 
-Wenn [diese Material überschreiben](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md), wird von Designer eine Kopie mit einem numerischen Suffix erstellt.
+Wenn [diese Materialien überschreiben](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md), wird eine Kopie von Designer mit einem numerischen Suffix erstellt.
 
-Ein überschriebenes Material bietet ein zusätzliches Element in seinem Kontextmenü: Das Untermenü &quot;[Verbundenes Material](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)&quot; listet alle anderen verfügbaren Material auf, mit denen dieses Material überschrieben werden kann.
+Ein überschriebenes Material bietet ein zusätzliches Element in seinem Kontextmenü: Das Untermenü &quot;[Verbundenes Material](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)&quot; listet alle anderen verfügbaren Materialien auf, die verwendet werden können, um dieses Material zu überschreiben.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Szene-Browser - Verbundenes Material](../../../assets/sceneBrowser-connectedMaterial.png "Szene-Browser - Verbundenes Material"){zoomable="yes"}
+![Szenenbrowser - Verbundenes Material](scene-browser.resources/sceneBrowser-connectedMaterial.png "Szenenbrowser - Verbundenes Material"){zoomable="yes"}
 
 </td>
 </tr>

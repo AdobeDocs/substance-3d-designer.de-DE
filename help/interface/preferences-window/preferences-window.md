@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: Rufen Sie das Fenster "Voreinstellungen" in Substance 3D Designer auf, um Anwendungseinstellungen und -verhalten anzupassen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Voreinstellungen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Voreinstellungsfenster
 
-![Fenster für Voreinstellungen](../../assets/image2021-6-22-20-56-1.png "Fenster für Voreinstellungen")
+![Fenster für Voreinstellungen](preferences-window.resources/image2021-6-22-20-56-1.png "Fenster für Voreinstellungen")
 
 Auf dieser Seite werden das Fenster &quot;<b>Voreinstellungen</b>&quot; und alle zugehörigen Einstellungen angezeigt.
 
@@ -55,21 +55,21 @@ Wir empfehlen, alle diese Einstellungen zu überprüfen, um einen besseren Einbl
 
 |  |  |
 | --- | --- |
-| <b>Zoom in Ansichten umkehren</b>  *Standard: Nicht aktiviert* | Wenn diese Option aktiviert ist, werden die Zoomsteuerungen in den [2D-Ansichten](../../interface/2d-view/2d-view.md), [3D-Ansichten](../../interface/3d-view/3d-view.md) und [Grafen](../../interface/the-graph-view/the-graph-view.md) invertiert. |
+| <b>Zoom in Ansichten umkehren</b>  *Standard: Nicht aktiviert* | Wenn diese Option aktiviert ist, werden die Zoomsteuerungen in der [2D-Ansicht](../../interface/2d-view/2d-view.md), [3D-Ansicht](../../interface/3d-view/3d-view.md) und [Diagrammen](../../interface/the-graph-view/the-graph-view.md) invertiert. |
 
 ### Pfade
 
 |  |  |
 | --- | --- |
-| <b>Pfad speichern/exportieren</b>  *Standard: Letzter Pfad* | Bestimmt, ob der vorgeschlagene Speicher-/Exportpfad der zuletzt ausgewählte Pfad oder der Pfad des [SBSPakets](../../getting-started/overview/overview.md) ist. Der zuletzt ausgewählte Pfad wird sitzungsübergreifend gespeichert. |
-| <b>Temporärer Ordner</b>  *Standard: Pfad abhängig vom Betriebssystem des Systems* | Wenn die Bilddaten eines Grafen den zugewiesenen Speicherpool überschreiten (siehe unter <b>Speicher > Bildcache</b>), werden die überlaufenden Daten auf den Datenträger geschrieben. Mit dieser Einstellung können Sie den Speicherort definieren, an dem die überlaufenden Bild-Cache-Daten gespeichert werden.   Dieser Speicherort wird auch verwendet, um eine Kopie des aktuell geöffneten SBS-Pakets mit den neuesten Änderungen seit dem letzten manuellen Speichern zu speichern. |
+| <b>Pfad speichern/exportieren</b>  *Standard: Letzter Pfad* | Bestimmt, ob der vorgeschlagene Speicher-/Exportpfad der zuletzt ausgewählte Pfad oder der Pfad des [SBS-Pakets](../../getting-started/overview/overview.md) ist. Der zuletzt ausgewählte Pfad wird sitzungsübergreifend gespeichert. |
+| <b>Temporärer Ordner</b>  *Standard: Pfad abhängig vom Betriebssystem des Systems* | Wenn die Bilddaten eines Diagramms den zugewiesenen Speicherpool überschreiten (siehe unter <b>Speicher > Bildcache</b>), werden die überlaufenden Daten auf den Datenträger geschrieben. Mit dieser Einstellung können Sie den Speicherort definieren, an dem die überlaufenden Bild-Cache-Daten gespeichert werden.   Dieser Speicherort wird auch verwendet, um eine Kopie des aktuell geöffneten SBS-Pakets mit den neuesten Änderungen seit dem letzten manuellen Speichern zu speichern. |
 
 ### Datenspeicher
 
 #### Bildcache
 
-Die Anwendung speichert ein *unkomprimiertes Bild mit voller Auflösung* für jeden gerenderten Knoten im aktuellen Graf im Cache.\
-Instanzknoten generieren diese Images für alle Nodes des Grafen, auf den sie verweisen, und löschen sie, nachdem ihre [Ausgaben](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) berechnet wurden. Zu diesem Zeitpunkt werden nur die Ausgänge im Speicher gespeichert.
+Die Anwendung speichert im Cache ein *unkomprimiertes Bild mit voller Auflösung* für jeden gerenderten Knoten im aktuellen Diagramm.\
+Instanzknoten generieren diese Bilder für alle Knoten des Diagramms, auf das sie verweisen, und löschen sie, nachdem ihre [Ausgaben](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) berechnet wurden. Zu diesem Zeitpunkt werden nur die Ausgänge im Speicher gespeichert.
 
 Sie können die maximale Cachegröße festlegen, die Miniaturansichten und Bildern im Systemspeicher zugewiesen wird, und die aktuelle Verwendung anzeigen. Wenn die Cachedaten den zugewiesenen Pool überlaufen, werden die überschüssigen Daten in den <b>Temporary Folder</b> geschrieben (siehe <b>Pfade > Temporary folder</b>).
 
@@ -77,8 +77,8 @@ Sie können die maximale Cachegröße festlegen, die Miniaturansichten und Bilde
 | --- | --- |
 | <b>Arbeitsspeicherbudget</b>  *Standard: Automatisch* | Diese Zuweisung wird automatisch auf ca. 75 % des gesamten Systemspeicherpools berechnet. Um diesen Wert manuell festzulegen, wählen Sie die Option &quot;*Custom*&quot; und legen Sie einen Wert im benachbarten Eingabefeld fest. |
 
-Beachten Sie, dass das Schreiben auf die Festplatte um *Größenordnungen langsamer ist* als das Schreiben in den Systemspeicher. Daher nimmt die Renderzeit des Grafen *exponentiell zu*, da überlaufende Daten in den temporären Ordner geschrieben werden müssen.\
-Um dies zu verhindern, empfehlen wir, die Vorschläge zum Verringern des Speicherplatzbedarfs eines Grafen im Abschnitt [Richtlinien zur Leistungsoptimierung](../../best-practices/performance-optimization/performance-optimization-guidelines.md) der Dokumentation zu lesen.
+Beachten Sie, dass das Schreiben auf die Festplatte um *Größenordnungen langsamer ist* als das Schreiben in den Systemspeicher. Daher nimmt die Diagrammwiedergabezeit *exponentiell zu*, da überlaufende Daten in den temporären Ordner geschrieben werden müssen.\
+Um dies zu verhindern, empfehlen wir, die Vorschläge zum Verringern des Speicherbedarfs eines Diagramms im Abschnitt [Leistungsoptimierungsrichtlinien](../../best-practices/performance-optimization/performance-optimization-guidelines.md) der Dokumentation zu lesen.
 
 #### Jobplaner
 
@@ -97,7 +97,7 @@ Mit dieser Einstellung können Sie den zugewiesenen Speicherpool für *alle glei
 
 ### Automatische Sicherungskopie
 
-Standardmäßig ist eine Funktion zum automatischen Speichern enthalten, die Kopien des aktuellen Status von offenen [SBS Paketen &#x200B;](https://docs.substance3d.com/display/DRAFTDESIGNER/.Overview+vDraftVersion) zu festgelegten Zeitpunkten erstellt. Automatisch gespeicherte Dateien werden in einem Ordner &quot;<b>.autosave</b>&quot; am SBS Speicherort des Pakets abgelegt.
+Standardmäßig ist eine Funktion zum automatischen Speichern enthalten, die Kopien des aktuellen Status von offenen [SBS Paketen ](https://docs.substance3d.com/display/DRAFTDESIGNER/.Overview+vDraftVersion) zu festgelegten Zeitpunkten erstellt. Automatisch gespeicherte Dateien werden in einem Ordner &quot;<b>.autosave</b>&quot; am SBS Speicherort des Pakets abgelegt.
 
 |  |  |
 | --- | --- |
@@ -111,7 +111,7 @@ Beachten Sie auch, dass automatische Speichervorgänge geöffnet werden sollten 
 
 |  |  |
 | --- | --- |
-| <b>Speichern Sie die SBS-Datei immer, wenn Sie sie in SBSAR veröffentlichen oder an eine andere Anwendung senden</b>  *Standard: Wahr* | Steuert das automatische Speichern des SBS, wenn [es &#x200B;](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) veröffentlicht oder an eine andere Anwendung gesendet wird. |
+| <b>Speichern Sie die SBS-Datei immer, wenn Sie sie in SBSAR veröffentlichen oder an eine andere Anwendung senden</b>  *Standard: Wahr* | Steuert das automatische Speichern des SBS, wenn [es ](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) veröffentlicht oder an eine andere Anwendung gesendet wird. |
 
 ### Cooker
 
@@ -157,14 +157,14 @@ Weitere Informationen finden Sie auf der Seite [Projekteinstellungen](../../inte
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Kontextabhängige Bearbeitung deaktiviert](../../assets/substance3ddesigner_incontext_no.gif "Kontextabhängige Bearbeitung deaktiviert")
+![Kontextabhängige Bearbeitung deaktiviert](preferences-window.resources/substance3ddesigner_incontext_no.gif "Kontextabhängige Bearbeitung deaktiviert")
 
 *Verweis öffnen*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Kontextabhängige Bearbeitung aktiviert](../../assets/substance3ddesigner_incontext_yes.gif "Kontextabhängige Bearbeitung aktiviert")
+![Kontextabhängige Bearbeitung aktiviert](preferences-window.resources/substance3ddesigner_incontext_yes.gif "Kontextabhängige Bearbeitung aktiviert")
 
 *Verweis im Kontext öffnen*
 
@@ -191,7 +191,7 @@ Weitere Informationen finden Sie auf der Seite [Projekteinstellungen](../../inte
 
 |  |  |
 | --- | --- |
-| <b>GPU-Raytracing</b>  *Standard: Aktiviert* | Wenn diese Option aktiviert ist, wird Raytracing für [kompatible Bäcker](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/features/gpu-raytracing) auf der GPU durchgeführt.   Je nach NVIDIA-GPU-Architektur sind die folgenden GPU-Raytracing-Backends die Standardeinstellungen:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Touring und neuer</li> <li data-preserve-html="true"><i>Optix</i>: Pascal und Maxwell</li> </ul>  **Hinweis:** Weitere Informationen zu GPU-betriebenen Bäckereien finden Sie im Abschnitt [GPU-Raytracing](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/features/gpu-raytracing) der Dokumentation [Substance Bakers](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/home).  **Tipp:** Sie können die folgenden *Befehlszeilenargumente* verwenden, wenn Sie die Anwendung starten, um *die Verwendung eines anderen GPU-Raytracing-Backends zu erzwingen*: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : Erzwingen der Verwendung von Optix auf Nvidia Turing oder neueren GPUs</li> <li data-preserve-html="true"><code>—force-dxr</code> : erzwingen der Verwendung von DXR auf Nvidia Pascal-GPUs</li> </ul> |
+| <b>GPU-Raytracing</b>  *Standard: Aktiviert* | Wenn diese Option aktiviert ist, wird Raytracing für [kompatible Bäcker](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) auf der GPU durchgeführt.   Je nach NVIDIA-GPU-Architektur sind die folgenden GPU-Raytracing-Backends die Standardeinstellungen:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Touring und neuer</li> <li data-preserve-html="true"><i>Optix</i>: Pascal und Maxwell</li> </ul>  **Hinweis:** Weitere Informationen zu GPU-betriebenen Bäckereien finden Sie im Abschnitt [GPU-Raytracing](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) der Dokumentation [Substance Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).  **Tipp:** Sie können die folgenden *Befehlszeilenargumente* verwenden, wenn Sie die Anwendung starten, um *die Verwendung eines anderen GPU-Raytracing-Backends zu erzwingen*: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : Erzwingen der Verwendung von Optix auf Nvidia Turing oder neueren GPUs</li> <li data-preserve-html="true"><code>—force-dxr</code> : erzwingen der Verwendung von DXR auf Nvidia Pascal-GPUs</li> </ul> |
 
 ## Bibliothek
 
