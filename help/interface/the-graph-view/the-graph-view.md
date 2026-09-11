@@ -98,7 +98,7 @@ Wenn Sie auf RMB im leeren Bereich im Graf klicken, wird ein Kontextmenü angeze
 
 <b>Zurücksetzen und Anzeigen von Ausgaben in der 3D-Ansicht:</b> Setzen Sie ein Material in der [3D-Ansicht zurück](../../interface/3d-view/3d-view.md) und weisen Sie diesem Material alle Ausgaben des Grafen zu, indem Sie die Verwendungsarten abgleichen. Weitere Informationen finden Sie unter [Interagieren mit der 3D-Ansicht](#interacting-with-the-3d-view) weiter unten.
 
-<b>Ausgabe in 2D-Ansicht anzeigen:</b> Zeigen Sie eine der Ausgaben des Grafen in der [2D-Ansicht an](../../interface/2d-view/2d-view.md), siehe [Interaktion mit der 2D-Ansicht ](#interacting-with-the-2d-view) weiter unten;
+<b>Ausgabe in 2D-Ansicht anzeigen:</b> Zeigen Sie eine der Ausgaben des Grafen in der [2D-Ansicht an](../../interface/2d-view/2d-view.md), siehe [Interaktion mit der 2D-Ansicht &#x200B;](#interacting-with-the-2d-view) weiter unten;
 
 <b>Knoten-Miniaturansichten berechnen:</b> Lösen Sie die Berechnung des Ergebnisses aller Knoten im Graf aus, die im [Bildcache](../../interface/preferences-window/preferences-window.md) gespeichert werden, und verwenden Sie deren erste Ausgabe als Miniaturansicht.
 
@@ -205,7 +205,7 @@ Zum Auswählen von *mehreren* Knoten stehen die folgenden Methoden zur Verfügun
 
 Wenn Sie auf RMB auf einem Knoten klicken, wird ein Kontextmenü angezeigt, das die folgenden Optionen enthalten kann:
 
-<b>Ausgabe in 2D-Ansicht anzeigen:</b> Zeigen Sie eine der Ausgaben des Knotens in der [2D-Ansicht an](../../interface/2d-view/2d-view.md), siehe [Interaktion mit der 2D-Ansicht ](#interacting-with-the-2d-view) weiter unten;
+<b>Ausgabe in 2D-Ansicht anzeigen:</b> Zeigen Sie eine der Ausgaben des Knotens in der [2D-Ansicht an](../../interface/2d-view/2d-view.md), siehe [Interaktion mit der 2D-Ansicht &#x200B;](#interacting-with-the-2d-view) weiter unten;
 
 <b>In 3D-Ansicht anzeigen</b>: Weisen Sie alle Ausgaben des Knotens einem Material in der [3D-Ansicht](../../interface/3d-view/3d-view.md) zu, indem Sie die Verwendungsarten abgleichen. Weitere Informationen finden Sie unter [Interaktion mit der 3D-Ansicht](#interacting-with-the-3d-view) weiter unten.
 
@@ -223,9 +223,9 @@ Wenn Sie auf RMB auf einem Knoten klicken, wird ein Kontextmenü angezeigt, das 
 
 <b>Erstellen\*:</b> Erstellen von Eingabe- und/oder Ausgabeknoten für jede Eingabe und/oder Ausgabe dieses Knotens
 
-<b>Verweis öffnen\*:</b> Laden Sie den Graf [, auf den dieser Knoten ](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) verweist, als separate Registerkarte für die Graphansicht.
+<b>Verweis öffnen\*:</b> Laden Sie den Graf [, auf den dieser Knoten &#x200B;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) verweist, als separate Registerkarte für die Graphansicht.
 
-<b>Verweis im Kontext öffnen\*\*:</b> Laden Sie den Graf [, auf den dieser Knoten ](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) im Kontext des aktuellen Grafen verweist, als Breadcrumb auf der Registerkarte &quot;Vorhandene Graphansicht&quot;.
+<b>Verweis im Kontext öffnen\*\*:</b> Laden Sie den Graf [, auf den dieser Knoten &#x200B;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) im Kontext des aktuellen Grafen verweist, als Breadcrumb auf der Registerkarte &quot;Vorhandene Graphansicht&quot;.
 
 <b>Graf aus Auswahl erstellen:</b> Kopieren Sie die ausgewählten Knoten in einen neuen Graf.
 
@@ -247,8 +247,8 @@ Wenn Sie auf RMB auf einem Knoten klicken, wird ein Kontextmenü angezeigt, das 
 
 <b>Knoten/Auswahl deaktivieren:</b> Deaktivieren Sie den Knoten oder die ausgewählten Knoten, sodass sie keine Auswirkungen auf das Ergebnis des Streams haben. Siehe <b>Deaktivieren von Knoten</b> weiter unten.
 
-<b>\*</b>: Nur für [Knoten der Grapheninstanz ](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) verfügbar.\
-<b>\*\*:</b> Nur verfügbar für [Knoten der Grapheninstanz ](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) und wenn die Option <b>Kontextabhängiges Bearbeiten aktivieren</b> in den [Voreinstellungen](../../interface/preferences-window/preferences-window.md) aktiviert ist.\
+<b>\*</b>: Nur für [Knoten der Grapheninstanz &#x200B;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) verfügbar.\
+<b>\*\*:</b> Nur verfügbar für [Knoten der Grapheninstanz &#x200B;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) und wenn die Option <b>Kontextabhängiges Bearbeiten aktivieren</b> in den [Voreinstellungen](../../interface/preferences-window/preferences-window.md) aktiviert ist.\
 <b>\*\*\*:</b> Nur verfügbar, wenn die Auswahl zwei Verknüpfungen enthält, oder drei Knoten, bei denen zwei der Knoten mit Eingängen desselben dritten Knotens verbunden sind.
 
 >[!IMPORTANT]
@@ -414,7 +414,7 @@ Die Knotensymbolleiste hängt vom Graf ab:
 
 ![Symbolleiste für übergeordnete Größe](the-graph-view.resources/image2020-6-26-17-0-48.png "Symbolleiste für übergeordnete Größe")
 
-Diese Symbolleiste ist nur in [Substance-Grafen](../../compositing-graphs/substance-compositing-graphs.md) verfügbar und legt die [Ausgabegröße](../../compositing-graphs/output-size/output-size.md) der *übergeordneten* des Grafen fest. Dies wirkt sich auf die Ausgabegröße des Grafen aus, wenn die *Relativ zum übergeordneten Element* [Vererbung ](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) verwendet wird.
+Diese Symbolleiste ist nur in [Substance-Grafen](../../compositing-graphs/substance-compositing-graphs.md) verfügbar und legt die [Ausgabegröße](../../compositing-graphs/output-size/output-size.md) der *übergeordneten* des Grafen fest. Dies wirkt sich auf die Ausgabegröße des Grafen aus, wenn die *Relativ zum übergeordneten Element* [Vererbung &#x200B;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) verwendet wird.
 
 Horizontale und vertikale Größen sind standardmäßig verknüpft, können jedoch für nicht quadratische Texturen *nicht verknüpft* sein. Die Werte können auch auf den Standardwert 256 x 256 zurückgesetzt werden.
 
