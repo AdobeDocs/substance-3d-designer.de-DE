@@ -59,7 +59,7 @@ Bearbeitungen können *einzeln rückgängig gemacht werden*, und alle anderen Fu
 
 Die Vektorbearbeitungswerkzeuge werden automatisch im Bereich [2D-Ansicht](https://docs.substance3d.com/display/SDDOC/2D+view) aktiviert, wenn die folgenden Kriterien für ein Vektorgrafiken-Image erfüllt sind:
 
-* Das Vektorgrafiken-Image ist eine [neue oder importierte ](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources)-Ressource.
+* Das Vektorgrafiken-Image ist eine [neue oder importierte &#x200B;](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources)-Ressource.
 * Die Bitmap wird im Bereich [2D-Ansicht](https://docs.substance3d.com/display/SDDOC/2D+view) angezeigt.
 
 *Neue* Vektorgrafiken-Images können auf folgende Weise erstellt werden:

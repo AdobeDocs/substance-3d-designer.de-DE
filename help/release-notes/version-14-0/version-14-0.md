@@ -198,7 +198,7 @@ Beachten Sie, dass diese Aktualisierungen zwei wichtige Folgen haben:
 * [Inhalt] Veralteter Knoten &quot;Negate Fließkommazahl1&quot; im Substance-Funktions-Graf
 * [Inhalt] Benennen Sie &quot;Farbe quantisieren&quot; in &quot;Farbe quantisieren (einfach)&quot; um.
 * [2D-Ansichten] Zeigt Werte im Informationenbedienfeld für Pixel außerhalb des Bereichs 0-1 an.
-* [Engine][Text] Neues Kerning für einige Schriftarten
+* [Engine]&#x200B;[Text] Neues Kerning für einige Schriftarten
 * [Graf] Verbessern Sie die Invalidierungszeit bei der Bearbeitung umfangreicher Untergraph mit der In-Kontext-Edition
 * [Linker] Bitmaps in SBSASM nicht duplizieren
 * [Parameters] Fügen Sie ein neues Funktions-Widget für alle Eingabeparameter-Typen hinzu.

@@ -57,7 +57,7 @@ Eine der Abhängigkeiten oder Ressourcen des Pakets wird von einem Speicherort g
 
 Mindestens eine der [Projektdateien](../../interface/preferences-window/project-settings/project-settings.md) sollte den Alias definieren, der in der Warnung gemeldet wird.
 
-![ &#39;Prüf-Alias ist definiert&#39; Lösung ](warnings-from-dependencies.resources/warnings-dep-alias.gif " &#39;Prüf-Alias ist definiert&#39; Lösung ")
+![&#x200B; &#39;Prüf-Alias ist definiert&#39; Lösung &#x200B;](warnings-from-dependencies.resources/warnings-dep-alias.gif " &#39;Prüf-Alias ist definiert&#39; Lösung ")
 
 ## ![(Fehler)](warnings-from-dependencies.resources/error.svg) Es wurde keine Datei gefunden, die dieser Ressource entspricht.
 
@@ -92,12 +92,12 @@ Es gibt im Wesentlichen zwei Möglichkeiten, dieses Problem zu beheben:
 
    Wechseln Sie zum vom <b>Dateipfad</b>-Attribut der Ressource angegebenen Speicherort und überprüfen Sie, ob die Datei vorhanden ist. Wenn dies nicht der Fall ist, können Sie es wiederherstellen oder neu erstellen.
 
-   ![ &quot;Verknüpfte Datei nicht gefunden&quot; Lösung 1](warnings-from-dependencies.resources/warnings-dep-file-not-found.gif " &quot;Verknüpfte Datei nicht gefunden&quot; Lösung 1")
+   ![&#x200B; &quot;Verknüpfte Datei nicht gefunden&quot; Lösung 1](warnings-from-dependencies.resources/warnings-dep-file-not-found.gif " &quot;Verknüpfte Datei nicht gefunden&quot; Lösung 1")
 1. <b>Datei verschieben</b>
 
    Wenn die Datei verschoben oder umbenannt wurde, verlagern Sie sie, indem Sie auf RMB im Ressourcenelement im Bereich [Explorer](../../interface/the-explorer-window/the-explorer-window.md) klicken und die Option <b>Relocate</b> auswählen, um diese Ressource mit einer anderen Datei desselben Typs zu verknüpfen.
 
-   ![ &quot;Verknüpfte Datei nicht gefunden&quot; Lösung 2](warnings-from-dependencies.resources/warnings-dep-file-not-found-2.gif " &quot;Verknüpfte Datei nicht gefunden&quot; Lösung 2")
+   ![&#x200B; &quot;Verknüpfte Datei nicht gefunden&quot; Lösung 2](warnings-from-dependencies.resources/warnings-dep-file-not-found-2.gif " &quot;Verknüpfte Datei nicht gefunden&quot; Lösung 2")
 
 ## ![(Fehler)](warnings-from-dependencies.resources/error.svg) Farbraum nicht gefunden
 
@@ -113,11 +113,11 @@ Alternativ können Sie diesen Farbraum der aktuellen [Farbmanagement](../../colo
 >
 > Diese Warnung wird nur ausgelöst, wenn ein anderer Farbmanagementmodus als **Legacy** verwendet wird (ähnlich dem Deaktivieren des Farbmanagements). Sie können das Farbmanagement im Abschnitt **Farbmanagement** der [Projekteinstellungen](../../interface/preferences-window/project-settings/project-settings.md) aktivieren.
 
-![ &quot;Farbraum nicht gefunden&quot; Lösung ](warnings-from-dependencies.resources/warnings-dep-color-space.gif " &quot;Farbraum nicht gefunden&quot; Lösung ")
+![&#x200B; &quot;Farbraum nicht gefunden&quot; Lösung &#x200B;](warnings-from-dependencies.resources/warnings-dep-color-space.gif " &quot;Farbraum nicht gefunden&quot; Lösung ")
 
 ## ![(Fehler)](warnings-from-dependencies.resources/error.svg) Referenzressource nicht gefunden
 
-Das Diagramm, das der UV-Kachel einer [3D-Szenenressource ](../3d-scene-resource/3d-scene-resource.md) zugewiesen ist, kann nicht an dem in der Warnung angegebenen Speicherort gefunden werden.
+Das Diagramm, das der UV-Kachel einer [3D-Szenenressource &#x200B;](../3d-scene-resource/3d-scene-resource.md) zugewiesen ist, kann nicht an dem in der Warnung angegebenen Speicherort gefunden werden.
 
 <b>![(tick)](warnings-from-dependencies.resources/check.svg) Lösung</b>
 
@@ -127,7 +127,7 @@ Es gibt im Wesentlichen zwei Möglichkeiten, dieses Problem zu beheben:
 
    Überprüfen Sie den Inhalt des Pakets im Bedienfeld &quot;[Explorer](../../interface/the-explorer-window/the-explorer-window.md)&quot; auf das in der Liste &quot;<b>UV-Kacheln</b>&quot; angegebene Diagramm. Wenn sie nicht vorhanden ist, stellen Sie sie wieder her oder erstellen Sie sie neu.
 
-   ![ &quot;Referenzressource nicht gefunden&quot; Lösung 1](warnings-from-dependencies.resources/warnings-dep-udim-graph-2.gif " &quot;Referenzressource nicht gefunden&quot; Lösung 1")
+   ![&#x200B; &quot;Referenzressource nicht gefunden&quot; Lösung 1](warnings-from-dependencies.resources/warnings-dep-udim-graph-2.gif " &quot;Referenzressource nicht gefunden&quot; Lösung 1")
 1. <b>Einen anderen Graphen auswählen</b>
 
    Weisen Sie der UV-Kachel ein anderes Diagramm in der Verpackung zu.
@@ -146,7 +146,7 @@ Stellen Sie sicher, dass für jeden UV-Satz einer 3D-Gitterressource kein UDIM-I
 
 ## ![(Fehler)](warnings-from-dependencies.resources/error.svg) Ungültige UV-Kacheln
 
-Eine für eine [3D-Szenenressource ](../3d-scene-resource/3d-scene-resource.md) aufgeführte UV-Kachel ist im Gitter nicht definiert oder beschädigt.
+Eine für eine [3D-Szenenressource &#x200B;](../3d-scene-resource/3d-scene-resource.md) aufgeführte UV-Kachel ist im Gitter nicht definiert oder beschädigt.
 
 <b>![(tick)](warnings-from-dependencies.resources/check.svg) Lösung</b>
 
