@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/version-14-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-1.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Designer 14.1, um mehr über die Knotenanordnungstools und die neuen Spline- und Path-Knoten zu erfahren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 14.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: e540abf8ed046d72f116e9e43ae0743c5ae39c24
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Dieses Update enthält neue Funktionen, mit denen Sie die tägliche Nutzung von 
 
 *Freigabedatum: 14. Januar 2025*
 
-![Streuung-Splines auf Splines](../../assets/fond.png)
+![Streuung-Splines auf Splines](version-14-1.resources/fond.png)
 
 ## Splines- und Pfade-Updates
 
@@ -34,12 +34,12 @@ Splines und Pfadknoten wurden in Version 13.0 eingeführt, und dank Ihres Feedba
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Streuung Spline auf Spline-Animation 1](../../assets/spline1.gif){zoomable="yes"}
+![Streuung Spline auf Spline-Animation 1](version-14-1.resources/spline1.gif){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Streuung-Splines auf Splines 2](../../assets/spline2.gif){zoomable="yes"}
+![Streuung-Splines auf Splines 2](version-14-1.resources/spline2.gif){zoomable="yes"}
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ Splines und Pfadknoten wurden in Version 13.0 eingeführt, und dank Ihres Feedba
 
 Wenn Sie ein sauberes und lesbares Diagramm erstellen möchten, sind die [Knoten-Ausrichtungswerkzeuge](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md) für Sie erstellt und wurden vollständig überarbeitet! Es ist jetzt möglich, die Knoten gleichmäßig (horizontal oder vertikal) zu verteilen, und durch das Ausrichten der Knoten werden Überlappungen durch das saubere Stapeln vermieden. Kirschrot oben: beide Features berücksichtigen die tatsächliche Größe der Knoten!
 
-![Knoten ausrichten](../../assets/alignment.gif){zoomable="yes"}
+![Knoten ausrichten](version-14-1.resources/alignment.gif){zoomable="yes"}
 
 ## Kopieren und Einfügen von Parametern
 
@@ -59,7 +59,7 @@ Es ist jetzt möglich, [die Parameter eines Knotens zu kopieren und in einen and
 
 Mit dem neuen [Color Sampler-Tool](../../interface/2d-view/color-sampler/color-sampler.md) in der 2D-Ansicht können Sie den Wert eines ausgewählten Pixels verfolgen, indem Sie einen Pin darauf ablegen. Dies ist sehr nützlich, um sicherzustellen, dass Sie immer die Informationen desselben Pixels über mehrere Knoten in einem Diagramm anzeigen. Öffnen Sie das Bedienfeld &quot;Informationen&quot;, um auf das Tool zuzugreifen und es auszuprobieren!
 
-![Farbaufnehmer: mit dem Tool](../../assets/color-sampler-demo.gif "Farbaufnehmer: Verwenden des Tools "){width="640px" zoomable="yes"}
+![Farbaufnehmer: mit dem Tool](version-14-1.resources/color-sampler-demo.gif "Farbaufnehmer: Verwenden des Tools "){width="640px" zoomable="yes"}
 
 ## Verbesserte Suchfunktion
 
@@ -70,7 +70,7 @@ Das [Knotenfinder](../../interface/the-graph-view/node-finder/node-finder.md)-To
 * Der Fokus wird automatisch auf das Suchfeld gesetzt, wenn das Knotensuchwerkzeug aktiviert wird;
 * Das Layout der Symbolleiste wurde überdacht, um Platz zu sparen.
 
-![Suchsymbolleiste](../../assets/search-53.png){width="640px"}
+![Suchsymbolleiste](version-14-1.resources/search-53.png){width="640px"}
 
 ## Videos
 
@@ -78,12 +78,12 @@ Das [Knotenfinder](../../interface/the-graph-view/node-finder/node-finder.md)-To
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Video-Streuung-Splines auf Splines](../../assets/video_spline.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
+[![Video-Streuung-Splines auf Splines](version-14-1.resources/video_spline.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Funktionen für Videobenutzererlebnisse](../../assets/video_ux.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
+[![Funktionen für Videobenutzererlebnisse](version-14-1.resources/video_ux.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
 
 </td>
 </tr>
@@ -110,19 +110,19 @@ Das [Knotenfinder](../../interface/the-graph-view/node-finder/node-finder.md)-To
 * [Inhalt] Spline-Werkzeuge: Neuer Spline-Knoten (quadratisch)
 * Triangle Grid [Inhalt]: Dreiecksänderungsverfahren und Verwendung von Schleifen
 * [Inhalt] Knoten &quot;Neue Streuung-Splines auf Splines&quot;
-* [Cooker] Leg des Basisparameters &quot;Pixelverhältnis&quot; als statische Variable &quot;$pixelratio&quot;
-* [CrashReport] Neues Berichtsfenster für Absturz integrieren
-* [Engine] Fügen Sie die Vulkan/Metal-Version des Blend-Engine hinzu.
-* [Graf] Materialmodi: Verbindung ohne Verwendung zulassen, wenn ein einzelner Link ausgewählt ist
-* [Graf] Material-Link: Standardverbindungen zulassen, wenn die Verbindung nicht mehrdeutig ist
-* [Graf] Knotenausrichtungswerkzeuge: horizontale/vertikale Verteilungen hinzufügen, linke/rechte/obere/untere Ausrichtung festlegen und gestapelte Knoten unterstützen
+* [Cooker] Stellen Sie den Basisparameter &quot;Pixelverhältnis&quot; als statische Variable &quot;$pixelratio&quot; bereit.
+* [CrashReport] Neues Absturzbericht-Fenster integrieren
+* [Engine] Fügen Sie die Vulkan/Metal-Version der Blend Engine hinzu.
+* [Diagramm] Materialmodus: Verbindung ohne Verwendung zulassen, wenn ein einzelner Link ausgewählt ist
+* [Diagramm] Materialverknüpfung: Standardverbindungen zulassen, wenn die Verbindung nicht mehrdeutig ist
+* [Graph] Knotenausrichtungswerkzeuge: horizontale/vertikale Verteilungen hinzufügen, linke/rechte/obere/untere Ausrichtung festlegen und gestapelte Knoten unterstützen
 * [Bibliothek] Textfarbe in Kontextmenüs korrigieren
 * [Parameter] Kopieren von Parametern von einem Knoten in einen anderen
 * [Eigenschaften] Alle zurücksetzen: Entfernen Sie das Bestätigungs-Popup-Fenster.
 * [Ressourcen] Legen Sie im Dialogfeld &quot;Bitmap verknüpfen&quot; das Format auf &quot;Alle Formate&quot; fest.
 * [Suche] Hinzufügen einer Möglichkeit zum Aktivieren/Deaktivieren eines rekursiven Modus
 * [Suche] Fügen Sie eine Möglichkeit hinzu, die Fuzzy-Suche zu aktivieren/deaktivieren
-* [Suche] Bei der Aktivierung von Node Finder über den Tastatur-Tastaturbefehl immer den Fokus auf das Suchbegrifffeld anzeigen und festlegen
+* [Suche] Bei Aktivierung von Node Finder über den Tastaturbefehl immer den Fokus auf das Suchbegrifffeld anzeigen und festlegen
 * [Suche] Filteroption erneut bearbeiten
 * [Tastaturbefehle] Zuweisung der Tasten &quot;V&quot;, &quot;H&quot; und &quot;S&quot; zulassen
 * [Drittanbieter] Upgrade auf Qt 6.5.7
@@ -140,13 +140,13 @@ Das [Knotenfinder](../../interface/the-graph-view/node-finder/node-finder.md)-To
 * [Inhalt] Spline Bridge-Liste: Falsches Ergebnis bei Verwendung von Start-/End-Versätzen
 * [Inhalt] Spline-Auswahl: Der Ausgangs-Spline-Betrag kann größer sein als der Eingangs-Spline-Betrag.
 * [Inhalt] Spline-Warp erzeugt ein schwarzes Ergebnis mit SSE-Engine
-* Triangle Grid [Inhalt]: Kachelung ist nicht korrekt
-* Triangle Grid [Inhalt]: Kachelung in einem bestimmten Fall unterbrochen
-* [Daten] Absturz beim Ändern der Identifizierung der Graf-Eingabe in einem bestimmten Fall
-* [Funktionsknoten] Lange Werte werden in Fließkommazahl-Graf überlappend angezeigt.
-* [Fx-Map] Absturz bei der Anzeige von Quadrant-Knoteneigenschaften
-* [Graf] [UDIM] Mit einer Bildlaufleiste in der UDIM-Liste werden 1.1 1.2 Einträge angezeigt.
-* [Graf]&#x200B;[Shortcuts] Der mit einem Tastaturbefehl erstellte Knoten wird nach der Knotenduplizierung nicht auf dem bestehenden Link platziert.
+* Triangle Grid [Inhalt]: Muster ist nicht richtig gekachelt
+* Triangle Grid [Inhalt]: Kachelung ist in einem bestimmten Fall fehlerhaft
+* [Daten] Absturz beim Ändern der Diagrammeingabe-ID in einem bestimmten Fall
+* [Funktionsdiagramm] Lange Werte werden überlappend auf &#39;Float&#39;-Knoten angezeigt
+* [Fx-Map] Absturz beim Anzeigen von Quadrant-Knoteneigenschaften
+* [Graph] [UDIM] Mit einer Bildlaufleiste in der UDIM-Liste werden 1.1 1.2 Einträge generiert.
+* [Graph][Shortcuts] Knoten, der mit einem Shortcut erstellt wurde, wird nach dem Duplizieren des Knotens nicht auf dem vorhandenen Link platziert.
 * [Eigenschaften] Falsche Parameteranzeige, wenn der Wert ungültig ist
 * [Publish] Gegenseitige Abhängigkeiten führen beim Veröffentlichen eines Pakets zu einer Endlosschleife.
 * [Publish] Unbeaufsichtigter Fehler bei Verwendung der Aktion &quot;Publish&quot; für ein Paket mit entladener Abhängigkeit

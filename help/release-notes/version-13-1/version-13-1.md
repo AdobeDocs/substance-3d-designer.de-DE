@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/version-13-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-1.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Designer 13.1, um mehr über die Verbesserungen von Knotendiagrammen und die Unterstützung von AxF-Exporten zu erfahren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 13.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: e540abf8ed046d72f116e9e43ae0743c5ae39c24
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 *Freigabedatum: 12. Dezember 2023*
 
-![Substance 3D Designer 13.1-Banner](../../assets/24-library-hero-1920x620.png "Substance 3D Designer 13.1-Banner")
+![Substance 3D Designer 13.1-Banner](version-13-1.resources/24-library-hero-1920x620.png "Substance 3D Designer 13.1-Banner")
 
 ## Verbesserungen an Rahmen
 
@@ -34,19 +34,19 @@ Rahmen sind ein unverzichtbares Werkzeug, um das Diagramm gut organisiert und le
 
 Wenn das Diagramm wächst, muss der Inhalt der Rahmen möglicherweise neu angeordnet werden. Die Knoten können sich verschieben, um Platz für Ergänzungen zu schaffen, oder die Inhalte müssen möglicherweise weiter voneinander entfernt werden, um die Lesbarkeit zu verbessern. Um diese Anpassungen zu erleichtern, ist es jetzt möglich, einen Frame automatisch zu erweitern, wenn eingeschlossene Objekte verschoben werden: Halten Sie <b>Umschalt</b> an einem beliebigen Punkt gedrückt, während Sie ein Objekt verschieben, damit die Frameränder automatisch angepasst werden, damit das Objekt innerhalb seiner Grenzen bleibt.
 
-![autoexpand](../../assets/autoexpand.gif)
+![autoexpand](version-13-1.resources/autoexpand.gif)
 
 ### Größe an Inhalt anpassen
 
 Wenn du in deinem Diagramm Anpassungen vornimmst, wird ein Frame möglicherweise nicht mehr elegant an seinen Inhalt angepasst. Mit diesem neuen Befehl können Sie die Position und die Größe des Frames automatisch anpassen, sodass er sich an die Spanne seines Inhalts anpasst. Der Abstand beträgt dabei eine Zelle mit mittlerem Raster. Wenn der Rahmen eine Beschreibung hat, wird er so angepasst, dass nach Möglichkeit ein leerer Bereich neben der Beschreibung verwendet wird.
 
-![fitsize](../../assets/fitsize.gif)
+![fitsize](version-13-1.resources/fitsize.gif)
 
 ### Verbesserte Beschreibungen
 
 Dank des HTML-Codes können Sie jetzt formatierten Text in der Beschreibung eines Rahmens haben. Dies gilt auch für Kommentare.
 
-![richtext](../../assets/description-3.png)
+![richtext](version-13-1.resources/description-3.png)
 
 ### <b>...und vieles mehr!</b>
 
@@ -64,20 +64,20 @@ Viele Dinge wurden überdacht, z. B. die Toleranz von Zuordnungsregeln, Interakt
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![AxF-Dateisymbol](../../assets/axf-file-icon.png "AxF-Dateisymbol")
+![AxF-Dateisymbol](version-13-1.resources/axf-file-icon.png "AxF-Dateisymbol")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 AxF ist ein Format von [X-Rite](https://www.xrite.com/axf). Sie bietet eine Möglichkeit, komplexe Materialeigenschaften mithilfe von numerischen Daten im gesamten digitalen Design-Workflow zu erfassen, zu speichern, zu bearbeiten und zu kommunizieren. In früheren Versionen von Designer konnten Sie AxF-Dateien [importieren](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) und dann die Unterteilung verbessern oder prozedurale Effekte hinzufügen. Dann mussten Sie jedoch Änderungen als neue .sbsar-Datei exportieren.
 
-In dieser neuen Version wird die Möglichkeit eingeführt, AxF-Materialien an Ort und Stelle zu bearbeiten, und dann [Ihre Änderungen &#x200B;](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) als neue Ebene in die importierte AxF-Datei zu exportieren.
+In dieser neuen Version wird die Möglichkeit eingeführt, AxF-Materialien an Ort und Stelle zu bearbeiten, und dann [Ihre Änderungen ](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) als neue Ebene in die importierte AxF-Datei zu exportieren.
 
 </td>
 </tr>
 </table>
 
-![Export AxF](../../assets/exportaxf.gif)
+![Export AxF](version-13-1.resources/exportaxf.gif)
 
 ## API
 
@@ -130,38 +130,38 @@ Und schließlich verbessert diese Version 13.1 die Python-API weiter, indem sie 
 
 ### Fehlerbehebungen
 
-* [3D-Ansicht] Einer Eingabe vom Typ Textur\_2d eines MDL-Materials kann keine Textur zugewiesen werden.
-* [AxF] Graf-Identifizierungen in der Vorlagenliste können leer sein.
-* [AxF] Das Vorlagenfeld für Substance-Graf ist standardmäßig leer.
+* [3D-Ansicht] Einer Eingabe vom Typ texture\_2d eines MDL-Materials kann keine Textur zugewiesen werden.
+* [AxF] Diagrammbezeichner in der Vorlagenliste können leer sein.
+* [AxF] Das Vorlagenfeld für Substance-Graphen ist standardmäßig leer.
 * [Inhalt] Atlas Scatter: Fehlverhalten in bestimmten Fällen
 * [Inhalt] Flood Fill Mapper: leere Ausgabe, wenn alle Formen die gleiche Box-Größe haben
 * [Content] FloodFill zur Positionierung: Ungenauigkeiten in einigen Situationen
-* [Inhalt] Falsche &quot;Specular&quot;-Ausgabe im Knoten &quot;BaseColor/Metallic/Rauheit-Konverter&quot;
+* [Inhalt] Falsche &quot;Specular&quot;-Ausgabe im Knoten &quot;BaseColor/Metallic/Roughness-Konverter&quot;
 * [Inhalt] &quot;Auf Pfad maskieren&quot; funktioniert nicht in nicht quadratischen vertikalen Bereichen
 * [Inhalt] Fehlende Beschreibung für Eingabewert, Graustufeneingabe, Eingabefarbe und Ausgabeknoten
 * [Inhalt] Fehlende Beschreibung für Set- und Sequenzknoten
 * [Inhalt] Formaufteilung: Ungenauigkeitsartefakte in der Ausgabe von &quot;Splatter data 2&quot;
-* [Engine] Booleans in Wertprozessoren werden immer als &quot;False&quot; ausgewertet (nur Apple Silicon)
+* [Engine] Booleans in Value-Prozessoren werden immer als &quot;False&quot; ausgewertet (nur Apple Silicon)
 * [Explorer] Die Reihenfolge der Symbolleistenschaltflächen ist zwischen den Betriebssystemen inkonsistent.
-* [Rahmen] Knoten nicht erfassen, wenn ein Rahmen mit dem STRG-Modifizierer verschoben wird
-* [Verlaufs-Map] Alle Optionen zurücksetzen sollte auch das Verlauf-Widget zurücksetzen
+* [Frames] Ergreifen Sie keine Knoten, wenn Sie einen Frame mit dem STRG-Modifizierer verschieben
+* [Verlaufsumsetzung] Alle zurücksetzen sollte auch das Verlaufs-Widget zurücksetzen
 * [GraphRender] Einige Knoten werden beim Anpassen im Vorschaumodus schwarz gerendert
-* [Graf] Die Vorschau für &quot;Eingabewert&quot; bleibt auf &quot;Falsch&quot; hängen, wenn der boolesche Standardwert angepasst wird (nur Apple Silicon)
-* [Graf] Punktknoten in der Nähe des Rahmens werden vom Rahmen nicht verschoben
+* [Graph] Die Vorschau für &quot;Eingabewert&quot; bleibt auf &quot;Falsch&quot; hängen, wenn der boolesche Standardwert angepasst wird (nur Apple Silicon)
+* [Diagramm] Punktknoten in der Nähe der Rahmenkante werden nicht vom Frame verschoben
 * [Interoperabilität] Symbol &quot;Erneut senden&quot; wird nach dem Senden an Substance 3D Stager nicht aktualisiert
-* [MDL] Die Rauheit kann in Knoten, in denen dieser Parameter verfügbar ist, nicht geändert werden.
-* [MDL] Ungültige Verbindungen in der Vorlage &quot;AxF zu Metallische Rauheit&quot;
+* [MDL] Die Raueit kann in Knoten, in denen dieser Parameter verfügbar ist, nicht geändert werden.
+* [MDL] Ungültige Verbindungen in der Vorlage &quot;AxF zu metallischer Raueit&quot;
 * [UI] Fenster &quot;Ausgaben exportieren&quot; kann minimiert werden (nur Windows)
 * [UI] Bilder werden im Bildschirm &quot;Info&quot; verpixelt angezeigt, wenn die Anzeigeskalierung verwendet wird
-* [UI] Knotenausrichtungswerkzeuge in der Graf-Symbolleiste erstellen mehrere Rückgängig-Schritte
+* [UI] Knotenausrichtungswerkzeuge in der Diagrammsymbolleiste erstellen mehrere Rückgängig-Schritte
 
 ### BEKANNTE FRAGEN
 
-* [AxF OpenGL Shader] Falsche Karte für anisotrope Verteilung
-* [AxF OpenGL Shader] Falsche Standard-Rauheit
+* [AxF OpenGL Shader] Falscher Ward für anisotrope Verteilung
+* [AxF OpenGL Shader] Falsche Standardrauhigkeit
 * [AxF OpenGL Shader] Falsche Schattierung-Basisrotation
-* [AxF OpenGL-Shader] Falscher Strahl unterhalb der Hemisphärenerkennung
-* [AxF OpenGL Shader] Erkennung von falschen Beiträgen
+* [AxF OpenGL Shader] Falscher Strahl unter Halbkugelerkennung
+* [AxF OpenGL Shader] Erkennung falscher Beiträge
 * [AxF] Die Zuordnungswerte für &quot;Specular-Farbe&quot; sind beim Export falsch
 * [AxF] Vorschau und Texturen werden im Dialogfeld &quot;AxF importieren&quot; nicht korrekt angezeigt
 * [AxF] Eigenschaft &quot;cc no refraktion&quot; wird in der AxF-Vorlage nicht korrekt in AxF injiziert
