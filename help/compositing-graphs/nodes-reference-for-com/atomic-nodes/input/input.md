@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Eingabe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -46,51 +46,6 @@ Im Gegensatz zu [Ausgabeknoten](../../../../compositing-graphs/nodes-reference-f
 
 Eingabeknoten sind nicht so wichtig wie [Ausgabeknoten](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): können Sie perfekt funktionierende, erweiterte Diagramme nutzen, die keine Eingabe benötigen. Eingaben werden nur verwendet, wenn Sie das Ergebnis Ihrer Diagramm- oder Knoteninstanz auf einer externen Eingabe basieren möchten, z. B. beim Erstellen einer [Instanz](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) oder eines [Filters](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/effects/filter) für Substance 3D Painter.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## PARAMETER
-
-</td>
-<td style="border: 0;" valign="top">
-
-### TRIBUTE
-
-</td>
-<td style="border: 0;" valign="top">
-
-### ERBSCHAFT
-
-</td>
-<td style="border: 0;" valign="top">
-
-### INTEGRATIONSATTRIBUTE
-
-</td>
-</tr>
-</table>
-
 ## Parameter
 
 Standardmäßig gibt eine Eingabefarbe oder ein Graustufen schwarz zurück, wenn nichts angeschlossen ist. Sie können entweder einen anderen Standardwert festlegen oder eine vorhandene [Bitmapressource](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) aus dem [Explorer](../../../../interface/the-explorer-window/the-explorer-window.md) auf den Eingabeknoten in Ihrem Diagramm ziehen, um eine Vorschau dieser Daten im Steckplatz anzuzeigen. Dies funktioniert nur bei Farb- und Graustufeneingaben. Der Standardwert bleibt erhalten, wenn er in anderen Kontexten verwendet wird. Die Vorschaubitmap wird anderswo verworfen.
@@ -116,21 +71,21 @@ Wenn Sie das Diagramm mit den Ausgaben eines anderen Diagramms anzeigen möchten
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; vertical-align: top">
 
 Wenn mehrere Eingaben vorhanden sind, müssen Sie darauf achten, wie das Diagramm die Basisparameter[&#128279;](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) von diesen Eingaben erbt.\
 Zu den Basisparametern gehören u. a. die <b>Ausgabegröße</b>, das <b>Ausgabeformat</b> und der <b>Anordnungsmodus</b>.
 
-</td>
-<td width="33.33%" style="border: 0;" valign="top">
+Eine Eingabe kann als [Primäre Eingabe](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) definiert werden. Diese Eingabe steuert dann die Attribute aller Eingaben, deren Vererbungsmethode auf *Relativ zu übergeordnetem* festgelegt ist. Dies ist die Vererbungsmethode *, die standardmäßig* auf Eingabeknoten festgelegt ist.
 
-[![Primäre Eingabe im Substance-Diagramm &#x200B;](input.resources/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+</td>
+<td width="25%" style="border: 0;" valign="top">
+
+![Primäre Eingabe in Substance-Graf &#x200B;](input.resources/node-primary-input.png)
 
 </td>
 </tr>
 </table>
-
-Eine Eingabe kann als [Primäre Eingabe](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) definiert werden. Diese Eingabe steuert dann die Attribute aller Eingaben, deren Vererbungsmethode auf *Relativ zu übergeordnetem* festgelegt ist. Dies ist die Vererbungsmethode *, die standardmäßig* auf Eingabeknoten festgelegt ist.
 
 Sie können einen Eingabeknoten als primäre Eingabe eines Diagramms festlegen, indem Sie auf *RMB* auf dem Knoten klicken und im Kontextmenü die Option <b>Als primäre Eingabe festlegen</b> auswählen.\
 Die primäre Eingabe eines Knotens ist im Connector *mit einem* kleinen dunklen Punkt markiert (im Beispiel neben diesem Abschnitt rot eingekreist).
@@ -145,7 +100,7 @@ Schließlich können Sie jeden Wert für ein bestimmtes Attribut überschreiben,
 
 >[!IMPORTANT]
 >
-> Die *Vererbungsmethode Relativ zu Eingabe* für Eingabeknoten wird *nicht unterstützt* in [Substance 3D Assets (SBSAR)](https://helpx.adobe.com/de/substance-3d-assets.html). Legen Sie vor dem Veröffentlichen des Pakets die Vererbungsmethoden aller Eingabeknoten auf *Relativ zu übergeordneten Knoten* fest.
+> Die *Vererbungsmethode Relativ zu Eingabe* für Eingabeknoten wird *nicht unterstützt* in [Substance 3D Assets (SBSAR)](../../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md). Legen Sie vor dem Veröffentlichen des Pakets die Vererbungsmethoden aller Eingabeknoten auf *Relativ zu übergeordneten Knoten* fest.
 
 ## Integrationsattribute
 

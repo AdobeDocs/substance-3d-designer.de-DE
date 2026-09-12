@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Plug-ins > Pakete
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f0ba7fcd041b7c683b77de11d923d71bec338d08
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Es sind einzelne Dateien mit einer sdplugin-Erweiterung, die alles enthält, was
 
 ## Installieren von Plug-in-Paketen
 
-![Plug-in-Manager](../../assets/screenshot-from-2019-07-18-11-48-56.png "Plug-in-Manager")
+![Plug-in-Manager](plugins-packages.resources/screenshot-from-2019-07-18-11-48-56.png "Plug-in-Manager")
 
 Plug-In-Pakete werden mithilfe des <b>Plug-In-Managers</b> im Menü <b>Tools</b> installiert:
 

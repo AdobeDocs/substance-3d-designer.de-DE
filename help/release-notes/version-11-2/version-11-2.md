@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 11.2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: dca126adc56c78e85d281a00f90cf9affbb35c31
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 0%
@@ -34,12 +34,12 @@ Mit Substance Model Graph, einem völlig neuen Graf-Typ, kannst du prozedurale 3
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/structure-tower-render-b.jpg){width="300px"}
+![](version-11-2.resources/structure-tower-render-b.jpg){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/structure-paper-creatures-render-a.jpg){width="300px"}
+![](version-11-2.resources/structure-paper-creatures-render-a.jpg){width="300px"}
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ Dies ist eine erste Version. Erwarten Sie also einige Einschränkungen.
 
 Adobe-Versionen von Substance 3D Designer verfügen über eine neue Funktion &quot;Senden an&quot;, mit der Sie Elemente schnell an andere Substance 3D-Anwendungen senden können. Das Veröffentlichen als SBSAR und Laden einzelner Dateien ist nicht mehr erforderlich. Senden an löst dies mit einem Klick.
 
-![](../../assets/sendto-button.gif)
+![](version-11-2.resources/sendto-button.gif)
 
 >[!NOTE]
 >
@@ -67,12 +67,12 @@ Keine Designer-Version ohne neue Knoten abgeschlossen. Aufbauend auf der phänom
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/image2021-6-18-11-11-11.png){width="300px"}
+![](version-11-2.resources/image2021-6-18-11-11-11.png){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/image2021-6-18-11-9-0.png){width="300px"}
+![](version-11-2.resources/image2021-6-18-11-9-0.png){width="300px"}
 
 </td>
 </tr>
@@ -80,11 +80,11 @@ Keine Designer-Version ohne neue Knoten abgeschlossen. Aufbauend auf der phänom
 
 RTAO macht noch bessere Arbeit bei der scharfen, korrekten AO als der vorherige HBAO-Knoten.
 
-![](../../assets/rt-caustics-grayscale.png){width="300px"}
+![](version-11-2.resources/rt-caustics-grayscale.png){width="300px"}
 
 &quot;Kaustik&quot; generiert physikalisch korrekte, raytraced Kaustik, die auf einer Höhenkarte basiert, wie z. B. eine einfache Perlin-Rauschen. Ideal für realistische animierte Flipbook-Texturen für Kaustik in Echtzeit.
 
-![](../../assets/image2021-6-22-16-36-36.png){width="300px"}
+![](version-11-2.resources/image2021-6-22-16-36-36.png){width="300px"}
 
 RT Shadow erzeugt präzise, raytraced Schatten mit ein paar einfachen Steuerelementen.
 
@@ -92,17 +92,17 @@ RT Shadow erzeugt präzise, raytraced Schatten mit ein paar einfachen Steuerelem
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/rt-irr-01.jpg){width="200px"}
+![](version-11-2.resources/rt-irr-01.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/rt-irr-03.jpg){width="200px"}
+![](version-11-2.resources/rt-irr-03.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/rt-irr-02.jpg){width="200px"}
+![](version-11-2.resources/rt-irr-02.jpg){width="200px"}
 
 </td>
 </tr>
@@ -110,11 +110,11 @@ RT Shadow erzeugt präzise, raytraced Schatten mit ein paar einfachen Steuerelem
 
 RT Irradiance ist der fortschrittlichste der neuen Knoten. Es führt eine Raytraced-Bestrahlung auf der Grundlage eines Materials mit Höhen-Map und einer Umgebungs-Map und/oder einer Emissive-Map durch.
 
-![](../../assets/rt-irrad-pro.jpg){width="600px"}
+![](version-11-2.resources/rt-irrad-pro.jpg){width="600px"}
 
 Das bedeutet, dass du Texturen mit vorab Baking geführt Beleuchtung vornehmen kannst, z. B. für stilisierte Projekte, oder du kannst Baking in Raytraced Glow hinzufügen, das von deiner Lupe reflektiert wird.
 
-![](../../assets/bent-normal-ex.jpg){width="300px"}
+![](version-11-2.resources/bent-normal-ex.jpg){width="300px"}
 
 Und zuletzt gibt es den Knoten &quot;Gebeugte Normal&quot;. Im Vergleich zu einer normalen regulären Konvertierung verwendet dieser Knoten AO, um Ihre normale Zuordnung so zu ändern, dass diese AO-Informationen verwendet werden. Bevor Sie Gitterbäcker benötigen, um den Effekt zu erstellen, erledigt dieser Knoten dies in texturespace für Sie.
 
@@ -178,19 +178,19 @@ Im Folgenden finden Sie unsere Videotutorials zu den neuen Funktionen:
 * [Python-API] Hinzufügen einiger Farbkonvertierungsmethoden zu SDColorManagementEngine
 * [Python API] Löschen von Kommentarobjekten (Grafen, Nadeln, Rahmen, ...)
 * [Python API] Gelegt Physische Größe-Eigenschaft für Grapheninstanz-Knoten
-* [Python-API] Gelegt Speichern einer Kopie als
+* [Python API] Verfügbarmachen und Speichern einer Kopie als
 * [Python-API] SDPackageMgr.savePackage-Methode reparieren
-* [Python-API] Liste der ausgewählten Graf-Objekte abrufen
-* [Python-API] Einführung neuer Methodennamen für die Arbeit mit der Auswahl von Grafen
-* [Python-API] Plug-ins können dem zuerst erstellten Bedienfeld &quot;Explorer&quot; keine Aktionen hinzufügen
+* [Python API] Liste der ausgewählten Diagrammobjekte abrufen
+* [Python-API] Einführung neuer Methodennamen für die Arbeit mit Diagrammauswahlen
+* [Python-API] Plug-ins können dem zuerst erstellten Explorer-Bedienfeld keine Aktionen hinzufügen
 
 **Fest:**
 
-* [Parameter] Negative Werte bei Dropdown-Parametern von Ganzzahl1 führen zu inkongruentem Verhalten in der Instanz.
+* [Parameter] Negative Werte bei Dropdown-Integer1-Parametern führen zu inkongruentem Verhalten in der Instanz
 * [Parameter] Problem beim Erhöhen eines Werts auf einem Winkel-Widget
-* [Graf] Zeitprobleme bei der Anzeige der Ausgabe in der 2D- oder 3D-Ansicht.
-* [Internationalisierung] Einige bestimmte Zeichen werden in Identifizierungen in Leerzeichen konvertiert.
-* [Voreinstellungen] Die Dateibezeichnung &quot;Benutzerprojekt&quot; wird nicht aus dem Japanischen Kamera bewogen
+* [Graph] Timing-Probleme bei der Anzeige der Ausgabe in der 2D- oder 3D-Ansicht.
+* [Internationalisierung] Einige bestimmte Zeichen werden in Leerzeichen in Dateikennungen geändert.
+* [Voreinstellungen] Die Dateibezeichnung &quot;Benutzerprojekt&quot; wird nicht aus dem Japanischen zurückübersetzt
 * [Python-API] RecursionError beim Ausführen der SDUIMgr.getCurrentGraphSelectedNodes()-Methode
 * [Python-API] SDApplication.getPath(SDApplicationPath.InstallationDir) gibt nichts zurück.
 * [Python-API] SDSBSARExporter sendet keine Benachrichtigungen zum Speichern von Dateien

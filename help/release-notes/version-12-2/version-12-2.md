@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 12.2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ba25885fb45039d7cbdc79af4792a1fa0f83564a
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Freigabedatum: *19. Juli 2022*
 
-![](../../assets/final3.png)
+![](version-12-2.resources/final3.png)
 
 ## Wichtigste Funktionen
 
@@ -32,20 +32,20 @@ Freigabedatum: *19. Juli 2022*
 
 Die Version 12.2 von Designer ist die erste mit der vollen nativen Unterstützung neuer Apple-Computer auf Basis des M1-Chips. Obwohl Designer früher technisch auf Apple Silicon-Geräten ausgeführt werden konnte, wird die native Unterstützung Ihnen ein schnelleres und effizienteres Erlebnis bieten. Wie Sie in der Abbildung unten sehen können, ist die Berechnung mit dieser neuen Version auf diesen Computern *bis zu zweimal schneller*.
 
-![](../../assets/ds-perf-applem1.png){width="600px"}
+![](version-12-2.resources/ds-perf-applem1.png){width="600px"}
 
 ### Verbesserungen für Substance-Modelldiagramme
 
 * <b>QuickInfos zu Knoten\
-  </b>Es ist nicht immer möglich zu erklären, was ein Knoten nur mit einem Symbol und einem Titel macht. Aus diesem Grund haben wir jetzt eine QuickInfo mit einer *vollständigen Beschreibung des Knotens*, wenn Sie sich in der Bibliothek oder in der Graphansicht befinden. Es hilft Ihnen, den Knoten zu finden, den Sie suchen, oder besser zu verstehen, was seine Funktionen sind. ![](../../assets/tootlipnode.png)
+  </b>Es ist nicht immer möglich zu erklären, was ein Knoten nur mit einem Symbol und einem Titel macht. Aus diesem Grund haben wir jetzt eine QuickInfo mit einer *vollständigen Beschreibung des Knotens*, wenn Sie sich in der Bibliothek oder in der Graphansicht befinden. Es hilft Ihnen, den Knoten zu finden, den Sie suchen, oder besser zu verstehen, was seine Funktionen sind. ![](version-12-2.resources/tootlipnode.png)
 
 * <b>Tastaturbefehle für die Knotenerstellung\
-  </b>Um die Erstellung Ihrer am häufigsten verwendeten Graf zu beschleunigen, können Sie jetzt Ihre eigenen Verknüpfungen in den Voreinstellungen definieren, wie auch für die anderen Knotentypen.![](../../assets/shorcuts.png)
+  </b>Um die Erstellung Ihrer am häufigsten verwendeten Graf zu beschleunigen, können Sie jetzt Ihre eigenen Verknüpfungen in den Voreinstellungen definieren, wie auch für die anderen Knotentypen.![](version-12-2.resources/shorcuts.png)
 
 * <b>Knoten im Kontextmenü des Knotens in der Vorschau anzeigen\
   </b>In unserer neuesten Version haben wir die Möglichkeit hinzugefügt, mithilfe eines Tastaturknotens (*UMSCHALT + Klick* auf einen Tastaturbefehl) eine Vorschau eines Knotens in der 3D-Ansicht anzuzeigen. Diese Funktion ist jetzt auch im *Knoten-Kontextmenü* verfügbar, um sie besser auffindbar zu machen.
 
-  ![](../../assets/previewnode.gif){width="600px"}
+  ![](version-12-2.resources/previewnode.gif){width="600px"}
 * <b>Suche basierend auf Knotenkompatibilität\
   </b>Wenn Sie im Knotenmenü nach einem Knoten suchen (durch Drücken von *Leertaste* in der Graphansicht), werden die Knoten jetzt korrekt gefiltert, um nur die anzuzeigen, die *mit dem aktuell ausgewählten* im Graf kompatibel sind. So können Sie den gesuchten Knoten schnell finden.
 
@@ -59,7 +59,7 @@ Die Version 12.2 von Designer ist die erste mit der vollen nativen Unterstützun
 * <b>CLO-Vorlage</b>\
   Um die Interoperabilität mit der CLO-Software zu verbessern, haben wir eine *neue dedizierte Vorlage* hinzugefügt. Es fügt automatisch alle *Metadaten* zu Ihrem Diagramm hinzu, die erforderlich sind, um Ihr Material ordnungsgemäß in CLO zu importieren.
 
-  ![](../../assets/clo.png){width="600px"}
+  ![](version-12-2.resources/clo.png){width="600px"}
 
 * Anforderungen für die <b>VFX-Referenzplattform</b>\
   Jedes Jahr veröffentlicht die VFX Reference Platform eine Liste von Tools und Bibliotheksversionen, die in jeder Software für die VFX-Branche verwendet werden können, um Inkompatibilitäten zwischen Software zu minimieren. Wie gewöhnlich *aktualisieren wir alle unsere Abhängigkeiten*, um alle diese Empfehlungen zu respektieren.
@@ -115,8 +115,8 @@ Die Version 12.2 von Designer ist die erste mit der vollen nativen Unterstützun
 * [UI] Die Standardgröße des Hauptfensters ist sehr klein
 * [UI] Symbolleisten sind nicht von der Option &quot;Layout zurücksetzen&quot; betroffen
 * [UI] Sichtbares Transparenzraster auf dem Schriftenressourcensymbol im Explorer
-* [Cooker] In MDL-Diagramm instanziierte Substance-Graf werden immer vollständig wiederhergestellt.
-* [Graf] Absturz beim Einfügen eines von einem Graf mit leerer Identifizierung kopierten Knotens
+* [Cooker] Substance-Graphen, die im MDL-Graph instanziiert werden, werden immer vollständig wiederhergestellt.
+* [Graph] Absturz beim Einfügen eines Knotens, der aus einem Diagramm mit leerem Bezeichner kopiert wurde
 * [MDL] Absturz beim Schließen eines bestimmten MDL-Diagramms
 * [Leistung] Anwendung reagiert nicht, wenn sehr große Pakete geladen werden
-* [Ressourcen] 3D-Szene-Ressource kann in einem bestimmten Fall importiert werden.
+* [Ressourcen] 3D-Szenenressource kann in einem bestimmten Fall importiert werden

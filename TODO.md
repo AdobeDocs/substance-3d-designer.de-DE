@@ -1,8 +1,8 @@
 ---
-source-git-commit: 475af5f27b827f66289993dbd8367904c1baf42b
+source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 11%
+source-wordcount: '99'
+ht-degree: 12%
 
 ---
 # TODO
@@ -22,7 +22,7 @@ ht-degree: 11%
   * Metalität/Metallic
   * HDR
   * Glanz
-  * Höhen-Map
+  * Height Map
   * Deckkraft
   * Frustum
   * Tangentialraum
@@ -33,8 +33,7 @@ ht-degree: 11%
 
 ## Fehlerbehebungen
 
-* Fehlerhafte Verknüpfungen und Formatierung im [Ausgabeknoten &#x200B;](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-* Link für 1. Beispielbild in Knotenseiten (z.B. neue Rauschen)
+* Link für 1. Beispielbild in Knotenseiten (z.B. neue Geräusche)
 * Fehlendes Element &quot;Negative Ganzzahl&quot; und fehlerhafte Verknüpfungen in [parameters-not-working-as-waiting.md](help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
 
 ## nachforschen

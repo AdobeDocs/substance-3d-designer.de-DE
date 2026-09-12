@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Suchpfade einfügen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f0ba7fcd041b7c683b77de11d923d71bec338d08
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Benutzer können *benutzerdefinierte Verzeichnisse* manuell in den Softwarevorei
 1. Klicken Sie auf der Registerkarte <b>Python</b> auf die Schaltfläche *<b>+</b>*, um das Verzeichnis hinzuzufügen, das die Plug-ins enthält
 1. Klicken Sie zum Überprüfen auf <b>OK</b>.
 
-![Einstellungen für Python-Plug-ins Suchpfade Projekteinstellungen](../../assets/image-70.png "Einstellungen für Python-Plug-ins Suchpfade Projekteinstellungen")
+![Einstellungen für Python-Plug-ins Suchpfade Projekteinstellungen](plugin-search-paths.resources/image-70.png "Einstellungen für Python-Plug-ins Suchpfade Projekteinstellungen")
 
 ## Verwenden von Umgebungsvariablen
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Probleme mit der Benutzeroberfläche
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 734525cdd187aac666168f8a9e1f9e49f3dad03e
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 5%
@@ -28,14 +28,14 @@ Auf dieser Seite werden technische Probleme im Zusammenhang mit der [Benutzerobe
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-**![(出错)](../../assets/error.svg) Problem**
+**![(出错)](user-interface-issues.resources/error.svg) Problem**
 
 Die Elemente der Benutzeroberfläche sind zu klein oder zu groß.
 
 </td>
 <td style="border: 0;" valign="top">
 
-**![(滴答)](../../assets/check.svg) Empfohlene Schritte**
+**![(滴答)](user-interface-issues.resources/check.svg) Empfohlene Schritte**
 
 Designer bezieht die spezifische Skalierung der Benutzeroberflächenelemente *vom Betriebssystem*. Daher sollten alle Anpassungen an der Skalierung der Benutzeroberfläche in den Anzeigeeinstellungen des Betriebssystems vorgenommen werden.
 

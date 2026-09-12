@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Werkzeuge zur Vektorbearbeitung.
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f0ba7fcd041b7c683b77de11d923d71bec338d08
 workflow-type: tm+mt
 source-wordcount: '1850'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Bearbeitungen können *einzeln rückgängig gemacht werden*, und alle anderen Fu
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../assets/2dview-vectorediting-main.png){width="512px"}
+![](vector-editing-tools.resources/2dview-vectorediting-main.png){width="512px"}
 
 </td>
 </tr>
@@ -51,29 +51,29 @@ Bearbeitungen können *einzeln rückgängig gemacht werden*, und alle anderen Fu
 
 >[!IMPORTANT]
 >
-> Sie können *nur* auf *8-Bit* [Vektorgrafikressourcen](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) malen, die [neu oder importiert](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources) sind.
+> Sie können *nur* auf *8-Bit* [Vektorgrafiken Ressourcen](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md), die [neu oder importiert](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources) sind, Malen.
 
-![Dialogfeld &quot;Neue SVG-Ressource&quot;](../../../assets/2dview-new-vector-image.png "Dialogfeld &quot;Neue SVG-Ressource&quot;"){width="512px"}
+![Dialogfeld &quot;Neue SVG-Ressource&quot;](vector-editing-tools.resources/2dview-new-vector-image.png "Dialogfeld &quot;Neue SVG-Ressource&quot;"){width="512px"}
 
 ## Aktivieren der Vektorbearbeitungswerkzeuge
 
-Die Vektorbearbeitungswerkzeuge werden im Bedienfeld [2D-Ansicht](https://docs.substance3d.com/display/SDDOC/2D+view) automatisch aktiviert, wenn die folgenden Kriterien für ein Vektorgrafikbild erfüllt sind:
+Die Vektorbearbeitungswerkzeuge werden automatisch im Bereich [2D-Ansicht](https://docs.substance3d.com/display/SDDOC/2D+view) aktiviert, wenn die folgenden Kriterien für ein Vektorgrafiken-Image erfüllt sind:
 
-* Das Vektorgrafikbild ist eine [neue oder importierte &#x200B;](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources)-Ressource.
+* Das Vektorgrafiken-Image ist eine [neue oder importierte &#x200B;](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources)-Ressource.
 * Die Bitmap wird im Bereich [2D-Ansicht](https://docs.substance3d.com/display/SDDOC/2D+view) angezeigt.
 
-*Neue* Vektorgrafikbilder können auf folgende Weise erstellt werden:
+*Neue* Vektorgrafiken-Images können auf folgende Weise erstellt werden:
 
 * Klicken Sie im Bereich [Explorer](https://docs.substance3d.com/display/SDDOC/The+Explorer+Window) auf RMB in einem *SBS-Paket* oder einem *Ordner* in einem Paket, um das Kontextmenü zu öffnen. Öffnen Sie dann das Untermenü **Neu** und wählen Sie die Option **SVG** aus.
-* Erstellen Sie in einem [Diagramm](https://docs.substance3d.com/display/SDDOC/The+Graph+view) einen [SVG-Knoten](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md), und wählen Sie die **Von neuer Ressource...Option** im Kontextmenü
+* Erstellen Sie in einem [Graf](https://docs.substance3d.com/display/SDDOC/The+Graph+view) einen [SVG-Knoten](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md), und wählen Sie die **Von neuer Ressource...Option** im Kontextmenü
 
-Das Fenster **Neue Vektordaten** wird geöffnet, in dem Sie die *Name*- und *Auflösung* der neuen Vektorgrafikressource festlegen können.
+Das Fenster **Neue Vektordaten** wird geöffnet, in dem Sie die *Name* und *Auflösung* der neuen Vektorgrafiken-Ressource festlegen können.
 
 >[!TIP]
 >
-> Für die beste Leistung mit den Vektorbearbeitungswerkzeugen empfehlen wir die Verwendung von Vektorgrafikbildern mit Auflösungen, die *Potenzen von zwei* sind - z. B. 128, 256, 512, 1024, ...
+> Für die beste Performance bei den Vektorbearbeitungswerkzeugen empfehlen wir die Verwendung von Vektorgrafiken mit Auflösungen, die *Potenzen von zwei* sind - z. B. 128, 256, 512, 1024, ...
 
-### Exportieren von Vektorgrafiken aus anderen Programmen
+### Exportieren von Vektorgrafiken aus anderer Software
 
 Designer *only* unterstützt Vektorgrafiken im Dateiformat **SVG**.
 
@@ -87,7 +87,7 @@ Stellen Sie für optimale Kompatibilität und Zuverlässigkeit in Designer und d
 **Adobe Illustrator**-Benutzer können auf das angehängte Image für die empfohlenen SVG *Exporteinstellungen verweisen.*
 
 +++Exportoptionen für Adobe Illustrator
-![Illustrator-Exportoptionen für SVG](../../../assets/demo-svg.png "Illustrator-Exportoptionen für SVG")
+![Illustrator-Exportoptionen für SVG](vector-editing-tools.resources/demo-svg.png "Illustrator-Exportoptionen für SVG")
 
 
 
@@ -95,21 +95,21 @@ Stellen Sie für optimale Kompatibilität und Zuverlässigkeit in Designer und d
 
 >[!NOTE]
 >
-> Weitere Informationen zu SVG-Einschränkungen, Exportieren von anderer Software und SVG-Eigenschaften in Designer finden Sie im Abschnitt [Ressource für Vektorgrafiken (SVG)](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md).
+> Weitere Informationen zu SVG-Einschränkungen, Exportieren von anderer Software und SVG-Eigenschaften in Designer finden Sie im Abschnitt [Vektorgrafiken (SVG)-Ressource](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md).
 
 ## Werkzeuge
 
-Die Malwerkzeuge und -optionen sind in *Symbolleisten* im Bedienfeld [2D-Ansicht](https://docs.substance3d.com/display/SDDOC/2D+view) angeordnet. Diese Symbolleisten können auf *eine beliebige Seite* des Bedienfelds oder als *schwebende Symbolleiste* verschoben werden, indem Sie auf ihrem *Handle* auf **LMB** klicken und diese gedrückt halten - angezeigt als dreifache Linie - und dann **LMB** an der gewünschten Position freigeben.
+Die Malwerkzeuge und -optionen sind in *Symbolleisten* im Bereich [2D-Ansicht](https://docs.substance3d.com/display/SDDOC/2D+view) angeordnet. Diese Symbolleisten können *an einer beliebigen Seite* des Bedienfelds oder als *schwebende Symbolleiste* verlagert werden, indem Sie auf ihrem *Handle* auf **LMB** klicken und diese gedrückt halten. Die Anzeige erfolgt in drei Zeilen und gibt dann **LMB** an der gewünschten Position frei.
 
 Wenn die Vektorbearbeitungswerkzeuge aktiviert sind, werden zwei Symbolleisten angezeigt:
 
-* **Werkzeugauswahl** **Symbolleiste**: &quot;*&quot; ermöglicht die Auswahl eines Tools* sowie der *Füll-/Konturfarben* und wird standardmäßig auf der *linken* Seite des Bedienfelds &quot;2D-Ansichten&quot; platziert.
-* **Symbolleiste für Werkzeugoptionen**: können Sie die *Optionen* für das *aktuell ausgewählte Tool* festlegen. Es wird standardmäßig auf der *Oberseite* des Bedienfelds &quot;2D-Ansichten&quot; platziert.
+* **Werkzeugauswahl** **Symbolleiste**: &quot;*&quot; ermöglicht die Auswahl eines Tools* sowie der *Füll-/Konturfarben* und wird standardmäßig auf der *linken* Seite des Bedienfelds &quot;2D-Ansicht&quot; platziert.
+* **Symbolleiste für Werkzeugoptionen**: ermöglicht Ihnen das Festlegen der *Optionen* für das *aktuell ausgewählte Tool* und wird standardmäßig auf der *Oberseite* des Bedienfelds &quot;2D-Ansicht&quot; platziert.
 
 Tastaturbefehle ermöglichen einen schnellen Zugriff auf Werkzeuge und sind unterhalb zwischen Klammern nach dem Werkzeug-/Funktionsnamen gekennzeichnet:
 
 +++Farbauswahl
-Mit ![](../../../assets/2dview-paintingtools-icon-colors-primary.png)![](../../../assets/2dview-paintingtools-icon-colors-secondary.png) **Farbauswahl** *Miniaturansichten* können Sie eine *Füllfarbe* und eine *Konturfarbe* für Vektorformen definieren. Sie können den **Farbeditor** für jede dieser Farben wie folgt öffnen:
+Mit der ![](vector-editing-tools.resources/2dview-paintingtools-icon-colors-primary.png)![](vector-editing-tools.resources/2dview-paintingtools-icon-colors-secondary.png) **Farbauswahl** *Miniaturansichten* können Sie eine *Flächenfarbe* und eine *Konturfarbe* für Vektorformen definieren. Sie können den **Farbeditor** für jede dieser Farben wie folgt öffnen:
 
 * **Füllfarbe:** Klicken Sie auf die Miniaturansicht der *Füllfarbe* (oben), oder doppelklicken Sie auf LMB auf der Arbeitsfläche.
 
@@ -122,11 +122,11 @@ Wenn die aktuelle *Konturfarbe* *Schwarz* ist - d. h. Luminanz 0 oder RGB (0, 0,
 +++
 
 +++Transformation
-![Transformationstool](../../../assets/2dview-vectorediting-transformation.png "Transformationstool"){width="512px"}
+![Transformationstool](vector-editing-tools.resources/2dview-vectorediting-transformation.png "Transformationstool"){width="512px"}
 
 
 
-Das ![](../../../assets/2dview-vectorediting-icon-transformation.png)-Werkzeug <b>Transformation</b> (<b>V</b>) kann Formen auswählen, die dann in einem Transformations-Gizmo enthalten sind. Mit diesem Gizmo können Sie die folgenden Aktionen ausführen:
+Das ![](vector-editing-tools.resources/2dview-vectorediting-icon-transformation.png)-Werkzeug <b>Transformation</b> (<b>V</b>) kann Formen auswählen, die dann in einem Transformations-Gizmo enthalten sind. Mit diesem Gizmo können Sie die folgenden Aktionen ausführen:
 
 <b>Verschieben</b>: Klicken Sie auf das LMB *innerhalb des Gizmos* und halten Sie es gedrückt.
 
@@ -137,40 +137,40 @@ Das ![](../../../assets/2dview-vectorediting-icon-transformation.png)-Werkzeug <
 +++
 
 +++Knoten
-![Knotenwerkzeug](../../../assets/2dview-vectorediting-node.png "Knotenwerkzeug"){width="512px"}
+![Knotenwerkzeug](vector-editing-tools.resources/2dview-vectorediting-node.png "Knotenwerkzeug"){width="512px"}
 
 
 
-Mit dem ![](../../../assets/2dview-vectorediting-icon-node.png) <b>Node</b>-Tool (<b>A</b>) können Sie einzelne Scheitelpunkt (d. h. Knoten) der ausgewählten Form auswählen und ihre Position und Handles bearbeiten sowie Scheitelpunkt hinzufügen und entfernen. Nachdem eine Form ausgewählt wurde, können die folgenden Aktionen ausgeführt werden:
+Mit dem ![](vector-editing-tools.resources/2dview-vectorediting-icon-node.png) <b>Knoten</b>-Werkzeug (<b>A</b>) können Sie einzelne Scheitelpunkte (d. h. Knoten) der ausgewählten Form auswählen und ihre Position und Handles bearbeiten sowie Scheitelpunkte hinzufügen und entfernen. Nachdem eine Form ausgewählt wurde, können die folgenden Aktionen ausgeführt werden:
 
 <b>Scheitelpunkt hinzufügen:</b> Strg+LMB auf der Formenkontur
 
-<b>Scheitelpunkt entfernen</b>: Strg+LMB auf dem Scheitelpunkt
+<b>Eckpunkt entfernen</b>: Strg+LMB am Scheitelpunkt
 
-<b>Scheitelpunkt verschieben</b>: LMB auf dem Scheitelpunkt halten
+<b>Scheitelpunkt verschieben</b>: LMB am Scheitelpunkt halten
 
-<b>Verschieben von Scheitelpunkt-Handles</b>: LMB am Handle halten
+<b>Eckpunkthandles verschieben</b>: LMB am Handle halten
 
 <b>Scheitelpunkt-Handle unabhängig bewegen</b>: Halten Sie Alt+LMB am Griff. Beachten Sie, dass Handles nach diesem Punkt *nicht verknüpft* sind, bis sie *zurückgesetzt* sind.
 
-<b>Handles zurücksetzen</b>: Klicken Sie auf Alt+LMB auf dem Scheitelpunkt. Die Handles werden auf die *Scheitelpunkt-Position* zurückgesetzt.
+<b>Handles zurücksetzen</b>: Klicken Sie auf dem Scheitelpunkt auf Alt+LMB. Die Handles werden auf die *Scheitelpunktposition* zurückgesetzt.
 
-<b>Handles zum Zurücksetzen des Scheitelpunkts verschieben</b>: Halten Sie Alt+LMB auf dem Scheitelpunkt gedrückt. *Verknüpfte* Handles werden angezeigt.
+<b>Zurücksetzscheitelpunkthandles verschieben</b>: Halten Sie Alt+LMB auf dem Scheitelpunkt. *Verknüpfte* Handles werden angezeigt.
 
 +++
 
 +++Form
-![Formwerkzeug](../../../assets/2dview-vectorediting-main.png "Formwerkzeug"){width="512px"}
+![Formwerkzeug](vector-editing-tools.resources/2dview-vectorediting-main.png "Formwerkzeug"){width="512px"}
 
 
 
-Das ![](../../../assets/2dview-vectorediting-icons-shape.png)-Werkzeug <b>Formen</b> (<b>M</b>) bietet einen Satz von primitiven Formen unter Verwendung der aktuellen *Füllfarbe*, die aus erstellt und bearbeitet werden kann:
+Das ![](vector-editing-tools.resources/2dview-vectorediting-icons-shape.png)-Werkzeug <b>Formen</b> (<b>M</b>) bietet einen Satz von primitiven Formen unter Verwendung der aktuellen *Füllfarbe*, die aus erstellt und bearbeitet werden kann:
 
 * <b>Rechteck;</b>
 
 * <b>Ellipse;</b>
 
-* <b>Abgerundetes Rechteck:</b> Die abgerundeten Winkel haben einen gesperrten Radius.
+* <b>Abgerundetes Rechteck:</b> Die abgerundeten Winkel haben einen gesperrten Radius;
 
 * <b>Polygon:</b> Erstellt ein Oktogon.
 
@@ -179,25 +179,25 @@ Um eine Grundform zu zeichnen, halten Sie <b>LMB</b> an einer beliebigen Stelle 
 +++
 
 +++Füllhalter
-![Stift-Tool](../../../assets/2dview-vectorediting-pen.png "Stift-Tool"){width="512px"}
+![Zeichenstift-Werkzeug](vector-editing-tools.resources/2dview-vectorediting-pen.png "Zeichenstift-Werkzeug"){width="512px"}
 
 
 
-Mit dem ![](../../../assets/2dview-vectorediting-icon-pen.png) <b>Stift</b>-Werkzeug (<b>P</b>) können Sie eine neue benutzerdefinierte Form zeichnen, indem Sie die aktuelle *Füllfarbe* verwenden. Es stehen zwei Modi zur Verfügung:
+Mit dem ![](vector-editing-tools.resources/2dview-vectorediting-icon-pen.png) <b>Zeichenstift</b>-Werkzeug (<b>P</b>) können Sie eine neue benutzerdefinierte Form mit der aktuellen *Füllfarbe* zeichnen. Es stehen zwei Modi zur Verfügung:
 
-Im Modus &quot;<b>Pfad </b>&quot; wird die Form *jeweils um einen Scheitelpunkt* gezeichnet. Die folgenden Steuerelemente sind verfügbar:
+Im Modus <b>Pfad </b> wird die Form *um jeweils einen Scheitelpunkt* gezeichnet. Die folgenden Steuerelemente sind verfügbar:
 
-<b> geraden/geraden </b> Scheitelpunkt hinzufügen: Klicken Sie auf LMB
+<b> geraden in/geraden aus </b> Eckpunkt hinzufügen: Klicken Sie auf LMB
 
-<b>Kurve ein/aus</b> Scheitelpunkt hinzufügen (*ausgerichtet* Tangenten): LMB gedrückt halten und ziehen
+<b>Kurve ein/aus</b> Scheitelpunkt (*ausgerichtet* Tangenten) hinzufügen: LMB gedrückt halten und ziehen
 
-<b>Kurve in/Kurve aus </b>Scheitelpunkt hinzufügen (*nicht ausgerichtet* Tangenten)\*: LMB halten und ziehen, dann Alt+LMB halten
+<b>Kurve ein/aus </b>Scheitelpunkt (*nicht ausgerichtet* Tangenten) hinzufügen\*: LMB halten und ziehen, dann Alt+LMB halten
 
-<b>Kurve ein/gerade aus</b> Scheitelpunkt\*hinzufügen: wie der Scheitelpunkt &quot;Einkurven/Auskurven&quot; (nicht ausgerichtete Tangenten), aber die Auslinie muss* auf dem neuen Scheitelpunkt platziert werden*
+<b>Kurve ein/gerade aus</b> Scheitelpunkt\*hinzufügen: Wie Scheitelpunkt der Kurve/Kurve (nicht ausgerichtete Tangenten), aber die Out-Linie muss* auf dem neuen Scheitelpunkt platziert werden*
 
-<b>gerader Ein-/Kurvenausgang hinzufügen</b> Scheitelpunkt\*: Alt+LMB gedrückt halten und ziehen
+<b>gerade in/curve out</b> Scheitelpunkt\* hinzufügen: Alt+LMB gedrückt halten und ziehen
 
-<b>Form </b> schließen auf *Scheitelpunkt*: Strg gedrückt halten
+<b>Form </b> auf *nächstem* Scheitelpunkt schließen: Strg gedrückt halten
 
 <b>Form </b> auf *aktuellem* Scheitelpunkt schließen: Drücken Sie die Eingabetaste oder klicken Sie auf LMB am *ersten Scheitelpunkt* der aktuellen Form.
 
@@ -208,17 +208,17 @@ Scheitelpunkte werden *automatisch* entlang der Kontur platziert, sodass der res
 +++
 
 +++Extrudieren
-![Extrudieren-Werkzeug](../../../assets/2dview-vectorediting-extrude.png "Extrudieren-Werkzeug"){width="512px"}
+![Extrudieren-Werkzeug](vector-editing-tools.resources/2dview-vectorediting-extrude.png "Extrudieren-Werkzeug"){width="512px"}
 
 
 
-Das ![](../../../assets/2dview-vectorediting-icon-extrude.png) **Extrudieren**-Werkzeug (E) *fügt eine Form mit einem* festgelegten Durchmesser *zusammen, die entlang eines Pfades mit dem ausgewählten* Zeichnungsmodus *gezeichnet wird, und wendet das Ergebnis auf der Arbeitsfläche nach dem in der Optionssymbolleiste festgelegten* Zusammenführungsmodus *an.*
+Das ![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude.png) **Extrudieren**-Werkzeug (E) *fügt eine Form mit einem* festgelegten Durchmesser *zusammen, die entlang eines Pfades mit dem ausgewählten* Zeichnungsmodus *gezeichnet wird, und wendet das Ergebnis auf der Arbeitsfläche nach dem in der Optionssymbolleiste festgelegten* Zusammenführungsmodus *an.*
 
 Die folgenden *Zeichenmodi* sind verfügbar:
 
-![](../../../assets/2dview-vectorediting-icon-extrude-freeformpng.png) **Freiform**: zieht die Form *direkt, indem der Zeichenstift* bei gedrückter LMB-Taste über die Arbeitsfläche gezogen wird. Die Form wird am Ende der Kontur zusammengesetzt.
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-freeformpng.png) **Freiform**: zieht die Form *direkt, indem der Zeichenstift* bei gedrückter LMB-Taste über die Arbeitsfläche gezogen wird. Die Form wird am Ende der Kontur zusammengesetzt.
 
-![](../../../assets/2dview-vectorediting-icon-extrude-polygonal.png) **Polygon**: zeichnet die Form *ein Gesicht nach dem anderen*, indem Sie auf LMB klicken, um einen Winkel hinzuzufügen. Die Form wird hinzugefügt, wenn Sie die Eingabetaste drücken.
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-polygonal.png) **Polygon**: zeichnet die Form *ein Gesicht nach dem anderen*, indem Sie auf LMB klicken, um einen Winkel hinzuzufügen. Die Form wird hinzugefügt, wenn Sie die Eingabetaste drücken.
 
 Die gezeichnete Form kann mit folgenden Parametern gesteuert werden:
 
@@ -228,19 +228,19 @@ Die gezeichnete Form kann mit folgenden Parametern gesteuert werden:
 
 Wenn die Zeichnung abgeschlossen ist, wird die Form hinzugefügt und mit der aktuell ausgewählten Form zusammengeführt. Verwenden Sie hierfür einen der folgenden verfügbaren *Zusammenführungsmodi*:
 
-![](../../../assets/2dview-vectorediting-icon-extrude-nomerge.png) **Keine Zusammenführung**: Die Form wird *auf* der ausgewählten Form als *separates Objekt* gezeichnet.
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-nomerge.png) **Keine Zusammenführung**: Die Form wird *auf* der ausgewählten Form als *separates Objekt* gezeichnet.
 
-![](../../../assets/2dview-vectorediting-icon-extrude-union.png) **Union**: Die Form wurde *der ausgewählten Form hinzugefügt*.
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-union.png) **Union**: Die Form wurde *der ausgewählten Form hinzugefügt*.
 
-![](../../../assets/2dview-vectorediting-icon-extrude-subtract.png) **Subtraktion**: Die Form ist *Ausschnitt* der ausgewählten Form.
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-subtract.png) **Subtraktion**: Die Form ist *Ausschnitt* der ausgewählten Form.
 
-![](../../../assets/2dview-vectorediting-icon-extrude-intersection.png) **Schnittmenge**: Nur die *überlappenden* Teile der neuen und der ausgewählten Form bleiben erhalten.
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-intersection.png) **Schnittmenge**: Nur die *überlappenden* Teile der neuen und der ausgewählten Form bleiben erhalten.
 
 +++
 
 ## Formvorgänge
 
-![Formvorgänge](../../../assets/2dview-vectorediting-shape-operations.png "Formvorgänge"){width="512px"}
+![Formvorgänge](vector-editing-tools.resources/2dview-vectorediting-shape-operations.png "Formvorgänge"){width="512px"}
 
 Zusätzlich zu den oben aufgeführten Tools können eine Reihe von Vorgängen für *ausgewählte Formen* mithilfe des Kontextmenüs durchgeführt werden, das beim Klicken auf RMB verfügbar ist. Diese Vorgänge verfügen fast alle über einen Tastaturbefehl (in Klammern unten) und sind in die folgenden Kategorien unterteilt:
 

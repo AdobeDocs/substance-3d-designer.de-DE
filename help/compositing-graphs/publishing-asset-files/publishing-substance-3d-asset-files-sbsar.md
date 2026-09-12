@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Exportieren in Substance 3D-Asset-Dateien (SBSAR)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1238'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Auf dieser Seite wird erläutert, wie Substance 3D Designer Pakete als <b>Substance 3D-Asset-Dateien</b> veröffentlichen kann. Dabei handelt es sich um ein spezielles Dateiformat mit der Erweiterung <b>SBSAR</b>, das sowohl im Substance-Ökosystem als auch in anderen Anwendungen, die es unterstützen, verwendet wird.
 
-In der Regel ist es besser, ein Substance 3D-Element anstelle von Bitmaps zu verwenden, da es viel flexibler und leichter ist. Wenn Sie sie in Substance 3D [Painter](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/home), [Sampler](https://helpx.adobe.com/de/substance-3d-sampler.html) oder [Player](https://helpx.adobe.com/substance-3d-player/home.html) verwenden, ist es schneller, [&#x200B; &quot;Senden an...&quot; zu verwenden. feature](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md).
+In der Regel ist es besser, ein Substance 3D-Element anstelle von Bitmaps zu verwenden, da es viel flexibler und leichter ist. Wenn Sie sie in Substance 3D [Painter](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/home), [Sampler](https://experienceleague.adobe.com/de/docs/substance-3d-sampler/using/home) oder [Player](https://helpx.adobe.com/substance-3d-player/home.html) verwenden, ist es schneller, [&#x200B; &quot;Senden an...&quot; zu verwenden. feature](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md).
 
 ![Veröffentlichen von SBSAR-Dateien vereinfacht](publishing-substance-3d-asset-files-sbsar.resources/exportflow.png "Veröffentlichen von SBSAR-Dateien vereinfacht")
 

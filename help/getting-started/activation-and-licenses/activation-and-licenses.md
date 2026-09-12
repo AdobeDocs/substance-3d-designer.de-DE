@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Aktivierung und Lizenzen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 1%
+source-wordcount: '435'
+ht-degree: 0%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 1%
 Der Aktivierungsprozess hängt davon ab, wo Sie Designer erworben haben oder Zugriff darauf haben:
 
 | Edition | Aktivierungsprozess |
-| --- | --- |
-| Creative Cloud Desktop | Weitere Informationen finden Sie auf der entsprechenden Seite in der [HilfeX-Dokumentation](https://helpx.adobe.com/de/support/substance-3d-designer.html). Falls Probleme auftreten, kann die [Creative Cloud-Dokumentation](https://helpx.adobe.com/de/creative-cloud/user-guide.html) zusätzliche Antworten liefern. |
+|------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Creative Cloud Desktop (CCD) | Installieren Sie das Produkt über die CCD-App und starten Sie es. Gehen Sie zu diesen Seiten, wenn Sie Probleme mit Ihrer Lizenz haben: [Anwendungen werden aufgrund eines Abonnementfehlers nicht gestartet](https://helpx.adobe.com/de/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) / [Konto, Abonnements und Abrechnungshilfe](https://helpx.adobe.com/de/account/individual.html) |
 | dämpfen | Starten Sie das Produkt direkt aus Ihrer Steam-Bibliothek. |
 | Substance (eigenständig) | Weitere Informationen finden Sie im unten beschriebenen Aktivierungsprozess. |
 
@@ -80,7 +80,7 @@ Sie können Designer manuell aktivieren, indem Sie die Datei license.key in den 
 
 >[!NOTE]
 >
-> Einige der Verzeichnisse in den oben genannten Pfaden sind möglicherweise standardmäßig ausgeblendet. Geben Sie den Pfad manuell im Datei-Explorer ein oder zeigen Sie ausgeblendete Dateien an, um sie anzuzeigen.
+> Einige der Verzeichnisse in den oben genannten Pfaden sind möglicherweise standardmäßig ausgeblendet. Geben Sie den Pfad manuell in den Datei-Explorer ein oder zeigen Sie ausgeblendete Dateien an, um sie anzuzeigen.
 
 >[!IMPORTANT]
 >

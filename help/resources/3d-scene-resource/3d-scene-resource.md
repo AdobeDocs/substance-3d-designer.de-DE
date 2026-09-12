@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D-Szenen
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: fde9d7a455c1c7b366323c119f4c1f9a2c114952
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -56,7 +56,7 @@ Das Verknüpfen einer 3D-Szene mit Ihrem Paket ist die einzige Möglichkeit, [Gi
 * Wenn die Ressource in [Explorer](../../interface/the-explorer-window/the-explorer-window.md) geladen ist, klicken Sie auf *RMB*, und wählen Sie im Kontextmenü die Option <b>Modellinformationen für Backen</b> aus.
 * Das Dialogfeld &quot;[Modellinformationen backen](../../bakers/bakers.md)&quot; wird angezeigt, in dem Sie alle Gitterzuordnungs-Backs einrichten und ausführen können.
 
-![Gitterzuordnungen sichern](../../assets/bake-model-information.gif "Gitterzuordnungen sichern"){width="512px"}
+![Gitterzuordnungen sichern](3d-scene-resource.resources/bake-model-information.gif "Gitterzuordnungen sichern"){width="512px"}
 
 ## UDIM/UV-Kachelverwendung
 
