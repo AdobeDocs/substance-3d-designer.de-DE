@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/axf-appearance-exchange-format.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/resources/axf-appearance-exchange-format.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie AxF-Ressourcen für den Austausch von Aussehen in Substance 3D Designer für den Materialimport importieren und verwenden.
 helpx_creative_field: ""
@@ -144,7 +144,7 @@ Klicken Sie auf die Schaltfläche <b>Vorlage hinzufügen</b> und wählen Sie im 
 Es stehen zwei Arten von Substance Graf-Vorlagen zur Verfügung:
 
 <b>AxF zu Metallische Rauheit</b> und <b>AxF zu Specular-Glanz</b> sind *Konvertierungs*-Vorlagen, mit denen Sie AxF-Material zu PBR-Standardmodellen zuordnen können.\
-Diese können dann mit den standardmäßigen Datenschattierungen verwendet und mit anderen PBR-Materialien kombiniert werden, die in Designer [Sampler](https://www.adobe.com/products/substance3d-sampler.html) erstellt oder von unserer 3D-Ansicht [3D Assets](https://substance3d.adobe.com/assets/) erworben wurden.
+Diese können dann mit den standardmäßigen Datenschattierungen verwendet und mit anderen PBR-Materialien kombiniert werden, die in Designer [Sampler](https://www.adobe.com/de/products/substance3d-sampler.html) erstellt oder von unserer 3D-Ansicht [3D Assets](https://substance3d.adobe.com/assets/) erworben wurden.
 
 <b>AxF zu AxF</b> ist eine *passthrough*-Vorlage, mit der Sie AxF-Materials bearbeiten und diese Änderungen als neue Ebenen in bestehenden AxF-Dateien exportieren können. Weitere Informationen finden Sie unter Exportieren von AxF-Dateien weiter unten.
 

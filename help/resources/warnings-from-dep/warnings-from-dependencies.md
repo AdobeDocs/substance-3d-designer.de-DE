@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/warnings-from-dependencies.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/resources/warnings-from-dependencies.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über Warnungen vor Ressourcenabhängigkeiten in Substance 3D Designer und wie Sie sie beheben.
 helpx_creative_field: ""
