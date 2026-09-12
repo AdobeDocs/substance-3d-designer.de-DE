@@ -160,7 +160,7 @@ Die Aktion &quot;Wert in Graf extrahieren&quot; erstellt einen neuen Knoten vom 
 Mit dieser Aktion können Sie u. a. Folgendes tun:
 
 * Im markierten Graf wird ein Knoten vom Typ [Wertprozessor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) für diesen Eigenschaftswert erstellt und automatisch mit einem Knoten vom Typ [Ausgabe](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) verbunden, der nach dieser Eigenschaft des Materials konfiguriert ist.
-* Im [Substance-Funktionsknoten des Wertprozessor-Grafen ](../../function-graphs/function-graphs.md) wird ein [Konstantenknoten](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) erstellt, der dem Werttyp entspricht, der auf den extrahierten Wert festgelegt ist, der als Ausgabe des Grafen festgelegt ist.
+* Im [Substance-Funktionsknoten des Wertprozessor-Grafen &#x200B;](../../function-graphs/function-graphs.md) wird ein [Konstantenknoten](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) erstellt, der dem Werttyp entspricht, der auf den extrahierten Wert festgelegt ist, der als Ausgabe des Grafen festgelegt ist.
 
 Wenn eine für die Materialeigenschaft *konfigurierte Ausgabe bereits vorhanden ist* im Diagramm, werden *keine Knoten erstellt*.
 
