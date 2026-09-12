@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/version-12-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-1.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Designer 12.1, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 12.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ba25885fb45039d7cbdc79af4792a1fa0f83564a
 workflow-type: tm+mt
 source-wordcount: '1381'
 ht-degree: 0%
@@ -20,17 +20,17 @@ ht-degree: 0%
 
 # Version 12.1
 
-**Substance 3D Designer 12.1** bietet viele neue Nodes für das Substance von Materialdiagrammen, Unterstützung des USD-Dateiformats und mehr Interoperabilität mit Stager.
+**Substance 3D Designer 12.1** bietet viele neue Nodes für Substance-Material-Graf, USD Dateiformatunterstützung und mehr Interoperabilität mit Stager.
 
 Freigabedatum: *26. April 2022*
 
 ## Hauptmerkmal
 
-### Neuer Inhalt für das Substance von Materialdiagrammen
+### Neuer Inhalt für Substance Material Graf
 
-![](../../assets/yellow-intense-reduce.png)
+![](version-12-1.resources/yellow-intense-reduce.png)
 
-Viele Knoten wurden in dieser Version hinzugefügt, Sie werden einige neue Muster finden, neue Geräusche, neue Filter, ...
+Viele Nodes wurden in dieser Version hinzugefügt, Sie werden einige neue Muster finden, neue Rauschen, neue Filter, ...
 
 In den unten verlinkten Knotenseiten finden Sie Beispiele für die Ausgabebreite, die durch diese leistungsstarken neuen Knoten erreicht wird!
 
@@ -38,39 +38,39 @@ In den unten verlinkten Knotenseiten finden Sie Beispiele für die Ausgabebreite
 
   * Wir haben einen neuen Knoten <b>Kachelzufall 2</b> hinzugefügt, um benachbarte Kacheln mit zufälligen Größen und Verhältnissen zu generieren. Dies ist sehr nützlich, um schnell vollständig unregelmäßige Raster mit geneigten, abgerundeten Ecken und Abschrägungen zu erstellen.
 
-    ![](../../assets/tilerandom2-demo2.gif){width="640px"}
-  * Neues <b>Triangle Grid</b>-Muster zum Generieren eines aus Dreiecken bestehenden Rasters. Wir verwenden es in dem Material unten, um die Lederkörnung einfach und perfekt zu simulieren. Dieser Generator stellt eine Oberfläche von Scheitelpunkten im 3D-Raum dar und kann verwendet werden, um eine Vielzahl von polygonalen Stilen zu erstellen.
+    ![](version-12-1.resources/tilerandom2-demo2.gif){width="640px"}
+  * Neues <b>Triangle Grid</b>-Muster zum Generieren eines Rasters aus Dreiecken. Wir verwenden es im folgenden Material, um die Lederkörnung einfach und perfekt zu simulieren. Dieser Generator stellt eine Fläche von Scheitelpunkten im 3D-Raum dar und kann verwendet werden, um eine Vielzahl von polygonalen Stilen zu erstellen.
 
-    ![](../../assets/trianglegrid-demo.png){width="640px"}
-* **Neue Geräusche**
+    ![](version-12-1.resources/trianglegrid-demo.png){width="640px"}
+* **Neue Rauschen**
 
   * Um Ihnen mehr Abwechslung zu bieten, eine Reihe von <b>15 neuen Schmutz Maps</b> (Beton, Lecks, Splashes Dirty, ...) wurde der Bibliothek hinzugefügt.
 
-    ![](../../assets/grungemaps.png){width="640px"}
-  * Sie finden auch viele <b>neue 2D- und 3D-Störungen</b>, wie Voronoi (2D und 3D), Voronoi Fractal (2D und 3D), 3D Ridge Fractal und eine Aktualisierung des aktuellen 3D-Perlin-Rauschens (Hinzufügen von Kacheln und absoluten Optionen).\
-    Diese Geräusche werden im 3D-Raum abgebildet und bieten mehrere Stile, die eine größere Vielfalt und Kontrolle ermöglichen. So hast du die Qual der Wahl, um die perfekte Karte für dein Material zu erstellen, wie das Meer und die Materialien der Science-Fiction-Panels darunter.
+    ![](version-12-1.resources/grungemaps.png){width="640px"}
+  * Sie finden auch viele <b>neue 2D- und 3D-Rauschen</b>, wie Voronoi (2D und 3D), Voronoi Fractal (2D und 3D), 3D Ridge Fractal und ein Update der aktuellen 3D-Perlin-Rauschen (Hinzufügen von Kachelung- und Absolutoptionen).\
+    Diese Rauschen sind alle im 3D-Raum abgebildet und bieten mehrere Stile, die eine größere Vielfalt und Kontrolle ermöglichen. So hast du die Qual der Wahl, um die perfekte Landkarte für dein Material zu erstellen, wie das Meer und die Materialien der Science-Fiction-Panels unten.
 
-    ![](../../assets/fractal-voronoi-sea.gif){width="640px"}
+    ![](version-12-1.resources/fractal-voronoi-sea.gif){width="640px"}
 
-    ![](../../assets/fractal-voronoi-scifi-panel.gif){width="640px"}
-  * Eine Sammlung von <b>3D-Texturknoten</b> (Position, SDF, Offset) und <b>3D-Renderknoten </b> (Oberfläche oder Volumen) zum Erstellen und Rendern von 3D-Texturen, die ein Atlas der Slices eines 3D-Modells sind.
+    ![](version-12-1.resources/fractal-voronoi-scifi-panel.gif){width="640px"}
+  * Eine Auflistung von <b>3D-Textur-Knoten</b> (Positionieren, SDF, Offset) und <b>3D-Renderknoten </b> (Fläche oder Volumen) zum Erstellen und Rendern von 3D-Texturen, die ein Atlas der Slices eines 3D-Modells sind.
 
-    ![](../../assets/image2022-4-22-11-46-17.png){width="640px"}
+    ![](version-12-1.resources/image2022-4-22-11-46-17.png){width="640px"}
 
 * **Neue Filter**
 
   * Mit dem Knoten <b>Automatisches Freistellen</b> können Sie eine Form in der *Mitte* des Bildes platzieren, ohne dass die Größe geändert wird, oder die Form an den Platz anpassen. So kann zum Beispiel die Form beliebig verändert werden, während Position und Größe nach dem Verstreuen einheitlich sind.
 
-    ![](../../assets/autocrop-demo-01-resized.gif){width="640px"}
-  * Mit dem Knoten <b> Extend Shape</b> können Sie einen Abschnitt einer Form über eine benutzerdefinierte Richtung und Entfernung dehnen.
+    ![](version-12-1.resources/autocrop-demo-01-resized.gif){width="640px"}
+  * Mit dem Knoten &quot;<b> Extend Shape</b>&quot; können Sie einen Abschnitt einer Form über eine benutzerdefinierte Richtung und Entfernung gedehnt.
 
-    ![](../../assets/extendshape.gif){width="640px"}
+    ![](version-12-1.resources/extendshape.gif){width="640px"}
   * Und mit dem Knoten <b>Nicht-gleichförmige Drehung</b> können Sie eine Eingabe entsprechend einer angegebenen Karte drehen.
 
-    ![](../../assets/nonuniformrotation-demo-02-resized.gif){width="640px"}
+    ![](version-12-1.resources/nonuniformrotation-demo-02-resized.gif){width="640px"}
 * **Und außerdem...1**
 
-  * Beschleunigungsfunktionen (Funktionsdiagramm), die sehr nützlich sind, um einen Wert auf nichtlineare Weise anzusteuern.
+  * Easing-Funktionen (Funktions-Graf), die sehr nützlich sind, um einen Wert nichtlinear anzusteuern.
   * Diese Version enthält außerdem eine neue, präzisere Version des Knotens &quot;<b>Quantize</b>&quot; sowie einen brandneuen Dienstprogrammfilter &quot;<b>Summed Area Table</b>&quot;.
 
 ### Verbesserung der Interoperabilität
@@ -89,19 +89,19 @@ In den unten verlinkten Knotenseiten finden Sie Beispiele für die Ausgabebreite
 * <b>An Stager senden\
   </b>Sie können Ihr Substance-Material jetzt mit einem Klick an Stager senden, wie dies bereits mit Sampler und Painter möglich war. Dank dieser Funktion müssen Sie nicht mehr als SBSAR veröffentlichen und einzelne Dateien laden (Stager-Version 1.2.0 mit dem neuen Material-Manager erforderlich).
 
-  ![](../../assets/sendtostagershort.gif)
+  ![](version-12-1.resources/sendtostagershort.gif)
 
 ### Sonstiges
 
 * Wenn Sie an Stoffen arbeiten, können Sie jetzt einen speziellen Mesh in der 3D-Ansicht anzeigen, um besser sehen zu können, wie Ihr Material auf einer drapierten Form gerendert wird. Öffnen Sie das Menü &quot;<b>Szene</b>&quot; im Bedienfeld &quot;3D-Ansicht&quot;, und wählen Sie die Option &quot;<b>Cloth</b>&quot; aus, um dieses Modell anzuzeigen.
 
-  ![](../../assets/fabric-rendering.png){width="640px"}
+  ![](version-12-1.resources/fabric-rendering.png){width="640px"}
 
 * Wir haben außerdem einige neue Knoten für das Szenen-Management für Substance-Modellgrafiken hinzugefügt. Mithilfe dieser Knoten können Sie die Szene umbenennen, überordnen, fusionieren oder erweitern, um die Hierarchie der Szene zu organisieren. Es gibt auch einen neuen Knoten, der den Drehpunkt für ein oder mehrere Elemente einer Szene festlegt.
 
 * Bei der Arbeit an Projekten in Designer können Warnungen und Fehlermeldungen auftreten, die Sie über ein Problem im Projekt informieren. In dieser Version <b>verbessern wir das Fehlermanagementsystem</b>, um alle Fehler und Warnungen im Explorer anzuzeigen: Alles ist an einer Stelle aufgelistet, sodass es einfacher ist, zu überprüfen, ob Ihr Projekt Probleme enthält.
 
-  ![](../../assets/warning-overview-explorer.png){width="640px"}
+  ![](version-12-1.resources/warning-overview-explorer.png){width="640px"}
 
 ## Versionshinweise
 
@@ -134,7 +134,7 @@ In den unten verlinkten Knotenseiten finden Sie Beispiele für die Ausgabebreite
 * [Inhalt] Neue Version des Knotens &quot;Graustufen quantisieren&quot;
 * [Inhalt] Neue Voronoi- und Voronoi-Fraktalrauschen (2D/3D)
 * Schwellenwert [Inhalt]: Vergleichsmodus &quot;Unterer&quot; und &quot;Unterer und gleicher&quot; hinzufügen
-* [Inhalt]&#x200B;[3D-Ansicht] Fügen Sie den ausgelieferten Ressourcen eine Gitteranpassung für die Anzeige von Stoffen hinzu.
+* [Inhalt][3D-Ansicht] Fügen Sie den ausgelieferten Ressourcen eine Gitteranpassung für die Anzeige von Stoffen hinzu.
 * [Substance-Modelle] Neuer Knoten &quot;Gruppeninstanzen erweitern&quot;
 * [Substance-Modelle] Neuer Fuse-Knoten
 * [Substance-Modelle] Neuer Knoten Umbenennen
@@ -176,8 +176,8 @@ In den unten verlinkten Knotenseiten finden Sie Beispiele für die Ausgabebreite
 * Flood Fill [Inhalt]: Anschnittbereich in Schaltflächen für boolesche Parameter
 * [Inhalt] Falscher Bereich für den Parameter &quot;Erster Lichtwinkel&quot; des Knotens &quot;Mehrere Winkel&quot; bis &quot;Normal&quot;
 * [Substance-Modelle] Eigenschaften des Knotens zeigen Bezeichner anstelle der Bezeichnung an
-* [Substance-Modelle]&#x200B;[3D-Ansicht] Aktualisierungsproblem beim erneuten Öffnen eines Projekts
-* [Substance-Modelle]&#x200B;[3Dview] Aktualisierungsproblem bei Verwendung der Drahtgitter-Vorschau
+* [Substance-Modelle][3D-Ansicht] Aktualisierungsproblem beim erneuten Öffnen eines Projekts
+* [Substance-Modelle][3Dview] Aktualisierungsproblem bei Verwendung der Drahtgitter-Vorschau
 * [Parameter] Absturz beim Löschen von Diagrammeingaben in schneller Abfolge in einem bestimmten Fall
 * [Parameter] Absturz beim Zurücksetzen eines Instanzparameters während der Bearbeitung seiner Referenzbeschreibung
 * [Bitmap] UDIM-Erkennung wird nicht für Bitmap-Dateien ausgelöst, die im Diagramm abgelegt wurden
