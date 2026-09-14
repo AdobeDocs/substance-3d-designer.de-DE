@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-select.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-select.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Kantenauswahl", um Masken für die Auswahl von Mesh-Kanten zu generieren, um kantenbasierte Verwitterung- und Abnutzungseffekte zu erstellen.
 helpx_creative_field: ""
