@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leather-wear.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leather-wear.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Lederbekleidung", um auf der Grundlage von Gitterkrümmung und Kontaktpunkten Verschleißmasken auf Lederoberflächen zu erzeugen.
 helpx_creative_field: ""

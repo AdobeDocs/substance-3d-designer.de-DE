@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/tri-planar.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/tri-planar.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten Tri Planar , um Texturen aus drei orthogonalen Ebenen zu projizieren, um eine nahtlose Geometriezuordnung auf komplexe Texturen zu ermöglichen.
 helpx_creative_field: ""

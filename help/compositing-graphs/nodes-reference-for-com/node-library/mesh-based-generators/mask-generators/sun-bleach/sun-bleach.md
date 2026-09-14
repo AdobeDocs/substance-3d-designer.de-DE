@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/sun-bleach.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/sun-bleach.html"
 breadcrumb-title: ''
 description: Verwenden Sie den Knoten "Sonnenbleiche", um Masken basierend auf der Sonneneinstrahlung zu generieren, um realistische, sonnengebleichte und verblasste Effekte zu erzeugen.
 helpx_creative_field: ""
