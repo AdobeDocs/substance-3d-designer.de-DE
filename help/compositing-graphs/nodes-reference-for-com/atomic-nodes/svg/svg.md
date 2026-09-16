@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+breadcrumb-title: ""
 description: Verwenden Sie den SVG -Knoten, um SVG-Vektorgrafiken als Texturen zu importieren und zu rendern, um skalierbare Grafikelemente zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > SVG
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: SVG
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 1%
-
+source-wordcount: '422'
+ht-degree: 0%
 ---
-
 
 # SVG
 
@@ -24,7 +22,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: SVG](svg.resources/comp_svg_1.png "Atomknoten: SVG"){width="200px"}
+![Atomknoten: SVG](svg.resources/comp_svg_1.png "Atomknoten: SVG"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,27 +35,10 @@ Es gibt verschiedene Möglichkeiten, diesen Knoten zu erstellen. Für alle diese
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="svg.resources/svg-tooltip.gif" alt="SVG-QuickInfo" /></div>
+
 Sie können den Knoten entweder von Grund auf neu erstellen oder eine SVG-Datei in der Diagrammansicht ablegen.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 >[!TIP]
 >
@@ -79,20 +60,6 @@ Sie können den Knoten entweder von Grund auf neu erstellen oder eine SVG-Datei 
 > 
 > Weitere Informationen zu diesen Einschränkungen [finden Sie hier](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md).
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Beispiele
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 ## Parameter
 
@@ -112,11 +79,6 @@ Vektorformen können in Designer bearbeitet werden. Weitere Informationen zu den
 | --- | --- |
 | <b>Hintergrund</b> *Graustufen/Farbe* PRIMÄR | Legt die Hintergrundfarbe des Ausgabebilds fest, die für Bereiche verwendet werden soll, die nicht von einer Vektorform abgedeckt sind.   *Überschreibt den Parameter &quot;[Hintergrundfarbe](#parameters)&quot;, wenn eine Verbindung besteht.* |
 
-## Ausgangsanschlüsse
-
-|  |  |
-| --- | --- |
-| <b>Ausgabe</b> *Graustufen/Farbe* |  |
 
 ## Beispiele
 

@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+breadcrumb-title: ""
 description: Verwenden Sie den Knoten "Richtungsunschärfe", um Unschärfeeffekte in einer bestimmten Richtung anzuwenden, um Bewegungsunschärfe- und Stricheffekte zu erzeugen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional blur
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Richtungsunschärfe
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 9%
-
+source-wordcount: '197'
+ht-degree: 8%
 ---
-
 
 # Richtungsunschärfe
 
@@ -24,7 +22,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Richtungsunschärfe](directional-blur.resources/comp_dirmotionblur_1.png "Atomarer Knoten: Richtungsunschärfe"){width="200px"}
+![Atomknoten: Richtungsunschärfe](directional-blur.resources/comp_dirmotionblur_1.png "Atomarer Knoten: Richtungsunschärfe"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,27 +35,10 @@ Dieser Knoten führt eine Operation ähnlich einer Bewegungsunschärfe an einer 
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="Richtungsunschärfe-QuickInfo" /></div>
+
 Ähnlich wie &quot;Weichzeichnen&quot; ist es auch ein schnellerer und qualitativ schlechter Vorgang. Eine erweiterte, qualitativ hochwertigere Alternative wird in [Anisotropischer Weichzeichner](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md) bereitgestellt, mit einem leistungsfähigen Kompromiss
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 ## Richtungsunschärfe und Anisotropie
 
@@ -69,7 +50,7 @@ Diese Bilder unten zeigen die Richtungsunschärfe und die [Anisotrope Unschärfe
 
 <b>Richtungsunschärfe</b>
 
-![Vergleich der Richtungsunschärfe](directional-blur.resources/dirblur-01.png "Vergleich der Richtungsunschärfe"){zoomable="yes"}
+![Vergleich der Richtungsunschärfe](directional-blur.resources/dirblur-01.png "Vergleich der Richtungsunschärfe"){width="20%"}{zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -82,30 +63,6 @@ Diese Bilder unten zeigen die Richtungsunschärfe und die [Anisotrope Unschärfe
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Parameter
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Eingangsanschlüsse
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Ausgangsanschlüsse
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Beispiele
-
-</td>
-</tr>
-</table>
 
 ## Parameter
 
@@ -120,11 +77,6 @@ Diese Bilder unten zeigen die Richtungsunschärfe und die [Anisotrope Unschärfe
 | --- | --- |
 | <b>Eingabe</b> *Graustufen/Farbe* [PRIMÄR](../../../../glossary/glossary.md) | Das zu verarbeitende Bild. |
 
-## Ausgangsanschlüsse
-
-|  |  |
-| --- | --- |
-| <b>Ausgabe</b> *Graustufen/Farbe* |  |
 
 ## Beispiele
 

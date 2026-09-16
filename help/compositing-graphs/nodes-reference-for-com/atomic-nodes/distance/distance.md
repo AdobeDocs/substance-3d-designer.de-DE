@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
+breadcrumb-title: ""
 description: Verwenden Sie den Knoten "Abstand", um Abstands-Map aus Formen zu berechnen, um Masken und prozedurale Effekte zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Distance
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Abstand
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '392'
 ht-degree: 8%
-
 ---
-
 
 # Abstand
 
@@ -24,7 +22,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Elementare Knoten: Distanz](distance.resources/comp_distance_1.png "Elementare Knoten: Entfernung"){width="200px"}
+![Elementare Knoten: Distanz](distance.resources/comp_distance_1.png "Elementare Knoten: Entfernung"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,6 +35,8 @@ Dieser Knoten erstellt eine lineare Verblassen (Farbverlauf) nach außen von all
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="distance.resources/distance-tooltip.gif" alt="Entfernungs-QuickInfo" /></div>
+
 Die nach außen expandierende Verblassen endet, sobald sie eine andere Zelle erreicht: sie werden sich nie überschneiden. Intern ist dies eigentlich die Berechnung und Anzeige der Entfernung zum nächsten Pixel > 0,5, mit dem Abstand Knoten als Klemme / Maximum gesetzt.
 
 Eine optionale Quellzuordnung ermöglicht das Kombinieren der Zellen mit der Textur von einer sekundären Eingabe-Map.
@@ -45,40 +45,7 @@ Der Distanzknoten ist kein leicht zu beherrschender Knoten, aber seine Hauptanwe
 
 Weitere Informationen finden Sie in den folgenden [Beispielen](#examples).
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Ausgabe-Verbindungen
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Beispiele
-
-</td>
-</tr>
-</table>
 
 ## Parameter
 
@@ -96,11 +63,6 @@ Weitere Informationen finden Sie in den folgenden [Beispielen](#examples).
 | <b>Maskeneingabe</b> *Graustufen* PRIMÄR | Eine Graustufenmaske, deren Rahmen mit einem Abstandswert berechnet werden soll.   Aus dem Bild wird eine binäre Maske mit einem Schwellenwert von 0,5 extrahiert. Dabei sind alle Werte oberhalb dieses Schwellenwerts weiß und alle darunter liegenden Werte schwarz. |
 | <b>Quelleingabe</b> *Farbe/Graustufen* | Optionales Graustufenbild, aus dem der Pixelwert am nächsten Rand der &quot;Maskeneingabe&quot; kopiert werden soll. |
 
-## Ausgangsanschlüsse
-
-|  |  |
-| --- | --- |
-| <b>Ausgabe</b> *Farbe/Graustufen* |  |
 
 ## Beispiele
 
@@ -108,17 +70,17 @@ Weitere Informationen finden Sie in den folgenden [Beispielen](#examples).
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex01.gif){width="250px"}
+![](distance.resources/distance-ex01.gif){width="20%"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex02.gif){width="250px"}
+![](distance.resources/distance-ex02.gif){width="20%"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex03.gif){width="250px"}
+![](distance.resources/distance-ex03.gif){width="20%"}
 
 </td>
 </tr>

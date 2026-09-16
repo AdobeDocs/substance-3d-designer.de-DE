@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
+breadcrumb-title: ""
 description: Mit dem Knoten "Relief" können Sie Reliefeffekte auf Texturen erzeugen, um Tiefe und Relief zu Oberflächendetails hinzuzufügen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Emboss
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Relief
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '255'
 ht-degree: 9%
-
 ---
-
 
 # Relief
 
@@ -24,7 +22,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Relief](emboss.resources/comp_emboss_1.png "Atomknoten: Relief"){width="200px"}
+![Atomknoten: Relief](emboss.resources/comp_emboss_1.png "Atomknoten: Relief"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,42 +35,11 @@ Das heißt, der Node führt eine einfache 2D-Schattierung auf der Basis von 2 Ei
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="emboss.resources/emboss-tooltip.gif" alt="Relief-QuickInfo" /></div>
+
 Dieser Knoten wird nicht oft für PBR-ähnliche Projekte verwendet, kann aber in bestimmten Fällen verwendet werden, wenn Sie eine einfache, gebackene Beleuchtung in Ihrer Textur wünschen. Alternativ bieten [Relief mit Glanz](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md) und [Uber Relief](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md) eine ähnliche, aber umfangreichere Funktionalität.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Ausgangsanschlüsse
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Beispiele
-
-</td>
-</tr>
-</table>
 
 ## Parameter
 
@@ -90,11 +57,6 @@ Dieser Knoten wird nicht oft für PBR-ähnliche Projekte verwendet, kann aber in
 | <b>Eingabe</b> *Graustufen/Farbe* PRIMÄR | Stellt die unschattierten Grundfarben bereit. Betrachte es als eine Art diffuse oder Grundfarben-Textur. |
 | <b>Intensitätseingabe</b> *Graustufen* | Stellt die Höhenkarte dar, mit der die Beleuchtung der Oberfläche berechnet wird. Schwarz ist niedrig und Weiß ist hoch. |
 
-## Ausgangsanschlüsse
-
-|  |  |
-| --- | --- |
-| <b>Ausgabe</b> *Graustufen/Farbe* |  |
 
 ## Beispiele
 

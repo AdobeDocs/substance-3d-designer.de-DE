@@ -1,9 +1,8 @@
 ---
-source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
+source-git-commit: cd632984ee7783acd19a9a8ea2945130a1855935
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 12%
-
+source-wordcount: '87'
+ht-degree: 13%
 ---
 # TODO
 
@@ -34,7 +33,6 @@ ht-degree: 12%
 ## Fehlerbehebungen
 
 * Link für 1. Beispielbild in Knotenseiten (z.B. neue Geräusche)
-* Fehlendes Element &quot;Negative Ganzzahl&quot; und fehlerhafte Verknüpfungen in [parameters-not-working-as-waiting.md](help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
 
 ## nachforschen
 

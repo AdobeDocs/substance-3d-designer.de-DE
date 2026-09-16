@@ -1,22 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
-breadcrumb-title: ''
-description: Verwenden Sie den Knoten Überblendung , um mithilfe verschiedener Füllmethoden zwei Texturen miteinander zu verblenden und so Kompositionseffekte zu erzeugen.
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+breadcrumb-title: ""
+description: Verwenden Sie den Knoten "Angleichen", um mithilfe verschiedener Füllmethoden zwei Texturen miteinander zu verblenden und so Kompositionseffekte zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blend
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Überblenden
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 989234054615406114d2f7664ebee6f8c86f4bf2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 9%
-
+source-wordcount: '326'
+ht-degree: 8%
 ---
-
 
 # Überblenden
 
@@ -24,70 +22,39 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Elementare Knoten: Überblendung](blend.resources/comp_blend_1.png "Elementare Knoten: Überblendung"){width="200px"}
+![Atomknoten: Blend](blend.resources/comp_blend_1.png "Atomic node: Überblendung "){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 Kombiniert zwei Bilder mit einer angegebenen Füllmethode und einer optionalen Maske.
 
-Es ist der nützlichste Elementare Knoten aller Graf. Dieser Knoten wird von nahezu jedem Knoten verwendet, den Sie in [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) erstellen.
+Es ist der nützlichste Knoten aller Atomknoten. Nahezu jeder Graph, den Sie in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) erstellen, verwendet diesen Knoten.
 
 </td>
 </tr>
 </table>
 
-Die Funktionalität ähnelt der von zwei Ebenen übereinander in [Substance 3D Painter](https://www.adobe.com/de/products/substance3d-painter.html) oder [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), die durch den Mischmodus, den Sie auf der obersten Ebene festgelegt haben, miteinander vermischt werden.
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="blend.resources/blend-tooltip.gif" alt="Angleichen-QuickInfo" /></div>
+
+Die Funktionalität ähnelt der von zwei Ebenen übereinander in [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) oder [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), die durch den Mischmodus, den Sie auf der obersten Ebene festgelegt haben, miteinander vermischt werden.
 
 >[!TIP]
 >
-> Erfahren Sie mehr über die im Knoten &quot;Überblendung&quot; in [dieser dedizierten Seite](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md) verfügbaren Mischmodi.
-
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+> Erfahren Sie mehr über die im Knoten &quot;Angleichen&quot; in [dieser dedizierten Seite](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md) verfügbaren Mischmodi.
 
 
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Ausgabe-Verbindungen
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Beispiele
-
-</td>
-</tr>
-</table>
 
 ## Parameter
 
 |  |  |
 | --- | --- |
-| <b>Deckkraft</b> *Fließkommazahl* | Deckkraft der Ebene &quot;Vordergrund&quot;, die mit dem Hintergrund verschmilzt. Sie arbeitet unabhängig von der Deckkrafteingabe und dient ihr als zusätzlicher Multiplikator. |
-| <b>Füllmethode</b> *Ganzzahl* [Statisch](../../../../glossary/glossary.md) | Legt den zu verwendenden Mischvorgang fest.   Weitere Informationen finden Sie auf der [dedizierten Seite zu den Füllmethoden](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md). |
-| <b>Alpha-Überblendung</b> *Ganzzahl* [Statisch](../../../../glossary/glossary.md) | Legt das Füllverhalten fest, wenn Farbeingaben Alphakanal aufweisen:<ul data-preserve-html="true"> <li data-preserve-html="true">Quelle Alpha verwenden</li> <li data-preserve-html="true">Alpha ignorieren</li> <li data-preserve-html="true">Gerade Alpha-Überblendung</li> <li data-preserve-html="true">Vormultiplizierte Alpha-Überblendung</li> </ul> |
-| <b>Zuschneidebereich</b> *Fließkommazahl4* [Statisch](../../../../glossary/glossary.md) | Legen Sie einen benutzerdefinierten Zuschneidebereich fest, der sich wie eine zusätzliche Deckkraftmaske verhält. Jeder zugeschnittene Bereich zeigt nur den Hintergrund. |
+| <b>Deckkraft</b> *Gleitend* | Deckkraft der Ebene &quot;Vordergrund&quot;, die mit dem Hintergrund verschmilzt. Sie arbeitet unabhängig von der Deckkrafteingabe und dient ihr als zusätzlicher Multiplikator. |
+| <b>Füllmethode</b> *Integer* [Static](../../../../glossary/glossary.md) | Legt den zu verwendenden Mischvorgang fest.   Weitere Informationen finden Sie auf der [dedizierten Seite zu den Füllmethoden](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md). |
+| <b>Alpha-Überblendung</b> *Integer* [Static](../../../../glossary/glossary.md) | Bestimmt das Mischverhalten, wenn Farbeingaben über Alpha-Kanäle verfügen:<ul data-preserve-html="true"> <li data-preserve-html="true">Quelle Alpha verwenden</li> <li data-preserve-html="true">Alpha ignorieren</li> <li data-preserve-html="true">Gerade Alpha-Überblendung</li> <li data-preserve-html="true">Vormultiplizierte Alpha-Überblendung</li> </ul> |
+| <b>Beschneidungsbereich</b> *Gleitkomma4* [Statisch](../../../../glossary/glossary.md) | Legen Sie einen benutzerdefinierten Zuschneidebereich fest, der sich wie eine zusätzliche Deckkraftmaske verhält. Jeder zugeschnittene Bereich zeigt nur den Hintergrund. |
 
-## Eingabe-Verbindungen
+## Eingangsanschlüsse
 
 |  |  |
 | --- | --- |
@@ -103,11 +70,6 @@ Die Funktionalität ähnelt der von zwei Ebenen übereinander in [Substance 3D P
 > 
 > Dies ist der wichtigste Grund, warum neue Benutzer Probleme mit Farb- und Graustufenverbindungen haben: Stellen Sie sicher, dass beide Verbindungen vom gleichen Typ sind!
 
-## Ausgangsanschlüsse
-
-|  |  |
-| --- | --- |
-| <b>Ausgabe</b> *Graustufen/Farbe* |  |
 
 ## Beispiele
 

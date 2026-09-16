@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
+breadcrumb-title: ""
 description: Verwenden Sie den Bitmap-Knoten, um Bitmapbilder als Texturen in Substance-Compositing-Grafen zu importieren und zu verwenden.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Bitmap
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Bitmap
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 989234054615406114d2f7664ebee6f8c86f4bf2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 1%
-
+source-wordcount: '453'
+ht-degree: 0%
 ---
-
 
 # Bitmap
 
@@ -24,7 +22,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Elementare Knoten: Bitmap](bitmap.resources/comp_bitmap.png "Elementare Knoten: Bitmap"){width="200px"}
+![Elementare Knoten: Bitmap](bitmap.resources/comp_bitmap.png "Elementare Knoten: Bitmap"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -39,27 +37,10 @@ Es gibt verschiedene Möglichkeiten, diesen Knoten zu erstellen. Für alle diese
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="bitmap.resources/bitmap-tooltip.gif" alt="Bitmap-QuickInfo" /></div>
+
 Sie können den Knoten entweder von Grund auf neu erstellen oder eine [Bitmap](../../../../glossary/glossary.md) in einem unterstützten Format in der Graphansicht ablegen.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 >[!TIP]
 >
@@ -72,32 +53,8 @@ Sie können den Knoten entweder von Grund auf neu erstellen oder eine [Bitmap](.
 > * Bitmap-Knoten können entweder Farbe oder Graustufen zurückgeben, die Standardfarbe ist jedoch Farb, selbst wenn die Ressource eine Graustufen-Bitmap ist. Dies kann sich auf die Leistung und Komplexität des Grafen auswirken. Stellen Sie daher immer sicher, dass Sie bei Bedarf zum [Graustufen-Farbmodus](#parameters) wechseln.
 > * Durch das Löschen eines Bitmapknotens wird die [Bitmapressource](../../../../resources/bitmap-resource/bitmap-resource.md) in Ihrem [Paket](../../../../glossary/glossary.md) nicht gelöscht. Sie müssen dies manuell im [Explorer](../../../../interface/the-explorer-window/the-explorer-window.md) tun.
 > * Seien Sie andererseits vorsichtig, wenn Sie eine [Bitmapressource](../../../../resources/bitmap-resource/bitmap-resource.md) im Explorer löschen: Sie funktioniert weiterhin im Graf für diese Sitzung, da sie im Cache gespeichert wird. Die Ressource wird jedoch als fehlend markiert, wenn Sie das [Paket](../../../../glossary/glossary.md) das nächste Mal laden.
-> * Wenn ein Substance-Graf [gekocht](../../../../glossary/glossary.md) ist, wird die Bitmapauflösung an ihrer Auflösung innerhalb des Grafen und nicht an ihrer Originalgröße festgelegt. Es wird empfohlen, sicherzustellen, dass der [Basisparameter](../../../../glossary/glossary.md) für die Ausgabegröße eines Bitmapknotens die [Absolutauflösungsmethode &#x200B;](../../../../glossary/glossary.md) verwendet und dass auf den Graf ein [Transformieren 2D](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)-Knoten folgt, der auf &quot;Relativ zum übergeordneten Element&quot; (d. h. die Vererbung des Hostknotens) festgelegt ist.
+> * Wenn ein Substance-Graf [gekocht](../../../../glossary/glossary.md) ist, wird die Bitmapauflösung an ihrer Auflösung innerhalb des Grafen und nicht an ihrer Originalgröße festgelegt. Es wird empfohlen, sicherzustellen, dass der [Basisparameter](../../../../glossary/glossary.md) für die Ausgabegröße eines Bitmapknotens die [Absolutauflösungsmethode ](../../../../glossary/glossary.md) verwendet und dass auf den Graf ein [Transformieren 2D](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)-Knoten folgt, der auf &quot;Relativ zum übergeordneten Element&quot; (d. h. die Vererbung des Hostknotens) festgelegt ist.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Parameter
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Bitmap-Malwerkzeuge
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Ausgabe-Verbindungen
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Beispiele
-
-</td>
-</tr>
-</table>
 
 ## Parameter
 
@@ -111,11 +68,6 @@ Sie können den Knoten entweder von Grund auf neu erstellen oder eine [Bitmap](.
 
 Bitmaps können in Designer bearbeitet werden. Weitere Informationen zu den Bearbeitungswerkzeugen in [diesem Abschnitt](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md).
 
-## Ausgangsanschlüsse
-
-|  |  |
-| --- | --- |
-| <b>Ausgabe</b> *Graustufen/Farbe* |  |
 
 ## Beispiele
 
