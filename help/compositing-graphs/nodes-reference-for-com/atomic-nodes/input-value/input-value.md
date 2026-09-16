@@ -22,7 +22,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Elementare Knoten: Eingabewert ](input-value.resources/comp_inputnumeric_1.png "Elementare Knoten: Eingabewert "){width="100%"}
+![Elementare Knoten: Eingabewert &#x200B;](input-value.resources/comp_inputnumeric_1.png "Elementare Knoten: Eingabewert "){width="100%"}
 
 <b>In:</b> Elementare Knoten
 
@@ -84,7 +84,7 @@ Eine Eingabe kann als [Primäre Eingabe](../../../../compositing-graphs/inherita
 </td>
 <td width="25%" style="border: 0;" valign="top">
 
-![Primäre Eingabe in Substance-Graf ](input-value.resources/node-primary-input.png)
+![Primäre Eingabe in Substance-Graf &#x200B;](input-value.resources/node-primary-input.png)
 
 </td>
 </tr>

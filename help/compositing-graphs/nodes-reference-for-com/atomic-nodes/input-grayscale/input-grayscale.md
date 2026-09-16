@@ -86,7 +86,7 @@ Eine Eingabe kann als [Primäre Eingabe](../../../../compositing-graphs/inherita
 </td>
 <td width="25%" style="border: 0;" valign="top">
 
-![Primäre Eingabe in Substance-Graf ](input-grayscale.resources/node-primary-input.png)
+![Primäre Eingabe in Substance-Graf &#x200B;](input-grayscale.resources/node-primary-input.png)
 
 </td>
 </tr>

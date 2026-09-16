@@ -31,7 +31,7 @@ ht-degree: 0%
 
 Der Ausgabeknoten gibt das <b>Ergebnis</b> eines Substance-Grafen oder eines seiner Ergebnisse an, wenn mehr als ein Ausgabeknoten darin vorhanden ist.
 
-Das Bild oder der Wert, das bzw. der mit dem Ausgabeknoten eines Grafen verbunden ist, wird von jedem [Instanzknoten](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) ausgegeben, der diesen Graf darstellt, und [kann als Graphausgabe ](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md) exportiert werden.
+Das Bild oder der Wert, das bzw. der mit dem Ausgabeknoten eines Grafen verbunden ist, wird von jedem [Instanzknoten](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) ausgegeben, der diesen Graf darstellt, und [kann als Graphausgabe &#x200B;](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md) exportiert werden.
 
 </td>
 </tr>
