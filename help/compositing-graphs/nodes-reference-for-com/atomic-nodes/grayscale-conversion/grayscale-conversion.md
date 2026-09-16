@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
 breadcrumb-title: ""
 description: Verwenden Sie den Knoten "Graustufenkonvertierung", um Farb-Texturen mithilfe verschiedener Konvertierungsmethoden in Graustufen zu konvertieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Graustufenkonvertierung
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 7%
@@ -20,14 +20,14 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Atomknoten: Graustufen-Konvertierung](grayscale-conversion.resources/comp_grayscaleconversion_1.png "Elementare Knoten: Graustufen-Konvertierung"){width="100%"}
 
 <b>In:</b> Atomknoten
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Konvertiert ein Farbbild mithilfe der Luminanz der einzelnen Farbkanäle in ein Graustufenbild.
 
@@ -39,9 +39,9 @@ Dieser Knoten kann als optimierte Methode verwendet werden, um einen Graustufenk
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="Graustufen-Konvertierungs-QuickInfo" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="Graustufen-Konvertierungs-QuickInfo" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

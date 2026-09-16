@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
 breadcrumb-title: ""
 description: Verwenden Sie den Knoten Verlauf (Dynamisch), um dynamische Farbverläufe zu erstellen, die über Eingabeparameter und Werte gesteuert werden können.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Verlauf (dynamisch)
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 8%
@@ -20,14 +20,14 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Atomknoten: Dynamischer Verlauf](gradient-dynamic.resources/comp_dyngradient_1.png "Atomic Node: Dynamischer Farbverlauf"){width="100%"}
 
 <b>In:</b> Atomknoten
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Ordnet die Graustufenwerte in einem Bild mithilfe eines von einer Pixelzeile oder -spalte in einem anderen Bild bereitgestellten Verlaufs neu zu.
 
@@ -39,9 +39,9 @@ Sie dient als geringfügige Alternative zum Verlaufsknoten. Im Gegensatz zum Ver
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="gradientendynamische QuickInfo" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="gradientendynamische QuickInfo" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

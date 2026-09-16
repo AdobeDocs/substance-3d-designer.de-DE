@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
 breadcrumb-title: ""
 description: Mit dem Knoten "Scharf stellen" können Sie die Textur und Kanten verbessern, um gestochen scharfe, definierte Oberflächendetails zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Scharfzeichnen
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 4%
@@ -20,14 +20,14 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Knotensymbol schärfen](sharpen.resources/sharpen-4.png "Knotensymbol schärfen")
 
 <b>In:</b> Elementare Knoten
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 ## Beschreibung
 
@@ -39,9 +39,9 @@ Der Scharfzeichnungsknoten führt einen Scharfzeichnungsvorgang an einer Eingabe
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="sharpen.resources/sharpen-tooltip.gif" alt="QuickInfo schärfen" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="sharpen.resources/sharpen-tooltip.gif" alt="QuickInfo schärfen" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Eingabefarbe
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 1%
@@ -20,14 +20,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Elementare Knoten: Eingabefarbe](input-color.resources/comp_inputcolor_1.png "Elementare Knoten: Eingabefarbe"){width="100%"}
 
 <b>In:</b> Elementare Knoten
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 ## Beschreibung
 
@@ -35,7 +35,7 @@ Eingabeknoten sind ein spezieller Knotentyp, der einen dynamischen Steckplatz in
 
 Im Gegensatz zu [Ausgabeknoten](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) müssen Sie explizit entweder eine Farb-, Graustufen- oder Werteingabe platzieren. Es ist nicht möglich, eigene &quot;agnostische&quot; Eingaben zu erstellen, die den Typ je nach Verbindung ändern.
 
-Eingabeknoten sind nicht so wichtig wie [Ausgabeknoten](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): können Sie über perfekt funktionierende, erweiterte Grafen verfügen, die keine Eingabe benötigen. Eingaben werden nur verwendet, wenn Sie das Ergebnis Ihrer Graf- oder Knoteninstanz auf einer externen Eingabe basieren möchten, z. B. beim Erstellen einer [Instanz](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) oder eines [Filters](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/effects/filter) für Substance 3D Painter.
+Eingabeknoten sind nicht so wichtig wie [Ausgabeknoten](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): können Sie über perfekt funktionierende, erweiterte Grafen verfügen, die keine Eingabe benötigen. Eingaben werden nur verwendet, wenn Sie das Ergebnis Ihrer Graf- oder Knoteninstanz auf einer externen Eingabe basieren möchten, z. B. beim Erstellen einer [Instanz](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) oder eines [Filters](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter) für Substance 3D Painter.
 
 Siehe auch: [Graustufen eingeben](../input-grayscale/input-grayscale.md), [Eingabewert eingeben](../input-value/input-value.md)
 
@@ -45,9 +45,9 @@ Siehe auch: [Graustufen eingeben](../input-grayscale/input-grayscale.md), [Einga
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="input-color.resources/input-color-tooltip.gif" alt="QuickInfo zu Eingabefarben" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="input-color.resources/input-color-tooltip.gif" alt="QuickInfo zu Eingabefarben" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -78,38 +78,38 @@ Wenn Sie den Graf mit den Ausgaben eines anderen Grafen anzeigen möchten, müss
 <tr style="border: 0;">
 <td style="border: 0; vertical-align: top">
 
-Wenn mehrere Eingaben vorhanden sind, müssen Sie darauf achten, wie das Diagramm die Basisparameter[&#128279;](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) von diesen Eingaben erbt.\
-Zu den Basisparametern gehören u. a. die <b>Ausgabegröße</b>, das <b>Ausgabeformat</b> und der <b>Anordnungsmodus</b>.
+Wenn mehrere Eingaben vorhanden sind, müssen Sie darauf achten, wie der Graf seine Basisparameter [von diesen Eingaben erbt.](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)\
+Zu den Basisparametern gehören u. a. die <b>Ausgabegröße</b>, <b>Ausgabeformat</b> und <b>Kachelungsmodus</b>.
 
-Eine Eingabe kann als [Primäre Eingabe](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) definiert werden. Diese Eingabe steuert dann die Attribute aller Eingaben, deren Vererbungsmethode auf *Relativ zu übergeordnetem* festgelegt ist. Dies ist die Vererbungsmethode *, die standardmäßig* auf Eingabeknoten festgelegt ist.
+Eine Eingabe kann als [Primäre Eingabe](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) definiert werden. Diese Eingabe steuert dann die Attribute aller Eingaben, deren Vererbung auf *Relativ zum übergeordneten Element* festgelegt ist. Dies ist die Vererbung *, die standardmäßig* auf Eingabeknoten festgelegt wurde.
 
 </td>
 <td width="25%" style="border: 0;" valign="top">
 
-![Primäre Eingabe in Substance-Graf &#x200B;](input-color.resources/node-primary-input.png)
+![Primäre Eingabe in Substance-Graf ](input-color.resources/node-primary-input.png)
 
 </td>
 </tr>
 </table>
 
-Sie können einen Eingabeknoten als primäre Eingabe eines Diagramms festlegen, indem Sie auf *RMB* auf dem Knoten klicken und im Kontextmenü die Option <b>Als primäre Eingabe festlegen</b> auswählen.\
-Die primäre Eingabe eines Knotens ist im Connector *mit einem* kleinen dunklen Punkt markiert (im Beispiel neben diesem Abschnitt rot eingekreist).
+Sie können einen Eingabeknoten als primäre Eingabe eines Grafen festlegen, indem Sie auf *RMB* auf dem Knoten klicken und im Kontextmenü die Option <b>Als primäre Eingabe festlegen</b> auswählen.\
+Die primäre Eingabe eines Knotens ist in der Verbindung *mit einem* kleinen dunklen Punkt markiert (im Beispiel neben diesem Abschnitt rot eingekreist).
 
-Alternativ erbt jede Eingabe, die auf die *Vererbungsmethode Relativ zur Eingabe* festgelegt ist, die Attribute von dem Knoten, mit dem sie verbunden ist, *unabhängig* von der primären Eingabe.
+Alternativ erbt jede Eingabe, die für die *Relative Vererbung zur Eingabe* festgelegt ist, die Attribute von dem Knoten, mit dem sie verbunden ist, *unabhängig* von der primären Eingabe.
 
-Schließlich können Sie jeden Wert für ein bestimmtes Attribut überschreiben, indem Sie die zugehörige Vererbungsmethode auf *Absolut* festlegen.
+Schließlich können Sie jeden Wert für ein bestimmtes Attribut überschreiben, indem Sie die zugehörige Vererbung auf *Absolut* festlegen.
 
 >[!TIP]
 >
-> Weitere Informationen zur Vererbung finden Sie auf der Seite [Vererbung in Substance-Graphen](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) in dieser Dokumentation.
+> Weitere Informationen zur Vererbung finden Sie auf der Seite [Vererbung in Substance Graf](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) dieser Dokumentation.
 
 >[!IMPORTANT]
 >
-> Die *Vererbungsmethode Relativ zu Eingabe* für Eingabeknoten wird *nicht unterstützt* in [Substance 3D Assets (SBSAR)](../../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md). Legen Sie vor dem Veröffentlichen des Pakets die Vererbungsmethoden aller Eingabeknoten auf *Relativ zu übergeordneten Knoten* fest.
+> Die *Relative Vererbung zur Eingabe* für Eingabeknoten wird *nicht unterstützt* in [Substance 3D Assets (SBSAR)](../../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md). Legen Sie vor dem Veröffentlichen des Pakets die Vererbung aller Eingabeknoten auf *Relativ zum übergeordneten Element* fest.
 
 ## Integrationsattribute
 
-Die Eingaben werden nicht direkt an die 3D-Ansicht gesendet, aber ihre Verwendungsattribute werden von [Substance 3D Painter](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/home) verwendet, um Steckplätze automatisch mit bestimmten Zuordnungen zu füllen (meist mit [Filtern](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/effects/filter)).
+Die Eingaben werden nicht direkt an die 3D-Ansicht gesendet, aber ihre Verwendungsattribute werden von [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) verwendet, um Steckplätze automatisch mit bestimmten Zuordnungen zu füllen (meist mit [Filtern](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter) verwendet).
 
 Darüber hinaus werden die Verwendungsattribute auch mit [Verknüpfungserstellungsmodi](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) verwendet, um die richtigen Eingabe- und Ausgabeschlitze abzugleichen.
 
@@ -117,6 +117,6 @@ Darüber hinaus werden die Verwendungsattribute auch mit [Verknüpfungserstellun
 
 |  |  |
 | --- | --- |
-| <b>Komponente</b> *Zeichenfolge* | Dadurch wird festgelegt, welche Kanäle sich tatsächlich in der resultierenden Eingabe befinden. Dies ist eine ältere Einstellung, die nicht mehr von Integrationen und Graphen verwendet wird. |
+| <b>Komponente</b> *Zeichenfolge* | Dadurch wird festgelegt, welche Kanäle sich tatsächlich in der resultierenden Eingabe befinden. Dies ist eine ältere Einstellung, die von Integrationen und Grafen nicht mehr verwendet wird. |
 | <b>Nutzung</b> *Zeichenfolge* | Definieren Sie einen Typ oder eine Verwendung für diese Eingabe. Es gibt an, wie andere Knoten sich mit diesem Eingang verbinden sollen. |
 | <b>Farbraum</b> *Zeichenfolge* | Legt den Farbraum fest, in dem diese Eingabe interpretiert werden soll. |

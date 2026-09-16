@@ -10,32 +10,30 @@ helpx_tags: ""
 title: Eingabewert
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 1%
+source-wordcount: '803'
+ht-degree: 0%
 ---
 
 # Eingabewert
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Atomknoten: Eingabewert &#x200B;](input-value.resources/comp_inputnumeric_1.png "Atomischer Knoten: Eingabewert "){width="100%"}
+![Elementare Knoten: Eingabewert ](input-value.resources/comp_inputnumeric_1.png "Elementare Knoten: Eingabewert "){width="100%"}
 
-<b>In:</b> Atomknoten
+<b>In:</b> Elementare Knoten
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
-## Beschreibung
-
-Eingabeknoten sind ein spezieller Knotentyp, der einen dynamischen Steckplatz in Ihrem Diagramm erstellt, sodass jeder Eingang verbunden werden kann, sobald Ihr Diagramm in einem anderen Kontext verwendet wird.
+Eingabeknoten sind ein spezieller Knotentyp, der einen dynamischen Steckplatz in Ihrem Graf erstellt, sodass jeder Eingang angeschlossen werden kann, sobald Ihr Graf in einem anderen Kontext verwendet wird.
 
 Im Gegensatz zu [Ausgabeknoten](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) müssen Sie explizit entweder eine Farb-, Graustufen- oder Werteingabe platzieren. Es ist nicht möglich, eigene &quot;agnostische&quot; Eingaben zu erstellen, die den Typ je nach Verbindung ändern.
 
-Eingabeknoten sind nicht so wichtig wie [Ausgabeknoten](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): können Sie perfekt funktionierende, erweiterte Diagramme nutzen, die keine Eingabe benötigen. Eingaben werden nur verwendet, wenn Sie das Ergebnis Ihrer Graf- oder Knoteninstanz auf einer externen Eingabe basieren möchten, z. B. beim Erstellen einer [Instanz](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) oder eines [Filters](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/effects/filter) für Substance 3D Painter.
+Eingabeknoten sind nicht so wichtig wie [Ausgabeknoten](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): können Sie über perfekt funktionierende, erweiterte Grafen verfügen, die keine Eingabe benötigen. Eingaben werden nur verwendet, wenn Sie das Ergebnis Ihrer Graf- oder Knoteninstanz auf einer externen Eingabe basieren möchten, z. B. beim Erstellen einer [Instanz](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) oder eines [Filters](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter) für Substance 3D Painter.
 
 Siehe auch: [Eingabefarbe](../input-color/input-color.md), [Eingabegraustufen](../input-grayscale/input-grayscale.md)
 
@@ -45,9 +43,9 @@ Siehe auch: [Eingabefarbe](../input-color/input-color.md), [Eingabegraustufen](.
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="input-value.resources/input-value-tooltip.gif" alt="QuickInfo für Eingabewert" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="input-value.resources/input-value-tooltip.gif" alt="QuickInfo für Eingabewert" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -55,7 +53,7 @@ Siehe auch: [Eingabefarbe](../input-color/input-color.md), [Eingabegraustufen](.
 
 Standardmäßig gibt eine Eingabefarbe oder ein Graustufen schwarz zurück, wenn nichts angeschlossen ist. Sie können entweder einen anderen Standardwert festlegen oder eine vorhandene [Bitmapressource](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) aus dem [Explorer](../../../../interface/the-explorer-window/the-explorer-window.md) auf den Eingabeknoten in Ihrem Graf ziehen, um eine Vorschau dieser Daten im Steckplatz anzuzeigen. Dies funktioniert nur bei Farb- und Graustufeneingaben. Der Standardwert bleibt erhalten, wenn er in anderen Kontexten verwendet wird. Die Vorschaubitmap wird anderswo verworfen.
 
-Wenn Sie das Diagramm mit den Ausgaben eines anderen Diagramms anzeigen möchten, müssen Sie dieses Diagramm entweder für die obige Methode in die Bitmap exportieren oder die kontextbezogene Bearbeitung verwenden.
+Wenn Sie den Graf mit den Ausgaben eines anderen Grafen anzeigen möchten, müssen Sie ihn entweder für die oben genannte Methode in die Bitmap exportieren oder die &quot;In-Context&quot;-Bearbeitung verwenden.
 
 |  |  |
 | --- | --- |
@@ -66,7 +64,7 @@ Wenn Sie das Diagramm mit den Ausgaben eines anderen Diagramms anzeigen möchten
 
 |  |  |
 | --- | --- |
-| <b>Kennung</b> *Zeichenfolge* | Das einzige obligatorische, eindeutige Attribut. Kann keine Leerzeichen enthalten. Dieser wird zum Kennzeichnen von Eingaben verwendet, wenn kein Label eingerichtet ist, und zum Kennzeichnen verschiedener Ausgänge. Lassen Sie diese nicht einfach bei &quot;input\_1&quot; stehen! |
+| <b>Identifizierung</b> *Zeichenfolge* | Das einzige obligatorische, eindeutige Attribut. Kann keine Leerzeichen enthalten. Dieser wird zum Kennzeichnen von Eingaben verwendet, wenn kein Label eingerichtet ist, und zum Kennzeichnen verschiedener Ausgänge. Lassen Sie diese nicht einfach bei &quot;input\_1&quot; stehen! |
 | <b>Beschreibung</b> *Zeichenfolge* | Optionale Beschreibung, die in der Designer-Bibliothek und im Painter-Regal verwendet wird. |
 | <b>Bezeichnung</b> *Zeichenfolge* | UI-Label für ansprechende Beschriftungen in Designer und der Benutzeroberfläche von Painter. Kann Leerzeichen enthalten. Es wird empfohlen, einen Namen festzulegen, der der Identifizierung ähnelt, nur mit Leerzeichen anstelle von Unterstrichen. |
 | <b>Benutzerdaten</b> *Zeichenfolge* | Zusätzliche, optionale Benutzerdaten, die für bestimmte Datenvorgänge verwendet werden können, im Wesentlichen ein Platzhalter, benutzerdefiniertes Datenfeld. |
@@ -78,38 +76,38 @@ Wenn Sie das Diagramm mit den Ausgaben eines anderen Diagramms anzeigen möchten
 <tr style="border: 0;">
 <td style="border: 0; vertical-align: top">
 
-Wenn mehrere Eingaben vorhanden sind, müssen Sie darauf achten, wie das Diagramm die Basisparameter[&#128279;](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) von diesen Eingaben erbt.\
-Zu den Basisparametern gehören u. a. die <b>Ausgabegröße</b>, das <b>Ausgabeformat</b> und der <b>Anordnungsmodus</b>.
+Wenn mehrere Eingaben vorhanden sind, müssen Sie darauf achten, wie der Graf seine Basisparameter [von diesen Eingaben erbt.](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)\
+Zu den Basisparametern gehören u. a. die <b>Ausgabegröße</b>, <b>Ausgabeformat</b> und <b>Kachelungsmodus</b>.
 
-Eine Eingabe kann als [Primäre Eingabe](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) definiert werden. Diese Eingabe steuert dann die Attribute aller Eingaben, deren Vererbungsmethode auf *Relativ zu übergeordnetem* festgelegt ist. Dies ist die Vererbungsmethode *, die standardmäßig* auf Eingabeknoten festgelegt ist.
+Eine Eingabe kann als [Primäre Eingabe](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) definiert werden. Diese Eingabe steuert dann die Attribute aller Eingaben, deren Vererbung auf *Relativ zum übergeordneten Element* festgelegt ist. Dies ist die Vererbung *, die standardmäßig* auf Eingabeknoten festgelegt wurde.
 
 </td>
 <td width="25%" style="border: 0;" valign="top">
 
-![Primäre Eingabe in Substance-Graf &#x200B;](input-value.resources/node-primary-input.png)
+![Primäre Eingabe in Substance-Graf ](input-value.resources/node-primary-input.png)
 
 </td>
 </tr>
 </table>
 
-Sie können einen Eingabeknoten als primäre Eingabe eines Diagramms festlegen, indem Sie auf *RMB* auf dem Knoten klicken und im Kontextmenü die Option <b>Als primäre Eingabe festlegen</b> auswählen.\
-Die primäre Eingabe eines Knotens ist im Connector *mit einem* kleinen dunklen Punkt markiert (im Beispiel neben diesem Abschnitt rot eingekreist).
+Sie können einen Eingabeknoten als primäre Eingabe eines Grafen festlegen, indem Sie auf *RMB* auf dem Knoten klicken und im Kontextmenü die Option <b>Als primäre Eingabe festlegen</b> auswählen.\
+Die primäre Eingabe eines Knotens ist in der Verbindung *mit einem* kleinen dunklen Punkt markiert (im Beispiel neben diesem Abschnitt rot eingekreist).
 
-Alternativ erbt jede Eingabe, die auf die *Vererbungsmethode Relativ zur Eingabe* festgelegt ist, die Attribute von dem Knoten, mit dem sie verbunden ist, *unabhängig* von der primären Eingabe.
+Alternativ erbt jede Eingabe, die für die *Relative Vererbung zur Eingabe* festgelegt ist, die Attribute von dem Knoten, mit dem sie verbunden ist, *unabhängig* von der primären Eingabe.
 
-Schließlich können Sie jeden Wert für ein bestimmtes Attribut überschreiben, indem Sie die zugehörige Vererbungsmethode auf *Absolut* festlegen.
+Schließlich können Sie jeden Wert für ein bestimmtes Attribut überschreiben, indem Sie die zugehörige Vererbung auf *Absolut* festlegen.
 
 >[!TIP]
 >
-> Weitere Informationen zur Vererbung finden Sie auf der Seite [Vererbung in Substance-Graphen](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) in dieser Dokumentation.
+> Weitere Informationen zur Vererbung finden Sie auf der Seite [Vererbung in Substance Graf](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) dieser Dokumentation.
 
 >[!IMPORTANT]
 >
-> Die *Vererbungsmethode Relativ zu Eingabe* für Eingabeknoten wird *nicht unterstützt* in [Substance 3D Assets (SBSAR)](../../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md). Legen Sie vor dem Veröffentlichen des Pakets die Vererbungsmethoden aller Eingabeknoten auf *Relativ zu übergeordneten Knoten* fest.
+> Die *Relative Vererbung zur Eingabe* für Eingabeknoten wird *nicht unterstützt* in [Substance 3D Assets (SBSAR)](../../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md). Legen Sie vor dem Veröffentlichen des Pakets die Vererbung aller Eingabeknoten auf *Relativ zum übergeordneten Element* fest.
 
 ## Integrationsattribute
 
-Die Eingaben werden nicht direkt an die 3D-Ansicht gesendet, aber ihre Verwendungsattribute werden von [Substance 3D Painter](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/home) verwendet, um Steckplätze automatisch mit bestimmten Zuordnungen zu füllen (meist mit [Filtern](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/effects/filter)).
+Die Eingaben werden nicht direkt an die 3D-Ansicht gesendet, aber ihre Verwendungsattribute werden von [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) verwendet, um Steckplätze automatisch mit bestimmten Zuordnungen zu füllen (meist mit [Filtern](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter) verwendet).
 
 Darüber hinaus werden die Verwendungsattribute auch mit [Verknüpfungserstellungsmodi](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) verwendet, um die richtigen Eingabe- und Ausgabeschlitze abzugleichen.
 
@@ -117,6 +115,6 @@ Darüber hinaus werden die Verwendungsattribute auch mit [Verknüpfungserstellun
 
 |  |  |
 | --- | --- |
-| <b>Komponente</b> *Zeichenfolge* | Dadurch wird festgelegt, welche Kanäle sich tatsächlich in der resultierenden Eingabe befinden. Dies ist eine ältere Einstellung, die nicht mehr von Integrationen und Graphen verwendet wird. |
+| <b>Komponente</b> *Zeichenfolge* | Dadurch wird festgelegt, welche Kanäle sich tatsächlich in der resultierenden Eingabe befinden. Dies ist eine ältere Einstellung, die von Integrationen und Grafen nicht mehr verwendet wird. |
 | <b>Nutzung</b> *Zeichenfolge* | Definieren Sie einen Typ oder eine Verwendung für diese Eingabe. Es gibt an, wie andere Knoten sich mit diesem Eingang verbinden sollen. |
 | <b>Farbraum</b> *Zeichenfolge* | Legt den Farbraum fest, in dem diese Eingabe interpretiert werden soll. |

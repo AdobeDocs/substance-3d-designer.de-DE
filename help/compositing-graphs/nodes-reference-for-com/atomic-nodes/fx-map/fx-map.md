@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
 breadcrumb-title: ""
 description: Verwenden Sie den FX-Map-Knoten, um Funktionsdiagramme auf Texturen anzuwenden, um prozedurale Muster und Effekte zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 1%
@@ -20,14 +20,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Atomknoten: FX-Map](fx-map.resources/fxmap.png "Atomknoten: FX-Map"){width="100%"}
 
 <b>In:</b> Atomknoten
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Die FX-Map kann eine Bild- oder Mustereingabe immer wieder replizieren und unterteilen und die Verteilung jedes Musters über Parameter und logische Funktionen steuern.
 
@@ -39,9 +39,9 @@ Es ist einer der mächtigsten atomaren Knoten, sowie der komplexeste Knoten in d
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="fx-map.resources/fxmap-tooltip.gif" alt="fx-map tooltip" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="fx-map.resources/fxmap-tooltip.gif" alt="fx-map tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -57,7 +57,7 @@ Es ist einer der mächtigsten atomaren Knoten, sowie der komplexeste Knoten in d
 > Es wird empfohlen, sich mit allen Aspekten der Software vertraut zu machen und keine Probleme beim Erstellen von [mathematischen Funktionen](../../../../function-graphs/function-graphs.md) für Parameter zu haben, bevor Sie versuchen, den FX-Map-Knoten zu verwenden.
 
 
-Beachten Sie, dass im Gegensatz zu anderen Knoten der größte Teil des Verhaltens einer FX-Map nicht durch die Parameter bestimmt wird, sondern [&#x200B; durch Bearbeiten der FX-Map-Funktionen](../../../../function-graphs/fxmaps/fxmaps.md) innerhalb der FX-Map.
+Beachten Sie, dass im Gegensatz zu anderen Knoten der größte Teil des Verhaltens einer FX-Map nicht durch die Parameter bestimmt wird, sondern [ durch Bearbeiten der FX-Map-Funktionen](../../../../function-graphs/fxmaps/fxmaps.md) innerhalb der FX-Map.
 
 |  |  |
 | --- | --- |
@@ -65,7 +65,7 @@ Beachten Sie, dass im Gegensatz zu anderen Knoten der größte Teil des Verhalte
 | <b>Hintergrund</b> *Gleitend/Gleitend4* | Legt die Anfangsfarbe des Hintergrunds fest, mit der die Ergebnisse zusammengefügt werden. |
 | <b>Renderregion</b> *Float4* | Ermöglicht es Ihnen, den ersten Pixelbereich für jede Seite der FX-Map festzulegen, was zu einem Dehnungseffekt führt. |
 | <b>Kachelbereich</b> *Float4* | Ermöglicht das Versetzen des Kachelabstands der FX-Map. |
-| <b>Außerhalb abrufen</b> *Boolescher Wert* | Führt eine Optimierung durch [Auslesen von &#x200B;](../../../../glossary/glossary.md) Mustern durch, die außerhalb des normalen Bereichs liegen. |
+| <b>Außerhalb abrufen</b> *Boolescher Wert* | Führt eine Optimierung durch [Auslesen von ](../../../../glossary/glossary.md) Mustern durch, die außerhalb des normalen Bereichs liegen. |
 | <b>Raueit</b> *Gleitend* | Funktioniert als Tiefe- und Deckkraftmultiplikator. Es wendet eine Voreinstellung auf den FX-Map-Mischprozess an. |
 | <b>Globale Deckkraft</b> *Gleitend* | Legt die globale Deckkraft der Ausgabe der FX-Map fest. |
 
