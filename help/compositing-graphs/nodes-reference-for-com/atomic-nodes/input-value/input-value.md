@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Eingabewert
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Eingabewert &#x200B;](input-value.resources/comp_inputnumeric_1.png "Atomischer Knoten: Eingabewert ")
+![Atomknoten: Eingabewert ](input-value.resources/comp_inputnumeric_1.png "Atomischer Knoten: Eingabewert "){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -33,7 +33,7 @@ Eingabeknoten sind ein spezieller Knotentyp, der einen dynamischen Steckplatz in
 
 Im Gegensatz zu [Ausgabeknoten](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) müssen Sie explizit entweder eine Farb-, Graustufen- oder Werteingabe platzieren. Es ist nicht möglich, eigene &quot;agnostische&quot; Eingaben zu erstellen, die den Typ je nach Verbindung ändern.
 
-Eingabeknoten sind nicht so wichtig wie [Ausgabeknoten](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): können Sie perfekt funktionierende, erweiterte Diagramme nutzen, die keine Eingabe benötigen. Eingaben werden nur verwendet, wenn Sie das Ergebnis Ihrer Graf- oder Knoteninstanz auf einer externen Eingabe basieren möchten, z. B. beim Erstellen einer [Instanz](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) oder eines [Filters](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/effects/filter) für Substance 3D Painter.
+Eingabeknoten sind nicht so wichtig wie [Ausgabeknoten](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): können Sie perfekt funktionierende, erweiterte Diagramme nutzen, die keine Eingabe benötigen. Eingaben werden nur verwendet, wenn Sie das Ergebnis Ihrer Graf- oder Knoteninstanz auf einer externen Eingabe basieren möchten, z. B. beim Erstellen einer [Instanz](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) oder eines [Filters](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter) für Substance 3D Painter.
 
 Siehe auch: [Eingabefarbe](../input-color/input-color.md), [Eingabegraustufen](../input-grayscale/input-grayscale.md)
 
@@ -41,7 +41,7 @@ Siehe auch: [Eingabefarbe](../input-color/input-color.md), [Eingabegraustufen](.
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="input-value.resources/input-value-tooltip.gif" alt="QuickInfo für Eingabewert" /></div>
+<div data-preserve-html="true" align="center"><img src="input-value.resources/input-value-tooltip.gif" alt="QuickInfo für Eingabewert" /></div>
 
 ## Parameter
 
@@ -70,7 +70,7 @@ Wenn Sie das Diagramm mit den Ausgaben eines anderen Diagramms anzeigen möchten
 <tr style="border: 0;">
 <td style="border: 0; vertical-align: top">
 
-Wenn mehrere Eingaben vorhanden sind, müssen Sie darauf achten, wie das Diagramm die Basisparameter[&#128279;](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) von diesen Eingaben erbt.\
+Wenn mehrere Eingaben vorhanden sind, müssen Sie darauf achten, wie das Diagramm die Basisparameter](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) von diesen Eingaben [erbt.\
 Zu den Basisparametern gehören u. a. die <b>Ausgabegröße</b>, das <b>Ausgabeformat</b> und der <b>Anordnungsmodus</b>.
 
 Eine Eingabe kann als [Primäre Eingabe](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) definiert werden. Diese Eingabe steuert dann die Attribute aller Eingaben, deren Vererbungsmethode auf *Relativ zu übergeordnetem* festgelegt ist. Dies ist die Vererbungsmethode *, die standardmäßig* auf Eingabeknoten festgelegt ist.
@@ -78,7 +78,7 @@ Eine Eingabe kann als [Primäre Eingabe](../../../../compositing-graphs/inherita
 </td>
 <td width="25%" style="border: 0;" valign="top">
 
-![Primäre Eingabe in Substance-Graf &#x200B;](input-value.resources/node-primary-input.png)
+![Primäre Eingabe in Substance-Graf ](input-value.resources/node-primary-input.png)
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ Schließlich können Sie jeden Wert für ein bestimmtes Attribut überschreiben,
 
 ## Integrationsattribute
 
-Die Eingaben werden nicht direkt an die 3D-Ansicht gesendet, aber ihre Verwendungsattribute werden von [Substance 3D Painter](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/home) verwendet, um Steckplätze automatisch mit bestimmten Zuordnungen zu füllen (meist mit [Filtern](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/effects/filter)).
+Die Eingaben werden nicht direkt an die 3D-Ansicht gesendet, aber ihre Verwendungsattribute werden von [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) verwendet, um Steckplätze automatisch mit bestimmten Zuordnungen zu füllen (meist mit [Filtern](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)).
 
 Darüber hinaus werden die Verwendungsattribute auch mit [Verknüpfungserstellungsmodi](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) verwendet, um die richtigen Eingabe- und Ausgabeschlitze abzugleichen.
 

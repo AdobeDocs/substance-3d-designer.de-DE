@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ""
-description: Verwenden Sie den Knoten "Richtungsunschärfe", um Unschärfeeffekte in einer bestimmten Richtung anzuwenden, um Bewegungsunschärfe- und Stricheffekte zu erzeugen.
+description: Verwenden Sie den Richtungsknoten, um Unschärfe-Effekt in einer bestimmten Richtungsunschärfe anzuwenden, um Bewegungsunschärfe- und Stricheffekte zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional blur
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Richtungsunschärfe
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 8%
@@ -22,20 +22,20 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![Atomknoten: Richtungsunschärfe](directional-blur.resources/comp_dirmotionblur_1.png "Atomarer Knoten: Richtungsunschärfe")
+![Elementare Knoten: Richtungsunschärfe](directional-blur.resources/comp_dirmotionblur_1.png "Elementare Knoten: Richtungsunschärfe"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 Wendet Unschärfe in einer bestimmten Richtung gemäß einer Intensitäts-Map an.
 
-Dieser Knoten führt eine Operation ähnlich einer Bewegungsunschärfe an einer Eingabe aus. Im Gegensatz zum regulären Knoten &quot;[Blur](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)&quot;, der in allen Richtungen gleichmäßig verschwimmt, funktioniert die &quot;Richtungsunschärfe&quot; entlang eines benutzerdefinierten Winkels.
+Dieser Knoten führt einen Vorgang aus, der einer Bewegungsunschärfe an einem Eingang ähnelt. Im Gegensatz zum regulären Knoten &quot;[Blur](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)&quot;, der in allen Richtungen gleichmäßig verschwimmt, funktioniert die &quot;Richtungsunschärfe&quot; entlang eines benutzerdefinierten Winkels.
 
 </td>
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="Richtungsunschärfe-QuickInfo" /></div>
+<div data-preserve-html="true" align="center"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="Richtungsunschärfe-QuickInfo" /></div>
 
 Ähnlich wie &quot;Weichzeichnen&quot; ist es auch ein schnellerer und qualitativ schlechter Vorgang. Eine erweiterte, qualitativ hochwertigere Alternative wird in [Anisotropischer Weichzeichner](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md) bereitgestellt, mit einem leistungsfähigen Kompromiss
 
@@ -68,10 +68,10 @@ Diese Bilder unten zeigen die Richtungsunschärfe und die [Anisotrope Unschärfe
 
 |  |  |
 | --- | --- |
-| <b>Intensität</b> *Gleitend* | Legt den Weichzeichnungsradius in Pixel fest. |
-| <b>Winkel</b> *Gleitend* | Die Richtung des Weichzeichnereffekts in der Anzahl der Windungen im Uhrzeigersinn, beginnend bei der Horizontalen - d. h. dem Richtungsvektor (1, 0). |
+| <b>Intensität</b> *Fließkommazahl* | Legt den Weichzeichnungsradius in Pixel fest. |
+| <b>Winkel</b> *Fließkommazahl* | Die Richtung des Unschärfe-Effekts in der Anzahl der Windungen im Uhrzeigersinn, ausgehend von der Horizontalen - d.h. dem Richtungsvektor (1, 0). |
 
-## Eingangsanschlüsse
+## Eingabe-Verbindungen
 
 |  |  |
 | --- | --- |

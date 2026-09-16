@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
 breadcrumb-title: ""
 description: Verwenden Sie den Knoten "Text", um Texturen mit anpassbaren Schriftarten und Stilen zum Erstellen textbasierter Muster zu generieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Text
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Text](text.resources/comp_text_1.png "Elementare Knoten: Text")
+![Atomknoten: Text](text.resources/comp_text_1.png "Elementare Knoten: Text"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ Der Knoten Text ist sehr leistungsstark und die einzige Möglichkeit, Text einfa
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="text.resources/text-tooltip.gif" alt="Text-QuickInfo" /></div>
+<div data-preserve-html="true" align="center"><img src="text.resources/text-tooltip.gif" alt="Text-QuickInfo" /></div>
 
 Nur TrueType (.ttf) und bestimmte OpenType-Schriftarten werden unterstützt. Wenn Schriften in der Liste fehlen, ist dies wahrscheinlich der Grund. <b>Schriftarten können nicht als Parameter gelegt werden.</b>
 

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
 breadcrumb-title: ""
-description: Verwenden Sie den HSL-Knoten, um Farbton, Sättigung und Helligkeit von Texturen für die Farbbearbeitung und -korrektur anzupassen.
+description: Verwenden Sie den HSL, um Farbton, Sättigung und Helligkeit von Texturen für die Farbbearbeitung und -korrektur anzupassen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > HSL
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: HSL
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 9%
@@ -22,7 +22,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: HSL](hsl.resources/comp_hsl_1.png "Atomknoten: HSL")
+![Elementare Knoten: HSL](hsl.resources/comp_hsl_1.png "Elementare Knoten: HSL"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -37,7 +37,7 @@ Wenn Sie nach anderen Möglichkeiten suchen, die Farbtöne eines Bildes zu bearb
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="hsl.resources/hsl-tooltip.gif" alt="hsl tooltip" /></div>
+<div data-preserve-html="true" align="center"><img src="hsl.resources/hsl-tooltip.gif" alt="hsl tooltip" /></div>
 
 
 
@@ -45,11 +45,11 @@ Wenn Sie nach anderen Möglichkeiten suchen, die Farbtöne eines Bildes zu bearb
 
 |  |  |
 | --- | --- |
-| <b>Farbton</b> *Gleitend* | Bestimmt die Farbe des Eingabebildes.   Werte unter 0,5 verschieben den Farbton negativ, Werte über 0,5 verschieben ihn positiv. |
-| <b>Sättigung</b> *Gleitend* | Bestimmt die Sättigung der Farbe des Eingabebilds.   Werte unter 0,5 verringern die Sättigung, Werte über 0,5 erhöhen sie. |
-| <b>Helligkeit</b> *Gleitend* | Bestimmt die Helligkeit des Eingabebildes Werte unter 0,5 verringern die Helligkeit, Werte über 0,5 erhöhen sie. |
+| <b>Farbton</b> *Fließkommazahl* | Legt die Farbe des Eingabebilds fest.   Werte unter 0,5 verschieben den Farbton negativ, Werte über 0,5 verschieben ihn positiv. |
+| <b>Sättigung</b> *Fließkommazahl* | Bestimmt die Sättigung der Farbpalette des Eingabebilds.   Werte unter 0,5 verringern die Sättigung, Werte über 0,5 erhöhen sie. |
+| <b>Helligkeit</b> *Fließkommazahl* | Bestimmt die Helligkeit des Eingabebilds Werte unter 0,5 verringern die Helligkeit, Werte über 0,5 erhöhen sie. |
 
-## Eingangsanschlüsse
+## Eingabe-Verbindungen
 
 |  |  |
 | --- | --- |

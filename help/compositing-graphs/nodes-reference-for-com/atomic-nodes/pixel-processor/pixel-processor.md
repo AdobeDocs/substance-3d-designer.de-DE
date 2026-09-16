@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ""
 description: Verwenden Sie den Pixelknoten, um individuelle Pixelprozessor mit benutzerdefinierten Expressions für die erweiterte Bearbeitung von Texturen zu verarbeiten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pixelprozessor
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -22,12 +22,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![Elementare Knoten: Pixelprozessor](pixel-processor.resources/comp_pixelprocessor_1.png "Elementare Knoten: Pixelprozessor")
+![Elementare Knoten: Pixelprozessor](pixel-processor.resources/comp_pixelprocessor_1.png "Elementare Knoten: Pixelprozessor"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-Generiert ein Bild, bei dem der Wert jedes Pixels das Ergebnis des angegebenen [Substance-Funktions-Grafen &#x200B;](../../../../function-graphs/the-function-graph/the-function-graph.md) ist.
+Generiert ein Bild, bei dem der Wert jedes Pixels das Ergebnis des angegebenen [Substance-Funktions-Grafen ](../../../../function-graphs/the-function-graph/the-function-graph.md) ist.
 
 Mit dem Pixelprozessor können Sie eine benutzerdefinierte Funktion für jeden Pixel ausführen, der als Ausgabe zurückgegeben wird, und zwar an einer optionalen Eingabe.
 
@@ -37,7 +37,7 @@ Es ist bei weitem der vielseitigste Knoten, da er es ermöglicht, jede mathemati
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="Pixelprozessor-QuickInfo" /></div>
+<div data-preserve-html="true" align="center"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="Pixelprozessor-QuickInfo" /></div>
 
 Ähnlich wie bei [FX-Map](../../../../function-graphs/fxmaps/fxmaps.md) muss die interne Funktionalität eingerichtet werden, damit irgendetwas ausgeführt werden kann. Der Unterschied zwischen dem Pixelprozessor und FX-Map liegt darin, dass der Fokus nicht auf der Platzierung von Mustern liegt. Mehrere Funktionen steuern die Form und Platzierung von Mustern. Stattdessen wird für jedes Pixel eine einzige Funktion parallel ausgeführt, bei der jedes Pixel die Berechnungsergebnisse seiner Nachbarn nicht kennt.
 
@@ -62,7 +62,7 @@ Für alle, die es gewohnt sind, [Shader](../../../../glossary/glossary.md)-Funkt
 |  |  |
 | --- | --- |
 | <b>Farbmodus</b> *Boolesche Wert* | Schaltet zwischen einem Graustufen- und einem Farbausgabebild um. |
-| <b>Pro Pixelfunktion</b> *Fließkommazahl/Fließkommazahl4* | [Graf der Substance-Funktion &#x200B;](../../../../function-graphs/the-function-graph/the-function-graph.md) pro Pixel im Ausgabebild ausgewertet.   Verwenden Sie den Knoten [Get Fließkommazahl2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md), der auf die Variable <b>$pos</b> festgelegt ist, um auf die [normalisierte](../../../../glossary/glossary.md) Position des aktuellen Pixels zuzugreifen. |
+| <b>Pro Pixelfunktion</b> *Fließkommazahl/Fließkommazahl4* | [Graf der Substance-Funktion ](../../../../function-graphs/the-function-graph/the-function-graph.md) pro Pixel im Ausgabebild ausgewertet.   Verwenden Sie den Knoten [Get Fließkommazahl2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md), der auf die Variable <b>$pos</b> festgelegt ist, um auf die [normalisierte](../../../../glossary/glossary.md) Position des aktuellen Pixels zuzugreifen. |
 
 ## Eingabe-Verbindungen
 

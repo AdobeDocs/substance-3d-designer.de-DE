@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
 breadcrumb-title: ""
 description: Verwenden Sie den Knoten "Tonwertkorrektur", um Helligkeit, Kontrast und Farbtonbereich von Texturen für Farbkorrekturen und Verbesserungen anzupassen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tonwertkorrektur
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![Atomknoten: Ebenen](levels.resources/comp_levels_1.png "Atomknoten: Stufen")
+![Atomknoten: Ebenen](levels.resources/comp_levels_1.png "Atomknoten: Stufen"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ Mit dem Knoten &quot;Tonwertkorrektur&quot; können Sie die Tonwerte einer Einga
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="levels.resources/levels-tooltip.gif" alt="Ebenen-QuickInfo" /></div>
+<div data-preserve-html="true" align="center"><img src="levels.resources/levels-tooltip.gif" alt="Ebenen-QuickInfo" /></div>
 
 Er ist einer der wichtigsten und hilfreichsten Knoten in Substance 3D Designer und wird sehr oft verwendet, um Werte in einem Diagramm neu zuzuordnen und anzupassen, da er die präziseste und genaueste Schnittstelle für sich ändernde Werte bietet.
 
@@ -68,8 +68,8 @@ Die hervorgehobene gelbe Schaltfläche schaltet die Schnittstelle zwischen den S
 | <b>Ebene hoch</b> *Gleitend/Gleitend4* | Definiert die Lichtebenen des Eingabebilds.  Ordnet die eingegebenen hohen Werte neu zu, um vollständig weiß zu werden. |
 | <b>Ebene in der Mitte</b> *Gleitend/Gleitend4* | Definiert die Mitteltöne des Eingabebildes.  Ordnet die eingegebenen Mittelwerte neu zu, sodass sie mittelgrau sind. |
 | <b>Ebene niedrig</b> *Gleitend/Gleitend4* | Definiert die niedrigen Helligkeitsstufen des Ausgabebilds.  Klammert die Ausgabewerte für Schwarz, um den Grenzwert festzulegen. |
-| <b>Lichter in Ausgabebild</b> *Fließkommazahl/Fließkommazahl4* | Definiert die Markierungsstufen des Ausgabebilds.  Beschränkt die Ausgabe Weißwerte, um Limit festzulegen. |
-| <b>Zwischenklemme</b> *Boolesche Wert* | Bestimmt, ob der transformieren Eingangswert vor der Berechnung des Ausgangspegels auf [0, 1] geklemmt wird. |
+| <b>Ebene hoch</b> *Gleitend/Gleitend4* | Definiert die Markierungsstufen des Ausgabebilds.  Beschränkt die Ausgabe Weißwerte, um Limit festzulegen. |
+| <b>Zwischenklemme</b> *Boolescher Wert* | Bestimmt, ob der transformieren Eingangswert vor der Berechnung des Ausgangspegels auf [0, 1] geklemmt wird. |
 
 ## Benutzerhandbuch
 
@@ -101,7 +101,7 @@ Der Schieberegler-Editor verzichtet auf jeden visuellen Editor und stellt nur nu
 
 Die Schieberegler ändern sich je nach Farb- oder Graustufeneingabe: Farbeingaben erzeugen vier Regler für jeden RGBA-Kanal. Graustufen verfügt nur über einen Regler, was die Arbeit erleichtert. Eine Erklärung zu jedem Regler finden Sie oben in der Parameterliste.
 
-## Eingabe-Verbindungen
+## Eingangsanschlüsse
 
 |  |  |
 | --- | --- |

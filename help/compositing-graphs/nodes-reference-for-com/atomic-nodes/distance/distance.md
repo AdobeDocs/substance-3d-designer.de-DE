@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
 breadcrumb-title: ""
 description: Verwenden Sie den Knoten "Abstand", um Abstands-Map aus Formen zum Erstellen von Masken und prozeduralen Effekten zu berechnen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Abstand
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 8%
@@ -22,7 +22,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![Atomknoten: Entfernung](distance.resources/comp_distance_1.png "Atomknoten: Entfernung")
+![Atomknoten: Entfernung](distance.resources/comp_distance_1.png "Atomknoten: Entfernung"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ Dieser Knoten erstellt eine lineare Überblendung (Farbverlauf) nach außen von 
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="distance.resources/distance-tooltip.gif" alt="Entfernungs-QuickInfo" /></div>
+<div data-preserve-html="true" align="center"><img src="distance.resources/distance-tooltip.gif" alt="Entfernungs-QuickInfo" /></div>
 
 Die nach außen gerichtete Überblendung endet sich, sobald sie auf eine andere Zelle trifft: sie werden sich nie überschneiden. Intern ist dies eigentlich die Berechnung und Anzeige der Entfernung zum nächsten Pixel > 0,5, mit dem Abstand Knoten als Klemme / Maximum gesetzt.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
 breadcrumb-title: ""
 description: Verwenden Sie den Knoten "Graustufenkonvertierung", um Farb-Texturen mithilfe verschiedener Konvertierungsmethoden in Graustufen zu konvertieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Graustufenkonvertierung
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 7%
@@ -22,7 +22,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Graustufen-Konvertierung](grayscale-conversion.resources/comp_grayscaleconversion_1.png "Elementare Knoten: Graustufen-Konvertierung")
+![Atomknoten: Graustufen-Konvertierung](grayscale-conversion.resources/comp_grayscaleconversion_1.png "Elementare Knoten: Graustufen-Konvertierung"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ Dieser Knoten kann als optimierte Methode verwendet werden, um einen Graustufenk
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="Graustufen-Konvertierungs-QuickInfo" /></div>
+<div data-preserve-html="true" align="center"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="Graustufen-Konvertierungs-QuickInfo" /></div>
 
 Die meisten Knoten können so eingestellt werden, dass sie in Graustufen oder Farben ausgegeben werden, wobei erstere aus Gründen der Einfachheit und Leistung bevorzugt werden.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
 breadcrumb-title: ""
 description: Verwenden Sie den Knoten Normal , um Normalen-Map-Texturen zur Steuerung von Oberflächendetails und Beleuchtung zu verarbeiten und zu bearbeiten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Normale
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 7%
@@ -22,7 +22,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Normal](normal.resources/comp_normal_1.png "Elementare Knoten: Normal")
+![Atomknoten: Normal](normal.resources/comp_normal_1.png "Elementare Knoten: Normal"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ Der Knoten konvertiert eine Graustufenzuordnung in eine Tangente-Raum-Normalen-M
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="normal.resources/normal-tooltip.gif" alt="Normalwerkzeugspitze" /></div>
+<div data-preserve-html="true" align="center"><img src="normal.resources/normal-tooltip.gif" alt="Normalwerkzeugspitze" /></div>
 
 Es ist ein sehr nützlicher Knoten, der häufig verwendet wird, um Höhen-Map-Eingaben in Normalen-Map für Echtzeit-fähige Material zu konvertieren. Es gibt Alternativen in [Normal Sobel](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md) und Height To Normal World Units.
 

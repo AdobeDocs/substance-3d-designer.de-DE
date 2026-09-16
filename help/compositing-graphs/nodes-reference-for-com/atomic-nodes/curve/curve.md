@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ""
 description: Verwenden Sie den Knoten Kurve , um die Texturwerte mithilfe anpassbarer Kurven für eine präzise Farb- und Helligkeitssteuerung anzupassen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Kurve
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Kurve](curve.resources/comp_curve_1.png "Atomknoten: Kurve")
+![Atomknoten: Kurve](curve.resources/comp_curve_1.png "Atomknoten: Kurve"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ Der Knoten bietet eine Schnittstelle zur Neuzuordnung der Bildtonalität, ähnli
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="curve.resources/curve-tooltip.gif" alt="Kurven-QuickInfo" /></div>
+<div data-preserve-html="true" align="center"><img src="curve.resources/curve-tooltip.gif" alt="Kurven-QuickInfo" /></div>
 
 Im Gegensatz zu den meisten anderen Knoten verfügt der Knoten Kurve nicht über eine typische Standardschnittstelle mit Schiebereglern und Parametern, sondern bietet stattdessen einen vollwertigen Kurveneditor. Im folgenden Abschnitt finden Sie weitere Informationen zur Verwendung der Applikation.
 

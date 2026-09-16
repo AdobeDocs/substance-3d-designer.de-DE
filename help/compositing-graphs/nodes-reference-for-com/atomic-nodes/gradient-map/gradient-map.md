@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ""
 description: Verwenden Sie den Knoten "Verlaufsumsetzung", um Graustufenwerte Farben mithilfe von Verlaufsrampen für Färbungen und Effekte zuzuordnen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Verlaufsumsetzung
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Verlaufsumsetzung](gradient-map.resources/comp_gradient_1.png "Atomknoten: Verlaufsumsetzung")
+![Atomknoten: Verlaufsumsetzung](gradient-map.resources/comp_gradient_1.png "Atomknoten: Verlaufsumsetzung"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ Dieser Knoten erfüllt einen doppelten Zweck: Es kann einfach als <b> verwendet 
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="QuickInfo für Verlaufsumsetzung" /></div>
+<div data-preserve-html="true" align="center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="QuickInfo für Verlaufsumsetzung" /></div>
 
 Der Knoten bietet einen erweiterten und funktionsreichen Verlaufseditor, mit dem Sie mehrere Farben präzise zuordnen können: Weitere Informationen finden Sie im Abschnitt [Verlaufseditor](#gradient-editor) auf dieser Seite.
 

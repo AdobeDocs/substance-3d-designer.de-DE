@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
 breadcrumb-title: ""
 description: Verwenden Sie den Knoten Wertprozessor , um Texturwerte mit mathematischen Operationen für benutzerdefinierte Anpassungen zu verarbeiten und zu bearbeiten.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Wertprozessor
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 3%
@@ -22,20 +22,20 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![Atomknoten: Wertprozessor](value-processor.resources/comp_valueprocessor_1.png "Atomischer Knoten: Wertprozessor ")
+![Atomknoten: Wertprozessor](value-processor.resources/comp_valueprocessor_1.png "Atomischer Knoten: Wertprozessor "){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-Berechnet ein [Substance-Funktionsdiagramm &#x200B;](../../../../function-graphs/the-function-graph/the-function-graph.md) und gibt dessen Ergebnis aus.
+Berechnet ein [Substance-Funktionsdiagramm ](../../../../function-graphs/the-function-graph/the-function-graph.md) und gibt dessen Ergebnis aus.
 
-Er ist mit einem [Pixelprozessor](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) vergleichbar, mit dem Unterschied, dass er nicht für jedes Pixel eine Funktion, sondern einen einzigen Wert berechnet und es [&#x200B; in einem Substance-Diagramm verfügbar macht](../../../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md).
+Er ist mit einem [Pixelprozessor](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) vergleichbar, mit dem Unterschied, dass er nicht für jedes Pixel eine Funktion, sondern einen einzigen Wert berechnet und es [ in einem Substance-Diagramm verfügbar macht](../../../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md).
 
 </td>
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="value-processor.resources/value-processor-tooltip.gif" alt="QuickInfo für Werteprozessor" /></div>
+<div data-preserve-html="true" align="center"><img src="value-processor.resources/value-processor-tooltip.gif" alt="QuickInfo für Werteprozessor" /></div>
 
 
 >[!TIP]
@@ -49,7 +49,7 @@ Er ist mit einem [Pixelprozessor](../../../../compositing-graphs/nodes-reference
 
 |  |  |
 | --- | --- |
-| <b>Werteprozessorfunktion</b> *Beliebiger verfügbarer Werttyp* | [Substance-Funktionsgraph &#x200B;](../../../../function-graphs/the-function-graph/the-function-graph.md) zur Berechnung des Ausgabewerts ausgewertet. |
+| <b>Werteprozessorfunktion</b> *Beliebiger verfügbarer Werttyp* | [Substance-Funktionsgraph ](../../../../function-graphs/the-function-graph/the-function-graph.md) zur Berechnung des Ausgabewerts ausgewertet. |
 
 ## Eingangsanschlüsse
 
