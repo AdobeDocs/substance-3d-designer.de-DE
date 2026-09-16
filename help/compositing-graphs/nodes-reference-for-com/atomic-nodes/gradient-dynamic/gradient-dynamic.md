@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
 breadcrumb-title: ""
 description: Verwenden Sie den Knoten Verlauf (Dynamisch), um dynamische Farbverläufe zu erstellen, die über Eingabeparameter und Werte gesteuert werden können.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Verlauf (dynamisch)
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 8%
@@ -22,10 +22,10 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Dynamischer Verlauf](gradient-dynamic.resources/comp_dyngradient_1.png "Atomic Node: Dynamischer Farbverlauf"){width="20%"}
+![Atomknoten: Dynamischer Verlauf](gradient-dynamic.resources/comp_dyngradient_1.png "Atomic Node: Dynamischer Farbverlauf")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Ordnet die Graustufenwerte in einem Bild mithilfe eines von einer Pixelzeile oder -spalte in einem anderen Bild bereitgestellten Verlaufs neu zu.
 
@@ -35,7 +35,7 @@ Sie dient als geringfügige Alternative zum Verlaufsknoten. Im Gegensatz zum Ver
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="gradientendynamische QuickInfo" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="gradientendynamische QuickInfo" /></div>
 
 Dadurch lässt sich hauptsächlich das Problem vermeiden, dass Parameter nicht verfügbar gemacht werden können, da die Parameter für Farbe außerhalb des Knotens verschoben werden. Das macht es &quot;dynamisch&quot;.
 

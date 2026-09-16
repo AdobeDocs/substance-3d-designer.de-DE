@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
 breadcrumb-title: ""
-description: Verwenden Sie den Wertprozessor, um die Werte der Texturen mithilfe mathematischer Operationen zu verarbeiten und zu bearbeiten, um benutzerdefinierte Anpassungen vorzunehmen.
+description: Verwenden Sie den Knoten Wertprozessor , um Texturwerte mit mathematischen Operationen für benutzerdefinierte Anpassungen zu verarbeiten und zu bearbeiten.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Value processor
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Wertprozessor
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 3%
@@ -20,38 +20,38 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Elementare Knoten: Wertprozessor](value-processor.resources/comp_valueprocessor_1.png "Elementare Knoten: Wertprozessor"){width="20%"}
+![Atomknoten: Wertprozessor](value-processor.resources/comp_valueprocessor_1.png "Atomischer Knoten: Wertprozessor ")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-Berechnet einen [Substance-Funktionswert Graf](../../../../function-graphs/the-function-graph/the-function-graph.md) und gibt sein Ergebnis aus.
+Berechnet ein [Substance-Funktionsdiagramm ](../../../../function-graphs/the-function-graph/the-function-graph.md) und gibt dessen Ergebnis aus.
 
-Sie ist mit einem [Pixelprozessor](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) vergleichbar, mit dem Unterschied, dass sie nicht für jeden Pixel eine Funktion berechnet, sondern einen einzigen Wert und ihn [&#x200B; in einem Substance-Graf &#x200B;](../../../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) verfügbar macht.
+Er ist mit einem [Pixelprozessor](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) vergleichbar, mit dem Unterschied, dass er nicht für jedes Pixel eine Funktion, sondern einen einzigen Wert berechnet und es [ in einem Substance-Diagramm verfügbar macht](../../../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md).
 
 </td>
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="value-processor.resources/value-processor-tooltip.gif" alt="QuickInfo für Werteprozessor" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="value-processor.resources/value-processor-tooltip.gif" alt="QuickInfo für Werteprozessor" /></div>
 
 
 >[!TIP]
 >
-> Dieser Knoten ist ein guter Ausgangspunkt, um mehr über die [Substance-Grafen](../../../../function-graphs/the-function-graph/the-function-graph.md) zu erfahren.
+> Dieser Knoten ist ein guter Ausgangspunkt für das Erlernen von [Substance-Funktionsdiagrammen](../../../../function-graphs/the-function-graph/the-function-graph.md).
 > 
-> Beachten Sie außerdem, dass die Arbeit mit diesem Knotentyp und die Durchführung mathematischer Operationen zwingend erforderlich sind, um diesen Graf vollständig zu entfernen.
+> Beachten Sie auch, dass die Arbeit mit dieser Art von Graphen und die Durchführung mathematischer Operationen zwingend erforderlich ist, um alles aus diesem Knoten herauszuholen.
 
 
 ## Parameter
 
 |  |  |
 | --- | --- |
-| <b>Wertprozessor-Funktion</b> *Beliebiger verfügbarer Werttyp* | [Graf der Substance-Funktion &#x200B;](../../../../function-graphs/the-function-graph/the-function-graph.md) zur Berechnung des Ausgabewerts ausgewertet. |
+| <b>Werteprozessorfunktion</b> *Beliebiger verfügbarer Werttyp* | [Substance-Funktionsgraph ](../../../../function-graphs/the-function-graph/the-function-graph.md) zur Berechnung des Ausgabewerts ausgewertet. |
 
-## Eingabe-Verbindungen
+## Eingangsanschlüsse
 
 |  |  |
 | --- | --- |

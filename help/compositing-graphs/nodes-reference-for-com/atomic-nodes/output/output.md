@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
 breadcrumb-title: ""
 description: ""
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ausgabe
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0; width: 30%; vertical-align: top">
 
-![Atomknoten: Output](output.resources/comp_output_1.png "Atomic node: Ausgabe "){width="20%"}
+![Atomknoten: Output](output.resources/comp_output_1.png "Atomic node: Ausgabe ")
 
 </td>
 <td style="border: 0; vertical-align: top">
@@ -35,7 +35,7 @@ Das Bild oder der Wert, das/der mit dem Ausgabeknoten eines Diagramms verbunden 
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="output.resources/output-tooltip.gif" alt="Ausgabe-QuickInfo" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="output.resources/output-tooltip.gif" alt="Ausgabe-QuickInfo" /></div>
 
 Wenn eine [veröffentlichte SBSAR-Datei](../../../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) dieses Diagramm enthält, kann diese Datei dieses Bild in jeder Integration oder in jedem Plug-In ausgeben, die die Datei verwendet.
 
@@ -52,7 +52,7 @@ Jeder Substance-Graph muss *mindestens einen* Ausgabeknoten aufweisen. Wenn kein
 | <b>Kennung</b> *Zeichenfolge* | Der eindeutige Bezeichner der Ausgabe. Diese Eigenschaft darf nicht leer gelassen werden und darf keine Sonderzeichen oder Leerzeichen enthalten.   Der Bezeichner wird verwendet, da die Bezeichnung des Knotens die Eigenschaft &#39;Label&#39; leer lässt. Es kann auch verwendet werden, um [exportierte Texturen](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md) zu benennen. |
 | <b>Beschreibung</b> *Zeichenfolge* | Die optionale Beschreibung, die als QuickInfo für die Ausgabe verwendet wird, lautet Substance graphs. |
 | <b>Bezeichnung</b> *Zeichenfolge* | Dies wird als Bezeichnung für den Ausgabeknoten verwendet, und der entsprechende Connector in [Instanzknoten](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md), der dieses Diagramm darstellt. Die Beschriftung kann Leerzeichen und Sonderzeichen enthalten. |
-| <b>Benutzerdaten</b> *Zeichenfolge* | Optionale Metadaten, die für bestimmte Filtervorgänge verwendet werden können. [Substance 3D Painter](https://www.adobe.com/de/products/substance3d/apps/painter.html) nutzt diese Daten, um [einige Funktionen zu steuern](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/content/creating-custom-effects/user-data). |
+| <b>Benutzerdaten</b> *Zeichenfolge* | Optionale Metadaten, die für bestimmte Filtervorgänge verwendet werden können. [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html) nutzt diese Daten, um [einige Funktionen zu steuern](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/user-data). |
 | <b>Gruppe</b> *Zeichenfolge* | Attribut, das zum Gruppieren von Ausgaben für die [Linkerstellungsmodi von Designer verwendet wird](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md).   Ausgaben mit einem identischen &#39;Group&#39;-Attribut werden als einzelne Verbindung im &#39;Compact Material&#39;-Verknüpfungserstellungsmodus angezeigt. |
 
 ## Integrationsattribute
@@ -73,27 +73,27 @@ Daher haben sie keine Auswirkungen auf das Format von [Bitmapexporten](../../../
 
 ### Rolle von Benutzern in der 3D-Ansicht
 
-Da Graphausgaben häufig das Endergebnis für einen bestimmten Textur-Kanal sein sollen, können Ausgänge automatisch an den entsprechenden Sampler des in der 3D-Ansicht verwendeten Shader geschickt werden.
+Da Diagrammausgaben häufig als Endergebnis für einen bestimmten Texturkanal dienen sollen, können sie automatisch an den entsprechenden Sampler des Shaders gesendet werden, der in der 3D-Ansicht verwendet wird.
 
-Eine Ausgabe, deren <b>Syntax</b>-Eigenschaft *mit einer Samplerverwendung* in der 3D-Ansicht übereinstimmt, wird mit diesem Sampler verbunden. Beispiel: Ein Ausgang mit einer `basecolor`-Nutzung wird mit dem `basecolor`-Sampler des 3D-Ansicht-Shader verbunden. (Weitere Informationen: [Daten in 3D-Ansicht anzeigen](../../../../interface/3d-view/3d-view.md#view-data-in-3d-view))
+Eine Ausgabe, deren <b>Verwendung</b>-Eigenschaft *mit einer Samplerverwendung* in der 3D-Ansicht übereinstimmt, wird mit diesem Sampler verbunden. Beispiel: Eine Ausgabe mit einer `basecolor`-Verwendung wird mit dem `basecolor`-Sampler des 3D-Ansichtshaders verbunden. (Weitere Informationen: [Daten in 3D-Ansicht anzeigen](../../../../interface/3d-view/3d-view.md#view-data-in-3d-view))
 
-Klicken Sie in einem leeren Bereich in der [Graphansicht](../../../../interface/the-graph-view/the-graph-view.md) auf RMB und wählen Sie im Kontextmenü die Option <b>3D-Ansichten in 3D-Ansicht anzeigen</b> aus, um alle Ausgaben mit Datensamplern zu verbinden, die *mit  übereinstimmen*.
+Klicken Sie auf RMB in einem leeren Bereich in der [Diagrammansicht](../../../../interface/the-graph-view/the-graph-view.md) und wählen Sie im Kontextmenü die Option <b>Ausgaben in 3D-Ansicht anzeigen</b> aus, um alle Ausgaben mit 3D-Ansicht-Samplern zu verbinden, die *passende Verwendungen* haben.
 
 >[!IMPORTANT]
 >
-> Wenn mehrere Verwendungen eingerichtet werden, um beispielsweise den Kanälen in einer gepackten Textur Benutzungen zuzuweisen, wird nur die *erste Nutzung* in der Liste mit der 3D-Ansicht verbunden. Dies ist eine bekannte Einschränkung.
+> Wenn mehrere Verwendungen eingerichtet werden, um z. B. Kanälen in einer verpackten Textur Verwendungen zuzuweisen, wird nur die *erste Verwendung* in der Liste mit der 3D-Ansicht verbunden. Dies ist eine bekannte Einschränkung.
 
 ## Standardausgabe
 
-Wenn ein Graf mehr als eine Ausgabe hat, kann eine dieser Ausgaben als Standardausgabe für diesen Graf festgelegt werden. Hiermit wird festgelegt, welche der Ausgaben für Folgendes verwendet werden sollen:
+Wenn ein Diagramm mehr als eine Ausgabe hat, kann eine dieser Ausgaben als Standardausgabe für dieses Diagramm festgelegt werden. Hiermit wird festgelegt, welche der Ausgaben für Folgendes verwendet werden sollen:
 
-* Die Miniaturansicht eines beliebigen Instanzknotens, der diesen Graf darstellt
+* Die Miniaturansicht eines Instanzknotens, der dieses Diagramm darstellt
 * Anzeigen dieser Instanzknoten in der 2D-Ansicht
-* Die Miniaturansicht dieses Grafen in der Bibliothek (erfahren Sie hier, wie Sie Ihre eigenen Ressourcen [hinzufügen](../../../../interface/preferences-window/project-settings/project-settings.md)).
+* Die Miniaturansicht dieses Diagramms in der Bibliothek (erfahren Sie hier, wie Sie Ihre eigenen Ressourcen [hinzufügen](../../../../interface/preferences-window/project-settings/project-settings.md)).
 
-Mit dieser Funktion können Sie Graphausgaben in beliebiger Reihenfolge anordnen, unabhängig davon, wie der Graf als Knoten dargestellt wird.
+Mit dieser Funktion können Sie Diagrammausgaben in beliebiger Reihenfolge anordnen, unabhängig davon, wie das Diagramm als Knoten dargestellt wird.
 
-So legen Sie einen Ausgabeknoten als Standardausgabe eines Grafen fest:
+So legen Sie einen Ausgabeknoten als Standardausgabe eines Diagramms fest:
 
 * Klicken Sie mit der rechten Maustaste auf einen Ausgabeknoten und wählen Sie im Kontextmenü die Aktion Als Standardausgabe festlegen aus.
 * Verwenden Sie in den Eigenschaften des Ausgabeknotens die Schaltfläche &quot;Als Standard festlegen&quot; in der Kopfzeile des Abschnitts &quot;Attribute&quot;.

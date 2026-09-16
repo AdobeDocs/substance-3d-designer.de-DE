@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ""
 description: Verwenden Sie den Knoten Kurve , um die Texturwerte mithilfe anpassbarer Kurven für eine präzise Farb- und Helligkeitssteuerung anzupassen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Kurve
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 2%
@@ -22,10 +22,10 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Kurve](curve.resources/comp_curve_1.png "Atomknoten: Kurve"){width="20%"}
+![Atomknoten: Kurve](curve.resources/comp_curve_1.png "Atomknoten: Kurve")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Ordnet die Werte in einem Bild mithilfe einer benutzerdefinierten Kurve neu zu.
 
@@ -35,7 +35,7 @@ Der Knoten bietet eine Schnittstelle zur Neuzuordnung der Bildtonalität, ähnli
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="curve.resources/curve-tooltip.gif" alt="Kurven-QuickInfo" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="curve.resources/curve-tooltip.gif" alt="Kurven-QuickInfo" /></div>
 
 Im Gegensatz zu den meisten anderen Knoten verfügt der Knoten Kurve nicht über eine typische Standardschnittstelle mit Schiebereglern und Parametern, sondern bietet stattdessen einen vollwertigen Kurveneditor. Im folgenden Abschnitt finden Sie weitere Informationen zur Verwendung der Applikation.
 
@@ -57,13 +57,13 @@ Im Gegensatz zu den meisten anderen Knoten verfügt der Knoten Kurve nicht über
 
 Um einen Punkt zu erstellen, doppelklicken Sie einfach auf eine beliebige Stelle in der Kurvenansicht:
 
-![](curve.resources/createmovepoint.gif){width="20%"}
+![](curve.resources/createmovepoint.gif)
 
 ### Steuern des Punkteinflusses
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Um präzise Ergebnisse zu erzielen, bieten die Kurvenknoten für jeden Punkt unterschiedliche Modi an:
 
@@ -100,7 +100,7 @@ Sie können das Histogramm Ihrer Eingabe ein- oder ausblenden, indem Sie einfach
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Wenn Sie einen Farbknoten eingeben, können Sie die Kurve für jeden Kanal anpassen:
 
@@ -123,7 +123,7 @@ Im RGB-Kurvenmodus können Sie die einzelnen Kanalkurven durch Drücken/Deaktivi
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Wenn Sie mit der rechten Maustaste auf die Kurvenansicht klicken, werden einige weitere Optionen angezeigt.
 

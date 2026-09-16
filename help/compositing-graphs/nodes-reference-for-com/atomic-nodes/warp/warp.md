@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
 breadcrumb-title: ""
 description: Verwenden Sie den Verformen -Knoten, um Texturen Verzerrungen zuzuweisen, um Verzerrungs- und Versatz-Effekte zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Verzerrung
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 9%
@@ -22,10 +22,10 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: Verformen](warp.resources/comp_warp_1.png "Atomknoten: Verkrümmen"){width="20%"}
+![Atomknoten: Verformen](warp.resources/comp_warp_1.png "Atomknoten: Verkrümmen")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Verschiebt die Pixelwerte im Eingabebild entsprechend den Anstiegen, die aus einer separaten Verlaufseingabe berechnet werden, was zu Deformation führt.
 
@@ -35,7 +35,7 @@ Im Gegensatz zur Richtungsverkrümmung bewegt sich dieser Knoten gleichmäßig v
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="warp.resources/warp-tooltip.gif" alt="Verkrümmen-QuickInfo" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="warp.resources/warp-tooltip.gif" alt="Verkrümmen-QuickInfo" /></div>
 
 Der Knoten kann etwas schwierig zu bearbeiten sein, da das Ergebnis des Effekts sehr stark von der Verlaufseingabe abhängt: Kleine Anpassungen am Verlauf können bei gleicher Intensität einen großen visuellen Unterschied bewirken. Experimentiere mit Kontrast, Luminanz und Skalierung der Verlaufseingabe sowie dem Regler für die Intensität dieses Knotens.
 

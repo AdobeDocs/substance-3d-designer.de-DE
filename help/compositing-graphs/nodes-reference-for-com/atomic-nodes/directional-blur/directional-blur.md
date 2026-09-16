@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ""
 description: Verwenden Sie den Knoten "Richtungsunschärfe", um Unschärfeeffekte in einer bestimmten Richtung anzuwenden, um Bewegungsunschärfe- und Stricheffekte zu erzeugen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Richtungsunschärfe
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 8%
@@ -20,12 +20,12 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Atomknoten: Richtungsunschärfe](directional-blur.resources/comp_dirmotionblur_1.png "Atomarer Knoten: Richtungsunschärfe"){width="20%"}
+![Atomknoten: Richtungsunschärfe](directional-blur.resources/comp_dirmotionblur_1.png "Atomarer Knoten: Richtungsunschärfe")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Wendet Unschärfe in einer bestimmten Richtung gemäß einer Intensitäts-Map an.
 
@@ -35,7 +35,7 @@ Dieser Knoten führt eine Operation ähnlich einer Bewegungsunschärfe an einer 
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="Richtungsunschärfe-QuickInfo" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="Richtungsunschärfe-QuickInfo" /></div>
 
 Ähnlich wie &quot;Weichzeichnen&quot; ist es auch ein schnellerer und qualitativ schlechter Vorgang. Eine erweiterte, qualitativ hochwertigere Alternative wird in [Anisotropischer Weichzeichner](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md) bereitgestellt, mit einem leistungsfähigen Kompromiss
 
@@ -50,7 +50,7 @@ Diese Bilder unten zeigen die Richtungsunschärfe und die [Anisotrope Unschärfe
 
 <b>Richtungsunschärfe</b>
 
-![Vergleich der Richtungsunschärfe](directional-blur.resources/dirblur-01.png "Vergleich der Richtungsunschärfe"){width="20%"}{zoomable="yes"}
+![Vergleich der Richtungsunschärfe](directional-blur.resources/dirblur-01.png "Vergleich der Richtungsunschärfe"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

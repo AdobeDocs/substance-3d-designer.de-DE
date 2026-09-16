@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ""
-description: Verwenden Sie den Knoten Verlaufs-Map , um Farben mithilfe von Verlaufsrampen Graustufenwerte für Färbungen und Effekte zuzuordnen.
+description: Verwenden Sie den Knoten "Verlaufsumsetzung", um Graustufenwerte Farben mithilfe von Verlaufsrampen für Färbungen und Effekte zuzuordnen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient map
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Verlaufsumsetzung
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 2%
@@ -22,10 +22,10 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Elementare Knoten: Verlaufsumsetzung](gradient-map.resources/comp_gradient_1.png "Elementare Knoten: Verlaufsumsetzung"){width="20%"}
+![Atomknoten: Verlaufsumsetzung](gradient-map.resources/comp_gradient_1.png "Atomknoten: Verlaufsumsetzung")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Ordnet die Graustufenwerte in einem Bild mithilfe eines benutzerdefinierten Verlaufs neu zu.
 
@@ -35,7 +35,7 @@ Dieser Knoten erfüllt einen doppelten Zweck: Es kann einfach als <b> verwendet 
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="QuickInfo für Verlaufsumsetzung" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="QuickInfo für Verlaufsumsetzung" /></div>
 
 Der Knoten bietet einen erweiterten und funktionsreichen Verlaufseditor, mit dem Sie mehrere Farben präzise zuordnen können: Weitere Informationen finden Sie im Abschnitt [Verlaufseditor](#gradient-editor) auf dieser Seite.
 
@@ -43,24 +43,24 @@ Der Knoten bietet einen erweiterten und funktionsreichen Verlaufseditor, mit dem
 
 |  |  |
 | --- | --- |
-| <b>Farbmodus</b> *Boolesche Wert* | Legt den Ausgabemodus auf &quot;Farbe&quot; oder &quot;Graustufen&quot; fest. |
-| <b>Verlaufsadressierung</b> *Boolesche Wert* | Setzt den Verlauf entweder auf die Wiederholung (Kachel) oder auf Klemmwerte, die außerhalb des Bereichs [0, 1] liegen. |
-| <b>Verlauf</b> *Array von Verlaufs-Key* | Die benutzerdefinierte Verlaufsrampe, die zum Zuordnen der eingegebenen Graustufenwerte verwendet wird.   Kann an Ort und Stelle oder mit dem [Verlaufseditor](#gradient-editor) bearbeitet werden. |
+| <b>Farbmodus</b> *Boolescher Wert* | Legt den Ausgabemodus auf &quot;Farbe&quot; oder &quot;Graustufen&quot; fest. |
+| <b>Verlaufsadressierung</b> *Boolescher Wert* | Setzt den Verlauf entweder auf die Wiederholung (Kachel) oder auf Klemmwerte, die außerhalb des Bereichs [0, 1] liegen. |
+| <b>Verlauf</b> *Array von Verlaufsschlüsseln* | Die benutzerdefinierte Verlaufsrampe, die zum Zuordnen der eingegebenen Graustufenwerte verwendet wird.   Kann an Ort und Stelle oder mit dem [Verlaufseditor](#gradient-editor) bearbeitet werden. |
 
 ## Verlaufseditor
 
-Dieses Fenster enthält Steuerelemente zum Bearbeiten des Referenzverlaufs, der vom Verlaufs-Map-Knoten zum Zuordnen von Graustufenwerten zu Farben verwendet wird.
+Dieses Fenster enthält Steuerelemente zum Bearbeiten des Referenzverlaufs, der vom Knoten &quot;Verlaufsumsetzung&quot; zum Zuordnen von Graustufenwerten zu Farben verwendet wird.
 
-Sie kann auf folgende Weise über die <b>Eigenschaften</b> des Verlaufs-Map-Knotens geöffnet werden:
+Sie kann auf folgende Weise aus den <b>Eigenschaften</b> des Verlaufsumsetzungs-Knotens geöffnet werden:
 
 * Klicken Sie auf der Schaltfläche <b>Verlaufseditor</b> auf LMB.
-* Doppelklicken Sie auf LMB auf einer Nadel in der Verlaufsleiste. Die angeklickte Nadel wird dann automatisch im Verlaufseditor ausgewählt, sodass Sie ihre Werte direkt bearbeiten können.
+* Doppelklicken Sie auf LMB auf einem Pin in der Verlaufsleiste. Der angeklickte Pin wird dann automatisch im Verlaufseditor ausgewählt, sodass Sie seine Werte direkt bearbeiten können.
 
-![Verlaufseditor](gradient-map.resources/image2017-2-17-16-13-5.png "Verlaufseditor"){width="20%"}
+![Verlaufseditor](gradient-map.resources/image2017-2-17-16-13-5.png "Verlaufseditor")
 
-### Bearbeiten der Nadeln für Verläufe
+### Bearbeiten der Verlaufspunkte
 
-Die Farben und ihre Position entlang des Verlaufs werden durch Nadeln entlang des Verlaufsbalkens festgelegt.
+Die Farben und ihre Position entlang des Verlaufs werden durch Pins gesteuert, die entlang des Verlaufsbalkens platziert werden.
 
 Jeder Pin legt eine Farbe an seiner Position entlang des Verlaufs fest.
 
@@ -233,7 +233,7 @@ Mit dem Farbwähler können Sie eine Farbe auf verschiedene Weise festlegen:
 
   <table>
   <tr style="border: 0;">
-  <td width="100.00%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   Mit den Reglern &quot;RGB&quot;, &quot;HSV&quot; und &quot;Alpha&quot; können Sie eine Farbe präzise einstellen, indem Sie die Regler anpassen oder ihre numerischen Werte direkt festlegen.
 
@@ -267,7 +267,7 @@ Mit dem Farbwähler können Sie eine Farbe auf verschiedene Weise festlegen:
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Die ausgewählte Farbe wird in der oberen Hälfte der Farbminiatur in der Vorschau angezeigt.\
 In der unteren Hälfte wird die zuvor verwendete Farbe angezeigt. Doppelklicken Sie auf LMB, um die bearbeitete Farbe wiederherzustellen.
@@ -285,7 +285,7 @@ Wenn mehrere Pins ausgewählt sind, werden die Schieberegler für RGB, HSV und A
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Darüber hinaus stehen die folgenden Funktionen unter der Farbminiatur als Schaltflächen zur Verfügung:
 

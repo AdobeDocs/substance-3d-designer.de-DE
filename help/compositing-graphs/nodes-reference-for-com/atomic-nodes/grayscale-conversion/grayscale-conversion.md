@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
 breadcrumb-title: ""
 description: Verwenden Sie den Knoten "Graustufenkonvertierung", um Farb-Texturen mithilfe verschiedener Konvertierungsmethoden in Graustufen zu konvertieren.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Graustufenkonvertierung
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 7%
@@ -22,10 +22,10 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Elementare Knoten: Graustufen-Konvertierung](grayscale-conversion.resources/comp_grayscaleconversion_1.png "Elementare Knoten: Graustufen-Konvertierung"){width="20%"}
+![Atomknoten: Graustufen-Konvertierung](grayscale-conversion.resources/comp_grayscaleconversion_1.png "Elementare Knoten: Graustufen-Konvertierung")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Konvertiert ein Farbbild mithilfe der Luminanz der einzelnen Farbkanäle in ein Graustufenbild.
 
@@ -35,7 +35,7 @@ Dieser Knoten kann als optimierte Methode verwendet werden, um einen Graustufenk
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="Graustufen-Konvertierungs-QuickInfo" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="Graustufen-Konvertierungs-QuickInfo" /></div>
 
 Die meisten Knoten können so eingestellt werden, dass sie in Graustufen oder Farben ausgegeben werden, wobei erstere aus Gründen der Einfachheit und Leistung bevorzugt werden.
 
@@ -49,11 +49,11 @@ Dies bedeutet, dass ein Graustufen-Konvertierungsknoten im Allgemeinen nur für 
 
 |  |  |
 | --- | --- |
-| <b>Kanalgewichte</b> *Fließkommazahl4* | Legt die Gewichtung der einzelnen RGBA-Kanäle bei der Graustufenkonvertierung fest.   Standardmäßig erfolgt eine gleichmäßige Aufteilung auf die RGB-Kanäle. |
-| <b>Alpha reduzieren</b> *Boolesche Wert* | Legt das Verhalten des Alphas für das endgültige Graustufenergebnis fest, da Graustufenwerte keine Alpha-Informationen enthalten können.   Wenn *True*, wird die Graustufenkonvertierung mit dem Alphakanal des Eingabebilds multipliziert. |
-| <b>Hintergrundwert</b> *Fließkommazahl* | Legt den grundlegenden Hintergrundwert fest, wenn die Eingabe über eine Alphamaske verfügt. Das heißt, es wird festgelegt, welche Pixel als transparent zu behandeln sind.   *Verfügbar, wenn &quot;Alpha reduzieren&quot; auf &quot;Wahr&quot; festgelegt ist.* |
+| <b>Kanalgewichte</b> *Float4* | Legt die Gewichtung der einzelnen RGBA-Kanäle bei der Graustufenkonvertierung fest.   Standardmäßig erfolgt eine gleichmäßige Aufteilung auf die RGB-Kanäle. |
+| <b>Alpha reduzieren</b> *Boolescher Wert* | Legt das Verhalten des Alphas für das endgültige Graustufenergebnis fest, da Graustufenwerte keine Alpha-Informationen enthalten können.   Wenn *True*, wird die Graustufenkonvertierung mit dem Alphakanal des Eingabebilds multipliziert. |
+| <b>Hintergrundwert</b> *Gleitend* | Legt den grundlegenden Hintergrundwert fest, wenn die Eingabe über eine Alphamaske verfügt. Das heißt, es wird festgelegt, welche Pixel als transparent zu behandeln sind.   *Verfügbar, wenn &quot;Alpha reduzieren&quot; auf &quot;Wahr&quot; festgelegt ist.* |
 
-## Eingabe-Verbindungen
+## Eingangsanschlüsse
 
 |  |  |
 | --- | --- |

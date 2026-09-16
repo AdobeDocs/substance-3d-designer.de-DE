@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
 breadcrumb-title: ""
 description: Verwenden Sie den FX-Map-Knoten, um Funktionsdiagramme auf Texturen anzuwenden, um prozedurale Muster und Effekte zu erstellen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 1%
@@ -22,10 +22,10 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomknoten: FX-Map](fx-map.resources/fxmap.png "Atomknoten: FX-Map"){width="20%"}
+![Atomknoten: FX-Map](fx-map.resources/fxmap.png "Atomknoten: FX-Map")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Die FX-Map kann eine Bild- oder Mustereingabe immer wieder replizieren und unterteilen und die Verteilung jedes Musters über Parameter und logische Funktionen steuern.
 
@@ -35,7 +35,7 @@ Es ist einer der mächtigsten atomaren Knoten, sowie der komplexeste Knoten in d
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="fx-map.resources/fxmap-tooltip.gif" alt="fx-map tooltip" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="fx-map.resources/fxmap-tooltip.gif" alt="fx-map tooltip" /></div>
 
 Ähnlich wie beim [Pixelprozessor](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) liegt es an Ihnen, die Funktionen zu definieren und zu erstellen, die das Verhalten und die Ausgabe dieses Knotens bestimmen.
 
@@ -49,7 +49,7 @@ Es ist einer der mächtigsten atomaren Knoten, sowie der komplexeste Knoten in d
 > Es wird empfohlen, sich mit allen Aspekten der Software vertraut zu machen und keine Probleme beim Erstellen von [mathematischen Funktionen](../../../../function-graphs/function-graphs.md) für Parameter zu haben, bevor Sie versuchen, den FX-Map-Knoten zu verwenden.
 
 
-Beachten Sie, dass im Gegensatz zu anderen Knoten der größte Teil des Verhaltens einer FX-Map nicht durch die Parameter bestimmt wird, sondern [&#x200B; durch Bearbeiten der FX-Map-Funktionen](../../../../function-graphs/fxmaps/fxmaps.md) innerhalb der FX-Map.
+Beachten Sie, dass im Gegensatz zu anderen Knoten der größte Teil des Verhaltens einer FX-Map nicht durch die Parameter bestimmt wird, sondern [ durch Bearbeiten der FX-Map-Funktionen](../../../../function-graphs/fxmaps/fxmaps.md) innerhalb der FX-Map.
 
 |  |  |
 | --- | --- |
@@ -57,7 +57,7 @@ Beachten Sie, dass im Gegensatz zu anderen Knoten der größte Teil des Verhalte
 | <b>Hintergrund</b> *Gleitend/Gleitend4* | Legt die Anfangsfarbe des Hintergrunds fest, mit der die Ergebnisse zusammengefügt werden. |
 | <b>Renderregion</b> *Float4* | Ermöglicht es Ihnen, den ersten Pixelbereich für jede Seite der FX-Map festzulegen, was zu einem Dehnungseffekt führt. |
 | <b>Kachelbereich</b> *Float4* | Ermöglicht das Versetzen des Kachelabstands der FX-Map. |
-| <b>Außerhalb abrufen</b> *Boolescher Wert* | Führt eine Optimierung durch [Auslesen von &#x200B;](../../../../glossary/glossary.md) Mustern durch, die außerhalb des normalen Bereichs liegen. |
+| <b>Außerhalb abrufen</b> *Boolescher Wert* | Führt eine Optimierung durch [Auslesen von ](../../../../glossary/glossary.md) Mustern durch, die außerhalb des normalen Bereichs liegen. |
 | <b>Raueit</b> *Gleitend* | Funktioniert als Tiefe- und Deckkraftmultiplikator. Es wendet eine Voreinstellung auf den FX-Map-Mischprozess an. |
 | <b>Globale Deckkraft</b> *Gleitend* | Legt die globale Deckkraft der Ausgabe der FX-Map fest. |
 
@@ -75,4 +75,4 @@ Beachten Sie, dass im Gegensatz zu anderen Knoten der größte Teil des Verhalte
 
 ## Beispiele
 
-![](fx-map.resources/image2015-9-10-17-28-32.png){width="20%"}
+![](fx-map.resources/image2015-9-10-17-28-32.png)

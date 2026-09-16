@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
 breadcrumb-title: ""
-description: Verwenden Sie den Weichzeichnungsknoten, um Unschärfe-Effekte auf Texturen anzuwenden, um Details zu glätten und einen Weichzeichnungseffekt zu erzeugen.
+description: Verwenden Sie den Weichzeichnungsknoten, um Weichzeichnungseffekte auf Texturen anzuwenden, um Details zu glätten und einen weichen Fokuseffekt zu erzeugen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blur
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Weichzeichnen
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 6%
@@ -22,9 +22,9 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![Symbol für Weichzeichnerknoten](blur.resources/blur-9.png){width="20%"}
+![Symbol für Weichzeichnerknoten](blur.resources/blur-9.png)
 
-**In:** Elementare Knoten
+**In:** Atomknoten
 
 **Einfach**
 
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 ## Beschreibung
 
-Der Weichzeichnungsknoten führt einen &quot;box-blur&quot;-Vorgang aus: Mittelung der Pixelwerte über eine festgelegte Entfernung, was zu einem verschwommenen, unscharfen Look führt. Es bietet den einfachsten, schnellsten und einfachsten Weichzeichnungsvorgang, der in [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) verfügbar ist.
+Der Weichzeichnungsknoten führt einen &quot;box-blur&quot;-Vorgang aus: Mittelung der Pixelwerte über eine festgelegte Entfernung, was zu einem verschwommenen, unscharfen Look führt. Es bietet den einfachsten, schnellsten und einfachsten Weichzeichnungsvorgang, der in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) verfügbar ist.
 
 Der Weichzeichner eignet sich zwar gut für schnelle, einfache Vorgänge, z. B. für das leichte Weichzeichnen einiger Kanten. In jedem anspruchsvolleren Szenario ist [Weichzeichnen HQ](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/blur-hq/blur-hq.md) eine bessere Wahl, wenn Sie die Leistung gegen Qualität eintauschen möchten.
 
@@ -41,7 +41,7 @@ Der Weichzeichner eignet sich zwar gut für schnelle, einfache Vorgänge, z. B. 
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="blur.resources/blur-tooltip.gif" alt="Weichzeichner-QuickInfo" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="blur.resources/blur-tooltip.gif" alt="Weichzeichner-QuickInfo" /></div>
 
 ## Parameter
 
