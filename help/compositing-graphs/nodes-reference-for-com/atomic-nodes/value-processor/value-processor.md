@@ -29,7 +29,7 @@ ht-degree: 3%
 
 Berechnet einen [Substance-Funktionswert Graf](../../../../function-graphs/the-function-graph/the-function-graph.md) und gibt sein Ergebnis aus.
 
-Sie ist mit einem [Pixelprozessor](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) vergleichbar, mit dem Unterschied, dass sie nicht für jeden Pixel eine Funktion berechnet, sondern einen einzigen Wert und ihn [ in einem Substance-Graf ](../../../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) verfügbar macht.
+Sie ist mit einem [Pixelprozessor](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) vergleichbar, mit dem Unterschied, dass sie nicht für jeden Pixel eine Funktion berechnet, sondern einen einzigen Wert und ihn [&#x200B; in einem Substance-Graf &#x200B;](../../../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) verfügbar macht.
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ Sie ist mit einem [Pixelprozessor](../../../../compositing-graphs/nodes-referenc
 
 |  |  |
 | --- | --- |
-| <b>Wertprozessor-Funktion</b> *Beliebiger verfügbarer Werttyp* | [Graf der Substance-Funktion ](../../../../function-graphs/the-function-graph/the-function-graph.md) zur Berechnung des Ausgabewerts ausgewertet. |
+| <b>Wertprozessor-Funktion</b> *Beliebiger verfügbarer Werttyp* | [Graf der Substance-Funktion &#x200B;](../../../../function-graphs/the-function-graph/the-function-graph.md) zur Berechnung des Ausgabewerts ausgewertet. |
 
 ## Eingabe-Verbindungen
 
