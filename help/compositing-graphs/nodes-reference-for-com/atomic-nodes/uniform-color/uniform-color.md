@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
 breadcrumb-title: ""
 description: Verwenden Sie den Knoten "Gleichmäßige Farbe", um einheitliche Farbstrukturen für die Erstellung von Farbflächen und Basisebenen zu erstellen.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Gleichmäßige Farbe
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '179'
 ht-degree: 7%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 30%; vertical-align: top">
+<td style="border: 0; width: 33.33%; vertical-align: top">
 
 ![Atomknoten: Einheitliche Farbe](uniform-color.resources/comp_uniform_1.png "Atomarer Knoten: Einheitliche Farbe"){width="100%"}
+
+<b>In:</b> Atomknoten
 
 </td>
 <td style="border: 0; vertical-align: top">
@@ -35,7 +37,14 @@ Es handelt sich um einen einfachen Knoten, der sehr häufig als Ausgangspunkt zu
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="uniform-color.resources/uniform-color-tooltip.gif" alt="Uniform-Color-QuickInfo" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="uniform-color.resources/uniform-color-tooltip.gif" alt="Uniform-Color-QuickInfo" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
+
 
 
 >[!TIP]
@@ -45,7 +54,7 @@ Es handelt sich um einen einfachen Knoten, der sehr häufig als Ausgangspunkt zu
 > Beide Anpassungen reduzieren die Rechenzeit und den Speicherbedarf des Knotens:
 > 
 > * Wenn ein Graustufenwert benötigt wird, stellen Sie sicher, dass Sie den [Farbmodus](#parameters) des Knotens in &#39;Graustufen&#39; ändern.
-> * Da die Ausgabe des Knotens eine flache Farbe ist, können Sie die niedrigste mögliche Auflösung verwenden. Legen Sie den Parameter &quot;[Ausgabegröße](../../../../compositing-graphs/output-size/output-size.md)&quot; des Knotens so fest, dass die &quot;Absolute&quot; [Vererbungsmethode &#x200B;](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) und eine Auflösung von 16x16 Pixeln verwendet werden.
+> * Da die Ausgabe des Knotens eine flache Farbe ist, können Sie die niedrigste mögliche Auflösung verwenden. Legen Sie den Parameter &quot;[Ausgabegröße](../../../../compositing-graphs/output-size/output-size.md)&quot; des Knotens so fest, dass die &quot;Absolute&quot; [Vererbungsmethode ](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) und eine Auflösung von 16x16 Pixeln verwendet werden.
 
 
 ## Parameter

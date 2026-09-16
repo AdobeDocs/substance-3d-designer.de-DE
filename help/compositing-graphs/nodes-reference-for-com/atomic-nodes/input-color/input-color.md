@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Eingabefarbe
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '804'
 ht-degree: 1%
 ---
 
@@ -20,20 +20,22 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
-![Atomknoten: Eingabefarbe](input-color.resources/comp_inputcolor_1.png "Atomarer Knoten: Eingabefarbe"){width="100%"}
+![Elementare Knoten: Eingabefarbe](input-color.resources/comp_inputcolor_1.png "Elementare Knoten: Eingabefarbe"){width="100%"}
+
+<b>In:</b> Elementare Knoten
 
 </td>
 <td style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Eingabeknoten sind ein spezieller Knotentyp, der einen dynamischen Steckplatz in Ihrem Diagramm erstellt, sodass jeder Eingang verbunden werden kann, sobald Ihr Diagramm in einem anderen Kontext verwendet wird.
+Eingabeknoten sind ein spezieller Knotentyp, der einen dynamischen Steckplatz in Ihrem Graf erstellt, sodass jeder Eingang angeschlossen werden kann, sobald Ihr Graf in einem anderen Kontext verwendet wird.
 
 Im Gegensatz zu [Ausgabeknoten](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) müssen Sie explizit entweder eine Farb-, Graustufen- oder Werteingabe platzieren. Es ist nicht möglich, eigene &quot;agnostische&quot; Eingaben zu erstellen, die den Typ je nach Verbindung ändern.
 
-Eingabeknoten sind nicht so wichtig wie [Ausgabeknoten](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): können Sie perfekt funktionierende, erweiterte Diagramme nutzen, die keine Eingabe benötigen. Eingaben werden nur verwendet, wenn Sie das Ergebnis Ihrer Graf- oder Knoteninstanz auf einer externen Eingabe basieren möchten, z. B. beim Erstellen einer [Instanz](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) oder eines [Filters](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/effects/filter) für Substance 3D Painter.
+Eingabeknoten sind nicht so wichtig wie [Ausgabeknoten](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): können Sie über perfekt funktionierende, erweiterte Grafen verfügen, die keine Eingabe benötigen. Eingaben werden nur verwendet, wenn Sie das Ergebnis Ihrer Graf- oder Knoteninstanz auf einer externen Eingabe basieren möchten, z. B. beim Erstellen einer [Instanz](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) oder eines [Filters](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter) für Substance 3D Painter.
 
 Siehe auch: [Graustufen eingeben](../input-grayscale/input-grayscale.md), [Eingabewert eingeben](../input-value/input-value.md)
 
@@ -41,13 +43,19 @@ Siehe auch: [Graustufen eingeben](../input-grayscale/input-grayscale.md), [Einga
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="input-color.resources/input-color-tooltip.gif" alt="QuickInfo zu Eingabefarben" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="input-color.resources/input-color-tooltip.gif" alt="QuickInfo zu Eingabefarben" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 ## Parameter
 
 Standardmäßig gibt eine Eingabefarbe oder ein Graustufen schwarz zurück, wenn nichts angeschlossen ist. Sie können entweder einen anderen Standardwert festlegen oder eine vorhandene [Bitmapressource](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) aus dem [Explorer](../../../../interface/the-explorer-window/the-explorer-window.md) auf den Eingabeknoten in Ihrem Graf ziehen, um eine Vorschau dieser Daten im Steckplatz anzuzeigen. Dies funktioniert nur bei Farb- und Graustufeneingaben. Der Standardwert bleibt erhalten, wenn er in anderen Kontexten verwendet wird. Die Vorschaubitmap wird anderswo verworfen.
 
-Wenn Sie das Diagramm mit den Ausgaben eines anderen Diagramms anzeigen möchten, müssen Sie dieses Diagramm entweder für die obige Methode in die Bitmap exportieren oder die kontextbezogene Bearbeitung verwenden.
+Wenn Sie den Graf mit den Ausgaben eines anderen Grafen anzeigen möchten, müssen Sie ihn entweder für die oben genannte Methode in die Bitmap exportieren oder die &quot;In-Context&quot;-Bearbeitung verwenden.
 
 |  |  |
 | --- | --- |
@@ -58,7 +66,7 @@ Wenn Sie das Diagramm mit den Ausgaben eines anderen Diagramms anzeigen möchten
 
 |  |  |
 | --- | --- |
-| <b>Kennung</b> *Zeichenfolge* | Das einzige obligatorische, eindeutige Attribut. Kann keine Leerzeichen enthalten. Dieser wird zum Kennzeichnen von Eingaben verwendet, wenn kein Label eingerichtet ist, und zum Kennzeichnen verschiedener Ausgänge. Lassen Sie diese nicht einfach bei &quot;input\_1&quot; stehen! |
+| <b>Identifizierung</b> *Zeichenfolge* | Das einzige obligatorische, eindeutige Attribut. Kann keine Leerzeichen enthalten. Dieser wird zum Kennzeichnen von Eingaben verwendet, wenn kein Label eingerichtet ist, und zum Kennzeichnen verschiedener Ausgänge. Lassen Sie diese nicht einfach bei &quot;input\_1&quot; stehen! |
 | <b>Beschreibung</b> *Zeichenfolge* | Optionale Beschreibung, die in der Designer-Bibliothek und im Painter-Regal verwendet wird. |
 | <b>Bezeichnung</b> *Zeichenfolge* | UI-Label für ansprechende Beschriftungen in Designer und der Benutzeroberfläche von Painter. Kann Leerzeichen enthalten. Es wird empfohlen, einen Namen festzulegen, der der Identifizierung ähnelt, nur mit Leerzeichen anstelle von Unterstrichen. |
 | <b>Benutzerdaten</b> *Zeichenfolge* | Zusätzliche, optionale Benutzerdaten, die für bestimmte Datenvorgänge verwendet werden können, im Wesentlichen ein Platzhalter, benutzerdefiniertes Datenfeld. |
@@ -70,7 +78,7 @@ Wenn Sie das Diagramm mit den Ausgaben eines anderen Diagramms anzeigen möchten
 <tr style="border: 0;">
 <td style="border: 0; vertical-align: top">
 
-Wenn mehrere Eingaben vorhanden sind, müssen Sie darauf achten, wie das Diagramm die Basisparameter[&#128279;](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) von diesen Eingaben erbt.\
+Wenn mehrere Eingaben vorhanden sind, müssen Sie darauf achten, wie das Diagramm die Basisparameter](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) von diesen Eingaben [erbt.\
 Zu den Basisparametern gehören u. a. die <b>Ausgabegröße</b>, das <b>Ausgabeformat</b> und der <b>Anordnungsmodus</b>.
 
 Eine Eingabe kann als [Primäre Eingabe](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) definiert werden. Diese Eingabe steuert dann die Attribute aller Eingaben, deren Vererbungsmethode auf *Relativ zu übergeordnetem* festgelegt ist. Dies ist die Vererbungsmethode *, die standardmäßig* auf Eingabeknoten festgelegt ist.
@@ -78,7 +86,7 @@ Eine Eingabe kann als [Primäre Eingabe](../../../../compositing-graphs/inherita
 </td>
 <td width="25%" style="border: 0;" valign="top">
 
-![Primäre Eingabe in Substance-Graf &#x200B;](input-color.resources/node-primary-input.png)
+![Primäre Eingabe in Substance-Graf ](input-color.resources/node-primary-input.png)
 
 </td>
 </tr>
@@ -101,7 +109,7 @@ Schließlich können Sie jeden Wert für ein bestimmtes Attribut überschreiben,
 
 ## Integrationsattribute
 
-Die Eingaben werden nicht direkt an die 3D-Ansicht gesendet, aber ihre Verwendungsattribute werden von [Substance 3D Painter](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/home) verwendet, um Steckplätze automatisch mit bestimmten Zuordnungen zu füllen (meist mit [Filtern](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/effects/filter)).
+Die Eingaben werden nicht direkt an die 3D-Ansicht gesendet, aber ihre Verwendungsattribute werden von [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) verwendet, um Steckplätze automatisch mit bestimmten Zuordnungen zu füllen (meist mit [Filtern](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)).
 
 Darüber hinaus werden die Verwendungsattribute auch mit [Verknüpfungserstellungsmodi](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) verwendet, um die richtigen Eingabe- und Ausgabeschlitze abzugleichen.
 

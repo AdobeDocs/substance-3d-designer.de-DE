@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ""
 description: Verwenden Sie den Knoten "Verlaufsumsetzung", um Graustufenwerte Farben mithilfe von Verlaufsrampen für Färbungen und Effekte zuzuordnen.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Verlaufsumsetzung
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1160'
 ht-degree: 2%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Atomknoten: Verlaufsumsetzung](gradient-map.resources/comp_gradient_1.png "Atomknoten: Verlaufsumsetzung"){width="100%"}
+
+<b>In:</b> Atomknoten
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ Dieser Knoten erfüllt einen doppelten Zweck: Es kann einfach als <b> verwendet 
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="QuickInfo für Verlaufsumsetzung" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="QuickInfo für Verlaufsumsetzung" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Der Knoten bietet einen erweiterten und funktionsreichen Verlaufseditor, mit dem Sie mehrere Farben präzise zuordnen können: Weitere Informationen finden Sie im Abschnitt [Verlaufseditor](#gradient-editor) auf dieser Seite.
 
@@ -240,7 +248,7 @@ Mit dem Farbwähler können Sie eine Farbe auf verschiedene Weise festlegen:
   Alternativ können Sie auch einen Hexadezimalcode in das Eingabefeld unter den Reglern eingeben.
 
   </td>
-  <td width="33.33%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   ![Farbwähler - RGB-, HSV- und Alpha-Schieberegler](gradient-map.resources/image2017-2-17-18-31-41.png "Farbwähler - RGB-, HSV- und Alpha-Schieberegler")
 
@@ -281,7 +289,7 @@ In der unteren Hälfte wird die zuvor verwendete Farbe angezeigt. Doppelklicken 
 </tr>
 </table>
 
-Wenn mehrere Pins ausgewählt sind, werden die Schieberegler für RGB, HSV und Alpha in Delta-()-Schieberegler umgewandelt, d. h., sie werden verwendet, um den Wert jedes Pins um denselben Wert zu verschieben.
+Wenn mehrere Nadeln ausgewählt sind, werden die Regler &quot;RGB&quot;, &quot;HSV&quot; und &quot;Alpha&quot; zu Delta-Reglern (), d. h., sie werden verwendet, um den Wert jeder Nadel um denselben Wert zu versetzen.
 
 <table>
 <tr style="border: 0;">
@@ -299,7 +307,7 @@ Darüber hinaus stehen die folgenden Funktionen unter der Farbminiatur als Schal
 
 <b>sRGB</b>: Verwenden Sie den sRGB-Farbraum, um Farben anzuzeigen. Ist die Option deaktiviert, wird der lineare Farbraum verwendet.
 
-<b>Gleitkommawert:</b> Zeigt die Werte der RGB-, HSV- und Alpha-Schieberegler in Gleitkommawerten an.
+<b>Fließkommazahl:</b> Zeigt die Werte der RGB-, HSV- und Alpha-Schieberegler in Gleitkommawerten an.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
@@ -318,7 +326,7 @@ Die Verlaufs-Pipette ist eine der nützlichsten Funktionen dieses Knotens, da Si
 
 Der Regler <b>Genauigkeit</b> hilft Ihnen beim Anpassen des neu erstellten Verlaufs, indem Sie die Anzahl der Tasten erhöhen oder verringern: Je niedriger die Werte sind, desto präziser stimmt der Verlauf mit den ausgewählten Werten überein.
 
-## Eingangsanschlüsse
+## Eingabe-Verbindungen
 
 |  |  |
 | --- | --- |

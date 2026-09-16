@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ""
-description: Verwenden Sie den Pixelknoten, um individuelle Pixelprozessor mit benutzerdefinierten Expressions für die erweiterte Bearbeitung von Texturen zu verarbeiten.
+description: Verwenden Sie den Knoten Pixelprozessor , um einzelne Pixel mit benutzerdefinierten Expressions für eine erweiterte Texturbearbeitung zu verarbeiten.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Pixel processor
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Pixelprozessor
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '353'
 ht-degree: 1%
 ---
 
@@ -20,51 +20,59 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="20%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
-![Elementare Knoten: Pixelprozessor](pixel-processor.resources/comp_pixelprocessor_1.png "Elementare Knoten: Pixelprozessor"){width="100%"}
+![Atomknoten: Pixelprozessor](pixel-processor.resources/comp_pixelprocessor_1.png "Atomknoten: Pixelprozessor "){width="100%"}
+
+<b>In:</b> Atomknoten
 
 </td>
 <td style="border: 0;" valign="top">
 
-Generiert ein Bild, bei dem der Wert jedes Pixels das Ergebnis des angegebenen [Substance-Funktions-Grafen &#x200B;](../../../../function-graphs/the-function-graph/the-function-graph.md) ist.
+Generiert ein Bild, bei dem der Wert jedes Pixels das Ergebnis des angegebenen [Substance-Funktionsdiagramms ](../../../../function-graphs/the-function-graph/the-function-graph.md) ist.
 
-Mit dem Pixelprozessor können Sie eine benutzerdefinierte Funktion für jeden Pixel ausführen, der als Ausgabe zurückgegeben wird, und zwar an einer optionalen Eingabe.
+Mit dem Pixelprozessor können Sie eine benutzerdefinierte Funktion für jedes Pixel ausführen, das als Ausgabe zurückgegeben wird, und zwar an einer optionalen Eingabe.
 
-Es ist bei weitem der vielseitigste Knoten, da er es ermöglicht, jede mathematische Operation auszuführen und Ergebnisse innerhalb Ihres Grafen zurückzugeben.
+Es ist bei weitem der vielseitigste Knoten, da er es ermöglicht, jede mathematische Operation auszuführen und Ergebnisse innerhalb Ihres Diagramms zurückzugeben.
 
 </td>
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="Pixelprozessor-QuickInfo" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="Pixelprozessor-QuickInfo" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
-Ähnlich wie bei [FX-Map](../../../../function-graphs/fxmaps/fxmaps.md) muss die interne Funktionalität eingerichtet werden, damit irgendetwas ausgeführt werden kann. Der Unterschied zwischen dem Pixelprozessor und FX-Map liegt darin, dass der Fokus nicht auf der Platzierung von Mustern liegt. Mehrere Funktionen steuern die Form und Platzierung von Mustern. Stattdessen wird für jedes Pixel eine einzige Funktion parallel ausgeführt, bei der jedes Pixel die Berechnungsergebnisse seiner Nachbarn nicht kennt.
+Ähnlich wie [FX-Map](../../../../function-graphs/fxmaps/fxmaps.md) muss die interne Funktionalität eingerichtet werden, damit irgendetwas ausgeführt werden kann. Der Unterschied zwischen Pixel-Prozessor und FX-Map liegt darin, dass der Fokus nicht auf der Platzierung von Mustern liegt, da mehrere Funktionen die Form und Platzierung von Mustern steuern. Stattdessen wird für jedes Pixel eine einzige Funktion parallel ausgeführt, bei der jedes Pixel die Berechnungsergebnisse seiner Nachbarn nicht kennt.
 
-Der Pixelprozessor ähnelt dem [Wertprozessor](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md), der nur mit Einzelwerten ausgeführt wird und im Vergleich zum Pixelprozessor eine gute Optimierung bieten kann.
+Der Pixelprozessor ähnelt dem [Werteprozessor](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md), der nur mit einzelnen Werten ausgeführt wird und eine gute Optimierung im Vergleich zum Pixelprozessor bietet.
 
 Für alle, die es gewohnt sind, [Shader](../../../../glossary/glossary.md)-Funktionen in knotenbasierten Editoren zu erstellen, sollte der Pixelprozessor eine vertraute Umgebung bieten.
 
 
 >[!TIP]
 >
-> Eine kommentierte Projektdatei, die die einfache Verwendung des Pixelprozessor-Knotens veranschaulicht, ist im Abschnitt [Beispiel-Substance-Graf](../../../../compositing-graphs/sample-compositing-graphs/sample-substance-compositing-graphs.md) dieser Dokumentation verfügbar.
+> Eine mit Anmerkungen versehene Projektdatei, die die einfache Verwendung des Pixelprozessorknotens veranschaulicht, ist im Abschnitt [Beispiele für Substance-Grafiken](../../../../compositing-graphs/sample-compositing-graphs/sample-substance-compositing-graphs.md) dieser Dokumentation verfügbar.
 > 
-> Der Knoten [Wertprozessor](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) ist ein guter Ausgangspunkt für das Erlernen von [Substance-Grafen](../../../../function-graphs/the-function-graph/the-function-graph.md).
+> Der Knoten [Wertprozessor](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) ist ein guter Ausgangspunkt für das Erlernen von [Substance-Funktionsdiagrammen](../../../../function-graphs/the-function-graph/the-function-graph.md).
 > 
-> Beachten Sie außerdem, dass die Arbeit mit diesem Knotentyp und die Durchführung mathematischer Operationen zwingend erforderlich sind, um diesen Graf vollständig zu entfernen.
+> Beachten Sie auch, dass die Arbeit mit dieser Art von Graphen und die Durchführung mathematischer Operationen zwingend erforderlich ist, um alles aus diesem Knoten herauszuholen.
 > 
-> Wir empfehlen außerdem, mit dem Konzept von [UVs](../../../../glossary/glossary.md), [Textur Sampling](../../../../glossary/glossary.md) und Vektoren vertraut zu sein.
+> Wir empfehlen außerdem, mit dem Konzept von [UVs](../../../../glossary/glossary.md), [Textursampling](../../../../glossary/glossary.md) und Vektoren vertraut zu sein.
 
 
 ## Parameter
 
 |  |  |
 | --- | --- |
-| <b>Farbmodus</b> *Boolesche Wert* | Schaltet zwischen einem Graustufen- und einem Farbausgabebild um. |
-| <b>Pro Pixelfunktion</b> *Fließkommazahl/Fließkommazahl4* | [Graf der Substance-Funktion &#x200B;](../../../../function-graphs/the-function-graph/the-function-graph.md) pro Pixel im Ausgabebild ausgewertet.   Verwenden Sie den Knoten [Get Fließkommazahl2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md), der auf die Variable <b>$pos</b> festgelegt ist, um auf die [normalisierte](../../../../glossary/glossary.md) Position des aktuellen Pixels zuzugreifen. |
+| <b>Farbmodus</b> *Boolescher Wert* | Schaltet zwischen einem Graustufen- und einem Farbausgabebild um. |
+| <b>Pro Pixelfunktion</b> *Gleitend/Gleitend4* | [Substance-Funktionsdiagramm ](../../../../function-graphs/the-function-graph/the-function-graph.md) wird pro Pixel im Ausgabebild ausgewertet.   Verwenden Sie den Knoten [Get Float2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md), der auf die Variable <b>$pos</b> festgelegt ist, um auf die [normalisierte](../../../../glossary/glossary.md) Position des aktuellen Pixels zuzugreifen. |
 
-## Eingabe-Verbindungen
+## Eingangsanschlüsse
 
 |  |  |
 | --- | --- |

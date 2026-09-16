@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
 breadcrumb-title: ""
 description: Verwenden Sie den Knoten Normal , um Normalen-Map-Texturen zur Steuerung von Oberflächendetails und Beleuchtung zu verarbeiten und zu bearbeiten.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Normale
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '220'
 ht-degree: 7%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
-![Atomknoten: Normal](normal.resources/comp_normal_1.png "Elementare Knoten: Normal"){width="100%"}
+![Elementare Knoten: Normal](normal.resources/comp_normal_1.png "Elementare Knoten: Normal"){width="100%"}
+
+<b>In:</b> Elementare Knoten
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ Der Knoten konvertiert eine Graustufenzuordnung in eine Tangente-Raum-Normalen-M
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="normal.resources/normal-tooltip.gif" alt="Normalwerkzeugspitze" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="normal.resources/normal-tooltip.gif" alt="Normalwerkzeugspitze" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Es ist ein sehr nützlicher Knoten, der häufig verwendet wird, um Höhen-Map-Eingaben in Normalen-Map für Echtzeit-fähige Material zu konvertieren. Es gibt Alternativen in [Normal Sobel](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md) und Height To Normal World Units.
 
@@ -45,11 +53,11 @@ Es ist ein sehr nützlicher Knoten, der häufig verwendet wird, um Höhen-Map-Ei
 
 |  |  |
 | --- | --- |
-| <b>Intensität</b> *Gleitend* | Ändert die Intensität des Höhen-Map.   Legt fest, wie intensiv die Eingabe-Höhen-Map für die Konvertierung in Normale interpretiert wird. Je nach Eingabe-Map haben Werte über 100 wenig mehr Wirkung. |
-| <b>Normales Format</b> *Boolescher Wert* | Kehrt die Y-Koordinaten des Höhen-Map (OpenGL) um.   Legt fest, wie der grüne Kanal (Y) codiert wird. Grundsätzlich ein Schalter &quot;Grün/Y spiegeln&quot;. |
-| <b>Inhalt des Alphakanals</b> *Boolescher Wert* | Füllen Sie den Alphakanal des Normalen-Map mit der Eingabe-Textur.   Alpha mit Eingabe füllen/Alpha auf 1 erzwingen:  Dadurch kann der Alphakanal auf &quot;solid&quot; gesetzt werden, anstatt den Eingang als zusätzliches Alpha zu verwenden. |
+| <b>Intensität</b> *Fließkommazahl* | Ändert die Intensität des Höhen-Map.   Legt fest, wie intensiv die Eingabe-Höhen-Map für die Konvertierung in Normale interpretiert wird. Je nach Eingabe-Map haben Werte über 100 wenig mehr Wirkung. |
+| <b>Normales Format</b> *Boolesche Wert* | Kehrt die Y-Koordinaten des Höhen-Map (OpenGL) um.   Legt fest, wie der grüne Kanal (Y) codiert wird. Grundsätzlich ein Schalter &quot;Grün/Y spiegeln&quot;. |
+| <b>Inhalt des Alphakanals</b> *Boolesche Wert* | Füllen Sie den Alphakanal des Normalen-Map mit der Eingabe-Textur.   Alpha mit Eingabe füllen/Alpha auf 1 erzwingen:  Dadurch kann der Alphakanal auf &quot;solid&quot; gesetzt werden, anstatt den Eingang als zusätzliches Alpha zu verwenden. |
 
-## Eingangsanschlüsse
+## Eingabe-Verbindungen
 
 |  |  |
 | --- | --- |

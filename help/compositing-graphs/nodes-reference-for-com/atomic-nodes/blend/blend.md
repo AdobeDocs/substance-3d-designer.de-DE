@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ""
 description: Verwenden Sie den Knoten "Angleichen", um mithilfe verschiedener Füllmethoden zwei Texturen miteinander zu verblenden und so Kompositionseffekte zu erstellen.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Überblenden
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '329'
 ht-degree: 8%
 ---
 
@@ -20,24 +20,32 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Atomknoten: Blend](blend.resources/comp_blend_1.png "Atomic node: Überblendung "){width="100%"}
+
+<b>In:</b> Atomknoten
 
 </td>
 <td style="border: 0;" valign="top">
 
 Kombiniert zwei Bilder mit einer angegebenen Füllmethode und einer optionalen Maske.
 
-Es ist der nützlichste Knoten aller Atomknoten. Nahezu jeder Graph, den Sie in [Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) erstellen, verwendet diesen Knoten.
+Es ist der nützlichste Knoten aller Atomknoten. Nahezu jeder Graph, den Sie in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) erstellen, verwendet diesen Knoten.
 
 </td>
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="blend.resources/blend-tooltip.gif" alt="Angleichen-QuickInfo" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="blend.resources/blend-tooltip.gif" alt="Angleichen-QuickInfo" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
-Die Funktionalität ähnelt der von zwei Ebenen übereinander in [Substance 3D Painter](https://www.adobe.com/de/products/substance3d-painter.html) oder [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), die durch den Mischmodus, den Sie auf der obersten Ebene festgelegt haben, miteinander vermischt werden.
+Die Funktionalität ähnelt der von zwei Ebenen übereinander in [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) oder [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), die durch den Mischmodus, den Sie auf der obersten Ebene festgelegt haben, miteinander vermischt werden.
 
 >[!TIP]
 >
@@ -58,13 +66,13 @@ Die Funktionalität ähnelt der von zwei Ebenen übereinander in [Substance 3D P
 
 |  |  |
 | --- | --- |
-| <b>Vordergrund</b> *Graustufen/Farbe* | Obere oder Vordergrundebene der Überblendung. |
+| <b>Vordergrund</b> *Graustufen/Farbe* | Obere oder Vordergrundebene des Mischvorgangs. |
 | <b>Hintergrund</b> *Graustufen/Farbe* PRIMÄR | Untere oder Hintergrundebene des Mischvorgangs. |
 | <b>Deckkraft</b> *Graustufen* | Optionale Alpha-Masken-Eingabe. |
 
 >[!IMPORTANT]
 >
-> Verbindungsknoten verfügen über dynamische Eingänge, die je nach Überblendung zwischen Graustufen und Farbeinstellungen wechseln.<b> Ein Überblendung-Knoten kann nur zwei Eingaben desselben Typs überblenden.</b>
+> Mischknoten verfügen über dynamische Eingänge, die je nach Ihren Verbindungen zwischen Graustufen und Farbe wechseln.<b> Ein Überblendknoten kann nur zwei Eingaben desselben Typs überblenden</b>.
 > 
 > Wenn Sie eine Farb- und Graustufeneingabe mit dem Vorder- und Hintergrund verbinden, wird eine gestrichelte rote Verbindungslinie angezeigt, was einen Berechnungsfehler bedeutet.
 > 

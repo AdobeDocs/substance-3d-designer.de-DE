@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
 breadcrumb-title: ""
 description: Verwenden Sie den Knoten "Richtungsverkrümmung", um Texturen eine Richtungsverkrümmung zuzuweisen und so Fluss- und Bewegungseffekte zu erzeugen.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Richtungsverzerrung
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '231'
 ht-degree: 9%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Atomknoten: Richtungsverkrümmung](directional-warp.resources/comp_directionalwarp_1.png "Atomarer Knoten: Richtungsverkrümmung"){width="100%"}
+
+**<b>In:</b> Elementare Knoten**
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ Verzerrt eine Eingabe in eine Richtung des Benutzersatzes, multipliziert mit ein
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="directional-warp.resources/directional-warp-tooltip.gif" alt="Richtungsverkrümmungs-QuickInfo" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="directional-warp.resources/directional-warp-tooltip.gif" alt="Richtungsverkrümmungs-QuickInfo" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Der Verformen-Knoten ist ein recht einfacher, aber nützlicher Knoten, der als gute Grundlage für andere, komplexere Effekte dient. Es gibt fortgeschrittenere Alternativen, z. B. die [Steigung-Weichzeichnung](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md) und die [Vektorverkrümmung](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md).
 
@@ -64,17 +72,17 @@ Der Verformen-Knoten ist ein recht einfacher, aber nützlicher Knoten, der als g
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Richtungsverkrümmung - Beispiel 1](directional-warp.resources/dir-warp.gif "Richtungsverkrümmung - Beispiel 1"){zoomable="yes"}
+![Richtungsverzerrung - Beispiel 1](directional-warp.resources/dir-warp.gif "Richtungsverzerrung - Beispiel 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Richtungsverkrümmung - Beispiel 2](directional-warp.resources/dir-warp02.gif "Richtungsverkrümmung - Beispiel 2"){zoomable="yes"}
+![Richtungsverzerrung - Beispiel 2](directional-warp.resources/dir-warp02.gif "Richtungsverzerrung - Beispiel 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Richtungsverkrümmung - Beispiel 3](directional-warp.resources/dir-warp03.gif "Richtungsverkrümmung - Beispiel 3"){zoomable="yes"}
+![Richtungsverzerrung - Beispiel 3](directional-warp.resources/dir-warp03.gif "Richtungsverzerrung - Beispiel 3"){zoomable="yes"}
 
 </td>
 </tr>

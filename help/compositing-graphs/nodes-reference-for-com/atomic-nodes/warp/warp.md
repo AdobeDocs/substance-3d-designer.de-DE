@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
 breadcrumb-title: ""
-description: Verwenden Sie den Verformen -Knoten, um Verzerrung-Effekte auf Texturen zum Erstellen von Verformen- und Versatz-Effekten anzuwenden.
+description: Verwenden Sie den Verformen -Knoten, um Texturen Verzerrungen zuzuweisen, um Verzerrungs- und Versatz-Effekte zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Warp
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Verzerrung
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '260'
 ht-degree: 9%
 ---
 
@@ -20,26 +20,34 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
-![Elementare Knoten: Verkrümmen](warp.resources/comp_warp_1.png "Elementare Knoten: Verkrümmen"){width="100%"}
+![Atomknoten: Verformen](warp.resources/comp_warp_1.png "Atomknoten: Verkrümmen"){width="100%"}
+
+<b>In:</b> Atomknoten
 
 </td>
 <td style="border: 0;" valign="top">
 
 Verschiebt die Pixelwerte im Eingabebild entsprechend den Anstiegen, die aus einer separaten Verlaufseingabe berechnet werden, was zu Deformation führt.
 
-Im Gegensatz zur Richtungsverzerrung schiebt dieser Knoten gleichmäßig von den weißen Bereichen weg, und zwar in einer Richtung, die durch die Steigung oder den Verlauf der Verlaufseingabe definiert wird.
+Im Gegensatz zur Richtungsverkrümmung bewegt sich dieser Knoten gleichmäßig von weißen Bereichen weg, und zwar in einer Richtung, die durch die Steigung oder den Verlauf der Verlaufseingabe definiert wird.
 
 </td>
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="warp.resources/warp-tooltip.gif" alt="Verkrümmen-QuickInfo" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="warp.resources/warp-tooltip.gif" alt="Verkrümmen-QuickInfo" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
-Der Knoten kann etwas schwierig zu bearbeiten sein, da das Ergebnis des Effekts sehr stark von der Verlaufseingabe abhängt: Kleine Anpassungen am Verlauf können bei gleicher Intensität einen großen visuellen Unterschied bewirken. Experimentiere mit Kontrast, Luminanz und Skalierung des Reglers &quot;Verlaufseingabe&quot; sowie dem Regler &quot;Intensität&quot;.
+Der Knoten kann etwas schwierig zu bearbeiten sein, da das Ergebnis des Effekts sehr stark von der Verlaufseingabe abhängt: Kleine Anpassungen am Verlauf können bei gleicher Intensität einen großen visuellen Unterschied bewirken. Experimentiere mit Kontrast, Luminanz und Skalierung der Verlaufseingabe sowie dem Regler für die Intensität dieses Knotens.
 
-Wenn Sie mit Normalen-Map vertraut sind, können Sie sich vorstellen, dass die Funktionsweise dieses Knotens der Konvertierung der Verlaufseingabe in eine [Normalen-Map](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) ähnelt und die Basiseingabe dann in der durch die Normalen-Map-Vektoren definierten Richtung verzerrt. Dasselbe lässt sich mit der [Vektorverkrümmung](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md) erreichen. Ähnliche Effekte finden Sie auch in [Steigung weichzeichnen](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md).
+Wenn Sie mit Normal-Maps vertraut sind, können Sie sich vorstellen, dass die Funktionsweise dieses Knotens der Konvertierung der Verlaufseingabe in eine [Normal-Map](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) ähnelt und die Basiseingabe dann in der durch die Normal-Map-Vektoren definierten Richtung verzerrt. Dasselbe lässt sich mit der [Vektorverkrümmung](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md) erreichen. Ähnliche Effekte finden Sie auch in [Steigung weichzeichnen](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md).
 
 
 
@@ -47,15 +55,15 @@ Wenn Sie mit Normalen-Map vertraut sind, können Sie sich vorstellen, dass die F
 
 |  |  |
 | --- | --- |
-| <b>Intensität</b> *Fließkommazahl* | Legt die Intensität der Verformung fest. |
-| <b>Eingabe-Filtermethode</b> *Boolesche Wert* | Steuert, ob zum Sampeln der Eingabe die nächstgelegenen oder bilinearen Filterungen verwendet werden. |
+| <b>Intensität</b> *Gleitend* | Legt die Intensität der Verformung fest. |
+| <b>Eingangsfiltermodus</b> *Boolescher Wert* | Steuert, ob zum Sampeln der Eingabe die nächste oder bilineare Filterung verwendet wird. |
 
-## Eingabe-Verbindungen
+## Eingangsanschlüsse
 
 |  |  |
 | --- | --- |
-| <b>Eingabe</b> *Graustufen/Farbe* PRIMÄR | Die Farbe oder das Graustufenbild. |
-| <b>Verlaufseingabe</b> *Graustufen* | Die Steigung des Farbverlaufs des Graustufen-Eingabebilds bestimmt die Verkrümmung im Ausgabebild. |
+| <b>Eingabe</b> *Graustufen/Farbe* PRIMÄR | Das Farb- oder Graustufenbild. |
+| <b>Verlaufseingabe</b> *Graustufen* | Die Steigung des Farbverlaufs des Graustufeneingabebildes bestimmt den Verkrümmungseffekt im Ausgabebild. |
 
 
 ## Beispiele
