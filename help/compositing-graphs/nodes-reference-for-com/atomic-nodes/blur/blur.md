@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Verwenden Sie den Weichzeichnungsknoten, um Weichzeichnungseffekte auf Texturen anzuwenden, um Details zu glätten und einen weichen Fokuseffekt zu erzeugen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blur
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Weichzeichnen
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '170'
 ht-degree: 6%
-
 ---
-
 
 # Weichzeichnen
 
@@ -24,7 +22,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![Symbol für Weichzeichnerknoten](blur.resources/blur-9.png){width="200px"}
+![Symbol für Weichzeichnerknoten](blur.resources/blur-9.png)
 
 **In:** Atomknoten
 
@@ -40,6 +38,14 @@ Der Weichzeichnungsknoten führt einen &quot;box-blur&quot;-Vorgang aus: Mittelu
 Der Weichzeichner eignet sich zwar gut für schnelle, einfache Vorgänge, z. B. für das leichte Weichzeichnen einiger Kanten. In jedem anspruchsvolleren Szenario ist [Weichzeichnen HQ](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/blur-hq/blur-hq.md) eine bessere Wahl, wenn Sie die Leistung gegen Qualität eintauschen möchten.
 
 </td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="blur.resources/blur-tooltip.gif" alt="Weichzeichner-QuickInfo" /></td>
+<td style="border: 0; width: 15%"></td>
 </tr>
 </table>
 

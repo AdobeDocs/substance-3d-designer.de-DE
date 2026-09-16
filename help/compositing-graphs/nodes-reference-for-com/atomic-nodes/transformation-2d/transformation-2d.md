@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Verwenden Sie den Knoten "2D-Transformation", um 2D-Transformationen auf Texturen anzuwenden, einschließlich Translation, Drehung und Skalierung.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Transformation 2D
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 2D-Transformation
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '375'
 ht-degree: 5%
-
 ---
-
 
 # 2D-Transformation
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Atomknoten: Transformation 2D](transformation-2d.resources/comp_transformation_1.png "Atomknoten: Transformation 2D"){width="200px"}
+![Atomknoten: Transformation 2D](transformation-2d.resources/comp_transformation_1.png "Atomknoten: Transformation 2D"){width="100%"}
+
+<b>In:</b> Atomknoten
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Wendet eine 2D-Transformationsmatrix auf ein Bild an: Übersetzung, Drehung, Skalierung, Symmetrie und Verformung.
 
@@ -37,29 +37,18 @@ Sie ähnelt der Funktion &quot;Transformieren&quot; (Strg-T) in Photoshop oder d
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="transformation-2D tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 Dies ist ein äußerst nützlicher und weit verbreiteter Knoten, der es ermöglicht, die Kachelung zu erhöhen, die Kachelung zu entfernen, ein Bild an einer bestimmten Position zu platzieren, einen Eingang zu dehnen oder zu quetschen, usw.
 
 Es kann jedoch für bestimmte Anwendungen nicht perfekt geeignet sein, sodass die folgenden Knoten von Interesse sein können: [Safe Transformieren](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/safe-transform/safe-transform.md), [Non-Square Transformieren](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/non-square-transform/non-square-transform.md), [Quad Transformieren](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/quad-transform/quad-transform.md) und [Trapezoid Transformieren](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/trapezoid-transform/trapezoid-transform.md).
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 >[!TIP]
 >
@@ -73,20 +62,6 @@ Es kann jedoch für bestimmte Anwendungen nicht perfekt geeignet sein, sodass di
 >
 > Die Werte für Skalierung und Drehung in den Eigenschaften des Knotens sind *relativ zur aktuellen Transformation* und werden erst auf die 2D-Ansicht angewendet, wenn Sie auf die Schaltfläche &quot;Anwenden&quot; klicken.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Ausgangsanschlüsse
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Beispiele
-
-</td>
-</tr>
-</table>
 
 ## Parameter
 
@@ -105,11 +80,6 @@ Es kann jedoch für bestimmte Anwendungen nicht perfekt geeignet sein, sodass di
 | --- | --- |
 | <b>Eingabe</b> *Graustufen/Farbe* PRIMÄR | Das Bild, das transformiert werden soll. |
 
-## Ausgangsanschlüsse
-
-|  |  |
-| --- | --- |
-| <b>Ausgabe</b> *Graustufen/Farbe* |  |
 
 ## Beispiele
 

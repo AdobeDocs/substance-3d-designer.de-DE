@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/resources/axf-appearance-exchange-format.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie AxF-Ressourcen für den Austausch von Aussehen in Substance 3D Designer für den Materialimport importieren und verwenden.
 helpx_creative_field: ""
 helpx_description: Designer > Resources > AxF (Appearance eXchange Format)
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: AxF-Dateien (Appearance eXchange Format)
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9b772dfaab124991f6c6420f451179304d2731cd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '2140'
 ht-degree: 0%
-
 ---
-
 
 # AxF-Dateien (Appearance eXchange Format)
 
@@ -124,7 +122,7 @@ Im Fall von [Substance-Graphen](../../compositing-graphs/substance-compositing-g
 
 Es gibt Diagrammvorlagen, die AxF-Workflows für [Substance-Diagramme](../../compositing-graphs/substance-compositing-graphs.md) gewidmet sind.
 
-Klicken Sie auf die Schaltfläche <b>Vorlage hinzufügen</b> und wählen Sie im Dropdownmenü den gewünschten Graf aus.
+Klicken Sie auf die Schaltfläche <b>Vorlage hinzufügen</b> und wählen Sie im Dropdownmenü den gewünschten Diagrammtyp aus.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -135,23 +133,23 @@ Klicken Sie auf die Schaltfläche <b>Vorlage hinzufügen</b> und wählen Sie im 
 </tr>
 </table>
 
-### Substance Graf-Vorlagen
+### Vorlagen für Substance-Graphen
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Es stehen zwei Arten von Substance Graf-Vorlagen zur Verfügung:
+Es stehen zwei Arten von Substance-Diagrammvorlagen zur Verfügung:
 
-<b>AxF zu Metallische Rauheit</b> und <b>AxF zu Specular-Glanz</b> sind *Konvertierungs*-Vorlagen, mit denen Sie AxF-Material zu PBR-Standardmodellen zuordnen können.\
-Diese können dann mit den standardmäßigen Datenschattierungen verwendet und mit anderen PBR-Materialien kombiniert werden, die in Designer [Sampler](https://www.adobe.com/de/products/substance3d-sampler.html) erstellt oder von unserer 3D-Ansicht [3D Assets](https://substance3d.adobe.com/assets/) erworben wurden.
+<b>AxF to Metallic Roughness</b> und <b>AxF to Specular Glossiness</b> sind *Konvertierungs*-Vorlagen, mit denen Sie AxF-Materialien Standardmodellen von PBR zuordnen können.\
+Diese können dann mit den standardmäßigen 3D-Ansichtshadern verwendet und mit anderen PBR-Materialien kombiniert werden, die in Designer [Sampler](https://www.adobe.com/de/products/substance3d-sampler.html) produziert oder von unserer [3D Assets](https://substance3d.adobe.com/assets/)-Bibliothek bezogen wurden.
 
-<b>AxF zu AxF</b> ist eine *passthrough*-Vorlage, mit der Sie AxF-Materials bearbeiten und diese Änderungen als neue Ebenen in bestehenden AxF-Dateien exportieren können. Weitere Informationen finden Sie unter Exportieren von AxF-Dateien weiter unten.
+<b>AxF zu AxF</b> ist eine *passthrough*-Vorlage, mit der Sie AxF-Materialien bearbeiten und diese Änderungen als neue Ebenen in vorhandenen AxF-Dateien exportieren können. Weitere Informationen finden Sie unter Exportieren von AxF-Dateien weiter unten.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF: Substance Graf-Vorlagen](axf-appearance-exchange-format.resources/axf-templates.png "AxF: Vorlagen für Substance-Graf")
+![AxF: Substance-Diagrammvorlagen](axf-appearance-exchange-format.resources/axf-templates.png "AxF: Substance-Diagrammvorlagen")
 
 </td>
 </tr>
@@ -161,32 +159,32 @@ Diese können dann mit den standardmäßigen Datenschattierungen verwendet und m
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Für alle in der Liste <b>Vorlagen</b> hinzugefügten Substance-Graf-Vorlagen werden die folgenden zusätzlichen Vorgänge ausgeführt:
+Für alle in der Liste <b>Vorlagen</b> hinzugefügten Substance-Diagrammvorlagen werden die folgenden zusätzlichen Vorgänge ausgeführt:
 
-Für jeden [<b>Input</b>](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)-Knoten, dessen *Verwendung* mit der *Identifizierung* einer aus der AxF-Datei extrahierten Textur übereinstimmt, wird dieser Eingabeknoten durch einen [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)-Knoten ersetzt, der auf diese Textur verweist.
+Für jeden [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)-Knoten, dessen *Verwendung* mit der *Identifizierung* einer aus der AxF-Datei extrahierten Textur übereinstimmt, wird dieser Eingabeknoten durch einen [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)-Knoten ersetzt, der auf diese Textur verweist.
 
-Die <b>Resolution</b>-Eigenschaft des Grafen (d. h. die Ausgabegröße) wird automatisch auf die Potenz von zwei gleich oder höher der Auflösung der *größten* extrahierten Textur festgelegt.
+Die <b>Auflösung</b>-Eigenschaft des Diagramms (d. h. die Ausgabegröße) wird automatisch auf die Potenz von zwei gleich oder höher der Auflösung der *größten* extrahierten Textur gesetzt.
 
-Die [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)-Knoteneigenschaft <b>Auflösung</b> (d. h. die Ausgabegröße) wird automatisch so festgelegt, dass sie der des Grafen entspricht, nachdem der vorherige Vorgang angewendet wurde.
+Die [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)-Knoteneigenschaft <b>Auflösung</b> (d. h. die Ausgabegröße) wird automatisch so festgelegt, dass sie den Werten des Diagramms entspricht, nachdem der vorherige Vorgang angewendet wurde.
 
-Die <b>Physische Größe</b>-Eigenschaft des Grafen ist auf die Physische Größe der *zuerst* extrahierten Textur festgelegt.
+Die <b>Physische Größe</b>-Eigenschaft des Diagramms ist auf die Physische Größe der *ersten* extrahierten Textur festgelegt.
 
-Die *Standardwerte* der Parameter des Grafen sind so festgelegt, dass sie mit den Daten in der AxF-Datei übereinstimmen.
+Die *Standardwerte* der Parameter des Diagramms sind so festgelegt, dass sie mit den Daten in der AxF-Datei übereinstimmen.
 
-Die *Metadaten*, die aus dem Material in der AxF-Datei extrahiert wurden, werden in die <b>Description</b>-Eigenschaft des Grafen kopiert.
+Die *Metadaten*, die aus dem Material in der AxF-Datei extrahiert wurden, werden in die <b>Description</b>-Eigenschaft des Diagramms kopiert.
 
 >[!IMPORTANT]
 >
-> Die Standardwerte der Parameter des Grafen sollten nach dieser Erstkonfiguration nicht mehr geändert werden.
+> Die Standardwerte der Parameter des Diagramms sollten nach dieser Erstkonfiguration nicht mehr geändert werden.
 > 
-> Sie geben Eigenschaften der Schattierung an, die für die korrekte Interpretation der Werte in den Texturen unerlässlich sind.
+> Sie geben Eigenschaften der Schattierung an, die für die korrekte Interpretation der Texturwerte unerlässlich sind.
 > 
-> Daher führt das Ändern dieser Einstellungen zu einem fehlerhaften Rendering, wenn das Material in der [3D-Ansicht](../../interface/3d-view/3d-view.md) angezeigt wird.
+> Daher führt das Ändern dieser Einstellungen zu einem falschen Rendering, wenn das Material in der [3D-Ansicht](../../interface/3d-view/3d-view.md) angezeigt wird.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF: Substance Graf-Parameter](axf-appearance-exchange-format.resources/axf_graph-props.png "AxF: Substance Graf-Parameter ")
+![AxF: Substance-Diagrammparameter](axf-appearance-exchange-format.resources/axf_graph-props.png "AxF: Substance-Diagrammparameter")
 
 </td>
 </tr>
@@ -194,20 +192,20 @@ Die *Metadaten*, die aus dem Material in der AxF-Datei extrahiert wurden, werden
 
 ## Exportieren von AxF-Dateien
 
-Vorhandene AxF-Dateien können direkt von Designer aus bearbeitet werden. Ihre Ressourcen werden mithilfe der [Ausgaben](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) eines [Substance-Grafen](../../compositing-graphs/substance-compositing-graphs.md) aktualisiert.
+Vorhandene AxF-Dateien können direkt von Designer aus bearbeitet werden. Ihre Ressourcen werden mithilfe der [Ausgaben](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) eines [Substance-Diagramms](../../compositing-graphs/substance-compositing-graphs.md) aktualisiert.
 
-Durch die Möglichkeit, Graphausgaben in AxF-Dateien zu exportieren, kann ein typischer AxF-Arbeitsablauf in Designer wie folgt aussehen:
+Durch die Möglichkeit, Diagrammausgaben in AxF-Dateien zu exportieren, kann ein typischer AxF-Arbeitsablauf in Designer wie folgt aussehen:
 
 1. AxF-Datei importieren
-1. Substance-Graf-Vorlage &quot;AxF zu AxF&quot; verwenden
-1. Bearbeiten Sie die extrahierten Texturen mithilfe der in Substance-Grafen verfügbaren Funktionen und Knoten.
-1. Graphausgaben in dieselbe AxF-Datei exportieren
+1. Verwenden der Substance-Grafikvorlage &quot;AxF zu AxF&quot;
+1. Die extrahierten Texturen mit den in Substance-Graphen verfügbaren Funktionen und Knoten bearbeiten
+1. Exportieren Sie die Diagrammausgaben in dieselbe AxF-Datei
 
-Die Eigenschaft <b>Physische Größe</b> des Grafen wird verwendet, um das Attribut <b>Physische Größe</b> der aktualisierten Texturen in der bearbeiteten AxF-Datei festzulegen.
+Die Eigenschaft <b>Physische Größe</b> des Diagramms wird verwendet, um das Attribut <b>Physische Größe</b> der aktualisierten Texturen in der bearbeiteten AxF-Datei festzulegen.
 
 >[!NOTE]
 >
-> Die Änderungen an den Ressourcen in der Datei werden als *neue Ebene* hinzugefügt. Das bedeutet, dass jeder Export, der von Designer in dieselbe AxF-Datei ausgeführt wird, die Dateigröße vergrößert.
+> Die Änderungen an den Ressourcen in der Datei werden als *neue Ebene* hinzugefügt. Das bedeutet, dass jeder Export, der von Designer in dieselbe AxF-Datei ausgeführt wird, die Größe dieser Datei vergrößert.
 
 ![Export AxF](axf-appearance-exchange-format.resources/exportaxf.gif)
 
@@ -219,12 +217,12 @@ Die Eigenschaft <b>Physische Größe</b> des Grafen wird verwendet, um das Attri
 
 Das Exportdialogfeld <b>AxF</b> ist im Dialogfeld <b>Exportausgaben</b> als dedizierte Registerkarte verfügbar.
 
-Öffnen Sie in der Symbolleiste [Graphansicht](../../interface/the-graph-view/the-graph-view.md) das Menü ![](axf-appearance-exchange-format.resources/tools.jpg) <b>Tools</b>, und wählen Sie die <b>Exportausgaben aus...</b>, um das Dialogfeld anzuzeigen, und wählen Sie dann die Registerkarte <b>AxF</b> aus.
+Öffnen Sie in der Symbolleiste [Diagrammansicht](../../interface/the-graph-view/the-graph-view.md) das Menü ![](axf-appearance-exchange-format.resources/tools.jpg) <b>Extras</b>, und wählen Sie die <b>Exportausgaben aus...</b>, um das Dialogfeld anzuzeigen, und wählen Sie dann die Registerkarte <b>AxF</b> aus.
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![AxF: Exportoption in der Symbolleiste der Graphansicht](axf-appearance-exchange-format.resources/axf_graph-export.png "AxF: Exportoption in der Symbolleiste der Graphansicht ")
+![AxF: Exportoption in der Symbolleiste der Diagrammansicht](axf-appearance-exchange-format.resources/axf_graph-export.png "AxF: Exportoption in der Symbolleiste der Diagrammansicht ")
 
 </td>
 </tr>
@@ -232,19 +230,19 @@ Das Exportdialogfeld <b>AxF</b> ist im Dialogfeld <b>Exportausgaben</b> als dedi
 
 Das Dialogfeld umfasst drei Hauptabschnitte:
 
-Mit dem Eingabefeld <b>Datei</b> können Sie die Ziel-AxF-Datei auswählen, die bearbeitet werden soll. Diese Datei wird geladen und überprüft, wenn sie gültig ist, werden ihre Daten verwendet, um die unten stehenden &#39;AxF resource&#39;-Spalten auszufüllen.
+Mit dem Eingabefeld <b>Datei</b> können Sie die AxF-Zieldatei auswählen, die bearbeitet werden soll. Diese Datei wird geladen und überprüft, wenn sie gültig ist, werden ihre Daten verwendet, um die unten stehenden &#39;AxF resource&#39;-Spalten auszufüllen.
 
-<b>Zugeordnete Ausgaben</b> listet die Graphausgaben in der Spalte &quot;Ausgabe&quot; auf und stimmt ihre *Verwendung* mit einer AxF-Ressource in der Zieldatei überein, die dieselbe *Identifizierung* verwendet. Wenn Probleme erkannt werden, werden sie als Warnung (gelb) oder Fehler (ref) in der Spalte Hinweise angezeigt.
+<b>Zugeordnete Ausgaben</b> listet die Diagrammausgaben in der Spalte &quot;Ausgabe&quot; auf und stimmt ihre *Verwendung* mit einer AxF-Ressource in der Zieldatei überein, die denselben *Bezeichner* verwendet. Wenn Probleme erkannt werden, werden sie als Warnung (gelb) oder Fehler (ref) in der Spalte Hinweise angezeigt.
 
-<b>Nicht zugeordnete Ausgaben</b> listet Graphausgaben und AxF-Ressourcen in der Zieldatei auf, die nicht zugeordnet werden konnten. Diese Ausgaben werden ignoriert und diese AxF-Ressourcen bleiben unverändert.
+<b>Nicht zugeordnete Ausgaben</b> listet Diagrammausgaben und AxF-Ressourcen in der Zieldatei auf, die nicht zugeordnet werden konnten. Diese Ausgaben werden ignoriert und diese AxF-Ressourcen bleiben unverändert.
 
 >[!NOTE]
 >
-> Die <b>Group</b>-Eigenschaft einer Graphausgabe muss auf &#39;AxF&#39; festgelegt sein, damit sie in diesem Dialogfeld aufgelistet wird.
+> Für eine Diagrammausgabe muss die <b>Group</b>-Eigenschaft auf &#39;AxF&#39; festgelegt sein, damit sie in diesem Dialogfeld aufgelistet wird.
 
 ![AxF: Exportdialog](axf-appearance-exchange-format.resources/axf_export.png "AxF: Dialogfeld &quot;Exportieren&quot;")
 
-Klicken Sie auf <b>Export </b> starten, um die Zielebene mit der neuen AxF-Datei zu bearbeiten, die die Änderungen in den zugeordneten Ausgaben enthält.
+Klicken Sie auf <b>Export </b> starten, um die AxF-Zieldatei mit der neuen Ebene zu bearbeiten, die die Änderungen in den zugeordneten Ausgaben enthält.
 
 Das Ergebnis wird als Meldung neben der Fortschrittsleiste in der Statusleiste des Dialogfelds angezeigt.
 
@@ -254,7 +252,7 @@ Das Ergebnis wird als Meldung neben der Fortschrittsleiste in der Statusleiste d
 
 ### Zuordnen von Ausgaben zu AxF-Ressourcen
 
-Beim Exportieren in eine bestehende AxF-Datei werden die Ressourcen mithilfe der Graphausgaben aktualisiert. Designer stimmt den Ressourcenbezeichner mit den [Ausgabeknoten](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) überein, die denselben Bezeichner wie eine <b>Verwendung</b> aufweisen.
+Beim Export in eine vorhandene AxF-Datei werden die Ressourcen mithilfe der Diagrammausgaben aktualisiert. Designer stimmt den Ressourcenbezeichner mit den [Ausgabeknoten](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) überein, die denselben Bezeichner wie eine <b>Verwendung</b> aufweisen.
 
 Außerdem muss die <b>Group</b>-Eigenschaft der Ausgabe ** auf &#39;AxF&#39; festgelegt sein, damit sie im AxF-Exportdialogfeld aufgeführt wird (siehe oben).
 
@@ -297,28 +295,28 @@ Ein eigener GLSLFX-Shader ist verfügbar, um Materialien mithilfe einer SVBRDF-D
 
 Der Shader ist im Menü <b>Materialien</b> verfügbar: Öffnen Sie das Untermenü für das Material der Szene (&quot;Standard&quot; ist standardmäßig aktiviert), und wählen Sie unter dem Eintrag <b>AxF SVBRDF</b> eine Technik aus.
 
-Verwenden Sie die Option <b>Bearbeiten</b> im selben Untermenü, um die Eigenschaften des Shader im Dock [Eigenschaften](../../interface/properties/properties.md) anzuzeigen.\
-Mit der <b>Kachelung</b>-Eigenschaft können Sie insbesondere die Kachelung der Texturen im Modell anpassen, sodass Sie das Material in einer geeigneten Größe anzeigen können.
+Verwenden Sie die Option <b>Bearbeiten</b> im selben Untermenü, um die Eigenschaften des Shaders im Dock [Eigenschaften](../../interface/properties/properties.md) anzuzeigen.\
+Insbesondere können Sie mit der <b>Kachelung</b>-Eigenschaft die Kachelung von Texturen im Modell anpassen, sodass Sie das Material in einer geeigneten Skala darstellen können.
 
-Klicken Sie nach Auswahl des Shader auf RMB in leerem Speicherplatz im Graf und wählen Sie die Option <b>Ausgaben in 3D-Ansicht anzeigen</b> aus, um die Ausgaben in der [3D-Ansicht anzeigen](../../interface/3d-view/3d-view.md) anzuzeigen.
+Klicken Sie nach Auswahl des Shaders im Diagramm auf RMB in leerem Raum und wählen Sie die Option <b>Ausgaben in 3D-Ansicht anzeigen</b>, um die Ausgaben in der [3D-Ansicht anzeigen](../../interface/3d-view/3d-view.md) zu visualisieren.
 
-![AxF: SVBRDF GLSLFX Shader](axf-appearance-exchange-format.resources/axf_glslfx-svbrdf.png "AxF: SVBRDF GLSLFX Shader"){width="600px"}
+![AxF: SVBRDF GLSLFX shader](axf-appearance-exchange-format.resources/axf_glslfx-svbrdf.png "AxF: SVBRDF GLSLFX-Shader"){width="600px"}
 
-Dieser Shader ist derzeit *in Bearbeitung* und einige Funktionen werden noch nicht unterstützt. Daher kann es zwar einen Überblick über die Merkmale der Materialien geben, sollte aber nicht für Feinanpassungen verwendet werden.
+Dieser Shader ist derzeit *in Bearbeitung* und einige Funktionen werden noch nicht unterstützt. Daher kann es zwar einen Überblick über die Eigenschaften der Materialien geben, sollte aber nicht für Feinanpassungen verwendet werden.
 
-Verwenden Sie die Option <b>Bearbeiten</b> im selben Untermenü, um die Eigenschaften des Shader im Dock [Eigenschaften](../../interface/properties/properties.md) anzuzeigen.\
-Mit der <b>Kachelung</b>-Eigenschaft können Sie insbesondere die Kachelung der Texturen im Modell anpassen, sodass Sie das Material in einer geeigneten Größe anzeigen können.
+Verwenden Sie die Option <b>Bearbeiten</b> im selben Untermenü, um die Eigenschaften des Shaders im Dock [Eigenschaften](../../interface/properties/properties.md) anzuzeigen.\
+Insbesondere können Sie mit der <b>Kachelung</b>-Eigenschaft die Kachelung von Texturen im Modell anpassen, sodass Sie das Material in einer geeigneten Skala darstellen können.
 
-Klicken Sie nach Auswahl des Shader auf RMB in leerem Speicherplatz im Graf und wählen Sie die Option <b>Ausgaben in 3D-Ansicht anzeigen</b> aus, um die Ausgaben in der [3D-Ansicht anzeigen](../../interface/3d-view/3d-view.md) anzuzeigen.
+Klicken Sie nach Auswahl des Shaders im Diagramm auf RMB in leerem Raum und wählen Sie die Option <b>Ausgaben in 3D-Ansicht anzeigen</b>, um die Ausgaben in der [3D-Ansicht anzeigen](../../interface/3d-view/3d-view.md) zu visualisieren.
 
 ![AxF: Anzeige für Edition](axf-appearance-exchange-format.resources/axf-view-for-edit.gif "AxF: Anzeigen für die Edition")
-<i>Hinweis:</i> Ignorieren Sie bis zum Ende den Teil des Videos vom Wechsel zum Iray-Renderer, da der Iray-Renderer und die MDL-Unterstützung in Version 16.0.0 <i>aus Designer entfernt</i> wurden.
+<i>Hinweis:</i> Ignorieren Sie den Teil des Videos vom Wechsel zum Iray-Renderer bis zum Ende, da der Iray-Renderer und die MDL-Unterstützung in Version 16.0.0 <i>aus Designer entfernt</i> wurden.
 
 +++
 
 ### Unterstützte Modellvarianten
 
-Die in der 3D-Ansicht verwendeten Shader unterstützen die folgenden Varianten für Specular-, Fresnel- und Klarlack-Transmissionsmodelle:
+Die in der 3D-Ansicht verwendeten Shader unterstützen die folgenden Varianten für Specular-, Fresnel- und Clear-Coat-Transmissionsmodelle:
 
 <table>
 <tr style="border: 0;">

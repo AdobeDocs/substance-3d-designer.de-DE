@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lernen Sie die wichtigsten Konzepte von Substance-Compositing-Grafen kennen, einschließlich Knoten, Verbindungen und Workflow-Grundlagen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Substance graph key concepts
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Grundlagen zu Substance-Graphen
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 1%
-
 ---
-
 
 # Grundlagen zu Substance-Graphen
 
@@ -43,7 +41,7 @@ Im Folgenden finden Sie einige Dinge, die Sie über Ausgaben wissen sollten:
 * Die Ausgaben können und sollten <b>eindeutig benannt</b> sein, um sie zu identifizieren. Dies ist beim Exportieren hilfreich.
 * Jeder Connector auf der rechten Seite eines Knotens ist tatsächlich ein Output (siehe &quot;Sub-Graphen für weitere Informationen)
 
-Eine [Eingabe](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) ähnelt einer Ausgabe. Es handelt sich um einen leeren, offenen Steckplatz, mit dem Sie oder ein anderer Benutzer Ihre eigenen Daten verbinden können. Es ermöglicht die Erstellung von Graf, der in externen, benutzerdefinierten Bilddaten enthalten ist, z. B. ein Filter, der ein Eingabebild verändert (z. B. eine Weichzeichnungs- oder eine Kontrastkorrektur).
+Eine [Eingabe](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) ähnelt einer Ausgabe. Es handelt sich um einen leeren, offenen Steckplatz, mit dem Sie oder ein anderer Benutzer Ihre eigenen Daten verbinden können. Es ermöglicht die Erstellung von Graf, der in externen, benutzerdefinierten Bilddaten enthalten ist, z. B. ein Filter, der ein Eingabebild verändert (z. B. eine Weichzeichnungs- oder eine Kontrastkorrektur).
 
 Im Folgenden finden Sie einige Dinge, die Sie über Eingaben wissen sollten:
 

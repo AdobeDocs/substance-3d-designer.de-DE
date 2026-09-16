@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Verwenden Sie den Knoten Verlaufs-Map , um Farben mithilfe von Verlaufsrampen Graustufenwerte für Färbungen und Effekte zuzuordnen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient map
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Verlaufsumsetzung
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 2%
-
 ---
-
 
 # Verlaufsumsetzung
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Elementare Knoten: Verlaufsumsetzung](gradient-map.resources/comp_gradient_1.png "Elementare Knoten: Verlaufsumsetzung"){width="200px"}
+![Elementare Knoten: Verlaufsumsetzung](gradient-map.resources/comp_gradient_1.png "Elementare Knoten: Verlaufsumsetzung"){width="100%"}
+
+<b>In:</b> Elementare Knoten
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Ordnet die Graustufenwerte in einem Bild mithilfe eines benutzerdefinierten Verlaufs neu zu.
 
@@ -37,31 +37,17 @@ Dieser Knoten erfüllt einen doppelten Zweck: Es kann einfach als <b> verwendet 
 </tr>
 </table>
 
-Der Knoten bietet einen erweiterten und funktionsreichen Verlaufseditor, mit dem Sie mehrere Farben präzise zuordnen können: Weitere Informationen finden Sie im Abschnitt [Verlaufseditor](#gradient-editor) auf dieser Seite.
-
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="QuickInfo für Verlaufsumsetzung" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
-## Beispiele
+Der Knoten bietet einen erweiterten und funktionsreichen Verlaufseditor, mit dem Sie mehrere Farben präzise zuordnen können: Weitere Informationen finden Sie im Abschnitt [Verlaufseditor](#gradient-editor) auf dieser Seite.
 
-## Parameter
+
 
 |  |  |
 | --- | --- |
@@ -86,26 +72,26 @@ Die Farben und ihre Position entlang des Verlaufs werden durch Nadeln entlang de
 
 Jede Nadel legt eine Farbe an ihrer Position entlang des Verlaufs fest.
 
-Die Abschnitte des Verlaufs vor und nach dem ersten bzw. letzten Pin werden auf die Farben dieses Pins festgelegt.
+Die Abschnitte des Verlaufs vor und nach der ersten bzw. letzten Nadel werden auf die Farben dieser Nadel festgelegt.
 
 ![Verlaufseditor - Verlaufsansicht](gradient-map.resources/image2017-2-17-17-27-46.png "Verlaufseditor - Verlaufsansicht")
 
-Die folgenden Steuerelemente sind zum Bearbeiten von Pins verfügbar:
+Die folgenden Steuerelemente sind zum Bearbeiten von Nadeln verfügbar:
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>Stecknadel hinzufügen</b>
+<b>Nadel hinzufügen</b>
 
-Klicken Sie auf LMB auf dem Farbverlauf oder direkt darunter, um einen Pin an der Position hinzuzufügen, auf die Sie im Farbverlaufsbalken geklickt haben.
+Klicke auf das LMB-Symbol im Farbverlauf oder direkt darunter, um eine Nadel an der Stelle einzufügen, auf die du im Farbverlaufsbalken geklickt hast.
 
-Der neue Pin wird an dieser Position auf die Farbe des Verlaufs gesetzt.
+Die neue Nadel wird an dieser Stelle auf die Verlaufsfarbe gesetzt.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Verlaufseditor - Pin hinzufügen](gradient-map.resources/move-pin.gif "Verlaufseditor - Pin hinzufügen")
+![Verlaufseditor - Nadel hinzufügen](gradient-map.resources/move-pin.gif "Verlaufseditor - Nadel hinzufügen")
 
 </td>
 </tr>
@@ -115,40 +101,40 @@ Der neue Pin wird an dieser Position auf die Farbe des Verlaufs gesetzt.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>Stecknadel verschieben</b>
+<b>Nadel verschieben</b>
 
-Halten Sie LMB gedrückt und ziehen Sie die ausgewählten Pins entlang der Verlaufsleiste, um sie zu verschieben.
+Halten Sie die LMB-Taste gedrückt und ziehen Sie die ausgewählten Nadeln entlang des Verlaufsbalkens, um sie zu verschieben.
 
-Sie können auch die Position eines Pins mit einem numerischen Wert festlegen, indem Sie ihn auswählen und den Parameter <b>Position</b> verwenden. Die Position ist ein Wert im Bereich [0;1], wobei 0 der Anfang des Farbverlaufs und 1 sein Ende ist.
+Sie können die Position einer Nadel auch mit einem numerischen Wert festlegen, indem Sie sie auswählen und den Parameter <b>Position</b> verwenden. Die Position ist ein Wert im Bereich [0;1], wobei 0 der Anfang des Farbverlaufs und 1 sein Ende ist.
 
-![Verlaufseditor - Pin-Positionsparameter](gradient-map.resources/image2015-8-27-13-56-2.png "Verlaufseditor - Pin-Positionsparameter")
+![Verlaufseditor - Parameter für die Nadel](gradient-map.resources/image2015-8-27-13-56-2.png "Verlaufseditor - Parameter für die Nadel")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Verlaufseditor - Pin verschieben](gradient-map.resources/movepin2.gif "Verlaufseditor - Pin verschieben")
+![Verlaufseditor - Nadel verschieben](gradient-map.resources/movepin2.gif "Verlaufseditor - Nadel verschieben")
 
 </td>
 </tr>
 </table>
 
-Wenn mehrere Pins ausgewählt sind, können alle gleichzeitig ** verschoben werden. Wenn ein oder mehrere Pins beim Verschieben den Verlauf erreichen und beenden, stehen je nach der für das Verschieben verwendeten Maustaste zwei Verhalten zur Verfügung:
+Wenn mehrere Nadeln ausgewählt sind, können alle gleichzeitig ** verschoben werden. Wenn eine oder mehrere Nadeln den Verlauf beim Verschieben erreichen und beenden, stehen je nach der für das Verschieben verwendeten Maustaste zwei Verhalten zur Verfügung:
 
-* <b>LMB:</b> Pins verbleiben am Ende, d. h. sie werden an dieser Position gestapelt, wenn sie das Pin erreichen, und ihre relative Position wird geändert.
-* <b>MMB:</b> Pins werden am anderen Ende des Verlaufs wiederholt, d. h. ihre relativen Positionen bleiben unverändert.
+* <b>LMB:</b> Nadeln verbleiben am Ende, d. h. sie werden an dieser Stelle gestapelt, wenn sie das Objekt erreichen, und ihre relative Position wird geändert.
+* <b>MMB:</b> Nadeln werden am anderen Ende des Farbverlaufs wiederholt, d. h. ihre Relativpositionen bleiben unverändert.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>Pin löschen</b>
+<b>Nadel löschen</b>
 
-Wählen Sie die Pins aus und drücken Sie die Entf-Taste oder ziehen Sie die Pins aus dem Verlaufsbalken, um sie zu löschen.
+Wählen Sie die Nadeln aus und drücken Sie die Entf-Taste oder ziehen Sie die Nadeln aus dem Verlaufsbalken, um sie zu löschen.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Verlaufseditor - Pin löschen](gradient-map.resources/removepin.gif "Verlaufseditor - Pin löschen")
+![Verlaufseditor - Nadel löschen](gradient-map.resources/removepin.gif "Verlaufseditor - Nadel löschen")
 
 </td>
 </tr>
@@ -160,7 +146,7 @@ Wählen Sie die Pins aus und drücken Sie die Entf-Taste oder ziehen Sie die Pin
 
 <b>Positionen umkehren</b>
 
-Spiegelt die Positionen der ausgewählten Pins im Verlauf.
+Spiegelt die Positionen der ausgewählten Nadeln auf dem Verlauf.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -255,14 +241,14 @@ Mit dem Farbwähler können Sie eine Farbe auf verschiedene Weise festlegen:
 
   <table>
   <tr style="border: 0;">
-  <td width="100.00%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   Mit den Reglern &quot;RGB&quot;, &quot;HSV&quot; und &quot;Alpha&quot; können Sie eine Farbe präzise einstellen, indem Sie die Regler anpassen oder ihre numerischen Werte direkt festlegen.
 
   Alternativ können Sie auch einen Hexadezimalcode in das Eingabefeld unter den Reglern eingeben.
 
   </td>
-  <td width="33.33%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   ![Farbwähler - RGB-, HSV- und Alpha-Schieberegler](gradient-map.resources/image2017-2-17-18-31-41.png "Farbwähler - RGB-, HSV- und Alpha-Schieberegler")
 
@@ -289,7 +275,7 @@ Mit dem Farbwähler können Sie eine Farbe auf verschiedene Weise festlegen:
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Die ausgewählte Farbe wird in der oberen Hälfte der Farbminiatur in der Vorschau angezeigt.\
 In der unteren Hälfte wird die zuvor verwendete Farbe angezeigt. Doppelklicken Sie auf LMB, um die bearbeitete Farbe wiederherzustellen.
@@ -303,11 +289,11 @@ In der unteren Hälfte wird die zuvor verwendete Farbe angezeigt. Doppelklicken 
 </tr>
 </table>
 
-Wenn mehrere Nadeln ausgewählt sind, werden die Regler &quot;RGB&quot;, &quot;HSV&quot; und &quot;Alpha&quot; zu Delta-Reglern (), d. h., sie werden verwendet, um den Wert jeder Nadel um denselben Wert zu versetzen.
+Wenn mehrere Pins ausgewählt sind, werden die Schieberegler für RGB, HSV und Alpha in Delta-()-Schieberegler umgewandelt, d. h., sie werden verwendet, um den Wert jedes Pins um denselben Wert zu verschieben.
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Darüber hinaus stehen die folgenden Funktionen unter der Farbminiatur als Schaltflächen zur Verfügung:
 
@@ -321,7 +307,7 @@ Darüber hinaus stehen die folgenden Funktionen unter der Farbminiatur als Schal
 
 <b>sRGB</b>: Verwenden Sie den sRGB-Farbraum, um Farben anzuzeigen. Ist die Option deaktiviert, wird der lineare Farbraum verwendet.
 
-<b>Fließkommazahl:</b> Zeigt die Werte der RGB-, HSV- und Alpha-Schieberegler in Gleitkommawerten an.
+<b>Gleitkommawert:</b> Zeigt die Werte der RGB-, HSV- und Alpha-Schieberegler in Gleitkommawerten an.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
@@ -340,17 +326,12 @@ Die Verlaufs-Pipette ist eine der nützlichsten Funktionen dieses Knotens, da Si
 
 Der Regler <b>Genauigkeit</b> hilft Ihnen beim Anpassen des neu erstellten Verlaufs, indem Sie die Anzahl der Tasten erhöhen oder verringern: Je niedriger die Werte sind, desto präziser stimmt der Verlauf mit den ausgewählten Werten überein.
 
-## Eingabe-Verbindungen
+## Eingangsanschlüsse
 
 |  |  |
 | --- | --- |
 | <b>Eingabe</b> *Graustufen* PRIMÄR | Das zu verarbeitende Graustufenbild. |
 
-## Ausgabe-Verbindungen
-
-|  |  |
-| --- | --- |
-| <b>Ausgabe</b> *Graustufen* |  |
 
 ## Beispiele
 

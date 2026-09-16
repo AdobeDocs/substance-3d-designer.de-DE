@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Greifen Sie in Substance 3D Designer auf Atomknoten zu, um grundlegende Vorgänge wie Eingaben, Ausgaben, Füllmethoden und Farbanpassungen auszuführen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Elementare Knoten
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 989234054615406114d2f7664ebee6f8c86f4bf2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 11%
-
+ht-degree: 12%
 ---
-
 
 # Elementare Knoten
 
@@ -129,16 +127,16 @@ Alle anderen Substance-Diagrammknoten in der [Library](../../../interface/the-li
 </td>
 <td style="border: 0;" valign="top">
 
-[![Atomknoten: Eingabefarbe &#x200B;](atomic-nodes.resources/comp_inputcolor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[![Atomknoten: Eingabefarbe &#x200B;](atomic-nodes.resources/comp_inputcolor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
 
-[Eingabefarbe](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Eingabefarbe](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Atomknoten: Graustufen &#x200B;](atomic-nodes.resources/comp_inputgrayscale.png) eingeben](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[![Atomknoten: Graustufen &#x200B;](atomic-nodes.resources/comp_inputgrayscale.png) eingeben](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
 
-[Graustufen eingeben](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) [&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Eingabegraustufen](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
 
 </td>
 </tr>
@@ -148,9 +146,9 @@ Alle anderen Substance-Diagrammknoten in der [Library](../../../interface/the-li
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Atomknoten: Eingabewert &#x200B;](atomic-nodes.resources/comp_inputnumeric.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[![Atomknoten: Eingabewert &#x200B;](atomic-nodes.resources/comp_inputnumeric.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
 
-[Eingabewert](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Eingabewert](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
 
 </td>
 <td style="border: 0;" valign="top">

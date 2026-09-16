@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Verwenden Sie den Knoten Wertprozessor , um Texturwerte mit mathematischen Operationen für benutzerdefinierte Anpassungen zu verarbeiten und zu bearbeiten.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Value processor
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Wertprozessor
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 4%
-
+source-wordcount: '156'
+ht-degree: 3%
 ---
-
 
 # Wertprozessor
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Atomknoten: Wertprozessor](value-processor.resources/comp_valueprocessor_1.png "Atomischer Knoten: Wertprozessor "){width="200px"}
+![Atomknoten: Wertprozessor](value-processor.resources/comp_valueprocessor_1.png "Atomischer Knoten: Wertprozessor "){width="100%"}
+
+<b>In:</b> Atomknoten
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Berechnet ein [Substance-Funktionsdiagramm &#x200B;](../../../../function-graphs/the-function-graph/the-function-graph.md) und gibt dessen Ergebnis aus.
 
@@ -38,24 +38,13 @@ Er ist mit einem [Pixelprozessor](../../../../compositing-graphs/nodes-reference
 </table>
 
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="value-processor.resources/value-processor-tooltip.gif" alt="QuickInfo für Werteprozessor" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
+
 
 >[!TIP]
 >
@@ -63,20 +52,6 @@ Er ist mit einem [Pixelprozessor](../../../../compositing-graphs/nodes-reference
 > 
 > Beachten Sie auch, dass die Arbeit mit dieser Art von Graphen und die Durchführung mathematischer Operationen zwingend erforderlich ist, um alles aus diesem Knoten herauszuholen.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Ausgangsanschlüsse
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Beispiele
-
-</td>
-</tr>
-</table>
 
 ## Parameter
 
@@ -90,11 +65,6 @@ Er ist mit einem [Pixelprozessor](../../../../compositing-graphs/nodes-reference
 | --- | --- |
 | <b>Eingabebild #</b> *Graustufen/Farbe* | Verwenden Sie einen [Beispielfarbe](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md)- oder [Beispielgrau](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md)-Knoten, um auf die Werte in der Eingabe des angegebenen Index zuzugreifen. |
 
-## Ausgangsanschlüsse
-
-|  |  |
-| --- | --- |
-| <b>Ausgabe</b> *Beliebiger verfügbarer Werttyp* |  |
 
 ## Beispiele
 

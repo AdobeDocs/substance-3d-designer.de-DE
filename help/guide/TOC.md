@@ -3,13 +3,11 @@ user-guide-title: Substance 3D Designer
 breadcrumb-title: Substance 3D Designer
 user-guide-description: Substance 3D Designer
 nudge: true
-source-git-commit: 447b0e3beb6c147063de7e2642d646a988de060e
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '1905'
 ht-degree: 22%
-
 ---
-
 
 # Substance 3D Designer {#using}
 
@@ -132,7 +130,9 @@ ht-degree: 22%
       + [Wertprozessor](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
       + [Verzerrung](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)
       + [Ausgabe](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-      + [Eingabe](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+      + [Eingabefarbe](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
+      + [Eingabegraustufen](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
+      + [Eingabewert](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
     + Knotenbibliothek{#node-library}
       + [Knotenbibliothek](/help/compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
       + Texturgeneratoren{#texture-generators}
@@ -181,7 +181,7 @@ ht-degree: 22%
           + [Fur 1](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fur-1/fur-1.md)
           + [Fur 2](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fur-2/fur-2.md)
           + [Fur 3](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fur-3/fur-3.md)
-          + [Gaußscher Rauschen](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md)
+          + [Gaußsches Rauschen](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md)
           + [Gaußsche Flecken 1](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-spots-1/gaussian-spots-1.md)
           + [Gaußsche Flecken 2](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-spots-2/gaussian-spots-2.md)
           + [Schmutz](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/grunge-concrete/grunge-concrete.md)
@@ -256,7 +256,7 @@ ht-degree: 22%
           + [Rasteratlas-Graustufen](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-grayscale/grid-atlas-grayscale.md)
           + [Höhenextrusion](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/height-extrude/height-extrude.md)
           + [Gitter 1](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/mesh-1/mesh-1.md)
-          + [MESH 2](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/mesh-2/mesh-2.md)
+          + [Gitter 2](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/mesh-2/mesh-2.md)
           + [Panorama-Form](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/panorama-shape/panorama-shape.md)
           + [Polygon 1](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/polygon-1/polygon-1.md)
           + [Polygon 2](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/polygon-2/polygon-2.md)
@@ -373,8 +373,8 @@ ht-degree: 22%
           + [Weiche Abschrägung](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md)
           + [Querschnitt](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/cross-section/cross-section.md)
           + [Krümmung](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md)
-          + [Krümmung glatt](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)
-          + [Krümmung Sobel](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md)
+          + [Glatte Krümmung](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)
+          + [Krümmungssobel](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md)
           + [Farbe der Diffusion](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-color/diffusion-color.md)
           + [Diffusion Graustufen](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-grayscale/diffusion-grayscale.md)
           + [Diffusion UV](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-uv/diffusion-uv.md)
@@ -394,7 +394,7 @@ ht-degree: 22%
           + [FXAA](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/fxaa/fxaa.md)
           + [Glühen](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/glow/glow.md)
           + [Mosaik](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/mosaic/mosaic.md)
-          + [Multidirektionale Verkrümmung](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/multi-directional-warp/multi-directional-warp.md)
+          + [Multidirektionale Verformung](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/multi-directional-warp/multi-directional-warp.md)
           + [Unregelmäßige Richtungsverkrümmung](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/non-uniform-directional/non-uniform-directional-warp.md)
           + [Reaktionsschnelle Diffusion](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/reaction-diffusion-fast/reaction-diffusion-fast.md)
           + [RT-Bestrahlung](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/rt-irradiance/rt-irradiance.md)
@@ -418,7 +418,7 @@ ht-degree: 22%
           + [Normale Kombination](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md)
           + [Normale Invertierung](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-invert/normal-invert.md)
           + [Normale Normalisierung](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-normalize/normal-normalize.md)
-          + [Normaler Sobel](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)
+          + [Normal Sobel](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)
           + [Normal zu Height](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height/normal-to-height.md)
           + [Normal bis Height HQ](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height-hq/normal-to-height-hq.md)
           + [Normaler transformieren](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-transform/normal-transform.md)
@@ -518,7 +518,7 @@ ht-degree: 22%
           + [Lederbekleidung](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/leather-wear/leather-wear.md)
           + [Hell](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/light/light.md)
           + [Maskenbildner](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-builder/mask-builder.md)
-          + [Metallrandohr](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/metal-edge-wear/metal-edge-wear.md)
+          + [Abnutzung von Metallkanten](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/metal-edge-wear/metal-edge-wear.md)
           + [Malen](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/paint-wear/paint-wear.md)
           + [Selektiver Dirt](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/selective-dirt/selective-dirt.md)
           + [Sonnenbleichmittel](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/sun-bleach/sun-bleach.md)
@@ -551,9 +551,9 @@ ht-degree: 22%
           + [Pfade-Polygon](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md)
           + [Vorschau von Pfaden](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)
           + [Pfade verformen](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md)
-          + [Quad transformieren on path](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md)
+          + [Quad-Transformation auf Pfad](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md)
           + [Pfade auswählen](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-select/paths-select.md)
-          + [Prozessor für Pfade-Scheitelpunkt](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)
+          + [Vertexprozessor für Pfade](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)
           + [Pfade Scheitelpunkt Prozessor einfach](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md)
         + Spline-Werkzeuge{#spline-tools}
           + [Spline-Werkzeuge](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-tools.md)
@@ -561,7 +561,7 @@ ht-degree: 22%
           + [Streuung auf Spline-Farbe](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md)
           + [Streuung auf Spline-Graustufen](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-spline-grayscale/scatter-on-spline-grayscale.md)
           + [Streuung Splines on Splines](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-splines-splines/scatter-splines-on-splines.md)
-          + [2D-Spline-transformieren](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md)
+          + [2D-Transformation Spline](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md)
           + [Spline - Kubisch](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-cubic/spline-cubic.md)
           + [Spline - Poly quadratisch](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md)
           + [Spline - Quadratisch](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-quadratic/spline-quadratic.md)
@@ -606,11 +606,11 @@ ht-degree: 22%
           + [Horizont begradigen](/help/compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/straighten-horizon/straighten-horizon.md)
       + Werte{#values}
         + [Konstanten](/help/compositing-graphs/nodes-reference-for-com/node-library/values/constant.md)
-+ Substance, Funktion Graf{#substance-function-graphs}
-  + [Substance, Funktion Graf](/help/function-graphs/function-graphs.md)
++ Substance-Funktionsdiagramme{#substance-function-graphs}
+  + [Substance-Funktionsdiagramme](/help/function-graphs/function-graphs.md)
   + [Was ist ein Substance-Funktions-Graf?](/help/function-graphs/what-is-a-function/what-is-a-function.md)
   + [Erstellen und Bearbeiten einer Funktion](/help/function-graphs/create-and-edit-function/create-and-edit-a-function.md)
-  + [Der Substance-Funktions-Graf](/help/function-graphs/the-function-graph/the-function-graph.md)
+  + [Das Funktionsdiagramm von Substance](/help/function-graphs/the-function-graph/the-function-graph.md)
   + Variablen{#variables}
     + [Variablen](/help/function-graphs/variables/variables.md)
     + [Integrierte Variablen](/help/function-graphs/variables/system-variables/system-variables.md)
@@ -622,7 +622,7 @@ ht-degree: 22%
     + [Der Knoten Iterate](/help/function-graphs/fxmaps/the-iterate-node/the-iterate-node.md)
     + [Der Knoten Quadrant](/help/function-graphs/fxmaps/the-quadrant-node/the-quadrant-node.md)
     + Verwenden von Substance-Funktions-Grafen in FX-Maps{#using-substance-function-graphs-in-fx-maps}
-      + [Verwenden von Substance-Funktionsgrafiken in FX-Maps](/help/function-graphs/fxmaps/using-functions-in-fxmaps/using-functions-in-fxmaps.md)
+      + [Verwenden von Substance-Funktions-Grafen in FX-Maps](/help/function-graphs/fxmaps/using-functions-in-fxmaps/using-functions-in-fxmaps.md)
       + [Variable &quot;Iterate&quot; und &quot;$number&quot;](/help/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-var/iterate-and-number-variable.md)
       + [Verwenden der Sampler-Knoten](/help/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-sampler-nodes/using-the-sampler-nodes.md)
       + [Verwenden der Set-/Sequenzknoten](/help/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md)
@@ -693,10 +693,10 @@ ht-degree: 22%
           + [Skalierung](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-transforms/3d-sdf-transform-scale/3d-sdf-transform-scale.md)
           + [Wirbel](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-transforms/3d-sdf-transform-twist/3d-sdf-transform-twist.md)
         + Material{#sdf-functions-material}
-          + [Material-ID festlegen](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-material/set-id/set-id.md)
+          + [Materialkennung festlegen](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-material/set-id/set-id.md)
           + [Material festlegen](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-material/set-material/set-material.md)
           + [Festlegen der Farbe](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-material/set-color/set-color.md)
-          + [Rauheit festlegen](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-material/set-roughness/set-roughness.md)
+          + [Festlegen der Raueit](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-material/set-roughness/set-roughness.md)
           + [Metallität einstellen](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-material/set-metalness/set-metalness.md)
       + [Color](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-color/function-nodes-color.md)
       + Zufallswert{#random}
@@ -704,7 +704,7 @@ ht-degree: 22%
         + [Hash-Funktionen](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/hash-functions/hash-functions.md)
 + Arbeiten mit 3D-Szenen{#working-with-3d-scenes}
   + [Arbeiten mit 3D-Szenen](/help/working-with-3d-scenes/working-with-3d-scenes.md)
-  + [Überschreiben von Szene-Materialien](/help/working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)
+  + [Außerkraftsetzte Szenenmaterialien](/help/working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)
   + [Extrahieren der Werte und Texturen von Materialien](/help/working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)
   + [Exportieren von Szenen](/help/working-with-3d-scenes/exporting-scenes/exporting-scenes.md)
 + Baker{#bakers}

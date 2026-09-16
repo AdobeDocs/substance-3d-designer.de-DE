@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Verwenden Sie den Knoten Kurve , um die Texturwerte mithilfe anpassbarer Kurven für eine präzise Farb- und Helligkeitssteuerung anzupassen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Curve
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Kurve
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '611'
 ht-degree: 2%
-
 ---
-
 
 # Kurve
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Atomknoten: Kurve](curve.resources/comp_curve_1.png "Atomknoten: Kurve"){width="200px"}
+![Atomknoten: Kurve](curve.resources/comp_curve_1.png "Atomknoten: Kurve"){width="100%"}
+
+<b>In:</b> Atomknoten
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Ordnet die Werte in einem Bild mithilfe einer benutzerdefinierten Kurve neu zu.
 
@@ -37,53 +37,19 @@ Der Knoten bietet eine Schnittstelle zur Neuzuordnung der Bildtonalität, ähnli
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="curve.resources/curve-tooltip.gif" alt="Kurven-QuickInfo" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 Im Gegensatz zu den meisten anderen Knoten verfügt der Knoten Kurve nicht über eine typische Standardschnittstelle mit Schiebereglern und Parametern, sondern bietet stattdessen einen vollwertigen Kurveneditor. Im folgenden Abschnitt finden Sie weitere Informationen zur Verwendung der Applikation.
 
 [Dies bedeutet jedoch, dass keiner der Parameter eines Kurvenknotens einem Untergraph verfügbar gemacht werden kann](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md). Die einzige Option ist hier, einen [Multiswitch](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md) zu verwenden, um zwischen verschiedenen Kurvenprofilen zu wechseln.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Parameter
-
-### Kurveneditor
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Eingangsanschlüsse
-
-### Ausgangsanschlüsse
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Beispiele
-
-</td>
-</tr>
-</table>
 
 ## Parameter
 
@@ -105,12 +71,12 @@ Um einen Punkt zu erstellen, doppelklicken Sie einfach auf eine beliebige Stelle
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Um präzise Ergebnisse zu erzielen, bieten die Kurvenknoten für jeden Punkt unterschiedliche Modi an:
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-5-36.png)
 
@@ -142,14 +108,14 @@ Sie können das Histogramm Ihrer Eingabe ein- oder ausblenden, indem Sie einfach
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Wenn Sie einen Farbknoten eingeben, können Sie die Kurve für jeden Kanal anpassen:
 
 Wählen Sie einfach in der Dropdown-Liste oben rechts die Kurve aus, die Sie anpassen möchten:
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-52-43.png)
 
@@ -165,7 +131,7 @@ Im RGB-Kurvenmodus können Sie die einzelnen Kanalkurven durch Drücken/Deaktivi
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Wenn Sie mit der rechten Maustaste auf die Kurvenansicht klicken, werden einige weitere Optionen angezeigt.
 
@@ -215,7 +181,7 @@ Zeichnen Sie ein Auswahlfeld.
 
 <b>Umschalt + Ziehen</b>
 
-Beschränken Sie die Verschiebung auf der X- oder Y-Achse.
+Beschränken Sie die Bewegung auf die X- oder Y-Achse.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -259,11 +225,6 @@ Die Schaltfläche &quot;![](curve.resources/image2017-2-20-19-12-45.png)&quot; s
 | --- | --- |
 | <b>Eingabe</b> *Graustufen/Farbe* PRIMÄR | Das zu verarbeitende Bild. |
 
-## Ausgabe-Verbindungen
-
-|  |  |
-| --- | --- |
-| <b>Ausgabe</b> *Graustufen/Farbe* |  |
 
 ## Beispiele
 

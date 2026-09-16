@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/properties.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Verwenden Sie das Eigenschaftenfenster in Substance 3D Designer, um Knoteneigenschaften und Diagrammparameter anzuzeigen und zu bearbeiten.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Properties
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Eigenschaften
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 16eb8a173e984f842c820f3b8f0c3e140040bdfa
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '406'
 ht-degree: 0%
-
 ---
-
 
 # Eigenschaften
 
@@ -61,7 +59,7 @@ Knoten und [Substance-Diagramme](../../compositing-graphs/substance-compositing-
 
 Knoten bieten <b>Spezifische Parameter</b> oder <b> Instanzparameter</b> (abhängig davon, ob es sich um [Atomknoten](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) oder [Instanzen](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) handelt) sowie <b>Eingabewerte</b> für die Arbeit mit [Werten](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md).
 
-[Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) und [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)atomare Knoten sind Ausnahmen, da sie <b>Integrationsattribute</b> und <b>Bedingungen</b> für die Sichtbarkeit aufweisen. Auf diese beiden Eigenschaftensätze kann auch zentral in den Graph-Eigenschaften unter &quot;Eingaben&quot; und &quot;Ausgaben&quot; zugegriffen werden.
+[Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)- und [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)-elementare Knoten sind Ausnahmen, da sie <b>Integrationsattribute</b> und <b>Bedingungen</b> für die Sichtbarkeit aufweisen. Auf diese beiden Eigenschaftensätze kann auch zentral in den Graph-Eigenschaften unter &quot;Eingaben&quot; und &quot;Ausgaben&quot; zugegriffen werden.
 
 Diagramme lassen sich in einige zusätzliche Kategorien einteilen. <b>Eingabeparameter</b> listet [verfügbar gemachte Parameter](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) auf, <b>Eingaben</b> und <b>Ausgaben</b> listen alle Eigenschaften von Eingabe- und Ausgabeknoten auf. [Sie finden alle Diagrammeigenschaften, die detailliert auf einer dedizierten Seite erläutert werden.](../../compositing-graphs/graph-parameters/graph-parameters.md)
 
