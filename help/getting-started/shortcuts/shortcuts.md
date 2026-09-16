@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/getting-started/shortcuts.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
+breadcrumb-title: ""
 description: Lernen Sie Tastaturbefehle in Substance 3D Designer kennen, mit denen Sie Ihren Arbeitsablauf beschleunigen und die Produktivität verbessern können.
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Shortcuts
@@ -8,25 +8,17 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Kürzel
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '339'
 ht-degree: 18%
-
 ---
-
 
 # Kürzel
 
 Auf dieser Seite finden Sie eine Übersicht aller Tastaturbefehle für Substance 3D Designer.
-
-## Inhaltsverzeichnis
-
-[Keymaps](#keymaps)
-
-[Shortcuts-Listen](#shortcuts-lists)
 
 ## Keymaps
 
@@ -66,7 +58,7 @@ Auf dieser Seite finden Sie eine Übersicht aller Tastaturbefehle für Substance
 | Einfügen | Strg + V | ⌘ + V |
 | Kontextmenü | RMB | RMB |
 | Knotenmenü | Leertaste | Leertaste |
-| [Navigations-Nadeln durchlaufen](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
+| [Navigationspins](../../interface/the-graph-view/graph-items/graph-items.md) durchlaufen | F2 | F2 |
 
 <b>Verbindungserstellungsmodi</b>
 
@@ -80,7 +72,7 @@ Auf dieser Seite finden Sie eine Übersicht aller Tastaturbefehle für Substance
 | Material | 2 | 2 |
 | Material komprimieren | 3 | 3 |
 
-<b>Wenn ein Objekt im Graf ausgewählt wird</b>
+<b>Wenn ein Objekt im Diagramm ausgewählt wird</b>
 
 | Aktion | Windows | macOS |
 | --- | --- | --- |

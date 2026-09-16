@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ""
 description: Lernen Sie den grundlegenden Workflow zur Erstellung von Verfahrensmaterialien in Substance 3D Designer kennen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Workflow-Übersicht
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: f475b696f2d3ff6c453c5dc27e5672d55d72116e
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Weitere Informationen zu Grapheninstanzen in [Substance-Grafen](../../compositin
 
 Jeder Knoten in der Kette von Vorgängen hat irgendeine Form der Steuerung: -Schaltflächen, Schiebereglern und Einstellungen anpassen, die das Endergebnis beeinflussen. Wenn Sie einen Sub-Graf erstellen oder Ihre Substance-Datei in eine andere Anwendung exportieren möchten, können Sie ein eigenes &quot;Bedienfeld&quot; für Ihre Dateien erstellen, sodass jeder, der den Graf verwendet, es mit einem völlig eindeutigen Bedienfeld optimieren und ändern kann, was unzählige Möglichkeiten legt. [Informieren Sie sich hier über das allgemeine Konzept benutzerdefinierter Parameter](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md), oder gehen Sie in der Tiefe weiter, und [beginnen Sie mit dem leg von Parametern](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 
-## Diagrammtypen
+## Graf
 
 Im Folgenden finden Sie eine Zusammenfassung der drei Dokumenttypen, die Sie in Substance 3D Designer bearbeiten können, sowie einen Link zum entsprechenden Abschnitt in der Graf-Dokumentation.
 
@@ -57,11 +57,11 @@ Im Folgenden finden Sie eine Zusammenfassung der drei Dokumenttypen, die Sie in 
 
 ### Substance-Graphen
 
-[Substance-Diagramme](https://substance3d.adobe.com/) sind der Haupttyp des in Substance 3D Designer erstellten Diagramms. Ihr Zweck ist es, <b>2D-Bilddaten</b> zu generieren und zu verarbeiten, die nicht auf eine festgelegte Auflösung, Farbe oder Form beschränkt sind. Sie sind als äußerst vielseitige Bildverarbeitungs- und Generierungswerkzeuge gedacht und nicht nur als statische, voreingestellte Ergebnisse.
+[Substance-Graf](https://substance3d.adobe.com/) sind der Haupttyp des in Substance 3D Designer erstellten Grafen. Ihr Zweck ist es, <b>2D-Bilddaten</b> zu generieren und zu verarbeiten, die nicht auf eine festgelegte Auflösung, Farbe oder Form beschränkt sind. Sie sind als äußerst vielseitige Bildverarbeitungs- und Generierungswerkzeuge gedacht und nicht nur als statische, voreingestellte Ergebnisse.
 
-Die Ergebnisse können in Form eines einfachen Schwarz-Weiß-Musters vorliegen, eines Filters, der nur auf anderen Bildern ausgeführt wird und keinen Inhalt für sich selbst generiert, oder sogar in Form eines vollwertigen prozeduralen Materials mit mehreren Kanälen.
+Die Ergebnisse können in Form eines einfachen Schwarzweißmusters, eines Filters, der nur auf anderen Bildern ausgeführt wird und keinen Inhalt für sich selbst erzeugt, oder sogar eines vollwertigen prozeduralen Materials mit mehreren Kanälen vorliegen.
 
-Substance-Graf sind [&#x200B; der am weitesten unterstützte Graf &#x200B;](../../getting-started/overview/overview.md)-Typ und können exportiert und in einer Vielzahl von verschiedenen Workflows verwendet werden.
+Substance-Graf sind [ der am weitesten unterstützte Graf ](../../getting-started/overview/overview.md)-Typ und können exportiert und in einer Vielzahl von verschiedenen Workflows verwendet werden.
 
 </td>
 </tr>
@@ -73,29 +73,29 @@ Im Folgenden finden Sie einige typische Beispiele für häufige Anwendungsfälle
 
 +++ Einfache Form
 
-![Einfache Form im Substance-Diagramm](workflow-overview.resources/simpleshape.png "Einfache Form im Substance-Diagramm"){width="512px" zoomable="yes"}
+![Einfache Form im Substance-Graf](workflow-overview.resources/simpleshape.png "Einfache Form im Substance-Graf"){width="512px" zoomable="yes"}
 
 Eine einfache Maskenform für einen Aufkleber wird erstellt, indem [ein Textstück](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) und ein [Datenträgerform](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md) generiert werden, [die Kante](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md) von der Festplatte extrahiert wird und diese schließlich [zusammengemischt werden](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md), bevor sie als endgültige [Ausgabe](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) festgelegt werden.
 
-Der Text mit der Nummer oder die Thickness der Kante kann extern belichtet werden, um das Diagramm dynamischer zu gestalten.
+Der Text mit der Nummer oder die Thickness der Kante kann extern gelegt werden, um den Graf dynamischer zu gestalten.
 
 +++
 
 +++ Einstellungsfilter
 
-![Korrekturfilter im Substance-Diagramm](workflow-overview.resources/simplefilter.png "Korrekturfilter im Substance-Diagramm"){width="512px" zoomable="yes"}
+![Korrekturfilter im Substance-Graf](workflow-overview.resources/simplefilter.png "Korrekturfilter im Substance-Graf"){width="512px" zoomable="yes"}
 
-Ein Graf nimmt eine Normalen-Map als [Eingabe](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) (mit einer benutzerdefinierten Vorschau), [konvertiert sie in Krümmung](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) und [passt den Kontrast](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) an, um eine Maske mit konvexen Kanten als endgültige [Ausgabe](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) zu erstellen.
+Ein Graf nimmt eine Normalen-Map als [Eingabe](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) (mit einer benutzerdefinierten Vorschau), [konvertiert sie in Krümmung](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) und [passt den Kontrast](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) an, um eine Maske mit konvexen Kanten als endgültige [Ausgabe](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) zu erstellen.
 
-Die im Histogramm eingestellten Kontrastwerte können belichtet werden, was dies zu einem einfachen, aber nützlichen Filter in Kombination mit dem dynamischen Eingangs-Slot macht.
+Die im Histogramm festgelegten Kontrastwerte können gelegt werden, sodass es sich um ein einfaches, aber brauchbares Filter in Verbindung mit dem dynamischen Eingangsschlitz handelt.
 
 +++
 
-+++ Vollständiges Material
++++ Material
 
-![Vollständiges Material im Substance-Diagramm](workflow-overview.resources/simplematerial.png "Vollständiges Material im Substance-Diagramm"){width="512px" zoomable="yes"}
+![Vollständiges Material im Substance-Graf](workflow-overview.resources/simplematerial.png "Vollständiges Material im Substance-Graf"){width="512px" zoomable="yes"}
 
-Ein komplizierterer Graf [&#x200B; überblendet zwei Basismaterial &#x200B;](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md). Ein [Basismaterial](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md) ist einfach gehalten, das andere verwendet einige benutzerdefinierte Eingaben, um Interesse hinzuzufügen. Eine Maske wird verwendet, um zu bestimmen, welches der beiden Materialien an welcher Stelle angezeigt wird, bevor es als endgültige [Ausgaben](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) festgelegt wird.
+Ein komplizierterer Graf [ überblendet zwei Basismaterial ](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md). Ein [Basismaterial](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md) ist einfach gehalten, das andere verwendet einige benutzerdefinierte Eingaben, um Interesse hinzuzufügen. Mit einer Maske wird bestimmt, welches der beiden Material an welcher Stelle angezeigt wird, bevor es als endgültige [Ausgaben](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) festgelegt wird.
 
 In diesem Beispiel werden [Verknüpfungserstellungsmodi](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) zur Vereinfachung der Verwendung mehrerer Verknüpfungen verwendet.
 
@@ -128,7 +128,7 @@ Im Folgenden finden Sie einige Beispiele aus gängigen Anwendungsfällen für Su
 
 ![Einfaches Funktionsdiagramm](workflow-overview.resources/lerpfunction.png "Einfaches Funktionsdiagramm"){width="256px" zoomable="yes"}
 
-Eine einfache Funktion im Kontext eines exponierten Parameters. Es erhält einen Eingangs-Gleitkommawert namens &quot;Intensität&quot;, der von 0 bis 1 geht (ein Bereich, der leicht zu verstehen ist) und weist ihn einem festgelegten Bereich von 0,1 bis 0,8 neu zu. Wenn der Benutzer die Intensität auf 0 setzt, wird intern 0,1 verwendet, wenn die Benutzeroberfläche auf 1 gesetzt ist, 0,8 wird verwendet und jeder Wert dazwischen wird linear interpoliert. Dieser Funktionstyp wird häufig verwendet, wenn [&#x200B; Parameter &#x200B;](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) verfügbar macht, aber benutzerdefinierte Funktionen verwendet werden.
+Eine einfache Funktion im Kontext eines exponierten Parameters. Es erhält einen Eingangs-Gleitkommawert namens &quot;Intensität&quot;, der von 0 bis 1 geht (ein Bereich, der leicht zu verstehen ist) und weist ihn einem festgelegten Bereich von 0,1 bis 0,8 neu zu. Wenn der Benutzer die Intensität auf 0 setzt, wird intern 0,1 verwendet, wenn die Benutzeroberfläche auf 1 gesetzt ist, 0,8 wird verwendet und jeder Wert dazwischen wird linear interpoliert. Dieser Funktionstyp wird häufig verwendet, wenn [ Parameter ](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) verfügbar macht, aber benutzerdefinierte Funktionen verwendet werden.
 
 Diese Funktion könnte auch als *lerp(0.1, 0.8, Intensity)* in einem Pseudocode ähnlich wie HLSL oder GLSL geschrieben werden.
 

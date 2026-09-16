@@ -3,9 +3,9 @@ user-guide-title: Substance 3D Designer
 breadcrumb-title: Substance 3D Designer
 user-guide-description: Substance 3D Designer
 nudge: true
-source-git-commit: 881117156de44a7776822e05c585a8d52d24afbc
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '1905'
 ht-degree: 22%
 ---
 
@@ -130,7 +130,9 @@ ht-degree: 22%
       + [Wertprozessor](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
       + [Verzerrung](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)
       + [Ausgabe](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-      + [Eingabe](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+      + [Eingabefarbe](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
+      + [Eingabegraustufen](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
+      + [Eingabewert](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
     + Knotenbibliothek{#node-library}
       + [Knotenbibliothek](/help/compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
       + Texturgeneratoren{#texture-generators}
@@ -549,9 +551,9 @@ ht-degree: 22%
           + [Pfade-Polygon](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md)
           + [Vorschau von Pfaden](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)
           + [Pfade verformen](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md)
-          + [Quad transformieren on path](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md)
+          + [Quad-Transformation auf Pfad](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md)
           + [Pfade auswählen](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-select/paths-select.md)
-          + [Prozessor für Pfade-Scheitelpunkt](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)
+          + [Vertexprozessor für Pfade](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)
           + [Pfade Scheitelpunkt Prozessor einfach](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md)
         + Spline-Werkzeuge{#spline-tools}
           + [Spline-Werkzeuge](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-tools.md)
@@ -559,7 +561,7 @@ ht-degree: 22%
           + [Streuung auf Spline-Farbe](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md)
           + [Streuung auf Spline-Graustufen](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-spline-grayscale/scatter-on-spline-grayscale.md)
           + [Streuung Splines on Splines](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-splines-splines/scatter-splines-on-splines.md)
-          + [2D-Spline-transformieren](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md)
+          + [2D-Transformation Spline](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md)
           + [Spline - Kubisch](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-cubic/spline-cubic.md)
           + [Spline - Poly quadratisch](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md)
           + [Spline - Quadratisch](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-quadratic/spline-quadratic.md)
@@ -626,8 +628,8 @@ ht-degree: 22%
       + [Verwenden der Set-/Sequenzknoten](/help/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md)
   + [Warnungen in Substance-Funktions-Grafen](/help/function-graphs/warnings-function-graphs/warnings-in-function-graphs.md)
   + [Beispiel für Substance-Funktions-Graf](/help/function-graphs/sample-function-graphs/sample-function-graphs.md)
-  + Knotenreferenz für Substance-Funktions-Graf{#nodes-reference-for-substance-function-graphs}
-    + [Knotenreferenz für Substance-Funktions-Graf](/help/function-graphs/nodes-reference-for-fun/nodes-reference-for-function-graphs.md)
+  + Knotenreferenz für Substance-Funktionsgraphen{#nodes-reference-for-substance-function-graphs}
+    + [Knotenreferenz für Substance-Funktionsgraphen](/help/function-graphs/nodes-reference-for-fun/nodes-reference-for-function-graphs.md)
     + [Übersicht über Funktionsknoten](/help/function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)
     + Atomare Funktionsknoten{#atomic-function-nodes}
       + [Atomare Funktionsknoten](/help/function-graphs/nodes-reference-for-fun/atomic-function-nodes/atomic-function-nodes.md)
@@ -635,7 +637,7 @@ ht-degree: 22%
       + [Vektor- und Swizzle-Knoten](/help/function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md)
       + [Knoten abrufen](/help/function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)
       + [Sampler Nodes](/help/function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md)
-      + [Wirf Nodes](/help/function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)
+      + [Gussknoten](/help/function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)
       + [Operatorknoten](/help/function-graphs/nodes-reference-for-fun/atomic-function-nodes/operator-nodes/operator-nodes.md)
       + [Logische Knoten](/help/function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md)
       + [Vergleichsknoten](/help/function-graphs/nodes-reference-for-fun/atomic-function-nodes/comparison-nodes/comparison-nodes.md)
@@ -711,7 +713,7 @@ ht-degree: 22%
 + Best Practices{#best-practices}
   + [Best Practices](/help/best-practices/best-practices.md)
   + [Richtlinien zur Dateigrößenreduzierung](/help/best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md)
-  + [Etikette zur Erstellung von Grafen](/help/best-practices/graph-creation-etiquette/graph-creation-etiquette.md)
+  + [Etikette zur Diagrammerstellung](/help/best-practices/graph-creation-etiquette/graph-creation-etiquette.md)
   + [Richtlinien zur Leistungsoptimierung](/help/best-practices/performance-optimization/performance-optimization-guidelines.md)
 + Pipeline- und Projektkonfiguration{#pipeline-and-project-configuration}
   + [Pipeline- und Projektkonfiguration](/help/pipeline-and-project-con/pipeline-and-project-configuration.md)
@@ -753,8 +755,8 @@ ht-degree: 22%
   + [Absturz beim Rendern von Graphen](/help/technical-issues/crash-when-rendering-gra/crash-when-rendering-graphs.md)
   + [Parameter funktionieren nicht wie erwartet](/help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
   + [Falsche Bildausgabe](/help/technical-issues/incorrect-image-output/incorrect-image-output.md)
-  + [Probleme mit 3D-Ansichten](/help/technical-issues/3d-view-issues/3d-view-issues.md)
-  + [Probleme beim Baking](/help/technical-issues/baking-issues/baking-issues.md)
+  + [Probleme mit 3D-Ansicht](/help/technical-issues/3d-view-issues/3d-view-issues.md)
+  + [Backprobleme](/help/technical-issues/baking-issues/baking-issues.md)
   + [Probleme mit der Benutzeroberfläche](/help/technical-issues/user-interface-issues/user-interface-issues.md)
   + [Python-Probleme](/help/technical-issues/python-issues/python-issues.md)
   + [Funktionen des MDL-Diagramm- und Iray-Renderers fehlen](/help/technical-issues/mdl-graph-iray-eol/mdl-graph-iray-eol.md)
@@ -784,14 +786,14 @@ ht-degree: 22%
     + [Version 2019.2 - 9.2](/help/release-notes/old-versions/version-2019-2-9-2/version-2019-2-9-2.md)
     + [Version 2019.1 - 9.1](/help/release-notes/old-versions/version-2019-1-9-1/version-2019-1-9-1.md)
 + Eingestellte Funktionen{#retired-features}
-  + MDL-Grafiken{#mdl-graphs}
-    + [MDL-Grafiken](/help/mdl-graphs/mdl-graphs.md)
-    + [Hauptkonzepte für MDL-Diagramme](/help/mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)
+  + MDL-Diagramme{#mdl-graphs}
+    + [MDL-Diagramme](/help/mdl-graphs/mdl-graphs.md)
+    + [Wichtigste MDL-Diagramm-Konzepte](/help/mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)
     + [Erstellen eines MDL-Diagramms](/help/mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md)
     + [MDL-Bibliothek](/help/mdl-graphs/mdl-library/mdl-library.md)
-    + [Verfügbarmachen von Parametern in MDL-Diagrammen](/help/mdl-graphs/exposing-parameters-mdl/exposing-parameters-in-mdl-graphs.md)
-    + [Substance-Grafiken und MDL-Materialien](/help/mdl-graphs/compositing-graphs-and/substance-compositing-graphs-and-mdl-materials.md)
+    + [Legend Parameter in MDL-Diagrammen](/help/mdl-graphs/exposing-parameters-mdl/exposing-parameters-in-mdl-graphs.md)
+    + [Substance Graf und MDL-Materialien](/help/mdl-graphs/compositing-graphs-and/substance-compositing-graphs-and-mdl-materials.md)
     + [MDL-Inhalte werden exportiert](/help/mdl-graphs/exporting-mdl-content/exporting-mdl-content.md)
-    + [Warnungen in MDL-Diagrammen](/help/mdl-graphs/warnings-in-mdl-graphs/warnings-in-mdl-graphs.md)
+    + [Warnhinweise in MDL-Diagrammen](/help/mdl-graphs/warnings-in-mdl-graphs/warnings-in-mdl-graphs.md)
     + [MDL-Lernressourcen](/help/mdl-graphs/mdl-learning-resources/mdl-learning-resources.md)
   + [Iray](/help/interface/3d-view/iray/iray.md)

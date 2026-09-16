@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/version-12-4.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-4.html"
+breadcrumb-title: ""
 description: Lesen Sie die Versionshinweise für Substance 3D Designer 12.4, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > Version 12.4
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Version 12.4
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ba25885fb45039d7cbdc79af4792a1fa0f83564a
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 1%
-
 ---
-
 
 # Version 12.4
 
@@ -58,7 +56,7 @@ Sie können nun die Breite und das Height der Ausgabegröße sperren, um sicherz
 
 ### Transformieren der Bildeingabe in Farbe/Graustufen
 
-Wechseln Sie über das Kontextmenü des Knotens schnell zwischen einer [Eingabefarbe](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) und einer [Graustufen-Eingabe](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md).
+Wechseln Sie über das Kontextmenü des Knotens schnell zwischen einer [Eingabefarbe](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) und einer [Eingabegraustufe](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md).
 
 ![](version-12-4.resources/final-switch.gif){width="640px"}
 
@@ -111,7 +109,7 @@ Diese Version 12.4 bietet auch die vollständige Unterstützung von Substance-Mo
 * [3D-Ansicht] Drahtgitter-Anzeigeeigenschaft wird nicht gespeichert
 * [Inhalt] Die Parameter für die radiale Weichzeichnungsfarbe haben keine Auswirkungen auf den Alphakanal
 * [Lokalisierung] Zusätzliche Schieberegler und Schaltflächen werden in den OpenGL-Eigenschaften der Umgebung angezeigt.
-* [MDL]&#x200B;[Substance-Modell] Absturz beim Löschen exponierter Knoten
+* [MDL][Substance-Modell] Absturz beim Löschen exponierter Knoten
 * [Voreinstellungen] Die Datei Default\_config wird nie neu erstellt, wenn sie gelöscht wird
 * [Substance-Modell] Parameter für die Neuanordnung von Abstürzen, der nicht auf Instanzebene angezeigt wird
 * [API] SDProperty.getDefaultValue() gibt fast immer None zurück.
