@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
 breadcrumb-title: ""
 description: Mit dem Knoten "Scharf stellen" können Sie die Textur und Kanten verbessern, um gestochen scharfe, definierte Oberflächendetails zu erstellen.
 helpx_creative_field: ""
