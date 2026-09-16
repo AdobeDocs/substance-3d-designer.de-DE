@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
 breadcrumb-title: ""
 description: Verwenden Sie den Kanäle mischen-Knoten, um Farbkanäle in Texturen neu anzuordnen, um Farbeffekte und Kanalaustausch zu erstellen.
 helpx_creative_field: ""
