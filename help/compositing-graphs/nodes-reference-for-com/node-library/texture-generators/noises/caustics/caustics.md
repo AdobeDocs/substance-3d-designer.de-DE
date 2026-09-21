@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/caustics.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/caustics.html"
+breadcrumb-title: ""
 description: Verwenden Sie den Knoten "Kaustik", um kaustische Lichtmuster zum Erzeugen von Unterwasser- und refraktiven Lichteffekten zu erzeugen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Caustics
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Kaustik
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 77626800e9c3434a519ca045aad1e185d9dc1476
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '232'
 ht-degree: 5%
-
 ---
-
 
 # Kaustik
 
@@ -51,7 +49,7 @@ Erzeugt projizierte Kaustik basierend auf einem Höhen-Map und einer Lichtrichtu
 | <b>Position des Surface-Heights</b> <i>0.0 - 1.0</i> | Abstand der brechenden Fläche von der Projektion einstellen. |
 | <b>Surface IOR</b> <i>1.0 - 2.0</i> | Legen Sie den Brechungsindex fest, um in der Farbversion mehr Streuung zu erhalten. |
 | <b>Fotonengröße</b> <i>1.0 - 50.0</i> | Die Fotonengröße beeinflusst die Knautschigkeit des Effekts. |
-| <b>Streuung</b> <i>0.0 - 0.01 (nur Farbversion)</i> | Nur die Farb-Streuung. Nicht sichtbar, wenn der IOR niedrig ist. |
+| <b>Dispersion</b> <i>0.0 - 0.01 (nur Farbversion)</i> | Nur die Farb-Streuung. Nicht sichtbar, wenn der IOR niedrig ist. |
 | <b>Jittering</b> <i>0.0 - 1.0</i> | Unregelmäßiges Jittern zu den Geworfen Foton-Partikeln hinzufügen. |
 | <b>Lichtposition</b> | Verschiebt die Lichtposition. Auch durch ein Gizmo in der 2D-Ansicht. |
 | <b>Hintergrundfarbe</b> <i>(Farbwert) (nur Farbversion)</i> | Ändern Sie die Hintergrundfarbe. Beschränkt auf Schwarz in der Graustufenversion. |
@@ -59,10 +57,12 @@ Erzeugt projizierte Kaustik basierend auf einem Höhen-Map und einer Lichtrichtu
 
 ## Beispiele
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="caustics.resources/rt-caustics-grayscale-1.png" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="caustics.resources/rt-caustics-grayscale-1.png" class="modal-image" alt="Kaustik - Beispiel 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

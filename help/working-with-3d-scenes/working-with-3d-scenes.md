@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/working-with-3d-scenes.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes.html"
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie 3D-Szenen in Substance 3D Designer importieren, bearbeiten und mit ihnen arbeiten können, um eine Vorschau Ihrer Materialien anzuzeigen und sie zu testen.
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Arbeiten mit 3D-Szenen
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '862'
 ht-degree: 0%
-
 ---
-
 
 # Arbeiten mit 3D-Szenen
 
@@ -24,7 +22,7 @@ ht-degree: 0%
 
 Mit Designer können Sie [3D-Szenen](../glossary/glossary.md) laden, um Materialien im Kontext zu bearbeiten. Eine Liste der unterstützten Dateiformate für 3D-Szenen finden Sie hier, einschließlich einer Liste der unterstützten Funktionen für jedes Format. <b>&lt;Link erforderlich></b>
 
-Beim Arbeiten im Kontext wird [&#128279;](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)eines der [Materialien](../glossary/glossary.md) der Szene überschrieben, um es durch ein in Designer erstelltes Material zu ersetzen.\
+Beim Arbeiten im Kontext wird [eines der [Materialien](../glossary/glossary.md) der Szene überschrieben](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md), um es durch ein in Designer erstelltes Material zu ersetzen.\
 Sie können mit einer beliebigen Grafikvorlage aus Designer beginnen oder [Werte und Strukturen](../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md) aus dem Substance-Material der 3D-Szene extrahieren.
 
 Wenn Sie mit der 3D-Szene fertig sind, können Sie die 3D-Szene [in eine neue Datei exportieren](../working-with-3d-scenes/exporting-scenes/exporting-scenes.md), um sie in einer anderen Anwendung zu importieren.
@@ -32,26 +30,6 @@ Wenn Sie mit der 3D-Szene fertig sind, können Sie die 3D-Szene [in eine neue Da
 Beim Exportieren in USD-Formate kann dieser Workflow vollständig <b>nicht-destruktiv</b> sein, d. h., es werden nur Bearbeitungen und Ergänzungen exportiert.
 
 Zuerst müssen Sie eine 3D-Szene laden, an der Sie arbeiten möchten, und in der Lage sein, ihren Status in Designer sitzungsübergreifend beizubehalten.
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Inhalte von 3D-Szenen
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Laden einer Szene
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Szenenstatusdateien
-
-</td>
-</tr>
-</table>
 
 ## Inhalte von 3D-Szenen
 
@@ -68,14 +46,14 @@ Sie können mit den folgenden Inhalten der Szene interagieren:
 
 Designer verwendet eine USD Beschreibung für seine 3D-Szenen. Das Layout kann im Szene-Browser navigiert werden, wobei jeder [USD prim](https://openusd.org/release/glossary.html#usdglossary-prim)-Typ über ein eigenes Symbol verfügt (Geometrie, Material, Shader, Kamera, transformieren, ...).
 
-Der [Szene-Browser &#x200B;](../interface/3d-view/scene-browser/scene-browser.md) kann zum Auswählen, Aktivieren und Deaktivieren des Inhalts der Szene verwendet werden. Aus diesem Grund wird empfohlen, bei der Arbeit mit benutzerdefinierten 3D-Szenen die Anzeige beizubehalten.
+Der [Szene-Browser ](../interface/3d-view/scene-browser/scene-browser.md) kann zum Auswählen, Aktivieren und Deaktivieren des Inhalts der Szene verwendet werden. Aus diesem Grund wird empfohlen, bei der Arbeit mit benutzerdefinierten 3D-Szenen die Anzeige beizubehalten.
 
 ## Laden einer Szene
 
 Es gibt mehrere Möglichkeiten, eine 3D-Szene in die 3D-Ansicht zu laden:
 
 1. Doppelklicken Sie auf eine [3D-Szene-Ressource](../resources/3d-scene-resource/3d-scene-resource.md) aus einem [Paket](../glossary/glossary.md) oder ziehen Sie sie in die 3D-Ansicht.
-1. Ziehen Sie ein Datenelement aus der [3D-Szene](../interface/the-library/the-library.md) in die 3D-Ansicht (vorausgesetzt, Sie haben [&#x200B; eigenen Inhalt zur Bibliothek hinzugefügt](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)).
+1. Ziehen Sie ein Datenelement aus der [3D-Szene](../interface/the-library/the-library.md) in die 3D-Ansicht (vorausgesetzt, Sie haben [ eigenen Inhalt zur Bibliothek hinzugefügt](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)).
 1. Ziehen Sie eine 3D-Szene-Datei aus dem Dateibrowser des Systems in die 3D-Ansicht.
 1. Laden einer 3D-Szene-Statusdatei (SBSSCN) zusammen mit dem referenzierten Mesh
 
@@ -144,9 +122,9 @@ Alle von Designer erstellten Elemente werden im Szene-Browser mit <b>fetten Beze
 </tr>
 </table>
 
-## Szene-Statusdateien
+## Szenenstatusdateien
 
-Nach dem Einrichten eines Materials, einer Kamera, einer Beleuchtung usw. in der 3D-Ansicht kann dieser Zustand in einer Szene-Statusdatei (.sbsscn) gespeichert werden, die später geladen werden kann, um diesen Zustand wiederherzustellen. Unter Umständen möchten Sie beispielsweise einige Szenen für die Vorschau verschiedener Materialien oder für eine bestimmte Lichtumgebung einrichten.
+Nachdem Sie Materialien, Kamera, Lichter usw. in der 3D-Ansicht eingerichtet haben, kann dieser Status in einer Szenenstatusdatei (.sbsscn) gespeichert werden, die später geladen werden kann, um diesen Status wiederherzustellen. Unter Umständen möchten Sie beispielsweise einige Szenen für die Vorschau verschiedener Materialarten oder für eine bestimmte Lichtumgebung einrichten.
 
 ![Szenen-Statusdatei laden](working-with-3d-scenes.resources/loadSceneStateFile.gif "Szenen-Statusdatei laden"){zoomable="yes"}
 

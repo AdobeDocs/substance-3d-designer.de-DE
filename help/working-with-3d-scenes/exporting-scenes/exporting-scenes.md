@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
+breadcrumb-title: ""
 description: Exportieren Sie 3D-Szenen mit allen in Designer vorgenommenen Bearbeitungen mithilfe der Aktion "Szene exportieren" im Menü "3D-Szene anzeigen".
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes > Exporting scenes
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Exportieren von Szenen
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 1%
-
+source-wordcount: '366'
+ht-degree: 0%
 ---
-
 
 # Exportieren von Szenen
 
@@ -31,26 +29,6 @@ Bei anderen Formaten hängen der Inhalt der Szene und ihre interne Struktur von 
 > Alle von Designer zur Szene hinzugefügten Elemente werden in die exportierte Szene aufgenommen: die Standardkamera, die Standardumgebung, alle Materialien kopiert alle zusätzlichen Lichter.
 
 ![Szenenexportaktionen](exporting-scenes.resources/exportActions.png "Szenenexportaktionen"){zoomable="yes"}
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Szene exportieren
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Szene als Ebenen exportieren
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Texturen
-
-</td>
-</tr>
-</table>
 
 ## Szene exportieren
 

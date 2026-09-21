@@ -1,24 +1,22 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/blue-noise-fast.html"
-breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Blaue Rauschgeschwindigkeit", um schnelle blaue Rauschmuster für die Erstellung hochwertiger Dithering-Effekte und Variationen zu erzeugen.
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/blue-noise-fast.html"
+breadcrumb-title: ""
+description: Verwenden Sie den Blue Rauschen Fast-Knoten, um schnelle Blue-Rauschen-Muster für die Erstellung hochwertiger Textur-Dithering und -Varianten zu generieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Blue Noise Fast
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Blaues Rauschen schnell
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
+title: Blue Rauschen Fast
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '82'
 ht-degree: 6%
-
 ---
 
-
-# Blaues Rauschen schnell
+# Blue Rauschen Fast
 
 <table>
 <tr style="border: 0;">
@@ -33,7 +31,7 @@ ht-degree: 6%
 
 ## Beschreibung
 
-Ein einfaches, schnelles Rauschen im Pixel-Maßstab.
+Eine einfache, schnelle, pixelskalierte Rauschen.
 
 </td>
 </tr>
@@ -45,14 +43,16 @@ Ein einfaches, schnelles Rauschen im Pixel-Maßstab.
 
 |  |  |
 |:---|:---|
-| <b>Drehung</b> <i>0.0 - 1.0</i> | Dreht die internen Berechnungen des Effekts. So kannst du das Aussehen des Rauschens ein wenig verändern: Je weiter weg von 1, desto weniger pixelskaliert ist der Effekt und desto sichtbarer sind &quot;Wellen&quot;. |
+| <b>Drehung</b> <i>0.0 - 1.0</i> | Dreht die internen Berechnungen des Effekts. So lässt sich das Erscheinungsbild der Rauschen ein wenig verändern: Je weiter weg von 1, desto weniger pixelskaliert ist der Effekt und desto sichtbarer sind &quot;Wellen&quot;. |
 
 ## Beispiele
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="blue-noise-fast.resources/blue-noise-ex.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="blue-noise-fast.resources/blue-noise-ex.gif" class="modal-image" alt="Blue Rauschen Fast - Beispiel 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

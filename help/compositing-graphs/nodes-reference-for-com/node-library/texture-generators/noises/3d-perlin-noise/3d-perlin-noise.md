@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise.html"
+breadcrumb-title: ""
 description: Verwenden Sie den 3D-Knoten Perlin Rauschen, um sanfte Perlin-Rauschen-Muster im 3D-Raum zu erstellen, um natürlich aussehende volumetrische Texturen zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Perlin Noise
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 3D Perlin Rauschen
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '289'
 ht-degree: 1%
-
 ---
-
 
 # 3D Perlin Rauschen
 
@@ -43,7 +41,7 @@ Dieser Knoten kann mit [Cube 3D GBuffers](../../../../../../compositing-graphs/n
 
 >[!WARNING]
 >
-> Dieses Geräusch soll nur mit dem <i>GPU-Modul verwendet werden</i> (d. h. <b>Direct3D</b> oder <b>OpenGL</b>). Wechseln Sie zu <b>Extras > Modul wechseln...</b> oder drücken Sie die Taste <b>F9</b>, um das gewünschte Modul auszuwählen.
+> Diese Rauschen ist nur für das <i>GPU-Engine </i> (d. h. <b>Direct3D</b> oder <b>OpenGL</b>) vorgesehen. Wechseln Sie zu <b>Extras > Engine wechseln...</b> oder drücken Sie die Taste <b>F9</b>, um das gewünschte Engine auszuwählen.
 
 <a name="parameters"></a>
 
@@ -51,29 +49,29 @@ Dieser Knoten kann mit [Cube 3D GBuffers](../../../../../../compositing-graphs/n
 
 |  |  |
 |:---|:---|
-| <b>Umkehren</b> <i>Boolescher Wert</i> | Kehrt das Ausgabebild um. |
-| <b>Skalierung</b> <i>Gleitend</i> | Steuert die Skalierung der 3D-Perlin-Rauschen. |
-| <b>Größe</b> <i>Float3</i> | Steuert die Größe der 3D-Perlin-Rauschen in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b>. Nicht einheitliche Werte führen zu einem <i>Dehnungs- oder Squashing</i>-Effekt. |
-| <b>Offset</b> <i>Float3</i> | Wendet einen Offset auf die <i>Position</i> der 3D-Perlin-Rauschen in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b> an. |
-| <b>Intensität der Verzerrung</b> <i>Gleitend</i> | Steuert die Intensität eines <i>Verkrümmungseffekts</i>, der auf der 3D-Perlin-Rauschen angewendet wird. |
-| <b>Verzerrungen-Skalierungsmultiplikator</b> <i>Gleitend</i> | Steuert die Skalierung des <i>sich verformenden Musters</i>, das im Verkrümmungseffekt verwendet wird, der durch die <b>Intensität der Verzerrung</b> gesteuert wird. |
-| <b>Grundlinie</b> <i>Gleitend</i> | Wendet einen <i>offset</i> auf den Basiswert <i>Luminanz</i> für die Werteverteilung der 3D-Perlin-Rauschen an. |
-| <b>Kontrast</b> <i>Gleitend</i> | Passt den Kontrast der 3D-Perlin-Rauschen an. |
-| <b>Absolut</b> <i>Boolescher Wert</i> | Verwendet absolute Werte auf der 3D-Perlin-Rauschen. Dadurch wird <i>die Wertverteilung für die Werte <i> unter 0,5</i> effektiv umgekehrt</i>. |
-| <b>Kachelung aktivieren</b> <i>Boolescher Wert</i> | Passt die 3D-Perlin-Rauschen so an, dass sich das resultierende Muster <i>in X-, Y- und Z-Achse wiederholt</i>. |
+| <b>Umkehren</b> <i>Boolesche Wert</i> | Kehrt das Ausgabebild um. |
+| <b>Skalierung</b> <i>Fließkommazahl</i> | Steuert die Skalierung der 3D-Perlin-Rauschen. |
+| <b>Größe</b> <i>Fließkommazahl3</i> | Steuert die Größe der 3D-Perlin-Rauschen in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b>. Nicht einheitliche Werte führen zu einem <i> dehnend oder zerdrückenden </i>-Effekt. |
+| <b>Offset</b> <i>Fließkommazahl3</i> | Wendet einen Offset auf die <i>Position</i> der 3D-Perlin-Rauschen in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b> an. |
+| <b>Intensität der Verzerrung</b> <i>Fließkommazahl</i> | Steuert die Intensität eines <i>Verkrümmungseffekts</i>, der auf der 3D-Perlin-Rauschen angewendet wird. |
+| <b>Verzerrungen-Skalierungsmultiplikator</b> <i>Fließkommazahl</i> | Steuert die Skalierung des <i>sich verformenden Musters</i>, das im Verkrümmungseffekt verwendet wird, der durch die <b>Intensität der Verzerrung</b> gesteuert wird. |
+| <b>Grundlinie</b> <i>Fließkommazahl</i> | Wendet einen <i>offset</i> auf den Basiswert <i>Luminanz</i> für die Werteverteilung der 3D-Perlin-Rauschen an. |
+| <b>Kontrast</b> <i>Fließkommazahl</i> | Passt den Kontrast der 3D-Perlin-Rauschen an. |
+| <b>Absolut</b> <i>Boolesche Wert</i> | Verwendet absolute Werte auf der 3D-Perlin-Rauschen. Dadurch wird <i>die Wertverteilung für die Werte <i> unter 0,5</i> effektiv umgekehrt</i>. |
+| <b>Kachelung aktivieren</b> <i>Boolesche Wert</i> | Passt die 3D-Perlin-Rauschen so an, dass sich das resultierende Muster <i>in X-, Y- und Z-Achse wiederholt</i>. |
 
 ## Beispiele
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise.resources/3dperlin.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-perlin-noise.resources/3dperlin.gif" class="modal-image" alt="3D Perlin Rauschen - Beispiel 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise.resources/3dperlinnoise-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="3d-perlin-noise.resources/3dperlinnoise-variant2.jpg" class="modal-image" alt="3D Perlin Rauschen - Beispiel 2" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise.resources/3dperlinnoise-variant.jpg" />
+        <td style="border: 0;">
+            <img src="3d-perlin-noise.resources/3dperlinnoise-variant.jpg" class="modal-image" alt="3D Perlin Rauschen - Beispiel 3" />
         </td>
     </tr>
 </table>

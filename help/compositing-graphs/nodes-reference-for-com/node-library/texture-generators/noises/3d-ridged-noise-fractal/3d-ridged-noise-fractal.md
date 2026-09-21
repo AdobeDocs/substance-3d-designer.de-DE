@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
+breadcrumb-title: ""
 description: Verwenden Sie den 3D-Knoten "Gekrümmte Rauschen Fractal", um Gekrümmte fraktale Rauschen-Muster im 3D-Raum zu generieren, um bergähnliche Texturen zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Ridged Noise Fractal
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 3D Ridge Rauschen Fraktal
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '413'
 ht-degree: 0%
-
 ---
-
 
 # 3D Ridge Rauschen Fraktal
 
@@ -56,25 +54,26 @@ Dieser Knoten kann mit [Cube 3D GBuffers](../../../../../../compositing-graphs/n
 | <b>Größe</b> <i>Fließkommazahl3</i> | Steuert die Größe der fraktalen 3D-Ridge-Rauschen in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b>. Nicht einheitliche Werte führen zu einem <i> dehnend oder zerdrückenden </i>-Effekt. |
 | <b>Offset</b> <i>Fließkommazahl3</i> | Wendet einen Offset auf die <i>Position</i> der fraktalen 3D-Ridge-Rauschen in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b> an. |
 | <b>Intensität der Verzerrung</b> <i>Fließkommazahl</i> | Steuert die Intensität eines <i>Verkrümmungseffekts</i>, der auf die fraktale 3D-Rauschen mit Ridge angewendet wird. |
-| <b>Verzerrungen-Skalierungsmultiplikator</b> <i>Gleitend</i> | Steuert die Skalierung des <i>sich verformenden Musters</i>, das im Verkrümmungseffekt verwendet wird, der durch die <b>Intensität der Verzerrung</b> gesteuert wird. |
-| <b>Min. Stufe</b> <i>Integer</i> | Die minimale <i>Wiederholungsstufe</i>, die im fraktalen Muster verwendet wird. Ein größerer Mindest-/Höchstbereich führt zu einem <i>reicheren Muster</i> mit Variationen in mehr Frequenzbereichen. |
-| <b>Max. Stufe</b> <i>Integer</i> | Die maximale <i>Wiederholungsstufe </i>, die im fraktalen Muster verwendet wird. Ein größerer Mindest-/Höchstbereich führt zu einem <i>reicheren Muster</i> mit Variationen in mehr Frequenzbereichen. |
-| <b>Raueit</b> <i>Gleitend</i> | Steuert die <i>Balance</i> zwischen niedrigen und hohen <i>Wiederholungsstufen</i> im fraktalen Muster.<br><br><i>Hinweis</i>: Ein Wert von <b>0</b> führt zu einer Ausgabe, die <i> nicht in Zeile </i> enthält, auf die andere niedrige Werte folgen. Dies wird erwartet. |
-| <b>Lakunarität</b> <i>Gleitend</i> | Steuert, wie das angewendete fraktale Muster &quot;<i>&quot; Leerzeichen &quot;</i>&quot; ausfüllt. Ein <i>höherer</i> Wert führt zu <i>weniger Lücken</i> im Muster und einem <i>dichteren</i> Rauschen. |
-| <b>Globale Deckkraft</b> <i>Gleitend</i> | Steuert den <i>Bereich</i> der fraktalen 3D-Rauschwerte mit Ridge <i> um </i> den <b>Grundlinienwert</b>. |
-| <b>Grundlinie</b> <i>Gleitend</i> | Wendet einen <i>Versatz</i> auf den Grundlinienwert <i>Luminanz</i> für die 3D-Rauschwertverteilung an. |
+| <b>Verzerrungen-Skalierungsmultiplikator</b> <i>Fließkommazahl</i> | Steuert die Skalierung des <i>sich verformenden Musters</i>, das im Verkrümmungseffekt verwendet wird, der durch die <b>Intensität der Verzerrung</b> gesteuert wird. |
+| <b>Min. Stufe</b> <i>Ganzzahl</i> | Die minimale <i>Wiederholungsstufe</i>, die im fraktalen Muster verwendet wird. Ein größerer Mindest-/Höchstbereich führt zu einem <i>reicheren Muster</i> mit Variationen in mehr Frequenzbereichen. |
+| <b>Max. Stufe</b> <i>Ganzzahl</i> | Die maximale <i>Wiederholungsstufe </i>, die im fraktalen Muster verwendet wird. Ein größerer Mindest-/Höchstbereich führt zu einem <i>reicheren Muster</i> mit Variationen in mehr Frequenzbereichen. |
+| <b>Rauheit</b> <i>Fließkommazahl</i> | Steuert die <i>Balance</i> zwischen niedrigen und hohen <i>Wiederholungsstufen</i> im fraktalen Muster.<br><br><i>Hinweis</i>: Ein Wert von <b>0</b> führt zu einer Ausgabe, die <i> nicht in Zeile </i> enthält, auf die andere niedrige Werte folgen. Dies wird erwartet. |
+| <b>Lakunarität</b> <i>Fließkommazahl</i> | Steuert, wie das angewendete fraktale Muster &quot;<i>&quot; Leerzeichen &quot;</i>&quot; ausfüllt. Ein <i>höherer</i>-Wert führt zu <i>weniger Lücken</i> im Muster und einer <i>dichteren</i>-Rauschen. |
+| <b>Globale Deckkraft</b> <i>Fließkommazahl</i> | Steuert den <i>Bereich</i> der fraktalen 3D-Ridge-Rauschen-Werte <i> um </i> den <b>Grundlinienwert</b>. |
+| <b>Grundlinie</b> <i>Fließkommazahl</i> | Wendet einen <i>offset</i> auf den Grundlinienwert <i>Luminanz</i> für die Werteverteilung des 3D-gerippten Rauschen an. |
 | <b>Kontrast</b> <i>Gleitend</i> | Passt den Kontrast des 3D-Rauschens mit gekräuselten Linien an. |
 | <b>Kachelung aktivieren</b> <i>Boolescher Wert</i> | Passt das 3D-Rauschen an, sodass sich das resultierende Muster <i></i> in der X-, Y- und Z-Achse wiederholt. |
 
 ## Beispiele
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant.jpg" class="modal-image" alt="3D Ridge Rauschen Fraktal - Beispiel 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant2.jpg" class="modal-image" alt="3D Ridge Rauschen Fraktal - Beispiel 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>
