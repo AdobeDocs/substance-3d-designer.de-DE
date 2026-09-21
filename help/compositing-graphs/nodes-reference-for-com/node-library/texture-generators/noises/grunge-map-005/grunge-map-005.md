@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-005.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-005.html"
+breadcrumb-title: ""
 description: Verwenden Sie den Knoten Schmutz Map 005, um prozedurale Schmutz-Texturen zu erstellen, um Oberflächendetails und Variationen zu Materialien hinzuzufügen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 005
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Schmutz Map 005
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 1668632724231982c98a508ae7f87642c5888648
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 8%
-
+source-wordcount: '141'
+ht-degree: 7%
 ---
-
 
 # Schmutz Map 005
 
@@ -26,14 +24,14 @@ ht-degree: 8%
 
 ![](grunge-map-005.resources/grungemap-005.png){width="128px"}
 
-<b>In:</b> Texturen-Generatoren > Rauschen
+<b>In:</b> Texturgeneratoren > Rauschen
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Beschreibung
 
-Dadurch wird eine komplexe, kombinierte Noisemap erzeugt. Es kann als detailliertes prozedurale sehr nützlich sein, aber beachten Sie, dass diese sehr leistungsintensiv und damit langsamer zu generieren sind.
+Dadurch wird eine komplexe, kombinierte Noisemap erzeugt. Es kann als detailliertes Verfahren sehr nützlich sein, aber beachten Sie, dass diese sehr leistungsintensiv sind und daher langsamer zu generieren sind.
 
 </td>
 </tr>
@@ -47,17 +45,19 @@ Dadurch wird eine komplexe, kombinierte Noisemap erzeugt. Es kann als detaillier
 |:---|:---|
 | <b>Saldo</b> <i>0.0 - 1.0</i> | Verschiebt die Balance des Ergebnisses zwischen Schwarz und Weiß, wie bei einer Helligkeitsanpassung. |
 | <b>Kontrast</b> <i>0.0 - 1.0</i> | Passt den Kontrast des Ergebnisses an. |
-| <b>Störung</b> <i>0.0 - 1.0</i> | Verschiebt den Rauschen phasenverschoben, um eine kleine Variation einzuführen. |
+| <b>Störung</b> <i>0.0 - 1.0</i> | Phasenverschiebt das Rauschen, um kleine Schwankungen einzuführen. |
 | <b>Umkehren</b> <i>False/True</i> | Kehrt das Ergebnis um. |
 | <b>Pinselmuster</b> <i>0.0 - 1.0</i> | Fügt eine Maske um die Kanten hinzu, wenn sie als Alpha-Pinsel verwendet wird. |
-| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
 
 ## Beispiele
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-map-005.resources/grungemap-005-ex.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-map-005.resources/grungemap-005-ex.gif" class="modal-image" alt="Schmutz Map 005 - Beispiel 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

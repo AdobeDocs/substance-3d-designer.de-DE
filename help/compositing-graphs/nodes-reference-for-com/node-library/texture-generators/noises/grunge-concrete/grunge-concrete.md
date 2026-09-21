@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-concrete.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-concrete.html"
+breadcrumb-title: ""
 description: Verwenden Sie den Schmutz Concrete-Knoten, um betonähnliche Schmutz-Muster für die Erstellung von Texturen aus verwittertem Mauerwerk zu erzeugen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Concrete
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Schmutz
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '163'
 ht-degree: 1%
-
 ---
-
 
 # Schmutz
 
@@ -26,7 +24,7 @@ ht-degree: 1%
 
 ![](grunge-concrete.resources/grungeconcrete.jpg){width="200px"}
 
-<b>In:</b> Texturgeneratoren > Rauschen
+<b>In:</b> Texturen-Generatoren > Rauschen
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,13 +43,13 @@ Der Knoten **Schmutz Concrete** generiert eine Schmutz-Map, die dem Höhen-Map e
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Gleitend</i> | Passt die Balance zwischen dunklen und hellen Werten an. |
-| <b>Kontrast</b> <i>Gleitend</i> | Passt den Kontrast des Bildes an. |
-| <b>Umkehren</b> <i>Boolescher Wert</i> | Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird. |
-| <b>Quadratische Ausbreitung</b> <i>Boolescher Wert</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+| <b>Saldo</b> <i>Fließkommazahl</i> | Passt die Balance zwischen dunklen und hellen Werten an. |
+| <b>Kontrast</b> <i>Fließkommazahl</i> | Passt den Kontrast des Bildes an. |
+| <b>Umkehren</b> <i>Boolesche Wert</i> | Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird. |
+| <b>Quadratische Ausbreitung</b> <i>Boolesche Wert</i> | Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
 | <b>Erweitert</b> |  |
-| <b>Basisrauschen</b> <i>Gleitend</i> | Passt das Rauschen der Basis-Textur an. |
-| <b>Dirt prüft Deckkraft</b> <i>Gleitend</i> | Passt die Deckkraft der Flecken des Dirts an. |
+| <b>Basisrauschen</b> <i>Fließkommazahl</i> | Passt das Rauschen der Basis-Textur an. |
+| <b>Dirt prüft Deckkraft</b> <i>Fließkommazahl</i> | Passt die Deckkraft der Flecken des Dirts an. |
 | <b>Dirt umkehren</b> <i>Boolesche Wert</i> | Kehrt die Auswirkung der Flecken des Dirts um. |
 | <b>Deckkraft der Scratches</b> <i>Fließkommazahl</i> | Passt die Deckkraft der Kratzer an. |
 | <b>Scharfzeichnen</b> <i>Fließkommazahl</i> | Passt die Intensität des Scharfzeichnungseffekts an, der auf das Bild angewendet wird. |
@@ -59,10 +57,12 @@ Der Knoten **Schmutz Concrete** generiert eine Schmutz-Map, die dem Höhen-Map e
 
 ## Beispiele
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-concrete.resources/grungeconcrete-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-concrete.resources/grungeconcrete-variant.jpg" class="modal-image" alt="Schmutz Concrete - Beispiel 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

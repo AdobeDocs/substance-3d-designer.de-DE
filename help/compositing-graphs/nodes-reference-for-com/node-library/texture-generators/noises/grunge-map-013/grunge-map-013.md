@@ -1,22 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-013.html"
-breadcrumb-title: ''
-description: Verwenden Sie den Knoten Schmutz Map 013, um prozedurale Schmutz-Texturen zu generieren, um Oberflächendetails und Abnutzungseffekte zu Materialien hinzuzufügen.
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-013.html"
+breadcrumb-title: ""
+description: Verwenden Sie den Knoten Schmutz Map 013, um prozedurale Schmutz-Texturen zum Hinzufügen von Oberflächendetails und Verschleißeffekten zu Materialien zu generieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 013
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Schmutz Map 013
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 7%
-
+source-wordcount: '131'
+ht-degree: 6%
 ---
-
 
 # Schmutz Map 013
 
@@ -33,7 +31,7 @@ ht-degree: 7%
 
 ## Beschreibung
 
-Dadurch wird eine komplexe, kombinierte Noisemap erzeugt. Es kann als detailliertes Verfahren sehr nützlich sein, aber beachten Sie, dass diese sehr leistungsintensiv sind und daher langsamer zu generieren sind.
+Dadurch wird eine komplexe, kombinierte Noisemap erzeugt. Es kann als detailliertes prozedurale sehr nützlich sein, aber beachten Sie, dass diese sehr leistungsintensiv und damit langsamer zu generieren sind.
 
 </td>
 </tr>
@@ -49,14 +47,16 @@ Dadurch wird eine komplexe, kombinierte Noisemap erzeugt. Es kann als detaillier
 | <b>Kontrast</b> <i>0.0 - 1.0</i> | Passt den Kontrast des Ergebnisses an. |
 | <b>Umkehren</b> <i>False/True</i> | Kehrt das Ergebnis um. |
 | <b>Pinselmuster</b> <i>0.0 - 1.0</i> | Fügt eine Maske um die Kanten hinzu, wenn sie als Alpha-Pinsel verwendet wird. |
-| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+| <b>Quadratische Ausbreitung</b> <i>False/True</i> | Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
 
 ## Beispiele
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-map-013.resources/grungemap-013-ex.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-map-013.resources/grungemap-013-ex.gif" class="modal-image" alt="Schmutz Map 013 - Beispiel 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

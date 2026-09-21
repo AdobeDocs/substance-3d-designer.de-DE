@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rough-dirty.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rough-dirty.html"
+breadcrumb-title: ""
 description: Verwenden Sie den Schmutz Rough Dirty-Knoten, um raue und schmutzige Schmutz-Texturen zum Hinzufügen von verwitterten Oberflächendetails zu generieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Rough Dirty
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Schmutz Rough Dirty
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 2%
-
+source-wordcount: '157'
+ht-degree: 1%
 ---
-
 
 # Schmutz Rough Dirty
 
@@ -52,18 +50,19 @@ Der Knoten &quot;**Schmutz Rough Dirty**&quot; generiert eine Schmutz-Map, die e
 | <b>Erweitert</b> |  |
 | <b>Schmutz-Hauptintensität</b> <i>Fließkommazahl</i> | Stellt die Intensität der Schmutz-Textur ein, die zum Aufbrechen der Oberfläche verwendet wird. |
 | <b>Scratches umkehren</b> <i>Boolesche Wert</i> | Kehrt die Luminanz der Kratzer auf der Oberfläche um. |
-| <b>Intensität der Scratches</b> <i>Fließkommazahl</i> | Passt die Intensität der Kratzer auf der Oberfläche an. |
-| <b>Körnungsintensität</b> <i>Fließkommazahl</i> | Passt die Intensität des globalen Körnungseffekts an. |
+| <b>Intensität der Scratches</b> <i>Gleitend</i> | Passt die Intensität der Kratzer auf der Oberfläche an. |
+| <b>Körnungsintensität</b> <i>Gleitend</i> | Passt die Intensität des globalen Körnungseffekts an. |
 
 ## Beispiele
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant.jpg" class="modal-image" alt="Schmutz Rough Dirty - Beispiel 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant2.jpg" class="modal-image" alt="Schmutz Rough Dirty - Beispiel 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

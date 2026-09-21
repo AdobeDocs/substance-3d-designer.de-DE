@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-damas.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-damas.html"
+breadcrumb-title: ""
 description: Verwenden Sie den Schmutz Damas -Knoten, um damassähnliche Schmutz-Muster zu erzeugen, um verzierte verwitterte Oberflächendetails zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Damas
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Schmutz Damas
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '144'
 ht-degree: 2%
-
 ---
-
 
 # Schmutz Damas
 
@@ -26,7 +24,7 @@ ht-degree: 2%
 
 ![](grunge-damas.resources/grungedamas.jpg){width="200px"}
 
-<b>In:</b> Texturen-Generatoren > Rauschen
+<b>In:</b> Texturgeneratoren > Rauschen
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,23 +43,25 @@ Der Knoten **Schmutz Damas** generiert eine Schmutz-Map, die einem Damaskus-Stah
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Fließkommazahl</i> | Passt die Balance zwischen dunklen und hellen Werten an. |
-| <b>Kontrast</b> <i>Fließkommazahl</i> | Passt den Kontrast des Bildes an. |
-| <b>Umkehren</b> <i>Boolesche Wert</i> | Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird. |
-| <b>Quadratische Ausbreitung</b> <i>Boolesche Wert</i> | Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
+| <b>Saldo</b> <i>Gleitend</i> | Passt die Balance zwischen dunklen und hellen Werten an. |
+| <b>Kontrast</b> <i>Gleitend</i> | Passt den Kontrast des Bildes an. |
+| <b>Umkehren</b> <i>Boolescher Wert</i> | Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird. |
+| <b>Quadratische Ausbreitung</b> <i>Boolescher Wert</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
 | <b>Erweitert</b> |  |
-| <b>Verzerrung</b> <i>Fließkommazahl</i> | Passt die Verzerrung im Muster an. |
-| <b>Abteilungen</b> <i>Ganzzahl</i> | Passt die Anzahl der Unterteilungen oder Verlaufswiederholungen im Muster an. |
-| <b>Wellen</b> <i>Integer</i> | Passt die Stärke der Wellen im Muster an. |
-| <b>Details</b> <i>Gleitend</i> | Passt die Intensität kleinerer Verzerrungen an. |
-| <b>Drehung zufällig</b> <i>Gleitend</i> | Passt die Zufälligkeit der Drehung für jede Welle an. |
+| <b>Verzerrung</b> <i>Gleitend</i> | Passt die Verzerrung im Muster an. |
+| <b>Abteilungen</b> <i>Integer</i> | Passt die Anzahl der Unterteilungen oder Verlaufswiederholungen im Muster an. |
+| <b>Wellen</b> <i>Ganzzahl</i> | Passt die Stärke der Wellen im Muster an. |
+| <b>Details</b> <i>Fließkommazahl</i> | Passt die Intensität kleinerer Verzerrungen an. |
+| <b>Drehung zufällig</b> <i>Fließkommazahl</i> | Passt die Zufälligkeit der Drehung für jede Welle an. |
 
 ## Beispiele
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-damas.resources/grungedamas-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-damas.resources/grungedamas-variant.jpg" class="modal-image" alt="Schmutz Damas - Beispiel 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>
