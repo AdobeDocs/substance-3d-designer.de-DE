@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/3d-view/scene-browser.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
+breadcrumb-title: ""
 description: Verwenden Sie den Szenenbrowser, um im Viewport zu 3D-Szenenelementen, Materialien und Objekten zu navigieren und diese zu verwalten.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view > Scene browser
@@ -8,47 +8,25 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Szenenbrowser
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '789'
 ht-degree: 1%
-
 ---
-
 
 # Szenenbrowser
 
 Der Szenenbrowser der 3D-Ansicht listet alle Elemente in der Szene und ihre Hierarchie auf.
 
-Es bietet Steuerelemente zum Auswählen von Objekten, zum Umschalten ihrer Sichtbarkeit sowie zum Auswählen, welches Material [&#x200B; ein Szenenmaterial überschreiben soll](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md).
+Es bietet Steuerelemente zum Auswählen von Objekten, zum Umschalten ihrer Sichtbarkeit sowie zum Auswählen, welches Material [ ein Szenenmaterial überschreiben soll](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md).
 
 Da Designer [USD](https://openusd.org/release/index.html) für die Beschreibung und Verwaltung seiner Szenen verwendet, befinden sich die Terminologie und Konzepte in dieser Szenenstruktur.
 
-Sie wird angezeigt, indem Sie auf die dedizierte Umschaltfläche &quot;![](scene-browser.resources/sceneBrowser-toggleButton.png)&quot; in der [3D-Ansichtsszene-Symbolleiste &#x200B;](../../../interface/3d-view/3d-view.md) klicken.
+Sie wird angezeigt, indem Sie auf die dedizierte Umschaltfläche &quot;![](scene-browser.resources/sceneBrowser-toggleButton.png)&quot; in der [3D-Ansichtsszene-Symbolleiste ](../../../interface/3d-view/3d-view.md) klicken.
 
 ![Szenenbrowser - Geladene 3D-Szene](scene-browser.resources/loaded3DScene.png "Szenenbrowser - Geladene 3D-Szene"){zoomable="yes"}
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Szenenbaum
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Umschalten von Objekten in der Szene
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Verbundene Materialien
-
-</td>
-</tr>
-</table>
 
 ## Szenenbaum
 
@@ -59,6 +37,8 @@ Sie wird angezeigt, indem Sie auf die dedizierte Umschaltfläche &quot;![](scene
 Der Szenenbrowser zeigt eine Liste von Objekten an, die in einer hierarchischen Baumstruktur angeordnet sind.
 
 Objekte werden anderen Objekten übergeordnet, bis zum Stamm der Szene. Ein übergeordnetes Objekt verfügt über eine Pfeilschaltfläche, mit der die Liste der ihm untergeordneten Objekte ein- oder ausgeblendet wird.
+
+Einige Objekte verfügen über Eigenschaften, die bei Auswahl im Dock [Eigenschaften](../../../interface/properties/properties.md) angezeigt und bearbeitet werden können: Umgebung, Kamera, Lichter, `Mesh` Objekte und Material [überschreibt](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md).
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -87,7 +67,7 @@ Designer fügt jeder geladenen Szene einige Objekte hinzu. Von Designer hinzugef
 
 Bei Verwendung des Editors ... in den Menüs &quot;Licht&quot;, &quot;Kamera&quot; und &quot;Umgebung&quot;. Dabei handelt es sich um die Objekte, die bearbeitet werden, unabhängig davon, ob andere Lichter, Kameras oder Umgebungen in der Szene vorhanden sind.
 
-Diese Objekte sind in der Szene enthalten, wenn [&#x200B; &#x200B;](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) exportiert hat.
+Diese Objekte sind in der Szene enthalten, wenn [ ](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) exportiert hat.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">

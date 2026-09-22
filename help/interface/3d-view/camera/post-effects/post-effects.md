@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/3d-view/camera/post-effects.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/camera/post-effects.html"
+breadcrumb-title: ""
 description: Wenden Sie Nachbearbeitungseffekte auf die Kamera der 3D-Ansicht an, um eine verbesserte Material-Vorschau und -Visualisierung zu ermöglichen.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view > Camera > Post effects
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Post-Effekte
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 45cd3aec3baf2c35bae9e48540f6e7fb3a665541
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '726'
 ht-degree: 4%
-
 ---
-
 
 # Post-Effekte
 
@@ -27,31 +25,6 @@ In den Eigenschaften für die Kamera können Sie Post-Effekten das Verbessern de
 Diese Effekte werden intern entwickelt und sind nur für die Rasterizer- und GPU-Pathtracer [renderers](../../../../interface/3d-view/3d-renderers/3d-renderers.md) verfügbar.
 
 Alle Nachbearbeitungseffekte, die zum Zeitpunkt des Speicherns von [3D-Szene-Ressourcen](../../../../resources/3d-scene-resource/3d-scene-resource.md) oder [Szene-Statusdateien](../../../../working-with-3d-scenes/working-with-3d-scenes.md) aktiviert sind, werden als Teil des Status der Szene gespeichert.
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Ton-Mapping
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Bloom
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Feldtiefe
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 ## Ton-Mapping
 

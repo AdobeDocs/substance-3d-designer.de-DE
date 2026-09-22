@@ -1,6 +1,6 @@
 ---
 helpx_url: ""
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Mit dem Popupfenster "Versatz" können Sie schnell den Versatz und die Tessellation anpassen, die Meshs in einer 3D-Szene zugewiesen wurden.
 helpx_creative_field: ""
 helpx_description: ""
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 3D-Ansicht - Popup "Versatz"
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '499'
 ht-degree: 2%
-
 ---
-
 
 # Versatz-Popup
 
@@ -46,7 +44,7 @@ da es derzeit vom Graf angetrieben wird.
 
 >[!TIP]
 > 
->Verwenden Sie den Knoten [Height zu normalen weltweiten Einheiten &#x200B;](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/height-normal-world-units/height-to-normal-world-units.md), und der Parameter &#39;Height-Tiefe&#39; muss mit dem Wert &#39;Height-Skalierung&#39; übereinstimmen.
+>Verwenden Sie den Knoten [Height zu normalen weltweiten Einheiten ](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/height-normal-world-units/height-to-normal-world-units.md), und der Parameter &#39;Height-Tiefe&#39; muss mit dem Wert &#39;Height-Skalierung&#39; übereinstimmen.
 >, um die richtige Schattierung bei der Verwendung von Versatz sicherzustellen.
 
 ## Höhenebene
@@ -74,6 +72,13 @@ Unterteilungswert.
 
 Unterteilung ist kontextabhängig: so optimiert, dass nur Flächen mit einem *ungleichmäßigen Height-Wert* oder
 Eine *nicht-flache Height-Map* wird unabhängig vom Parameterwert unterteilt.
+
+>[!TIP]
+>
+>Bei der Tessellation handelt es sich um einen Vorbereitungsschritt, der unabhängig von einer tatsächlich auftretenden Tessellation abläuft. (d. h. `Tessellation factor = 1`)
+>Bei hohen Poly-Meshs kann dieser Schritt zeitaufwendig sein und die Leistung bei Verwendung von Versatz erheblich beeinträchtigen.
+>
+>Wenn keine Tessellation erforderlich ist, können Sie die Technik vollständig deaktivieren, indem Sie den Parameter **Verbesserungsstufe** in den Eigenschaften der `Mesh` Objekte, die im [Szene-Browser](../scene-browser/scene-browser.md#scene-tree) aufgelistet sind, auf `0` festlegen.
 
 ### Pro Material
 
