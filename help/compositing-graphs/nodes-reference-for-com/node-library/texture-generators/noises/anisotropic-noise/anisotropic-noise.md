@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Verwenden Sie den Knoten "Anisotropes Rauschen", um Richtungsrauschen-Muster zum Erstellen anisotroper Textureffekte zu generieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Anisotropic noise
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Anisotropes Rauschen
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '240'
 ht-degree: 1%
-
 ---
-
 
 # Anisotropes Rauschen
 
@@ -60,24 +58,21 @@ Die Anzahl der Streifen ist einstellbar, ebenso wie die Smoothness ihrer Überg�
 | <b>Y Betrag nach Auflösung</b> <i>Boolescher Wert</i> | Wenn dieser Wert wahr ist, entspricht die Anzahl der Streifen auf der Y-Achse der Bildgröße auf dieser Achse. |
 | <b>Drehen</b> <i>Boolescher Wert</i> | Dreht das Rauschen um 90 Grad. |
 | <b>Smoothness</b> <i>Gleitend</i> | Die Stärke der Überblendung zwischen den Streifen, wobei 0 keine Überblendung bedeutet und 1 über ihre gesamte Länge verblasst. |
-| <b>Smoothness-Interpolation</b> <i>Gleitend</i> | Die Gewichtung der beiden Methoden der Interpolation angewendet, um die Streifen zu überblenden, wobei 0 linear und 1 Gauß ist. |
-| <b>Störung</b> <i>Gleitend</i> | Versetzt die Bestandteile des Rauschens.   So kannst du das Rauschen animieren. |
-| <b>Störungsgeschwindigkeit</b> <i>Gleitend</i> | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.   Mit dieser Option können Sie die Geschwindigkeit des Versatzes bei der Animation des Rauschens steuern. |
-| <b>Nicht quadratische Erweiterung</b> <i>Boolescher Wert</i> | Bei nicht quadratischen Bildern bleibt das erzeugte Kachelquadrat erhalten und erweitert die Rauscherzeugung auf die Grenzen des Bildes. |
+| <b>Smoothness-Interpolation</b> <i>Fließkommazahl</i> | Die Gewichtung der beiden Interpolationsmethoden, die auf die Verblassen der Streifen angewendet werden, wobei 0 linear und 1 Gauß ist. |
+| <b>Störung</b> <i>Fließkommazahl</i> | Versetzt die Bestandteile der Rauschen.   So animierst du die Rauschen. |
+| <b>Störungsgeschwindigkeit</b> <i>Fließkommazahl</i> | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.   Dies kann verwendet werden, um die Geschwindigkeit des Versatzes bei der Animation des Rauschen zu steuern. |
+| <b>Nicht quadratische Erweiterung</b> <i>Boolesche Wert</i> | Behält bei nicht quadratischen Bildern das erzeugte Kachelquadrat bei und erweitert die Rauschen-Generation auf die Grenzen des Bildes. |
 
 ## Beispiele
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Anisotropes Rauschen - Beispiel 1](anisotropic-noise.resources/anisotropic_noise_v2_1.png "Anisotropes Rauschen - Beispiel 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Anisotropes Rauschen - Beispiel 2](anisotropic-noise.resources/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "Anisotropes Rauschen - Beispiel 2"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="anisotropic-noise.resources/anisotropic_noise_v2_1.png" class="modal-image" alt="Anisotropes Rauschen - Beispiel 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="anisotropic-noise.resources/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="Anisotropes Rauschen - Beispiel 2" />
+        </td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

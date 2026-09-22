@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/working-with-3d-scenes.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie 3D-Szenen in Substance 3D Designer importieren, bearbeiten und mit ihnen arbeiten können, um eine Vorschau Ihrer Materialien anzuzeigen und sie zu testen.
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Arbeiten mit 3D-Szenen
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '862'
 ht-degree: 0%
-
 ---
-
 
 # Arbeiten mit 3D-Szenen
 
@@ -32,26 +30,6 @@ Wenn Sie mit der 3D-Szene fertig sind, können Sie die 3D-Szene [in eine neue Da
 Beim Exportieren in USD-Formate kann dieser Workflow vollständig <b>nicht-destruktiv</b> sein, d. h., es werden nur Bearbeitungen und Ergänzungen exportiert.
 
 Zuerst müssen Sie eine 3D-Szene laden, an der Sie arbeiten möchten, und in der Lage sein, ihren Status in Designer sitzungsübergreifend beizubehalten.
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Inhalte von 3D-Szenen
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Laden einer Szene
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Szenenstatusdateien
-
-</td>
-</tr>
-</table>
 
 ## Inhalte von 3D-Szenen
 
@@ -144,9 +122,9 @@ Alle von Designer erstellten Elemente werden im Szene-Browser mit <b>fetten Beze
 </tr>
 </table>
 
-## Szene-Statusdateien
+## Szenenstatusdateien
 
-Nach dem Einrichten eines Materials, einer Kamera, einer Beleuchtung usw. in der 3D-Ansicht kann dieser Zustand in einer Szene-Statusdatei (.sbsscn) gespeichert werden, die später geladen werden kann, um diesen Zustand wiederherzustellen. Unter Umständen möchten Sie beispielsweise einige Szenen für die Vorschau verschiedener Materialien oder für eine bestimmte Lichtumgebung einrichten.
+Nachdem Sie Materialien, Kamera, Lichter usw. in der 3D-Ansicht eingerichtet haben, kann dieser Status in einer Szenenstatusdatei (.sbsscn) gespeichert werden, die später geladen werden kann, um diesen Status wiederherzustellen. Unter Umständen möchten Sie beispielsweise einige Szenen für die Vorschau verschiedener Materialarten oder für eine bestimmte Lichtumgebung einrichten.
 
 ![Szenen-Statusdatei laden](working-with-3d-scenes.resources/loadSceneStateFile.gif "Szenen-Statusdatei laden"){zoomable="yes"}
 

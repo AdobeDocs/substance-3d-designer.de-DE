@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-gradient.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Verwenden Sie den Dirt-Verlaufsknoten, um Verlaufsbasierte Dirt-Muster zu generieren, um gerichtete Verwitterungs- und Akkumulationseffekte zu erzeugen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Dirt gradient
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Dirt-Verlauf
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '209'
 ht-degree: 1%
-
 ---
-
 
 # Dirt-Verlauf
 
@@ -59,36 +57,27 @@ Siehe auch: [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-co
 | <b>Störungsgeschwindigkeit</b> <i>Gleitend</i> | Passt den Abstand des Versatzes an, der vom <b>Disorder</b>-Parameter angewendet wird.    Mit dieser Option können Sie die Geschwindigkeit des Versatzes bei der Animation des Rauschens steuern. |
 | <b>Anisotropie der Störung</b> <i>Gleitend</i> | Steuert die Richtungsspanne des Versatzes, der vom <b>Disorder</b>-Parameter angewendet wird, wobei ein höherer Wert zu einer engeren, definierteren Richtung führt.    Die Anisotropie wird durch den Parameter <b>Disorder Direction Angle</b> gesteuert. |
 | <b>Disorder anisotropy angle</b> <i>Gleitend</i> | Steuert die Richtung des Versatzes, der vom <b>Disorder</b>-Parameter angewendet wird, wenn der <b>Disorder Anisotropie</b>-Parameter nicht Null ist. |
-| <b>Nicht quadratische Erweiterung</b> <i>Boolescher Wert</i> | Bei nicht quadratischen Bildern bleibt das erzeugte Kachelquadrat erhalten und erweitert die Rauscherzeugung auf die Grenzen des Bildes. |
+| <b>Nicht quadratische Erweiterung</b> <i>Boolesche Wert</i> | Behält bei nicht quadratischen Bildern das erzeugte Kachelquadrat bei und erweitert die Rauschen-Generation auf die Grenzen des Bildes. |
 
 ## Beispiele
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Dirt-Farbverlauf - Beispiel 1](dirt-gradient.resources/dirt_gradient_1.png "Dirt-Farbverlauf - Beispiel 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Dirt-Farbverlauf - Beispiel 2](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso0.gif "Dirt-Farbverlauf - Beispiel 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Dirt-Farbverlauf - Beispiel 3](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso1.gif "Dirt-Farbverlauf - Beispiel 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Dirt-Farbverlauf - Beispiel 4](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.3_aniso0.6.gif "Dirt-Farbverlauf - Beispiel 4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="dirt-gradient.resources/dirt_gradient_1.png" class="modal-image" alt="Dirt-Verlauf - Beispiel 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso0.gif" class="modal-image" alt="Dirt-Verlauf - Beispiel 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso1.gif" class="modal-image" alt="Dirt-Verlauf - Beispiel 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="dirt-gradient.resources/noise_dirt_gradient_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="Dirt-Verlauf - Beispiel 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

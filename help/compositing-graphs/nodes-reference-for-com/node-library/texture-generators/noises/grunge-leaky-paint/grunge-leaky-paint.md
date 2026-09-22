@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Verwenden Sie den Knoten Schmutz Leaky Malen zum Generieren von Malen-Leckmustern zum Erstellen von verwitterten und gealterten Oberflächeneffekten.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Leaky Paint
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Schmutz Leaky Malen
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 1668632724231982c98a508ae7f87642c5888648
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '150'
 ht-degree: 2%
-
 ---
-
 
 # Schmutz Leaky Malen
 
@@ -52,18 +50,19 @@ Der Knoten **Schmutz Leaky Malen** generiert eine Schmutz-Map, die der Malen äh
 | <b>Erweitert</b> |  |
 | <b>Leckintensität</b> <i>Fließkommazahl</i> | Passt die Dichte und Intensität der Tropfen an. |
 | <b>Leckskala</b> <i>Ganzzahl</i> | Passt die Skalierung der Tropfentrennung an. |
-| <b>Leckwinkel zufällig</b> <i>Fließkommazahl</i> | Passt den maximalen Winkel von ** Tropfen an, der zufällig in *Windungszahl* gedreht werden kann. |
-| <b>Leck-Crispness</b> <i>Fließkommazahl</i> | Passt die Genauigkeit und Schärfe der Tropfen an. |
+| <b>Leckwinkel zufällig</b> <i>Gleitend</i> | Passt den maximalen Winkel von ** Tropfen an, der zufällig in *Windungszahl* gedreht werden kann. |
+| <b>Leck-Crispness</b> <i>Gleitend</i> | Passt die Genauigkeit und Schärfe der Tropfen an. |
 
 ## Beispiele
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant.jpg" class="modal-image" alt="Schmutz Leaky Malen - Beispiel 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant2.jpg" class="modal-image" alt="Schmutz Leaky Malen - Beispiel 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

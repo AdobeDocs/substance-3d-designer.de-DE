@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Verwenden Sie den Fur 3 -Knoten, um erweiterte Felltexturen mit anpassbaren Eigenschaften zum Erstellen von Haar- und Fasereffekten zu generieren.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fur 3
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Fur 3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '81'
 ht-degree: 11%
-
 ---
-
 
 # Fur 3
 
@@ -52,10 +50,12 @@ Dadurch wird eine Spreiz-/Borsten-Rauschen erzeugt.
 
 ## Beispiele
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="fur-3.resources/fur-3-ex.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="fur-3.resources/fur-3-ex.gif" class="modal-image" alt="Fur 3 - Beispiel 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

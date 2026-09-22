@@ -1,22 +1,20 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaks.html"
-breadcrumb-title: ''
-description: Verwenden Sie den Knoten "Schmutz-Lecks", um Leckmuster zum Erzeugen von Wasserflecken und Witterungseffekten auf Flächen zu erzeugen.
+breadcrumb-title: ""
+description: Verwenden Sie den Knoten "Schmutz-Lecks", um Leckmuster für die Erzeugung von Wasserflecken und Verwitterung auf Flächen zu erzeugen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Leaks
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Schmutz Leaks
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 1668632724231982c98a508ae7f87642c5888648
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '139'
 ht-degree: 2%
-
 ---
-
 
 # Schmutz Leaks
 
@@ -26,7 +24,7 @@ ht-degree: 2%
 
 ![](grunge-leaks.resources/grungeleaks.jpg){width="200px"}
 
-<b>In:</b> Texturgeneratoren > Rauschen
+<b>In:</b> Texturen-Generatoren > Rauschen
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,25 +43,26 @@ Der Knoten **Schmutz Leaks** generiert eine Schmutz-Map, die so ähnlich ist, al
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Gleitend</i> | Passt die Balance zwischen dunklen und hellen Werten an. |
-| <b>Kontrast</b> <i>Gleitend</i> | Passt den Kontrast des Bildes an. |
-| <b>Umkehren</b> <i>Boolescher Wert</i> | Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird. |
-| <b>Quadratische Ausbreitung</b> <i>Boolescher Wert</i> | Ermöglicht die Kompensation von Quetsch und Dehnung bei nicht quadratischen Verhältnissen. |
+| <b>Saldo</b> <i>Fließkommazahl</i> | Passt die Balance zwischen dunklen und hellen Werten an. |
+| <b>Kontrast</b> <i>Fließkommazahl</i> | Passt den Kontrast des Bildes an. |
+| <b>Umkehren</b> <i>Boolesche Wert</i> | Kehrt die Ausgabe des Bildes um, indem ein `1-x`-Vorgang verwendet wird. |
+| <b>Quadratische Ausbreitung</b> <i>Boolesche Wert</i> | Ermöglicht die Kompensation von Squash und dehn mit nicht quadratischen Verhältnissen. |
 | <b>Erweitert</b> |  |
-| <b>Tropflänge</b> <i>Gleitend</i> | Passt die Länge der Tropfstreifen an. |
-| <b>Formkontrast</b> <i>Gleitend</i> | Verschiebt zwischen hellen und dunklen Formen und kontrastiert über die Tropfen hinweg. |
+| <b>Tropflänge</b> <i>Fließkommazahl</i> | Passt die Länge der Tropfstreifen an. |
+| <b>Formkontrast</b> <i>Fließkommazahl</i> | Verschiebt zwischen hellen und dunklen Formen und kontrastiert über die Tropfen hinweg. |
 | <b>Tropfknackigkeit</b> <i>Gleitend</i> | Passt die Schärfe und die Krümmung der Tropfen an. |
 | <b>Intensität schärfen</b> <i>Gleitend</i> | Passen Sie die Unebenheit des Bildes insgesamt an. |
 
 ## Beispiele
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-leaks.resources/grungeleaks-variant2.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-leaks.resources/grungeleaks-variant2.jpg" class="modal-image" alt="Schmutz-Lecks - Beispiel 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-leaks.resources/grungeleaks-variant.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-leaks.resources/grungeleaks-variant.jpg" class="modal-image" alt="Schmutz-Lecks - Beispiel 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

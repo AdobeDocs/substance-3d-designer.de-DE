@@ -1,58 +1,36 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
-breadcrumb-title: ''
-description: Überschreiben Sie vorhandene Materialien in 3D-Szenen, um sie zum Testen und in der Vorschau durch Ihre eigenen Substance-Materialien zu ersetzen.
+breadcrumb-title: ""
+description: Überschreiben Sie vorhandene Materialien in 3D-Szenen, um sie zum Testen und für die Vorschau durch Ihre eigenen Substance-Materialien zu ersetzen.
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes > Overriding scene materials
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Außerkraftsetzte Szenenmaterialien
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+title: Überschreiben von Szene-Materialien
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '889'
 ht-degree: 0%
-
 ---
 
+# Überschreiben von Szene-Materialien
 
-# Außerkraftsetzte Szenenmaterialien
+Wenn Sie mit 3D-Szenen mit bestehenden Materialien arbeiten, müssen Sie diese Materialien überschreiben, um sie durch Ihre eigenen zu ersetzen.
 
-Wenn Sie mit 3D-Szenen mit vorhandenen Materialien arbeiten, müssen Sie diese Materialien überschreiben, um sie durch Ihre eigenen zu ersetzen.
+Ihr Material kann von Grund auf neu erstellt werden oder eine angepasste Version des Materials einer Szene, die [in einen Substance-Graf extrahiert wurde](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md).
 
-Ihr Material kann von Grund auf neu erstellt werden oder eine angepasste Version des Materials einer Szene, die [in ein Substance-Diagramm extrahiert wurde](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md).
+![Überschreiben eines Szene-Materials, Anpassen und Zurücksetzen auf seinen Szene-Status](overriding-scene-materials.resources/tweakOverriddenMaterial.gif "Überschreiben eines Szene-Materials, Anpassen und Zurücksetzen auf seinen Szene-Status"){zoomable="yes"}
 
-![Überschreiben von Szenenmaterial, Anpassen und Zurücksetzen auf den Szenenstatus](overriding-scene-materials.resources/tweakOverriddenMaterial.gif "Überschreiben von Szenenmaterial, Anpassen und Zurücksetzen auf den Szenenstatus"){zoomable="yes"}
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Szenenmaterial überschreiben
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Auf Szenenzustand zurücksetzen
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Verbundenes Material
-
-</td>
-</tr>
-</table>
-
-## Szenenmaterial überschreiben
+## Szene-Material überschreiben
 
 Jedes Material, das in einer Szene verwendet wird, kann mit Ihrer eigenen Version überschrieben werden, d. h. mit einem neuen Material oder einer bearbeiteten Version des vorhandenen Materials.
 
-Die Aktion &quot;Material überschreiben&quot; kann an zwei Stellen gefunden werden:
+Die Aktion &quot;Material überschreiben&quot; befindet sich an zwei Stellen:
 
-* Öffnen Sie das Menü &quot;Materialien&quot; und gehen Sie zum Untermenü des gewünschten Materials
+* Öffnen Sie das Menü &quot;Materials&quot; und gehen Sie zum Untermenü des gewünschten Materials
 * Drücken Sie Umschalt+LMB auf einem Szenenobjekt, um es auszuwählen, und klicken Sie dann auf RMB, um das Kontextmenü zu öffnen
 
 <table>
@@ -61,37 +39,37 @@ Die Aktion &quot;Material überschreiben&quot; kann an zwei Stellen gefunden wer
 
 ![Material überschreiben - Aktion im Viewport &quot;3D-Ansicht&quot;](overriding-scene-materials.resources/overrideMaterialActionViewport.png "Material überschreiben - Aktion im Viewport &quot;3D-Ansicht&quot;"){zoomable="yes"}
 
-*Aktion im Ansichtsport der 3D-Ansicht*
+*Aktion im 3D-Ansicht-Viewport*
 
 </td>
 <td style="border: 0;" valign="top">
 
 ![Material überschreiben - Aktion im Menü &quot;Materialien&quot;](overriding-scene-materials.resources/overrideMaterialActionMaterials.png "Material überschreiben - Aktion im Menü &quot;Materialien&quot;"){zoomable="yes"}
 
-*Aktion im Materialmenü*
+*Aktion im Menü &quot;Material&quot;*
 
 </td>
 </tr>
 </table>
 
-Im Kontext von Designer, das USD für die interne Szenenbeschreibung verwendet, bedeutet &quot;Überschreiben&quot;, dass *eine Kopie* des Materials erstellt wird, die dem Original so genau wie möglich entspricht, und dass die *Materialbindung* der Gitter der Szene von dem Original in die Kopie geändert wird.
+Im Kontext von Designer, das USD für die Beschreibung der internen Szene verwendet, bedeutet &quot;Überschreiben&quot;, dass *eine Kopie* des Materials erstellt wird, die dem Original so genau wie möglich entspricht, und dass die *Material-Bindung* der Mesh der Szene vom Original in die Kopie geändert wird.
 
 >[!NOTE]
 >
-> Die Kopien werden in der Szene in einem Ordner &quot;<b>Material</b>&quot; (&quot;Umfang&quot; in USD) unter dem Stamm erstellt und verwenden denselben Bezeichner wie das Original sowie ein numerisches Suffix (z. B.: &quot;rostedMetal\_0&quot;)
+> Die Kopien werden in der Szene im Ordner &quot;<b>Material</b>&quot; (&quot;Umfang&quot; in USD) unter dem Stammordner erstellt und verwenden dieselbe Identifizierung wie das Original sowie ein numerisches Suffix (z. B.: &quot;rostedMetal\_0&quot;)
 
 Das bedeutet zwei wichtige Dinge:
 
-1. Das Originalmaterial wird nie verändert.
+1. Das ursprüngliche Material wird nie verändert.
 1. Alle in Designer vorgenommenen Änderungen werden auf die Kopie angewendet.
 
-Sie können jede Modifikation jederzeit über dieselbe Aktion &quot;Material überschreiben&quot; aktivieren bzw. deaktivieren, wenn Sie das Material der ursprünglichen Szene wiederherstellen oder eine schnelle Vorher-/Nachher-Prüfung durchführen möchten
+Sie können alle Modifikationen jederzeit über dieselbe Aktion &quot;Material überschreiben&quot; aktivieren bzw. deaktivieren, wenn Sie das Material der ursprünglichen Szene wiederherstellen oder eine schnelle Vorher-/Nachher-Prüfung durchführen möchten
 
-Da die Kopie so erstellt wird, dass sie mit dem Original übereinstimmt, sollte das Überschreiben eines Materials sein Aussehen in den meisten Fällen nicht ändern (siehe Hinweis unten), bis Sie ein Substance-Diagramm damit verbinden oder seine Eigenschaften bearbeiten.
+Da die Kopie so erstellt wird, dass sie mit dem Original übereinstimmt, sollte das Überschreiben eines Materials in den meisten Fällen seine Darstellung nicht ändern (siehe Hinweis unten), bis Sie einen Substance-Graf damit verbinden oder seine Eigenschaften bearbeiten.
 
 >[!NOTE]
 >
-> Wenn ein irreguläres Format angewendet wird, berechnet Designer die Tangenten und Binormalen der betroffenen Meshes. Dies kann einige Zeit dauern und das Aussehen dieser Meshes ändern, insbesondere wenn diese Meshes keine definierte Normalskala und -neigung aufweisen oder andere verwenden.
+> Wenn ein irreguläres Format angewendet wird, berechnet Designer die Tangenten und Binominalwerte der betroffenen Mesh. Dies kann einige Zeit dauern und das Aussehen dieser Mesh ändern, insbesondere wenn diese Mesh keine definierte Normalskala und keinen definierten Bias aufweisen oder andere verwenden.
 
 >[!IMPORTANT]
 >
@@ -99,7 +77,7 @@ Da die Kopie so erstellt wird, dass sie mit dem Original übereinstimmt, sollte 
 > 
 > Für die optimale Interoperabilität außerhalb von Substance 3D-Anwendungen wird derzeit empfohlen, das <b>UsdPreviewSurface</b>-Schattierung-Modell zu verwenden, selbst wenn dieses Modell deutlich weniger Material-Eigenschaften und -Effekte unterstützt.
 
-## Auf Szenenzustand zurücksetzen
+## Auf Szene zurücksetzen
 
 Wenn Sie den Anfangsstatus eines Materials wiederherstellen, es aber überschrieben lassen und trotzdem bearbeiten können, können Sie jede Material-Kopie auf die ursprünglichen Werte zurücksetzen.
 
@@ -111,7 +89,7 @@ Verwenden Sie die Aktion &quot;Material auf Status der Szene zurücksetzen&quot;
 
 Die Aktion kann an drei Stellen durchgeführt werden:
 
-* Öffnen Sie das Menü &quot;Materialien&quot; und gehen Sie zum Untermenü des gewünschten Materials
+* Öffnen Sie das Menü &quot;Materials&quot; und gehen Sie zum Untermenü des gewünschten Materials
 * Drücken Sie Umschalt+LMB auf einem Szenenobjekt, um es auszuwählen, und klicken Sie dann auf RMB, um das Kontextmenü zu öffnen
 * Das Hamburger-Menü oben in den Eigenschaften des Materials
 
@@ -121,14 +99,14 @@ Die Aktion kann an drei Stellen durchgeführt werden:
 
 ![Material auf Szene zurücksetzen - Aktion im Viewport &quot;3D-Ansicht&quot;](overriding-scene-materials.resources/resetMaterialToSceneStateActionViewport.png "Material auf Szene zurücksetzen - Aktion im Viewport &quot;3D-Ansicht&quot;"){zoomable="yes"}
 
-*Aktion im Ansichtsport der 3D-Ansicht*
+*Aktion im 3D-Ansicht-Viewport*
 
 </td>
 <td style="border: 0;" valign="top">
 
 ![Material auf Aktionsstatus zurücksetzen - Szene im Menü &quot;Materialien&quot;](overriding-scene-materials.resources/resetMaterialToSceneStateActionMaterials.png "Material auf Aktionsstatus zurücksetzen - Aktion im Menü &quot;Materialien&quot;"){zoomable="yes"}
 
-*Aktion im Materialmenü*
+*Aktion im Menü &quot;Material&quot;*
 
 </td>
 <td style="border: 0;" valign="top">

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Verwenden Sie den 3D-Voronoi-Knoten, um Voronoi-Muster zu generieren, die auf der 3D-Weltposition basieren, um volumetrische zelluläre Texturen zu erstellen.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Voronoi
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 3D Voronoi
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '563'
 ht-degree: 0%
-
 ---
-
 
 # 3D Voronoi
 
@@ -43,7 +41,7 @@ Dieser Knoten kann mit [Cube 3D GBuffers](../../../../../../compositing-graphs/n
 
 >[!WARNING]
 >
-> Diese Rauschen ist nur für das <i>GPU-Engine </i> (d. h. <b>Direct3D</b> oder <b>OpenGL</b>) vorgesehen. Wechseln Sie zu <b>Extras > Engine wechseln...</b> oder drücken Sie die Taste <b>F9</b>, um das gewünschte Engine auszuwählen.
+> Dieses Geräusch soll nur mit dem <i>GPU-Modul verwendet werden</i> (d. h. <b>Direct3D</b> oder <b>OpenGL</b>). Wechseln Sie zu <b>Extras > Modul wechseln...</b> oder drücken Sie die Taste <b>F9</b>, um das gewünschte Modul auszuwählen.
 
 <a name="parameters"></a>
 
@@ -51,11 +49,11 @@ Dieser Knoten kann mit [Cube 3D GBuffers](../../../../../../compositing-graphs/n
 
 |  |  |
 |:---|:---|
-| <b>Umkehren</b> <i>Boolesche Wert</i> | Kehrt das Ausgabebild um. |
-| <b>Skalierung</b> <i>Fließkommazahl</i> | Steuert die Skalierung der 3D-Voronoi-Rauschen.<br><br><i>Hinweis</i>: Wenn <b>Kachelung</b> für <i>eine beliebige Achse</i> aktiviert ist, ist die Skalierungsanpassung <i>schrittweise</i>. Dies wird erwartet. |
-| <b>Größe</b> <i>Fließkommazahl3</i> | Steuert die Größe der 3D-Voronoi-Rauschen in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b>. Nicht einheitliche Werte führen zu einem <i>dehnend oder auslöschenden </i>-Effekt.<br><br><i>Hinweis</i>: Wenn <b>Kachelung</b> für <i>eine beliebige Achse</i> aktiviert ist, ist die Größenanpassung <i>schrittweise</i>. Dies wird erwartet. |
-| <b>Offset</b> <i>Fließkommazahl3</i> | Wendet einen Offset auf die <i>Position</i> der 3D-Voronoi-Rauschen in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b> an. |
-| <b>Störung</b> <i>Fließkommazahl3</i> | Die Intensität des <i>zufälligen Versatzes</i>, der auf jeden Punkt des Rauschens in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b> angewendet wird. |
+| <b>Umkehren</b> <i>Boolescher Wert</i> | Kehrt das Ausgabebild um. |
+| <b>Skalierung</b> <i>Gleitend</i> | Steuert die Skalierung der 3D-Voronoi-Rauschen.<br><br><i>Hinweis</i>: Wenn <b>Kacheln</b> auf <i>einer Achse</i> aktiviert ist, ist die Skalenanpassung <i>gestuft</i>. Dies wird erwartet. |
+| <b>Größe</b> <i>Float3</i> | Steuert die Größe der 3D-Voronoi-Rauschen in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b>. Nicht einheitliche Werte führen zu einem <i>dehnend oder auslöschenden </i>-Effekt.<br><br><i>Hinweis</i>: Wenn <b>Kachelung</b> für <i>eine beliebige Achse</i> aktiviert ist, ist die Größenanpassung <i>schrittweise</i>. Dies wird erwartet. |
+| <b>Offset</b> <i>Float3</i> | Wendet einen Offset auf die <i>Position</i> der 3D-Voronoi-Rauschen in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b> an. |
+| <b>Störung</b> <i>Float3</i> | Die Intensität des <i>zufälligen Versatzes</i>, der auf jeden Punkt des Rauschens in den Achsen <b>X</b>, <b>Y</b> und <b>Z</b> angewendet wird. |
 | <b>Intensität der Verzerrung</b> <i>Gleitend</i> | Steuert die Intensität eines <i>Verkrümmungseffekts</i>, der auf das 3D-Voronoi-Rauschen angewendet wird. |
 | <b>Verzerrungen-Skalierungsmultiplikator</b> <i>Gleitend</i> | Steuert die Skalierung des <i>sich verformenden Musters</i>, das im Verkrümmungseffekt verwendet wird, der durch die <b>Intensität der Verzerrung</b> gesteuert wird. |
 | <b>Abgerundete Kurve</b> <i>Gleitend</i> | Rundet die <i>Steigung</i> um jeden Punkt der Rauschen, um sie <i>konvex</i> zu machen.<br><br><i>Hinweis</i>: Dieser Parameter ist nicht verfügbar, wenn der <b>Style</b>-Parameter auf <i>Edge</i> festgelegt ist. |
@@ -68,27 +66,27 @@ Dieser Knoten kann mit [Cube 3D GBuffers](../../../../../../compositing-graphs/n
 
 ## Beispiele
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-voronoi.resources/3dvoronoi-variant.jpg" class="modal-image" alt="3D Voronoi - Beispiel 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant5.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi.resources/3dvoronoi-variant5.jpg" class="modal-image" alt="3D Voronoi - Beispiel 2" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi.resources/3dvoronoi-variant2.jpg" class="modal-image" alt="3D Voronoi - Beispiel 3" />
         </td>
     </tr>
-    <tr style="border: 0; background: transparent">
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant4.jpg" />
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-voronoi.resources/3dvoronoi-variant4.jpg" class="modal-image" alt="3D Voronoi - Beispiel 4" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant3.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi.resources/3dvoronoi-variant3.jpg" class="modal-image" alt="3D Voronoi - Beispiel 5" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant6.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi.resources/3dvoronoi-variant6.jpg" class="modal-image" alt="3D Voronoi - Beispiel 6" />
         </td>
     </tr>
 </table>
