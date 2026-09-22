@@ -196,7 +196,7 @@ erforderlich ist. HTML Tabellen können keine verschachtelten Tabellen enthalten
 
 * Inline-Code: einzelne Backticks.
 * Umzäunte Blöcke: Triple Backticks, mit einer optionalen Syntaxsprache
-Markierung (` ```python `, ` ```javascript ` usw.).
+Markierung (` `&#x200B;``python `, ` ``&#x200B;`javascript ` usw.).
 
 ## Hinweis/Warnblöcke
 

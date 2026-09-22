@@ -89,8 +89,8 @@ Beschreibungszellenprosa-Konventionen:
 Unterkategorienamen vom Knoten selbst; Du musst sie nicht erfinden.
 * Für Knoten mit mehreren Versionen (z. B. Farb-/Graustufenwerte/Werte- oder nummerierte Varianten)
 wie Zellen 1 / Zellen 2), fügen Sie eine endgültige Beschreibung Absatz, der auf die anderen
-Versionen mit relativen Verknüpfungen, die durch einen einzelnen Zeilenumbruch getrennt sind. Beispiel: `See also: [Input
-grayscale](../input-grayscale/input-grayscale.md), [Input value](../input-value/input-value.md)`
+Versionen mit relativen Verknüpfungen, die durch einen einzelnen Zeilenumbruch getrennt sind. Beispiel: &grave;See also: [&#128279;](../input-grayscale/input-grayscale.md)Input
+grayscale, [Input value](../input-value/input-value.md)&grave;
 
 ### &#x200B;3. Optionale Beschriftungen
 
