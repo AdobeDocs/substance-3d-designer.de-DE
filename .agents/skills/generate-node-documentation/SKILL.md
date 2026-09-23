@@ -1,13 +1,12 @@
 ---
 name: generate-node-documentation
-description: ""
-source-git-commit: 475af5f27b827f66289993dbd8367904c1baf42b
+description: |
+  Erfahren Sie, wie Sie eine Substance 3D Designer-Knotenreferenzseite so erstellen, dass sie dem Standardlayout entspricht, das in help/compositing-Grafen/nodes-reference-for-com/node-library/ verwendet wird. Verwenden Sie diese Fähigkeit beim Erstellen oder Bearbeiten einer Knotenseite (Beschreibung eines Knotens, Eingaben, Ausgaben, Parameter oder Beispiele) unter dieser Knotenbibliotheksstruktur oder den entsprechenden Referenzseiten für Funktionsknoten/atomare Knoten. Umfasst die Ordner-/Inhaltsverzeichniskonvention, das minimale Titelblatt, die Symbol-/Beschreibungstabelle, die verankerten Tabellen "Eingang", "Ausgang"/"Parameter" und die Beispiele-Galerie. Für allgemeine Adobe Experience League Markdown-Regeln (Beschriftungen, Links, UICONTROL/DNL, Bilder) verwenden Sie die Fähigkeit write-experience-league-markdown. Diese Kenntnis deckt nur die Knoten-Seiten-Struktur ab. Kanonisches Beispiel: help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md
+source-git-commit: ed17c57a1aa9669a602d4523bdef20cd7d82db75
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 4%
-
+source-wordcount: '976'
+ht-degree: 3%
 ---
-
 
 # Generieren der Knotendokumentation
 
@@ -32,13 +31,13 @@ identisch benannt.
   Der freigegebene Ordner &quot;`help/assets/`&quot; - dies ist ein veraltetes Muster, das allmählich ausläuft; neue und
   Die bearbeiteten Seiten verwenden einen eigenen `.resources`-Ordner.
 * Jede Seite hat einen entsprechenden Eintrag in `help/guide/TOC.md`. Beim Hinzufügen oder Verschieben eines
-&quot;`TOC.md`&quot; und das Ordnerlayout gemeinsam aktualisieren (siehe Ordner/Inhaltsverzeichnis von CLAUDE.md
+&quot;`TOC.md`&quot; und das Ordnerlayout gemeinsam aktualisieren (siehe Ordner/Inhaltsverzeichnis von AGENTS.md)
 Konvention).
 
 ## Titelblatt
 
 Knotenseiten verwenden den **minimal**-Block - nur `title` und einen Breadcrumb-Stil
-`description`. (Dies unterscheidet sich von dem 11-Feld-Legacy-Block CLAUDE.md-Dokumenten für
+`description`. (Dies unterscheidet sich von dem 11-Feld-Legacy-Block AGENTS.md-Dokumenten für
 Seiten mit regulären Inhalten.)
 
 ```yaml
@@ -88,6 +87,10 @@ Beschreibungszellenprosa-Konventionen:
 * Lead-In-Seiten verwenden `<i>Note:</i>` / `<i>Tip:</i>` am Anfang des Satzes.
 * Verwenden Sie `&gt;` für `>` in der Zeile `In:` (innerhalb der HTML). Übernehmen Sie die Kategorie /
 Unterkategorienamen vom Knoten selbst; Du musst sie nicht erfinden.
+* Für Knoten mit mehreren Versionen (z. B. Farb-/Graustufenwerte/Werte- oder nummerierte Varianten)
+wie Zellen 1 / Zellen 2), fügen Sie eine endgültige Beschreibung Absatz, der auf die anderen
+Versionen mit relativen Verknüpfungen, die durch einen einzelnen Zeilenumbruch getrennt sind. Beispiel: &grave;See also: [&#128279;](../input-grayscale/input-grayscale.md)Input
+grayscale, [Input value](../input-value/input-value.md)&grave;
 
 ### &#x200B;3. Optionale Beschriftungen
 
@@ -149,27 +152,35 @@ Zeilen der Gruppe:
 
 ### &#x200B;7. Beispiele
 
-Nur bei Beispielbildern/GIF einschließen. Verwenden einer HTML-Galerietabelle Eins `<td>`
-pro Bild mit einer optionalen Beschriftung; wird nach 3 Bildern in ein neues `<tr>`-Element umgebrochen. Medienpfade
-in den Ordner &quot;`.resources`&quot; der Seite zeigen.
+Nur bei Beispielbildern/GIF einschließen. Verwenden einer randlosen HTML mit festem Layout
+Galerietisch; eine `<td>` pro Bild; wird nach 3 Bildern in ein neues `<tr>`-Element umgebrochen. Medienpfade
+in den Ordner &quot;`.resources`&quot; der Seite zeigen. Verwenden Sie ein HTML `<img>`-Element für jedes
+Beispiel, mit `class="modal-image"`, sodass das veröffentlichte Bild im Standard geöffnet wird
+Bildbetrachter. Geben Sie einen aussagekräftigen `alt`-Text ein, der den Knoten und das Beispiel identifiziert.
+Nummer. Verwenden Sie in dieser Galerie keine Markdown-Bildsyntax.
 
 ```html
 ## Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="./<node-name>.resources/<file>.gif" /><br><i>Caption</i>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="<node-name>.resources/<file>.gif" class="modal-image" alt="<Node title> - Example 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="./<node-name>.resources/<file2>.jpg" /><br><i>Another caption</i>
+        <td style="border: 0;">
+            <img src="<node-name>.resources/<file2>.jpg" class="modal-image" alt="<Node title> - Example 2" />
         </td>
     </tr>
 </table>
 ```
 
-Nachfolgende Zellen in einer teilweise gefüllten letzten Zeile leer lassen (`<td …></td>`), anstatt
-umfließen. Lassen Sie Beschriftungen aus, wenn die Quelle keine enthält.
+Speichern Sie die `style="table-layout:fixed"`-Tabelle und die `style="border: 0;"`
+Attribute genau wie gezeigt; Es werden keine Rahmen, Ränder oder Hintergrundstile hinzugefügt.
+Nachfolgende Zellen in einer teilweise gefüllten letzten Zeile leer lassen
+(`<td style="border: 0;"></td>`), anstatt einen Reflow durchzuführen. Vorhandenes Bild verwenden
+Reihenfolge und Dateinamen an. Wenn eine Seite Untertitel enthält, behalten Sie diese als `alt`-Text bei.
+, als sichtbare Untertitelmarkierungen hinzuzufügen. Lassen Sie den gesamten Abschnitt aus, wenn die Seite keine
+Beispielmedien.
 
 ## Kanonische Typwerte
 

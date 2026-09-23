@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/technical-issues/3d-view-issues.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Beheben Sie Probleme mit der 3D-Ansicht in Substance 3D Designer, einschließlich Rendering-, Anzeige- und Leistungsproblemen.
 helpx_creative_field: ""
 helpx_description: Designer > Technical issues > 3D View issues
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Probleme mit 3D-Ansichten
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: f72773d86b681ce0e815c5595067b1593cdd1f0a
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1723'
 ht-degree: 0%
-
 ---
-
 
 # Probleme mit 3D-Ansichten
 
@@ -24,11 +22,11 @@ Auf dieser Seite werden technische Probleme im Zusammenhang mit der [3D-Ansicht]
 
 ## Geringe Performance: Keine separate GPU verwendet.
 
-**![(Fehler)](3d-view-issues.resources/error.svg) Problem**
+![(Fehler)](3d-view-issues.resources/error.svg) **Problem**
 
 Substance 3D Designer verwendet nicht die *separate* GPU (<b>dGPU</b>) des Systems und verwendet stattdessen die *integrierte* GPU (<b>iGPU</b>). Dies führt zu geringer Leistung beim Rendern von Grafen und/oder der [3D-Ansicht](../../interface/3d-view/3d-view.md).
 
-**![(tick)](3d-view-issues.resources/check.svg) Empfohlene Schritte**
+![(tick)](3d-view-issues.resources/check.svg) **Empfohlene Schritte**
 
 Systeme mit umschaltbaren Grafiken können *die dGPU* erzwingen, die für eine *spezifische Anwendung* in dedizierter Software verwendet werden soll, abhängig vom GPU-Hersteller.
 
@@ -45,13 +43,24 @@ Benutzer mit einer <b>Nvidia dGPU</b> können beispielsweise Folgendes tun:
 >
 > Beachten Sie, dass integrierte GPUs (iGPU) *nicht unterstützt werden*. Weitere Informationen finden Sie auf der Seite [Systemanforderungen](../../getting-started/system-requirements/system-requirements.md).
 
+## Geringe Performance: Versatz auf Meshs mit hohem Poly-Gehalt
+
+![(Fehler)](3d-view-issues.resources/error.svg) **Problem**
+
+Wenn Sie die neuen 3D-Renderer (Rasterprogramm und GPU-Pathtracer) verwenden, ist die 3D-Ansicht möglicherweise leistungsschwach, wenn Sie Versatz auf Meshs mit hohem Poly-Anteil verwenden.
+
+![(tick)](3d-view-issues.resources/check.svg) **Empfohlene Schritte**
+
+Die in der 3D-Ansicht verfügbare Tessellation-Technik, die Mesh unterteilt, um bei der Verwendung von Versatz mehr Details anzubieten, umfasst einen Vorbereitungsschritt, der unabhängig von der tatsächlich angewendeten Tessellation ausgeführt wird.
+Der [Tipp in diesem Abschnitt &#x200B;](../../interface/3d-view/displacement/displacement.md#per-mesh) behebt das Leistungsproblem, indem der Tessellation-Prozess für `Mesh` Objekte in der Szene deaktiviert wird.
+
 ## 3D-Objekt ist flach
 
-**![(Fehler)](3d-view-issues.resources/error.svg) Problem**
+![(Fehler)](3d-view-issues.resources/error.svg) **Problem**
 
 Ein 3D-Objekt, das detaillierte Volumes in einer Session enthält, wird in der nächsten Session flach. Der Graf hat sich jedoch nicht geändert, und die Höhen-Map enthält dieselben Daten.
 
-**![(tick)](3d-view-issues.resources/check.svg) Empfohlene Schritte**
+![(tick)](3d-view-issues.resources/check.svg) **Empfohlene Schritte**
 
 Der Deformationseffekt eines 3D-Objekts gemäß einem Höhen-Map wird mit einer Technik namens **Tessellation Versatz** ausgeführt. Diese Technik umfasst zwei Schritte:
 
@@ -69,17 +78,19 @@ Dieser Wert kann wie folgt geändert werden:
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Verwenden Sie das Popup **Versatz** in der linken Symbolleiste.<br>Weitere Informationen auf der [dedizierten Seite](../../interface/3d-view/displacement/displacement.md). | Erstellen Sie einen [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)-Knoten, und legen Sie die `heightScale`-Verwendung in den Eigenschaften fest.<br>Geben Sie für diese Ausgabe einen Wert an, z. B. mithilfe eines [konstanten Fließkommazahl-Knotens](../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md#floats). Wenden Sie dann *den Graf* in der 3D-Ansicht erneut an. |
 
+{style="table-layout:fixed"}
+
 >[!TIP]
 >
 > Mit dieser Methode können Sie einen benutzerdefinierten Height-Skalierungswert *pro Graf* festlegen, mit dem Sie ihn an das jeweilige Material dieses Grafen anpassen können.
 
 ## 3D-Ansicht ist komplett schwarz
 
-**![(Fehler)](3d-view-issues.resources/error.svg) Problem**
+![(Fehler)](3d-view-issues.resources/error.svg) **Problem**
 
 In den Versionen 15.0.0 und höher ist der Viewport der 3D-Ansicht flachschwarz. Ich sehe einige Textüberlagerungen (z. B. Samples und Renderzeit), aber die 3D-Szene ist nicht sichtbar.
 
-**![(tick)](3d-view-issues.resources/check.svg) Empfohlene Schritte**
+![(tick)](3d-view-issues.resources/check.svg) **Empfohlene Schritte**
 
 Version 15.1 und höher
 
@@ -113,11 +124,11 @@ In allen neuen 3D-Ansichten wird jetzt standardmäßig der OpenGL-Renderer verwe
 
 ## Meldung &quot;Renderer nicht unterstützt&quot; wird angezeigt
 
-**![(Fehler)](3d-view-issues.resources/error.svg) Problem**
+![(Fehler)](3d-view-issues.resources/error.svg) **Problem**
 
-In den Versionen 15.0.0 und höher wird die Meldung &quot;Renderer not supported&quot; (Renderer nicht unterstützt) in der rechten unteren Ecke des Viewports angezeigt, wenn die neuen 3D-Renderer (Rasterizer, GPU-Pfadverfolgung) verwendet werden. Die 3D-Szene ist nicht sichtbar.
+In den Versionen 15.0.0 und höher wird die Meldung &quot;Renderer not supported&quot; (Renderer nicht unterstützt) in der unteren rechten Ecke des Ansichtsfensters angezeigt, wenn die neuen 3D-Renderer (Rasterizer, GPU-Pfadverfolgung) verwendet werden. Die 3D-Szene ist nicht sichtbar.
 
-**![(tick)](3d-view-issues.resources/check.svg) Empfohlene Schritte**
+![(tick)](3d-view-issues.resources/check.svg) **Empfohlene Schritte**
 
 Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) hat unsere neuen internen [3D-Renderer](../../interface/3d-view/3d-renderers/3d-renderers.md) eingeführt, die moderne Technologien verwenden und daher von älteren GPUs nicht unterstützt werden.
 
@@ -144,7 +155,7 @@ Sie können diese Option finden und anpassen, indem Sie folgende Schritte ausfü
 
 ## 3D-Objekt sieht völlig glatt aus
 
-**![(Fehler)](3d-view-issues.resources/error.svg) Problem**
+![(Fehler)](3d-view-issues.resources/error.svg) **Problem**
 
 Nach der Bearbeitung der an das **Height** [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) gesendeten Daten scheint das Objekt ein gewisses Volume zu haben, aber *sieht völlig glatt aus*, als ob die Height-Informationen in der Schattierung ignoriert wurden.
 
@@ -152,13 +163,13 @@ Nach der Bearbeitung der an das **Height** [Output](../../compositing-graphs/nod
 <tr style="border: 0;">
 <td style="border: 0; width: 60%; vertical-align: top">
 
-**![(tick)](3d-view-issues.resources/check.svg) Empfohlene Schritte**
+![(tick)](3d-view-issues.resources/check.svg) **Empfohlene Schritte**
 
 Stellen Sie sicher, dass die Height-Daten *in Normale* konvertiert sind, die mit der **Normal** [Ausgabe](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) verbunden sind.
 
 Bei Verwendung der **Tessellation Versatz**-Technik - siehe oben &quot;3D-Objekt ist flach&quot; - können die Objekte *deformieren*, um den Lichtdaten zu folgen, aber ihre Fläche reagiert *nicht unterschiedlich auf Height*, bis ihre *Normalen* ebenfalls geändert wurden, um die Lichtdaten zu berücksichtigen.
 
-Die Lösung ist recht einfach: verbinden den letzten Knoten des Streams, der zur Height-Ausgabe führt, mit einem [Normal](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)-Knoten. Passen Sie den **Intensität**-Parameter dieses Knotens entsprechend dem Material an, an dem Sie arbeiten, und verbinden Sie den Knoten &quot;Normal&quot; mit der **Normal**-Ausgabe.
+Die Lösung ist recht einfach: verbinden den letzten Knoten des Streams, der zur Height-Ausgabe führt, mit einem [Normal](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)-Knoten. Passen Sie den Parameter **Intensität** dieses Knotens entsprechend dem Material an, an dem Sie arbeiten, und verbinden Sie den Knoten Normal mit der Ausgabe **Normal**.
 
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
@@ -171,7 +182,7 @@ Die Lösung ist recht einfach: verbinden den letzten Knoten des Streams, der zur
 
 ## Rendern ist verschwommen/verpixelt
 
-**![(Fehler)](3d-view-issues.resources/error.svg) Problem**
+![(Fehler)](3d-view-issues.resources/error.svg) **Problem**
 
 Das gerenderte Bild sieht verschwommen oder verpixelt aus, wenn das System *Anzeigeskalierung* verwendet.
 
@@ -179,7 +190,7 @@ Das gerenderte Bild sieht verschwommen oder verpixelt aus, wenn das System *Anze
 <tr style="border: 0;">
 <td style="border: 0; width: 60%; vertical-align: top">
 
-**![(tick)](3d-view-issues.resources/check.svg) Empfohlene Schritte**
+![(tick)](3d-view-issues.resources/check.svg) **Empfohlene Schritte**
 
 Standardmäßig verwendet Designer die *skalierte* Anzeigeauflösung, um die Renderauflösung der [3D-Ansicht](../../interface/3d-view/3d-view.md) zu definieren. Sie können dies so ändern, dass die *native* Anzeigeauflösung stattdessen für ein scharfes Rendering verwendet wird.
 
@@ -196,11 +207,11 @@ Standardmäßig verwendet Designer die *skalierte* Anzeigeauflösung, um die Ren
 
 ## Ich kann die Eigenschaft &quot;Tesselierungsfaktor&quot; nicht finden.
 
-**![(Fehler)](3d-view-issues.resources/error.svg) Problem**
+![(Fehler)](3d-view-issues.resources/error.svg) **Problem**
 
 Nach dem Upgrade von Designer auf Version 15.0.0 kann ich den Parameter &quot;Tesselierungsfaktor&quot; nicht mehr in den Materialeigenschaften finden, in denen er sich zuvor befunden hat.
 
-**![(tick)](3d-view-issues.resources/check.svg) Empfohlene Schritte**
+![(tick)](3d-view-issues.resources/check.svg) **Empfohlene Schritte**
 
 Bei Verwendung der neuen Renderer (Rasterprogramm und GPU-Pathtracer) finden Sie den &quot;Tessellationsfaktor&quot; in den Eigenschaften dieser Renderer. Wechseln Sie in der 3D-Ansicht zu <b>Renderer > Einstellungen bearbeiten</b>. Die Eigenschaft wird im Eigenschaften-Dock aufgelistet.
 
@@ -214,7 +225,7 @@ Bei Verwendung der neuen Renderer (Rasterprogramm und GPU-Pathtracer) finden Sie
 
 ## 3D-Objekte sehen falsch aus: ihre Schattierung passt nicht zur Beleuchtung
 
-**![(Fehler)](3d-view-issues.resources/error.svg) Problem**
+![(Fehler)](3d-view-issues.resources/error.svg) **Problem**
 
 Die Schattierung von Objekten beruht auf ihren Normal-, Tangenten- und Binormalvektoren. Ihre Koordinaten verwenden den Bereich &quot;`[-1, 1]`&quot;, während Normalen-Map den Bereich &quot;`[0, 1]`&quot; in den meisten Fällen verwenden. Um die Werte von einem zum anderen anzupassen, müssen ein <b>bias und eine </b>-Skalierung angewendet werden: `value * scale + bias`
 
@@ -227,19 +238,19 @@ Designer wendet keine Standardskala und -abweichung an, es sei denn, sie werden 
 ```
 
 
-**![(tick)](3d-view-issues.resources/check.svg) Empfohlene Schritte**
+![(tick)](3d-view-issues.resources/check.svg) **Empfohlene Schritte**
 
 Für Szenen, die vor einiger Zeit in USD-Formate exportiert wurden: Exportieren Sie die Szene erneut mit einer aktuellen Version von USD, die die erforderlichen Daten enthält. Achten Sie auf Eigenschaften im Zusammenhang mit der normalen Skalierung und der Voreinstellung, sofern vorhanden, die von der Software abhängen, die zum Exportieren der Szene verwendet wird.
 
-Wenn [&#x200B; ein Material &#x200B;](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) überschreibt, verarbeitet Designer das Gitter und berechnet alle fehlenden Daten im Zusammenhang mit seinen Normalen, Tangenten und Binormalen. Wenn Designers Standardskalierung und -abweichung zufällig mit den für den Mesh erforderlichen übereinstimmen, sieht der Mesh richtig aus, wenn er überschrieben wird.
+Wenn [&#x200B; ein Material &#x200B;](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) überschreibt, verarbeitet Designer das Gitter und berechnet alle fehlenden Daten im Zusammenhang mit seinen Normalen, Tangenten und Binormalen. Wenn die Standardeinstellungen für Skalierung und Bias von Designer mit denen für das Gitter übereinstimmen, wird das Gitter korrekt angezeigt, wenn es überschrieben wird.
 
 ## Absturz beim Starten der 3D-Ansicht
 
-**![(Fehler)](3d-view-issues.resources/error.svg) Problem**
+![(Fehler)](3d-view-issues.resources/error.svg) **Problem**
 
-Designer-Absturz beim Starten der 3D-Ansicht, beim Erstellen eines Projekts, beim Laden eines Projekts oder beim manuellen Starten einer 3D-Ansicht.
+Designer stürzt beim Starten der 3D-Ansicht ab, wenn ein Projekt erstellt wird, ein Projekt geladen wird oder wenn eine 3D-Ansicht manuell gestartet wird.
 
-**![(tick)](3d-view-issues.resources/check.svg) Empfohlene Schritte**
+![(tick)](3d-view-issues.resources/check.svg) **Empfohlene Schritte**
 
 Stellen Sie zunächst sicher, dass Ihr System die [Systemanforderungen](../../getting-started/system-requirements/system-requirements.md) von Designer erfüllt.
 

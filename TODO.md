@@ -1,8 +1,8 @@
 ---
-source-git-commit: 2266f844db20e938884afc335de4a6f753dff288
+source-git-commit: e888ac71160a080fffba861f2bb716dcd56008a6
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 11%
+source-wordcount: '181'
+ht-degree: 6%
 ---
 # TODO
 
@@ -14,7 +14,6 @@ ht-degree: 11%
 ## Ergänzungen
 
 * Einstiegspunkte für die Python-API-Dokumentation in AdobeDocs
-* 3D-Ansicht: Verwenden Sie `refineLevel = 0`, um die Leistung zu verbessern, wenn Versatz auf Meshs mit hohem Poly-Anteil verwendet wird.
 * Beispiele auf der Seite &quot;Dokumentations-Popup&quot;
 * Glossar:
   * HDR
@@ -41,3 +40,17 @@ ht-degree: 11%
 ## nachforschen
 
 * Vorher-/Nachher-Komponente
+
+## LERNHUB
+
+- Erfahren Sie, welche Blöcke das Herunterladen SBS Dateien blockieren (hier [&#x200B; gefragt](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379)).
+- Erfahren Sie, wie wir Seiten live testen können, ohne öffentlich zugänglich oder in das Inhaltsverzeichnis aufgenommen zu werden
+- Optionen für die Filterung von Explorer für die Beispielliste: Microsite? ([Beispiel](https://experienceleague.adobe.com/de/tools/campaign-error-codes))
+- Musterartikel automatisieren
+  - Metadaten aus Datei importieren (JSON, YAML, ...)
+  - Inline-Miniaturansicht (zum Vergrößern klicken)
+  - Komplexitätsmarker in Beispielelementen
+- Beispiel-Autoren SBS Validierungstool zur Verfügung stellen
+- Erwähnen Sie herunterladbare SBS aus 3D-Stockmedien (mit aktivem Abonnement)
+
+Microsite für Glossar?

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/3d-view/scene-browser.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Verwenden Sie den Szenenbrowser, um im Viewport zu 3D-Szenenelementen, Materialien und Objekten zu navigieren und diese zu verwalten.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view > Scene browser
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Szenenbrowser
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '789'
 ht-degree: 1%
-
 ---
-
 
 # Szenenbrowser
 
@@ -30,26 +28,6 @@ Sie wird angezeigt, indem Sie auf die dedizierte Umschaltfläche &quot;![](scene
 
 ![Szenenbrowser - Geladene 3D-Szene](scene-browser.resources/loaded3DScene.png "Szenenbrowser - Geladene 3D-Szene"){zoomable="yes"}
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Szenenbaum
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Umschalten von Objekten in der Szene
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Verbundene Materialien
-
-</td>
-</tr>
-</table>
-
 ## Szenenbaum
 
 <table>
@@ -59,6 +37,8 @@ Sie wird angezeigt, indem Sie auf die dedizierte Umschaltfläche &quot;![](scene
 Der Szenenbrowser zeigt eine Liste von Objekten an, die in einer hierarchischen Baumstruktur angeordnet sind.
 
 Objekte werden anderen Objekten übergeordnet, bis zum Stamm der Szene. Ein übergeordnetes Objekt verfügt über eine Pfeilschaltfläche, mit der die Liste der ihm untergeordneten Objekte ein- oder ausgeblendet wird.
+
+Einige Objekte verfügen über Eigenschaften, die bei Auswahl im Dock [Eigenschaften](../../../interface/properties/properties.md) angezeigt und bearbeitet werden können: Umgebung, Kamera, Lichter, `Mesh` Objekte und Material [überschreibt](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md).
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">

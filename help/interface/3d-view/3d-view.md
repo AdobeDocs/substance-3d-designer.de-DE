@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/interface/3d-view.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Verwenden Sie die 3D-Ansicht in Substance 3D Designer, um eine Materialvorschau auf 3D-Objekten anzuzeigen und die Lichtverhältnisse zu testen.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 3D-Ansicht
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: c7bf2522b15bef308d1471ca234c6619091f95fc
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '3514'
+source-wordcount: '3549'
 ht-degree: 1%
-
 ---
-
 
 # 3D-Ansicht
 
@@ -169,20 +167,21 @@ In Designer sind standardmäßig einige verschiedene [Shader](../../glossary/glo
 
 Beachten Sie, dass sich die Shader in den [3D-Renderern von Designer](../../interface/3d-view/3d-renderers/3d-renderers.md) unterscheiden, und beim Wechseln der Renderer werden nur die mit einer Bezeichnung &quot;Allgemein&quot; markierten Einstellungen übernommen.
 
-Um den aktuellen Shader zu ändern, gehen Sie zu <b>. Das Menü &#39;</b>Materialien&#39; öffnet dann das Untermenü für das Material, das Sie bearbeiten möchten.
+Wechseln Sie zum Ändern des aktuellen Shader zum Menü **Materials** und öffnen Sie dann das Untermenü für das Material, das Sie bearbeiten möchten.
 
-Um beispielsweise die Eigenschaft &quot;Materialskalierung&quot; für das Height &quot;Standard&quot; in der Szene &quot;Ebene (hochauflösend)&quot; anzupassen, gehen Sie zu &quot;Materialien&quot; > &quot;Standard&quot; > &quot;Eigenschaften bearbeiten&quot;. Suchen Sie dann die Eigenschaft &quot;Height scale&quot; im Eigenschaften-Dock.
+Um beispielsweise die Eigenschaft &quot;a Material&quot; für das Material &quot;`Default`&quot; in der Szene &quot;Plane (hi-res)&quot; anzupassen, navigieren Sie zu **Materialien > Standard > Eigenschaften bearbeiten**. Suchen Sie dann die Eigenschaft &quot;Material&quot; im Eigenschaften-Dock.
 
 Mit den Aktionen &#39;Material zurücksetzen&#39; oder &#39;Auf Szenenzustand zurücksetzen&#39; im Untermenü können Schattierungen zurückgesetzt werden. Wenn Sie Substance-Diagrammausgaben in der 3D-Ansicht angezeigt haben, müssen Sie sie erneut anwenden.
 
 >[!NOTE]
 >
-> Informationen zur Tesselierung
+> **Info über Tessellation**
 > 
-> Die Eigenschaft &quot;Tesselierungsfaktor&quot; variiert je nach ausgewähltem 3D-Renderer:
+> Die Tessellation eines Meshs kann mithilfe des Parameters **Tessellation** im Popup-Fenster [Versatz](displacement/displacement.md#tessellation) angepasst werden.
+> Die spezifische Eigenschaft, die von diesem Parameter gesteuert wird, hängt vom aktuellen 3D-Renderer ab:
 > 
-> * <b>Rasterizer/GPU-Pathtracer:</b> In den Renderereinstellungen (Renderer > Einstellungen bearbeiten) befindet sich und wirkt sich auf die *gesamte Szene aus*.
-> * <b>OpenGL:</b> befindet sich in den Materialeigenschaften und wirkt sich auf das Material aus.
+> * **Rasterizer/GPU-Pathtracer:** Eigenschaft pro Objekt mit dem Namen **Ebene verbessern**. Wählen Sie ein `Mesh`-Objekt im [Szene-Browser &#x200B;](scene-browser/scene-browser.md) aus, um seine Eigenschaften anzuzeigen und direkt zu bearbeiten.
+> * **OpenGL:** Eigenschaft pro Material mit dem Namen **Tessellation**. Wechseln Sie zu den [Material-Eigenschaften](#change-shader-properties), um sie direkt zu bearbeiten.
 
 ![Exportieren der Szene](3d-view.resources/3d-view-export-scene.gif "Exportieren der Szene")
 
