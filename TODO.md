@@ -1,8 +1,8 @@
 ---
-source-git-commit: e888ac71160a080fffba861f2bb716dcd56008a6
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 6%
+source-wordcount: '229'
+ht-degree: 5%
 ---
 # TODO
 
@@ -20,7 +20,7 @@ ht-degree: 6%
   * Metalität/Metallic
   * HDR
   * Glanz
-  * Height Map
+  * Höhen-Map
   * Deckkraft
   * Frustum
   * Tangentialraum
@@ -31,17 +31,23 @@ ht-degree: 6%
 * Aktualisieren Sie AGENTS.md und die zu verwaltenden Kenntnisse:
   * Bilder: Zentrieren, Zoomen
   * Tabellen: automatisches/statisches Layout, Textausrichtung
+* DESIGNER-12465: Der `Refine level`-Parameter ist inert, wenn der Höhen-Map nicht vorhanden oder flach ist.
+* DESIGNER-12652: Zeigen Sie den Benutzern auf den Leitfaden zur Fehlerbehebung für OpenGL-Renderer
+* DESIGNER-11866: Tonemapping-Funktionen
+* DESIGNER-10655: Hinzufügen von Beispielen + Verweisen auf Beispielprojekte für Pixelprozessor und FX-Maps
+
 
 ## Fehlerbehebungen
 
+* Größe der Symbole in [overview.md](help/getting-started/overview/overview.md) korrigieren
 * Fehlerhafte Bilder auf der Seite &quot;`BnW spots 2`&quot; reparieren
-* Link für 1. Beispielbild in Knotenseiten (z.B. neue Geräusche)
+* Link für 1. Beispielbild in Knotenseiten (z.B. neue Rauschen)
 
 ## nachforschen
 
 * Vorher-/Nachher-Komponente
 
-## LERNHUB
+## Lernhub (`learning` Verzweigung)
 
 - Erfahren Sie, welche Blöcke das Herunterladen SBS Dateien blockieren (hier [&#x200B; gefragt](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379)).
 - Erfahren Sie, wie wir Seiten live testen können, ohne öffentlich zugänglich oder in das Inhaltsverzeichnis aufgenommen zu werden

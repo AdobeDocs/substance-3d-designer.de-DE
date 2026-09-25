@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Kürzel
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: c460f605a97021efd2143941c28a977e12452299
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '333'
 ht-degree: 18%
 ---
 
@@ -35,47 +35,53 @@ Auf dieser Seite finden Sie eine Übersicht aller Tastaturbefehle für Substance
 ### Global
 
 | Aktion | Windows | macOS |
-| --- | --- | --- |
-| [Neues Substance-Diagramm](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) | Strg + N | ⌘ + N |
+|:-------------------------------------------------------------------------------------------------------------------|:----------|:------|
+| [Neuer Substance-Graf](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) | Strg + N | ⌘ + N |
 | Paket laden | Strg + O | ⌘ + O |
 | Ausgewählte Pakete schließen | Strg + F4 | ⌘ + W |
 | Paket speichern | Strg + S | ⌘ + S |
 | Rückgängig | Strg + Z | ⌘ + Z |
 | Wiederherstellen | Strg + Y | ⌘ + Y |
 
+{style="table-layout:fixed"}
+
 ### Graphenansicht
 
-<b>Viewport</b>
+**Viewport**
 
 | Aktion | Windows | macOS |
-| --- | --- | --- |
-| Zoom | Mausrad, Alt + RMB + Ziehen | Mausrad ⌥ + RMB + Ziehen |
-| Schneller Zoom | ⇧ + Mausrad ⇧ + Alt + RMB + Ziehen | ⇧ + MouseWheel ⇧ + ⌥ + RMB + Ziehen |
-| Schwenken | MMB + Ziehen Strg + RMB + Ziehen | MMB + Ziehen ⌘ + RMB + Ziehen |
+|:-----------------------------------------------------------------------------------|:---------------------------------------|:-------------------------------------|
+| Zoom | MouseWheel<br>Alt + RMB + Ziehen | MouseWheel<br>⌥ + RMB + Ziehen |
+| Schneller Zoom | ⇧ + Mausrad <br>⇧ + Alt + RMB + Ziehen | ⇧ + MouseWheel<br>⇧ + ⌥ + RMB + Ziehen |
+| Schwenken | MMB + Ziehen<br>Strg + RMB + Ziehen | MMB + Ziehen<br>⌘ + RMB + Ziehen |
 | Zoom zurücksetzen | Z | Z |
 | In Ansicht einpassen | F | F |
 | Kopieren | Strg + C | ⌘ + C |
 | Einfügen | Strg + V | ⌘ + V |
 | Kontextmenü | RMB | RMB |
 | Knotenmenü | Leertaste | Leertaste |
-| [Navigationspins](../../interface/the-graph-view/graph-items/graph-items.md) durchlaufen | F2 | F2 |
+| [Navigations-Nadeln durchlaufen](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
 
-<b>Verbindungserstellungsmodi</b>
+{style="table-layout:fixed"}
+
+**Verbindungserstellungsmodi**
 
 >[!NOTE]
 >
 > Erfahren Sie mehr über die Hyperlinkerstellungsmodi in [dieser Seite](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) dieser Dokumentation.
 
 | Modus | Windows | macOS |
-| --- | --- | --- |
+|:-----------------|:--------|:------|
 | Standard | 1 | 1 |
 | Material | 2 | 2 |
 | Material komprimieren | 3 | 3 |
 
-<b>Wenn ein Objekt im Diagramm ausgewählt wird</b>
+{style="table-layout:fixed"}
+
+**Wenn ein Objekt im Diagramm ausgewählt wird**
 
 | Aktion | Windows | macOS |
-| --- | --- | --- |
+|:------------------------------------|:-------------|:----------|
 | Auswahl kopieren | Strg + C | ⌘ + C |
 | Auswahl duplizieren | Strg + D | ⌘ + D |
 | Ohne Verknüpfungen duplizieren | Strg + ⇧ + D | ⌘ + ⇧ + D |
@@ -84,25 +90,31 @@ Auf dieser Seite finden Sie eine Übersicht aller Tastaturbefehle für Substance
 | Knoten an-/abdocken | D | D |
 | Knoten deaktivieren | ⇧ + D | ⇧ + D |
 
+{style="table-layout:fixed"}
+
 ### 2D-Ansicht
 
 | Aktion | Windows | macOS |
-| --- | --- | --- |
-| Zoom | Mausrad, Alt + RMB + Ziehen | Mausrad ⌥ + RMB + Ziehen |
-| Schneller Zoom | ⇧ + Mausrad ⇧ + Alt + RMB + Ziehen | ⇧ + MouseWheel ⇧ + ⌥ + RMB + Ziehen |
-| Schwenken | MMB + Ziehen Strg + RMB + Ziehen | MMB + Ziehen ⌘ + RMB + Ziehen |
+|:---------------------|:---------------------------------------|:-------------------------------------|
+| Zoom | MouseWheel<br>Alt + RMB + Ziehen | MouseWheel<br>⌥ + RMB + Ziehen |
+| Schneller Zoom | ⇧ + Mausrad <br>⇧ + Alt + RMB + Ziehen | ⇧ + MouseWheel<br>⇧ + ⌥ + RMB + Ziehen |
+| Schwenken | MMB + Ziehen<br>Strg + RMB + Ziehen | MMB + Ziehen<br>⌘ + RMB + Ziehen |
 | Auf 100 %-Skalierung zurücksetzen | Z | Z |
 | In Ansicht einpassen | F | F |
 | Kachelanzeige ein/aus | Leertaste | Leertaste |
 
+{style="table-layout:fixed"}
+
 ### 3D-Ansicht
 
 | Aktion | Windows | macOS |
-| --- | --- | --- |
-| Kamera verschieben (Vorwärts-/Rückwärtsschwenk) | Mausrad, Alt + RMB + Ziehen | Mausrad ⌥ + RMB + Ziehen |
+|:---------------------------------------------------------|:--------------------------------|:-----------------------------|
+| Kamera verschieben (Vorwärts-/Rückwärtsschwenk) | MouseWheel<br>Alt + RMB + Ziehen | MouseWheel<br>⌥ + RMB + Ziehen |
 | Mit Kamera kreisen | LMB + Ziehen | LMB + Ziehen |
-| LKW- &amp; Standbildkamera (Seiten- &amp; Vertikalschwenk) | MMB + Ziehen Strg + RMB + Ziehen | MMB + Ziehen ⌘ + RMB + Ziehen |
+| LKW- &amp; Standbildkamera (Seiten- &amp; Vertikalschwenk) | MMB + Ziehen<br>Strg + RMB + Ziehen | MMB + Ziehen<br>⌘ + RMB + Ziehen |
 | Umgebung drehen | Strg + ⇧ + RMB | Strg + ⇧ + RMB |
 | Vorübergehend zu den Steuerelementen für Punktlicht 1 wechseln | ⇧ (gedrückt halten) | ⇧ (gedrückt halten) |
 | Kreispunktlicht 1 | LMB + Ziehen | LMB + Ziehen |
 | Dolly Point Light 1 | RMB + Ziehen | RMB + Ziehen |
+
+{style="table-layout:fixed"}
