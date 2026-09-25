@@ -55,7 +55,7 @@ Im Folgenden finden Sie eine Liste der von der Anwendung unterstützten Hardware
 * Viele Substance-Apps sind für RHEL8/9-Kompatibilität auf OpenSSL 1.1.1 angewiesen. Bei Systemen mit neueren OpenSSL-Versionen müssen Sie diese manuell bereitstellen.
 * *Nur* Versionen **2019.x** und höher wurden zur Ausführung auf **macOS 10.15 Catalina** notariell beglaubigt.
 * **Remotedesktop** ist möglich, wenn ein OpenGL 3.3-Kontext verfügbar ist. Es funktioniert auf **Nvidia Quadro**, aber *nicht* auf Nvidia GeForce, da es nur einen OpenGL 1.4-Kontext bereitstellt. Wenn dies ein Problem ist, empfehlen wir die Verwendung alternativer Lösungen wie **VNC/Teamviewer**.
-* Benutzer der **Steam**-Version sollten *die **Steam-Überlagerung**für Designer deaktivieren*, da sie Leistungsprobleme verursachen kann, wenn sie aktiv sind.
+* Benutzer der **Steam**-Version sollten *die **Steam-Überlagerung**&#x200B;für Designer deaktivieren*, da sie Leistungsprobleme verursachen kann, wenn sie aktiv sind.
 
 ## Unterstützte GPUs
 
@@ -70,7 +70,7 @@ Im Folgenden finden Sie eine Liste der mit der Anwendung kompatiblen GPU:
 >
 > **TDR (nur Windows)**
 > 
-> Für eine optimale Gesamtstabilität bei der Durchführung umfangreicher Berechnungen an der GPU - z. B. beim Rendern komplexer Graf, beim Rendern in der 3D-Ansicht, beim Exportieren einer Szene aus der 3D-Ansicht usw. - wird dringend empfohlen, sicherzustellen, dass die **Timeout Detection and Recovery (TDR)**-Werte mit den Empfehlungen in [dieser ](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) unserer Dokumentation übereinstimmen.
+> Für eine optimale Gesamtstabilität bei der Durchführung umfangreicher Berechnungen an der GPU - z. B. beim Rendern komplexer Graf, beim Rendern in der 3D-Ansicht, beim Exportieren einer Szene aus der 3D-Ansicht usw. - wird dringend empfohlen, sicherzustellen, dass die **Timeout Detection and Recovery (TDR)**-Werte mit den Empfehlungen in [dieser &#x200B;](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) unserer Dokumentation übereinstimmen.
 
 ## Nicht unterstützte Konfigurationen
 
