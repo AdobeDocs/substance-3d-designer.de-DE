@@ -1,7 +1,7 @@
 ---
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '229'
 ht-degree: 5%
 ---
 # TODO
@@ -20,7 +20,7 @@ ht-degree: 5%
   * Metalität/Metallic
   * HDR
   * Glanz
-  * Height Map
+  * Höhen-Map
   * Deckkraft
   * Frustum
   * Tangentialraum
@@ -39,8 +39,9 @@ ht-degree: 5%
 
 ## Fehlerbehebungen
 
+* Größe der Symbole in [overview.md](help/getting-started/overview/overview.md) korrigieren
 * Fehlerhafte Bilder auf der Seite &quot;`BnW spots 2`&quot; reparieren
-* Link für 1. Beispielbild in Knotenseiten (z.B. neue Geräusche)
+* Link für 1. Beispielbild in Knotenseiten (z.B. neue Rauschen)
 
 ## nachforschen
 
@@ -48,9 +49,9 @@ ht-degree: 5%
 
 ## Lernhub (`learning` Verzweigung)
 
-- Erfahren Sie, welche Blöcke das Herunterladen SBS Dateien blockieren (hier [&#x200B; gefragt](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379)).
+- Erfahren Sie, welche Blöcke das Herunterladen SBS Dateien blockieren (hier [ gefragt](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379)).
 - Erfahren Sie, wie wir Seiten live testen können, ohne öffentlich zugänglich oder in das Inhaltsverzeichnis aufgenommen zu werden
-- Optionen für die Filterung von Explorer für die Beispielliste: Microsite? ([Beispiel](https://experienceleague.adobe.com/de/tools/campaign-error-codes))
+- Optionen für die Filterung von Explorer für die Beispielliste: Microsite? ([Beispiel](https://experienceleague.adobe.com/en/tools/campaign-error-codes))
 - Musterartikel automatisieren
   - Metadaten aus Datei importieren (JSON, YAML, ...)
   - Inline-Miniaturansicht (zum Vergrößern klicken)

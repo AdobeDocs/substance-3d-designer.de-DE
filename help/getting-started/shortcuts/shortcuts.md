@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
 breadcrumb-title: ""
 description: Lernen Sie Tastaturbefehle in Substance 3D Designer kennen, mit denen Sie Ihren Arbeitsablauf beschleunigen und die Produktivität verbessern können.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Kürzel
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 18%
@@ -43,6 +43,8 @@ Auf dieser Seite finden Sie eine Übersicht aller Tastaturbefehle für Substance
 | Rückgängig | Strg + Z | ⌘ + Z |
 | Wiederherstellen | Strg + Y | ⌘ + Y |
 
+{style="table-layout:fixed"}
+
 ### Graphenansicht
 
 **Viewport**
@@ -58,7 +60,9 @@ Auf dieser Seite finden Sie eine Übersicht aller Tastaturbefehle für Substance
 | Einfügen | Strg + V | ⌘ + V |
 | Kontextmenü | RMB | RMB |
 | Knotenmenü | Leertaste | Leertaste |
-| [Navigationspins](../../interface/the-graph-view/graph-items/graph-items.md) durchlaufen | F2 | F2 |
+| [Navigations-Nadeln durchlaufen](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
+
+{style="table-layout:fixed"}
 
 **Verbindungserstellungsmodi**
 
@@ -72,6 +76,8 @@ Auf dieser Seite finden Sie eine Übersicht aller Tastaturbefehle für Substance
 | Material | 2 | 2 |
 | Material komprimieren | 3 | 3 |
 
+{style="table-layout:fixed"}
+
 **Wenn ein Objekt im Diagramm ausgewählt wird**
 
 | Aktion | Windows | macOS |
@@ -84,6 +90,8 @@ Auf dieser Seite finden Sie eine Übersicht aller Tastaturbefehle für Substance
 | Knoten an-/abdocken | D | D |
 | Knoten deaktivieren | ⇧ + D | ⇧ + D |
 
+{style="table-layout:fixed"}
+
 ### 2D-Ansicht
 
 | Aktion | Windows | macOS |
@@ -94,6 +102,8 @@ Auf dieser Seite finden Sie eine Übersicht aller Tastaturbefehle für Substance
 | Auf 100 %-Skalierung zurücksetzen | Z | Z |
 | In Ansicht einpassen | F | F |
 | Kachelanzeige ein/aus | Leertaste | Leertaste |
+
+{style="table-layout:fixed"}
 
 ### 3D-Ansicht
 
@@ -106,3 +116,5 @@ Auf dieser Seite finden Sie eine Übersicht aller Tastaturbefehle für Substance
 | Vorübergehend zu den Steuerelementen für Punktlicht 1 wechseln | ⇧ (gedrückt halten) | ⇧ (gedrückt halten) |
 | Kreispunktlicht 1 | LMB + Ziehen | LMB + Ziehen |
 | Dolly Point Light 1 | RMB + Ziehen | RMB + Ziehen |
+
+{style="table-layout:fixed"}

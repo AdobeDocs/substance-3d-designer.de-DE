@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ""
 description: Verschaffen Sie sich einen Überblick über Substance 3D Designer und erfahren Sie mehr über die Funktionen zum Erstellen prozeduraler Materials und Texturen.
 helpx_creative_field: ""
@@ -10,15 +10,15 @@ helpx_tags: ""
 title: Überblick
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '923'
 ht-degree: 2%
 ---
 
 # Überblick
 
-[Substance 3D Designer](https://www.adobe.com/de/products/substance3d-designer.html) ist eine Anwendung zum Erstellen von 2D-Texturen, -Materialien und -Filtern in einer knotenbasierten Oberfläche mit Schwerpunkt auf prozeduraler Generierung, Parametrisierung und nicht-destruktiven Arbeitsabläufen. Es ist die Anwendung mit der längsten Laufzeit im Substance 3D-Ökosystem. Die damit erstellten Ressourcen sind so vielseitig und dynamisch wie möglich.
+[Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) ist eine Anwendung zum Erstellen von 2D-Texturen, -Materialien und -Filtern in einer knotenbasierten Oberfläche mit Schwerpunkt auf prozeduraler Generierung, Parametrisierung und nicht-destruktiven Arbeitsabläufen. Es ist die Anwendung mit der längsten Laufzeit im Substance 3D-Ökosystem. Die damit erstellten Ressourcen sind so vielseitig und dynamisch wie möglich.
 
 Im Folgenden wird der Vergleich mit anderen Anwendungen erläutert:
 
@@ -46,7 +46,7 @@ Substance 3D Designer ist ein knotenbasierter Editor, mit dem Sie Inhalte auf vi
 
 **[Nicht destruktiv](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md):** Sie können jede Aktion *rückgängig machen, ohne* Ihre Arbeit zu verlieren. Das Iterieren und Experimentieren wird viel schneller, da es noch effizientere Workflows ermöglicht.
 
-**[Integriertes Baking](../../bakers/bakers.md):** greifen Sie direkt in der Software auf erweiterte, extrem schnelle Mesh-Baking-Tools zu. Sie müssen nicht mehr in einer separaten Software Baking geführt und langwierige Import- und Exportprozesse durchgeführt werden.
+**[Integriertes Baking](../../bakers/bakers.md):** greifen Sie direkt in der Software auf erweiterte, extrem schnelle Mesh-Baking-Tools zu. Sie müssen das Backen nicht mehr in einer separaten Software durchführen und langwierige Import- und Exportprozesse durchführen.
 
 **[Parametrisch](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md):**: Sie können nahezu jeden Aspekt einer Textur über einen einzigen Schieberegler oder eine Dropdown-Liste steuern. Auf diese Weise können Sie einem einzelnen Asset endlose Kontrolle und Variation hinzufügen.
 
@@ -60,31 +60,32 @@ Die Anwendung und ihr Ökosystem verwenden 4 verschiedene Dateitypen. Zur Klarst
 
 ![](overview.resources/ds-sbs-48.png)
 
-### Substance 3D File
+**Substance 3D-Datei**\
+(Paket)
 
-*(\*.SBS)*
+`\*.sbs`
 
-Substance-Dateien sind die **Hauptquelldateien** für Designer. Wenn Sie eine Substance-Datei öffnen, können Sie **alle Knoten in einem Graf anzeigen und bearbeiten**. Sie werden als Pakete dargestellt, die eine beliebige Anzahl von Ressourcen enthalten können, wie z. B. Grafen, Funktionen, Bitmaps, Meshs usw. Sie sind schwieriger zu teilen und weniger schnell zu berechnen. Sie können nur in Substance 3D Designer und auf dem Substance Player geöffnet werden.
+Substance-Dateien sind die **Hauptquelldateien** für Designer. Wenn Sie eine Substance-Datei öffnen, können Sie **alle Knoten in einem Diagramm anzeigen und bearbeiten**. Sie werden als Pakete dargestellt, die eine beliebige Anzahl von Ressourcen wie Diagramme, Funktionen, Bitmaps, Gitter usw. enthalten können. Sie sind schwieriger zu teilen und weniger schnell zu berechnen. Sie können nur in Substance 3D Designer und auf der Substance Player geöffnet werden.
 
 </td>
 <td style="border: 0;">
 
 ![](overview.resources/sbsar-48.png)
 
-### Substance 3D Asset
+**Substance 3D-Archiv**
 
-*(\*.SBSAR)*
+`\*.sbsar`
 
-Substance-Archive sind <b> kompilierte, optimierte </b> Substance-Dateien. Sie sind viel schneller zu berechnen und können ohne Referenzprobleme leicht geteilt werden. Die Parameter können noch angepasst werden, aber die Bearbeitung des Grafen ist <b>gesperrt</b>. Substance-Archive können in allen Substance 3D-Anwendungen und allen Anwendungen verwendet werden, die über eine [Substance 3D-Integration](https://experienceleague.adobe.com/de/docs/substance-3d/ecosystem/home) verfügen (einige mit einem externen Plug-in), z. B. Autodesk 3DS Max &amp; Maya, Unreal Engine oder Unity Engine.
+Substance-Archive sind <b> kompilierte, optimierte </b> Substance-Dateien. Sie sind viel schneller zu berechnen und können ohne Referenzprobleme leicht geteilt werden. Die Parameter können noch angepasst werden, aber die Bearbeitung des Diagramms ist <b>gesperrt</b>. Substance-Archive können in allen Substance 3D-Anwendungen und allen Anwendungen verwendet werden, die über eine [Substance 3D-Integration](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home) verfügen (einige mit einem externen Plug-in), z. B. Autodesk 3DS Max &amp; Maya, Unreal Engine oder Unity Engine.
 
 </td>
 <td style="border: 0;">
 
 ![](overview.resources/bmp-96.png){width="48px"}
 
-### Statische Dateien
+**Statische Dateien**
 
-*(\*.TGA, \*.BMP, \*.PNG, \*.FBX, \*.OBJ usw.)*
+`\*.tga, \*.bmp, \*.png, \*.fbx, \*.obj , ...`
 
 Substance 3D Designer unterstützt immer den Export in statische Dateitypen. Ein 2D-Bild kann in eine Bitmapdatei exportiert werden, ein 3D-Modell kann in gängige 3D-Dateitypen exportiert werden. Beim Export in statische Dateien gehen **alle dynamischen Funktionen verloren**. Bilder sind in der Auflösung fixiert, 3D-Modelle in der Polyzahl.
 
@@ -92,7 +93,7 @@ Substance 3D Designer unterstützt immer den Export in statische Dateitypen. Ein
 </tr>
 </table>
 
-Das bedeutet in der Regel, dass Sie Ihre Arbeit im SBS Format speichern, wenn Sie in Designer arbeiten. Sie exportieren in SBSAR, wenn das Ziel dies unterstützt (z. B. Painter), oder Sie verwenden statische Bitmapdateien, wenn keine oder keine Unterstützung für SBSAR erforderlich ist.
+Das bedeutet in der Regel, dass Sie Ihre Arbeit im SBS-Format speichern, wenn Sie in Designer arbeiten. Sie exportieren in SBSAR, wenn das Ziel dies unterstützt (z. B. Painter), oder Sie verwenden statische Bitmapdateien, wenn SBSAR nicht benötigt wird oder nicht unterstützt wird.
 
 ## Ressourcenarten
 
@@ -109,9 +110,9 @@ Substance 3D-Dateien können eine Vielzahl von Ressourcen für verschiedene Zwec
 
 ### Substance-Graphen
 
-Mit Substance-Grafen können Sie *2D-Bilddaten* generieren und verarbeiten und dann in einer oder mehreren Textur-Ausgaben ausgeben. In vielen Anwendungsfällen dreht sich ein Projekt um einen oder mehrere Substance-Graf.
+Mit Substance-Graphen können Sie *2D-Bilddaten* generieren und verarbeiten und dann in einem oder mehreren Texturausgaben ausgeben. In vielen Anwendungsfällen dreht sich ein Projekt um ein oder mehrere Substance-Graphen.
 
-[Wechseln Sie zum Abschnitt Substance Grafen.](../../compositing-graphs/substance-compositing-graphs.md)
+[Gehen Sie zum Abschnitt Substance-Grafiken.](../../compositing-graphs/substance-compositing-graphs.md)
 
 </td>
 </tr>
@@ -126,11 +127,11 @@ Mit Substance-Grafen können Sie *2D-Bilddaten* generieren und verarbeiten und d
 </td>
 <td width="100.00%" style="border: 0;">
 
-### Substance, Funktion Graf
+### Substance-Funktionsdiagramme
 
-<b>Funktionen</b> sind ein höheres Maß an Abstraktion und Komplexität: Anstatt Bilddaten (Pixelwertsätze) zu verarbeiten, verarbeiten Sie *Einzelwerte* (Ganzzahlen, Gleitkommawerte, Vektoren). Funktionen werden verwendet, wenn Sie komplexere Vorgänge ausführen oder bestimmte Verhaltensweisen optimieren möchten. Funktionen funktionieren im Allgemeinen nicht eigenständig und werden nicht außerhalb des Kontexts von Substance-Grafen verwendet.
+<b>Funktionen</b> sind ein höheres Maß an Abstraktion und Komplexität: Anstatt Bilddaten (Sätze von Pixelwerten) zu verarbeiten, verarbeiten Sie *einzelne Werte* (Ganzzahlen, Gleitkommawerte, Vektoren). Funktionen werden verwendet, wenn Sie komplexere Vorgänge ausführen oder bestimmte Verhaltensweisen optimieren möchten. Funktionen funktionieren im Allgemeinen nicht eigenständig und werden nicht außerhalb des Kontexts von Substance-Graphen verwendet.
 
-[Wechseln Sie zum Abschnitt Substance-Grafen.](../../function-graphs/function-graphs.md)
+[Gehen Sie zum Abschnitt Substance von Funktionsdiagrammen.](../../function-graphs/function-graphs.md)
 
 </td>
 </tr>
@@ -145,9 +146,9 @@ Mit Substance-Grafen können Sie *2D-Bilddaten* generieren und verarbeiten und d
 </td>
 <td width="100.00%" style="border: 0;">
 
-### Ressourcen ohne Graf
+### Ressourcen ohne Diagramm
 
-Ressourcen ohne Graf können aus externen Anwendungen stammen (z. B. Photoshop oder Autodesk Maya), während einige auch *in Designer erstellt werden können*. Der Hauptunterschied besteht darin, dass es sich nicht um knotenbasierte Graf handelt. Die meisten Elemente werden innerhalb oder neben den oben genannten Grafen verwendet.
+Ressourcen ohne Diagramm können aus externen Anwendungen stammen (z. B. Photoshop oder Autodesk Maya), während einige auch *in Designer erstellt werden können*. Der Hauptunterschied besteht darin, dass es sich nicht um knotenbasierte Graphen handelt. Die meisten Elemente sind innerhalb oder neben den zuvor genannten Diagrammtypen zu verwenden.
 
 Die folgenden Ressourcentypen sind vorhanden:
 
