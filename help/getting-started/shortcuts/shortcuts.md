@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
 breadcrumb-title: ""
 description: Lernen Sie Tastaturbefehle in Substance 3D Designer kennen, mit denen Sie Ihren Arbeitsablauf beschleunigen und die Produktivität verbessern können.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Kürzel
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: c460f605a97021efd2143941c28a977e12452299
+source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '333'
 ht-degree: 18%
 ---
 
@@ -35,8 +35,8 @@ Auf dieser Seite finden Sie eine Übersicht aller Tastaturbefehle für Substance
 ### Global
 
 | Aktion | Windows | macOS |
-| --- | --- | --- |
-| [Neues Substance-Diagramm](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) | Strg + N | ⌘ + N |
+|:-------------------------------------------------------------------------------------------------------------------|:----------|:------|
+| [Neuer Substance-Graf](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) | Strg + N | ⌘ + N |
 | Paket laden | Strg + O | ⌘ + O |
 | Ausgewählte Pakete schließen | Strg + F4 | ⌘ + W |
 | Paket speichern | Strg + S | ⌘ + S |
@@ -45,13 +45,13 @@ Auf dieser Seite finden Sie eine Übersicht aller Tastaturbefehle für Substance
 
 ### Graphenansicht
 
-<b>Viewport</b>
+**Viewport**
 
 | Aktion | Windows | macOS |
-| --- | --- | --- |
-| Zoom | Mausrad, Alt + RMB + Ziehen | Mausrad ⌥ + RMB + Ziehen |
-| Schneller Zoom | ⇧ + Mausrad ⇧ + Alt + RMB + Ziehen | ⇧ + MouseWheel ⇧ + ⌥ + RMB + Ziehen |
-| Schwenken | MMB + Ziehen Strg + RMB + Ziehen | MMB + Ziehen ⌘ + RMB + Ziehen |
+|:-----------------------------------------------------------------------------------|:---------------------------------------|:-------------------------------------|
+| Zoom | MouseWheel<br>Alt + RMB + Ziehen | MouseWheel<br>⌥ + RMB + Ziehen |
+| Schneller Zoom | ⇧ + Mausrad <br>⇧ + Alt + RMB + Ziehen | ⇧ + MouseWheel<br>⇧ + ⌥ + RMB + Ziehen |
+| Schwenken | MMB + Ziehen<br>Strg + RMB + Ziehen | MMB + Ziehen<br>⌘ + RMB + Ziehen |
 | Zoom zurücksetzen | Z | Z |
 | In Ansicht einpassen | F | F |
 | Kopieren | Strg + C | ⌘ + C |
@@ -60,22 +60,22 @@ Auf dieser Seite finden Sie eine Übersicht aller Tastaturbefehle für Substance
 | Knotenmenü | Leertaste | Leertaste |
 | [Navigationspins](../../interface/the-graph-view/graph-items/graph-items.md) durchlaufen | F2 | F2 |
 
-<b>Verbindungserstellungsmodi</b>
+**Verbindungserstellungsmodi**
 
 >[!NOTE]
 >
 > Erfahren Sie mehr über die Hyperlinkerstellungsmodi in [dieser Seite](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) dieser Dokumentation.
 
 | Modus | Windows | macOS |
-| --- | --- | --- |
+|:-----------------|:--------|:------|
 | Standard | 1 | 1 |
 | Material | 2 | 2 |
 | Material komprimieren | 3 | 3 |
 
-<b>Wenn ein Objekt im Diagramm ausgewählt wird</b>
+**Wenn ein Objekt im Diagramm ausgewählt wird**
 
 | Aktion | Windows | macOS |
-| --- | --- | --- |
+|:------------------------------------|:-------------|:----------|
 | Auswahl kopieren | Strg + C | ⌘ + C |
 | Auswahl duplizieren | Strg + D | ⌘ + D |
 | Ohne Verknüpfungen duplizieren | Strg + ⇧ + D | ⌘ + ⇧ + D |
@@ -87,10 +87,10 @@ Auf dieser Seite finden Sie eine Übersicht aller Tastaturbefehle für Substance
 ### 2D-Ansicht
 
 | Aktion | Windows | macOS |
-| --- | --- | --- |
-| Zoom | Mausrad, Alt + RMB + Ziehen | Mausrad ⌥ + RMB + Ziehen |
-| Schneller Zoom | ⇧ + Mausrad ⇧ + Alt + RMB + Ziehen | ⇧ + MouseWheel ⇧ + ⌥ + RMB + Ziehen |
-| Schwenken | MMB + Ziehen Strg + RMB + Ziehen | MMB + Ziehen ⌘ + RMB + Ziehen |
+|:---------------------|:---------------------------------------|:-------------------------------------|
+| Zoom | MouseWheel<br>Alt + RMB + Ziehen | MouseWheel<br>⌥ + RMB + Ziehen |
+| Schneller Zoom | ⇧ + Mausrad <br>⇧ + Alt + RMB + Ziehen | ⇧ + MouseWheel<br>⇧ + ⌥ + RMB + Ziehen |
+| Schwenken | MMB + Ziehen<br>Strg + RMB + Ziehen | MMB + Ziehen<br>⌘ + RMB + Ziehen |
 | Auf 100 %-Skalierung zurücksetzen | Z | Z |
 | In Ansicht einpassen | F | F |
 | Kachelanzeige ein/aus | Leertaste | Leertaste |
@@ -98,10 +98,10 @@ Auf dieser Seite finden Sie eine Übersicht aller Tastaturbefehle für Substance
 ### 3D-Ansicht
 
 | Aktion | Windows | macOS |
-| --- | --- | --- |
-| Kamera verschieben (Vorwärts-/Rückwärtsschwenk) | Mausrad, Alt + RMB + Ziehen | Mausrad ⌥ + RMB + Ziehen |
+|:---------------------------------------------------------|:--------------------------------|:-----------------------------|
+| Kamera verschieben (Vorwärts-/Rückwärtsschwenk) | MouseWheel<br>Alt + RMB + Ziehen | MouseWheel<br>⌥ + RMB + Ziehen |
 | Mit Kamera kreisen | LMB + Ziehen | LMB + Ziehen |
-| LKW- &amp; Standbildkamera (Seiten- &amp; Vertikalschwenk) | MMB + Ziehen Strg + RMB + Ziehen | MMB + Ziehen ⌘ + RMB + Ziehen |
+| LKW- &amp; Standbildkamera (Seiten- &amp; Vertikalschwenk) | MMB + Ziehen<br>Strg + RMB + Ziehen | MMB + Ziehen<br>⌘ + RMB + Ziehen |
 | Umgebung drehen | Strg + ⇧ + RMB | Strg + ⇧ + RMB |
 | Vorübergehend zu den Steuerelementen für Punktlicht 1 wechseln | ⇧ (gedrückt halten) | ⇧ (gedrückt halten) |
 | Kreispunktlicht 1 | LMB + Ziehen | LMB + Ziehen |
