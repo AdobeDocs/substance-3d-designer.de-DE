@@ -37,7 +37,7 @@ Wenn du feststellst, dass deine allererste Anpassung des Kontrasts, die das Ende
 Das Instanziieren von Grafen ist ein wichtiger Prozess in Designer. Sie können eigene Graf erstellen, indem Sie einen Knoten oder einen Teil eines Grafen als wiederverwendbaren Knoten verpacken. Diese werden [Instanzknoten](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) genannt und ermöglichen es Ihnen, effizienter zu arbeiten, indem Sie Graf wiederverwenden.\
 Beispiel: Haben Sie eine tolle Technik für Kantenverschleiß entwickelt? Teilen Sie diesen in einen separaten Graf auf und verwenden Sie ihn in anderen Projekten wieder!
 
-Weitere Informationen zu Grapheninstanzen finden Sie in einem [dedizierten Abschnitt ](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) über ihre Verwendung in [Substance-Grafen](../../compositing-graphs/substance-compositing-graphs.md).
+Weitere Informationen zu Grapheninstanzen finden Sie in einem [dedizierten Abschnitt &#x200B;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) über ihre Verwendung in [Substance-Grafen](../../compositing-graphs/substance-compositing-graphs.md).
 
 ![Vereinfachte Graf-Parameter](workflow-overview.resources/parameters-5.png "Vereinfachte Graf-Parameter"){zoomable="yes"}
 
@@ -71,7 +71,7 @@ Im Folgenden finden Sie eine Zusammenfassung der drei Dokumenttypen, die Sie in 
 
 Die Ergebnisse können in Form eines einfachen Schwarzweißmusters, eines Filters, der nur auf anderen Bildern ausgeführt wird und keinen Inhalt für sich selbst erzeugt, oder sogar eines vollwertigen prozeduralen Materials mit mehreren Kanälen vorliegen.
 
-Substance-Graf sind [ der am weitesten unterstützte Graf ](../../getting-started/overview/overview.md)-Typ und können exportiert und in einer Vielzahl von verschiedenen Workflows verwendet werden.
+Substance-Graf sind [&#x200B; der am weitesten unterstützte Graf &#x200B;](../../getting-started/overview/overview.md)-Typ und können exportiert und in einer Vielzahl von verschiedenen Workflows verwendet werden.
 
 #### Beispiele
 
@@ -101,7 +101,7 @@ Die im Histogramm festgelegten Kontrastwerte können gelegt werden, sodass es si
 
 ![Vollständiges Material im Substance-Graf](workflow-overview.resources/simplematerial.png "Vollständiges Material im Substance-Graf"){width="512px" zoomable="yes"}
 
-Ein komplizierterer Graf [ überblendet zwei Basismaterial ](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md). Ein [Basismaterial](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md) ist einfach gehalten, das andere verwendet einige benutzerdefinierte Eingaben, um Interesse hinzuzufügen. Mit einer Maske wird bestimmt, welches der beiden Material an welcher Stelle angezeigt wird, bevor es als endgültige [Ausgaben](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) festgelegt wird.
+Ein komplizierterer Graf [&#x200B; überblendet zwei Basismaterial &#x200B;](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md). Ein [Basismaterial](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md) ist einfach gehalten, das andere verwendet einige benutzerdefinierte Eingaben, um Interesse hinzuzufügen. Mit einer Maske wird bestimmt, welches der beiden Material an welcher Stelle angezeigt wird, bevor es als endgültige [Ausgaben](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) festgelegt wird.
 
 In diesem Beispiel werden [Verknüpfungserstellungsmodi](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) zur Vereinfachung der Verwendung mehrerer Verknüpfungen verwendet.
 
@@ -122,7 +122,7 @@ In diesem Beispiel werden [Verknüpfungserstellungsmodi](../../interface/the-gra
 </tr>
 </table>
 
-Funktionen verarbeiten **Einzelwerte** (Ganzzahlen, Gleitkommawerte, Vektoren) und nicht Pixelsätze (Bilder). Funktionen sind auch Knotenknoten, aber die [Graf sind ](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md), und ihre Benutzeroberfläche unterscheidet sich von Substance-Graf.
+Funktionen verarbeiten **Einzelwerte** (Ganzzahlen, Gleitkommawerte, Vektoren) und nicht Pixelsätze (Bilder). Funktionen sind auch Knotenknoten, aber die [Graf sind &#x200B;](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md), und ihre Benutzeroberfläche unterscheidet sich von Substance-Graf.
 
 Der Arbeitsablauf basiert auf **mathematischen und logischen Vorgängen**, wodurch sie eine weitaus fortschrittlichere Arbeitsweise in Designer ermöglichen.
 
@@ -139,7 +139,7 @@ Im Folgenden finden Sie einige Beispiele aus gängigen Anwendungsfällen für Su
 
 ![Einfaches Funktionsdiagramm](workflow-overview.resources/lerpfunction.png "Einfaches Funktionsdiagramm"){width="256px" zoomable="yes"}
 
-Eine einfache Funktion im Kontext eines exponierten Parameters. Es erhält einen Eingangs-Gleitkommawert namens &quot;Intensität&quot;, der von 0 bis 1 geht (ein Bereich, der leicht zu verstehen ist) und weist ihn einem festgelegten Bereich von 0,1 bis 0,8 neu zu. Wenn der Benutzer also die Intensität auf 0 setzt, wird intern 0,1 verwendet, wenn die Benutzeroberfläche auf 1 gesetzt ist, wird 0,8 verwendet und jeder Wert dazwischen wird linear interpoliert. Dieser Funktionstyp wird häufig verwendet, wenn [ Parameter ](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) verfügbar macht, aber benutzerdefinierte Funktionen verwendet werden.
+Eine einfache Funktion im Kontext eines exponierten Parameters. Es erhält einen Eingangs-Gleitkommawert namens &quot;Intensität&quot;, der von 0 bis 1 geht (ein Bereich, der leicht zu verstehen ist) und weist ihn einem festgelegten Bereich von 0,1 bis 0,8 neu zu. Wenn der Benutzer also die Intensität auf 0 setzt, wird intern 0,1 verwendet, wenn die Benutzeroberfläche auf 1 gesetzt ist, wird 0,8 verwendet und jeder Wert dazwischen wird linear interpoliert. Dieser Funktionstyp wird häufig verwendet, wenn [&#x200B; Parameter &#x200B;](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) verfügbar macht, aber benutzerdefinierte Funktionen verwendet werden.
 
 Diese Funktion könnte auch als `lerp(0.1, 0.8, Intensity)` in einem Pseudocode ähnlich wie HLSL oder GLSL geschrieben werden.
 
