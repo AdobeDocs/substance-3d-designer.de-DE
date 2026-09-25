@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
 breadcrumb-title: ""
 description: Erfahren Sie mehr über die Substance 3D-Dateiformate und wie sie prozedurale Materialien und Texturen zur programmübergreifenden Verwendung speichern.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ Substance-Graf sind dynamisch, da der Ersteller eines Substance-Grafen im Gegens
 
 So ist es beispielsweise möglich, die Dust eines Objekts, die Trikotfarbe einer Fußballmannschaft oder das Muster eines abgeschnittenen Steinbodens spontan zu ändern. Deiner Fantasie sind dabei so gut wie keine Grenzen gesetzt.
 
-Ein Paket kann *veröffentlicht* in einer kompilierten, eigenständigen **Substance 3D-Archivdatei** (`*.sbsar`) sein, sodass der darin enthaltene Graf dann in externen Anwendungen verwendet werden kann, für die eine [Substance-Integration](https://www.adobe.com/products/substance3d/plugins.html) vorhanden ist.
+Ein Paket kann *veröffentlicht* in einer kompilierten, eigenständigen **Substance 3D-Archivdatei** (`*.sbsar`) sein, sodass der darin enthaltene Graf dann in externen Anwendungen verwendet werden kann, für die eine [Substance-Integration](https://www.adobe.com/de/products/substance3d/plugins.html) vorhanden ist.
 
 Substance-Graf können Texturen erzeugen, die **100% prozedural** sind, was zu sehr geringen Paketdateigrößen führt.
 
