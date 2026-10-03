@@ -1,7 +1,7 @@
 ---
 name: write-experience-league-markdown
 description: |
-  Syntaxregeln, benutzerdefinierte Erweiterungen und Gotchas zum Schreiben von auf Adobe Experience League veröffentlichten Markdown-Inhalten. Verwenden Sie diese Fähigkeit beim Erstellen oder Bearbeiten einer Seite unter "help" oder in diesem Repo (oder in einem anderen Experience League-Inhalts-Repo) - Überschriften, Verknüpfungen, Bilder, Tabellen, Hinweis-/Warnblöcke, UICONTROL/DNL-Tags, Videoeinbettungen, Anker und bekannte Rendering-Fehler. Quelle: https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown
+  Syntaxregeln, benutzerdefinierte Erweiterungen und Gotchas zum Schreiben von auf Adobe Experience League veröffentlichten Markdown-Inhalten. Verwenden Sie diese Fähigkeit beim Erstellen oder Bearbeiten einer Seite unter "help" oder in diesem Repo (oder in einem anderen Experience League-Inhalts-Repo) - Überschriften, Verknüpfungen, Bilder, Tabellen, Hinweis-/Warnblöcke, UICONTROL/DNL-Tags, Videoeinbettungen, Anker und bekannte Rendering-Fehler. Quelle: https://experienceleague.adobe.com/de/docs/contributor/contributor-guide/writing-essentials/markdown
 source-git-commit: ed17c57a1aa9669a602d4523bdef20cd7d82db75
 workflow-type: tm+mt
 source-wordcount: '1263'

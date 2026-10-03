@@ -62,7 +62,7 @@ user-guide-title: ""
 
 * Englisch ist die Quelle der Wahrheit; alle anderen Sprachen sind davon Kamera bewogen.
 * Alle Links zu anderen Dokumentationsseiten müssen **relative** Links sein. Alle Verknüpfungen zu externen Ressourcen müssen **absolute** Verknüpfungen sein.
-* Der Inhalt ist in Markdown mit GitHub-Geschmack mit benutzerdefinierten Erweiterungen/Gotchas von Experience League geschrieben und [hier](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown) dokumentiert. Verwenden Sie die `write-experience-league-markdown`-Kenntnisse (sofern vorhanden) für die Details.
+* Der Inhalt ist in Markdown mit GitHub-Geschmack mit benutzerdefinierten Erweiterungen/Gotchas von Experience League geschrieben und [hier](https://experienceleague.adobe.com/de/docs/contributor/contributor-guide/writing-essentials/markdown) dokumentiert. Verwenden Sie die `write-experience-league-markdown`-Kenntnisse (sofern vorhanden) für die Details.
 * Jede übermittelte Änderung durchläuft automatisierte Lint-Prüfungen und Link-Validierung in CI (siehe unten). Überprüfen Sie `markdownlint_custom.json` und `linkcheckexclude.json`, bevor Sie davon ausgehen, dass eine Regel gilt oder ein Link repariert werden muss.
 
 &#x200B;# Validierung/CI
