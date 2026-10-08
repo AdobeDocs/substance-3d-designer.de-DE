@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-designer/release-notes/all-changes.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Prüfe alle Änderungen und Updates in den verschiedenen Versionen von Substance 3D Designer, um die Entwicklung und Verbesserungen der neuen Funktionen verfolgen zu können.
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > All changes
@@ -8,19 +8,36 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Alle Änderungen
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 470ce4ff25b81c710c4b446b160c29663c31d356
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 323708f930162cdc9f1a8df90f191e447e888797
 workflow-type: tm+mt
-source-wordcount: '32107'
+source-wordcount: '32210'
 ht-degree: 0%
-
 ---
-
 
 # Alle Änderungen
 
 ## Version 16
+
+### 16.0.7
+
+*(veröffentlicht am 8. Oktober 2026)*
+
+**Hinzugefügt:**
+
+* [Engine] Substance-Engine auf Version 9.6.1 aktualisieren
+* [OpenGL]&#x200B;[OpenPBR] Verbessern der numerischen Stabilität von VNDF-Sampling und kleineren ALU-Optimierungen
+
+**Fest:**
+
+* [3D-Ansicht]&#x200B;[USD] Falsches Aussehen der Oberfläche nach dem Überschreiben des Materials in einer bestimmten USD Szene
+* [Inhalt] Vektormorphologie: Kachelung wird nicht unterstützt
+* [Sicherheit] Es wurde eine NULL-Zeigerdereferenzlücke beim Analysieren von PLY-Dateien behoben.
+* [Sicherheit] Es wurde eine Sicherheitslücke bezüglich eines Stapel-Überlaufs beim Analysieren von FBX behoben.
+* [Sicherheit] Es wurde eine Sicherheitslücke bezüglich eines Stapel-Überlaufs beim Analysieren von Sbsar-Dateien behoben.
+* [Sicherheit] Es wurde eine Sicherheitslücke beim Lesen außerhalb des gültigen Bereichs beim Analysieren von Sbsar-Dateien behoben.
+* [Sicherheit] Es wurde eine Sicherheitslücke beim Schreiben außerhalb des gültigen Bereichs beim Analysieren von FBX behoben.
 
 ### 16.0.6
 
@@ -40,8 +57,8 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [3D-Ansicht] Es wurde eine Schaltfläche zur Auswahl der aktuellen AOV hinzugefügt.
-* [Inhalt] Perlin/Gaußsches Rauschen: Skalenparameter freigeben
+* [3D-Ansichten] Es wurde eine Schaltfläche zur Auswahl der aktuellen AOV hinzugefügt.
+* [Inhalt] Perlin/Gaußscher Rauschen: Skalenparameter freigeben
 * [Inhalt] Unnötige Bitmapressourcen aus der Bibliothek ausblenden
 <!--
 * &#91;Legal&#93; To meet generative AI transparency legal requirements, this version is updated to automatically attach Content Credentials to qualifying content created or edited with generative AI tools.  
@@ -49,15 +66,15 @@ ht-degree: 0%
 
 **Fest:**
 
-* [3D-Ansicht] Änderungen an der Umgebungssichtbarkeit, die in OpenGL vorgenommen wurden, werden nicht auf Eclair-Renderer übertragen
-* [Bäcker] Der Backkontext wurde nach dem Aktualisieren von Bäcken für eine gelöschte UDIM-Bitmapressource nicht zerstört.
-* [Baker] Absturz beim Löschen einer UDIM-Bitmap-Ressource während der Aktualisierung der Backens behoben
+* [3D-Ansicht] Änderungen der Umgebungssichtbarkeit, die in OpenGL vorgenommen wurden, werden nicht auf Eclair-Renderer übertragen.
+* [Baker] Baking führend Kontext wurde nach dem Aktualisieren von Baking führte für eine gelöschte UDIM-Bitmap-Ressource nicht zerstört
+* [Baker] Absturz beim Löschen einer UDIM-Bitmap-Ressource während der Aktualisierung der Baking führte behoben
 * [Inhalt] Formspritzer v2: Height der Zylinderform ist nicht korrekt
 * [Inhalt] Formspritzer v2: Dichte-Map funktioniert nicht ordnungsgemäß, wenn die Knotengröße 4096 überschreitet
 * [Inhalt] Formspritzer v2: Die Verwendung des &#39;Rock&#39; SDF hinter einem If/Else kann zu einer Endlosschleife führen
-* [Sicherheit] Es wurde eine NULL-Zeigerdereferenzlücke beim Analysieren von AXF-Dateien behoben.
+* [Sicherheit] Es wurde eine NULL-Zeigerdereferenzlücke beim Analysieren von AxF-Dateien behoben.
 * [Sicherheit] Es wurde eine NULL-Zeigerdereferenzlücke beim Analysieren von GLB-Dateien behoben.
-* [Sicherheit] Sicherheitslücken beim Schreiben außerhalb des gültigen Bereichs beim Analysieren von SBSAR-Dateien behoben
+* [Sicherheit] Sicherheitslücken beim Schreiben außerhalb des gültigen Bereichs beim Analysieren von Sbsar-Dateien behoben
 * [Sicherheit] Es wurde eine Sicherheitslücke behoben, durch die beim Analysieren von DDS-Dateien ein Heap beschädigt wurde.
 * [Sicherheit] Es wurde eine Sicherheitslücke aufgrund einer Heap-Beschädigung beim Analysieren von GLB-Dateien behoben.
 * [Sicherheit] Es wurde eine Sicherheitslücke aufgrund einer Heap-Beschädigung beim Analysieren von TGA-Dateien behoben.
@@ -73,23 +90,23 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [3D-Ansicht] Klammern Sie die Renderauflösung auf 4096 in X und Y ein
-* [Bäcker] Update bake-sdk auf 3.22.3
-* [Engine] Aktualisieren der Substance-Engine auf Version 9.4.4
-* [OpenGL]&#x200B;[OpenPBR] Reduzieren von Rauschen im Specular-Lappen für hohe Raueit + Anisotropie
-* [Szenen] Beibehalten des Modus für die Interpolation von UV-Primärkomponenten
+* [3D-Ansicht] Die Renderauflösung wurde in X und Y auf 4096 Beschränkt.
+* [Baker] Aktualisieren von Baking-SDK auf 3.22.3
+* [Engine] Substance-Engine auf Version 9.4.4 aktualisieren
+* [OpenGL]&#x200B;[OpenPBR] Reduzieren des Rauschen im Specular-Lappen für hohe Rauheit + Anisotropie
+* [Szenen] Beibehalten des UV primvar-Interpolationsmodus
 
 **Fest:**
 
-* [3D-Ansicht] USD-Export: Ressourcenpfad wird mit dem absoluten Pfad gespeichert
-* [Bäcker] Das Backen schlägt fehl, wenn das Laden des hohen Polygitters abgebrochen wird (Windows)
-* [Bäcker] Liste der 3D-Szenen mit hohem Poly enthält keine Ressourcen mit demselben Bezeichner wie das niedrige Poly
-* [Bäcker] Normaler Weltraum: Eine WS-Normale wird immer zurückgegeben, wenn eine Eingabe-Normale vorhanden ist.
+* [3D-Ansicht] USD: Ressourcenpfad wird mit dem absoluten Pfad gespeichert
+* [Baker] Baking schlägt fehl, wenn das Laden von High-Poly-Mesh abgebrochen wird (Windows)
+* [Baker] Liste der 3D-Szenen mit hohem Poly enthält keine Ressourcen mit derselben Identifizierung wie das niedrige Poly.
+* [Baker] Normaler Welt-Raum: Eine WS-Normale wird immer zurückgegeben, wenn eine Eingabe-Normale vorhanden ist.
 * [Inhalt] Falsche Normale bei ungleichmäßiger Skalierung des Musters in der Formaufteilung V2
 * [Inhalt] Formspritzer V2: Schwarze Normale für die Formen &quot;Plane&quot; und &quot;Disc&quot;
 * [Inhalt] Formspritzer v2: Die erste Form wurde nicht korrekt mit dem Hintergrund überblendet.
-* [Absturz] Zufälliger Absturz möglicherweise mit Video verknüpft (umfassende QuickInfos)
-* [Graph] Absturz beim Einfügen eines Knotens, der aus einem neuen Graph mit leerem Bezeichner kopiert wurde
+* [Absturz] Möglicher zufälliger Absturz in Verbindung mit Video (Rich-Text-QuickInfos)
+* [Graf] Absturz beim Einfügen eines von einem neuen Graf mit leerer Identifizierung kopierten Knotens
 * [PSD] PSD-Dateien werden zu oft geladen
 
 ### 16.0.3
@@ -98,7 +115,7 @@ ht-degree: 0%
 
 **Fest:**
 
-* [Absturz] Beheben Sie eine Regression, die in Version 16.0.2 eingeführt wurde und bei einigen Benutzern beim Start einen Absturz verursachte.
+* [Absturz] Beheben Sie eine Regression, die in Version 16.0.2 eingeführt wurde und bei einigen Anwendern beim Start einen Absturz verursacht hat.
 
 ### 16.0.2
 
@@ -106,11 +123,11 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [OpenPBR] Unterstützung für Grundfarben-/AO-Konstanten hinzufügen
+* [OpenPBR] Unterstützung für Grundfarbe/AO-Konstanten hinzufügen
 
 **Fest:**
 
-* [3D-Ansicht] Leak of VRAM in GPU Path Tracer, wenn Versatz aktiviert ist
+* [3D-Ansicht] VRAM in GPU-Pfadverfolgung, wenn Versatz aktiviert ist
 * [3D-Ansicht] Hauptthread bleibt belegt, wenn die 3D-Ansicht vorhanden ist
 * [3D-Ansicht]&#x200B;[OpenPBR] OpenGL: Widgets vom Typ &quot;Gewicht&quot; scheinen festgeklemmt zu sein, akzeptieren aber Werte außerhalb des zulässigen Bereichs
 * [Absturz] Absturz beim Verschieben referenzierter Eingaben um mehrere Stellen gleichzeitig
@@ -143,23 +160,23 @@ ht-degree: 0%
 **Fest:**
 
 * [3D-Ansicht] Viewport-Skalierung wird bei Verwendung von fester Auflösung angewendet
-* [3D-Ansicht]&#x200B;[OpenPBR] Einfrieren beim Laden einer aus Designer exportierten GLTF-Szene und Verwenden eines OpenPBR-Materials
+* [3D-Ansicht]&#x200B;[OpenPBR] Einfrieren beim Laden einer aus Designer exportierten GLTF-Szene und bei Verwendung eines OpenPBR-Materials
 * [3D-Ansicht]&#x200B;[OpenPBR] Aus Painter exportierte Materialien können in Designer nicht überschrieben werden
 * [Inhalt] 3D-Viewer: shape.id ist nicht initialisiert und generiert Meldungen in der Konsole
-* [Inhalt] Form Splutter v2 Mapper Graustufen: Der Mustereingang 4 ist bei der triplanaren Projektion nicht belegt
+* [Inhalt] Form Splutter v2 Mapper Graustufen: Die Mustereingabe 4 wird in der triplanare Projektion nicht verwendet.
 * [Inhalt] Shape Splater v2 Mapper: SDF-ID wird bei Verwendung des Modus &quot;1 Bild pro Material-ID&quot; um -1 versetzt
-* [Eclair]&#x200B;[USD] Falsches Ergebnis beim Anwenden eines Materials auf einen von Designer generierten USD
-* [Engine] Berechnen eines neuen Levels-Knotens Shape Splatter V2 Hauptdiagramm verwürfelt folgende Berechnungen
-* [Engine] Modul einer Variablen gegen ihren Gleichwert gibt in einigen Fällen mit der GPU-Engine nicht 0 zurück.
-* [Engine]&#x200B;[Content] Arc tangent 2 gibt 0 oder Pi für X-Right-Vektoren in einem bestimmten Fall zurück.
-* [Engine]&#x200B;[Ubuntu]&#x200B;[SSE2] Absturz beim Laden eines bestimmten SBSAR im Diagramm
-* [Graph] Absturz beim Verbinden der Value Processor-Ausgabe mit der Bitmap-Eingabe
-* [Graph] Absturz beim Einfügen von Werten in Bildeingaben in einigen Fällen
-* [Graph] Graph wird automatisch bei jedem automatischen Speichern berechnet, wenn durch Baking erzeugte Map verwendet werden
+* [Eclair]&#x200B;[USD] Falsches Ergebnis beim Anwenden eines Materials auf ein von Designer generiertes USD
+* [Engine] Berechnen eines neuen Levels-Knotens Shape Splatter V2 Haupt-Graf verwürfelt folgende Berechnungen
+* [Engine] Das Modulo einer Variablen mit ihrem Gleichheitswert gibt in einigen Fällen nicht 0 mit dem GPU-Engine zurück.
+* [Engine]&#x200B;[Inhalt] Arc Tangente 2 gibt 0 oder Pi für X-Right-Vektoren in einem bestimmten Fall zurück.
+* [Engine]&#x200B;[Ubuntu]&#x200B;[SSE2] Absturz beim Laden eines bestimmten SBSAR im Graf
+* [Graf] Absturz beim Verbinden der Wertprozessor-Ausgabe mit der Bitmap-Eingabe
+* [Graf] Absturz beim Einfügen des Werts in die Bildeingabe in einigen Fällen
+* [Graf] Graf wird bei jedem automatischen Speichern automatisch berechnet, wenn durch Baking erzeugte Map verwendet werden
 * [GraphRender] Absturz beim Verbinden der Wertausgabe der Atlas Scatter mit der Bildeingabe des Atlas Splitters
 * [Linux]&#x200B;[Export] Das bearbeitete Dateiformat wird in Dialogfeldern zum Speichern von Dateien ignoriert
 * [Mac]&#x200B;[Steam] Sicherheits-Popup wird angezeigt, wenn Designer gestartet wird
-* [Mesh] OBJ-Materialien werden nicht korrekt importiert
+* [Mesh] OBJ Materialien werden nicht korrekt importiert.
 * [PSD] Der PSD-Importer fordert, bei jedem automatischen Speichern Ebenen aus der PSD-Datei zu extrahieren
 
 ### 16.0.0
@@ -175,37 +192,37 @@ ht-degree: 0%
 * [Content] 3D-Viewer-Knoten
 * [Content] 3D SDF-Operatorknoten
 * [Content] 3D SDF primitive Knoten
-* [Content] 3D SDF-Transformationsknoten
-* [Content] 3D SDF-Materialknoten
+* [Content] 3D SDF transformieren Nodes
+* [Content] 3D SDF Material Nodes
 * [Inhalt] Winkel zum Vektorknoten
 * [Content] Knoten mit konstanten Werten
-* [3D-Ansicht] OpenPBR-Shader für OpenGL-Renderer
-* [3D-Ansicht] OpenPBR-Shader für Rasterizer und GPU-Pathtracer-Renderer
-* [3D-Ansicht] Versatz-Fenster zum Festlegen der Height-Skalierung, der Height-Ebene und der Tesselierung
+* [3D-Ansicht] OpenPBR Shader für OpenGL-Renderer
+* [3D-Ansicht] OpenPBR Shader für Rasterizer und GPU-Pathtracer-Renderer
+* [3D-Ansicht] Versatz-Fenster, um Height-Skalierung, Height-Ebene und Tessellation festzulegen
 * [3D-Ansicht] Neuorganisieren der Symbolleistenelemente
-* [3D-Ansicht] Legen Sie in der 3D-Ansicht OpenPBR als Standardansicht für das Materialmodell fest.
-* [3D-Ansicht] Lassen Sie die 3D-Ansicht das Grafikattribut &quot;Materialmodell&quot; berücksichtigen.
+* [3D-Ansicht] Legen Sie OpenPBR als Standard-Materialmodell in der 3D-Ansicht fest.
+* [3D-Ansicht] Lassen Sie die 3D-Ansicht das Attribut &quot;Materialmodell&quot;-Graf berücksichtigen.
 * [3D-Ansicht] Synchronisieren von Materialmodellen beim Wechsel zwischen Rasterbildern/GPU-Pathtracer und OpenGL-Renderern
-* [3D-Ansicht] Vergewissern Sie sich, dass das Materialmodell dauerhaft ist, wenn Sie 3D-Renderer wechseln und Änderungen an der Materialdefinition synchronisiert werden.
-* [3D-Ansicht] GPU-Pathtracer: Pixelwiederholung für blaues Rauschen aktivieren
-* [3D-Ansicht] Deckkraftsteuerung &quot;Umgebungs-Verdeckung belichten&quot;
-* [3D-Ansicht] Stellen Sie den Parameterbereich &quot;Kacheln&quot; für alle Shader auf [0, 10] ein.
-* [3D-Ansicht] Benennen Sie die Aktion &quot;Fokus&quot; in &quot;Frame&quot; um
+* [3D-Ansicht] Vergewissern Sie sich, dass das Materialmodell dauerhaft ist, wenn das Wechseln von 3D-Renderern und Änderungen an der Material-Definition synchronisiert werden.
+* [3D-Ansicht] GPU-Pathtracer: Blauer Rauschen-Pixelzyklus aktivieren
+* [3D-Ansicht] Ambient occlusion-Deckkraftsteuerung Gelegt
+* [3D-Ansicht] Stellen Sie den Parameterbereich &quot;Kachelung&quot; für alle Shader auf [0, 10] ein.
+* [3D-Ansicht] Umbenennen der Aktion &quot;Fokus&quot; in &quot;Rahmen&quot;
 * [3D-Ansicht] Verarbeiten Sie den neuen Parameter refineLevel, der tesselationFactor ersetzt.
 * [3D-Ansicht] FPS-Zähler hinzufügen
-* [3D-Ansicht] Verschieben Sie den Fortschrittsbalken in derselben horizontalen Symbolleiste wie den Farbraum unten
-* [Bäcker] Anzeigen der UV-Werte des ausgewählten Bäckers in der Vorschau
-* [Graph] Neues Materialmodell-Attribut zu Substance-Graphen hinzufügen
+* [3D-Ansicht] Bewegen Sie den Fortschrittsbalken in derselben horizontalen Symbolleiste wie den Farbraum am unteren Rand.
+* [Baker] Zeigt die UV des markierten Bakers in der Vorschau an.
+* [Graf] Neues Materialmodell-Attribut zu Substance-Grafen hinzufügen
 * [NewGraph] Hinzufügen von Trennlinien in der Miniaturansicht
-* [Parameter] Definieren Sie einen standardmäßigen konstanten Wert für Eingabeparameter mit dem Editor &quot;Funktion&quot;
+* [Parameter] Definieren des Standardkonstanten für Eingabeparameter mit dem Editor &quot;Funktion&quot;
 * [Parameter] Kombinationsfeld aus `Set` und `Is defined` Knotenparametern mit verfügbaren Variablen auffüllen
 * [Voreinstellungen] Entfernen der veralteten Option &quot;Skalierungsfaktor deaktivieren&quot; auf der Registerkarte &quot;3D-Ansicht&quot;
-* [Publish] Dialogfeld &quot;Publish&quot;: Materialmodell in Diagramminformationen einbeziehen
+* [Publish] Dialogfeld &quot;Publish&quot;: Materialmodell in Graf-Informationen einschließen
 * [Python] Fügen Sie die neue Klasse SDMaterialModelDescription hinzu, um die Informationen eines Materialmodells abzurufen.
 * [Python] Erlaubt das Abrufen/Festlegen der Materialmodell-Eigenschaft von SDSBSCompGraph-Objekten.
 * [Python-Editor] Erhöhung der Schriftgröße auf 12
 * [Vorlagen] OpenPBR-Vorlagen hinzufügen
-* [Vorlagen] Materialproben in OpenPBR konvertieren
+* [Vorlagen] Konvertieren von Material-Beispielen in OpenPBR
 * [Drittanbieter] Update Boost auf Version 1.88
 * [Drittanbieter] C++-API auf C++20 aktualisieren
 * [Drittanbieter] NGL-Aktualisierung auf 1.42
@@ -214,7 +231,7 @@ ht-degree: 0%
 * [Drittanbieter] Update OpenEXR auf Version 3.4.x
 * [Drittanbieter] Update Qt &amp; QtForPython auf 6.8.x und Python auf 3.13.x
 * [Drittanbieter] Update TBB auf oneTBB 2021.x
-* [Deprecation] Entfernen Sie Iray und den MDL-Editor.
+* [Verworfen] Entfernen von Iray und MDL-Editor
 
 **Fest:**
 
@@ -243,12 +260,12 @@ ht-degree: 0%
 * [Baker] Textur: Absturz in bkBufferViewCopy
 * [Cooker] Endlose Schleife im While-Schleifen-Knoten in einem Fall, der verhindert werden konnte
 * [Engine] Beenden des Substance von Engine beim Schließen der Anwendung
-* [Allgemein] Vermeiden von zufälligen Abstürzen beim Beenden der Anwendung (nur Windows)
-* [Diagramm] Funktionsdiagramm: Typweitergabe funktioniert in einigen Situationen nicht richtig
-* [Graph] Graph-Links werden gelöscht, wenn ein Bildeingabeknoten umbenannt wird
-* [Diagramm] Verknüpfungen und Pins zeigen manchmal Artefakte an
+* [Allgemein] Vermeiden Sie zufällige Absturz beim Beenden der Anwendung (nur Windows)
+* [Graf] Funktions-Graf: Typweitergabe funktioniert in einigen Situationen nicht richtig
+* [Graf] Graf-Links werden gelöscht, wenn ein Bild-Eingabeknoten umbenannt wird
+* [Graf] Verknüpfungen und Nadeln zeigen manchmal Artefakte an.
 * [Voreinstellungen] &quot;Viewport-Skalierung&quot; ist invertiert
-* [Eigenschaften] Absturz beim Ändern der Diagrammeingabe-Optimierung beim Anzeigen der Instanzparameter
+* [Eigenschaften] Absturz beim Ändern der Graf-Eingabetaste beim Anzeigen der Instanzparameter
 * [Python] PySide6-Module können nicht importiert werden (möglicher Konflikt mit der vorhandenen PySide6-Installation)
 * [Python] Bestehende PySide- und Shiboken-Module stehen im Konflikt mit Designers
 * [UI] Hover-Stil verschwindet bei Schaltflächen in bestimmten Fällen (nur Windows)
@@ -257,8 +274,8 @@ ht-degree: 0%
 
 **Bekannte Probleme:**
 
-* [Graph] Generierte Symbole für OpenPBR-Graphen sind ungenau
-* [3D-Ansicht] Szenen mit animierten Grundelementen werden nicht ordnungsgemäß unterstützt.
+* [Graf] Generierte Symbole für OpenPBR-Graf sind nicht korrekt
+* [3D-Ansicht] Szenen mit animierten Grundformen werden nicht ordnungsgemäß unterstützt.
 * [3D-Ansicht] Pathtracer wird nicht auf allen AMD-Grafikkarten unterstützt
 
 ## Version 15
@@ -269,40 +286,40 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [Bäcker] Hinzufügen von Makros für die Ausgabegröße des Dateinamens
-* [Bäcker] Vermeiden Sie das Laden des Hochpoly-Gitters vor dem Backen
-* [Bäcker] CLI: Aktualisieren der Beschreibung der Option &quot;output-size&quot; mit Makros für die Größe
-* [Bäcker] Konvertieren des Eingabetexturformats in das angeforderte Format
-* [Bäcker] Deaktivieren der Option &quot;Offset-Map&quot;, wenn &quot;Käfig verwenden&quot; aktiviert ist
-* [Bäcker] Zeigt beim erneuten Öffnen des Backfensters bereits durch Baking erzeugte Map an
+* [Baker] Hinzufügen von Makros für die Ausgabegröße des Dateinamens
+* [Baker] Vermeiden Sie vor dem Baking das Laden des Meshs.
+* [Baker] CLI: Aktualisieren der Beschreibung der Option &quot;output-size&quot; mit Makros für die Größe
+* [Baker] Konvertieren des Textur-Eingabeformats in das angeforderte Format
+* [Baker] Deaktivieren der Option &quot;Offset-Map&quot;, wenn &quot;Käfig verwenden&quot; aktiviert ist
+* [Baker] Zeigt bereits durch Baking erzeugte Map an, wenn das Baking-Fenster erneut geöffnet wird.
 * [Baker] Lassen Sie das Baking führend Fenster geöffnet, bis alle Baking führend Prozesse effektiv abgebrochen werden.
-* [Baker] Funktion BindTexture migrieren
-* [Bäcker] [Einstellungen] Legen Sie den Standardwert für den &quot;Namensfiltermodus&quot; auf &quot;Übergeordneter Name (veraltet)&quot; fest.
-* [Bäcker] [QuickInfo] Fügen Sie der QuickInfo für den Parameter &quot;Entsprechen&quot; den Wert &quot;Name-Filtermodus&quot; hinzu.
-* [Engine] Upgrade der Substance-Engine auf Version 9.3.4
+* [Baker] BindTexture-Funktion migrieren
+* [Baker] [Einstellungen] Legen Sie den Standardwert für &quot;Name-Filtermethode&quot; auf &quot;Übergeordneter Name (veraltet)&quot; fest.
+* [Baker] [QuickInfo] Fügen Sie der QuickInfo für den Parameter &quot;Entsprechen&quot; den Wert &quot;Name Filtermethode&quot; hinzu.
+* [Engine] Upgrade des Substance-Engine auf Version 9.3.4
 
 **Fest:**
 
-* [3D-Ansicht] &quot;Ausgaben in 3D-Ansicht anzeigen&quot; überschreibt nicht die vorhandene Zuweisung in Diagrammen mit einzelner Ausgabe
+* [3D-Ansicht] &quot;Ausgaben in 3D-Ansicht anzeigen&quot; überschreibt nicht die bestehende Zuweisung auf Grafen mit Einzelausgabe
 * [3D-Ansicht] UVs können in einigen Fällen nicht angezeigt werden
-* [3D-Ansicht] Berechnete Tangenten erscheinen für USD defekt
+* [3D-Ansicht] Berechnete Tangenten werden für USD als fehlerhaft angezeigt
 * [3D-Ansicht] Absturz beim Öffnen des Renderer-Menüs
-* [Bäcker] Der Abstand kann nicht größer als 1 festgelegt werden, wenn &quot;Relativ zu Box&quot; deaktiviert ist.
-* [Bäcker] Die Fertigstellung des Farbbäckers dauert in bestimmten Fällen zu lange
-* [Bäcker] Farbe: Absturz beim Backen von UV-Inseln
-* [Bäcker] Die Bereiche der Abstands- und Radiusparameter sind zu eng, wenn der Wert absolut ist
-* [Bäcker] Fehler beim Backen von hoher fehlender Poly-Tangente und Bitangenten, die nicht benötigt werden
-* [Bäcker] Materialfarben in der Bäcker-Befehlszeile nicht korrekt
-* [Bäcker] Mehrere hohe Polygitter werden in einigen Situationen ignoriert
-* [Bäcker] Normal: Schwarze Ausgabe bei Verwendung von Anti-Aliasing und Diffusion (nur macOS)
-* [Bäcker] Die Offset-Map-Pfadprüfung meldet unerwartete Fehler bei der Verwendung von Bitmap-Paketressourcen
-* [Bäcker] Die QuickInfo für die Offsetzuordnung ist falsch
-* [Bäcker] Das Platzieren der Ressource in einem netzspezifischen Ordner funktioniert nicht
-* [Bäcker] Texturübertragung: Der Wert &quot;UV-Satz&quot; wird nicht wie beim erneuten Öffnen des Bakings wiederhergestellt
-* [Bäcker] Texturübertragung: Eine Graustufeneingabe führt nicht zu einer Graustufenausgabe
-* [Bäcker] Warnung für deaktivierten geerbten Bäcker wird nicht gelöscht, wenn die Texturquelle im Zielbaker geändert wird
-* [Bäcker] [UDIM] Offset-Map wird nur auf UDIM 1001 angewendet
-* [Graph] UDIM 1001 wird immer berechnet, unabhängig von der verwendeten UVTile.
+* [Baker] Der Abstand kann nicht größer als 1 sein, wenn &quot;Relativ zu Box&quot; deaktiviert ist
+* [Baker] In bestimmten Fällen dauert die Fertigstellung des Farb-Baker zu lange
+* [Baker] Farbe: Absturz beim Baking führ von UV-Inseln
+* [Baker] Die Bereiche der Abstands- und Radiusparameter sind zu eng, wenn der Wert absolut ist
+* [Baker] Fehler beim Baking von hoher fehlender Poly-Tangente und Bitangenten, die nicht erforderlich sind
+* [Baker] Material-Farben in Baker-Befehlszeile nicht korrekt
+* [Baker] Mehrere hohe Poly-Mesh werden in einigen Situationen ignoriert.
+* [Baker] Normal: Schwarze Ausgabe bei Verwendung von Anti-Aliasing und Diffusion (nur macOS)
+* [Baker] Die Offset-Map-Pfadprüfung meldet unerwartete Fehler bei der Verwendung von Bitmap-Paketressourcen
+* [Baker] Die QuickInfo für die Offsetzuordnung ist falsch
+* [Baker] Das Platzieren der Ressource in einem Ordner, der für einen bestimmten Mesh festgelegt ist, funktioniert nicht
+* [Baker] Textur: Der Wert &quot;UV-Satz&quot; wird nicht wie beim erneuten Öffnen des Bakings wiederhergestellt
+* [Baker] Textur: Eine Graustufeneingabe führt nicht zu einer Graustufenausgabe
+* [Baker] Warnung für deaktivierten geerbten Baker wird nicht gelöscht, wenn die Quelldatei der Textur im Ziel-Baker geändert wird
+* [Baker] [UDIM] Offset-Map wird nur auf UDIM 1001 angewendet
+* [Graf] UDIM 1001 wird immer berechnet, unabhängig von der verwendeten UVTile.
 
 ### 15.1.2
 
@@ -310,10 +327,10 @@ ht-degree: 0%
 
 **Fest:**
 
-* [Engine] Ebenen: Gleitkommawerte werden immer auf [0, 1] eingespannt
-* [Bäcker] Das Anpassen der Geometrie mit dem übergeordneten Namen (veraltet) funktioniert nicht für Subnetze
-* [Bäcker] Farbe: Änderungen an Materialfarben in der Benutzeroberfläche werden ignoriert
-* [3D-Ansicht]&#x200B;[Bäcker] Das Laden der OBJ-Datei dauert sehr lange
+* [Engine] Stufen: Fließkommawert werden immer auf [0, 1] eingespannt
+* [Baker] Das Anpassen der Geometrie an den übergeordneten Namen (veraltet) funktioniert nicht für Subnetze
+* [Baker] Farbe: Änderungen an Material-Farben in der Benutzeroberfläche werden ignoriert
+* [3D-Ansicht]&#x200B;[Baker] Das Laden OBJ Datei dauert sehr lange.
 
 ### 15.1.1
 
@@ -324,28 +341,28 @@ ht-degree: 0%
 * [Beispiele] Fügen Sie zwei Beispiele hinzu, um Abschnitte zu erstellen, die dem Painter-Menüband-Tool zugeführt werden
 * [Engine] Update auf Substance Engine 9.3.2
 * [Engine]&#x200B;[Metal] Verbessern der Leistung
-* [Engine] Bilineare Interpolation ganzzahliger Texturen wird jetzt mit erhöhter Präzision durchgeführt (CPU-Backend)
-* [Bäcker] Protokollieren Sie eine Warnung, wenn die Scheitelpunktfarbe in einem hohen Polygonnetz fehlt.
+* [Engine] Bilineare Interpolation von Ganzzahl-Texturen wird jetzt mit erhöhter Präzision ausgeführt (CPU-Backend)
+* [Baker] Protokollieren Sie eine Warnung, wenn die Farbe des Scheitelpunkts in High-Poly-Mesh fehlt
 * [Branding] Aktualisieren von Dateitypsymbolen
 * [NewGraph] Anwenden von Hover-Formatvorlagen auf das Symbol (i) in den Ansichtsmodi &quot;Liste&quot;, &quot;Pakete&quot; und &quot;Verzeichnisse&quot;
 
 **Fest:**
 
-* [3DView] UDIM-Meshes rendern keine einzelne Kachel mehr.
+* [3DView] UDIM-Mesh rendern keine einzelne Kachel mehr.
 * [3DView] Absturz, wenn kein renderDevice erkannt wird
 * [Branding] Beheben von Symbolen für .SBS-Dateien unter Linux
-* [Inhalt] RGB auf HSL-Funktion: Falsches Ergebnis für fast 0 Eingaben
-* [Graph] Graph-Symbol/Miniaturbildgenerator funktioniert nicht
-* [Graph] Node-Menü: gruppierte Elemente ohne Miniaturansicht ohne Einzug
-* [Engine]&#x200B;[Inhalt] Farbe für Maske v2: Artefakte an der SSE2-Engine bei Verwendung des Lab-Distanz-Farbraums
-* [Engine]&#x200B;[Inhalt] Farbe für Maske v2: Artefakte an arm64-GPU-Engines bei Verwendung des Lab-Distanz-Farbraums
-* [Engine]&#x200B;[Metal] Schwarze Strahlungsleistung für PBR-Rendering-Node
-* [Engine]&#x200B;[Mac] Falsches Ergebnis in einer Pixelprozessorfunktion unter Metal
+* [Inhalt] RGB auf HSL: Falsches Ergebnis für fast 0 Eingaben
+* [Graf] Graf-Symbol/Miniaturbildgenerator funktioniert nicht
+* [Graf] Knotenmenü: gruppierte Elemente ohne Miniaturansicht ohne Einzug
+* [Engine]&#x200B;[Inhalt] Farbe für Maske v2: Artefakte am SSE2-Engine bei Verwendung des Labor-Abstands-Farbraums
+* [Engine]&#x200B;[Inhalt] Farbe für Maske v2: Artefakte an arm64 GPU-Enginen bei Verwendung des Labor-Abstands-Farbraums
+* [Engine]&#x200B;[Metal] Schwarzstrahlungsausgabe für PBR-Rendering-Node
+* [Engine]&#x200B;[Mac] Falsches Ergebnis in einer Pixelprozessor-Funktion auf Metal
 * [Engine]&#x200B;[Mac] Verbessern der Genauigkeit einiger Anweisungen, die in Pixelprozessoren auf Apple Silicon M1/M2-GPUs verwendet werden
-* [Engine] Größenänderung von Eingabebildern (oder eingebetteten Ressourcen) führt nicht mehr zu Randartefakten (CPU-Backend)
+* [Engine] Größenänderung von Eingabebildern (oder eingebetteten Ressourcen) führt nicht mehr zu Randartefakten (CPU-Backend).
 * [Engine] Der Pegelfilter klammert seine Gleitkomma-Eingangswerte nicht mehr ein, wenn 8I/16I-Texturen ausgegeben werden (CPU-Back-End)
-* [Engine] Es wurde ein FxMaps-Fehler behoben, durch den Graustufen-Eingabebilder, die von FxMaps-Knoten verwendet wurden, falsch gesampelt wurden (CPU-Backend).
-* [Engine] Einige Artefakte in der 1-Seed-Version des Distanzfilters (GPU-Backends) wurden behoben.
+* [Engine] Es wurde ein FxMaps-Fehler behoben, durch den von FxMaps-Nodes verbrauchte Graustufen-Eingabebild falsch gesampelt wurden (CPU-Backend).
+* [Engine] Einige Artefakte in der 1-Seed-Version des Distanzfilters (GPU-Backends) wurden behoben
 
 ### 15.1.0
 
@@ -353,86 +370,86 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [NewGraph] Überarbeitung des neuen Diagrammfensters
-* [NewGraph] Hinzufügen von Materialproben und erweiterten Proben
-* [NewGraph] Fügen Sie ein neues Attribut für das Diagramm für die Vorlagendaten hinzu (Kategorie und Untertitel).
+* [NewGraph] Überarbeitung des neuen Graf-Fensters
+* [NewGraph] Beispiele für Materialien und erweiterte Beispiele hinzufügen
+* [NewGraph] Hinzufügen eines neuen Attributs für Graf für die Vorlagendaten (Kategorie und Untertitel)
 * [NewGraph] Option &quot;Ausgabeformat entfernen&quot;
 * [Inhalt] Hashfunktionen hinzufügen
 * [Content] Hinzufügen von Tonabbildungen zu functions.sbs
 * [Inhalt] Anisotropes Rauschen v2: Standardausgabeformat hinzufügen, Störung hinzufügen
 * [Inhalt] Anwenden von Groß- und Kleinschreibung auf Knoten- und Parameterbeschriftungen
-* [Inhalt] BnW-Punkte 1 v2: Standardausgabeformat hinzufügen, keine Kachelunterstützung
-* [Inhalt] BnW-Punkte 2 v2: Standardausgabeformat hinzufügen, keine Kachelunterstützung
-* [Inhalt] BnW-Punkte 3 v2: Standardausgabeformat hinzufügen, keine Kachelunterstützung
-* [Inhalt] Zellen 1,2,3,4 v2: Hinzufügen von Standardausgabeformaten, keine Kachelunterstützung, Unordnungsoptionen
-* [Inhalt] Clouds 1 v2: Standardausgabeformat hinzufügen, keine Kachelunterstützung
-* [Inhalt] Clouds 2 v2: Standardausgabeformat hinzufügen, keine Kachelunterstützung
-* [Inhalt] Clouds 3 v2: Standardausgabeformat hinzufügen, keine Kachelunterstützung
+* [Inhalt] BnW-Punkte 1 v2: Hinzufügen des Standardausgabeformats, keine Unterstützung für Kachelungen
+* [Inhalt] BnW-Punkte 2 v2: Hinzufügen des Standardausgabeformats, keine Unterstützung für Kachelungen
+* [Inhalt] BnW-Punkte 3 v2: Hinzufügen des Standardausgabeformats, keine Unterstützung für Kachelungen
+* [Inhalt] Zellen 1,2,3,4 v2: Hinzufügen von Standardausgabeformaten, keine Unterstützung für Kachelungen, Unordnungsoptionen
+* [Inhalt] Clouds 1 v2: Hinzufügen des Standardausgabeformats, keine Unterstützung für Kachelungen
+* [Inhalt] Clouds 2 v2: Hinzufügen des Standardausgabeformats, keine Unterstützung für Kachelungen
+* [Inhalt] Clouds 3 v2: Hinzufügen des Standardausgabeformats, keine Unterstützung für Kachelungen
 * [Inhalt] Farbe für Maske v2
-* [Inhalt] Richtungsrauschen 1 v2: Standardausgabeformat hinzufügen, keine Kachelunterstützung
-* [Inhalt] Richtungsrauschen 2 v2: Standardausgabeformat hinzufügen, keine Kachelunterstützung
-* [Inhalt] Richtungsrauschen 3 v2: Standardausgabeformat hinzufügen, keine Kachelunterstützung
-* [Inhalt] Richtungsrauschen 4 v2: Standardausgabeformat hinzufügen, keine Kachelunterstützung
-* [Inhalt] Richtungsabhängige Kratzer v2: Standardausgabeformat hinzufügen, keine Kachelunterstützung
-* [Inhalt] Dirt 1 v2: Standardausgabeformat hinzufügen, keine Kachelunterstützung
-* [Inhalt] Dirt 2 v2: Standardausgabeformat hinzufügen, keine Kachelunterstützung
-* [Inhalt] Dirt 3 v2: Standardausgabeformat hinzufügen, keine Kachelunterstützung
-* [Inhalt] Dirt 4 v2: Standardausgabeformat hinzufügen, keine Kachelunterstützung
-* [Inhalt] Dirt 5 v2: Standardausgabeformat hinzufügen, keine Kachelunterstützung
+* [Inhalt] Richtungsrauschen 1 v2: Hinzufügen des Standardausgabeformats, keine Unterstützung für Kachelungen
+* [Inhalt] Richtungsrauschen 2 v2: Hinzufügen des Standardausgabeformats, keine Unterstützung für Kachelungen
+* [Inhalt] Richtungsrauschen 3 v2: Hinzufügen des Standardausgabeformats, keine Unterstützung für Kachelungen
+* [Inhalt] Richtungsrauschen 4 v2: Hinzufügen des Standardausgabeformats, keine Unterstützung für Kachelungen
+* [Inhalt] Richtungsabhängige Kratzer v2: Hinzufügen des Standardausgabeformats, keine Unterstützung für Kachelungen
+* [Inhalt] Dirt 1 v2: Hinzufügen des Standardausgabeformats, keine Unterstützung für Kachelungen
+* [Inhalt] Dirt 2 v2: Hinzufügen des Standardausgabeformats, keine Unterstützung für Kachelungen
+* [Inhalt] Dirt 3 v2: Hinzufügen des Standardausgabeformats, keine Unterstützung für Kachelungen
+* [Inhalt] Dirt 4 v2: Hinzufügen des Standardausgabeformats, keine Unterstützung für Kachelungen
+* [Inhalt] Dirt 5 v2: Hinzufügen des Standardausgabeformats, keine Unterstützung für Kachelungen
 * [Inhalt] Dirt-Verlauf v2: Standardausgabeformat hinzufügen, neue Unordnungsoptionen
-* [Content] Fraktalsumme Base v2: Hinzufügen von Standardausgabeformat, Störung, keine Kachelunterstützung
+* [Content] Fraktalsumme Base v2: Standardausgabeformat hinzufügen, Störung, keine Unterstützung für Kachelung
 * [Inhalt] Fraktalsumme 1,2,3,4 v2: Standardausgabeformat hinzufügen
-* [Inhalt] Gaußsches Rauschen v2: Standardausgabeformat hinzufügen, keine Kachelunterstützung
-* [Inhalt] Gaußsche Flecken 1&amp;2 v2: Standardausgabeformat hinzufügen, keine Kachelunterstützung
-* [Inhalt] Messy Fasern 1,2,3 v2: Hinzufügen von Standardausgabeformaten, keine Kachelunterstützung, Unordnungsoptionen
-* [Inhalt] Feuchtigkeitsrauschen v2: Standardausgabeformat hinzufügen, keine Kachelunterstützung
-* [Inhalt] Neuer Knoten &quot;Feuchtigkeitsrauschen 2&quot;
-* [Inhalt] Geräusche: Aktualisieren, um das Standardausgabeformat hinzuzufügen
-* [Inhalt] Perlin-Rauschen v2: Standardausgabeformat hinzufügen, keine Kachelunterstützung
-* [Inhalt] Formzuordnung: Filtermodus hinzufügen
-* [Inhalt] UV-Mapper: Filtermodus hinzufügen
+* [Inhalt] Gaußscher Rauschen v2: Hinzufügen des Standardausgabeformats, keine Unterstützung für Kachelungen
+* [Inhalt] Gaußsche Flecken 1&amp;2 v2: Hinzufügen des Standardausgabeformats, keine Unterstützung für Kachelungen
+* [Inhalt] Messy Fasern 1,2,3 v2: Hinzufügen von Standardausgabeformaten, keine Unterstützung für Kachelungen, Unordnungsoptionen
+* [Inhalt] Feuchtigkeits-Rauschen v2: Hinzufügen des Standardausgabeformats, keine Unterstützung für Kachelungen
+* [Inhalt] Neuer Knoten &quot;Moisture Rauschen 2&quot;
+* [Inhalt] Rauschen: Aktualisieren, um das Standardausgabeformat hinzuzufügen
+* [Inhalt] Perlin Rauschen v2: Hinzufügen des Standardausgabeformats, keine Unterstützung für Kachelungen
+* [Inhalt] Formzuordnung: Filtermethode hinzufügen
+* [Content] UV-Mapper: Filtermethode hinzufügen
 * [Inhalt] Wellenform 1 v2: Verwenden des Standardausgabeformats + neue Optionen
-* [Inhalt] Weißes Rauschen v2: Standardausgabeformat verwenden, Verteilungsoptionen hinzufügen
-* [Bäcker] Zeigt nur die UVs aus dem ausgewählten Gitter an.
-* [Bäcker] Fügen Sie eine Option hinzu, um die Methode zum Abgleichen der Geometrie nach Namen auszuwählen.
-* [Bäcker] Wählen Sie den nächsten Bäcker aus, wenn ein Bäcker gelöscht wird
-* [Bäcker] UDIM: eine Liste der UV-Kacheln für Backvorgänge definieren
-* [Bäcker] Update bake sdk auf 3.15.4
-* [3D-Ansicht/SceneBrowser] Vermeiden Sie die Auswahl einer UsdPrimitive, wenn Sie mit der rechten Maustaste darauf klicken.
-* [ColorManagement] Unterstützung ACES 2.0
-* [Compositing Graph] Ermöglichen das Festlegen eines Ausgabeknotens als &quot;Standardausgabe&quot;
+* [Inhalt] White Rauschen v2: Standardausgabeformat verwenden, Verteilungsoptionen hinzufügen
+* [Baker] zeigt nur die UVs des ausgewählten Meshs an.
+* [Baker] Fügen Sie eine Option hinzu, um die Methode zum Abgleichen der Geometrie nach dem Namen auszuwählen.
+* [Baker] Wählen Sie beim Löschen eines Bakers den nächstgelegenen Baker aus.
+* [Baker] UDIM: eine Liste der zu Baking führend UV-Kacheln definieren
+* [Baker] Baking SDK auf 3.15.4 aktualisieren
+* [3D-Ansicht/SceneBrowser] Vermeiden Sie die Auswahl einer UsdPrimitive, wenn Sie einen Rechtsklick darauf machen
+* [ColorManagement] Support ACE 2.0
+* [Compositing-Graf] Erlauben Sie, einen Ausgabeknoten als &quot;Standardausgabe&quot; festzulegen.
 * [Cooker] Warnung bei nicht verbundenen Eingängen von Funktionsinstanzen entfernen¬†
 * [Functions] Add isDefined-Operator
-* [Graph] Gruppieren Sie die Elemente nach &#39;group&#39;-Attribut im Knotenmenü.
-* [Graph] Verbessern der Wiedergabe von Miniaturen
+* [Graf] Gruppieren Sie die Elemente nach dem Attribut &quot;Gruppe&quot; im Knotenmenü.
+* [Graf] Verbessern der Wiedergabe von Miniaturen
 
 **Fest:**
 
-* [3D-Ansicht] L16-Graustufenstruktur wird mit einem roten Farbton angezeigt, wenn sie an die Umgebung oder die baseColor angeschlossen ist
-* [3D-Ansicht] Wenn Sie die Materialbindung einer Szene ohne Material ändern, wird ein neues &quot;Standardmaterial&quot; erstellt
-* [3D-Ansicht] Berechnete Normale sind für bestimmte OBJ-Gitter nicht korrekt
+* [3D-Ansicht] L16 Graustufen-Textur wird mit einem roten Farbton angezeigt, wenn sie an die Umgebung oder die baseColor angeschlossen ist
+* [3D-Ansicht] Das Ändern der Material-Bindung einer Szene ohne Material erstellt ein neues &quot;Standard&quot;-Material.
+* [3D-Ansicht] Berechnete Normale sind für bestimmte OBJ Mesh nicht korrekt
 * [3D-Ansicht] Benutzerdefinierte Umgebung von SBSSCN ist beim Laden in Pathtracer nicht sichtbar
 * [3D-Ansicht] Fehler in der Konsole beim Drehen einer deaktivierten Umgebung
 * [3D-Ansicht] Specular level wird nicht korrekt angewendet
-* [3D-Ansicht] Specular edge color funktioniert nicht, wenn Eclair rasterer verwendet wird
-* [3D-Ansicht] Vom Benutzer hinzugefügtes Material wird nicht auf Standardszenen angewendet
-* [3D-Ansicht]&#x200B;[Bäcker] Die Materialfarbe ist zu dunkel, wenn sie einmal überschrieben wurde oder wenn ein &quot;Color&quot;-Bäcker verwendet wird
-* [3D-Ansicht]&#x200B;[Bäcker] Keine Materialfarbe aus FBX-Datei
-* [Bäcker] Materialfarben in FBX-Dateien werden nicht korrekt erkannt
-* [Baker] Die Option &quot;recompute\_tangents&quot; ist in Exporten von JSON-Vorgaben immer &quot;false&quot;.
-* [Bäcker] CLI: Absturz beim aufeinander folgenden Ausführen desselben Bakers über die JSON-Datei
-* [Bäcker] Das Aktualisieren des Parameters &quot;Farbgenerator&quot; funktioniert nicht für &quot;Graustufen&quot;
+* [3D-Ansicht] Specular edge color funktioniert bei Verwendung von Eclair rasterizer nicht
+* [3D-Ansicht] Vom Benutzer hinzugefügtes Material wird nicht auf Standard-Szenen angewendet
+* [3D-Ansicht]&#x200B;[Baker] Die Farbe des Materials ist zu dunkel, wenn sie einmal überschrieben wurde oder wenn ein &quot;Color&quot;-Baker verwendet wird
+* [3D-Ansicht]&#x200B;[Baker] Keine Material-Farbe aus FBX Datei
+* [Baker] Material-Farben in FBX werden nicht korrekt erkannt
+* [Baker] Die Option &quot;recompute\_Tangenten&quot; ist in Exporten von JSON-Vorgaben immer &quot;false&quot;.
+* [Baker] CLI: Absturz, wenn derselbe Baker nacheinander durch die JSON-Datei ausgeführt wird
+* [Baker] Das Aktualisieren des Parameters &quot;Farbgenerator&quot; funktioniert nicht für &quot;Graustufen&quot;
 * [Inhalt] Zu Pfaden maskieren: Fehler bei nicht quadratischen Verhältnissen
 * [Inhalt] PBR-Rendering-/Symbolrenderer: Falsche Specular-Lappenfunktion
-* [Inhalt] Pfade zum Spline: Legen Sie die Ausgabegröße standardmäßig auf &quot;Relativ zum übergeordneten Element&quot; fest.
-* [Inhalt] Punktliste: Punkte sind nicht in der richtigen Reihenfolge, wenn die Datentextur nicht quadratisch ist
+* [Inhalt] Pfade zum Spline: Legen Sie die &quot;Ausgabegröße&quot; standardmäßig auf &quot;Relativ zum übergeordneten Element&quot; fest.
+* [Inhalt] Punktliste: Punkte sind nicht in der richtigen Reihenfolge, wenn die Textur der Daten nicht quadratisch ist
 * [Inhalt] Spline-Mapper: 1px Leitungsstörung in zufälligen Fällen
-* [Inhalt] Spline-Mapper: gedehnte UVs in einigen Fällen, wenn die Thickness 0 beträgt
-* [Graph] Absturz beim Löschen der Ausgabe eines Funktions-Untergraphen
-* [Graph] Der Farbtyp des Eingabeknotens kann in schreibgeschützten Paketen geändert werden
-* [Graph] Primäre Eingabe kann in schreibgeschützten Paketen geändert werden
+* [Inhalt] Spline-Mapper: gedehnt UVs in einigen Fällen, wenn die Thickness 0 ist
+* [Graf] Absturz beim Löschen der Ausgabe eines Funktions-Untergraphen
+* [Graf] Der Farbtyp des Eingabeknotens kann in schreibgeschützten Paketen geändert werden.
+* [Graf] Die primäre Eingabe kann in schreibgeschützten Paketen geändert werden.
 * [Eigenschaften] Die Farbe des Farbvorschau-Widgets stimmt nicht mit dem sRGB-Schaltflächenstatus überein
-* [Szene] Kann keine OBJ-Datei laden, die größer als 2 GB ist
+* [Szene] Eine OBJ Datei, die größer als 2 GB ist, kann nicht geladen werden.
 * [UI] Die Dockingstatus von Console und Dependency Manager werden nach einem Neustart nicht wiederhergestellt
 
 ### 15.0.3
@@ -442,7 +459,7 @@ ht-degree: 0%
 **Fest:**
 
 * [Inhalt] Die Vorschauausgabe von Spline-Werkzeuge-Knoten wird standardmäßig nicht angezeigt
-* [Graph] Absturz beim Löschen der Ausgabe eines Funktions-Untergraphen
+* [Graf] Absturz beim Löschen der Ausgabe eines Funktions-Untergraphen
 
 ### 15.0.2
 
@@ -450,40 +467,40 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [3D-Ansicht/OpenGL] Entfernen Sie den Drahtgitter-Effekt, der auf das ausgewählte Mesh angewendet wurde.
-* [3D-Ansicht] Verwenden der Taste &quot;F&quot;, um sich auf ein ausgewähltes Gitter zu konzentrieren, wenn der Szenenbrowser den Fokus hat
-* [3D-Ansicht] Rendern wird beim Ändern der Normalen-Map-Format nicht aktualisiert
+* [3D-Ansicht/OpenGL] Entfernen Sie den auf den ausgewählten Mesh angewendeten Drahtgitter-Effekt
+* [3D-Ansicht] Erlaubt die Verwendung der Taste &quot;F&quot;, um sich auf einen markierten Mesh zu konzentrieren, wenn der Fokus auf den Szene-Browser gesetzt wird.
+* [3D-Ansicht] Rendern wird beim Ändern des Normalen-Map-Format nicht aktualisiert
 * [BakersCLI] Hinzufügen einer Option zum Steuern der Größe des Oberflächencaches
 * [BakersCLI] Umbenennen der Option &quot;use\_cache&quot; in &quot;keep\_meshes\_in\_cache&quot;
 * [UI] Symbol &quot;Aktualisieren&quot; für 3D-Szenen in der Bibliothek
 
 **Fest:**
 
-* [3D-Ansicht] Absturz beim Zuweisen eines Materialknotens zu einer Multimaterialszene
-* [3D-Ansicht] Graph, der aus Textureingaben erstellt wurde, wird unabhängig von Voreinstellungen immer in der 3D-Ansicht angezeigt
-* [3D-Ansicht] Falsche Verwendung bei einer Badge-QuickInfo &quot;In 3D-Ansicht angezeigt&quot; in einem bestimmten Fall
-* [3D-Ansicht] Viele USD-Fehler beim Überschreiben bestimmter Szenen
-* [3D-Ansicht] Schatten-Artefakte bei Verwendung von Versatz auf einer flachen Szene im Raster
+* [3D-Ansicht] Absturz beim Zuweisen eines Material-Knotens zu einer Multi-Material-Szene
+* [3D-Ansicht] Graf, der aus Textur-Eingaben erstellt wurde, wird immer in 3D-Ansicht angezeigt, unabhängig von den Voreinstellungen.
+* [3D-Ansicht] Falsche Verwendung bei einer QuickInfo für das Kennzeichen &quot;In 3D-Ansicht angezeigt&quot; in einem bestimmten Fall
+* [3D-Ansicht] Viele USD beim Überschreiben bestimmter Szenen
+* [3D-Ansicht] Schatten-Artefakte bei Verwendung von Versatz auf einer ebenen Szene im Raster
 * [3D-Ansicht] Einige bestimmte Szenen sind bei Verwendung des OpenGL-Renderers nicht sichtbar
-* [3D-Ansicht] Das Dialogfeld, das zum &quot;Auswählen des Ziel-Substance-Grafen&quot; verwendet wird, enthält immer das Symbol &quot;Ausstehend&quot;.
-* [3D-Ansicht] Das Kontextmenü des Ansichtsports wird für bestimmte Szenen nicht angezeigt
-* [3D-Ansicht] Kennzeichen &quot;In 3D-Ansicht angezeigt&quot; werden nicht gelöscht, wenn in einem bestimmten Fall die Szene gewechselt wird
-* [3D-Ansicht] Ausgewaschene Farbe in 3D-Ansicht bei Verwendung des Adobe ACE-Farbmanagements
+* [3D-Ansichten] Das Dialogfeld, das zum &quot;Auswählen des Ziel-Substance-Grafen&quot; verwendet wird, hat immer das Symbol &quot;Ausstehender Graf&quot;
+* [3D-Ansicht] Das Kontextmenü des Viewports wird für bestimmte Szenen nicht angezeigt.
+* [3D-Ansicht] Kennzeichen &quot;In 3D-Ansicht angezeigt&quot; werden beim Wechseln von Szenen in einem bestimmten Fall nicht gelöscht.
+* [3D-Ansicht] Ausgewaschene Farbe in der 3D-Ansicht bei Verwendung von Adobe ACE Farbmanagement
 * [3D-Ansicht]&#x200B;[Linux] Mehrere Szenen werden im OpenGL-Renderer schwarz dargestellt
-* [3D-Ansicht]&#x200B;[Szenenbrowser] Pfeiltasten verschieben die Auswahl an der Wurzel
+* [3D-Ansicht]&#x200B;[Auswahlbrowser] Pfeiltasten verschieben die Szene an der Wurzel
 * [BakerCLI] Einige Parameter können nicht überschrieben werden.
-* [Bäcker] Artefakte in Erweiterung bei Verwendung von normalen Bäckern mit Antialiasing
-* [Bäcker] Der Backvorgang wurde in CLI abrupt gestoppt, während eine hohe Menge an UDIMs bei 4K gebacken wurde
-* [Bäcker] Absturz beim Verschieben des Bäckers in der Bäckerliste in einem bestimmten Fall
-* [Bäcker] Die Formatauswahl wechselt von .surface zu .dds
-* [Bäcker] Einfrieren beim Backen einer großen Menge von UDIMs bei 4K
-* [Bäcker]&#x200B;[macOS] Absturz beim Backen der Texturübertragung mit Antialisierung
-* [Inhalt] Punktliste: Punkte sind nicht in der richtigen Reihenfolge, wenn die Datentextur nicht quadratisch ist
+* [Baker] Artefakte in der Ausdehnung bei Verwendung von normalen Bakern mit Antialiasing
+* [Baker] Baking-Prozess wurde in CLI abrupt gestoppt, während eine große Anzahl von UDIM in 4K Baking geführt wurde
+* [Baker] Absturz beim Verschieben des Bakers in der Liste der Baker in einem bestimmten Fall
+* [Baker] Formatauswahl wechselt von .surface zu .dds
+* [Baker] Einfrieren beim Baking führ einer großen Anzahl von UDIM bei 4K
+* [Baker]&#x200B;[macOS] Absturz beim Baking der Textur-Übertragung mit Antialiasing
+* [Inhalt] Punktliste: Punkte sind nicht in der richtigen Reihenfolge, wenn die Textur der Daten nicht quadratisch ist
 * [Inhalt] Farbpalette anzeigen: Interne Knoten werden mit zu hoher Auflösung berechnet
-* [Daten] Absturz beim Umbenennen der Ausgabe, um die Ghost-Ausgabe in der Instanz zu korrigieren
-* [Motor] Abstand: Luminanz der Eingabemaske wurde geändert
-* [FxMap] $tiling hat keine Wirkung, wenn sich die FX-Map in einem Untergraph befindet
-* [Diagramm] Unscharfe Suche gibt irrelevante Ergebnisse zurück
+* [Daten] Absturz beim Umbenennen der Ausgabe, um die Phantom-Ausgabe in der Instanz zu korrigieren
+* [Engine] Entfernung: Die Luminanz der Eingabemaske wurde geändert
+* [FxMap] $Kachelung hat keine Auswirkungen, wenn sich das FX-Map in einem Untergraph befindet
+* [Graf] Ungenaue Suche liefert irrelevante Ergebnisse
 * [Python-Editor] Geladene Skripte werden nicht sitzungsübergreifend erneut geöffnet
 
 ### 15.0.1
@@ -492,33 +509,33 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [3D-Ansicht] Ermöglichen Sie die Texturierung von USD-Meshes, die displayColor und keine Materialbindungen aufweisen.
-* [3D-Ansicht] Erstellen Sie nicht automatisch ein Material pro Gitter, das keine Materialbindung hat
+* [3D-Ansicht] Erlaubt die Textur USD Meshs, die displayColor und keine Material-Bindungen aufweisen.
+* [3D-Ansicht] Erstellen Sie nicht automatisch ein Material pro Mesh ohne Material-Bindung.
 * [3D-Ansicht] Umbenennen von &quot;Konvergenz-Pixelproben&quot; in &quot;Samples&quot;
-* [3D-Ansicht] Benennen Sie den Parameter &quot;UV-Skalierung aktiviert&quot; in &quot;Physische Größe aus Diagramm aktivieren&quot; um.
-* [3D-Ansicht] Skalieren Sie die Intensität des Versatzes entsprechend dem Parameter &quot;Kacheln&quot;
-* [3D-Ansicht/OpenGL/Iray] Hinzufügen einer Nachricht im Viewport, wenn die Standardumgebung deaktiviert ist
-* [Bäcker] Verwenden Sie Symbole für Schaltflächen, um Linien in der Bäcker-Renderliste neu anzuordnen
+* [3D-Ansicht] Benennen Sie den Parameter &quot;UV-Skalierung aktiviert&quot; in &quot;Physische Größe vom Graf aktivieren&quot; um.
+* [3D-Ansicht] Verkleinern Sie die Intensität des Versatzes entsprechend dem Parameter &quot;Kachelung&quot;.
+* [3D-Ansicht/OpenGL/Iray] Hinzufügen einer Meldung im Viewport, wenn die Standardumgebung deaktiviert ist
+* [Baker] Verwenden Sie Symbole für Schaltflächen, um Zeilen in der Renderliste &quot;Baker&quot; neu anzuordnen
 * [Voreinstellungen] Fügen Sie eine Option hinzu, um den standardmäßigen 3D-Ansicht-Renderer zu definieren
 * [Eigenschaften] Verwenden Sie für &quot;Auf Standard zurücksetzen&quot; die erstellten Standardwerte, falls vorhanden.
 
 **Fest:**
 
 * [3D-Ansicht] Artefakte an einer bestimmten Szene, wenn sie mit OpenGL gerendert werden
-* [3D-Ansicht] Die Standardumgebung ist nicht deaktiviert, wenn eine USD-3D-Szenenressource geladen wird, die eine enthält.
-* [3D-Ansicht] Die Anzeige des Kontextmenüs des Ansichtsports dauert in großen Szenen mehrere Sekunden
-* [3D-Ansicht] &quot;Emissionsintensität&quot; ist 0, wenn nicht in USD enthaltene Materialien überschrieben werden, nur mit &quot;Emissionsfarbe&quot;.
-* [3D-Ansicht] Rote und blaue Kanäle werden durch eine 8-Bit-Textur ersetzt, die als Umgebung verwendet wird
-* [3D-Ansicht] RMB-Drag&amp;Drop funktioniert aufgrund des Registers mit Rechtsklick nicht konsistent
-* [3D-Ansicht] &quot;Nur anzeigen&quot; für Untermenge blendet das übergeordnete Gitter aus
-* [3D-Ansicht] Die aus einer Datei geladenen Standardszenen werden mit einer falschen Grundfarbe angezeigt
+* [3D-Ansicht] Die Standardumgebung ist nicht deaktiviert, wenn eine USD 3D-Szene-Ressource geladen wird, die eine enthält.
+* [3D-Ansicht] Das Anzeigen des Kontextmenüs des Viewports dauert in großen Szenen mehrere Sekunden
+* [3D-Ansicht] &quot;Emissive-Intensität&quot; ist 0, wenn nicht USD Material nur mit &quot;Emissive-Farbe&quot; überschrieben werden
+* [3D-Ansicht] Rot- und Blaukanäle werden in einer 8-Bit-Textur ausgetauscht, die als Umgebung verwendet wird
+* [3D-Ansicht] RMB-Drag&amp;Drop funktioniert nicht konsistent aufgrund von Rechtsklick-Register
+* [3D-Ansicht] &quot;Nur anzeigen&quot; für Untermenge blendet den übergeordneten Mesh aus
+* [3D-Ansicht] Die Standarddateien, die aus einer Szene geladen werden, werden mit einer falschen Grundfarbe angezeigt
 * [3D-Ansicht] Die Eigenschaft &quot;UV-Skalierung&quot; wird zurückgesetzt, wenn von OpenGL zu einem anderen Renderer und zurück gewechselt wird
-* [3D-Ansicht]&#x200B;[Iran] Renderings sind oft verschwommen und pixelig
-* [Bäcker] Artefakte bei Verwendung der Diffusion auf einer AMD-GPU
-* [Bäcker] Das Backen schlägt mit einigen Szenen für andere UV-Sätze als 0 fehl
-* [Bäcker] &#39;Transferierte Textur&#39;: Die Liste &quot;UV-Satz&quot; berücksichtigt nicht die Option &quot;Niedrig-Hoch-Poly verwenden&quot;
-* [Bäcker] Die Auswahl der UV-Kacheln wird immer auf &quot;Alle&quot; zurückgesetzt
-* [Graph] Absturz beim Löschen eines Knotens im Kontext
+* [3D-Ansicht]&#x200B;[Iray] Renderings sind oft verschwommen und verpixelt
+* [Baker] Artefakte bei Verwendung von Diffusion auf einer AMD-GPU
+* [Baker] Baking schlägt mit einigen Szenen für andere UV-Satz als 0 fehl
+* [Baker] &#39;Übertragene Textur&#39;: Die Liste &quot;UV-Satz&quot; berücksichtigt nicht die Option &quot;Niedrig-Hoch-Poly verwenden&quot;.
+* [Baker] Die Auswahl der UV-Kacheln wird immer auf &quot;Alle&quot; zurückgesetzt
+* [Graf] Absturz beim Löschen eines Knotens im Kontext
 * [Mac OS]&#x200B;[3D-Ansicht] Falsche Renderauflösung auf Mac-Displays
 * [Parameter] Geänderte Parameter werden bei der ersten Anzeige nicht stilisiert
 * [UX] Deaktivierte Elemente im Dropdown-Menü sind nicht sichtbar
@@ -531,102 +548,102 @@ ht-degree: 0%
 
 * [3D-Ansicht] Brandneuer Renderer mit Raster- und Pathtracer-Modi
 * [3D-Ansicht] Hinzufügen eines Auswahlwerkzeugs, um ein Objekt in der 3D-Szene auszuwählen
-* [3D-Ansicht] Fügen Sie eine neue &quot;Szene mit Ebenen exportieren...&quot; hinzu. Aktion im Menü &quot;Szene&quot;
+* [3D-Ansicht] Neue Option &quot;Szene mit Ebenen exportieren...&quot; hinzufügen im Menü &quot;Szene&quot;
 * [3D-Ansicht] Hinzufügen neuer Symbolleistenschaltflächen
-* [3D-Ansicht] Fügen Sie die Möglichkeit hinzu, zwischen mehreren Kameras in einer USD-Szene zu wechseln.
-* [3D-Ansicht] Konzentrieren Sie sich auf das ausgewählte Objekt, wenn Sie im Darstellungsfenster &quot;F&quot; drücken.
-* [3D-Ansicht] Generieren eines Substance-Compositing-Diagramms aus einem vorhandenen Material zulassen
-* [3D-Ansicht] Erlaubt das Senden einer SBS-Kompositionskurve in der 3D-Ansicht und das Zuweisen ihrer eindeutigen Ausgabe zur Verwendung in der Umgebung/im Panorama.
-* [3D-Ansicht] Löschen Sie die aktuelle Auswahl, indem Sie die Esc-Taste drücken.
-* [3D-Ansicht] Eine importierte 3D-Szene mit Texturen anzeigen
-* [3D-Ansicht] Unterscheiden Sie zwischen X- und Y-Texturwiederholungssteuerungen
+* [3D-Ansicht] Fügen Sie die Möglichkeit hinzu, zwischen mehreren Kameras in einer USD Szene zu wechseln.
+* [3D-Ansicht] Fokussierung auf das ausgewählte Objekt zulassen, wenn F im Viewport gedrückt wird
+* [3D-Ansicht] Generieren eines Substance-Compositing-Grafen aus einem bestehenden Material zulassen
+* [3D-Ansicht] Erlaubt das Senden eines SBS Comp-Grafen in der 3D-Ansicht und weist seine eindeutige Ausgabe der Umgebung/Panorama-Nutzung zu.
+* [3D-Ansicht] Löschen der aktuellen Auswahl durch Drücken der Escape-Taste
+* [3D-Ansicht] Anzeigen importierter 3D-Szenen mit Texturen
+* [3D-Ansicht] X- und Y-Texturen-Wiederholungssteuerungen unterscheiden
 * [3D-Ansicht] Aktivieren/Deaktivieren von Schatten
-* [3D-Ansicht] Grundebene aktivieren/deaktivieren
-* [3D-Ansicht] Fügen Sie im Menü &quot;Materialien&quot; die Option &quot;Entfernen&quot; nur für das Material hinzu, das manuell hinzugefügt wurde und nicht verwendet wird.
+* [3D-Ansicht] Boden-Ebene aktivieren/deaktivieren
+* [3D-Ansichten] Fügen Sie im Menü &quot;Materials&quot; die Option &quot;Entfernen&quot; nur für die Materials hinzu, die manuell hinzugefügt wurden und nicht verwendet werden.
 * [3D-Ansicht] Entfernen Sie im Menü &quot;Materialien&quot; die Aktion &quot;Alle entfernen&quot;.
 * [3D-Ansicht] Macht exportierte USDZ-Dateien eigenständig
-* [3D-Ansicht] Legen Sie die Eigenschaften des Renderers fest, wenn der Renderermodus gewechselt wird.
-* [3D-Ansicht] Beibehalten der vorhandenen Materialeingaben beim Überschreiben eines Materials
-* [3D-Ansicht] Neuanordnen von Kameraeigenschaften
+* [3D-Ansicht] Die Renderereigenschaften dauerhaft festlegen, wenn der Renderermodus gewechselt wird.
+* [3D-Ansicht] Beibehalten der bestehenden Material-Eingaben beim Überschreiben eines Materials
+* [3D-Ansicht] Neuanordnen von Eigenschaften der Kamera
 * [3D-Ansicht] Aktionen entfernen &quot;Kamera/Screenshot speichern...&quot; und &quot;Kamera/Screenshot in Zwischenablage kopieren&quot;
 * [3D-Ansicht] Menüaktion &quot;Material/Alle neu erstellen&quot; entfernen
-* [3D-Ansicht] Entfernen Sie das Präfix &quot;Standard&quot; der Beschriftung der Standardkamera.
-* [3D-Ansicht] Legen Sie die Menüaktion &quot;Auf Standardwert zurücksetzen&quot; als letzte im Hamburger-Menü der Materialeingabeeigenschaft fest.
-* [3D-Ansicht] Korrekturen an Tastaturbefehlen
-* [3D-Ansicht] Unterstützung von Schatten und Lichtdurchlässigkeit im Echtzeitmodus
-* [3D-Ansicht] Unterstützung von MaterialX-Shadern aus einer importierten USD-Szene
-* [3D-Ansicht / OpenGL] Benennen Sie den Parameter &quot;UV-Skalierung aktiviert&quot; in &quot;Physische Größe aus Diagramm aktivieren&quot; um.
+* [3D-Ansicht] Entfernen Sie das Präfix &quot;Standard&quot; der Beschriftung der standardmäßigen Kamera.
+* [3D-Ansicht] Legen Sie die Menüaktion &quot;Auf Standardwert zurücksetzen&quot; als letzte in der Material-Eingabeeigenschaft Hamburger-Menü
+* [3D-Ansicht] Tastaturbefehle
+* [3D-Ansicht] Unterstützung von Schatten und translucency in Echtzeit
+* [3D-Ansicht] Unterstützung von MaterialX-Shadern aus einer importierten USD Szene
+* [3D-Ansicht / OpenGL] Benennen Sie den Parameter &quot;UV-Skalierung aktiviert&quot; in &quot;Physische Größe vom Graf aktivieren&quot; um.
 * [3D-Ansicht / Post-Effekte] Blüte
-* [3D-Ansicht/Post-Effekte] Tiefe des Felds
-* [3D-Ansicht/Post-Effekte] Tonzuordnung
-* [3D-Ansicht / Szenenbrowser] Ermöglicht die Anzeige der Materialeigenschaften bei der Auswahl im Szenenbrowser.
-* [3D-Ansicht / Szenenbrowser] Spalte &quot;Material&quot; ausblenden
-* [3D-Ansicht / Szenenbrowser] Fett formatieren die USD-Primitive, die von einer vordefinierten Entität gesteuert werden
-* [Bäcker] Hinzufügen eines Kontextmenüs in der Baumstruktur mit den Aktionen &quot;Alle auswählen&quot;/&quot;Auswahl aufheben&quot;
-* [Bäcker] Fügen Sie eine Option hinzu, um die bitangene Interpolation zu steuern.
-* [Bäcker] Horizontaler Splitter in der Benutzeroberfläche hinzufügen
-* [Bäcker] Fügen Sie UDIM-Makro standardmäßig im Ausgabenamen hinzu, wenn die Szene udim ist
-* [Bäcker] Tangente neu berechnen lassen
-* [Bäcker] Ermöglicht die Umbenennung eines Bäckers, ohne die Verknüpfungen zu trennen
-* [Bäcker] Ändern der Standardgröße des mittleren Bereichs
-* [Bäcker] Eingabetextur für UDIM-Workflow
-* [Bäcker] 2D-Ansichtszuordnungen in der Reihenfolge der Baker-Renderlisten anpassen
-* [Bäcker] Das Backfenster modal gestalten
-* [Bäcker] Verwalten von Tonzuordnungsparametern
-* [Bäcker] Auswahl des Tangentenraum-Zusatzmoduls entfernen
-* [Bäcker] Speicherstatus &quot;aktiviert&quot; oder &quot;deaktiviert&quot; für Bäcker beim Speichern einer Vorgabe
-* [Bäcker] Material standardmäßig im Widget &quot;Auswählen&quot; auswählen
-* [Bäcker] Legen Sie die Standardausrichtung der Textur &quot;Normale Ausgabe&quot; relativ zu den Voreinstellungen fest
-* [Bäcker] Legen Sie UV-Kacheln standardmäßig auf Alle fest
-* [Bäcker] WordSpaceDirection add option FromTexture/FromValue
-* [Bäcker] Welt zu Tangente: Standardeingabe auf &quot;Von Textur&quot; setzen
+* [3D-Ansicht / Post-Effekte] Tiefe des Feldes
+* [3D-Ansicht / Post-Effekte] Farbtonzuordnung
+* [3D-Ansicht/Szenenbrowser] Zulassen, dass die Szeneneigenschaften angezeigt werden, wenn Sie das Material im SzeneBrowser auswählen
+* [3D-Ansicht / Spaltenbrowser] Blenden Sie die Szene &quot;Material&quot; aus.
+* [3D-Ansicht / Szene-Browser] Fett formatieren die USD Primitive, die von einer vordefinierten Entität gesteuert werden
+* [Baker] Hinzufügen eines Kontextmenüs in der Strukturansicht mit den Aktionen &quot;Alle auswählen&quot;/&quot;Auswahl aufheben&quot;
+* [Baker] Fügen Sie eine Option hinzu, um die bitangene Interpolation zu steuern.
+* [Baker] Horizontaler Splitter in der Benutzeroberfläche hinzufügen
+* [Baker] Fügen Sie das UDIM-Makro standardmäßig im Ausgabenamen hinzu, wenn die Szene udim ist
+* [Baker] Neuberechnung der Tangente zulassen
+* [Baker] Umbenennen eines Bakers ohne Verknüpfungen zulassen
+* [Baker] Ändern der Standardgröße des mittleren Bereichs
+* [Baker] Eingabe-Textur für UDIM-Arbeitsablauf
+* [Baker] 2D-Ansichten-Maps-Listenreihenfolge mit Bakern-Renderlistenreihenfolge abgleichen
+* [Baker] Das Baking führend Fenster modal gestalten
+* [Baker] Verwalten von Tonzuordnungsparametern
+* [Baker] Tangentialraum-Plug-in-Auswahl entfernen
+* [Baker] Speicherstatus &quot;aktiviert&quot; oder &quot;deaktiviert&quot; für Baker beim Speichern einer Vorgabe
+* [Baker] Material standardmäßig im Widget &quot;Auswählen&quot; auswählen
+* [Baker] Legen Sie die Standardausrichtung der Textur &quot;Normale Ausgabe&quot; relativ zur Voreinstellung fest.
+* [Baker] Stellen Sie die UV-Kacheln standardmäßig auf Alle ein.
+* [Baker] WordSpaceDirection add option FromTexture/FromValue
+* [Baker] Welt in Tangente: die Standardeingabe auf &quot;von Textur&quot; setzen
 * [SBSBaker] Erstellen einer Option zur Steuerung der Backend-Reihenfolge
 * [SBSBaker] Verbessern der Verwendung des StringList-Arguments
-* [SBSBaker] Umbenennen von &quot;match\_source\_instance&quot; in &quot;match\_mesh\_name&quot;
+* [SBSBaker] Umbenennen von &quot;match\_source\_instance&quot; in &quot;match\_Mesh\_name&quot;
 * [SBSBaker] Umbenennen von &quot;Submesh&quot; in &quot;GeomSubset&quot;
-* [SBSBaker] Umbenennen in substance3d\_baker
-* [Inhalt] Hinzufügen der Form &quot;Hemisphere&quot; zu Generatorknoten, die Quadrantenformen freigeben
+* [SBSBaker] Umbenennen in substance3d\_Baker
+* [Inhalt] Hinzufügen der Form &quot;Hemisphere&quot; zu Generatorknoten, die Quadrantenformen legt
 * [Interop] Unterstützung des GLTF-Dateiformats
 * [Interop] Unterstützung des PLY-Dateiformats
 * [Interop] Unterstützung des STL-Dateiformats
-* [Library] Vereinheitlichte QuickInfos für atomare Knoten
+* [Library] Vereinheitlichte QuickInfos für elementare Knoten
 * [Mac] Unterstützung für MacIntel-Plattform beenden
-* [Knoten] Richtungstipps für atomare Knoten hinzufügen
+* [Nodes] Hinzufügen von Richtungs-Tooltips für elementare Knoten
 * [Parameter] Schließen Sie den Abschnitt &quot;Attribute&quot; standardmäßig.
 * [Parameter] Der Benutzer kann Standardwerte für Basisparameter für neue Instanzen angeben.
-* [Voreinstellungen] Bäcker: Fügen Sie eine boolesche Option hinzu, um den Tangentenraum pro Fragment zu berechnen.
-* [Voreinstellungen] Entfernen Sie die Tangentenraum-Plugins
+* [Voreinstellungen] Baker: Fügen Sie eine boolesche Option hinzu, um den Tangente-Speicherplatz pro Fragment zu berechnen.
+* [Voreinstellungen] Entfernen Sie die Plug-ins für den Tangente-Speicherplatz
 * [Voreinstellungen] Speichern Sie die Voreinstellungen pro Nebenversion von SD (XX.X).
 * [VFX] Update Boost auf 1.85.0
 * [VFX] Aktualisieren der MacOS-Mindestversion auf 12.0
-* [VFX] OpenColorIO auf 2.4.2 aktualisieren
-* [VFX] OpenColorIO auf 2.4.x aktualisieren
+* [VFX] Update OpenColorIO auf 2.4.2
+* [VFX] Update OpenColorIO auf 2.4.x
 * [VFX] Update OpenExr auf 3.3.x
 * [VFX] Update Qt auf 6.5.8
 
 **Fest:**
 
-* [3D-Ansicht] Texturen in exportierter USD-Szene werden nicht korrekt angewendet
-* [3D-Ansicht] [UDIM] UDIM-Diagrammausgaben können in der 3D-Ansicht nicht angezeigt werden, wenn die automatische Anzeige beim Öffnen des Diagramms in den Diagrammvoreinstellungen deaktiviert ist
-* [Bäcker] &#39;Glätten.&#39; und &quot;Durchschn. Zellen von Normalen für nicht anwendbare Bäcker sind leer und bearbeitbar
-* [Bakers] Die Aktion &quot;Aktualisieren&quot; verwendet Raytracing-Backend, wenn sie in den Einstellungen deaktiviert ist
-* [Bäcker] Bäcker wurden nach einem Fehler während des Prozesses &quot;Alle durch Baking erzeugte Map aktualisieren&quot; als ausgelastet gesperrt.
-* [Bäcker] Absturz bei mehr als 180 UDIMs beim Backen der OpenGL-Positions-Map auf einem bestimmten Gitter
-* [Baker] Absturz beim mehrmaligen Öffnen des Dialogfelds &quot;Modellinformationen backen&quot; in einer Zeile (nur macOS)
-* [Bäcker] Beim Export von JSON-Vorgaben wird der Wert &quot;udim&quot; durch &quot;1001&quot; ersetzt, wenn er auf &quot;Alle&quot; festgelegt wurde
-* [Bäcker] Speicher wird unter Linux nicht korrekt erkannt
-* [Bäcker] Fehlende Map-Eingabeabhängigkeit löst keine Warnung und/oder Blockrendering aus
-* [Bäcker] Keine Fehlerbezeichnung, wenn der Ausgabename leer ist
-* [Bäcker] Das Umschalten von High-Poly-Mesh aus einer Datei hat keine Auswirkungen
-* [Bäcker] Zielbaker ist standardmäßig nicht ausgewählt, wenn die Aktion &quot;Erneut erstellen&quot; verwendet wird
-* [Motor] Abstand: sichtbarer &quot;Schnitt&quot; in einigen Situationen
-* [Engine] FX-Map: Negative Farben werden nicht unterstützt, wenn die Bittiefe 8 Bit beträgt (nur GPU-Engines)
+* [3D-Ansicht] Texturen in exportierten USD Szenen werden nicht korrekt angewendet
+* [3D-Ansicht] [UDIM] UDIM-Graphausgaben können nicht in 3D-Ansicht angezeigt werden, wenn die automatische Anzeige beim Öffnen des Grafen in den Graf-Einstellungen deaktiviert ist
+* [Baker] &#39;Glätten.&#39; und &quot;Durchschn. Die Zellen von Normalen für nicht zutreffende Baker sind leer und bearbeitbar.
+* [Baker] Die Aktion &quot;Aktualisieren&quot; verwendet ein Raytracing-Backend, wenn sie in den Einstellungen deaktiviert ist
+* [Baker] Baker wurden nach einem Fehler während des Vorgangs &quot;Alle durch Baking erzeugte Map aktualisieren&quot; als ausgelastet blockiert.
+* [Baker] Absturz bei mehr als 180 UDIM beim Baking der OpenGL-Positionszuordnung auf einem bestimmten Mesh
+* [Baker] Absturz beim mehrmaligen Öffnen des Dialogfelds &quot;Baking-Modellinformationen&quot; in einer Zeile (nur macOS)
+* [Baker] Beim Export von JSON-Vorgaben wird der Wert &quot;udim&quot; durch &quot;1001&quot; ersetzt, wenn er auf &quot;Alle&quot; festgelegt wurde
+* [Baker] Speicher wird unter Linux nicht korrekt erkannt
+* [Baker] Fehlende Zuordnungseingabeabhängigkeit löst keine Warnung und/oder Blockrendering aus
+* [Baker] Keine Fehlerbezeichnung, wenn der Ausgabename leer ist
+* [Baker] Der Wechsel von der High-Poly-Mesh-Datei hat keine Auswirkungen
+* [Baker] Ziel-Baker ist standardmäßig nicht ausgewählt, wenn die Aktion &quot;Rebake&quot; verwendet wird
+* [Engine] Entfernung: sichtbarer &quot;Schnitt&quot; in einigen Situationen
+* [Engine] Fx-Map: Negative Farben werden nicht unterstützt, wenn die Bittiefe 8 Bit beträgt (nur GPU-Engine)
 * [Lokalisierung] Die Zeicheneingabe wechselt im Knotenmenü von Japanisch zu Lateinisch zurück
 * [Sicherheit] Sicherheitslücke, die beim Analysieren von USDC-Dateien außerhalb des gültigen Bereichs auftritt
 * [Sicherheit] Out-of-Bound WRITE Vulnerability II, beim Analysieren von NEF-Dateien
 * [Sicherheit] Sicherheitslücke beim Lesen außerhalb des gültigen Bereichs III beim Analysieren von DNG-Dateien
 * [Voreinstellungen] UX-Probleme in den Projekteinstellungen für schreibgeschützte Projekte
-* [Ressourcen] Mehrere UV-Sets werden beim Öffnen von FBX-Dateien nicht angezeigt
+* [Ressourcen] Beim Öffnen von FBX werden nicht mehrere UV-Satz angezeigt
 * [UI] Überlappende Beschriftungen in der Statuszeile
 * [UI] QuickInfos zum Dropdown-Menü &quot;Link-Erstellungsmodus&quot; werden nicht angezeigt.
 
@@ -638,20 +655,20 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [Graph] Verwenden Sie die Standard-GPU-Engine, um Miniaturansichten für das aktuelle Diagramm zu generieren
-* [Bibliothek] Verwenden Sie die Standard-GPU-Engine, um Miniaturansichten für die Bibliothek zu generieren
+* [Graf] Verwenden Sie das Standard-GPU-Engine, um Miniaturansichten für den aktuellen Graf zu generieren
+* [Library] Verwenden Sie das Standard-GPU-Engine, um Miniaturansichten für die Library zu generieren
 
 **Fest:**
 
-* [Graph] Verbindungen können in einigen Fällen im Verbindungserstellungsmodus &quot;Standard&quot; nicht verschoben werden
+* [Graf] Verbindungen können in einigen Fällen im Verbindungserstellungsmodus &quot;Standard&quot; nicht verschoben werden
 * [Inhalt] Artefakte in der MLV-Filterausgabe in einem bestimmten Fall
 * [Inhalt] Atlas Splitter/Streuung: Nur die erste Zelle wird korrekt gezeichnet (nur macOS + GPU-Engine)
 * [Inhalt] Weiche Abschrägungen: -Format ist absolut 32f
-* [Inhalt] Fasern 1: visuelle Artefakte bei der Konvertierung in eine normale Map
+* [Inhalt] Fasern 1: visuelle Artefakte bei der Konvertierung in Normalen-Map
 * [Inhalt] RT AO, Schatten, Gebeugte Normale werden in einigen Fällen falsch gerendert
-* [Bäcker] Bei Menüpunkten mit Untermenüs fehlt ein Rand auf der rechten Seite des Textes
-* [MacArm]&#x200B;[sbsrender] Falsche CPU-Engine, wenn die GPU-Engine nicht gefunden wurde
-* [Mac/Linux]&#x200B;[sbsrender] Falsche Standard-GPU-Engine
+* [Baker] Bei Menüelementen mit Untermenüs fehlt ein Rand auf der rechten Seite des Textes.
+* [MacArm]&#x200B;[sbsrender] Falsches CPU-Engine, wenn GPU-Engine nicht gefunden wird
+* [Mac/Linux]&#x200B;[sbsrender] Falsches Standard-GPU-Engine
 
 ### 14.1.1
 
@@ -659,9 +676,9 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [Graph] Knotenausrichtungswerkzeuge: Tastaturbefehle wieder einsetzen, Stapelung standardmäßig aktivieren
-* [MDL] Warnen Sie Benutzer, dass &quot;MDL-Diagramme&quot; in einer zukünftigen Version veraltet sind.
-* [Voreinstellungen] Warnen Sie Benutzer, dass &quot;Plug-ins für benutzerdefinierte Tangentenräume&quot; in einer zukünftigen Version veraltet sind.
+* [Graf] Knotenausrichtungswerkzeuge: Tastaturbefehle wieder einsetzen, Stapelung standardmäßig aktivieren
+* [MDL] Warnen Sie Benutzer, dass &quot;MDL-Diagramm&quot; in einer zukünftigen Version veraltet sind.
+* [Voreinstellungen] Warnen Sie Benutzer, dass &quot;Plug-ins für benutzerdefinierte Tangenten&quot; in einer zukünftigen Version veraltet sind.
 
 **Fest:**
 
@@ -671,13 +688,13 @@ ht-degree: 0%
 * [Inhalt] Kochfehler für fehlenden Parameter im Knoten &quot;Auto-Tonwertkorrektur&quot;
 * [Inhalt] Kochfehler in der Konsole beim Rendern von Miniaturansichten einiger Pakete
 * [Inhalt] Kantenkerbe: Kochwarnung in der Konsole
-* [Inhalt] MLV-Farbe: Anschnitt trotz Verwendung von &quot;Keine Kacheln&quot; in einem bestimmten Fall
+* [Inhalt] MLV-Farbe: Anschnittfarbe, obwohl in einem bestimmten Fall &quot;Keine Kachelung&quot; verwendet wurde
 * [Inhalt] Maske zu Pfaden: Pfade können zu viele, zu wenige oder in bestimmten Fällen von null Länge sein
-* [Inhalt] PBR-Rendering v1: Einige Dienstprogrammdiagramme werden in der Bibliothek angezeigt
+* [Inhalt] PBR-Rendering v1: Einige Graf des Dienstprogramms sind in der Bibliothek gelegt
 * [Inhalt] Streuung auf Spline: Ein Muster wird gezeichnet, obwohl kein Spline-Eingang vorhanden ist
-* [Parameter] Beschriftung &quot;Geisterwert&quot; beim Einfügen des Listenparameters mit nicht übereinstimmendem Index
+* [Parameters] Beschriftung &quot;Phantom value&quot; beim Einfügen des Listenparameters mit nicht übereinstimmendem Index
 * [UI] Absturz beim Schließen von Designer durch die Aktion &quot;Beenden&quot; im macOS-Dock (nur macOS)
-* [UI] Texturpfade in den Shader-Eigenschaften werden nicht auf die Breite des Docks beschnitten
+* [UI] Breitenpfade in Shader-Eigenschaften werden nicht auf die Textur des Docks beschnitten
 
 ### 14.1.0
 
@@ -685,32 +702,32 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [2D-Ansicht] Hinzufügen einer fixierten Pixelanzeige im Informationsfenster
-* [API] Zeigen Sie die Knoten in der Box-Größe in der Diagrammansichtsszene an.
-* [Inhalt] &quot;Material Height Blend&quot;: Ausgabe für &quot;Height Mask&quot; hinzufügen
-* [Content] &quot;Path Vertex Processor&quot;: Schaltfläche &quot;Funktion bearbeiten&quot; für Parameter &quot;Funktion pro Vertex&quot; verwenden
+* [2D-Ansichten] Anheftete Pixelanzeige im Informationsfenster hinzufügen
+* [API] Legt die Knotenboxgröße in der Szene Graphansicht bei.
+* [Inhalt] &#39;Material Height Überblendung&#39;: Ausgabe für &quot;Height Mask&quot; hinzufügen
+* [Content] &#39;Path Scheitelpunkt Processor&#39;: Schaltfläche &quot;Funktion bearbeiten&quot; für Parameter &quot;Funktion pro Vertex&quot; verwenden
 * [Inhalt] Automatische Tonwertkorrektur: Nicht verwendete Parameter bereinigen, Beschriftungen und QuickInfo anpassen
 * [Inhalt] Maske auf Pfade v2
 * [Inhalt] Neuer Mittelwert des Knotens mit der geringsten Abweichung (MLV)
-* [Inhalt] Neuer Medianfilterknoten
-* [Inhalt] Farbe quantisieren: Filteroption &quot;Nächste&quot; hinzufügen
+* [Inhalt] Neuer mittlerer Filterknoten
+* [Inhalt] Farbe quantisieren: Option &quot;Nächste Filterung&quot; hinzufügen
 * [Inhalt] Spline Bridge-Liste: Hinzufügen zufälliger Spline-Offset-Parameter
 * [Inhalt] Spline-Werkzeuge: Neuer Spline-Knoten (quadratisch)
 * Triangle Grid [Inhalt]: Dreiecksänderungsverfahren und Verwendung von Schleifen
 * [Inhalt] Knoten &quot;Neue Streuung-Splines auf Splines&quot;
-* [Cooker] Stellen Sie den Basisparameter &quot;Pixelverhältnis&quot; als statische Variable &quot;$pixelratio&quot; bereit.
-* [CrashReport] Neues Absturzbericht-Fenster integrieren
-* [Engine] Fügen Sie die Vulkan/Metal-Version der Blend Engine hinzu.
-* [Diagramm] Materialmodus: Verbindung ohne Verwendung zulassen, wenn ein einzelner Link ausgewählt ist
-* [Diagramm] Materialverknüpfung: Standardverbindungen zulassen, wenn die Verbindung nicht mehrdeutig ist
-* [Graph] Knotenausrichtungswerkzeuge: horizontale/vertikale Verteilungen hinzufügen, linke/rechte/obere/untere Ausrichtung festlegen und gestapelte Knoten unterstützen
+* [Cooker] Leg des Basisparameters &quot;Pixelverhältnis&quot; als statische Variable &quot;$pixelratio&quot;
+* [CrashReport] Neues Berichtsfenster für Absturz integrieren
+* [Engine] Fügen Sie die Vulkan/Metal-Version des Blend-Engine hinzu.
+* [Graf] Materialmodi: Verbindung ohne Verwendung zulassen, wenn ein einzelner Link ausgewählt ist
+* [Graf] Material-Link: Standardverbindungen zulassen, wenn die Verbindung nicht mehrdeutig ist
+* [Graf] Knotenausrichtungswerkzeuge: horizontale/vertikale Verteilungen hinzufügen, linke/rechte/obere/untere Ausrichtung festlegen und gestapelte Knoten unterstützen
 * [Bibliothek] Textfarbe in Kontextmenüs korrigieren
 * [Parameter] Kopieren von Parametern von einem Knoten in einen anderen
 * [Eigenschaften] Alle zurücksetzen: Entfernen Sie das Bestätigungs-Popup-Fenster.
 * [Ressourcen] Legen Sie im Dialogfeld &quot;Bitmap verknüpfen&quot; das Format auf &quot;Alle Formate&quot; fest.
 * [Suche] Hinzufügen einer Möglichkeit zum Aktivieren/Deaktivieren eines rekursiven Modus
 * [Suche] Fügen Sie eine Möglichkeit hinzu, die Fuzzy-Suche zu aktivieren/deaktivieren
-* [Suche] Bei Aktivierung von Node Finder über den Tastaturbefehl immer den Fokus auf das Suchbegrifffeld anzeigen und festlegen
+* [Suche] Bei der Aktivierung von Node Finder über den Tastatur-Tastaturbefehl immer den Fokus auf das Suchbegrifffeld anzeigen und festlegen
 * [Suche] Filteroption erneut bearbeiten
 * [Tastaturbefehle] Zuweisung der Tasten &quot;V&quot;, &quot;H&quot; und &quot;S&quot; zulassen
 * [Drittanbieter] Upgrade auf Qt 6.5.7
@@ -728,13 +745,13 @@ ht-degree: 0%
 * [Inhalt] Spline Bridge-Liste: Falsches Ergebnis bei Verwendung von Start-/End-Versätzen
 * [Inhalt] Spline-Auswahl: Der Ausgangs-Spline-Betrag kann größer sein als der Eingangs-Spline-Betrag.
 * [Inhalt] Spline-Warp erzeugt ein schwarzes Ergebnis mit SSE-Engine
-* Triangle Grid [Inhalt]: Muster ist nicht richtig gekachelt
-* Triangle Grid [Inhalt]: Kachelung ist in einem bestimmten Fall fehlerhaft
-* [Daten] Absturz beim Ändern der Diagrammeingabe-ID in einem bestimmten Fall
-* [Funktionsdiagramm] Lange Werte werden überlappend auf &#39;Float&#39;-Knoten angezeigt
-* [Fx-Map] Absturz beim Anzeigen von Quadrant-Knoteneigenschaften
-* [Graph] [UDIM] Mit einer Bildlaufleiste in der UDIM-Liste werden 1.1 1.2 Einträge generiert.
-* [Graph]&#x200B;[Shortcuts] Knoten, der mit einem Shortcut erstellt wurde, wird nach dem Duplizieren des Knotens nicht auf dem vorhandenen Link platziert.
+* Triangle Grid [Inhalt]: Kachelung ist nicht korrekt
+* Triangle Grid [Inhalt]: Kachelung in einem bestimmten Fall unterbrochen
+* [Daten] Absturz beim Ändern der Identifizierung der Graf-Eingabe in einem bestimmten Fall
+* [Funktionsknoten] Lange Werte werden in Fließkommazahl-Graf überlappend angezeigt.
+* [Fx-Map] Absturz bei der Anzeige von Quadrant-Knoteneigenschaften
+* [Graf] [UDIM] Mit einer Bildlaufleiste in der UDIM-Liste werden 1.1 1.2 Einträge angezeigt.
+* [Graf]&#x200B;[Shortcuts] Der mit einem Tastaturbefehl erstellte Knoten wird nach der Knotenduplizierung nicht auf dem bestehenden Link platziert.
 * [Eigenschaften] Falsche Parameteranzeige, wenn der Wert ungültig ist
 * [Publish] Gegenseitige Abhängigkeiten führen beim Veröffentlichen eines Pakets zu einer Endlosschleife.
 * [Publish] Unbeaufsichtigter Fehler bei Verwendung der Aktion &quot;Publish&quot; für ein Paket mit entladener Abhängigkeit
@@ -747,15 +764,15 @@ ht-degree: 0%
 
 <b>Hinzugefügt:</b>
 
-* [Funktionsdiagramm] Verbessern der Textausrichtung innerhalb von Knoten
+* [Funktionsknoten] Verbessern der Textausrichtung innerhalb von Graf
 * [MacOS] Installation auf BigSur-Version (11.0) erneut zulassen
 * [Windows] Installation unter Windows 10 19H2 erneut zulassen
 
 <b>Fest:</b>
 
-* [Bitmap] Malstriche auf Bitmapressourcen markieren das Hostpaket nicht als geändert.
-* [Funktionsdiagramm] Absturz beim Schließen des Pakets mit Funktionsdiagramm, das einen Instanzknoten hostet
-* [Funktionsdiagramm] Absturz beim Rückgängigmachen von zwei Sample Color-Knoten-Änderungen in einer Zeile
+* [Bitmap] Malen-Striche auf Bitmap-Ressourcen markieren das Hostpaket nicht als geändert.
+* [Function Graf] Absturz beim Schließen des Pakets mit Function Graf, der einen Instanzknoten hostet
+* [Funktions-Graf] Absturz beim Rückgängigmachen von zwei Sample-Farbknoten-Änderungen in einer Zeile
 
 ### 14.0.1
 
@@ -770,12 +787,12 @@ ht-degree: 0%
 
 * [API] Ungeladene Plug-ins können nicht erneut geladen werden
 * [Inhalt] Histogramm Berechnen: Das Ergebnis ist 16-mal so, wie es sein sollte
-* Triangle Grid [Inhalt]: Muster ist nicht richtig gekachelt
-* [Daten] Absturz beim Ändern der Diagrammeingabe-ID in einem bestimmten Fall
-* [Engine] Knoten &quot;Entfernung&quot; erzeugt Artefakte bei Verwendung sehr niedriger Pixelgrößen
-* [Engine] Ungültiges Ergebnis des Knoten-Abstands bei 8K-Auflösung auf SSE2-Engine
-* [Funktionsdiagramm] Lange Werte werden überlappend auf &#39;Float&#39;-Knoten angezeigt
-* [Graph]&#x200B;[Shortcuts] Knoten, der mit einem Shortcut erstellt wurde, wird nach dem Duplizieren des Knotens nicht auf dem vorhandenen Link platziert.
+* Triangle Grid [Inhalt]: Kachelung ist nicht korrekt
+* [Daten] Absturz beim Ändern der Identifizierung der Graf-Eingabe in einem bestimmten Fall
+* [Engine] Abstandsknoten erzeugt Artefakte bei Verwendung sehr niedriger Pixelgrößen
+* [Engine] Falsches Ergebnis eines Distanzknotens mit 8K-Auflösung auf SSE2-Engine
+* [Funktionsknoten] Lange Werte werden in Fließkommazahl-Graf überlappend angezeigt.
+* [Graf]&#x200B;[Shortcuts] Der mit einem Tastaturbefehl erstellte Knoten wird nach der Knotenduplizierung nicht auf dem bestehenden Link platziert.
 * [Eigenschaften] Falsche Parameteranzeige, wenn der Wert ungültig ist
 
 ### 14.0.0
@@ -786,37 +803,37 @@ ht-degree: 0%
 
 * [Inhalt] Neuer anisotroper Kuwahara-Filter
 * [Inhalt] Neuer Knoten &quot;Weiche Abschrägung&quot;
-* [Inhalt] Neuer Kurvenglätter v2-Knoten
+* [Inhalt] Neuer Knoten der Krümmung Smooth v2
 * [Inhalt] Neuer Richtungsabstand
 * [Inhalt] Neue Histogramm-Werkzeuge: Berechnen, Ausgleichen, Rendern
 * [Inhalt] Neue ID für Maskenknoten
 * [Inhalt] Neuer Knoten Normal Nicht kombinieren
 * [Inhalt] Neue Palettenknoten: Erstellen, Anwenden, Ändern, Anzeigen
 * [Inhalt] Neuer Knoten &quot;Farbe quantisieren&quot;
-* [Inhalt] Uneinheitliche Richtungsverkrümmung: Festlegen des Standardwerts für die Intensitätszuordnung auf 1
+* [Inhalt] Nicht einheitliche Richtungsverzerrung: Festlegen des Standardwerts für die Intensitätszuordnung auf 1
 * [Content] Hinzufügen des Suffixes &quot;Color&quot; oder &quot;Grayscale&quot; zu allen Knotenbeschriftungen, die diese Versionen aufweisen
-* [Inhalt] Veraltetes &quot;weißes Rauschen&quot; nur &quot;weißes Rauschen schnell&quot; beibehalten
-* [Inhalt] Veralteter Knoten &quot;Negate Float1&quot; im Substance-Funktionsdiagramm
+* [Inhalt] Veraltetes &quot;White Rauschen&quot; nur &quot;White Rauschen Fast&quot; beibehalten
+* [Inhalt] Veralteter Knoten &quot;Negate Fließkommazahl1&quot; im Substance-Funktions-Graf
 * [Inhalt] Benennen Sie &quot;Farbe quantisieren&quot; in &quot;Farbe quantisieren (einfach)&quot; um.
-* [2D-Ansicht] Anzeigen von Werten im Informationenbedienfeld für Pixel außerhalb des Bereichs 0-1
+* [2D-Ansichten] Zeigt Werte im Informationenbedienfeld für Pixel außerhalb des Bereichs 0-1 an.
 * [Engine]&#x200B;[Text] Neues Kerning für einige Schriftarten
-* [Graph] Verbessern der Invalidierungszeit bei der Bearbeitung von Deep Untergraphen bei Verwendung der In-Context-Edition
+* [Graf] Verbessern Sie die Invalidierungszeit bei der Bearbeitung umfangreicher Untergraph mit der In-Kontext-Edition
 * [Linker] Bitmaps in SBSASM nicht duplizieren
-* [Parameter] Fügen Sie ein neues Funktions-Widget für alle Eingabeparametertypen hinzu.
+* [Parameters] Fügen Sie ein neues Funktions-Widget für alle Eingabeparameter-Typen hinzu.
 * [Eigenschaften] Verbessern der Anzeige geerbter Parameter
 * [UX] Verbesserte Trackpad-Unterstützung (nur Mac)
-* [UX] Modernisieren Sie das Verschieben, wenn Sie beim Auswählen den Rand des Diagramms erreichen
+* [UX] Modernisierung des Schwenkens beim Erreichen des Graf-Rands bei der Auswahl
 * [UX] Entfernen der Funktion &quot;High DPI deaktivieren&quot;
 * [Branding] Neues Branding für Splash Screen und Fenster &quot;Info&quot;
-* [Verlaufsumsetzung] Fügen Sie eine Möglichkeit hinzu, alle Tasten und die Schleife zu verschieben
+* [Verlaufs-Map] Fügen Sie eine Möglichkeit hinzu, alle Tasten und eine Schleife zu verschieben
 * [Library] Alle Standardfilter auf Satzschreibweise umstellen
-* [API] Hinzufügen einer Methode zum Framing eines bestimmten Knotens im Viewport der Diagrammansicht
-* [API] Add-Methode zum Öffnen einer Paketressource in ihrem Editor (z. B. ein Substance-Diagramm in der Diagrammansicht)
-* [API] Add-Methode zum Auswählen einer Paketressource im Explorer (z. B. ein Substance-Diagramm)
-* [API] Hinzufügen von Methoden zum Abrufen und Festlegen des Diagrammtyps eines Substance-Compositing-Diagramms
+* [API] Hinzufügen einer Methode zum Rahmen eines bestimmten Knotens im Graphansicht-Viewport
+* [API] Add-Methode zum Öffnen einer Paketressource in ihrem Editor (z. B. ein Substance-Graf in der Graphansicht)
+* [API] Add-Methode zum Auswählen einer Paketressource im Explorer (z. B. ein Substance-Graf)
+* [API] Hinzufügen von Methoden zum Abrufen und Festlegen des Graf-Typs eines Substance-Compositing-Grafen
 * [Drittanbieter] Empfehlungen für VFX-Plattformen 2023 befolgen
 * [Drittanbieter] Empfehlungen für VFX-Plattformen 2024 befolgen
-* [Third Party] Update Boost auf 1.82.0 + USD auf 23.08
+* [Drittanbieter] Update Boost auf 1.82.0 + USD auf 23.08
 * [Drittanbieter] NGL-Aktualisierung auf 1.38
 * [Drittanbieter] Update OpenColorIO auf 2.3.x
 * [Drittanbieter] Update OpenExr auf 3.2.x
@@ -830,37 +847,37 @@ ht-degree: 0%
 
 <b>Fest:</b>
 
-* [Bäcker] Absturz beim Umbrechen einer Szene, deren Dateiname geändert wurde
-* [Bäcker] Absturz beim Speichern der Bäcker-Voreinstellung in der JSON-Datei
-* [Inhalt] &quot;Streuung auf Spline&quot;: Alpha-Parameter für Eingabebild verfügbar machen
+* [Baker] Absturz beim Rückgängigmachen einer Szene, deren Dateiname geändert wurde
+* [Baker] Absturz beim Speichern der Voreinstellung &quot;Baker&quot; in JSON-Datei
+* [Inhalt] &quot;Streuung auf Spline&quot;: Alphaparameter für Eingabebild gelegt
 * [Inhalt] &quot;Sampler Color anordnen&quot;: Expression &quot;missing visibleif&quot;
 * [Inhalt] Anisotropes Rauschen: Negativer Wert für X/Y-Betrag führt zu falschem Ergebnis
-* [Inhalt] Anisotropes Rauschen: Problem beim Anordnen, wenn ein ungerader Wert als X-Wert und keine Smoothness verwendet wird
+* [Inhalt] Anisotropes Rauschen: Problem mit der Kachelung bei Verwendung des ungeraden Werts als X-Wert und ohne Smoothness
 * [Inhalt] Funktion &quot;Normale Verteilung&quot;: falsch platzierte max() kann zu NaN führen
 * [Inhalt] RTAO, Bent Normal und RT Shadows funktionieren auf einigen Plattformen nicht ordnungsgemäß.
-* [Inhalt] Farbe für Form-Farbspritzer: OpenGL-Normalmaps werden nicht korrekt überblendet
+* [Inhalt] Überblendung der Formaufteilung: OpenGL-Normalen-Map werden nicht korrekt überblendet
 * [Inhalt] Unzulässiger Speicherplatz nach dem Präfix &quot;Multi&quot; in den Knotenbeschriftungen
-* [Abhängigkeiten] Absturz beim Verschieben des Diagramms innerhalb oder zwischen Paketen
+* [Abhängigkeiten] Absturz beim Verschieben von Graf innerhalb oder zwischen Paketen
 * [Engine] Genauigkeitsfehler in Verkrümmungsknoten, die sich auf die Steigung-Weichzeichnerknoten auswirken
 * [Engine] SBSAR-Ebene in SD kann SBSAR mit SBSASM-Inhalt > 2 GB nicht lesen
-* [Funktionsdiagramm] Falsches Ergebnis für 0^n
-* [Graph] Option &#39;Display node size&#39; ist falsch beschriftet
-* [Graph] Absturz beim Kopieren eines übergeordneten Kommentars in ein anderes Diagramm
-* [Graph] Einfrieren beim Alt-Ziehen eines Punktknotens
-* [Graph] Knotensuche kann offensichtliche Übereinstimmungen in einigen Fällen verpassen
-* [Graph] Leistungsproblem beim Bearbeiten eines Funktionsdiagramms, das mehrmals mit geöffnetem Supergraph installiert wurde
-* [Graph] Zu viele Ungültigkeiten beim Erstellen einer Ausgabe
+* [Funktion Graf] Falsches Ergebnis für 0^n
+* [Graf] Option &quot;Knotengröße anzeigen&quot; ist falsch beschriftet
+* [Graf] Absturz beim Kopieren eines übergeordneten Kommentars in einen anderen Graf
+* [Graf] Einfrieren beim Alt-Ziehen eines Punktknotens
+* [Graf] Bei der Knotensuche können in einigen Fällen offensichtliche Übereinstimmungen fehlen.
+* [Graf] Leistungsproblem beim Bearbeiten eines mehrmals instanziierten Funktions-Grafen mit geöffnetem Supergraph
+* [Graf] Zu viele Ungültigkeiten beim Erstellen einer Ausgabe
 * [Sicherheit] ICO analysiert Schreibfehler außerhalb des gültigen Bereichs
 * [Sicherheit] Nicht verwendete Bildformate verwerfen
 * [Parameter] Der Bitmap-PKG-Ressourcenpfad sollte nicht bearbeitbar sein.
-* [Parameter] Beheben von Problemen im Zusammenhang mit der Belichtung/Batch-Belichtung des Parameters eines Wertprozessors
-* [Parameter] Zeichenfolgenparameter werden ignoriert, wenn Batch-Daten angezeigt werden.
-* [Eigenschaften] Leistungsproblem beim Bearbeiten eines Funktionsdiagramms, das mehrmals mit geöffneten Eigenschaften instanziiert wurde
+* [Parameter] Probleme beheben, die damit zusammenhängen, dass der Parameter eines Wertprozessors gelegt/als Stapel gelegt wird
+* [Parameter] Zeichenfolgenparameter werden ignoriert, wenn ein Stapel gelegt wird.
+* [Eigenschaften] Leistungsproblem beim Bearbeiten eines mehrmals instanziierten Funktions-Grafen mit geöffneten Eigenschaften
 * [SVG] Bearbeitungen an Formen werden nicht auf gerasterte Bilder angewendet
 * [UI] Beheben einiger Fehler/Inkonsistenzen mit scrollbaren Widgets (nur Windows)
-* [UI] Inkonsistente Reihenfolge der 3D-Szenendateiformate in Import-/Exportlisten
+* [UI] Inkonsistente Reihenfolge der 3D-Szene-Dateiformate in Import-/Exportlisten
 * [UI] Fensteraktionen werden in der Benutzeroberfläche dupliziert
-* [Versionskontrolle] Das Skript &quot;perforce.py&quot; funktioniert nicht auf Python 3
+* [Versionskontrolle] Das Skript &quot;perforce.py&quot; funktioniert nicht unter Python 3
 
 ## Version 13
 
@@ -870,35 +887,35 @@ ht-degree: 0%
 
 <b>Hinzugefügt:</b>
 
-* [Graph] Platzieren Sie keine duplizierten Knoten auf dem ursprünglichen Knoten.
-* [Graph] Verbessern der Ausrichtung von Kommentaren, die an Knoten angehängt sind
-* [Graph] Verbessern der Kommentarbewegung
-* [Graph] Eingefügte/duplizierte Frames und Kommentare am Raster ausrichten
-* [Frames] Ausrichten neuer Frames und Kommentare am Raster
-* [Inhalt] &quot;Glatte Krümmung&quot;: Fügen Sie in der Beschreibung einen Hinweis zur Untertitelunterstützung hinzu
-* [3DView]&#x200B;[IRay] Die Zuweisung der int-Ausgabe zum enum-Parameter zulassen
+* [Graf] Duplizierte Knoten nicht auf dem Originalknoten platzieren
+* [Graf] Verbessern der Ausrichtung von Kommentaren, die an Knoten angehängt sind
+* [Graf] Verbessern der Kommentarbewegung
+* [Graf] Einrasten/duplizierte Rahmen und Kommentare an den Raster senden
+* [Rahmen] Einrasten neuer Rahmen und Kommentare zum Raster
+* [Inhalt] &quot;Krümmung glatt&quot;: In der Beschreibung einen Hinweis zur Unterstützung von Kachelungen hinzufügen
+* [3DView]&#x200B;[Iray] Zuweisung der int-Ausgabe zum enum-Parameter zulassen
 * [AxF] Hinzufügen von Eigenschaften zum Klarlack-Modell
 * [AxF] Verbessern des Fehlermanagements beim Export
-* [AxF] Verbessern von GLSLFX- und MDL-Materialien für die &quot;SVBRDF&quot;-Darstellung, wie sie in einer AXF-Datei gespeichert ist
+* [AxF] Verbessern der GLSLFX und MDL-Material für die &quot;SVBRDF&quot; Darstellung, wie sie in einer AxF-Datei gespeichert ist
 * [AxF] Entfernen der Eigenschaft &quot;CC No Refraction&quot; aus der Vorlage &quot;AxF to AxF&quot;
 * [AxF] Umbenennen von Eigenschaften &quot;properties.has\_xxx&quot; in &quot;properties.has\_xxx&quot;
-* [AxF] Aktualisieren Sie die Vorlage, um alle Eigenschaften einzubeziehen, die von unseren SVBRDF-Shadern verwendet werden
+* [AxF] Aktualisieren Sie die Vorlage, um alle Eigenschaften einzubeziehen, die von unseren SVBRDF verwendet werden.
 
 <b>Fest:</b>
 
 * [3D-Ansicht] Absturz beim Zurücksetzen eines Int MDL-Parameters, der einer MDL-Enumeration zugeordnet ist
-* [3D-Ansicht] Falsche Widgets für SVBRDF-Shader-Eigenschaften, wenn Material nach dem Ändern der 3D-Szene zurückgesetzt wird
-* [3D-Ansicht] Falsche Widgets für SVBRDF-Shader-Eigenschaften, wenn kein Diagramm angewendet wird
-* [3D-Ansicht] Schaltfläche &quot;Umgebung anzeigen&quot; ist deaktiviert für neue Ansichten ohne standardmäßige SBSSCN-Datei
-* [3D-Ansicht] Beim Wechsel von Iray zum OpenGL-Renderer wird eine Diagrammausgabe getrennt
-* [AxF] Die Fresnel-Variante wird nicht durch die Diagrammausgabe aktualisiert
-* [AxF] Beschriftungen von AxF-Shader-Eigenschaften werden inkonsistent formatiert
+* [3D-Ansicht] Falsche Widgets für SVBRDF Shader-Eigenschaften, wenn das Material nach dem Ändern der 3D-Szene zurückgesetzt wird
+* [3D-Ansicht] Falsche Widgets für SVBRDF Shader-Eigenschaften, wenn kein Graf angewendet wird
+* [3D-Ansicht] Schaltfläche &quot;Umgebung anzeigen&quot; ist für neue Ansichten ohne standardmäßige SBSSCN-Datei deaktiviert.
+* [3D-Ansicht] Beim Wechsel vom Iray- zum OpenGL-Renderer wird eine Graphausgabe getrennt
+* [AxF] Die Fresnel-Variante wird nicht von Graphausgabe aktualisiert
+* [AxF] Beschriftungen von AxF Shader-Eigenschaften werden inkonsistent formatiert
 * [AxF] Warnung vor unveränderten Ressourcen wird nur in der Konsole angezeigt
 * [Inhalt] &quot;Nicht einheitlich&quot; wird nicht konsistent in alle Knoten geschrieben
 * [Inhalt] Streuung auf Spline: Fehlende Muster bei Brückenzweigen
 * [Inhalt] Spline Mapper: Einfrieren beim Festlegen eines negativen Segmentbetrags
-* [Inhalt] &quot;Symmetrie&quot;: Beschriftungen fehlen und sind inkonsistent.
-* [Diagramm] Vorhandene Kommentare sind leicht versetzt.
+* [Inhalt] &#39;Symmetrie&#39;: Beschriftungen fehlen und sind inkonsistent.
+* [Graf] Vorhandene Kommentare werden leicht versetzt
 * [Sicherheit] Sicherheitslücke bei RAS-Datei beim Analysieren von Lesevorgängen außerhalb des gültigen Bereichs
 
 ### 13.1.1
@@ -912,9 +929,9 @@ ht-degree: 0%
 * [AxF] Importieren von EP-SVBRDF zulassen
 * [AxF] Umbenennen von Eigenschaften in &quot;anisotropic&quot;, &quot;fresnel&quot; und &quot;fresnel variant&quot;
 * [AxF] Update auf AxF-Editing 1.0.0
-* [Graph] Auf Mausposition einfügen, wenn Position innerhalb der Diagrammansicht
-* [UX] Height des Textfelds &quot;Beschreibung&quot; von Rahmen und Kommentar vergrößern
-* [UX] Konzentrieren Sie sich beim Erstellen von Frames, Kommentaren oder Pins auf Texteditionsfelder
+* [Graf] Bei Mausposition einfügen, wenn innerhalb der Graphansicht
+* [UX] Height des Rahmens vergrößern und Textfeld &quot;Beschreibung&quot; des Kommentars
+* [UX] Konzentrieren Sie sich beim Erstellen von Rahmen, Kommentaren oder Nadeln auf Texteditionsfelder.
 
 <b>Fest:</b>
 
@@ -922,13 +939,13 @@ ht-degree: 0%
 * [AxF] Vorschau und Texturen werden im Dialogfeld &quot;AxF importieren&quot; nicht korrekt angezeigt
 * [AxF] Eigenschaft &quot;CC No Refraction&quot; wird in der Vorlage &quot;AxF to AxF&quot; nicht korrekt injiziert
 * [Inhalt] &quot;Flood Fill in Position&quot; ist in der Bibliothek nicht vorhanden.
-* [Inhalt] &#39;Platterkreis&#39;: Negative &#39;Pattern Amount&#39;-Werte führen zu sehr langen und intensiven Berechnungen
+* [Inhalt] &#39;Platterkreis&#39;: Negative &quot;Pattern Amount&quot;-Werte führen zu sehr langen und intensiven Berechnungen
 * [Inhalt] &#39;Spline Merge-Liste&#39;: Falsche Eingabefolge
 * [Abhängigkeiten] Die Abhängigkeit wird ihrer Kopie neu zugeordnet, nachdem sie als Kopie gespeichert wurde
-* [Frames] Die Schaltfläche &quot;HTML-Markup aktivieren&quot; ist nicht aktiviert, wenn die Verwendung rückgängig gemacht wird
-* [Frames] Die Auswahlmarkierung eines Frames und seines Inhalts führt dazu, dass der gesamte Frame-Inhalt verschoben wird, während er automatisch erweitert wird
-* [Diagramm] Kommentare, die aus übergeordneten Kommentaren dupliziert werden, werden immer am Diagrammursprung platziert
-* [Graph] Zeilenumbruch in Comment ist bei der Erstellung härter
+* [Rahmen] Die Schaltfläche &quot;HTML-Markup aktivieren&quot; ist nicht aktiviert, wenn die Verwendung rückgängig gemacht wird.
+* [Rahmen] Die Auswahl eines Rahmens und seines Inhalts mit dem Auswahlrechteck führt dazu, dass der gesamte Rahmen verschoben wird, während er automatisch erweitert wird
+* [Graf] Kommentare, die aus übergeordneten Kommentaren dupliziert wurden, werden immer am Ursprung des Grafen platziert
+* [Graf] Zeilenumbruch in &quot;Kommentar&quot; ist bei der Erstellung härter
 * [Publish] Festlegen des Standardpfads für die SBSAR-Veröffentlichung im Ordner &quot;Meine Dokumente&quot;
 * [SBSAR] Durch Wiederholen des SBSAR-Ladevorgangs ist es editierbar und die Daten können verloren gehen.
 
@@ -938,25 +955,25 @@ ht-degree: 0%
 
 <b>Hinzugefügt:</b>
 
-* [Frames] Automatisch erweitern
-* [Frames] Ändern Sie Regeln, um festzulegen, wann ein Objekt zu einem Frame gehört.
-* [Frames] Deaktivieren der Textskalierung für die Rahmenbeschreibung
-* [Frames] Größe an Inhalt anpassen
-* [Frames] Neuer Standard-, Hover- und ausgewählter Status
-* [Frames] Ausrichten an großem Raster
-* [Frames] Unterstützung von HTML-Code für Frames-Beschreibung
-* [Frames] Interaktionszonen aktualisieren
-* [Frames] Visuelles Seitenverhältnis aktualisieren
-* [Diagramm] Erstellen Sie den Knoten in der Mitte des sichtbaren Links anstelle der Mitte des Links.
-* [Diagramm] Zeigt die Eigenschaften eines Elements an, wenn es das einzige Element ist, für das Eigenschaften in einer Auswahl verfügbar sind.
-* [Diagramm] Option &quot;Skalierung&quot; für Kommentare im Diagramm entfernen
-* [Graph] Ausrichten von Knoten auf dem Hauptraster beim Kopieren/Einfügen
+* [Rahmen] Automatisch erweitern
+* [Rahmen] Regeln ändern, um zu definieren, wann ein Objekt zu einem Rahmen gehört
+* [Rahmen] Deaktivieren der Textskalierung für die Beschreibung von Rahmen
+* [Rahmen] Größe an Inhalt anpassen
+* [Rahmen] Neuer Standard-, Hover- und Auswahlstatus
+* [Rahmen] Einrasten zu großem Raster
+* [Rahmen] Support-HTML für Rahmen Beschreibung
+* [Rahmen] Aktualisieren von Interaktionszonen
+* [Rahmen] Visuelles Seitenverhältnis aktualisieren
+* [Graf] Erstellen Sie den Knoten in der Mitte des sichtbaren Links anstelle der Mitte des Links.
+* [Graf] Anzeigen von Eigenschaften eines Elements, wenn es das einzige Element ist, für das Eigenschaften verfügbar sind
+* [Graf] Option &quot;Skalierung&quot; für Kommentare im Graf entfernen
+* [Graf] Einrasten Knoten auf dem Haupt-Raster beim Kopieren/Einfügen
 * [UX] Fuzzy-Suche im Knotenmenü und in der Bibliothekssuche zulassen
 * [UX] Schleife der Knoten-Menüliste erstellen
 * [AxF] Unterstützung des AxF-Exports
 * [AxF] Deaktivieren von AxF unter Linux
-* [API] Legen Sie die Eigenschaft &quot;Sichtbar wenn&quot; für Diagrammparameter, Eingaben und Ausgaben mithilfe der Python-API fest.
-* [API] Festlegen der Reihenfolge von Diagramm-E/A mithilfe der Python-API
+* [API] Legen Sie die Eigenschaft &quot;Visible if&quot; für Graf-Parameter, -Eingaben und -Ausgaben mithilfe der Python-API fest.
+* [API] Legen Sie die Reihenfolge der Graf-E/A mithilfe der Python-API fest.
 * [Abhängigkeiten] Update Boost auf 1.80.0
 * [Abhängigkeiten] Update OpenSubdiv auf 3.5.x
 * [Abhängigkeiten] Aktualisieren Sie gcc auf 11.2.1 - Iray/MDL C++20-Problem
@@ -1049,11 +1066,11 @@ ht-degree: 0%
 * [Inhalt] Falsches Ergebnis in mehreren Spline-Knoten bei Verwendung der einheitlichen Verteilung
 * [Inhalt] Geringfügige Fehler in den QuickInfos der Spline- und Path-Knoten
 * [Inhalt] Quad Transformieren on Path: Die Standardwerte p01 und p10 werden umgeschaltet
-* [Inhalt] Quad Transform: das Ergebnis in einer bestimmten Situation falsch ist
+* [Inhalt] Quad Transformieren: das Ergebnis in einer bestimmten Situation falsch ist
 * [Inhalt] Spline Circle: Das Ergebnis &quot;Richtung spiegeln&quot; ist falsch, wenn keine einheitliche Verteilung verwendet wird
 * [Inhalt] Spline Circle: Tangenten sind beim Anpassen der Spiral- und Größenparameter falsch
 * [Inhalt] Spline-Flusszuordnung: schwarze Streifen ergeben sich bei Verwendung hoher Spiralleistung in Spline Circle
-* [Inhalt] Spline Mapper / UV Mapper: Hintergrundfarbe funktioniert nicht
+* [Inhalt] Spline Mapper/UV Mapper: Hintergrundfarbe funktioniert nicht
 * [Inhalt] Spline Mapper: Das Basis-Height ist 0, was zu einer Übersteuerung führt
 * [Inhalt] Spline Mapper: Spline-Height wird durch einen Eingangsmultiplikator modifiziert, auch wenn dieser Eingang nicht angeschlossen ist
 * [Inhalt] Spline Mapper: Splines-Extremitäten, die auf eine Bildkante treffen, werden nicht zugeordnet
@@ -1063,15 +1080,15 @@ ht-degree: 0%
 * [Inhalt] Spline-Rendering: Gelenke werden nicht konsistent über Spline-Stil-Optionen hinweg behandelt
 * [Inhalt] Spline-Rendering: letztes Segment wird nicht gezeichnet
 * [Inhalt] Spline-Rendering: Nicht-quadratische Korrektur wird nicht richtig angewendet
-* [Inhalt] UV Mapper-Farbe wird zweimal in der Bibliothek angezeigt
-* [DotNode] Der Bereich zum Ausrichten der Verbindung wird nach dem Deaktivieren der Textskalierungsbeschränkung nicht aktualisiert
+* [Inhalt] Die UV Mapper-Farbe wird in der Bibliothek zweimal angezeigt
+* [DotNode] Der einrasten Bereich für die Verbindung wird nach dem Deaktivieren des Textskalierungslimits nicht aktualisiert.
 * [DotNode] Erstellung über Kontextmenü ist unterbrochen
 * [DotNode] Die Position des Eingabeportalnamens wird nach dem Rückgängigmachen/Wiederholen einer Namensänderung nicht angepasst.
-* [GraphRender] Zu viele Ungültigkeiten beim Ändern eines Funktionsdiagramms
-* [Diagramm] Die Position des Transformations-Widgets wird visuell nicht korrekt aktualisiert
-* [Lokalisierung] &quot;Soft Range&quot; und &quot;Hard Range&quot; sind nicht in MDL-Graphen lokalisiert.
+* [GraphRender] Zu viele Ungültigkeiten beim Ändern eines Funktions-Grafen
+* [Graf] Die Position des Transformations-Widgets wird visuell nicht korrekt aktualisiert
+* [Lokalisierung] &quot;Soft Range&quot; und &quot;Hard Range&quot; sind nicht in MDL-Diagrammen lokalisiert.
 * [Parameter] Aufeinander folgende Textänderungen werden nicht im Verlaufs-Stapel protokolliert.
-* [Parameter] Hitbox zum Verschieben von Diagrammeingabeparametern in der Liste ist unzuverlässig
+* [Parameter] Hitbox zum Verschieben von Graf-Eingabeparametern in der Liste ist unzuverlässig
 * [Eigenschaften] Ein einfacher Klick wird als doppelter Klick auf ein Spin-Box-Widget bei großen Projekten betrachtet
 * [Publish] Die Reihenfolge der im Paket enthaltenen Ressourcen wird im veröffentlichten Element nicht beibehalten.
 
@@ -1104,31 +1121,31 @@ ht-degree: 0%
 * [Inhalt] Spline Bridge Mapper-Farbknoten
 * [Inhalt] Spline Bridge Mapper Graustufen-Knoten
 * [Inhalt] Spline-Flow-Mapper-Knoten
-* Knoten &quot;UV-Mapper-Farbe&quot; [Inhalt]
-* [Inhalt] Knoten &quot;UV Mapper Graustufen&quot;
+* UV-Zuordnungs-Farbknoten [Inhalt]
+* [Inhalt] Knoten &quot;UV Mapper Grayscale&quot;
 * [Inhalt] Knoten &quot;Pfade zu Splines&quot;
 * [Inhalt] Knoten &quot;Masken zu Pfaden&quot;
-* [Content] Paths 2D Transform node
+* [Content] Paths 2D Transformieren Nodenode
 * [Inhalt] Knoten &quot;Pfade Polygon&quot;
 * [Inhalt] Knoten &quot;Pfade in Vorschau anzeigen&quot;
 * [Inhalt] Knoten &quot;Pfade verformen&quot;
 * [Inhalt] Pfade Knoten auswählen
-* [Inhalt] Knoten &quot;Pfade, Scheitelpunkt&quot;
-* [Inhalt] Pfade Vertex Prozessor Einfacher Knoten
-* [Inhalt] Knoten &quot;Quad Transform on Path&quot;
-* [Inhalt] Raytraced Ambient-Verdeckung v2
+* [Inhalt] Pfade Scheitelpunkt Prozessorknoten
+* [Content] Paths Scheitelpunkt Processor Simple node
+* [Inhalt] Quad Transformieren auf Pfad-Node
+* [Inhalt] Raytraced Ambient occlusion v2
 * [Inhalt] Raytraced Bent Normal v2
 * [Inhalt] Raytraced Shadows v2
 * [Engine] Update auf Version 9
-* [Engine] Schleifenknoten in Funktionsdiagrammen
+* [Engine] Schleifenknoten in Funktions-Grafen
 * [Engine] Hinzufügen des Volltonmodus zum Verlauf
-* [Engine] Atomic pow() node in Function Graph
+* [Engine] Atomic pow() node im Function Graf
 * [Engine] Hinzufügen von Optionen zum Einschließen von Rändern (Klemmen an Kante/Wiederholen) im Knoten Sampler
-* [Engine] Nächstliegendes Sampling im Knoten &quot;Verformen&quot; und &quot;Richtungsverkrümmung&quot;
+* [Engine] Nächstliegendes Sampling im Knoten &quot;Verformen und Richtungsverzerrung&quot;
 * [Engine] Hinzufügen eines &quot;Punch-Through-Alpha&quot;-Modus zum Scharfzeichnungsfilter für Farbeingaben
 * [Engine] FxMap: Halbkugelmorphlet
-* [Engine] Atomic Get/Set-Vorgänge in Funktionsdiagrammen
-* [Engine] Funktionen: genaue Funktion von log/log2/exp, 2pow verwenden - Vereinheitlichen Sie Funktionen zwischen Herd und Engine
+* [Engine] Atomic Get/Set-Vorgänge in Funktions-Grafen
+* [Engine] Funktionen: Verwenden Sie die genaue Funktion von log/log2/exp, 2pow - Vereinheitlichen Sie die Funktionen zwischen Herd und Engine
 * [Engine] Hinzufügen eines Parameters &quot;Intensitätsversatz&quot; zum Filter &quot;Richtungsverzerrung&quot;
 * [API] Unterstützung der Vorgabenverwaltung für Compositing-Graf
 * [Functions] Ändern des Eingabenamens für Funktions-elementare Knoten
@@ -1164,19 +1181,19 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [Cooker]&#x200B;[Graph] EXIF-Transformations-Tags in JPEG-Datei berücksichtigen
-* [Sicherheit] Upgrade auf 23,02 USD
+* [Cooker]&#x200B;[Graf] EXIF-Transformations-Tags in der JPEG-Datei berücksichtigen
+* [Sicherheit] Upgrade auf USD 23.02
 * [Sicherheit] Entfernen Sie die Unterstützung für den Import von Dateiformaten in Collada (.date)
 * [Substance-Modelle] Warnung vor dem Ende der Lebensdauer von Substance-Modellgrafiken in der nächsten Hauptversion
 
 **Fest:**
 
-* [3D-Ansicht]&#x200B;[ASM] Beschichtungsrauheitsartefakt bei Verwendung von CoatNormal
+* [3D-Ansicht]&#x200B;[ASM] Coating-Rauheit-Artefakt bei Verwendung von CoatNormal
 * [Inhalt] Parameter &quot;Mit Verlauf gefüllte Zellen&quot; des Alveolus-Knotens ist invertiert
 * [Inhalt] Eingabe Anzahl der Multiswitch-Knoten ist nicht fest
 * [Inhalt] Kochwarnung im Knoten Scratches Generator Normal
 * [Daten] Absturz beim manuellen Laden des Pakets nach Rückgängigmachen des vorherigen Ladens
-* [Daten] Absturz beim schnellen Rückgängigmachen mehrerer Diagrammvorgänge bis zum Laden des Pakets
+* [Daten] Absturz beim schnellen Rückgängigmachen mehrerer Graf-Vorgänge bis zum Laden des Pakets
 
 ### 12.4.0
 
@@ -1184,16 +1201,16 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [3D-Ansicht] Hinzufügen aller Optionen im Menü &quot;Anzeige&quot; als Symbolleistenschaltflächen
-* [API] Hinzufügen von Aktionen zu Symbolleisten der Diagrammansicht zulassen
+* [3D-Ansichten] Hinzufügen aller Optionen im Menü &quot;Anzeige&quot; als Symbolleistenschaltflächen
+* [API] Hinzufügen von Aktionen zu Graphansicht-Symbolleisten zulassen
 * [API] Erstellen, Bearbeiten und Bewerten eines Substance-Modelldiagramms über die API zulassen
-* [Farbmanagement] Verbessern der Qualität von gebackenen 3D-LUTs im ACE-Modus
-* [Dokumentation] Beispielprojekte für Substance Compositing-Graphen
-* [Dokumentation] Beispielprojekt für Funktionsdiagramme
-* [Explorer] Verschieben von Diagrammen und Ressourcen von einem übergeordneten Element in ein anderes zulassen, ohne Widgets zu schließen oder zu ungültig zu machen
-* [Verlaufseditor] Wählen Sie bei der Anzeige des Verlaufseditors den angeklickten Pin aus.
-* [Graph] Option hinzufügen im Kontextmenü eines Knotens, um alle untergeordneten Knoten auszuwählen
-* [Graph] Bereinigen Sie das Graph-Werkzeug, um nicht verwendete Knoten in allen Graphentypen und Eigenschaftendiagrammen zu erkennen und zu entfernen.
+* [Farbmanagement] Verbessern der Qualität Baking geführt 3D-LUTs im ACE
+* [Dokumentation] Beispielprojekte für Substance-Compositing-Graf
+* [Dokumentation] Beispielprojekt für Funktions-Graf
+* [Explorer] Verschieben von Graf und Ressourcen von einem übergeordneten Element zu einem anderen zulassen, ohne Widgets zu schließen oder zu ungültig zu machen
+* [Verlaufseditor] Wählen Sie die angeklickte Nadel aus, wenn Sie den Verlaufseditor anzeigen
+* [Graf] Option zum Hinzufügen einer Option zum Auswählen aller untergeordneten Knoten im Kontextmenü eines Knotens
+* [Graf] Bereinigen Sie das Graf-Tool, um nicht verwendete Graf in allen Knotentypen und Eigenschaften-Grafen zu erkennen und zu entfernen
 * [Graf] Transformieren der Bildeingabe in Farb-/Graustufendarstellung
 * [Parameter] Sperre für Ganzzahl2-Widgets hinzufügen
 * [Parameter] Einfache Formeln können als Parameter eingegeben werden
@@ -1229,12 +1246,12 @@ ht-degree: 0%
 **Fest:**
 
 * [3D Assets] &quot;Hilfe > Substance 3D Assets&quot; zielt fälschlicherweise auf Creative Cloud Desktop unter Linux
-* [3D-Ansicht] Materialien werden nicht erstellt, wenn das Gitter geladen wird
-* [3D-Ansicht] Die Materialliste wird geöffnet, wenn das Substance-Modelldiagramm im Ansichtsfenster abgelegt wird
+* [3D-Ansicht] Material werden nicht erstellt, wenn Mesh geladen wird.
+* [3D-Ansicht] Liste der Materialien wird geöffnet, wenn das Substance-Modelldiagramm im Viewport abgelegt wird
 * [Explorer] Die Auswahl mit der Tastatur kann nicht gelöscht werden, wenn ein Substance-Modelldiagramm enthalten ist
-* [Explorer] Absturz beim Öffnen des Kontextmenüs des Materialelements einer Gitterressource in Mac
-* [Graph] Instanzen, deren Eingabebilder von Werten abhängen, erzeugen ein falsches Ergebnis in nachfolgenden Knoten.
-* [Graph] Falsches Ergebnis bei Verwendung der Kette von Untergraphen mit aktivierter kontextbezogener Diagrammbearbeitung
+* [Explorer] Absturz beim Öffnen des Kontextmenüs des Material-Elements einer Mesh-Ressource in Mac
+* [Graf] Instanzen, deren Eingabebild von Werten abhängen, erzeugen ein falsches Ergebnis in nachfolgenden Knoten.
+* [Graf] Falsches Ergebnis bei Verwendung einer Kette von Untergraphen mit aktivierter kontextbezogener Bearbeitung von Graf
 * [MDL] Absturz beim Laden eines MDL-Diagramms, das auf einen Compositing-Graf mit veralteten Ausgaben verweist
 * [MDL] Textur 2D-Knoten funktioniert nicht mehr.
 * [Onboarding] Beschnittene und nicht lokalisierte Texte
@@ -1258,47 +1275,47 @@ ht-degree: 0%
 
 * [Allgemein] Onboarding-Bereich zur Aufnahme neuer Benutzer
 * [Allgemein] Neues Fenster zur Verbesserung der Auffindbarkeit neuer Funktionen
-* [Substance-Modell] Unterstützung von Unterdiagrammen und Instanzen
-* [Substance-Modell] Unterstützung von &quot;Sichtbar wenn&quot; für exponierte Parameter
+* [Substance-Modell] Unterstützung von untergeordneten Grafen und Instanzen
+* [Substance-Modell] Unterstützung für freigelegte Parameter sichtbar, wenn
 * [Substance-Modell] Hinzufügen von Unterstützung für Ausgabeknoten
 * [Substance-Modell] Kurvenversatzknoten
 * [Substance-Modell] Kurvenwiederherstellungsknoten
 * [Substance-Modell] Kurvenglättungsknoten
 * [Substance-Modell] Unterteilungsknoten für Kurven
 * [Substance-Modell] Graft-Knoten
-* [Substance-Modell] Knoten &quot;Filterszene&quot; aktualisieren
-* [Substance-Modell] Erkennen von nicht atomaren Knoten im Knotenmenü
-* [Substance-Modell] Fügen Sie die Aktion &quot;Open Reference&quot; im Kontextmenü eines Instanzknotens hinzu.
+* [Substance-Modell] Knoten &quot;Szene filtern&quot; aktualisieren
+* [Substance-Modell] Nicht-elementare Knoten im Knotenmenü sichtbar machen
+* [Substance-Modell] Fügen Sie die Aktion &quot;Verweis öffnen&quot; im Kontextmenü eines Instanzknotens hinzu
 * [Substance-Modell] Hinzufügen einer &quot;View in 3DView&quot;-Aktion im Kontextmenü von Knoten, die an 3DView gesendet werden können
-* [Substance-Modell] Zeigt automatisch die Eigenschaften eines Knotens an, nachdem er verfügbar gemacht wurde.
+* [Substance-Modell] Zeigt automatisch die Eigenschaften eines Knotens an, nachdem er gelegt wurde
 * [Substance-Modell] Fenster &quot;Neues Substance-Modelldiagramm&quot; mit Vorlagenliste erstellen
-* [UI] Verbessern der Konsistenz von Bildspeicheroptionen in der 2D- und 3D-Ansicht
+* [UI] Verbessern der Konsistenz von Bildspeicheroptionen in 2D-Ansicht und 3D-Ansicht
 * [UI] Benennen Sie &quot;Link > 3D-Mesh&quot; im Kontextmenü des Explorers in &quot;Link > 3D-Szene&quot; um.
 * [UI] Layout zurücksetzen wird jetzt auf alle schwebenden Fenster angewendet
-* [UI] Verwenden Sie die Beschriftung &quot;Ausgaben in 3D-Ansicht anzeigen&quot; in Kontextmenüs für Diagramme
-* [Library] Unterstützung von nicht-atomaren Substance-Modellgrafiken
-* [SBSAR] Beschreibung der Support Graph-Ausgaben im SBSAR
-* [Shader] Setzen Sie den Standardwert für den Tesselierungsfaktor für alle Shader auf 1.
-* [UI] Anzeige des Widgets &quot;2 Schaltflächen&quot; für boolesche Parameter
+* [UI] Verwenden Sie die Beschriftung &quot;Ausgaben in 3D-Ansicht anzeigen&quot; in Kontextmenüs für Graf
+* [Library] Unterstützung von nicht atomaren Substance-Modelldiagrammen
+* [SBSAR] Beschreibung der Support-Graphausgaben im SBSAR
+* [Shader] Stellen Sie den Standardwert für den Tessellation-Faktor für alle Shader auf 1 ein.
+* [UI] Leg des Widgets &quot;2 Schaltflächen&quot; für boolesche Parameter
 * [Engine] Update auf Version 8.6.4
 * [Steam] Optimierter Build für Apple Silicon Chipsatz (Apple M1 / M2)
 
 **Fest:**
 
 * [UI] Beheben von Skalierungsproblemen für Bildschirme mit hoher DPI
-* [UI] &#39;$(udim)&#39;-Vorlage fehlt in der Liste im Backing-Fenster
-* [UI] Absturz bei Anzeige des Knotenmenüs am rechten Rand des Bildschirms (nur macOS)
+* [UI] &#39;$(udim)&#39;-Vorlage fehlt in der Liste im Baking-Fenster
+* [UI] Absturz bei der Anzeige des Knotenmenüs am rechten Rand des Bildschirms (nur macOS)
 * [UI] Erweiterungsschaltfläche im Menü &quot;3D-Ansicht&quot; ist nicht sichtbar
-* [UI] Erweiterungsmenü der Diagrammsymbolleiste ist unvollständig
+* [UI] Erweiterungsmenü der Graf-Symbolleiste ist unvollständig
 * [UI] Falscher Parameter-Widget-Wert nach Rückgängigmachen der Aktivierung des harten Bereichs
-* [3D-Ansicht] Die nicht standardmäßige Shader-Einstellung geht auf dem Iran von einer Sitzung zu einer anderen verloren
-* [Bäcker] Absturz beim Laden des Backfensters mit einer Szene ohne Gitter
-* [Funktion] Absturz beim Kopieren einer Instanz in das referenzierte Diagramm
-* [Funktion] Beheben eines möglichen Absturzes beim Manipulieren von Knoten
+* [3D-Ansicht] Die nicht standardmäßige Shader-Einstellung geht bei Irays von einer Sitzung zu einer anderen verloren
+* [Baker] Absturz beim Laden eines Baking führend Fensters mit einer Szene ohne Mesh
+* Absturz [Function] beim Kopieren einer Instanz in den referenzierten Graf
+* [Funktion] Mögliche Absturz bei der Knotenbearbeitung beheben
 * [Globalization] Italic ist nicht immer korrekt auf Japanisch/Koreanisch/Chinesisch deaktiviert
-* [Graph] Falsche Fallback-ID für neue MDL- und Substance-Modelldiagramme
-* [Graph] Geerbte Parameter, die von Werten gesteuert werden, werden manchmal falsch berechnet
-* [GraphRender] Absturz beim Wechseln von Engines während der Berechnung des hochauflösenden Diagramms (nur macOS)
+* [Graf] Falsche Fallback-Identifizierung für neue MDL- und Substance-Modelldiagramme
+* [Graf] Geerbte Parameter, die von Werten gesteuert werden, werden manchmal falsch berechnet
+* [GraphRender] Absturz beim Wechseln von Enginen beim Berechnen von hochauflösendem Graf (nur macOS)
 
 ### 12.2.1
 
@@ -1306,11 +1323,11 @@ ht-degree: 0%
 
 **Fest:**
 
-* [Graph] Falsche Ergebnisse beim Ändern der übergeordneten Größe des Diagramms
+* [Graf] Falsche Ergebnisse beim Ändern der übergeordneten Größe des Grafen
 * [Absturz] Absturz beim Berechnen von Substance Compositing-Graf mit sehr hoher Auflösung
-* [Absturz] Absturz, wenn beim Laden des Pakets nicht mehr genügend Speicher zur Verfügung steht
-* [Absturz] Absturz bei Verwendung von Klammern in den Anmerkungen des angezeigten Parameters in einem Substance-Modelldiagramm
-* [Absturz] Verbessern der Stabilität beim Rendern von Substance-Compositing-Graphen
+* [Absturz] Absturz, wenn beim Laden des Pakets nicht genügend Arbeitsspeicher zur Verfügung steht
+* [Absturz] Absturz bei Verwendung der Klammer in den Anmerkungen des freigelegten Parameters in einem Substance-Modelldiagramm
+* [Absturz] Verbessern der Stabilität beim Rendern von Substance-Compositing-Grafen
 * [Iray] Update auf Version 2021.1.6
 
 ### 12.2.0
@@ -1320,53 +1337,53 @@ ht-degree: 0%
 **Hinzugefügt:**
 
 * [Apple] Unterstützung für natives Apple-Chip (M1) (nur Creative Cloud-Version)
-* [Substance-Modelldiagramm] Anzeigen von Knoten-QuickInfos in der Diagrammansicht
-* [Substance-Modelldiagramm] Anzeigen von Knoten-QuickInfos in Library
-* [Substance-Modelldiagramm] Hinzufügen eines Kontextmenüeintrags zu Vorschauknoten
-* [Substance-Modelldiagramm] Benutzer kann Verknüpfungen für Knotenerstellung erstellen
+* [Substance model graph] Knoten-QuickInfos in Graphansicht anzeigen
+* [Diagramm des Substance-Modells] Anzeigen der Knoten-QuickInfos in der Bibliothek
+* [Substance model graph] Hinzufügen eines Kontextmenüeintrags zu Vorschauknoten
+* [Diagramm des Substance-Modells] Benutzer können Tastaturbefehle für die Knotenerstellung erstellen
 * [UI] Hinzufügen der Option &quot;Ausgabe in 2D-Ansicht anzeigen&quot; im Kontextmenü des Compositing-Grafen
-* [UI] Teilen Sie die Einstellung &quot;Automatische Anzeige der Ausgaben&quot; in spezifische Einstellungen für 2D-Ansicht/3D-Ansicht auf.
-* [UI] Hinzufügen eines Dropdown-Pfeils und einer QuickInfo zur Schaltfläche &quot;Ausgabe anzeigen&quot; in der Symbolleiste der 2D-Ansicht
+* [UI] Aufteilen der Einstellung &quot;Automatische Anzeige von Ausgaben&quot; in 2D-Ansicht-/3D-Ansicht-spezifische Einstellungen
+* [UI] Hinzufügen eines Dropdown-Pfeils und einer QuickInfo zur Schaltfläche &quot;Ausgabe anzeigen&quot; in der Symbolleiste &quot;2D-Ansicht&quot;
 * [UI] Elemente im Bedienfeld &quot;Informationen&quot; des Explorers umformulieren und neu ordnen
-* [Farbmanagement] Fügen Sie &quot;Linear Adobe RGB (1998)&quot; und &quot;Adobe RGB (1998)&quot; hinzu, um Farbräume für Adobe ACE zu exportieren
+* [Farbmanagement] Hinzufügen von &quot;Linear Adobe RGB (1998)&quot; und &quot;Adobe RGB (1998)&quot; Export-Farbräumen für Adobe ACE
 * [Farbmanagement] Hinzufügen des &quot;Linear Adobe RGB (1998)&quot;-Arbeitsfarbraums für Adobe ACE
 * [Farbmanagement] Unterstützung für OCIO ICC-Displays hinzufügen
-* [Farbmanagement] Adobe RGB-Arbeitsfarbraum in ACE-Voreinstellungen ausblenden
-* [Farbmanagement] Verbessern der Qualität von gebackenen 3D-LUTs im ACE-Modus
+* [Farbmanagement] Ausblenden des Adobe RGB-Arbeitsfarbraums in den ACE
+* [Farbmanagement] Verbessern der Qualität Baking geführt 3D-LUTs im ACE
 * [Farbmanagement] Verwenden Sie das neue GPU-Backend im 3D-Viewer
 * [Lokalisierung] Vollständige Aktualisierung der koreanischen Sprache
 * [Engine] Update auf Version 8.6.0
-* [Graph] Weisen Sie einen Standarddiagrammbezeichner zu, wenn diese Eigenschaft leer gelassen wird
-* [Bibliothek] Deaktivieren von QuickInfo-Hyperlinks für Nicht-Instanzknoten
+* [Graf] Weisen Sie eine Standard-Graf-Identifizierung zu, wenn diese Eigenschaft leer bleibt.
+* [Library] Deaktivieren von QuickInfo-Hyperlinks für Nicht-Instanzknoten
 * [NewProject] Standardauflösung aktualisieren
 * [Vorlagen] CLO-Vorlage hinzufügen
-* [API] Stellen Sie die defaultParentSize-Eigenschaft für SDSBSCompGraph-Objekte bereit.
+* [API] Leg der defaultParentSize-Eigenschaft für SDSBSCompGraph-Objekte
 * [Abhängigkeiten] Aktualisieren Sie Alembic auf Version 1.8.3
 * [Abhängigkeiten] Aktualisieren von AXF auf Version 1.9.0
 * [Abhängigkeiten] Update Boost auf Version 1.76
-* [Abhängigkeiten] Aktualisieren Sie FBX auf Version 2020.2.1
-* [Abhängigkeiten] Aktualisieren von IRay auf Version 2021.1.0
-* [Abhängigkeiten] Update OpenColorIO auf Version 2.1.1
+* [Abhängigkeiten] Update FBX Version 2020.2.1
+* [Abhängigkeiten] Aktualisieren Sie Iray auf Version 2021.1.0
+* [Abhängigkeiten] Update OpenColorIO Version 2.1.1
 * [Abhängigkeiten] Update OpenEXR auf Version 3.1.5
 * [Abhängigkeiten] Update TBB auf Version 2020.3
-* [Abhängigkeiten] Aktualisieren Sie USD auf Version 0.22.3
-* [Entfernen] Deaktivieren der Post-Effects-Funktion (Yebis)
-* [Entfernen] Entfernen des Befehls &quot;Rendering in Artstation speichern&quot; aus dem Menü &quot;3D-Ansicht&quot;
+* [Abhängigkeiten] Update USD auf Version 0.22.3
+* [Entfernen] Deaktivieren Sie die Post-Effekte-Funktion (Yebis)
+* [Entfernen] Entfernen des Befehls &quot;Rendern auf der Artstation speichern&quot; aus dem Menü &quot;3D-Ansicht&quot;
 
 **Fest:**
 
-* [Substance-Modelle] Der für den angezeigten Parameter festgelegte Hartbereich wird beim Aufheben der Belichtung gespeichert
-* [Substance-Modelle] Bezeichner ist auf Konstantknoten nicht benutzerfreundlich
+* [Substance-Modelle] Beim Aufheben der Belichtung wird der auf freigelegte Parameter eingestellte Hartbereich gespeichert
+* [Substance-Modelle] Identifizierung ist auf Konstantknoten nicht benutzerfreundlich
 * [Substance-Modelle] Verbessern der Suche basierend auf Knotenkompatibilität
 * [UI] Die Reihenfolge des Untermenüs &quot;Neu&quot; ist für Ordnerressourcen falsch
 * [UI] Die Standardgröße des Hauptfensters ist sehr klein
 * [UI] Symbolleisten sind nicht von der Option &quot;Layout zurücksetzen&quot; betroffen
-* [UI] Sichtbares Transparenzraster auf dem Schriftenressourcensymbol im Explorer
-* [Cooker] Compositing-Graphen, die im MDL-Graphen instanziiert werden, werden immer vollständig wiederhergestellt.
-* [Graph] Absturz beim Einfügen eines Knotens, der aus einem Diagramm mit leerem Bezeichner kopiert wurde
+* [UI] Sichtbarer Transparenz-Raster auf dem Schriftenressourcen-Symbol im Explorer
+* [Cooker] In MDL-Diagramm instanziierte Compositing-Grafen werden immer vollständig wiederhergestellt.
+* [Graf] Absturz beim Einfügen eines von einem Graf mit leerer Identifizierung kopierten Knotens
 * [MDL] Absturz beim Schließen eines bestimmten MDL-Diagramms
 * [Leistung] Anwendung reagiert nicht, wenn sehr große Pakete geladen werden
-* [Ressourcen] 3D-Szenenressource kann in einem bestimmten Fall importiert werden
+* [Ressourcen] 3D-Szene-Ressource kann in einem bestimmten Fall importiert werden.
 
 ### 12.1.1
 
@@ -1377,9 +1394,9 @@ ht-degree: 0%
 * [Content] Die Ressource &quot;bluenoise\_256&quot; hat in einigen Knoten das Attribut &quot;colorspace&quot; definiert.
 * [Inhalt] Knoten &quot;Größe abrufen&quot; werden nicht in der Bibliothek angezeigt und die Graustufenversion ist falsch bezeichnet
 * [Inhalt] Der Parameter &quot;Random Color Seed&quot; in 2D Voronoi-Knoten hat keine Auswirkungen
-* [SBSRender] Exportieren eines Diagramms in EXR erzeugt nicht den gleichen bpc wie Designer
-* [Substance-Modelle] &quot;Gamma-Typ&quot; sollte nicht in den Eigenschaften des angezeigten Parameters angezeigt werden
-* [Substance-Modelle] Absturz bei Verwendung von Klammern in den Anmerkungen des angezeigten Parameters
+* [SBSRender] Exportieren eines Grafen in EXR erzeugt nicht die gleiche bpc wie Designer
+* [Substance-Modelle] &quot;Gamma-Typ&quot; sollte nicht in den Eigenschaften des freigelegten Parameters angezeigt werden
+* [Substance-Modelle] Absturz bei Verwendung von Klammern in freigelegte Parameter-Anmerkungen
 
 ### 12.1.0
 
@@ -1387,18 +1404,18 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [Main] Neuer Inhalt für Materialdiagramme
+* [Main] Neue Inhalte für Material-Graf
 * [Main] Materialien an Stager senden
-* [Main] Unterstützung von USD-Dateien
+* [Main] Unterstützung von USD
 * [Main] Verbessern der Fehlerberichterstattung in der Benutzeroberfläche
-* [Main] Szenenmanagement-Knoten für Modellgrafiken
-* [Inhalt] Weitere Optionen zu 3D-Perlin-Rauschen hinzufügen (Kacheln, Absolut...)
-* [Inhalt] Neuer Fraktalknoten &quot;3D-Ridge Noise&quot;
-* [Inhalt] Neuer Knoten &quot;3D-Texturversatz&quot;
-* [Inhalt] Neuer Knoten 3D-Texturposition
-* [Inhalt] Neuer Knoten 3D-Struktur rendern Oberfläche
-* [Inhalt] Neuer Knoten &quot;3D-Textur-Rendervolumen&quot;
-* [Inhalt] Neuer 3D-Textur-Vorzeichenbehaftetes Abstandsfeld-Knoten
+* [Main] Szenen-Management-Knoten für Modelldiagramme
+* [Inhalt] Weitere Optionen zu 3D-Perlin-Rauschen hinzufügen (Kachelung, Absolut...)
+* [Inhalt] Neuer 3D-Ridge-Rauschen-Fraktalknoten
+* [Inhalt] Neuer Versatzknoten für 3D-Textur
+* [Inhalt] Neuer Knoten &quot;3D-Textur-Position&quot;
+* [Inhalt] Neuer Knoten &quot;3D-Textur rendern&quot;
+* [Inhalt] Neuer Knoten &quot;3D-Textur rendern&quot;
+* [Inhalt] Neuer Knoten &quot;3D-Textur Vorzeichenbehaftetes Abstandsfeld&quot;
 * [Inhalt] Neuer Knoten für automatisches Freistellen
 * [Inhalt] Neue Beschleunigungsfunktionen
 * [Inhalt] Neue Extend Shape-Knoten
@@ -1408,9 +1425,9 @@ ht-degree: 0%
 * [Inhalt] Neuer Kachel-Zufallsgenerator 2
 * [Inhalt] Neuer Triangle Grid-Mustergenerator
 * [Inhalt] Neue Version des Knotens &quot;Graustufen quantisieren&quot;
-* [Inhalt] Neue Voronoi- und Voronoi-Fraktalrauschen (2D/3D)
+* [Inhalt] Neue Voronoi und Voronoi Fraktal Rauschen (2D/3D)
 * Schwellenwert [Inhalt]: Vergleichsmodus &quot;Unterer&quot; und &quot;Unterer und gleicher&quot; hinzufügen
-* [Inhalt]&#x200B;[3D-Ansicht] Fügen Sie den ausgelieferten Ressourcen eine Gitteranpassung für die Anzeige von Stoffen hinzu.
+* [Inhalt]&#x200B;[3D-Ansicht] Fügen Sie einen Mesh hinzu, der für die Anzeige von Stoffen in den ausgelieferten Ressourcen geeignet ist.
 * [Substance-Modelle] Neuer Knoten &quot;Gruppeninstanzen erweitern&quot;
 * [Substance-Modelle] Neuer Fuse-Knoten
 * [Substance-Modelle] Neuer Knoten Umbenennen
@@ -1419,48 +1436,48 @@ ht-degree: 0%
 * [Substance-Modelle] Update auf SDK 1.6.0
 * [UI] Verbessern des Verhaltens des Knotenmenüs bei Fehlklick
 * [UI] Öffnen Sie Untergraph auf derselben Registerkarte, auch wenn sie angeheftet sind
-* [UI] Schaltfläche &quot;Pin entfernen&quot; in der Titelleiste des Explorer-Bedienfelds
+* [UI] Schaltfläche &quot;Nadel entfernen&quot; in der Titelleiste des Bedienfelds &quot;Explorer&quot;
 * [UI] Speichern Sie die Option &quot;Nicht mehr anzeigen&quot; auf dem Begrüßungsbildschirm in allen Versionen
 * [ThirdParty] Upgrade Qt (und QtForPython) auf 5.15.8
 * [Drittanbieter] Upgrade von Python auf 3.9.9
 * [Drittanbieter] Upgrade von OpenSSL auf 1.1.1m
-* [3D-Ansicht] Die Rastereinheit im Viewport anzeigen, wenn der &quot;Achsen&quot;-Helfer aktiviert ist
+* [3D-Ansicht] Zeigt den Raster im Viewport an, wenn der Helfer &quot;Achse&quot; aktiviert ist.
 * [Automatisierung] Bereitstellen des Absbaker-Befehlszeilentools mit Designer
 * [Farbmanagement] Implementieren eines neuen GPU-Backends für Adobe ACE
 * [Cooker] Fügen Sie eine Option hinzu, um ein Paket ohne Zeitstempel zu kochen
-* [Graph] Hinzufügen von Abzeichen im FxMap-Diagramm
+* [Graf] Hinzufügen von Abzeichen im FxMap-Graf
 * [Library] Neuen Filter für Easings-Funktionen hinzufügen
-* [Player] USD-Unterstützung
+* [Player] USD
 * [Eigenschaften] Hinzufügen eines Warnfehlers für den Parameter &quot;PKG-Ressourcenpfad&quot; eines Bitmap-Knotens, wenn die Ressource nicht gefunden wird
 * [Substance Engine] Upgrade auf 8.4.1
-* [Yebis] Warnen Sie den Benutzer, dass Yebis-Post-Effekte in der nächsten Version entfernt werden
+* [Yebis] Warnen Sie den Benutzer, dass Yebis-Post-Effekte in der nächsten Version entfernt werden.
 * [Dokumentation] Neue Seite &quot;Warnungen und Fehler&quot;
-* [Dokumentation] Neue Seite zur Beschreibung der Vererbung in Substance-Kompositionsdiagrammen
+* [Dokumentation] Neue Seite mit Beschreibungen der Vererbung in Substance-Compositing-Grafen
 * [Dokumentation] Abschnitt &quot;Iray&quot; aktualisieren
 * [Dokumentation] Abschnitt &quot;MDL-Diagramme&quot; aktualisieren
 
 **Fest:**
 
-* [UI] Beschneidungsprobleme in den QuickInfos für Vorlagen im neuen Diagrammfenster
+* [UI] Beschneidungsprobleme in den QuickInfos für Vorlagen im neuen Graf-Fenster
 * [UI] Schwer lesbarer weißer Text in Knoten bei Verwendung des Dunkelmodus in macOS
 * [UI] Layoutproblem in einigen Dialogfeldern
-* [UI] Beim Erstellen eines Substance-Funktionsdiagramms im Explorer wird eine Warnmeldung angezeigt, die abgeschnitten ist.
+* [UI] Beim Erstellen eines Substance-Funktions-Grafen im Explorer wird eine Warnmeldung angezeigt, die abgeschnitten ist.
 * [UX] Der Farbwähler bewegt sich bei jeder neuen Öffnung nach unten
 * [UX] Das Fenster des Verlaufseditors bewegt sich bei jedem Start nach oben
-* [UX] Diagrammeigenschaften werden für geladene Pakete nicht automatisch angezeigt
+* [UX] Paketeigenschaften werden nicht automatisch für geladene Graf angezeigt
 * [Inhalt] Flood Fill Mapper: Falsche Eingabeauswahl in einem bestimmten Fall
 * Flood Fill [Inhalt]: Anschnittbereich in Schaltflächen für boolesche Parameter
 * [Inhalt] Falscher Bereich für den Parameter &quot;Erster Lichtwinkel&quot; des Knotens &quot;Mehrere Winkel&quot; bis &quot;Normal&quot;
-* [Substance-Modelle] Eigenschaften des Knotens zeigen Bezeichner anstelle der Bezeichnung an
+* [Substance-Modelle] Eigenschaften des Knotens zeigen Identifizierung anstelle der Beschriftung an
 * [Substance-Modelle]&#x200B;[3D-Ansicht] Aktualisierungsproblem beim erneuten Öffnen eines Projekts
 * [Substance-Modelle]&#x200B;[3Dview] Aktualisierungsproblem bei Verwendung der Drahtgitter-Vorschau
-* [Parameter] Absturz beim Löschen von Diagrammeingaben in schneller Abfolge in einem bestimmten Fall
-* [Parameter] Absturz beim Zurücksetzen eines Instanzparameters während der Bearbeitung seiner Referenzbeschreibung
-* [Bitmap] UDIM-Erkennung wird nicht für Bitmap-Dateien ausgelöst, die im Diagramm abgelegt wurden
-* [Graph] Bitmap-/SVG-Knoten werden nicht ungültig, wenn die Ressource nach dem Laden des Pakets auf der Festplatte geändert wird
-* [GraphRender] Speicherleck, wenn die Substance-Diagrammauswertung abgebrochen wird
+* [Parameter] Absturz beim Löschen von Graf-Eingaben in schneller Abfolge in einem bestimmten Fall
+* [Parameters] Absturz beim Zurücksetzen eines Instanzparameters beim Bearbeiten der Referenzbeschreibung
+* [Bitmap] Die UDIM-Erkennung wird nicht für Bitmapdateien ausgelöst, die im Graf abgelegt wurden
+* [Graf] Bitmap-/SVG-Knoten werden nicht ungültig, wenn die Ressource nach dem Laden des Pakets auf der Festplatte geändert wird.
+* [GraphRender] Speicherleck, wenn die Substance-Graf-Bewertung abgebrochen wird
 * [Localization] Die Zeichenfolge &quot;Alle Maps für diese Ressource erneut erstellen&quot; wird nicht lokalisiert angezeigt.
-* [MDL] Verfügbarer Parameter initialisiert auf 0, wenn der Eingang mit einem nicht verbundenen Punktknoten verbunden ist
+* [MDL] Freigelegte Parameter initialisiert auf 0, wenn der Eingang mit einem nicht verbundenen Punktknoten verbunden ist
 * [Voreinstellungen] QuickInfos werden auch dann angezeigt, wenn sich der Cursor in einem leeren Bereich befindet
 * [Eigenschaften] Durch Rückgängigmachen einer Änderung des Farbraumwerts wird der Standardwert in einem bestimmten Fall festgelegt
 * [Text] Der Schriftartwechsel kann nicht rückgängig gemacht werden, um eine fehlende Schriftartenressource zu erhalten
@@ -1475,7 +1492,7 @@ ht-degree: 0%
 
 * [Substance-Modelle] Bereiche können in einigen Fällen verloren gehen
 * [Substance-Modelle]&#x200B;[Exportieren] Die Skalierung variiert je nach Dateityp.
-* [Substance-Modelle]&#x200B;[Exportieren] Gitter werden dupliziert.
+* [Substance-Modelle]&#x200B;[Exportieren] Mesh werden dupliziert.
 
 ### 11.3.2
 
@@ -1487,14 +1504,14 @@ ht-degree: 0%
 
 **Fest:**
 
-* [Substance-Modelle] Paket, das Substance-Modelldiagramme enthält, kann nicht veröffentlicht werden
+* [Substance-Modelle] Paket, das Substance-Graf enthält, kann nicht veröffentlicht werden
 * [Substance-Modelle] In bestimmten Fällen kann ein Modelldiagramm nicht exportiert werden.
 * [Substance-Modelle] Konsistentere Parameterbereiche
 * [MDL] Absturz beim Exportieren der MDLE-Datei
-* [MDL] Falsche MDL-Datei generiert, wenn ein MDL-Diagramm Punktknoten enthält, die mit den verfügbaren Parametern verbunden sind
+* [MDL] Falsche MDL-Datei generiert, wenn ein MDL-Diagramm Punktknoten enthält, die mit Freigelegte Parameter verbunden sind
 * [2D-Ansicht] Optimieren der Anzeige von Malwerkzeugen
-* [Inhalt] Inkonsistente Einrichtung von Parametern für die Ausgabegröße in den Quelldiagrammen der Vorlage
-* [Eigenschaften] Beschriftungen von Soft-/Hard-Bereichen sind im Eigenschaftenfenster für MDL- und Substance-exponierte Knoten falsch
+* [Inhalt] Inkonsistente Einrichtung von Parametern für die Ausgabegröße in den Quell-Grafen der Vorlage
+* [Eigenschaften] Beschriftungen von Soft-/Hard-Bereichen sind im Eigenschaftenfenster für die gelegt Knoten der MDL- und Substance-Modelle falsch
 * [Vorlagen] Aktualisieren Sie die Standardwerte der Eingaben in der Vorlage &quot;Sampler-Filter&quot;
 
 ### 11.3.1
@@ -1503,7 +1520,7 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [Graph] Hinzufügen einer Warnung beim Löschen eines Graphen, der in einem anderen Graph/Paket verwendet wird
+* [Graf] Hinzufügen einer Warnung beim Löschen eines Grafen, der in einem anderen Graf/Paket verwendet wird
 
 **Fest:**
 
@@ -1512,19 +1529,19 @@ ht-degree: 0%
 * [UI] Falsche Markierung in den Voreinstellungen für Tastaturbefehle
 * [UI] Die Größe des Hauptfensters ist nach dem Neustart einer Sitzung in einem Fenster zu klein (nur macOS)
 * [UI] Maximiertes Dock wird beim Beenden nicht minimiert (nur Windows)
-* [UI] Fehlender Platz in der Tooltip für den Parameter &quot;Level Out High&quot;[3DView] Achse in der 3D-Ansicht ist zu klein, wenn der Begrenzungsrahmen der Szene dünn ist
+* [UI] Fehlender Platz in der Tooltip [3DView]-Achse des Parameters &quot;Lichter in Ausgabebild&quot; in der 3D-Ansicht ist zu klein, wenn der Begrenzungsrahmen der Szene dünn ist
 * [UI] Stilproblem bei einigen Texten in den Projekteinstellungen für die französische Sprache
-* [Substance-Modelle] Das Klemmen auf belichteten Parametern wird nicht sitzungsübergreifend gespeichert
-* [Substance-Modelle] Der Umschalt-Modifizierer ist nach Verwendung des Knotenvorschau-Kurzbefehls weiterhin aktiviert
+* [Substance-Modelle] Auf freigelegten Parametern Beschränkt werden nicht sitzungsübergreifend gespeichert
+* [Substance-Modelle] Der Shift-Modifizierer ist nach Verwendung des Node-Preview-Tastaturbefehl weiterhin aktiviert
 * [Substance-Modelle] Einige gelöschte Knoten verbleiben im exportierten SBSM
 * [Substance-Modelle] Zielknoten der Auswertung akkumulieren und werden nicht gelöscht[API] Absturz beim Rendern des Kurvenknotens, welche Eigenschaften über API festgelegt wurden
-* [Bäcker] Widget &quot;Materialfarbe&quot; ist nicht sichtbar und funktioniert nicht wie erwartet
-* [Content] PBR-Rendering-Node: interne Berechnung, die nicht mit der Auflösung des Knotens durchgeführt wird
-* [Funktionsdiagramm] Meldungen, die die erwarteten Typen anzeigen, sind in einigen Fällen falsch
-* [Graph] Eingabe relativ zur Eingabe: geerbte Parameter sind bei verbundenen Instanzen falsch
-* [MDL] Substance-Graph-Instanzen werden in MDL-Graphen nicht zuverlässig aktualisiert
-* [Publish] Veröffentlichen des Diagramms mit zirkulären Abhängigkeiten ist fehlgeschlagen.
-* [Tastaturbefehle] Umschalt+Leertaste sollte kein zuweisbarer Tastaturbefehl für Knoten sein
+* [Baker] Widget &quot;Material-Farbe&quot; ist nicht sichtbar und funktioniert nicht wie erwartet
+* [Content] PBR-Rendering-Node: Interne Berechnung wird nicht mit der Auflösung des Knotens ausgeführt
+* [Funktions-Graf] Meldungen, die die erwarteten Typen anzeigen, sind in einigen Fällen falsch
+* [Graf] Eingabe relativ zur Eingabe: geerbte Parameter sind bei verbundenen Instanzen falsch
+* [MDL] Substance-Grapheninstanzen werden in MDL-Diagrammen nicht zuverlässig aktualisiert
+* [Publish] Fehler beim Veröffentlichen von Graf, der zirkuläre Abhängigkeiten enthält.
+* [Tastaturbefehle] Umschalt+Leertaste sollte kein zuweisbarer Tastaturknoten-Tastaturbefehl sein.
 * [Vorlagen] Das Ausgabeformat benutzerdefinierter Vorlagen wird ignoriert.
 
 ### 11.3.0
@@ -1536,79 +1553,79 @@ ht-degree: 0%
 * [Substance-Modelle] Hinzufügen von QuickInfos für Knotenparameter
 * [Substance-Modelle] Anzeigen des Ergebnisses eines Zwischenknotens im Overlay im 3D-Viewport zulassen
 * [Substance-Modelle] Verbessern der Anzeige von Basis
-* [Substance-Modelle] Behalten Sie die Hierarchie der Objekte beim Exportieren eines Substance-Modelldiagramms nach .fbx bei
-* [Substance-Modelle] Unterstützung mehrerer Materialien beim FBX/OBJ-Export aus dem Substance-Modelldiagramm
-* [Substance-Modelle]&#x200B;[Inhalt] Partikelknoten
-* [Substance-Modelle]&#x200B;[Inhalt] Knoten &quot;Generative Transformation&quot;
+* [Substance-Modelle] Behalten Sie die Hierarchie der Objekte beim Exportieren eines Substance Model-Diagramms nach .fbx bei
+* [Substance-Modelle] Unterstützung mehrerer Materialien beim FBX/OBJ-Export aus dem Substance Model-Diagramm
+* [Substance-Modelle]&#x200B;[Content] Partikel Node
+* [Substance-Modelle]&#x200B;[Inhalt] Generativer Transformieren Knoten
 * [Substance-Modelle]&#x200B;[Inhalt] Organic Pattern node
-* [Substance-Modelle]&#x200B;[Inhalt] Knoten &quot;Partikel aus Instanzen&quot;
-* [Substance-Modelle]&#x200B;[Inhalt] Particle Pruning node
+* [Substance-Modelle]&#x200B;[Inhalt] Partikeln vom Instanzknoten
+* [Substance-Modelle]&#x200B;[Inhalt] Partikel Pruning-Knoten
 * [Substance-Modelle]&#x200B;[Inhalt] Drehknoten
 * [Substance-Modelle]&#x200B;[Inhalt] Shell-Knoten
-* [Substance-Modelle]&#x200B;[Content] Projektionsknoten
+* [Substance-Modelle]&#x200B;[Content] Projektion Node
 * [Substance-Modelle]&#x200B;[Inhalt] Knoten &quot;Kurven zuschneiden&quot;
 * [Substance-Modelle]&#x200B;[Inhalt] Kurve aktualisieren Sampler-Knoten
 * [Substance-Modelle]&#x200B;[Inhalt] Mesh Sampler-Knoten aktualisieren
-* [Substance-Modelle]&#x200B;[Inhalt] Jitter-Knoten aktualisieren
+* [Substance-Modelle]&#x200B;[Inhalt] Knoten &quot;Jitter aktualisieren&quot;
 * Schaltfläche [UX] zum Maximieren der aktuellen Ansicht
-* [UX] Neues Diagrammfenster aktualisieren
+* [UX] Fenster &quot;Neuer Graf&quot; aktualisieren
 * [UX] Option &quot;Player herunterladen&quot; im Menü &quot;Extras&quot; hinzufügen und mit &quot;Player suchen&quot; aggregieren
 * [UX] Hinzufügen des Eintrags &quot;Alle schließen&quot; zum Dateimenü
 * [UX] Konsistente Groß- und Kleinschreibung im gesamten Hauptmenü anwenden
-* [UX] Automatische Anzeige der Eigenschaften von duplizierten Diagrammelementen
-* [UX] Hinzufügen von Schaltflächen in der Diagrammsymbolleiste, um die konstante Bildschirmgröße für Frame-Titel/Kommentare/Pins zu deaktivieren
+* [UX] Automatische Anzeige der Eigenschaften von duplizierten Graf-Elementen
+* [UX] Hinzufügen von Schaltflächen in der Kommentarsymbolleiste, um die konstante Bildschirmgröße für Rahmen/Grafen/Nadeln zu deaktivieren
 * [UX] Schaltflächen zum Kopieren von Versionsinformationen in die Zwischenablage im Dialogfeld &quot;Info&quot;
-* [Materialien] Eingänge relativ zu Eingängen
-* [Inhalt] Option &quot;Kacheln&quot; für 3D-Perlin-Rauschen hinzufügen
-* [Inhalt] Neuer Diffusionsprozessknoten
+* [Materials] Eingaben relativ zu Eingängen
+* [Inhalt] Option &quot;Kachelung&quot; auf 3D-Perlin-Rauschen hinzufügen
+* [Inhalt] Neuer Prozessknoten für Diffusionen
 * [Inhalt] Neue PBR-Rendering-Knotenversion
-* [Interoperabilität] SBS und SBSAR von Sampler erhalten
+* [Interoperabilität] Empfangen von SBS und SBSAR von Sampler
 * [Interoperabilität] SBSM an Stager senden
-* [3D-Ansicht] Fügen Sie eine Option hinzu, um die Rückseitenschälung zu deaktivieren.
-* [3D-Ansicht] Fügen Sie eine Option hinzu, um den Tangentenraum &quot;Scheitelpunkt&quot; anzuzeigen.
-* [Explorer] Diagramm im Explorer markieren, wenn Sie auf den Hintergrund der Diagrammansicht doppelklicken
-* [Explorer] Entfernen der Option &quot;Durchsuchen&quot; in Kontextmenüs
-* [Bäcker] Veraltete Bäcker ausblenden
+* [3D-Ansicht] Fügen Sie eine Option hinzu, um Rückseiten-Ausblendung zu deaktivieren.
+* [3D-Ansicht] Fügen Sie eine Option hinzu, um den Tangente-Speicherplatz des Scheitelpunkts anzuzeigen
+* [Explorer] Markieren Sie Graf im Explorer, wenn Sie auf den Hintergrund der Graphansicht doppelklicken
+* [Explorer] Entfernen Sie die Option &quot;Durchsuchen&quot; in Kontextmenüs.
+* [Baker] Veraltete Baker ausblenden
 * [Farbmanagement] Unterstützung für OCIO v2-Konfigurationsdateiregeln hinzufügen
-* [Bibliothek] Umbenennen von Kategorien nach Diagrammtypen
-* [Voreinstellungen] Automatische Deaktivierung der CPU in den Iray-Hardware-Voreinstellungen, wenn unterstützte CUDA-GPU erkannt wird
+* [Library] Umbenennen von Kategorien nach Grafen
+* [Voreinstellungen] Automatische Deaktivierung der CPU in den Voreinstellungen für die Iray-Hardware, wenn unterstützte CUDA-GPU erkannt wird
 
 **Fest:**
 
 * [Substance-Modelle] Absturz auf Mac bei Verwendung der Option &quot;as sudb&quot; auf .fbx
 * [Substance-Modelle] Absturz beim Exportieren nach SBSM in einem bestimmten Fall
-* [Substance-Modelle] Exportfehler beim Exportieren von angezeigten Parametern, deren Widgets nie erstellt wurden
-* [Substance-Modelle] Zufälliger Absturz beim Öffnen eines Diagramms, der sich auf mehrere .fbx-Dateien bezieht
-* [Substance-Modelle] Bereiche werden in den Widgets der angezeigten Parameter nicht dynamisch angewendet.
-* [Substance-Modelle] Die Option &quot;Gitter neu laden&quot; funktioniert nicht für Ressourcen, die im Diagramm &quot;Substance-Modelle&quot; verwendet werden
-* [Substance-Modelle] In einem bestimmten Fall werden Szenen nicht in einer verfügbaren 3D-Ansicht angezeigt
-* [UI] Der Bereich &quot;Deaktivieren&quot; ist in den Materialoptionen zu groß
+* [Substance-Modelle] Exportfehler beim Exportieren von freigelegten Parametern, die nie erstellt wurden
+* [Substance-Modelle] Zufälliger Absturz beim Öffnen eines Grafen, der sich auf mehrere .fbx-Dateien bezieht
+* [Substance-Modelle] Bereiche werden in den Widgets der freigelegte Parameter nicht dynamisch angewendet
+* [Substance-Modelle] Option &quot;Mesh neu laden&quot; funktioniert nicht für Ressourcen, die im Graf &quot;Substance-Modelle&quot; verwendet werden
+* [Substance-Modelle] Szenen werden in einem bestimmten Fall nicht in einer verfügbaren 3D-Ansicht angezeigt
+* [UI] Der Bereich &quot;Deaktivieren&quot; ist in den Material-Optionen zu groß
 * [UI] Stilproblem im Dialogfeld &quot;Paketdatei nicht gespeichert&quot;
 * [UI] Die Tabulatortaste muss zweimal gedrückt werden, um zwischen Werten zu navigieren
-* [UI] Das Zoomen mit der Maus wird zwischen der 3D-Ansicht und anderen Viewports umgekehrt
+* [UI] Das Zoomen mit der Maus und Ziehen wird zwischen 3D-Ansicht und anderen Viewporten umgekehrt
 * [UI] Das Laden eines bereits geöffneten SBS mithilfe der Liste &quot;Zuletzt verwendete Dateien&quot; löst fälschlicherweise die Aufforderung &quot;Paket nicht gefunden&quot; aus.
 * [UI]&#x200B;[macOS] Falsches Standard-UI-Layout nach dem Starten der Anwendung
 * [UI] Pakete können nicht im Stammverzeichnis eines Laufwerks gespeichert werden (nur Windows)
-* [Diagramm] Die Option &quot;In 2D-Ansicht automatisch anzeigen&quot; ist in einem bestimmten Fall inkonsistent
-* [Graph] Option &quot;Open Reference&quot; ist für SBSAR-Instanzknoten verfügbar
-* [Diagramm] Pin-Eigenschaften werden nur angezeigt, wenn ein Element erstellt wird
-* [Graph] Zeichenfolgenregeln werden inkonsistent erzwungen
-* [Graph] Absturz beim Speichern eines leeren Diagramms
-* [3D-Ansicht] Der Anisotropie-Winkel wird im ASM-Shader invertiert
-* [3D-Ansicht] ASM Shader: Linearisierungsprobleme mit SSS-bezogenen Karten
+* [Graf] Die Option &quot;Automatisch in 2D-Ansicht anzeigen&quot; ist in einem bestimmten Fall inkonsistent
+* [Graf] Option &quot;Open Reference&quot; ist für SBSAR-Instanzknoten verfügbar
+* [Graf] Eigenschaften der Nadel werden nur angezeigt, wenn ein Element erstellt wird.
+* [Graf] Regeln für Nadeln-Zeichenfolgen werden inkonsistent erzwungen
+* [Graf] Absturz beim Speichern eines leeren Grafen
+* [3D-Ansicht] Anisotropy angle ist im ASM-Shader invertiert
+* [3D-Ansicht] ASM-Shader: Linearisierungsprobleme mit SSS-bezogenen Karten
 * [3D-Ansicht] Fehlerhaftes OpenGL-Rendering nach dem Schließen zusätzlicher 3D-Ansichten in einem bestimmten Fall
-* [3D-Ansicht] Die vordefinierten Kamerapositionen sind in der 3D-Ansicht mit einigen .fbx-Dateien nicht korrekt
-* [MDL] &quot;Knoten hinzufügen&quot; aus dem Kontextmenü funktioniert nicht für MDL-Diagramme
+* [3D-Ansicht] Die vordefinierten Kameras sind in der 3D-Ansicht mit einigen .fbx-Dateien nicht korrekt.
+* [MDL] &quot;Knoten hinzufügen&quot; aus dem Kontextmenü funktioniert nicht für MDL-Diagramm
 * [MDL] Fehler: Die Verbindung des Knotens schlägt fehl, wenn float2.x-Komponenten und Ähnliches verwendet werden (SD 11.1.2)
 * [MDL] Absturz beim Öffnen der Datei specific.sbs
-* [MDL] Szeneneinheiten pro Meter in Irak sind beim Start der Rendersitzung nicht festgelegt
-* [MDL] Einfrieren beim Anpassen eines Lerp-Knotens im MDL-Diagramm
+* [MDL] Szene-Einheiten pro Meter im Iray, die beim Start der Rendersitzung nicht festgelegt wurden
+* [MDL] Einfrieren beim Anpassen eines Meldungsknotens im MDL-Diagramm
 * [MDL] Reihenfolge der Parameter im exportierten MDL-Code
-* [Explorer] Leerer Ressourcenordner wird nach Abbruch der Ressourcenerstellung erstellt
-* [Explorer] Nur das erste Element eines Pakets kann an den unteren Rand der Liste verschoben werden.
-* [Content] RT Bent Normal und RT AO lösen Knotenberechnung in verschachtelten Graphen aus
-* [Eingabeknoten] Bitmap in Eingabeknoten wird nicht aktualisiert, wenn sich UDIM ändert
-* [Iray] Es wird viel Zeit in Anspruch genommen, wenn versucht wird, eine Substance-Modellszene mit vielen Instanzen anzuzeigen.
+* [Explorer] Leerer Ressourcenordner wird erstellt, nachdem die Ressourcenerstellung abgebrochen wurde.
+* [Explorer] Nur das erste Element eines Pakets kann an das Ende der Liste verschoben werden.
+* [Inhalt] RT Bent Normal und RT AO lösen die Berechnung von Knoten in verschachtelten Graf aus
+* [Eingabeknoten] Bitmap in Eingabeknoten wird bei einer UDIM-Änderung nicht aktualisiert
+* [Iray] Es wird viel Zeit in Anspruch genommen, wenn versucht wird, eine Substance-Modelle-Szene mit vielen Instanzen anzuzeigen.
 * [Voreinstellungen] Leere Zeile beim Abbrechen des Hinzufügens einer Projektdatei
 * [Python-Editor] Die Option &quot;Schließen&quot; bleibt nach dem Schließen des letzten Skripts aktiviert und enthält weiterhin seinen Namen æ
 
@@ -1618,18 +1635,18 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [Eigenschaften] Neue Diagrammtypen für Aufkleber, Atlanten, Umgebungslichter und Lichtstrukturen hinzufügen
+* [Eigenschaften] Hinzufügen neuer Graf-Typen für Aufkleber, Atlanten, Umgebungslichter und leichte Texturen
 
 **Fest:**
 
 * [UI] Falsches Schnittstellenlayout nach dem Starten der Anwendung
-* [Stabilität] Abstürze beheben, wenn Sie den Energiesparmodus unter Windows beenden und Bildschirme anschließen/trennen
-* [3D-Ansicht] Das Erstellen einer 3D-Szenenressource aus dem Substance-Modelldiagramm &quot;Szene&quot; hat keine Auswirkungen
-* [Angleichen] Enumerationswerte fehlen, wenn der Mischmodus angezeigt wird
-* [Exportieren] Der Szenenexport von Substance-Modellen führt zu duplizierter Geometrie
-* [MDL] Absturz beim Öffnen einer bestimmten SBS-Datei
-* [Gitter] Absturz beim Verknüpfen eines bestimmten Gitters mit fehlerhafter Geometrie
-* [Substance-Modelle] Export schlägt fehl, wenn der Standardwert des angezeigten Parameters außerhalb des Soft-Range liegt
+* [Stabilität] Beheben Sie Absturz, wenn Sie den Energiesparmodus unter Windows beenden und Bildschirme anschließen/trennen.
+* [3D-Ansicht] Das Erstellen einer Datenressource aus der Substance Model Graph-Szene hat keine Auswirkungen auf die 3D-Szene
+* [Überblendung] Enumerationswerte fehlen, wenn der Füllmethode gelegt wird
+* [Exportieren] Der Szene-Export von Substance-Modellen führt zu duplizierter Geometrie
+* [MDL] Absturz beim Öffnen einer bestimmten SBS
+* [Mesh] Absturz beim Verknüpfen von bestimmtem Mesh mit fehlerhafter Geometrie
+* [Substance-Modelle] Der Export schlägt fehl, wenn der Standardwert des freigelegten Parameters außerhalb des Soft-Range liegt
 
 ### 11.2.1
 
@@ -1640,9 +1657,9 @@ ht-degree: 0%
 * [Substance-Modell] Update auf Version 1.0.3
 * [Substance-Modell] Vervollständigen und verbessern Sie die Dokumentation der Substance-Modelldiagramme
 * [Substance-Modell] Protokolle in der Konsole anzeigen
-* [Substance-Modell]&#x200B;[ScatterOnCurves] Ändern des Standardwerts für den Abstand
+* [Substance-Modell]&#x200B;[ScatterOnCurves] Ändern des Standardwerts für Abstand
 * [Substance-Modell]&#x200B;[ScatterOnCurves] Entfernen des nicht benötigten Parameters &quot;HalfSpaceOddEven&quot;
-* [Substance-Modell]&#x200B;[Transformieren] Aktualisieren des weichen Bereichs der Euler-Drehung
+* [Substance-Modell]&#x200B;[Transformieren] Aktualisieren des Soft-Range der Euler-Drehung
 * [Publish] Einstellungen im Publish-Fenster speichern
 * [Publish] Warnen Sie den Benutzer, wenn mindestens eine Abhängigkeit nicht gespeicherte Änderungen enthält
 * [Publish] Feld &quot;Dateipfad&quot; initialisieren
@@ -1677,14 +1694,14 @@ ht-degree: 0%
 * [Interoperabilität] Das erneute Schließen unmittelbar nach dem Schließen der Zielanwendung führt zu API-Fehlern
 * [Explorer] [Graf] Nach dem erneuten Laden eines Pakets ist der erste geöffnete Graf nicht der erste Graf des Pakets.
 * [Explorer] Neue Graf in einem Paket werden je nach Typ nicht auf die gleiche Weise platziert.
-* [Explorer] Ein Substance-Modelldiagramm oder eine Szenenressource kann nicht geöffnet werden, nachdem sie in den Explorer verschoben wurde
+* [Explorer] Ein Substance-Modelldiagramm oder eine Szene-Ressource kann nicht geöffnet werden, nachdem sie in den Explorer verschoben wurde
 * [Explorer] Absturz/Einfrieren beim Verschieben eines Substance-Modelldiagramms in die Pakethierarchie
 * [Library] SBSAR-Dateien verbleiben am Speicherort für temporäre Dateien.
 * [Library] XML-Dateien verbleiben im Speicherort für temporäre Dateien.
 * [Player] Material hat keine Auswirkungen auf die 3D-Ansicht, wenn die Sprache auf Japanisch festgelegt ist
-* [Player] Download-Link für Substance Player ist veraltet
+* [Player] Substance Player-Download-Link ist veraltet
 * [Farb-Widget] Das Farbeditor-Fenster wird an den oberen Rand des Bildschirms verschoben.
-* [IRay] Beheben Sie das Laden des IRay-Moduls unter Windows, wenn das App-Verzeichnis Nicht-ASCII-Zeichen enthält
+* [Iray] Behebung des Ladens des Iray-Moduls unter Windows, wenn das App-Verzeichnis Nicht-ASCII-Zeichen enthält
 * [Voreinstellungen] Das MDL-Bedienfeld wird im Projekt zweimal angezeigt
 * [API] FxMap-Knoten unterstützen getPropertyGraph() nicht.
 
@@ -1696,9 +1713,9 @@ ht-degree: 0%
 
 * [Branding] Substance Designer wird zu Adobe Substance 3D Designer
 * [Substance Models] Neue Substance-Modellgrafiken zur Erstellung prozeduraler 3D-
-* [Inhalt] Neue HDR-Umgebungszuordnungen hinzufügen
+* [Inhalt] Neue HDR hinzufügen. Umgebungs-Map
 * [Inhalt] Neuer Knoten Gebogenes Normal
-* [Inhalt] Neuer Knoten &quot;RT Ambient Verdeckung&quot;
+* [Inhalt] Neuer RT-Ambient occlusion-Knoten
 * [Inhalt] Neuer RT-Kaustikknoten
 * [Inhalt] Neuer RT-Kaustikknoten
 * [Inhalt] Neuer RT-Bestrahlungsknoten
@@ -1706,7 +1723,7 @@ ht-degree: 0%
 * [Interoperabilität] Element an Painter senden startet Painter und fügt das Element der Bibliothek hinzu oder aktualisiert es (Adobe Substance 3D erforderlich).
 * [Interoperabilität] Element an Sampler senden startet Sampler und fügt das Element der Bibliothek hinzu oder aktualisiert es (Adobe Substance 3D erforderlich).
 * [Interoperabilität] Durchsuchen Sie Ihr Asset in Adobe Bridge und starten Sie Bridge am Speicherort des Assets (erfordert ein Adobe Substance 3D-Abo).
-* [ASM] Unterstützung des neuen Adobe-Standardmaterials (ASM) in Substance-Grafen und MDL Graph
+* [ASM] Unterstützung des neuen Adobe Standard Materials (ASM) in Substance-Grafen und MDL-Diagramm
 * [ASM] ASM-Vorlagen hinzufügen
 * [ASM] OpenGL-Shader für ASM hinzufügen
 * [ASM] ASM-Shader als Standard-Shader festlegen
@@ -1734,19 +1751,19 @@ ht-degree: 0%
 * [Python-API] Hinzufügen einiger Farbkonvertierungsmethoden zu SDColorManagementEngine
 * [Python API] Löschen von Kommentarobjekten (Grafen, Nadeln, Rahmen, ...)
 * [Python API] Gelegt Physische Größe-Eigenschaft für Grapheninstanz-Knoten
-* [Python API] Verfügbarmachen und Speichern einer Kopie als
+* [Python-API] Gelegt Speichern einer Kopie als
 * [Python-API] SDPackageMgr.savePackage-Methode reparieren
-* [Python API] Liste der ausgewählten Diagrammobjekte abrufen
-* [Python-API] Einführung neuer Methodennamen für die Arbeit mit Diagrammauswahlen
-* [Python-API] Plug-ins können dem zuerst erstellten Explorer-Bedienfeld keine Aktionen hinzufügen
+* [Python-API] Liste der ausgewählten Graf-Objekte abrufen
+* [Python-API] Einführung neuer Methodennamen für die Arbeit mit der Auswahl von Grafen
+* [Python-API] Plug-ins können dem zuerst erstellten Bedienfeld &quot;Explorer&quot; keine Aktionen hinzufügen
 
 **Fest:**
 
-* [Parameter] Negative Werte bei Dropdown-Integer1-Parametern führen zu inkongruentem Verhalten in der Instanz
+* [Parameter] Negative Werte bei Dropdown-Parametern von Ganzzahl1 führen zu inkongruentem Verhalten in der Instanz.
 * [Parameter] Problem beim Erhöhen eines Werts auf einem Winkel-Widget
-* [Graph] Timing-Probleme bei der Anzeige der Ausgabe in der 2D- oder 3D-Ansicht.
-* [Internationalisierung] Einige bestimmte Zeichen werden in Leerzeichen in Dateikennungen geändert.
-* [Voreinstellungen] Die Dateibezeichnung &quot;Benutzerprojekt&quot; wird nicht aus dem Japanischen zurückübersetzt
+* [Graf] Zeitprobleme bei der Anzeige der Ausgabe in der 2D- oder 3D-Ansicht.
+* [Internationalisierung] Einige bestimmte Zeichen werden in Identifizierungen in Leerzeichen konvertiert.
+* [Voreinstellungen] Die Dateibezeichnung &quot;Benutzerprojekt&quot; wird nicht aus dem Japanischen Kamera bewogen
 * [Python-API] RecursionError beim Ausführen der SDUIMgr.getCurrentGraphSelectedNodes()-Methode
 * [Python-API] SDApplication.getPath(SDApplicationPath.InstallationDir) gibt nichts zurück.
 * [Python-API] SDSBSARExporter sendet keine Benachrichtigungen zum Speichern von Dateien
@@ -1758,12 +1775,12 @@ ht-degree: 0%
 **Fest:**
 
 * [Bibliothek] Miniaturansichten werden nicht konsistent aktualisiert
-* [Content] Die Eigenschaft &quot;Vektormorphkurven&quot; der Eigenschaft &quot;Pixelverhältnis&quot; ist auf &quot;Dehnen (Absolut)&quot; festgelegt.
+* [Content] Die Eigenschaft &quot;Pixelverhältnis&quot; der Graf &quot;Vektormorph&quot; ist auf &quot;Gedehnt (absolut)&quot; festgelegt.
 * [Inhalt] Bitmaps, die in Malwerkzeugen verwendet werden, werden im Knotenmenü angezeigt
 * [Inhalt] NaN-Ausgabe für flache Farbeingabe im Knoten &quot;Auto-Tonwertkorrektur&quot; mit Gleitkomma-Präzision
 * [Engine]&#x200B;[SSE2] &#39;Mitten in Eingabebild&#39;-Wert, der nicht 0,5 ist, führt zur Ausgabe von 1,0
-* [Miniatur] Eingabemaps werden auf 256 skaliert
-* [UI] Atomic Nodes Tooltips haben falschen Zeilenumbruch
+* [Miniaturansicht] Eingabe-Map werden auf 256 herunterskaliert
+* [UI] Elementare Knoten-QuickInfos haben falschen Zeilenumbruch
 
 ### 11.1.1 (2021.1.1)
 
@@ -1771,19 +1788,19 @@ ht-degree: 0%
 
 **Fest:**
 
-* [3D-Ansicht] Renderproblem bei Verwendung von SBS, die hohe Frequenzen in der normalen Karte haben
-* [3D-Ansicht] Bilder werden nicht angewendet, wenn die Ausgabeeigenschaft &quot;Komponente&quot; nicht auf RGBA oder RGB festgelegt ist
+* [3D-Ansicht] Renderproblem bei der Verwendung von SBS, die auf Normalen-Map hohe Frequenzen aufweisen
+* [3D-Ansicht] Bilder werden nicht angewendet, wenn die Ausgabeeigenschaft &quot;Component&quot; nicht auf RGBA oder RGB festgelegt ist
 * [3D-Ansicht] Szenen werden in bestimmten Situationen nicht korrekt geladen
-* [UI] Das Eingabefeld &quot;Texturdatei&quot; im Pinsel-Editor wird vertikal skaliert
-* [UI] Schaltflächen zum Anheften und Andocken verschwinden von der Registerkarte, wenn die aktive Registerkarte geschlossen ist
-* [Bäcker] Falsches Ergebnis, wenn die globale Bbox von hohen Poly-Netzen den Szenenursprung nicht enthält
-* [Farbmanagement] Die Materialeigenschaft &quot;sRGB-Grundfarbtextur&quot; wird im benutzerdefinierten Szenenzustand nicht überschrieben.
+* [UI] Eingabefeld &quot;Textur-Datei&quot; im Pinsel-Editor wird vertikal skaliert
+* [UI] Nadel- und Dock-Schaltflächen verschwinden von der Registerkarte, wenn die aktive Registerkarte geschlossen wird
+* [Baker] Falsches Ergebnis, wenn der globale Bbox-Wert für hohe Poly-Mesh den Ursprung der Szene nicht enthält
+* [Farbmanagement] Die Eigenschaft &quot;sRGB Grundfarbe Textur Material&quot; wird im Status der benutzerdefinierten Szene nicht überschrieben.
 * [Console] Die Protokollmeldung &quot;Verfügbare GPUs&quot; listet die GPUs nicht auf und wird nach dem Zufallsprinzip angezeigt
 * [Console] Falsche Zeichenfolge bei Verwendung des Batch-Exports protokolliert
 * [Inhalt] Der Parameter &quot;Normales Eingabeformat&quot; des Atlas Splitters wirkt sich auf den roten Kanal anstelle des grünen aus
-* [Cooker] Absturz oder NaN-Ausgabe bei Verwendung von \*.surface-Bitmaps in SBSAR
+* [Cooker] Absturz- oder NaN-Ausgabe bei Verwendung von \*.surface-Bitmaps in SBSAR
 * [Engine] Die Ausgabewerte der Verlaufsumsetzung außerhalb des Bereichs werden in einer Schleife auf 0 umgeschaltet, wenn das Ausgabeformat einen Bereich von 0 bis 1 aufweist
-* [Parameter] Min-/Max-/Standard-Schieberegler werden im Fenster &quot;Belichtungsparameter&quot; nicht automatisch angepasst
+* [Parameter] Min-/Max-/Standard-Schieberegler passen sich im Leg-Parameterfenster nicht automatisch an
 * [SBSAR] Absturz beim Importieren einiger SBSAR
 * [SVG] Absturz beim Abbrechen des Ressourcenimports
 
@@ -1794,20 +1811,20 @@ ht-degree: 0%
 **Hinzugefügt:**
 
 * [Volltonfarben] Unterstützung von Pantone-Farben in Designer
-* [Graph] Knoten deaktivieren
-* [3D-Ansicht] Exportieren von Tesselierten Meshes aus dem Viewport
+* [Graf] Deaktivieren von Knoten
+* [3D-Ansicht] Exportieren von tessellierten Meshs aus dem Viewport
 * [Internationalisierung] Japanische Version aktualisieren
-* [3D-Ansicht] Optimieren Sie den Speicherverbrauch, wenn Sie Iray nicht verwenden.
+* [3D-Ansicht] Optimieren Sie die Speicherauslastung, wenn kein Iray verwendet wird
 * [Python-API] Fügen Sie die Methode SDResource.delete() hinzu, um eine SDResource zu löschen.
 * [Python-API] Unterstützung für Volltonfarben zur Python-API hinzufügen
 * [Python-API] Neuer Rückruf, der ausgelöst wird, wenn ein Paket geschlossen wird
 * [2D-Ansicht] Konvertieren der Pinseldatenbank aus SQLite in das Json-Format
-* [2D-Ansicht] Verbessern der Rendering-Leistung und -Zuverlässigkeit (CPU-Berechnung)
+* [2D-Ansicht] Verbessern der Renderleistung und -zuverlässigkeit (CPU-Berechnung)
 * [Library] Option &quot;Muster ausschließen&quot; in den Projekteinstellungen hinzufügen
 * [Library] Benennen Sie &quot;Muster ausschließen&quot; in &quot;Dateierweiterungen ausschließen&quot; in den Projekteinstellungen um.
 * [UX] &quot;?&quot; entfernen in Fenstertitelleisten auf Windows
-* [UX] Verschieben Sie die Tastenkombination Strg+E auf &quot;Referenz öffnen&quot;, wenn die kontextbezogene Bearbeitung deaktiviert ist
-* [Bäcker] Vorschaucache löschen, wenn ein Bäcker in der Backliste gelöscht wird
+* [UX] Bewegen Sie den Tastaturbefehl von Strg+E zu &quot;Referenz öffnen&quot;, wenn die kontextbezogene Bearbeitung deaktiviert ist.
+* [Baker] Vorschaucache löschen, wenn ein Baker in der Baking-Liste gelöscht wird
 * [Leistung] Verbessern des Image-Cache-Budgets für Hardware mit GPU mit gemeinsam genutztem Speicher
 * [Voreinstellungen] Anpassen des Werts &quot;GPU-Cache-Grenze&quot; an den verfügbaren Speicherpool
 * [Eigenschaften] Physische Größe-Attribut auf Knoteninstanz anzeigen
@@ -1816,23 +1833,23 @@ ht-degree: 0%
 
 **Fest:**
 
-* [Content] Inkonsistente E/A-Reihenfolge auf Materialknoten
+* [Content] Inkonsistente E/A-Reihenfolge auf Material-Nodes
 * [Inhalt] Primäre Eingabe auf Warp-Knoten ist inkonsistent
 * [Inhalt] Beheben Sie Cooker-Warnungen vom Knoten &quot;Radial-Weichzeichner&quot;.
 * [Exportieren] Batch-Export mit CPU-Engine verwendet VRAM zur Bestimmung des Speicherbudgets
 * [Exportieren] Exportieren in einen Pfad, der nicht vorhanden ist, erstellt die Ordner
 * [Export] Das Arbeitsspeicherbudget ist zu niedrig, wenn Batch-Export verwendet wird
-* [2D-Ansicht] Artefakte/Banding beim Kopieren von HDR-Bildern in die Zwischenablage
+* [2D-Ansicht] Artefakte / Streifenbildung beim Kopieren von HDR in die Zwischenablage
 * [2D-Ansicht] Exportieren von Bildern aus Ressourcen exportiert immer 8 Bit
-* [3D-Ansicht] Irak: Ändern des Normalwerts mit dem Editor gibt ein seltsames Ergebnis
-* [3D-Ansicht] Irak: Das Deaktivieren des normalen Kanals führt nicht zum richtigen Ergebnis
-* [Library] Das Filtern nach URL funktioniert nicht richtig
+* [3D-Ansicht] Iray: Ändern des Normalwerts mit dem Editor gibt ein seltsames Ergebnis
+* [3D-Ansicht] Iray: Das Deaktivieren des normalen Kanals führt nicht zum richtigen Ergebnis
+* [Library] Filterungen per URL funktionieren nicht richtig
 * [Library] Ressourcen, die einem aus der Bibliothek ausgeschlossenen Muster entsprechen, können nicht manuell importiert werden.
-* [Baker] Das Umbenennen eines Bäckers hat keine Auswirkungen auf seinen Eintrag in der 2D-Ansicht-Vorschauliste
-* [Explorer] Verlust der Synchronisierung zwischen Explorer und Diagrammdaten
-* [Funktionsdiagramm] Absturz beim Festlegen des Funktionsknotens mit nicht übereinstimmendem Ausgabetyp als Ausgabe
-* [MDL] SBS-Instanzknoten haben keine Vorschau, Ausgabe 0 und lösen keine Diagrammberechnung aus
-* [Python-API] Die Eigenschaft &quot;editor&quot; des Eingabeparameters kann nicht geändert werden
+* [Baker] Das Umbenennen eines Bakers hat keine Auswirkungen auf seinen Eintrag in der Datenvorschauliste
+* [Explorer] Verlust der Synchronisierung zwischen Explorer- und Graf-Daten
+* [Funktion Graf] Absturz beim Festlegen von Funktionsknoten mit nicht übereinstimmendem Ausgabetyp als Ausgabe
+* [MDL] SBS Instanzknoten haben keine Vorschau, geben 0 aus und lösen keine Graf-Berechnung aus.
+* [Python API] Die Eigenschaft &quot;editor&quot; des Eingabeparameters kann nicht geändert werden.
 * [Python] Das Zurücksetzen des Layouts setzt von Python erstellte Docks nicht korrekt zurück
 * [Ressourcen] 32-Bit-PSD-Dokument kann nicht verknüpft/importiert werden.
 
@@ -1849,29 +1866,29 @@ ht-degree: 0%
 
 **Fest:**
 
-* [Content] Inkonsistente E/A-Reihenfolge auf Materialknoten
+* [Content] Inkonsistente E/A-Reihenfolge auf Material-Nodes
 * [Inhalt] PBR-Rendering: fehlerhafte IBL-Probenahme für den Specular-Beitrag
 * [Inhalt] PBR-Rendering: Einige Pixel sind immer transparent.
 * [Inhalt] PBR-Rendering: UV-Ausgabe ist für die Zylinderform nicht korrekt
 * [Inhalt] Der Parameter &quot;Musterspezifisch&quot; des Splatter Circular hat keine Auswirkungen
 * [MDL] Absturz beim Erstellen und Verbinden eines Knotens
-* [MDL] Absturz beim Duplizieren eines color[]-Array-Konstruktors mit angeschlossenem Sichtwerteingang
+* [MDL] Absturz beim Duplizieren eines color[]-Array-Konstruktors mit angeschlossenem gelegt Werteingang
 * [MDL] Absturz beim erneuten Verbinden einer ungültigen Verbindung
 * [MDL] Exportierte MDLs haben duplizierte Parameter
 * [MDL] Freigelegte Parameter werden nicht in eine MDL-Datei exportiert.
 * [Parameter] Ein Knotenparameter kann im SBS in einem bestimmten Fall zweimal definiert werden.
-* [Parameter] Absturz beim Abrufen des Ausgabetyps des Funktionsdiagramms eines Parameters
-* [Parameter] Absturz beim Auswählen der Option &quot;Belichtete Diagrammeingabe bearbeiten&quot;, wenn keine übereinstimmende Eingabe vorhanden ist
+* Absturz [Parameters] beim Abrufen des Ausgabetyps des Function-Grafen eines Parameters
+* [Parameter] Absturz bei Auswahl der Option &quot;gelegt Parametereingabe bearbeiten&quot;, wenn keine übereinstimmende Eingabe vorhanden ist
 * [3D-Ansicht] Die Verwendung von &quot;Umgebung&quot; wird vom OpenGL-Renderer nicht korrekt berücksichtigt
 * [3D-Ansicht] IOR ist 0 und muss in einem bestimmten Fall zurückgesetzt werden
 * [3D-Ansicht] UVs von Plane/Plane Hi-res sind versetzt
 * [Bitmap] Absturz beim Abbrechen des Ressourcenimports
 * [Bitmap] Absturz beim Erstellen eines neuen Bitmap-Knotens mit einem nicht unterstützten Dateityp
-* [Abhängigkeiten] Absturz beim Rückgängigmachen von &quot;Relocate&quot; zum Lösen einer Geisterinstanz
-* [Funktionsdiagramm] Absturz beim Öffnen des Funktionsdiagramms für einen Parameter
-* [Verlaufseditor] Verschieben von Reglern und Tasten protokolliert zu viele Aktionen im Verlaufsstapel
+* [Abhängigkeiten] Absturz beim Rückgängigmachen von &quot;Verlagre&quot; zum Lösen einer Phantom-Instanz
+* [Function Graf] Absturz beim Öffnen von Function Graf für einen Parameter
+* [Verlaufseditor] Verschieben von Reglern und Tasten protokolliert zu viele Aktionen im Verlaufs-Stapel
 * [Lizenz] Absturz beim Analysieren einer ungültigen license.key-Datei
-* [SBSAR] SBSAR-Instanzknoten können nicht aus der Bibliothek erstellt werden, wenn sich exponierte Diagramme in Ordnern befinden.
+* [SBSAR] SBSAR-Instanzknoten können nicht aus der Bibliothek erstellt werden, wenn sich gelegt Graf in Ordnern befinden.
 
 ### 10.2.1 (2020.2.1)
 
@@ -1880,23 +1897,23 @@ ht-degree: 0%
 **Fest:**
 
 * [Allgemein] Absturz beim Verlassen des Windows-Ruhemodus
-* [Allgemein] Absturz beim Rückgängigmachen nach dem Laden einer 3D-Szenenressource
-* [Engine] Artefaktlinien werden in der Ausgabe des Knoten &quot;Entfernung&quot; in Direct3D angezeigt
-* [Engine] Absturz beim Auswählen des Verlaufsumsetzungs-Knotens in einem aktualisierten Diagramm
+* [Allgemein] Absturz beim Rückgängigmachen nach dem Laden einer 3D-Szene-Ressource
+* [Engine] Artefaktlinien werden in der Ausgabe des Knotens &quot;Entfernung&quot; in Direct3D angezeigt
+* [Engine] Absturz bei der Auswahl des Verlaufs-Map-Knotens in einem aktualisierten Graf
 * [Engine] Keine Warnung, wenn im Kompatibilitätsmodus von Engine v7 ein anderer Standardwert als 0 eingegeben wird
-* [3D-Ansicht] &quot;Alle entfernen&quot; hinterlässt Gitter mit vordefinierten Materialien ohne angewendetes Material
-* [3D-Ansicht] &quot;Szene zurücksetzen&quot; entfernt alle Texturen aus dem Gitter in Irak
+* [3D-Ansicht] Bei &quot;Alle entfernen&quot; bleiben Mesh mit vordefinierten Materialien ohne angewendetes Material zurück.
+* [3D-Ansicht] &quot;Szene zurücksetzen&quot; entfernt alle Texturen aus dem Mesh in Iray
 * [3D-Ansicht] OpenGL: Das Ändern des Standardwerts eines Samplers in einer .glslfx-Datei wird in der Benutzeroberfläche nicht korrekt dargestellt
 * [3D-Ansicht] Rote und schwarze Pixel am rechten Rand von OpenGL-gerenderten Bildern
-* [Abhängigkeiten] Fehlende Abhängigkeiten vom Typ &quot;Andere&quot; können nicht verschoben werden.
-* [Abhängigkeiten] Absturz beim Beenden, wenn Dependency Viewer geöffnet ist
-* [Graph] Absturz beim Duplizieren eines Ghost Instance-Knotens
-* [Diagramm] Die kontextbezogene Bearbeitung ist über Tastenanschlag verfügbar, wenn sie in den Voreinstellungen deaktiviert ist
+* [Abhängigkeiten] Fehlende Abhängigkeiten vom Typ &quot;Andere&quot; können nicht verlagert werden.
+* [Abhängigkeiten] Absturz beim Beenden, wenn die Abhängigkeitsanzeige geöffnet ist
+* [Graf] Absturz beim Duplizieren eines Phantom-Instanzknotens
+* [Graf] Kontextabhängige Bearbeitung ist über Tastenanschlag verfügbar, wenn sie in den Voreinstellungen deaktiviert ist
 * [UI] Das Warnfenster &quot;Player suchen&quot; hat einen falschen Titel.
 * [UI] Der Aktivierungsassistent hat ein falsches Verhalten.
 * [Explorer] Paketdateien können unter Windows immer bearbeitet werden
-* [MDL] Absturz beim Laden des Diagramms aus der vorherigen Version mit jetzt ungültigen Verbindungen
-* [Eigenschaften] Standardfarbe des Eingabeknotens wird beim Rückgängigmachen nicht aktualisiert
+* [MDL] Absturz beim Laden von Graf aus einer Vorversion mit jetzt ungültigen Verbindungen
+* [Eigenschaften] Standardfarbe für Eingabeknoten wird beim Rückgängigmachen nicht aktualisiert
 * [SBSRender] ICC-Profile von injizierten Bitmaps werden nicht verwendet.
 
 ### 10.2.0 (2020.2.0)
@@ -1917,10 +1934,10 @@ ht-degree: 0%
 * [Parameter] Fügen Sie Warnsymbole hinzu, um Probleme in Instanzparametern hervorzuheben
 * [Parameter] Sichtbare If-Anweisungen für Ein-/Ausgänge ignorieren, die Parameter enthalten, auf die eine Funktion angewendet wurde
 * [Parameter] Verbessern der UX für die Gruppenzuordnung
-* [Parameter] Überarbeitung der Methode zum Anzeigen eines einzelnen Parameters
-* [Parameter] Belichtete Parameter hervorheben
+* [Parameter] Nachbearbeitung der Art, wie ein einzelner Parameter gelegt wird
+* [Parameter] freigelegte Parameter hervorheben
 * [Parameter] Verbessern Bereinigung nicht verwendeter Parameter
-* [Engine] Kurvenknoten: Neue Option zum Ausgeben der Kurvenstruktur
+* [Engine] Kurvenknoten: neue Option zur Ausgabe der Kurvendarstellung (Textur)
 * [Engine] Standardwerte für Eingabebilder
 * [Engine] Distanzknoten: neue Entfernungsmodi (Entfernungen Manhattan und Chebyshev)
 * [Engine] Verlaufsknoten: Neuer Interpolationsmodus für natürlichere Farbmischung
@@ -1928,51 +1945,51 @@ ht-degree: 0%
 * [UX] Akzeptieren Sie 6-stellige RGB-Farben im Hexadezimalfeld des Farbwählers
 * [UX] Vermeiden Sie, Kommentareigenschaften anzuzeigen, sobald sie ausgewählt sind
 * [UX] Relevante Gruppen anzeigen, wenn mit dem Schreiben eines Gruppennamen begonnen wird
-* [UX] Verknüpfung zum erneuten Exportieren von Diagrammausgaben
+* [UX] Graphausgaben für Tastaturbefehl in Reexport
 * [UX] Aussehen aller Dropdown-Textfeld-Kombinationsfelder anders als in regulären Kombinationsfeldern
 * [GraphRender] Zeigen Sie Knoten-Miniaturansichten nacheinander an, nicht nur, wenn sie alle berechnet werden.
-* [GraphRender] Verbessern der Abbruchverzögerung beim Rendern von Diagrammen
+* [GraphRender] Verbessern der Abbruchverzögerung beim Rendern von Grafen
 * [GraphRender] Verbessern der Genauigkeit der Rendering-Fortschrittsleiste
-* [Miniaturansichten] Automatische Berechnung der Miniaturansichten (Symbol)
+* [Miniaturansichten] Automatische Miniaturansichten (Symbol)-Berechnung
 * [Miniaturansichten] Überarbeitung der UX, um einem Paket eine Miniaturansicht (Symbol) hinzuzufügen
 * [Voreinstellungen] GPU-Raytracing standardmäßig für neue Benutzer aktivieren
 * [Voreinstellungen] 3DView / OpenGL / Qualität: Schieberegler zum Ersetzen der Sampleanzahl durch eine intuitivere Auswahlliste
-* [Bäcker] Verbessern der Leistung von Nachbearbeitungsprozessen
+* [Baker] Verbessern der Leistung von Nachbearbeitungsprozessen
 * [Farbmanagement] Anzeigen des aktuellen Arbeitsfarbraums im Dialogfeld &quot;Voreinstellungen&quot;.
-* [Iray] Automatischer Wechsel in den CPU-Modus, wenn keine kompatible GPU vorhanden ist
+* [Iray] Automatisch in den CPU-Modus wechseln, wenn keine kompatible GPU vorhanden ist
 * [Leistung] Verbessern Sie die Reaktionszeit, um den Knoten zu berechnen, an dem wir interessiert sind (jetzt zuerst berechnet).
-* [Python-API] Neue Methode addActionToExplorerToolbar zum Hinzufügen von Symbolen zur Explorer-Symbolleiste
+* [Python-API] Neue Methode addActionToExplorerToolbar zum Hinzufügen von Symbolen zur Symbolleiste des Explorers
 * [Ressourcen] Upgrade auf FBX 2020.0.1
-* [iRay] Update für Irak 2020.1.0
+* [iRay] Update auf Iray 2020.1.0
 * [API] Hinzufügen von Python-Zugriff auf Farbmanagementeinstellungen und -eigenschaften
 
 **Fest:**
 
-* [Diagramm] Das Ändern der übergeordneten Größe oder der UV-Kachel bricht das aktuelle Rendering nicht ab
-* [Graph] Absturz beim Verschieben einer Ausgabeverbindung und anschließendem Drücken von Alt+LMB
-* [Graph] Absturz beim Verschieben von Verbindungen im Modus &quot;Material&quot; oder &quot;Kompaktes Material&quot;
-* [Graph] Eingabeknoten können keine Vorschau von Bitmapressourcen anzeigen
-* [Graph] Knotenkompatibilität bei Instanzen unterbrochen
-* [Graph] Zu viele Knoten werden ungültig, wenn ein Diagrammparameter geändert wird
+* [Graf] Das Ändern der übergeordneten Größe oder UV-Kachel bricht das aktuelle Rendering nicht ab
+* [Graf] Absturz beim Verschieben einer Ausgangsverbindung und anschließendem Drücken von Alt+LMB
+* [Graf] Absturz beim Verschieben von Verbindungen im Material- oder Compact-Materialmodus
+* [Graf] Eingabeknoten können keine Vorschau der Bitmapressourcen anzeigen
+* [Graf] Knotenkompatibilität bei Instanzen unterbrochen
+* [Graf] Zu viele Graf werden ungültig, wenn ein Knotenparameter geändert wird
 * [Inhalt] Die Ausgabeform &quot;Shape Extrude&quot; wird in bestimmten Fällen gespiegelt: neue Version erforderlich, alte Version ist veraltet
 * [Inhalt] Falsches Ergebnis bei Verwendung der benutzerdefinierten Farbvariation im Knoten &quot;Farbabgleich&quot;
 * [Inhalt] Das Größenverhältnis x x/y in der Atlas Scatter hat den entgegengesetzten Effekt.
 * [Inhalt] Das Größenverhältnis x x/y in der Formaufteilung hat den entgegengesetzten Effekt
-* [3D-Ansicht] Absturz beim Rückgängigmachen nach dem Laden einer Szenenressource aus einem Paket
+* [3D-Ansicht] Absturz beim Rückgängig-Vorgang nach dem Laden einer Szene-Ressource aus einem Paket
 * [3D-Ansicht] Benutzerdefinierte Umgebung wird nicht in SBSSCN gespeichert, wenn der Pfad Alias mit Sonderzeichen enthält
-* [3D-Ansicht] Das Wechseln des Normalformats in den Materialeinstellungen führt zu gespiegelten Zuständen
+* [3D-Ansicht] Das Wechseln des Normalformats in den Material-Einstellungen führt zu gespiegelten Zuständen
 * [UI] Schaltflächentext &quot;Als primär festlegen&quot; fließt vom Anzeigebereich über.
 * [UI] Die Position des Hauptfensters wird beim Arbeiten im Fenstermodus nicht korrekt wiederhergestellt
 * [UI] Text in der Statusleiste wird versetzt, wenn das Fenster im Vollbildmodus angezeigt wird oder wenn der Text in die Nähe des Bildschirmrandes gezogen wird
-* [Iray] Absturz mit der Meldung &quot;Ungültiges Tag&quot; beim Hin- und Herschalten zwischen Renderern
-* [Iray] Sichtbare Gesichter auf nicht-opaken Oberflächen
-* [Vorgaben] Absturz beim Anwenden von Vorgaben in Instanzen einiger Substance Source-Graphen
+* [Iray] Absturz mit der Meldung &quot;Ungültiges Tag&quot; beim Wechseln zwischen Renderern
+* [Iray] Sichtbare Flächen auf nicht-opaken Flächen
+* [Vorgaben] Absturz beim Anwenden von Vorgaben in Instanzen einiger Substance Source-Graf
 * [Vorgaben] falscher Name nach Rückgängigmachen auf SBS-Instanz
 * [Rendern] Falsches Rendering beim Anpassen eines Parameters im Vorschaumodus
-* [Bäcker] Das Aktualisieren mehrerer durch Baking erzeugte Map führt dazu, dass Warnungen einige Backen blockieren.
-* [Cooker] Das Anpassen von SBSAR-Knoten in SBS-Instanzen führt zu einer 0-Ausgabe von der Instanz
-* [Explorer] Benutzerdefinierte Aliase werden bei Verwendung von &quot;Speichern und auf Substance Player öffnen&quot; nicht weitergegeben
-* [Verlaufseditor] Die absolute Farbauswahl wirkt sich nicht auf alle ausgewählten Tasten aus
+* [Baker] Das Aktualisieren mehrerer durch Baking erzeugte Map führt zu Warnungen, die einige Baking führte blockieren.
+* [Cooker] Das Anpassen von SBSAR-Knoten in SBS Instanzen führt zu einer 0-Ausgabe von der Instanz
+* [Explorer] Benutzerdefinierte Aliase werden nicht weitergegeben, wenn &quot;Speichern und im Substance Player öffnen&quot; verwendet wird
+* [Verlaufseditor] Absolute Farbauswahl wirkt sich nicht auf alle ausgewählten Tasten aus
 
 ### 10.1.3 (2020.1.3)
 
@@ -1980,28 +1997,28 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [Inhalt] Parameter &quot;Matte Farbe&quot; im Knoten &quot;Sicheres Transformieren von Graustufen&quot; anzeigen
+* [Inhalt] Parameter &quot;Matte Color&quot; im Knoten &quot;Sicher Transformieren Graustufen&quot; Gelegt
 * [Inhalt] PBR-Rendering: Option &quot;Hintergrundeingabe&quot; hinzufügen
 * [Inhalt] Panorama Lichtknoten: neue Option zum Aufnehmen der Farbe aus dem Hintergrundbild
-* [Parameter] Ausblenden von Parametern mit dem Flag &quot;not-supported&quot; aus der Liste des Fensters &quot;Exposé-Parameter&quot;
+* [Parameter] Ausblenden von Parametern mit dem Flag &quot;not-supported&quot; aus der Liste der Gelegt Parameter
 
 **Fest:**
 
-* [3D-Ansicht] Absturz beim Wechseln benutzerdefinierter Meshes in einem bestimmten Fall
+* [3D-Ansicht] Absturz beim Wechseln benutzerdefinierter Mesh in einem bestimmten Fall
 * [3D-Ansicht] Normalformat ist beim Start immer DirectX
-* [Inhalt] 3D-Worley-Rauschen: Artefakt bei Verwendung eines hohen Rastergrößenwerts rendern
+* [Content] 3D Worley Rauschen: Artefakt bei Verwendung eines hohen Raster-Größenwerts rendern
 * [Inhalt] Die Überblendung von Knoten ist falsch.
 * [Inhalt] PBR-Rendering: Cooker-Warnung entfernen
 * [Inhalt] PBR-Rendering: result enthält in einigen Fällen negative Farben
-* [Cooker] Cache-Injection-Problem für Knoten mit mehreren Ausgabeinstanzen
+* [Cooker] Cacheinjektionsproblem bei Instanzknoten mit mehreren Ausgaben
 * [Explorer] Absturz beim Schließen eines Pakets, das ein angezeigtes MDL-Diagramm enthält
-* [Schaubild] 2 Durchgänge kochen: Knotentypänderung löst keine Wiederherstellung aus
-* [Graph] Absturz beim Löschen von Eingaben während der Verwendung der Verbindung
-* [Graph] Link-Endpunkte können in einen leeren Raum verschoben werden.
-* [MDL] Absturz beim Abbrechen des MDL-Exports aus dem MaterialX-Diagramm
+* [Graf] 2 Durchgang Kochen: Knotentypänderung löst keine Wiederherstellung aus
+* [Graf] Absturz beim Löschen von Eingaben während der Verwendung der Verbindung
+* [Graf] Verknüpfungsendpunkte können in einen leeren Bereich verschoben werden.
+* [MDL] Absturz beim Abbrechen des MDL-Exports vom MaterialX-Graf
 * [MDL] Fehler beim Abbrechen des Exports nach MDLE
-* [Vorgaben] Absturz auf der Registerkarte &quot;Vorgaben&quot; nach dem Ändern des Parametertyps in der Vorgabe
-* [Ressourcen] Die Materialliste ist im Kontextmenü des Diagramms für als Nicht-UDIM verknüpfte Gitter leer
+* [Vorgaben] Absturz auf der Registerkarte &quot;Vorgaben&quot; nach Änderung des Parametertyps in der Vorgabe
+* [Ressourcen] Material-Liste ist leer im Kontextmenü für Graf für Mesh, die als Nicht-UDIM verknüpft sind
 
 ### 10.1.2 (2020.1.2)
 
@@ -2011,28 +2028,28 @@ ht-degree: 0%
 
 * [Inhalt] Alchemist-Filtervorlage hinzufügen
 * [Inhalt] PBR-Rendering: Parameter hinzufügen, um die Intensität der Diffus-/Specular-Schatten zu steuern
-* [Inhalt] Shape Light-Knoten: Kamerapositionsparameter hinzufügen
+* [Inhalt] Shape Light-Knoten: Positionsparameter der Kamera hinzufügen
 * [News] Der Stil &quot;Pfeil&quot; der Gruppe wird bei der ersten Anzeige des Fensters beschädigt
-* [Bäcker] Fügen Sie den Z-Shortcut zur 2D-Ansicht hinzu, um das Bild bei 1:1 anzuzeigen.
+* [Baker] Fügen Sie den Z-Tastaturbefehl zur 2D-Ansicht hinzu, um das Bild bei 1:1 anzuzeigen.
 * [Project] Alias $(PROJECT\_DIR) in der Liste ausblenden
-* [Explorer] Erstellen Sie keine benutzerdefinierte Ressource für Ressourcen, die keine Datei auf dem Datenträger sind.
+* [Explorer] Benutzerdefinierte Ressource für Ressourcen, die keine Datei auf dem Datenträger sind, nicht erstellen
 
 **Fest:**
 
-* [Player] Fehlende Aliase beim Laden von SBS-Paketen melden
+* [Player] Fehlende Aliase beim Laden SBS Paketen melden
 * [Player] Zeigt den Wert für Zufallsverteilung in der Dezimalbasis an.
-* [Player] Bündelung aller im Substance Designer enthaltenen Umgebungskarten
+* [Player] Alle Umgebungs-Map im Substance Designer enthalten
 * [Player] Absturz beim Beenden in macOS High Sierra
 * [Player] Pakete, die sbs:// verwenden, können nicht geladen werden.
-* [Inhalt] 3D-Worley-Rauschen: Artefakt bei Verwendung eines hohen Rastergrößenwerts rendern
+* [Content] 3D Worley Rauschen: Artefakt bei Verwendung eines hohen Raster-Größenwerts rendern
 * [Content] Die Eingabe &quot;größer als Null&quot; im Knoten &quot;Welle&quot; wird nicht verwendet.
-* [Inhalt] Flächenlicht: Der Weltraumpositionsmodus funktioniert nicht
+* [Inhalt] Flächenlicht: Welt-Raum-Positionsmodus funktioniert nicht
 * [Inhalt] Sphäre Licht: Innenbeleuchtungsposition funktioniert nicht richtig
-* [Baker] Absturz beim Backen mit dem Backfenster, während ein &quot;Alle durch Baking erzeugte Map aktualisieren&quot; ausgeführt wird
-* [Bäcker] Backen schlägt bei Optix für AO aus Mesh fehl, wenn &quot;Niedrig bis Hoch&quot; mit einer normalen Karte verwendet wird
-* [Bäcker] Die Auflösung der Vorschau der UVTiles entspricht nicht der Bildschirmgröße
-* [3D-Ansicht] Zugewiesene Bitmaps werden beim Laden einer MDL überschrieben, wenn der Standardwert nicht texture2d ist
-* [3D-Ansicht] Widgets für Materialeigenschaften ändern sich, nachdem eine Eigenschaft zurückgesetzt wurde
+* [Baker] Absturz beim Baking führ mit dem Fenster &quot;Baking&quot;, während ein &quot;Alle durch Baking erzeugte Map aktualisieren&quot; ausgeführt wird
+* [Baker] Baking schlägt bei Optix für AO von Mesh mit &quot;Niedrig bis Hoch&quot; mit einem Normalen-Map fehl
+* [Baker] Die Auflösung der Vorschau der UVTiles entspricht nicht der Bildschirmgröße
+* [3D-Ansicht] Zugewiesene Bitmaps werden beim Laden einer MDL überschrieben, wenn der Standardwert nicht Textur2d ist.
+* [3D-Ansicht] Widgets für Materialien-Eigenschaften ändern sich, nachdem eine Eigenschaft zurückgesetzt wurde
 * [3D-Ansicht] Globale Voreinstellung Normalformat funktioniert nicht mehr
 * [MatX] Bibliothek: Die Kategorie &quot;MaterialX-Graf&quot; zeigt nicht alle verfügbaren Knoten an.
 * [MatX] Das Kontextmenü eines benutzerdefinierten Grafen kann leere Unterordner im Ordner &#39;Knoten hinzufügen&#39; enthalten
@@ -2068,67 +2085,67 @@ ht-degree: 0%
 * [Content] Neuer PBR-Rendering-Knoten
 * [Inhalt] Neuer FXAA-Filter
 * [Inhalt] Neuer Hald CLUT-Filter
-* [Inhalt] Filter in Knoten &quot;Zuschneiden&quot; verfügbar machen
-* [3D-Ansicht] Verbessern der Shader-Parameter / Arbeitsablauf für die Texturzuweisung
+* [Inhalt] Gelegt Filterungen in &#39;Zuschneiden&#39;-Knoten
+* [3D-Ansicht] Verbessern der Shader-Parameter / Arbeitsablauf für die Zuweisung von Texturen
 * [3D-Ansicht] Neuer unbeleuchteter Shader
 * [3D-Ansicht] Hinzufügen eines &quot;Skalaren Nullwerts&quot; zu den Versatz-Shadern
-* [3D-Ansicht] Fügen Sie eine Option hinzu, um die Viewport-Auflösung herunterzuskalieren, wenn &quot;Hohe DPI&quot; aktiviert ist.
+* [3D-Ansicht] Fügen Sie eine Option hinzu, um die Auflösung des Viewports herunterzuskalieren, wenn &quot;Hohe DPI&quot; aktiviert ist.
 * [3D-Ansicht] GLSLFX: Erlaubt das Festlegen von GUI-Informationen für Sampler (Standard, Min, Max, guiMin, guiMax, guiStep, guiWidget, guiName, guiGroup).
-* [3D-Ansicht] Fügen Sie &quot;Ladezustand mit Gitter...&quot; hinzu. im Menü &quot;Szene&quot;
-* [3D-Ansicht] Hinzufügen der tonemapped ACES-Ausgabetransformation im Legacy-Farbmanagementmodus
-* [Bäcker] Neue Sampling-Methode in AO, Krümmung, Biegung Normal, Thickness Bäcker
-* [Bäcker] Neue Normalisierungsoptionen in Height- und Thickness-Bäcker
-* [Farbmanagement] Integrieren von Adobe ACE (Adobe Color Engine)
+* [3D-Ansicht] Fügen Sie &quot;Ladezustand mit Mesh...&quot; hinzu. im Menü &quot;Szene&quot;
+* [3D-Ansicht] Hinzufügen der im älteren Farbmanagementmodus transformieren ACE Ausgabe
+* [Baker] Neue Sampling-Methode in AO, Krümmung, Biegung Normal, Thickness Baker
+* [Baker] Neue Normalisierungsoptionen in den Bakern Height und Thickness
+* [Farbmanagement] Integrieren von Adobe-ACE (Adobe Color Engine)
 * [Farbmanagement] Hinzufügen von Optionen zum Festlegen des Standardverhaltens, wenn das ICC-Profil fehlt
 * [Parameter] Konsistente Inkrementierung der Regler für Substance Painter
 * [Verpacken] Bundle so viele Qt dlls wie möglich für Python-Skripte
 * [Projekt] Deaktivieren Sie die Einstellungen für schreibgeschützte Projektdateien, und stellen Sie diesen Status klar
-* [Voreinstellungen] Ausblenden spezifischer unklarer Einstellungen im Zusammenhang mit Reaktionszeiten und Berechnungszeiträumen
+* [Voreinstellungen] Ausblenden spezifischer unklarer Einstellungen für Reaktionszeiten und Zeiträume für Berechnungen
 * [UI] Pow2 umbenennen -> 2Pow
-* [Eigenschaften] Anzeige der Compositing-Eigenschaften von Graphen optimieren
+* [Eigenschaften] Anzeige der Compositing-Graf-Eigenschaften optimieren
 * [AXF] Aktualisierung auf AXF SDK 1.7.1
 
 **Fest:**
 
 * [3D-Ansicht] Umgebungslichtparameter sind nicht sichtbar, obwohl sie aktiviert sind
 * [3D-Ansicht] glslfx: Das Farb-Widget ist immer ein vec3 ohne Alpha
-* [3D-Ansicht] Die Umgebungszuordnung, die aus einer Ressource festgelegt wurde, wird nicht in der Szenenressource gespeichert
-* [3D-Ansicht] Irak: Umgebungslicht wird am Ursprung der Szene in ein Punktlicht konvertiert
+* [3D-Ansicht] Umgebungs-Map-Set aus einer Ressource wird nicht in der Szene-Ressource gespeichert
+* [3D-Ansicht] Iray: Umgebungslicht wird bei der Szene in Punktlicht umgewandelt.
 * [3D-Ansicht] glslfx: Das Farb-Widget ist immer ein vec3 ohne Alpha
 * [Parameter] Die URL des Instanzpakets ist in der Attributgruppe nicht korrekt.
-* [Parameter] Absturz beim Verfügbarmachen von Parametern
+* [Parameters] Absturz beim leg von Parametern
 * [Parameter] Symbole werden in den Parametern von Kurvenknoten nicht korrekt ausgerichtet.
-* [Parameter] Die Knotenzeichenfolge &quot;Text&quot; wird nur im Vorschaumodus angezeigt, wenn sie angezeigt wird.
-* [Parameter] Absturz beim Umbenennen eines in der Anweisung &quot;Visible If&quot; verwendeten Eingabeparameters
-* [Parameter] Absturz beim Löschen eines Levels-Knotens, der eine in einem seiner Parameter festgelegte Funktion aufweist
-* [UI] Warnsymbol in der Liste der Eingabeparameter wird oben auf einer vorhandenen Schaltfläche platziert
-* [UI] Warnungen werden für das richtige Eingabeparameterelement in einem bestimmten Fall nicht gelöscht.
-* [UI] Verhindern des &quot;Is mesh UDIM ?&quot;- Popup, das angezeigt wird, wenn sich die Gitter-UVs ausschließlich in der Kachel [0,1] befinden
+* [Parameter] Die Knotenzeichenfolge &quot;Text&quot; wird nur im Vorschaumodus angezeigt, wenn sie gelegt wird.
+* [Parameters] Absturz beim Umbenennen eines Eingabeparameters, der in der &#39;Visible If&#39;-Anweisung verwendet wird
+* [Parameters]-Absturz beim Löschen eines Levels-Knotens, der in einem seiner Parameter eine Funktionsgruppe enthält
+* [UI] Warnsymbol in der Liste &quot;Eingabeparameter&quot; wird über einer bestehenden Schaltfläche platziert
+* [UI] Warnungen werden für das richtige Eingabeparameter-Element in einem bestimmten Fall nicht gelöscht.
+* [UI] Verhindern Sie die &quot;Ist Mesh UDIM?&quot; Popup, das angezeigt wird, wenn sich die Mesh-UVs ausschließlich in der Kachel [0,1] befinden.
 * [UI] Dropdown-Listen mit Vorgaben können mit dem Mausrad bei einfachem Mauszeiger verschoben werden
-* [UI] Option zur Berechnung der Ausgabe(en) in Diagrammattributen ist falsch benannt
-* [MDL] Absturz beim Platzieren einer SBS-Diagrammressource in einem MDL-Diagramm
-* [MDL] SBS-Knoten mit Bildeingabe funktioniert nicht ordnungsgemäß.
-* [MDL] Falsche Texturbindungen und Verwendungsnamen
-* [Graph] Eingabewertgruppe und Verwendung werden im Modus &quot;Material&quot; für die Erstellung von Verknüpfungen ignoriert.
-* [Graph] Eingabewerte verwenden den Standardwert anstelle von Eingabedaten für Booleans
-* [Bäcker] Falsche Normale im World Space Normale Bäcker, der eine tangente Normalmap in bestimmten Fällen verwendet
-* [Bäcker] Übermäßige Speichernutzung beim Backen mit geöffnetem Vorschaufenster
-* [Vorgaben] Beschädigte Voreinstellung führt zum Absturz beim Rendern
-* [Vorgaben] Boolescher Parameter aus altem SBS wird von der Vorgabe nicht beeinflusst.
+* [UI] Option &quot;Berechnung der Ausgabe(en)&quot; in Graf-Attributen ist falsch benannt
+* [MDL] Absturz beim Platzieren einer SBS Graf-Ressource in einem MDL-Diagramm
+* [MDL] SBS mit Bildeingabe funktioniert nicht ordnungsgemäß.
+* [MDL] Falsche Textur- und Verwendungsnamen
+* [Graf] Die Gruppe und Verwendung der Eingabewerte werden im Link-Erstellungsmodus &quot;Material&quot; ignoriert.
+* [Graf] Eingabewerte verwenden den Standardwert anstelle der Eingabedaten für Booleans.
+* [Baker] Falsche Normale im Welt-Raum-Normale-Baker unter Verwendung einer Tangente-Normalen-Map in bestimmten Fällen
+* [Baker] Übermäßige Speichernutzung beim Baking führ mit geöffnetem Vorschaufenster
+* [Vorgaben] Beschädigte Vorgabe macht Rendering-Absturz
+* [Vorgaben] Boolesche Wert-Parameter aus alter SBS ist von der Vorgabe nicht betroffen
 * [Library] Ressourcen aus dem ersten geöffneten Paket werden im Floating-Menü zur Knotenerstellung aufgeführt.
 * [Publish] Veröffentlichung auf SBSAR gibt Fehlercode 13 in SBSCooker auf macOS zurück
 * [Publish] Veraltete Argumentwarnung in SBSCooker beim Veröffentlichen in SBSAR
-* [API] Die Metadaten können nicht von einem Paket abgerufen werden, das aus einer .sbsar-Datei stammt
+* [API] Die Metadaten können nicht von einem Paket abgerufen werden, das aus einer .sbsar-Datei-Datei stammt
 * [Exportieren] Im Legacy-Modus wird die Farbraumoption für bestimmte Ausgaben auf die Standardeinstellungen zurückgesetzt
-* [2D-Ansicht] Beim Kopieren in die Zwischenablage wird der Farbmanagement-Status nicht berücksichtigt
+* [2D-Ansicht] &quot;In Zwischenablage kopieren&quot; berücksichtigt nicht den Status &quot;Farbmanagement&quot;
 * [Unix] Designer ignoriert Systemsignale
-* [Library] Einige Filter in der Bibliothek funktionieren aufgrund übersetzter Tags nicht richtig
+* [Library] Einige Filter in der Library funktionieren aufgrund Kamera bewogen Tags nicht richtig
 * [Herd] Quadratische Wurzel negativer Zahlen sollte 0 anstelle von NaN zurückgeben
-* [2D-Ansicht] Rote und blaue Kanäle werden ausgetauscht, nachdem der erste Malstrich rückgängig gemacht wurde
+* [2D-Ansicht] Rote und blaue Kanäle werden ausgetauscht, nachdem der erste Malen-Strich rückgängig gemacht wurde
 * [Console] Zu viele Warnmeldungen in der Konsole &quot;QPixmap::scaled: Pixmap ist NULL-Pixelmap&quot;
 * [Inhalt] &quot;Glühen in Form&quot;: Kochwarnung
-* [Abhängigkeiten] Das Zuweisen eines Diagramms, das sich in einem anderen Paket befindet, zu einem Gitter erzeugt keine Abhängigkeiten
-* [Iris] Materialeigenschaften werden nach dem Wechsel der Geometrie inaktiv
+* [Abhängigkeiten] Das Zuweisen eines Grafen, der sich in einem anderen Paket befindet, zu einem Mesh erzeugt keine Abhängigkeiten.
+* [Iray] Material-Eigenschaften werden nach dem Wechsel der Geometrie inaktiv
 
 ## Version 9
 
@@ -2138,7 +2155,7 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [Batch Tools] Versand von Standard-OCIO-Profilen mit Batch Tools
+* [Batch-Tools] Versand OCIO Standardprofilen mit Batch-Tools
 
 **Fest:**
 
@@ -2157,8 +2174,8 @@ ht-degree: 0%
 * [Inhalt] Linearer sRGB-Knoten zu ACEScg: E/A-Beschriftungen sind falsch
 * [Inhalt] ACEScg zu sRGB-Knoten: Ausgabebeschriftungen sind falsch
 * [Inhalt] Panorama Lichtknoten: Temperaturbereich einstellen
-* [Graph] Schwerer Leistungsabfall und Einfrieren beim Anpassen eines verschachtelten Diagramms mit aktiver &quot;In-Context Editing&quot;-Bearbeitung
-* [Graph] Absturz beim Löschen mehrerer Knoten in FX-Map
+* [Graf] Schwerer Leistungsabfall und Einfrieren beim Anpassen eines verschachtelten Grafen mit aktivierter Option &quot;Kontextabhängige Bearbeitung&quot;
+* [Graf] Absturz beim Löschen mehrerer Knoten in FX-Map
 * [Vorstellungen] Der Designer-Prozess kann nach dem Beenden lebendig bleiben
 
 ### 9.3.1 (2019.3.1)
@@ -2189,18 +2206,18 @@ ht-degree: 0%
 * [Parameters] Der Wert der Ganzzahl wird in Dropdown-Parameterelementen nicht angezeigt.
 * [Parameter] Die Schaltfläche &quot;Bearbeiten&quot; der Transformationsmatrix ist im Vorschaumodus nicht verfügbar.
 * [Cooker] $size im ValueProcessor ist falsch, wenn innerhalb einer Grapheninstanz
-* [Cooker] Die Ausgabegröße ist falsch, wenn der Wert-Link über einen Punktknoten zu einem atomaren Knoten führt
-* [UI] Schaltfläche zum Anzeigen aller Elemente in der unteren Leiste der 2D-Ansicht ist nicht sichtbar
+* [Cooker] Die Ausgabegröße ist falsch, wenn der Wert-Link über einen Punktknoten an einen elementare Knoten übergeht
+* [UI] Schaltfläche zum Anzeigen aller Elemente in der unteren Leiste &quot;2D-Ansichten&quot; ist nicht sichtbar
 * [UI] Die Vorschau ausgewählter RGB-Werte zeigt bei Verwendung des Farbmanagements falsche Zahlen an
 * [Exportieren] 16f RGBA-Bilder werden als Graustufen exportiert
-* [3D-Ansicht] OBJ mit mehreren Leerzeichen kann nicht importiert werden
-* [Farbmanagement] Die OCIO-Konfiguration wird beim Veröffentlichen von SBSAR nicht berücksichtigt.
+* [3D-Ansicht] Kann keine OBJ mit mehreren Leerzeichen importieren
+* [Farbmanagement] OCIO wird beim Veröffentlichen von SBSAR nicht berücksichtigt.
 * [Farb-Widget] Farbschieberbereiche können in einem bestimmten Fall exponentiell erweitert werden
 * [Dok] Der Abschnitt &quot;paramValue&quot; ist in der Sbs-Formatreferenz unvollständig
 * [MDL] Farb-Widget in SBSAR-Instanzen ist nicht korrekt
 * [Vorgaben] Absturz beim Aktualisieren von Vorgaben in einem bestimmten Fall
 * [PSD] FreeImage-Fehler beim Laden von PSD-Dateien aus aktuellen Versionen von Photoshop
-* [Ressourcen] Absturz beim Rückgängigmachen der Bitmapverknüpfung direkt im Diagramm
+* [Ressourcen] Absturz beim Rückgängigmachen der Bitmapverknüpfung direkt in Graf
 * [SVG] SVG-Knoten werden bei Verwendung der Vektorwerkzeuge nicht automatisch aktualisiert
 
 ### 9.3.0 (2019.3.0)
@@ -2209,16 +2226,16 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [Allgemein] Unterstützung des Farbmanagements mithilfe der OpenColorIO-Konfigurationsdatei
+* [Allgemein] Support-Farbmanagement mithilfe OpenColorIO Konfigurationsdatei
 * [Vorgaben] Verbessern der Vorgaben-Verwaltung
-* [Vorgaben] Synchronisieren von 2D-Ansicht-Gizmos und Vorschau-Schiebereglern
+* [Vorgaben] 2D-Ansicht-Gizmos und Vorschau-Schieberegler synchronisieren
 * [Vorgaben] Wiederherstellen von Vorschauwerten beim Wechseln in den Vorschaumodus
-* [Vorgaben] Beibehalten des Vorschaumodus beim Bearbeiten anderer Knoten, Ressourcen oder Diagramme
+* [Vorgaben] Beibehalten des Vorschaumodus beim Bearbeiten anderer Knoten, Ressourcen oder Graf
 * [Vorgaben] Rückgängig funktioniert reibungslos, wenn Sie zwischen den drei Vorgaben-Registerkarten navigieren
-* [Vorgaben] Ermöglicht das Zurücksetzen von Parametern auf den Standardwert des Diagramms oder den Wert der Vorgabe im Vorschaumodus.
+* [Vorgaben] Ermöglicht das Zurücksetzen von Parametern auf den Standardwert des Grafen oder den Wert der Vorgabe im Vorschaumodus.
 * [Vorgaben] Verbesserung des Anheftens von Parametern
-* [Vorgaben] Importieren/Exportieren aller Vorgaben eines Diagramms in eine Datei
-* [Bäcker] Neuer Bäcker für &quot;Krümmung aus Gitter&quot; auf Basis von Raytracing
+* [Vorgaben] Importieren/Exportieren aller Vorgaben eines Grafen in eine Datei
+* [Baker] Neue Krümmung vom Baker des Meshs basierend auf dem Raytracing
 * [Baker] Fügen Sie die Option &quot;Boden-Ebene&quot; in &quot;AO&quot; vom Baker des Meshs hinzu.
 * [Baker] Fügen Sie die Option &quot;Match by Name&quot; hinzu, um die Rückseite in &quot;AO from Mesh&quot; Baker zu ignorieren
 * [Inhalt] Neuer Atlas Scatter-Knoten
@@ -2246,11 +2263,11 @@ ht-degree: 0%
 * [Inhalt] Flood Fill zu indizieren: Formerkennung schlägt in einem bestimmten Fall fehl
 * [Inhalt] Freistellen: Sampling-Problem, wenn der Zuschneideknoten eine niedrigere Auflösung als die Eingabe hat
 * [Allgemein] Absturz beim Schließen von Designer beim Generieren der Bibliothek
-* [Graph] Bitmap-Knoten spiegeln die Komprimierung der zugeordneten Bitmap nicht wider
-* [Graph] Cache wird nicht gelöscht, wenn Knoten-Miniaturansichten nach dem ersten Rendern gelöscht werden
-* [Graph] Die Knotengröße wurde fälschlicherweise ungültig gemacht.
-* [Graph] Absturz, wenn in einigen Fällen Eingangsverbindungen an einem Pixelprozessorknoten geändert werden
-* [MDL Graph] Fehler beim Wiederherstellen eines Funktionsaufruf-Standardwert
+* [Graf] Bitmapknoten spiegeln die Komprimierung der zugeordneten Bitmap nicht wider
+* [Graf] Der Cache wird nicht gelöscht, wenn die Knotenminiaturansichten nach dem ersten Rendern gelöscht werden
+* [Graf] Knotengröße wurde fälschlicherweise ungültig gemacht
+* [Graf] Absturz, wenn in einigen Fällen die Eingangsverbindungen an einem Knoten des Pixelprozessors geändert werden
+* [MDL-Diagramm] Fehler beim Wiederherstellen eines Funktionsaufruf-Standardwert
 * [Eigenschaften] Die Schaltflächen &quot;Bearbeiten&quot; und &quot;Transformationsmatrix&quot; in Matrixparametern sind verwirrend.
 
 ### 9.2.3 (2019.2.3)
@@ -2263,20 +2280,20 @@ ht-degree: 0%
 
 **Fest:**
 
-* [Bäcker] Absturz beim Backen mit einer Skew-Map-Ressource mit einem ungültigen Link
-* [Bäcker] UV-Sets außer 0 werden bei Embree nicht berücksichtigt
-* [Bäcker] &quot;Gebeugte Normale aus Mesh&quot; gibt falsche Ergebnisse mit anderen UV-Sätzen als 0 auf DXR aus
-* [Bäcker] Die Parameter &quot;UV Set&quot; werden beim erneuten Öffnen des Backfensters auf den Wert &quot;0&quot; zurückgesetzt.
+* [Baker] Absturz beim Baking mit einer Skew-Map-Ressource mit einer ungültigen Verknüpfung
+* [Baker] Andere UV-Satz als 0 werden bei Embree nicht berücksichtigt.
+* [Baker] &quot;Bent normals aus Mesh gibt falsche Ergebnisse mit anderen UV-Sätzen als 0 aus DXR aus
+* [Baker] Die Parameter &quot;UV-Satz&quot; werden beim erneuten Öffnen des Fensters &quot;Baking&quot; auf den Wert &quot;0&quot; zurückgesetzt.
 * [Baker] &quot;Position&quot; gibt ein schwarzes Bild mit anderen UV-Sätzen als 0 aus.
 * [Inhalt] Smart Auto Tile: Probenahme in 8k
-* Atlas Splitter [Inhalt]: Die Formerkennung schlägt in einigen Fällen fehl, der Genauigkeitsparameter sollte angezeigt werden.
+* Atlas Splitter [Inhalt]: Die Formerkennung schlägt in einigen Fällen fehl, der Genauigkeitsparameter sollte gelegt werden
 * [Content] Pow gibt in einigen Fällen nicht den richtigen Wert zurück.
 * [Inhalt] Flood Fill zu indizieren: Falsches Ergebnis bei Veröffentlichung in SBSAR
-* [Library] Absturz beim Laden des ersten SBS-Pakets der Sitzung
-* [Bibliothek] Die Einstellung &quot;Ressourcen standardmäßig in der Bibliothek anzeigen&quot; wird bei Ressourcen ignoriert, die direkt in das Explorer-Bedienfeld importiert werden
+* Absturz beim Laden des ersten SBS der Sitzung
+* [Library] Die Einstellung &quot;Ressourcen standardmäßig in der Library anzeigen&quot; wird für Ressourcen ignoriert, die direkt in das Bedienfeld &quot;Explorer&quot; importiert werden
 * [Console] Unerwartete Meldung in der Konsole bei Verwendung des Knotenmenüs
 * [Parameter] Ein einzelner Eintrag in der Ausgabenverwendungsliste kann nicht entfernt werden.
-* [3DView] Die Szene wird nicht korrekt neu geladen, wenn die Szenendatei auf der Festplatte geändert wird[Graph] Die Knotenmenü-Filterung ist falsch, wenn Werteausgaben verwendet werden.
+* [3DView] Die Szene wird nicht korrekt neu geladen, wenn die Szene-Datei auf dem Datenträger geändert wird[Graf] Die Filterung im Knotenmenü ist falsch, wenn die Werteausgaben verwendet werden.
 
 ### 9.2.2 (2019.2.2)
 
@@ -2284,30 +2301,30 @@ ht-degree: 0%
 
 **Fest:**
 
-* [Graph] Die Knotenmenüfilterung ist falsch, wenn Wertausgaben verwendet werden
-* [Graph] Absturz bei Anzeige des Knotenmenüs
-* [Diagramm] Suchwerkzeug wird angezeigt, wenn ein Umschaltbefehl verwendet wird
-* [Graph] Absturz beim aufeinander folgenden Starten von Knotenmenüs aus dem Werteingabe-Connector
-* [Diagramm] Kommentare, die lange Zeichenfolgen enthalten, werden beschnitten
-* [Graph] Die Flow-Hervorhebung ist falsch, wenn ein Knoten mit dem Ziehen aus dem Konnektormenü erstellt wird
-* [Graph] Absturz beim Entfernen aller Diagrammelemente aus der Szene beim Laden eines anderen Diagramms
-* [Graph] Absturz bei Verwendung zum Erstellen eines Knotens bei Verwendung von Klick- und Ziehvorgängen vom Connector
-* [Graph] Absturz bei Verwendung des Tools &quot;Node Finder&quot;
-* [Graph] Ausgabe-Pin-Farbe ist im Modus &quot;Material Compact&quot; falsch
+* [Graf] Die Filterung des Knotenmenüs ist falsch, wenn Value-Ausgaben verwendet werden
+* [Graf] Absturz bei der Anzeige des Knotenmenüs
+* [Graf] Suchwerkzeug wird angezeigt, wenn Shift-Tastaturbefehl verwendet wird
+* [Graf] Absturz beim aufeinander folgenden Starten von Knotenmenüs aus der Verbindung der Werteingabe
+* [Graf] Kommentare, die lange Zeichenfolgen enthalten, werden beschnitten
+* [Graf] Die Flow-Markierung ist falsch, wenn ein Knoten mit dem Menü &quot;Ziehen aus Verbindung&quot; erstellt wird
+* [Graf] Absturz beim Entfernen aller Graf-Elemente aus der Szene beim Laden eines anderen Grafen
+* [Graf] Absturz bei der Verwendung zum Erstellen eines Knotens bei der Verwendung von &quot;Klicken und Ziehen aus Verbindung&quot;
+* [Graf] Absturz bei Verwendung des Tools &quot;Node Finder&quot;
+* [Graf] Die Farbe der Ausgabe-Nadel ist im Modus &quot;Material kompakt&quot; falsch
 * [Cooker] Knoten hinter Knoten mit mehreren Ausgängen werden nicht korrekt aktualisiert
 * [Cooker] Problem mit Value-Ausgaben und Passthrough-Knoten
-* [Cooker] Value Processor gibt falsche Ergebnisse aus, wenn nur ein Get-Knoten verwendet wird.
+* [Cooker] Wertprozessor gibt falsche Ergebnisse aus, wenn nur ein Get-Knoten verwendet wird
 * [Inhalt] Der Knoten &quot;Kontrast/Luminanz&quot; gibt einen Alpha-Wert von 1,0 aus.
 * [Inhalt] Vorlage &quot;Studio Panorama&quot; hat keine Beschreibung
 * [Inhalt] Flood Fill zu indizieren: Falsches Ergebnis, wenn die Eingabe eine Umbruchform enthält
-* [Inhalt] &quot;HDR-Zusammenfügung&quot;: interne Expositionsberechnung ist falsch
+* [Inhalt] &quot;HDR. Zusammenführen&quot;: Die Berechnung der internen Exposition ist nicht korrekt
 * [Punktknoten] Absturz bei Verwendung einer Ebene und eines Punktknotens
 * [Abhängigkeits-Manager] Die Aktion &quot;Gehe zu&quot; funktioniert nicht mehr.
-* [PSD] Absturz beim Rückgängigmachen des Löschens mehrerer Knoten, die im PSD Exporter enthalten waren
-* [UI] Absturz beim Schließen des Diagramms über das Menü &quot;Fenster&quot; und beim erneuten Öffnen, während ein Diagramm angeheftet ist
+* [PSD] Absturz beim Rückgängigmachen des Löschens mehrerer Knoten, die im PSD-Exporteur enthalten waren
+* [UI] Absturz beim Schließen des Grafen über das Menü &quot;Fenster&quot; und beim erneuten Öffnen, während ein Benutzer angeheftet ist
 * [Verlaufseditor] Die Schaltfläche &quot;Taste entfernen&quot; ist zu groß
 * [Engine] Genauigkeitsproblem mit sqrt() acos() und asin()
-* [Bäcker] AO aus Mesh: Der Schieberegler &quot;Überstreichungswinkel&quot; hat einen falschen Wertebereich, wenn er optimiert wird
+* [Baker] AO Vom Mesh: Der Schieberegler &quot;Überstreichungswinkel&quot; hat einen falschen Wertebereich, wenn er optimiert wird
 
 ### 9.2.1 (2019.2.1)
 
@@ -2315,32 +2332,32 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [Vorlagen] Hinzufügen von Standardeingabeknoten zu Specular/Glossiness und zu anderen Vorlagen
+* [Vorlagen] Hinzufügen von Standard-Eingabeknoten zu Specular/Glanz und anderen Vorlagen
 * [Vorlagen] Vorlage für PBR-Anisotropie hinzufügen
 * [3D-Ansicht] Automatische Clipebene über weite Entfernungen vergrößern
-* [3D-Ansicht] PBR-beschichtet: Ändern des Standardwerts für die normale Vererbung von Coat
+* [3D-Ansicht] PBR beschichtet: Ändern des Standardwerts für die Coat normal-Vererbung
 * Atlas Splitter [Inhalt]: Hinzufügen der Option für die Funktion &quot;Auto-Freistellung&quot;
-* [Knotenmenü] Knoten nicht ohne Eingabe filtern
+* [Knotenmenü] Keine Filterknoten ohne Eingabe
 
 **Fest:**
 
 * Atlas Splitter [Inhalt]: Einige Ausgaben werden bei Verwendung der Option &quot;Auto-Freistellung&quot; nicht korrekt zugeschnitten
-* [Inhalt] Material Height Blend: Kochfehler in Zusammenhang mit nicht vorhandenem Parameter
-* [Inhalt] &quot;Flächenlicht&quot;: Muster-UV-Modus funktioniert nicht richtig
+* [Inhalt] Material Height Überblendung: Kochfehler in Zusammenhang mit nicht vorhandenem Parameter
+* [Inhalt] &quot;Flächenlicht&quot;: Pattern UV Mode funktioniert nicht richtig
 * [Content] &quot;Height to Normal World Unit&quot;: Eingang wird auf 16 Bit erzwungen
-* [Inhalt] Unerwartete Formen bei Verwendung des angular-Knotens &quot;Abgeflachte Kante&quot; ohne Unterteilung in kleine Formen
+* [Inhalt] Unerwartete Formen bei Verwendung des angular-Knotens &quot;Abgeflachte Kante&quot; ohne Kachelung auf kleinen Formen
 * [Library] Symbole für SBSAR sind in der Bibliothek nicht sichtbar
-* [Bibliothek] Verwenden von &quot;\&quot; zum Filtern der URL funktioniert nicht mehr
+* [Library] Verwenden von &quot;\&quot; für die Filterung-URL funktioniert nicht mehr
 * [Library] Bei Filterwerten wird Groß- und Kleinschreibung unterschieden
 * [Library] Suchfilter funktioniert nicht, wenn &quot;Compositing&quot; aktiviert ist
-* [Bäcker] Durch Doppelklicken auf bestimmte Zellen und Schließen der Änderung werden sie auf falsche Werte zurückgesetzt
-* [Baker] Der Backend-Statustext im Baker-Fenster zeigt immer &quot;GPU-Beschleunigung : enable&#39;
-* [Cooker] Absturz beim Verarbeiten einer &quot;Hochstapler&quot;-Abhängigkeit in einem Diagramm
+* [Baker] Wenn Sie auf bestimmte Zellen doppelklicken und die Änderung schließen, werden sie auf falsche Werte zurückgesetzt.
+* [Baker] Der Backend-Statustext im Fenster Baker zeigt immer &quot;GPU-Beschleunigung : enable&#39;
+* [Cooker] Absturz beim Verarbeiten einer &quot;Hochstapler&quot;-Abhängigkeit in einem Graf
 * [Cooker] Graustufen-Konvertierung hat falsche Ausgabegröße, wenn Wert verwendet wird
-* [Explorer] Absturz beim Verarbeiten von &quot;Publish auf Freigeben&quot;
-* [Graph] Absturz beim Öffnen eines bestimmten Pakets
-* [MDL] Absturz bei Verwendung des Casting-Operators
-* [Vorlagen] Ausgabe-IDs sind in der mit PBR beschichteten Vorlage nicht korrekt.
+* [Explorer] Absturz bei der Verarbeitung von &quot;Publish auf Freigeben&quot;
+* [Graf] Absturz beim Öffnen eines bestimmten Pakets
+* [MDL] Absturz bei Verwendung des Wirf-Operators
+* [Vorlagen] Die Identifizierungen für die Ausgabe sind in der mit PBR beschichteten Vorlage nicht korrekt.
 
 ### 9.2.0 (2019.2.0)
 
@@ -2356,8 +2373,8 @@ ht-degree: 0%
 * [Inhalt] Neuer Knoten &quot;Panoramaposition&quot;
 * [Inhalt] Neuer Knoten &quot;Panorama Physical Sun and Sky&quot;
 * [Inhalt] Neue Knoten &quot;Panoramaverläufe&quot;
-* [Inhalt] Neuer HDR-Zusammenführungsfilter
-* [Inhalt] Neuer Filter &quot;HDR-Vorschau&quot;
+* [Inhalt] Neuer HDR. Zusammenführungsfilter
+* [Inhalt] Neuer Filter &quot;HDR. Vorschau&quot;
 * [Inhalt] Neuer Filter &quot;Color Temperature Adjustment&quot;
 * [Inhalt] Neuer &#39;Blackbody&#39;-Knoten
 * [Inhalt] Neuer Belichtungsfilter
@@ -2367,40 +2384,40 @@ ht-degree: 0%
 * Menü zur Knotenerstellung [UI]: den Inhalt nach dem aktuellen Auswahltyp filtern
 * [3D-Ansicht] Support-Anisotropie
 * [3D-Ansicht] Effekt &quot;Beschichtung unterstützen&quot;
-* [3D-Ansicht] Unterstützung von Untergrundstreuung
-* [Graph] Punktknoten
-* [Graph] Optimieren Sie das Rendern von Graphen durch Zwischenspeichern von Kochergebnissen
+* [3D-Ansicht] Support-Volumenstreuung
+* [Graf] Punktknoten
+* [Graf] Optimieren des Graf-Renderings durch Zwischenspeichern von Kochergebnissen
 * [Voreinstellungen] Ändern Sie den Standardwert für die Begrenzung der Kochgröße auf 8192.
 * [Voreinstellungen] Fügen Sie einen Schalter hinzu, um die neue Funktion der Tabulatortaste zu aktivieren/deaktivieren.
 * [API] Add SDResource.getPackage()-Methode
-* [Iray] Update für NVIDIA Iray RTX 2019.1.3 SDK (317500.3714)
-* [Explorer] Verknüpfen eines beliebigen Dateityps als Ressource im Paket zulassen
+* [Iray] Update auf NVIDIA Iray RTX 2019.1.3 SDK (317500.3714)
+* [Explorer] Erlaubt das Verknüpfen beliebiger Dateitypen als Ressource im Paket.
 * [GradientNode] Drücken Sie ESC, um die Auswahl des Verlaufs abzubrechen.
-* [Parameter] Automatische Groß-/Kleinschreibung für Bezeichner entfernen
-* [Projekt] Fügen Sie eine Option hinzu, um anzugeben, ob Diagramme und Ressourcen standardmäßig &quot;In Bibliothek sichtbar&quot; sind.
-* [Vorgaben] Automatische Fixierung geänderter Parameter
+* [Parameter] Automatische Groß-/Kleinschreibung bei Identifizierungen entfernen
+* [Project] Fügen Sie eine Option hinzu, um anzugeben, ob Graf und Ressourcen standardmäßig &quot;In der Bibliothek sichtbar&quot; sind.
+* [Vorgaben] Automatische Nadel geänderter Parameter
 
 **Fest:**
 
 * [MDL] Modul kann aufgrund eines Problems mit dem Parametertyp nicht exportiert werden
-* [MDL] Beim Laden ist die exponierte int nicht sichtbar.
+* [MDL] Gelegt int ist beim Laden nicht sichtbar
 * [MDL] Absturz beim MDL-Export
-* [MDL] Absturz beim Ändern der Farbe eines Materialoberflächenknotens
+* [MDL] Absturz beim Ändern der Farbe eines Material-Oberflächenknotens
 * [MDL] void MDLGraphNodeControllerSelector::updateSelectorCurrentMember(const DataMessage&amp; msg) ist beschädigt
-* [Graph] Falsche Link-Thickness in der Diagrammanzeige
-* [Graph] Beim Anpassen von Parametern werden zu viele Invalidierungen ausgelöst
-* [Graph] Absturz beim Schließen eines Pakets, während zwei Fenster davon geöffnet sind, und bei Verwendung der kontextbezogenen Bearbeitung
-* [Funktionsdiagramm] Beim Schließen der Funktionsansicht wird keine Warnung angezeigt
+* [Graf] Falsche Link-Thickness in der Graf-Anzeige
+* [Graf] Beim Anpassen von Parametern werden zu viele Ungültigkeiten ausgelöst.
+* [Graf] Absturz beim Schließen eines Pakets, während zwei Fenster davon geöffnet sind, und bei Verwendung der kontextbezogenen Bearbeitung
+* [Funktions-Graf] Beim Schließen der Funktionsansicht wird keine Warnung angezeigt.
 * [3D-Ansicht] Absturz bei der 3D-Ansicht-Initialisierung, wenn die Kamera-Projektion als &quot;orthografisch&quot; als Standardzustand der Szene festgelegt ist
-* [3D-Ansicht] DOF-Aufenthalte nach FX in Irak aktiviert
+* [3D-Ansicht] Post-FX DOF-Aufenthalte in Iray aktiviert
 * [2D-Ansicht] Pinselauswahlfenster verschwindet beim Ändern der Pinselgröße
-* Informationsbereich [2D-Ansicht]: werden mit einem bestimmten Layout beschnitten
+* [2D-Ansicht] Informationenbedienfeld: werden mit einem bestimmten Layout beschnitten
 * [2D-Ansicht] Das Bild wird versetzt, wenn das Hauptfenster minimiert und wiederhergestellt wird.
-* [Bäcker] Auswahlliste &quot;Aus Ressource&quot; wird nicht richtig gefiltert
-* [Bäcker] Absturz beim Verketten von &quot;Farbkarte aus Mesh&quot;- und &quot;Normale Karte aus Mesh&quot;-Bäkern auf Embree
-* [Bäcker] Krümmung pro Scheitelpunkt Backen führt zu schweren Artefakten
+* [Baker] Auswahlliste &quot;Aus Ressource&quot; wird nicht richtig gefiltert
+* [Baker] Absturz beim Verketten von Farb-Map aus Mesh- und Normalen-Map aus Mesh-Bakern auf Embree
+* [Baker] Krümmung pro Scheitelpunkt Baking führt zu schweren Artefakten
 * [Explorer] UDIM-Ressourcen können nicht per Drag-and-Drop in den Explorer importiert werden
-* [Explorer] Explorer-Fenster wird beim Verknüpfen von Gittern und Schriften nach dem Verknüpfen ungewöhnlicher Dateiformate nicht korrekt gefiltert
+* [Explorer] Explorer-Fenster wird beim Verknüpfen von Meshs und Schriften nach dem Verknüpfen ungewöhnlicher Dateiformate nicht korrekt gefiltert
 * [Explorer] Ressourcen sind sichtbar, wenn &quot;In Bibliothek anzeigen&quot; auf &quot;Nein&quot; für den Graf festgelegt ist
 * [Inhalt] Die Eingaben &quot;Pow&quot; und &quot;clip&quot; sind nicht in der richtigen Reihenfolge.
 * [Inhalt] RGBA Merge-Knoteneingaben sind nicht beschriftet
@@ -2412,10 +2429,10 @@ ht-degree: 0%
 * [Abhängigkeiten] Warnung zu fehlenden Bitmapressourcen bleibt nach der Verschiebung aktiv.
 * [Bibliothek] Einige Miniaturansichten werden nicht generiert.
 * [Library] MDL-Dateien werden in der Bibliothek angezeigt
-* [Parameter] Absturz beim Verfügbarmachen von Parametern
+* [Parameters] Absturz beim leg von Parametern
 * [Parameter] Absturz nach dem Neuerstellen eines neuen Elements in der Dropdown-Liste
 * [Export] Fehler beim Export von 8K-Stapeln
-* [Vorgaben] Absturz beim Anwenden einer Vorgabe mit booleschen Werten in SBS-Instanzen
+* [Vorgaben] Absturz beim Anwenden einer Vorgabe mit booleschen Werten in SBS Instanzen
 * [Scripting] Der Begrüßungsbildschirm wird weiterhin angezeigt, wenn das Befehlszeilenargument &quot;—quit&quot; verwendet wird.
 
 ### 9.1.3 (2019.1.3)
@@ -2424,18 +2441,18 @@ ht-degree: 0%
 
 **Fest:**
 
-* [Bäcker] Absturz in DXR, wenn Seitenverhältnisse von Backausgabe und Skew-Map nicht übereinstimmen
-* [Bäcker] Der Bäcker &quot;Ambient Verdeckung From Mesh&quot; gibt bei Verwendung einer Normalmap falsche Ergebnisse mit Optix oder DXR aus
-* [Bäcker] Der Bäcker &quot;Krümmung&quot; gibt falsche Ergebnisse aus, wenn die Einstellung &quot;Pro Scheitelpunkt&quot; verwendet wird
-* [Bäcker] Fehlermeldungen geben das Backend an, das anstelle der Fehlerursache fehlgeschlagen ist
-* [Bäcker] Absturz beim Verarbeiten eines Detail-Map-Bäckerers ohne ein hohes Polygitter
-* [Bäcker] Schrägzuordnung scheint sich nicht auf die gesamte Ausgabe mit aktiviertem DXR zu auswirken
+* [Baker] Absturz in DXR, wenn die Seitenverhältnisse von Baking-Ausgabe und Skew-Map nicht übereinstimmen
+* [Baker] &#39;Ambient occlusion Vom Baker des Meshs gibt falsche Ergebnisse mit Optix oder DXR aus, wenn ein Normalen-Map verwendet wird
+* [Baker] Baker &quot;Krümmung&quot; gibt falsche Ergebnisse aus, wenn die Einstellung &quot;Pro Scheitelpunkt&quot; verwendet wird
+* [Baker] Fehlermeldungen geben das Backend an, das fehlgeschlagen ist, anstatt die Fehlerursache anzugeben
+* [Baker] Absturz bei der Verarbeitung eines Detailzuordnungs-Bakers ohne High-Poly-Mesh
+* [Baker] Schrägzuordnung scheint sich nicht auf die gesamte Ausgabe zu auswirken, wenn DXR aktiviert ist
 * [Inhalt] mg\_lecks: Typo in Parametername
 * [Content] &quot;Shape&quot; gibt eine Kochwarnung zurück
 * [Inhalt] Polygon 1 und 2 unterstützen keine zufälligen Funktionen
 * [Inhalt] Polygon 1 und 2 können weniger als 3 Seiten haben
 * [Inhalt] &quot;Normal&quot; bis &quot;Height HQ&quot; funktioniert nicht korrekt in nicht quadratischen
-* [Parameter] Ganzzahlen-Eingabeparameter: In der Dropdown-Liste werden die Werte nicht angezeigt
+* [Parameter] Ganzzahl Eingabeparameter: In der Dropdown-Liste werden die Werte nicht angezeigt
 
 ### 9.1.2 (2019.1.2)
 
@@ -2443,25 +2460,25 @@ ht-degree: 0%
 
 **Fest:**
 
-* [3D-Ansicht] 3D-Ansicht-Export mit aktivierter Tiefe des Felds sieht falsch aus
-* [3D-Ansicht] Der Bildkanal von PSD-Alphas ist falsch, wenn Render speichern verwendet wird
-* [3D-Ansicht] PNG und PSD werden beschädigt, wenn die Option zum Speichern des Renderings mit Iran verwendet wird
+* [3D-Ansicht] Der Datenexport mit aktivierter Tiefe des 3D-Ansicht sieht falsch aus
+* [3D-Ansicht] Alphakanal von PSD-Bildern ist falsch, wenn Render speichern verwendet wird
+* [3D-Ansicht] PNG und PSD werden unterbrochen, wenn die Option &quot;Render speichern&quot; mit Iray verwendet wird
 * [3D-Ansicht] Das DDs-Format funktioniert beim Speichern des Renderings nicht
-* [Diagramm] Knoten werden versetzt, wenn Sie Rechts- und Linksklick kombinieren und auf bestimmte Weise ziehen
-* [Graph] Das Ändern einer Funktionsinstanz aktualisiert das Knotenergebnis nicht mehr.
-* [Graph] Absturz bei Anzeige des Menüs &quot;Leertaste&quot;
+* [Graf] Knoten werden versetzt, wenn Sie Rechts- und Linksklick kombinieren und auf bestimmte Weise ziehen
+* [Graf] Das Ändern einer Funktionsinstanz aktualisiert das Knotenergebnis nicht mehr.
+* [Graf] Absturz bei der Anzeige des Menüs &quot;Leertaste&quot;
 * [Inhalt] Form-Extrudieren: Qualitätsproblem, wenn die Form keine Drehung hat
 * [Inhalt] Der Shape-Schlagschatten (und Graustufen) erzeugt keinen Schatten ohne H- und V-Kachelung
-* [Inhalt] Normales Problem mit Material Crop
-* [Bäcker] JSON-Bäcker-Vorgaben werden nicht korrekt geladen
-* [Bäcker] Absturz beim Backen schwerer Meshes mit Optix oder DXR (jetzt kann es aufgrund von unzureichendem Vram fehlschlagen, aber es wird nicht abstürzen)
+* [Inhalt] Normales Problem beim Freistellen von Materialien
+* [Baker] JSON-Baker-Vorgaben werden nicht korrekt geladen
+* [Baker] Absturz beim Baking führ großer Mesh mit Optix oder DXR (jetzt kann es aufgrund von unzureichendem Vram fehlschlagen, aber es wird nicht Absturz)
 * [Bitmap-Editor] Bitmap-Malwerkzeuge versetzen Striche und zeichnen im Strichbegrenzungsrahmen neu
 * [Bitmap Editor] Fehlerhafte Bitmap-Malwerkzeuge in OSX
 * [UI] Einige Schaltflächenmenüs sind kaum erreichbar
-* [UI] Absturz beim Ziehen und Ablegen einer Bäckerinstanz
+* [UI] Absturz beim Ziehen und Ablegen einer Baker-Instanz
 * [SVG] Eingebettete SVG-Bearbeitungswerkzeuge sind unzuverlässig
-* [Parameter] Absturz beim Anwenden einer Voreinstellung mit booleschen Parametern in einer SBSAR-Instanz
-* [Netzwerk] Absturz manchmal, wenn ein Fehler in einer SSL-verschlüsselten Verbindung aufgetreten ist
+* Absturz [Parameters] beim Anwenden einer Vorgabe mit booleschen Parametern in einer SBSAR-Instanz
+* [Netzwerk] Absturz, wenn ein Fehler in einer SSL-verschlüsselten Verbindung aufgetreten ist
 
 ### 9.1.1 (2019.1.1)
 
@@ -2476,18 +2493,18 @@ ht-degree: 0%
 **Fest:**
 
 * [Inhalt] Flood Fill Mapper: &quot;Drehung Auto-Skalierung&quot; bewirkt das Gegenteil
-* [Inhalt] Die Eingabe für &quot;luminance\_offset\_map&quot; wird von &quot;Flood Fill Mapper Color&quot; nicht verwendet.
+* [Inhalt] Die Eingabe für &quot;Luminanz\_offset\_map&quot; wird von &quot;Flood Fill Mapper Color&quot; nicht verwendet.
 * [Inhalt] Der Flood Fill &quot;Graustufen-Knotenzuordnung&quot; generiert Stepping-Artefakte.
 * [Inhalt] Höhenextrusionen können nicht veröffentlicht werden.
 * [Parameter] Eingebettete Vorgaben in SBSAR werden nicht in Designer geladen
-* [Bäcker] Bäckername wird in der Bäckerliste nicht korrekt angezeigt
+* [Baker] Der Name des Bakers wird in der Liste &quot;Baker&quot; nicht korrekt angezeigt
 * [3D-Ansicht] &quot;Ausgaben in 3D-Ansicht anzeigen&quot; funktioniert nicht für Werte
-* [Cooker] Absturz bei Korrektur eines falschen Parametertyps
-* [API] SDResource.setInputPropertyFromId-Funktion funktioniert nicht mit SDSBSCompGraph-Eingabeparametern
+* [Cooker] Absturz beim Korrigieren eines falschen Parametertyps
+* [API] SDResource.setInputPropertyFromId-Funktion funktioniert nicht auf SDSBSCompGraph-Eingabeparametern
 * [Updater] einige SBS können in 2019 nicht aktualisiert werden
 * [Explorer] Absturz beim Importieren einer bestimmten .obj-Datei
 * [PythonIntegration] Backslashes werden bei der Initialisierung von PYTHONPATH unter Windows nicht richtig maskiert
-* [UI]-Werteproblem mit einigen Reglern in Bäckereien
+* [UI]-Werteproblem mit einigen Schiebereglern in Bakern
 * [Linux] Designer kann unter CentOS &lt; 7.6 nicht ausgeführt werden.
 
 ### 9.1.0 (2019.1.0)
@@ -2500,14 +2517,14 @@ ht-degree: 0%
 * [API] Möglichkeit zum Trennen einer SDC-Verbindung hinzufügen
 * [API] Klasse SDSBSARExporter hinzufügen, um ein SDPackage zu veröffentlichen
 * [API] Fügen Sie eine SDHistoryUtils-Klasse hinzu, um rückgängig zu machende Befehle zu verwalten
-* [API] Hinzufügen einer Graustufen-Eingabeknotendefinition im Substance-Kompositionsdiagramm (sbs::compositing::input\_grayscale)
-* [API] Werteingabeknotendefinition im Substance-Kompositionsdiagramm hinzufügen (sbs::compositing::input\_value)
+* [API] Hinzufügen einer Graustufen-Eingabeknoten-Definition im Substance Compositing-Graf (sbs::compositing::input\_grayscale)
+* [API] Value Eingabeknoten-Definition in Substance Compositing Graf hinzufügen (sbs::compositing::input\_value)
 * [API] SDProperty.isFunctionOnly()-Methode hinzufügen
-* [API] Unterstützung benutzerdefinierter Eingabeparameter für SDSBSCompNode hinzufügen
+* [API] Unterstützung für benutzerdefinierten Eingabeparameter auf SDSBSCompNode hinzufügen
 * [API] Fügen Sie der SDPackageMGR.loadUserPackage()-Methode den Parameter &quot;reloadIfModified&quot; hinzu, um zu steuern, ob ein Paket bei einer Änderung neu geladen werden muss.
 * [API] SDPackageMgr.getPackages()-Methode hinzufügen
 * [API] Hinzufügen der Möglichkeit zum Abrufen/Hinzufügen/Entfernen von Stammpfaden aus SDModuleMgr
-* [API] Abrufen des Zeigers des Pixelpuffers und der Tonhöhe einer SDTexture
+* [API] Abrufen des Puffers &quot;pixel&quot; und der Tonhöhe einer SDTexture
 * [API] Abrufen des Zeigers des MainWindow
 * [API] Benutzerdefinierte Menüs im Hauptmenü erstellen
 * [API] Erstellen benutzerdefinierter DockWidgets im Hauptfenster zulassen
@@ -2517,7 +2534,7 @@ ht-degree: 0%
 * [PythonIntegration] Hinzufügen von Textsuche und Ersetzen zum Python-Editor
 * [PythonIntegration] Instanziieren von Python-Plug-ins beim Start
 * [PythonIntegration] Berücksichtigung der PYTHONPATH-Umgebungsvariable
-* [PythonIntegration] Erstellen von Symbolleisten in Grafik-Widgets zulassen
+* [PythonIntegration] Erstellen von Symbolleisten in Graf-Widgets zulassen
 * [PythonIntegration] Unterstützung von Python-Threads
 * [PythonIntegration] Plug-in-Manager hinzufügen (im Menü &quot;Extras&quot;)
 * [Inhalt] Normale Vektordrehung: Hinzufügen einer optionalen Bildeingabe, um den Winkel zu steuern
@@ -2525,29 +2542,29 @@ ht-degree: 0%
 * [Inhalt] Neuer Filter &quot;Flood Fill zu Index&quot;
 * [Inhalt] Neuer Filter &quot;Flood Fill Mapper&quot;
 * [Inhalt] Neuer Atlas Splitter-Filter
-* [Inhalt] Verbessern des dreidimensionalen Filters
+* [Inhalt] Verbesserung des Planaren Tri-Filters
 * [Inhalt] Neuer Non Uniform Directional Warp-Filter
-* [Inhalt] Neue multidirektionale Verkrümmung
+* [Inhalt] Neue Multi-Richtungsverzerrung
 * [Inhalt] Neuer Datenfilter
-* [Engine] FXMAP: Neues Muster &quot;Abstufung mit Versatz&quot;
-* [Engine] Unterstützung für die Verarbeitung einheitlicher Werte (neuer Value-Prozessorknoten)
-* [3D-Ansicht]&#x200B;[Bäcker] Verbessern der Leistung des OBJ-Laders
-* [3D-Ansicht] Die Ebenenabstände des Kameraclips erhöhen
-* [Voreinstellungen] Hinzufügen von Einstellungen für Bäcker
-* [Graph] Schnellere Invalidierung durch Vermeiden von Zeichenfolgenvergleichen
+* [Engine] Fxmap: Neues Muster &quot;Abstufung mit Versatz&quot;
+* [Engine] Unterstützung für die Verarbeitung einheitlicher Werte (Neuer Wertprozessor)
+* [3D-Ansicht]&#x200B;[Baker] Verbessern der Leistung OBJ Laders
+* [3D-Ansicht] Die Ebenenabstände des Kameras-Clips erhöhen
+* [Voreinstellungen] Hinzufügen von Einstellungen für Baker
+* [Graf] Schnellere Invalidierung durch Vermeiden von Zeichenfolgenvergleichen
 * [MDL] Unterstützung von MDL-Arrays
-* [UI] Verbesserungen an der Benutzeroberfläche für die Modulauswahl
-* [IRay] Upgrade auf IRay SDK 2018.1.4
-* [Abhängigkeitsmanager] Verwenden Sie &quot;letzten Pfad&quot; beim Verschieben einer Ressource.
-* [Kochen] Hinzufügen von Unterstützung für boolesche Beschriftungen im Unterfenster
+* Verbesserungen an der Benutzeroberfläche für die Auswahl von [UI]-Enginen
+* [Iray] Upgrade auf Iray SDK 2018.1.4
+* [Abhängigkeitsmanager] Verwenden Sie den &quot;letzten Pfad&quot;, wenn eine Ressource verlagert wird.
+* [Kochen] Unterstützung von Boolesche Wert-Labels im Unterschrank hinzufügen
 * QT 5.12.2 integrieren
 
 **Fest:**
 
-* [Graph] Verbindungen werden unterbrochen, wenn der Name der Eingabe geändert wird
-* [Graph] Beim Anpassen von Parametern werden zu viele Invalidierungen ausgelöst
-* [Diagramm] Die Aktion &quot;In Zwischenablage kopieren&quot; funktioniert nicht, wenn Sie mit der rechten Maustaste auf ein Abzeichen klicken
-* [Diagramm] Das Verschieben eines Frames mit Alt wird nicht in der SBS-Datei gespeichert
+* [Graf] Verbindungen werden unterbrochen, wenn der Name der Eingabe geändert wird
+* [Graf] Beim Anpassen von Parametern werden zu viele Ungültigkeiten ausgelöst.
+* [Graf] Die Aktion &quot;In Zwischenablage kopieren&quot; funktioniert nicht, wenn wir mit der rechten Maustaste auf ein Abzeichen klicken
+* [Graf] Das Verschieben eines Rahmens mit Alt wird nicht in der SBS-Datei gespeichert.
 * [MDL] Farbprofil wird im MDL-Editor nicht automatisch aktualisiert
 * [MDL] Absturz beim Exportieren eines Moduls, das ein bestimmtes Setup enthält
 * [MDL] Fehler beim Exportieren eines MDL-Diagramms, das ein LightProfile oder eine MBSDF-Ressource enthält.
@@ -2556,11 +2573,11 @@ ht-degree: 0%
 * [Scripting] Abbrechen-Option funktioniert nicht im Python-Editor
 * [Skripterstellung] &quot;Yes to all&quot;-Option im Speichermenü funktioniert nicht
 * Die Dropdown-Liste [Parameter] wird nach dem Kopieren nicht korrekt angezeigt
-* [Explorer] Beim Verschieben von Ressourcen sollte standardmäßig der zuletzt verlagerte Pfad geöffnet werden.
+* [Explorer] Verlagernd Ressourcen sollten standardmäßig den zuletzt verlagert Pfad öffnen.
 * [Bibliothek] Der Inhalt der Bibliothek wird beim Wechsel von einer Version zu einer anderen immer neu erstellt.
 * [Library] Importierte Bitmaps werden beim Speichern ungültig.
-* [IRay] Der Tangentenraum wird nicht korrekt berechnet/falsche Normalzuordnung
-* [Funktion] Absturz oder Fehler beim Erstellen eines neuen Diagramms aus der Auswahl
+* [Iray] Der Tangente-Speicherplatz wird nicht korrekt berechnet/falsche Normalzuordnung
+* [Funktion] Absturz oder Fehler beim Erstellen eines neuen Grafen aus der Auswahl
 * [API] Standardwert von Eigenschaften ist nicht definiert
 
 ## Version 8
@@ -2571,20 +2588,20 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [Inhalt] Normale Transformation/Materialtransformation: Fügen Sie eine Option hinzu, um die Transformation &quot;Skalieren&quot; und &quot;Neigen&quot; zu aktivieren
+* [Inhalt] Normaler Transformieren/Material Transformieren: Fügen Sie eine Option hinzu, um die Transformation &quot;Skalieren&quot; und &quot;Neigen&quot; zu aktivieren
 
 **Fest:**
 
 * [Inhalt] Der Wirbelfilter funktioniert nicht ordnungsgemäß, wenn zufällige Funktionen in Parameterfunktionen verwendet werden
-* [Inhalt] Normale Transformation/Materialtransformation: Normal wird nach einer Skalierungstransformation nicht normalisiert
+* [Inhalt] Normaler Transformieren/Material Transformieren: Normal wird nach einer Skalierungstransformation nicht normalisiert
 * [Inhalt] Wirbel gibt falsche Ergebnisse aus, wenn der Betrag zufällig ist
-* [Graph] Absturz beim Ziehen einer Ausgabe mit Umschalttaste und anschließendem Wechseln zu Strg-Ziehen
-* [Graph] Absturz beim Bearbeiten von Teilungspunkten
-* [Graph] Leistungsabfall bei der Anzeige von Knoten-Badges
-* [Skripterstellung] Die Verwendung benutzerdefinierter Aktionen kann nach 30 Sekunden abstürzen
+* [Graf] Absturz beim Ziehen einer Ausgabe mit gedrückter Umschalttaste und anschließendem Umschalten auf Strg-Ziehen
+* [Graf] Absturz beim Bearbeiten von Teilungspunkten
+* [Graf] Leistungseinbußen bei der Anzeige von Knotenkennzeichen
+* [Skripterstellung] Die Verwendung benutzerdefinierter Aktionen kann nach 30 Sekunden einen Absturz verursachen
 * [Voreinstellungen/Projekte] Aktivierte Skripte aus allen Projekten sollten ausgeführt werden (im Abschnitt &quot;Skripterstellung&quot;).
 * [MDL] Absturz beim Verknüpfen eines MDL-Diagramms mit einem anderen MDL-Diagramm
-* [Parameter] Knoten werden nicht aktualisiert, nachdem die Zufallszahl des Graphen auf einen exponierten Parameter gesetzt wurde
+* [Parameter] Knoten werden nicht aktualisiert, nachdem der Graf auf einen zufälligen Startwert für einen freigelegte Parameter festgelegt wurde
 * [PSD] Das Zuweisen von Farbknoten ändert die Größe der Ebenenminiaturen, das Zuweisen eines Graustufenknotens ändert sich nicht
 * [API] Unbehandelte Ausnahme mit SDNode.getPropertyValueFromId()
 
@@ -2602,33 +2619,33 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [Bäcker] Fügen Sie eine Beschriftung hinzu, die die aktuelle Suffixeinstellung für &quot;Nach Name abgleichen&quot; angibt.
+* [Baker] Fügen Sie eine Beschriftung hinzu, die die aktuelle Suffixeinstellung für &quot;Nach Name abgleichen&quot; angibt.
 
 **Fest:**
 
-* [Graph] Absturz beim Bearbeiten von Teilungspunkten
-* [Graph] Ungültigkeitsproblem, wenn die Bittiefe des Eingabeknotens geändert wird
-* [Graph] Optionen zur Berechnung von Miniaturansichten funktionieren nicht mehr
-* [Diagramm] Unter dem Breadcrumb wird ein leerer Bereich mit einem bestimmten UI-Layout angezeigt.
-* [Graph] Die Verknüpfungsformatvorlage ist im Kontext falsch
-* [Graph] Miniaturansichten werden in Funktions-/MDL-Graphen auf Hi DPI-Bildschirmen nicht korrekt angezeigt
-* [Inhalt] Farbe für Form-Farbspritzer: Keine Option zum Angeben der Normalen-Map-Format
-* [Inhalt] Rechtschreibfehler in der QuickInfo für lineare Interpolation
-* [Inhalt] &quot;Normale Transformation&quot; verarbeitet die Spiegelungs- und Neigungstransformation nicht korrekt
+* [Graf] Absturz beim Bearbeiten von Teilungspunkten
+* [Graf] Ungültigkeitsproblem, wenn die Bittiefe des Eingabeknotens geändert wird
+* [Graf] Optionen zur Berechnung von Miniaturansichten funktionieren nicht mehr
+* [Graf] Unter dem Breadcrumb wird ein leerer Bereich mit einem bestimmten UI-Layout angezeigt.
+* [Graf] Verknüpfungsstil ist im Kontext falsch
+* [Graf] Miniaturansichten werden in Funktions-/MDL-Grafen auf Hi DPI-Bildschirmen nicht korrekt angezeigt
+* [Inhalt] Überblendung der Formaufteilung: Keine Option zum Angeben der Normalen-Map-Format
+* [Inhalt] Rechtschreibfehler in der QuickInfo zur lineare Interpolation
+* [Inhalt] Der normale Transformieren verarbeitet die Spiegelungs- und Neigungstransformation nicht richtig
 * [Inhalt] Farbverlauf axial, radial, kreisförmig unterstützen keine zufälligen Funktionen
 * [Inhalt] Radialer Verlauf funktioniert nicht korrekt in nicht quadratischen
-* [API] output\_exporting.sbs muss immer aktualisiert werden, wenn das Skript export\_output verwendet wird.
-* [API] Absturz nach Verwendung des export\_output-Skripts
-* [API] Fehler beim Festlegen des numerischen Werts von Anmerkungen für Compositing-Graph-Eingaben
+* [API] output\_Exporter.sbs muss immer aktualisiert werden, wenn das export\_output-Skript verwendet wird
+* [API] Absturz nach Verwendung des Skripts export\_output
+* [API] Fehler beim Festlegen des numerischen Werts von Anmerkungen für Compositing-Graf-Eingaben.
 * [Explorer] Zufälliger Absturz beim Speichern eines Projekts
 * [Explorer] Kann SBS mit Großbuchstabenerweiterung nicht öffnen
 * [UI] Fenstergröße &quot;Neue Substance&quot; ist nicht dauerhaft
-* [UI] Kontextmenü auf Funktionsinstanz stimmt nicht mit Compositing-Diagramm überein
-* [Bäcker] Absturz beim Öffnen der Bäcker auf einem bestimmten Gitter
-* [Bäcker] Falsche Berechnung für DXR-Bäcker, wenn UVs einen Ordinatenwert von 0 haben
+* [UI] Kontextmenü in der Funktionsinstanz stimmt nicht mit dem Compositing-Graf überein
+* [Baker] Absturz beim Öffnen der Baker auf einem bestimmten Mesh
+* [Baker] Falsche Berechnung für DXR Baker, wenn UVs einen 0 Ordinatenwert haben
 * [Updater] Absturz beim Abbrechen des Updaters
-* [3D-Ansicht] Die UVs der Sphere primitive werden um 1 Einheit versetzt.
-* [Cooker] Zufallsdithering beim Kochen von Bitmaps
+* [3D-Ansicht] Die UVs der Sphere Primitive werden um 1 Einheit versetzt.
+* [Cooker] Zufälliger Dithering beim Kochen von Bitmaps
 * [Player] Schaltflächen zur Fenstersteuerung sind klein
 * [Player] Schaltflächensymbole sind defekt
 
@@ -2644,12 +2661,12 @@ ht-degree: 0%
 
 **Fest:**
 
-* [Graph] Wenn Sie die TAB-Taste ein zweites Mal drücken, wird das Knotenmenü nicht geschlossen.
-* [Diagramm] 3D-Ansicht-Badges funktionieren in einigen Situationen nicht richtig
-* [Graph] Schreibgeschützte Pakete können geändert werden
-* [Bäcker] Der Fortschrittsbalken wirkt beim Laden eines sehr hohen Polygitters seltsam
-* [Bäcker] Artefakte am Gitter mit nach innen gerichteten Normalen
-* [Bäcker] Bäcker-Ausgabe- und Parameter-Widget kann nicht entsperrt werden
+* [Graf] Wenn Sie die TAB-TASTE ein zweites Mal drücken, wird das Knotenmenü nicht geschlossen
+* [Graf] Datenabzeichen funktionieren in einigen Situationen nicht richtig
+* [Graf] Schreibgeschützte Pakete können geändert werden.
+* [Baker] Die Fortschrittsleiste agiert beim Laden einer sehr seltsamen High-Poly-Mesh
+* [Baker] Artefakte auf Mesh mit nach innen gerichteten Normalen
+* [Baker] Baker-Ausgabe und Parameter-Widget können nicht entfallen
 * [Explorer] 3D-Ressourcen werden beim Öffnen eines Pakets geladen
 * [CmdLineArgs] &quot;—news hide\_changelog:true&quot; funktioniert nicht mehr.
 
@@ -2659,23 +2676,23 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [Diagramm] Hinzufügen eines Breadcrumbs beim Bearbeiten von Unterdiagrammen/Funktionen
-* [Graph] Fügen Sie TAB als Kurzbefehl zum Starten des &quot;Knotenmenüs&quot; hinzu.
-* [Graph] Knotenmarkierung für übergeordnete Auswahlknoten
-* [Graph] Fügen Sie Strg+E als Verknüpfung hinzu, um die Pixelprozessorfunktion und -Untergraph zu öffnen.
-* [Graph] Verbinden eines neuen Knotens mit der ersten sichtbaren Ausgabe des ausgewählten Knotens
-* [Graph] Knoten &quot;Badges&quot; hinzufügen
-* [Graph] Hinzufügen von Warnungen auf Compositing-Knoten über Badges
-* [Graph] Fügen Sie die Möglichkeit hinzu, einen Knoten nach seinem Namen, seinen Attributen oder seiner UID zu suchen.
+* [Graf] Hinzufügen eines Breadcrumbs beim Bearbeiten von untergeordneten Grafen/Funktionen
+* [Graf] TAB als Tastaturbefehl hinzufügen, um das &quot;Knotenmenü&quot; zu starten
+* [Graf] Knotenmarkierung für übergeordnete Auswahlknoten
+* [Graf] Fügen Sie Strg+E als Tastaturbefehl hinzu, um die Pixelprozessor-Funktion und Untergraphen zu öffnen.
+* [Graf] Verbinden Sie den neuen Knoten mit der ersten sichtbaren Ausgabe des ausgewählten Knotens.
+* [Graf] Knoten &quot;Abzeichen&quot; hinzufügen
+* [Graf] Hinzufügen einer Warnung auf Kompositionsknoten über Kennzeichen
+* [Graf] Fügen Sie die Möglichkeit hinzu, einen Knoten anhand seines Namens, seiner Attribute oder seiner UID zu suchen.
 * [API] Erstellen und Ändern von Daten zulassen
-* [API] SDPackage und SDMDLGraph können in MDL-Module exportiert werden (siehe SDMDLExporter)
+* [API] Exportieren von SDPackage und SDMDLGraph in MDL-Modul zulassen (siehe SDMDLExporter)
 * [API] Abrufen aller Knoten, Enumerationen und Strukturdefinitionen zulassen (siehe SDModuleMgr)
-* [3D-Ansicht] Wechseln Sie zu Cubemaps für den OpenGL-Renderer
-* [3D-Ansicht] Exportieren Sie ein lineares HDR-Bild beim Speichern in .exr oder .hdr
-* [Bäcker] Integration der DXR-Raytracing-Technologie
-* [IRay] Integrieren von IRay SDK 2018.1
-* [Engine] SSE (CPU) Engine-Unterstützung für HDR-Gleitkommabildverarbeitung
-* [Engine] Fügen Sie eine Befehlszeilenoption (—gpu x) hinzu, um das der Substance-Engine zugeordnete GPU-Gerät anzugeben.
+* [3D-Ansicht] Wechseln zu Cubemaps für den OpenGL-Renderer
+* [3D-Ansicht] Exportieren eines linearen HDR-Bildes beim Speichern in .exr oder .hdr
+* [Baker] Integration DXR Raytracing-Technologie
+* [Iray] Iray SDK 2018.1 integrieren
+* [Engine] SSE (CPU)-Engine-Unterstützung für HDR-Gleitkommabildverarbeitung
+* [Engine] Fügen Sie eine Befehlszeilenoption (—gpu x) hinzu, um das dem Substance-Engine zugeordnete GPU-Gerät anzugeben.
 * [Inhalt] Neuer PBR-Rendering-Knoten
 * [UI] Registerkarten und Titelleiste überarbeiten
 * [Abhängigkeitsmanager] Aktualisierung der Abhängigkeitsliste verhindern, wenn Benutzeraktionen keine Abhängigkeiten betreffen
@@ -2713,27 +2730,27 @@ ht-degree: 0%
 
 **Fest:**
 
-* [Inhalt] Der Formschatten funktioniert nicht ordnungsgemäß, wenn die Unterteilung deaktiviert ist
+* [Inhalt] Der Formschatten funktioniert nicht ordnungsgemäß, wenn die Kachelung deaktiviert ist
 * [Inhalt] Flutfüllung in Zufallsgrau/Farbe funktioniert in einigen Fällen nicht richtig
 * [Inhalt] Flood Fill ist nicht korrekt in nicht quadratisch
 * [Inhalt] Flood Fill zu Farb-/Graustufendarstellung funktioniert nicht
 * [Inhalt] QuadTransform ist in der CPU zackig
-* [Inhalt] Sternform gibt einen &quot;Keine Kachelung&quot;-Kachelmodus aus
-* [Inhalt] Ausgabe der Form-Farbspritzer-Angleichungsfarbe absolut 32f Bittiefe
-* [Inhalt] Die Füllfarbe für Shape-Farbspritzer kann lange berechnet werden, wenn ihr Format nicht auf 32F festgelegt ist
-* [Graph] Absturz beim Verknüpfen eines Bildes als Eingabe einer Fx-Map, während Iterate-Eigenschaften angezeigt werden
-* [Graph] Das Timing scheint falsch zu sein, wenn das Diagramm im Kontext bearbeitet wird
-* [Graph] Zufälliger Absturz beim Speichern des Diagramms
-* [Diagramm] Materialmodus funktioniert nicht mit SBSAR
-* [3D-Ansicht] Materialzuordnung wird nicht korrekt wiederhergestellt
-* [3D-Ansicht] Einige Einstellungen für die 3D-Ansicht-Statusdatei werden nicht korrekt geladen
+* [Inhalt] Sternform gibt eine Kachelung &quot;Keine Kachelung&quot; aus
+* [Inhalt] Shape Splatter Überblendung Farbausgabe absolut 32f Bittiefe
+* [Inhalt] Die Shape Splatter Überblendung Color kann lange berechnet werden, wenn ihr Format nicht auf 32F festgelegt ist
+* [Graf] Absturz beim Verknüpfen eines Bildes als Eingabe einer Fx-Map, während die Iterate-Eigenschaften angezeigt werden
+* [Graf] Das Timing scheint beim Bearbeiten von Graf im Kontext falsch zu sein
+* [Graf] Zufälliger Absturz beim Speichern von Graf
+* [Graf] Materialmodi funktioniert nicht mit sbsar
+* [3D-Ansicht] Die Material-Zuweisung wird nicht korrekt wiederhergestellt.
+* [3D-Ansicht] Einige Einstellungen für die 3Dview-Statusdatei werden nicht korrekt geladen
 * [2D-Ansicht] Alpha-Anzeige immer schwarz
 * [2D-Ansicht] Die Schaltfläche &quot;Bild in Graustufen anzeigen&quot; funktioniert nicht für Bilder mit Alpha
 * [UI] Abhängigkeitsmanager-Lawn beim Start, auch wenn er nicht in Mac aktiviert ist
 * [UI] Einige Schaltflächen führen Aktionen aus, auch wenn die Maus außerhalb des Fensters losgelassen wird
-* [API] Absturz beim Versuch, ein Arrayelement außerhalb des Bereichs des Arrays zu halten, aus dem es stammt
-* [MDL Graph] Knotenvorschau auf dem Kopf
-* [MDL Graph] Der Versatz des Vorschauknotens unterscheidet sich von dem in 3DView.
+* [API] Absturz beim Versuch, ein Arrayelement außerhalb des Bereichs des Arrays zu halten, aus dem er stammt
+* [MDL-Diagramm] Knotenvorschau auf dem Kopf
+* [MDL-Diagramm] Versatz des Vorschauknotens ist anders als in der 3DView
 * [Konsole] Die Leistung wird sehr langsam, wenn die Konsole viele Meldungen enthält.
 * [Console] Qt-Warnungen beim Starten von Designer unter CentOS
 * [FX-Map] Absturz beim Löschen von Verknüpfungen zwischen Eingaben und FX-Map
@@ -2767,9 +2784,9 @@ ht-degree: 0%
 * [Baker] Pfad zum Speichern oder Laden der Voreinstellung wird nie gespeichert
 * [Baker] Käfig wird auch dann verwendet, wenn er nicht im Fenster &quot;Baking&quot; ausgewählt wurde
 * [Baker] Verzerrungskorrektur funktioniert nicht richtig
-* [Bäcker] Sehr langsame Leistung, wenn negativer UV-Raum in der Ansicht ist
-* [Baker] Durch Klicken auf die Schaltfläche Abbrechen wird das Laden des Gitters nicht abgebrochen.
-* [Bäcker] Kann nicht mit einem Käfig gebacken werden, wenn die Schrägzuordnung leer und auf &quot;true&quot; gesetzt ist
+* [Baker] Sehr langsame Performance, wenn ein negativer UV-Bereich angezeigt wird
+* [Baker] Durch Klicken auf die Schaltfläche Abbrechen wird das Laden des Meshs nicht abgebrochen.
+* [Baker] Mit einem Käfig kann nicht Baking geführt werden, wenn die Skew-Map leer ist und auf &quot;true&quot; festgelegt ist
 * [Inhalt] Flood Fill ist in 4K langsam
 * [Inhalt] Funktion &quot;Linear zu sRGB&quot; ist defekt
 * [Inhalt] Kachel Zufälliger Graustufen-Hintergrund wird von einem float4 anstelle eines float gesteuert, verhindert Kochen
@@ -2779,24 +2796,24 @@ ht-degree: 0%
 * [Skripterstellung] Einfrieren beim Erstellen mehrerer neuer Skripte
 * [UI] Symbole in der Bibliothek sind verpixelt
 * [UI] Standardmäßig schwebende Bedienfelder verhalten sich nicht korrekt.
-* [Explorer] Absturz beim Importieren eines Gitters unter CentOS
-* [Explorer] UDIM-Gitter wird zweimal geladen
+* [Explorer] Absturz beim Importieren eines Meshs unter CentOS
+* [Explorer] UDIM-Mesh wird zweimal geladen
 * [Cooker] Kein Timing für Knoten im Kontext
-* [Cooker] Stapelüberlauf beim Kochen
+* [Cooker] Stapel-Überlauf beim Kochen
 * [Lizenz] Fehlerhafte Authentifizierung mit gültigen Anmeldedaten
 * [Lizenz] Gleitende Lizenz wurde mehr als einmal für denselben Benutzer gemeldet.
-* [3D-Ansicht] V-Standardwert des UV-Kachelmaterials ist falsch
-* [3D-Ansicht] Leistungsrückgang im Vergleich zu 2018.1.x
-* [Voreinstellungen] Absturz bei Verwendung einer Konfigurationsdatei von einem Server
-* [Library] Absturz beim Löschen eines Filters innerhalb der Bibliothek
+* [3D-Ansicht] Der V-Standardwert des UV tile-Materials ist falsch
+* [3D-Ansicht] Leistungsrückgang gegenüber 2018.1.x
+* [Voreinstellungen] Absturz bei der Verwendung einer Konfigurationsdatei von einem Server
+* [Library] Absturz Löschen eines Filters innerhalb der Library
 * [SVG] Abhängigkeitsproblem bei Verwendung des Alias
-* [Ebenen] 32-Bit-HDR-Bitmaps bringen den Level-Editor zum Blinzeln, während die Widget-Position verschoben wird
+* [Ebenen] 32-BitHDRBitmaps bringen den Leveleditor zum Blinzeln, während die Widgetposition verschoben wird
 * [PSD] Das Fenster für die verknüpfte Import-PSD wird zweimal angezeigt
 * [Iray] Szene wird aktualisiert, wenn eine deaktivierte Anzeige geändert wird
 * [MDL] Absturz beim Löschen aller Knoten einer MDL-Vorlage
-* [Engine] Riesiger Offsetbetrag in FX-Map kann SD einfrieren
-* Crashpad stürzt beim Start ab
-* Python-Umgebungsvariable führt zum Absturz von Designer beim Start
+* [Engine] Riesiger Versatzbetrag in FX-Map kann SD einfrieren
+* Crashpad-Abstürze beim Start
+* Python-Umgebungsvariable macht Designer beim Start zum Absturz
 
 ### 8.2.0 (2018.2.0)
 
@@ -2818,50 +2835,50 @@ ht-degree: 0%
 * [Inhalt] Flood Fill zu Verlauf: Hinzufügen der Steigung- und Winkelbildeingabe
 * [Inhalt] Optimieren des Filters &quot;Auto-Level&quot;
 * [Inhalt] Neuer Formextrusionsfilter
-* [Inhalt] Materialtransformation: Unterstützung für gedrehte Normalmaps hinzufügen
-* [Inhalt] Neue Filter &quot;Normale Vektordrehung&quot; und &quot;Normale Transformation&quot;
+* [Inhalt] Material Transformieren: Unterstützung für gedrehte Normalen-Map hinzufügen
+* [Inhalt] Neue Filter &quot;Normale Vektordrehung&quot; und &quot;Normale Transformieren&quot;
 * [Inhalt] Normal normalisieren: die Ergebnisqualität zu verbessern.
-* [Inhalt] Neuer Filter &quot;Trapezoid transformieren&quot;
-* [Inhalt] Neuer Quad Transform-Filter
+* [Inhalt] Neuer Transformieren Trapezfilter
+* [Inhalt] Neuer Quad Transformieren-Filter
 * [Inhalt] Halbkugelmuster zum Formknoten hinzufügen
 * [Inhalt] Hinzufügen neuer Farbverläufe mit Steuerelementen in der 2D-Ansicht
-* [Inhalt] Hinzufügen von UV-Ausgabe zum Knoten &quot;Cube GBuffers&quot;
-* [Graph] Frame: Titeltext ignorieren, der größer als das Rahmenfeld für die Auswahl ist
-* [Graph] Hinzufügen von Unterstützung für in der Kontextausgabe von Unterdiagrammen (experimentell)
-* [Graph] Das Erstellen von Rahmen/Kommentar sollte den Knoten unter dem Cursor betreffen, wenn RMB verwendet wird
-* [Graph] Frame: Titeltext ignorieren, der größer als das Rahmenfeld für die Auswahl ist
-* [Diagramm] Vorhandene Registerkarte wiederverwenden, wenn eine bereits geöffnete Funktion geöffnet wird
-* [Graph] Erstellen einer neuen Registerkarte, wenn &quot;Open Reference&quot; verwendet wird
-* [Graph] Funktion: keine Funktionseigenschaften anzeigen, wenn auf den Hintergrund geklickt wird
-* [Parameter] Schaltfläche &quot;Expose&quot; aus fxmap-Graphen entfernen
+* [Inhalt] Hinzufügen der UV-Ausgabe zum Knoten &quot;Cube GBuffers&quot;
+* [Graf] Rahmen: Titeltext ignorieren, der größer als das Auswahlfeld für den Rahmen ist
+* [Graf] Unterstützung für in der Kontextausgabe von untergeordneten Grafen hinzufügen (experimentell)
+* [Graf] Das Erstellen von Rahmen/Kommentar sollte sich auf den Knoten unter dem Cursor auswirken, wenn RMB verwendet wird
+* [Graf] Rahmen: Titeltext ignorieren, der größer als das Auswahlfeld für den Rahmen ist
+* [Graf] Vorhandene Registerkarte wiederverwenden, wenn eine bereits geöffnete Funktion geöffnet wird
+* [Graf] Erstellen Sie eine neue Registerkarte, wenn &quot;Open Reference&quot; verwendet wird.
+* [Graf] Funktion: keine Funktionseigenschaften anzeigen, wenn auf den Hintergrund geklickt wird
+* [Parameter] Schaltfläche &quot;Leg&quot; aus fxmap-Grafen entfernen
 * [Parameter] Ebene: Schaltfläche &quot;Umkehren&quot; hinzufügen
-* [Parameter] Erweitern Sie die Gruppe &quot;Eingabeparameter&quot;, wenn Sie einen neuen Eingabeparameter erstellen
-* [Eigenschaften] Fügen Sie die Paket-URL-Informationen in den Graph-Attributen hinzu
+* [Parameter] Erweitern Sie die Gruppe &quot;Eingabeparameter&quot; beim Erstellen eines neuen Eingabeparameters.
+* [Eigenschaften] Fügen Sie die Paket-URL-Informationen in den Graf-Attributen hinzu
 * [Eigenschaften] Erhöhen Sie die Größe des Beschreibungsfelds für Ausgabeknoten
-* [Eigenschaften] Erlaubt die Eingabe von Pro-Pixel-Funktionen des Pixelprozessors auch für schreibgeschützte Pakete.
+* [Eigenschaften] Erlaubt die Eingabe von &quot;Pro Pixelfunktion&quot; des Pixelprozessors auch für schreibgeschützte Pakete.
 * [Skripterstellung] Neue Python-API/neuer Python-Editor (erste Iteration)
-* [Bäcker] Optimieren der Geometrieübertragung während des Renderns
-* [3D-Ansicht] Wechsel zu OpenGL-Kernprofil
+* [Baker] Optimieren des Geometrietransfers während des Renderns
+* [3D-Ansicht] Wechsel zum OpenGL-Kernprofil
 * [3D-Ansicht] Unterstützung von Tesselation/Versatz auf Mac
 * Funktionsressource: Listen-Bildeingaben in Samplerknoten
 
 **Fest:**
 
-* [Graph] Absturz beim Verknüpfen eines Knotens mit einem anderen
+* [Graf] Absturz beim Verknüpfen eines Knotens mit einem anderen
 * [Graf] Das Abrufen von Variablen in der Zufallswert-Startfunktion des Grafen funktioniert nicht
-* [Graph] Absturz beim Ziehen und Ablegen von Rauschen in einem Diagramm
-* [Graph] Absturz beim Öffnen eines bestimmten Diagramms
+* [Graf] Absturz beim Ziehen und Ablegen von Rauschen in einem Graf
+* [Graf] Absturz beim Öffnen eines bestimmten Grafen
 * [Inhalt] Das Ergebnis unterscheidet sich zwischen Kachelzufälliger Farbe und Graustufen
 * [Inhalt] Kachel zufällig: Ergebnisänderungen beim Ändern des &quot;Symmetrie-Zufallsmodus&quot;
 * [Inhalt] Edge Detect funktioniert nicht mit nicht quadratischen Auflösungen
-* [Bäcker] Artefakte beim Backen der Krümmung mit einem UDIM-Gitter
-* [Bäcker] Umgebungskarte Verdeckung aus Mesh wird invertiert, wenn eine Normalkarte verwendet wird
-* [Bäcker] Liste der UV-Sätze sollte auf verfügbare UV-Sätze beschränkt werden
-* [Explorer] Absturz beim Löschen von Ressourcen während des Backens
-* [Transform2D] Absturz beim Freigeben der Parameter &quot;MIP-Map-Ebene&quot; und &quot;Hintergrundfarbe&quot;
-* [Transform2D] Fehlverhalten beim Anzeigen einer Transformieren-Mipmap-Stufe
-* [PSDExport] PSD-Exporter exportiert Graustufen 32F nicht ordnungsgemäß.
-* [2D-Ansicht] Histogrammberechnung funktioniert nicht mit 16F-Knoten
+* [Baker] Artefakte beim Baking führ von Krümmungen mit einem UDIM-Mesh
+* [Baker] Ambient occlusion-Map vom Mesh wird bei Verwendung einer Normalen-Map invertiert
+* [Baker] Die Liste der UV-Satz sollte auf verfügbare UV-Satz beschränkt werden.
+* [Explorer] Absturz beim Löschen von Ressourcen während des Bakings
+* [Transformieren2D] Absturz beim leg der Parameter &quot;Mip-Map&quot; und &quot;Hintergrundfarbe&quot;
+* [Transformieren2D] Fehlverhalten beim leg einer Transformieren Mipmap-Stufe
+* [PSDExport] PSD Exporter exportiert Graustufen 32F nicht korrekt
+* [2D-Ansicht] Histogramm-Berechnung funktioniert nicht mit 16F-Knoten
 * [PSD] Verknüpftes PSD ist defekt
 * [Cooker] Funktion im Parameter &quot;outputsize&quot; wird nicht korrekt ausgewertet
 * [Export] Der Ausgabepfad für den Export sollte mit dem Paketpfad übereinstimmen.
@@ -2876,31 +2893,31 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [3D-Ansicht] Legen Sie den Standardlichtstatus in den Projekteinstellungen fest.
-* [Versionskontrolle] Entfernen Sie die Zeitüberschreitung von 30s beim Aufrufen der Python-Skripte
+* [3D-Ansicht] Einstellung des Standard-Lichtzustands in den Projekteinstellungen zulassen
+* [Versionskontrolle] Entfernen Sie die Zeitüberschreitung von 30s beim Aufruf der Python-Skripte
 
 **Fest:**
 
-* [Content] Fraktalsumme Basis: Falsches Ergebnis mit der dritten Ebene (neues Diagramm wurde hinzugefügt)
-* [Inhalt] Das 3D-Perlin-Rauschen-Fraktal wird auf 32 Bit erzwungen
+* [Content] Fraktalsumme Basis: Falsches Ergebnis mit der dritten Ebene (neuer Graf wurde hinzugefügt)
+* [Inhalt] 3D Perlin Rauschen Fraktal wird auf 32 Bit erzwungen
 * [Inhalt] Verlauf Linear 3 gibt bei Verwendung einer ungleichmäßigen Größe nicht das richtige Ergebnis.
-* [Content] Normal Sobel unterstützt keine Kacheloptionen
+* [Inhalt] Normal Sobel unterstützt keine Optionen zur Kachelung
 * [Inhalt] Checker\_1 ist auf 8 Bit gezwungen
-* [Inhalt] Multiangle to Normal: interner Rechenfehler
-* [Inhalt] Stripe-Muster unterstützt keine negativen &quot;Shift&quot;-Werte (Absturz des Motors)
+* [Inhalt] Multiangle to Normal: interne Berechnung
+* [Inhalt] Stripe-Muster unterstützt keine negativen &quot;Shift&quot;-Werte (Engine-Absturz)
 * [MDL] Absturz beim Öffnen eines bestimmten MDL-Projekts
 * [MDL] MDL-Diagramm wird nach einem Closed/Reopen-Vorgang nicht berechnet
-* [Exportieren] Ausgaben aus nicht zugewiesenen Diagrammen werden mit dem Stapelwerkzeug exportiert
-* [Exportieren] Beim Exportieren von C16F in EXR wird ein Graustufenbild erzeugt
-* [Bäcker] Neigungsfunktionen sind in der Benutzeroberfläche beim Backen mit einem Käfig nicht deaktiviert
-* [Bäcker] Absturz, wenn der Käfig nicht über den entsprechenden UV-Satz verfügt
+* [Exportieren] Ausgaben nicht zugewiesener Graf werden mit dem Stapelwerkzeug exportiert
+* [Exportieren] Beim Exportieren von C16F in EXR wird Graustufenbild erzeugt
+* [Baker] Neigungsfunktionen sind in der Benutzeroberfläche beim Baking führ mit einem Käfig nicht deaktiviert
+* [Baker] Absturz, wenn der Käfig keinen entsprechenden UV-Satz hat
 * [Cooker] bscooker: Kochfehler in Zusammenhang mit &quot;blend\_switch.sbs&quot;
-* [Cooker] Veröffentlichtes Diagramm wird nicht korrekt gerendert
-* [Motor] Transformation 2D: Maskenfarbe ist nicht korrekt
-* [Explorer] Absturz beim erneuten Importieren eines FBX-Gitters
+* [Cooker] Veröffentlichter Graf wird nicht korrekt gerendert
+* [Engine] Transformation 2D: Maskenfarbe ist nicht korrekt
+* [Explorer] Absturz beim erneuten Importieren eines FBX Meshs
 * [Color Widget] Graustufen-Farbwähler wählt nur den roten Kanalwert aus
 * [3D-Ansicht] Verwendung &quot;textcoordN&quot; funktioniert nicht mehr
-* [Iray] Normalmap wird zweimal für Dielektrika angewendet
+* [Iray] Normalen-Map wird zweimal für Dielektrika angewendet
 
 ### 8.1.1 (2018.1.1)
 
@@ -2908,40 +2925,40 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [3D-Ansicht] Stellen Sie den Standardbereich des &quot;Tesselierungsfaktors&quot; auf [0, 16] ein.
+* [3D-Ansicht] Standardbereich des &quot;Tesselierungsfaktors&quot; auf [0, 16] setzen
 
 **Fest:**
 
 * [3D-Ansicht] Seltsames visuelles Artefakt mit bestimmter AMD-GPU
 * [3D-Ansicht] Einfrieren mit bestimmten AMD-GPUs
-* [3D-Ansicht]&#x200B;[Bäcker] Generierte Normale von .obj haben harte Kanten an der UV-Naht
-* [3D-Ansicht] Absturz beim Berechnen kugelförmiger Harmonien
-* [Bäcker] Ressource kann nicht als &quot;eingebettet&quot; festgelegt werden
-* [Bäcker] Absturz beim Backen
-* [Bäcker] Backen von 2 verschiedenen Versionen einer Karte aus dem UDIM-Gitter ist unterbrochen
-* [Bäcker] Absturz beim Wechsel zwischen kontextabhängigem und nicht kontextabhängigem Diagramm
-* [Bäcker] Wenn sie den gleichen Bäcker zweimal haben, werden sie synchronisiert
-* [Bäcker] Das Umbenennen des Makros $(custom) verhindert ein korrektes Backen
-* [Bäcker] Das Aktualisieren eines durch Baking erzeugte Map sollte die Benutzeroberfläche blockieren
-* [Bäcker] Alle durch Baking erzeugte Map aktualisieren erstellt leere Ressourcen
-* [Bäcker] Drücken der &quot;Eingabetaste&quot;, um einen Parameterwert zu bestätigen, entfernt das hohe Poly
+* [3D-Ansicht]&#x200B;[Baker] Generierte Normale von .obj haben harte Kanten in der UV-Naht
+* [3D-Ansicht] Absturz bei der Berechnung von sphärischen Oberwellen
+* [Baker] Ressource kann nicht als &quot;eingebettet&quot; festgelegt werden
+* [Baker] Absturz beim Baking
+* [Baker] Das Baking von zwei verschiedenen Kartenversionen vom UDIM-Mesh ist unterbrochen
+* [Baker] Absturz beim Wechseln zwischen kontextabhängigem und nicht kontextabhängigem Graf
+* [Baker] Wenn der gleiche Baker zweimal verwendet wird, werden sie synchronisiert
+* [Baker] Das Umbenennen des Makros $(custom) verhindert ein ordnungsgemäßes Baking
+* [Baker] Das Aktualisieren einer durch Baking erzeugte Map sollte die Benutzeroberfläche blockieren.
+* [Baker] Alle durch Baking erzeugte Map aktualisieren erstellt leere Ressourcen.
+* [Baker] Durch Drücken der &quot;Eingabetaste&quot; zur Bestätigung eines Parameterwerts wird der hohe Poly-Wert entfernt.
 * Tile Generator [Inhalt]: Fehler &quot;Drehung zufällig&quot;, wenn X- und Y-Betrag unterschiedlich sind
-* [Inhalt] Einige Schmutz Maps enthalten Geisterinstanzen
+* [Inhalt] Einige Schmutz Maps enthalten Phantom-Instanzen
 * [Inhalt] Cube 3d: Verwenden von Zufallsfunktionen in Parametern führt nicht zu einem erwarteten Ergebnis
-* [Inhalt] Fraktale Störungen werden nicht korrekt gerendert, wenn die Quadratische Ausbreitung deaktiviert ist
+* [Inhalt] Fraktale Rauschen werden nicht korrekt gerendert, wenn die Quadratische Ausbreitung deaktiviert ist
 * [Inhalt] Zellen 2 und Zellen 4 verhalten sich nicht korrekt, wenn die Quadratische Ausbreitung deaktiviert ist
-* [Graph] Beim Aktualisieren einer SBSAR-Instanz wird ein Geisterdiagramm erstellt.
-* [Diagramm] Zuweisung durch Rechtsklick sollte Untermenü &quot;UV-Kacheln&quot; für Nicht-UDIM-Gitter nicht anzeigen
-* [Graph] Wiederveröffentlichte Unterfenster werden nicht korrekt aktualisiert
-* [Graph] Knoten werden nicht korrekt ungültig, wenn sich die Ressource ändert
-* [Cooker] Der Parameter für die Alpha-Überblendung von Premult wird nicht ordnungsgemäß von sbsar abgerufen.
+* [Graf] Beim Aktualisieren einer Subsar-Instanz wird ein Phantom-Graf erstellt.
+* [Graf] Zuweisung durch Rechtsklick sollte das Untermenü &quot;UV tiles&quot; für Nicht-UDIM-Mesh nicht anzeigen
+* [Graf] Der erneut veröffentlichte Unterabschnitt wird nicht korrekt aktualisiert.
+* [Graf] Knoten werden bei Ressourcenänderungen nicht korrekt ungültig.
+* [Cooker] Der Parameter &quot;Premult-Alpha-Überblendung&quot; wird nicht korrekt von sbsar abgerufen.
 * [Cooker] Pegelfilter klemmt Werte nicht, wenn sie in einem SBSAR gekocht werden
-* [Cooker] Implizite Transformationen werden vor FX-Map-Knoten durchgeführt
+* [Cooker] Impliziter transformieren wird vor FX-Map-Knoten ausgeführt
 * [Explorer] Durch Drücken der Entf-Taste auf einem Paket wird der Benutzer gefragt, ob er es löschen möchte
-* [Explorer]&#x200B;[Bäcker] Problem beim Verschieben
-* [Kurve] Zufälliger Absturz beim Bearbeiten von Schlüsseln im Kurveneditor
+* [Explorer]&#x200B;[Baker] Problem Verlagert
+* [Kurve] Zufälliger Absturz beim Bearbeiten von Tasten im Kurveneditor
 * [MDL] Gamma-Typ wurde nicht korrekt für die benutzerdefinierte Verwendung festgelegt
-* [Parameter] Absturz beim Freigeben eines Parameters mit demselben Bezeichner wie eine vorhandene Eingabe
+* [Parameters] Absturz, der einen Parameter mit derselben Identifizierung wie eine bestehende Eingabe legt
 * [Eigenschaften] Die Verwendung der Ausgabe wird ohne Berücksichtigung der Groß-/Kleinschreibung bearbeitet
 
 ### 8.1.0 (2018.1.0)
@@ -2950,59 +2967,59 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [Bäcker] Optimieren des High-Poly-Backens
-* [Bäcker] Verbessern Sie das Ergebnis an Nähten für Kurvenbäcker
-* [Bäcker] Bake Maps für UDIM-basiertes Mesh
-* [Bäcker] Hinzufügen einer dedizierten 2D-Ansicht im Fenster &quot;Bäcker&quot;
-* [Graph] Unterstützung für UDIMs
-* [Graph] Optimieren der Leistung von Cookern
-* [Graph] Verbessern der Generierungsgeschwindigkeit von Knoten-Miniaturansichten
-* [Graph] Node-Cache nur für geöffnete Diagramme beibehalten
-* [Diagramm] Fügen Sie im Compositing-Graphen die Symbolleiste hinzu, um den Miniaturansichtserstellungsmodus zu steuern.
-* [3D-Ansicht] Fügen Sie einen Geometrie-Cache hinzu, um die Anzeige von hochauflösenden Netzen zu optimieren
-* [3D-Ansicht] Unterstützung der UDIM-Anzeige (zeigt die aktuelle Kachel an)
+* [Baker] Optimieren des Bakings mit hohen Poly-Werten
+* [Baker] Verbessern des Ergebnisses bei Nähte für den Baker von Krümmungen
+* [Baker] Baking Maps für UDIM-basierten Mesh
+* [Baker] Hinzufügen einer dedizierten 2D-Ansicht im Fenster &quot;Baker&quot;
+* [Graf] Unterstützung für UDIM
+* [Graf] Optimieren der Leistung von Cookern
+* [Graf] Verbessern der Generierungsgeschwindigkeit von Knoten-Miniaturansichten
+* [Graf] Knotencache nur für geöffnete Graf beibehalten
+* [Graf] Fügen Sie die Symbolleiste im Compositing-Graf hinzu, um den Miniaturansichtserstellungsmodus zu steuern.
+* [3D-Ansicht] Hinzufügen eines Geometriecaches zum Optimieren der Anzeige von High-Definition-Meshs
+* [3D-Ansicht] Unterstützung UDIM-Anzeige (aktuelle Kachel anzeigen)
 * [3D-Ansicht] Abgerundeten Cube mit einheitlicher Topologie aktualisieren
-* [3D-Ansicht] Vermeiden Sie es, die Szene ständig zu speichern
-* [Content] Hinzufügen von 3D-Noises (Perlin, Perlin, Fraktal, Worley, Simplex)
+* [3D-Ansicht] Vermeiden Sie es, ständig Szene zu sparen
+* [Inhalt] Hinzufügen von 3D-Rauschen (Perlin, Perlin Fraktal, Worley, Simplex)-Knoten
 * [Inhalt] Knoten &quot;3D-Volumenmaske hinzufügen&quot;
 * [Inhalt] Knoten &quot;3D Linear gradient&quot; hinzufügen
 * [Content] Knoten &quot;3D-Cube-Puffer&quot; hinzufügen (nützlich zur Vorabvisualisierung von 3D-basierten Knoten)
 * [Inhalt] 3D-Knoten &quot;Planare Projektion&quot; hinzufügen
 * [Inhalt] Radialen Weichzeichnungsfilter hinzufügen
-* [Parameter] Anzeige der Bildeingabe-/-ausgabeeigenschaften in den Diagrammeigenschaften
+* [Parameter] Anzeige der Bildeingabe-/-ausgabeeigenschaften in den Eigenschaften des Grafen
 * [Parameter] Edition des Ressourcenpfads zulassen
-* [Engine] Unterstützung von Texturen mit bis zu 8k mit der CPU (SSE2)-Engine
-* [Engine] Verwenden von HDR-Gewichtungen für die HDR-Engine durch den Graustufen-Konverter zulassen
+* [Engine] Unterstützung von bis zu 8K-Texturen mit dem CPU (SSE2)-Engine
+* [Engine] Graustufen-Konverter darf HDR. Gewichte für HDR. Engine verwenden
 * [Voreinstellungen] Fügen Sie eine Option hinzu, um die automatische Konvertierungsknotenerstellung zu deaktivieren.
 * [Voreinstellungen] Legen Sie die Standardkomprimierung für png auf &quot;Beste Geschwindigkeit&quot; fest.
-* [UI] Unterstützung für HTML-Link in den Diagrammeigenschaften
+* [UI] Unterstützung für HTML-Link in den Graf-Eigenschaften
 * [UI] Die Schaltflächen &quot;Ja/Nein/Abbrechen&quot; im Dialogfeld zur Speicherbestätigung zentrieren
-* [Explorer] Verbessern der Anzeige der Gitterhierarchie
-* [IRay] Integrieren von IRay SDK 2017.1.4
+* [Explorer] Mesh-Hierarchieanzeige verbessern
+* [Iray] Iray SDK 2017.1.4 integrieren
 
 **Fest:**
 
-* [Bäcker] Durch Hinzufügen eines Makros im Feld &quot;Ausgabename&quot; wird es nicht an der Cursorposition hinzugefügt
-* [Bäcker] Es werden keine Materialien in der Liste angezeigt, wenn das Objekt kein Material enthält
-* [Bäcker] Drücken der Eingabetaste zum Bestätigen der Bäckerparameter öffnet ein Dropdown-Menü
-* [Bäcker] Backtexturen sollten keine Befehle im Rückgängigstapel generieren.
-* [Bäcker] Absturz beim Backen einer übertragenen Textur aus dem Gitter ohne Angabe einer Textur
+* [Baker] Durch Hinzufügen eines Makros im Ausgabenamensfeld wird es nicht an der Cursorposition hinzugefügt
+* [Baker] Es werden keine Materials in der Liste angezeigt, wenn das Objekt kein Material enthält.
+* [Baker] Durch Drücken der Eingabetaste zum Bestätigen der Baker-Parameter wird ein Dropdown-Menü geöffnet.
+* [Baker] Baking führend Texturen sollten keine Befehle im Stapel &quot;Rückgängig&quot; generieren.
+* [Baker] Absturz, der eine Transferierte Textur aus Mesh Baking führe, ohne eine Textur anzugeben
 * [Explorer] &quot;Speichern unter&quot; sollte den vorhandenen Dateinamen anstelle des ersten Ressourcennamens verwenden.
 * [Explorer] Falsches Verhalten beim Ziehen und Ablegen einer Ressource von einem Paket in ein anderes
 * [Explorer] Mit der rechten Maustaste sollten die Daten nicht in den Eigenschaften geöffnet werden.
-* [Explorer] Symbol für Szenenelemente hat nicht den richtigen Hintergrund
-* [Graph] Strg + D funktioniert nicht unter Linux
-* [Diagramm] Multi-Relink-Funktion kann nur einen Link schließen
-* [Diagramm] Strg+Umschalt+D sollte nur externe, nicht interne Links entfernen
-* [Diagramm] Verknüpfung zwischen Graustufen und Farbe ist nicht korrekt
-* [3D-Ansicht] Eine Ressource kann nicht als Env-Map festgelegt werden.
+* [Explorer] Symbol von Szenen hat nicht den richtigen Hintergrund
+* [Graf] Strg + D funktioniert unter Linux nicht
+* [Graf] Mehrfachverknüpfungsfunktion kann manchmal nur einen Link schließen
+* [Graf] Strg+Umschalt+D sollte nur externe Links entfernen, keine internen Links
+* [Graf] Verknüpfung zwischen Graustufen und Farbe ist nicht korrekt
+* [3D-Ansicht] Eine Ressource kann nicht als env-Map festgelegt werden.
 * [3D-Ansicht] Mesh-Info-Shader zeigt Ergebnisse nicht im richtigen Farbraum an
 * [Parameter] Nicht exponierbare Parameter können weiterhin mit STRG+P exponiert werden.
 * [Parameter] Textfelder werden beim Rückgängigmachen/Wiederholen nicht korrekt aktualisiert
 * [Inhalt] Artefakte in Schmutz Map 003
 * [Inhalt] Die primäre Graustufeneingabe des Vektors erscheint falsch.
 * [Cooker] sbscooker generiert einen Fehler, wenn eine Ressource fehlt
-* [Kochen] Absturz mit Stapelüberlauf, wenn die Knotenkette zu lang ist
+* [Kochen] Absturz mit Stapel-Überlauf, wenn die Knotenkette zu lang ist
 * [UI] Schaltfläche &quot;Beenden&quot; in der Lizenzverwaltung funktioniert nicht
 
 ## Version 7
@@ -3014,15 +3031,15 @@ ht-degree: 0%
 **Hinzugefügt:**
 
 * [Content] Tippfehler in function.sbs
-* [Inhalt] Reduzieren des Standardbereichs von Perlin- und Gaußgeräuschen
+* [Inhalt] Reduzieren des Standardbereichs von Perlin-Rauschen und Gaußschem Rauschen
 * [3D-Ansicht] Anpassen des Standardbereichs für den Parameter &quot;Height skalieren&quot;
 * [AXF] Aktualisieren von MDL-Vorlagen
 
 **Fest:**
 
-* [3D-Ansicht]&#x200B;[Bäcker] Normale werden nicht neu berechnet, wenn das Modell keine Normalen hat
-* [Graph] Nicht-quadratische Bitmapressource ist leer, sobald sie instanziiert wurde
-* [Content] Perlin-Rauschen führt zu unterschiedlichen Ergebnissen zwischen CPU und GPU-Engine
+* [3D-Ansicht]&#x200B;[Baker] Normale werden nicht neu berechnet, wenn das Modell keine Normalen hat
+* [Graf] Nicht-quadratische Bitmapressource ist leer, sobald sie instanziieren wurde
+* [Inhalt] Perlin Rauschen liefert ein anderes Ergebnis zwischen CPU und GPU-Engine
 
 ### 7.2.4 (2017.2.4)
 
@@ -3030,14 +3047,14 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [AXF Import] Festlegen des Filtermodus für Eingabebitmaps
+* [AXF Import] Geben Sie die Filtermethode für Eingabebitmaps an.
 * [2D-Ansicht] Ändern Sie nicht das Bildverhältnis in der 2D-Ansicht, wenn die Physische Größe aktiviert ist.
 
 **Fest:**
 
-* [Library] Absturz beim Aktivieren/Deaktivieren des Pfads in den Einstellungen
-* [Baker] Passende Namen ignorieren einige Gitter mit bestimmten Namen
-* [Inhalt] Alphakanal wird durch den Filter &quot;Prämult zu gerade&quot; entfernt.
+* [Library] Absturz beim Aktivieren/Deaktivieren des Pfads in den Voreinstellungen
+* [Baker] Bei der Namensübereinstimmung werden einige Mesh mit bestimmten Namen ignoriert
+* [Inhalt] Der Filter &quot;In gerader Linie vorfassen&quot; entfernt Alphakanal
 
 ### 7.2.3 (2017.2.3)
 
@@ -3054,24 +3071,24 @@ ht-degree: 0%
 * [Inhalt] Formzuordnung: zufällige Funktionen können nicht verwendet werden, um Mustergröße, Radius, Breite usw. zu steuern
 * [Inhalt] Polygon 2: zufällige Funktionen können nicht verwendet werden, um den Seitenwert zu steuern
 * [Inhalt] Einige Rauschen/Pattern-Generatoren generieren Warnmeldungen in der Konsole.
-* [Inhalt] Non-Square-Transform-Grayscale generiert eine falsche Pixelgröße
-* [Inhalt] Der Wirbelfilter berücksichtigt nicht den Kachelmodus
-* [Graph] Ziehen und Ablegen der Bitmapressource auf den Bildeingabeknoten funktioniert nicht mehr
-* [Graph] STRG+R (neu laden) funktioniert nicht mehr
-* [Graph] Problem bei der Verwendung eines Frames in einem anderen Frame
-* [Graph] Absturz beim Verschieben von Frames, die Pins enthalten
-* [Graph] Die Instanz &quot;Shape (Legacy)&quot; wird beim Speichern in &quot;Shape&quot; umgewandelt
+* [Inhalt] Nicht-quadratisch-Transformieren-Graustufen generiert eine falsche Pixelgröße
+* [Inhalt] Der Wirbelfilter berücksichtigt nicht den Kachelung-Modus
+* [Graf] Ziehen und Ablegen der Bitmap-Ressource in den Eingabeknoten &quot;Bild&quot; funktioniert nicht mehr
+* [Graf] STRG+R (neu laden) funktioniert nicht mehr
+* [Graf] Problem bei der Verwendung von Rahmen in einem anderen Rahmen
+* [Graf] Absturz beim Verschieben von Rahmen, die Nadeln enthalten
+* [Graf] Die Instanz &quot;Form (veraltet)&quot; wird beim Speichern in &quot;Form&quot; transformieren
 * [Baker] Absturz bei Verwendung von nicht leistungsfähigen 2 Bildern
-* [Bäcker] Farbe aus Gitter: Polygroup, Submesh ID gibt immer ein schwarzes Bild zurück
-* [Bäcker] AO aus Mesh: Okklusionsabstand wird unabhängig vom Eingangswert auf 1 geklemmt
-* [Iray] Absturz beim Wechsel nach Iray
-* [Iray] Der Kachelwert sollte die HöhenSkalenintensität beeinflussen.
-* [Iray] Laden von IRay auf einem Windows-Computer, auf dem VCCOMP110.dll nicht vorhanden war, fehlgeschlagen
-* [3D-Ansicht]&#x200B;[Bäcker] UVs können nicht von einem aus Modo exportierten Objekt decodiert werden
-* [3D-Ansicht] Die Intensität des Versatzes ist zwischen Opengl und Iray nicht konsistent.
-* [3D-Ansicht] Die Intensität der Versatz-/Parallax-Verdeckung ist doppelt so hoch wie sie sein sollte
-* [2D-Ansicht] Versatz bei Anzeige von Alpha-Bild
-* [Cooker] Konstanter Parameter ($tiling) wird nicht gefunden, wenn er innerhalb einer Diagramminstanz verwendet wird
+* [Baker] Farbe aus Mesh: Polygroup, Submesh ID gibt immer ein schwarzes Bild zurück
+* [Baker] AO vom Mesh: Verdeckungsabstand wird unabhängig vom Eingangswert auf 1 geklemmt
+* [Iray] Absturz wechselt zu Iray
+* [Iray] Der Wert der Kachelung sollte die Höhe der Skalierungsintensität beeinflussen.
+* [Iray] Iray auf Windows-Computer, auf dem VCCOMP110.dll nicht vorhanden war, kann nicht geladen werden.
+* [3D-Ansicht]&#x200B;[Baker] UVs können nicht von einem aus Modo exportierten Objekt decodiert werden
+* [3D-Ansicht] Die Intensität des Versatzes zwischen Opengl und Iray ist nicht konsistent
+* [3D-Ansicht] Die Intensität der Versatz-/Parallaxe-Verdeckung ist doppelt so hoch wie sie sein sollte
+* [2D-Ansicht] Offset bei Anzeige von Alpha-Bild
+* [Cooker] Konstantenparameter ($Kachelung) wird nicht gefunden, wenn er in einer Grapheninstanz verwendet wird
 * [Cooker] Falsche Auswertung von Variablen in verketteten Instanzen
 * [Parameter] Der Bitmap-PKG-Ressourcenpfad sollte nicht bearbeitbar sein.
 * [Parameter] Parameter in derselben Gruppe sind unsichtbar, wenn nur ein Parameter die Sichtbarkeit &quot;false&quot; hat.
@@ -3090,21 +3107,21 @@ ht-degree: 0%
 * [Inhalt] Verschiedene Tippfehler
 * [Inhalt] Kachel Sampler ist auf &quot;Absolut 32 Bit&quot; festgelegt
 * [Inhalt] Formzuordnung: sichtbare Artefakte an der Formbegrenzung in einigen Fällen
-* [Inhalt] Die Parameter &quot;Unterteilung&quot; und &quot;Nicht-quadratische Erweiterung&quot; in Polygon 1 sind fehlerhaft.
-* [Inhalt] &quot;Random Seed&quot; und &quot;Non-Square Expansion&quot; funktionieren nicht bei anisotropem Rauschen
+* [Inhalt] Die Parameter &quot;Kachelung&quot; und &quot;Nicht-quadratische Erweiterung&quot; in Polygon 1 sind fehlerhaft.
+* [Inhalt] &quot;Random Seed&quot; und &quot;Non-Square Expansion&quot; funktionieren auf anisotropen Rauschen nicht
 * [Inhalt] Beschädigte &quot;Shape&quot;-Instanz in einigen Schmutz Maps
 * [3D-Ansicht] UV-Skalierung wird nicht angewendet, wenn die Height-Skala 0 ist
-* [3D-Ansicht] Reflexion mit Shader Blinn funktioniert nicht mehr
+* [3D-Ansicht] Reflexion mit Shader-Blinn funktioniert nicht mehr
 * [2D-Ansicht] Das Informationsfenster weist ein fehlerhaftes Layout auf.
-* [Graph]-Problem beim Steuern der Ausgabegröße mit einer Funktion für eine verknüpfte Bitmap, die in einem Diagramm instanziiert wird
-* [Funktion] Diagramm nicht ungültig, wenn ein Link gelöscht wird
+* [Graf] Problem beim Steuern der Ausgabegröße mit einer Funktion für eine verknüpfte Bitmap, die in einem Graf instanziiert wird
+* [Function] Graf nicht ungültig, wenn ein Link gelöscht wird
 * [Bibliothek] Favoriten funktionieren nicht
 * [PSD-Export] Der Inhalt der PSD-Datei ändert sich jedes Mal, wenn ein Export abgeschlossen ist
-* [Verlauf] Absturz beim Bearbeiten von Tasten im Verlaufseditor
+* Absturz [Verlauf] beim Bearbeiten von Tasten im Verlaufseditor
 * [Vorlagen] Positionszuordnung für Substance Painter-Vorlagen ist falsch
 * [AxF] Falsches physisches Height
-* [MDL] UVW-Skalierung von Physische Größe ist in MDL SBS-Knoten invertiert
-* [Bäcker] $custom funktioniert nicht mehr
+* [MDL] UVW-Skalierung von der Physische Größe ist in MDL-SBS invertiert
+* [Baker] $custom funktioniert nicht mehr
 * [Voreinstellungen] Absturz beim Start auf Mac
 
 ### 7.2.1 (2017.2.1)
@@ -3125,8 +3142,8 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [Inhalt] Fügen Sie Flutfüllungen und zugehörige Filter hinzu (konvertieren Sie eine Schwarzweißmaske in Farbverläufe, zufällige Farben usw.).
-* [Inhalt] Fügen Sie neue Geräusche, Schmutz Maps und Mustergeneratoren hinzu, die nicht quadratische Formate unterstützen (alte Versionen werden als &quot;Legacy&quot; markiert).
+* [Inhalt] Fügen Sie Flutfüllungen und zugehörige Filter hinzu (konvertieren Sie Schwarz und weiße Maske in Farbverläufe, zufällige Farben usw.).
+* [Inhalt] Fügen Sie neue Rauschen, Schmutz Maps und Mustergeneratoren hinzu, die nicht quadratische Formate unterstützen (alte Versionen werden als &quot;Legacy&quot; markiert).
 * [Inhalt] Neues Splatter Circular mit viel mehr Funktionen hinzugefügt
 * [Inhalt] Neuen Scratches-Generator hinzufügen
 * [Inhalt] Filter &quot;Wirbel hinzufügen&quot;
@@ -3135,24 +3152,24 @@ ht-degree: 0%
 * [Inhalt] Formenzuordnungsfilter hinzufügen
 * [Inhalt] Hinzufügen des Vektormorphen-Filters
 * [Inhalt] Verlauf linear 3 hinzufügen
-* [Inhalt] Kachel zufällig/Tile Generator: Symmetrie-Modus hinzufügen (h+v, h, v)
+* [Inhalt] Kachel zufällig/Tile Generator: Symmetrie hinzufügen (h+v, h, v)
 * Tile Generator [Inhalt]: Hinzufügen mehrerer Bildeingaben
 * [Inhalt] Benennen Sie &quot;RGB-A Merge&quot; in &quot;Alpha Merge&quot; um.
-* [2D-Ansicht] Switch-Node-Ausgabeanzeige mit Taste C
-* [2D-Ansicht] Optimieren des Histogramm-/Info-Layouts je nach Anzeigeverhältnis
+* [2D-Ansicht] Switch-Node-Ausgabe wird mit der Taste C angezeigt
+* [2D-Ansicht] Optimieren des Histogramms/Informationslayouts je nach Anzeigeverhältnis
 * [2D-Ansichten] Hinzufügen einer Schaltfläche zum Aktivieren/Deaktivieren der Kachelung
-* [3DView] Optimieren der Rechengeschwindigkeit von Kugelharmonikas
-* [3D-Ansicht] Aktualisieren Sie PBR-Shader, um Fibonacci-Sampling anstelle von Hammersley zu verwenden
-* [3D-Ansicht] Fügen Sie eine Option hinzu, um den aktuellen Szenenstatus als Standard zu speichern
-* [3D-Ansicht]&#x200B;[Bäcker] Serialisieren von Daten in einem vom Menschen lesbaren Format
-* [Bäcker] Hinzufügen von Vorgaben - Export/Import (JSON)
+* [3DView] Optimieren der Berechnung von sphärischen Obertönen
+* [3D-Ansicht] PBR-Shader aktualisieren, um Fibonacci-Sampling anstelle von Hammersley zu verwenden
+* [3D-Ansicht] Fügen Sie eine Option hinzu, um den aktuellen Status der Szene als Standard zu speichern.
+* [3D-Ansichten]&#x200B;[Baker] Serialisieren von Daten in einem vom Menschen lesbaren Format
+* [Baker] Hinzufügen von Vorgaben für Export/Import (JSON)
 * [Publish] Erstellen Sie das Subsar-Archiv als nicht fest
-* [Publish] Speichern Sie das Diagrammbild/die Miniaturansicht in der Unterleiste
+* [Publish] Speichern Sie das Bild/die Miniaturansicht des Grafen in der Unterleiste
 * [Publish] Anzeigen einer Fortschrittsleiste, wenn ein Paket veröffentlicht wird
 * [Abhängigkeiten] Zeigen Sie die SBS-Datei an, die eine Abhängigkeit im Fenster &quot;Fehlende Abhängigkeit&quot; anfordert.
 * [Abhängigkeiten] Berichtsfenster: grünes Symbol angezeigt, wenn das Problem behoben wurde
 * [Abhängigkeiten] Fügen Sie eine Option hinzu, um die benutzerdefinierten Abhängigkeiten des Pakets im Paket-Explorer zu öffnen.
-* [Voreinstellungen] Fügen Sie eine Option hinzu, um den Standardszenenstatus in den Projekteinstellungen festzulegen
+* [Voreinstellungen] Fügen Sie eine Option hinzu, um den Standardstatus der Szene in den Projekteinstellungen festzulegen
 * [Voreinstellungen] Fügen Sie eine Option hinzu, um den Pfad für die Bibliothek zu aktivieren/deaktivieren
 * [Graf] Fügen Sie eine Option hinzu, um einen Screenshot (im Maßstab 1:1) des Grafen zu erstellen
 * [Graf] Entfernen der QuickInfo vom Hintergrund von Compositing-Grafen
@@ -3247,12 +3264,12 @@ ht-degree: 0%
 * [Inhalt] Panoramaform: Hotspot wird im RGB-Kanal gespiegelt
 * [Inhalt] Kachel Sampler: Die Parametrisierung der Positionsfarbe ist nicht normalisiert.
 * [Inhalt] Kachel Sampler: Muster sind unsichtbar, wenn die Kachelung deaktiviert ist
-* [Diagramm] Der Schalter $normal\_map\_format funktioniert nicht, wenn das Menü &quot;Bibliothek/Leertaste&quot; verwendet wird
-* [Graph] Falsches Format im Bitmap-Knoten beim Ziehen und Ablegen einer RGBxxF-Ressource
-* [Bäcker] Farbe aus Gitter mit Materialfarbe ist defekt
+* [Graf] Der Schalter $normal\_map\_format funktioniert nicht, wenn das Menü &quot;Library/Space Bar&quot; verwendet wird
+* [Graf] Falsches Format im Bitmapknoten beim Ziehen und Ablegen einer RGBxxF-Ressource.
+* [Baker] Farbe aus Mesh mit Material-Farbe ist defekt
 * [3D-Ansicht] jede Änderung in der 3D-Ansicht generiert Aktionen im Rückgängig-Stapel
-* [Abhängigkeiten] stürzt ab, wenn in einem Diagramm Ressourcen in der benutzerdefinierten Bibliothek fehlen.
-* [Iray] Absturz beim Start unter OSX Version ist älter als 10.11
+* [Abhängigkeiten] Absturz, wenn einem Graf in der benutzerdefinierten Bibliothek Ressourcen fehlen.
+* [Iray] Absturz beim Start unter OSX ist älter als 10.11
 
 ### 7.1.1 (2017.1.1)
 
@@ -3260,28 +3277,28 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [Bäcker] Hinzufügen einer Aktion &quot;Zurücksetzen&quot; für Ressourcenfelder
-* [Bäcker] Verwenden Sie schwarze Farbe, wenn keine Scheitelpunktfarbe gefunden wird
+* [Baker] Hinzufügen einer Aktion &quot;Zurücksetzen&quot; für Ressourcenfelder
+* [Baker] Verwenden Sie Schwarz, wenn keine Scheitelpunkt-Farbe gefunden wird.
 * [Vorgaben] Ausblenden des Vorgabe-Widgets in Instanzen, wenn keine Vorgaben verfügbar sind
-* [Voreinstellungen] Entfernen Sie die Option &quot;Binormal durch Fragment berechnen&quot; in den Projekteinstellungen (jetzt wird diese Option im Tangentenrahmen-Plug-in behandelt).
+* [Voreinstellungen] Entfernen Sie die Option &quot;binormal durch Fragment berechnen&quot; in den Projekteinstellungen (jetzt wird diese Option im Tangente Rahmen-Plug-in behandelt).
 * sbsupater.exe Anpassungen
 
 **Fest:**
 
-* [Bäcker] Das Fehlersystem funktioniert nicht mehr
-* [Bäcker] Optionen Serialisierung: alte Schlüssel bleiben erhalten
-* [Bäcker] stürzt beim Ändern des Namens eines Bäckerers ab
-* [Bäcker] Benutzeroberflächenfehler
+* [Baker] Das Fehlersystem funktioniert nicht mehr.
+* [Baker] Optionen Serialisierung: alte Schlüssel bleiben erhalten
+* [Baker] Absturz beim Ändern des Namens eines Bakers
+* [Baker] Benutzeroberflächenfehler
 * [Inhalt] Farbabstimmungsfilter - Unterschied zwischen CPU/GPU
 * [Inhalt] Einige GrungeMaps geben 8-Bit-Bilder statt 16 Bit aus.
-* [Graph] Absturz bei Verwendung von X &quot;switch links&quot; auf fx-map node
-* [3D-Ansicht] Zufälliger Absturz beim Öffnen der 3D-Ansicht
-* [3D-Ansicht] Binormal werden immer durch Fragment berechnet, unabhängig vom Tangentenraum-Plugin
+* [Graf] Absturz bei Verwendung des X &quot;Links wechseln&quot; auf dem FX-Map-Knoten
+* [3D-Ansicht] Zufälliger Absturz beim Öffnen von 3D-Ansicht
+* [3D-Ansicht] Binormal werden immer durch Fragment berechnet, unabhängig von der Tangentialraum-Plug-in
 * [Updater] XML-Fehler bei Verwendung einer bestimmten Schriftart
-* [Cooker] modulo auf negative Zahl gibt nicht das gleiche Ergebnis zurück wie die Engine
+* [Cooker] Modulo mit negativer Zahl gibt nicht dasselbe Ergebnis zurück wie das Engine
 * Problem mit der Benutzeroberfläche von [UI] bei Verwendung des Auswahlverlaufs auf einem Bildschirm mit hoher DPI
 * [MDL] Farbknoten behält seinen Wert nicht bei
-* [Verpacken] Mikkt Unreal Tangentenraum-Plugin fehlt
+* [Verpackung] Mikkt Unreal Tangentialraum-Plug-in fehlt
 
 ### 7.1.0 (2017.1.0)
 
@@ -3289,73 +3306,73 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [Bäcker] Neue Benutzeroberfläche
-* [Bäcker] Speichern Sie einen Cache mit hohem Def-Mesh, bis das Bäckerfenster geschlossen ist
-* [Bäcker] Fügen Sie eine Option hinzu, um die Verzerrung mithilfe einer Graustufenmaske zu korrigieren.
-* [Bäcker] Unterstützen Sie die Verwendung von Hochpoly-als-Niedrigpoly-in-Bäcker aus Gitter
-* [Bäcker] Das Fenster &quot;Bäcker&quot; nicht modal machen
-* [Bäcker] Speichern Sie den Status in einer .sbs-Datei im vom Menschen lesbaren Format
-* [Parameter] Kopieren/Einfügen von Parametern von einem Diagramm in ein anderes
+* [Baker] Neue Benutzeroberfläche
+* [Baker] Speichern Sie einen Mesh-Cache mit hoher Auflösung, bis das Baker-Fenster geschlossen wird.
+* [Baker] Fügen Sie eine Option hinzu, um eine Verzerrungsverformung mithilfe einer Graustufenmaske zu korrigieren.
+* [Baker] Unterstützung von Bakern mit hoher Poly-Zahl und niedriger Poly-Zahl aus Meshs
+* [Baker] Das Fenster &quot;Baker&quot; nicht modal machen
+* [Baker] Speichern Sie den Status in einer .sbs-Datei in einem vom Menschen lesbaren Format
+* [Parameter] Kopieren/Einfügen von Parametern von einem Graf in einen anderen
 * [Parameter] Fügen Sie eine Option hinzu, um einen einzelnen Eingabeparameter zu kopieren (und anschließend einzufügen).
 * [Parameter] Entfernen Sie die Funktionsschaltfläche für den Parameter &quot;Farbmodus&quot;.
 * [Parameter] Bearbeiten/Speichern/Anzeigen eingebetteter Parametervorgaben
 * [Parameter] Erlaubt dem Benutzer, Parameterattribute zu kopieren, wenn ein Paket gesperrt ist.
-* [3D-Ansicht] Speichern Sie die 3D-Ansichtseinstellungen der letzten Sitzung nicht mehr in der Registrierung.
+* [3D-Ansichten] Die 3D-Ansichtseinstellungen der letzten Sitzung werden nicht mehr in der Registrierung gespeichert.
 * [3D-Ansicht] Neue 3D-Ressource aus aktueller Szene erstellen
 * [3D-Ansicht] Speichern Sie den 3D-Ansichtsstatus nicht mehr von einer Sitzung zu einer anderen in der Registrierung.
 * [3D-Ansicht] Zusammenführen der Menüs &quot;Szene&quot; und &quot;Geometrie&quot;
 * [3D-Ansicht] Separate sRGB-Konvertierung vom Fragment-Shader (Sie müssen Ihre benutzerdefinierten Shader aktualisieren!)
-* [3D-Ansicht] Fügen Sie eine Option hinzu, um eine neue 3D-Ressource aus dem aktuellen Status zu erstellen.
-* [3D-Ansicht] Verbessern der Fehlermeldung, die generiert wird, wenn #include in einen Shader-Code ausfallen
-* [3D-Ansicht]&#x200B;[Explorer] Erstellen einer 3D-Szene aus Grundformen
-* [3D-Ansicht] Richtige Zeilennummer anzeigen, wenn die Kompilierung des GLSL-Shaders fehlgeschlagen ist und Code #include Direktiven enthält
-* [Diagramm] Die Größe eines Rahmens kann von allen Ecken/Rändern aus geändert werden.
-* [Graph] Informationen zur übergeordneten Größe in der Diagrammressource statt in der lokalen Registrierung speichern
-* [Graph] Optimierung der Generierungsgeschwindigkeit von Knoten-Miniaturansichten
-* [Graph] Stellen Sie das Speichercachebudget in den Voreinstellungen bereit.
-* [Graph] Hinzufügen einer Option &quot;Zurücksetzen und in 3D-Ansicht anzeigen&quot; auf Knoten
+* [3D-Ansicht] Hinzufügen einer Option zum Erstellen einer neuen 3D-Ressource aus dem aktuellen Status
+* [3D-Ansicht] Verbessern der Fehlermeldung, die generiert wird, wenn #include einen Shader-Code nicht erreichen
+* [3D-Ansicht]&#x200B;[Explorer] Erstellen von 3D-Szenen aus Grundformen
+* [3D-Ansicht] Richtige Zeilennummer anzeigen, wenn die GLSL-Shader-Kompilierung fehlgeschlagen ist und der Code #include Direktiven enthält
+* [Graf] Die Größe eines Rahmens kann von allen Ecken/Rändern aus geändert werden
+* [Graf] Speichern Sie die Informationen zur übergeordneten Größe auf der Ressource des Grafen anstelle der lokalen Registrierung.
+* [Graf] Optimierung der Generierungsgeschwindigkeit der Knoten-Miniaturansichten
+* [Graf] Leg des Speichercachebudgets in den Voreinstellungen
+* [Graf] Hinzufügen der Option &quot;Zurücksetzen und in 3D-Ansicht anzeigen&quot; auf den Knoten
 * [Inhalt] PBR-Konverter: Neue Arnold 4/5-, Corona 1.6- und Renderman-Vorgaben hinzufügen
-* [Inhalt] AutoLevel-Knoten optimieren und HDR-Eingabe unterstützen
+* [Inhalt] Optimieren des AutoLevel-Knotens und Unterstützen HDR Eingaben
 * [Inhalt] HBAO-Filter optimieren, wenn GPU-Optimierung deaktiviert ist, 16 Samples hinzufügen
 * [Cooker] Ausgabe der nicht unterstützten SVG-Funktion in das Protokoll
 * [Cooker] Verwerfen Sie nicht alle SVG-Ressourcen, wenn nur eine Funktion nicht unterstützt wird
 * [UI] Größe des Beschreibungsblocks erhöhen
-* [UI] Hinzufügen von Dateipfadinformationen zu Diagramminstanzen
+* [UI] Hinzufügen von Dateipfadinformationen zu Grapheninstanzen
 * [Funktionen] Hinzufügen von &quot;Open Reference&quot; zu Funktionsinstanzen
-* [Funktionen] Zeigt die Liste der Funktionsdiagramme an, wenn .sbs per Drag &amp; Drop in ein Funktionsdiagramm gezogen wird.
-* [Explorer] Neue 3D-Ressource aus primitiven Elementen erstellen
-* [Engine] Variable $tiling hinzufügen
+* [Functions] Zeigt die Liste der Funktions-Grafen an, wenn .sbs per Drag &amp; Drop in einen Funktions-Graf verschoben wird
+* [Explorer] Erstellen neuer 3D-Ressourcen aus primitiven Elementen
+* [Engine] Variable $Kachelung hinzufügen
 * [Kurve] Hinzufügen von Optionen zum horizontalen/vertikalen Spiegeln der Kurve
 * [Farbmanagement] ICC-Profil auf Bitmaps lesen
 * [Exportieren] Fügen Sie &quot;Label&quot;, &quot;Group&quot; und &quot;User Data&quot; in der Makro-Liste Muster hinzu.
 * [Voreinstellungen] Fügen Sie die Möglichkeit hinzu, den Pfad für Temp-Dateien zu ändern
-* [Dok] Hinzufügen des MDL-Diagrammformats zur Dokumentation zum SBS-Format
+* [Dok] Hinzufügen des Formats &quot;MDL-Diagramm&quot; zur Dokumentation zum SBS
 
 **Fest:**
 
-* [Graph] Cache-Problem: Ansicht der Ausgaben in der 3D-Ansicht funktioniert nicht mehr
-* [Graph] Cache leeren
-* [Diagramm] Generierungsanforderungen für Knoten-Miniaturansichten werden nicht abgebrochen, wenn das Diagramm ungültig wird.
-* [Graph] Lösungsprobleme nach Verwendung von F5
-* [Diagramm] Diagrammansicht fehlt beim Start
-* [Graph] Das Ändern eines Parameters erzeugt einen mehrfachen Renderaufruf
-* [Graph] Absturz bei Verwendung einer benutzerdefinierten Vorlage, die durch Baking erzeugte Map enthält
-* [Graph] Absturz bei verknüpften Knoten in einer Diagrammfunktion
-* [3D-Ansicht] Paralleles Laden mit ProgressManager
-* [3D-Ansicht] Rendern mit Bild mit benutzerdefinierter Auflösung ist nicht Vollbild
+* [Graf] Cacheproblem: Anzeigen von Ausgaben in der 3D-Ansicht funktioniert nicht mehr
+* [Graf] Cache leeren
+* [Graf] Generierungsanforderungen für Knoten-Miniaturansichten werden nicht abgebrochen, wenn der Graf für ungültig erklärt wird
+* [Graf] Lösungsprobleme nach Verwendung von F5
+* [Graf] Graphansicht fehlt beim Start
+* [Graf] Das Ändern eines Parameters erzeugt einen mehrfachen Renderaufruf.
+* [Graf] Absturz bei Verwendung einer benutzerdefinierten Vorlage, die durch Baking erzeugte Map enthält
+* [Graf] Absturz bei verknüpften Graf in einer Knotenfunktion
+* [3D-Ansicht] Paralleles Laden von Chaos mit ProgressManager
+* [3D-Ansicht] Rendern mit Image bei benutzerdefinierter Auflösung im nicht vollen Rahmen
 * [3D-Ansicht]&#x200B;[Iray] Material-Definition wird nicht beibehalten.
 * [2D-Ansicht] Histogramm ist auf LDR-Bildern leer
 * [2D-Ansicht] Anzeigeproblem bei aktiviertem Kachelung-Modus
 * [MDL] Parameter nicht gelegt
 * [MDL] Absturz beim Verschieben einer MDL von einem Paket in ein anderes während des Renderns
-* [MDL] Fragen Sie nicht, wo die MDL zugewiesen werden soll, wenn Sie auf ein Diagramm doppelklicken.
-* [Baker] Absturz beim Backen einer bestimmten .obj-Datei
-* [Bäcker] Übertragene Textur aus Mesh / Normal führt zu einem falschen Ergebnis
-* [Transformation 2D] Der Offset im 2D-Transformationsknoten kann nicht mit den Pfeiltasten geändert werden
+* [MDL] Fragen Sie nicht, wo die MDL zugewiesen werden soll, wenn Sie auf einen Graf doppelklicken.
+* [Baker] Absturz beim Baking einer bestimmten .obj-Datei
+* [Baker] Transferierte Textur aus Mesh/Normal führt zu einem falschen Ergebnis
+* [Transformation 2D] Kann die Pfeiltasten nicht verwenden, um den Offset im 2D-transformieren Knoten zu ändern
 * [Transformation 2D] Artefaktproblem mit niedriger Auflösung
 * [Updater] Aktualisierungsbericht wird nicht angezeigt, wenn Strg+o/open verwendet wird
 * [Eigenschaften]&#x200B;[Format] Einige Zeichen werden in UserTags zweimal mit Escapezeichen versehen
-* [Bitmap-Knoten] Strg Z funktioniert nicht in der 2D-Ansicht
+* [Bitmapknoten] Strg Z funktioniert nicht bei 2D-Ansichten
 * [Voreinstellung] Nicht verwendeter leerer Bereich auf der Registerkarte &quot;Aliase&quot;
 * [Installationsprogramm] Die Installation einer früheren Version funktioniert nicht beim ersten Mal
 * Dropdownliste [Parameter]: Wenn einige Leerzeichen auf den letzten Wert gesetzt werden, friert SD unendlich ein
@@ -3373,12 +3390,12 @@ ht-degree: 0%
 
 * [Graf] Absturz mit X-Tastaturbefehl
 * [Graf] Absturz nach dem Löschen einer Verknüpfung zwischen Knoten
-* [Graph] Löschen eines Teilungspunkts führt zum Absturz von SD
+* [Graf] Löschen eines Teilungspunkts führt zu SD-Absturz
 * [Inhalt] Typo in mg\_surface\_brush
 * [Inhalt] Geringere Qualität auf HBAO als 6.0.2
 * [Library] Die Symbole benutzerdefinierter Filter werden nicht gespeichert.
 * [Explorer] Absturz beim Öffnen einer 3D-Ressource, die auf eine fehlende Datei verweist
-* [Bäcker] Die Option &quot;Textur aus Mesh übertragen&quot; wird gespiegelt, wenn die Option &quot;Normal&quot; aktiviert ist
+* [Baker] Textur vom Mesh übertragen wird gespiegelt, wenn die Option &quot;Normal&quot; aktiviert ist
 
 ### 6.0.3
 
@@ -3392,13 +3409,13 @@ ht-degree: 0%
 **Fest:**
 
 * [Inhalt] Kachel Sampler: Die Parametrisierung der Positionsfarbe ist nicht normalisiert.
-* [Inhalt] Freistellen: Geisterdiagramm im Pixelprozessor
+* [Inhalt] Freistellen: Phantom Graf im Pixelprozessor
 * [Inhalt] Panoramaform: Hotspot wird im RGB-Kanal gespiegelt
 * [Inhalt] HBAO-Filter kann eine negative Auflösung generieren
 * [Inhalt] Farbabgleich-Filter wird in einigen Situationen falsch gerendert
-* [Inhalt] &quot;Vormultipliziert in gerade&quot; entfernt den Alphakanal
+* [Inhalt] &quot;Vormultipliziert in gerade&quot; entfernt Alphakanal
 * [Inhalt] Tippfehler in verschiedenen Beschriftungen
-* [Graph] Bittiefe-Informationen werden beschnitten, wenn die DPI-Skalierung auf 125,1520 oder 175 % eingestellt ist
+* [Graf] Bittiefe-Informationen werden reduziert, wenn die DPI-Skalierung auf 125,1520 oder 175 % eingestellt ist
 * [Graf] Wenn eine Auswahl, die einen Rahmen enthält, eingefügt wird, wird der nicht ausgewählte Rahmen
 * [Graf] Wenn eine Auswahl einen Kommentar enthält, werden die eingefügten Elemente im Graf verschoben.
 * [Graf] Problem mit Teilungspunkten
@@ -3431,14 +3448,14 @@ ht-degree: 0%
 
 * [Inhalt] Klon-Patch funktioniert nicht mehr
 * [Inhalt] Die Height-Ausgabe ist nicht Teil der Material-Gruppe in Vorlagen.
-* [MDL] Absturz beim Löschen einer Diagramminstanz
+* [MDL] Absturz beim Löschen einer Grapheninstanz
 * [MDL] Keine Warnung zwischen in Konflikt stehenden Knoten
 * [MDL] Benutzerlose Warnmeldungen beim Exportieren
 * [Kurve] Adressierungsparameterexponierung sollte nicht verfügbar gemacht werden können.
-* [Engine] Absturz beim Importieren eines SBSAR, der eine HDR-Bitmap enthält
+* [Engine] Absturz beim Importieren eines SBSAR, der eine HDR Bitmap enthält
 * [Textknoten] Die Schriftspezifikation generiert eine ungültige XML-Datei.
 * [Verlaufseditor] Werte werden nicht korrekt eingespannt
-* [3D-Ansicht] Absturz bei Verwendung einer benutzerdefinierten (hochauflösenden) HDRi als Umgebung
+* [3D-Ansicht] Absturz bei Verwendung einer benutzerdefinierten (hochauflösenden) HDRi-Umgebung
 
 ### 6.0.1
 
@@ -3446,22 +3463,22 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [Bäcker] Verbessern des Fortschrittsaufgaben-Managements
-* [Bäcker] Ändern der Fehler-QuickInfo, wenn kein Gitter ausgewählt ist
+* [Baker] Verbessern des Fortschrittsaufgaben-Managements
+* [Baker] Ändern der Fehler-QuickInfo, wenn kein Mesh ausgewählt ist
 * [Eigenschaften] 3DView Post Effect-Parameter sollten deaktiviert sein, wenn &quot;Post Process&quot; in den Voreinstellungen deaktiviert ist
 * [Lizenz] Geben Sie einen benutzerdefinierten Pfad für die Lizenz für Substance Designer 6 an.
 * [Verlauf] Deaktivieren Sie den Regler &quot;Präzision&quot;, wenn kein Verlauf ausgewählt wurde.
 * [Cooker] Fehlende Ressource in der Bildeingabe ignorieren, um Fehler beim Kochen zu verhindern
 * [3D-Ansicht] Veränderung der Handhabung von Specular-Reflexionen Lecks
-* [Graph] Fügen Sie weitere Parameter für die Kompatibilität der Engine V6 hinzu.
+* [Graf] Weitere Parameter für die Kompatibilität mit Engine v6 hinzufügen
 
 **Fest:**
 
-* [Bäcker] Normalmap aus Gitter (Weltraum) wird auf Y-Achse gespiegelt
-* [Bäcker] Beim Backen eines Gitters ohne UV kann kein Fehler gemeldet werden.
-* [Bäcker] Durchschnittliche Normalität funktioniert nicht
-* [Bäcker] SD stürzt beim Backen von AO mit einem bestimmten Gitter ab
-* [Bäcker] Das Ausgabeformat wird nicht richtig wiederhergestellt
+* [Baker] Normalen-Map aus Mesh (Welt-Raum) wird auf der Y-Achse gespiegelt
+* [Baker] Beim Baking eines Meshs ohne UV kann kein Fehler gemeldet werden.
+* [Baker] Durchschnittliche Normalwerte funktionieren nicht
+* [Baker] SD-Absturz beim Baking führ von AO mit einem bestimmten Mesh
+* [Baker] Das Ausgabeformat wird nicht richtig wiederhergestellt
 * [Text] Benutzerdefinierte Schrift funktioniert nicht im Player
 * [Text] Warnung zu ungültiger Schrift beim erneuten Öffnen eines Pakets mit Schrift in Ressourcen
 * [Text] Texteingabe funktioniert nicht im Vorschaumodus
@@ -3518,13 +3535,13 @@ ht-degree: 0%
 * [Voreinstellungen] Verwenden von Registerkarten in den Voreinstellungen/in der Projekt-Benutzeroberfläche
 * [Voreinstellungen] Parameter MaxTextureSize in den &quot;3DView&quot;-Voreinstellungen entfernen
 * [Voreinstellungen] Kurze Hilfe zum automatischen Speichern anzeigen
-* [Voreinstellungen] Optionen für das Bildformat verfügbar machen
-* [Voreinstellungen] Fügen Sie eine Option hinzu, um die Umgebungskarte standardmäßig in der 3D-Ansicht auszublenden.
-* [Voreinstellungen] Hinzufügen einer Option für die Standardalphanoption des normalen Map-Filters
+* [Voreinstellungen] Bildformatoptionen Gelegt
+* [Voreinstellungen] Fügen Sie eine Option hinzu, um die Umgebungs-Map standardmäßig in der 3D-Ansicht auszublenden
+* [Voreinstellungen] Hinzufügen einer Option für die Alpha-Standardoption des Normalen-Map-Filters
 * [2D-Ansicht] Fügen Sie die Möglichkeit hinzu, von den Grenzen der Textur wegzuschwenken.
-* [2D-Ansicht] Interpretieren des X/Y-Verhältnisses der Physische Größe
-* [3D-Ansicht] Verbesserung des Texturmanagements
-* [3D-Ansicht] Deaktivieren Sie Post Effects standardmäßig (um Abstürze bei geringer GPU zu verhindern)
+* [2D-Ansicht] Interpretation des X/Y-Verhältnisses der Physische Größe
+* [3D-Ansicht] Verbesserte Textur
+* [3D-Ansicht] Deaktivieren Sie Post-Effekte standardmäßig (um Absturz bei geringer GPU zu verhindern).
 * [MDL-Diagramm] Verwalten des Parameters &quot;Ausgeblendete Fahne auf Iray&quot;
 * [MDL-Diagramm] Erlaubt, den Konstruktor &#39;Material()&#39; als Stammknoten festzulegen.
 * [MDL-Diagramm] Erstellen SBS Grapheninstanz-Knotenvorschau
@@ -3534,7 +3551,7 @@ ht-degree: 0%
 * [Inhalt] Hinzufügen neuer Formeffekte (Leuchten, Schlagschatten, Kontur)
 * [Publish] Fügen Sie die Aktion &quot;Als vorherigen exportieren&quot; hinzu, um das zuletzt ausgewählte Paket erneut zu veröffentlichen.
 * [Publish] Verbessern der SBSAR-Generierung bei Verwendung von Bitmaps mit hoher Auflösung
-* [Publish] Warnen Sie den Benutzer vor der Einstellung &quot;relativ zum übergeordneten x1-Diagramm&quot;, wenn er die Grafik veröffentlicht oder auf Share hochgeladen hat
+* [Publish] Benutzer beim Veröffentlichen oder Hochladen auf Share vor einer nicht &quot;relativ zum übergeordneten Element x1&quot;-Graf-Einstellung warnen
 * [Eigenschaften] Attribut &quot;Physische Größe&quot; auf SBS Grafen hinzufügen
 * [Parameter] Entfernen von Funktionsaktionen für PKG-Ressourcenpfade
 * [Parameter] Popup-Fenster &quot;Vorschauwerte geändert&quot; entfernen
@@ -3542,32 +3559,32 @@ ht-degree: 0%
 <b>Fest:</b>
 
 * [Graf] Die Speichernutzung wächst regelmäßig, wenn das Kontextmenü geöffnet wird
-* [Graph] [In SSE2] Die Knoten des Polygons zeigen keine Formen an, wenn der Parameter &quot;Skalierung&quot; negativ ist
+* [Graf] [In SSE2] Die Knoten des Polygons zeigen keine Formen an, wenn der Parameter &quot;Skalierung&quot; negativ ist
 * [Graf] Absturz beim Wechsel von &quot;Ganzzahl&quot; zu &quot;Fließkommazahl&quot; auf einem freigelegte Parameter
 * [Graf] Wenn Sie Knoten verschieben, während ein Teilungspunkt ausgewählt ist, werden die Knoten neu berechnet.
-* [Diagramm] &quot;Rückgängig&quot; wird von &quot;Teilungspunkten&quot; nicht unterstützt.
+* [Graf] &quot;Rückgängig&quot; wird von &quot;Teilungspunkten&quot; nicht unterstützt.
 * [Graf] Leere QuickInfo, die angezeigt wird, wenn die Beschreibung des Grafen nicht druckbare Zeichen enthält
 * [MDL-Diagramm] Absturz beim Löschen des aktuellen Knotens, der in der Eigenschaftenansicht angezeigt wird
 * [MDL-Diagramm] MDL-Diagramm, die die Material()-Konstruktorfunktion als Stamm verwenden, werden in der 3D-Ansicht nicht korrekt dargestellt.
 * [MDL] MDL-Modul kann nicht exportiert werden, wenn ein bedingter Operator mit einem einheitlichen booleschen leg-Parameter verwendet wird
-* [MDL] Absturz beim zweimaligen Laden einer MDL-Diagrammvorlage
+* [MDL] Absturz beim zweimaligen Laden einer MDL-Diagramm-Vorlage
 * [MDL-Archiv] Material, die eine Textur verwenden, werden nicht ordnungsgemäß verwaltet.
-* [3D-Ansicht] IRay-Material wird nicht geändert, wenn sich der Stammknoten des MDLGraph ändert
-* [3D-Ansicht] willkürlicher Absturz beim Schließen der 3D-Ansicht, während ein Gitter geladen wird
+* [3D-Ansicht] Iray-Material wird nicht geändert, wenn sich der Stammknoten des MDLGraph ändert
+* [3D-Ansicht] zufälliger Absturz beim Schließen der 3D-Ansicht, während ein Mesh geladen wird
 * [3D-Ansicht] Yebis wird nach dem Speichern des Renderings nicht wieder aktiviert
-* [3D-Ansicht] Beim Speichern des Renderergebnisses einer Bildszene wurde eine ungültige PSD-Datei generiert.
+* [3D-Ansicht] Beim Speichern des Renderergebnisses der PSD-Szene wurde eine ungültige Grafikdatei generiert.
 * [3D-Ansicht] Punktlicht 1 leuchtet nicht
-* [UI] Der Erkennungsbereich der Kontrollkästchen ist in den Parametern &quot;Bäcker aus Gitter&quot; zu breit.
-* [UI] Ästhetisches Problem in &quot;Bäcker aus Mesh&quot; Parametern
+* [UI] Der Erkennungsbereich von Kontrollkästchen ist in den Parametern &quot;Baker vom Mesh&quot; zu breit.
+* [UI] Ästhetisches Problem in den Parametern &quot;Baker vom Mesh&quot;
 * [Mac] Das Öffnen von SD durch Doppelklick auf einen SBS sendet keine Ausgabe an die 3D-Ansicht
-* [Mac] [Iran] Fotoreales Cluster-Rendering funktioniert nicht auf MacOS
-* [Engine] Atan2(0, 0) führt zum Absturz des Motors
+* [Mac] [Iray] Fotoreales Rendern von Cluster funktioniert nicht auf MacOS
+* [Engine] Atan2(0, 0) macht das Engine zum Absturz
 * [Engine] Kritisches Synchronisierungsproblem
-* [Bäcker] Automatische Normalisierung für Height-Bäcker kann nicht deaktiviert werden
+* [Baker] Automatische Normalisierung für Height-Baker kann nicht deaktiviert werden
 * [Parameter] beim Konvertieren von Graustufen in RGBA sollte Alpha 255 sein
 * [Funktionen] Es ist möglich, eine Funktion als Ausgabeknoten festzulegen, auch wenn sie nicht kompatibel ist.
 * [Export] Ungültige Abhängigkeiten nach dem Exportieren eines Pakets mit PSD-Ressourcen
-* [Konsole] Das Löschen der Konsole führt zum Absturz von SD
+* [Konsole] Das Löschen der Konsole führt zum SD-Absturz
 
 ## Version 5
 
@@ -3577,9 +3594,9 @@ ht-degree: 0%
 
 **Fest:**
 
-* [Voreinstellungen] Standard-Shader wird nicht berücksichtigt
-* [3D-Ansicht] Absturz, wenn der Standardshader zur Laufzeit geändert wird
-* [Engine] Problem mit $size erhalten
+* [Voreinstellungen] Standard-Shader wird nicht berücksichtigt.
+* [3D-Ansicht] Absturz, wenn der Standard-Shader zur Laufzeit geändert wird
+* [Engine] $size-Problem erhalten
 
 ### 5.6.1
 
@@ -3587,16 +3604,16 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [3D-Ansicht] Legen Sie die Größe der Grundelemente auf 100 cm fest.
-* [Inhalt] Hinzufügen von &quot;Bildeingangsfilterung&quot; zu &quot;Platterkreis&quot; und &quot;Platter&quot;
-* [Bäcker] &quot;Krümmung aus Mesh&quot; Konsolenwarnungen unter Kanal &quot;Mesh Sanity Check&quot; hinzufügen
+* [3D-Ansicht] 100 cm als Grundgröße festlegen
+* [Inhalt] Fügen Sie &quot;Image Input Filterung&quot; zu &quot;Splatter Circular&quot; und &quot;Splatter&quot; hinzu
+* [Baker] &quot;Krümmung vom Mesh&quot; Konsolenwarnungen unter &quot;Kanal-Sanitätsprüfung für Mesh&quot; hinzufügen
 
 **Fest:**
 
-* [3D-Ansicht] Verschwinden, wenn sie abgedockt ist
-* [Graph] Die Parameter &quot;Noise&quot; und &quot;Precision&quot; der Verlaufsumsetzung funktionieren nicht mehr
+* [3D-Ansicht] Verschwinden, wenn abgedockt
+* [Graf] Die Verlaufs-Map-Parameter &quot;Rauschen&quot; und &quot;Precision&quot; funktionieren nicht mehr.
 * [3D-Ansicht] ALT+R funktioniert nach dem Speichern des Renderings nicht
-* [Bäcker] &quot;Curvature From Mesh&quot;-Absturz mit einigen ZBrush-Netzen
+* [Baker] Absturz &quot;Krümmung vom Mesh&quot; mit einigen ZBrush-Meshs
 
 ### 5.6.0
 
@@ -3604,34 +3621,34 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [Inhalt] Neuer Filter &quot;AO (Horizon Base Ambient Verdeckung)&quot; hinzugefügt
+* [Inhalt] Neuer Filter &quot;AO (Horizon Base Ambient occlusion)&quot; hinzugefügt
 * [Inhalt] Neuer Filter &quot;Height-Überblendung&quot; hinzugefügt
 * [Inhalt] Neuer Filter &quot;Height zu Normal (Welteinheiten)&quot; hinzugefügt
-* [Inhalt] Neuer Filter &quot;Material Height Blend&quot; hinzugefügt
+* [Inhalt] Neuer Filter &quot;Material Height Überblendung&quot; hinzugefügt
 * [Inhalt] Neuer Filter &quot;Snow Cover&quot; hinzugefügt
 * [Inhalt] Neuer Filter &quot;Wasserstand&quot; hinzugefügt
 * [Inhalt] Neuer Filter &quot;Farbabgleich&quot; hinzugefügt
 * [Inhalt] Neuer Filter &quot;Histogramm-Scan (ungleichmäßig)&quot; hinzugefügt
 * [Voreinstellungen] [UI] Fügen Sie in den Voreinstellungen eine Option hinzu, um die High-DPI-Erkennung zu deaktivieren
-* [3d View] Option &quot;Kameraposition zurücksetzen&quot; hinzufügen
-* [Iray] Integrieren von IRay SDK 2016.2 für Pascal-Architekturunterstützung
-* [Graph] Option &quot;Knoteninformationen in die Zwischenablage kopieren&quot; im Kontextmenü hinzufügen
+* [3d View] Option &quot;Kamera zurücksetzen&quot; hinzufügen
+* [Iray] Integrieren von Iray SDK 2016.2 für Pascal-Architekturunterstützung
+* [Graf] Hinzufügen der Option &quot;Knoteninformationen in die Zwischenablage kopieren&quot; im Kontextmenü
 
 **Fest:**
 
-* [MDL] Algenmaterialwurzel wird in der exportierten Voreinstellung nicht entfernt
-* [MDL-Diagramm] Links für fehlende Ressource werden im MDL-Diagramm nicht gelöscht.
+* [MDL] Alg Material Root wird für exportierte Voreinstellung nicht entfernt
+* [MDL-Diagramm] Verknüpfungen für fehlende Ressource werden nicht im MDL-Diagramm gelöscht.
 * [Library] Erstellen eines neuen Filters erstellt zwei Grundbedingungen
 * [Library] Ordner filtert den Inhalt der Bibliothek nicht mehr
-* [Bäcker] Fortschrittsleiste kommt und geht
-* [Bäcker] Nicht vorhandene Käfigressource verhindert das Backen
+* [Baker] Statusleiste wird angezeigt und deaktiviert.
+* [Baker] Nicht vorhandene Käfig-Ressource verhindert das Baking
 * [Content] Verschiedene Fehler in &quot;Functions.sbs&quot;
 * [Exportieren] Dateiformat wird immer auf png zurückgesetzt
 * [UI] Problem mit der Skalierung der Substance Designer-Benutzeroberfläche
 * [Graf] Absturz beim Verschieben der Originalverpackung einer Grapheninstanz
-* [Voreinstellungen] Wenn das Standardprogramm für Shader/Tangente-Plugin/... nicht gefunden wird, verwenden Sie die im Standardprojekt definierten
+* [Voreinstellungen] Wenn die standardmäßigen Shader-/Tangente-Plug-ins/... nicht gefunden werden, verwenden Sie die im Standardprojekt definierten
 * [Parameter] Schieberegler sind in Mac zu präzise
-* [Explorer] Das Verschieben von 3D-Gittern aus einem Ordner in einen anderen beschädigt diese Ressource.
+* [Explorer] 3D-Mesh von einem Ordner in einen anderen verschieben beschädigt diese Ressource
 * Das Schließen des Fensters beendet den SD-Prozess nicht
 * Das Dialogfeld zum Öffnen von Dateien zeigt keine Dateien mit dem Filter &quot;Alle Formate&quot; an
 
@@ -3641,8 +3658,8 @@ ht-degree: 0%
 
 **Fest:**
 
-* [Shelf] Absturz beim Erstellen des Ordners
-* [Bäcker] World\_Space\_Direction funktioniert nicht mehr
+* [Regal] Absturz beim Erstellen des Ordners
+* [Baker] World\_Space\_Direction funktioniert nicht mehr
 
 ### 5.5.2
 
@@ -3742,26 +3759,26 @@ ht-degree: 0%
 
 <b>Fest:</b>
 
-* [Diagramm] Eingaben werden nicht automatisch mit Ausgaben derselben Verwendung verbunden.
-* [Graph] Eingaben eingefügter Knoten werden nicht korrekt eingesteckt
+* [Graf] Eingaben werden nicht automatisch mit Ausgaben derselben Verwendung verbunden.
+* [Graf] Eingänge des eingefügten Knotens sind nicht korrekt angeschlossen
 * [Graf] Durch Deaktivierung sollte auch ein Knoten unter der Maus ausgewählt werden
 * [Graf] Knoteneinfügung stellt nicht die Verbindung zu allen Verknüpfungen her
 * [Baker] Falsche Diffusion im Krümmung-Baker
-* [Bäcker] &quot;Transferred texture from mesh&quot; stürzt ab, wenn das HD-Mesh keine UVs hat
+* [Baker] &quot;Transferierte Textur aus Mesh&quot;-Absturz, wenn HD-Mesh keine UVs enthält
 * [UI] Funktionssymbol für Parameter wird nicht geändert, wenn eine Funktion definiert ist
 * [UI] QuickInfos für Parameter werden ausgeschnitten
-* [3D-Ansicht] mehr als 1000 Lichter werden in der Szene angezeigt
-* [3D-Ansicht] GLSL Lambert-Shader verwaltet die srgb-Textur nicht korrekt
-* [3D-Ansicht] Kachelparameter fehlen beim Verbinden von Stoffen in Irak
-* [Iray] Voreingestellter Export von mdl funktioniert nicht, wenn Leerzeichen im Namen
+* [3D-Ansicht] mehr als 1000 Lichter in der Szene
+* [3D-Ansicht] GLSL Lambert Shader verwalten die srgb-Textur nicht richtig
+* [3D-Ansicht] Fehlende Parameter der Kachelung beim Anschluss von Stoffen in Irays
+* [Iray] Der voreingestellte Export von mdl funktioniert nicht, wenn Leerzeichen im Namen
 * [Iray] Untergliederungsparameter werden nicht berücksichtigt.
-* [Parameter] Die Parameterkennung wird nicht mehr angezeigt.
+* [Parameter] Die Parameter-Identifizierung wird nicht mehr angezeigt.
 * [Parameter] Absturz beim Ändern der Ressourcen-URL von der &quot;Von Ressource...&quot; Aktion
 * [Parameter] Falsche Konvertierung von und Zeichen
-* [Explorer] Wenn Sie auf ein &quot;großes&quot; Diagramm doppelklicken, können Sie es häufig nicht in der Diagrammansicht öffnen
+* [Explorer] Ein Doppelklick auf einen &quot;großen&quot; Graf kann ihn oft nicht in der Graphansicht öffnen
 * [Explorer] Eingebettete SVG werden im Explorer als fehlend angezeigt
 * [Explorer] Absturz beim Umbenennen eines Elements mit dem Zeichen &quot;&amp;&quot;
-* [Inhalt] Die Kachelung von Farbverlauf 1 ist falsch, wenn eine 90/180°-Drehung verwendet wird
+* [Inhalt] Die Kachelung &quot;Verlauf 1&quot; ist falsch, wenn eine 90/180°-Drehung verwendet wird
 * [Perforce] Die Integration funktioniert anscheinend nicht, wenn sich der Arbeitsbereich im Stammverzeichnis der Festplatte befindet
 * [Daten] Für Knoten generierte UID sind nicht eindeutig.
 * [Voreinstellungen] Das Hinzufügen eines Alias für HDD-Root führt zu Pfadfehlern in sbsprj
@@ -3776,13 +3793,13 @@ ht-degree: 0%
 * Link zum Substance Store hinzufügen
 * [UI] Unterstützung für hohe DPI-Auflösungen
 * [UI] Neuanordnung von Registerkarten zulassen
-* [3D-Ansicht] Exportieren des Renderings in die ArtStation zulassen
-* [3D-Ansicht] Hinzufügen des Standard-Shaders in der Shader-Liste
-* [Graph] Zeigt den Ressourcennamen über dem Bitmapknoten an.
-* [Graph] Verbessern der Auflistungsreihenfolge des Leertaste-Suchmenüs
-* [Bäcker] Neuer Bäcker &quot;Position from Mesh&quot;
-* [Bäcker] Neue Einstellung &quot;Normalmap&quot; für Texturtransferbaker
-* [Bäcker] Neue Einstellung &quot;Tangent&quot; &amp; &quot;Binormal&quot; für World Space Normal Bäcker
+* [3D-Ansicht] Exportieren des Renderings in ArtStation zulassen
+* [3D-Ansicht] Hinzufügen des Standard-Shaders in der Liste Shader
+* [Graf] Zeigt den Ressourcennamen über dem Bitmapknoten an.
+* [Graf] Verbessern der Auflistungsreihenfolge des Leertaste-Suchmenüs
+* [Baker] Neuer Baker &quot;Position vom Mesh&quot;
+* [Baker] Neue Einstellung &quot;Normalen-Map&quot; für den Baker &quot;Textur übertragen&quot;
+* [Baker] Neue Einstellung &quot;Tangente&quot; und &quot;Binormal&quot; für Welt-Raum-Normale Baker
 * [Skripterstellung] Erlaubt die Ausführung von Skripten während der Aktionen &quot;Speichern&quot;, &quot;Exportieren&quot; und &quot;Publish&quot;
 * [Abhängigkeiten] Fügen Sie je nach Auswahl eine Option zum Reduzieren/Erweitern hinzu.
 * Es wurde eine Warnung zu Konflikten mit Shellerweiterungen hinzugefügt.
@@ -3791,7 +3808,7 @@ ht-degree: 0%
 
 * Absturz beim Beenden
 * Substance Designer-Prozess kann nach dem Beenden noch ausgeführt werden
-* [Iray] Ausgaben werden beim Wechseln des Renderers nicht an mdl-Materialien gesendet
+* [Iray] Die Ausgaben werden beim Wechseln des Renderers nicht an mdl-Material gesendet
 * [Inhalt] Mustergenerator: Musterrotation zufällig sollte die Form nicht drehen
 
 ### 5.3.5
@@ -3800,27 +3817,27 @@ ht-degree: 0%
 
 **Fest:**
 
-* [2D-Ansicht] Die Menüoption &quot;Transformation 2D Rechtsklick&quot; ist für jeden Knoten verfügbar.
-* [2D-Ansicht] Transformation 2D-Gizmo nach dem Löschen des Transformationsknotens noch bearbeitbar
+* [2D-Ansicht] Die Menüoption &quot;Transformation 2D Rechtsklick&quot; ist auf jedem Knoten verfügbar.
+* [2D-Ansicht] Transformations-2D-Gizmo nach dem Löschen des Transformationsknotens noch bearbeitbar
 * [3D-Ansicht] Der Umgebungspfad sollte nicht in den Umgebungsparametern angezeigt werden.
-* [3D-Ansicht] Post-Effekt-Parameter werden nicht in 3D-Ressourcen gespeichert
-* [3D-Ansicht] Das Symbolleistenmenü verhält sich nicht wie ein normales Menü
+* [3D-Ansicht] Parameter für Post-Effekte werden nicht in 3D-Ressourcen gespeichert
+* [3D-Ansicht] Symbolleistenmenü verhält sich nicht wie ein normales Menü
 * [Voreinstellungen] Der &quot;Engine-Cache-Grenzwert&quot; kann nicht höher als 4095 eingestellt werden
-* [Voreinstellungen] Das Festlegen eines Standard-Shaders wird nicht berücksichtigt
+* [Voreinstellungen] Das Festlegen eines Standard-Shaders wird nicht berücksichtigt.
 * [Iray] Farbparameter werden nicht korrekt abgerufen.
-* [Iray] MDL-Materialfarben werden zurückgesetzt.
+* [Iray] Zurücksetzen der MDL-Material-Farben
 * [Iray] Bitmaps werden nicht zusammen mit der MDL-Vorgabe exportiert
-* [IRay/Mac] Das Ändern der Größe der 3D-Ansicht führt zum Absturz der Mac Workstation
-* [Graph] PSD-Dokument kann nicht exportiert werden
-* [Graph] Falsche angezeigte Knotengröße
-* [Funktionsdiagramm] Ein Beispielknoteneingabebild kann nicht bearbeitet werden, wenn nur ein Bild angeschlossen ist
-* [Engine] Absturz beim Berechnen des Fxmap-Diagramms
-* [Engine OGL] Fehler bei der Pixelprozessorgenerierung
+* [Iray/Mac] Das Ändern der Größe von 3D-Ansichten macht Mac Workstation-Absturz
+* [Graf] PSD-Dokument kann nicht exportiert werden
+* [Graf] Falsche angezeigte Knotengröße
+* [Graf der Funktion] Das Eingabebild des Beispielknotens kann nicht bearbeitet werden, wenn nur ein Bild angeschlossen ist
+* [Engine] Absturz beim Berechnen des Fxmap-Grafen
+* [Engine OGL] Fehler beim Generieren des Pixelprozessors
 * [Farbverlauf] Die Farbverlaufsauswahl funktioniert nicht auf Mac
 * [PSD] 8-Bit-Bild wurde nicht korrekt in 16-Bit konvertiert
 * [Parameter] Histogramm-Widget auf Ebene hat nicht dasselbe Height in Farbe und Graustufen
 * [Konsole] Durch Klicken auf eine Zelle wird die Ansicht horizontal gescrollt.
-* [Explorer] Umgesiedelte 3D-Ressourcen werden in der 3D-Ansicht nicht korrekt geöffnet
+* [Explorer] Verlagert 3D-Ressourcen werden in der 3D-Ansicht nicht korrekt geöffnet
 
 ### 5.3.4
 
@@ -3829,10 +3846,10 @@ ht-degree: 0%
 **Fest:**
 
 * [Iray] Tangente/binormal werden nicht korrekt berücksichtigt
-* [Explorer] Das Paket ist als unmittelbar nach dem Öffnen zu speichernd markiert.
+* [Explorer] Das Paket ist als unmittelbar nach dem Öffnen zu speichern markiert
 * [3D-Ansicht] IBL Diffuse Reflexion ist zu stark
-* [3D-Ansicht] Absturz beim Ziehen und Ablegen eines 8-Bit-Bildes aus dem Explorer in die 3D-Ansicht
-* Applikation stürzt seit dem 1. Januar 2016 ab
+* [3D-Ansicht] Absturz beim Ziehen und Ablegen eines 8-Bit-Bildes von Explorer in 3D-Ansicht
+* Bewerbungs-Absturz seit 2016 1. Januar
 
 ### 5.3.3
 
@@ -3840,15 +3857,15 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [Inhalt] Hinzufügen von &quot;White Noise Fast&quot; (basierend auf Pixelprozessor)
+* [Inhalt] Hinzufügen von &quot;White Rauschen Fast&quot; (je nach Pixelprozessor)
 * [Inhalt] Hinzufügen von &quot;Offset global horizontal/vertikal&quot; auf Musterelementen
 
 **Fest:**
 
 * Absturz beim Erstellen einer neuen Substance in einigen Situationen
-* [Bäcker] Absturz, wenn durch Baking erzeugte Map den Graph aktualisieren
-* [Bäcker] OBJ aus zbrush sollte Dateiname für &quot;Mit Namen abgleichen&quot; verwenden
-* [Parameter] Absturz beim Rückgängigmachen/Wiederholen/Rückgängigmachen im Funktionsdiagramm
+* [Baker] Absturz, wenn durch Baking erzeugte Map den Graf aktualisieren
+* [Baker] OBJ von zbrush sollten den Dateinamen für &quot;Mit Namen abgleichen&quot; verwenden.
+* [Parameters] Absturz beim Rückgängigmachen/Wiederholen/Rückgängigmachen im Graf function
 * [Graf] Teilungspunkte werden nicht an der richtigen Position eingefügt
 
 ### 5.3.2
@@ -3863,19 +3880,19 @@ ht-degree: 0%
 
 * [3D-Ansicht] Fokuspunkt nicht korrekt initialisiert
 * [3D-Ansicht] Falsche ferne Clipebene beim mehrmaligen Umschalten von 3D-Mesh-Ressourcen
-* [3D-Ansicht] Kurzes Rendering-Artefakt beim Laden eines Gitters
+* [3D-Ansicht] Kurzes Rendering-Artefakt beim Laden eines Meshs
 * [3D-Ansicht] Umgebungs-Map ist schwarz, wenn die Datei nicht gefunden werden kann -> Fallback auf Standard-Envmap
 * [3D-Ansicht] Absturz nach Verwendung eines benutzerdefinierten Breiten-/Längengradbilds
 * [3D-Ansicht] Absturz beim Laden einer bestimmten OBJ-Datei
-* [3D-Ansicht] Mesh-Autoreload funktioniert nicht richtig
+* [3D-Ansicht] Automatisches Laden von Meshs funktioniert nicht richtig
 * [Iray] Textur kann nicht auf externem MDL zugewiesen werden
-* [Iray] Nach dem Zurücksetzen des Materials können dem Anisotropie-Kanal keine Texturen zugewiesen werden
+* [Iray] Nach Zurücksetzen des Materials können dem Kanal der Anisotropie keine Texturen zugewiesen werden
 * [UI] Windows Popup-Menü wird angezeigt, wenn die rechte Maustaste nach dem Verschieben in 3DView losgelassen wird
 * [2D-Ansicht] Das Info-Tool gibt nicht den Farbwert des Pixels unter dem Cursor zurück
-* [Bäcker] Graustufenbilder werden als indiziert im Tag-Format gespeichert
+* [Baker] Graustufenbilder werden als indiziert im Tag-Format gespeichert
 * [Graf] Bei der Anzeige von Ausgaben in der 3D-Ansicht sollten die Kanäle zurückgesetzt werden, bevor die Ausgaben an die 3D-Ansicht gesendet werden.
 * [Parameter] Der Name der Param-Eingabe ist leer, wenn er von &quot;Gelegt Knotenparameter&quot; gelegt wird
-* [Leistung] Legen Sie den onSubstanceCallbackProfileEvent-Rückruf NUR für die Engine fest, wenn Zeitangaben aktiviert sind.
+* [Leistungen] Legen Sie den onSubstanceCallbackProfileEvent-Rückruf NUR auf dem Engine fest, wenn Zeitmessungen aktiviert sind.
 
 ### 5.3.1
 
@@ -3885,23 +3902,23 @@ ht-degree: 0%
 
 * [3D-Ansichten] Zeigt den Namen des Meshs in der Szene/Bearbeitung anstelle von &quot;Entität&quot; an.
 * [3D-Ansicht] Auf Standardfarbe zurücksetzen, wenn eine neue 3D-Ansicht geöffnet wird
-* [3D-Ansicht] Fokuskamera beim Wechsel von der Szene zur Grundform
-* [3D-Ansicht] Zeigt die Render-Viewport-Auflösung an, wenn eine benutzerdefinierte Auflösung verwendet wird
+* [3D-Ansicht] Fokus-Kamera beim Wechsel von der Szene zur Grundform
+* [3D-Ansicht] Die Renderauflösung wird angezeigt, wenn eine benutzerdefinierte Viewport verwendet wird.
 * [Iray] Anpassen der Darstellung der Unterteilungsparameter
 * [Iray] Ausgabe von Iray-Protokollinformationen in das SD-Protokoll
-* [Bäcker] Lesen Sie OBJ-Dateien richtig, um die Übereinstimmung nach Namen kompatibel zu machen
+* [Baker] OBJ richtig lesen, um die Übereinstimmung nach Namen kompatibel zu machen
 
 **Fest:**
 
 * [3D-Ansicht] Falsche Anzeige von Meshs mit einer anderen Skala als 1,0
-* [3D-Ansicht] Automatische Near-Clip-Berechnung funktioniert bei großen Objekten nicht gut
+* [3D-Ansicht] Die automatische Berechnung in der Nähe der Clipebene funktioniert bei großen Objekten nicht gut
 * [3D-Ansicht] Drahtgitter-Modus zeigt zu dicke Verdrahtungen an
 * [3D-Ansicht] Fenster zum Speichern des Renderings wird nicht angezeigt, wenn Post-Effekte deaktiviert sind
 * [3D-Ansicht] Absturz beim Wechseln der Geometrie
 * [3D-Ansicht] &quot;QOpenGLWidget: Die Meldung &quot;Nicht initialisiertes Widget aktuell&quot; im Protokoll kann nicht erstellt werden.
-* [3D-Ansicht] Die Beleuchtung wird nicht berechnet, wenn die Umgebungszuordnung geändert wird, während Irak ausgeführt wird
-* [3D-Ansicht] Absturz beim Anzeigen von 3D-Gittern
-* [3D-Ansicht] Sehr schlechte OpenGL-Leistungen nach Verwendung von Iray
+* [3D-Ansicht] Die Beleuchtung wird nicht berechnet, wenn die Umgebungs-Map geändert wird, während Iray ausgeführt wird
+* [3D-Ansicht] Absturz bei der Anzeige von 3D-Mesh
+* [3D-Ansicht] Sehr schlechte OpenGL-Leistungen nach dem Einsatz von Iray
 * [3D-Ansicht] Clipebenen nicht korrekt berechnet
 * [3D-Ansicht] Durch Ändern der Umgebungs-Map wird die 3D-Ansicht nicht aktualisiert.
 * [3D-Ansichten] Texturen werden bei Änderung des Grafen nicht aktualisiert
@@ -3939,24 +3956,24 @@ ht-degree: 0%
 
 <b>Hinzugefügt:</b>
 
-* [3D-Ansicht] Nvidia Iray-Renderer hinzufügen
-* [3D-Ansicht] Drehen der Umgebung mit STRG+Umschalt+RMB
-* [3D-Ansicht] Rendern des 3D-Ansichtsports mit einer benutzerdefinierten Auflösung (Ogl / Iray)
+* [3D-Ansicht] Nvidia-Iray-Renderer hinzufügen
+* [3D-Ansicht] Drehen der Umgebung mit STRG+UMSCHALT+RMB
+* [3D-Ansicht] Rendern des 3D-Viewports mit einer benutzerdefinierten Auflösung (Ogl / Iray)
 * [3D-Ansicht] Asynchrones Laden der Szene
-* [3D-Ansicht] Anzeigen der globalen Szene in der Szene Browser
-* [3D-Ansicht] Deaktivieren des Rasters standardmäßig
+* [3D-Ansicht] Die globale Szene im Szene-Browser anzeigen
+* [3D-Ansicht] Deaktivieren Sie den Raster standardmäßig.
 * [3D-Ansicht] Hinzufügen einer umgekehrten quadratischen Distanzdämpfung für Punktlichter
 * [3D-Ansicht] Anzeigefarbparameter in RGB anstelle von RGBA
-* [3D-Ansicht] Separate Licht-/Kamera-/Umgebungseinstellungen
+* [3D-Ansicht] Separate Beleuchtungs-/Kamera-/Umgebungseinstellungen
 * [Freigeben] Verbesserungen für das Substance share-Upload-Fenster
 
 <b>Fest:</b>
 
 * [3D-Ansicht] Fehler bei der Normalisierung von PBR-Shadern
-* [3D-Ansicht] Absturz beim Rechtsklick auf den Stamm im Szenenbrowser
+* [3D-Ansicht] Absturz beim Rechtsklick auf den Stammordner im Szene-Browser
 * [3D-Ansicht] PBR-Shader : diffuse vs. spec Energieeinsparung und Punktlichter
-* [3D-Ansicht] Setzen Sie mit &quot;Material/Zurücksetzen&quot; auch die Kanäle auf die Standardfarbe zurück.
-* [Bäcker] Position mit Bsphere-Normalisierung nicht zentriert
+* [3D-Ansicht] Mit &quot;Material/Zurücksetzen&quot; werden auch die Kanäle auf die Standardfarbe zurückgesetzt.
+* [Baker] Position mit Bsphere-Normalisierung nicht zentriert
 * [UI] Gleitender Windows-Status wird beim Schließen der Anwendung nicht gespeichert
 * [Cooker] Kann nicht veröffentlicht werden, wenn sich das SBS in einem Pfad befindet, der ein Sonderzeichen enthält
 * [Veröffentlichen] Wenn Sie nach der Veröffentlichung &quot;Enter&quot; in das Namensfeld drücken, wird das Dialogfeld abgebrochen.
@@ -3977,7 +3994,7 @@ ht-degree: 0%
 * [Cooker] &quot;Untergraph-Ausgabe kann nicht gefunden werden&quot; ist ein Fehler anstelle einer Warnung.
 * [3D-Ansicht] PBR Diffuse/spec bevorzugt Grundfarbe anstelle von Diffuse
 * [3D-Ansicht] Kachelung funktioniert nicht ordnungsgemäß mit Tesselierungsschattierungen
-* [Engine] Absturz beim Instanziieren einer bestimmten SBSAR-Datei
+* [Engine] Absturz beim instanziieren bestimmter sbsar-Dateien
 * [Engine] Sizelog2-/pow2-Funktionen funktionieren nicht richtig
 * [Engine] &quot;set&quot; in der Ausgabegröße funktioniert nicht
 * [Engine] Die Mipmap-Stufe ist für negative Werte nicht eingeklemmt.
@@ -3990,10 +4007,10 @@ ht-degree: 0%
 **Fest:**
 
 * [Graf] Absturz beim Berechnen eines bestimmten SBSAR
-* [Graph] Absturz beim Instanziieren von fxmap mit mehreren Bildeingaben
+* [Graf] Absturz beim instanziieren von fxmap mit mehreren Bildeingaben
 * [Engine] Absturz mit sizelog2
-* [Engine] Der Standardwert des exponierten Parameters wird bei der DX10-Engine ignoriert.
-* [Library] Die Berechnung der Miniaturansichten ist fehlerhaft, wenn das Projekt einen ungültigen Alias enthält
+* [Engine] Der Standardwert des Freigelegten Parameters wird bei DX10-Enginen ignoriert.
+* [Library] Die Berechnung der Miniaturansichten ist beschädigt, wenn das Projekt einen ungültigen Alias enthält
 * [Kochen] Stellen Sie &quot;unbekannt\_parameter&quot; und &quot;duplizierter Parameter&quot; als Warnung statt als Fehler ein.
 * [Voreinstellungen] Engine-Cache-Limit ist bei 4095 MB blockiert
 * Die Bezeichnung des Eingabeparameters [Function] wird als Identifizierung interpretiert
@@ -4006,11 +4023,11 @@ ht-degree: 0%
 
 * [Library] Fügen Sie in den Voreinstellungen eine Option hinzu, um PSD-Ebenen auszublenden/anzuzeigen
 * [Parameter] Benutzerdaten dürfen in mehreren Zeilen vorliegen.
-* [Diagramm] Fügen Sie eine Voreinstellungsoption hinzu, um Kommentare in konstanter Größe zu rendern
+* [Graf] Fügen Sie eine Voreinstellungsoption hinzu, um Kommentare in konstanter Größe zu rendern
 * [Graf] Fügen Sie eine Voreinstellungsoption hinzu, um die Anzeige neuer Knoten in 2D-Ansichten zu deaktivieren.
 * [Performance] Steigerung der Pixelprozessor-Performance beim DX10-Engine
 * [3D-Ansicht] Tessellation zu PBR-Shadern hinzufügen
-* [3D-Ansicht] Hinzufügen einfacher Deckkraft zu PBR-Shadern (keine Gesichtersortierung)
+* [3D-Ansicht] Hinzufügen einfacher Deckkraft zu PBR-Shadern (keine Sortierung nach Flächen)
 * [Content] Vray/Corona/Redshift/Arnold-Ziele zum PBR-Konverterfilter hinzufügen (um Maps für diese Renderer zu konvertieren)
 * [Inhalt] Fügen Sie dem normalen Kombinationsfilter die Technik &quot;Detailorientiert&quot; hinzu
 
@@ -4021,13 +4038,13 @@ ht-degree: 0%
 * [Funktionen] Verschachtelte Funktionen brechen die Typsicherheit
 * [Funktionen] Beschriftungen und Gruppen und Beschreibungen werden nicht angezeigt.
 * [Funktionen] Absturz beim Kopieren/Einfügen von einer gelöschten Funktion
-* [Diagramm] Materielle Verknüpfung mit Balkendiagrammen unterbrochen
-* [Graph] Wenn mehrere Bitmap-Knoten aus Ressourcen erstellt werden, werden die Knoten übereinander gestapelt.
-* [Graph] Kommentarelement wird nicht an der richtigen Position erstellt, wenn es einem Knoten untergeordnet ist
-* [Diagramm] Auswahl des Blockbereichs &quot;Lange Kommentare&quot;
-* [Bäcker] Tangent Space Normales Kartenschwarz auf Mac
+* [Graf] Material-Link mit SBSAR-Grafen defekt
+* [Graf] Wenn mehrere Bitmapknoten aus Ressourcen erstellt werden, wird der Knoten übereinander gestapelt.
+* [Graf] Kommentarelement wird nicht an der richtigen Position erstellt, wenn ein untergeordnetes Element eines Knotens vorhanden ist.
+* [Graf] Auswahl des Blockbereichs &quot;Lange Kommentare&quot;
+* [Baker] Tangentialraum-Normalmap Baking führe auf Mac schwarz
 * [Parameter] Visible If funktioniert nicht, wenn der Eingabename &quot;-&quot; enthält
-* [Parameter] Der Schrittwert in &quot;Eingabeparameter&quot; wird ignoriert, wenn er unter 0,01 liegt.
+* [Parameter] Der Schrittwert in Eingabeparametern wird ignoriert, wenn er unter 0,01 liegt.
 * [Library] Tag &quot;Sichtbar in Bibliothek&quot; wird für sbsar nicht berücksichtigt
 
 ### 5.1.1
@@ -4036,28 +4053,28 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [Graph] Verringern des Abstands zwischen zwei Knoten bei Verwendung von AutoConnect
-* [Graph] Deaktivieren der automatischen Verbindung bei Verwendung von Drag &amp; Drop im Diagramm
-* [Diagramm] Richten Sie den Rahmen am Raster aus
-* [Diagramm] Knoteneinfügung über/auf ausgewähltem Link für Materialverknüpfung deaktivieren
-* [Voreinstellungen] Festlegen des Höchstwerts für die maximale Texturgröße auf 8192
-* [Inhalt] Hinzufügen von Symmetrie-Optionen zum Knoten &quot;Sicheres Transformieren&quot;
+* [Graf] Bei Verwendung von &quot;autoconnect&quot; den Abstand zwischen zwei Knoten reduzieren
+* [Graf] Deaktivieren der automatischen Verbindung bei Verwendung von Drag &amp; Drop im Graf
+* [Graf] Rahmen auf dem Raster einrasten
+* [Graf] Knoteneinfügung über/auf ausgewählten Link für Material-Link deaktivieren
+* [Voreinstellungen] Festlegen des Höchstwerts für die maximale Textur auf 8192
+* [Inhalt] Hinzufügen von Symmetrie-Optionen zum Knoten &quot;Abgesicherter Transformieren&quot;
 
 **Fest:**
 
-* [Graph] Neuer Knoten wird nicht am Raster ausgerichtet
-* [Graph] Das Austauschen von Verknüpfungen kann zu Schleifen/Abstürzen führen
-* [Diagramm] Anzeigefehler, wenn Knotengröße/Timings deaktiviert sind
-* [Bäcker] Absturz beim Backen einer Ressource, die denselben Namen wie die Szene verwendet
-* [Bäcker] Der Standardressourcenname wird nicht aus der richtigen Projektdatei übernommen.
+* [Graf] Neuer Knoten wird auf dem Raster nicht einrasten
+* [Graf] Das Austauschen von Verknüpfungen kann Schleifen/Absturz generieren.
+* [Graf] Anzeigefehler, wenn Knotengröße/Timings deaktiviert sind
+* [Baker] Absturz beim Baking führ mit einer Ressource, die denselben Namen wie die Szene verwendet
+* [Baker] Der Standardressourcenname wird nicht aus der richtigen Projektdatei übernommen.
 * [Engine] Problem mit der Pow2/log-Funktion
 * [Engine] Fehler bei der Funktionsauswertung
-* [Fxmaps] Absturz, wenn Parameter auf Standard zurückgesetzt wird
+* [Fxmaps] Absturz beim Zurücksetzen des Parameters auf die Standardeinstellung
 * [FxMaps] Bewertung einer fehlerhaften Funktion
-* [Voreinstellungen] Beim Klicken auf die Projektregisterkarte stürzt SD ab
+* [Voreinstellungen] Klicken auf Projektregisterkarte Absturz SD
 * [3D-Ansicht] Benutzerdefinierte Verwendung wird in Kleinbuchstaben konvertiert
 * [Parameter] Elemente in Dropdown-Listen können nicht neu angeordnet werden
-* [Explorer] Absturz beim Verschieben eines Funktionsdiagramms im Explorer
+* [Explorer] Absturz beim Verschieben eines Funktions-Grafen im Explorer
 
 ### 5.1.0
 
@@ -4065,7 +4082,7 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [Diagramm] Suchen/Anzeigen von Inhalten aus der Bibliothek über das Leertaste-Menü
+* [Graf] Suchen/Anzeigen von Inhalten aus der Bibliothek über das Leertaste-Menü
 * [Graf] Neuen Knoten anzeigen/öffnen
 * [Graf] Linkumleitung (Alt+Umschalttaste)
 * [Graf] Knotenübergeordnete auswählen
@@ -4103,27 +4120,27 @@ ht-degree: 0%
 **Fest:**
 
 * [Absturz] beim Schließen des Pakets
-* [Absturz] beim Öffnen des Abhängigkeitsmanagers in einem nicht gespeicherten Paket
+* [Absturz] beim Öffnen des Abhängigkeitsmanagers für ein nicht gespeichertes Paket
 * [Absturz] Beispiel-Farbfehler
-* [Engine] Deadlock für FxMap-Kachelbereich
+* [Engine] Deadlock für FxMap-Kachelung-Region
 * [Engine] Genauigkeitsproblem mit SSE-Engine mit Weichzeichner- und/oder Mischknoten
-* [Engine] Die Berechnung wird nicht angehalten, wenn sie durch 0 dividiert wird
-* [Explorer] Absturz beim Exportieren von Paketen mit Abhängigkeiten, wenn Abhängigkeitszyklen enthalten sind
+* [Engine] Berechnung wird nicht angehalten, wenn sie durch 0 geteilt wird
+* [Explorer] Absturz beim Exportieren eines Pakets mit einer Abhängigkeit, wenn das Paket Abhängigkeitszyklen enthält
 * [Explorer] Ziehen und Ablegen von Ressourcen funktioniert oft nicht
-* [Bäcker] Gebackene Normalität wird schwarz gerendert, wenn sie höher als 256\*256 ist
-* [Bäcker] Wenn Sie ein Paket am selben Speicherort wie den Exportpfad speichern, wird der Pfad unterbrochen
-* [Bäcker] Falscher Standardzielpfad, wenn das Paket noch nicht gespeichert wurde
-* [Engine] Fehlerhaftes Pixelgrößenergebnis, wenn von übergeordneter Funktion geerbt
+* [Baker] Baking geführt Normal wird schwarz gerendert, wenn es höher als 256\*256 ist
+* [Baker] Wenn Sie ein Paket am selben Speicherort wie den Exportpfad speichern, wird der Pfad unterbrochen
+* [Baker] Falscher Standardzielpfad, wenn das Paket noch nicht gespeichert wurde
+* [Engine] Fehlerhaftes Pixelgrößenergebnis, wenn von der übergeordneten Funktion geerbt
 * [Abhängigkeiten] Nicht verwendete Abhängigkeit wird nicht entfernt.
 * [Abhängigkeiten] Absturz beim Öffnen des Abhängigkeitsfensters des Pakets, das Paketzyklen enthält
-* [Diagramm] Die Auswahl des Auswahlrechtecks wird in Funktion des Zooms neu skaliert
-* [Graph]-Link &quot;rastet&quot; nicht am nächsten Ein-/Ausgang ein
-* [Graph] Falscher Rückgängigstapel (kann Abstürze verursachen)
-* [Graph] Mehrfachverbindung mit Strg funktioniert nicht, wenn der Pin bereits angeschlossen ist
-* [3D-Ansicht] Die Rasterfarbe wird von der Hintergrundfarbe beeinflusst
-* [3D-Ansicht]&#x200B;[Graph]-Ausgabeknoten, der mehrere Anwendungen enthält, wird nicht korrekt an die 3D-Ansicht gesendet
-* [3D-Ansicht] Tesselations-Shader : Kompilierungsfehler auf AMD-GPUs
-* [2D-Ansicht] Pin-Systemproblem
+* [Graf] Auswahlrechteck werden in Abhängigkeit vom Zoom neu skaliert
+* [Graf] Link &quot;einrasten&quot; nicht zur nächsten Eingabe/Ausgabe
+* [Graf] Falscher Stapel beim Rückgängigmachen (kann Absturz generieren)
+* [Graf] Mehrfachverbindung mit Strg funktioniert nicht, wenn die Nadel bereits angeschlossen ist
+* [3D-Ansicht] Hintergrundfarbe wirkt sich auf die Farbe des Rasters aus
+* [3D-Ansicht]&#x200B;[Graf] Ausgabeknoten mit Mehrfachnutzung wird nicht ordnungsgemäß an die 3D-Ansicht gesendet.
+* [3D-Ansicht] Tesselation Shader: Kompilierungsfehler auf AMD-GPUs
+* [2D-Ansicht] Nadel Systemproblem
 * [Functions] Fehler bei der Funktionskompilierung (falls vorhanden)
 * [Voreinstellungen] Suffix &quot;niedrig/hoch&quot; wird nicht korrekt aus sbsprj gelesen
 * [Library] Wenn Sie einen Ordner per Drag &amp; Drop über einen anderen Ordner ziehen, wird er entfernt
@@ -4137,32 +4154,32 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [Voreinstellungen]&#x200B;[Bäcker] Fügen Sie eine Option hinzu, um tbn nach Scheitelpunkt oder Pixel zu berechnen, um UE4 zu entsprechen
-* [Bibliothek] Bilineare Filter für Miniaturansichten verwenden
-* [Bäcker] Lassen Sie das Fenster auf weniger als 800 px Height herunterskalieren
-* [3DView] Ausgleichen der Umgebungszuordnungsbelichtung/Normalisierung der Drehung, um konsistente Blitze zu erhalten
-* Benennen einer Anwendungsverknüpfung mit der Hauptversion
+* [Voreinstellungen]&#x200B;[Baker] Fügen Sie eine Option hinzu, um Tabs nach Scheitelpunkt oder Pixel zu berechnen, damit sie mit UE4 übereinstimmen.
+* [Library] bilineare Filterungen für Miniaturen verwenden
+* [Baker] Ermöglicht die Downskalierung des Fensters auf ein Height von weniger als 800 Pixel.
+* [3DView] Ausgleichen der Umgebungs-Map-Belichtung/Normalisierung der Drehung, um konsistente Blitze zu erhalten
+* Benennen Sie den Tastaturbefehl der Anwendung mit der Hauptversion
 
 **Fest:**
 
-* [Graph] Absturz beim Löschen einiger Ghost-Knoten
-* [Graph] angedockter Knoten bleibt angedockt, wenn Knoten dupliziert wird
-* [Graph] Absturz beim Löschen von Knoten
-* [Diagramm] Exportausgabeeinstellungen werden nicht pro Diagramm gespeichert
-* [Graph] Ungültiger Knotenandockingstatus beim Löschen des Knotens
-* [Bäcker] Fehler werden nicht mehr in einem Dialogfeld angezeigt
-* [Bäcker] Fehlende Ressource wird im Backfenster nicht als fehlend angezeigt
+* [Graf] Absturz beim Löschen einiger Phantom-Knoten
+* [Graf] angedockter Knoten bleibt angedockt, wenn der Knoten dupliziert wird
+* [Graf] Absturz beim Löschen von Knoten
+* [Graf] Exportausgabeneinstellungen werden nicht pro Graf gespeichert
+* [Graf] Ungültiger Knotenandockingstatus beim Löschen des Knotens
+* [Baker] Fehler werden nicht mehr in einem Dialogfeld angezeigt
+* [Baker] Fehlende Ressource wird im Fenster &quot;Baking&quot; nicht als fehlend angezeigt
 * [Veröffentlichen] fehlgeschlagenes Fenster sollte nicht bearbeitbar sein
 * [Veröffentlichen] SBSAR Falsches Ergebnis
-* [3D-Ansicht] Mehrere Materialien aus aktualisierten FBX-Netzen werden nicht ordnungsgemäß neu geladen.
-* [3D-Ansicht] Diffuses SH kann in einigen Fällen in PBR-Shadern negative Werte erzeugen
-* [2D-Ansicht] Die angezeigte Bittiefe für Ressourcenbilder beträgt immer 8 Bit pro Kanal.
-* [Parameter] Parameter werden nicht immer in den Diagrammeigenschaften angezeigt
+* [3D-Ansicht] Mehrere Materials aus aktualisierten FBX-Meshs werden nicht ordnungsgemäß neu geladen.
+* [3D-Ansicht] Diffuse SH kann in einigen Fällen in PBR-Shadern negative Werte erzeugen
+* [2D-Ansicht] Die angezeigte Bittiefe für Ressourcenbilder beträgt immer 8 Bit.
+* [Parameter] Parameter werden nicht immer in den Eigenschaften des Grafen angezeigt
 * [Menü] &quot;Protokolldatei exportieren&quot;. action kann die log.txt-Datei nicht finden
 * [BatchTools] Subsmutator-Fehler
 * [Explorer] Das Laden von Paketen behält die Markierung bei
 * [Eigenschaften] Absturz beim Löschen einer Funktion für einen enum-Parameter
-* [Voreinstellungen] Mikkt-Tangentenraum-Plug-in ist in user\_project nicht auf Standard festgelegt
+* [Voreinstellungen] Mikkt Tangentialraum-Plug-in ist in user\_project nicht auf Standard festgelegt
 * [Evaluierung/Aktivierung] Online kann unter Windows nicht ausgewertet/aktiviert werden
 * Computing-Statusleiste verschiebt die Schnittstelle beim Aktualisieren
 * Mehrere SD gleichzeitig starten
@@ -4175,27 +4192,27 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [Bibliothek] Normales Steuerelement im Material hinzufügen\_adjustment\_blend
-* [Library] Fülloption für normales Material hinzufügen\_color\_blend
+* [Library] Hinzufügen einer normalen Steuerung im Material\_adjustment\_blend
+* [Library] Fülloption für &quot;Normal&quot; in Material hinzufügen\_color\_blend
 * Upgrade auf Qt 5.4.1
 
 **Fest:**
 
 * [Absturz] OSX 10.9 und 10.10 in FreeImage
-* [Absturz] Beim Öffnen einer FBX-Datei, die Elemente ohne Scheitelpunkte enthält
-* [Graph] Drag-and-Drop-Probleme
-* [Graph] Cache-Verknüpfung wurde unterbrochen
-* [Graph] TGA erscheint schwarz/transparent in SD
+* [Absturz] Beim Öffnen einer FBX-Datei, die Elemente ohne Scheitelpunkt enthält
+* [Graf] Drag-and-Drop-Probleme
+* [Graf] Cache-Tastaturbefehl leeren ist defekt
+* [Graf] TGA wird in SD schwarz/transparent angezeigt
 * [Library] Triplanare Graustufen-Normaleingabe falsch
-* [Library] Der Edge Detect Node funktioniert mit der CPU-Engine nicht ordnungsgemäß.
+* [Library] Der Edge Detect Node funktioniert nicht ordnungsgemäß mit dem CPU-Engine
 * [Parameter] Schiebereglerbereich für float2/3/4 falsch
-* [Parameter] Wenn Sie &quot;Parameter freigeben&quot; zweimal ausführen, stürzt Designer ab
+* [Parameters] &quot;Leg Parameters&quot; zweimal ausführen Absturz Designer
 * [Konsole] Die Größe wird nicht korrekt geändert.
 * [Console] Duplizierung in der Kanalliste: View3D und 3DView
 * [3DView] Die in glslfx definierte Parameterreihenfolge wird in der GUI nicht beibehalten.
 * [Explorer] Absturz beim Aktualisieren fehlender Texturen auf der Festplatte
-* [Funktion] Wert ändern und bearbeiten führt zum Absturz
-* [Baker] Absturz beim Öffnen des Backfensters auf einer fehlenden 3D-Ressource
+* [Funktion] Wert ändern und Bearbeiten führt zu Absturz
+* [Baker] Absturz beim Öffnen des Bakings auf einer fehlenden 3D-Ressource
 * [PSD] Psdparse-Absturz (MSVCR120.dll fehlt)
 * [Info-Fenster] Fehlender Zeilenumbruch bei Steam-Version
 * [SBS] Nicht verwendete neue Engine-Funktionen in SBS
@@ -4221,27 +4238,27 @@ ht-degree: 0%
 
 **Hinzugefügt:**
 
-* [Exportieren] Alpha-Kanal für TGA und BMP verwerfen, wenn er vollständig undurchsichtig ist
+* [Exportieren] Alphakanal für TGA und BMP verwerfen, wenn er vollständig undurchsichtig ist
 * [3d View] PBR-Shader standardmäßig einstellen
-* [2D-Ansicht] Wechseln Sie zur Bildanzeige als Alpha vormultipliziert
+* [2D-Ansicht] Wechseln Sie zur Bildanzeige als Alpha-Integriert.
 * Größe: Hinzufügen einer Breiten-/Height-Sperre/Anzeigen von Werten in Dropdown-Listen
 * [Abhängigkeiten] Neuer Abhängigkeitsmanager
 * [Abhängigkeiten] zeigt die Knoteninstanz an, die einer Abhängigkeit entspricht.
 * [Abhängigkeit] Öffnen Sie ein Abhängigkeitspaket im Paket-Explorer
-* [Motor] Angleichen: Unterstützung des Parameters &quot;Deckkraft&quot; bei Verwendung einer Maske
-* [Motor] Angleichen: Hinzufügen neuer Füllmethoden (Overlay, Screen, Softlight, Divide)
-* [Motor] Angleichen: Alpha-Füllmethode unterstützen
-* [Engine] Neuer Knoten &quot;Dynamischer Verlauf&quot;
+* [Engine] Überblendung: Unterstützung des Parameters &quot;Deckkraft&quot; bei Verwendung einer Maske
+* [Engine] Überblendung: Hinzufügen neuer Füllmethoden (Overlay, Screen, Softlight, Divide)
+* [Engine] Überblendung: gerade Alpha-Überblendung
+* [Engine] Neuer Dynamische Verlauf
 * [Engine] Neuer Distanzknoten
-* [Engine] Neuer Pixelprozessorknoten
-* [Engine] FXMAP: Unterstützung dynamischer Funktionen für Eingabebilder
-* [Engine], Funktion Sampler: bilineares Sampling unterstützen
-* [Engine] FXMAP: Unterstützung der bilinearen/nächsten Filterung für Eingabebilder
-* [Engine] FXMAP: Unterstützung für Alpha-Bild des geraden/vormultiplizierten Eingabebilds
-* [Bäcker] Fügen Sie eine Option hinzu, um die Geometrie nach Netznamen zwischen tiefe und hohe Def-Gitter anzupassen
+* [Engine] Neuer Pixelprozessor
+* [Engine] Fxmap: Unterstützung dynamischer Funktionen für Eingabebilder
+* [Engine] Funktion Sampler: bilineare Probenahme unterstützen
+* [Engine] Fxmap: Unterstützung bilinearer/nächster Filterungen für Eingabebilder
+* [Engine] Fxmap: Unterstützung für gerades/vormultipliziertes Eingabebild Alpha
+* [Baker] Fügen Sie eine Option hinzu, um die Geometrie anhand des Meshs zwischen Meshs mit niedriger und hoher Auflösung anzupassen.
 * [Vorlagen] Erstellen einer Vorlagensubstanz für Substance Painter
-* [Bäcker] Neue Texturkarte vom Mesh-Bäcker
-* [Graph] Fügen Sie eine &quot;Kompatibilitätsprüfung&quot; hinzu, um Knoten hervorzuheben, die nicht mit der vorherigen Engine kompatibel sind.
+* [Baker] Neue Textur Map vom Mesh Baker
+* [Graf] Fügen Sie eine &quot;Kompatibilitätsprüfung&quot; hinzu, um Knoten hervorzuheben, die nicht mit dem vorherigen Engine kompatibel sind.
 * [UI] Anpassungen des Hilfemenüs
 * [Voreinstellungen] Stellen Sie Mikkt Tangentialraum-Plug-in als Standard ein (setzen Sie es in den Voreinstellungen auf Standard, wenn SD4 installiert ist)
 * [Library] Neue HDR-Maps hinzufügen
