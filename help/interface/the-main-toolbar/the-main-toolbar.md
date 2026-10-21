@@ -171,4 +171,4 @@ Auf dieser Seite werden die Hauptsymbolleiste und das Menü von [Substance 3D De
 
 <b>Info zu Substance 3D Designer..:</b> Zeigt Informationen über die Anwendung und ihre Komponenten an, z. B. die Versionsnummer.
 
-\*: Diese Optionen sind nur in der Designer-Version verfügbar, die über [Adobe Creative Cloud Desktop](https://creativecloud.adobe.com/en/apps/download/creative-cloud) installiert wurde. Hierfür ist ein [Substance 3D-Abonnement](https://www.adobe.com/creativecloud/plans.html?amp%3Bplan=individual#filter=3dar) erforderlich.
+\*: Diese Optionen sind nur in der Designer-Version verfügbar, die über [Adobe Creative Cloud Desktop](https://creativecloud.adobe.com/en/apps/download/creative-cloud) installiert wurde. Hierfür ist ein [Substance 3D-Abonnement](https://www.adobe.com/de/creativecloud/plans.html?amp%3Bplan=individual#filter=3dar) erforderlich.
