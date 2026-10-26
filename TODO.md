@@ -1,8 +1,8 @@
 ---
-source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
+source-git-commit: d52b7765f51d2f7702d9a6d1b590e24db76c7d9d
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 5%
+source-wordcount: '243'
+ht-degree: 4%
 ---
 # TODO
 
@@ -13,6 +13,7 @@ ht-degree: 5%
 
 ## Ergänzungen
 
+* Kurzbefehle: Touchpad-Tastaturbefehle für macOS hinzufügen
 * Einstiegspunkte für die Python-API-Dokumentation in AdobeDocs
 * Beispiele auf der Seite &quot;Dokumentations-Popup&quot;
 * Glossar:
@@ -36,6 +37,9 @@ ht-degree: 5%
 * DESIGNER-11866: Tonemapping-Funktionen
 * DESIGNER-10655: Hinzufügen von Beispielen + Verweisen auf Beispielprojekte für Pixelprozessor und FX-Maps
 
+## Änderungen
+
+* [WIP] Aktualisierung und Abschluss der Seite &quot;Tastaturbefehle&quot;
 
 ## Fehlerbehebungen
 
@@ -49,9 +53,9 @@ ht-degree: 5%
 
 ## Lernhub (`learning` Verzweigung)
 
-- Erfahren Sie, welche Blöcke das Herunterladen SBS Dateien blockieren (hier [&#x200B; gefragt](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379)).
+- Erfahren Sie, welche Blöcke das Herunterladen SBS Dateien blockieren (hier [ gefragt](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379)).
 - Erfahren Sie, wie wir Seiten live testen können, ohne öffentlich zugänglich oder in das Inhaltsverzeichnis aufgenommen zu werden
-- Optionen für die Filterung von Explorer für die Beispielliste: Microsite? ([Beispiel](https://experienceleague.adobe.com/de/tools/campaign-error-codes))
+- Optionen für die Filterung von Explorer für die Beispielliste: Microsite? ([Beispiel](https://experienceleague.adobe.com/en/tools/campaign-error-codes))
 - Musterartikel automatisieren
   - Metadaten aus Datei importieren (JSON, YAML, ...)
   - Inline-Miniaturansicht (zum Vergrößern klicken)
